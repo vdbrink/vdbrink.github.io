@@ -1,1 +1,36 @@
-theme: jekyll-theme-minimal
+# Site locale
+lang: "en"
+
+remote_theme: pages-themes/architect@v0.2.0
+
+title: vd Brink Home Automations
+description: Home automation, ESPHome, Node-RED, Home Assistant.
+url: https://vdbrink.github.io
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
+# Tags
+tag_page_layout:      tag_page
+tag_page_dir:         tag
+tag_permalink_style:  pretty
+
+# Use the following plug-ins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll/tagging
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - webrick
+  - jekyll-github-metadata
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

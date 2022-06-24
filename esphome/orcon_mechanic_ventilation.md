@@ -4,6 +4,7 @@ date: 2022-06-24
 category: ESPHome
 tags: Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome
 ---
+# Control an Orcon mechanic ventilation system from Home Assistant
 
 ## Introduction
 
@@ -14,7 +15,7 @@ I know there are much more people like me struggling to get this automated.
 On this page you can read all about how you can set it up yourself.
 
 <details>
-  <summary>Click here to see all compatible Orcon systems</summary>
+  <summary><b>> Click here to see all compatible Orcon systems >></b></summary>
 
 Because the Orcon remote 15RF is compatible with a lot of Orcon ventilation models this solution will work if you have one of these models: 
  Compact-10RHB, MPV-10WRB, MVS-15R, MVS-15RH, MVS-15RHB, MVS-5RHBP, MVS-15RH, HRC-300/400-15BRH, HRC-300/400BRPH-15, HRC-220/225-15BR, HRC-300/400/500, HRC-425/570, HRC-350/450.
@@ -129,7 +130,7 @@ This table show how the Orcon remote is connected, via the flat cable to the ada
 | 7                           | mode 2             | yellow             | D5      |
 | 8                           | mode 1             | orange             | D2      |
 
-> *_\* I haven't connect the 'timer' and 'away' buttons because I don't use them._*
+> I haven't connect the 'timer' and 'away' buttons because I don't use them.
 
 You can also replace the 3V CR 2032 battery from the remote and connect it to the ESP which can also provide the required 3V.
 
@@ -155,7 +156,7 @@ Install ESPHome and compile the configuration code after you configured your own
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
 <details>
-  <summary>Click here to see the ESPHome configuration file</summary>
+  <summary><b>> Click here to see the ESPHome configuration file >></b></summary>
 
 ```yaml
 # Source by vdbrink.github.io
@@ -326,9 +327,9 @@ The power consumption for the three different modes, presented in Grafana.
 
 ### My feedback flow
 This is how the current mode of the system gets into Home Assistant:
-```
+
 Zigbee Smart power socket -> Zigbee2MQTT -> MQTT -> Node-RED -> Home Assistant
-```
+
 I use for my smart flows not Home Assistant but Node-RED.
 
 #### Node-RED
@@ -387,10 +388,11 @@ This is how a configured helper switch must look like:
 
 #### Script to trigger the ESP
 
-To act on a button press I created for each mode a script which trigger the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode. 
+To act on a button press I created for each mode a script which trigger the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 
+I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode.
 
 <details>
-  <summary>Click here to see the corresponding scripts.yaml code</summary>
+  <summary><b>> Click here to see the corresponding scripts.yaml code >></b></summary>
 
 ```yaml
 # Source by vdbrink.github.io
@@ -478,7 +480,7 @@ This design use the six created helper toggles which operate as buttons, and the
 ![Home Assistant buttons](orcon_images/home_assistant_orcon_remote_d1.jpg)
 
 <details>
-  <summary>Click here to see the service scripts YAML</summary>
+  <summary><b>> Click here to see the service scripts YAML >></b></summary>
 
 ```yaml
 # Source by vdbrink.github.io
@@ -556,7 +558,7 @@ This black panel design is created with a `picture-element` with a black backgro
 
 
 <details>
-  <summary>Click here to see the corresponding dasboard YAML</summary>
+  <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
 
 You have to place the [background image](orcon_files/black.png) in the Home Assistant `www` directory.
 
@@ -665,7 +667,7 @@ To use this image on your dashboard you have to place the [remote panel photo](o
 The black square is a placeholder to define an area to click.
 
 <details>
-  <summary>Click here to see the corresponding dasboard YAML</summary>
+  <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
 
 ```yaml
 # Source by vdbrink.github.io
@@ -779,7 +781,7 @@ elements:
 ## Triggers
 
 The system can automatically be controlled by different type of sensors:
-- A Co2 sensor. A custom made [SenseAir S8 Co2 sensor](co2_senseair_s8_sensor.md).
+- A Co2 sensor. A custom made [SenseAir S8 Co2 sensor](co2_senseair_s8_sensor).
 - A temperature and humidity sensor (Aqara WSDCGQ11LM) in the extractor hood above the stove.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500" />
