@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Control an Orcon mechanic ventilation system from Home Assistant
 date: YYYY-MM-DD
 category: ESPHome

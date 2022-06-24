@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ESPHome SenseAir S8 Co2 sensor
 date: YYYY-MM-DD
 category: ESPHome
@@ -207,6 +206,7 @@ hours_to_show: 6
 This creates a new sensor which show a textual presentation of the current condition.
 
 ```yaml
+{% raw %}
 # Source by vdbrink.github.io
 # configuration.yaml
 - platform: template
@@ -221,6 +221,7 @@ This creates a new sensor which show a textual presentation of the current condi
           {% elif state > 1200 and state <= 1500 %}bad
           {% elif state > 1500%}very bad
           {% else %}unknown{% endif %}
+{% endraw %}
 ```
 
 ### Dashboard bad condition text
@@ -229,6 +230,7 @@ In my dashboard I have a section with important messages. Only when there is an 
 There is also a message when the Co2 value is not good. This section can be achieved by using conditional entities. 
 
 ```yaml
+{% raw %}
 # Source by vdbrink.github.io
 # Lovelace Card config
 type: entities
@@ -239,6 +241,7 @@ entities:
       state_not: good
       row:
         entity: sensor.senseair_co2_value_text
+{% endraw %}
 ```
 
 ---
