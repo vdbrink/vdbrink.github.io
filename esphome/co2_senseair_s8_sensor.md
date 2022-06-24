@@ -1,6 +1,6 @@
 ---
 title: ESPHome SenseAir S8 Co2 sensor
-date: YYYY-MM-DD
+date: 2022-06-24
 category: ESPHome
 tags: Co2, ESP8266, ESPHome, Home Assistant
 ---

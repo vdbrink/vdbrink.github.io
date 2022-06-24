@@ -1,6 +1,6 @@
 ---
 title: Control an Orcon mechanic ventilation system from Home Assistant
-date: YYYY-MM-DD
+date: 2022-06-24
 category: ESPHome
 tags: Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome
 ---

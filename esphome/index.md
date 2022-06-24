@@ -1,6 +1,5 @@
 ---
 title: ESPHome sensors and actuators
-date: YYYY-MM-DD
 categories: ESPHome Orcon Co2
 ---
 
