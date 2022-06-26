@@ -2,6 +2,7 @@
 title: ESPHome sensors and actuators
 categories: ESPHome Orcon Co2
 ---
+# ESPHome custom sensors and actuators
 
 ![ESPHome logo](images/esphome.png)
 
