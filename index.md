@@ -1,6 +1,6 @@
 ---
 title: vd Brink Home Automations
-categories: ESPHome, Home Assistant
+categories: Home Assistant, ESPHome, Node-RED, Docker, Tasker
 ---
 # vd Brink Home Automations
 
@@ -25,11 +25,13 @@ I also get inspired by others with new ideas which I can use for my own setup.
 Here you can find examples and configurations which I created and gathered over the years.
 I want to share and inspire other people, so they can improve their own home automation projects.
 
-Subjects you can find here are about: Zigbee, Home Assistant, Node-RED, [ESPHome](esphome/index), Docker, Tasker
+Subjects you can find here are about: [Home Assistant](homeassistant), [ESPHome](esphome/index), Node-RED, Docker, Tasker
 
 ----
-**Topics**
+**Topics you can find here:**
 
-[ESPHome sensors](esphome/index)
+[Home Assistant dashboards](homeassistant/index)
+
+[ESPHome custom sensors and actuators](esphome/index)
 
 ----
