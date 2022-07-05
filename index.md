@@ -32,6 +32,22 @@ Subjects you can find here are about: [Home Assistant](homeassistant), [ESPHome]
 
 [Home Assistant dashboards](homeassistant/index)
 
-[ESPHome custom sensors and actuators](esphome/index)
+[ESPHome sensors and actuators](esphome/index)
 
-----
+
+---
+## Feel free to sponsor me
+
+If you like what your read here consider a donation.
+
+It's up to you if, and how much you want to support me writing more articles.
+
+You can donate via PayPal
+https://www.paypal.me/revdbrink
+
+
+---
+## Remarks or suggestions?
+Do you have any remarks, language errors or dead links please let me know via github issues.
+
+[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)

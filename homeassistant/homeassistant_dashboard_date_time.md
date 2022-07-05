@@ -6,9 +6,13 @@ tags: "Home Assistant", dashboard, lovelace, date, time
 ---
 # Home Assistant dashboard: Date & Time
 
-<img src="images/home_assistant_logo.png" alt="Home Assistant logo" height="100px">
+<img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
 
 Here you find Home Assistant (lovelace) dashboard examples related to date and time which you can easily add to your own dashboards.
+
+<br/>
+<br/>
+<br/>
 
 ---
 ## Table of Contents
@@ -41,6 +45,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 {% endraw %}
 ```
 ```yaml
+# Sourcecode by vdbrink.github.io
 # Dashboard
 - type: entity
   entity: sensor.time_formatted
@@ -161,3 +166,5 @@ The value on the right is the actual sensor value.
       secondary_info: last-changed
 {% endraw %}
 ```
+---
+[<< Back to the Home Assistant index page](index)

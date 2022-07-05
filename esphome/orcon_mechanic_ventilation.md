@@ -560,7 +560,7 @@ This black panel design is created with a `picture-element` with a black backgro
 <details>
   <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
 
-You have to place the [background image](orcon_files/black.png) in the Home Assistant `www` directory.
+You have to place the [background image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 
 ```yaml
 # Source by vdbrink.github.io
@@ -663,7 +663,7 @@ In this design you can't see the current mode.
 
 ![Original remote](orcon_images/home_assistant_orcon_remote_d3.jpg)
 
-To use this image on your dashboard you have to place the [remote panel photo](orcon_files/orcon_15rf_remote.jpg) and a [black square image](orcon_files/black.png) in the Home Assistant `www` directory.
+To use this image on your dashboard you have to place the [remote panel photo](orcon_files/orcon_15rf_remote.jpg) and a [black square image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 The black square is a placeholder to define an area to click.
 
 <details>

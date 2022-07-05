@@ -14,23 +14,44 @@ Then I found the solutions for this where people created floor plans of their ho
 I use Home Assistant pure as a presentation layer. That's why you don't find Home Assistant flows here but only Node-RED flows.
 
 I created so many different dashboards that I want to document and share them with you.
-One by one I will add new dashboards to this site.
+One by one I will add new dashboard elements to this site.
 
 I created dashboards with:
 
 * Floor plans
 * Column layout
 * [Date & Time](homeassistant_dashboard_date_time)
-* Direct actions required
-* The latest news
+* Different examples (The latest news)
 * Weather
-  * The current weather inside and outside
-  * Weather predictions
-  * Real-time weather with data from a Tempest weather station
+  * [External sites](homeassistant_dashboard_weather) (Thunderstorm, moon phase)
+  * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
 * [Control my ventilation system](../esphome/orcon_mechanic_ventilation)
 * Device and room status overviews
 * Calendar, birthdays, waste planning
 * Chores
 * Grafana graphs
 * Camera streams
-* Useful HACS add-ons
+* HACS add-ons
+
+---
+## Sponsor me
+
+<img src="../images/avatar.jpg" alt="me" style="float: right" width="100px">
+
+If you like what your read here consider a donation.
+
+It's up to you if, and how much you want to support me writing more articles like this.
+
+You can donate via PayPal
+https://www.paypal.me/revdbrink
+
+<br/>
+<br/>
+
+---
+## Remarks or suggestions?
+Do you have any remarks or suggestions please let me know via github issues.
+
+[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
+
+Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.

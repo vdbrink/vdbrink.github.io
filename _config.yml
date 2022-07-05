@@ -4,7 +4,7 @@ lang: "en"
 remote_theme: pages-themes/architect@v0.2.0
 
 title: vd Brink Home Automations
-description: Home automation, ESPHome, Node-RED, Home Assistant.
+description: "Home automations: Home Assistant, ESPHome, Node-RED and more."
 url: https://vdbrink.github.io
 
 markdown: CommonMarkGhPages
