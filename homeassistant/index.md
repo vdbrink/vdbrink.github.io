@@ -20,10 +20,11 @@ I created dashboards with:
 
 * Floor plans
 * Column layout
-* [Date & Time](homeassistant_dashboard_date_time)
-* Different examples (The latest news)
+* [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
+* [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
+* [Different examples](homeassistant_dashboard_examples) (The latest news)
 * Weather
-  * [External sites](homeassistant_dashboard_weather) (Thunderstorm, moon phase)
+  * [External sites](homeassistant_dashboard_weather) (Thunderstorm)
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
 * [Control my ventilation system](../esphome/orcon_mechanic_ventilation)
 * Device and room status overviews
@@ -32,6 +33,7 @@ I created dashboards with:
 * Grafana graphs
 * Camera streams
 * HACS add-ons
+  * [auto entities](homeassistant_dashboard_card_auto-entities) 
 
 ---
 ## Sponsor me

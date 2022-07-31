@@ -1,11 +1,11 @@
 ---
-title: Home Assistant dashboard: Weather
+title: "Home Assistant dashboard: Weather"
 category: Home Assistant
-tags: "Home Assistant", dashboard, lovelace, weather, thunder, lightning
+tags: Home Assistant, dashboard, lovelace, weather, thunder, lightning
 ---
 # Home Assistant dashboard: Weather
 
-<img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you can find dashboard for weather examples for your own dashboard.
 <br/>

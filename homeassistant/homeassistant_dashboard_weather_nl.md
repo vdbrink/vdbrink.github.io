@@ -1,11 +1,11 @@
 ---
-title: Home Assistant dashboard: Weather in The Netherlands
+title: "Home Assistant dashboard: Weather in The Netherlands"
 category: Home Assistant
-tags: "Home Assistant", dashboard, lovelace, weather, the Netherlands, nederland, nl, Dutch, buienalarm, buienradar, knmi, weeralarm
+tags: Home Assistant, dashboard, lovelace, weather, the Netherlands, nederland, nl, Dutch, buienalarm, buienradar, knmi, weeralarm
 ---
 # Home Assistant dashboard: Weather in The Netherlands
 
-<img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you can find dashboard related to the weather in the Netherlands.
 

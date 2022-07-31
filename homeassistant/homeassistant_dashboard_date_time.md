@@ -1,12 +1,12 @@
 ---
-title: Home Assistant dashboard: Date & Time
+title: "Home Assistant dashboard: Date & Time"
 date: 2022-06-29
 category: Home Assistant
-tags: "Home Assistant", dashboard, lovelace, date, time
+tags: Home Assistant, dashboard, lovelace, date, time
 ---
 # Home Assistant dashboard: Date & Time
 
-<img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard examples related to date and time which you can easily add to your own dashboards.
 
@@ -44,12 +44,15 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
       icon_template: mdi:calendar-clock
 {% endraw %}
 ```
+
 ```yaml
+{% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard
 - type: entity
   entity: sensor.time_formatted
   name: ' '
+{% endraw %}
 ```
 
 ---
@@ -72,11 +75,13 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 {% endraw %}
 ```
 ```yaml
+{% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard
 - type: entity
   entity: sensor.time_formatted
   name: ' '
+{% endraw %}
 ```
 
 ---
