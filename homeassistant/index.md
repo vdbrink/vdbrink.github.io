@@ -29,7 +29,7 @@ I created dashboards with:
 * [Control my ventilation system](../esphome/orcon_mechanic_ventilation)
 * Device and room status overviews
 * Calendar, birthdays, waste planning
-* Chores
+* [Chores](homeassistant_dashboard_chores)
 * Grafana graphs
 * Camera streams
 * HACS add-ons
