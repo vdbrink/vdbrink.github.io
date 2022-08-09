@@ -130,7 +130,7 @@ This table show how the Orcon remote is connected, via the flat cable to the ada
 | 7                           | mode 2             | yellow             | D5      |
 | 8                           | mode 1             | orange             | D2      |
 
-> I haven't connect the 'timer' and 'away' buttons because I don't use them.
+> I haven't connected the 'timer' and 'away' buttons because I don't use them.
 
 You can also replace the 3V CR 2032 battery from the remote and connect it to the ESP which can also provide the required 3V.
 

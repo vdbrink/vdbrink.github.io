@@ -71,7 +71,7 @@ Source: KNMI
 
 Alarm code colors per province.
 
-<img src="images/weather_alarm_map_knmi.png" alt="Weather alarm map" width="400">
+<img src="images/weather_alarm_map_knmi.jpg" alt="Weather alarm map" width="400">
 
 ```yaml
 {% raw %}

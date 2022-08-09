@@ -227,9 +227,60 @@ cards:
 ---
 
 ## Reset the chores
-After the weekend I reset automatic all the chores to open again.
+After the weekend I reset automatic all the chores to the status open again.
 
-TODO
+To reset them I first created an [old style group](https://www.home-assistant.io/integrations/group/#old-style-groups) in the groups.yaml file with all the chores defined in it.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# groups.yaml
+chores:
+  name: chores
+  entities:
+    - input_boolean.chore_r_kattenbak
+    - input_boolean.chore_r_2
+    - input_boolean.chore_r_3
+
+    - input_boolean.chore_x_1
+    - input_boolean.chore_x_2
+    - input_boolean.chore_x_3
+    ...etc
+{% endraw %}
+```
+Then I created an automation (in automation.yaml or in the Home Assistant itself) which get triggered at 00:00 on Tuesday and toggle all the chores, defined in the `group.chores`, to the status off. 
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# automations.yaml
+- id: '123'
+  alias: reset_chores
+  description: 'reset all chores'
+  trigger: []
+  condition:
+    - condition: time
+      weekday:
+        - tue
+      after: '00:00:00'
+  action:
+    - service: input_boolean.turn_off
+      data: {}
+      target:
+        entity_id:
+          - group.chores
+  mode: single
+{% endraw %}
+```
+
+> If you don't have file groups.yaml or automations.yaml create them in the directory next to configuration.yaml and add these two lines to this file.
+
+```yaml
+{% raw %}
+group: !include groups.yaml
+automation: !include automations.yaml
+{% endraw %}
+```
 
 ---
 

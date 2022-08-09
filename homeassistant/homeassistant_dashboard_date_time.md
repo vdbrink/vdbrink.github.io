@@ -11,8 +11,6 @@ tags: Home Assistant, dashboard, lovelace, date, time
 Here you find Home Assistant (lovelace) dashboard examples related to date and time which you can easily add to your own dashboards.
 
 <br/>
-<br/>
-<br/>
 
 ---
 ## Table of Contents
@@ -85,7 +83,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ```
 
 ---
-# Days count down
+## Days count down
 
 <img src="images/days_countdown.png" alt="Days countdown" width="400">
 
@@ -130,7 +128,7 @@ To show only the message when it's less than 4 days before the pick-up I used th
 ```
 
 ---
-# Hours count up
+## Hours count up
 
 <img src="images/hours_ago.jpg" alt="Hours count upn" width="400">
 
@@ -155,7 +153,7 @@ The value 11.3 will round to 11 and also 11.6 will round to 11 hours.
 {% endraw %}
 ```
 ---
-# Last changed indication as secondary info
+## Last changed indication as secondary info
 
 <img src="images/hours_countdown_secondary.png" alt="Last changed indication as secondary info" width="400">
 
