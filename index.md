@@ -25,16 +25,15 @@ I also get inspired by others with new ideas which I can use for my own setup.
 Here you can find examples and configurations which I created and gathered over the years.
 I want to share and inspire other people, so they can improve their own home automation projects.
 
-Subjects you can find here are about: [Home Assistant](homeassistant), [ESPHome](esphome/index), Node-RED, Docker, Tasker
+Subjects you can find here are about: [Home Assistant](homeassistant/index), [ESPHome](esphome/index), Node-RED, Docker, Tasker
 
 ----
 **Topics you can find here:**
 
-[Home Assistant dashboards](homeassistant/index)
-
-[ESPHome sensors and actuators](esphome/index)
-
-
+|                                                                                                                                     |                                                  | 
+|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a> | [Home Assistant dashboards](homeassistant/index) |
+| <a href="esphome/index"><img src="esphome/images/esphome.png" style="float: left;" alt="Home Assistant logo" height="50px"></a>     | [ESPHome sensors and actuators](esphome/index)   |
 ---
 ## Feel free to sponsor me
 

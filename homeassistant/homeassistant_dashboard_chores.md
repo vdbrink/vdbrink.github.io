@@ -9,17 +9,18 @@ tags: Home Assistant, dashboard, lovelace, chores, tasks, todo, checklist, helpe
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find a Home Assistant (lovelace) dashboard what I've created for chores.
+Here you find a Home Assistant (lovelace) dashboard what I've created\
+for managing my weekend chores.
+
 <br/>
-<br/>
-<br/>
+<img src="images_chores/anim_chores.gif" alt="Chores final result animation" width="300px">
 
 ---
 
 ## Table of Contents
 <!-- TOC -->
 * [Intro](#intro)
-* [Requirements](#requirements)
+* [Functionalities](#functionalities)
 * [Final result](#final-result)
 * [Create the chores](#create-the-chores)
 * [Create the dashboard](#create-the-dashboard)
@@ -41,7 +42,7 @@ I was looking for a solution to manage the weekend chores and this is my final i
 
 ---
 
-## Requirements
+## Functionalities
 
 My chores list must contain the next functionalities:
 * I want to have a list with chores for every weekend and periodic chores.
@@ -108,7 +109,7 @@ Below you find all the code together but this is how it is configured.
 
 * Add as base a horizontal stack (purple).
 * Add two vertical stacks (red) to create two columns. This will result that the cards in that stack stay in the same column, otherwise they jump from left to right.
-* Add in each column two auto-entities cards (green).
+* Add in each column two auto-entities (install via HACS) cards (green).
 
 <img src="images_chores/chores_frames.png" alt="Chores final result" width="400px">
 
@@ -125,8 +126,10 @@ The periodic chores works a bit different. I only show the chores which has been
 
 ## Final dashboard code
 
-This is all the code you need in your view.\
-It contains the layout and cards.
+> You also need to install the [auto-entities](https://github.com/thomasloven/lovelace-auto-entities) lovelace card via HACS to create this dashboard.
+
+This is all the YAML code you need in your horizontal stack card.\
+It contains the layout and the four cards.
 
 <details>
   <summary><b>> Click here to see all the required yaml code >></b></summary>
