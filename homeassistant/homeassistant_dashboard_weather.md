@@ -36,4 +36,4 @@ aspect_ratio: '1:0.6'
 Do you know how to accept then? [Please let me know.](https://github.com/vdbrink/vdbrink.github.io/issues)
 
 ---
-[<< Back to the Home Assistant index page](index)
+[<< See also my other Home Assistant pages](index)

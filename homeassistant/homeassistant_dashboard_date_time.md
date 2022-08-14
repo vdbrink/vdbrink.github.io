@@ -170,4 +170,4 @@ The value on the right is the actual sensor value.
 {% endraw %}
 ```
 ---
-[<< Back to the Home Assistant index page](index)
+[<< See also my other Home Assistant pages](index)

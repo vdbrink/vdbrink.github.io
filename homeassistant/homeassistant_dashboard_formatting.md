@@ -42,4 +42,4 @@ The value 24.3 will round to 24 and 24.6 will round to 25.
 ```
 
 ---
-[<< Back to the Home Assistant index page](index)
+[<< See also my other Home Assistant pages](index)

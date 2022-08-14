@@ -134,6 +134,11 @@ This table show how the Orcon remote is connected, via the flat cable to the ada
 
 You can also replace the 3V CR 2032 battery from the remote and connect it to the ESP which can also provide the required 3V.
 
+### Connect the smart socket
+
+Place the smart power socket between the Orcon and the power wall plug.\
+Based on the used power I can determ the current state.
+
 ---
 
 ## ESPHome

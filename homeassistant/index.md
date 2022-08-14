@@ -7,17 +7,11 @@ tags: Home Assistant, lovelace, dashboard
 
 <img style="float: right;" src="images/home_assistant_logo.png" alt="Home Assistant logo" >
 
-I started my home automation without Home Assistant. In those days I used an app ([Mqtt Dashboard](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard)) where I could see and control all my devices. For my smart flows I used Node-RED.  
-After I got more and more sensors I couldn't get a clear overview of the status of all my sensors anymore.
-Then I found the solutions for this where people created floor plans of their house and add there sensor statuses and controls as layers on top of it. This was possible with the tool Home Assistant and so begon I with it. I created the floor plans I wanted, and I also really liked the (lovelace) dashboards with their endless possibilities.
-
-I use Home Assistant pure as a presentation layer. That's why you don't find Home Assistant flows here but only Node-RED flows.
-
 I created so many different dashboards that I want to document and share them with you.
-One by one I will add new dashboard elements to this site.
+One by one I will add them here.
 
 I created dashboards with:
-
+* [Recipe manager](homeassistant_dashboard_mealie)
 * Floor plans
 * Column layout
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
@@ -27,13 +21,24 @@ I created dashboards with:
   * [External sites](homeassistant_dashboard_weather) (Thunderstorm)
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
 * [Control my ventilation system](../esphome/orcon_mechanic_ventilation)
-* Device and room status overviews
+
 * Calendar, birthdays, waste planning
 * [Chores](homeassistant_dashboard_chores)
 * Grafana graphs
 * Camera streams
 * HACS add-ons
   * [auto entities](homeassistant_dashboard_card_auto-entities) 
+  * Mushroom
+
+---
+## Personal note
+
+
+I started my home automation without Home Assistant. In those days I used an app ([Mqtt Dashboard](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard)) where I could see and control all my devices. For my smart flows I used Node-RED.  
+After I got more and more sensors I couldn't get a clear overview of the status of all my sensors anymore.
+Then I found the solutions for this where people created floor plans of their house and add there sensor statuses and controls as layers on top of it. This was possible with the tool Home Assistant and so begon I with it. I created the floor plans I wanted, and I also really liked the (lovelace) dashboards with their endless possibilities.
+
+I use Home Assistant pure as a presentation layer. That's why you don't find Home Assistant flows here but only Node-RED flows.
 
 ---
 ## Sponsor me

@@ -360,4 +360,4 @@ Or via a [private message](https://gathering.tweakers.net/forum/send_privatemess
 
 ---
 
-[<< Back to the Home Assistant index page](index)
+[<< See also my other Home Assistant pages](index)

@@ -308,4 +308,4 @@ title: fietsweer
 Consider a donation if this is useful for you, via [PayPal](https://www.paypal.me/revdbrink)
 
 ---
-[<< Back to the Home Assistant index page](index)
+[<< See also my other Home Assistant pages](index)
