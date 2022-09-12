@@ -1,7 +1,7 @@
 ---
 title: Home Assistant dashboards
 categories: Home Assistant
-tags: Home Assistant, lovelace, dashboard
+tags: Home Assistant, lovelace, dashboard, weather, dutch, examples
 ---
 # Home Assistant dashboards
 
@@ -10,25 +10,18 @@ tags: Home Assistant, lovelace, dashboard
 I created so many different dashboards that I want to document and share them with you.
 One by one I will add them here.
 
-I created dashboards with:
-* [Recipe manager](homeassistant_dashboard_mealie)
-* Floor plans
-* Column layout
+I created dashboards with all kind of elements in it:
+* Weather:
+  * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
+  * [External sites](homeassistant_dashboard_weather) (Thunderstorm) 
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
 * [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
 * [Different examples](homeassistant_dashboard_examples) (The latest news)
-* Weather
-  * [External sites](homeassistant_dashboard_weather) (Thunderstorm)
-  * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
-* [Control my ventilation system](../esphome/orcon_mechanic_ventilation)
-
-* Calendar, birthdays, waste planning
 * [Chores](homeassistant_dashboard_chores)
-* Grafana graphs
-* Camera streams
-* HACS add-ons
-  * [auto entities](homeassistant_dashboard_card_auto-entities) 
-  * Mushroom
+* [Recipe manager](homeassistant_dashboard_mealie) (With meal weekplanner)
+* HACS add-ons:
+  * [Auto entities](homeassistant_dashboard_card_auto-entities) 
+* [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
 
 ---
 ## Personal note
