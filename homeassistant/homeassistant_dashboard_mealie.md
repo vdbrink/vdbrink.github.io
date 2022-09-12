@@ -85,13 +85,13 @@ To integrate Mealie in Home Assistant you have to create a new dashboard and use
 
 <br/>
 
-On the dashboard add an only an iframe card and use these settings:
+On the dashboard add only an iframe card and use these settings:
 
-<img src="images_mealie/iframe_card.png" alt="iFrame Card" width="400">
+<img src="images_mealie/iframe_card.png" alt="iFrame Card" width="600">
 
 This is how it will look like, integrated in Home Assistant.
 
-<img src="images_mealie/mealie_overview.png" alt="Result" width="400">
+<img src="images_mealie/mealie_overview.png" alt="Result" width="600">
 
 ---
 ## Create a week meal planner
@@ -102,9 +102,9 @@ First you have to go to the user profile page and create and select a category f
 
 Go to the top right login icon and choose for Planner, give a start and end date and choose for each day what you're planned to eat. It doesn't matter on which day of the week you start or end.
 
-<img src="images_mealie/mealie_create_weekmenu.png" alt="Create dashboard" width="400">
+<img src="images_mealie/mealie_create_weekmenu.png" alt="Create week plan" width="600">
 
-If you start a new week you have to remove the previous week otherwise you still get the first planned week from the API call.
+> If you start a new week you have to remove the previous week otherwise you still get the first planned week from the API call.
 
 ---
 ### Meal for tonight
@@ -114,7 +114,7 @@ Now a week planner is made we can use this data.
 All data inside Mealie is also accessible through API calls.
 We can use this to get the meal for today and present that on a dashboard in a card.
 
-<img src="images_mealie/picture_element_meal_tonight.png" alt="Result" width="400">
+<img src="images_mealie/picture_element_meal_tonight.png" alt="meal planner" width="400">
 
 #### Store in a sensor
 First a scraper is needed to get the data from the Mealie API and store it as sensor in Home Assistant.
@@ -144,7 +144,7 @@ The first card is a square picture-element.
 
 <img src="images_mealie/picture_element_meal_tonight_other.png" alt="Result" width="400">
 
-You can set the `tap_action` when you click on the card you navigate to the Mealie integration.
+You can set the `tap_action`, when you click on the card you navigate to the Mealie integration.
 
 ```yaml
 {% raw %}
@@ -171,7 +171,7 @@ style: |
 
 #### Small card element
 
-Because the square images takes a lot of space it's also possible to only use the center part of the photo to get the same impression but which use less space.
+Because the square image take a lot of space it's also possible to only use the center part of the photo to get the same impression but which use less space.
 
 <img src="images_mealie/picture_element_meal_tonight_small.png" alt="Result" width="400">
 
@@ -201,7 +201,7 @@ style: |
 ---
 ### Meal planning for this week as list
 
-It's also possible to show the complete meal planning for the whole week.
+It's also possible to show the complete meal planning for the whole week as list with a Markdown card element.
 
 <img src="images_mealie/mealie_ha_weekmenu.png" alt="Result" width="400">
 
@@ -224,7 +224,7 @@ sensor:
 {% endraw %}
 ```
 In your dashboard add a Markdown card with this code.
-The day of the week will be automatic set correct in the list.
+The day of the week will be automatic set correct in the list. (Translate it if you're not Dutch)
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -232,7 +232,7 @@ The day of the week will be automatic set correct in the list.
   title: week menu
   content: >-
     <table> 
-    {% for task in state_attr('sensor.meal_this_week_test','planDays') %} 
+    {% for task in state_attr('sensor.meal_this_week','planDays') %} 
     <tr>
       <td>{{ ['ma','di','wo','do','vr','za','zo'][strptime( task.date,"%Y-%m-%d").weekday()] }} &nbsp;&nbsp;</td>
       <td>{{ task.meals[0].name }}</td>
@@ -241,6 +241,7 @@ The day of the week will be automatic set correct in the list.
     </table>
 {% endraw %}
 ```
+Enjoy using Mealie!
 
 ---
 ## FAQ
