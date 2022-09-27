@@ -19,9 +19,11 @@ I created dashboards with all kind of elements in it:
 * [Different examples](homeassistant_dashboard_examples) (The latest news)
 * [Chores](homeassistant_dashboard_chores)
 * [Recipe manager](homeassistant_dashboard_mealie) (With meal weekplanner)
-* HACS add-ons:
+* HACS custom element:
   * [Auto entities](homeassistant_dashboard_card_auto-entities) 
+  * [Mushroom](homeassistant_dashboard_card_mushroom) 
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
+* [Home Assistant: hardware monitor](homeassistant_hardware_monitor)
 
 ---
 ## Personal note
