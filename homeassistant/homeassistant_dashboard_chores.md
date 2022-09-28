@@ -109,7 +109,7 @@ Below you find all the code together but this is how it is configured.
 
 * Add as base a horizontal stack (purple).
 * Add two vertical stacks (red) to create two columns. This will result that the cards in that stack stay in the same column, otherwise they jump from left to right.
-* Add in each column two auto-entities (install via HACS) cards (green).
+* Add in each column two auto-entities (install via HACS) custom element (green).
 
 <img src="images_chores/chores_frames.png" alt="Chores final result" width="400px">
 
@@ -126,7 +126,7 @@ The periodic chores works a bit different. I only show the chores which has been
 
 ## Final dashboard code
 
-> You also need to install the [auto-entities](https://github.com/thomasloven/lovelace-auto-entities) lovelace card via HACS to create this dashboard.
+> You also need to install the [auto-entities](https://github.com/thomasloven/lovelace-auto-entities) lovelace custom element via HACS to create this dashboard.
 
 This is all the YAML code you need in your horizontal stack card.\
 It contains the layout and the four cards.

@@ -23,7 +23,7 @@ I created dashboards with all kind of elements in it:
   * [Auto entities](homeassistant_dashboard_card_auto-entities) 
   * [Mushroom](homeassistant_dashboard_card_mushroom) 
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
-* [Home Assistant: hardware monitor](homeassistant_hardware_monitor)
+* [Hardware monitor](homeassistant_hardware_monitor)
 
 ---
 ## Personal note

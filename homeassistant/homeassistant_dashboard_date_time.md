@@ -110,7 +110,7 @@ With this template it gives the amount of days from now.
 {% endraw %}
 ```
 
-To show only the message when it's less than 4 days before the pick-up I used the [HACS: auto-entities](https://github.com/thomasloven/lovelace-auto-entities) module.
+To show only the message when it's less than 4 days before the pick-up I used the [HACS: auto-entities](https://github.com/thomasloven/lovelace-auto-entities) custom element.
 
 ```yaml
 {% raw %}

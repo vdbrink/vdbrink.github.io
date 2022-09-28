@@ -28,19 +28,20 @@ Git repository: https://github.com/Sennevds/system_sensors
 
 <img src="images/system_monitor.png" alt="System monitor" style="float:right" width="120px">
 
-I want to monitor how my server is doing in use of resources.\
-What happen with my server when I add a new docker container?
+I want to monitor how my server is doing in use of resources.
+
+How does adding a new specific docker container impact the load on my server?
 
 I was looking for a script which monitor temperature, cpu, disk, memory and push that to MQTT. 
 
-From MQTT it's easy to load it in Home Assistant and Node-RED to create alerts when they reach a maximum value.
+From MQTT it's easy to load it into Home Assistant to create a presentation of it and with Node-RED to create alerts when it reaches a maximum value.
 
 ---
 ## Setup
 
-Follow the installation instructions on the [site](https://github.com/Sennevds/system_sensors#installation)
+I can copy the steps, but it's easier to just follow the installation instructions on the [site](https://github.com/Sennevds/system_sensors#installation)
 
-I use the settings:
+I use these values in the `settings.yaml` file.
 
 ```yaml
 {% raw %}
@@ -83,10 +84,12 @@ sensors:
 ---
 ## MQTT
 
-When the script is running fine it will fush every minute a message to topic `system-sensors/sensor/monitor/state`
+When the script is running fine it will push every minute a message to topic `system-sensors/sensor/monitor/state`
 and it will look like this:
 
 <img src="images/system_monitor_mqtt.png" alt="System monitor" width="500px">
+
+This is an example of the payload:
 
 ```yaml
 {% raw %}
@@ -108,14 +111,14 @@ and it will look like this:
 ---
 ## Dashboard
 
-On the site there is an example card.
+On the github page there is an example card to present the data in a nice way.
 
-I modified it a bit and mine look like this.
-It use the HACS cards `vertical-stack-in-card`, `mini-graph-card` and `bar-card`
+I modified it a bit and mine look like this.\
+It's using the HACS cards `vertical-stack-in-card`, `mini-graph-card` and `bar-card`.
 
 <img src="images/system_monitor.png" alt="System monitor" width="500px">
 
-This is the corresponding code:
+This is the corresponding Home Assistant yaml code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -170,6 +173,8 @@ cards:
       - sensor.monitor_last_boot
 {% endraw %}
 ```
+
+enjoy!
 
 ---
 
