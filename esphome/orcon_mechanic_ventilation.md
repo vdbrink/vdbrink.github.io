@@ -37,21 +37,23 @@ I can also automatic trigger it, via MQTT, from Node-RED based on different sens
 ---
 
 ## Table of Contents
-- [Schematic presentation](#schematic-presentation)
-- [Required hardware](#required-hardware)
-- [Connect the hardware](#connect-the-hardware)
-- [ESPHome](#esphome)
-- [Register the remote to the ventilation system](#register-the-remote-to-the-ventilation-system)
-- [Test if it works](#test-if-it-works)
-- [Read the current mode](#read-the-current-mode)
-- [Home Assistant dashboard remotes](#home-assistant-dashboard-remotes)
-- [Triggers](#triggers)
-- [Possible improvements](#possible-improvements)
-- [Other approaches to control it](#other-approaches-to-control-it)
-- [References](#references)
-- [Credits](#credits)
-- [Sponsor me](#sponsor-me)
-- [Remarks or suggestions?](#remarks-or-suggestions)
+<!-- TOC -->
+* [Schematic presentation](#schematic-presentation)
+* [Required hardware](#required-hardware)
+* [Connect the hardware](#connect-the-hardware)
+* [ESPHome](#esphome)
+* [Register the remote to the ventilation system](#register-the-remote-to-the-ventilation-system)
+* [Test if it works](#test-if-it-works)
+* [Read the current mode](#read-the-current-mode)
+* [Home Assistant dashboard remotes](#home-assistant-dashboard-remotes)
+* [Triggers](#triggers)
+* [Possible improvements](#possible-improvements)
+* [Other approaches to control it](#other-approaches-to-control-it)
+* [References](#references)
+* [Credits](#credits)
+* [Sponsor me](#sponsor-me)
+* [Remarks or suggestions?](#remarks-or-suggestions)
+<!-- TOC -->
 
 ---
 
@@ -471,7 +473,7 @@ switch_orcon_mode_away:
 ```
 </details>
 
-### My 3 Designs
+### My 3 designs
 
 I created three different designs to see which looks the best for me.
 
@@ -666,7 +668,7 @@ elements:
 This design is a photo of the original remote with transparant buttons defined on the place of the actual buttons.
 In this design you can't see the current mode.
 
-![Original remote](orcon_images/home_assistant_orcon_remote_d3.jpg)
+<img src="orcon_images/home_assistant_orcon_remote_d3.jpg" width="500px" alt="Original remote" />
 
 To use this image on your dashboard you have to place the [remote panel photo](orcon_files/orcon_15rf_remote.jpg) and a [black square image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 The black square is a placeholder to define an area to click.
@@ -783,24 +785,158 @@ elements:
 </details>
 
 ---
+
+### Addition cards
+
+#### Temperatures and humidity gauges
+
+<img src="orcon_images/gauges.jpg" alt="Temperatures and humidity gauges" width="250px">
+
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard gauge YAML >></b></summary>
+
+```yaml
+# Sourcecode by vdbrink.github.io
+type: vertical-stack
+cards:
+- type: horizontal-stack
+  cards:
+    - type: gauge
+      entity: sensor.temp5_temperature_rounded
+      needle: true
+      min: 15
+      max: 35
+      severity:
+      green: 10
+      yellow: 0
+      red: 26
+    - type: gauge
+      entity: sensor.temp5_humidity_rounded
+      needle: true
+      severity:
+      green: 45
+      red: 60
+      min: 45
+      max: 100
+- type: horizontal-stack
+  cards:
+    - type: gauge
+      entity: sensor.temp9_temperature_rounded
+      needle: true
+      min: 15
+      max: 35
+      severity:
+      green: 10
+      yellow: 0
+      red: 26
+- type: horizontal-stack
+  cards:
+    - type: gauge
+      entity: sensor.temp9_humidity_rounded
+      needle: true
+      severity:
+      red: 30
+      green: 45
+      min: 30
+      max: 100
+    - type: gauge
+      entity: sensor.temp2_humidity_rounded
+      needle: true
+      severity:
+      green: 45
+      red: 60
+      min: 45
+      max: 100
+```
+</details>
+
+#### Grafana
+
+I run Grafana where I can visualize the power consumption of my ventilation related device as the ventilation system itself but also the washing machine and dryer.
+
+I integrated the exported Grafana dashboard in a vertical stack to stick them together in the dashboard.
+
+<img width="250px" src="orcon_images/grafana_dashboards.jpg" alt="Grafana dashboards">
+
+This is the corresponding YAML.
+```yaml
+# Sourcecode by vdbrink.github.io
+type: vertical-stack
+cards:
+  - type: iframe
+    url: >-
+      http://<ip>/<url1>?orgId=1&panelId=2&refresh=1m
+    aspect_ratio: 50%
+  - type: iframe
+    ...
+```
+
+---
 ## Triggers
 
-The system can automatically be controlled by different type of sensors:
-- A Co2 sensor. A custom made [SenseAir S8 Co2 sensor](co2_senseair_s8_sensor).
+### Sensors and actuators
+
+The system can automatically be controlled by different type of sensors and actuators:
+- The original 15RF remote.
+- A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 Co2 sensor](co2_senseair_s8_sensor).
 - A temperature and humidity sensor (Aqara WSDCGQ11LM) in the extractor hood above the stove.
+- A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low but in autumn very high for the whole day. In my experience if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500" />
   
-- A temperature and humidity sensor (Aqara WSDCGQ11LM) in the shower. I placed it in the extraction right above the shower. With then hole to measure directed to above.
+- A temperature and humidity sensor (Aqara WSDCGQ11LM) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
+- I also have a reference sensor outside the bathroom as reference data.
 
-<img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extration" width="500" />
+<img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500" />
 
 - A toilet VOC (Volatile Organic Compounds) sensor (Not yet realized)
 
-Here you can see the Orcon is automatic activated (yellow line) after the humidity in the shower is more than 70%, and it automatically shuts down when it's lower than 55%. 
+### Automation script
+
+I store my sensor data in an influxDB database which gives me the possibility to visualize all the data together in a Grafana dashboard.
+
+Here you can see, one of my first scripts, the Orcon is automatic activated (yellow line) after the humidity in the shower is more than 70%, and it automatically shuts down when it's lower than 55%. 
 
 <img src="orcon_images/grafana_shower_humidity.jpg" alt="Automatic controlled based on humidity" width="500" />
 
+#### Flow description
+
+I created in Node-RED the next flow: 
+If all the criteria are valid a trigger is sent to the Orcon to shut it down. If one of the criteria is not valid it stops the checks and sets a custom sensor with the reason why the orcon is still active.
+
+Every 15 minutes this flow is triggered.
+
+Bathroom checks:
+* Is the dryer not active? 
+  * The dryer is in the bathroom and produced a lot of heat.
+* Is the humidity in the bathroom less than 70%?
+  * If someone is in the shower the humidity reach 100%.
+* Is the difference between the humidity in and outside the bathroom less than 7%?
+  * You can't work with fixed values it can be that it will never drop below the 60%. Especially in autumn.
+* Is the bathroom temperature less than 26 degrees?
+  * This can be caused by the dryer or taking a shower.
+
+Kitchen extractor hood checks:
+* Is the humidity in the kitchen extractor hood less than 70%?
+  *  When you heating food on the stove the humidity can rise and drop.
+* Is the difference between the humidity in and outside the extractor hood less than 7%?
+  *  When you heating food on the stove the humidity will drop.
+* Is the extractor hood temperature less than 26 degrees?
+    * This can be caused by the dryer or taking a shower.
+
+Other checks:
+* Is the Orcon started more than 10 minutes ago?
+  * It can be that the orcon is started manually with the normal remote. Then it doesn't match all the previous criteria, but you still want to run it for some other reason.
+* Is the VOC level in the toilet low enough? (Not in my setup)
+* Is the CO2 level low enough? (Not in my setup)
+* Is the Orcon still activate?
+  * If also the last check match it can be shut down.
+
+#### The Node-RED flow
+<a href="orcon_images/script_node-red.png" target="_blanc">
+<img src="orcon_images/script_node-red.png" alt="Node-RED flow" width="100%" />
+</a>
 
 ---
 ## Possible improvements
