@@ -25,15 +25,17 @@ I also get inspired by others with new ideas which I can use for my own setup.
 Here you can find examples and configurations which I created and gathered over the years.
 I want to share and inspire other people, so they can improve their own home automation projects.
 
-Subjects you can find here are about: [Home Assistant](homeassistant/index), [ESPHome](esphome/index), Node-RED, Docker, Tasker
+Subjects you can find here are about: [Home Assistant](homeassistant/index), [ESPHome](esphome/index), [Node-RED](node-red/index), Docker, Tasker
 
 ----
 **Topics you can find here:**
 
-|                                                                                                                                     |                                                  | 
-|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a> | [Home Assistant dashboards](homeassistant/index) |
-| <a href="esphome/index"><img src="esphome/images/esphome.png" style="float: left;" alt="Home Assistant logo" height="50px"></a>     | [ESPHome sensors and actuators](esphome/index)   |
+|                                                                                                                                     |                                                                                       | 
+|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a> | [Home Assistant: <br>Home automation dashboards](homeassistant/index)                 |
+| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                 | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                   |
+| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                       | [Node-RED: <br>graphical programming tool to create every automation](node-red/index) |
+
 ---
 ## Feel free to sponsor me
 
@@ -47,6 +49,6 @@ https://www.paypal.me/revdbrink
 
 ---
 ## Remarks or suggestions?
-Do you have any remarks, language errors or dead links please let me know via github issues.
+Do you have any remarks, spell improvement suggestions or dead links, please let me know via github issues.
 
 [Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
