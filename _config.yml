@@ -7,6 +7,8 @@ title: vd Brink Home Automations
 description: "Home automations: Home Assistant, ESPHome, Node-RED and more."
 url: https://vdbrink.github.io
 
+google_analytics: G-WTTK5G664M
+
 markdown: CommonMarkGhPages
 commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
