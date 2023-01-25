@@ -50,6 +50,11 @@ https://www.paypal.me/revdbrink
 <br/>
 <br/>
 
+Or buy one of these cool mugs, shirts, hoodies. 
+Click to combine a design with a product of your choice!
+
+<a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank"><img src="/shop/images/banner2.png" alt="funny geek design shirts and more"/></a>
+
 ---
 ## Remarks or suggestions?
 Do you have any remarks or suggestions please let me know via github issues.
@@ -57,3 +62,6 @@ Do you have any remarks or suggestions please let me know via github issues.
 [Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
 
 Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
+
+---
+[<< Homepage](../index)

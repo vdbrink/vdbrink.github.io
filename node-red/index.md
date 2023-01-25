@@ -24,9 +24,9 @@ For more information check also the website: https://nodered.org
 
 Look at these Cheat Sheets where I described how you can convert values from one to another and example flows.
 
+Cheat Sheets:
 * [Node-RED Cheat Sheet - Basic Nodes](node-red_cheatsheet-basic_nodes)
 * [Node-RED Cheat Sheet - Function Node](node-red_cheatsheet-function_node)
-* [Node-RED Cheat Sheet - Grafana](node-red_grafana)
 
 
 <br/>
@@ -42,3 +42,27 @@ You can read all the details about this project on the [Control an Orcon mechani
 <a href="../esphome/orcon_images/script_node-red.png" target="_blank">
 <img src="../esphome/orcon_images/script_node-red.png" alt="Example Node-RED" style="width:500px">
 </a>
+
+---
+## Sponsor me
+
+<img src="../images/avatar.jpg" alt="me" style="float: right" width="100px">
+
+If you like what your read here consider a donation.
+
+It's up to you if, and how much you want to support me writing more articles like this.
+
+You can donate via PayPal
+https://www.paypal.me/revdbrink
+
+<br/>
+<br/>
+
+Or buy one of these cool shirts, mugs, pillows or other stuff with cool geeky text on it.
+For yourself or as original present.
+Click to combine a design with a product of your choice!
+
+<a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank"><img src="/shop/images/banner3.png" alt="funny geek design shirts and more"/></a>
+
+---
+[<< Homepage](../index)
