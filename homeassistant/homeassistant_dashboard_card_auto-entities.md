@@ -61,6 +61,7 @@ show_empty: false
 sort:
   method: state
   reverse: true
+  numeric: true
 {% endraw %}
 ```
 

@@ -56,14 +56,14 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-type: custom:mushroom-title-card
-title: >2
-  {%- if now().hour < 12 -%}Goeiemorgen
-  {%- elif now().hour < 18 -%}Goeiemiddag
-  {%- else -%}Goeieavond{%- endif -%}, {{user}}. 
-  Vandaag is het tussen de {{states.sensor.meteoserver_d0tmin.state}} en de
-  {{ states.sensor.meteoserver_d0tmax.state }} °C  
-  met {{ states.sensor.meteoserver_verw.state.lower() }}.
+- type: custom:mushroom-title-card
+  title: > 2
+    {%- if now().hour < 12 -%}Goeiemorgen
+    {%- elif now().hour < 18 -%}Goeiemiddag
+    {%- else -%}Goeieavond{%- endif -%}, {{user}}. 
+    Vandaag is het tussen de {{states.sensor.meteoserver_d0tmin.state}} en de
+    {{ states.sensor.meteoserver_d0tmax.state }} °C  
+    met {{ states.sensor.meteoserver_verw.state.lower() }}.
 {% endraw %}
 ```
 
@@ -74,26 +74,58 @@ title: >2
 Chips cards are small icon which indicate a status.\
 In my example I only show them, with a condition, when they are relative. 
 
-### Nice weather (only an icon)
+### Co2 colored icon indicator
 
-<img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50" align="left">
- Show a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on`.
+<img src="images_mushroom/mushroom_cO2.png" alt="mushroom chips" width="50" align="left">
+ Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 - type: custom:mushroom-chips-card
-    chips:
-        - type: conditional
-          conditions:
-            - entity: binary_sensor.nice_outside
-              state: 'on'
-          chip:
-            type: template
-            icon_color: green
-            icon: mdi:seat
-            entity: binary_sensor.nice_outside
-            content: ''
+  chips:
+    - chip:
+      type: template
+      icon: mdi:molecule-co2
+      entity: sensor.senseair_co2_value
+      content: ''
+      card_mod: null
+      style: |
+        :host {
+          --card-mod-icon-color:
+          {% if states('sensor.senseair_co2_value')|int > 1500 %}
+           #ff4500;
+          {% elif states('sensor.senseair_co2_value')|int > 1200 %}
+           #f28b05;
+          {% elif states('sensor.senseair_co2_value')|int > 800 %}
+           #ffd700;
+          {% else %}
+           #18851b;
+          {% endif %}
+          }
+{% endraw %}
+```
+
+### Nice weather (only an icon)
+
+<img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50" align="left">
+ Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon is not visible.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+- type: custom:mushroom-chips-card
+  chips:
+    - type: conditional
+      conditions:
+        - entity: binary_sensor.nice_outside
+          state: 'on'
+      chip:
+        type: template
+        icon_color: green
+        icon: mdi:seat
+        entity: binary_sensor.nice_outside
+        content: ''
 {% endraw %}
 ```
 
@@ -106,10 +138,10 @@ In my example I only show them, with a condition, when they are relative.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 - type: custom:mushroom-chips-card
-    chips:
-      - type: entity
-        entity: sensor.temperature_outside_feels_like
-        icon: mdi:sun-thermometer
+  chips:
+    - type: entity
+      entity: sensor.temperature_outside_feels_like
+      icon: mdi:sun-thermometer
 {% endraw %}
 ```
 
@@ -121,18 +153,18 @@ In my example I only show them, with a condition, when they are relative.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 - type: custom:mushroom-chips-card
-    chips:
-        - type: conditional
-          conditions:
-            - entity: person.vdbrink
-              state: home
-          chip:
-            type: entity
-            entity: person.vdbrink
-            name: Me
-            use_entity_picture: true
-            hide_state: true
-            hide_name: false
+  chips:
+  - type: conditional
+    conditions:
+      - entity: person.vdbrink
+        state: home
+    chip:
+      type: entity
+      entity: person.vdbrink
+      name: Me
+      use_entity_picture: true
+      hide_state: true
+      hide_name: false
 {% endraw %}
 ```
 
@@ -144,16 +176,16 @@ In my example I only show them, with a condition, when they are relative.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-type: custom:mushroom-chips-card
-chips:
-  - type: conditional
-    conditions:
-      - entity: binary_sensor.contact_front_door_contact
-        state: 'on'
-    chip:
-      type: template
-      picture: https://img.icons8.com/plasticine/344/door-opened.png
-      content: Open
+- type: custom:mushroom-chips-card
+  chips:
+    - type: conditional
+      conditions:
+        - entity: binary_sensor.contact_front_door_contact
+          state: 'on'
+      chip:
+        type: template
+        picture: https://img.icons8.com/plasticine/344/door-opened.png
+        content: Open
 {% endraw %}
 ```
 ---

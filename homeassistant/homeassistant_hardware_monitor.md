@@ -26,7 +26,7 @@ Git repository: https://github.com/Sennevds/system_sensors
 
 ## Intro
 
-<img src="images/system_monitor.png" alt="System monitor" style="float:right" width="120px">
+<img src="images/system_monitor.png" alt="System monitor" style="float:right" width="180px">
 
 I want to monitor how my server is doing in use of resources.
 
