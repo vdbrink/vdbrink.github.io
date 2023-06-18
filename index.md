@@ -41,16 +41,19 @@ Subjects you can find here are about: [Home Assistant](homeassistant/index), [ES
 
 If you like what your read here consider a donation.
 
-It's up to you if, and how much you want to support me writing more articles.
+It's up to you how much you want to donate to support me writing more articles.
 
-You can donate via PayPal
-https://www.paypal.me/revdbrink
+* You can donate via PayPal  
+<a href="https://www.paypal.me/revdbrink" target="_blank"><img src="images/paypal.png" alt="Support my blog and donate with PayPal" width="170" height="36" data-canonical-src="https://pluspng.com/img-png/-460.png" style="max-width: 100%;"></a>
 
-Or buy one of these cool mugs, shirts or other stuff with cool geeky text on it.
+* Or buy one of these cool mugs, shirts or other stuff with cool geeky text on it.
 For yourself or as original present.
-Click to combine a design with a product of your choice!
 
 <a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank"><img src="/shop/images/banner1.png" alt="funny geek design shirts and more"/></a>
+
+* Or buy me a coffee, I convert coffee to code and docs!
+
+<a href="https://www.buymeacoffee.com/revdbrink" target="_blank"><img src="images/bmc_qr.png" alt="Support my blog and donate with Buy me a coffee" width="170"></a>
 
 ---
 ## Remarks or suggestions?
