@@ -49,7 +49,7 @@ It's up to you how much you want to donate to support me writing more articles.
 * Or buy one of these cool mugs, shirts or other stuff with cool geeky text on it.
 For yourself or as original present.
 
-<a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank"><img src="/shop/images/banner1.png" alt="funny geek design shirts and more"/></a>
+<a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank"><img src="shop/images/banner1.png" alt="funny geek design shirts and more"/></a>
 
 * Or buy me a coffee, I convert coffee to code and docs!
 
