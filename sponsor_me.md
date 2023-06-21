@@ -9,6 +9,10 @@ I am very grateful.
 
 You can donate via PayPal
 
-<a href="https://www.paypal.me/revdbrink" rel="nofollow"><img src="images/paypal.png" alt="Support my blog and donate with PayPal" width="170" height="36" data-canonical-src="https://pluspng.com/img-png/-460.png" style="max-width: 100%;"></a>
+<a href="https://www.paypal.me/revdbrink" target="_blank"><img src="images/paypal.png" alt="Support my blog and donate with PayPal" width="170" height="36" data-canonical-src="https://pluspng.com/img-png/-460.png" style="max-width: 100%;"></a>
 
-I want to thank everybody who already made a donation!
+Or via Buy Me A Coffee
+
+<a href="https://www.buymeacoffee.com/revdbrink" target="_blank"><img src="images/bmc_qr.png" alt="Support my blog and donate with Buy me a coffee" width="170"></a>
+
+I want to thank everybody who already made a donation and support my work!

@@ -27,6 +27,7 @@ Look at these Cheat Sheets where I described how you can convert values from one
 Cheat Sheets:
 * [Node-RED Cheat Sheet - Basic Nodes](node-red_cheatsheet-basic_nodes)
 * [Node-RED Cheat Sheet - Function Node](node-red_cheatsheet-function_node)
+* [Node-RED - Light flows](node-red_light_flows.md)
 * [Node-RED - Temperature flows](node-red_temperature_flows.md)
 
 <br/>

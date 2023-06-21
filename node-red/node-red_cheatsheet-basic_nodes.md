@@ -18,6 +18,7 @@ More advanced examples with the function node can be found [here](node-red_cheat
 * [Round a comma value to an integer value](#round-a-comma-value-to-an-integer-value)
 * [String to Integer](#string-to-integer)
 * [Strip topic name](#strip-topic-name)
+* [Only X messages per Y time unit](#only-x-messages-per-y-time-unit)
 <!-- TOC -->
 
 ---
@@ -81,6 +82,22 @@ Get only the last part after the '/' from a topic.
 Set [msg.]measurement
     [expression]msg.topic.$split('/')[1]
 ```
+
+---
+## Only X messages per Y time unit
+
+Limit the amount of messages which will be sent per time unit (seconds/minutes/hours/days).
+
+<img src="images/nodes/node_delay.png" height="{{imgHeight}}px">
+
+```
+Action   Rate Limit 
+         All messages  
+Rate     [1] msg(s) [10] [Minutes]
+         Drop intermediate messages
+```
+
+You can also combine two delay node, one with 1 messages per 5 minutes and an extra with 10 messages per day to avoid a flood of messages.
 
 ---
 [Table of Content ^](#table-of-contents)
