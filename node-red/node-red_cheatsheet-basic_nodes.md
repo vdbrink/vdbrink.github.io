@@ -19,6 +19,9 @@ More advanced examples with the function node can be found [here](node-red_cheat
 * [String to Integer](#string-to-integer)
 * [Strip topic name](#strip-topic-name)
 * [Only X messages per Y time unit](#only-x-messages-per-y-time-unit)
+* [Trigger only on rise and fall](#trigger-only-on-rise-and-fall-)
+* [Trigger only on passing a value on rise](#trigger-only-on-passing-a-value-on-rise)
+* [Trigger only on passing a value on fall](#trigger-only-on-passing-a-value-on-fall)
 <!-- TOC -->
 
 ---
@@ -98,6 +101,53 @@ Rate     [1] msg(s) [10] [Minutes]
 ```
 
 You can also combine two delay node, one with 1 messages per 5 minutes and an extra with 10 messages per day to avoid a flood of messages.
+
+---
+## Trigger only on rise and fall 
+
+The hysteresis node is a node that forwards its incoming message only if the numeric value of the message payload rises above one specified threshold, or falls below another.
+This node is a combination of the [rising edge node](#trigger-only-on-passing-a-value-on-rise) and [falling edge node](#trigger-only-on-passing-a-value-on-fall)
+
+<img src="images/nodes/node_hysteresis.png" height="{{imgHeight}}px">
+
+This can be used, for example, to monitor a dryer if the energy consumption is like this.
+
+<img src="images/grafana_dryer.png" height="250px">
+
+When the node is defined like this:
+```
+Rising threshold   5
+Falling threshold  6
+```
+A trigger is sent when the graph start with the spike on the left. The input value change from 0 to a new value higher than 5. 
+
+When the dryer is finished the value drops below 6 to 0 again the next trigger is sent and you can notify that the dryer is finished.
+
+---
+## Trigger only on passing a value on rise
+
+The rising edge node only pass a value through when an input payload value pass a defined threshold value.
+
+<img src="images/nodes/node_rising_edge.png" height="{{imgHeight}}px">
+
+When the node is defined like this:
+```
+Threshold  5
+```
+A trigger is only sent when the input value change from a value below 5 to a new value higher than 5. 
+
+---
+## Trigger only on passing a value on fall
+
+The rising edge node only pass a value through when an input payload value pass a defined threshold value.
+
+<img src="images/nodes/node_falling_edge.png" height="{{imgHeight}}px">
+
+When the node is defined like this:
+```
+Threshold  6
+```
+A trigger is sent only when the input value change from a value above 6 to a new value lower than 6. 
 
 ---
 [Table of Content ^](#table-of-contents)
