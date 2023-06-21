@@ -89,7 +89,8 @@ Set [msg.]measurement
 ---
 ## Only X messages per Y time unit
 
-Limit the amount of messages which will be sent per time unit (seconds/minutes/hours/days).
+Limit the amount of messages which will be sent per time unit (seconds/minutes/hours/days). \
+Intermediate message will be dropped.
 
 <img src="images/nodes/node_delay.png" height="{{imgHeight}}px">
 
@@ -121,7 +122,7 @@ Falling threshold  6
 ```
 A trigger is sent when the graph start with the spike on the left. The input value change from 0 to a new value higher than 5. 
 
-When the dryer is finished the value drops below 6 to 0 again the next trigger is sent and you can notify that the dryer is finished.
+When the dryer is finished the value drops below 6 to 0 again the next trigger is sent, and you can notify that the dryer is finished.
 
 ---
 ## Trigger only on passing a value on rise
