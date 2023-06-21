@@ -89,7 +89,7 @@ Set [msg.]measurement
 ---
 ## Only X messages per Y time unit
 
-Limit the amount of messages which will be sent per time unit (seconds/minutes/hours/days). \
+With the delay node you can limit the amount of messages which will be sent per time unit (seconds/minutes/hours/days). \
 Intermediate message will be dropped.
 
 <img src="images/nodes/node_delay.png" height="{{imgHeight}}px">
