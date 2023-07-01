@@ -10,7 +10,7 @@ Here you can find how you can create a dashboard to manage your **recipes** and 
 
 I also show you how data from Mealie can be integrated, via the REST integration seamless, in Home Assistant cards to show the meal planner data.
 
-<img src="images_mealie/mealie_overview.png" alt="Result" width="500">
+<img src="images_mealie/mealie_overview.png" alt="Result" width="800px">
 
 For more information check also the website: https://hay-kot.github.io/mealie/
 
