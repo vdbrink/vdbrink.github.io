@@ -6,8 +6,6 @@ categories: Home Assistant, ESPHome, Node-RED, Docker, Tasker
 
 ![Banner](images/banner.jpg)
 
-<img style="float: right;" src="images/avatar.jpg" alt="me" width="100px">
-
 Hi, since I was a little kid I was always interested in home automation and years later still it's my passion to automate my home!
 
 With the introduction of the ESP boards, with wi-fi support, it all became easier to create your own sensors.
@@ -36,28 +34,3 @@ Subjects you can find here are about: [Home Assistant](homeassistant/index), [ES
 | <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                 | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                   |
 | <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                       | [Node-RED: <br>graphical programming tool to create every automation](node-red/index) |
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="50px"></a>                                | [Docker: <br>Run applications](docker/index)                                          |
-
----
-## Feel free to sponsor me
-
-If you like what your read here consider a donation.
-
-It's up to you how much you want to donate to support me writing more articles.
-
-* You can donate via PayPal  
-<a href="https://www.paypal.me/revdbrink" target="_blank"><img src="images/paypal.png" alt="Support my blog and donate with PayPal" width="170" height="36" data-canonical-src="https://pluspng.com/img-png/-460.png" style="max-width: 100%;"></a>
-
-* Or buy one of these cool mugs, shirts or other stuff with cool geeky text on it.
-For yourself or as original present.
-
-<a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank"><img src="shop/images/banner1.png" alt="funny geek design shirts and more"/></a>
-
-* Or buy me a coffee, I convert coffee to code and docs!
-
-<a href="https://www.buymeacoffee.com/revdbrink" target="_blank"><img src="images/bmc_qr.png" alt="Support my blog and donate with Buy me a coffee" width="170"></a>
-
----
-## Remarks or suggestions?
-Do you have any remarks, spell improvement suggestions or dead links, please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)

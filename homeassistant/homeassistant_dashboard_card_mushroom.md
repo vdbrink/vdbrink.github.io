@@ -195,6 +195,8 @@ Looking for more examples check this link:
 * https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/
 
 ---
+[^^ Top](#table-of-contents)
+
 [<< See also my other Home Assistant pages](index)
 
 

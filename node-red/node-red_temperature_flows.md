@@ -93,5 +93,3 @@ During the year the humidity has different values.
 [Table of Content ^](#table-of-contents)
 
 [<< See also my other Node-RED pages](index)
-
-[Sponsor me](../sponsor_me)

@@ -14,17 +14,19 @@ We can use that data also to show direct on our Home Assistant dashboards.
 
 ---
 ## Table of Contents
-
+<!-- TOC -->
 * [Rain radar](#rain-radar)
+* [Rain expected value](#rain-expected-value)
 * [Rain radar animated](#rain-radar-animated)
 * [Weather alarm map](#weather-alarm-map)
 * [Weather alarm](#weather-alarm)
-    * [Conditional weather alarm](#conditional-weather-alarm)
+  * [Conditional weather alarm](#conditional-weather-alarm)
 * [Pollen](#pollen)
-    * [image 1](#image-1)
-    * [Image 2](#image-2)
+  * [image 1](#image-1)
+  * [Image 2](#image-2)
 * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
 * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
+<!-- TOC -->
 
 ---
 ## Rain radar
@@ -44,9 +46,31 @@ entities:
   - sensor.neerslag_buienradar_regen_data
 {% endraw %}
 ```
----
 
-## Rain radar animated 
+---
+## Rain expected value
+
+Based on the buienalarm data: a number how much rain is expected.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard
+- platform: template
+  sensors:
+    buienalarm_rain_expected:
+      friendly_name: "rain expected"
+      value_template: >-
+        {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
+        {% set total_precip = 0 %}
+        {% for value in rain %}
+          {% set total_precip = total_precip +(value | int) %}
+        {% endfor %}
+        {{ total_precip }}
+        {% endraw %}
+```
+---
+## Rain radar animated
 
 Source: Weeronline
 
@@ -308,4 +332,6 @@ title: fietsweer
 Consider a donation if this is useful for you, via [PayPal](https://www.paypal.me/revdbrink)
 
 ---
+[^^ Top](#table-of-contents)
+
 [<< See also my other Home Assistant pages](index)

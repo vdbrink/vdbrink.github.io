@@ -19,7 +19,6 @@ Git repository: https://github.com/Sennevds/system_sensors
 * [Setup](#setup)
 * [MQTT](#mqtt)
 * [Dashboard](#dashboard)
-* [Remarks or suggestions?](#remarks-or-suggestions)
 <!-- TOC -->
 
 ---
@@ -177,14 +176,6 @@ cards:
 enjoy!
 
 ---
-
-## Remarks or suggestions?
-Do you have any remarks or suggestions please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
-
----
+[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant pages](index)

@@ -29,7 +29,6 @@ For more information check also the website: https://hay-kot.github.io/mealie/
     * [Small card](#small-card-element)
   * [Meal planning for this week as list](#meal-planning-for-this-week-as-list)
 * [FAQ](#faq)
-* [Remarks or suggestions?](#remarks-or-suggestions)
 <!-- TOC -->
 
 ---
@@ -268,13 +267,6 @@ A: Yes you can with this code block in the description.
 A: See their [website](https://hay-kot.github.io/mealie/)
 
 ---
+[^^ Top](#table-of-contents)
 
-## Remarks or suggestions?
-Do you have any remarks or suggestions please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
-
----
 [<< See also my other Home Assistant pages](index)

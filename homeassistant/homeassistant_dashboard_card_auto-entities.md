@@ -112,4 +112,6 @@ Show only when the amount of days is less than 4 AND more than -1.
 I created a [separated page](homeassistant_dashboard_chores.md) about this subject where I use multiple auto entities lists to show which chores must be done and which are already done.
 
 ---
+[^^ Top](#table-of-contents)
+
 [<< See also my other Home Assistant pages](index)

@@ -30,8 +30,6 @@ for managing my weekend chores.
 * [Maintenance dashboard](#maintenance-dashboard)
 * [Background](#background)
 * [Credits](#credits)
-* [Sponsor me](#sponsor-me)
-* [Remarks or suggestions?](#remarks-or-suggestions)
 <!-- TOC -->
 
 ---
@@ -319,7 +317,7 @@ filter:
 
 ---
 
-## Background 
+## Background
 
 I was looking for a solution to manage the weekend chores for use.\
 I did it with writing down chore, from a list in an app, on the whiteboard.\
@@ -337,27 +335,6 @@ I got the rough idea for this approach from
 https://smarthomepursuits.com/chore-tracking-with-point-system-in-home-assistant/
 
 ---
-
-## Sponsor me
-
-<img src="../images/avatar.jpg" alt="me" width="100px">
-
-If you like what your read here consider a donation.
-
-It's up to you if, and how much you want to support me writing more articles like this.
-
-You can donate via PayPal
-https://www.paypal.me/revdbrink
-
----
-
-## Remarks or suggestions?
-Do you have any remarks or suggestions please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
-
----
+[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant pages](index)

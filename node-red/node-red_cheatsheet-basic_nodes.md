@@ -154,5 +154,3 @@ A trigger is sent only when the input value change from a value above 6 to a new
 [Table of Content ^](#table-of-contents)
 
 [<< See also my other Node-RED pages](index)
-
-[Sponsor me](../sponsor_me)

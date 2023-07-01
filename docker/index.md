@@ -494,5 +494,3 @@ groups:
 [Table of Content >](#table-of-contents)
 
 [Index page >](../index)
-
-[Sponsor this site >](../sponsor_me)

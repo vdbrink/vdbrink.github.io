@@ -152,4 +152,3 @@ return msg;
 
 [<< See also my other Node-RED pages](index)
 
-[Sponsor me](../sponsor_me)

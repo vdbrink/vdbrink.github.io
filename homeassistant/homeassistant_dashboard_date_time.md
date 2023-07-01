@@ -169,5 +169,23 @@ The value on the right is the actual sensor value.
       secondary_info: last-changed
 {% endraw %}
 ```
+
 ---
+## Last changed indication
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard
+    mailbox_timer:
+      friendly_name: mailbox
+      icon_template: mdi:clock-outline
+      value_template: >
+        {{ relative_time(states.binary_sensor.mailbox_contact.last_changed) }}
+{% endraw %}
+```
+
+---
+[^^ Top](#table-of-contents)
+
 [<< See also my other Home Assistant pages](index)

@@ -32,8 +32,6 @@ Here you can find examples about how you can create your own interactive floor p
   * [Rotations](#rotations)
   * [Change icons](#change-icons)
   * [Change layer order](#change-layer-order)
-* [Sponsor me](#sponsor-me)
-* [Remarks or suggestions?](#remarks-or-suggestions)
 <!-- TOC -->
 
 ---
@@ -315,26 +313,6 @@ When you can't click on an entity you need to change the order in the list.
 The higher in your yaml file the higher in the layer.
 
 ---
+[^^ Top](#table-of-contents)
 
-## Sponsor me
-
-<img src="../images/avatar.jpg" alt="me" width="100px">
-
-If you like what your read here consider a donation.
-
-It's up to you if, and how much you want to support me writing more articles like this.
-
-You can donate via PayPal
-https://www.paypal.me/revdbrink
-
----
-
-## Remarks or suggestions?
-Do you have any remarks or suggestions please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
-
----
 [<< See also my other Home Assistant pages](index)

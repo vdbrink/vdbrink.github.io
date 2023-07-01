@@ -37,5 +37,3 @@ Set [msg.]measurement
 
 ---
 [<< See also my other Node-RED pages](index)
-
-[Sponsor me](../sponsor_me)
