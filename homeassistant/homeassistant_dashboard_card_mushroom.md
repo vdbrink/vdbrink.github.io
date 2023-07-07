@@ -31,7 +31,7 @@ The git repository is https://github.com/piitaya/lovelace-mushroom
 <!-- TOC -->
 
 ---
-# Intro
+## Intro
 
 The mushroom card has a whole set of different card types.
 In my examples here I only use two of them. If you want to know more about them all check this page https://github.com/piitaya/lovelace-mushroom#cards
@@ -39,15 +39,15 @@ In my examples here I only use two of them. If you want to know more about them 
 <img src="images_mushroom/mushroom_card_types.png" alt="mushroom card types" width="150px" />
 
 ---
-# Cards
+## Cards
 
 I highlight here two cards.
 
-## Title card
+### Title card
 
 The title card show data based on a template and has no background.
 
-### Welcome text and weather forecast for today
+#### Welcome text and weather forecast for today
 <img src="images_mushroom/mushroom_title.png" alt="mushroom title" width="400px">
 
 Welcome text based on the time of the day and the name of the logged in user.\
@@ -69,12 +69,12 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 
 ---
 
-## Chips card
+### Chips card
 
 Chips cards are small icon which indicate a status.\
 In my example I only show them, with a condition, when they are relative. 
 
-### Co2 colored icon indicator
+#### Co2 colored icon indicator
 
 <img src="images_mushroom/mushroom_co2.png" alt="mushroom chips" width="50px" style="float:left">
  Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
@@ -106,7 +106,7 @@ In my example I only show them, with a condition, when they are relative.
 {% endraw %}
 ```
 
-### Nice weather (only an icon)
+#### Nice weather (only an icon)
 
 <img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50px" style="float:left">
  Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon is not visible.
@@ -129,7 +129,7 @@ In my example I only show them, with a condition, when they are relative.
 {% endraw %}
 ```
 
-### Outside temperature (custom icon)
+#### Outside temperature (custom icon)
 
 <img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left">Show the outside temperature.
 <br/><br/>
@@ -145,7 +145,7 @@ In my example I only show them, with a condition, when they are relative.
 {% endraw %}
 ```
 
-### Person status
+#### Person status
 <img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left">Show if your at home.
 <br/><br/>
 
@@ -168,7 +168,7 @@ In my example I only show them, with a condition, when they are relative.
 {% endraw %}
 ```
 
-  ### Door open (custom picture)
+#### Door open (custom picture)
 
 <img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left">Show a custom picture when the front door is open.
 <br/><br/>
@@ -190,7 +190,7 @@ In my example I only show them, with a condition, when they are relative.
 ```
 ---
 
-# More examples
+## More examples
 Looking for more examples check this link:
 * https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/
 

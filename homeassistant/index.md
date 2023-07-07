@@ -16,6 +16,7 @@ I created dashboards with all kind of elements in it:
 * Weather:
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
   * [External sites](homeassistant_dashboard_weather) (Thunderstorm) 
+* [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc)
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
 * [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
 * [Different examples](homeassistant_dashboard_examples) (The latest news)

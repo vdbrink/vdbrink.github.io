@@ -22,7 +22,7 @@ Here you find Home Assistant (lovelace) dashboard examples which you can easily 
 
 What is the added value of one decimal for a temperature value? Especially when you show multiple temperatures close to each other this is only distracting. To create a clean presentation you can show the rounded value.
 
-Create a new sensor only with the rounded temperature to a integer value.
+Create a new sensor only with the rounded temperature to an integer value.
 Here we create a new sensor calls `sensor.temp1_temperature_rounded`
 
 The value 24.3 will round to 24 and 24.6 will round to 25.

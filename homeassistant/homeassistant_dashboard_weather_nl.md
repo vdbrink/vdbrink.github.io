@@ -33,7 +33,7 @@ We can use that data also to show direct on our Home Assistant dashboards.
 
 Source: Buienradar and Buienalarm
 
-<img src="images/rain_buienradar.png" alt="Rain buienradar" width="400">
+<img src="images/rain_buienradar.png" alt="Rain buienradar" width="400px">
 
 ```yaml
 {% raw %}
@@ -76,7 +76,7 @@ Source: Weeronline
 
 An animated image of 2 hours prediction of the rain in steps of 5 minutes.
 
-<img src="images/rain_radar_animated.png" alt="Rain radar animated" width="400">
+<img src="images/rain_radar_animated.png" alt="Rain radar animated" width="400px">
 
 ```yaml
 {% raw %}
@@ -95,7 +95,7 @@ Source: KNMI
 
 Alarm code colors per province.
 
-<img src="images/weather_alarm_map_knmi.jpg" alt="Weather alarm map" width="400">
+<img src="images/weather_alarm_map_knmi.jpg" alt="Weather alarm map" width="400px">
 
 ```yaml
 {% raw %}
@@ -119,7 +119,7 @@ Source: KNMI
 
 Read the weather alarm code and description from the KNMI.nl site.
 
-<img src="images/weather_alarm_knmi.png" alt="Weather alarm" width="400">
+<img src="images/weather_alarm_knmi.png" alt="Weather alarm" width="400px">
 
 First you need to define a scraper to scrape every 10 minutes the latest alarm code and text.
 
@@ -142,7 +142,7 @@ First you need to define a scraper to scrape every 10 minutes the latest alarm c
 ```
 This is the corresponding code for the screenshot.
 
-The custom CSS color styling is done with the module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
+The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
 
 ```yaml
 {% raw %}
@@ -217,7 +217,7 @@ Source: Pollennieuws
 
 Show the actual pollen intensity image.
 
-<img src="images/pollennieuws.png" alt="Pollen nieuws" width="400">
+<img src="images/pollennieuws.png" alt="Pollen nieuws" width="400px">
 
 This is the basic variant which show only the image.
 ```yaml
@@ -262,7 +262,7 @@ Source: Buienradar
 
 Show the actual pollen intensity image from another source.
 
-<img src="images/pollenradar.png" alt="Pollen nieuws" width="400">
+<img src="images/pollenradar.png" alt="Pollen nieuws" width="400px">
 
 Another way to show an image is with the image entity card.
 Here you can also add some text and an entity, like the current outside temperature.
@@ -291,7 +291,7 @@ Source: KNMI
 
 Image with the precipitation surplus (neerslagoverschot) for (the last) 3 months.
 
-<img src="images/weather_neerslagoverschot.png" alt="Precipitation surplus (neerslagoverschot)" width="400">
+<img src="images/weather_neerslagoverschot.png" alt="Precipitation surplus (neerslagoverschot)" width="400px">
 
 ```yaml
 {% raw %}
@@ -313,7 +313,7 @@ Source: Weerplaza
 
 An iframe with a compact presentation of the weather for the next 3 or 5 days and a score for different type of activities.
 
-<img src="images/weather_score_weerplaza.png" alt="Weather score" width="400">
+<img src="images/weather_score_weerplaza.png" alt="Weather score" width="400px">
 
 Find more widgets at [https://www.weerplaza.nl/weerwidgets/](https://www.weerplaza.nl/weerwidgets/)
 

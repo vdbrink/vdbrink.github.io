@@ -56,7 +56,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Current day of the week (Dutch format)
 
-<img src="images/day_of_the_week.png" alt="Day of the week" width="400">
+<img src="images/day_of_the_week.png" alt="Day of the week" width="400px">
 
 ```yaml
 {% raw %}
@@ -85,7 +85,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Days count down
 
-<img src="images/days_countdown.png" alt="Days countdown" width="400">
+<img src="images/days_countdown.png" alt="Days countdown" width="400px">
 
 Countdown the number of days until they pick up the paper waste. 
 I use the `Twente Milieu` integration which creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD` 
@@ -130,7 +130,7 @@ To show only the message when it's less than 4 days before the pick-up I used th
 ---
 ## Hours count up
 
-<img src="images/hours_ago.jpg" alt="Hours count upn" width="400">
+<img src="images/hours_ago.jpg" alt="Hours count upn" width="400px">
 
 Count the hours since the last changed state. In this case when a drawer with medicines was opened for the last time.
 
@@ -155,7 +155,7 @@ The value 11.3 will round to 11 and also 11.6 will round to 11 hours.
 ---
 ## Last changed indication as secondary info
 
-<img src="images/hours_countdown_secondary.png" alt="Last changed indication as secondary info" width="400">
+<img src="images/hours_countdown_secondary.png" alt="Last changed indication as secondary info" width="400px">
 
 The value on the right is the actual sensor value.
 

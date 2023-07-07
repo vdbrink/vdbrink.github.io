@@ -78,7 +78,7 @@ Now you can click on the bottom right plus icon to add all your meals one by one
 
 To integrate Mealie in Home Assistant you have to create a new dashboard and use these settings:
 
-<img src="images_mealie/create_dashboard.png" alt="Create dashboard" width="400">
+<img src="images_mealie/create_dashboard.png" alt="Create dashboard" width="400px">
 
 <br/>
 
@@ -113,7 +113,7 @@ Now a week planner is made we can use this data.
 All data inside Mealie is also accessible through API calls.
 We can use this to get the meal for today and present that on a dashboard in a card.
 
-<img src="images_mealie/picture_element_meal_tonight.png" alt="meal planner" width="400">
+<img src="images_mealie/picture_element_meal_tonight.png" alt="meal planner" width="400px">
 
 #### Store in a sensor
 First a scraper is needed to get the data from the Mealie API and store it as sensor in Home Assistant.
@@ -141,7 +141,7 @@ Now we have the name of the meal for today and the corresponding image we can us
 
 The first card is a square picture-element.
 
-<img src="images_mealie/picture_element_meal_tonight_other.png" alt="Result" width="400">
+<img src="images_mealie/picture_element_meal_tonight_other.png" alt="Result" width="400px">
 
 You can set the `tap_action`, when you click on the card you navigate to the Mealie integration.
 
@@ -172,7 +172,7 @@ style: |
 
 Because the square image take a lot of space it's also possible to only use the center part of the photo to get the same impression but which use less space.
 
-<img src="images_mealie/picture_element_meal_tonight_small.png" alt="Result" width="400">
+<img src="images_mealie/picture_element_meal_tonight_small.png" alt="Result" width="400px">
 
 ```yaml
 {% raw %}
@@ -202,7 +202,7 @@ style: |
 
 It's also possible to show the complete meal planning for the whole week as list with a Markdown card element.
 
-<img src="images_mealie/mealie_ha_weekmenu.png" alt="Result" width="400">
+<img src="images_mealie/mealie_ha_weekmenu.png" alt="Result" width="400px">
 
 First create a scraper sensor in configuration.yaml.
 ```yaml
