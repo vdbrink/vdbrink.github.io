@@ -23,7 +23,7 @@ I created dashboards with all kind of elements in it:
 * [Interactive floor plan](homeassistant_dashboard_floorplan)
 * [Chores](homeassistant_dashboard_chores)
 * [Recipe manager](homeassistant_dashboard_mealie) (With meal weekplanner)
-* HACS custom element:
+* [HACS custom elements](homeassistant_dashboard_hacs) (Overview of some very useful custom HACS elements)
   * [Auto entities](homeassistant_dashboard_card_auto-entities) 
   * [Mushroom](homeassistant_dashboard_card_mushroom) 
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)

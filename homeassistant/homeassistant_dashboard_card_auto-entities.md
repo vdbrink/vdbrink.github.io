@@ -7,7 +7,7 @@ tags: Home Assistant, dashboard, lovelace, card, auto-entities, HACS
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard examples related to the add-on **auto-entities** which you can easily use in your own dashboards.
+Here you find Home Assistant (lovelace) dashboard examples related to the custom element **auto-entities** which you can easily use in your own dashboards.
 
 Auto-entities is a very powerful addon card which can let you make dynamic entity lists based on multiple filters, include and exclude entities and different type of sorting.
 
