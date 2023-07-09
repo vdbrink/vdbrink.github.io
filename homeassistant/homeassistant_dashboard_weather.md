@@ -10,7 +10,7 @@ tags: Home Assistant, dashboard, lovelace, weather, thunder, lightning
 Here you can find weather related examples for your own dashboard.
 
 
-[Here](homeassistant_dashboard_weather) you can also find Dutch weather elements.
+[Here](homeassistant_dashboard_weather_nl) you can also find Dutch weather elements.
 
 ---
 ## Table of Contents

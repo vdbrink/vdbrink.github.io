@@ -12,7 +12,7 @@ Here you can find dashboard related to the weather in the Netherlands.
 There are a lot of weather sites who service weather data on the web or in apps.
 We can use that data also to show direct on our Home Assistant dashboards.
 
-[Here](homeassistant_dashboard_weather) you can also find other weather elements.
+<a href="index"><img src="images/overview_weather_elements.png" alt="weather elements" height="1200px"></a>
 
 ---
 ## Table of Contents
