@@ -37,17 +37,7 @@ Source: Buienradar and Buienalarm
 
 <img src="images/rain_buienradar.png" alt="Rain buienradar" width="400px">
 
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard
-type: custom:neerslag-card
-title: Neerslag
-entities:
-  - sensor.neerslag_buienalarm_regen_data
-  - sensor.neerslag_buienradar_regen_data
-{% endraw %}
-```
+Install the hacs [**Neerslag App**](homeassistant_dashboard_hacs#neerslag-app) integration.
 
 ---
 ## Rain expected value
