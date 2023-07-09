@@ -17,8 +17,10 @@ We can use that data also to show direct on our Home Assistant dashboards.
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Rain radar](#rain-radar)
 * [Rain expected value](#rain-expected-value)
+* [Animated weather predictions](#animated-weather-predictions)
+* [Weather predictions](#weather-predictions)
+* [Rain expected value](#rain-expected-value-1)
 * [Rain radar animated](#rain-radar-animated)
 * [Weather alarm map](#weather-alarm-map)
 * [Weather alarm](#weather-alarm)
@@ -31,14 +33,63 @@ We can use that data also to show direct on our Home Assistant dashboards.
 <!-- TOC -->
 
 ---
-## Rain radar
+## Rain expected value
 
-Source: Buienradar and Buienalarm
+Based on the buienalarm data: a number how much rain is expected.
 
-<img src="images/rain_buienradar.png" alt="Rain buienradar" width="400px">
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard
+type: custom:clock-weather-card
+entity: weather.tempest
+forecast_days: 5
+locale: nl
+time_format: 24
+date_pattern: P
+hide_today_section: false
+hide_forecast_section: false
+{% endraw %}
+```
 
-Install the hacs [**Neerslag App**](homeassistant_dashboard_hacs#neerslag-app) integration.
+---
+## Animated weather predictions
 
+<img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
+
+Install the hacs [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard
+type: custom:clock-weather-card
+entity: weather.home
+forecast_days: 3
+locale: nl
+time_format: 24
+date_pattern: P
+hide_today_section: false
+hide_forecast_section: false
+{% endraw %}
+```
+---
+## Weather predictions
+
+Nice overview with the current weather predictions. 
+
+<img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
+
+Install the hacs [**weather-chart-card**]() integration.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard
+type: custom:weather-chart-card
+entity: weather.home
+{% endraw %}
+```
 ---
 ## Rain expected value
 
@@ -59,7 +110,7 @@ Based on the buienalarm data: a number how much rain is expected.
           {% set total_precip = total_precip +(value | int) %}
         {% endfor %}
         {{ total_precip }}
-        {% endraw %}
+{% endraw %}
 ```
 ---
 ## Rain radar animated
