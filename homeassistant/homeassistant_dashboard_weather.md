@@ -10,6 +10,8 @@ tags: Home Assistant, dashboard, lovelace, weather, thunder, lightning
 Here you can find weather related examples for your own dashboard.
 
 
+[Here](homeassistant_dashboard_weather) you can also find Dutch weather elements.
+
 ---
 ## Table of Contents
 <!-- TOC -->
@@ -31,14 +33,10 @@ Show an iframe with the realtime lightning and thunderstorm activities from blit
 # Dashboard
 type: iframe
 url: >-
-https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=1&ScaleControl=1&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=0&MapStyleRangeValue=0&Advertisment=#7.5/52.2273/6.866
+https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=1&ScaleControl=1&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=0&MapStyleRangeValue=0&Advertisment=#10/52.100676/5.168668
 aspect_ratio: '1:0.6'
 {% endraw %}
 ```
-
-> I'm only looking for the query parameter to accept the cookies.
-Do you know how to accept then? [Please let me know.](https://github.com/vdbrink/vdbrink.github.io/issues)
-
 
 ## Outside pressure, good vs bad
 
@@ -63,5 +61,7 @@ A template which indicate good or bad based on a threshold value.
 
 ---
 [^^ Top](#table-of-contents)
+
+[Dutch weather elements >>](homeassistant_dashboard_weather)
 
 [<< See also my other Home Assistant pages](index)

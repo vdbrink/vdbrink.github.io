@@ -12,6 +12,8 @@ Here you can find dashboard related to the weather in the Netherlands.
 There are a lot of weather sites who service weather data on the web or in apps.
 We can use that data also to show direct on our Home Assistant dashboards.
 
+[Here](homeassistant_dashboard_weather) you can also find other weather elements.
+
 ---
 ## Table of Contents
 <!-- TOC -->
@@ -177,6 +179,8 @@ state_color: true
 {% endraw %}
 ```
 
+Check the [styling](homeassistant_dashboard_styling) page for more ways to give elements the color of the weather alarm.
+
 ### Conditional weather alarm
 
 You can add this data also to your `Important data panel` and only show this information when it's not code green.
@@ -333,5 +337,7 @@ Consider a donation if this is useful for you, via [PayPal](https://www.paypal.m
 
 ---
 [^^ Top](#table-of-contents)
+
+[Other weather elements >>](homeassistant_dashboard_weather)
 
 [<< See also my other Home Assistant pages](index)
