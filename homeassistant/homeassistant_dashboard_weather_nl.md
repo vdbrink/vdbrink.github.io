@@ -42,7 +42,7 @@ Based on the buienalarm data: a number how much rain is expected.
 # Sourcecode by vdbrink.github.io
 # Dashboard
 type: custom:clock-weather-card
-entity: weather.tempest
+entity: weather.home
 forecast_days: 5
 locale: nl
 time_format: 24
@@ -145,7 +145,7 @@ Alarm code colors per province.
 # Sourcecode by vdbrink.github.io
 # Dashboard
 type: picture-elements
-image: https://cdn.knmi.nl/knmi/map/general/waarschuwing_land_48_new.gif
+image: https://cdn.knmi.nl/knmi/map/current/weather/warning/waarschuwing_land_0_new.gif
 elements:
 - type: image
   title: Weercode
