@@ -21,6 +21,7 @@ I created dashboards with all kind of elements in it:
 * [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
 * [Different examples](homeassistant_dashboard_examples) (The latest news)
 * [Interactive floor plan](homeassistant_dashboard_floorplan)
+* [Web scraper](homeassistant_web_scraper) (Show website data on your dashboard)
 * [Chores](homeassistant_dashboard_chores)
 * [Recipe manager](homeassistant_dashboard_mealie) (With meal weekplanner)
 * [HACS custom elements](homeassistant_dashboard_hacs) (Overview of some very useful custom HACS elements)
