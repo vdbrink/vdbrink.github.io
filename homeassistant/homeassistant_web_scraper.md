@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant: web scraper"
+title: "Home Assistant: Web scraper"
 category: Home Assistant
 tags: Home Assistant, dashboard, web scraper
 ---
@@ -21,7 +21,7 @@ Here we get the actual dynamic gas price from a provider and show this on our da
 * [How it works](#how-it-works)
 * [Define the CSS Selector and Index](#define-the-css-selector-and-index)
 * [Configure the scraper in Home Assistant](#configure-the-scraper-in-home-assistant)
-* [Check your sensor](#check-your-sensor-)
+* [Check your sensor](#check-your-sensor)
 * [Update the sensor](#update-the-sensor)
 * [Add it to your dashboard](#add-it-to-your-dashboard)
 <!-- TOC -->
@@ -106,7 +106,7 @@ Congratulations! You just created a new web scrape sensor!
 You don't need to refresh or restart anything, the sensor is direct available.
 
 ---
-## Check your sensor 
+## Check your sensor
 
 Hopefully everything went well. Let's check the result!
 
@@ -136,10 +136,6 @@ Now you can use your new sensor on your dashboard or in an automation.
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 <br><br>
 Happy scraping!
-
----
-
-Consider to <a href="#donate">donate</a> a cup of coffee if you find this useful.
 
 ---
 > **_NOTE:_** In the old YAML [scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!
