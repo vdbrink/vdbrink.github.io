@@ -157,8 +157,8 @@ Just some other page and settings with data you can scrape.
 | Latest formula 1 news    | https://www.f1news.nl/                                          | div.uplp-post-title | 0     |
 | KNMI dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | div.alert__heading  | 0     |
 | nu.nl news headline      | https://www.nu.nl                                               | h1.title.fluid      | 0     |
-
-Let me know if you have some nice scraped data then I can add it also here.
+<br>
+Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scraped data!
 
 ---
 > **_NOTE:_** In the old YAML [scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!
