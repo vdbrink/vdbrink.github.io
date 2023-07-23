@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant: Web scraper"
+title: "Home Assistant: Web Scraper"
 category: Home Assistant
 tags: Home Assistant, dashboard, web scraper
 ---
