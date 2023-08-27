@@ -33,6 +33,7 @@ Show all temperature sensors in order of their temperature from high to low. And
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: custom:auto-entities
 card:
   type: entities
@@ -73,6 +74,7 @@ Show this only when the entity `sensor.moon` has the status `full_moon`.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:auto-entities
   card:
     type: entities
@@ -96,6 +98,7 @@ Show only when the amount of days is less than 4 AND more than -1.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:auto-entities
   card:
     type: entities

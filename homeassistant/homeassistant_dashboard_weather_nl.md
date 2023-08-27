@@ -40,7 +40,7 @@ Based on the buienalarm data: a number how much rain is expected.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: custom:clock-weather-card
 entity: weather.home
 forecast_days: 5
@@ -62,7 +62,7 @@ Install the hacs [**clock-weather-card**](https://github.com/pkissling/clock-wea
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: custom:clock-weather-card
 entity: weather.home
 forecast_days: 3
@@ -85,7 +85,7 @@ Install the hacs [**weather-chart-card**]() integration.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: custom:weather-chart-card
 entity: weather.home
 {% endraw %}
@@ -98,7 +98,7 @@ Based on the buienalarm data: a number how much rain is expected.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 - platform: template
   sensors:
     buienalarm_rain_expected:
@@ -124,7 +124,7 @@ An animated image of 2 hours prediction of the rain in steps of 5 minutes.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: iframe
 url: https://www.weeronline.nl/widget/radar?id=135
 aspect_ratio: '1.06'
@@ -143,7 +143,7 @@ Alarm code colors per province.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: picture-elements
 image: https://cdn.knmi.nl/knmi/map/current/weather/warning/waarschuwing_land_0_new.gif
 elements:
@@ -190,7 +190,7 @@ The custom CSS color styling is done with the HACS module [lovelace-card-mod](ht
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: entities
 title: Weer alarm
 entities:
@@ -230,7 +230,7 @@ The text is also clickable to open the corresponding site with more info.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 - type: conditional
   conditions:
     - entity: sensor.knmi_weercode
@@ -268,7 +268,7 @@ This is the basic variant which show only the image.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: picture-elements
 image: https://pollennieuws.nl/weerkaart/KaartNL_280-website.png
 {% endraw %}
@@ -281,7 +281,7 @@ You have to place the [overlay image black.png](images/black.png) in the Home As
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: picture-elements
 image: https://pollennieuws.nl/weerkaart/KaartNL_280-website.png
 elements:
@@ -315,7 +315,7 @@ Here you can also add some text and an entity, like the current outside temperat
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 show_state: false
 show_name: true
 camera_view: auto
@@ -341,7 +341,7 @@ Image with the precipitation surplus (neerslagoverschot) for (the last) 3 months
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: picture-elements
 image: >-
   https://cdn.knmi.nl/knmi/map/page/klimatologie/geografische-overzichten/rdev/rdev_geografisch.png
@@ -365,7 +365,7 @@ Find more widgets at [https://www.weerplaza.nl/weerwidgets/](https://www.weerpla
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: iframe
 url: https://www.weerplaza.nl/weerwidgets/activiteit/?YT1maWV0cyZnaWQ9NTU3NQ==
 aspect_ratio: 60%

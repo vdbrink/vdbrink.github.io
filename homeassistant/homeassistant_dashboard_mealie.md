@@ -148,6 +148,7 @@ You can set the `tap_action`, when you click on the card you navigate to the Mea
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: picture-entity
 entity: sensor.maaltijd_voor_vandaag
 name: Avond eten
@@ -177,6 +178,7 @@ Because the square image take a lot of space it's also possible to only use the 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: picture-entity
 entity: sensor.maaltijd_voor_vandaag
 name: Avond eten
@@ -227,6 +229,7 @@ The day of the week will be automatic set correct in the list. (Translate it if 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: markdown
   title: week menu
   content: >-

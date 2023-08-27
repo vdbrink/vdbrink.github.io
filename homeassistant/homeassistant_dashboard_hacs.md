@@ -73,6 +73,7 @@ Repo: https://github.com/thomasloven/lovelace-slider-entity-row
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: custom:slider-entity-row
 entity: light.group_light1
 toggle: true
@@ -129,6 +130,7 @@ Repo: https://github.com/thomasloven/lovelace-template-entity-row
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: entities
 entities:
   - entity: sensor.temp1_temperature

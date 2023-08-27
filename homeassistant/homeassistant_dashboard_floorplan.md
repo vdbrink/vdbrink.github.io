@@ -112,6 +112,7 @@ Your floor plan will be a layered model with the raw floor plan as base, then a 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: picture-elements
 image: /local/base.png
 elements:
@@ -143,6 +144,7 @@ Sometimes you need to create a binary helper sensor to indicate when the layer m
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# configuration.yaml
 binary_sensor:
   - platform: template
     sensors:
@@ -162,6 +164,7 @@ Overlay based on a smart plug status.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: image
   entity: binary_sensor.overlay_x
   title: overlay
@@ -190,6 +193,7 @@ Entity icons (state-icon) show the icon of an entity.
 
 ```yaml
 {% raw %}
+# Dashboard card code
 - type: state-icon
   title: motion
   entity: binary_sensor.motion_occupancy
@@ -210,6 +214,7 @@ To format a temperature see [here](homeassistant_dashboard_formatting#rounded-te
 
 ```yaml
 {% raw %}
+# Dashboard card code
 - type: state-label
   title: temp at room X
   entity: sensor.temp_temperature_rounded

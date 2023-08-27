@@ -798,6 +798,7 @@ elements:
 
 ```yaml
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: vertical-stack
 cards:
 - type: horizontal-stack
@@ -862,6 +863,7 @@ I integrated the exported Grafana dashboard in a vertical stack to stick them to
 This is the corresponding YAML.
 ```yaml
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: vertical-stack
 cards:
   - type: iframe

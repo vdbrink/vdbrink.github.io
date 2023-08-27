@@ -29,6 +29,7 @@ You need the extra HACS module [lovelace-card-mod](https://github.com/thomaslove
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: entities
 entities:
   - entity: sensor.knmi_weercode
@@ -65,6 +66,7 @@ You can change the color of the sensor status based on its value.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: entities
 entities:
   - entity: sensor.knmi_weercode
@@ -98,6 +100,7 @@ Repo: https://github.com/thomasloven/lovelace-template-entity-row
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: entities
 entities:
   - entity: sensor.temp1_temperature
@@ -139,6 +142,7 @@ You need the extra HACS module [lovelace-card-mod](https://github.com/thomaslove
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: entities
 entities:
   - entity: sensor.knmi_weercode

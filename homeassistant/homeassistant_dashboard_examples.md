@@ -41,7 +41,7 @@ Use a Markdown card to present the news.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
  - type: markdown
         content: |
           {{ states('sensor.nu_nl_headline') }} [>>](http://nu.nl)

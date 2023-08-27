@@ -121,6 +121,7 @@ This is the corresponding Home Assistant yaml code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: custom:vertical-stack-in-card
 title: System Monitor
 cards:

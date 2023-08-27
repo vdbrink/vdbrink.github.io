@@ -56,6 +56,7 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:mushroom-title-card
   title: > 2
     {%- if now().hour < 12 -%}Goeiemorgen
@@ -82,6 +83,7 @@ In my example I only show them, with a condition, when they are relative.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:mushroom-chips-card
   chips:
     - chip:
@@ -114,6 +116,7 @@ In my example I only show them, with a condition, when they are relative.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:mushroom-chips-card
   chips:
     - type: conditional
@@ -137,6 +140,7 @@ In my example I only show them, with a condition, when they are relative.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:mushroom-chips-card
   chips:
     - type: entity
@@ -152,6 +156,7 @@ In my example I only show them, with a condition, when they are relative.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:mushroom-chips-card
   chips:
   - type: conditional
@@ -176,6 +181,7 @@ In my example I only show them, with a condition, when they are relative.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+# Dashboard card code
 - type: custom:mushroom-chips-card
   chips:
     - type: conditional

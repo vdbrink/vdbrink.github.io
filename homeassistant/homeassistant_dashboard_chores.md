@@ -135,7 +135,7 @@ It contains the layout and the four cards.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: horizontal-stack
 cards:
   # left column
@@ -297,7 +297,7 @@ Place the next code in it.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 type: custom:auto-entities
 card:
   type: entities

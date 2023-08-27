@@ -18,12 +18,15 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 * [Current time and date (Dutch format)](#current-time-and-date-dutch-format)
 * [Current day of the week (Dutch format)](#current-day-of-the-week-dutch-format)
 * [Days count down](#days-count-down)
+* [How long an entity is active in human-readable text](#how-long-an-entity-is-active-in-human-readable-text)
 * [Hours count up](#hours-count-up)
 * [Last changed indication as secondary info](#last-changed-indication-as-secondary-info)
 * [Last changed indication](#last-changed-indication)
 * [Triggered today](#triggered-today)
 <!-- TOC -->
+
 ---
+
 ## Current time and date (Dutch format)
 
 ![Current date and time](images/date_time.png)
@@ -50,7 +53,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 - type: entity
   entity: sensor.time_formatted
   name: ' '
@@ -79,7 +82,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 - type: entity
   entity: sensor.time_formatted
   name: ' '
@@ -119,7 +122,7 @@ To show only the message when it's less than 4 days before the pick-up I used th
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 - type: custom:auto-entities
   card:
     type: entities
@@ -132,6 +135,65 @@ To show only the message when it's less than 4 days before the pick-up I used th
 ```
 
 ---
+## How long an entity is active in human-readable text
+
+<img src="images_date_time/running_washingmachine.png" alt="How long the washing machine is running" width="400px">
+
+Show in human-readable text how long an entity, like a washing machine, is active.
+
+I used a custom HACS module mushroom.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: custom:mushroom-title-card
+  title: |-
+  {{ 'De wasmachine is ' }}
+  {%- set entity_id = 'binary_sensor.wasmachine' -%}
+  {%- if is_state(entity_id, 'on') -%}
+  
+      {%- set runningsince = (now()) - ((states[entity_id].last_changed)) -%}
+      {%- set runningsinceseconds = runningsince.total_seconds()|round -%}
+      {%- set runningsincedays = (runningsinceseconds / 86400)|int|string -%}
+      {%- set runningsincedaystext = 'dagen' -%}
+      {%- if runningsincedays|int == 1 -%}
+        {%- set runningsincedaystext = 'dag' -%}
+      {%- endif -%}
+  
+      {%- set runningsincehours = (runningsinceseconds % 86400 / 3600)|int|string -%}
+      {%- set runningsincehourstext = 'uren' -%}
+      {%- if runningsincehours|int == 1 -%}
+        {%- set runningsincehourstext = 'uur' -%}
+      {%- endif -%} 
+      
+      {%- set runningsinceminutes = (runningsinceseconds % 3600 / 60)|int|string -%} 
+      {%- set runningsinceminutestext = 'minuten' -%}
+      {%- if runningsinceminutes|int == 1 -%} 
+        {%- set runningsinceminutestext = 'minuut' -%}
+      {%- endif -%} 
+  
+      {%- if runningsincedays|int > 0 -%} 
+      # Running more then 1 day
+        {{ runningsincedays + ' ' + runningsincedaystext + ', ' + runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }} 
+      {%- elif runningsincehours|int > 0 -%}
+      # Running more then 1 hour
+        {{ runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }} 
+      {%- else -%}
+      # Running for minutes
+        {{ runningsinceminutes + ' ' + runningsinceminutestext }}
+      {%- endif -%}
+      {%- if is_state(entity_id, 'on') -%} 
+        {{ ' bezig'}} 
+      {%- endif -%}
+  {%- else -%}
+  # State is off
+    {{ ' uit' }}
+  {%- endif -%}
+{% endraw %}
+```
+---
+
 ## Hours count up
 
 <img src="images/hours_ago.jpg" alt="Hours count upn" width="400px">
@@ -166,7 +228,7 @@ The value on the right is the actual sensor value.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
 - type: entities
   entities:
     - entity: binary_sensor.contact1_contact
@@ -180,7 +242,7 @@ The value on the right is the actual sensor value.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard
+# Dashboard card code
     mailbox_timer:
       friendly_name: mailbox
       icon_template: mdi:clock-outline
