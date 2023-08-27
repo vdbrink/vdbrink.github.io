@@ -19,7 +19,6 @@ I created dashboards with all kind of elements in it:
 * [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc)
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
 * [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
-* [Different examples](homeassistant_dashboard_examples) (The latest news)
 * [Interactive floor plan](homeassistant_dashboard_floorplan)
 * [Web scraper](homeassistant_web_scraper) (Show website data on your dashboard)
 * [Chores](homeassistant_dashboard_chores)
@@ -29,6 +28,7 @@ I created dashboards with all kind of elements in it:
   * [Mushroom](homeassistant_dashboard_card_mushroom) 
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
 * [Hardware monitor](homeassistant_hardware_monitor)
+* [Random examples](homeassistant_dashboard_examples) (The latest news)
 
 ---
 ## How I use Home Assistant

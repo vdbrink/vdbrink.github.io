@@ -59,7 +59,7 @@ entities:
 
 You can change the color of the sensor status based on its value.
 
-You need the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod).
+**Option 1**: Use the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
 
 ![Changing text color](images_styling/colored_status.png)
 ```yaml
@@ -89,6 +89,45 @@ entities:
         }
   {% endraw %}
 ```
+
+**Option 2**: Use the HACS module [template-entity-row](homeassistant_dashboard_hacs#template-entity-row)
+
+<img src="images_hacs/hacs_template-entity-row.png" alt="template-entity-row" width="400px">
+
+Repo: https://github.com/thomasloven/lovelace-template-entity-row
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+type: entities
+entities:
+  - entity: sensor.temp1_temperature
+    type: custom:template-entity-row
+    state: |
+      {{ states(config.entity)|round(0)}} °C
+    style: |
+      :host {
+        --paper-item-icon-color:
+         {% set level = states(config.entity)|round(0) %}
+         {% if level >= 30 %} firebrick
+         {% elif level >= 25 %} orange
+         {% elif level < 10 %} blue
+         {% else %} var(--primary-text-color)
+         {% endif %} 
+         ;
+       }
+       .state {
+         color: 
+         {% set level = states(config.entity)|round(0) %}
+         {% if level >= 30 %} firebrick
+         {% elif level >= 25 %} orange
+         {% elif level < 10 %} blue
+         {% else %} var(--primary-text-color)
+         {% endif %} 
+       }
+
+{% endraw %}
+```
+
 ---
 ## Changing background color
 

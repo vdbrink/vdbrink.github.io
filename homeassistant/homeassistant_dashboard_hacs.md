@@ -113,20 +113,48 @@ Repo: https://github.com/aex351/home-assistant-neerslag-app
 
 ## Swipe Navigation
 
+Swipe to left/right to switch to the side lovelace dashboard on your mobile device.
+
+Repo: https://github.com/zanna-37/hass-swipe-navigation
+
 ---
 
 ## template-entity-row
 
+Customize a single row for an entities.
 
----
-## example: slider-entity-row
-source:
+<img src="images_hacs/hacs_template-entity-row.png" alt="template-entity-row" width="400px">
 
-![](images_hacs/hacs_slider-entity-row.png)
+Repo: https://github.com/thomasloven/lovelace-template-entity-row
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# configuration.yaml
+type: entities
+entities:
+  - entity: sensor.temp1_temperature
+    type: custom:template-entity-row
+    state: |
+      {{ states(config.entity)|round(0)}} °C
+    style: |
+      :host {
+        --paper-item-icon-color:
+         {% set level = states(config.entity)|round(0) %}
+         {% if level >= 30 %} firebrick
+         {% elif level >= 25 %} orange
+         {% elif level < 10 %} blue
+         {% else %} var(--primary-text-color)
+         {% endif %} 
+         ;
+       }
+       .state {
+         color: 
+         {% set level = states(config.entity)|round(0) %}
+         {% if level >= 30 %} firebrick
+         {% elif level >= 25 %} orange
+         {% elif level < 10 %} blue
+         {% else %} var(--primary-text-color)
+         {% endif %} 
+       }
 
 {% endraw %}
 ```

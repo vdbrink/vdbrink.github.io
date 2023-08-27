@@ -17,7 +17,6 @@ Here you find some random Home Assistant (lovelace) dashboard examples which you
 <!-- TOC -->
 * [News headline (nu.nl)](#news-headline-nunl)
 * [Create a new custom sensor: chair occupancy](#create-a-new-custom-sensor-chair-occupancy)
-* [Triggered today](#triggered-today)
 <!-- TOC -->
 
 ---
@@ -74,24 +73,6 @@ homeassistant:
   customize: 
     binary_sensor.chair:
       icon: mdi:chair-rolling
-{% endraw %}
-```
-
----
-## Triggered today
-
-Test if the robot vacuum already run today.  
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-binary_sensor:
-  - platform: template
-    sensors:
-       vaccuum_run_today:
-            friendly_name: "runned today"
-            value_template: "{{ as_local(as_datetime(states("sensor.vacuum_last_clean_start"))).date() == now().date() }}"
 {% endraw %}
 ```
 

@@ -14,11 +14,15 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 
 ---
 ## Table of Contents
+<!-- TOC -->
 * [Current time and date (Dutch format)](#current-time-and-date-dutch-format)
 * [Current day of the week (Dutch format)](#current-day-of-the-week-dutch-format)
 * [Days count down](#days-count-down)
 * [Hours count up](#hours-count-up)
 * [Last changed indication as secondary info](#last-changed-indication-as-secondary-info)
+* [Last changed indication](#last-changed-indication)
+* [Triggered today](#triggered-today)
+<!-- TOC -->
 ---
 ## Current time and date (Dutch format)
 
@@ -182,6 +186,24 @@ The value on the right is the actual sensor value.
       icon_template: mdi:clock-outline
       value_template: >
         {{ relative_time(states.binary_sensor.mailbox_contact.last_changed) }}
+{% endraw %}
+```
+
+---
+## Triggered today
+
+Test if the robot vacuum already run today.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+binary_sensor:
+  - platform: template
+    sensors:
+       vaccuum_run_today:
+            friendly_name: "runned today"
+            value_template: "{{ as_local(as_datetime(states("sensor.vacuum_last_clean_start"))).date() == now().date() }}"
 {% endraw %}
 ```
 
