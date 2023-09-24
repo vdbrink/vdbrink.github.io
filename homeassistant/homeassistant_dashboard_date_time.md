@@ -139,7 +139,7 @@ To show only the message when it's less than 4 days before the pick-up I used th
 
 <img src="images_date_time/running_washingmachine.png" alt="How long the washing machine is running" width="400px">
 
-<img src="images_date_time/running_washingmachine2.png" alt="Running more then one hour" width="400px">
+<img src="images_date_time/running_washingmachine2.png" alt="Running more than one hour" width="400px">pi
 
 Show in human-readable text how long an entity, like a washing machine, is active.
 

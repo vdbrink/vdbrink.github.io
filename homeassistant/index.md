@@ -7,7 +7,7 @@ tags: Home Assistant, lovelace, dashboard, weather, dutch, examples
 
 ![Banner](images/ha_banner.png)
 
-<img style="float: right;" src="images/home_assistant_logo.png" alt="Home Assistant logo" >
+<img style="float: right;height:200px" src="images/home_assistant_logo.png" alt="Home Assistant logo" >
 
 I created so many different dashboards that I want to document and share them with you.
 One by one I will add them here.
@@ -29,6 +29,7 @@ I created dashboards with all kind of elements in it:
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
 * [Hardware monitor](homeassistant_hardware_monitor)
 * [Random examples](homeassistant_dashboard_examples) (The latest news)
+* [Pientere Tuinen](homeassistant_dashboard_pientere_tuinen) (Dutch garden and soil project)
 
 ---
 ## How I use Home Assistant
