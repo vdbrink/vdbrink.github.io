@@ -36,8 +36,6 @@ Inside a Co2 sensor and an ESP mini.
 - [Connect the hardware](#connect-the-hardware)
 - [ESPHome](#esphome)
 - [Home Assistant](#home-assistant)
-- [Sponsor me](#sponsor-me)
-- [Remarks or suggestions?](#remarks-or-suggestions)
 
 ---
 
@@ -63,7 +61,7 @@ These hardware components do I use for this project:
 
 * 5V USB power adapter to power the ESP [link 1](https://aliexpress.com/item/4000016006173.html) [link 2](https://aliexpress.com/item/1005003080781367.html)
 
-![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
+<img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200"/>
 
 No affiliate links are used here, only some example links where you can buy the required parts for this project.
 
@@ -128,7 +126,7 @@ For more information about installing and flashing your ESP with ESPHome see the
 
 The script:
 ```yaml
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
 esphome:
   name: esp_co2
   comment: Room Co2 sensor
@@ -166,16 +164,16 @@ sensor:
 
 Ones the sensor push the data, you can use and present the data on your dashboards or create notifications when the status is not good.
 
-### Lovelace Gauge
+### Dashboard Gauge
 
 In a gauge you can direct see if the current co2 value is correct.
 I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction). 
 
-<img src="co2_images/home_assistant_senseair_s8_gauge.jpg" alt="Home Assistant Gauge" width="500px">
+<img src="co2_images/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
 
 ```yaml
-# Source by vdbrink.github.io
-# Lovelace Card config
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: gauge
 severity:
   green: 400
@@ -186,15 +184,15 @@ min: 350
 max: 1500
 name: Room Co2 sensor
 ```
-### Lovelace Graphic
+### Dashboard Graphic
 
 To show the history of the last x hours you can use the card.
 
-<img src="co2_images/home_assistant_senseair_s8_graph.jpg" alt="Home Assistant Graph" width="500px" />
+<img src="co2_images/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
 
 ```yaml
-# Source by vdbrink.github.io
-# Lovelace Card config
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: sensor
 graph: line
 entity: sensor.senseair_co2_value
@@ -208,7 +206,7 @@ This creates a new sensor which show a textual presentation of the current condi
 
 ```yaml
 {% raw %}
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
 # configuration.yaml
 - platform: template
   sensors:
@@ -232,8 +230,8 @@ There is also a message when the Co2 value is not good. This section can be achi
 
 ```yaml
 {% raw %}
-# Source by vdbrink.github.io
-# Lovelace Card config
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: entities
 entities:
 - type: conditional
@@ -244,24 +242,3 @@ entities:
         entity: sensor.senseair_co2_value_text
 {% endraw %}
 ```
-
----
-## Sponsor me
-
-<img src="../images/avatar.jpg" alt="me" width="100px">
-
-If you like what your read here consider a donation.
-
-It's up to you if, and how much you want to support me writing more articles like this.
-
-You can donate via PayPal
-https://www.paypal.me/revdbrink
-
-
----
-## Remarks or suggestions?
-Do you have any remarks or suggestions please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
