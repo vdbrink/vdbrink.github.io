@@ -5,6 +5,7 @@ category: ESPHome
 tags: Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome
 ---
 # Control an Orcon mechanic ventilation system from Home Assistant
+*Based on an original Orcon remote*
 
 ## Introduction
 
@@ -51,8 +52,6 @@ I can also automatic trigger it, via MQTT, from Node-RED based on different sens
 * [Other approaches to control it](#other-approaches-to-control-it)
 * [References](#references)
 * [Credits](#credits)
-* [Sponsor me](#sponsor-me)
-* [Remarks or suggestions?](#remarks-or-suggestions)
 <!-- TOC -->
 
 ---
@@ -80,11 +79,11 @@ These hardware components do I use for this project:
 
 ![Dupont female to female wires](images/dupont_female_to_female.jpg "Dupont female to female wires")
 
-* Adapter 8 pins, 1 mm pitch, with pin head [link 1](https://aliexpress.com/item/32974345886.html) [link 2](https://aliexpress.com/item/1005001311060175.html)
+* Adapter 8 pins, 1 mm pitch (NOT the 0.5 mm), with pin head [link 1](https://aliexpress.com/item/32974345886.html) [link 2](https://aliexpress.com/item/1005001311060175.html)
 
 ![Dupont female to female wires](orcon_images/adapter_8pins_1mm.jpg "Dupont female to female wires")
 
-* Flat cable 8 pins, 1 mm pitch [link 1](https://aliexpress.com/item/1005001603277462.html) [link 2](https://aliexpress.com/item/1005002316479373.html)
+* Flat cable 8 pins, 1 mm pitch (NOT the 0.5 mm) [link 1](https://aliexpress.com/item/1005001603277462.html) [link 2](https://aliexpress.com/item/1005002316479373.html)
   * The length and if the connectors are on the same side is up to you
 
 ![Dupont female to female wires](orcon_images/flat_cable_8pins_1mm.jpg "Dupont female to female wires")
@@ -166,7 +165,7 @@ For more information about installing and flashing your ESP with ESPHome see the
   <summary><b>> Click here to see the ESPHome configuration file >></b></summary>
 
 ```yaml
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
 esphome:
   name: orcon_mcu
   platform: ESP8266
@@ -402,7 +401,7 @@ I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwi
   <summary><b>> Click here to see the corresponding scripts.yaml code >></b></summary>
 
 ```yaml
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
 switch_orcon_mode_1:
   alias: switch_orcon_mode_1
   sequence:
@@ -490,7 +489,8 @@ This design use the six created helper toggles which operate as buttons, and the
   <summary><b>> Click here to see the service scripts YAML >></b></summary>
 
 ```yaml
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: vertical-stack
 cards:
   - type: horizontal-stack
@@ -570,7 +570,8 @@ This black panel design is created with a `picture-element` with a black backgro
 You have to place the [background image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 
 ```yaml
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: picture-elements
 image: /local/black.png
 aspect_ratio: 6x2
@@ -677,7 +678,8 @@ The black square is a placeholder to define an area to click.
   <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
 
 ```yaml
-# Source by vdbrink.github.io
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: picture-elements
 image: /local/orcon_15rf_remote.jpg
 elements:
@@ -858,6 +860,8 @@ I run Grafana where I can visualize the power consumption of my ventilation rela
 
 I integrated the exported Grafana dashboard in a vertical stack to stick them together in the dashboard.
 
+[//]: # (For more details about this integration see [How to add Grafana dashboards to Home Assistant]&#40;../homeassistant/homeassistant_dashboard_grafana&#41;)
+
 <img width="250px" src="orcon_images/grafana_dashboards.jpg" alt="Grafana dashboards">
 
 This is the corresponding YAML.
@@ -885,12 +889,12 @@ The system can automatically be controlled by different type of sensors and actu
 - A temperature and humidity sensor (Aqara WSDCGQ11LM) in the extractor hood above the stove.
 - A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low but in autumn very high for the whole day. In my experience if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
-<img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500" />
+<img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500px" />
   
 - A temperature and humidity sensor (Aqara WSDCGQ11LM) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
 - I also have a reference sensor outside the bathroom as reference data.
 
-<img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500" />
+<img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500px" />
 
 - A toilet VOC (Volatile Organic Compounds) sensor (Not yet realized)
 
@@ -900,35 +904,40 @@ I store my sensor data in an influxDB database which gives me the possibility to
 
 Here you can see, one of my first scripts, the Orcon is automatic activated (yellow line) after the humidity in the shower is more than 70%, and it automatically shuts down when it's lower than 55%. 
 
-<img src="orcon_images/grafana_shower_humidity.jpg" alt="Automatic controlled based on humidity" width="500" />
+<img src="orcon_images/grafana_shower_humidity.jpg" alt="Automatic controlled based on humidity" width="500px" />
 
 #### Flow description
 
+<img src="../node-red/images/node-red_logo.png" alt="Node-RED logo" width="100px" style="float:right" />
 I created in Node-RED the next flow: 
 If all the criteria are valid a trigger is sent to the Orcon to shut it down. If one of the criteria is not valid it stops the checks and sets a custom sensor with the reason why the orcon is still active.
 
 Every 15 minutes this flow is triggered.
 
-Bathroom checks:
+**Bathroom checks:**
 * Is the dryer not active? 
   * The dryer is in the bathroom and produced a lot of heat.
 * Is the humidity in the bathroom less than 70%?
   * If someone is in the shower the humidity reach 100%.
-* Is the difference between the humidity in and outside the bathroom less than 7%?
+* Is the difference between the humidity in- and outside the bathroom less than 7%?
   * You can't work with fixed values it can be that it will never drop below the 60%. Especially in autumn.
 * Is the bathroom temperature less than 26 degrees?
   * This can be caused by the dryer or taking a shower.
 
-Kitchen extractor hood checks:
+<br/>
+
+**Kitchen extractor hood checks:**
 * Is the humidity in the kitchen extractor hood less than 70%?
   *  When you heating food on the stove the humidity can rise and drop.
-* Is the difference between the humidity in and outside the extractor hood less than 7%?
+* Is the difference between the humidity in- and outside the extractor hood less than 7%?
   *  When you heating food on the stove the humidity will drop.
 * Is the extractor hood temperature less than 26 degrees?
     * This can be caused by the dryer or taking a shower.
 
-Other checks:
-* Is the Orcon started more than 10 minutes ago?
+<br/>
+
+**Other checks:**
+* Is the Orcon started (manual) more than 10 minutes ago?
   * It can be that the orcon is started manually with the normal remote. Then it doesn't match all the previous criteria, but you still want to run it for some other reason.
 * Is the VOC level in the toilet low enough? (Not in my setup)
 * Is the CO2 level low enough? (Not in my setup)
@@ -936,6 +945,8 @@ Other checks:
   * If also the last check match it can be shut down.
 
 #### The Node-RED flow
+This is the corresponding flow in Node-RED.
+
 <a href="orcon_images/script_node-red.png" target="_blanc">
 <img src="orcon_images/script_node-red.png" alt="Node-RED flow" width="100%" />
 </a>
@@ -946,7 +957,6 @@ Other checks:
 - Register the remote to the system via the ESP
 - Activate the system based on toilet usage via a VOC sensor
 - Show the current mode in design 3
-
 
 ---
 ## Other approaches to control it
@@ -983,24 +993,3 @@ This info helped me to eventually realize my implementation.
     
 [tweakerVdR for sharing his HA code](https://gathering.tweakers.net/forum/view_message/66345082)
 
-
----
-## Sponsor me
-
-<img src="../images/avatar.jpg" alt="me" width="100px">
-
-If you like what your read here consider a donation. 
-
-It's up to you if, and how much you want to support me writing more articles like this. 
-
-You can donate via PayPal
-https://www.paypal.me/revdbrink
-
-
----
-## Remarks or suggestions?
-Do you have any remarks or suggestions please let me know via github issues.
-
-[Create an issue](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-Or via a [private message](https://gathering.tweakers.net/forum/send_privatemessage/172381) on the Tweakers.net forum.
