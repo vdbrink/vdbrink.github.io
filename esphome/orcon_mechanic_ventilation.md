@@ -96,7 +96,7 @@ These hardware components do I use for this project:
 
 ![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
 
-* Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-15 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP15-Zigbee-3_0-16A-3680W-Smart-Plug-Wireless-Power-Socket-Outlet-EU-Plug-APP-Remote-Control-or-Voice-Control-or-Multiple-Timer-Modes-Compatible-With-Amazon-Alexa-or-Google-Assistant-p-1856492.html)
+* (optional) Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-15 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP15-Zigbee-3_0-16A-3680W-Smart-Plug-Wireless-Power-Socket-Outlet-EU-Plug-APP-Remote-Control-or-Voice-Control-or-Multiple-Timer-Modes-Compatible-With-Amazon-Alexa-or-Google-Assistant-p-1856492.html)
 
 ![BlitzWolf SHP-15](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-15")
 
@@ -281,6 +281,12 @@ mqtt:
 If you want to add these also to your script checkout [this message](https://community.home-assistant.io/t/binary-template-sensor-not-woring/224593/23)  
 If you want to read all about the remote possibilities, I placed a link to the Dutch manual in the [References](#references) chapter.
 
+#### Problems with flashing
+* He won't connect to my wifi network
+  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network but if it has the same name he still tries to. You can test if that's the case by disabling the 5GHz network mode in your router and see if the ESP now gets an IP-address correct.
+  <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
+* Make sure you see a green "SUCCESS" message after flashing and not any red error messages.
+  * Maybe the indenting is not correct. YAML is strict with a correct indenting. You can try https://www.yamllint.com/ to validate. 
 ---
 ## Register the remote to the ventilation system
 
@@ -292,7 +298,7 @@ If you have another remote this is still paired and don't need to pair it again.
 
 Now you can unplug the data cable from the touchpad and connect it to the flatcable. This has no effect on the paired status.
 
-<img src="orcon_images/remote_vs_esp.jpg" alt="ESP wires" height="300" />
+<img src="orcon_images/remote_vs_esp.jpg" alt="ESP wires" height="300px" />
 
 ---
 ## Test if it works
@@ -303,11 +309,11 @@ On Windows you can use MQTT Explorer. Send an empty body to topic `orcon_mcu/mod
 ### Via Home Assistant
 If the ESP is not already auto-discovered by Home Assistant you can go to Integrations and add the ESPHome integration. It will ask you for the IP-address and port number. I found the IP-address while flashing the ESP. The prefilled port `6053` is just fine. If it finds your device you see this:
 
-<img src="orcon_images/orcon_mcu_in_home_assistant_integrations.jpg" alt="New ESPHome integration in Home Assistant" width="250" />
+<img src="orcon_images/orcon_mcu_in_home_assistant_integrations.jpg" alt="New ESPHome integration in Home Assistant" width="250px" />
 
 When you click on the device link you see the defined buttons from the script.
 
-<img src="orcon_images/home_assistant_esp.jpg" alt="ESPHome Orcon MCU details" width="500" />
+<img src="orcon_images/home_assistant_esp.jpg" alt="ESPHome Orcon MCU details" width="500px" />
 
 You can now toggle the switches to test if you can control it now from Home Assistant.
 
@@ -318,7 +324,7 @@ With these controls it's only a one way communication, you can only send data to
 
 ### Background
 
-To get the current mode of the ventilation system you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose I use a BlitzWolf SHP-15 Zigbee smart power socket with power measurement for the MVS-15.  
+To get the current mode of the ventilation system you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose I use a BlitzWolf SHP-15 Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
 Based on the used power I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
@@ -329,7 +335,7 @@ Based on the used power I can determine the current mode, and present that in Ho
 
 The power consumption for the three different modes, presented in Grafana.
 
-<img src="orcon_images/grafana_power_consumption.jpg" alt="Grafana power consumption" width="500" />
+<img src="orcon_images/grafana_power_consumption.jpg" alt="Grafana power consumption" width="500px" />
 
 ### My feedback flow
 This is how the current mode of the system gets into Home Assistant:
