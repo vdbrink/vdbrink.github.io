@@ -136,6 +136,16 @@ And you don't see anything how it's mount to the ground.
 
 ## Stickers
 
+Because the box has a discrete design it's maybe not direct clear for a delivery guy that this is meant for package.
+So I designed two stickers:
+* One on the lid of the box itself
+
+  <img src="images_allux-600\sticker_package_box.jpg" height="250px" alt="packagebox lid sticker"/>
+
+* And direct under the doorbell
+
+  <img src="images_allux-600\doorbell_sticker_reference.jpg" height="250px" alt="Message for delivery guy"/>
+
 ---
 
 ## Automations
@@ -147,4 +157,4 @@ And you don't see anything how it's mount to the ground.
 [PakketPanda Classic – XXL Pakketbrievenbus](https://pakketpanda.nl/product/pakketpanda-classic-pakketbrievenbus/)
 
 
-fireworks lock
+[//]: # (fireworks lock)
