@@ -1,0 +1,527 @@
+# Packages mailbox - Allux 600
+
+I was looking for a small-packages-mailbox where 80% of my ordered packages should fit in, so I don't have to wait, or stay at home, for the delivery guy to arrive, so I can receive my package.
+
+<p>
+<img src="images_allux-600\allux-600.jpg" height="250px" alt="Allux 600"/>
+<img src="images_allux-600\pieter_post.jpg" height="250px" alt="Delivery guy" style="float:right"/>
+<br>
+<em>My choice: the Allux 600</em>
+
+</p>
+
+---
+## Table of Contents
+<!-- TOC -->
+* [My requirements](#my-requirements)
+* [Product specs](#product-specs)
+* [Mounting to the ground](#mounting-to-the-ground)
+  * [Used parts for my DIY ground mount](#used-parts-for-my-diy-ground-mount)
+  * [Assembling the ground mount](#assembling-the-ground-mount)
+* [Stickers](#stickers)
+* [Automations](#automations)
+  * [Two contact sensors](#two-contact-sensors-)
+  * [Node-RED flow](#node-red-flow)
+  * [Telegram notification](#telegram-notification)
+  * [Home Assistant](#home-assistant)
+    * [MQTT entity](#mqtt-entity)
+    * [Mushroom icon](#mushroom-icon)
+    * [Condition row](#condition-row)
+* [Alternatives package boxes](#alternatives-package-boxes)
+<!-- TOC -->
+
+---
+
+## My requirements
+
+In my search I was looking for a package mailbox with the next specs:
+* All weatherproof;
+* A shoebox-package-size should fit in it;
+* It could contain multiple packages;
+* Not possible to grab delivered packages out of it;
+* A discrete design;
+* Maximum price of &euro; 200,-
+
+I found &euro; 200,- already a lot of money for such a box but in my search I found out this was only the bottom of the market prices. Those boxes, for what I was looking for, reach to prices like &euro; 500,-!
+
+I found the Allux 600 box, which match almost all my criteria, but only costs &euro; 250,-.\
+It's made of coated steel, it has 12 year guarantee against rust, a shoebox can indeed fit in it. You can drop multiple package in it, but you can't grab one out of it. The design is a tight black box which doesn't atrack too much attention. 
+
+Because the price was a bit too high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my Node-RED daily-check-for-good-offers list, next to the laundry detergents and wait if it will be cheaper on a later moment.\
+I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it match all my criteria and I ordered it! Also in the meanwhile I didn't found any other one with better specs.
+
+---
+
+## Product specs
+
+<img src="images_allux-600\allux-600.jpg" height="250px" alt="Allux 600 anthracite" style="float:right"/>
+
+Total sizes of the mailbox:
+```
+Height: 105 cm
+Width: 38 cm
+Depth: 23 cm
+Weight: 11.5 kg
+```
+
+The maximum size of the packages which fits in:
+```
+Height: 15 cm
+Width: 32 cm
+Depth: 29 cm
+```
+
+The top view when you open the lid.
+
+<img src="images_allux-600\allux-600_top_view.jpg" height="250px" alt="Top view"/>
+
+This is how the systems works to prevent picking previous delivered package.
+
+<img src="images_allux-600\allux_anti-theft.png" height="250px" alt="Anti theft system"/>
+
+Open the lid and you can put your package inside the mailbox.\
+It has some bump cushions, so it doesn't close with a lot of noise.
+
+<img src="images_allux-600\allux_put_package_inside.jpg" height="250px" alt="Put a package in the mailbox"/>
+
+In front there is a locked door where you can reach the packages.
+
+<img src="images_allux-600\allux_get_package_out_of_it.jpg" height="250px" alt="Get the packages out of it"/>
+
+---
+
+## Mounting to the ground
+
+By default you buy the box without any mounting materials.
+The default the only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame. In my opinion way too expensive and it should also be possible to solve this for way less but that needs a creative solution.
+
+<img src="images_allux-600\allux_default_mount.webp" height="250px" alt="default mount"/>
+
+The Allux has already in the bottom in each corner, and in the center, pre-drilled-holes.
+
+
+<img src="images_allux-600\allux-600_bottom.jpg" height="250px" alt="default holes"/>
+
+### Used parts for my DIY ground mount
+
+This was my shopping list for my DIY ground mount: 
+
+* A heavy flower box in the sale from the local garden shop [&euro; 7,-]
+  * This had already a hole in the middle to stick the pipe through and mount it to the pipe.
+  <img src="images_allux-600\flowerbox.jpg" height="150px" alt="mount on the ground"/>
+
+* [1x Stainless Steel Threaded End Pipes 12mm x 100 cm](https://www.gamma.nl/assortiment/gamma-draadeind-rvs-m12-x-1000-mm/p/B451457) [&euro; 13,79 at Gamma]
+
+  <img src="images_allux-600\rvs_m12_1000_threaded_end.jpg" height="150px" alt="1x Stainless Steel Threaded End Pipes 12mm x 100 cm"/>
+
+* [a box with 4x galvanised metal plate 40x40mm](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 5,59 at Gamma]
+
+  <img src="images_allux-600\ring.jpg" height="150px" alt="4x galvanised metal plate 40x40mm"/>
+
+* [a box with 4x galvanised 12mm bolts](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 2,59 at Gamma]
+
+  <img src="images_allux-600\bolt.jpg" height="150px" alt="4x galvanised 12mm bolt"/>
+
+Which make the total costs for my DIY ground mount &euro; 28,97. This saves me ~&euro; 60,-
+
+### Assembling the ground mount
+
+I screw a bolt and plate on each side of the hole in the flower box so the pipe is strong attached to the flower box. The pipe must stick only 15 cm above streetlevel and the rest will be in the ground underneath the flower box.
+
+<img src="images_allux-600\pin_bolt.jpg" height="250px" alt="screw the plates"/>
+
+I grave a hole which match the size of the flower box, put it in it and fill it again with sand and stones for extra weight. 
+
+<img src="images_allux-600\flowerbox_in_the_ground_with_pin.jpg" height="250px" alt="mount on the ground"/>
+
+Now you only see the pipe above the ground.\
+Screw the bold on the pipe, almost to the ground and add a plate above it.
+
+Now place the box over the pipe and see if the plate touch the bottom of the box when the box touch the ground.
+Now add the plate inside the box over the pipe and screw the bold also from inside. Now the bolts and plates are strong together to each other on each side of the bottom. 
+
+<img src="images_allux-600\pin_inside_allux.jpg" height="250px" alt="screw the bold also inside the allux"/>
+
+Now the box isn't easy to move anymore!
+And you don't see anything how it's mount on the ground.
+
+<img src="images_allux-600\allux_result.jpg" height="250px" alt="Final result"/>
+
+---
+
+## Stickers
+
+Because the box has a discrete design it's maybe not direct clear for a delivery guy that this is meant for his packages.
+So I designed two stickers:
+* One to place on the lid of the box itself
+
+  <img src="images_allux-600\sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
+
+* And the other one direct under the doorbell with a reference there is also a package box.
+
+  <img src="images_allux-600\doorbell_sticker_reference.jpg" height="250px" alt="Message for delivery guy"/>
+
+---
+
+## Automations
+
+### Two contact sensors 
+
+This package box is not smart by itself, but it was easy to made it.
+
+I added two contact sensors inside the box. The first one under the inner metal plate where you can place the package on when you open the lid. So when you open the lid the contact breaks and a trigger is sent. This location is also nice because now the sensor isn't visible from outside.
+
+The second contact sensor is place in the front door. So when you open the box with the key you can mark the package box as empty again.
+
+### Node-RED flow
+I created a custom MQTT topic to indicate if there is a package in the box.
+You can name it what every you like, I called it `homeassistant/packagebox`.
+It gets the value `true` if the lid is opened and `false` when the front door is openen.
+I also send a notification to the phones and speaker in the living room.
+<img src="images_allux-600\node-red_allux_600.png" height="250px" alt="Node-RED package box automation flows"/>
+
+<details>
+  <summary><b>> Click here to see the corresponding Node-RED flow code >></b></summary>
+
+```json
+[
+    {
+        "id": "a53024c24cc27d45",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "31bb94a252a5b949",
+        "type": "link out",
+        "z": "a53024c24cc27d45",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "d2c82c3.f526fd"
+        ],
+        "x": 1065,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0bfe1c92b7b611c0",
+        "type": "mqtt in",
+        "z": "a53024c24cc27d45",
+        "name": "",
+        "topic": "zigbee2mqtt/contact_packagebox_lid",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "7527d055.ed7e2",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "9e3b3412c84df26b"
+            ]
+        ]
+    },
+    {
+        "id": "7dc4f7d852e74e71",
+        "type": "mqtt out",
+        "z": "a53024c24cc27d45",
+        "name": "",
+        "topic": "homeassistant/packagebox",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7527d055.ed7e2",
+        "x": 820,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6cccfb30fd5ceb8b",
+        "type": "switch",
+        "z": "a53024c24cc27d45",
+        "name": " false",
+        "property": "payload.contact",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 430,
+        "y": 140,
+        "wires": [
+            [
+                "b6983093fd18c3d9"
+            ]
+        ]
+    },
+    {
+        "id": "b6983093fd18c3d9",
+        "type": "template",
+        "z": "a53024c24cc27d45",
+        "name": "false",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "plain",
+        "template": "false",
+        "output": "str",
+        "x": 590,
+        "y": 140,
+        "wires": [
+            [
+                "7dc4f7d852e74e71"
+            ]
+        ]
+    },
+    {
+        "id": "0f9c67ba6465cf62",
+        "type": "template",
+        "z": "a53024c24cc27d45",
+        "name": "true",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "plain",
+        "template": "true",
+        "output": "str",
+        "x": 590,
+        "y": 180,
+        "wires": [
+            [
+                "7dc4f7d852e74e71",
+                "e44b23317f3dad73"
+            ]
+        ]
+    },
+    {
+        "id": "9e3b3412c84df26b",
+        "type": "switch",
+        "z": "a53024c24cc27d45",
+        "name": " false",
+        "property": "payload.contact",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 430,
+        "y": 180,
+        "wires": [
+            [
+                "0f9c67ba6465cf62"
+            ]
+        ]
+    },
+    {
+        "id": "36951a27de045d9e",
+        "type": "delay",
+        "z": "a53024c24cc27d45",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "outputs": 1,
+        "x": 940,
+        "y": 240,
+        "wires": [
+            [
+                "31bb94a252a5b949"
+            ]
+        ]
+    },
+    {
+        "id": "e44b23317f3dad73",
+        "type": "template",
+        "z": "a53024c24cc27d45",
+        "name": "package delivered",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Er is een pakketje geleverd",
+        "output": "str",
+        "x": 750,
+        "y": 240,
+        "wires": [
+            [
+                "36951a27de045d9e"
+            ]
+        ]
+    },
+    {
+        "id": "a4e7e663ab8bcff5",
+        "type": "mqtt in",
+        "z": "a53024c24cc27d45",
+        "name": "",
+        "topic": "zigbee2mqtt/contact_packagebox_door",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "7527d055.ed7e2",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "6cccfb30fd5ceb8b"
+            ]
+        ]
+    },
+    {
+        "id": "7527d055.ed7e2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mosquitto",
+        "port": "1883",
+        "tls": "bbaa4676.58e4c8",
+        "clientid": "node-red-client",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": "60",
+        "cleansession": false,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "bbaa4676.58e4c8",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "m2mqtt_srv.crt",
+        "keyname": "m2mqtt_srv.key",
+        "caname": "m2mqtt_ca.crt",
+        "servername": "",
+        "verifyservercert": false
+    }
+]
+```
+</details>
+
+### Telegram notification
+
+I use a `link out node` an every message it received, will be sent to my chat Telegram app, on my phone and computer, to notify me there is a package.
+
+  <img src="images_allux-600\automation_notification.jpg" height="150px" alt="Notification there is a package"/>
+
+
+### Home Assistant
+#### MQTT entity
+With this YAML code in configuration.yaml you can define a custom binary sensor based on an MQTT topic value. When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor has status ON and with payload `false` the state OFF.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+binary_sensor:
+  - unique_id: packagebox
+    name: "packagebox"
+    state_topic: homeassistant/packagebox
+    payload_on: "true"
+    payload_off: "false"
+{% endraw %}
+```
+
+#### Mushroom icon
+
+In my Home Assistant dashboard will be an orange box icon be visible if there is a package inside the box.
+
+  <img src="images_allux-600\automation_ha_mushroom_icon.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
+
+This conditional mushroom box icon is visible based on the previous defined binary sensor.\
+This is the corresponding dashboard code:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:mushroom-chips-card
+chips:
+  - type: conditional
+    conditions:
+      - entity: binary_sensor.packagebox
+        state: 'on'
+    chip:
+      type: template
+      icon_color: orange
+      icon: mdi:package-variant
+      entity: binary_sensor.packagebox
+      content: ''
+{% endraw %}
+```
+#### Condition row
+
+In my Home Assistant dashboard I have a list with conditional items which are only visible if it's relevant or any action is required.
+Like in this case it's only visible when you need to empty the package box.
+
+To show the package box entity like this:
+
+  <img src="images_allux-600\automation_ha_conditional_message.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
+
+You need to add a Vertical Stack card on your dashboard with this code:
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: vertical-stack
+cards:
+  - type: entities
+    entities:
+      - type: conditional
+        conditions:
+          - entity: binary_sensor.packagebox
+            state: 'on'
+        row:
+          entity: binary_sensor.packagebox
+ {% endraw %}
+```
+
+---
+
+## Alternatives package boxes
+I didn't find a lot similar package boxes with the same specs and price.
+Lately I saw also this one:
+
+* [PakketPanda Classic – XXL Pakketbrievenbus](https://pakketpanda.nl/product/pakketpanda-classic-pakketbrievenbus/)
+
+Do you have an interesting package box [share it with me](#remarks-or-suggestions)
+or share it public on the Dutch Tweakers forum in this thread https://gathering.tweakers.net/forum/list_messages/1663741
+
+[//]: # (fireworks lock)
