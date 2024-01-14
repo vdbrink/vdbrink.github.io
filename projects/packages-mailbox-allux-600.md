@@ -7,7 +7,6 @@ I was looking for a small-packages-mailbox where 80% of my ordered packages shou
 <img src="images_allux-600\pieter_post.jpg" height="250px" alt="Delivery guy" style="float:right"/>
 <br>
 <em>My choice: the Allux 600</em>
-
 </p>
 
 ---
@@ -27,6 +26,9 @@ I was looking for a small-packages-mailbox where 80% of my ordered packages shou
     * [MQTT entity](#mqtt-entity)
     * [Mushroom icon](#mushroom-icon)
     * [Condition row](#condition-row)
+* [PostNL set package box a default deliver location](#postnl-set-package-box-a-default-deliver-location)
+* [Where to buy](#where-to-buy)
+  * [Firework protection](#firework-protection)
 * [Alternatives package boxes](#alternatives-package-boxes)
 <!-- TOC -->
 
@@ -48,7 +50,7 @@ I found the Allux 600 box, which match almost all my criteria, but only costs &e
 It's made of coated steel, it has 12 year guarantee against rust, a shoebox can indeed fit in it. You can drop multiple package in it, but you can't grab one out of it. The design is a tight black box which doesn't atrack too much attention. 
 
 Because the price was a bit too high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my Node-RED daily-check-for-good-offers list, next to the laundry detergents and wait if it will be cheaper on a later moment.\
-I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it match all my criteria and I ordered it! Also in the meanwhile I didn't found any other one with better specs.
+I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it match all my criteria and I ordered it! Also in the meanwhile I didn't find any other box one with better specs.
 
 ---
 
@@ -87,6 +89,10 @@ It has some bump cushions, so it doesn't close with a lot of noise.
 In front there is a locked door where you can reach the packages.
 
 <img src="images_allux-600\allux_get_package_out_of_it.jpg" height="250px" alt="Get the packages out of it"/>
+
+An instruction video about how the Allux 600 works:
+
+[![Allux 600 usage](http://img.youtube.com/vi/9A3NI7MjIkA/0.jpg)](http://www.youtube.com/watch?v=9A3NI7MjIkA "Allux 600 usage")
 
 ---
 
@@ -515,13 +521,43 @@ cards:
 
 ---
 
+## PostNL set package box a default deliver location
+
+https://jouw.postnl.nl/account/nl-NL/ontvangstvoorkeur/standaard-bezorging
+
+<img src="images_allux-600\postNL_packagebox_preference.png" height="650px" alt="PostNL deliver preferences"/>
+
+---
+
+## Where to buy
+
+Here are some links where you can find actual prices for the Allux 600.
+
+* [iBOOD has it in a daily offer for &euro; 159,-](https://www.ibood.com/nl/s-nl/o/allux-pakketbrievenbus-600/934182)
+* [Bol.com](https://www.bol.com/nl/nl/s/?searchtext=allux+600)
+* [Google Shopping](https://www.google.com/search?q=allux+600&tbm=shop)
+
+
+### Firework protection
+
+You can also buy a small additional metal plate you can block the lid from opening to prevent to throw firework in the box at the end of the year.
+
+[![Firework protection metal](images_allux-600/fireworks_protection.jpg)](http://www.youtube.com/watch?v=gc52z0xg0Og "Firework protection metal")
+
+It's also possible to create one by yourself! It's on my task list!
+
+---
+
 ## Alternatives package boxes
 I didn't find a lot similar package boxes with the same specs and price.
-Lately I saw also this one:
 
+Some alternatives:
+
+* [Veehaus - Lucas Plus Statief 1000](https://www.bol.com/nl/nl/p/veehaus-lucas-plus-statief-1000-achteruitname-pakketbrievenbus-met-statief-pakketbrievenbus-brievenbus-pakketbox-metaal-26-x-41-x-109-cm-zwart/9300000108153838/) (Exact the same model as the Allux 600)
+* Allux 800 - bigger version
 * [PakketPanda Classic – XXL Pakketbrievenbus](https://pakketpanda.nl/product/pakketpanda-classic-pakketbrievenbus/)
+* [PostNL advertise with a GePro Box](https://www.postnl.nl/campagnes/pakketkluis/)
+* [Logixbox Multibox-S](https://www.logixbox.nl/pakjes-brievenbus-multibox-s.html)
 
-Do you have an interesting package box [share it with me](#remarks-or-suggestions)
+Do you have another interesting package box [share it with me](#remarks-or-suggestions)
 or share it public on the Dutch Tweakers forum in this thread https://gathering.tweakers.net/forum/list_messages/1663741
-
-[//]: # (fireworks lock)
