@@ -3,10 +3,10 @@
 I was looking for a small-packages-mailbox where 80% of my ordered packages should fit in, so I don't have to wait, or stay at home, for the delivery guy to arrive, and still I can receive my package.
 
 <p>
-<img src="images_allux-600\allux-600.jpg" height="250px" alt="Allux 600"/>
-<img src="images_allux-600\pieter_post.jpg" height="250px" alt="Delivery guy" style="float:right"/>
+<img src="images_allux-600\final-result.jpg" height="350px" alt="The final result"/>
+<img src="images_allux-600\pieter_post.jpg" height="350px" alt="Delivery guy" style="float:right"/>
 <br>
-<em>My final choice: the Allux 600</em>
+<em>My final automated packages mailbox</em>
 </p>
 
 ---
