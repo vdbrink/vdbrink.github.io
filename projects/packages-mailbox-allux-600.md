@@ -19,13 +19,15 @@ I was looking for a small-packages-mailbox where 80% of my ordered packages shou
   * [Assembling the ground mount](#assembling-the-ground-mount)
 * [Stickers](#stickers)
 * [Automations](#automations)
-  * [Two contact sensors](#two-contact-sensors-)
+  * [Notification when a package is delivered](#notification-when-a-package-is-delivered)
   * [Node-RED flow](#node-red-flow)
-  * [Telegram notification](#telegram-notification)
+  * [Notification on my phone](#notification-on-my-phone)
   * [Home Assistant](#home-assistant)
+    * [How MQTT works](#how-mqtt-works-)
     * [MQTT entity](#mqtt-entity)
     * [Mushroom icon](#mushroom-icon)
-    * [Condition row](#condition-row)
+    * [Conditional row](#conditional-row)
+    * [Entities card](#entities-card)
 * [PostNL set package box a default deliver location](#postnl-set-package-box-a-default-deliver-location)
 * [Where to buy](#where-to-buy)
   * [Firework protection](#firework-protection)
@@ -130,17 +132,17 @@ This was my shopping list for my DIY ground mount:
 
 * [a box with 4x galvanised metal plate 40x40mm](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 5,59 at Gamma]
 
-  <img src="images_allux-600\ring.jpg" height="150px" alt="4x galvanised metal plate 40x40mm"/>
+  <img src="images_allux-600\ring.jpg" height="150px" alt="4x galvanized metal plate 40x40mm"/>
 
 * [a box with 4x galvanised 12mm bolts](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 2,59 at Gamma]
 
-  <img src="images_allux-600\bolt.jpg" height="150px" alt="4x galvanised 12mm bolt"/>
+  <img src="images_allux-600\bolt.jpg" height="150px" alt="4x galvanized 12mm bolt"/>
 
 Which make the total costs for my DIY ground mount &euro; 28,97. This saves me ~&euro; 60,-
 
 ### Assembling the ground mount
 
-I screw a bolt and plate on each side of the hole in the flower box so the pipe is strong attached to the flower box. The pipe must stick only 15 cm above streetlevel and the rest will be in the ground underneath the flower box.
+I screw a bolt and plate on each side of the hole in the flower box so the pipe is strong attached to the flower box. The pipe must stick only 15 cm above street level and the rest will be in the ground underneath the flower box.
 
 <img src="images_allux-600\pin_bolt.jpg" height="250px" alt="screw the plates"/>
 
@@ -186,7 +188,7 @@ So I designed two stickers:
 ## Automations
 
 This package box is not smart by itself, but it was easy to make it smart.\
-I have already a Zigbee netwerk up and running, so I added two contact sensors inside the box. Created automations for notifications and added the status to my dashboard.
+I have already a Zigbee network up and running, so I added two contact sensors inside the box. Created automations for notifications and added the status to my dashboard.
 
 ### Notification when a package is delivered
 
