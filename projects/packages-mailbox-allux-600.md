@@ -602,7 +602,7 @@ https://jouw.postnl.nl/account/nl-NL/ontvangstvoorkeur/standaard-bezorging to se
 Here are some links where you can find actual prices for the Allux 600.
 
 * [iBOOD has it in a daily offer for &euro; 159,-](https://www.ibood.com/nl/s-nl/o/allux-pakketbrievenbus-600/934182)
-* [Bol.com](https://partner.bol.com/click/click?p=2&t=url&s=1360301&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fallux-brievenbus-600-zwart%2F9200000015349382%2F&name=Allux%20Brievenbus%20600%20Zwart) [Affiliate link*]
+* [Bol.com](https://www.bol.com/nl/nl/s/?searchtext=allux+600)
 * [Google Shopping](https://www.google.com/search?q=allux+600&tbm=shop)
 
 ### Firework protection
@@ -619,13 +619,11 @@ Did you create one yourself? Let me know!
 
 I found some alternative package boxes:
 
-* [Veehaus - Lucas Plus Statief 1000](https://partner.bol.com/click/click?p=2&t=url&s=1360301&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fveehaus-lucas-plus-statief-1000-achteruitname-pakketbrievenbus-met-statief-pakketbrievenbus-brievenbus-pakketbox-metaal-26-x-41-x-109-cm-zwart%2F9300000108153838%2F&name=Veehaus%20-Lucas%20Plus%20Statief%201000%20-%20Achteruitna...) [Affiliate link*] (Exact the same model as the Allux 600)
-* [Allux 800](https://partner.bol.com/click/click?p=2&t=url&s=1360301&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fallux-brievenbus-allux-800-zwart%2F9200000011357151%2F&name=Allux%20Brievenbus%20Allux%20800%20-%20Zwart) [Affiliate link*] (Bigger version)
+* [Veehaus - Lucas Plus Statief 1000](https://www.bol.com/nl/nl/p/veehaus-lucas-plus-statief-1000-achteruitname-pakketbrievenbus-met-statief-pakketbrievenbus-brievenbus-pakketbox-metaal-26-x-41-x-109-cm-zwart/9300000108153838/) (Exact the same model as the Allux 600)
+* Allux 800 - bigger version
 * [PakketPanda Classic – XXL Pakketbrievenbus](https://pakketpanda.nl/product/pakketpanda-classic-pakketbrievenbus/)
 * [PostNL advertise with a GePro Box](https://www.postnl.nl/campagnes/pakketkluis/)
 * [Logixbox Multibox-S](https://www.logixbox.nl/pakjes-brievenbus-multibox-s.html)
 
 Do you have another interesting package box [share it with me](#remarks-or-suggestions)
 or share it public on the Dutch Tweakers forum in this thread https://gathering.tweakers.net/forum/list_messages/1663741
-
-* Some links on this page are affiliate links, but they are all marked.
