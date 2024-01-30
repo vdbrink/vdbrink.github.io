@@ -45,12 +45,6 @@ Here you find some basic usefully example flows to control light, act on tempera
 * [Node-RED - Light flows](node-red_light_flows.md)
 * [Node-RED - Temperature flows](node-red_temperature_flows.md)
 
-###  Home Assistant integration
-
-Here you find how to interact between Home Assistant and Node-RED.
-
-* [Node-RED - Home Assistant integration](node-red_home-assistant.md)
-
 ### Advanced flow
 Here you see an example of a script which I use to automatic control my ventilation system.
 You can read all the details about this project on the [Control an Orcon mechanic ventilation system from Home Assistant](../esphome/orcon_mechanic_ventilation) page.
