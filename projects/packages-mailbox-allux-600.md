@@ -53,10 +53,10 @@ In my search I found the Allux 600 box, which match almost all my criteria, but 
 It's made for outside usage. I's made of coated steel, it has 12 year guarantee against rust. That's also why the price is so high.
 
 A shoebox can fit in it.
-And multiple packages can be dropped in it, but it isn't possible to grab one out of it afterward.\
+And multiple packages can be dropped in it, but it isn't possible to grab one out of it afterwards.\
 The design is a tight mat black box which doesn't attract too much attention when you see it from the street. 
 
-Because the price was a bit high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my Node-RED daily-check-for-good-offers list, next to the laundry detergents and wait if it will be cheaper on a later moment.\
+Because the price was a bit high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my [Node-RED daily-check-for-good-offers list](../node-red/node-red_pricewatch), next to the laundry detergents and wait if it will be cheaper on a later moment.\
 I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it match all my criteria and I ordered it! Also in the meanwhile I didn't find any other box one with better specs.
 
 ---
@@ -173,7 +173,7 @@ And it isn't visible at all how it's mount on the ground.
 
 Because the box has a discrete design it's maybe not direct clear for a delivery guy that this is meant for his packages.
 
-On the Dutch forum Tweakers.net I found <a href="https://gathering.tweakers.net/forum/list_message/72034534#72034534" target="_blank">this</a> thread about these kind of package boxes and someone had good experience with making and ordering outdoor stickers.
+On the Dutch forum Tweakers.net I found <a href="https://gathering.tweakers.net/forum/list_message/72034534#72034534" target="_blank">this</a> thread about these kind of package boxes and someone had good experience with making and ordering outdoor stickers from [stickermaster.nl](https://stickermaster.nl/stickers-maken/stickers-eigen-ontwerp.html).
 This sticker is one which is also used on cars, so it's weatherproof. Exactly what I need!
 
 So I designed two stickers:
@@ -181,18 +181,20 @@ So I designed two stickers:
 * One to place on the lid of the box.
   * I gathered some delivery company logo's, created an image and placed the text that this is a package mailbox, my name and street name with house number on it (blurred on the photo).
 
-  <img src="images_allux-600\sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
+ <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> 
+
+  <img src="images_allux-600/sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
 
 * And I placed the other one direct under the doorbell with a reference there is also a package box.
 
-  <img src="images_allux-600\doorbell_sticker_reference.jpg" height="250px" alt="Message for delivery guy"/>
+  <img src="images_allux-600/doorbell_sticker_reference.jpg" height="250px" alt="Message for delivery guy"/>
 
 ---
 
 ## Automations
 
 This package box is not smart by itself, but it was easy to make it smart.\
-I have already a Zigbee network up and running, so I added two contact sensors inside the box. I Created automations for notifications and added the status to my Home Assistant dashboard.
+I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box. I Created automations for notifications and added the status to my Home Assistant dashboard.
 
 ### Notification when a package is delivered
 
