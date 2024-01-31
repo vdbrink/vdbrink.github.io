@@ -4,6 +4,7 @@ category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, floor plan
 ---
 # Home Assistant dashboard: Floor plan
+{% last_modified_at %}
 
 <img src="images_floorplan/banner.png" alt="floor plan banner" height="100%">
 

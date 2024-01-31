@@ -4,6 +4,7 @@ categories: Projects
 tags: projects
 ---
 # Projects
+{% last_modified_at %}
 
 Just some random projects:
 

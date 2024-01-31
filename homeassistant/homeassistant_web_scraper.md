@@ -4,6 +4,7 @@ category: Home Assistant
 tags: Home Assistant, dashboard, web scraper
 ---
 # Home Assistant: Web Scraper
+{% last_modified_at %}
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 

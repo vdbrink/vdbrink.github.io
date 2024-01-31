@@ -4,6 +4,7 @@ category: Home Assistant
 tags: Home Assistant, dashboard, lovelace
 ---
 # Home Assistant dashboard: Examples
+{% last_modified_at %}
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 

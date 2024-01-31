@@ -5,6 +5,8 @@ category: ESPHome
 tags: Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome
 ---
 # Control an Orcon mechanic ventilation system from Home Assistant
+{% last_modified_at %}
+
 *Based on an original Orcon remote*
 
 ## Introduction
