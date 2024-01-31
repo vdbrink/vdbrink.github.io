@@ -29,7 +29,8 @@ plugins:
   - jekyll-seo-tag
   - webrick
   - jekyll-github-metadata
-  - jekyll-last-modified-at
+# supported plugins https://pages.github.com/versions/
+#  - jekyll-last-modified-at
 
 # Exclude these files from your production _site
 exclude:
