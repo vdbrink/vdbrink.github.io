@@ -38,12 +38,18 @@ Look at these Cheat Sheets where I described how you can convert values from one
 
 ## Examples
 
-### Basic example flows
+### Basic flows
 
 Here you find some basic usefully example flows to control light, act on temperatures, etc.
 
-* [Node-RED - Light flows](node-red_light_flows.md)
-* [Node-RED - Temperature flows](node-red_temperature_flows.md)
+* [Node-RED - Light flows](node-red_light_flows)
+* [Node-RED - Temperature flows](node-red_temperature_flows)
+
+###  Home Assistant integration
+
+Here you find how to interact between Home Assistant and Node-RED.
+
+* [Node-RED - Home Assistant integration](node-red_home-assistant)
 
 ### Advanced flow
 Here you see an example of a script which I use to automatic control my ventilation system.
