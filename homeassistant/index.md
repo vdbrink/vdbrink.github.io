@@ -39,3 +39,4 @@ After I got more and more sensors I couldn't get a clear overview of the status 
 Then I found the solutions for this where people created floor plans of their house and add there sensor statuses and controls as layers on top of it. This was possible with the tool Home Assistant and so begon I with it. I created the floor plans I wanted, and I also really liked the (lovelace) dashboards with their endless possibilities.
 
 I use Home Assistant pure as a presentation layer. That's why you don't find Home Assistant flows here but only Node-RED flows.
+On the [Node-RED - Home Assistant integrations](../node-red/node-red_home-assistant) section you find all kind of integrations between Node-RED and Home Assistant.
