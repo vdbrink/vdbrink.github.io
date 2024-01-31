@@ -1,6 +1,6 @@
 {% capture imgHeight %}50{% endcapture %}
 # Node-RED Cheat Sheet - Function Node
-{% last_modified_at %}
+
 
 Examples of javascript code which you can use in Node-RED function nodes.
 

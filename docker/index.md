@@ -1,5 +1,5 @@
 # Docker compose examples
-{% last_modified_at %}
+
 
 The advantage of running applications using Docker is that it's easy to setup. 
 Just with a few line you can have an application up and running.

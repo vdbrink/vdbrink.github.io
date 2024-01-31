@@ -4,7 +4,7 @@ category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, chores, tasks, todo, checklist, helpers
 ---
 # Home Assistant dashboard: Chores
-{% last_modified_at %}
+
 
 <img src="images_chores/chores_banner.png" alt="Chores banner" height="175px">
 

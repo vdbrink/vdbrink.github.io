@@ -7,7 +7,7 @@ tags: Node-RED Home Assistant
 {% capture imgHeight %}50{% endcapture %}
 
 # Node-RED + Home Assistant integration : Full moon
-{% last_modified_at %}
+
 
 <a href="node-red_home-assistant">
 <img src="../homeassistant/images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">

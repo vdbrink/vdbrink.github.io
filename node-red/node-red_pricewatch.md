@@ -5,7 +5,7 @@ tags: Node-RED, price, watch, monitor, sales
 ---
 
 # Node-RED Pricewatch
-{% last_modified_at %}
+
 
 <a name="top"></a>
 <img style="float: right;margin-left:20px" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">

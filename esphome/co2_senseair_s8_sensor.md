@@ -5,7 +5,7 @@ category: ESPHome
 tags: Co2, ESP8266, ESPHome, Home Assistant
 ---
 # ESPHome SenseAir S8 Co2 sensor
-{% last_modified_at %}
+
 
 ## Introduction
 

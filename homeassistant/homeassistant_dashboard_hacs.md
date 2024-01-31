@@ -4,7 +4,7 @@ category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, hacs
 ---
 # Home Assistant dashboard: Useful HACS custom elements
-{% last_modified_at %}
+
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
