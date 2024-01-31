@@ -7,6 +7,7 @@ tags: Node-RED Temperature flows
 {% capture imgHeight %}50{% endcapture %}
 
 # Node-RED Temperature flows
+{% last_modified_at %}
 
 Node-RED example flows related to temperature.
 

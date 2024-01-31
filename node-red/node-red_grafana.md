@@ -1,5 +1,6 @@
 {% capture imgHeightSmall %}35{% endcapture %}
 # Node-RED Cheat Sheet - Grafana
+{% last_modified_at %}
 
 <img src="../esphome/orcon_images/grafana_shower_humidity.jpg" height="200px">
 
