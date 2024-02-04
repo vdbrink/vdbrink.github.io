@@ -76,7 +76,7 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 Chips cards are small icon which indicate a status.\
 In my example I only show them, with a condition, when they are relative. 
 
-#### Co2 colored icon indicator
+#### Co2 colored icon indicator based on a number
 
 <img src="images_mushroom/mushroom_co2.png" alt="mushroom chips" width="50px" style="float:left">
  Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
@@ -90,22 +90,51 @@ In my example I only show them, with a condition, when they are relative.
     - chip:
       type: template
       icon: mdi:molecule-co2
+      icon_color: |-
+        {% if states('sensor.senseair_co2_value')|int > 1500 %}
+           red
+        {% elif states('sensor.senseair_co2_value')|int > 1200 %}
+           orange
+        {% elif states('sensor.senseair_co2_value')|int > 800 %}
+           yellow
+        {% else %}
+           green
+        {% endif %}
       entity: sensor.senseair_co2_value
       content: ''
+{% endraw %}
+```
+
+#### Weather alarm state colored icon indicator based on a value
+
+
+Show a green icon, when the value is `Code groen`, yellow for `Code geel` and red for `Code rood`.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: custom:mushroom-chips-card
+  chips:
+    - chip:
+      type: template
+      icon: mdi:weather-lightning-rainy
+      icon_color: |-
+        {% if is_state('sensor.knmi_weercode', 'Code groen') %}
+           green
+        {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
+           yellow
+        {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
+           red
+        {% else %}
+           gray
+        {% endif %}
+      entity: sensor.knmi_weercode
+      content: ''
+      tap_action:
+        action: url
+        url_path: https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
       card_mod: null
-      style: |
-        :host {
-          --card-mod-icon-color:
-          {% if states('sensor.senseair_co2_value')|int > 1500 %}
-           #ff4500;
-          {% elif states('sensor.senseair_co2_value')|int > 1200 %}
-           #f28b05;
-          {% elif states('sensor.senseair_co2_value')|int > 800 %}
-           #ffd700;
-          {% else %}
-           #18851b;
-          {% endif %}
-          }
 {% endraw %}
 ```
 
