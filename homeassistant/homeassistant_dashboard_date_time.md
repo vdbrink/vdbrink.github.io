@@ -95,8 +95,9 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 
 <img src="images/days_countdown.png" alt="Days countdown" width="400px">
 
-Countdown the number of days until they pick up the paper waste. 
-I use the `Twente Milieu` integration which creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD` 
+### Twente Milieu: format `YYYY-MM-DD`
+Countdown for the number of days until they pick up the paper waste. 
+The `Twente Milieu` integration creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD` 
 
 With this template it gives the amount of days from now. 
 
@@ -117,6 +118,30 @@ With this template it gives the amount of days from now.
       unit_of_measurement: "dagen"  
 {% endraw %}
 ```
+
+### HACS: Afvalbeheer: attribute and format `YYYYMMDD`
+Countdown for the number of days until they pick up the paper waste.
+The [HACS: Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer) integration creates the sensor `wastecollector_papier` the default value can be `Morgen, 05-02-2024` or `06-02-2024`. But the attributes field `Sort_date` has a default `YYYYMMDD` that's why I use this value
+
+With this template it gives the amount of days from now.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template      
+  sensors:
+    paper_waste_pickup_countdown:
+      friendly_name: "papier ophalen"
+      value_template: >-
+        {% set datex = state_attr('sensor.wastecollector_papier','Sort_date') | string %}
+        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'up')  }}
+      icon_template: mdi:delete-empty
+      unit_of_measurement: "dagen"  
+{% endraw %}
+```
+
+### Show only on the last 4 days
 
 To show only the message when it's less than 4 days before the pick-up I used the [HACS: auto-entities](https://github.com/thomasloven/lovelace-auto-entities) custom element.
 
