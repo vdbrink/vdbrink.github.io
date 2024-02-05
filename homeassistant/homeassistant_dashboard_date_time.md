@@ -135,7 +135,7 @@ With this template it gives the amount of days from now.
       friendly_name: "papier ophalen"
       value_template: >-
         {% set datex = state_attr('sensor.wastecollector_papier','Sort_date') | string %}
-        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'up')  }}
+        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
       icon_template: mdi:delete-empty
       unit_of_measurement: "dagen"  
 {% endraw %}
@@ -155,7 +155,8 @@ To show only the message when it's less than 4 days before the pick-up I used th
   filter:
     include:
       - entity_id: sensor.paper_waste_pickup_countdown
-        state: < 4
+        state 1: "< 4"
+        state 2: "> -1"
   show_empty: false
 {% endraw %}
 ```
