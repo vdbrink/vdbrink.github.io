@@ -23,7 +23,7 @@ During the project more and more environmental data will be added for each garde
 
 The sensor works with on a lora network. There is no need for a local setup. You get an account for an online dashboard to see your data.
 
-For advanced users, like us, they also provide an api which you can use to integrate it in your own dashboard.
+For advanced users, like us, they also provide an api which you can use to integrate it on your own dashboard.
 
 <img src="images_pientere_tuinen/pientere_tuinen_dashboard_overview.png" alt="My dashboard overview" width="100%">
 
@@ -50,7 +50,7 @@ Subscribe [here](https://pienteretuinen.nl/deelnemers/) and hear if you also can
 
 To get the data you need to scrape the api endpoint.
 
-When you joined the project you can read [more details](https://help.wecity.nl/data-api-van-pientere-tuinen) in your own account.
+When you joined the project you can read [more details](https://help.wecity.nl/data-api-van-pientere-tuinen) on your own account.
 
 ```yaml
 {% raw %}

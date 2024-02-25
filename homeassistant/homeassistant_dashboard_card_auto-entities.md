@@ -8,7 +8,7 @@ tags: Home Assistant, dashboard, lovelace, card, auto-entities, HACS
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard examples related to the custom element **auto-entities** which you can easily use in your own dashboards.
+Here you find Home Assistant (lovelace) dashboard examples related to the custom element **auto-entities** which you can easily use on your own dashboards.
 
 Auto-entities is a very powerful addon card which can let you make dynamic entity lists based on multiple filters, include and exclude entities and different type of sorting.
 
@@ -19,7 +19,7 @@ The git repository with also all options and some examples can be found at https
 <!-- TOC -->
 * [Temperatures (rounded, sorted and colored)](#temperatures-rounded-sorted-and-colored)
 * [Full moon (single condition)](#full-moon-single-condition)
-* [Only X days left (multiple conditions)](#only-x-days-left-multiple-conditions)
+* [Only X days left (multiple conditions)](#only-x-days-left-multiple-conditions-with-and)
 * [Chores](#chores)
 <!-- TOC -->
 
@@ -88,7 +88,7 @@ Show this only when the entity `sensor.moon` has the status `full_moon`.
 ```
 
 ---
-## Only X days left (multiple conditions)
+## Only X days left (multiple conditions with AND)
 
 For the paper pickup day I only want this visible when there are only three days left.
 
