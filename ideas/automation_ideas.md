@@ -21,17 +21,19 @@ Perhaps there are some useful ideas for you too!
   * [Washing machine / dryer / dishwasher](#washing-machine--dryer--dishwasher)
   * [Oven](#oven)
   * [Living room lights](#living-room-lights)
+  * [Front yard](#front-yard)
   * [Christmas lights](#christmas-lights)
   * [Mechanical ventilation](#mechanical-ventilation)
-  * [Aquarium](#aquarium)
   * [Laundry room](#laundry-room)
   * [(Bed)rooms](#bedrooms)
   * [Kitchen](#kitchen)
   * [Home office](#home-office)
   * [Outdoor](#outdoor)
-  * [Closet / pantry / storage](#closet--pantry--storage)
+  * [Closet / pantry / storage / stairs](#closet--pantry--storage--stairs)
+  * [Drawer](#drawer)
   * [Car](#car)
   * [Putting out the bin](#putting-out-the-bin)
+  * [Aquarium](#aquarium)
   * [(Dutch) Inspiration videos](#dutch-inspiration-videos)
 <!-- TOC -->
 
@@ -67,10 +69,16 @@ I've already set up so many interesting flows, and I'd like to share this knowle
 <br>
 <img src="images/washing_machine_grafana.png" alt="energy consumption" height="350px"/>
 
+* Notify when washing machine/dryer/dishwasher is not emptied yet after X time. (contact sensor on the door)
+<br>
+<img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/>
+
 ---
 
 ## Oven
-* Notification when the oven reaches his set temperature: (based on smart plug with energy meter)
+* Notification when the oven reaches his set temperature: (based on smart plug with energy meter. The power consumption drops when he reaches his temperature)
+<br>
+<img src="images/notification.jpg" alt="notification" height="100px"/>
 
 ---
 
@@ -84,16 +92,16 @@ I've already set up so many interesting flows, and I'd like to share this knowle
 
 ## Front yard
 * Outside lights on when:
-  * someone enters the door (web-/doorcam with person recognition, smart outside light)
-  * you connect to your wifi (outside light)
-  * you enter home-zone (Home Assistant Companion app and outside light)
+  * Someone enters the door (web-/doorcam with person recognition, smart outside light)
+  * You connect to your wifi (outside light)
+  * You enter home-zone (Home Assistant Companion app and outside light)
 
 ---
 
 ## Christmas lights
 * Connecting battery-operated Christmas decorations to the power outlet (equipped with battery eliminators and multiple connected to an active USB hub, powered by a smart plug for automation)
 * Christmas tree lights (replace the default power switch with always on mode switch and add a smart plug)
-<br/>
+<br/><br/>
 <img src="images/christmas_battery.jpg" alt="Christmas decoration lights battery powered" height="350px" />
 
 ---
@@ -102,15 +110,6 @@ I've already set up so many interesting flows, and I'd like to share this knowle
 * Depends on which area's the ventilation system is connected to. In my case my bathroom humidity/temperature, kitchen humidity/temperature, kitchen/bathroom temperature/humidity difference, duration of toilet visit (lux value above threshold x for time Y) (MV control via an additional remote linked to an ESP) [Orcon mechanic ventilation](../esphome/orcon_mechanic_ventilation)
 <br>
 <img src="images/ventilation_socket.jpg" alt="ventilation" height="350px" />
-
----
-
-## Aquarium
-* Automatic turn the lights off (smart plug)
-* Turn the lights on when they got feeded (contact sensor at the lid of the aquarium).
-* Automatic feeder
-* Water quality check PH-level
-* Temperature warning if water is too hot/cold (ESP with waterproof temperature sensor)
 
 ---
 
@@ -130,9 +129,9 @@ I've already set up so many interesting flows, and I'd like to share this knowle
 ---
 
 ## Kitchen
-* Extraction fan on based on temperature/humidity (temperature sensor in the extractor hood)
-* Light on based on presence + light (motion sensor with lux + LED strip with smart plug)
-* 
+* Extraction fan automatically on, based on temperature/humidity (temperature sensor in the extractor hood)
+* Lights on, based on presence + light (motion sensor with lux + LED strip with smart plug)
+
 <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
@@ -140,31 +139,53 @@ I've already set up so many interesting flows, and I'd like to share this knowle
 
 ## Home office
 * Computer screen + lights + phone charger on when I sit on my office chair (car seat pressure sensor in the chair)
+* Computer screen + lights + phone charger on when I enter the office (contact sensor at the door)
+* Office lights only on when it's dark and someone is in the room (smart lights, lux sensor, mmWave sensor to detect also a person who sits stil)
 * Extra heater on based on temperature and presence (temperature sensor + chair occupancy)
+* On air light so people at home know you're in a call (calendar integration + smart light)
+
+
 
 ---
 
 ## Outdoor
 * Notification when it's nice weather to sit outside (based on temperature, humidity, lux, sun strength from weather station)
 * Notification to close skylight if it's open and rain is expected within fifteen minutes (skylight contact sensor + API weather forecast/weather station)
-* Notification to retract parasols if it's too windy (outdoor temperature and wind speed from weather station)
+* Notification to retract parasols if it's too windy (outdoor temperature and wind speed from a weather station)
 
 ---
 
-## Closet / pantry / storage
-* Light on when you open the closet (battery-powered LED light with a PIR sensor. Not connected, but smart/convenient!)
+## Closet / pantry / storage / stairs
+* Lights on when you open the closet (battery-powered LED light with a PIR sensor. Not connected, but smart/convenient!)
+
+---
+
+## Drawer
+* Notify when drawer is opened. (Attach a contact sensor behind the drawer to the closet and the magnet to the drawer itself so when you open it the contact get broken and a signal is triggered)
+* Notify when drawer is not yet opened today at a specific time. For example if you have medicines in a drawer you need to take every day.
 
 ---
 
 ## Car
 * Notification to cover the car if the dew point is below -1 in the evening. This increases the chance of not have to scrape in the morning! (weather station)
 * Notification to family when I leave work (location positioning)
+* Activate the driveway lights when you arrive home (When enter the Home-zone, or connect to your local wifi network AND the phone bluetooth is connected to the car)
+* Activate the frontdoor lights (see previous flow)
 
 ---
 
 ## Putting out the bin
-* Notification when paper/green/plastic/residual waste bin needs to be put on the street.
-* Light up a LED string in the color of the waste bin which must be put on the street the next day. 
+* Notification when paper/green/plastic/residual waste bin needs to be put on the street. (waste calendar integration)
+* Light up a LED-strip in the color of the waste bin which must be put on the street the next day. (waste calendar integration
+
+---
+
+## Aquarium
+* Automatic turn the lights off (smart plug)
+* Turn the lights on when they got feeded (contact sensor at the lid of the aquarium).
+* Automatic feeder
+* Water quality check PH-level
+* Temperature warning if water is too hot/cold (ESP with waterproof temperature sensor)
 
 ---
 
@@ -181,5 +202,5 @@ Here are some (Dutch) videos for inspiration:
 * [Installatie Hue en Google producten (Tweakers 2019)](https://www.youtube.com/watch?v=zqvJerYvlwg)
 * [Huis van de oprichter van Tweakers (Tweakers 2017)](https://youtu.be/fWcDT4JISn8?si=C6t0YEN1aYmTF_lu)
 * [Huis van de toekomst, met Chriet Titulaer (1989 - 2009)](https://youtu.be/dEsndb8cSn0?si=RisW8OXpGpq5MyYZ)
-<br>
+<br><br>
 If you know any other great videos that inspired you, let me know via a <a href="#remarks-or-suggestions">message</a>, and I can add it also to this list!
