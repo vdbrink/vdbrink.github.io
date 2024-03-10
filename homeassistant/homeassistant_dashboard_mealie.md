@@ -1,25 +1,24 @@
 ---
-title: "Home Assistant dashboard: Mealie Recipe manager"
+title: "Home Assistant dashboard: Mealie Recipe Manager"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 ---
-# Home Assistant dashboard: Mealie Recipe manager
+# Home Assistant dashboard: Mealie Recipe Manager
 
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-right:5px" alt="Home Assistant logo" height="100px"></a>
 
-How do you manage your recipes? Via bookmarks in your browser? And end up with deadlinks to great recipes? Or as printed version with notes with your own improvements?
+How do you manage your recipes? Via bookmarks in your browser? And end up with dead links to great recipes? Or as printed version with notes with your own improvements?
 
-As Home Assistant enthusiast, I want to store my recipes locally on my home server to use it while preparing the meals. 
-Also show my day- and week meal planning on the HA dashboard.\
+As Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use it while preparing the meals.
+Also show my day- and week meal planning on the HA kitchen dashboard.\
 I searched for a self-hosting solution and found **Mealie** most suitable for this purpose.
 
-I describe here how I created a dashboard in HA to see my **recipes** and show a meal **day-** and **weekplanner**. 
+Here I describe how I seamlessly integrate Mealie in my HA dashboard to check my **recipes** and show a meal **day-** and **weekplanner** for the upcoming days. 
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
-With Mealie, you can add recipes manually, but also import via an online url direct into the Mealie structure or place a YouTube video in the description as reference to your current online recipe.
-
+With Mealie, you can add recipes manually, but also import via an online url direct into the Mealie structure. If you have a YouTube video you can add this in the description as a reference to your current online recipe. So you have all recipes centralized at one place!\
 Based on your meals, you can also create shopping lists.
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
@@ -117,6 +116,8 @@ On the dashboard, add only an iframe card and use these settings:
 
 <img src="images_mealie/iframe_card.png" alt="iFrame Card" width="600px">
 
+<br>
+
 This is how it will look like, integrated in Home Assistant.
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="600px">
@@ -127,17 +128,17 @@ This is how it will look like, integrated in Home Assistant.
 To use the functionality to show a week planner in HA, you need to create a meal plan.
 
 In the side menu choose for the Meal planner option, use the top Edit menu item to start editing the planning.
-Use the + icon to select a meal for a day.
+Use the + icon to select a meal for each day.
 
 <img src="images_mealie/mealie1_create_weekmenu.png" alt="Create week plan" width="600">
 
 ---
-### Meal for tonight
+### Todays meal
 
 Now a week planning is made we can use this data.
 
-All data inside Mealie is also accessible through API calls.
-We can use this to get the meal for today and present that on a dashboard in a card.
+All data inside Mealie is also accessible through API calls.\ Go to http://< ip-adress >:9925/docs to see all of them.\
+This is what is used to get the meal for today and present that on a dashboard in a card.
 
 <img src="images_mealie/picture_element_meal1_tonight.png" alt="meal planner" width="400px">
 
@@ -328,7 +329,13 @@ Password: MyPassword
 A: In the side menu go to settings, here you can change the locale.
 
 **Q: How can to create a Bearer token?**\
-A: See [API Key Generation](https://docs.mealie.io/documentation/getting-started/api-usage/#getting-a-token)
+A: See [API Key Generation](https://docs.mealie.io/documentation/getting-started/api-usage/#getting-a-token)\
+Save the value in the secrets.yaml file.
+````yaml
+# Sourcecode by vdbrink.github.io
+# secrets.yaml
+mealie_bearer: ey.....
+````
 
 **Q: Can I add a YouTube recipe instruction movie to my recipe?**\
 A: Yes, you can with this code block in the description.
