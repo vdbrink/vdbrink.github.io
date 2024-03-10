@@ -5,7 +5,7 @@ tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
 
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-right:5px" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:10px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning** for the upcoming days.
 
@@ -336,15 +336,20 @@ The date will be formatted to the short notation for the day of the week.
 # Dashboard card code
 - type: markdown
     content: |-
-      <table> {% for i in range(7) %}
-       {% set index = i|string %}
-       {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
-       {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
-       {% if meal_date != 'unknown' %} 
-       <tr>
-       <td>{{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }}</td> 
-       <td>{{ meal_name }} </td>
-       {% endif %}
+      <table> 
+       {% for i in range(7) %}
+           {% set index = i|string %}
+           {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
+           {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
+           {% if meal_date != 'unknown' %} 
+           <tr>
+               <td>
+                {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }}
+               </td> 
+               <td>&nbsp; &nbsp;</td>
+               <td>{{ meal_name }}</td>
+           </tr>
+           {% endif %}
        {% endfor %}
       </table>
     title: week menu

@@ -5,7 +5,6 @@ tags: Home Assistant, lovelace, dashboard, weather, dutch, examples
 ---
 # Home Assistant dashboards
 
-0
 ![Banner](images/ha_banner.png)
 
 <img style="float: right;height:200px" src="images/home_assistant_logo.png" alt="Home Assistant logo" >
