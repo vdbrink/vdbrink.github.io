@@ -1,9 +1,9 @@
 ---
-title: "Home Assistant dashboard: Mealie Recipe manager"
+title: "Home Assistant dashboard: Mealie Recipe manager 0.x"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 ---
-# Home Assistant dashboard: Mealie Recipe manager
+# Home Assistant dashboard: Mealie Recipe manager 0.x
 
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
@@ -12,11 +12,13 @@ Here you can find how you can create a dashboard to manage your **recipes** and 
 
 I also show you how data from Mealie can be integrated, via the REST integration seamless, in Home Assistant cards to show the meal planner data.
 
-<img src="images_mealie/mealie_overview.png" alt="Result" width="800px">
+<img src="images_mealie0/mealie_overview.png" alt="Result" width="800px">
 
-For more information check also the website: https://hay-kot.github.io/mealie/
+For more information, check the website: https://hay-kot.github.io/mealie/
 
 > The version I use here is the fixed version 0.5.6, the newer 1.x.x version is not compatible with the card scripts you find here.
+
+See my [new Mealie page](homeassistant_dashboard_mealie_1x) for version 1.x+ code.
 
 ---
 ## Table of Contents
@@ -80,7 +82,7 @@ Now you can click on the bottom right plus icon to add all your meals one by one
 
 To integrate Mealie in Home Assistant you have to create a new dashboard and use these settings:
 
-<img src="images_mealie/create_dashboard.png" alt="Create dashboard" width="400px">
+<img src="images_mealie0/create_dashboard.png" alt="Create dashboard" width="400px">
 
 <br/>
 
@@ -88,11 +90,11 @@ To integrate Mealie in Home Assistant you have to create a new dashboard and use
 
 On the dashboard add only an iframe card and use these settings:
 
-<img src="images_mealie/iframe_card.png" alt="iFrame Card" width="600">
+<img src="images_mealie0/iframe_card.png" alt="iFrame Card" width="600">
 
 This is how it will look like, integrated in Home Assistant.
 
-<img src="images_mealie/mealie_overview.png" alt="Result" width="600">
+<img src="images_mealie0/mealie_overview.png" alt="Result" width="600">
 
 ---
 ## Create a week meal planner
@@ -103,7 +105,7 @@ First you have to go to the user profile page and create and select a category f
 
 Go to the top right login icon and choose for Planner, give a start and end date and choose for each day what you're planned to eat. It doesn't matter on which day of the week you start or end.
 
-<img src="images_mealie/mealie_create_weekmenu.png" alt="Create week plan" width="600">
+<img src="images_mealie0/mealie_create_weekmenu.png" alt="Create week plan" width="600">
 
 > If you start a new week you have to remove the previous week otherwise you still get the first planned week from the API call.
 
@@ -115,7 +117,7 @@ Now a week planner is made we can use this data.
 All data inside Mealie is also accessible through API calls.
 We can use this to get the meal for today and present that on a dashboard in a card.
 
-<img src="images_mealie/picture_element_meal_tonight.png" alt="meal planner" width="400px">
+<img src="images_mealie0/picture_element_meal_tonight.png" alt="meal planner" width="400px">
 
 #### Store in a sensor
 First a scraper is needed to get the data from the Mealie API and store it as sensor in Home Assistant.
@@ -143,7 +145,7 @@ Now we have the name of the meal for today and the corresponding image we can us
 
 The first card is a square picture-element.
 
-<img src="images_mealie/picture_element_meal_tonight_other.png" alt="Result" width="400px">
+<img src="images_mealie0/picture_element_meal_tonight_other.png" alt="Result" width="400px">
 
 You can set the `tap_action`, when you click on the card you navigate to the Mealie integration.
 
@@ -175,7 +177,7 @@ style: |
 
 Because the square image take a lot of space it's also possible to only use the center part of the photo to get the same impression but which use less space.
 
-<img src="images_mealie/picture_element_meal_tonight_small.png" alt="Result" width="400px">
+<img src="images_mealie0/picture_element_meal_tonight_small.png" alt="Result" width="400px">
 
 ```yaml
 {% raw %}
@@ -206,7 +208,7 @@ style: |
 
 It's also possible to show the complete meal planning for the whole week as list with a Markdown card element.
 
-<img src="images_mealie/mealie_ha_weekmenu.png" alt="Result" width="400px">
+<img src="images_mealie0/mealie_ha_weekmenu.png" alt="Result" width="400px">
 
 First create a scraper sensor in configuration.yaml.
 ```yaml
@@ -260,7 +262,7 @@ A: In the side menu go to settings, here you can change the locale.
 **Q: How can to create a Bearer token?**\
 A: See [API Key Generation](https://hay-kot.github.io/mealie/documentation/users-groups/user-settings/#api-key-generation)
 
-**Q: Can I add a Youtube recipe instruction movie to my recipe?**\
+**Q: Can I add a YouTube recipe instruction movie to my recipe?**\
 A: Yes you can with this code block in the description.
 ```yaml
 {% raw %}
