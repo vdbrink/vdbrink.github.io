@@ -5,38 +5,27 @@ tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-right:5px" alt="Home Assistant logo" height="100px"></a>
 
-How do you manage your recipes? Via bookmarks in your browser? And end up with dead links to great recipes? Or as printed version with notes with your own improvements?
-
-As Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use it while preparing the meals.
-Also show my day- and week meal planning on the HA kitchen dashboard.\
-I searched for a self-hosting solution and found **Mealie** most suitable for this purpose.
-
-Here I describe how I seamlessly integrate Mealie in my HA dashboard to check my **recipes** and show a meal **day-** and **weekplanner** for the upcoming days. 
+Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning** for the upcoming days.
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
-With Mealie, you can add recipes manually, but also import via an online url direct into the Mealie structure. If you have a YouTube video you can add this in the description as a reference to your current online recipe. So you have all recipes centralized at one place!\
-Based on your meals, you can also create shopping lists.
-
-<img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
-
-For more information, check the website: https://docs.mealie.io/
 
 > **_NOTE:_** The code on this page is based on HA 2024.3.0 and Mealie 1.3
 
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Intro](#intro)
+  * [Functionalities](#functionalities)
   * [Installation](#installation)
     * [Docker](#docker)
-      * [Hass.io Add-on](#hassio-add-on)
+    * [Hass.io Add-on](#hassio-add-on)
   * [Add recipes](#add-recipes)
   * [Dashboard integration](#dashboard-integration)
-  * [Create a week meal planner](#create-a-week-meal-planner)
-    * [Meal for tonight](#meal-for-tonight)
+  * [Integrate Mealie data into your dashboard](#integrate-mealie-data-into-your-dashboard)
+    * [Today's meal](#todays-meal)
       * [Store today meal data as a sensor](#store-today-meal-data-as-a-sensor)
       * [Create today meal image](#create-today-meal-image)
       * [Card element](#card-element)
@@ -45,6 +34,37 @@ For more information, check the website: https://docs.mealie.io/
       * [Markdown element](#markdown-element)
   * [FAQ](#faq)
 <!-- TOC -->
+
+---
+
+## Intro
+
+How do you manage your recipes? Via bookmarks in your browser? And end up with dead links to great recipes? Or as printed version with notes with your own improvements?
+
+As Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use it while preparing the meals.
+Also show my day- and week meal planning on the HA kitchen dashboard.\
+I searched for a self-hosting solution and found Mealie most suitable for this purpose.
+
+With Mealie, you can add recipes manually, but also import via an online url direct into the Mealie structure. If you have a YouTube video, you can add this in the description as a reference to your current online recipe. Now I have all my recipes centralized at one place!\
+Based on the meals, you can also create a shopping list.
+
+<img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
+
+For more project information, check their website: https://docs.mealie.io/
+
+---
+
+## Functionalities
+
+The program I was looking for must contain the next functionality:
+* Organize my recipes
+* Create a meal week planning
+* Show a photo of today's meal
+* Self-hosting
+* API to show my weekplanning in a Home Assistant dashboard
+
+<br>
+Mealie is the open source tool that provides all these functionalities and is active in development.
 
 ---
 
@@ -62,6 +82,7 @@ The website and API (available under /docs) will be available on the server via 
 # docker-compose.yaml
 version: '2'
 services:
+ 
   mealie-recipes:
     container_name: mealie-recipes
     image: ghcr.io/mealie-recipes/mealie:latest
@@ -88,18 +109,18 @@ services:
 {% endraw %}
 ```
 
-#### Hass.io Add-on
+### Hass.io Add-on
 
-Or you can install and run Mealie as Hass.io Add-on direct in Home Assistant.
+You can also install and run Mealie as Hass.io Add-on direct in Home Assistant.
 
-Check this page for the details https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation
+Check this page for the installation details https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation
 
 ---
 ## Add recipes
 
 When you access your local Mealie website, you're in read-only modus. Click in the right top corner to login with the default credentials changeme@email.com / MyPassword
 
-Now you can click in the left menu on the plus button to add meals manually or import them from a website. Not all recipe websites provide their data in a correct way Mealie can import them, then you have to copy-paste it yourself.
+Click in the left menu on the plus button to add meals manually or import them from a website. Not all recipe websites provide their data in a correct way so Mealie can import the complete online recipe in the Mealie template style, then you need to copy-paste it yourself.
 
 ---
 ## Dashboard integration
@@ -123,22 +144,24 @@ This is how it will look like, integrated in Home Assistant.
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="600px">
 
 ---
-## Create a week meal planner
+## Integrate Mealie data into your dashboard
 
-To use the functionality to show a week planner in HA, you need to create a meal plan.
+To use the functionality to show a day- and week planning, integrated in HA, you need to create first a meal plan.
 
 In the side menu choose for the Meal planner option, use the top Edit menu item to start editing the planning.
 Use the + icon to select a meal for each day.
 
-<img src="images_mealie/mealie1_create_weekmenu.png" alt="Create week plan" width="600">
+<img src="images_mealie/mealie1_create_weekmenu.png" alt="Create week plan" width="600px">
 
 ---
-### Todays meal
+### Today's meal
 
 Now a week planning is made we can use this data.
 
-All data inside Mealie is also accessible through API calls.\ Go to http://< ip-adress >:9925/docs to see all of them.\
-This is what is used to get the meal for today and present that on a dashboard in a card.
+All data inside Mealie is also accessible through API calls.\
+Go to http://< ip-adress >:9925/docs to see all the available API's.
+
+To show it like this, the data must be stored in HA and then presented in a nice way. 
 
 <img src="images_mealie/picture_element_meal1_tonight.png" alt="meal planner" width="400px">
 
@@ -147,23 +170,29 @@ First, a scraper is needed to get the data from the Mealie API and store it as a
 This code creates a sensor `mealie_todays_meal` with the state like `Poffertjes`. This meal id is needed to grab the corresponding photo.
 
 To call the API, you need a secret Bearer token. Check the [FAQ](#faq) how to create one.
+If you don't want to use the `secrets.yaml` method, you can also place the token in this config itself.
+```yaml
+{% raw %}
+  Authorization: Bearer ey....
+{% endraw %}
+```
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
 rest:
-  - scan_interval: 3600
-  resource: "http://< ip-address >:9925/api/groups/mealplans/today"
-  headers:
-    Authorization: Bearer !secret mealie_bearer
-  sensor:
-    - name: "Mealie todays meal ID"
-      value_template: "{{ value_json[0].recipe.id }}"
-      force_update: true
-    - name: "Mealie todays meal"
-      value_template: "{{ value_json[0].recipe.name }}"
-      force_update: true
+ - scan_interval: 3600
+   resource: "http://< ip-address >:9925/api/groups/mealplans/today"
+   headers:
+     Authorization: !secret mealie_bearer
+   sensor:
+     - name: "Mealie todays meal ID"
+       value_template: "{{ value_json[0].recipe.id }}"
+       force_update: true
+     - name: "Mealie todays meal"
+       value_template: "{{ value_json[0].recipe.name }}"
+       force_update: true
 {% endraw %}
 ```
 
@@ -176,25 +205,25 @@ To get the image for today, you need to add a `Generic Camera` via Settings, Dev
 The only field you need to fill in is the `Still Image URL`.
 
 You can use the internal docker link:
-```
+```yaml
 {% raw %}
 http://mealie-recipes:9000/api/media/recipes/{{states('sensor.mealie_todays_meal_id')}}/images/min-original.webp
 {% endraw %}
 ```
 
-or the outside host url (replace `< ip-address >` with your ip-address):
-```
+or the outside host url (replace `< ip-address >` with your own server ip-address):
+```yaml
 {% raw %}
 http://< ip-address >:9925/api/media/recipes/{{states('sensor.mealie_todays_meal_id')}}/images/min-original.webp
 {% endraw %}
 ```
 
 #### Card element
-Now we have stored the name of the meal for today and the corresponding image we can use it to add it to our HA as card, like this.
+Now we have stored the name of the meal for today and the corresponding image we can use it to add it to our HA as card, like this:
 
 <img src="images_mealie/picture_element_meal1_tonight.png" alt="Square picture" width="400px">
 
-Add a Picture element to the dashboard with this code.
+Add a Picture element to the dashboard with this code:
 
 ```yaml
 {% raw %}
@@ -212,21 +241,25 @@ Add a Picture element to the dashboard with this code.
 {% endraw %}
 ```
 
-I set the `tap_action`, when I click on the card I navigate direct to the Mealie integration iframe.
+I use the `tap_action`, when I click on the card I navigate direct to the Mealie integration iframe.
 
 ---
 ### Meal planning for this week as a list
 
-It's possible to show the complete meal planning for the whole week as a list on your dashboard!
+It's possible to show the complete meal planning for the rest of the week as a list on your dashboard!
 
 <img src="images_mealie/mealie1_ha_weekmenu.png" alt="Result" width="400px">
 
 #### Store meal planning data as a sensors
 
-First create a scraper sensor in configuration.yaml.
+First create a scraper sensor in `configuration.yaml`.
 
-It will get the meal planning ordered by date and start with the meal for today.
-Then it creates for the next 7 days, for each day two sensors, one with the name of the meal and the other one with the corresponding date (in the format YYYY-MM-DD).
+It will get the meal planning ordered by date and start with the meal for today.\
+Then it creates for the upcoming 7 days, for each day two sensors, one with the name of the meal and the other one with the corresponding date (in the format YYYY-MM-DD).
+
+Every day each meal moves one place up. At the end of the week, only the first sensor contains a value.
+
+The update interval is set here to one hour, if you reorder the meals in Mealie it will reflect within this hour on your dashboard also.
 
 <img src="images_mealie/mealie_sensors_per_day.png" alt="2 sensors per day" width="400px">
 
@@ -234,62 +267,63 @@ Then it creates for the next 7 days, for each day two sensors, one with the name
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- scan_interval: 3600
-  resource: "http://< ip-address >:9925/api/groups/mealplans?orderBy=date&orderDirection=asc"
-  headers:
-    Authorization: Bearer !secret mealie_bearer
-  params:
-    start_date: >
+rest:
+ - scan_interval: 3600
+   resource: "http://< ip-address >:9925/api/groups/mealplans?orderBy=date&orderDirection=asc"
+   headers:
+     Authorization: !secret mealie_bearer
+   params:
+     start_date: >
       {{ now().strftime('%Y-%m-%d') }}
-  sensor:
-    - name: "Mealie day0 name"
-      value_template: "{{ value_json['items'][0].recipe.name }}"
-      force_update: true
-    - name: "Mealie day0 date"
-      value_template: "{{ value_json['items'][0].date }}"
-      force_update: true
-    - name: "Mealie day1 name"
-      value_template: "{{ value_json['items'][1].recipe.name }}"
-      force_update: true
-    - name: "Mealie day1 date"
-      value_template: "{{ value_json['items'][1].date }}"
-      force_update: true
-    - name: "Mealie day2 name"
-      value_template: "{{ value_json['items'][2].recipe.name }}"
-      force_update: true
-    - name: "Mealie day2 date"
-      value_template: "{{ value_json['items'][2].date }}"
-      force_update: true
-    - name: "Mealie day3 name"
-      value_template: "{{ value_json['items'][3].recipe.name }}"
-      force_update: true
-    - name: "Mealie day3 date"
-      value_template: "{{ value_json['items'][3].date }}"
-      force_update: true
-    - name: "Mealie day4 name"
-      value_template: "{{ value_json['items'][4].recipe.name }}"
-      force_update: true
-    - name: "Mealie day4 date"
-      value_template: "{{ value_json['items'][4].date }}"
-      force_update: true
-    - name: "Mealie day5 name"
-      value_template: "{{ value_json['items'][5].recipe.name }}"
-      force_update: true
-    - name: "Mealie day5 date"
-      value_template: "{{ value_json['items'][5].date }}"
-      force_update: true
-    - name: "Mealie day6 name"
-      value_template: "{{ value_json['items'][6].recipe.name }}"
-      force_update: true
-    - name: "Mealie day6 date"
-      value_template: "{{ value_json['items'][6].date }}"
-      force_update: true
+   sensor:
+     - name: "Mealie day0 name"
+       value_template: "{{ value_json['items'][0].recipe.name }}"
+       force_update: true
+     - name: "Mealie day0 date"
+       value_template: "{{ value_json['items'][0].date }}"
+       force_update: true
+     - name: "Mealie day1 name"
+       value_template: "{{ value_json['items'][1].recipe.name }}"
+       force_update: true
+     - name: "Mealie day1 date"
+       value_template: "{{ value_json['items'][1].date }}"
+       force_update: true
+     - name: "Mealie day2 name"
+       value_template: "{{ value_json['items'][2].recipe.name }}"
+       force_update: true
+     - name: "Mealie day2 date"
+       value_template: "{{ value_json['items'][2].date }}"
+       force_update: true
+     - name: "Mealie day3 name"
+       value_template: "{{ value_json['items'][3].recipe.name }}"
+       force_update: true
+     - name: "Mealie day3 date"
+       value_template: "{{ value_json['items'][3].date }}"
+       force_update: true
+     - name: "Mealie day4 name"
+       value_template: "{{ value_json['items'][4].recipe.name }}"
+       force_update: true
+     - name: "Mealie day4 date"
+       value_template: "{{ value_json['items'][4].date }}"
+       force_update: true
+     - name: "Mealie day5 name"
+       value_template: "{{ value_json['items'][5].recipe.name }}"
+       force_update: true
+     - name: "Mealie day5 date"
+       value_template: "{{ value_json['items'][5].date }}"
+       force_update: true
+     - name: "Mealie day6 name"
+       value_template: "{{ value_json['items'][6].recipe.name }}"
+       force_update: true
+     - name: "Mealie day6 date"
+       value_template: "{{ value_json['items'][6].date }}"
+       force_update: true
 {% endraw %}
 ```
 
 #### Markdown element
 
-Now we have stored the names of all the meals for the upcoming days we can use it to add it to our HA as card, like this.
+Now we have stored the names of all the meals for the upcoming days we can use it to add it to our HA as card, like this. During the week, the list will be shorter until you plan new meals for the next upcoming days.
 
 <img src="images_mealie/mealie1_ha_weekmenu.png" alt="Week menu" width="400px">
 
@@ -316,7 +350,10 @@ The date will be formatted to the short notation for the day of the week.
     title: week menu
 {% endraw %}
 ```
-Enjoy using Mealie!
+
+<br>
+
+I hope you also enjoy using Mealie!
 
 ---
 ## FAQ
@@ -330,11 +367,11 @@ A: In the side menu go to settings, here you can change the locale.
 
 **Q: How can to create a Bearer token?**\
 A: See [API Key Generation](https://docs.mealie.io/documentation/getting-started/api-usage/#getting-a-token)\
-Save the value in the secrets.yaml file.
+Save this private value in the [secrets.yaml](https://www.home-assistant.io/docs/configuration/secrets/) file.
 ````yaml
 # Sourcecode by vdbrink.github.io
 # secrets.yaml
-mealie_bearer: ey.....
+mealie_bearer: "Bearer ey....."
 ````
 
 **Q: Can I add a YouTube recipe instruction movie to my recipe?**\
