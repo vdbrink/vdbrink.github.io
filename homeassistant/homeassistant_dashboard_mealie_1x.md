@@ -6,17 +6,22 @@ tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 # Home Assistant dashboard: Mealie Recipe manager
 
 
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-right:5px" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find how you can create a dashboard to manage your **recipes** and create a **meal weekplanner** with **Mealie**. You can add recipes by hand but also import them in the Mealie structure or place a YouTube video as reference.
+How do you manage your recipes? Via bookmarks in your browser? And end up with deadlinks to great recipes? Or as printed version with notes with your own improvements?
 
-Mealie is a self-hosting recipe and meal planner application that already contains a lot of functionalities and is a project where constant new updates come for.
+As Home Assistant enthusiast, I want to store my recipes locally on my home server to use it while preparing the meals. Also show my day- and week meal planning on the HA dashboard.\
+I searched for a self-hosting solution and found **Mealie** most suitable for this purpose.
 
-<img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
-
-I also show you how data from Mealie can be integrated in Home Assistant cards to show the meal of the day and the meal planner for the whole week.
+I describe here how I created a dashboard in HA to see my **recipes** and show a meal **day-** and **weekplanner**. 
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
+
+With Mealie, you can add recipes manually, but also import via an online url direct into the Mealie structure or place a YouTube video in the description as reference to your current online recipe.
+
+Based on your meals you can also create shopping lists.
+
+<img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
 
 For more information, check the website: https://docs.mealie.io/
 
@@ -25,21 +30,29 @@ For more information, check the website: https://docs.mealie.io/
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Docker](#docker)
+  * [Installation](#installation)
+    * [Docker](#docker)
+      * [Hass.io Add-on](#hassio-add-on)
   * [Add recipes](#add-recipes)
   * [Dashboard integration](#dashboard-integration)
   * [Create a week meal planner](#create-a-week-meal-planner)
     * [Meal for tonight](#meal-for-tonight)
-      * [Store in a sensor](#store-in-a-sensor)
+      * [Store today meal data as a sensor](#store-today-meal-data-as-a-sensor)
+      * [Create today meal image](#create-today-meal-image)
       * [Card element](#card-element)
     * [Meal planning for this week as a list](#meal-planning-for-this-week-as-a-list)
+      * [Store meal planning data as a sensors](#store-meal-planning-data-as-a-sensors)
+      * [Markdown element](#markdown-element)
   * [FAQ](#faq)
 <!-- TOC -->
 
 ---
-## Docker
 
-You can run Mealie as Docker container.
+## Installation
+
+### Docker
+
+You can run Mealie as single Docker container.
 
 The website and API (available under /docs) will be available on the server via the url http://< ip-adress >:9925
 
@@ -75,17 +88,23 @@ services:
 {% endraw %}
 ```
 
+#### Hass.io Add-on
+
+Or you can install and run Mealie as Hass.io Add-on direct in Home Assistant.
+
+Check this page for the details https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation
+
 ---
 ## Add recipes
 
-When you access your local Mealie website, you're in read modus. Click in the right top corner to login with the default credentials changeme@email.com / MyPassword
+When you access your local Mealie website, you're in read-only modus. Click in the right top corner to login with the default credentials changeme@email.com / MyPassword
 
-Now you can click in the left menu plus button to add meals by hand or import them from a website. Not all recipe websites provide their data in a correct way Mealie can import them, then you have to copy-paste it yourself.
+Now you can click in the left menu on the plus button to add meals manually or import them from a website. Not all recipe websites provide their data in a correct way Mealie can import them, then you have to copy-paste it yourself.
 
 ---
 ## Dashboard integration
 
-To integrate Mealie in Home Assistant, you have to create a new dashboard and use these settings:
+To integrate Mealie as view in Home Assistant, you have to create a new dashboard and use these settings:
 
 <img src="images_mealie/create_dashboard.png" alt="Create dashboard" width="400px">
 

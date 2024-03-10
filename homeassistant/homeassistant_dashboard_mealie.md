@@ -75,7 +75,7 @@ services:
 
 When you access your local Mealie website you're in read modus. Click in the right top corner to login with the default credentials changeme@email.com / MyPassword
 
-Now you can click on the bottom right plus icon to add all your meals one by one by hand or import them from a website. 
+Now you can click on the bottom right plus icon to add all your meals one by one manually or import them from a website. 
 
 ---
 ## Dashboard integration
