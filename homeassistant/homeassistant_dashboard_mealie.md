@@ -7,7 +7,7 @@ tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:10px" alt="Home Assistant logo" height="100px"></a>
 
-Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning** for the upcoming days.
+Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
@@ -45,8 +45,7 @@ As Home Assistant enthusiast, I wanted to store my recipes locally on my home se
 Also show my day- and week meal planning on the HA kitchen dashboard.\
 I searched for a self-hosting solution and found Mealie most suitable for this purpose.
 
-With Mealie, you can add recipes manually, but also import via an online url direct into the Mealie structure. If you have a YouTube video, you can add this in the description as a reference to your current online recipe. Now I have all my recipes centralized at one place!\
-Based on the meals, you can also create a shopping list.
+With Mealie, it's possible to add recipes manually, but also import them via an online url direct into the Mealie structure. If you have a YouTube video, you can add this in the description as a reference to your current online recipe. This way I have all my recipes now centralized at one place!
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
 
@@ -72,7 +71,7 @@ Mealie is the open source tool that provides all these functionalities and is ac
 
 ### Docker
 
-You can run Mealie as a single Docker container.
+Mealie can run as a single Docker container.
 
 The website and API (available under /docs) will be available on the server via the url http://< ip-adress >:9925
 
@@ -111,7 +110,7 @@ services:
 
 ### Hass.io Add-on
 
-You can also install and run Mealie as Hass.io Add-on direct in Home Assistant.
+It can also be installed as Hass.io Add-on direct in Home Assistant.
 
 Check this page for the installation details https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation
 
@@ -125,7 +124,7 @@ Click in the left menu on the plus button to add meals manually or import them f
 ---
 ## Dashboard integration
 
-To integrate Mealie as view in Home Assistant, you have to create a new dashboard and use these settings:
+To integrate Mealie as view in Home Assistant, create a new dashboard and use these settings:
 
 <img src="images_mealie/create_dashboard.png" alt="Create dashboard" width="400px">
 
@@ -166,6 +165,7 @@ To show it like this, the data must be stored in HA and then presented in a nice
 <img src="images_mealie/picture_element_meal1_tonight.png" alt="meal planner" width="400px">
 
 #### Store today meal data as a sensor
+
 First, a scraper is needed to get the data from the Mealie API and store it as a sensor in Home Assistant.
 This code creates a sensor `mealie_todays_meal` with the state like `Poffertjes`. This meal id is needed to grab the corresponding photo.
 
@@ -241,7 +241,7 @@ Add a Picture element to the dashboard with this code:
 {% endraw %}
 ```
 
-I use the `tap_action`, when I click on the card I navigate direct to the Mealie integration iframe.
+I use the `tap_action` also here, when you click on the card you navigate direct to the Mealie integration iframe.
 
 ---
 ### Meal planning for this week as a list
