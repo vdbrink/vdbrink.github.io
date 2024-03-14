@@ -7,36 +7,77 @@ tags: Home Assistant, dashboard, lovelace, templates, nl, weer
 
  <a href="index"><img src="images/home_assistant_logo.png" style="float: right" alt="Home Assistant logo" height="100px"></a>
 
+Hier vind je Nederlandse Home Assistant template voorbeelden om op je dashboard te plaatsen.
+
 ---
 
 ## Table of Contents
 <!-- TOC -->
-* [Home Assistant dashboard: Voorbeeld templates NL](#home-assistant-dashboard-voorbeeld-templates-nl)
-  * [Table of Contents](#table-of-contents)
-  * [Welkom en weer](#welkom-en-weer)
-  * [Het weer van nu en vandaag](#het-weer-van-nu-en-vandaag)
-  * [De duur dat de (was)machine aan is](#de-duur-dat-de-wasmachine-aan-is)
+  * [Welkoms boodschap](#welkoms-boodschap)
+  * [Het weer voor vandaag](#het-weer-voor-vandaag)
+  * [De huidige temperatuur met kleding advies](#de-huidige-temperatuur-met-kleding-advies)
+  * [De duur dat de wasmachine aan is](#de-duur-dat-de-wasmachine-aan-is)
 <!-- TOC -->
 
 ---
 
-## Welkom en weer
+## Welkoms boodschap
 
+Op basis van de tijd de juiste begroeting van de gebruiker die is ingelogd.
+
+Voorbeeld notaties van deze template:
+```text
+{% raw %}
+ Goeiemorgen, Henk
+{% endraw %}
+```
+```text
+{% raw %}
+Goeieavond, Ingrid
+{% endraw %}
+```
+
+De template:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
   {%- if now().hour < 12 -%}Goeiemorgen
   {%- elif now().hour < 18 -%}Goeiemiddag
-  {%- else -%}Goeieavond{%- endif -%}, {{user}}. 
-  
+  {%- else -%}Goeieavond{%- endif -%}, {{user}}.
+{% endraw %}
+```
+---
+
+## Het weer voor vandaag
+
+Voorbeeld notaties van deze template:
+```text
+{% raw %}
+Vandaag is het tussen de 8 en de 24°C 
+en bewolkt met af en toe regen. 
+{% endraw %}
+```
+
+De template:
+```yaml
+{% raw %}
   Vandaag is het tussen de {{states('sensor.meteoserver_d0tmin')}} 
   en de {{states('sensor.meteoserver_d0tmax')}} °C 
-  met {{ states('sensor.meteoserver_verw').lower()}}.
+  en {{ states('sensor.meteoserver_verw').lower()}}.
 {% endraw %}
 ```
  ---
-## Het weer van nu en vandaag
+## De huidige temperatuur met kleding advies
 
+Voorbeeld notaties van deze template:
+```text
+{% raw %}
+Het weer buiten is aangenaam met 17 graden als gevoelstemperatuur.
+en 16 graden celcius op de thermometer.
+T-shirt aan als je naar buiten gaat.
+{% endraw %}
+```
+
+De template:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -49,56 +90,72 @@ tags: Home Assistant, dashboard, lovelace, templates, nl, weer
   {% endif %}
   {{states('tempest_temperature_feels_like_rounded')}} graden als gevoelstemperatuur.
 
-  En {{states('tempest_temperature_rounded')}} celcius op de thermometer.
-  {% if states('tempest_temperature_feels_like_rounded')|int <= 5 %} Winterjas en handschoenen aan.
-  {% elif states('tempest_temperature_feels_like_rounded')|int <= 12 %} Softshell aan.
-  {% elif states('tempest_temperature_feels_like_rounded')|int <= 16 %} Vest aan.
-  {% elif states('tempest_temperature_feels_like_rounded')|int > 16 %} T-shirt aan.
-  {% endif %}
-
-    De temperatuur ligt tussen de {{states('meteoserver_d0tmin')}} en de {{states('meteoserver_d0tmax')}} graden.
-
-    De weercode is {{states('knmi_weercode').lower()}}.
-
-    De luchtkwaliteit is {{states('outside_lki_lki_text')}} ({{states('outside_lki_lki_index')}}).
-
-    De rest van de dag is het {{states('meteoserver_verw').lower()}}.
+  en {{states('tempest_temperature_rounded')}} graden celcius op de thermometer.
+  
+  {% if states('tempest_temperature_feels_like_rounded')|int <= 5 %} Winterjas en handschoenen
+  {% elif states('tempest_temperature_feels_like_rounded')|int <= 12 %} Softshell
+  {% elif states('tempest_temperature_feels_like_rounded')|int <= 16 %} Vest
+  {% elif states('tempest_temperature_feels_like_rounded')|int > 16 %} T-shirt
+  {% endif %} aan als je naar buiten gaat.
 {% endraw %}
 ```
----
-## De duur dat de (was)machine aan is
 
+---
+## De duur dat de wasmachine aan is
+
+Deze template toont hoe lang een binary sensor op de status `on` staat.
+
+Voorbeeld notaties van deze template:
+```text
+{% raw %}
+De wasmachine is 2 dagen 5 uren en 1 minuut bezig.
+{% endraw %}
+```
+```text
+{% raw %}
+De wasmachine is 1 uur en 12 minuten bezig.
+{% endraw %}
+```
+```text
+{% raw %}
+De wasmachine is 42 minuten bezig.
+{% endraw %}
+```
+
+De template:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-  {{ 'De machine is ' }}
+  {{ 'De wasmachine is ' }}
   {%- set entity_id = 'binary_sensor.wasmachine' -%}
   {%- if is_state(entity_id, 'on') -%}
-      {%- set runningsince = (now()) - ((states[entity_id].last_changed)) -%}
-      {%- set runningsinceseconds = runningsince.total_seconds()|round -%}
-      {%- set runningsincedays = (runningsinceseconds / 86400)|int|string -%}
-      {%- set runningsincedaystext = 'dagen' -%}
-      {%- if runningsincedays|int == 1 -%}
-        {%- set runningsincedaystext = 'dag' -%}
+      {%- set runningSince = (now()) - ((states[entity_id].last_changed)) -%}
+      {%- set runningSinceSeconds = runningSince.total_seconds()|round -%}
+      
+      {%- set runningSinceDays = (runningSinceSeconds / 86400)|int|string -%}
+      {%- set runningSinceDaysText = 'dagen' -%}
+      {%- if runningSinceDays|int == 1 -%}
+        {%- set runningSinceDaysText = 'dag' -%}
       {%- endif -%}
-      {%- set runningsincehours = (runningsinceseconds % 86400 / 3600)|int|string -%}
-      {%- set runningsincehourstext = 'uren' -%}
+      
+      {%- set runningSinceHours = (runningSinceSeconds % 86400 / 3600)|int|string -%}
+      {%- set runningSinceHoursText = 'uren' -%}
+      {%- if runningSinceHours|int == 1 -%}
+        {%- set runningSinceHoursText = 'uur' -%}
+      {%- endif -%}
     
-      {%- if runningsincehours|int == 1 -%}
-        {%- set runningsincehourstext = 'uur' -%}
+      {%- set runningSinceMinutes = (runningSinceSeconds % 3600 / 60)|int|string -%}
+      {%- set runningSinceMinutesText = 'minuten' -%}
+      {%- if runningSinceMinutes|int == 1 -%}
+        {%- set runningSinceMinutesText = 'minuut' -%}
       {%- endif -%}
-    
-      {%- set runningsinceminutes = (runningsinceseconds % 3600 / 60)|int|string -%}
-      {%- set runningsinceminutestext = 'minuten' -%}
-      {%- if runningsinceminutes|int == 1 -%}
-        {%- set runningsinceminutestext = 'minuut' -%}
-      {%- endif -%}
-      {%- if runningsincedays|int > 0 -%}
-          {{ runningsincedays + ' ' + runningsincedaystext + ' ' + runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }}
-      {%- elif runningsincehours|int > 0 -%}
-          {{ runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }}
+  
+      {%- if runningSinceDays|int > 0 -%}
+          {{ runningSinceDays + ' ' + runningSinceDaysText + ' ' + runningSinceHours + ' ' + runningSinceHoursText + ' en ' + runningSinceMinutes + ' ' + runningSinceMinutesText }}
+      {%- elif runningSinceHours|int > 0 -%}
+          {{ runningSinceHours + ' ' + runningSinceHoursText + ' en ' + runningSinceMinutes + ' ' + runningSinceMinutesText }}
       {%- else -%}
-        {{ runningsinceminutes + ' ' + runningsinceminutestext }}
+        {{ runningSinceMinutes + ' ' + runningSinceMinutesText }}
       {%- endif -%}
   {%- endif -%}
   {{ ' bezig.' }}
