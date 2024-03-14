@@ -63,7 +63,6 @@ tags: Home Assistant, dashboard, lovelace, templates, nl, weer
     De luchtkwaliteit is {{states('outside_lki_lki_text')}} ({{states('outside_lki_lki_index')}}).
 
     De rest van de dag is het {{states('meteoserver_verw').lower()}}.
-
 {% endraw %}
 ```
 ---
@@ -72,7 +71,6 @@ tags: Home Assistant, dashboard, lovelace, templates, nl, weer
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-{% endraw %}
   {{ 'De machine is ' }}
   {%- set entity_id = 'binary_sensor.wasmachine' -%}
   {%- if is_state(entity_id, 'on') -%}
@@ -104,6 +102,7 @@ tags: Home Assistant, dashboard, lovelace, templates, nl, weer
       {%- endif -%}
   {%- endif -%}
   {{ ' bezig.' }}
+{% endraw %}
 ```
 
 ---
