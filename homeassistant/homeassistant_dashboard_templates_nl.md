@@ -5,15 +5,17 @@ tags: Home Assistant, dashboard, lovelace, templates, nl, weer
 ---
 # Home Assistant dashboard: Voorbeeld templates NL
 
- <a href="index"><img src="images/home_assistant_logo.png" style="float: right" alt="Home Assistant logo" height="100px"></a>
+ <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Hier vind je Nederlandse Home Assistant template voorbeelden om op je dashboard te plaatsen.
+
+<br>
 
 ---
 
 ## Table of Contents
 <!-- TOC -->
-  * [Welkoms boodschap](#welkoms-boodschap)
+  * [Welkomstboodschap](#welkomstboodschap)
   * [Het weer voor vandaag](#het-weer-voor-vandaag)
   * [De huidige temperatuur met kleding advies](#de-huidige-temperatuur-met-kleding-advies)
   * [De duur dat de wasmachine aan is](#de-duur-dat-de-wasmachine-aan-is)
@@ -21,7 +23,7 @@ Hier vind je Nederlandse Home Assistant template voorbeelden om op je dashboard 
 
 ---
 
-## Welkoms boodschap
+## Welkomstboodschap
 
 Op basis van de tijd de juiste begroeting van de gebruiker die is ingelogd.
 

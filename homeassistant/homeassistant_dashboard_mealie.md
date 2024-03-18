@@ -5,7 +5,7 @@ tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
 
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:10px" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
@@ -113,6 +113,10 @@ services:
 It can also be installed as Hass.io Add-on direct in Home Assistant.
 
 Check this page for the installation details https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation
+
+Smart Home Junkie created a step-by-step video about the installation in HA.
+
+[![Mealie HA installation](http://img.youtube.com/vi/dd5t3vBOZUM/0.jpg)](http://www.youtube.com/watch?v=dd5t3vBOZUM "Mealie HA installation")
 
 ---
 ## Add recipes
