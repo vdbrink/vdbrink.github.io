@@ -105,6 +105,7 @@ services:
       ALLOW_SIGNUP: 'true'
       MAX_WORKERS: 1
       WEB_CONCURRENCY: 1
+      TOKEN_TIME: 99999
 {% endraw %}
 ```
 
@@ -390,6 +391,9 @@ A: Yes, you can with this code block in the description.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endraw %}
 ```
+
+**Q: Can I disable the required login?**\
+A: No, but you can increase the hours your login token is valid. The default value is `48` hours. Use the environment variable `TOKEN_TIME` to increase this time to something like `999999`.
 
 **Q: Where can I find more info about Mealie**\
 A: Checkout the [website](https://hay-kot.github.io/mealie/) or via [Discord](https://discord.gg/QuStdQGSGK)
