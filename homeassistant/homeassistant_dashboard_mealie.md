@@ -129,6 +129,8 @@ Click in the left menu on the plus button to add meals manually or import them f
 ---
 ## Dashboard integration
 
+### As Panel
+
 To integrate Mealie as view in Home Assistant, create a new dashboard and use these settings:
 
 <img src="images_mealie/create_dashboard.png" alt="Create dashboard" width="400px">
@@ -146,6 +148,25 @@ On the dashboard, add only an iframe card and use these settings:
 This is how it will look like, integrated in Home Assistant.
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="600px">
+
+### As sidepanel link
+
+Another option is to add a link to Mealie in the side menu.
+
+<img src="images_mealie/mealie_link_sidemenu.png" alt="Result" width="600px">
+
+You only need to add this code to your `configuration.yaml` file.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+panel_iframe:
+  mealie:
+    title: Mealie
+    url: "http://<ip-address>:9926"
+    icon: mdi:silverware-fork-knife
+{% endraw %}
+```
 
 ---
 ## Integrate Mealie data into your dashboard
