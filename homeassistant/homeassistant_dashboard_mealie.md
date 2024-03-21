@@ -24,6 +24,8 @@ Here you find how I seamlessly integrate the recipe manager **Mealie** into my H
     * [Hass.io Add-on](#hassio-add-on)
   * [Add recipes](#add-recipes)
   * [Dashboard integration](#dashboard-integration)
+    * [As Panel](#as-panel)
+    * [As sidebar link](#as-sidebar-link)
   * [Integrate Mealie data into your dashboard](#integrate-mealie-data-into-your-dashboard)
     * [Today's meal](#todays-meal)
       * [Store today meal data as a sensor](#store-today-meal-data-as-a-sensor)
@@ -149,9 +151,9 @@ This is how it will look like, integrated in Home Assistant.
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="600px">
 
-### As sidepanel link
+### As sidebar link
 
-Another option is to add a link to Mealie in the side menu.
+Another option is to add a link to Mealie in the sidebar.
 
 <img src="images_mealie/mealie_link_sidemenu.png" alt="Result" width="600px">
 
