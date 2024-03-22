@@ -7,7 +7,7 @@ tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS,
 
 <img style="float: right;" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">
 
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom integration **Afvalbeheer** which you can easily use on your own dashboards.
 
@@ -30,6 +30,12 @@ Check the git repository to find all the options and if you can use it in your c
 ---
 
 ## Intro
+
+I want to show the upcoming waste collecting not with a date but a day countdown.
+Also a presentation which some only the ones for the upcoming few days.
+Not by default available, but I've made it the way I wanted it. 
+
+Here you can read how I did this, enjoy!
 
 ---
 
@@ -154,27 +160,27 @@ sensor:
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
 - type: custom:auto-entities
-    card:
-      type: entities
-      show_header_toggle: false
-      state_color: false
-    filter:
-      include:
-        - entity_id: sensor.*waste_pickup_countdown
-          state 1: '> -1'
-          state 2: '> -1'
-    show_empty: false
-    sort:
-      method: state
-      numeric: true
+  card:
+    type: entities
+    show_header_toggle: false
+    state_color: false
+  filter:
+    include:
+      - entity_id: sensor.*waste_pickup_countdown
+    exclude: null
+  show_empty: false
+  sort:
+    method: state
+    numeric: true
 {% endraw %}
 ```
 
+---
 ## Show conditional, only for tomorrow and today
 
-<img src="images_afvalbeheer/conditional_two_days.png" alt="" width="400px">
+[//]: # (<img src="images_afvalbeheer/conditional_two_days.png" alt="" width="400px">)
 
-Show the 
+Show only the waste pickup for the upcoming 4 days.
 
 This dashboard use the power of the custom element [Auto-entities](homeassistant_dashboard_card_auto-entities)
 
@@ -188,11 +194,12 @@ This dashboard use the power of the custom element [Auto-entities](homeassistant
   filter:
     include:
       - entity_id: sensor.*_waste_pickup_countdown
-        state 1: "< 2"
-        state 2: "> -1"
+        state 1: < 5
+        state 2: '> 0'
 {% endraw %}
 ```
 
+---
 ## Mushroom element
 
 All different colors for each type of trash.

@@ -5,19 +5,22 @@ tags: Home Assistant, dashboard, lovelace, layout
 ---
 # Home Assistant dashboard: Layout
 
+![Banner](images_layout/ha_layout_banner.png)
 
 <a href="index"><img src="images/home_assistant_logo.png" style="margin-left:20px;float: right" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard layout tips.
+Here you find Home Assistant dashboard layout tips.
 
-I like compact layouts. Over the years I found different ways to group information compact together. Here you find some of these as examples you can use by yourself. Most of these examples need an extra HACS integration.
+I like compact layouts. Over the years I found different ways to group a lot of information together in less space on my dashboard but that it doesn't look overwhelming (except in a banner).
+
+Some of these examples need an extra HACS integration.
 
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Vertical stack](#vertical-stack)
   * [Horizontal stack](#horizontal-stack)
-  * [Weather data in a row](#weather-data-in-a-row)
+  * [Vertical stack](#vertical-stack)
+  * [Data in a row](#data-in-a-row)
   * [Grid](#grid)
   * [Six in a row](#six-in-a-row)
   * [With a slider](#with-a-slider)
@@ -30,16 +33,54 @@ I like compact layouts. Over the years I found different ways to group informati
 
 ---
 
+## Horizontal stack
+
+With a horizontal-stack you can place multiple entities next to each other in one row.
+
+<img src="images_layout/layout_horizontal-stack.png" alt="horizontal stack" width="400px">
+
+You see here two gauges next to each other instead of the "normal" double sized cards under each other.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+type: horizontal-stack
+cards:
+  - type: gauge
+    entity: sensor.temp1_temperature_rounded
+    theme: ios-dark-mode
+    needle: true
+    min: 15
+    max: 35
+    severity:
+      green: 10
+      yellow: 0
+      red: 26
+  - type: gauge
+    entity: sensor.temp1_humidity_rounded
+    theme: ios-dark-mode
+    needle: true
+    severity:
+      green: 45
+      red: 60
+    min: 45
+    max: 100
+
+{% endraw %}
+```
+
+---
+
 ## Vertical stack
 
 With a vertical-stack card you can group cards together underneath each other. Reordering of the cards will have no effect on them.
 
 In this example you see a button panel build with a vertical stack with 3 rows.\
-And each row has a horizontal stack. Now all buttons keeps always in the same position.
+And each row has a horizontal stack. This way all buttons keeps always in the same size and position.
 
 <img src="images_layout/layout_stacks.png" alt="stacks" width="400px">
 
-In this YAML the content of the button entities is removed, it shows the idea and format of the corresponding code.
+In this YAML the content of the button entities are removed, it shows the idea and format of the corresponding code.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -81,48 +122,9 @@ cards:
 
 ---
 
-## Horizontal stack
+## Data in a row
 
-With a horizontal stack you can place multiple entities next to each other in one row.
-
-<img src="images_layout/layout_horizontal-stack.png" alt="horizontal stack" width="400px">
-
-You see here two gauges next to each other instead of the "normal" double sized cards under each other.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-type: horizontal-stack
-cards:
-  - type: gauge
-    entity: sensor.temp1_temperature_rounded
-    theme: ios-dark-mode
-    needle: true
-    min: 15
-    max: 35
-    severity:
-      green: 10
-      yellow: 0
-      red: 26
-  - type: gauge
-    entity: sensor.temp1_humidity_rounded
-    theme: ios-dark-mode
-    needle: true
-    severity:
-      green: 45
-      red: 60
-    min: 45
-    max: 100
-
-{% endraw %}
-```
-
-
----
-
-## Weather data in a row
-
-Different types of weather data as rounded values next to each other in a single row. This saves a lot of space compared to normal entity data in a list!
+Different types of (weather) data, with [rounded](homeassistant_dashboard_formatting#rounded-temperature-sensors) states, next to each other in a single row. This saves a lot of space compared to normal entity states in a list!
 
 <img src="images_layout/layout_weather.png" alt="machines" width="400px">
 
@@ -209,7 +211,8 @@ Present [rounded temperatures](homeassistant_dashboard_formatting#rounded-temper
 ---
 ## Six in a row
 
-Show (machine) status next to each other, yellow when it's active without a textual state.
+Show (machine) status next to each other.\
+The color indicates the state. No textual state text is needed this way.
 
 <img src="images_layout/layout_machines.png" alt="machines six in a row" width="400px">
 
@@ -235,7 +238,7 @@ Show (machine) status next to each other, yellow when it's active without a text
 ---
 ## With a slider
 
-Show a lamp entity with a slider in a row or around the icon.\
+Show a light entity with a slider in a row or around the icon.\
 Use the slider to dim the light.
 
 <img src="images_layout/layout_lamp_slider.png" alt="lamp sliders" width="400px">
@@ -259,7 +262,8 @@ cards:
 
 ## Only the sensor state
 
-Show only the sensor state and use the whole width of the element.
+Show only the sensor state and use the whole width of the card for the text.
+There is also a link added here for more information.
 
 <img src="images/news_headline.png" alt="news nu.nl" width="400px">
 
@@ -271,13 +275,16 @@ Show only the sensor state and use the whole width of the element.
   {{ states('sensor.web_scrape') }} [>>](https://nu.nl)
 {% endraw %}
 ```
+
+See the [webscraper](homeassistant_web_scraper) page how to add this text as sensor.
+
 ---
 
 ## Conditional visible
 
 Sometimes you only want to show an entity if it has a specific state.\
-Like when there is no rain expected, I don't need this graph to be visible on my dashboard. Especially in periods with no rain, it's useless space consuming all that time.\
-This functionality makes my dashboard dynamic, compact and shows only useful information.
+Like when there is no rain expected, I don't need this graph to be visible on my dashboard. Especially in periods with no rain expected, it's useless space consuming.\
+This functionality makes your dashboard more dynamic, compact and shows only actual useful information.
 
 <img src="images_layout/layout_optional.png" alt="conditional visible" width="400px">
 
@@ -326,7 +333,9 @@ This functionality makes my dashboard dynamic, compact and shows only useful inf
 ---
 ## Entities sorted by state
 
-Show all entities with match with a wildcard `*` selection. In this case `sensor.*waste_pickup_countdown` and sort it on the `state` by it's `numeric` value. The value behind the number is defined as attribute `unit_of_measurement` and not part of the state otherwise the sort won't work.
+Show all entities with match with a wildcard `*` selection. In this case `sensor.*waste_pickup_countdown` and sort it on the `state` by its `numeric` state. The value behind the number is defined as attribute `unit_of_measurement` and not part of the state otherwise the sort won't work.
+
+See the [afvalbeheer](homeassistant_hacs_afvalbeheer#days-count-down) page how to create these countdown custom sensor days instead of showing a date.
 
 <img src="images_afvalbeheer/days_countdown.png" alt="ordered by date" width="400px">
 

@@ -12,7 +12,9 @@ tags: Home Assistant, lovelace, dashboard, weather, dutch, examples
 I created so many different dashboards that I want to document and share them with you.
 One by one, I will add them here.
 
-I created dashboards with all kind of elements in it:
+I created dashboards with all kinds of elements in it:
+* Templates:
+  * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
   * [External sites](homeassistant_dashboard_weather) (Thunderstorm) 
@@ -27,6 +29,7 @@ I created dashboards with all kind of elements in it:
 * [HACS custom elements](homeassistant_dashboard_hacs) (Overview of some very useful custom HACS elements)
   * [Auto entities](homeassistant_dashboard_card_auto-entities) 
   * [Mushroom](homeassistant_dashboard_card_mushroom) 
+  * [Afvalbeheer](homeassistant_hacs_afvalbeheer)
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
 * [Hardware monitor](homeassistant_hardware_monitor)
 * [Random examples](homeassistant_dashboard_examples) (The latest news)

@@ -6,7 +6,7 @@ tags: Home Assistant, dashboard, web scraper
 # Home Assistant: Web Scraper
 
 
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how you can scrape (text) elements from a webpage and create a Home Assistant sensor which contains this text.
 
