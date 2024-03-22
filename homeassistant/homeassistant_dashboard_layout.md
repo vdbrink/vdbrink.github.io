@@ -11,9 +11,13 @@ tags: Home Assistant, dashboard, lovelace, layout
 
 Here you find Home Assistant dashboard layout tips.
 
-I like compact layouts. Over the years I found different ways to group a lot of information together in less space on my dashboard but that it doesn't look overwhelming (except in a banner).
+I like compact layouts.\
+Over the years I found different ways to group a lot of entity state information together in a nice and compact way.\
+And I only show entities which are relevant for the time of day, year or what else...
 
-Some of these examples need an extra HACS integration.
+I hope you can use my examples for your dashboard!
+
+> **_NOTE:_** For some of the examples here need to install first an extra HACS integration.
 
 ---
 ## Table of Contents
