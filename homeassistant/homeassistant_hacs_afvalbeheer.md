@@ -26,7 +26,7 @@ Check the git repository to find all the options and if you can use it in your c
   * [Sort by date](#sort-by-date)
   * [Days count down](#days-count-down)
   * [Sorted by days](#sorted-by-days)
-  * [Show conditional, only for tomorrow](#show-conditional-only-for-tomorrow)
+  * [Show conditional, only for the next 5 days](#show-conditional-only-for-the-next-5-days)
   * [Mushroom element](#mushroom-element)
 <!-- TOC -->
 
@@ -219,13 +219,12 @@ The dashboard card code with auto-entities.
 ```
 
 ---
-## Show conditional, only for tomorrow
+## Show conditional, only for the next 5 days
 
 [//]: # (<img src="images_afvalbeheer/conditional_two_days.png" alt="" width="400px">)
 
-Show only the waste pickup for the upcoming days.
+Show only the waste pickup for the upcoming 5 days.
 
-This dashboard uses the power of the custom HACS frontend respository [Auto-entities](homeassistant_dashboard_card_auto-entities)
 
 ```yaml
 {% raw %}
@@ -237,7 +236,7 @@ This dashboard uses the power of the custom HACS frontend respository [Auto-enti
   filter:
     include:
       - entity_id: sensor.*_waste_pickup_countdown
-        state 1: < 2
+        state 1: < 6
         state 2: '> 0'
 {% endraw %}
 ```
