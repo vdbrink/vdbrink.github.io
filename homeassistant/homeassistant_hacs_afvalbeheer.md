@@ -9,11 +9,11 @@ tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS,
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard examples related to the custom integration **Afvalbeheer** which you can easily use on your own dashboards.
+Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
-Afvalbeheer is a Dutch and Belgium integration for a multiple company who pickup trash. This integration adds sensors to HA to show when specific "kliko" (or for people in the east of NL "otto") get picked up.  
+Afvalbeheer is a Dutch and Belgium integration for a multiple company who pickup trash. This integration adds sensors to HA to show when specific "kliko" (or for people in the east of NL call it "otto") get picked up.  
 
-Check the git repository to find all the options and if you can use it in your city at https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
+Check the git repository to find all the options and if you can use it in your city. https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
 
 ---
 ## Table of Contents
@@ -46,8 +46,8 @@ Here you can read how I did this, enjoy!
 
 ### Afvalbeheer integration
 
-The HACS integration `afvalbeheer` is available for a lot of places.
-You need to add these settings to your `configuration.yaml`.
+The HACS integration `afvalbeheer` is available for a lot of cities.
+After the installation you need to add and config these settings to your `configuration.yaml`.
 
 ```yaml
 {% raw %}
@@ -75,18 +75,18 @@ afvalbeheer:
 
 ### Auto-entities integration
 
-To show the entities by wildcard and sort them by date, you need also the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
+To show the (countdown) entities by wildcard and sort them by date, you need also the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
 
 ---
 ## Default presentation
 
-When this installation is complete, you get at least 4 entities which you can add to your dashboard.
+When the installation is complete, you get at least 4 entities which you can add to your dashboard.
 
 This is the default presentation.
 
 <img src="images_afvalbeheer/default.png" alt="default afvalbeheer presentation" width="400px">
 
-The downside is that it isn't always ordered by date, you always see the icon and not see the numbers of days. Which I like more than a full date format.
+The downside is that it isn't ordered by date, you get a colored (distracting) icon and you don't see the numbers of days. Now you need to know the current date and calculate when it's the right date to put it on the street. So work todo to make it more practical and a cleaner presentation. 
 
 This dashboard code belongs to the above presentation screenshot.
 In my case my provider is `cyclus` that's why I have that in my sensor name. Yours can be different.
@@ -109,7 +109,7 @@ show_header_toggle: false
 
 ## Sort by date
 
-You can use the extra attribute `Days_until` for the sorting in combination with the custom card auto-entities.
+You can use the extra attribute `Days_until` which are by default added to each sensor, and we can use it for sorting on date in combination by using the custom card auto-entities.
 
 ```yaml
 {% raw %}
@@ -135,12 +135,12 @@ sort:
 
 I wanted my presentation like this.\
 Only with the numbers of days instead of the full date as the state value.\
-Also, a more subtle default icon.
+Also, a more subtle icon which match the rest of the icons on my dashboard.
 
 <img src="images_afvalbeheer/days_countdown.png" alt="countdown" width="400px">
 
-To get this done, you need to create some new helper sensors with the countdown in days as state.
-Add this to `configuration.yaml` (or add it to `sensor.yaml` without the first `sensor:` line)
+To get this done, I needed to create some new helper sensors with the countdown in days as state value.\
+Add this to `configuration.yaml` (or add it to `sensor.yaml` without the first `sensor:` line.)
 
 ```yaml
 {% raw %}
@@ -196,7 +196,7 @@ The new countdown entities sorted by days.
 
 <img src="images_afvalbeheer/days_countdown.png" alt="Days countdown" width="400px">
 
-The dashboard card code with auto-entities.
+The dashboard card code with auto-entities. These values are sorted by the state value.
 
 ```yaml
 {% raw %}
@@ -221,8 +221,6 @@ The dashboard card code with auto-entities.
 ---
 ## Show conditional, only for the next 5 days
 
-[//]: # (<img src="images_afvalbeheer/conditional_two_days.png" alt="" width="400px">)
-
 Show only the waste pickup for the upcoming 5 days.
 
 
@@ -244,12 +242,12 @@ Show only the waste pickup for the upcoming 5 days.
 ---
 ## Mushroom element
 
-On top of my dashboard I show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.
-I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. These are the possible visible icon options.
+On top of my dashboard I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.
+I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. These are all the possible visible icon options (only one is visible at the same time).
 
 <img src="images_afvalbeheer/afvalbeheer_mushroom.png" alt="Mushroom conditional and colored" width="200px">
 
-I use here also my extra created helper entities.\
+I use here also my extra created countdown helper entities.\
 The condition is: If tomorrow some waste must be placed outside, it shows the corresponding color trashcan, otherwise there is no trashcan visible in the circle. 
 
 ```yaml
