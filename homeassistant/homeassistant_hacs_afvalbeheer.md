@@ -11,29 +11,32 @@ tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS,
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom integration **Afvalbeheer** which you can easily use on your own dashboards.
 
-Afvalbeheer is a Dutch and Belgium integration for multiple company who pickup trash. This integration add sensors to HA to show when specific "kliko" (or for people in the east of NL "otto") get picked up.  
+Afvalbeheer is a Dutch and Belgium integration for a multiple company who pickup trash. This integration adds sensors to HA to show when specific "kliko" (or for people in the east of NL "otto") get picked up.  
 
 Check the git repository to find all the options and if you can use it in your city at https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
 
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Intro](#intro)
-* [Installation](#installation)
-* [Default presentation](#default-presentation)
-* [Days count down](#days-count-down)
-* [Sorted by days](#sorted-by-days)
-* [Show conditional, only for tomorrow and today](#show-conditional-only-for-tomorrow-and-today)
-* [Mushroom element](#mushroom-element)
+  * [Intro](#intro)
+  * [Installation](#installation)
+    * [Afvalbeheer integration](#afvalbeheer-integration)
+    * [Auto-entities integration](#auto-entities-integration)
+  * [Default presentation](#default-presentation)
+  * [Sort by date](#sort-by-date)
+  * [Days count down](#days-count-down)
+  * [Sorted by days](#sorted-by-days)
+  * [Show conditional, only for tomorrow](#show-conditional-only-for-tomorrow)
+  * [Mushroom element](#mushroom-element)
 <!-- TOC -->
 
 ---
 
 ## Intro
 
-I want to show the upcoming waste collecting not with a date but a day countdown.
-Also a presentation which some only the ones for the upcoming few days.
-Not by default available, but I've made it the way I wanted it. 
+I want to show the upcoming waste collecting not with a date as state but a days countdown.
+Also, a presentation that shows only the ones that are relevant for the upcoming few days.
+This is not by default available, but I've made it the way I wanted it. 
 
 Here you can read how I did this, enjoy!
 
@@ -41,13 +44,18 @@ Here you can read how I did this, enjoy!
 
 ## Installation
 
+### Afvalbeheer integration
+
+The HACS integration `afvalbeheer` is available for a lot of places.
+You need to add these settings to your `configuration.yaml`.
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
 # configuration.yaml
 afvalbeheer:
-    wastecollector: XXX     # Check the site https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/?tab=readme-ov-file#wastecollector
+    wastecollector: XXX  # Check https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/?tab=readme-ov-file#wastecollector
     resources:
         - restafval
         - gft
@@ -65,16 +73,20 @@ afvalbeheer:
 {% endraw %}
 ```
 
+### Auto-entities integration
+
+To show the entities by wildcard and sort them by date, you need also the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
+
 ---
 ## Default presentation
 
-When this installation is complete you get 4+ entities which you can add to your dashboard.
+When this installation is complete, you get at least 4 entities which you can add to your dashboard.
 
 This is the default presentation.
 
 <img src="images_afvalbeheer/default.png" alt="default afvalbeheer presentation" width="400px">
 
-The downside is that it isn't always ordered by date, you always see the icon and not see the amounts of days. Which I like more that a full date format.
+The downside is that it isn't always ordered by date, you always see the icon and not see the numbers of days. Which I like more than a full date format.
 
 This dashboard code belongs to the above presentation screenshot.
 In my case my provider is `cyclus` that's why I have that in my sensor name. Yours can be different.
@@ -94,66 +106,97 @@ show_header_toggle: false
 ```
 
 ---
-## Days count down
 
-I wanted my presentation like this:
+## Sort by date
 
-<img src="images_afvalbeheer/days_countdown.png" alt="countdown" width="400px">
-
-No different icons, no colors, order by date and show the days left.
+You can use the extra attribute `Days_until` for the sorting in combination with the custom card auto-entities.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard card code
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  type: entities
+  show_header_toggle: false
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.cyclus_*
+sort:
+  method: attribute
+  attribute: Days_until
+  numeric: true
+{% endraw %}
+```
+
+---
+## Days count down
+
+I wanted my presentation like this.\
+Only with the numbers of days instead of the full date as the state value.\
+Also, a more subtle default icon.
+
+<img src="images_afvalbeheer/days_countdown.png" alt="countdown" width="400px">
+
+To get this done, you need to create some new helper sensors with the countdown in days as state.
+Add this to `configuration.yaml` (or add it to `sensor.yaml` without the first `sensor:` line)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
 sensor:
-    - platform: template
-      sensors:
-        paper_waste_pickup_countdown:
-          friendly_name: "papier ophalen"
-          value_template: >-
-            {% set datex = state_attr('sensor.cyclus_papier','Sort_date') | string %}
-            {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-          icon_template: mdi:delete-empty
-          unit_of_measurement: "dagen"
+  - platform: template
+    sensors:
+      paper_waste_pickup_countdown:
+        friendly_name: "papier ophalen"
+        value_template: >-
+          {% set datex = state_attr('sensor.cyclus_papier','Sort_date') | string %}
+          {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
+        icon_template: mdi:delete-empty
+        unit_of_measurement: "dagen"
     
-    - platform: template
-      sensors:
-        gft_waste_pickup_countdown:
-          friendly_name: "GFT ophalen"
-          value_template: >-
-            {% set datex = state_attr('sensor.cyclus_gft','Sort_date') | string %}
-            {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-          icon_template: mdi:delete-empty
-          unit_of_measurement: "dagen"
+  - platform: template
+    sensors:
+      gft_waste_pickup_countdown:
+        friendly_name: "GFT ophalen"
+        value_template: >-
+          {% set datex = state_attr('sensor.cyclus_gft','Sort_date') | string %}
+          {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
+        icon_template: mdi:delete-empty
+        unit_of_measurement: "dagen"
     
-    - platform: template
-      sensors:
-        rest_waste_pickup_countdown:
-          friendly_name: "restafval ophalen"
-          value_template: >-
-            {% set datex = state_attr('sensor.cyclus_restafval','Sort_date') | string %}
-            {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-          icon_template: mdi:delete-empty
-          unit_of_measurement: "dagen"
+  - platform: template
+    sensors:
+      rest_waste_pickup_countdown:
+        friendly_name: "restafval ophalen"
+        value_template: >-
+          {% set datex = state_attr('sensor.cyclus_restafval','Sort_date') | string %}
+          {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
+        icon_template: mdi:delete-empty
+        unit_of_measurement: "dagen"
     
-    - platform: template
-      sensors:
-        plastic_waste_pickup_countdown:
-          friendly_name: "plastic ophalen"
-          value_template: >-
-            {% set datex = state_attr('sensor.cyclus_pmd','Sort_date') | string %}
-            {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-          icon_template: mdi:delete-empty
-          unit_of_measurement: "dagen"
+  - platform: template
+    sensors:
+      plastic_waste_pickup_countdown:
+        friendly_name: "plastic ophalen"
+        value_template: >-
+          {% set datex = state_attr('sensor.cyclus_pmd','Sort_date') | string %}
+          {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
+        icon_template: mdi:delete-empty
+        unit_of_measurement: "dagen"
 {% endraw %}
 ```
 
 ---
 ## Sorted by days
 
+The new countdown entities sorted by days.
 
 <img src="images_afvalbeheer/days_countdown.png" alt="Days countdown" width="400px">
+
+The dashboard card code with auto-entities.
 
 ```yaml
 {% raw %}
@@ -176,13 +219,13 @@ sensor:
 ```
 
 ---
-## Show conditional, only for tomorrow and today
+## Show conditional, only for tomorrow
 
 [//]: # (<img src="images_afvalbeheer/conditional_two_days.png" alt="" width="400px">)
 
-Show only the waste pickup for the upcoming 4 days.
+Show only the waste pickup for the upcoming days.
 
-This dashboard use the power of the custom element [Auto-entities](homeassistant_dashboard_card_auto-entities)
+This dashboard uses the power of the custom HACS frontend respository [Auto-entities](homeassistant_dashboard_card_auto-entities)
 
 ```yaml
 {% raw %}
@@ -194,7 +237,7 @@ This dashboard use the power of the custom element [Auto-entities](homeassistant
   filter:
     include:
       - entity_id: sensor.*_waste_pickup_countdown
-        state 1: < 5
+        state 1: < 2
         state 2: '> 0'
 {% endraw %}
 ```
@@ -202,18 +245,20 @@ This dashboard use the power of the custom element [Auto-entities](homeassistant
 ---
 ## Mushroom element
 
-All different colors for each type of trash.
+On top of my dashboard I show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.
+I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. These are the possible visible icon options.
 
 <img src="images_afvalbeheer/afvalbeheer_mushroom.png" alt="Mushroom conditional and colored" width="200px">
 
-This dashboard use the power of the custom element [Mushroom](homeassistant_dashboard_card_mushroom).
-
-If tomorrow some waste outside show the corresponding color trashcan, otherwise there is no trashcan visible in the circle. 
+I use here also my extra created helper entities.\
+The condition is: If tomorrow some waste must be placed outside, it shows the corresponding color trashcan, otherwise there is no trashcan visible in the circle. 
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
+type: custom:mushroom-chips-card
+chips:
   - chip: null
     type: template
     entity: sensor.cyclus_gft
@@ -237,7 +282,6 @@ If tomorrow some waste outside show the corresponding color trashcan, otherwise 
         }
 {% endraw %}
 ```
-
 
 ---
 [^^ Top](#table-of-contents)
