@@ -70,14 +70,14 @@ A schematic presentation of how my solution works and which protocols are used.
 
 These hardware components do I use for this project:
 
-* Original Orcon 15RF remote control [link 1](https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/) [link 2](https://123ventilatie.nl/product/orcon-draadloze-zender-afstandbediening-15rf/)
+* Original Orcon 15RF remote control [link 1](https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/) [link 2](https://123ventilatie.nl/product/draadloze-zender-afstandsbediening-15rf/)
 
 ![Orcon 15RF remote](orcon_images/orcon_15rf_remote.jpg "Orcon 15RF remote")
-* ESP8266 NodeMCU v3 (or comparable) [link 1](https://aliexpress.com/item/32520574539.html) [link 2](https://aliexpress.com/item/1005001636634198.html)
+* ESP8266 NodeMCU v3 (or comparable) [link 1](https://s.click.aliexpress.com/e/_EIwdbqH) [link 2](https://s.click.aliexpress.com/e/_mPJWRqE)
 
 ![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg "ESP8266 nodeMCU v3")
 
-* Dupont female to female wires [link 1](https://aliexpress.com/item/1005003007413890.html) [link 2](https://aliexpress.com/item/1005002046765371.html)
+* Dupont female to female wires [link 1](https://s.click.aliexpress.com/e/_mtwCZyA) [link 2](https://s.click.aliexpress.com/e/_EIjrYwZ)
 
 ![Dupont female to female wires](images/dupont_female_to_female.jpg "Dupont female to female wires")
 
@@ -90,11 +90,11 @@ These hardware components do I use for this project:
 
 ![Dupont female to female wires](orcon_images/flat_cable_8pins_1mm.jpg "Dupont female to female wires")
 
-* Micro USB cable to power the ESP [link 1](https://aliexpress.com/item/32951467674.html) [link 1](https://aliexpress.com/item/1005001741508596.html)
+* Micro USB cable to power the ESP [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* 5V USB power adapter to power the ESP [link 1](https://aliexpress.com/item/4000016006173.html) [link 2](https://aliexpress.com/item/1005003080781367.html)
+* 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_EQrXcuH) [link 2](https://s.click.aliexpress.com/e/_mqQDOme)
 
 ![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
 
@@ -102,7 +102,7 @@ These hardware components do I use for this project:
 
 ![BlitzWolf SHP-15](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-15")
 
-No affiliate links are used here, only some example links where you can buy the required parts for this project.
+Also affiliate links are used here.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
 

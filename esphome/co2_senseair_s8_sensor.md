@@ -44,11 +44,11 @@ Inside a Co2 sensor and an ESP mini.
 
 These hardware components do I use for this project:
 
-* SenseAir S8 Co2 sensor [link 1](https://aliexpress.com/item/32863793412.html) [link 2](https://aliexpress.com/item/1005001398529596.html)
+* SenseAir S8 Co2 sensor [link 1](https://s.click.aliexpress.com/e/_mM6V8we) [link 2](https://s.click.aliexpress.com/e/_oCFOEJ6)
 
 <img src="co2_images/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
 
-* ESP 12S Wemos D1 mini (no pro or V3) [link 1](https://aliexpress.com/item/32631693796.html) [link 2](https://aliexpress.com/item/32631775619.html)
+* ESP 12S Wemos D1 mini (no pro or V3) [link 1](https://s.click.aliexpress.com/e/_ooKDQkk)
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
@@ -56,15 +56,15 @@ These hardware components do I use for this project:
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* Micro USB cable to power the ESP [link 1](https://aliexpress.com/item/32951467674.html) [link 1](https://aliexpress.com/item/1005001741508596.html)
+* Micro USB cable to power the ESP [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* 5V USB power adapter to power the ESP [link 1](https://aliexpress.com/item/4000016006173.html) [link 2](https://aliexpress.com/item/1005003080781367.html)
+* 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_EQrXcuH) [link 2](https://s.click.aliexpress.com/e/_mqQDOme)
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200"/>
 
-No affiliate links are used here, only some example links where you can buy the required parts for this project.
+Also affiliate links are used here.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
 
