@@ -284,11 +284,13 @@ If you want to add these also to your script checkout [this message](https://com
 If you want to read all about the remote possibilities, I placed a link to the Dutch manual in the [References](#references) chapter.
 
 #### Problems with flashing
-* He won't connect to my wifi network
-  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network but if it has the same name he still tries to. You can test if that's the case by disabling the 5GHz network mode in your router and see if the ESP now gets an IP-address correct.
-  <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
-* Make sure you see a green "SUCCESS" message after flashing and not any red error messages.
+* Flash succeed, but he won't connect to my wifi network.
+ <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
+  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network but if it has the same name he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
+  <img src="orcon_images/flash_esphome_with_ip.jpg" alt="IP failed" height="300px"/>
+* Make sure you see a "SUCCESS" message in the SUMMARY after flashing and not any red error messages.
   * Maybe the indenting is not correct. YAML is strict with a correct indenting. You can try https://www.yamllint.com/ to validate. 
+
 ---
 ## Register the remote to the ventilation system
 
@@ -403,7 +405,7 @@ This is how a configured helper switch must look like:
 #### Script to trigger the ESP
 
 To act on a button press I created for each mode a script which trigger the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 
-I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode.
+I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise, this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode.
 
 <details>
   <summary><b>> Click here to see the corresponding scripts.yaml code >></b></summary>
