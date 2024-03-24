@@ -17,10 +17,12 @@ The git repository with also all options and some examples can be found at https
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Temperatures (rounded, sorted and colored)](#temperatures-rounded-sorted-and-colored)
-* [Full moon (single condition)](#full-moon-single-condition)
-* [Only X days left (multiple conditions)](#only-x-days-left-multiple-conditions-with-and)
-* [Chores](#chores)
+  * [Temperatures (rounded, sorted and colored)](#temperatures-rounded-sorted-and-colored)
+  * [Show lights ordered by state](#show-lights-ordered-by-state)
+  * [Show only the lights which are 'on' at the moment](#show-only-the-lights-which-are-on-at-the-moment)
+  * [Full moon (single condition)](#full-moon-single-condition)
+  * [Only X days left (multiple conditions with AND)](#only-x-days-left-multiple-conditions-with-and)
+  * [Chores](#chores)
 <!-- TOC -->
 
 ---
@@ -65,6 +67,51 @@ sort:
   reverse: true
   numeric: true
 {% endraw %}
+```
+
+---
+## Show lights ordered by state
+Show the lights which are currently `on` always on top.\
+Hide also the unavailable ones.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  show_header_toggle: false
+  state_color: false
+filter:
+  include:
+    - entity_id: light.*
+  exclude:
+    - state: "unavailable"
+sort:
+  method: state
+  reverse: true
+{% endraw %}
+```
+
+---
+## Show only the lights which are 'on' at the moment
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+show_empty: false
+card:
+  type: entities
+filter:
+  include:
+    - domain: light
+      state: "on"
+      options:
+        tap_action:
+          action: toggle
 ```
 
 ---
