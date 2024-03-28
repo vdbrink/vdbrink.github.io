@@ -362,7 +362,7 @@ The date will be formatted to the short notation for the day of the week.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: markdown
+  - type: markdown
     content: |-
       <table> 
        {% for i in range(7) %}
@@ -383,6 +383,50 @@ The date will be formatted to the short notation for the day of the week.
     title: week menu
 {% endraw %}
 ```
+
+<details>
+  <summary><b>> Click here to open the extended version with clickable text >></b></summary>
+<br>
+This extended version makes it possible to click on the menu text and go to the Mealie page.
+Here is another HACS integration needed, `card-mod`, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+  - type: markdown
+    content: |-
+      <a href="/lovelace-dashboard/mealie">
+       <table> 
+        {% for i in range(8) %}
+          {% set index = i|string %}
+          {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
+          {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
+          {% if meal_date != 'unknown' %} 
+          <tr>
+            <td>
+              {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }} 
+            </td>
+            <td>&nbsp; &nbsp;</td>
+            <td>{{ meal_name }}</td>
+          </tr>
+          {% endif %}
+        {% endfor %}
+       </table>
+      </a>
+    title: week menu
+    card_mod:
+      style:
+        ha-markdown:
+          $: |
+            a { 
+              all:unset; 
+              color:white ! important;
+              cursor: pointer ! important;
+            }
+{% endraw %}
+```
+</details>
 
 <br>
 
