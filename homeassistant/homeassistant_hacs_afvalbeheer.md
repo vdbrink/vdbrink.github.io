@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant dashboard custom element: Auto-entities"
+title: "Home Assistant HACS Afvalbeheer"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS, 
 ---

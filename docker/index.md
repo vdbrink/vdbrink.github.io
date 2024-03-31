@@ -55,6 +55,13 @@ docker-compose restart <container_name>
 ```
 docker-compose stop <container_name>
 ```
+
+**Stop all container**
+
+```
+docker ps -aq | xargs docker stop 
+```
+
 **Cleanup old local images**
 
 ```

@@ -1,9 +1,9 @@
 ---
-title: "Home Assistant: hardware monitor"
+title: "Home Assistant: Hardware monitor"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, cpu, disk, boot, memory, stats, mqtt, load, temp, raspberry
 ---
-# Home Assistant: hardware monitor
+# Home Assistant: Hardware monitor
 
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
