@@ -69,7 +69,6 @@ cards:
       red: 60
     min: 45
     max: 100
-
 {% endraw %}
 ```
 

@@ -24,10 +24,11 @@ Check the git repository to find all the options and if you can use it in your c
     * [Auto-entities integration](#auto-entities-integration)
   * [Default presentation](#default-presentation)
   * [Sort by date](#sort-by-date)
-  * [Days count down](#days-count-down)
+  * [Custom helper entities: days count down](#custom-helper-entities-days-count-down)
   * [Sorted by days](#sorted-by-days)
   * [Show conditional, only for the next 5 days](#show-conditional-only-for-the-next-5-days)
   * [Mushroom element](#mushroom-element)
+  * [LED strip indicator](#led-strip-indicator)
 <!-- TOC -->
 
 ---
@@ -131,7 +132,7 @@ sort:
 ```
 
 ---
-## Days count down
+## Custom helper entities: days count down
 
 I wanted my presentation like this.\
 Only with the numbers of days instead of the full date as the state value.\
@@ -279,6 +280,13 @@ chips:
         }
 {% endraw %}
 ```
+
+---
+## LED strip indicator
+
+I created a [separated page](../projects/bin_day_led_strip_reminder.md) how I setup a LED strip under my dressoir to light up the evening before bin day.
+
+<img src="../projects/images_bin_day/bin_day_ledstrip.png" alt="bin day LED strip" width="200px">
 
 ---
 [^^ Top](#table-of-contents)
