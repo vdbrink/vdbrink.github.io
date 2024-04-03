@@ -1,12 +1,12 @@
 ---
-title: "Node-RED Home Assistant"
+title: "Node-RED + Home Assistant integration: Full moon"
 category: Node-RED
-tags: Node-RED Home Assistant
+tags: Node-RED, Home Assistant, integration, moon
 ---
 
 {% capture imgHeight %}50{% endcapture %}
 
-# Node-RED + Home Assistant integration : Full moon
+# Node-RED + Home Assistant integration: Full moon
 
 
 <a href="node-red_home-assistant">

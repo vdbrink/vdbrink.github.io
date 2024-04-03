@@ -1,10 +1,10 @@
 ---
-title: "Node-RED Home Assistant"
+title: "Node-RED + Home Assistant: team work"
 category: Node-RED
 tags: Node-RED, Home Assistant
 ---
 
-# Node-RED + Home Assistant integrations
+# Node-RED + Home Assistant: team work
 
 
 <a href="node-red_home-assistant"><img src="../homeassistant/images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
