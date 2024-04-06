@@ -17,7 +17,7 @@ And I only show entities which are relevant for the time of day, year or what el
 
 I hope you can use my examples for your dashboard!
 
-> **_NOTE:_** For some of the examples here need to install first an extra HACS integration.
+> **_NOTE:_** For some of the examples here, you need to install first an extra HACS integration.
 
 ---
 ## Table of Contents
@@ -78,12 +78,12 @@ cards:
 
 With a vertical-stack card you can group cards together underneath each other. Reordering of the cards will have no effect on them.
 
-In this example you see a button panel build with a vertical stack with 3 rows.\
+In this example, you see a button panel build with a vertical stack with 3 rows.\
 And each row has a horizontal stack. This way all buttons keeps always in the same size and position.
 
 <img src="images_layout/layout_stacks.png" alt="stacks" width="400px">
 
-In this YAML the content of the button entities are removed, it shows the idea and format of the corresponding code.
+In this YAML, the content of the button entities is removed, it shows the idea and format of the corresponding code.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -230,7 +230,7 @@ The color indicates the state. No textual state text is needed this way.
       - entity: binary_sensor.washingmachine
       - entity: binary_sensor.dryer
       - entity: binary_sensor.dishwasher
-      - entity: binary_sensor.stove_on
+      - entity: binary_sensor.stove
       - entity: binary_sensor.shower
       - entity: binary_sensor.oven
     state_color: true
