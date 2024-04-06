@@ -50,7 +50,7 @@ Here you find some basic usefully example flows to control light, act on tempera
 
 Here you find flows to interact between Home Assistant and Node-RED.
 
-* [Node-RED - Home Assistant integrations](node-red_home-assistant)
+* [Node-RED - Home Assistant](node-red_home-assistant)
 
 ### Advanced flow
 Here you see an example of a script which I use to automatic control my ventilation system.

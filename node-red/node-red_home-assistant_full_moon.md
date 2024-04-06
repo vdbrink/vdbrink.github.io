@@ -1,12 +1,12 @@
 ---
-title: "Node-RED + Home Assistant integration: Full moon"
+title: "Node-RED + Home Assistant: Full moon"
 category: Node-RED
 tags: Node-RED, Home Assistant, integration, moon
 ---
 
 {% capture imgHeight %}50{% endcapture %}
 
-# Node-RED + Home Assistant integration: Full moon
+# Node-RED + Home Assistant: Full moon
 
 
 <a href="node-red_home-assistant">
@@ -24,7 +24,7 @@ See [initial setup](node-red_home-assistant#initial-setup) for the required addi
 
 To trigger a flow in Node-RED based on an event updates in Home Assistant you can use the node 'events: state'
 
-An example is to send a message (in this case to the debug node, replace it with you own chat app) when it's full moon.
+An example is to send a message (in this case, to the debug node, replace it with your own chat app) when it's a full moon.
 
 <img src="images_ha/full_moon_flow.png" alt="flow Node-RED full moon"/>
 

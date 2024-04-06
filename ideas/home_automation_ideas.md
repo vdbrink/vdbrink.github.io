@@ -8,10 +8,14 @@ tags: idea, smart, home, automation
 
 <img src="images/idea.png" style="float: right;" alt="Idea" height="200px"></a>
 
-Below is a list of automations, based on a device or location, that I've implemented (or plan to implement) to make my home smarter.
-<br><br>
-Perhaps there are some useful ideas for you too!
-<br><br>
+Below is a list of automation ideas, based on devices and locations in and around the house.<br><br>
+I collect them over the years from own implementations or ideas from others.
+
+It's a growing list if I hear or create new ones, I'll add them here.
+
+Perhaps there are some useful ideas for you too to implement!
+
+<br>
 
 ---
 
@@ -174,8 +178,6 @@ I hope I can inspire you with some new home automation ideas.
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
 ### Coffee machine
-
-
 
 ---
 
