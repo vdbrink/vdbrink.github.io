@@ -17,26 +17,26 @@ Perhaps there are some useful ideas for you too!
 
 ## Table of Contents
 <!-- TOC -->
-* [Introduction](#introduction)
-* [Mailbox](#mailbox)
-* [Washing machine / dryer / dishwasher](#washing-machine--dryer--dishwasher)
-* [Oven](#oven)
-* [Living room lights](#living-room-lights)
-* [Front yard](#front-yard)
-* [Christmas lights](#christmas-lights)
-* [Mechanical ventilation](#mechanical-ventilation)
-* [Laundry room](#laundry-room)
-* [(Bed)rooms](#bedrooms)
-* [Bathroom](#bathroom)
-* [Kitchen](#kitchen)
-* [Home office](#home-office)
-* [Outdoor](#outdoor)
-* [Closet / pantry / storage / stairs](#closet--pantry--storage--stairs)
-* [Drawer](#drawer)
-* [Car](#car)
-* [Putting out the bin](#putting-out-the-bin)
-* [Aquarium](#aquarium)
-* [(Dutch) Inspiration videos](#dutch-inspiration-videos)
+  * [Introduction](#introduction)
+  * [Mailbox](#mailbox)
+  * [Washing machine / dryer / dishwasher](#washing-machine--dryer--dishwasher)
+  * [Oven](#oven)
+  * [Living room lights](#living-room-lights)
+  * [Front yard](#front-yard)
+  * [Christmas lights](#christmas-lights)
+  * [Mechanical ventilation](#mechanical-ventilation)
+  * [Laundry room](#laundry-room)
+  * [(Bed)rooms](#bedrooms)
+  * [Bathroom](#bathroom)
+  * [Kitchen](#kitchen)
+  * [Home office](#home-office)
+  * [Outdoor](#outdoor)
+  * [Closet / pantry / storage / stairs](#closet--pantry--storage--stairs)
+  * [Drawer](#drawer)
+  * [Car](#car)
+  * [Putting out the bin](#putting-out-the-bin)
+  * [Aquarium](#aquarium)
+  * [(Dutch) Inspiration videos](#dutch-inspiration-videos)
 <!-- TOC -->
 
 ---
@@ -67,14 +67,12 @@ I hope I can inspire you with some new home automation ideas.
 
 ---
 
-## Washing machine / dryer / dishwasher
-* Notification when the washing machine/dryer/dishwasher is finished. (based on smart plug with energy meter)
+## Washing machine / dryer
+* Notification when the washing machine/dryer is finished. (based on smart plug with energy meter)
 <br>
 <img src="images/washing_machine_grafana.png" alt="energy consumption" height="350px"/>
 
-* Notification when washing machine/dryer/dishwasher is not emptied yet after X time. (contact sensor on the door)
-<br>
-<img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/>
+* Notification when washing machine/dryer is not emptied yet after X time. (contact sensor on the door)
 
 ---
 
@@ -146,14 +144,38 @@ I hope I can inspire you with some new home automation ideas.
 
 ---
 
-
 ## Kitchen
+
+### Lights
 * Extraction fan + lights automatically go on, based on temperature/humidity. (temperature sensor in the extractor hood)
 * Lights on, based on presence + light. (motion sensor with lux + LED strip with smart plug)
-* Leak detector under the sink. (leak detector or modified contact sensor)
+
 
 <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
+
+### Dishwasher
+* Notification when the dishwasher is finished. (based on smart plug with energy meter)
+* Notification when dishwasher is not emptied yet after X time. (contact sensor on the door)
+  <br>
+  <img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/>
+
+
+### Oven
+* Notification when the oven reaches his preset temperature. (based on smart plug with energy meter. The power consumption drops when he reaches his temperature)
+  <br>
+  <img src="images/notification.jpg" alt="notification" height="100px"/>
+
+### Refrigerator
+
+### Stove
+
+### Sink
+* Leak detector under the sink. (leak detector or modified contact sensor)
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
+
+### Coffee machine
+
+
 
 ---
 
@@ -179,7 +201,7 @@ I hope I can inspire you with some new home automation ideas.
 ---
 
 ## Closet / pantry / storage / stairs
-* Lights on when you open the closet. (battery-powered LED light with a PIR sensor. Not connected, but smart/convenient!)
+* Lights on when you open a closet door. (battery-powered LED light with a PIR sensor. Not connected, but smart/convenient!)
 
 ---
 
@@ -193,18 +215,18 @@ I hope I can inspire you with some new home automation ideas.
 * Notification to cover the car if the dew point is below -1 in the evening. This increases the chance of not having to scrape in the morning! (weather station)
 * Notification to family when I leave work. (location positioning)
 * Activate the driveway lights when you arrive home. (When enter the Home-zone, or connect to your local wifi network AND the phone bluetooth is connected to the car)
-* Activate the frontdoor lights. (see previous flow)
+* Activate the front door lights. (see previous flow)
 
 ---
 
 ## Putting out the bin
 * Notification when paper/green/plastic/residual waste bin needs to be put on the street. (waste calendar integration)
-* Light up a LED-strip in the color of the waste bin which must be put on the street the next day. (waste calendar integration)
+* Light up a LED strip in the color of the waste bin which must be put on the street the next day. (waste calendar integration)
 
 ---
 
 ## Aquarium
-* Automatic turn the lights off. (smart plug)
+* Automatic turn the lights on and off. (smart plug)
 * Turn the lights on when they got fed. (contact sensor at the lid of the aquarium).
 * Automatic feeder.
 * Water quality check PH-level.
