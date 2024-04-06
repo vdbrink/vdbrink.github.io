@@ -1,7 +1,7 @@
 ---
 title: "Home Automation Ideas"
 category: Ideas
-tags: idea, smart, home, automation
+tags: ideas, smart, home, automations
 ---
 # Home Automation Ideas
 *to make your home smart*
@@ -9,11 +9,11 @@ tags: idea, smart, home, automation
 <img src="images/idea.png" style="float: right;" alt="Idea" height="200px"></a>
 
 Below is a list of automation ideas, based on devices and locations in and around the house.<br><br>
-I collect them over the years from own implementations or ideas from others.
+For already a few years, I follow various forums, newsgroups and videos to gather new ideas, which I then incorporate into my own automations.
 
-It's a growing list if I hear or create new ones, I'll add them here.
+This is a constant growing list. I'll update the list with new ideas now and then.
 
-Perhaps there are some useful ideas for you too to implement!
+I hope I can inspire you with some new home automation ideas you can integrate in your home.
 
 <br>
 
@@ -22,24 +22,32 @@ Perhaps there are some useful ideas for you too to implement!
 ## Table of Contents
 <!-- TOC -->
   * [Introduction](#introduction)
-  * [Mailbox](#mailbox)
-  * [Washing machine / dryer / dishwasher](#washing-machine--dryer--dishwasher)
-  * [Oven](#oven)
-  * [Living room lights](#living-room-lights)
-  * [Front yard](#front-yard)
-  * [Christmas lights](#christmas-lights)
-  * [Mechanical ventilation](#mechanical-ventilation)
-  * [Laundry room](#laundry-room)
-  * [(Bed)rooms](#bedrooms)
-  * [Bathroom](#bathroom)
-  * [Kitchen](#kitchen)
-  * [Home office](#home-office)
-  * [Outdoor](#outdoor)
-  * [Closet / pantry / storage / stairs](#closet--pantry--storage--stairs)
-  * [Drawer](#drawer)
-  * [Car](#car)
-  * [Putting out the bin](#putting-out-the-bin)
-  * [Aquarium](#aquarium)
+  * [Devices and locations to be automated](#devices-and-locations-to-be-automated)
+    * [Mailbox](#mailbox)
+    * [Washing machine / dryer](#washing-machine--dryer)
+    * [Living room](#living-room)
+      * [lights](#lights)
+    * [Christmas lights](#christmas-lights)
+    * [Mechanical ventilation](#mechanical-ventilation)
+    * [Laundry room](#laundry-room)
+    * [(Bed)rooms](#bedrooms)
+    * [Bathroom](#bathroom)
+    * [Kitchen](#kitchen)
+      * [Lights](#lights-1)
+      * [Dishwasher](#dishwasher)
+      * [Oven](#oven)
+      * [Refrigerator](#refrigerator)
+      * [Stove](#stove)
+      * [Sink](#sink)
+      * [Coffee machine](#coffee-machine)
+    * [Home office](#home-office)
+    * [Closet / pantry / storage / stairs](#closet--pantry--storage--stairs)
+    * [Drawer](#drawer)
+    * [Aquarium](#aquarium)
+    * [Outside](#outside)
+      * [Front yard](#front-yard)
+      * [Car](#car)
+      * [Putting out the bin](#putting-out-the-bin)
   * [(Dutch) Inspiration videos](#dutch-inspiration-videos)
 <!-- TOC -->
 
@@ -47,65 +55,50 @@ Perhaps there are some useful ideas for you too to implement!
 
 ## Introduction
 I've started with a few automations for lights in the living room, the mailbox, and the washing machine.
-And I've continually expanded these by adding more and more sensors and actuators, which result in 100+ automation flows running in my home.
+And I've continually expanded by adding more and more sensors and actuators, which result in 100+ automation flows running in my home.
 
 Criteria for my own automations are:
 * Capable of running locally (no-cloud); <img src="images/nocloud.png" style="float: right;" alt="no cloud" height="80px">
 * It can also be controlled in the traditional way with "old-fashioned" buttons, so that everyone in the house can operate everything, without an app and even if the smart server is down;
 * Works regardless of who is present (no extra trackers or apps needed).
 
-\
-For already a few years, I follow various forums and newsgroups to gather new ideas, which I then incorporate into my own automations.
-\
-Here I summarized them together in a list ordered by subject. Most of them are also active at my home.
-
-I hope I can inspire you with some new home automation ideas.
-
 ---
 
-## Mailbox
+## Devices and locations to be automated
+
+### Mailbox
 * Notification when mail is delivered. (contact sensor with a separate magnet on the flap)
 * Notification if mail is sticking out. (if the contact sensor is broken and not closed again after 1 minute)
+* Send a picture of the mailbox after something is delivered.
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/>
 
 ---
 
-## Washing machine / dryer
+### Washing machine / dryer
 * Notification when the washing machine/dryer is finished. (based on smart plug with energy meter)
+* Measure how long the machine is running. (based on smart plug with energy meter)
+* Measure what the costs are. (based on smart plug with energy meter)
+* Notification when the machine is not emptied yet after X time. (contact sensor on the door)
 <br>
 <img src="images/washing_machine_grafana.png" alt="energy consumption" height="350px"/>
 
-* Notification when washing machine/dryer is not emptied yet after X time. (contact sensor on the door)
-
 ---
 
-## Oven
-* Notification when the oven reaches his preset temperature. (based on smart plug with energy meter. The power consumption drops when he reaches his temperature)
-<br>
-<img src="images/notification.jpg" alt="notification" height="100px"/>
+### Living room
+* Close the curtains in the evening. (smart curtains, lux sensor)
+* Open the curtains in the morning. (smart curtains, lux sensor)
 
----
-
-## Living room lights
+#### lights
 * Lights fading in and out, according to twilight. (smart lights + lux sensor to detect brightness from inside and outside)
 * Lights automatically turning off at bedtime. (smart lights + switch button near the bed)
 * Lights are automatically turned off when no one is in the living anymore.
-* Dimming lights after a few minutes when the DVD player is on. Brightness increases again when someone is detected in the kitchen.
+* Dimming lights after a few minutes when the movie player is on. Brightness increases again when someone is detected in the kitchen.
  <br><img src="images/motion_sensor.png" alt="motion sensor" height="150px" />
 
 ---
 
-## Front yard
-* Outside lights on when:
-  * Someone enters the door. (web-/doorcam with person recognition, smart outside light)
-  * You connect to your wifi. (outside light)
-  * You enter home-zone. (Home Assistant Companion app and outside light)
- <br><img src="images/person_detected.jpg" alt="person detected" height="250px" />
-
----
-
-## Christmas lights
+### Christmas lights
 * Connecting battery-operated Christmas decorations to the power outlet. (equipped with battery eliminators and multiple connected to an active USB hub, powered by a smart plug for automation)
 * Christmas tree lights. (replace the default power switch with always on mode switch and add a smart plug)
 <br/><br/>
@@ -113,7 +106,7 @@ I hope I can inspire you with some new home automation ideas.
 
 ---
 
-## Mechanical ventilation
+### Mechanical ventilation
 * Depends on which area's the ventilation system is connected to.
   In my case, my bathroom humidity/temperature, kitchen humidity/temperature,
   kitchen/bathroom temperature/humidity difference, duration of a toilet visit.
@@ -124,17 +117,16 @@ I hope I can inspire you with some new home automation ideas.
 
 ---
 
-## Laundry room
+### Laundry room
 * Lights on/off when entering/leaving. (door contact + smart light)
 * Dehumidifier on based on humidity. (humidity sensor + dehumidifier also turned on with a smart plug)
 * Notification if the water tank of the dehumidifier is full. (leakage sensor in the dehumidifier)
-* 
 
 ---
 
-## (Bed)rooms
+### (Bed)rooms
 * Light on when entering (and no one is already in bed). (door contact + smart light)
-* Soft ledstrip on when going out of bed during the night.
+* LED strip just a few percentage on when going out of bed during the night.
 * Dehumidifier on in the evening if the humidity is too high. (humidity sensor + dehumidifier also turned on with smart plug)
 * Notification if windows can be opened in summer when it's cooler outside than inside. (indoor + outdoor temperature sensor)
 * Notification to open a window if the CO2 level is too high [ESP CO2 sensor](../esphome/co2_senseair_s8_sensor)
@@ -143,45 +135,53 @@ I hope I can inspire you with some new home automation ideas.
 
 ---
 
-## Bathroom
+### Bathroom
 * Notification when someone takes a shower. (humidity sensor or water usage measuring)
+* Detect if someone is in the bathroom. (presence detection with mmWave sensor)
+* Water consumption. (Water meter reader)
+* Change light color when someone is too long in the shower. (Water consumption, presence, LED strip)
 
 ---
 
-## Kitchen
+### Kitchen
 
-### Lights
-* Extraction fan + lights automatically go on, based on temperature/humidity. (temperature sensor in the extractor hood)
-* Lights on, based on presence + light. (motion sensor with lux + LED strip with smart plug)
+#### Lights
+* Lights on, based on presence + light. (motion sensor with lux + normal LED strip with smart plug or smart LED strip)
+ <br>
+ <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
 
-
-<img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
-
-### Dishwasher
+#### Dishwasher
 * Notification when the dishwasher is finished. (based on smart plug with energy meter)
 * Notification when dishwasher is not emptied yet after X time. (contact sensor on the door)
   <br>
   <img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/>
 
-
-### Oven
+#### Oven
 * Notification when the oven reaches his preset temperature. (based on smart plug with energy meter. The power consumption drops when he reaches his temperature)
   <br>
   <img src="images/notification.jpg" alt="notification" height="100px"/>
 
-### Refrigerator
+#### Refrigerator
+* Detect if the door is opened too long. (temperature sensor inside or door contact sensor)
 
-### Stove
+#### Stove
+* Detect if someone is cooking. (temperature sensor)
+* Extraction fan on based on temperature/humidity. (temperature sensor in the extractor hood)
+<br>
+<img src="../esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
 
-### Sink
+
+#### Sink
 * Leak detector under the sink. (leak detector or modified contact sensor)
+<br>
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
-### Coffee machine
+#### Coffee machine
+* Count the brewed coffees to order new cups. (vibration sensor)
 
 ---
 
-## Home office
+### Home office
 * Computer screen + lights + phone charger on when you sit in the office chair. (car seat pressure sensor in the chair)
 * Computer screen + lights + phone charger on when you enter the office. (contact sensor at the door)
 * Office lights only on when it's dark and someone is in the room. (smart lights, lux sensor, mmWave sensor to detect a person who sits still)
@@ -189,45 +189,22 @@ I hope I can inspire you with some new home automation ideas.
 * On air light so people at home know you're in a call. (calendar integration + smart light)
 * Notification to open a window if the inside temperature is too high compared to the outside temperature. (temperature sensor)
 * Notification to open a window if the Co2 value is too high. (Co2 sensor)
-* Airco on when it's too hot in- and outside. (smart plug + temperature sensor) 
+* Airco on when it's too hot in- and outside. (smart plug + temperature sensor)
 
 ---
 
-## Outdoor
-* Notification when it's nice weather to sit outside. (based on temperature, humidity, lux, sun strength from a weather station)
-* Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window contact sensor + API weather forecast/weather station)
-* Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
-* Notification when the gate is opened (contact sensor)
-* Turn the lights on when going outside in the evening/night (lux sensor, smart lights)
-
----
-
-## Closet / pantry / storage / stairs
+### Closet / pantry / storage / stairs
 * Lights on when you open a closet door. (battery-powered LED light with a PIR sensor. Not connected, but smart/convenient!)
 
 ---
 
-## Drawer
+### Drawer
 * Notify when the drawer is opened. (Attach a contact sensor behind the drawer to the closet and the magnet to the drawer itself, so when you open it, the contact gets broken and a signal is triggered)
 * Notify when drawer is not yet opened today at a specific time. For example, if you have medicines in a drawer, you need to take every day.
 
 ---
 
-## Car
-* Notification to cover the car if the dew point is below -1 in the evening. This increases the chance of not having to scrape in the morning! (weather station)
-* Notification to family when I leave work. (location positioning)
-* Activate the driveway lights when you arrive home. (When enter the Home-zone, or connect to your local wifi network AND the phone bluetooth is connected to the car)
-* Activate the front door lights. (see previous flow)
-
----
-
-## Putting out the bin
-* Notification when paper/green/plastic/residual waste bin needs to be put on the street. (waste calendar integration)
-* Light up a LED strip in the color of the waste bin which must be put on the street the next day. (waste calendar integration)
-
----
-
-## Aquarium
+### Aquarium
 * Automatic turn the lights on and off. (smart plug)
 * Turn the lights on when they got fed. (contact sensor at the lid of the aquarium).
 * Automatic feeder.
@@ -235,6 +212,36 @@ I hope I can inspire you with some new home automation ideas.
 * Temperature warning if water is too hot/cold. (ESP with waterproof temperature sensor)
 <br>
 <img src="images/aquarium.jpg" alt="aquarium" height="200px">
+
+---
+
+### Outside
+* Notification when it's nice weather to sit outside. (based on temperature, humidity, lux, sun strength from a weather station)
+* Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window contact sensor + API weather forecast/weather station)
+* Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
+* Close the sunscreen if it's too windy. (outdoor temperature and wind speed from a weather station)
+* Notification when the gate is opened. (contact sensor)
+* Turn the lights on when going outside in the evening/night. (lux sensor, smart lights)
+* Put out the sunscreen when it heats the home too much.
+* Close the curtains when it heats the home too much.
+* Close the curtains when it cools the home too much.
+
+#### Front yard
+* Outside lights on when:
+  * Someone enters the door. (web-/doorcam with person recognition, smart outside light)
+  * You connect to your wifi. (outside light)
+  * You enter home-zone. (Home Assistant Companion app and outside light)
+    <br><img src="images/person_detected.jpg" alt="person detected" height="250px" />
+
+#### Car
+* Notification to cover the car if the dew point is below -1 in the evening. This increases the chance of not having to scrape in the morning! (weather station)
+* Notification to family when I leave work. (location positioning)
+* Activate the driveway lights when you arrive home. (When enter the Home-zone, or connect to your local wifi network AND the phone bluetooth is connected to the car)
+* Activate the front door lights. (see previous flow)
+
+#### Putting out the bin
+* Notification when paper/green/plastic/residual waste bin needs to be put on the street to be emptied tomorrow. (waste calendar integration)
+* [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration)
 
 ---
 
