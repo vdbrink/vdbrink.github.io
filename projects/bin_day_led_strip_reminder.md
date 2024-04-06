@@ -1,7 +1,7 @@
 ---
 title: "Bin day - LED strip reminder"
 category: Bin day
-tags: Home Assistant, afvalbeheer, bin day, led,vstrip 
+tags: Home Assistant, afvalbeheer, bin day, LED, strip 
 ---
 
 # Bin day - LED strip reminder
@@ -84,11 +84,11 @@ I use Node-RED with [Home Assistant integration](../node-red/node-red_home-assis
 This is the Node-RED flow you can use.\
 I control my Zigbee devices via Zigbee2MQTT myself but disabled this node in this example. I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which one you want to use, and set the correct entity name, both methods will work.
 
-On top, I added an inject-node where you can click on to test if the lights goes on.
+On top, I added an inject-node where you can click on to test if the lights go on.
 
 At the bottom, there is an inject-node which get triggered at 0:00 to disable the light again.
 There is also a link-node with the value `ledstrip_bin_day trigger off`. You can trigger this when you have another trigger to turn off the light. In my case:\
-WHEN the light is on AND the garden gate is opened THEN this ledstrip light goes off again. (This is not in this Node-RED example added.)\
+WHEN the light is on AND the garden gate is opened THEN this LED strip light goes off again. (This is not in this Node-RED example added.)\
 Everybody has his own condition, you can also turn if off with a toggle on your dashboard.
 
 <a href="images_bin_day/bin_day_node_red_flow.png">
