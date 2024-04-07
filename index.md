@@ -21,19 +21,14 @@ LET THE FUN BEGIN!
 
 It started with activate the light based on the darkness, get notifications when you got (snail)mail or the washing
 machine is ready.
-For most projects, it starts with an [idea](ideas) of something I want to automate.\
+For most projects, it starts with an idea of something I want to automate.\
 Then I start to look for similar projects on all kinds of sources, search the internet, follow forums and groups.
 I also get inspired by others with new ideas which I can use for my own setup.
 
 Here you can find examples and configurations which I created and gathered over the years.
 I want to share and inspire other people, so they can improve their own home automation projects.
 
-Subjects you can find here are
-about: [Home Assistant](homeassistant/index), [ESPHome](esphome/index), [Node-RED](node-red/index), [Docker](docker/index),
-Tasker, [Random projects](projects/index)
-
-----
-**Topics you can find here:**
+Topics you can find here:
 
 |                                                                                                                                     |                                                                                       | 
 |-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
