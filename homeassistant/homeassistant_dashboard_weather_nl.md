@@ -18,7 +18,6 @@ We can use that data also to show direct on our Home Assistant dashboards.
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Rain expected value](#rain-expected-value)
 * [Animated weather predictions](#animated-weather-predictions)
 * [Weather predictions](#weather-predictions)
 * [Rain expected value](#rain-expected-value-1)
@@ -32,26 +31,6 @@ We can use that data also to show direct on our Home Assistant dashboards.
 * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
 * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
 <!-- TOC -->
-
----
-## Rain expected value
-
-Based on the buienalarm data: a number how much rain is expected.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-type: custom:clock-weather-card
-entity: weather.home
-forecast_days: 5
-locale: nl
-time_format: 24
-date_pattern: P
-hide_today_section: false
-hide_forecast_section: false
-{% endraw %}
-```
 
 ---
 ## Animated weather predictions
