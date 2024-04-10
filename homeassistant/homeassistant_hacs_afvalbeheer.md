@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant HACS Afvalbeheer"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS, 
+tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS
 ---
 # Home Assistant HACS Afvalbeheer
 
@@ -107,10 +107,15 @@ show_header_toggle: false
 ```
 
 ---
-
 ## Sort by date
 
 You can use the extra attribute `Days_until` which are by default added to each sensor, and we can use it for sorting on date in combination by using the custom card auto-entities.
+
+### List
+
+As list without a header.
+
+<img src="images_afvalbeheer/pres_list.png" alt="afvalbeheer presentation as list" width="400px">
 
 ```yaml
 {% raw %}
@@ -119,11 +124,119 @@ You can use the extra attribute `Days_until` which are by default added to each 
 type: custom:auto-entities
 card:
   type: entities
-  show_header_toggle: false
-  state_color: false
 filter:
   include:
     - entity_id: sensor.cyclus_*
+sort:
+  method: attribute
+  attribute: Days_until
+  numeric: true
+{% endraw %}
+```
+
+### Row with custom icon for all
+
+<img src="images_afvalbeheer/pres_row_custom-icon.png" alt="afvalbeheer presentation as row" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  type: glance
+  title: Afvalwijzer
+filter:
+  include:
+    - entity_id: sensor.cyclus_*
+      options:
+        icon: mdi:delete-empty
+  show_empty: false
+sort:
+  method: attribute
+  attribute: Days_until
+  numeric: true
+{% endraw %}
+```
+
+### List with original icon and days countdown
+
+<img src="images_afvalbeheer/pres_list_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  type: entities
+  title: 'Afval kalender'
+filter:
+  include:
+    - entity_id: sensor.cyclus_*
+      options:
+        type: custom:template-entity-row
+        state: >
+          {{state_attr(config.entity,'Days_until')}} dagen
+  show_empty: false
+sort:
+  method: attribute
+  attribute: Days_until
+  numeric: true
+{% endraw %}
+```
+
+### Row with original icon and days countdown
+
+<img src="images_afvalbeheer/pres_row_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  type: entities
+  title: 'Afvalkalender'
+filter:
+  include:
+    - entity_id: sensor.cyclus_*
+      options:
+        type: custom:template-entity-row
+        state: >
+          {{state_attr(config.entity,'Days_until')}} dagen
+  show_empty: false
+sort:
+  method: attribute
+  attribute: Days_until
+  numeric: true
+{% endraw %}
+```
+
+### 2x2 raster 
+
+<img src="images_afvalbeheer/pres_row_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  show_name: true
+  show_icon: true
+  show_state: true
+  type: glance
+  title: Afval kalender
+  columns: 2
+filter:
+  include:
+    - entity_id: sensor.cyclus_*
+      options:
+        type: custom:template-entity-row
+        state: |
+          {{state_attr(config.entity,'Days_until')}} dagen
+  show_empty: false
 sort:
   method: attribute
   attribute: Days_until
