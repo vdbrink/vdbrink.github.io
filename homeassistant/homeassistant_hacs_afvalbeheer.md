@@ -24,8 +24,14 @@ Check the git repository to find all the options and if you can use it in your c
     * [Auto-entities integration](#auto-entities-integration)
   * [Default presentation](#default-presentation)
   * [Sort by date](#sort-by-date)
-  * [Custom helper entities: days count down](#custom-helper-entities-days-count-down)
-  * [Sorted by days](#sorted-by-days)
+    * [As row - order by date](#as-row---order-by-date)
+    * [As list](#as-list)
+    * [As list - days countdown](#as-list---days-countdown)
+    * [As 2x2 raster](#as-2x2-raster)
+  * [Custom helper entities: days countdown](#custom-helper-entities-days-countdown)
+  * [Sorted by new countdown entities](#sorted-by-new-countdown-entities)
+    * [As row](#as-row)
+    * [As list](#as-list-1)
   * [Show conditional, only for the next 5 days](#show-conditional-only-for-the-next-5-days)
   * [Mushroom element](#mushroom-element)
   * [LED strip indicator](#led-strip-indicator)
@@ -76,7 +82,7 @@ afvalbeheer:
 
 ### Auto-entities integration
 
-To show the (countdown) entities by wildcard and sort them by date, you need also the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
+To show the (countdown) entities by wildcard and sort them by date, you also need the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
 
 ---
 ## Default presentation
@@ -90,7 +96,7 @@ This is the default presentation.
 The downside is that it isn't ordered by date, you get a colored (distracting) icon and you don't see the numbers of days. Now you need to know the current date and calculate when it's the right date to put it on the street. So work todo to make it more practical and a cleaner presentation. 
 
 This dashboard code belongs to the above presentation screenshot.
-In my case my provider is `cyclus` that's why I have that in my sensor name. Yours can be different.
+In my case my `wastecollector` is `cyclus` that's why I have that name in my sensor name. Yours can be different.
 
 ```yaml
 {% raw %}
@@ -109,14 +115,47 @@ show_header_toggle: false
 ---
 ## Sort by date
 
-You can use the extra attribute `Days_until` which are by default added to each sensor, and we can use it for sorting on date in combination by using the custom card auto-entities.
+Each entity comes with extra data which we can use to sort by date for example.
+It has an attribute called `Days_until` which contains the numeric days to bin day. 
+We can use it for sorting on date in combination by using the custom HACS card `auto-entities`.
 
-### List
+### As row - order by date
 
-As list without a header.
+An example to show the entities sorted by date in a row.
+In this example `dateonly: 0` which also add the day. But when you set `dateonly: 1` you only see the date as state underneath the icon.
+
+Unfortunately: It's not possible to show an attribute value in combination with card type glance...\
+I create new helper [countdown](#custom-helper-entities-days-countdown) entities which make this possible.
+
+<img src="images_afvalbeheer/pres_row_own-icon.png" alt="afvalbeheer presentation as row" width="400px">
+
+The corresponding code:
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  type: glance
+  title: Afval kalender
+  columns: 4
+filter:
+  include:
+    - entity_id: sensor.cyclus_*
+sort:
+  method: attribute
+  attribute: Days_until
+  numeric: true
+{% endraw %}
+```
+
+### As list
+
+Show the default entities as a list, without a header, ordered by date.
 
 <img src="images_afvalbeheer/pres_list.png" alt="afvalbeheer presentation as list" width="400px">
 
+The corresponding code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -134,35 +173,13 @@ sort:
 {% endraw %}
 ```
 
-### Row with custom icon for all
+### As list - days countdown
 
-<img src="images_afvalbeheer/pres_row_custom-icon.png" alt="afvalbeheer presentation as row" width="400px">
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Entities Card Configuration
-type: custom:auto-entities
-card:
-  type: glance
-  title: Afvalwijzer
-filter:
-  include:
-    - entity_id: sensor.cyclus_*
-      options:
-        icon: mdi:delete-empty
-  show_empty: false
-sort:
-  method: attribute
-  attribute: Days_until
-  numeric: true
-{% endraw %}
-```
-
-### List with original icon and days countdown
+Show the default entities as a list, ordered by date and show the days until bin day.
 
 <img src="images_afvalbeheer/pres_list_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
 
+The corresponding code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -178,7 +195,6 @@ filter:
         type: custom:template-entity-row
         state: >
           {{state_attr(config.entity,'Days_until')}} dagen
-  show_empty: false
 sort:
   method: attribute
   attribute: Days_until
@@ -186,57 +202,25 @@ sort:
 {% endraw %}
 ```
 
-### Row with original icon and days countdown
+### As 2x2 raster
 
-<img src="images_afvalbeheer/pres_row_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
+Show the default entities in a 2x2 raster, ordered by date.
 
+<img src="images_afvalbeheer/pres_raster_2x2.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
+
+The corresponding code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Entities Card Configuration
 type: custom:auto-entities
 card:
-  type: entities
-  title: 'Afvalkalender'
-filter:
-  include:
-    - entity_id: sensor.cyclus_*
-      options:
-        type: custom:template-entity-row
-        state: >
-          {{state_attr(config.entity,'Days_until')}} dagen
-  show_empty: false
-sort:
-  method: attribute
-  attribute: Days_until
-  numeric: true
-{% endraw %}
-```
-
-### 2x2 raster 
-
-<img src="images_afvalbeheer/pres_row_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Entities Card Configuration
-type: custom:auto-entities
-card:
-  show_name: true
-  show_icon: true
-  show_state: true
   type: glance
   title: Afval kalender
   columns: 2
 filter:
   include:
     - entity_id: sensor.cyclus_*
-      options:
-        type: custom:template-entity-row
-        state: |
-          {{state_attr(config.entity,'Days_until')}} dagen
-  show_empty: false
 sort:
   method: attribute
   attribute: Days_until
@@ -245,7 +229,7 @@ sort:
 ```
 
 ---
-## Custom helper entities: days count down
+## Custom helper entities: days countdown
 
 I wanted my presentation like this.\
 Only with the numbers of days instead of the full date as the state value.\
@@ -304,52 +288,79 @@ sensor:
 ```
 
 ---
-## Sorted by days
+## Sorted by new countdown entities
 
-The new countdown entities sorted by days.
+### As row
+
+Show the new countdown entities, with the countdown days, all with the same icon, ordered by date in a row.
+
+<img src="images_afvalbeheer/pres_row_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
+
+The corresponding code:
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:auto-entities
+card:
+  type: glance
+  title: 'Afvalkalender'
+filter:
+  include:
+    - entity_id:  sensor.*waste*countdown
+sort:
+  method: state
+  numeric: true
+{% endraw %}
+```
+
+### As list
+
+The countdown entities sorted by days in a list.
 
 <img src="images_afvalbeheer/days_countdown.png" alt="Days countdown" width="400px">
 
-The dashboard card code with auto-entities. These values are sorted by the state value.
-
+The corresponding code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: custom:auto-entities
-  card:
-    type: entities
-    show_header_toggle: false
-    state_color: false
-  filter:
-    include:
-      - entity_id: sensor.*waste_pickup_countdown
-    exclude: null
-  show_empty: false
-  sort:
-    method: state
-    numeric: true
+type: custom:auto-entities
+card:
+  type: entities
+  show_header_toggle: false
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.*waste_pickup_countdown
+  exclude: null
+show_empty: false
+sort:
+  method: state
+  numeric: true
 {% endraw %}
 ```
 
 ---
 ## Show conditional, only for the next 5 days
 
-Show only the waste pickup for the upcoming 5 days.
+Show only the waste pickup for the upcoming 5 days.\
+In this case there is only one pickup in the next 5 days otherwise more entities will be visible.
 
+<img src="images_afvalbeheer/pres_5days.png" alt="only for the next 5 days" width="400px">
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: custom:auto-entities
-  card:
-    type: entities
-  filter:
-    include:
-      - entity_id: sensor.*_waste_pickup_countdown
-        state 1: < 6
-        state 2: '> 0'
+type: custom:auto-entities
+card:
+  type: entities
+filter:
+  include:
+    - entity_id: sensor.*_waste_pickup_countdown
+      state 1: < 6
+      state 2: '> 0'
 {% endraw %}
 ```
 
@@ -397,9 +408,6 @@ chips:
 ---
 ## LED strip indicator
 
-I created a [separated page](../projects/bin_day_led_strip_reminder.md) how I setup a LED strip under my dressoir to light up the evening before bin day.
-
-<img src="../projects/images_bin_day/bin_day_ledstrip.png" alt="bin day LED strip" width="200px">
 
 ---
 [^^ Top](#table-of-contents)
