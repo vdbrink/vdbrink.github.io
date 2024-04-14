@@ -20,7 +20,7 @@ I use it for all my automations.
 
 I use this tool for a few years and created 100+ automations from all different types and there is no automation I couldn't create with it!
 
-For more information check also the website: https://nodered.org
+For more information, check the website: https://nodered.org
 
 ---
 
@@ -41,9 +41,8 @@ Look at these Cheat Sheets where I described how you can convert values from one
 
 ### Basic flows
 
-Here you find some basic usefully example flows to control light, act on temperatures, etc.
+Here you find some basic useful example flows to control light, act on temperatures, etc.
 
-* [Node-RED - Light flows](node-red_light_flows)
 * [Node-RED - Temperature flows](node-red_temperature_flows)
 
 ###  Node-RED + Home Assistant integration
