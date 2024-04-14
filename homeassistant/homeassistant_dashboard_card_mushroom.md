@@ -225,6 +225,27 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
 ```
 ---
 
+#### Todays gas consumption
+
+<img src="images_mushroom/mushroom_gas_consumption.png" alt="mushroom gas consumption" width="80px" style="float:left">Show todays gas consumption.
+<br/><br/>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- chip: null
+  type: template
+  entity: sensor.dsmr_day_consumption_gas
+  content: "{{ (states ('sensor.dsmr_day_consumption_gas') | float * 10) | round(1) }}"
+  icon: mdi:fire
+  tap_action:
+  action: navigate
+  navigation_path: /energy
+{% endraw %}
+```
+---
+
 ## More examples
 Looking for more examples check this link:
 * https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/
