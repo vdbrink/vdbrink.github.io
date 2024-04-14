@@ -18,16 +18,20 @@ The git repository is https://github.com/piitaya/lovelace-mushroom
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Intro](#intro)
-* [Cards](#cards)
-  * [Title card](#title-card)
-    * [Welcome text and weather forecast for today](#welcome-text-and-weather-forecast-for-today)
-  * [Chips card](#chips-card)
-    * [Nice weather (only an icon)](#nice-weather-only-an-icon)
-    * [Outside temperature (custom icon)](#outside-temperature-custom-icon)
-    * [Person status](#person-status)
-    * [Door open (custom picture)](#door-open-custom-picture)
-* [More examples](#more-examples)
+  * [Intro](#intro)
+  * [Cards](#cards)
+    * [Title card](#title-card)
+      * [Welcome text and weather forecast for today](#welcome-text-and-weather-forecast-for-today)
+    * [Chips card](#chips-card)
+      * [Co2 colored icon indicator based on a number](#co2-colored-icon-indicator-based-on-a-number)
+      * [Weather alarm state colored icon indicator based on a value](#weather-alarm-state-colored-icon-indicator-based-on-a-value)
+      * [Nice weather (only an icon)](#nice-weather-only-an-icon)
+      * [Outside temperature (custom icon)](#outside-temperature-custom-icon)
+      * [Person status](#person-status)
+      * [Door open (custom picture)](#door-open-custom-picture)
+      * [Today's gas consumption](#todays-gas-consumption)
+      * [Today's power consumption](#todays-power-consumption)
+  * [More examples](#more-examples)
 <!-- TOC -->
 
 ---
@@ -225,9 +229,9 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
 ```
 ---
 
-#### Todays gas consumption
+#### Today's gas consumption
 
-<img src="images_mushroom/mushroom_gas_consumption.png" alt="mushroom gas consumption" width="80px" style="float:left">Show todays gas consumption.
+<img src="images_mushroom/mushroom_gas_consumption.png" alt="mushroom gas consumption" width="80px" style="float:left">Show today's gas consumption.
 <br/><br/>
 
 ```yaml
@@ -243,6 +247,27 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
   action: navigate
   navigation_path: /energy
 {% endraw %}
+```
+---
+
+#### Today's power consumption
+
+<img src="images_mushroom/mushroom_power_consumption.png" alt="mushroom power consumption" width="80px" style="float:left">Show today's power consumption.
+<br/><br/>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- chip: null
+  type: template
+  entity: sensor.dsmr_day_consumption_electricity_merged
+  content: '{{ states (''sensor.dsmr_day_consumption_electricity_merged'') | round(1) }}'
+  icon: mdi:power-plug
+  tap_action:
+  action: navigate
+  navigation_path: /energy
+  {% endraw %}
 ```
 ---
 
