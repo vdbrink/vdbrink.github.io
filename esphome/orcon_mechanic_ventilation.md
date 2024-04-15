@@ -98,7 +98,7 @@ These hardware components do I use for this project:
 
 ![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
 
-* (optional) Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-15 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP15-Zigbee-3_0-16A-3680W-Smart-Plug-Wireless-Power-Socket-Outlet-EU-Plug-APP-Remote-Control-or-Voice-Control-or-Multiple-Timer-Modes-Compatible-With-Amazon-Alexa-or-Google-Assistant-p-1856492.html)
+* (optional) Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-15 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741)
 
 ![BlitzWolf SHP-15](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-15")
 
@@ -110,7 +110,7 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ## Connect the hardware
 
-I've made close up photos and a table how everything is connected.
+I've made close-up photos and a table how everything is connected.
 
 ### Connect the RF15 remote to the ESP
 
@@ -149,11 +149,11 @@ Based on the used power I can determ the current state.
 
 ### Functionality
 With ESPHome you can flash the ESP8266 with software to trigger the connected remote buttons by using the momentary switch functionality. This puts, for a few moments, a signal on a pin. This simulates a press on the button.
-Because the ESP8266 has wi-fi access you can control this from any device in the network.
+Because the ESP8266 has wi-fi access, you can control this from any device in the network.
 
 ### Why ESPHome
 ESPHome has seamless integration with Home Assistant and supports MQTT out of the box. This is all I need.
-In the code there are also these two ways defined to control the ESP. One via the `api` and the other one via `mqtt`. Via `api` all switches will automatically be discovered by Home Assistant. Via `mqtt` you can control it also from other applications like Node-RED.
+In the code, there are also these two ways defined to control the ESP. One via the `api` and the other one via `mqtt`. Via `api` all switches will automatically be discovered by Home Assistant. Via `mqtt` you can control it also from other applications like Node-RED.
 
 ### Flash the ESP
 
@@ -286,7 +286,7 @@ If you want to read all about the remote possibilities, I placed a link to the D
 #### Problems with flashing
 * Flash succeed, but he won't connect to my wifi network.
  <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
-  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network but if it has the same name he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
+  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network, but if it has the same name, he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
   <img src="orcon_images/flash_esphome_with_ip.jpg" alt="IP failed" height="300px"/>
 * Make sure you see a "SUCCESS" message in the SUMMARY after flashing and not any red error messages.
   * Maybe the indenting is not correct. YAML is strict with a correct indenting. You can try https://www.yamllint.com/ to validate. 
@@ -296,9 +296,9 @@ If you want to read all about the remote possibilities, I placed a link to the D
 
 I used the original remote touchpad to pair it with the system.
 
-To register the 15RF Orcon remote as extra remote to the ventilation system you need to shut down the power and power up again the ventilation system. For 3 minutes it's now in pairing mode. press the `auto` and `1` buttons at the same time. When the led on the remote start blinking green and red it's paired.
+To register the 15RF Orcon remote as extra remote to the ventilation system, you need to shut down the power and power up again the ventilation system. For 3 minutes it's now in pairing mode. press the `auto` and `1` buttons at the same time. When the LED on the remote starts blinking green and red, it's paired.
 
-If you have another remote this is still paired and don't need to pair it again.
+If you have another remote, this is still paired and don't need to pair it again.
 
 Now you can unplug the data cable from the touchpad and connect it to the flatcable. This has no effect on the paired status.
 
@@ -311,11 +311,11 @@ One way to test if the ESP now works is to send a MQTT message.
 On Windows you can use MQTT Explorer. Send an empty body to topic `orcon_mcu/mode_3` and listen if the system spins up.
 
 ### Via Home Assistant
-If the ESP is not already auto-discovered by Home Assistant you can go to Integrations and add the ESPHome integration. It will ask you for the IP-address and port number. I found the IP-address while flashing the ESP. The prefilled port `6053` is just fine. If it finds your device you see this:
+If the ESP is not already auto-discovered by Home Assistant you can go to Integrations and add the ESPHome integration. It will ask you for the IP-address and port number. I found the IP-address while flashing the ESP. The prefilled port `6053` is just fine. If it finds your device, you see this:
 
 <img src="orcon_images/orcon_mcu_in_home_assistant_integrations.jpg" alt="New ESPHome integration in Home Assistant" width="250px" />
 
-When you click on the device link you see the defined buttons from the script.
+When you click on the device link, you see the defined buttons from the script.
 
 <img src="orcon_images/home_assistant_esp.jpg" alt="ESPHome Orcon MCU details" width="500px" />
 
@@ -328,7 +328,7 @@ With these controls it's only a one way communication, you can only send data to
 
 ### Background
 
-To get the current mode of the ventilation system you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose I use a BlitzWolf SHP-15 Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
+To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose I use a BlitzWolf SHP-15 Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
 Based on the used power I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
@@ -360,7 +360,7 @@ Explanation of each node:
 * **[switch node]** Convert the power to a mode. See the corresponding [table](#Background).
 * **[4 change nodes]** Set the value to present in Home Assistant.
 * **[mqtt in node]** Read also direct the pressed button in Home Assistant via the triggered MQTT topic.
-* **[switch node]** Is the current mode different then the current one, continue, otherwise stop. To avoid unneeded message when nothing is changed.
+* **[switch node]** Is the current mode different than the current one, continue, otherwise stop. To avoid unneeded message when nothing is changed.
 * **[switch node]** Store the new mode.
 * **[HA API node]** Reset mode 1
 * **[HA API node]** Reset mode 2
@@ -378,7 +378,7 @@ _If you implemented this flow direct in Home Assistant please [let me know](http
 
 I created three different designs which can be used on your own Home Assistant dashboard.
 
-When you press a button it triggers a service script which set a message on a MQTT topic. (Call direct the Home Assistant entity is also possible ofcourse.)
+When you press a button, it triggers a service script which sets a message on a MQTT topic. (Call direct the Home Assistant entity is also possible, of course.)
 
 ### Preparations
 
@@ -404,7 +404,7 @@ This is how a configured helper switch must look like:
 
 #### Script to trigger the ESP
 
-To act on a button press I created for each mode a script which trigger the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 
+To act on a button press, I created for each mode a script which triggers the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 
 I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise, this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode.
 
 <details>
@@ -491,7 +491,7 @@ In my first two designs you also get feedback and see what's the current active 
 
 #### Design 1: Home Assistant buttons
 
-This design use the six created helper toggles which operate as buttons, and they are placed with multiple horizontal and vertical stacks on the right position in the same layout as the original Orcon remote.
+This design uses the six created helper toggles which operate as buttons, and they are placed with multiple horizontal and vertical stacks in the right position in the same layout as the original Orcon remote.
 
 ![Home Assistant buttons](orcon_images/home_assistant_orcon_remote_d1.jpg)
 
@@ -569,7 +569,7 @@ cards:
 
 #### Design 2: Black panel
 
-This black panel design is created with a `picture-element` with a black background image. The helper switches are relative positioned.  
+This black panel design is created with a `picture-element` with a black background image. The helper switches are relatively positioned.  
 
 ![Black panel](orcon_images/home_assistant_orcon_remote_d2.jpg)
 
@@ -681,7 +681,7 @@ In this design you can't see the current mode.
 
 <img src="orcon_images/home_assistant_orcon_remote_d3.jpg" width="500px" alt="Original remote" />
 
-To use this image on your dashboard you have to place the [remote panel photo](orcon_files/orcon_15rf_remote.jpg) and a [black square image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
+To use this image on your dashboard, you have to place the [remote panel photo](orcon_files/orcon_15rf_remote.jpg) and a [black square image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 The black square is a placeholder to define an area to click.
 
 <details>
@@ -920,7 +920,7 @@ Here you can see, one of my first scripts, the Orcon is automatic activated (yel
 
 <img src="../node-red/images/node-red_logo.png" alt="Node-RED logo" width="100px" style="float:right" />
 I created in Node-RED the next flow: 
-If all the criteria are valid a trigger is sent to the Orcon to shut it down. If one of the criteria is not valid it stops the checks and sets a custom sensor with the reason why the orcon is still active.
+If all the criteria are valid a trigger is sent to the Orcon to shut it down. If one of the criteria is not valid, it stops the checks and sets a custom sensor with the reason why the orcon is still active.
 
 Every 15 minutes this flow is triggered.
 
@@ -928,7 +928,7 @@ Every 15 minutes this flow is triggered.
 * Is the dryer not active? 
   * The dryer is in the bathroom and produced a lot of heat.
 * Is the humidity in the bathroom less than 70%?
-  * If someone is in the shower the humidity reach 100%.
+  * If someone is in the shower, the humidity reach 100%.
 * Is the difference between the humidity in- and outside the bathroom less than 7%?
   * You can't work with fixed values it can be that it will never drop below the 60%. Especially in autumn.
 * Is the bathroom temperature less than 26 degrees?
@@ -938,9 +938,9 @@ Every 15 minutes this flow is triggered.
 
 **Kitchen extractor hood checks:**
 * Is the humidity in the kitchen extractor hood less than 70%?
-  *  When you heating food on the stove the humidity can rise and drop.
+  *  When you heat food on the stove, the humidity can rise and drop.
 * Is the difference between the humidity in- and outside the extractor hood less than 7%?
-  *  When you heating food on the stove the humidity will drop.
+  *  When you heat food on the stove, the humidity will drop.
 * Is the extractor hood temperature less than 26 degrees?
     * This can be caused by the dryer or taking a shower.
 
@@ -951,8 +951,8 @@ Every 15 minutes this flow is triggered.
   * It can be that the orcon is started manually with the normal remote. Then it doesn't match all the previous criteria, but you still want to run it for some other reason.
 * Is the VOC level in the toilet low enough? (Not in my setup)
 * Is the CO2 level low enough? (Not in my setup)
-* Is the Orcon still activate?
-  * If also the last check match it can be shut down.
+* Is the Orcon still activated?
+  * If also the last check match, it can be shut down.
 
 #### The Node-RED flow
 This is the corresponding flow in Node-RED.
@@ -973,7 +973,7 @@ This is the corresponding flow in Node-RED.
 There are other projects who use other ways to control the Orcon ventilation system.
 
 ### Clone the remote signals
-The Orcon remote use a CC1101 RF module which does the RF wireless communication over 868,3 MHz. I tried to catch the remote signals with an RTL-SDR dongle and resend it. This didn't work and around the same time I found out it use a two-way communication system called "Honeywell Ramses II".
+The Orcon remote uses a CC1101 RF module which does the RF wireless communication over 868,3 MHz. I tried to catch the remote signals with an RTL-SDR dongle and resend it. This didn't work and around the same time I found out it uses a two-way communication system called "Honeywell Ramses II".
 At that time there was no open implementation of it. Now there are. This approach stopped here for me.
 
 ### Control direct the motor
