@@ -1,12 +1,16 @@
+---
+title: "Packages mailbox - Allux 600"
+category: Projects
+tags: Mailbox, package box, mail, node-red, home assistant
+---
 # Packages mailbox - Allux 600
-
 
 I was looking for a packages-mailbox where 80% of my ordered packages should fit in, so I don't have to wait at home for the delivery guy to arrive, but still I can receive my package.
 
 <p>
-<img src="images_allux-600\pieter_post.jpg" height="350px" alt="Delivery guy" style="float:right"/>
+<img src="images_allux-600/pieter_post.jpg" height="350px" alt="Delivery guy" style="float:right"/>
 
-<img src="images_allux-600\final-result.jpg" height="350px" alt="The final result"/>
+<img src="./images_allux-600/final-result.jpg" height="350px" alt="The final result"/>
 
 <br>
 <em>My final automated packages mailbox</em>
@@ -43,30 +47,30 @@ I was looking for a packages-mailbox where 80% of my ordered packages should fit
 
 I was looking for a package mailbox with the next specifications:
 * All weatherproof;
-* A shoebox-package-size should fit in it (so it cover 80% of my package sizes);
+* A shoebox-package-size should fit in it (so it covers 80% of my package sizes);
 * It could contain multiple packages;
 * Not possible to grab delivered packages out of it;
 * A discrete design;
 * A maximum price of &euro; 200,- ;
-  * I found &euro; 200,- already a lot of money for such a box but in my search I found out this was at the bottom prices in the market. Those boxes, for what I was looking for, reach to prices like &euro; 500,-!
+  * I found &euro; 200,- already a lot of money for such a box, but in my search I found out this was at the bottom prices in the market. Those boxes, for what I was looking for, reach to prices like &euro; 500,-!
 <br>
 In my search I found the Allux 600 box, which match almost all my criteria, but only the price at that moment was &euro; 250,-.
-It's made for outside usage. I's made of coated steel, it has 12 year guarantee against rust. That's also why the price is so high.
+It's made for outside usage. I's made of coated steel, it has a 10-year guarantee against rust. That's also why the price is so high.
 
 A shoebox can fit in it.
-And multiple packages can be dropped in it, but it isn't possible to grab one out of it afterwards.\
-The design is a tight mat black box which doesn't attract too much attention when you see it from the street. 
+And multiple packages can be dropped in it, but it isn't possible to grab one out of it afterward.\
+The design is a tight mat black box that doesn't attract too much attention when you see it from the street. 
 
-Because the price was a bit high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my [Node-RED daily-check-for-good-offers list](../node-red/node-red_pricewatch), next to the laundry detergents and wait if it will be cheaper on a later moment.\
-I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it match all my criteria and I ordered it! Also in the meanwhile I didn't find any other box one with better specs.
+Because the price was a bit high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my [Node-RED daily-check-for-good-offers list](../node-red/node-red_pricewatch), next to the laundry detergents and wait if it will be cheaper at a later moment.\
+I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it matches all my criteria and I ordered it! Also, in the meanwhile, I didn't find any other box one with better specs.
 
 ---
 
 ## Product specs
 
-The box is made of coated steel, so it's strong and won't rust because they give 10 year guaranty against rust. It should stand for years outside in all weather conditions. 
+The box is made of coated steel, so it's strong and won't rust because they give 10-year guaranty against rust. It should stand for years outside in all weather conditions. 
 
-<img src="images_allux-600\allux-600.jpg" height="250px" alt="Allux 600 anthracite" style="float:right"/>
+<img src="images_allux-600/allux-600.jpg" height="250px" alt="Allux 600 anthracite" style="float:right"/>
 
 Total outside sizes of the mailbox:
 ```
@@ -85,19 +89,19 @@ Depth: 29 cm
 
 The top view when opening the lid.
 
-<img src="images_allux-600\allux-600_top_view.jpg" height="250px" alt="Top view"/>
+<img src="images_allux-600/allux-600_top_view.jpg" height="250px" alt="Top view"/>
 
 It has some bump cushions, so it doesn't close with a lot of noise.
 
-<img src="images_allux-600\allux_put_package_inside.jpg" height="250px" alt="Put a package in the mailbox"/>
+<img src="images_allux-600/allux_put_package_inside.jpg" height="250px" alt="Put a package in the mailbox"/>
 
 In front there is a locked door to get the packages out of the box.
 
-<img src="images_allux-600\allux_get_package_out_of_it.jpg" height="250px" alt="Get the packages out of it"/>
+<img src="images_allux-600/allux_get_package_out_of_it.jpg" height="250px" alt="Get the packages out of it"/>
 
 This is how the systems works to prevent picking previous delivered package out of the box.
 
-<img src="images_allux-600\allux_anti-theft.png" height="250px" alt="Anti theft system"/>
+<img src="images_allux-600/allux_anti-theft.png" height="250px" alt="Anti theft system"/>
 
 An instruction video about how the Allux 600 works:
 
@@ -110,63 +114,63 @@ Click on the above image to see the video.
 ## Mounting to the ground
 
 The regular Allux 600 is without any mounting materials.
-The only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame. In my opinion way too expensive and it should also be possible to solve this for way less but that needs a creative solution.
+The only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame. In my opinion, way too expensive, and it should also be possible to solve this for way less, but that needs a creative solution.
 
-<img src="images_allux-600\allux_default_mount.webp" height="250px" alt="default mount"/>
+<img src="images_allux-600/allux_default_mount.webp" height="250px" alt="default mount"/>
 
-The Allux has already in the bottom, in each corner and in the center, pre-drilled holes. If you have tiles you can also drill holes in it and mount it direct to it.
+The Allux has already in the bottom, in each corner and in the center, pre-drilled holes. If you have tiles, you can also drill holes in it and mount it direct to it.
 
 
-<img src="images_allux-600\allux-600_bottom.jpg" height="250px" alt="default holes"/>
+<img src="images_allux-600/allux-600_bottom.jpg" height="250px" alt="default holes"/>
 
 ### Used parts for my DIY ground mount
 
 I came up with a DIY solution that would work for me.\
-My box is placed on soil. So I decided to dig a hole under the box, and place something heavy in the ground and this should be mounted to the box. So you can't pick it up and walk away with it.
+My box is placed on soil. So I decided to dig a hole under the box, and place something heavy in the ground, and this should be mounted to the box. So you can't pick it up and walk away with it.
 
 This was my shopping list for my DIY ground mount: 
 
 * A heavy flower box, it was in the sales at the local garden shop [&euro; 7,-]
-  * The flower box had already a hole in the middle.
+  * The flower box already had a hole in the middle.
 
-  <img src="images_allux-600\flowerbox.jpg" height="150px" alt="mount on the ground"/>
+  <img src="images_allux-600/flowerbox.jpg" height="150px" alt="mount on the ground"/>
 
 * [1x Stainless Steel Threaded End Pipes 12mm x 100 cm](https://www.gamma.nl/assortiment/gamma-draadeind-rvs-m12-x-1000-mm/p/B451457) [&euro; 13,79 at Gamma]
 
-  <img src="images_allux-600\rvs_m12_1000_threaded_end.jpg" height="150px" alt="1x Stainless Steel Threaded End Pipes 12mm x 100 cm"/>
+  <img src="images_allux-600/rvs_m12_1000_threaded_end.jpg" height="150px" alt="1x Stainless Steel Threaded End Pipes 12mm x 100 cm"/>
 
 * [A box with 4x galvanized metal plate 40x40mm](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 5,59 at Gamma]
 
-  <img src="images_allux-600\ring.jpg" height="150px" alt="4x galvanized metal plate 40x40mm"/>
+  <img src="images_allux-600/ring.jpg" height="150px" alt="4x galvanized metal plate 40x40mm"/>
 
 * [A box with 4x galvanized 12mm bolts](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 2,59 at Gamma]
 
-  <img src="images_allux-600\bolt.jpg" height="150px" alt="4x galvanized 12mm bolt"/>
+  <img src="images_allux-600/bolt.jpg" height="150px" alt="4x galvanized 12mm bolt"/>
 
 Which make the total costs for my DIY ground mount &euro; 28,97. This saves me ~&euro; 60,-
 
 ### Assembling the ground mount
 
-I screw a bolt and plate on each side of the hole in the flower box so the pipe is strongly attached to the flower box. The pipe must stick only 15 cm above street level and the rest will be in the ground underneath the flower box.
+I screw a bolt and plate on each side of the hole in the flower box so the pipe is strongly attached to the flower box. The pipe must stick only 15 cm above street level, and the rest will be in the ground underneath the flower box.
 
-<img src="images_allux-600\pin_bolt.jpg" height="250px" alt="screw the plates"/>
+<img src="images_allux-600/pin_bolt.jpg" height="250px" alt="screw the plates"/>
 
 I grave a hole under the place where the box will stand and which match the size of the flower box, put it in the ground and fill it again with sand and stones for extra weight. 
 
-<img src="images_allux-600\flowerbox_in_the_ground_with_pin.jpg" height="250px" alt="mount on the ground"/>
+<img src="images_allux-600/flowerbox_in_the_ground_with_pin.jpg" height="250px" alt="mount on the ground"/>
 
 Now only the pipe is above the ground.\
 I screw the bold on the pipe, almost to the ground and add a plate above it.
 
-Now I placed the box over the pipe and see if the plate touch the bottom of the box when the corners of the package box touch the ground.
+Now I placed the box over the pipe and see if the plate touches the bottom of the box when the corners of the package box touch the ground.
 Now add the plate inside the box over the pipe and screw the bold also from inside. Now the bolts and plates are strong together to each other on each side of the bottom of the box. 
 
-<img src="images_allux-600\pin_inside_allux.jpg" height="250px" alt="screw the bold also inside the allux"/>
+<img src="images_allux-600/pin_inside_allux.jpg" height="250px" alt="screw the bold also inside the allux"/>
 
 Now the box isn't easy to move anymore!
 And it isn't visible at all how it's mount on the ground.
 
-<img src="images_allux-600\allux_result.jpg" height="250px" alt="Final result"/>
+<img src="images_allux-600/allux_result.jpg" height="250px" alt="Final result"/>
 
 ---
 
@@ -195,19 +199,19 @@ So I designed two stickers:
 ## Automations
 
 This package box is not smart by itself, but it was easy to make it smart.\
-I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box. I Created automations for notifications and added the status to my Home Assistant dashboard.
+I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box. I created automations for notifications and added the status to my Home Assistant dashboard.
 
 ### Notification when a package is delivered
 
-* The first contact sensor is mounted under the inner metal plate where the packages are place on when the lid is opened. When the lid is opened the contact breaks and a trigger is sent. This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions. The signal is strong enough to get through the steel.
+* The first contact sensor is mounted under the inner metal plate where the packages are place on when the lid is opened. When the lid is opened, the contact breaks and a trigger is sent. This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions. The signal is strong enough to get through the steel.
 
-  <img src="images_allux-600\lid_open_contact_sensor.jpg" height="250px" alt="Lid opened" />
+  <img src="images_allux-600/lid_open_contact_sensor.jpg" height="250px" alt="Lid opened" />
 
-* The second contact sensor is place in the front door. So when the box is opened with the key, this contact breaks, and a trigger is sent by this other sensor.
+* The second contact sensor is placed in the front door. So when the box is opened with the key, this contact breaks, and a trigger is sent by this other sensor.
 
-  <img src="images_allux-600\front_door_contact_sensor.jpg" height="250px" alt="package box emptied" />
+  <img src="images_allux-600/front_door_contact_sensor.jpg" height="250px" alt="package box emptied" />
 
-Is this full-proof? No, everybody who open the lid triggers that there is a package inside. It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo. But for me this is now good enough. 
+Is this full-proof? No, everybody who opens the lid triggers that there is a package inside. It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo. But for me this is now good enough. 
 
 ### Node-RED flow
 
@@ -222,7 +226,7 @@ This topic now indicates if there is a package inside.
 I also send a notification to the phones and speaker in the living room when a package is arrived.
 
 This is how my Node-RED flow looks like.
-<img src="images_allux-600\node-red_allux_600.png" alt="Node-RED package box automation flows"/>
+<img src="images_allux-600/node-red_allux_600.png" alt="Node-RED package box automation flows"/>
 
 <details>
   <summary><b>> Click here to see the corresponding Node-RED flow code >></b></summary>
@@ -482,11 +486,11 @@ This is how my Node-RED flow looks like.
 
 ### Notification on my phone
 
-I have already a separated Node-RED flow to send messages to my phone. I use a `link out node` (most right bottom block in the screenshot) to connect to that flow. And every message it received, will be sent to my phone to notify me there is a package. (How this exact works is not yet documented here.)
+I have already a separated Node-RED flow to send messages to my phone. I use a `link out node` (most right bottom block in the screenshot) to connect to that flow. And every message it received will be sent to my phone to notify me there is a package. (How this exact works is not yet documented here.)
 
 You can use your own preferred notification app here, like the Home Assistant Companion app, Whatsapp, Xabber, Telegram, Pushbullet, etc  
 
-  <img src="images_allux-600\automation_notification.jpg" height="150px" alt="Notification there is a package"/>
+  <img src="images_allux-600/automation_notification.jpg" height="150px" alt="Notification there is a package"/>
 
 
 ### Home Assistant
@@ -513,9 +517,9 @@ binary_sensor:
 
 #### Mushroom icon
 
-In my Home Assistant dashboard will be an orange box icon visible if there is a package inside the box.
+In my Home Assistant dashboard, there will be an orange box icon visible if there is a package inside the box.
 
-  <img src="images_allux-600\automation_ha_mushroom_icon.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
+  <img src="images_allux-600/automation_ha_mushroom_icon.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
 
 This conditional mushroom box icon is visible based on the previous defined binary sensor.\
 This is the corresponding dashboard code for this icon:
@@ -541,12 +545,12 @@ chips:
 
 #### Conditional row
 
-In my Home Assistant dashboard I have a list with conditional items which are only visible if it's relevant or any action is required.
+In my Home Assistant dashboard I have a list of conditional items which are only visible if it's relevant or any action is required.
 Like in this case it's only visible when you need to empty the package box.
 
 To show the package box entity like this:
 
-  <img src="images_allux-600\automation_ha_conditional_message.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
+  <img src="images_allux-600/automation_ha_conditional_message.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
 
 I used a Vertical Stack card in my dashboard with this code:
 ```yaml
@@ -570,7 +574,7 @@ cards:
 
 To show the package box entity like this:
 
-  <img src="images_allux-600\automation_ha_time.png" height="75px" alt="Time when the was delivered"/>
+  <img src="images_allux-600/automation_ha_time.png" height="75px" alt="Time when the was delivered"/>
 
 This is the time when the lid was (opened and) closed for the last time.
 
@@ -596,7 +600,7 @@ For the Dutch delivery company PostNL you can define that you have a package box
 Login with your PostNL account and go to
 https://jouw.postnl.nl/account/nl-NL/ontvangstvoorkeur/standaard-bezorging to set this up.
 
-<img src="images_allux-600\postNL_packagebox_preference.png" height="650px" alt="PostNL deliver preferences"/>
+<img src="images_allux-600/postNL_packagebox_preference.png" height="650px" alt="PostNL deliver preferences"/>
 
 ---
 
@@ -610,7 +614,7 @@ Here are some links where you can find actual prices for the Allux 600.
 
 ### Firework protection
 
-You can also buy a small additional metal plate you can block the lid from opening to prevent to throw firework in the box at the end of the year.
+You can also buy a small additional metal plate you can block the lid from opening to prevent throwing firework in the box at the end of the year.
 
 [![Firework protection metal](images_allux-600/fireworks_protection.jpg)](http://www.youtube.com/watch?v=gc52z0xg0Og "Firework protection metal")
 
