@@ -20,7 +20,7 @@ We can use that data also to show direct on our Home Assistant dashboards.
 <!-- TOC -->
 * [Animated weather predictions](#animated-weather-predictions)
 * [Weather predictions](#weather-predictions)
-* [Rain expected value](#rain-expected-value-1)
+* [Rain expected value](#rain-expected-value)
 * [Rain radar animated](#rain-radar-animated)
 * [Weather alarm map](#weather-alarm-map)
 * [Weather alarm](#weather-alarm)
@@ -37,7 +37,7 @@ We can use that data also to show direct on our Home Assistant dashboards.
 
 <img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
 
-Install the hacs [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration.
+Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration.
 
 ```yaml
 {% raw %}
@@ -56,11 +56,11 @@ hide_forecast_section: false
 ---
 ## Weather predictions
 
-Nice overview with the current weather predictions. 
+Nice overview of the current weather predictions. 
 
 <img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
 
-Install the hacs [**weather-chart-card**]() integration.
+Install the HACS [**weather-chart-card**](https://community.home-assistant.io/t/lovelace-weather-chart-card/638917) integration.
 
 ```yaml
 {% raw %}
