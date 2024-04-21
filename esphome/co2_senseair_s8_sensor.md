@@ -2,19 +2,28 @@
 title: ESPHome SenseAir S8 Co2 sensor
 date: 2022-06-24
 category: ESPHome
-tags: Co2, ESP8266, ESPHome, Home Assistant
+tags: Co2, ESP8266, ESPHome, Home Assistant, air quality
 ---
-# ESPHome SenseAir S8 Co2 sensor
-
+# ESPHome Co2 sensor
+*Based on the SenseAir S8 sensor*
 
 ## Introduction
 
-There are not much out-of-the-box Co2 sensors available, but it's easy to create one yourself.
+<img src="co2_images/senseair_s8.jpg" alt="zigbee" height="150px" style="margin-left:15px;float:right"/>
+
+There are not so many affordable out-of-the-box Co2 sensors available, but it's easy to create one yourself.
+With only an ESP, a C02 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
+
+If your in a space with a too high ppm level, you can feel tired, your start yawning, 
+get red cheeks and can get a headache.
+Without knowing, this happens because it goes very gradually.
+To prevent this, use your smart home automations and take action if the levels are too high.\
+This keeps you and your family healthy!
 
 Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
-If your in a space with a too high ppm level you can feel tired, your start yawn and can get a headache.
 
-The average value outside is around 400 ppm.
+The average value outside is around 400 ppm, which is a base value.
+That's also why you need to open a window when the value is too high, get some fresh air from outside.
 
 | ppm        | condition | action                              |
 |------------|-----------|-------------------------------------|
@@ -22,7 +31,8 @@ The average value outside is around 400 ppm.
 | 800 - 1200 | medium    | open a window                       |
 | 1200+      | bad       | limit has reached, open all windows |
 
-## My solution 
+---
+## My final result 
 
 A small box with a tail.  
 Inside a Co2 sensor and an ESP mini.
@@ -42,35 +52,54 @@ Inside a Co2 sensor and an ESP mini.
 
 ## Required hardware
 
-These hardware components do I use for this project:
+These hardware components did I use for this project:
 
 * SenseAir S8 Co2 sensor [link 1](https://s.click.aliexpress.com/e/_mM6V8we) [link 2](https://s.click.aliexpress.com/e/_oCFOEJ6)
 
 <img src="co2_images/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
 
 * ESP 12S Wemos D1 mini (no pro or V3) [link 1](https://s.click.aliexpress.com/e/_ooKDQkk)
+  * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* 5 plastic DIY Cases 70 x 45 x 30 mm (One is ofcourse enough for this project.)
+* Dupont male to male wires [link 1](https://s.click.aliexpress.com/e/_DEy2mvt) [link 2](https://s.click.aliexpress.com/e/_EIjrYwZ)
+  * If you order these, you can better order all three types at ones, also for any further projects
+
+<img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
+
+* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in [white still available](https://s.click.aliexpress.com/e/_DlrBL2n)) or at least one with a minimal of these sizes. [link 1: a lot of boxes with all kinds of sizes](https://s.click.aliexpress.com/e/_DDALbXD)
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* Micro USB cable to power the ESP [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
+* Micro USB cable to power the ESP board [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
 * 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_EQrXcuH) [link 2](https://s.click.aliexpress.com/e/_mqQDOme)
 
-<img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200"/>
+<img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-Also affiliate links are used here.
+* Soldering iron. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+  [link 1](https://s.click.aliexpress.com/e/_DEDR08n)
+
+<img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
+
+* Soldering tin wire
+[link 1](https://s.click.aliexpress.com/e/_DEDR08n)
+
+<img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
+
+
+Affiliate links are used here, so you sponsor my blog also with it, without paying extra for it.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
 
 ---
 
 ## Required software
+
+For this project, you only need the software to flash the ESP chip with the configuration file.
 
 * <a href="https://www.python.org/" target="_blank">Python</a> to run ESPHome
 * <a href="https://esphome.io/guides/getting_started_command_line.html#first-uploading" target="_blank">ESPHome</a> to flash the ESP
@@ -82,13 +111,15 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 I've made a scheme how to connect the SenseAir S8 to the ESP.
 
+The ESP and sensor don't come with pins, so you need to solder a bit to connect the wires between the sensor and the ESP.
+
 ### Connect the SenseAir S8 to the ESP
 
 > Use control + click to see the full photos of the connected wires.
 
-| Connected pins                                                                                                   | ESP8266 Wemos <br>D1 mini pins                                                                        | SenseAir S8 pins                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="co2_images/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESPHome SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="co2_images/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> 180 degrees rotated compared with the first image. |
+| Connected pins                                                                                                     | ESP8266 Wemos <br>D1 mini pins                                                                        | SenseAir S8 pins                                                                                                                                            |
+|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="co2_images/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESPHome SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="co2_images/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> This image is 180 degrees rotated compared with the first image. |
 
 This table show how the ESP is connected with the SenseAir.
 
@@ -102,11 +133,12 @@ This table show how the ESP is connected with the SenseAir.
 &ast; The `GPIO Wemos pin` is the port which is used in the ESPHome yaml.
 
 
-If you place the sensor on top of the ESP mini it fits perfect in the DIY box.
+If you place the sensor on top of the ESP mini, it fits perfect in the DIY box.
 
+You need to drill a hole in the edge of the box so the USB power cable can go through it.
 ![perfect fit in case](co2_images/case_fit_co2_sensor.jpg)
 
-I drilled some holes in the DIY case. Now the air can reach the Co2 sensor inside the box.
+I drilled some holes in the case. Now the air can reach the Co2 sensor inside the box.
 
 ![holes in case](co2_images/holes_in_case.jpg)
 
@@ -163,11 +195,11 @@ sensor:
 
 ## Home Assistant
 
-Ones the sensor push the data, you can use and present the data on your dashboards or create notifications when the status is not good.
+Ones the sensor pushes the data, you can use and present the data on your dashboards or create notifications when the status is not good.
 
 ### Dashboard Gauge
 
-In a gauge you can direct see if the current co2 value is correct.
+In a gauge you can directly see if the current co2 value is correct.
 I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction). 
 
 <img src="co2_images/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
@@ -185,9 +217,10 @@ min: 350
 max: 1500
 name: Room Co2 sensor
 ```
-### Dashboard Graphic
 
-To show the history of the last x hours you can use the card.
+### Dashboard Line Graphic
+
+To show the history of the last X hours you can use the card.
 
 <img src="co2_images/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
 
@@ -201,9 +234,55 @@ name: Room Co2 sensor
 hours_to_show: 6
 ```
 
+### Dashboard History Graphic
+
+[//]: # (<img src="co2_images/home_assistant_co2_history_graph.jpg" alt="Home Assistant History Graph" width="500px" />)
+
+Another graph entity is the `history-graph`.
+
+You can also show baseline values by creating a custom sensor with a fixed value.
+
+```yaml
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: history-graph
+entities:
+  - entity: sensor.senseair_co2_value
+  - entity: sensor.co2_value_800
+  - entity: sensor.co2_value_1200
+  - entity: sensor.co2_value_1500
+hours_to_show: 24
+```
+
+This is how you create three custom lines in the graph to see the threshold values.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- sensor:
+    - platform: template
+      sensors:
+        co2_value_800:
+          friendly_name: "good"
+          value_template: 800
+          unit_of_measurement: 'ppm'
+        co2_value_1200:
+          friendly_name: "avarage"
+          value_template: 1200
+          unit_of_measurement: 'ppm'
+        co2_value_1500:
+          friendly_name: "bad"
+          value_template: 1500
+          unit_of_measurement: 'ppm'
+{% endraw %}
+```
+
 ### Dashboard condition text
 
-This creates a new sensor which show a textual presentation of the current condition.
+<img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional Co2 text" width="500px" />
+
+This creates a new sensor that shows a textual presentation of the current condition.
 
 ```yaml
 {% raw %}
@@ -226,7 +305,7 @@ This creates a new sensor which show a textual presentation of the current condi
 
 ### Dashboard bad condition text
 
-In my dashboard I have a section with important messages. Only when there is an action required you see that here.
+In my dashboard, I have a section with important messages. Only when there is an action required you see that here.
 There is also a message when the Co2 value is not good. This section can be achieved by using conditional entities. 
 
 ```yaml
@@ -241,5 +320,38 @@ entities:
       state_not: good
       row:
         entity: sensor.senseair_co2_value_text
+{% endraw %}
+```
+
+### Dashboard Mushroom entity
+
+
+<img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"> 
+ Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
+
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:mushroom-chips-card
+chips:
+  - chip: null
+    type: template
+    icon: mdi:molecule-co2
+    entity: sensor.senseair_co2_value
+    content: ''
+    icon_color: |-
+      {% if is_state('sensor.senseair_co2_value', 'unavailable') %}
+         blue
+      {% elif states('sensor.senseair_co2_value')|int > 1500 %}
+         red
+      {% elif states('sensor.senseair_co2_value')|int > 1200 %}
+         orange
+      {% elif states('sensor.senseair_co2_value')|int > 800 %}
+         yellow
+      {% else %}
+         green
+      {% endif %}
 {% endraw %}
 ```

@@ -400,7 +400,7 @@ I used these icons:
 
 This is how a configured helper switch must look like:
 
-<img src="orcon_images/ha_create_helper_buttons.jpg" alt="New ESPHome integration in Home Assistant" width="200" />
+<img src="orcon_images/ha_create_helper_buttons.jpg" alt="New ESPHome integration in Home Assistant" width="200px" />
 
 #### Script to trigger the ESP
 

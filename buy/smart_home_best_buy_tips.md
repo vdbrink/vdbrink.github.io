@@ -1,15 +1,14 @@
 ---
 title: "Smart home best buy tips"
 category: Buy tips
-tags: Best, Buy, tips, aliexpress, banggood, batteries, sensors, Aqara, Tuya
+tags: Best, Buy, tips, aliexpress, banggood, batteries, sensors, Aqara, Tuya, zigbee
 ---
-# Smart home best buy tips
-
+# Zigbee Smart home best buy tips
 
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
-On this page you find my personal favorite sensors, actuator and other home automation related hardware.
+On this page, you find my personal favorite sensors, actuator and other home automation related hardware.
 
 Most are provided by the online shops Aliexpress or Banggood.
 I order 90% of my home automation on these two sites for years already. You pay a good price, and they have fast shipping, sometimes you have the order already delivered within a week!
