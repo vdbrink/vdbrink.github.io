@@ -32,7 +32,7 @@ That's also why you need to open a window when the value is too high, get some f
 | 1200+      | bad       | limit has reached, open all windows |
 
 ---
-## My final result 
+## My final result
 
 A small box with a tail.  
 Inside a Co2 sensor and an ESP mini.
@@ -42,11 +42,23 @@ Inside a Co2 sensor and an ESP mini.
 ---
 
 ## Table of Contents
-- [Required hardware](#required-hardware)
-- [Required software](#required-software)
-- [Connect the hardware](#connect-the-hardware)
-- [ESPHome](#esphome)
-- [Home Assistant](#home-assistant)
+<!-- TOC <!-- TOC -->
+* [Introduction](#introduction)
+* [My final result](#my-final-result)
+* [Required hardware](#required-hardware)
+* [Required software](#required-software)
+* [Connect the hardware](#connect-the-hardware)
+  * [Connect the SenseAir S8 to the ESP](#connect-the-senseair-s8-to-the-esp)
+* [ESPHome](#esphome)
+  * [Flash the ESP](#flash-the-esp)
+* [Home Assistant](#home-assistant)
+  * [Dashboard Gauge](#dashboard-gauge)
+  * [Dashboard Line Graphic](#dashboard-line-graphic)
+  * [Dashboard History Graphic](#dashboard-history-graphic)
+  * [Dashboard condition text](#dashboard-condition-text)
+  * [Dashboard bad condition text](#dashboard-bad-condition-text)
+  * [Dashboard Mushroom entity](#dashboard-mushroom-entity)
+<!-- TOC -->
 
 ---
 
@@ -111,7 +123,7 @@ For this project, you only need the software to flash the ESP chip with the conf
 
 I've made a scheme how to connect the SenseAir S8 to the ESP.
 
-The ESP and sensor don't come with pins, so you need to solder a bit to connect the wires between the sensor and the ESP.
+The ESP and sensor don't come with pins, so you need to solder a bit to connect the male-to-male dupont cables between the sensor and the ESP.
 
 ### Connect the SenseAir S8 to the ESP
 
@@ -153,7 +165,7 @@ I drilled some holes in the case. Now the air can reach the Co2 sensor inside th
 
 Connect the ESP via USB with the computer.
 
-Install ESPHome and compile the configuration code after you configured your own wi-fi. And configure (or remove) the MQTT section.
+Install ESPHome and compile the configuration code after you configured your own wi-fi. And configure (or remove) the MQTT section. This is not needed if you integrate it direct in Home Assistant.
 
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
@@ -195,11 +207,11 @@ sensor:
 
 ## Home Assistant
 
-Ones the sensor pushes the data, you can use and present the data on your dashboards or create notifications when the status is not good.
+Ones the sensor pushes the data, you can use and present the data on your dashboards or create notifications when the values are not good.
 
 ### Dashboard Gauge
 
-In a gauge you can directly see if the current co2 value is correct.
+In a Gauge, you can directly see if the current co2 value is correct.
 I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction). 
 
 <img src="co2_images/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
@@ -220,7 +232,7 @@ name: Room Co2 sensor
 
 ### Dashboard Line Graphic
 
-To show the history of the last X hours you can use the card.
+To show the history of the last X hours, you can use the card.
 
 <img src="co2_images/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
 
@@ -303,9 +315,7 @@ This creates a new sensor that shows a textual presentation of the current condi
 {% endraw %}
 ```
 
-### Dashboard bad condition text
-
-In my dashboard, I have a section with important messages. Only when there is an action required you see that here.
+In my dashboard, I have a section with important messages. Only when there is an action required, you see that here.
 There is also a message when the Co2 value is not good. This section can be achieved by using conditional entities. 
 
 ```yaml
@@ -324,7 +334,6 @@ entities:
 ```
 
 ### Dashboard Mushroom entity
-
 
 <img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"> 
  Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.

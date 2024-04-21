@@ -121,5 +121,34 @@ A temperature sensor is a simple sensor that measures, next to the temperature a
 <img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
 
 ---
+# Power
 
-> **_NOTE:_** Links on this page are devices I also have. Most of the links are affiliate links so you support my blog also by buying it from here.
+## Adapters
+
+* 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_EQrXcuH) [link 2](https://s.click.aliexpress.com/e/_mqQDOme)
+
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+---
+
+## Cables
+
+### USB power cable
+
+* Micro USB cable to power the ESP [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
+
+![Micro USB cable](../esphome/images/micro_usb_cable.jpg "Micro USB cable")
+
+
+### USB A extension cable
+
+<a href="https://s.click.aliexpress.com/e/_mstQlFs" target="_blank">
+<img src="images/usb_a_extension_cable.webp" height="150px" alt="battery eliminator" /><br>
+USB A Extension Cable Male to Female</a>
+
+---
+
+> **_NOTE:_** Links on this page are devices I also use myself. Most of the links are affiliate links, so you support my blog also by buying it from here.
+
+---
+
+See [ESPHome DIY sensors buy tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.
