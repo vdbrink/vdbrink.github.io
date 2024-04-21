@@ -31,7 +31,7 @@ I want to share and inspire other people, so they can improve their own home aut
 ---
 My latest big updates on this blog:
 * [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
-* [Smart home best buy tips](buy/smart_home_best_buy_tips)
+* [Smart home best buy tips](buy/index)
 * [Home Assistant - Layout examples](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Home automation idea's](ideas/home_automation_ideas)
 * [Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal weekplanner and HA integrations)
@@ -41,13 +41,13 @@ My latest big updates on this blog:
 
 Topics you can find here:
 
-|                                                                                                                                                  |                                                                                       | 
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>              | [Home Assistant: <br>Home automation dashboards](homeassistant/index)                 |
-| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                              | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                   |
-| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                                    | [Node-RED: <br>graphical programming tool to create every automation](node-red/index) |
-| <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                            | [Docker: <br>Run applications](docker/index)                                          |
-| <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>                  | [Random projects](projects/index)                                                     |
-| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>                           | [Home automation idea's](ideas/home_automation_ideas)                                 |
-| <a href="buy/smart_home_best_buy_tips"><img src="buy/images/zigbee_contact_sensor_aqara.webp" alt="Smart home best buy tips" height="100px"></a> | [Smart home best buy tips](buy/smart_home_best_buy_tips)                              |
+|                                                                                                                                     |                                                                                       | 
+|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a> | [Home Assistant: <br>Home automation dashboards](homeassistant/index)                 |
+| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                 | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                   |
+| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                       | [Node-RED: <br>graphical programming tool to create every automation](node-red/index) |
+| <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                               | [Docker: <br>Run applications](docker/index)                                          |
+| <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>     | [Random projects](projects/index)                                                     |
+| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>              | [Home automation idea's](ideas/home_automation_ideas)                                 |
+| <a href="buy/index"><img src="buy/images/zigbee_contact_sensor_aqara.webp" alt="Smart home best buy tips" height="100px"></a>       | [Smart home best buy tips](buy/smart_home_best_buy_tips)                              |
  

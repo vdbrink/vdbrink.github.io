@@ -17,3 +17,5 @@ I wrote multiple articles about creating your own sensors and actuators based on
 * [Control an Orcon mechanic ventilation system](orcon_mechanic_ventilation)
 
 ![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg)
+
+See [ESPHome DIY sensors buy tips](../buy/esphome_diy) for all kinds or hardware buy tips to create your own sensors.
