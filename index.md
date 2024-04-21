@@ -28,6 +28,17 @@ I also get inspired by others with new ideas which I can use for my own setup.
 Here you can find examples and configurations which I created and gathered over the years.
 I want to share and inspire other people, so they can improve their own home automation projects.
 
+---
+My latest big updates on this blog:
+* [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
+* [Smart home best buy tips](buy/smart_home_best_buy_tips)
+* [Home Assistant - Layout examples](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
+* [Home automation idea's](ideas/home_automation_ideas)
+* [Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal weekplanner and HA integrations)
+* [Home Assistant - Chores](homeassistant_dashboard_chores) (Manage your weekly chores)
+* [Packages mailbox - Allux 600](projects/packages-mailbox-allux-600)
+---
+
 Topics you can find here:
 
 |                                                                                                                                                  |                                                                                       | 

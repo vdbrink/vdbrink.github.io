@@ -81,7 +81,7 @@ In my example I only show them, with a condition, when they are relative.
 
 #### Co2 colored icon indicator based on a number
 
-<img src="images_mushroom/mushroom_co2.png" alt="mushroom chips" width="50px" style="float:left">
+<img src="images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px">
  Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
 
 ```yaml
@@ -94,7 +94,9 @@ In my example I only show them, with a condition, when they are relative.
       type: template
       icon: mdi:molecule-co2
       icon_color: |-
-        {% if states('sensor.senseair_co2_value')|int > 1500 %}
+        {% if is_state('sensor.senseair_co2_value', 'unavailable') %}
+           blue
+        {% elif states('sensor.senseair_co2_value')|int > 1500 %}
            red
         {% elif states('sensor.senseair_co2_value')|int > 1200 %}
            orange
