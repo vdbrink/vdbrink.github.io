@@ -1,8 +1,10 @@
 ---
 title: "Smart home best buy tips"
 category: Buy tips
-tags: Best, Buy, tips, aliexpress, banggood, batteries, sensors, Aqara, Tuya, zigbee
+tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, zigbee
 ---
+{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/>{% endcapture %}
+
 # Zigbee Smart home best buy tips
 
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
@@ -19,19 +21,19 @@ I order 90% of my home automation on these two sites for years already. You pay 
 ---
 ## Why I chose Zigbee
 
-On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, Wifi, Bluetooth, Zwave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
+On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, Wifi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
 
 <img src="images/zigbee.jpg" alt="zigbee" height="60px" style="margin-left:15px;float:right"/>
 
 This is why I choose for Zigbee:
-* There is a wide range of sensor- and actuator types available;
+* There is a wide range of sensor and actuator types available;
 * Every zigbee device, independent of manufacturer, it works in your network;
 * The prices are low;
 * It works locally, no internet is required;
 * You can even link buttons direct to (a group) lamps without the need of a hub;
 * Not dependent on the manufacture app, cloud or other software. When a manufacture gets bankrupt, you still can use your devices.
 * It works as a mesh network, you can reach devices far away from the coordinator as long as there are enough active hops in between;
-* The standard is an open protocol, you don't pay for a license fees (for Zwave you do) to use it;
+* The standard is an open protocol, you don't pay for a license fees (for Z-Wave you do) to use it;
 * No compatibility issues with hardware with older or newer Zigbee versions;
 * Active development on the software Zigbee2MQTT with every release a bulk of new supported Zigbee devices;
 
@@ -44,12 +46,12 @@ A reason why not to choose for Zigbee? I don't know :)
 <a href="https://slae.sh/projects/cc2652/" target="_blank">
 <img src="images/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" height="150px" style="margin-left:15px;float:right"/></a>
 
-Since 2020, I run non-stop my Zigbee network with the <img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;"/><a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issue, it's a very reliable stick.
+Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issue, it's a very reliable stick.
 My network grew to 120+ devices today, and it still runs fast.
 
 To avoid interference with Bluetooth or wifi also running on your server, 
 it's better to move the stick away from the server. This is recommended for every stick. 
-You can use a <img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;"/><a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (Aliexpress)</a> for it.
+You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (Aliexpress)</a> for it.
 
 ---
 
@@ -68,9 +70,9 @@ The sensor can also be used attached to other sensors that also return an open o
 <a href="https://www.banggood.com/WKD-DS010-Smart-Home-Zigbe-Door-Window-Sensor-Smart-Contact-Sensor-APP-Notifications-Voice-Alarm-Work-with-HA-Hubitat-Alexa-Echo-p-2009987.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958594" target="blank">
 <img src="images/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
-<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">Zigbee Contact sensor - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">Zigbee Contact sensor - Aqara (Aliexpress)</a>
 
-<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://www.banggood.com/WKD-DS010-Smart-Home-Zigbe-Door-Window-Sensor-Smart-Contact-Sensor-APP-Notifications-Voice-Alarm-Work-with-HA-Hubitat-Alexa-Echo-p-2009987.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958594" target="blank">Zigbee Contact sensor (Banggood)</a>
+{{imgBasket}}<a href="https://www.banggood.com/WKD-DS010-Smart-Home-Zigbe-Door-Window-Sensor-Smart-Contact-Sensor-APP-Notifications-Voice-Alarm-Work-with-HA-Hubitat-Alexa-Echo-p-2009987.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958594" target="blank">Zigbee Contact sensor (Banggood)</a>
 
 ---
 
@@ -81,17 +83,17 @@ The sensor can also be used attached to other sensors that also return an open o
 
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals. 
 
-I like the Aqara motion sensor myself a lot. It's fast, reliable and the new ones has also a lux sensor in it. With the stand you can point it to a specific direction so it doesn't 'see' the whole room.
-If I want to cover a whole room I use a different type PIR sensor which you can stick in the center of the ceiling and looks around in all directions.
+I like the Aqara motion sensor myself a lot. It's fast, reliable, and the new ones have also a lux sensor in it. With the stand you can point it in a specific direction, so it doesn't 'see' the whole room.
+If I want to cover a whole room, I use a different type PIR sensor which you can stick in the center of the ceiling and look around in all directions.
 
 
 <a href="https://www.banggood.com/Aqara-Motion-Sensor-Smart-Human-Body-Sensor-Body-Movement-ZigBe-Wireless-Connection-Smart-Home-for-Xiaomi-Mijia-Mi-home-p-2004884.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958768">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" style="margin-left:15px;float:left"/></a> &nbsp;
 <a href="https://www.banggood.com/Tuya-Zigbe-Human-Motion-Sensor-Smart-Home-Mini-PIR-Motion-Sensor-Infrared-Detector-Security-Smart-Life-Work-with-Alexa-Google-Assistant-Hubitat-Hub-p-2009988.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958596"><img src="images/zigbee_motion_all_directions.webp" height="100px"></a>
 
-<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://www.banggood.com/Aqara-Motion-Sensor-Smart-Human-Body-Sensor-Body-Movement-ZigBe-Wireless-Connection-Smart-Home-for-Xiaomi-Mijia-Mi-home-p-2004884.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958768">Zigbee motion sensor beam, with stand and build-in lux sensor -  Aqara (Banggood)</a>
+{{imgBasket}}<a href="https://www.banggood.com/Aqara-Motion-Sensor-Smart-Human-Body-Sensor-Body-Movement-ZigBe-Wireless-Connection-Smart-Home-for-Xiaomi-Mijia-Mi-home-p-2004884.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958768">Zigbee motion sensor beam, with stand and build-in lux sensor -  Aqara (Banggood)</a>
 
-<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://www.banggood.com/Tuya-Zigbe-Human-Motion-Sensor-Smart-Home-Mini-PIR-Motion-Sensor-Infrared-Detector-Security-Smart-Life-Work-with-Alexa-Google-Assistant-Hubitat-Hub-p-2009988.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958596">Zigbee motion sensor all directions - Tuya (Banggood)</a>
+{{imgBasket}}<a href="https://www.banggood.com/Tuya-Zigbe-Human-Motion-Sensor-Smart-Home-Mini-PIR-Motion-Sensor-Infrared-Detector-Security-Smart-Life-Work-with-Alexa-Google-Assistant-Hubitat-Hub-p-2009988.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958596">Zigbee motion sensor all directions - Tuya (Banggood)</a>
 
 ---
 
@@ -108,7 +110,7 @@ A smart plug with power consumption metrics can be useful to detect the state of
 I use the Zigbee BlitzWolf SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues. 
 If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
 
-<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741">Zigbee smart power socket with power measurement - BlitzWolf SHP-13 (Banggood)</a>
+{{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741">Zigbee smart power socket with power measurement - BlitzWolf SHP-13 (Banggood)</a>
 
 ---
 
@@ -118,16 +120,83 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 
 A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. this sensor is useful to make automations like take action if someone is in the shower. Or in the summer when it becomes outside colder than inside.
 
-<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:2px;float:left"/><a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
+{{imgBasket}}<a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
 
 ---
-# Power
 
-## Adapters
+## Lights
 
-* 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_EQrXcuH) [link 2](https://s.click.aliexpress.com/e/_mqQDOme)
+### LED strip
 
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+<img src="../projects/images_bin_day/zigbee_rgb_led_strip.webp" alt="LED strip" height="150px" style="margin-left:15px;float:right"/>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blanc">Zigbee RGB 5m LED strip</a>
+it's available in different versions:
+    * Indoor no waterproof (IP20) / Outdoor waterproof (IP65)
+    * 5 / 10 meter
+    * RGB White or RGB Warm White
+
+---
+## Batteries
+
+The advantage of a lot of Zigbee sensors is that they work completely wireless. 
+You can place them everywhere without the need to wire them.
+Most of the devices run for years on a single battery, but now and then you need to replace them.
+Before you start using a new sensor, first check what kind of battery it uses and already order some of them.
+When it gets out of fuel, you can directly replace it with a new battery.
+
+These are common types of batteries used by the above-mentioned sensors:
+
+### AAA sized
+The advantage of these is that they are everywhere available to buy, also in your local supermarket.
+Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
+The downside is that these make the sensor also quite big.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFTjSkm" target="_blank">link 1: rechargeable</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">link 2: non rechargeable</a>
+
+### CR2032
+
+<img src="images/cr2032.webp" alt="CR2032" height="50px" style="margin-left:15px;float:right"/>
+
+This is the most commonly used battery. It's small but still has enough power to run sensors for a year.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mNV6Pge" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJIdGI" target="_blank">link 2</a>
+
+### CR1632
+
+<img src="images/cr1632.webp" alt="CR1632" height="50px" style="margin-left:15px;float:right"/>
+
+This battery is a bit smaller than the CR2032.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">link 2</a>
+
+### CR2450
+
+<img src="images/cr2450.webp" alt="CR2450" height="50px" style="margin-left:15px;float:right"/>
+
+This battery is a bit thicker than the other ones.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">link 2</a>
+
+### Battery eliminators
+
+<img src="../projects/images_christmas_lights/battery_eliminator.webp" height="150px" alt="battery eliminator" />
+
+Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
+This saves you from buying new batteries. The big advantage is also that you now can control them with your home automations by adding a smart plugin between the plug and the wall outlet. Now you also don't have to worry that you forgot them to put them off again.
+There are different variants of them. Replacements for AA or AAA batteries and with a plug or USB connector. The advantage of a USB connector is that you can plug multiple to an active powered USB-hub to control multiple ones.
+
+I use these a lot for all kinds of Christmas decorations.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">AA battery replacement with USB</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBi7yye" target="_blank">AAA battery replacement with USB</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opJpPLu" target="_blank">AAA battery replacement with power socket EU</a> 
+
 ---
 
 ## Cables
@@ -138,12 +207,23 @@ A temperature sensor is a simple sensor that measures, next to the temperature a
 
 ![Micro USB cable](../esphome/images/micro_usb_cable.jpg "Micro USB cable")
 
-
 ### USB A extension cable
 
-<a href="https://s.click.aliexpress.com/e/_mstQlFs" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstQlFs" target="_blank">
 <img src="images/usb_a_extension_cable.webp" height="150px" alt="battery eliminator" /><br>
 USB A Extension Cable Male to Female</a>
+
+---
+
+# Power
+
+## Adapters
+
+* 5V USB power adapter to power the ESP
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mqQDOme" target="_blank">link 2</a>
+
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
 ---
 
