@@ -29,8 +29,6 @@ The git repository is https://github.com/piitaya/lovelace-mushroom
       * [Outside temperature (custom icon)](#outside-temperature-custom-icon)
       * [Person status](#person-status)
       * [Door open (custom picture)](#door-open-custom-picture)
-      * [Today's gas consumption](#todays-gas-consumption)
-      * [Today's power consumption](#todays-power-consumption)
   * [More examples](#more-examples)
 <!-- TOC -->
 
@@ -228,48 +226,6 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
         picture: https://img.icons8.com/plasticine/344/door-opened.png
         content: Open
 {% endraw %}
-```
----
-
-#### Today's gas consumption
-
-<img src="images_mushroom/mushroom_gas_consumption.png" alt="mushroom gas consumption" width="80px" style="float:left">Show today's gas consumption.
-<br/><br/>
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-- chip: null
-  type: template
-  entity: sensor.dsmr_day_consumption_gas
-  content: "{{ (states ('sensor.dsmr_day_consumption_gas') | float * 10) | round(1) }}"
-  icon: mdi:fire
-  tap_action:
-  action: navigate
-  navigation_path: /energy
-{% endraw %}
-```
----
-
-#### Today's power consumption
-
-<img src="images_mushroom/mushroom_power_consumption.png" alt="mushroom power consumption" width="80px" style="float:left">Show today's power consumption.
-<br/><br/>
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-- chip: null
-  type: template
-  entity: sensor.dsmr_day_consumption_electricity_merged
-  content: '{{ states (''sensor.dsmr_day_consumption_electricity_merged'') | round(1) }}'
-  icon: mdi:power-plug
-  tap_action:
-  action: navigate
-  navigation_path: /energy
-  {% endraw %}
 ```
 ---
 

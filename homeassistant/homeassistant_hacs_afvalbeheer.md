@@ -11,7 +11,7 @@ tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
-Afvalbeheer is a Dutch and Belgium integration for a multiple company who pickup trash. This integration adds sensors to HA to show when specific "kliko" (or for people in the east of NL call it "otto") get picked up.  
+Afvalbeheer is a Dutch and Belgium integration which works for many waste collectors. This integration adds sensors to HA to show when a specific bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.  
 
 Check the git repository to find all the options and if you can use it in your city. https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
 
@@ -22,18 +22,19 @@ Check the git repository to find all the options and if you can use it in your c
   * [Installation](#installation)
     * [Afvalbeheer integration](#afvalbeheer-integration)
     * [Auto-entities integration](#auto-entities-integration)
-  * [Default presentation](#default-presentation)
-  * [Sort by date](#sort-by-date)
-    * [As row - order by date](#as-row---order-by-date)
-    * [As list](#as-list)
-    * [As list - days countdown](#as-list---days-countdown)
-    * [As 2x2 raster](#as-2x2-raster)
-  * [Custom helper entities: days countdown](#custom-helper-entities-days-countdown)
-  * [Sorted by new countdown entities](#sorted-by-new-countdown-entities)
-    * [As row](#as-row)
-    * [As list](#as-list-1)
-  * [Show conditional, only for the next 5 days](#show-conditional-only-for-the-next-5-days)
-  * [Mushroom element](#mushroom-element)
+  * [HA presentations](#ha-presentations)
+    * [Default presentation](#default-presentation)
+    * [Sort by date](#sort-by-date)
+      * [As row - order by date](#as-row---order-by-date)
+      * [As list](#as-list)
+      * [As list - days countdown](#as-list---days-countdown)
+      * [As 2x2 raster](#as-2x2-raster)
+    * [Custom helper entities: days countdown](#custom-helper-entities-days-countdown)
+    * [Sorted by new countdown entities](#sorted-by-new-countdown-entities)
+      * [As row](#as-row)
+      * [As list](#as-list-1)
+    * [Show conditional, only for the next 5 days](#show-conditional-only-for-the-next-5-days)
+    * [Mushroom element](#mushroom-element)
   * [LED strip indicator](#led-strip-indicator)
 <!-- TOC -->
 
@@ -41,9 +42,11 @@ Check the git repository to find all the options and if you can use it in your c
 
 ## Intro
 
-I want to show the upcoming waste collecting not with a date as state but a days countdown.
+I want to show the upcoming waste collecting not with a date as state but with a number of days countdown.
 Also, a presentation that shows only the ones that are relevant for the upcoming few days.
 This is not by default available, but I've made it the way I wanted it. 
+
+I also add some extra examples here.
 
 Here you can read how I did this, enjoy!
 
@@ -85,7 +88,9 @@ afvalbeheer:
 To show the (countdown) entities by wildcard and sort them by date, you also need the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
 
 ---
-## Default presentation
+## HA presentations
+
+### Default presentation
 
 When the installation is complete, you get at least 4 entities which you can add to your dashboard.
 
@@ -113,13 +118,13 @@ show_header_toggle: false
 ```
 
 ---
-## Sort by date
+### Sort by date
 
 Each entity comes with extra data which we can use to sort by date for example.
 It has an attribute called `Days_until` which contains the numeric days to bin day. 
 We can use it for sorting on date in combination by using the custom HACS card `auto-entities`.
 
-### As row - order by date
+#### As row - order by date
 
 An example to show the entities sorted by date in a row.
 In this example `dateonly: 0` which also add the day. But when you set `dateonly: 1` you only see the date as state underneath the icon.
@@ -149,7 +154,7 @@ sort:
 {% endraw %}
 ```
 
-### As list
+#### As list
 
 Show the default entities as a list, without a header, ordered by date.
 
@@ -173,7 +178,7 @@ sort:
 {% endraw %}
 ```
 
-### As list - days countdown
+#### As list - days countdown
 
 Show the default entities as a list, ordered by date and show the days until bin day.
 
@@ -202,7 +207,7 @@ sort:
 {% endraw %}
 ```
 
-### As 2x2 raster
+#### As 2x2 raster
 
 Show the default entities in a 2x2 raster, ordered by date.
 
@@ -229,11 +234,12 @@ sort:
 ```
 
 ---
-## Custom helper entities: days countdown
+### Custom helper entities: days countdown
 
-I wanted my presentation like this.\
-Only with the numbers of days instead of the full date as the state value.\
-Also, a more subtle icon which match the rest of the icons on my dashboard.
+I wanted my presentation like this:
+* Only with the numbers of days instead of the full date as the state value.
+* A more subtle icon which match the rest of the icons on my dashboard.
+* Ordered by days left
 
 <img src="images_afvalbeheer/days_countdown.png" alt="countdown" width="400px">
 
@@ -288,9 +294,9 @@ sensor:
 ```
 
 ---
-## Sorted by new countdown entities
+### Sorted by new countdown entities
 
-### As row
+#### As row
 
 Show the new countdown entities, with the countdown days, all with the same icon, ordered by date in a row.
 
@@ -314,7 +320,7 @@ sort:
 {% endraw %}
 ```
 
-### As list
+#### As list
 
 The countdown entities sorted by days in a list.
 
@@ -342,7 +348,7 @@ sort:
 ```
 
 ---
-## Show conditional, only for the next 5 days
+### Show conditional, only for the next 5 days
 
 Show only the waste pickup for the upcoming 5 days.\
 In this case there is only one pickup in the next 5 days otherwise more entities will be visible.
@@ -365,7 +371,7 @@ filter:
 ```
 
 ---
-## Mushroom element
+### Mushroom element
 
 On top of my dashboard I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.
 I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. These are all the possible visible icon options (only one is visible at the same time).
@@ -406,8 +412,21 @@ chips:
 ```
 
 ---
+### Notification reminders
+
+```yaml
+{% raw %}
+ 
+{% endraw %}
+```
+
+
+---
 ## LED strip indicator
 
+I created a [separated page](../projects/bin_day_led_strip_reminder.md) how I setup a LED strip under my dressoir to light up the evening before bin day.
+
+<img src="../projects/images_bin_day/bin_day_ledstrip.png" alt="bin day LED strip" width="200px">
 
 ---
 [^^ Top](#table-of-contents)
