@@ -67,8 +67,8 @@ Criteria for my own automations are:
 ## Devices and locations to be automated
 
 ### Mailbox
-* Notification when mail is delivered. (contact sensor with a separate magnet on the flap)
-* Notification if mail is sticking out. (if the contact sensor is broken and not closed again after 1 minute)
+* Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
+* Notification if mail is sticking out. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is broken and not closed again after 1 minute)
 * Send a picture of the mailbox after something is delivered.
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/>
@@ -76,22 +76,22 @@ Criteria for my own automations are:
 ---
 
 ### Washing machine / dryer
-* Notification when the washing machine/dryer is finished. (based on smart plug with energy meter)
-* Measure how long the machine is running. (based on smart plug with energy meter)
-* Measure what the costs are. (based on smart plug with energy meter)
-* Notification when the machine is not emptied yet after X time. (contact sensor on the door)
+* Notification when the washing machine/dryer is finished. (based on [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
+* Measure how long the machine is running. (based on [smart plug](../buy/smart_home_best_buy_tips#smart-socket)  with energy meter)
+* Measure what the costs are. (based on [smart plug](../buy/smart_home_best_buy_tips#smart-socket)  with energy meter)
+* Notification when the machine is not emptied yet after X time. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the door)
 <br>
 <img src="images/washing_machine_grafana.png" alt="energy consumption" height="350px"/>
 
 ---
 
 ### Living room
-* Close the curtains in the evening. (smart curtains, lux sensor)
-* Open the curtains in the morning. (smart curtains, lux sensor)
+* Close the curtains in the evening. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor))
+* Open the curtains in the morning. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor))
 
 #### lights
-* Lights fading in and out, according to twilight. (smart lights + lux sensor to detect brightness from inside and outside)
-* Lights automatically turning off at bedtime. (smart lights + switch button near the bed)
+* Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) to detect brightness from inside and outside)
+* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + switch button near the bed)
 * Lights are automatically turned off when no one is in the living anymore.
 * Dimming lights after a few minutes when the movie player is on. Brightness increases again when someone is detected in the kitchen.
  <br><img src="images/motion_sensor.png" alt="motion sensor" height="150px" />
@@ -99,8 +99,8 @@ Criteria for my own automations are:
 ---
 
 ### Christmas lights
-* Connecting battery-operated Christmas decorations to the power outlet. (equipped with battery eliminators and multiple connected to an active USB hub, powered by a smart plug for automation)
-* Christmas tree lights. (replace the default power switch with always on mode switch and add a smart plug)
+* Connecting battery-operated Christmas decorations to the power outlet. (equipped with battery eliminators and multiple connected to an active USB hub, powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
+* Christmas tree lights. (replace the default power switch with always on mode switch and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
 <br/><br/>
 <img src="images/christmas_battery.jpg" alt="Christmas decoration lights battery powered" height="350px" />
 
@@ -118,61 +118,61 @@ Criteria for my own automations are:
 ---
 
 ### Laundry room
-* Lights on/off when entering/leaving. (door contact + smart light)
-* Dehumidifier on based on humidity. (humidity sensor + dehumidifier also turned on with a smart plug)
+* Lights on/off when entering/leaving. ([door contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + [smart light](../buy/smart_home_best_buy_tips#lights))
+* Dehumidifier on based on humidity. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + dehumidifier also turned on with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
 * Notification if the water tank of the dehumidifier is full. (leakage sensor in the dehumidifier)
 
 ---
 
 ### (Bed)rooms
-* Light on when entering (and no one is already in bed). (door contact + smart light)
-* LED strip just a few percentage on when going out of bed during the night.
-* Dehumidifier on in the evening if the humidity is too high. (humidity sensor + dehumidifier also turned on with smart plug)
-* Notification if windows can be opened in summer when it's cooler outside than inside. (indoor + outdoor temperature sensor)
+* Light on when entering (and no one is already in bed). ([door contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + [smart light](../buy/smart_home_best_buy_tips#lights))
+* LED strip just a few percentage on when going out of bed during the night. ([LED strip](../buy/smart_home_best_buy_tips#led-strip))
+* Dehumidifier on in the evening if the humidity is too high. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + dehumidifier also turned on with [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
+* Notification if windows can be opened in summer when it's cooler outside than inside. (indoor + outdoor [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 * Notification to open a window if the CO2 level is too high [ESP CO2 sensor](../esphome/co2_senseair_s8_sensor)
-* Notification to open a window if the humidity is inside too high compared to the value outside. (contact sensor on the window)
-* Notification to close a window if heavy rain is expected within 10 minutes. (API weather forecast + contact sensor on the window)
+* Notification to open a window if the humidity is inside too high compared to the value outside. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the window)
+* Notification to close a window if heavy rain is expected within 10 minutes. (API weather forecast + [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the window)
 
 ---
 
 ### Bathroom
-* Notification when someone takes a shower. (humidity sensor or water usage measuring)
-* Detect if someone is in the bathroom. (presence detection with mmWave sensor)
+* Notification when someone takes a shower. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) or water usage measuring)
+* Detect if someone is in the bathroom. ([presence detection with mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor))
 * Water consumption. (Water meter reader)
-* Change light color when someone is too long in the shower. (Water consumption, presence, LED strip)
+* Change light color when someone is too long in the shower. (Water consumption, [presence](../buy/smart_home_best_buy_tips#presence-detection-sensor), [LED strip](../buy/smart_home_best_buy_tips#led-strip))
 
 ---
 
 ### Kitchen
 
 #### Lights
-* Lights on, based on presence + light. (motion sensor with lux + normal LED strip with smart plug or smart LED strip)
+* Lights on, based on presence + light. (motion sensor with lux + normal LED strip with [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
  <br>
  <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
 
 #### Dishwasher
-* Notification when the dishwasher is finished. (based on smart plug with energy meter)
-* Notification when dishwasher is not emptied yet after X time. (contact sensor on the door)
+* Notification when the dishwasher is finished. (based on [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
+* Notification when dishwasher is not emptied yet after X time. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the door)
   <br>
   <img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/>
 
 #### Oven
-* Notification when the oven reaches his preset temperature. (based on smart plug with energy meter. The power consumption drops when he reaches his temperature)
+* Notification when the oven reaches his preset temperature. (based on [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter. The power consumption drops when he reaches his temperature)
   <br>
   <img src="images/notification.jpg" alt="notification" height="100px"/>
 
 #### Refrigerator
-* Detect if the door is opened too long. (temperature sensor inside or door contact sensor)
+* Detect if the door is opened too long. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside or door [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
 
 #### Stove
-* Detect if someone is cooking. (temperature sensor)
-* Extraction fan on based on temperature/humidity. (temperature sensor in the extractor hood)
+* Detect if someone is cooking. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
+* Extraction fan on based on temperature/humidity. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) in the extractor hood)
 <br>
 <img src="../esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
 
 
 #### Sink
-* Leak detector under the sink. (leak detector or modified contact sensor)
+* Leak detector under the sink. (leak detector or modified [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
 <br>
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
@@ -183,13 +183,13 @@ Criteria for my own automations are:
 
 ### Home office
 * Computer screen + lights + phone charger on when you sit in the office chair. (car seat pressure sensor in the chair)
-* Computer screen + lights + phone charger on when you enter the office. (contact sensor at the door)
-* Office lights only on when it's dark and someone is in the room. (smart lights, lux sensor, mmWave sensor to detect a person who sits still)
-* Extra heater on, based on temperature and presence. (temperature sensor + chair occupancy)
-* On air light so people at home know you're in a call. (calendar integration + smart light)
-* Notification to open a window if the inside temperature is too high compared to the outside temperature. (temperature sensor)
+* Computer screen + lights + phone charger on when you enter the office. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the door)
+* Office lights only on when it's dark and someone is in the room. (smart lights, [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), mmWave sensor to detect a person who sits still)
+* Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + chair occupancy)
+* On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/smart_home_best_buy_tips#lights))
+* Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 * Notification to open a window if the Co2 value is too high. (Co2 sensor)
-* Airco on when it's too hot in- and outside. (smart plug + temperature sensor)
+* Airco on when it's too hot in- and outside. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 
 ---
 
@@ -199,14 +199,14 @@ Criteria for my own automations are:
 ---
 
 ### Drawer
-* Notify when the drawer is opened. (Attach a contact sensor behind the drawer to the closet and the magnet to the drawer itself, so when you open it, the contact gets broken and a signal is triggered)
-* Notify when drawer is not yet opened today at a specific time. For example, if you have medicines in a drawer, you need to take every day.
+* Notify when the drawer is opened. (Attach a [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) behind the drawer to the closet and the magnet to the drawer itself, so when you open it, the contact gets broken and a signal is triggered)
+* Notify when drawer is not yet opened today at a specific time. For example, if you have medicines in a drawer, you need to take every day. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
 
 ---
 
 ### Aquarium
-* Automatic turn the lights on and off. (smart plug)
-* Turn the lights on when they got fed. (contact sensor at the lid of the aquarium).
+* Automatic turn the lights on and off. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket))
+* Turn the lights on when they got fed. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the lid of the aquarium).
 * Automatic feeder.
 * Water quality check PH-level.
 * Temperature warning if water is too hot/cold. (ESP with waterproof temperature sensor)
@@ -216,12 +216,12 @@ Criteria for my own automations are:
 ---
 
 ### Outside
-* Notification when it's nice weather to sit outside. (based on temperature, humidity, lux, sun strength from a weather station)
-* Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window contact sensor + API weather forecast/weather station)
+* Notification when it's nice weather to sit outside. (based on temperature, [humidity](../buy/smart_home_best_buy_tips#temperature-sensor), [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), sun strength from a weather station)
+* Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + API weather forecast/weather station)
 * Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Close the sunscreen if it's too windy. (outdoor temperature and wind speed from a weather station)
-* Notification when the gate is opened. (contact sensor)
-* Turn the lights on when going outside in the evening/night. (lux sensor, smart lights)
+* Notification when the gate is opened. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
+* Turn the lights on when going outside in the evening/night. ([lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
 * Put out the sunscreen when it heats the home too much.
 * Close the curtains when it heats the home too much.
 * Close the curtains when it cools the home too much.
@@ -241,7 +241,7 @@ Criteria for my own automations are:
 
 #### Putting out the bin
 * Notification when paper/green/plastic/residual waste bin needs to be put on the street to be emptied tomorrow. (waste calendar integration)
-* [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration)
+* [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration + [LED strip](../buy/smart_home_best_buy_tips#led-strip))
 
 ---
 

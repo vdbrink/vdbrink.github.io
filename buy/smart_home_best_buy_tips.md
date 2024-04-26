@@ -140,28 +140,32 @@ A temperature sensor is a simple sensor that measures, next to the temperature a
 ## Lights
 
 ### Bulb
-<a href="" target="_blank">
-<img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
 
+<a href="" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
 
+You can replace a normal E27 bulb with Zigbee variant.
+With a colored version you can use it to inform yourself with a color for different states.
 
-{{imgBasket}}<a href="" target="_blank">Zigbee light bulb white</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">Zigbee light bulb dimmable colored</a>
 
-{{imgBasket}}<a href="" target="_blank">Zigbee light bulb colored</a>
+&nbsp;
+<br>
 
+---
 
 ### LED strip
 
 <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">
 <img src="../projects/images_bin_day/zigbee_rgb_led_strip.webp" alt="LED strip" height="150px" style="margin-left:15px;float:right"/></a>
 
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip</a>
-
-It's available in different versions:
+This LED strip is available in different versions:
 * Indoor no waterproof (IP20) / Outdoor waterproof (IP65)
 * 5 / 10 meter
 * RGB White or RGB Warm White
+
+<br>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip</a>
 
 ---
 ## Batteries
@@ -175,6 +179,9 @@ When it gets out of fuel, you can directly replace it with a new battery.
 These are common types of batteries used by the above-mentioned sensors:
 
 ### AAA sized
+
+<img src="images/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/>
+
 The advantage of these is that they are everywhere available to buy, also in your local supermarket.
 Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
 The downside is that these make the sensor also quite big.
@@ -187,7 +194,7 @@ The downside is that these make the sensor also quite big.
 
 <img src="images/cr2032.webp" alt="CR2032" height="50px" style="margin-left:15px;float:right"/>
 
-This is the most commonly used battery. It's small but still has enough power to run sensors for a year.
+This CR2032 is the most commonly used battery. It's small but still has enough power to run sensors for a year.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mNV6Pge" target="_blank">link 1</a>
 
@@ -197,7 +204,7 @@ This is the most commonly used battery. It's small but still has enough power to
 
 <img src="images/cr1632.webp" alt="CR1632" height="50px" style="margin-left:15px;float:right"/>
 
-This battery is a bit smaller than the CR2032.
+This CR1632 battery is a bit smaller than the CR2032.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">link 1</a>
 
@@ -207,7 +214,7 @@ This battery is a bit smaller than the CR2032.
 
 <img src="images/cr2450.webp" alt="CR2450" height="50px" style="margin-left:15px;float:right"/>
 
-This battery is a bit thicker than the other ones.
+This CR2450 battery is a bit thicker than the other ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">link 1</a>
 
@@ -215,7 +222,7 @@ This battery is a bit thicker than the other ones.
 
 ### Battery eliminators
 
-<img src="../projects/images_christmas_lights/battery_eliminator.webp" height="150px" alt="battery eliminator" />
+<img src="../projects/images_christmas_lights/battery_eliminator.webp" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" />
 
 Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
 This saves you from buying new batteries. The big advantage is also that you now can control them with your home automations by adding a smart plugin between the plug and the wall outlet. Now you also don't have to worry that you forgot them to put them off again.
