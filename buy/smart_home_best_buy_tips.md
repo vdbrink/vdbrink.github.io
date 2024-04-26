@@ -79,7 +79,7 @@ The sensor can also be used attached to other sensors that also return an open o
 ## Motion sensor
 
 <a href="https://www.banggood.com/Aqara-Motion-Sensor-Smart-Human-Body-Sensor-Body-Movement-ZigBe-Wireless-Connection-Smart-Home-for-Xiaomi-Mijia-Mi-home-p-2004884.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958768" target="blank">
-<img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals. 
 
@@ -94,6 +94,18 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 {{imgBasket}}<a href="https://www.banggood.com/Aqara-Motion-Sensor-Smart-Human-Body-Sensor-Body-Movement-ZigBe-Wireless-Connection-Smart-Home-for-Xiaomi-Mijia-Mi-home-p-2004884.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958768" target="_blank">Zigbee motion sensor beam, with stand and build-in lux sensor -  Aqara (Banggood)</a>
 
 {{imgBasket}}<a href="https://www.banggood.com/Tuya-Zigbe-Human-Motion-Sensor-Smart-Home-Mini-PIR-Motion-Sensor-Infrared-Detector-Security-Smart-Life-Work-with-Alexa-Google-Assistant-Hubitat-Hub-p-2009988.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958596" target="_blank">Zigbee motion sensor all directions - Tuya (Banggood)</a>
+
+---
+## Presence detection sensor
+
+<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="blank">
+<img src="images/mmwave_motion_sensor.jpg" alt="mmwave Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+A millimeter wave presence sensor has no need to direct sight. You can hide it in a closet.
+It uses 24 GHz to send it signal to detect people in a room.
+It can also detect persons when they don't move, like they sit on a couch. Ideal for the living room or home office.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee mmWave Presence detection sensor (Aliexpress)</a>
 
 ---
 
@@ -251,7 +263,7 @@ USB-A to USB-C cable to power the ESP.
 
 ## Adapters
 
-5V USB power adapter to power the ESP.
+5V USB power adapter to power your USB devices.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">link 1</a>
 

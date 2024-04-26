@@ -101,27 +101,59 @@ HLK-2410C 24GHz Motion sensor / mmWave
 
 ## Cables
 
-### USB power cable
+### Micro USB power cable
 
-Micro USB cable to power the ESP
+USB-A to micro USB cable to power the ESP.
 
-![Micro USB cable](../esphome/images/micro_usb_cable.jpg "Micro USB cable")
+<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
+<img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
+{{imgBasket}}Micro USB cable</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">link 1 (Aliexpress)</a>
+### USB-C power cable
+
+USB-A to USB-C cable to power the ESP.
+
+<a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
+<img src="images/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
+{{imgBasket}}USB-C cable</a>
+
+---
+
+# Power
+
+## Adapters
+
+### 5V USB adapter
+
+5V USB power adapter to power the ESP.
+
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">link 1</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mqQDOme" target="_blank">link 2</a>
+
+### Christmas light adapter
+
+A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
+
+<img src="images/christmas_light_adapter.webp" alt="" width="200px"/>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
 
 ---
 
 ### Dupont
 
-Dupont male to male wires 
+Dupont male to male wires
+
+<img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (Aliexpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">link 2 (Aliexpress)</a>
 
-  * If you order these, you can better order all three types at ones, also for any further projects.
-
-<img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
+* If you order these, you can better order all three types at ones, also for any further projects.
 
 ---
 ## Boxes
