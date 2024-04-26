@@ -3,6 +3,8 @@ title: ESPHome sensors and actuators
 categories: ESPHome
 tags: ESP, ESP8266, ESP32, nodeMCU, ESPHome, sensors, actuators
 ---
+{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+
 # ESPHome custom sensors and actuators
 
 ![ESPHome logo](images/esphome.png)
@@ -18,4 +20,4 @@ I wrote multiple articles about creating your own sensors and actuators based on
 
 ![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg)
 
-See [ESPHome DIY sensors buy tips](../buy/esphome_diy) for all kinds or hardware buy tips to create your own sensors.
+See {{imgBasket}}[ESPHome DIY sensors - best buy tips](../buy/esphome_diy) for all kinds or hardware buy tips to create your own sensors.

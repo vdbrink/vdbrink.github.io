@@ -4,8 +4,9 @@ date: 2022-06-24
 category: ESPHome
 tags: Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome
 ---
-# Control an Orcon mechanic ventilation system from Home Assistant
+{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
+# Control an Orcon mechanic ventilation system from Home Assistant
 
 *Based on an original Orcon remote*
 
@@ -98,13 +99,16 @@ These hardware components do I use for this project:
 
 ![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
 
-* (optional) Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-15 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741)
+* (optional) Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-13 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741)
 
-![BlitzWolf SHP-15](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-15")
+![BlitzWolf SHP-13](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-13")
 
 Also affiliate links are used here.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
+
+
+See [ESPHome DIY sensors best buy tips](../buy/esphome_diy) for more DIY hardware buy tips.
 
 ---
 

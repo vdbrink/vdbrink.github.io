@@ -31,7 +31,8 @@ I want to share and inspire other people, so they can improve their own home aut
 ---
 My latest big updates on this blog:
 * [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
-* [Smart home best buy tips](buy/index)
+* [ESPHome DIY sensors - best buy tips](buy/esphome_diy)
+* [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Layout examples](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Home automation idea's](ideas/home_automation_ideas)
 * [Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal weekplanner and HA integrations)

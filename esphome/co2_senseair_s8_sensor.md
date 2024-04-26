@@ -42,7 +42,7 @@ Inside a Co2 sensor and an ESP mini.
 ---
 
 ## Table of Contents
-<!-- TOC <!-- TOC -->
+<!-- TOC -->
 * [Introduction](#introduction)
 * [My final result](#my-final-result)
 * [Required hardware](#required-hardware)
@@ -106,6 +106,9 @@ These hardware components did I use for this project:
 Affiliate links are used here, so you sponsor my blog also with it, without paying extra for it.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
+
+
+See [ESPHome DIY sensors best buy tips](../buy/esphome_diy) for more DIY hardware buy tips.
 
 ---
 
