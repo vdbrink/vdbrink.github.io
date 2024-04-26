@@ -1,7 +1,7 @@
 ---
 title: "Zigbee Smart home - best buy tips"
 category: Buy tips
-tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, zigbee
+tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, Zigbee
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -17,6 +17,24 @@ I order 90% of my home automation on these two sites for years already. You pay 
 
 <img src="images/aliexpress.png" alt="Aliexpress" height="30px" />
 <img src="images/banggood.png" alt="Banggood" height="35px" style="margin-left:30px;"/>
+
+---
+
+## Table of Contents
+<!-- TOC -->
+  * [Why I chose Zigbee](#why-i-chose-zigbee)
+  * [Zigbee coordinator](#zigbee-coordinator)
+  * [Contact sensor](#contact-sensor)
+  * [Motion sensor](#motion-sensor)
+  * [Presence detection sensor](#presence-detection-sensor)
+  * [Smart socket](#smart-socket)
+  * [Temperature sensor](#temperature-sensor)
+  * [Lux sensor](#lux-sensor)
+  * [Lights](#lights)
+  * [Batteries](#batteries)
+  * [Cables](#cables)
+* [Power](#power)
+<!-- TOC -->
 
 ---
 ## Why I chose Zigbee
@@ -134,6 +152,18 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. this sensor is useful to make automations like take action if someone is in the shower. Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
+
+---
+
+## Lux sensor
+
+<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="blank">
+<img src="../ideas/images/lux_sensor.jpg" alt="lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+A lux sensor is a sensor that measures the light intensity.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">Zigbee lux sensor - Aqara (Aliexpress)</a>
+<br><br><br><br><br>
 
 ---
 
