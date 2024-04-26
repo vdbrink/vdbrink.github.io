@@ -91,7 +91,7 @@ Criteria for my own automations are:
 
 #### lights
 * Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) to detect brightness from inside and outside)
-* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + switch button near the bed)
+* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + switch [button](../buy/smart_home_best_buy_tips#button) near the bed)
 * Lights are automatically turned off when no one is in the living anymore.
 * Dimming lights after a few minutes when the movie player is on. Brightness increases again when someone is detected in the kitchen.
  <br><img src="images/motion_sensor.png" alt="motion sensor" height="150px" />
@@ -177,7 +177,7 @@ Criteria for my own automations are:
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
 #### Coffee machine
-* Count the brewed coffees to order new cups. (vibration sensor)
+* Count the brewed coffees to order new cups. ([vibration sensor](../buy/smart_home_best_buy_tips#vibration-sensor))
 
 ---
 

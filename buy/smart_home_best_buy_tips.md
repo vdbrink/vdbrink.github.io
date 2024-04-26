@@ -200,6 +200,31 @@ This LED strip is available in different versions:
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip</a>
 
 ---
+
+### Button
+
+<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">
+<img src="images/zigbee_button.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
+
+This button can trigger multiple scenario's because it supports three press types: single-, double- and long press.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (Aliexpress)</a>
+<br><br><br><br>
+
+---
+
+### Vibration sensor
+
+<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">
+<img src="images/zigbee_vibration_sensor.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
+
+This button can measure vibrations and rotations in the X, Y and Z direction.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">Zigbee vibration sensor - Aqara (Aliexpress)</a>
+<br><br><br><br>
+
+---
+
 ## Batteries
 
 The advantage of a lot of Zigbee sensors is that they work completely wireless. 
