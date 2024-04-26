@@ -184,11 +184,11 @@ Criteria for my own automations are:
 ### Home office
 * Computer screen + lights + phone charger on when you sit in the office chair. (car seat pressure sensor in the chair)
 * Computer screen + lights + phone charger on when you enter the office. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the door)
-* Office lights only on when it's dark and someone is in the room. (smart lights, [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), mmWave sensor to detect a person who sits still)
+* Office lights only on when it's dark and someone is in the room. ([smart light](../buy/smart_home_best_buy_tips#lights), [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), mmWave sensor to detect a person who sits still)
 * Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + chair occupancy)
 * On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/smart_home_best_buy_tips#lights))
 * Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
-* Notification to open a window if the Co2 value is too high. (Co2 sensor)
+* Notification to open a window if the Co2 value is too high. ([Co2 sensor](../esphome/co2_senseair_s8_sensor))
 * Airco on when it's too hot in- and outside. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 
 ---
