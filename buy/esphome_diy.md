@@ -18,7 +18,7 @@ Her you find some useful links where you can buy them.
 ## Tools
 
 ### Soldering iron
-I suggest this based on the reviews. I had already one. Please let me know if you advise this one or not?
+I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
 
 <img src="../esphome/images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
@@ -94,7 +94,7 @@ This car seat sensor measures if there is pressure on a chair or seat.
 
 ### Weight sensor
 
-The HX711 Module comes with four pressure sensor which you can place under your bed to measure the pressure to see how many people are a.t.m. in the bed.
+The HX711 Module comes with four pressure sensors which you can place under your bed to measure the pressure to see how many people are a.t.m. in the bed.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link 1 (Aliexpress)</a>
 
@@ -110,7 +110,7 @@ Can be used, together with a contact sensor, to create your own rain sensor.
 
 HLK-2410C 24GHz Motion sensor / mmWave
 
-<img src="images/HLK-2410C.png" height="180px" alt="HLK-2410C 24GHz Motion sensor" />
+<img src="images_zigbee/HLK-2410C.png" height="180px" alt="HLK-2410C 24GHz Motion sensor" />
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">link 1 (Aliexpress)</a>
 
@@ -143,7 +143,7 @@ USB-A to micro USB cable to power the ESP.
 USB-A to USB-C cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
-<img src="images/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
+<img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
 {{imgBasket}}USB-C cable</a>
 
 ---
@@ -170,7 +170,7 @@ USB-A to USB-C cable to power the ESP.
 
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
 
-<img src="images/christmas_light_adapter.webp" alt="" width="200px"/>
+<img src="images_zigbee/christmas_light_adapter.webp" alt="" width="200px"/>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
 
@@ -224,7 +224,7 @@ This receiver can be used to receive or snif signals send by device which uses t
 
 ## P1 cable for smart gas and energy meter
 
-With this cable you can read your smart meter to read the gas and energy consumption.
+With this cable, you can read your smart meter to read the gas and energy consumption.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (Aliexpress)</a>
 

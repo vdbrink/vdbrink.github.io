@@ -99,7 +99,7 @@ Criteria for my own automations are:
 ---
 
 ### Christmas lights
-* Connecting battery-operated Christmas decorations to the power outlet. (equipped with battery eliminators and multiple connected to an active USB hub, powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
+* Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/smart_home_best_buy_tips#battery-eliminators) and multiple connected to an active USB hub, powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
 * Christmas tree lights. (replace the default power switch with always on mode switch and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
 <br/><br/>
 <img src="images/christmas_battery.jpg" alt="Christmas decoration lights battery powered" height="350px" />
