@@ -2,7 +2,7 @@
 title: "Zigbee Smart home - best buy tips"
 category: Buy tips
 tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, Zigbee
-image: images_zigbee/zigbee_banner.png
+image: /buy/images_zigbee/zigbee_banner.png
 ---
 <meta property="og:image" content={previewImageSrc} />
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
