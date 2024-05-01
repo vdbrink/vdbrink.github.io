@@ -2,7 +2,9 @@
 title: "Zigbee Smart home - best buy tips"
 category: Buy tips
 tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, Zigbee
+image: images_zigbee/zigbee_banner.png
 ---
+<meta property="og:image" content={previewImageSrc} />
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Zigbee Smart home - best buy tips
@@ -231,7 +233,7 @@ This LED strip is available in different versions:
 ### Wall switch
 
 <a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">
-<img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee wall switch" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">Zigbee wall switch - Aqara (Aliexpress)</a>
 
