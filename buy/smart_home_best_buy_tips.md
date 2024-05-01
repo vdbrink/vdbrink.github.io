@@ -16,10 +16,13 @@ tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, Zi
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
-On this page, you find my personal favorite sensors, actuator and other home automation related hardware.
+On this page, you find my personal favorite sensors, actuator and other home automation related Zigbee hardware.
 
-Most are provided by the online shops Aliexpress or Banggood.
-I order 90% of my home automation on these two sites for years already. You pay a good price, and they have fast shipping, sometimes you have the order already delivered within a week!
+If you need some home automation inspiration, check my [home automation ideas](../ideas/home_automation_ideas) section!
+
+Most devices are for sale by the online shops Aliexpress or Banggood.
+I order 90% of my home automation devices on these two sites for years already. 
+You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!
 
 <img src="images/aliexpress.png" alt="Aliexpress" height="30px" />
 <img src="images/banggood.png" alt="Banggood" height="35px" style="margin-left:30px;"/>
@@ -77,7 +80,7 @@ A reason why not to choose for Zigbee? I don't know :)
 Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issue, it's a very reliable stick.
 My network grew to 120+ devices today, and it still runs fast.
 
-To avoid interference with Bluetooth or wifi also running on your server, 
+To avoid interference with Bluetooth or wifi,
 it's better to move the stick away from the server. This is recommended for every stick. 
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (Aliexpress)</a> for it.
 
