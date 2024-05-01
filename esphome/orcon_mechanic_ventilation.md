@@ -86,7 +86,7 @@ These hardware components do I use for this project:
 
 ![Dupont female to female wires](orcon_images/adapter_8pins_1mm.jpg "Dupont female to female wires")
 
-* Flat cable 8 pins, 1 mm pitch (NOT the 0.5 mm) [link 1](https://aliexpress.com/item/1005001603277462.html) [link 2](https://aliexpress.com/item/1005002316479373.html)
+* Flat cable 8 pins, 1 mm pitch (NOT the 0.5 mm) [link 1](https://s.click.aliexpress.com/e/_DEsQVNl) [link 2](https://s.click.aliexpress.com/e/_Dew4h5z)
   * The length and if the connectors are on the same side is up to you
 
 ![Dupont female to female wires](orcon_images/flat_cable_8pins_1mm.jpg "Dupont female to female wires")
@@ -961,7 +961,7 @@ Every 15 minutes this flow is triggered.
 #### The Node-RED flow
 This is the corresponding flow in Node-RED.
 
-<a href="orcon_images/script_node-red.png" target="_blanc">
+<a href="orcon_images/script_node-red.png" target="_blank">
 <img src="orcon_images/script_node-red.png" alt="Node-RED flow" width="100%" />
 </a>
 

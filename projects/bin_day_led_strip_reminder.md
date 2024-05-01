@@ -44,7 +44,7 @@ work for a Wifi/bluetooth/other network type but then the control will also be d
     * 5 / 10 meter
     * RGB White or RGB Warm White
 
-    <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blanc">
+    <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">
     <img src="images_bin_day/zigbee_rgb_led_strip.webp" height="250px" alt="LED strip"></a>
 
 ---
@@ -95,8 +95,6 @@ Everybody has his own condition, you can also turn if off with a toggle on your 
 <img src="images_bin_day/bin_day_node_red_flow.png" alt="bin day - LED strip - Node RED flow" width="800px">
 </a>
 
-
-
 <a name="node-red-script"></a>
 
 ```yaml
@@ -107,7 +105,7 @@ Everybody has his own condition, you can also turn if off with a toggle on your 
 
 #### RGB LED strip colors
 
-I have four bin types and each bin has his own color.\
+I have four bin types, and each bin has his own color.\
 I tried to use the same color to light up.
 
 These are my bin types and the RGB and HEX color codes I use.

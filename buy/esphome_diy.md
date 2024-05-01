@@ -28,7 +28,11 @@ I suggest this based on the reviews. I had already one. Please let me know if yo
 
 <img src="../esphome/images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link 1 (Aliexpress)</a>
+
+### Desoldering
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkgvZdV" target="_blank">link 1 (Aliexpress)</a>
 
 ---
 
@@ -67,13 +71,38 @@ ESP 12S Wemos D1 mini (no pro or V3)
 
 #### SenseAir S8
 
-SenseAir S8 Co2 sensor
+SenseAir S8 Co2 sensor.
 
 <img src="../esphome/co2_images/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">link 1 (Aliexpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">link 2 (Aliexpress)</a>
+
+#### SCD40 
+
+SCD40 or SCD41 Co2 sensor.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 1 (Aliexpress)</a>
+
+
+### Pressure sensor
+
+This car seat sensor measures if there is pressure on a chair or seat.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link 1 (Aliexpress)</a>
+
+### Weight sensor
+
+The HX711 Module comes with four pressure sensor which you can place under your bed to measure the pressure to see how many people are a.t.m. in the bed.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link 1 (Aliexpress)</a>
+
+### Rain sensor
+
+Can be used, together with a contact sensor, to create your own rain sensor.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link 1 (Aliexpress)</a>
 
 ---
 
@@ -133,6 +162,10 @@ USB-A to USB-C cable to power the ESP.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mqQDOme" target="_blank">link 2</a>
 
+5V USB power adapter to power multiple usb devices, with fast charging with 3.1A.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link 2</a>
+
 ### Christmas light adapter
 
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
@@ -140,6 +173,14 @@ A 2 pins adapter without a button to select a mode, just on, for Christmas light
 <img src="images/christmas_light_adapter.webp" alt="" width="200px"/>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
+
+---
+
+## USB hub
+
+Active USB hub to power multiple USB devices.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">link 1</a>
 
 ---
 
@@ -156,6 +197,15 @@ Dupont male to male wires
 * If you order these, you can better order all three types at ones, also for any further projects.
 
 ---
+
+## Pin heads
+
+Pin head to use female dupont connects.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCjkqBNt" target="_blank">link 1 (Aliexpress)</a>
+
+---
+
 ## Boxes
 
 Plastic DIY Case to fix the esp board and sensor in.
@@ -163,6 +213,20 @@ Plastic DIY Case to fix the esp board and sensor in.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes (Aliexpress)</a>
 
 <img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" />
+
+## RTL-SDR Radio sniffer for 433 and 868 MHz
+
+This receiver can be used to receive or snif signals send by device which uses the 433 or 868 MHz bandwidth.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link 1 (Aliexpress)</a>
+
+---
+
+## P1 cable for smart gas and energy meter
+
+With this cable you can read your smart meter to read the gas and energy consumption.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (Aliexpress)</a>
 
 ---
 

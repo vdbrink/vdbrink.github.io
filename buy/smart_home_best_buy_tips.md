@@ -169,6 +169,18 @@ A lux sensor is a sensor that measures the light intensity.
 
 ---
 
+## Leak sensor
+
+<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="blank">
+<img src="images/leak_sensor.jpg" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+A leak sensor is a sensor that measures if there is water, then the two contact have a closed circuit because water conducts.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor - (Aliexpress)</a>
+<br><br><br><br><br>
+
+---
+
 ## Lights
 
 ### Bulb
