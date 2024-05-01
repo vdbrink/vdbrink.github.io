@@ -7,6 +7,12 @@ tags: Best, Buy, tips, Aliexpress, Banggood, batteries, sensors, Aqara, Tuya, Zi
 
 # Zigbee Smart home - best buy tips
 
+<br>
+
+![Banner](images_zigbee/zigbee_banner.png)
+
+<br>
+
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
