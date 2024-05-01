@@ -190,7 +190,7 @@ A lux sensor is a sensor that measures the light intensity.
 A leak sensor is a sensor that measures if there is water, then the two contact have a closed circuit because water conducts.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor - (Aliexpress)</a>
-<br><br><br><br><br>
+<br><br><br>
 
 ---
 
@@ -233,9 +233,10 @@ This LED strip is available in different versions:
 <a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">Zigbee wall switch - Aqara (Aliexpress)</a>
+
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">Zigbee wall switch - Moes (Aliexpress)</a>
-<br>
-<br>
+
 <br>
 <br>
 <br>
