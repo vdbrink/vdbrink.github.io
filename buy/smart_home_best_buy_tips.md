@@ -52,6 +52,13 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
 <!-- TOC -->
 
 ---
+
+> **_NOTE 1:_** Links on this page are devices I also use myself. 
+> Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
+
+> **_NOTE 2:_** I advise these products based on my personal experience. I run my network with a CC2652 zigbee adapter and Zigbee2MQTT. 
+> It can be with other hardware combinations it doesn't run with the same experience.
+---
 ## Why I chose Zigbee
 
 On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, Wifi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
@@ -376,10 +383,6 @@ USB-A to USB-C cable to power the ESP.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mqQDOme" target="_blank">link 2</a>
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
-
----
-
-> **_NOTE:_** Links on this page are devices I also use myself. Most of the links are affiliate links, so you support my blog also by buying it from here.
 
 ---
 
