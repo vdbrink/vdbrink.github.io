@@ -33,10 +33,10 @@ My latest big updates on this blog:
 * [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
 * [ESPHome DIY sensors - best buy tips](buy/esphome_diy)
 * [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
-* [Home Assistant - Layout examples](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
+* [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Home automation idea's](ideas/home_automation_ideas)
 * [Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal weekplanner and HA integrations)
-* [Home Assistant - Chores](homeassistant_dashboard_chores) (Manage your weekly chores)
+* [Home Assistant - Chores](homeassistant/homeassistant_dashboard_chores) (Manage your weekly chores)
 * [Packages mailbox - Allux 600](projects/packages-mailbox-allux-600)
 ---
 

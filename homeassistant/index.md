@@ -14,13 +14,13 @@ I created so many different dashboards that I want to document and share them wi
 One by one, I will add them here.
 
 I created dashboards with all kinds of elements in it:
+* [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
+* [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc.)
 * Templates:
   * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
   * [External sites](homeassistant_dashboard_weather) (Thunderstorm) 
-* [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
-* [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc.)
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
 * [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
 * [Interactive floor plan](homeassistant_dashboard_floorplan)
