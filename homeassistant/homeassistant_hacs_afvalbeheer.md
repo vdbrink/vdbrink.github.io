@@ -2,7 +2,9 @@
 title: "Home Assistant HACS Afvalbeheer"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS
+image: /homeassistant/images_afvalbeheer/kliko.jpg
 ---
+
 # Home Assistant HACS Afvalbeheer
 
 <img style="float: right;" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">

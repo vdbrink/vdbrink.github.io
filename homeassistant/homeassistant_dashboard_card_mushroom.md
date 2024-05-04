@@ -2,7 +2,9 @@
 title: "Home Assistant dashboard card: Mushroom"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, card, mushroom, minimalistic, icons
+image: /homeassistant/images_mushroom/mushroom_examples.png
 ---
+
 # Home Assistant dashboard card: Mushroom
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
@@ -11,7 +13,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to the **mush
 
 Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add small widget on your dashboard.
 
-<img src="images_mushroom/mushroom_examples.png" width="350px" /> 
+<img src="images_mushroom/mushroom_examples.png" width="350px"  alt=""/> 
 
 The git repository is https://github.com/piitaya/lovelace-mushroom
 

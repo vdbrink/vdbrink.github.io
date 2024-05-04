@@ -3,8 +3,8 @@ title: "Home Assistant dashboard: Formatting"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, formatting
 ---
-# Home Assistant dashboard: Formatting
 
+# Home Assistant dashboard: Formatting
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 

@@ -2,6 +2,7 @@
 title: "Home Assistant dashboard: Mealie Recipe Manager"
 category: Home Assistant
 tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
+image: /homeassistant/images_mealie/mealie1_ha_integration.png
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
 

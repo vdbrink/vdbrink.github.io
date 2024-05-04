@@ -2,7 +2,9 @@
 title: "Home Automation Ideas"
 category: Ideas
 tags: ideas, smart, home, automations
+image: /ideas/images/idea.png
 ---
+
 # Home Automation Ideas
 *to make your home smart*
 

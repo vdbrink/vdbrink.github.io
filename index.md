@@ -1,6 +1,7 @@
 ---
 title: vd Brink Home Automations
 categories: Home Assistant, ESPHome, Node-RED, Docker, Tasker
+image: /images/banner.jpg
 ---
 
 # vd Brink Home Automations
@@ -12,8 +13,7 @@ automate my home!
 
 With the introduction of the ESP boards, with wi-fi support, it all became easier to create your own sensors.
 Manufactures started to create products which are now more affordable and easier to connect to each other.
-Software projects, Like Zigbee2MQTT, Home Assistant and Node-RED, popped up, and more users adopted these projects and so
-did I.
+Software projects, Like Zigbee2MQTT, Home Assistant and Node-RED, popped up, and more users adopted these projects and so did I.
 With this as your base, you can connect hardware devices together and let them work together via software, the
 possibilities are endless.
 
@@ -30,14 +30,16 @@ I want to share and inspire other people, so they can improve their own home aut
 
 ---
 My latest big updates on this blog:
+
 * [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
 * [ESPHome DIY sensors - best buy tips](buy/esphome_diy)
 * [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
-* [Home automation idea's](ideas/home_automation_ideas)
+* [Home automation ideas](ideas/home_automation_ideas)
 * [Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal weekplanner and HA integrations)
 * [Home Assistant - Chores](homeassistant/homeassistant_dashboard_chores) (Manage your weekly chores)
 * [Packages mailbox - Allux 600](projects/packages-mailbox-allux-600)
+
 ---
 
 Topics you can find here:
@@ -49,6 +51,6 @@ Topics you can find here:
 | <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                       | [Node-RED: <br>graphical programming tool to create every automation](node-red/index) |
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                               | [Docker: <br>Run applications](docker/index)                                          |
 | <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>     | [Random projects](projects/index)                                                     |
-| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>              | [Home automation idea's](ideas/home_automation_ideas)                                 |
+| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>              | [Home automation ideas](ideas/home_automation_ideas)                                  |
 | <a href="buy/index"><img src="buy/images/zigbee_contact_sensor_aqara.webp" alt="Smart home best buy tips" height="100px"></a>       | [Smart home best buy tips](buy/smart_home_best_buy_tips)                              |
  
