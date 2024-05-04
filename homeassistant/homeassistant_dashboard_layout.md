@@ -431,12 +431,6 @@ To use this iframing, you need to set in `grafana.env` this value
 `GF_SECURITY_ALLOW_EMBEDDING=true`.
 
 ---
-
-I hope these examples will give you some ideas how you can compactly organize your data in various ways.\
-In the last few years I gathered these different possibilities.\
-If you like my blog posts, please make a [donation](#donate) to support my work, thank you very much! I appreciate it.
-
----
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant pages](index)
