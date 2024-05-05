@@ -92,7 +92,7 @@ Criteria for my own automations are:
 
 
 * Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) to detect brightness from inside and outside)
-* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + switch [button](../buy/smart_home_best_buy_tips#button) near the bed)
+* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + switch [button](../buy/smart_home_best_buy_tips#portable-button) near the bed)
 * Lights are automatically turned off when no one is in the living anymore.
 * Dimming lights after a few minutes when the movie player is on. 
 Brightness increases again when someone is detected in the kitchen. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [motion sensor](../buy/smart_home_best_buy_tips#motion-sensor))

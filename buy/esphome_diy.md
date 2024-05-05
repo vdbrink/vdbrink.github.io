@@ -11,7 +11,16 @@ tags: Best, Buy, tips, aliexpress, banggood, ESPHome, sensors, soldering
 
 If you create your own sensors with ESPHome you need some good devices and tooling.
 
-Her you find some useful links where you can buy them.
+Here you find some useful links where you can buy them.
+
+---
+
+## Table of Contents
+<!-- TOC -->
+<!-- TOC -->
+
+> **_NOTE 1:_** Links on this page are hardware I also bought myself.
+> Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
 
 ---
 
@@ -34,6 +43,12 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkgvZdV" target="_blank">link 1 (Aliexpress)</a>
 
+### Breadboard
+
+A breadboard with dupont cables and power connector.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (Aliexpress)</a>
+
 ---
 
 ## ESP board
@@ -42,13 +57,22 @@ The brains of your own sensor.
 
 ### ESP32
 
-...
+Fast ESP32 board with Dual Core, bluetooth, usb-c and already soldered pins.
+
+<a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">
+<img src="../esphome/images/esp32.webp" height="180px" alt="ESP32" />
+</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">ESP-32S WROOM (Aliexpress)</a>
+
 
 ### ESP8266
 
 ESP8266 NodeMCU v3 (or comparable) 
 
-![ESP8266 NodeMCU v3](../esphome/images/esp8266_nodemcu.jpg "ESP8266 nodeMCU v3")
+<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
+<img src="../esphome/images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 NodeMCU v3" />
+</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">link 1 (Aliexpress)</a>
 
@@ -58,6 +82,7 @@ ESP8266 NodeMCU v3 (or comparable)
 
 ESP 12S Wemos D1 mini (no pro or V3) 
   * You can use any ESP chip, but I like this one because of its small size
+  * The pins are not soldered on the board yet
 
 <img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
@@ -200,7 +225,7 @@ Dupont male to male wires
 
 ## Pin heads
 
-Pin head to use female dupont connects.
+Pin heads to use female dupont connects.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCjkqBNt" target="_blank">link 1 (Aliexpress)</a>
 
@@ -213,6 +238,8 @@ Plastic DIY Case to fix the esp board and sensor in.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes (Aliexpress)</a>
 
 <img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" />
+
+---
 
 ## RTL-SDR Radio sniffer for 433 and 868 MHz
 
@@ -227,10 +254,6 @@ This receiver can be used to receive or snif signals send by device which uses t
 With this cable, you can read your smart meter to read the gas and energy consumption.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (Aliexpress)</a>
-
----
-
-> **_NOTE:_** Links on this page are devices I also use myself. Most of the links are affiliate links, so you support my blog also by buying it from here.
 
 
 ---

@@ -239,7 +239,7 @@ This LED strip is available in different versions:
 
 ---
 
-## Button
+## Buttons
 
 ### Wall switch
 
@@ -254,7 +254,21 @@ This LED strip is available in different versions:
 <br>
 <br>
 
-### Portable
+### Wall dimmer
+
+<a href="https://www.ecodim.nl/nl/eco-dim07-zigbee-basic.html" target="_blank">
+<img src="images_zigbee/ecodim07.webp" alt="Zigbee dimmers" height="150px" style="margin-left:15px;float:right"/></a>
+
+This Zigbee dimmer replaces an original wall dimmer module.\
+The easiest way to make a dimmable group with gu10 lights smart.
+
+{{imgBasket}}<a href="https://www.ecodim.nl/nl/eco-dim07-zigbee-basic.html" target="_blank">ECO-DIM.07 Led dimmer press/turn 0-200W - EcoDim (manufacturer site with links to different shops)</a>
+
+{{imgBasket}}<a href="https://www.ecodim.nl/nl/smart-led-dimmers-en-schakelaars/zigbee/" target="_blank">Other EcoDim zigbee devices - EcoDim (manufacturer site with links to different shops)</a>
+
+---
+
+### Portable button
 
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">
 <img src="images_zigbee/zigbee_button.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
@@ -279,6 +293,9 @@ This button can measure vibrations and rotations in the X, Y and Z direction.
 ---
 
 ## Google Coral USB
+
+<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">
+<img src="images_zigbee/google_coral.webp" alt="Google Coral" width="150px" style="margin-left:15px;float:right"/></a>
 
 USB stick to handle heavy GPU processes, like human detection with Frigate. 
 
