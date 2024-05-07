@@ -216,7 +216,7 @@ A leak sensor is a sensor that measures if there is water, then the two contacts
 
 ### Bulb
 
-<a href="" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
+<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
 
 You can replace a normal E27 bulb with Zigbee variant.
 With a colored version, you can use it to inform yourself with a color for different states.

@@ -2,6 +2,7 @@
 title: ESPHome sensors and actuators
 categories: ESPHome
 tags: ESP, ESP8266, ESP32, nodeMCU, ESPHome, sensors, actuators
+image: /esphome/images/esphome.png
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

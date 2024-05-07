@@ -9,55 +9,54 @@ tags: Best, Buy, tips, aliexpress, banggood, ESPHome, sensors, soldering
 
 ## Introduction
 
-If you create your own sensors with ESPHome you need some good devices and tooling.
+<img src="../esphome/images_co2/case_fit_co2_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
+If you want to create your own sensors with ESPHome you need an ESP development board 
+where you can load the software to read the sensors and send this data over the network to your home server. 
 
-Here you find some useful links where you can buy them.
+If you're afraid to solder some pins or connect the ESP to the sensor, look for some tutorials and give it a try. 
+You can also look for ESPs and sensors with already pins, then with dupont cables you don't need to soldering at all.
+
+Here you find some useful links where you can buy ESPs, 
+sensors and other tooling which can be useful for making your own DIY sensors.
+
+I have a [page](../esphome/index) where I added manuals to create your own sensors.
 
 ---
 
 ## Table of Contents
 <!-- TOC -->
+  * [ESP board](#esp-board)
+  * [Sensors](#sensors)
+    * [Co2](#co2)
+    * [Pressure sensor](#pressure-sensor)
+    * [Weight sensor](#weight-sensor)
+    * [Rain gauge sensor](#rain-gauge-sensor)
+    * [mmWave](#mmwave)
+  * [Cables](#cables)
+  * [Power](#power)
+  * [USB hub](#usb-hub)
+  * [Dupont](#dupont)
+  * [Pin heads](#pin-heads)
+  * [Boxes](#boxes)
+  * [Tools](#tools)
+  * [RTL-SDR Radio sniffer for 433 and 868 MHz](#rtl-sdr-radio-sniffer-for-433-and-868-mhz)
+  * [P1 cable for smart gas and energy meter](#p1-cable-for-smart-gas-and-energy-meter)
 <!-- TOC -->
+
+---
 
 > **_NOTE 1:_** Links on this page are hardware I also bought myself.
 > Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
 
 ---
 
-## Tools
-
-### Soldering iron
-I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
-
-<img src="../esphome/images/soldering_iron.webp" alt="soldering iron" width="200px"/>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (Aliexpress)</a>
-
-### Soldering tin wire
-
-<img src="../esphome/images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link 1 (Aliexpress)</a>
-
-### Desoldering
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkgvZdV" target="_blank">link 1 (Aliexpress)</a>
-
-### Breadboard
-
-A breadboard with dupont cables and power connector.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (Aliexpress)</a>
-
----
-
 ## ESP board
 
-The brains of your own sensor.
+The brains of your own sensor. It contains the processor to run the program on, and with the wifi module on it which can make contact with your own network.
 
 ### ESP32
 
-Fast ESP32 board with Dual Core, bluetooth, usb-c and already soldered pins.
+The newer and faster ESP32 board has a dual core processor, bluetooth, usb-c and already soldered pins.
 
 <a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">
 <img src="../esphome/images/esp32.webp" height="180px" alt="ESP32" />
@@ -65,10 +64,9 @@ Fast ESP32 board with Dual Core, bluetooth, usb-c and already soldered pins.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">ESP-32S WROOM (Aliexpress)</a>
 
-
 ### ESP8266
 
-ESP8266 NodeMCU v3 (or comparable) 
+The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and is most cases fast enough to handle the sensor data. 
 
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
 <img src="../esphome/images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 NodeMCU v3" />
@@ -80,11 +78,12 @@ ESP8266 NodeMCU v3 (or comparable)
 
 ### ESP D1 mini
 
-ESP 12S Wemos D1 mini (no pro or V3) 
+This ESP D1 mini is also an ESP8266 variant (don't use the pro or V3) 
   * You can use any ESP chip, but I like this one because of its small size
-  * The pins are not soldered on the board yet
+  * The pins are not soldered on the board yet (with some practice even you can do it for sure!)
 
-<img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
+<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
+<img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (Aliexpress)</a>
 
@@ -92,28 +91,56 @@ ESP 12S Wemos D1 mini (no pro or V3)
 
 ## Sensors
 
+Sensors are the digital senses. They can measure all different kinds of units, like temperature, humidity, light intensity, pressure, etc.
+
+Here are some ready-to-use sensors that can be connected direct to an ESP without a challenging circuit with resistors and capacitors, etc.
+
+### Temperature and humidity
+
+Dht11 is a commonly used temperature and humidity sensor.
+
+<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">
+<img src="images_diy/dht11_temperature_sensor.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">link 1 (Aliexpress)</a>
+
 ### Co2
+
+Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm). 
+If the amount of ppms is too high for a long time, it's not good for you're healthy.
 
 #### SenseAir S8
 
 SenseAir S8 Co2 sensor.
 
-<img src="../esphome/co2_images/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
+<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">
+<img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">link 1 (Aliexpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">link 2 (Aliexpress)</a>
 
-#### SCD40 
+#### SCD41
 
-SCD40 or SCD41 Co2 sensor.
+SCD40 or SCD41 Co2 sensor are compact Co2, humidity and temperature sensors. 
+Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 1 (Aliexpress)</a>
+<a href="https://www.tinytronics.nl/nl/sensoren/lucht/vochtigheid/gy-scd40-module-co2-luchtvochtigheid-en-temperatuursensor-i2c" target="_blank">
+<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 41 WITHOUT soldering due to a i2c cable (tinytronics.nl)" /></a>
 
+<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">
+<img src="../esphome/images_co2/scd41.webp" height="180px" alt="SCD 41 with soldering (aliexpress)" /></a>
+
+{{imgBasket}}<a href="https://www.tinytronics.nl/nl/sensoren/lucht/vochtigheid/gy-scd40-module-co2-luchtvochtigheid-en-temperatuursensor-i2c" target="_blank">link 1 SCD41 WITHOUT requires soldering (tinytronics.nl)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 2 SCD41 which requires soldering (Aliexpress)</a>
 
 ### Pressure sensor
 
-This car seat sensor measures if there is pressure on a chair or seat.
+This car seat sensor measures if there is pressure on a chair or seat. The output is just an open or a closed circuit.
+
+<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">
+<img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link 1 (Aliexpress)</a>
 
@@ -121,11 +148,17 @@ This car seat sensor measures if there is pressure on a chair or seat.
 
 The HX711 Module comes with four pressure sensors which you can place under your bed to measure the pressure to see how many people are a.t.m. in the bed.
 
+<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">
+<img src="images_diy/weight_sensors.webp" height="180px" alt="weight sensor" /></a>
+
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link 1 (Aliexpress)</a>
 
-### Rain sensor
+### Rain gauge sensor
 
-Can be used, together with a contact sensor, to create your own rain sensor.
+Can be used, together with a contact sensor, to create your own rain gauge sensor.
+
+<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">
+<img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link 1 (Aliexpress)</a>
 
@@ -133,23 +166,12 @@ Can be used, together with a contact sensor, to create your own rain sensor.
 
 ### mmWave
 
-HLK-2410C 24GHz Motion sensor / mmWave
+The HLK-2410C is a 24GHz occupancy sensor (a.k.a. millimeter wave sensor)
 
-<img src="images_zigbee/HLK-2410C.png" height="180px" alt="HLK-2410C 24GHz Motion sensor" />
+<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">
+<img src="images_zigbee/HLK-2410C.png" height="180px" alt="HLK-2410C 24GHz Motion sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">link 1 (Aliexpress)</a>
-
----
-
-## Power adapter
-
-5V USB power adapter to power the ESP
-
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">link 1 (Aliexpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mqQDOme" target="_blank">link 2 (Aliexpress)</a>
 
 ---
 
@@ -157,7 +179,7 @@ HLK-2410C 24GHz Motion sensor / mmWave
 
 ### Micro USB power cable
 
-USB-A to micro USB cable to power the ESP.
+USB-A to micro USB cable to power the ESP8266.
 
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 <img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
@@ -165,7 +187,7 @@ USB-A to micro USB cable to power the ESP.
 
 ### USB-C power cable
 
-USB-A to USB-C cable to power the ESP.
+USB-A to USB-C cable to power the ESP32.
 
 <a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
@@ -173,15 +195,14 @@ USB-A to USB-C cable to power the ESP.
 
 ---
 
-# Power
-
-## Adapters
+## Power
 
 ### 5V USB adapter
 
 5V USB power adapter to power the ESP.
 
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">link 1</a>
 
@@ -189,13 +210,17 @@ USB-A to USB-C cable to power the ESP.
 
 5V USB power adapter to power multiple usb devices, with fast charging with 3.1A.
 
+<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
+<img src="images_diy/usb_power_charger.webp" alt="5V USB power adapter" width="200px"/></a>
+
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link 2</a>
 
 ### Christmas light adapter
 
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
 
-<img src="images_zigbee/christmas_light_adapter.webp" alt="" width="200px"/>
+<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
+<img src="images_zigbee/christmas_light_adapter.webp" alt="" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
 
@@ -205,15 +230,19 @@ A 2 pins adapter without a button to select a mode, just on, for Christmas light
 
 Active USB hub to power multiple USB devices.
 
+<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">
+<img src="images_diy/usbhub.webp" alt="active powered USB hub" width="200px"/></a>
+
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">link 1</a>
 
 ---
 
-### Dupont
+## Dupont
 
-Dupont male to male wires
+Dupont are cables to connect the ESP pins with sensors pins. The dupont cables are in different variants: male to male, female to male and male to female. You can also cut one end to just solder it direct to the connector.
 
-<img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
+<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">
+<img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (Aliexpress)</a>
 
@@ -225,9 +254,18 @@ Dupont male to male wires
 
 ## Pin heads
 
-Pin heads to use female dupont connects.
+Pin heads to use dupont cables to connect the ESP with sensor.
+Only required if they are not already provided.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCjkqBNt" target="_blank">link 1 (Aliexpress)</a>
+<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">
+<img src="images_diy/pinhead_female.webp" height="180px" alt="pin heads female" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">link 1 (Aliexpress)</a>
+
+<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">
+<img src="images_diy/pinhead_male.webp" height="180px" alt="pin heads male" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">link 1 (Aliexpress)</a>
 
 ---
 
@@ -235,15 +273,56 @@ Pin heads to use female dupont connects.
 
 Plastic DIY Case to fix the esp board and sensor in.
 
+<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
+<img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" /></a>
+
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes (Aliexpress)</a>
 
-<img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" />
+---
+
+## Tools
+
+### Soldering iron
+I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+
+<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">
+<img src="../esphome/images/soldering_iron.webp" alt="soldering iron" width="200px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (Aliexpress)</a>
+
+### Soldering tin wire
+
+<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">
+<img src="../esphome/images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link 1 (Aliexpress)</a>
+
+### Desoldering
+
+<a href="https://s.click.aliexpress.com/e/_DBED3xN" target="_blank">
+<img src="../esphome/images/desoldering.webp" alt="Desoldering" width="200px"/>
+</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBED3xN" target="_blank">link 1 (Aliexpress)</a>
+
+### Breadboard
+
+A breadboard with dupont cables and power connector to test your setup first.
+
+<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">
+<img src="../esphome/images/breadboard.webp" alt="breadboard" width="200px"/>
+</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (Aliexpress)</a>
 
 ---
 
 ## RTL-SDR Radio sniffer for 433 and 868 MHz
 
 This receiver can be used to receive or snif signals send by device which uses the 433 or 868 MHz bandwidth.
+
+<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">
+<img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link 1 (Aliexpress)</a>
 
@@ -253,9 +332,15 @@ This receiver can be used to receive or snif signals send by device which uses t
 
 With this cable, you can read your smart meter to read the gas and energy consumption.
 
+<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">
+<img src="images_diy/p1_cable.webp" alt="P1 smart meter cable" width="200px"/>
+</a>
+
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (Aliexpress)</a>
 
 
 ---
 
-See [Zigbee Smart home - best buy tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
+See also [Zigbee Smart home - best buy tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
+
+See also [all my best buy tip pages](../) 

@@ -12,7 +12,7 @@ tags: Co2, ESP8266, ESPHome, Home Assistant, air quality
 <img src="co2_images/senseair_s8.jpg" alt="zigbee" height="150px" style="margin-left:15px;float:right"/>
 
 There are not so many affordable out-of-the-box Co2 sensors available, but it's easy to create one yourself.
-With only an ESP, a C02 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
+With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
 
 If your in a space with a too high ppm level, you can feel tired, your start yawning, 
 get red cheeks and can get a headache.
@@ -37,7 +37,7 @@ That's also why you need to open a window when the value is too high, get some f
 A small box with a tail.  
 Inside a Co2 sensor and an ESP mini.
 
-![final box](co2_images/holes_in_case.jpg)
+![final box](images_co2/holes_in_case.jpg)
 
 ---
 
@@ -151,11 +151,11 @@ This table show how the ESP is connected with the SenseAir.
 If you place the sensor on top of the ESP mini, it fits perfect in the DIY box.
 
 You need to drill a hole in the edge of the box so the USB power cable can go through it.
-![perfect fit in case](co2_images/case_fit_co2_sensor.jpg)
+![perfect fit in case](images_co2/case_fit_co2_sensor.jpg)
 
 I drilled some holes in the case. Now the air can reach the Co2 sensor inside the box.
 
-![holes in case](co2_images/holes_in_case.jpg)
+![holes in case](images_co2/holes_in_case.jpg)
 
 ---
 
