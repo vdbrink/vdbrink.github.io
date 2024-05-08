@@ -3,13 +3,15 @@ title: ESPHome SenseAir S8 Co2 sensor
 date: 2022-06-24
 category: ESPHome
 tags: Co2, ESP8266, ESPHome, Home Assistant, air quality
+image: /esphome/images_co2/case_fit_co2_sensor.jpg
 ---
+
 # ESPHome Co2 sensor
 *Based on the SenseAir S8 sensor*
 
 ## Introduction
 
-<img src="co2_images/senseair_s8.jpg" alt="zigbee" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_co2/senseair_s8.jpg" alt="zigbee" height="150px" style="margin-left:15px;float:right"/>
 
 There are not so many affordable out-of-the-box Co2 sensors available, but it's easy to create one yourself.
 With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
@@ -56,7 +58,6 @@ Inside a Co2 sensor and an ESP mini.
   * [Dashboard Line Graphic](#dashboard-line-graphic)
   * [Dashboard History Graphic](#dashboard-history-graphic)
   * [Dashboard condition text](#dashboard-condition-text)
-  * [Dashboard bad condition text](#dashboard-bad-condition-text)
   * [Dashboard Mushroom entity](#dashboard-mushroom-entity)
 <!-- TOC -->
 
@@ -66,16 +67,16 @@ Inside a Co2 sensor and an ESP mini.
 
 These hardware components did I use for this project:
 
-* SenseAir S8 Co2 sensor [link 1](https://s.click.aliexpress.com/e/_mM6V8we) [link 2](https://s.click.aliexpress.com/e/_oCFOEJ6)
+* [SenseAir S8 Co2 sensor](../buy/esphome_diy#senseair-s8)
 
-<img src="co2_images/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
+<img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
 
-* ESP 12S Wemos D1 mini (no pro or V3) [link 1](https://s.click.aliexpress.com/e/_ooKDQkk)
+* [ESP 12S Wemos D1 mini (no pro or V3)](../buy/esphome_diy#esp-d1-mini)
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* Dupont male to male wires [link 1](https://s.click.aliexpress.com/e/_DEy2mvt) [link 2](https://s.click.aliexpress.com/e/_EIjrYwZ)
+* [Dupont male to male wires](../buy/esphome_diy#dupont)
   * If you order these, you can better order all three types at ones, also for any further projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
@@ -84,21 +85,19 @@ These hardware components did I use for this project:
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* Micro USB cable to power the ESP board [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
+* [Micro USB cable to power the ESP board](../buy/esphome_diy#micro-usb-power-cable)
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_EQrXcuH) [link 2](https://s.click.aliexpress.com/e/_mqQDOme)
+* [5V USB power adapter to power the ESP](../buy/esphome_diy#5v-usb-adapter)
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-* Soldering iron. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
-  [link 1](https://s.click.aliexpress.com/e/_DEDR08n)
+* [Soldering iron](../buy/esphome_diy#soldering-iron). I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
-* Soldering tin wire
-[link 1](https://s.click.aliexpress.com/e/_DEDR08n)
+* [Soldering tin wire](../buy/esphome_diy#soldering-tin-wire)
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 
@@ -134,7 +133,7 @@ The ESP and sensor don't come with pins, so you need to solder a bit to connect 
 
 | Connected pins                                                                                                     | ESP8266 Wemos <br>D1 mini pins                                                                        | SenseAir S8 pins                                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="co2_images/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESPHome SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="co2_images/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> This image is 180 degrees rotated compared with the first image. |
+| <img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESPHome SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> This image is 180 degrees rotated compared with the first image. |
 
 This table show how the ESP is connected with the SenseAir.
 
@@ -217,7 +216,7 @@ Ones the sensor pushes the data, you can use and present the data on your dashbo
 In a Gauge, you can directly see if the current co2 value is correct.
 I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction). 
 
-<img src="co2_images/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
+<img src="images_co2/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -237,7 +236,7 @@ name: Room Co2 sensor
 
 To show the history of the last X hours, you can use the card.
 
-<img src="co2_images/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
+<img src="images_co2/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -251,7 +250,7 @@ hours_to_show: 6
 
 ### Dashboard History Graphic
 
-[//]: # (<img src="co2_images/home_assistant_co2_history_graph.jpg" alt="Home Assistant History Graph" width="500px" />)
+[//]: # (<img src="images_co2/home_assistant_co2_history_graph.jpg" alt="Home Assistant History Graph" width="500px" />)
 
 Another graph entity is the `history-graph`.
 

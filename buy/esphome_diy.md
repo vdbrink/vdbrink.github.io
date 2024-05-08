@@ -125,13 +125,13 @@ SenseAir S8 Co2 sensor.
 SCD40 or SCD41 Co2 sensor are compact Co2, humidity and temperature sensors. 
 Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
 
-<a href="https://www.tinytronics.nl/nl/sensoren/lucht/vochtigheid/gy-scd40-module-co2-luchtvochtigheid-en-temperatuursensor-i2c" target="_blank">
-<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 41 WITHOUT soldering due to a i2c cable (tinytronics.nl)" /></a>
+<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
+<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 41 WITHOUT soldering due to a i2c cable (Aliexpress)" /></a>
 
 <a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">
 <img src="../esphome/images_co2/scd41.webp" height="180px" alt="SCD 41 with soldering (aliexpress)" /></a>
 
-{{imgBasket}}<a href="https://www.tinytronics.nl/nl/sensoren/lucht/vochtigheid/gy-scd40-module-co2-luchtvochtigheid-en-temperatuursensor-i2c" target="_blank">link 1 SCD41 WITHOUT requires soldering (tinytronics.nl)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">link 1 SCD41 WITHOUT requires soldering (Aliexpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 2 SCD41 which requires soldering (Aliexpress)</a>
 
@@ -211,7 +211,7 @@ USB-A to USB-C cable to power the ESP32.
 5V USB power adapter to power multiple usb devices, with fast charging with 3.1A.
 
 <a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
-<img src="images_diy/usb_power_charger.webp" alt="5V USB power adapter" width="200px"/></a>
+<img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link 2</a>
 
