@@ -65,6 +65,8 @@ Inside a Co2 sensor and an ESP mini.
 
 ## Required hardware
 
+The links go to an overall page with all different kinds of DIY components with their webshop links.
+
 These hardware components did I use for this project:
 
 * [SenseAir S8 Co2 sensor](../buy/esphome_diy#senseair-s8)
