@@ -19,6 +19,7 @@ I created dashboards with all kinds of elements in it:
 * Templates:
   * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
+  * [Aurora integration](homeassistant_aurora) Aurora Borealis alert
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
   * [External sites](homeassistant_dashboard_weather) (Thunderstorm) 
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)

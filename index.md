@@ -31,6 +31,7 @@ I want to share and inspire other people, so they can improve their own home aut
 ---
 My latest big updates on this blog:
 
+* [Home Assistant: Aurora Borealis integration](homeassistant/homeassistant_aurora)
 * [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
 * [ESPHome DIY sensors - best buy tips](buy/esphome_diy)
 * [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
