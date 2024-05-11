@@ -9,6 +9,8 @@ image: /zigbee/images/zigbee.jpg
 
 Zigbee is a local smart home protocol.
 
+---
+
 ## Links
 
 How to create custom Zigbee sensors:

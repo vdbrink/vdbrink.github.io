@@ -16,7 +16,6 @@ I had no leak sensor direct available, and they were at that time quite expensiv
 
 Water conducts current, so I thought I could also create from a contact sensor a leak sensor with just a small modification, and so I did.
 
-<br><br>
 Nowadays, these [leak sensors](../buy/smart_home_best_buy_tips#leak-sensor) are wide available, and you can buy them for the same price as a contact sensor but if you want to create one based on a contact sensor it's also possible ;) 
 
 <a href="../buy/smart_home_best_buy_tips#leak-sensor">
@@ -56,12 +55,12 @@ You only need a zigbee contact sensor and two wires:
 ## Assemblage
 
 Open the contact sensor. Now you see the black part, this is a reed switch.
-When you hold a magnet close enough by it will make a closed circuit.
+When you hold a magnet close enough to it, it will make a closed circuit.
 
 <img src="images_leak/leak_sensor_reed_switch.jpg" alt="reed switch"/>
 
-
-Use two dupont cables, remove the connectors at one end and remove for a centimeter at the end the isolation.
+Use two dupont cables, remove the connectors at one end and remove for a centimeter at the end the isolation 
+and solder them to the reed switch.
 
 <img src="images_leak/leak_sensor_assemblage.jpg" alt="diy zigbee leak sensor assemblage" height="450px"/>
 
