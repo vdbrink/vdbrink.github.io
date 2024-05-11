@@ -2,6 +2,7 @@
 title: Node-RED
 categories: Node-RED
 tags: Node-RED, MQTT, Home Assistant
+image: /node-red/images/banner.png
 ---
 # Node-RED
 
