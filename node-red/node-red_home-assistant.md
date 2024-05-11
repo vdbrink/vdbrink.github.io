@@ -6,10 +6,10 @@ tags: Node-RED, Home Assistant
 
 # Node-RED + Home Assistant: team work
 
-
-<a href="node-red_home-assistant"><img src="../homeassistant/images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
-
+<a href="node-red_home-assistant">
+<img src="../homeassistant/images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
 <img style="float: right;" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
+</a>
 
 Combine the power of Node-RED and Home Assistant (also called here just 'HA').
 
