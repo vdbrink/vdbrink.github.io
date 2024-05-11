@@ -24,9 +24,6 @@ Set a threshold which sets a sensor value on `On` when the change is high to see
 
 More info about this integration [www.home-assistant.io/integrations/aurora](https://www.home-assistant.io/integrations/aurora)
 
-> **_NOTE:_** On the evening of the big visibility of northern light, this integration value was for me only 9% with binary_sensor off.\
-> I advise also adding an automation which checks the KP value which should be bigger than 8.
-
 ---
 ## Home Assistant integration: NOAA Aurora Sensor
 
@@ -38,12 +35,12 @@ This Aurora integration uses the NOAA Aurora Forecast service to let you know if
 
 This service adds two sensors, one contains a number 0-100 representing the current likelihood in percentage of visible auroras at your latitude/longitude.
 
-| Sensor Type   | Values  | Description                                                           |
-|---------------|---------|-----------------------------------------------------------------------|
-| binary_sensor | on/off  | on = high chance of Aurora visibility, off = low chance of visibility |
-| sensor        | % value | Percentage chance of visibility                                       |
+| Sensor Type   | Values   | Description                                                           |
+|---------------|----------|-----------------------------------------------------------------------|
+| binary_sensor | on / off | on = high chance of Aurora visibility, off = low chance of visibility |
+| sensor        | % value  | Percentage chance of visibility                                       |
 <br>
-<img src="images_aurora/aurora_sensors.png" alt="two sensors added" width="250px">
+<img src="images_aurora/aurora_sensors.png" alt="two sensors added" width="300px">
 
 By default, this sensor is set up to trigger when the reported likelihood for your location is > 75. You can change this value in the settings.
 
