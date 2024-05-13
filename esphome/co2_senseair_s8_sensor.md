@@ -252,7 +252,7 @@ hours_to_show: 6
 
 ### Dashboard History Graphic
 
-[//]: # (<img src="images_co2/home_assistant_co2_history_graph.jpg" alt="Home Assistant History Graph" width="500px" />)
+<img src="images_co2/home_assistant_co2_history_graph.png" alt="Home Assistant History Graph" width="500px" />
 
 Another graph entity is the `history-graph`.
 
