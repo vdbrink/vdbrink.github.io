@@ -1,7 +1,9 @@
 ---
 title: "Home Assistant dashboard: Mealie Recipe Manager"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner
+tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner]
+date: 10-03-2024
+description: "How to install and integrate the recipe and meal planner Mealie into Home Assistant"
 image: /homeassistant/images_mealie/mealie1_ha_integration.png
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
@@ -44,7 +46,7 @@ Here you find how I seamlessly integrate the recipe manager **Mealie** into my H
 
 How do you manage your recipes? Via bookmarks in your browser? And end up with dead links to great recipes? Or as printed version with notes with your own improvements?
 
-As Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use it while preparing the meals.
+As a Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use it while preparing the meals.
 Also show my day- and week meal planning on the HA kitchen dashboard.\
 I searched for a self-hosting solution and found Mealie most suitable for this purpose.
 
@@ -356,75 +358,77 @@ Now we have stored the names of all the meals for the upcoming days we can use i
 
 <img src="images_mealie/mealie1_ha_weekmenu.png" alt="Week menu" width="400px">
 
-In your dashboard, add a Markdown card with this code.
+In your dashboard, add a Markdown card with this code.\
+Make sure you're in the cards `Code Editor` mode (toggle mode with the blue text in the bottom of the dialog) when you paste this code.\
 The date will be formatted to the short notation for the day of the week.
+
+https://github.com/thomasloven/lovelace-card-mod
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-  - type: markdown
-    content: |-
-      <table> 
-       {% for i in range(7) %}
-           {% set index = i|string %}
-           {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
-           {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
-           {% if meal_date != 'unknown' %} 
-           <tr>
-               <td>
-                {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }}
-               </td> 
-               <td>&nbsp; &nbsp;</td>
-               <td>{{ meal_name }}</td>
-           </tr>
-           {% endif %}
-       {% endfor %}
-      </table>
-    title: week menu
+type: markdown
+title: week menu
+content: >-
+   <table> 
+  {% for i in range(8) %}
+    {% set index = i|string %}
+    {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
+    {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
+    {% if meal_date != 'unknown' %} 
+    <tr>
+      <td>
+        {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }} 
+       <td>&nbsp; &nbsp;</td>
+      <td>{{ meal_name }}</td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+  </table>
 {% endraw %}
 ```
 
 <details>
-  <summary><b>> Click here to open the extended version with clickable text >></b></summary>
+  <summary><b>> Click here to open the extended Markdown version with clickable text to go to your Mealie page >></b></summary>
 <br>
 This extended version makes it possible to click on the menu text and go to the Mealie page.
+Without the card_mod extension, which add some CSS, you see all the text in blue underlined.
 Here is another HACS integration needed, `card-mod`, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a>
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-  - type: markdown
-    content: |-
-      <a href="/lovelace-dashboard/mealie">
-       <table> 
-        {% for i in range(8) %}
-          {% set index = i|string %}
-          {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
-          {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
-          {% if meal_date != 'unknown' %} 
-          <tr>
-            <td>
-              {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }} 
-            </td>
-            <td>&nbsp; &nbsp;</td>
-            <td>{{ meal_name }}</td>
-          </tr>
-          {% endif %}
-        {% endfor %}
-       </table>
-      </a>
-    title: week menu
-    card_mod:
-      style:
-        ha-markdown:
-          $: |
-            a { 
-              all:unset; 
-              color:white ! important;
-              cursor: pointer ! important;
-            }
+type: markdown
+title: week menu
+content: >-
+  <a href="/lovelace-dashboard/mealie">
+   <table> 
+  {% for i in range(8) %}
+    {% set index = i|string %}
+    {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
+    {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
+    {% if meal_date != 'unknown' %} 
+    <tr>
+      <td>
+        {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }}
+       <td>&nbsp; &nbsp;</td>
+       <td>{{ meal_name }}</td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+   </table>
+  </a>
+card_mod:
+  style:
+    ha-markdown:
+      $: |
+        a { 
+          all:unset; 
+          color:white ! important;
+          cursor: pointer ! important;
+        }
 {% endraw %}
 ```
 </details>
