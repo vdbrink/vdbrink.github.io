@@ -1,7 +1,9 @@
 ---
 title: "Household - best buy tips"
+description: "Useful link to buy household items"
+date: 2024-05-01
 category: Buy tips
-tags: Best, Buy, tips, aliexpress, banggood
+tags: [Best, Buy, tips, aliexpress]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

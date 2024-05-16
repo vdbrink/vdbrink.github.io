@@ -1,8 +1,9 @@
 ---
 title: ESPHome SenseAir S8 Co2 sensor
-date: 2022-06-24
+description: "Create your own ESPHome Co2 sensor based on the SenseAir S8 sensor for Home Assistant"
+date: 2024-06-24
 category: ESPHome
-tags: Co2, ESP8266, ESPHome, Home Assistant, air quality
+tags: [Co2, ESP8266, ESPHome, Home Assistant, air quality, senseAir,health]
 image: /esphome/images_co2/case_fit_co2_sensor.jpg
 ---
 
@@ -133,11 +134,11 @@ The ESP and sensor don't come with pins, so you need to solder a bit to connect 
 
 > Use control + click to see the full photos of the connected wires.
 
-| Connected pins                                                                                                     | ESP8266 Wemos <br>D1 mini pins                                                                        | SenseAir S8 pins                                                                                                                                            |
-|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESPHome SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> This image is 180 degrees rotated compared with the first image. |
+| Connected pins                                                                                                    | ESP8266 Wemos <br>D1 mini pins                                                                        | SenseAir S8 pins                                                                                                                                            |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESP to SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> This image is 180 degrees rotated compared with the first image. |
 
-This table show how the ESP is connected with the SenseAir.
+This table shows how the ESP is connected with the SenseAir.
 
 | Wemos pin | GPIO Wemos pin* | SenseAir pin |
 |-----------|-----------------|--------------|

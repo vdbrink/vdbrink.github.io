@@ -52,6 +52,12 @@ Here you find flows to interact between Home Assistant and Node-RED.
 
 * [Node-RED - Home Assistant](node-red_home-assistant)
 
+###  Home Assistant integration
+
+Here you find how to interact between Home Assistant and Node-RED.
+
+* [Node-RED - Home Assistant integration](node-red_home-assistant.md)
+
 ### Advanced flow
 Here you see an example of a script which I use to automatic control my ventilation system.
 You can read all the details about this project on the [Control an Orcon mechanic ventilation system from Home Assistant](../esphome/orcon_mechanic_ventilation) page.

@@ -32,9 +32,11 @@ Her you find a list with hardware, related to computers, which I like and find u
 
 ---
 
-## Screen
+## Monitor
 
-#### Screen light
+#### Monitor light
+
+### Monitor cable
 
 ---
 
@@ -49,6 +51,10 @@ Her you find a list with hardware, related to computers, which I like and find u
 ---
 
 ## Laptop stand
+
+---
+
+## Phone charger
 
 ---
 
@@ -68,8 +74,19 @@ Her you find a list with hardware, related to computers, which I like and find u
 
 ---
 
-## Clock
+## Microphone
+
+Razer 
 
 ---
 
-## 
+## Clock
+
+
+---
+
+## Decoration
+
+### Plastic plants
+
+### Mug

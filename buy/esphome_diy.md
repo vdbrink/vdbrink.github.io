@@ -1,7 +1,9 @@
 ---
 title: "ESPHome DIY sensors - best buy tips"
+description: "Useful link to buy sensors and tools to create your own sensors with ESPHome for Home Assistant"
+date: 2024-05-07
 category: Buy tips
-tags: Best, Buy, tips, aliexpress, banggood, ESPHome, sensors, soldering
+tags: [Best, Buy, tips, aliexpress, banggood, ESPHome, sensors, soldering]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -10,8 +12,7 @@ tags: Best, Buy, tips, aliexpress, banggood, ESPHome, sensors, soldering
 ## Introduction
 
 <img src="../esphome/images_co2/case_fit_co2_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
-If you want to create your own sensors with ESPHome you need an ESP development board 
-where you can load the software to read the sensors and send this data over the network to your home server. 
+If you want to create your own sensors with ESPHome you need an ESP development board where you can load the software to read the sensors and send this data over the network to your home server. 
 
 If you're afraid to solder some pins or connect the ESP to the sensor, look for some tutorials and give it a try. 
 You can also look for ESPs and sensors with already pins, then with dupont cables you don't need to soldering at all.
@@ -126,7 +127,7 @@ SCD40 or SCD41 Co2 sensor are compact Co2, humidity and temperature sensors.
 Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
-<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 41 WITHOUT soldering due to a i2c cable (Aliexpress)" /></a>
+<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 40 WITHOUT soldering due to a i2c cable (Aliexpress)" /></a>
 
 <a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">
 <img src="../esphome/images_co2/scd41.webp" height="180px" alt="SCD 41 with soldering (aliexpress)" /></a>

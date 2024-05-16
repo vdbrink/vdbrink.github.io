@@ -1,7 +1,8 @@
 ---
 title: "Hardware tools - best buy tips"
+description: "Useful link to buy hardware tools"
 category: Buy tips
-tags: Best, Buy, tips, aliexpress, banggood
+tags: [Best, Buy, tips, aliexpress]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

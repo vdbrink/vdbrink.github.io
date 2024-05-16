@@ -1,14 +1,16 @@
 ---
 title: "DIY Zigbee chair occupancy sensor"
-category: Buy tips
-tags: diy, zigbee, chair, occupancy, sensor
+description: "Create your own DIY Zigbee chair occupancy sensor"
+category: Zigbee
+tags: [diy, zigbee, chair, occupancy, sensor, office]
+image: /zigbee/images_chair/zigbee_chair_sensor.jpg
 ---
 
 # DIY Zigbee chair occupancy sensor
 
 ## Introduction
 
-<img src="../esphome/images_chair/zigbee_chair_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
+<img src="images_chair/zigbee_chair_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
 
 ---
 

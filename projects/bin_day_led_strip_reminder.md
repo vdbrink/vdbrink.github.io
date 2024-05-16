@@ -2,6 +2,7 @@
 title: "Bin day - LED strip reminder"
 category: Bin day
 tags: Home Assistant, afvalbeheer, bin day, LED, strip 
+image: /homeassistant/images_afvalbeheer/kliko.jpg
 ---
 
 # Bin day - LED strip reminder

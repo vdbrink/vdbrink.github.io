@@ -137,6 +137,7 @@ With this flow you can check a website for the actual price of a product.
 * **[debug node]** Gets only the message when the product has the desired price. This node should be replaced and connected with your own configured notification app.
 
 This is how this message looks like in Telegram.
+
 <img src="images_pricewatch/notification.jpg" height="150px" alt="notification">
 
 ---
@@ -179,9 +180,9 @@ Selector:       .js-product-order-form .sales-price__current
 
 Price formatter: $number((payload.$split(',')[0]))
 ```
-[Download an example flow](/flows/)
+[Download an example flow](flows/vdbrink_pricewatch.json)
 
-If they change their site structure this will break. Let me know [here](#remarks-or-suggestions) if one is broken then I can fix it.
+If they change their site structure, this will break. Let me know [here](#remarks-or-suggestions) if one is broken then I can fix it.
 
 ---
 

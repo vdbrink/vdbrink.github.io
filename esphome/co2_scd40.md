@@ -1,8 +1,9 @@
 ---
 title: ESPHome SCD40 Co2 sensor
+description: "Create your own ESPHome Co2 sensor based on the SCD40 sensor for Home Assistant"
 date: 2022-06-24
 category: ESPHome
-tags: Co2, ESP8266, ESPHome, Home Assistant, SCD40, SCD41, SCD4x
+tags: [Co2, ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering]
 image: /esphome/images_scd40/hardware.jpg
 ---
 
@@ -37,7 +38,9 @@ The base value outside is around 400 ppm.
 
 ## My solution
 
+The easiest way to start with ESPHome.
 No soldering required.
+You only need to connect the wires to the ESP and flash the correct software.
 
 <img src="images_scd40/hardware.jpg" alt="hardware connected" height="400px"/>
 
@@ -56,30 +59,53 @@ No soldering required.
 
 These hardware components do I use for this project:
 
-* GY-SCD40 or GY-SCD41 Co2 and temperature sensor
+GY-SCD40 Co2 and temperature sensor
 
+<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
+<img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 Co2 sensor without soldering" />
+<br>
+This is useful if you don't want to solder (Aliexpress)</a>
+<br>
 
-<img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 Co2 sensor" />
+<a href="https://s.click.aliexpress.com/e/_DkxNtJN" target="_blank">
+<img src="images_scd40/csd40_with_pins.jpg" height="130px" alt="GY-SCD40 Co2 sensor WITH soldering" />
+<br>
+This is the cheaper variant when you're willing to solder (Aliexpress)</a>
 
-* ESP8266 NodeMCU v3 with pins
+<br>
+<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
+<br>
+ESP8266 NodeMCU v3 with pre soldered pins (Aliexpress)
+<br>
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
-
-* plastic DIY Case
-
+<br>
+<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">link 2 (Aliexpress)</a>
+<br>
+<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
+<br>
+Plastic DIY Case, minimal required height is 8 cm (Aliexpress)
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
+</a>
+<br>
 
-* Micro USB cable to power the ESP
+<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
+Micro USB cable to power the ESP(Aliexpress)
+<br>
+<img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
+</a>
+<br>
 
-![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* 5V USB power adapter to power the ESP 
-
+<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">
+5V USB power adapter to power the ESP 
+<br>
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+</a>
 
-Also affiliate links are used here.
+Affiliate links are used here.
 
-Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
+Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - best buy tips](../buy/esphome_diy) for alternative links.
 
 ---
 
@@ -94,19 +120,21 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 ## Connect the hardware
 
 I've made a scheme how to connect the GY SCD40 to the ESP.
-This sensor use an i2c interface to connect to the ESP. 
+This sensor uses an i2c interface to connect to the ESP. 
 The ESP has predefined pins for SDA and SDL. I use here a ESP8266 chipset.
 
-| ESP pin | GPIO esp8266 pin | SCD40 pin   |
-|---------|------------------|-------------|
-| D2      | GPIO4            | SDA (data)  |
-| D1      | GPIO5            | SDL (clock) |
-| G       | GND              | GND         |
-| 3V      | 3 V              | VCC         |
+| ESP pin | GPIO esp8266 pin | SCD40 pin   | color |
+|---------|------------------|-------------|--|
+| D2      | GPIO4            | SDA (data)  ||
+| D1      | GPIO5            | SDL (clock) ||
+| G       | GND              | GND         ||
+| 3V      | 3 V              | VCC         ||
 
-### Connect the GY SCD40 to the ESP
+### Connect the SCD40 to the ESP
 
 > Use control + click to see the full photos of the connected wires.
+
+<img src="images_scd40/" height="500px" alt="Connect schema ESP to SCD40" />
 
 ---
 

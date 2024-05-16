@@ -1,13 +1,12 @@
 ---
 title: "Node-RED + Home Assistant: Full moon"
 category: Node-RED
-tags: Node-RED, Home Assistant, integration, moon
+tags: [Node-RED, Home Assistant, integration, moon]
 ---
 
 {% capture imgHeight %}50{% endcapture %}
 
 # Node-RED + Home Assistant: Full moon
-
 
 <a href="node-red_home-assistant">
 <img src="../homeassistant/images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
@@ -40,7 +39,6 @@ State type [string]
 ```
 
 <img src="images_ha/full_moon_state_node.png" width="400px" alt="flow Node-RED full moon"/>
-
 
 ---
 
