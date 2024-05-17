@@ -27,7 +27,7 @@ For your, and your family health, it's important to act when these values are to
 
 The base value is what you measure outside and is around 400 ppm.
 
-This table show for which value, which action is required.
+This table shows for which value, which action is required.
 
 | ppm        | condition | action                              |
 |------------|-----------|-------------------------------------|
@@ -149,11 +149,13 @@ The ESP has predefined pins for SDA and SDL. I use here a ESP8266 chipset.
 | G       | GND              | GND         | black  |
 | 3V      | 3 V              | VCC         | red    |
 
+<!--
 ### Connect the SCD40 to the ESP
 
 > Use control + click to see the full photos of the connected wires.
 
 <img src="images_scd40/" height="500px" alt="Connect schema ESP to SCD40" />
+-->
 
 ---
 
