@@ -13,16 +13,21 @@ image: /esphome/images_scd40/hardware.jpg
 
 ## Introduction
 
-<img src="images_scd40/hardware.jpg" alt="SCD40" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_scd40/SCD40_co2_with_cable.webp" alt="SCD40" height="150px" style="margin-left:15px;float:right"/>
 
-There are Co2 sensors available, most of them are really expensive.
-You can also create one yourself with just a single sensor and an ESP board. 
-It's easy (and fun) to create one yourself, and with this one NO SOLDERING REQUIRED!!
+There are Co2 sensors available, most of them are really expensive but 
+you can also create one yourself with just a single sensor and an ESP board. 
+It's easy (and fun) to create one yourself. 
+You can even create this one WITHOUT SOLDERING!!
 
 Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
-If your in a space with a too high ppm level, you can feel tired, your start yawning and can get a headache.
 
-The base value outside is around 400 ppm.
+If your in a space with a too high ppm level, you can feel tired, your start yawning and can get a headache.
+For your, and your family health, it's important to act when these values are too high.
+
+The base value is what you measure outside and is around 400 ppm.
+
+This table show for which value, which action is required.
 
 | ppm        | condition | action                              |
 |------------|-----------|-------------------------------------|
@@ -34,15 +39,20 @@ The base value outside is around 400 ppm.
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
+In Home Assistant you can visualize how the Co2 value changed over time. Read along how you create this graph yourself.
+
 ---
 
 ## My solution
 
-The easiest way to start with ESPHome.
-No soldering required.
-You only need to connect the wires to the ESP and flash the correct software.
+This sensor is the easiest way to start with ESPHome.\
+No soldering required here.\
+You only need to connect the wires to the ESP and flash the correct configuration.
 
+<a href="images_scd40/hardware.jpg">
 <img src="images_scd40/hardware.jpg" alt="hardware connected" height="400px"/>
+</a>
+You click on the photo to open it fullscreen.
 
 ---
 
@@ -57,53 +67,59 @@ You only need to connect the wires to the ESP and flash the correct software.
 
 ## Required hardware
 
-These hardware components do I use for this project:
+These hardware components do I use for this project.
 
-GY-SCD40 Co2 and temperature sensor
+Affiliate links are used here. Same price, but you also sponsor this blog.
+
+### GY-SCD40 Co2 and temperature sensor
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
+This sensor is useful if you don't want to solder (Aliexpress)
+<br>
 <img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 Co2 sensor without soldering" />
-<br>
-This is useful if you don't want to solder (Aliexpress)</a>
-<br>
+</a>
 
-<a href="https://s.click.aliexpress.com/e/_DkxNtJN" target="_blank">
-<img src="images_scd40/csd40_with_pins.jpg" height="130px" alt="GY-SCD40 Co2 sensor WITH soldering" />
-<br>
-This is the cheaper variant when you're willing to solder (Aliexpress)</a>
+### ESP board
 
-<br>
+You can use any ESP board: [ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../buy/esphome_diy#esp-d1-mini), on this page I use a ESP8266.
+
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
-<br>
-ESP8266 NodeMCU v3 with pre soldered pins (Aliexpress)
+ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (Aliexpress)
 <br>
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
 <br>
-<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">link 2 (Aliexpress)</a>
+<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">Alternative link (Aliexpress)</a>
 <br>
+
+### Case
+
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-<br>
 Plastic DIY Case, minimal required height is 8 cm (Aliexpress)
+<br>
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 </a>
 <br>
 
+### USB power cable
+
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
-Micro USB cable to power the ESP(Aliexpress)
+Micro USB cable to USB A to power the ESP (Aliexpress)
 <br>
 <img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
 </a>
 <br>
 
+### 5V USB power adapter
 
 <a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">
-5V USB power adapter to power the ESP 
+5V USB power adapter to power the ESP  (Aliexpress)
 <br>
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 </a>
 
-Affiliate links are used here.
+<br>
+<br>
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - best buy tips](../buy/esphome_diy) for alternative links.
 
@@ -111,9 +127,12 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ## Required software
 
-* <a href="https://www.python.org/" target="_blank">Python</a> to run ESPHome
-* <a href="https://esphome.io/guides/getting_started_command_line.html#first-uploading" target="_blank">ESPHome</a> to flash the ESP
-* <a href="https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers" target="_blank">Windows driver chp340</a> to recognize the ESP as connected device
+### ESPHome
+
+The only software you need is ESPHome.
+
+There are a lot of ways to flash the config file with ESPHome to the board.\
+Read [here](esphome_flashing) how to upload it.
 
 ---
 
@@ -123,12 +142,12 @@ I've made a scheme how to connect the GY SCD40 to the ESP.
 This sensor uses an i2c interface to connect to the ESP. 
 The ESP has predefined pins for SDA and SDL. I use here a ESP8266 chipset.
 
-| ESP pin | GPIO esp8266 pin | SCD40 pin   | color |
-|---------|------------------|-------------|--|
-| D2      | GPIO4            | SDA (data)  ||
-| D1      | GPIO5            | SDL (clock) ||
-| G       | GND              | GND         ||
-| 3V      | 3 V              | VCC         ||
+| ESP pin | GPIO esp8266 pin | SCD40 pin   | color  |
+|---------|------------------|-------------|--------|
+| D2      | GPIO4            | SDA (data)  | white  |
+| D1      | GPIO5            | SDL (clock) | yellow |
+| G       | GND              | GND         | black  |
+| 3V      | 3 V              | VCC         | red    |
 
 ### Connect the SCD40 to the ESP
 
