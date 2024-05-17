@@ -339,9 +339,14 @@ With this cable, you can read your smart meter to read the gas and energy consum
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (Aliexpress)</a>
 
-
 ---
 
-See also [Zigbee Smart home - best buy tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
+## Internal links
 
-See also [all my best buy tip pages](../) 
+Links to other sections of this blog:
+
+* [ESPHome custom sensors and actuators](../esphome/index) how to create your own sensors with ESPHome.
+
+* [Zigbee Smart home - best buy tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
+
+* [All my best buy tip pages](index) 
