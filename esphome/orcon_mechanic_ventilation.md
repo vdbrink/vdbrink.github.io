@@ -92,19 +92,20 @@ These hardware components do I use for this project:
 
 ![Dupont female to female wires](orcon_images/flat_cable_8pins_1mm.jpg "Dupont female to female wires")
 
-* Micro USB cable to power the ESP [link 1](https://s.click.aliexpress.com/e/_onj6tZi)
+* [Micro USB cable](../buy/esphome_diy#micro-usb-power-cable) to power the ESP.
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* 5V USB power adapter to power the ESP [link 1](https://s.click.aliexpress.com/e/_DBB3Upl) [link 2](https://s.click.aliexpress.com/e/_DCdi80b)
+* [5V USB power adapter](../buy/esphome_diy#5v-usb-adapter) to power the ESP.
 
 ![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
 
-* (optional) Smart power socket with power measurement. I use the Zigbee BlitzWolf SHP-13 [link 1](https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741)
+* (optional) Smart power socket with power measurement. 
+* I use the [Zigbee BlitzWolf SHP](../buy/smart_home_best_buy_tips#smart-socket)
 
 ![BlitzWolf SHP-13](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-13")
 
-Also affiliate links are used here.
+Affiliate links are used here.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
 
@@ -333,7 +334,7 @@ With these controls it's only a one way communication, you can only send data to
 
 ### Background
 
-To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose I use a BlitzWolf SHP-15 Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
+To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf SHP-15](../buy/smart_home_best_buy_tips#smart-socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
 Based on the used power I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
