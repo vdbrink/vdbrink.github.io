@@ -1,5 +1,5 @@
 ---
-title: "Node-RED Home Assistant"
+title: "Node-RED Pricewatch"
 category: Node-RED
 tags: Node-RED, price, watch, monitor, sales
 ---

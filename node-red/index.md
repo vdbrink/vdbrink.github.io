@@ -44,6 +44,7 @@ Look at these Cheat Sheets where I described how you can convert values from one
 
 Here you find some basic useful example flows to control light, act on temperatures, etc.
 
+* [Node-RED - Light flows](node-red_light_flows)
 * [Node-RED - Temperature flows](node-red_temperature_flows)
 
 ###  Node-RED + Home Assistant integration

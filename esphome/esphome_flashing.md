@@ -10,10 +10,16 @@ image: esphome/images/esphome.png
 
 ![ESPHome logo](images/esphome.png)
 
+Under contruction.....
+
 # Introduction
 
+The ESP board is a small mini computer with onboard wifi. ESPHome makes it easy to program these boards.
 
-An example how a ESPHome config file looks like:
+You define for each ESP board the connected sensors in a template. In the template, you define your ESP board and which and how the sensors are connected.
+The sensor also automatically register itself to Home Assistant (or sends its data to a MQTT server).
+
+An example of what an ESPHome config file looks like:
 
 ```yaml
 # Sourcecode by vdbrink.github.io

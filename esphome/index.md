@@ -17,12 +17,13 @@ image: /esphome/images/esphome.png
 
 Not every sensor is available on the market as a complete product.
 Sometimes the only way is to create one yourself.\
-It's also fun the build your own. It's also possible to combine multiple sensors together with one ESP board.
+It's also fun to build your own. 
+It's also possible to combine multiple sensors together with one ESP board.
 
 The ESP board is a small mini computer with onboard wifi. ESPHome makes it easy to program these boards.
 
-In ESPHome you define for each sensor a template: you define your ESP board type and how the sensor is connected.
-With a few lines of code it automatically also register itself as sensor to Home Assistant or send its data to a MQTT server.
+You define for each ESP board the connected sensors in a template. In the template, you define your ESP board and which and how the sensors are connected.
+The sensor also automatically register itself to Home Assistant (or sends its data to a MQTT server).
 
 ---
 

@@ -1,4 +1,24 @@
 ---
+title: "Node-RED + Home Assistant: Open apps on Android"
+category: Node-RED
+tags: Node-RED, Home Assistant, open apps, Android, companion app
+---
+
+{% capture imgHeight %}50{% endcapture %}
+
+# Node-RED + Home Assistant: Open apps on Android
+
+
+<a href="node-red_home-assistant">
+<img src="../homeassistant/images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px">
+<img style="float: right;margin-left:15px" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
+</a>
+
+See [initial setup](node-red_home-assistant#initial-setup) for the required additional nodes and setup.
+
+---
+
+---
 title: "Node-RED open apps on your Android phone"
 category: Node-RED
 tags: [Node-RED, phone, android, Home Assistant, apps]
