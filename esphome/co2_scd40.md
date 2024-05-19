@@ -39,7 +39,7 @@ This table shows for which value, which action is required.
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
-In Home Assistant you can visualize how the Co2 value changed over time. Read along how you create this graph yourself.
+In Home Assistant, you can visualize how the Co2 value changed over time. Read along how you create this graph yourself.
 
 ---
 
@@ -57,11 +57,15 @@ You click on the photo to open it fullscreen.
 ---
 
 ## Table of Contents
-- [Required hardware](#required-hardware)
-- [Required software](#required-software)
-- [Connect the hardware](#connect-the-hardware)
-- [ESPHome](#esphome)
-- [Home Assistant](#home-assistant)
+<!-- TOC -->
+  * [My solution](#my-solution)
+  * [Required hardware](#required-hardware)
+  * [Required software](#required-software)
+  * [Connect the hardware](#connect-the-hardware)
+  * [Flash the software](#flash-the-software)
+  * [Test if it works](#test-if-it-works)
+  * [Home Assistant Dashboards](#home-assistant-dashboards)
+<!-- TOC -->
 
 ---
 
@@ -69,9 +73,12 @@ You click on the photo to open it fullscreen.
 
 These hardware components do I use for this project.
 
-Affiliate links are used here. Same price, but you also sponsor this blog.
+Affiliate links are used here. Same price, and you sponsor this blog.
 
-### GY-SCD40 Co2 and temperature sensor
+### SCD40 Co2 sensor
+
+This small gas sensor measures Co2 (in a range 400-2000 ppm), temperature (-10-60 degrees) and humidity (0-100 percent).
+
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 This sensor is useful if you don't want to solder (Aliexpress)
@@ -81,7 +88,8 @@ This sensor is useful if you don't want to solder (Aliexpress)
 
 ### ESP board
 
-You can use any ESP board: [ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../buy/esphome_diy#esp-d1-mini), on this page I use a ESP8266.
+You can use any ESP board: [ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../buy/esphome_diy#esp-d1-mini), 
+but on this page I use an ESP8266.
 
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
 ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (Aliexpress)
@@ -94,14 +102,24 @@ ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (Aliexpress)
 
 ### Case
 
+You can use any object with holes in it, which has a minimum length of 7 cm, width of 3 cm, and a height of 3 cm.\
+The only requirement is that there could be enough air reach the sensor to measure the values from the air.\
+
+It can also be a plastic box from a local shop and drill some holes in it.
+
+Also, a decorative small statuette can be used as long as it is porous or with holes.
+
+On Aliexpress they also sell 
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-Plastic DIY Case, minimal required height is 8 cm (Aliexpress)
+Plastic DIY Cases (Aliexpress)
 <br>
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 </a>
 <br>
 
 ### USB power cable
+
+A cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 Micro USB cable to USB A to power the ESP (Aliexpress)
@@ -112,8 +130,10 @@ Micro USB cable to USB A to power the ESP (Aliexpress)
 
 ### 5V USB power adapter
 
+A power adapter to power the ESP.
+
 <a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">
-5V USB power adapter to power the ESP  (Aliexpress)
+5V USB power adapter (Aliexpress)
 <br>
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 </a>
@@ -129,10 +149,8 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ### ESPHome
 
-The only software you need is ESPHome.
-
-There are a lot of ways to flash the config file with ESPHome to the board.\
-Read [here](esphome_flashing) how to upload it.
+The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
+This is needed to flash the config to the ESP board.
 
 ---
 
@@ -140,7 +158,7 @@ Read [here](esphome_flashing) how to upload it.
 
 I've made a scheme how to connect the GY SCD40 to the ESP.
 This sensor uses an i2c interface to connect to the ESP. 
-The ESP has predefined pins for SDA and SDL. I use here a ESP8266 chipset.
+The ESP has predefined pins for SDA and SDL.
 
 | ESP pin | GPIO esp8266 pin | SCD40 pin   | color  |
 |---------|------------------|-------------|--------|
@@ -149,30 +167,43 @@ The ESP has predefined pins for SDA and SDL. I use here a ESP8266 chipset.
 | G       | GND              | GND         | black  |
 | 3V      | 3 V              | VCC         | red    |
 
-<!--
 ### Connect the SCD40 to the ESP
 
-> Use control + click to see the full photos of the connected wires.
+Connect the four wires direct to the ESP8266 NodeMCU like this.
 
-<img src="images_scd40/" height="500px" alt="Connect schema ESP to SCD40" />
--->
+<a href="images_scd40/hardware.jpg">
+<img src="images_scd40/hardware.jpg" alt="hardware connected" height="400px"/>
+</a>
+
+<a href="images_scd40/hardware_connect.jpg">
+<img src="images_scd40/hardware_connect.jpg" alt="hardware connected cables" height="250px"/>
+</a>
+
+You click on the photos to open them in fullscreen.
 
 ---
 
-## ESPHome
+## Flash the software
 ![ESPHome](images/esphome.png)
 
-[ESPHome SCD4X page](https://esphome.io/components/sensor/scd4x.html)
+ESPHome is the software to flash the config file to the ESP board.
 
-[ESPHome I2C page](https://esphome.io/components/i2c.html)
+Their website contains a lot of information about how to config all kinds of sensors.
+Also, the one we used here:
+* [ESPHome SCD4X page](https://esphome.io/components/sensor/scd4x.html)
+* [ESPHome I2C page](https://esphome.io/components/i2c.html)
 
-### Flash the ESP via command line with Python
-
+### Flash with ESPHome
 
 Connect the ESP via USB with the computer.
 
+There are a lot of ways to flash the config file with ESPHome to the board.\
+Read [here](esphome_flashing) how to upload it.
 
-The script:
+
+<img src="images_scd40/python_flash.png" alt="Python Flash output" width="400px">
+
+The YAML script:
 ```yaml
 # Sourcecode by vdbrink.github.io
 esphome:
@@ -180,7 +211,6 @@ esphome:
   comment: Room Co2 sensor
   platform: ESP8266
   board: nodemcuv2
-  arduino_version: latest
 
 wifi:
   ssid: "XXX"
@@ -220,13 +250,38 @@ sensor:
 ```
 
 ---
+## Test if it works
 
-## Home Assistant
+Now the data is flashed, check if the sensor pushes the data correctly.
 
-Ones the sensor pushes the data, you can use and present the data on your dashboards or create notifications when the status is not good.
+### Via console
+If you flash the ESP via the console and enabled logging, 
+you see the readings in the console direct after the ESP is flashed.
+
+<img src="images_scd40/logging_esphome_cmd.png" alt="Logging cmd output" width="400px">
+
+### Via Home Assistant
+
+Ones the ESP is online it automatically registers itself by Home Assistant if you installed ESPHome.
+
+You will see a new device with three entities, Co2, temperature and humidity.
+
+<img src="images_scd40/ha_esphome_entities.png" alt="New ESPHome device" width="250px">
 
 <img src="images_scd40/ha_esphome_device.png" alt="ESPHome device sensors" width="250px">
 
+### Via MQTT
+One way is to test, if the ESP works now, check for incoming MQTT messages (if you enabled it in the config).  
+On Windows you can use the application MQTT Explorer. 
+The sensor sends it data to the topics `/homeassistant/sensor/espscd40` and `/espscd40`
+
+<img src="images_scd40/mqtt_explorer_csd40.png" alt="MQTT data" width="400px">
+
+---
+
+## Home Assistant Dashboards
+
+Now the data is available in Home Assistant we can create dashboard elements to visual it.
 
 ### Dashboard Gauge
 
@@ -254,6 +309,7 @@ To show the history of the last 6 hours, you can use the history-graph-card (or 
 
 <img src="images_co2/home_assistant_co2_history_graph_base.png" alt="Co2 value for the last 6 hours" width="500px"/>
 
+The corresponding dashboard yaml code.
 ```yaml
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
@@ -263,13 +319,11 @@ entities:
 hours_to_show: 6
 ```
 
-### Dashboard History Graphic
+#### Dashboard Graphic with levels
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="Home Assistant History Graph" width="500px" />
 
-Another graph entity is the `history-graph`.
-
-You can also show baseline values by creating a custom sensor with a fixed value.
+You can also show baseline values in the graph by creating some extra custom sensors with a fixed value.
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -284,26 +338,27 @@ hours_to_show: 24
 ```
 
 This is how you create three custom lines in the graph to see the threshold values.
+Add this section to your `configuration.yaml` to create the three static helper sensors.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- sensor:
-    - platform: template
-      sensors:
-        co2_value_800:
-          friendly_name: "good"
-          value_template: 800
-          unit_of_measurement: 'ppm'
-        co2_value_1200:
-          friendly_name: "avarage"
-          value_template: 1200
-          unit_of_measurement: 'ppm'
-        co2_value_1500:
-          friendly_name: "bad"
-          value_template: 1500
-          unit_of_measurement: 'ppm'
+sensor:
+  - platform: template
+    sensors:
+      co2_value_800:
+        friendly_name: "good"
+        value_template: 800
+        unit_of_measurement: 'ppm'
+      co2_value_1200:
+        friendly_name: "medium"
+        value_template: 1200
+        unit_of_measurement: 'ppm'
+      co2_value_1500:
+        friendly_name: "bad"
+        value_template: 1500
+        unit_of_measurement: 'ppm'
 {% endraw %}
 ```
 

@@ -68,6 +68,8 @@ Inside a Co2 sensor and an ESP mini.
 
 The links go to an overall page with all different kinds of DIY components with their webshop links.
 
+Affiliate links are used here. Same price, but you also sponsor this blog.
+
 These hardware components did I use for this project:
 
 * [SenseAir S8 Co2 sensor](../buy/esphome_diy#senseair-s8)
@@ -118,9 +120,10 @@ See [ESPHome DIY sensors best buy tips](../buy/esphome_diy) for more DIY hardwar
 
 For this project, you only need the software to flash the ESP chip with the configuration file.
 
-* <a href="https://www.python.org/" target="_blank">Python</a> to run ESPHome
-* <a href="https://esphome.io/guides/getting_started_command_line.html#first-uploading" target="_blank">ESPHome</a> to flash the ESP
-* <a href="https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers" target="_blank">Windows driver chp340</a> to recognize the ESP as connected device
+The only software you need is ESPHome.
+
+There are a lot of ways to flash the config file with ESPHome to the board.\
+Read [here](esphome_flashing) how to upload it.
 
 ---
 
