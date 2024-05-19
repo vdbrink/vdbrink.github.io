@@ -202,12 +202,12 @@ USB-A to USB-C cable to power the ESP32.
 
 5V USB power adapter to power the ESP.
 
-<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EQrXcuH" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mqQDOme" target="_blank">link 2</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2</a>
 
 5V USB power adapter to power multiple usb devices, with fast charging with 3.1A.
 
