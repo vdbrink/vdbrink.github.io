@@ -81,7 +81,7 @@ This small gas sensor measures Co2 (in a range 400-2000 ppm), temperature (-10-6
 
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
-This sensor is useful if you don't want to solder (Aliexpress)
+This sensor is useful if you don't want to solder (AliExpress)
 <br>
 <img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 Co2 sensor without soldering" />
 </a>
@@ -92,12 +92,12 @@ You can use any ESP board: [ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../b
 but on this page I use an ESP8266.
 
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
-ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (Aliexpress)
+ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (AliExpress)
 <br>
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
 <br>
-<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">Alternative link (Aliexpress)</a>
+<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">Alternative link (AliExpress)</a>
 <br>
 
 ### Case
@@ -109,9 +109,9 @@ It can also be a plastic box from a local shop and drill some holes in it.
 
 Also, a decorative small statuette can be used as long as it is porous or with holes.
 
-On Aliexpress they also sell 
+On AliExpress they also sell 
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-Plastic DIY Cases (Aliexpress)
+Plastic DIY Cases (AliExpress)
 <br>
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 </a>
@@ -122,7 +122,7 @@ Plastic DIY Cases (Aliexpress)
 A cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
-Micro USB cable to USB A to power the ESP (Aliexpress)
+Micro USB cable to USB A to power the ESP (AliExpress)
 <br>
 <img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
 </a>
@@ -133,7 +133,7 @@ Micro USB cable to USB A to power the ESP (Aliexpress)
 A power adapter to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">
-5V USB power adapter (Aliexpress)
+5V USB power adapter (AliExpress)
 <br>
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 </a>

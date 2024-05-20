@@ -2,7 +2,7 @@
 title: Best buy tips
 description: "Useful link to buy hardware for your home automation"
 category: Best buy tips
-tags: [tip, best, buy, aliexpress, home automation]
+tags: [tip, best, buy, AliExpress, home automation]
 ---
 # Best buy tips
 

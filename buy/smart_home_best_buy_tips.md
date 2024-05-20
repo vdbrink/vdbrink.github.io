@@ -24,7 +24,7 @@ On this page, you find my personal favorite sensors, actuator and other home aut
 
 If you need some home automation inspiration, check my [home automation ideas](../ideas/home_automation_ideas) section!
 
-Most devices are for sale by the online shops Aliexpress or Banggood.
+Most devices are for sale by the online shops AliExpress or Banggood.
 I order 90% of my home automation devices on these two sites for years already. 
 You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!
 
@@ -98,7 +98,7 @@ My network grew to 120+ devices today, and it still runs fast.
 
 To avoid interference with Bluetooth or wifi,
 it's better to move the stick away from the server. This is recommended for every stick. 
-You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (Aliexpress)</a> for it.
+You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> for it.
 
 ---
 
@@ -117,9 +117,9 @@ The sensor can also be used attached to other sensors that also return an open o
 <a href="https://s.click.aliexpress.com/e/_DdEILMb" target="blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">Zigbee Contact sensor - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">Zigbee Contact sensor - Aqara (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="blank">Zigbee Contact sensor - Tuya (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
 
 ---
 
@@ -138,11 +138,11 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" style="margin-left:15px;float:left"/></a> &nbsp;
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">Zigbee motion sensor beam, with stand - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">Zigbee motion sensor beam, with stand - Aqara (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">Zigbee motion sensor beam, without stand - Xiaomi (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">Zigbee motion sensor beam, without stand - Xiaomi (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank">Zigbee motion sensor all directions - Tuya (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank">Zigbee motion sensor all directions - Tuya (AliExpress)</a>
 
 ---
 ## Presence detection sensor
@@ -154,7 +154,7 @@ A millimeter wave presence sensor has no need to direct sight. You can hide it i
 It uses 24 GHz to send it signal to detect people in a room.
 It can also detect persons when they don't move, like they sit on a couch. Ideal for the living room or home office.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee mmWave Presence detection sensor (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee mmWave Presence detection sensor (AliExpress)</a>
 
 ---
 
@@ -171,7 +171,7 @@ A smart plug with power consumption metrics can be useful to detect the state of
 I use the Zigbee BlitzWolf SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues. 
 If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-15 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-15 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-13 (Banggood)</a>
 
@@ -184,7 +184,7 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 
 A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. this sensor is useful to make automations like take action if someone is in the shower. Or in the summer when it becomes outside colder than inside.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">Zigbee temperature and humidity sensor - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">Zigbee temperature and humidity sensor - Aqara (AliExpress)</a>
 
 {{imgBasket}}<a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
 
@@ -197,7 +197,7 @@ A temperature sensor is a simple sensor that measures, next to the temperature a
 
 A lux sensor is a sensor that measures the light intensity.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">Zigbee lux sensor - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">Zigbee lux sensor - Aqara (AliExpress)</a>
 <br><br><br><br><br>
 
 ---
@@ -209,7 +209,7 @@ A lux sensor is a sensor that measures the light intensity.
 
 A leak sensor is a sensor that measures if there is water, then the two contacts have a closed circuit because water conducts.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (AliExpress)</a>
 <br><br><br>
 
 ---
@@ -223,7 +223,7 @@ A leak sensor is a sensor that measures if there is water, then the two contacts
 You can replace a normal E27 bulb with Zigbee variant.
 With a colored version, you can use it to inform yourself with a color for different states.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">Zigbee light bulb dimmable colored (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">Zigbee light bulb dimmable colored (AliExpress)</a>
 
 &nbsp;
 <br>
@@ -242,7 +242,7 @@ This LED strip is available in different versions:
 
 <br>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip (AliExpress)</a>
 
 ---
 
@@ -253,9 +253,9 @@ This LED strip is available in different versions:
 <a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">Zigbee wall switch - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">Zigbee wall switch - Aqara (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">Zigbee wall switch - Moes (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">Zigbee wall switch - Moes (AliExpress)</a>
 
 <br>
 <br>
@@ -282,7 +282,7 @@ The easiest way to make a dimmable group with gu10 lights smart.
 
 This button can trigger multiple scenario's because it supports three press types: single-, double- and long press.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (AliExpress)</a>
 <br><br><br><br>
 
 ---
@@ -294,7 +294,7 @@ This button can trigger multiple scenario's because it supports three press type
 
 This button can measure vibrations and rotations in the X, Y and Z direction.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">Zigbee vibration sensor - Aqara (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">Zigbee vibration sensor - Aqara (AliExpress)</a>
 <br><br><br><br>
 
 ---
@@ -306,7 +306,7 @@ This button can measure vibrations and rotations in the X, Y and Z direction.
 
 USB stick to handle heavy GPU processes, like human detection with Frigate. 
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">Coral - Google (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">Coral - Google (AliExpress)</a>
 
 ---
 
@@ -328,9 +328,9 @@ The advantage of these is that they are everywhere available to buy, also in you
 Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
 The downside is that these make the sensor also quite big.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFTjSkm" target="_blank">link 1: rechargeable (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFTjSkm" target="_blank">link 1: rechargeable (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">link 2: non rechargeable (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">link 2: non rechargeable (AliExpress)</a>
 
 ### CR2032
 
@@ -338,9 +338,9 @@ The downside is that these make the sensor also quite big.
 
 This CR2032 is the most commonly used battery. It's small but still has enough power to run sensors for a year.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mNV6Pge" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mNV6Pge" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJIdGI" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJIdGI" target="_blank">link 2 (AliExpress)</a>
 
 ### CR1632
 
@@ -348,9 +348,9 @@ This CR2032 is the most commonly used battery. It's small but still has enough p
 
 This CR1632 battery is a bit smaller than the CR2032.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">link 2 (AliExpress)</a>
 
 ### CR2450
 
@@ -358,9 +358,9 @@ This CR1632 battery is a bit smaller than the CR2032.
 
 This CR2450 battery is a bit thicker than the other ones.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">link 2 (AliExpress)</a>
 
 ### Battery eliminators
 
@@ -372,13 +372,13 @@ There are different variants of them. Replacements for AA or AAA batteries and w
 
 I use these a lot for all kinds of Christmas decorations.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">AA battery replacement with USB (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">AA battery replacement with USB (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBi7yye" target="_blank">AAA battery replacement with USB (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBi7yye" target="_blank">AAA battery replacement with USB (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opJpPLu" target="_blank">AAA battery replacement with power socket EU (Aliexpress)</a> 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opJpPLu" target="_blank">AAA battery replacement with power socket EU (AliExpress)</a> 
 
 ---
 
@@ -390,7 +390,7 @@ USB-A to micro USB cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 <img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
-{{imgBasket}}Micro USB cable (Aliexpress)</a>
+{{imgBasket}}Micro USB cable (AliExpress)</a>
 
 ### USB-C power cable
 
@@ -398,13 +398,13 @@ USB-A to USB-C cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
-{{imgBasket}}USB-C cable (Aliexpress)</a>
+{{imgBasket}}USB-C cable (AliExpress)</a>
 
 ### USB-A extension cable
 
 <a href="https://s.click.aliexpress.com/e/_mstQlFs" target="_blank">
 <img src="images_zigbee/usb_a_extension_cable.webp" height="150px" alt="battery eliminator" /><br>
-{{imgBasket}}USB A Extension Cable Male to Female (Aliexpress)</a>
+{{imgBasket}}USB A Extension Cable Male to Female (AliExpress)</a>
 
 ---
 
@@ -416,9 +416,9 @@ USB-A to USB-C cable to power the ESP.
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
 
 ---
 

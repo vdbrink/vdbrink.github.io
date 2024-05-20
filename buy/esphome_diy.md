@@ -3,7 +3,7 @@ title: "ESPHome DIY sensors - best buy tips"
 description: "Useful link to buy sensors and tools to create your own sensors with ESPHome for Home Assistant"
 date: 2024-05-07
 category: Buy tips
-tags: [Best, Buy, tips, aliexpress, banggood, ESPHome, sensors, soldering]
+tags: [Best, Buy, tips, AliExpress, banggood, ESPHome, sensors, soldering]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -63,7 +63,7 @@ The newer and faster ESP32 board has a dual core processor, bluetooth, usb-c and
 <img src="../esphome/images/esp32.webp" height="180px" alt="ESP32" />
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">ESP-32S WROOM (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">ESP-32S WROOM (AliExpress)</a>
 
 ### ESP8266
 
@@ -73,9 +73,9 @@ The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and i
 <img src="../esphome/images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 NodeMCU v3" />
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">link 2 (AliExpress)</a>
 
 ### ESP D1 mini
 
@@ -86,7 +86,7 @@ This ESP D1 mini is also an ESP8266 variant (don't use the pro or V3)
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
 <img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
@@ -103,7 +103,7 @@ Dht11 is a commonly used temperature and humidity sensor.
 <a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">
 <img src="images_diy/dht11_temperature_sensor.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">link 1 (AliExpress)</a>
 
 ### Co2
 
@@ -117,9 +117,9 @@ SenseAir S8 Co2 sensor.
 <a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">
 <img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">link 2 (AliExpress)</a>
 
 #### SCD41
 
@@ -127,14 +127,14 @@ SCD40 or SCD41 Co2 sensor are compact Co2, humidity and temperature sensors.
 Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
-<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 40 WITHOUT soldering due to a i2c cable (Aliexpress)" /></a>
+<img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 40 WITHOUT soldering due to a i2c cable (AliExpress)" /></a>
 
 <a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">
-<img src="../esphome/images_co2/scd41.webp" height="180px" alt="SCD 41 with soldering (aliexpress)" /></a>
+<img src="../esphome/images_co2/scd41.webp" height="180px" alt="SCD 41 with soldering (AliExpress)" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">link 1 SCD41 WITHOUT requires soldering (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">link 1 SCD41 WITHOUT requires soldering (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 2 SCD41 which requires soldering (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 2 SCD41 which requires soldering (AliExpress)</a>
 
 ### Pressure sensor
 
@@ -143,7 +143,7 @@ This car seat sensor measures if there is pressure on a chair or seat. The outpu
 <a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link 1 (AliExpress)</a>
 
 ### Weight sensor
 
@@ -152,7 +152,7 @@ The HX711 Module comes with four pressure sensors which you can place under your
 <a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">
 <img src="images_diy/weight_sensors.webp" height="180px" alt="weight sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link 1 (AliExpress)</a>
 
 ### Rain gauge sensor
 
@@ -161,7 +161,7 @@ Can be used, together with a contact sensor, to create your own rain gauge senso
 <a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
@@ -172,7 +172,7 @@ The HLK-2410C is a 24GHz occupancy sensor (a.k.a. millimeter wave sensor)
 <a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">
 <img src="images_zigbee/HLK-2410C.png" height="180px" alt="HLK-2410C 24GHz Motion sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
@@ -245,9 +245,9 @@ Dupont are cables to connect the ESP pins with sensors pins. The dupont cables a
 <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">
 <img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">link 2 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">link 2 (AliExpress)</a>
 
 * If you order these, you can better order all three types at ones, also for any further projects.
 
@@ -261,12 +261,12 @@ Only required if they are not already provided.
 <a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">
 <img src="images_diy/pinhead_female.webp" height="180px" alt="pin heads female" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">link 1 (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">
 <img src="images_diy/pinhead_male.webp" height="180px" alt="pin heads male" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
@@ -277,7 +277,7 @@ Plastic DIY Case to fix the esp board and sensor in.
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
 <img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes (AliExpress)</a>
 
 ---
 
@@ -289,14 +289,14 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">
 <img src="../esphome/images/soldering_iron.webp" alt="soldering iron" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (AliExpress)</a>
 
 ### Soldering tin wire
 
 <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">
 <img src="../esphome/images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link 1 (AliExpress)</a>
 
 ### Desoldering
 
@@ -304,7 +304,7 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 <img src="../esphome/images/desoldering.webp" alt="Desoldering" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBED3xN" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBED3xN" target="_blank">link 1 (AliExpress)</a>
 
 ### Breadboard
 
@@ -314,7 +314,7 @@ A breadboard with dupont cables and power connector to test your setup first.
 <img src="../esphome/images/breadboard.webp" alt="breadboard" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
@@ -325,7 +325,7 @@ This receiver can be used to receive or snif signals send by device which uses t
 <a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">
 <img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
@@ -337,7 +337,7 @@ With this cable, you can read your smart meter to read the gas and energy consum
 <img src="images_diy/p1_cable.webp" alt="P1 smart meter cable" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (Aliexpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
