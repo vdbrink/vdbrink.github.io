@@ -10,16 +10,19 @@ image: esphome/images/esphome.png
 
 ![ESPHome logo](images/esphome.png)
 
-Under contruction.....
-
 # Introduction
+
+<img src="images/esp8266_nodemcu.jpg" alt="ESP8266 NodeMCU v3" height="150px" style="margin-left:15px;float:right"/>
 
 The ESP board is a small mini computer with onboard wifi. ESPHome makes it easy to program these boards.
 
 You define for each ESP board the connected sensors in a template. In the template, you define your ESP board and which and how the sensors are connected.
-The sensor also automatically register itself to Home Assistant (or sends its data to a MQTT server).
+The sensor also automatically registers itself to Home Assistant (or sends its data to a MQTT server).
 
-An example of what an ESPHome config file looks like:
+
+
+<details>
+  <summary><b>> Click here to see an example how an ESPHome config file looks like: >></b></summary>
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -52,20 +55,29 @@ sensor:
     humidity:
       name: "co2 humidity"
 ```
-
-![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg)
+</details>
 
 ---
+
+## Detailed info
+
+For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
+
+---
+
+## Command line links
 
 * <a href="https://www.python.org/" target="_blank">Python</a> to run ESPHome
 * <a href="https://esphome.io/guides/getting_started_command_line.html#first-uploading" target="_blank">ESPHome</a> to flash the ESP
 * <a href="https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers" target="_blank">Windows driver chp340</a> to recognize the ESP as connected device
 
-## ESPHome command line
-
 > esphome run file.yaml
 
+---
+
 ## Docker
+
+With this docker-compose file you can run Esphome.
 
 The file docker-compose.yml:
 ```yaml
@@ -90,11 +102,11 @@ services:
 `http://<docker host>:6052/`
 
 ---
-
+<!--
 ## Upload the binary
 
 ### ESP web interface
-
+-->
 
 
 
