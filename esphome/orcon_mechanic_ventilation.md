@@ -120,11 +120,11 @@ I've made close-up photos and a table how everything is connected.
 
 ### Connect the RF15 remote to the ESP
 
-> Use control + click to see the full photos of the connected wires.
+>  Click on the image to see the full photos of the connected wires.
 
-| Connected pins close up                                               | All connected cables                                                       | Pins on a ESP8266 MCU v3                                                                |
-|-----------------------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <img src="orcon_images/esp_wires.jpg" alt="ESP wires" height="300" /> | <img src="orcon_images/wires_connected.jpg" alt="ESP wires" height="300"/> | <img src="images/pins_esp8266_mcu_v3.jpg" alt="Pins on a ESP8266 MCU v3" height="300"/> |
+| Connected pins close up                                                                                        | All connected cables                                                                                                      | Pins on a ESP8266 MCU v3                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="orcon_images/esp_wires.jpg"><img src="orcon_images/esp_wires.jpg" alt="ESP wires" height="300" /></a> | <a href="orcon_images/wires_connected.jpg"><img src="orcon_images/wires_connected.jpg" alt="ESP wires" height="300"/></a> | <a href="images/pins_esp8266_mcu_v3.jpg"><img src="images/pins_esp8266_mcu_v3.jpg" alt="Pins on a ESP8266 MCU v3" height="300"/></a> |
 
 This table show how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
 

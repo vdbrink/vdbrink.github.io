@@ -1,7 +1,7 @@
 ---
 title: Projects
-categories: Projects
-tags: projects
+category: Projects
+tags: [projects]
 ---
 # Projects
 

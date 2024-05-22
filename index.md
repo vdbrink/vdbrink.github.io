@@ -1,6 +1,6 @@
 ---
 title: vd Brink Home Automations
-categories: Home Assistant, ESPHome, Node-RED, Docker, Tasker
+categories: [Home Assistant, ESPHome, Node-RED, Docker, Tasker]
 image: /images/banner.jpg
 ---
 
@@ -31,8 +31,9 @@ I want to share and inspire other people, so they can improve their own home aut
 ---
 My latest big updates on this blog:
 
+* [ESPHome - DIY Co2 sensor - Based on the SCD40 sensor](esphome/co2_scd40)
 * [Home Assistant: Aurora Borealis integration](homeassistant/homeassistant_aurora)
-* [ESPHome - DIY Co2 sensor](esphome/co2_senseair_s8_sensor)
+* [ESPHome - DIY Co2 sensor - Based on the SenseAir S8 sensor](esphome/co2_senseair_s8_sensor)
 * [ESPHome DIY sensors - best buy tips](buy/esphome_diy)
 * [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)

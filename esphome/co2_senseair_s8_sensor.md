@@ -135,11 +135,11 @@ The ESP and sensor don't come with pins, so you need to solder a bit to connect 
 
 ### Connect the SenseAir S8 to the ESP
 
-> Use control + click to see the full photos of the connected wires.
+> Click on the image to see the full photos of the connected wires.
 
-| Connected pins                                                                                                    | ESP8266 Wemos <br>D1 mini pins                                                                        | SenseAir S8 pins                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESP to SenseAir S8" /> | <img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/> | <img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/> <BR> This image is 180 degrees rotated compared with the first image. |
+| Connected pins                                                                                                                                                           | ESP8266 Wemos <br>D1 mini pins                                                                                                                            | SenseAir S8 pins                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="images_co2/schema_senseair_s8_co2_sensor.jpg"><img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESP to SenseAir S8" /> | <a href="images/pins_esp8266_wemos_d1_mini.png"><img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/></a> | <a href="images_co2/senseair_s8_pins.jpg"><img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/></a> <BR> This image is 180 degrees rotated compared with the first image. |
 
 This table shows how the ESP is connected with the SenseAir.
 
