@@ -28,11 +28,14 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
 <!-- TOC -->
   * [ESP board](#esp-board)
   * [Sensors](#sensors)
-    * [Co2](#co2)
+    * [Temperature and humidity sensor](#temperature-and-humidity-sensor)
+    * [Air quality sensor](#air-quality-sensor)
+    * [Co2 sensor](#co2-sensor)
     * [Pressure sensor](#pressure-sensor)
     * [Weight sensor](#weight-sensor)
     * [Rain gauge sensor](#rain-gauge-sensor)
-    * [mmWave](#mmwave)
+    * [Waterproof temperature sensor](#waterproof-temperature-sensor)
+    * [Occupancy sensor (mmWave)](#occupancy-sensor-mmwave)
   * [Cables](#cables)
   * [Power](#power)
   * [USB hub](#usb-hub)
@@ -42,6 +45,7 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
   * [Tools](#tools)
   * [RTL-SDR Radio sniffer for 433 and 868 MHz](#rtl-sdr-radio-sniffer-for-433-and-868-mhz)
   * [P1 cable for smart gas and energy meter](#p1-cable-for-smart-gas-and-energy-meter)
+  * [Internal links](#internal-links)
 <!-- TOC -->
 
 ---
@@ -186,7 +190,7 @@ The DS18B20 sensor is one to measure temperature in wet areas like an aquarium f
 
 ---
 
-### mmWave
+### Occupancy sensor (mmWave)
 
 The HLK-2410C is a 24GHz occupancy sensor (a.k.a. millimeter wave sensor)
 
