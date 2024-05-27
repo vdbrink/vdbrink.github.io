@@ -96,7 +96,7 @@ Sensors are the digital senses. They can measure all different kinds of units, l
 
 Here are some ready-to-use sensors that can be connected direct to an ESP without a challenging circuit with resistors and capacitors, etc.
 
-### Temperature and humidity
+### Temperature and humidity sensor
 
 Dht11 is a commonly used temperature and humidity sensor.
 
@@ -105,7 +105,19 @@ Dht11 is a commonly used temperature and humidity sensor.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">link 1 (AliExpress)</a>
 
-### Co2
+### Air quality sensor
+
+AGS10 TVOC air quality gas sensor.
+
+<a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">
+<img src="images_diy/ags10.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">link 1 (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Des8CFV" target="_blank">link 2 (AliExpress)</a>
+
+
+### Co2 sensor
 
 Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm). 
 If the amount of ppms is too high for a long time, it's not good for you're healthy.
@@ -162,6 +174,15 @@ Can be used, together with a contact sensor, to create your own rain gauge senso
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link 1 (AliExpress)</a>
+
+### Waterproof temperature sensor
+
+The DS18B20 sensor is one to measure temperature in wet areas like an aquarium for example.
+
+<a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">
+<img src="images_diy/ds18b20.webp" height="180px" alt="ds18b20 waterproof temperature sensor" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
