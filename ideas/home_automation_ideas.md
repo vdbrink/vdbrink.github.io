@@ -1,14 +1,15 @@
 ---
 title: "Home Automation Ideas"
+description: "Home automation ideas to make your home smart"
 category: Ideas
-tags: ideas, smart, home, automations
+tags: [ideas, smart, home, automations]
 image: /ideas/images/idea.png
 ---
 
 # Home Automation Ideas
 *to make your home smart*
 
-<img src="images/idea.png" style="float: right;" alt="Idea" height="200px"></a>
+<img src="images/idea.png" style="float: right;" alt="Idea" height="200px">
 
 Below is a list of automation ideas, based on devices and locations in and around the house. <br><br>
 For already a few years, I follow various forums, newsgroups and videos to gather new ideas, which I then incorporate into my own automations.
@@ -249,18 +250,5 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 
 ---
 
-## (Dutch) Inspiration videos
-There are more home automation geeks like me!
-
-Here are some (Dutch) videos for inspiration:
-* [Almere NL (Bright 2024)](https://youtu.be/Q2C1SlfPhKE?si=od3TQVtwhskp71oA)
-* [Home tour on a range, US (Smart Home Solver 2023)](https://www.youtube.com/ZYGYG8tDaDY)
-* [Home tour by Jimmy, US (Smart Home Solver 2023)](https://youtu.be/bzHdg0RLO1I?si=UwcUB_B8I0oOaBjV)
-* [Home tour in Georgia, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=FkfCoRJZlHA&list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99&index=4&pp=iAQB)
-* [Nieuwbouw woning volledig smart maken, deel 2 (FWD Smart Living Project 2021)](https://www.youtube.com/watch?v=W5c6haXNsic)
-* [Nieuwbouw woning volledig smart maken, deel 1 (FWD Smart Living Project 2021)](https://youtu.be/Ff3z3aZfUco?si=c4Hvh6VvqGdYnDpp)
-* [Installatie Hue en Google producten (Tweakers 2019)](https://www.youtube.com/watch?v=zqvJerYvlwg)
-* [Huis van de oprichter van Tweakers (Tweakers 2017)](https://youtu.be/fWcDT4JISn8?si=C6t0YEN1aYmTF_lu)
-* [Huis van de toekomst, met Chriet Titulaer (1989 - 2009)](https://youtu.be/dEsndb8cSn0?si=RisW8OXpGpq5MyYZ)
-<br><br>
-If you know any other great videos that inspired you, let me know via a <a href="#remarks-or-suggestions">message</a>, and I can add it also to this list!
+See also:
+[Home Automation Videos](home_automation_videos) or [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips)
