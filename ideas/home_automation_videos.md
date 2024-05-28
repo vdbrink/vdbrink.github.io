@@ -28,6 +28,8 @@ English spoken home automation videos for inspiration:
 * [Home tour in Georgia, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=FkfCoRJZlHA&list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99&index=4&pp=iAQB)
 * [Home tour by Reed himself, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=yDNWVRmRHlY)
 
+<br>
+
 [The whole playlist of Smart Home Tours by Smart Home Solver](https://www.youtube.com/playlist?list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99)
 <br><br>
 

@@ -9,7 +9,7 @@ image: /ideas/images/idea.png
 # Home Automation Ideas
 *to make your home smart*
 
-<img src="images/idea.png" style="float: right;" alt="Idea" height="150px">
+<img src="images/idea.png" style="float: right;" alt="Idea" height="200px">
 
 Below is a list of automation ideas, based on devices and locations in and around the house. <br><br>
 For already a few years, I follow various forums, newsgroups and videos to gather new ideas, which I then incorporate into my own automations.
