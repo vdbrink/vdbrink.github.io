@@ -11,7 +11,7 @@ image: /ideas/images/idea.png
 <img src="images/video.png" style="float: right;" alt="video" height="200px">
 
 There are more home automation geeks like me, luckily I'm not the only one.\
-I can show my partner there are more people like me!
+I can proof it with these videos to partner.
 
 Here you find some English and Dutch spoken videos that inspired me how other people implement their home automation.
 
