@@ -1,12 +1,15 @@
 ---
 title: Node-RED
-categories: Node-RED
-tags: Node-RED, MQTT, Home Assistant
+description: Node-RED is a graphical programming tool based on blocks (nodes) which can be linked to each other to create automations.
+category: Node-RED
+tags: [Node-RED, MQTT, flows, Home Assistant]
 image: /node-red/images/banner.png
 ---
 # Node-RED
 
 ![Banner](images/banner.png)
+
+<img style="float: right;" src="images/node-red_logo.png" alt="Node-RED logo" width="150px">
 
 Node-RED is a graphical programming tool based on blocks (nodes) which can be linked to each other. 
 Most nodes have an input and an output. Each node can do a single task, it can evaluate or convert the input value. 
@@ -14,7 +17,7 @@ Most nodes have an input and an output. Each node can do a single task, it can e
 Node-RED has also a module/plugin system, which add extra nodes with specific functionality.
 
 I use it for all my automations. 
-* I read local sensors and camera's and based on these input values I act on it.
+* I read local sensors and camera's, and based on these input values I act on it.
 * I control actuators like lights, smart sockets, ESP's or send notifications.
 * I check online website for sales.
 * I use external webservices to add extra functionality to my home automations.
@@ -25,20 +28,15 @@ For more information, check the website: https://nodered.org
 
 ---
 
-<img style="float: right;" src="images/node-red_logo.png" alt="Node-RED logo">
-
 ## Cheat Sheets
 Look at these Cheat Sheets where I described how you can convert values from one to another and example flows.
 
 * [Node-RED Cheat Sheet - Basic Nodes](node-red_cheatsheet-basic_nodes)
 * [Node-RED Cheat Sheet - Function Node](node-red_cheatsheet-function_node)
 
-<br/>
-<br/>
-
 ---
 
-## Examples
+## Example flows
 
 ### Basic flows
 
@@ -52,12 +50,7 @@ Here you find some basic useful example flows to control light, act on temperatu
 Here you find flows to interact between Home Assistant and Node-RED.
 
 * [Node-RED - Home Assistant](node-red_home-assistant)
-
-###  Home Assistant integration
-
-Here you find how to interact between Home Assistant and Node-RED.
-
-* [Node-RED - Home Assistant integration](node-red_home-assistant.md)
+* [Node-RED - Send notifications to Home Assistant app](node-red_homeassistant_notification)
 
 ### Advanced flow
 Here you see an example of a script which I use to automatic control my ventilation system.
@@ -68,4 +61,4 @@ You can read all the details about this project on the [Control an Orcon mechani
 </a>
 
 ---
-[Homepage](../index)
+[Homepage](../index) | [Home Assistant](../homeassistant/index) 
