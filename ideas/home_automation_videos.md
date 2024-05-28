@@ -17,8 +17,6 @@ Here you find some English and Dutch spoken videos that inspired me how other pe
 
 I hope they inspire you too!
 
-<br><br>
-
 ---
 
 ## Inspiration videos
