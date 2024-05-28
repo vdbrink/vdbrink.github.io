@@ -2,8 +2,8 @@
 title: "Home Automation Videos"
 description: "Home automation videos for inspiration"
 category: Ideas
-tags: [ideas, smart, home, automations, videos]
-image: /ideas/images/idea.png
+tags: [ideas, smart, home, automations, videos, inspiration]
+image: /ideas/images/video.png
 ---
 
 # Home Automation Videos
@@ -22,7 +22,7 @@ I hope they inspire you too!
 ## Inspiration videos
 
 English spoken home automation videos for inspiration:
-* [Home tour Home Assistant to the Extreme, US (Smart Home Solver 2024)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
+* [Home tour Home Assistant to the extreme, US (Smart Home Solver 2024)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
 * [Home tour on a range, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=ZYGYG8tDaDY&t=1s)
 * [Home tour by Jimmy, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=bzHdg0RLO1I)
 * [Home tour in Georgia, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=FkfCoRJZlHA&list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99&index=4&pp=iAQB)
