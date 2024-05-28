@@ -8,7 +8,7 @@ image: /ideas/images/idea.png
 
 # Home Automation Videos
 
-<img src="images/video.png" style="float: right;" alt="video" height="200px">
+<img src="images/video.png" style="float: right;" alt="video" height="150px">
 
 There are more home automation geeks like me, luckily I'm not the only one.\
 I can proof it with these videos to partner.
