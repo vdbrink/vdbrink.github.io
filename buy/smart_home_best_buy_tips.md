@@ -3,7 +3,7 @@ title: "Zigbee Smart home - best buy tips"
 description: "Useful link to buy Zigbee sensors other devices for your smart home automation with Home Assistant"
 date: 2024-05-01
 category: Buy tips
-tags: [Best, Buy, tips, Aliexpress, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee]
+tags: [Best, Buy, tips, AliExpress, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee]
 image: /buy/images_zigbee/zigbee_banner.png
 ---
 <meta property="og:image" content={previewImageSrc} />
@@ -27,9 +27,6 @@ If you need some home automation inspiration, check my [home automation ideas](.
 Most devices are for sale by the online shops AliExpress or Banggood.
 I order 90% of my home automation devices on these two sites for years already. 
 You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!
-
-<img src="images/aliexpress.png" alt="Aliexpress" height="30px" />
-<img src="images/banggood.png" alt="Banggood" height="35px" style="margin-left:30px;"/>
 
 ---
 
