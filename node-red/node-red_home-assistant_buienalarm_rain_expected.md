@@ -1,7 +1,7 @@
 ---
 title: "Node-RED + Home Assistant: Rain expected"
 category: Node-RED
-tags: Node-RED, Home Assistant, rain, buienalarm, regen, buienradar
+tags: [Node-RED, Home Assistant, rain, buienalarm, regen, buienradar]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

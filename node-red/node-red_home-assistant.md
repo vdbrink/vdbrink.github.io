@@ -1,7 +1,7 @@
 ---
 title: "Node-RED + Home Assistant: team work"
 category: Node-RED
-tags: Node-RED, Home Assistant
+tags: [Node-RED, Home Assistant]
 ---
 
 # Node-RED + Home Assistant: team work

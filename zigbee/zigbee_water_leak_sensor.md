@@ -1,7 +1,7 @@
 ---
 title: DIY Zigbee leak detector
 category: Zigbee
-tags: Zigbee, diy, "Home Assistant", contact, sensor, detector, Aqara, leak
+tags: [Zigbee, diy, "Home Assistant", contact, sensor, detector, Aqara, leak]
 image: /zigbee/images_leak/leak_sensor_in_action.jpg
 ---
 

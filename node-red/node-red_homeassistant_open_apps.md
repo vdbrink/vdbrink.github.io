@@ -1,7 +1,7 @@
 ---
 title: "Node-RED + Home Assistant: Open apps on Android"
 category: Node-RED
-tags: Node-RED, Home Assistant, open apps, Android, companion app
+tags: [Node-RED, Home Assistant, open apps, Android, companion app]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Examples"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace
+tags: [Home Assistant, dashboard, lovelace]
 ---
 
 # Home Assistant dashboard: Examples

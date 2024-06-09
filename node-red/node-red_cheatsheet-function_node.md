@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Cheat Sheet - Function Node"
 category:  Node-RED
-tags:  Node-RED, node, basic, function
+tags:  [Node-RED, node, basic, function]
 ---
 {% capture imgHeight %}50{% endcapture %}
 # Node-RED Cheat Sheet - Function Node

@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Date & Time"
 date: 2022-06-29
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, date, time
+tags: [Home Assistant, dashboard, lovelace, date, time]
 image: /homeassistant/images/home_assistant_logo.png
 ---
 

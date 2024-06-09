@@ -1,7 +1,7 @@
 ---
 title: "Packages mailbox - Allux 600"
 category: Projects
-tags: Mailbox, package box, mail, node-red, home assistant
+tags: [Mailbox, package box, mail, node-red, home assistant]
 ---
 # Packages mailbox - Allux 600
 

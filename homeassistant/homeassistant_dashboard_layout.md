@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Layout"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, layout
+tags: [Home Assistant, dashboard, lovelace, layout]
 image: /homeassistant/images_layout/ha_layout_banner.png
 ---
 # Home Assistant dashboard: Layout

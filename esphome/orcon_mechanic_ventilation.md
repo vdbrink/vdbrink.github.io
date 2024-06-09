@@ -2,7 +2,7 @@
 title: Control an Orcon mechanic ventilation system from Home Assistant
 date: 2022-06-24
 category: ESPHome
-tags: Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome
+tags: [Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome]
 image: /esphome/orcon_images/home_assistant_orcon_remote_all_types.jpg
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

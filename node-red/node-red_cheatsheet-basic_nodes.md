@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Cheat Sheet - Basic Nodes"
 category:  Node-RED
-tags:  Node-RED, basic, nodes, trigger, delay
+tags:  [Node-RED, basic, nodes, trigger, delay]
 ---
 {% capture imgHeight %}50{% endcapture %}
 # Node-RED Cheat Sheet - Basic Nodes

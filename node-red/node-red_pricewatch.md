@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Pricewatch"
 category: Node-RED
-tags: Node-RED, price, watch, monitor, sales
+tags: [Node-RED, price, watch, monitor, sales]
 ---
 
 # Node-RED Pricewatch

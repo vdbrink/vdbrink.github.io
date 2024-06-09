@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Weather"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, weather, thunder, lightning
+tags: [Home Assistant, dashboard, lovelace, weather, thunder, lightning]
 image: /homeassistant/images/thunderstorm.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Pientere tuinen"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, Pientere tuinen
+tags: [Home Assistant, dashboard, lovelace, Pientere tuinen]
 image: /homeassistant/images_pientere_tuinen/pt-logo.webp
 ---
 

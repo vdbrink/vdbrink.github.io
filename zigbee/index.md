@@ -1,7 +1,7 @@
 ---
 title: Zigbee
 category: Zigbee
-tags: Zigbee
+tags: [Zigbee]
 image: /zigbee/images/zigbee.jpg
 ---
 

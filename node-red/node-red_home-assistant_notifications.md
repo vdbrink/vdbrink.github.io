@@ -1,7 +1,7 @@
 ---
 title: "Node-RED + Home Assistant: Mobile app notifications"
 category: Node-RED
-tags: Node-RED, Home Assistant, camera, companion app
+tags: [Node-RED, Home Assistant, camera, companion app]
 ---
 
 # Node-RED + Home Assistant: Mobile app notifications

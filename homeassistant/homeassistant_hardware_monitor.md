@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant: Hardware monitor"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, cpu, disk, boot, memory, stats, mqtt, load, temp, raspberry
+tags: [Home Assistant, dashboard, lovelace, cpu, disk, boot, memory, stats, mqtt, load, temp, raspberry]
 image: /homeassistant/images/system_monitor.png
 ---
 

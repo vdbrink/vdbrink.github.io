@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Temperature flows"
 category: Node-RED
-tags: Node-RED, temperature, flows
+tags: [Node-RED, temperature, flows]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

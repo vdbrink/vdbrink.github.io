@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard card: Mushroom"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, card, mushroom, minimalistic, icons
+tags: [Home Assistant, dashboard, lovelace, card, mushroom, minimalistic, icons]
 image: /homeassistant/images_mushroom/mushroom_examples.png
 ---
 

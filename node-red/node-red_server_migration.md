@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Server migration"
 category:  Node-RED
-tags:  Node-RED Migration
+tags: [Node-RED Migration]
 ---
 
 # Node-RED Server migration

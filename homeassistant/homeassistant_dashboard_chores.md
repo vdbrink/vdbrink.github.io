@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Chores"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, chores, tasks, todo, checklist, helpers
+tags: [Home Assistant, dashboard, lovelace, chores, tasks, todo, checklist, helpers]
 image: /homeassistant/images_chores/chores_banner.png
 ---
 

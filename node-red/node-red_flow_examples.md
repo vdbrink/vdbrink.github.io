@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Flows examples"
 category: Node-RED
-tags: Node-RED, examples, flows
+tags: [Node-RED, examples, flows]
 ---
 
 # Node-RED Flow Examples

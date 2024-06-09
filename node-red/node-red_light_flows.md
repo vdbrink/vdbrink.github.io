@@ -1,7 +1,7 @@
 ---
 title: "Node-RED Light flows"
 category: Node-RED
-tags: Node-RED Light flows
+tags: [Node-RED Light flows]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

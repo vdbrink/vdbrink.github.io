@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Styling"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, styling
+tags: [Home Assistant, dashboard, lovelace, styling]
 ---
 # Home Assistant dashboard: Styling
 

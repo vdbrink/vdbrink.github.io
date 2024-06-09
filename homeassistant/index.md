@@ -1,7 +1,7 @@
 ---
 title: Home Assistant dashboards
-categories: Home Assistant
-tags: Home Assistant, lovelace, dashboard, weather, dutch, examples
+category: Home Assistant
+tags: [Home Assistant, lovelace, dashboard, weather, dutch, examples]
 image: /homeassistant/images/ha_banner.png
 ---
 # Home Assistant dashboards

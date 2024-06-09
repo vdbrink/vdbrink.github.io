@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Floor plan"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, floor plan
+tags: [Home Assistant, dashboard, lovelace, floor plan]
 image: /homeassistant/images_floorplan/banner.png
 ---
 

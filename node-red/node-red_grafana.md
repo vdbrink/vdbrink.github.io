@@ -1,8 +1,7 @@
-Node-RED Cheat Sheet - Function Node
 ---
 title: "Node-RED Cheat Sheet - Grafana"
 category:  Node-RED
-tags:  Node-RED, grafana
+tags:  [Node-RED, grafana]
 ---
 {% capture imgHeightSmall %}35{% endcapture %}
 # Node-RED Cheat Sheet - Grafana

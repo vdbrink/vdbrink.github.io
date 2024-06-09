@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Formatting"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, formatting
+tags: [Home Assistant, dashboard, lovelace, formatting]
 ---
 
 # Home Assistant dashboard: Formatting

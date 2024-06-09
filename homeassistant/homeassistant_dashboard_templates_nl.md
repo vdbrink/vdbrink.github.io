@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Voorbeeld templates NL"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, templates, nl, weer
+tags: [Home Assistant, dashboard, lovelace, templates, nl, weer]
 image: /homeassistant/images/rain_radar_animated.png
 ---
 

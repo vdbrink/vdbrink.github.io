@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant Aurora Borealis integration"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, aurora
+tags: [Home Assistant, dashboard, lovelace, aurora]
 image: /homeassistant/images_aurora/northernlight.jpg
 ---
 

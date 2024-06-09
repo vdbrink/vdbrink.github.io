@@ -1,7 +1,7 @@
 ---
 title: "Node-RED + Home Assistant: Update helper toggle"
 category: Node-RED
-tags: Node-RED, Home Assistant
+tags: [Node-RED, Home Assistant]
 ---
 
 {% capture imgHeight %}50{% endcapture %}
