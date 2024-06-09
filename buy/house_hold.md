@@ -3,11 +3,24 @@ title: "Household - best buy tips"
 description: "Useful link to buy household items"
 date: 2024-05-01
 category: Buy tips
-tags: [Best, Buy, tips, AliExpress]
+tags: [Best, Buy, tips]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Household - Best buy tips
+
+## Introduction
+
+---
+
+## Table of Contents
+<!-- TOC -->
+<!-- TOC -->
+
+> **_NOTE 1:_** Links on this page are hardware I also bought myself.
+> Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
+
+---
 
 ## Washing machine
 

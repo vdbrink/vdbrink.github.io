@@ -1,7 +1,7 @@
 ---
 title: "Computer - best buy tips"
 category: Buy tips
-tags: Best, Buy, tips, aliexpress, banggood, computer, pc, laptop, home office
+tags: [Best, Buy, tips, computer, pc, laptop, home office]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -61,6 +61,9 @@ Her you find a list with hardware, related to computers, which I like and find u
 ## Cables
 
 ### Cable binders
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkW8dd9" target="_blank">Cable binder (AliExpress)</a>
+
 
 ### USB power cable
 

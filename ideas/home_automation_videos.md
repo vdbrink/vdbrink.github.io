@@ -8,7 +8,7 @@ image: /ideas/images/video.png
 
 # Home Automation Videos
 
-<img src="images/video.png" style="float: right;" alt="video" height="150px">
+<img src="images/video.png" style="float: right;" alt="video" height="100px">
 
 There are more home automation geeks like me, luckily I'm not the only one.\
 I can proof it with these videos to partner.
@@ -22,9 +22,9 @@ I hope they inspire you too!
 ## Inspiration videos
 
 English spoken home automation videos for inspiration:
-* [Home tour Home Assistant to the extreme, US (Smart Home Solver 2024)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
+* [Home tour of a Home Assistant user to the extreme, US (Smart Home Solver 2024)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
 * [Home tour on a range, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=ZYGYG8tDaDY&t=1s)
-* [Home tour by Jimmy, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=bzHdg0RLO1I)
+* [Home tour at Jimmy, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=bzHdg0RLO1I)
 * [Home tour in Georgia, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=FkfCoRJZlHA&list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99&index=4&pp=iAQB)
 * [Home tour by Reed himself, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=yDNWVRmRHlY)
 
@@ -53,4 +53,4 @@ If you know any other great videos that inspired you, let me know via a <a href=
 ---
 
 See also my
-[Home Automation Ideas](home_automation_ideas) or [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips) pages too,
+[Home Automation Ideas](home_automation_ideas) or [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips) pages too.

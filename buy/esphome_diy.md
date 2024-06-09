@@ -3,7 +3,7 @@ title: "ESPHome DIY sensors - best buy tips"
 description: "Useful link to buy sensors and tools to create your own sensors with ESPHome for Home Assistant"
 date: 2024-05-07
 category: Buy tips
-tags: [Best, Buy, tips, AliExpress, banggood, ESPHome, sensors, soldering]
+tags: [Best, Buy, tips, ESPHome, sensors, soldering]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
