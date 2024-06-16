@@ -199,6 +199,15 @@ The HLK-2410C is a 24GHz occupancy sensor (a.k.a. millimeter wave sensor)
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">link 1 (AliExpress)</a>
 
+### Presence sensor (microwave)
+
+The RCWL-0516 presence sensor (a.k.a. micrometer sensor)
+
+<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">
+<img src="../esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1 (AliExpress)</a>
+
 ---
 
 ## Cables

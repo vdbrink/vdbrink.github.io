@@ -52,7 +52,8 @@ You only need to connect the wires to the ESP and flash the correct configuratio
 <a href="images_scd40/hardware.jpg">
 <img src="images_scd40/hardware.jpg" alt="hardware connected" height="400px"/>
 </a>
-You click on the photo to open it fullscreen.
+
+Click on the photo to open it fullscreen.
 
 ---
 
@@ -179,7 +180,7 @@ Connect the four wires direct to the ESP8266 NodeMCU like this.
 <img src="images_scd40/hardware_connect.jpg" alt="hardware connected cables" height="250px"/>
 </a>
 
-You click on the photos to open them in fullscreen.
+Click on the photos to open them in fullscreen.
 
 ---
 
@@ -195,7 +196,7 @@ Also, the one we used here:
 
 ### Flash with ESPHome
 
-Connect the ESP via USB with the computer.
+Connect the ESP via USB to the computer.
 
 There are a lot of ways to flash the config file with ESPHome to the board.\
 Read [here](esphome_flashing) how to upload it.

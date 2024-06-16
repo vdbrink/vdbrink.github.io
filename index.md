@@ -31,8 +31,11 @@ I want to share and inspire other people, so they can improve their own home aut
 ---
 My latest big updates on this blog:
 
-* [Node-RED send notifications to Home Assistant app](node-red/node-red_homeassistant_notification)
-* [Home Automation Inspiration videos](ideas/home_automation_videos)
+[//]: # (* [Bin day - LED strip reminder]&#40;projects/bin_day_led_strip_reminder&#41;)
+[//]: # (* [Home Assistant - HACS Afvalbeheer]&#40;homeassistant/homeassistant_hacs_afvalbeheer&#41;)
+* [ESPHome - DIY presence sensor - Based on the RCWL-0516 sensor](esphome/microwave_radar_sensor_rcwl-0516) 
+* [Node-RED - Send notifications to Home Assistant app](node-red/node-red_homeassistant_notification)
+* [Home Automation - Inspiration videos](ideas/home_automation_videos)
 * [ESPHome - DIY Co2 sensor - Based on the SCD40 sensor](esphome/co2_scd40)
 * [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)

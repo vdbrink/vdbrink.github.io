@@ -31,6 +31,7 @@ The sensor also automatically register itself to Home Assistant (or sends its da
 
 I wrote multiple articles about creating your own wireless wifi sensors and actuators based on the ESP chip with ESPHome:
 
+* [Presence sensor based on the RCWL-0516 sensor](microwave_radar_sensor_rcwl-0516)
 * [Co2 sensor based on a SCD40 sensor](co2_scd40)
 * [Co2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
 * [Control an Orcon mechanic ventilation system](orcon_mechanic_ventilation)

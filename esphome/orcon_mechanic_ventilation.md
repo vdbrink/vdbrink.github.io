@@ -126,7 +126,7 @@ I've made close-up photos and a table how everything is connected.
 |----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | <a href="orcon_images/esp_wires.jpg"><img src="orcon_images/esp_wires.jpg" alt="ESP wires" height="300" /></a> | <a href="orcon_images/wires_connected.jpg"><img src="orcon_images/wires_connected.jpg" alt="ESP wires" height="300"/></a> | <a href="images/pins_esp8266_mcu_v3.jpg"><img src="images/pins_esp8266_mcu_v3.jpg" alt="Pins on a ESP8266 MCU v3" height="300"/></a> |
 
-This table show how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
+This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
 
 | Flat cable +<br>adapter pin | 15RF remote button | Dupont cable color | ESP pin |
 |-----------------------------|--------------------|--------------------|---------|
@@ -163,7 +163,7 @@ In the code, there are also these two ways defined to control the ESP. One via t
 
 ### Flash the ESP
 
-Connect the ESP via USB with the computer.  
+Connect the ESP via USB to the computer.  
 
 Install ESPHome and compile the configuration code after you configured your own wi-fi. And configure (or remove) the MQTT section.
 

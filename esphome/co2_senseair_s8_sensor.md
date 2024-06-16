@@ -137,9 +137,9 @@ The ESP and sensor don't come with pins, so you need to solder a bit to connect 
 
 > Click on the image to see the full photos of the connected wires.
 
-| Connected pins                                                                                                                                                           | ESP8266 Wemos <br>D1 mini pins                                                                                                                            | SenseAir S8 pins                                                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="images_co2/schema_senseair_s8_co2_sensor.jpg"><img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESP to SenseAir S8" /> | <a href="images/pins_esp8266_wemos_d1_mini.png"><img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 Wemos di mini" height="250"/></a> | <a href="images_co2/senseair_s8_pins.jpg"><img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/></a> <BR> This image is 180 degrees rotated compared with the first image. |
+| Connected pins                                                                                                                                                           | ESP8266 Wemos <br>D1 mini pins                                                                                                                      | SenseAir S8 pins                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="images_co2/schema_senseair_s8_co2_sensor.jpg"><img src="images_co2/schema_senseair_s8_co2_sensor.jpg" height="500px" alt="Connect schema ESP to SenseAir S8" /> | <a href="images/pins_esp8266_wemos_d1_mini.png"><img src="images/pins_esp8266_wemos_d1_mini.png" alt="Pins on a ESP8266 d1 mini" height="250"/></a> | <a href="images_co2/senseair_s8_pins.jpg"><img src="images_co2/senseair_s8_pins.jpg" alt="Pins on a SenseAir S8" height="150"/></a> <BR> This image is 180 degrees rotated compared with the first image. |
 
 This table shows how the ESP is connected with the SenseAir.
 
@@ -171,7 +171,7 @@ I drilled some holes in the case. Now the air can reach the Co2 sensor inside th
 
 ### Flash the ESP
 
-Connect the ESP via USB with the computer.
+Connect the ESP via USB to the computer.
 
 Install ESPHome and compile the configuration code after you configured your own wi-fi. And configure (or remove) the MQTT section. This is not needed if you integrate it direct in Home Assistant.
 
