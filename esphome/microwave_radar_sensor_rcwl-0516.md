@@ -2,24 +2,25 @@
 title: ESPHome Presence detection with a microwave radar sensor
 description: "Create your own ESPHome presence sensor based on the RCWL-0516 sensor for Home Assistant"
 category: ESPHome
-tags: [ESP8266, "Home Assistant", ESPHome, D1mini, RCWL-0516]
+tags: [ESP8266, "Home Assistant", ESPHome, D1 mini, RCWL-0516, microwave, presence, occupancy]
 image: /esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg
 ---
+{% capture imgBasket %}<img src="../buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # ESPHome Presence detection with a microwave radar sensor
 
-*Based on the RCWL-0516*
+*Based on the RCWL-0516 sensor*
 
 ## Introduction
 
 <img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="150px" style="margin-left:15px;float:right"/>
 
-The microwave radar sensor is a presence detection sensor based on radar.
-The advantage above this PIR is that you can hide it out of the right by placing it, for example, in a closet.
+The RCWL-0516 microwave sensor is a cheap presence detection sensor based on radar technology.\
+The advantage above a traditional PIR motion sensor is that you can hide it out of sight by placing it, for example, inside a closet.
 
 ## My solution
 
-I used a compact D1 mini ESP chip and wired to the microwave sensor.
+I used this sensor in combination with a compact D1 mini ESP chip to create multiple, low-priced, occupancy detection sensors which also works in Home Assistant.
 
 <a href="images_rcwl-0516/rcwl_0516_wired.jpg">
 <img src="images_rcwl-0516/rcwl_0516_wired.jpg" alt="hardware connected" width="400px"/>
@@ -29,7 +30,7 @@ I used a compact D1 mini ESP chip and wired to the microwave sensor.
 <img src="images_rcwl-0516/rcwl_0516_closed_box.jpg" alt="final closed box" width="400px"/>
 </a>
 
-Click on the photos to open it fullscreen.
+Click on the photos to see them in fullscreen.
 
 ---
 
@@ -37,9 +38,8 @@ Click on the photos to open it fullscreen.
 <!-- TOC -->
   * [My solution](#my-solution)
   * [Required hardware](#required-hardware)
-  * [Required software](#required-software)
   * [Connect the hardware](#connect-the-hardware)
-  * [Flash the software](#flash-the-software)
+  * [Required software](#required-software)
   * [Test if it works](#test-if-it-works)
   * [Home Assistant](#home-assistant)
 <!-- TOC -->
@@ -48,18 +48,26 @@ Click on the photos to open it fullscreen.
 
 ## Required hardware
 
-These hardware components do I use for this project.
+These hardware components do I use for this project:
+The sensor, an ESP, wires, usb cable and a power adapter.
 
-Affiliate links are used here. Same price, and you sponsor this blog.
+Affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
 
 ### RCWL-0516 microwave sensor
 
-This radar sensor detect humans (and animals) via radar signals.
+This radar sensor detect human presence via radar signals.
 
-<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1 (AliExpress)
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1 (AliExpress)
 <br>
 <img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" />
 </a>
+
+You can buy a single sensor for around &euro; 0,45 or buy 5 or 10 in bulk,
+which is cheaper per piece if you plan to create multiple sensor to use around the house.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE3U61H" target="_blank">link 2, per 5 pieces (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">link 3, per 10 pieces (AliExpress)</a>
+
 
 ### ESP board
 
@@ -67,13 +75,13 @@ You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini.
 
 * The pins are not soldered on the board yet (with some practice even you can do it for sure!)
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmlkMXv" target="_blank">link 2 (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
 <img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
 
-
-## Dupont cables
+### Dupont cables
 
 Dupont are cables to connect the ESP pins with sensors pins. 
 The dupont cables are in different variants: male-to-male, female-to-male and male-to-female. 
@@ -84,8 +92,7 @@ I used for this project female-to-female because I soldered the pin heads on the
 <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">
 <img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (AliExpress)</a>
-
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (AliExpress)</a>\
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">link 2 (AliExpress)</a>
 
 * I advise: If you order these, you can better order all three types at ones, also for any further projects.
@@ -99,7 +106,7 @@ It can also be a plastic box from a local shop.
 Also, a decorative small statuette can be used.
 
 On AliExpress they also sell
-<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
 Plastic DIY Cases (AliExpress)
 <br>
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
@@ -110,7 +117,7 @@ Plastic DIY Cases (AliExpress)
 
 A cable to power the ESP.
 
-<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 Micro USB cable to USB A to power the ESP (AliExpress)
 <br>
 <img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
@@ -121,25 +128,20 @@ Micro USB cable to USB A to power the ESP (AliExpress)
 
 A power adapter to power the ESP and sensor.
 
-<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">
 5V USB power adapter (AliExpress)
 <br>
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 </a>
 
-<br>
+### Soldering tools
+
+This project require some soldering, If you don't have an soldering iron and tin wire yet check this link where to buy it.\
+{{imgBasket}}<a href="/buy/esphome_diy#tools" target="_blank">soldering hardware</a>
+
 <br>
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - best buy tips](../buy/esphome_diy) for alternative links.
-
----
-
-## Required software
-
-### ESPHome
-
-The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
-This is needed to flash the config to the ESP board.
 
 ---
 ## Connect the hardware
@@ -173,24 +175,30 @@ The sensor detects through the case, no holes are needed in the case.
 
 ---
 
-## Flash the software
+## Required software
+
+### ESPHome
+
 ![ESPHome](images/esphome.png)
 
-ESPHome is the software to flash the config file to the ESP board.
+The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
 
-> esphome "microwave sensor RCWL-0516.yaml" run
+This software is used to flash the config file to the ESP board.
 
 Their website contains a lot of information about how to config all kinds of sensors.
 Also, the one we used here, a binary sensor:
 
 * [ESPHome Binary Sensor Component page](https://esphome.io/components/binary_sensor/)
 
-### Flash with ESPHome
-
-Connect the ESP via USB to the computer.
+#### Flash the script
 
 There are a lot of ways to flash the config file with ESPHome to the board.\
 Read [here](esphome_flashing) how to upload it.
+
+Connect the ESP via USB to the computer.
+
+One possible way is to run python in command line:
+> esphome "microwave sensor RCWL-0516.yaml" run
 
 The "microwave sensor RCWL-0516.yaml" YAML file
 ```yaml
@@ -245,7 +253,7 @@ you see the readings in the console direct after the ESP is flashed.
 
 Ones the ESP is online it automatically registers itself by Home Assistant if you installed ESPHome.
 
-You will see a new device with one entitiy.
+You will see a new device with one entity.
 
 <img src="images_rcwl-0516/rcwl-0516_esphome_sensor.png" alt="New ESPHome sensor in Home Assistant" width="400px">
 

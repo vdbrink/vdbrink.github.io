@@ -6,6 +6,7 @@ category: ESPHome
 tags: [Co2, ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering]
 image: /esphome/images_scd40/hardware.jpg
 ---
+{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # ESPHome Co2 sensor
 
@@ -61,9 +62,8 @@ Click on the photo to open it fullscreen.
 <!-- TOC -->
   * [My solution](#my-solution)
   * [Required hardware](#required-hardware)
-  * [Required software](#required-software)
   * [Connect the hardware](#connect-the-hardware)
-  * [Flash the software](#flash-the-software)
+  * [Required software](#required-software)
   * [Test if it works](#test-if-it-works)
   * [Home Assistant Dashboards](#home-assistant-dashboards)
 <!-- TOC -->
@@ -146,15 +146,6 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ---
 
-## Required software
-
-### ESPHome
-
-The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
-This is needed to flash the config to the ESP board.
-
----
-
 ## Connect the hardware
 
 I've made a scheme how to connect the GY SCD40 to the ESP.
@@ -184,27 +175,34 @@ Click on the photos to open them in fullscreen.
 
 ---
 
-## Flash the software
+## Required software
+
+### ESPHome
+
 ![ESPHome](images/esphome.png)
 
-ESPHome is the software to flash the config file to the ESP board.
+The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
+
+This software is used to flash the config file to the ESP board.
 
 Their website contains a lot of information about how to config all kinds of sensors.
 Also, the one we used here:
 * [ESPHome SCD4X page](https://esphome.io/components/sensor/scd4x.html)
 * [ESPHome I2C page](https://esphome.io/components/i2c.html)
 
-### Flash with ESPHome
-
-Connect the ESP via USB to the computer.
+### Flash the script
 
 There are a lot of ways to flash the config file with ESPHome to the board.\
 Read [here](esphome_flashing) how to upload it.
 
+Connect the ESP via USB to the computer.
+
+One possible way is to run python in command line:
+> esphome "co2_scd40.yaml" run
 
 <img src="images_scd40/python_flash.png" alt="Python Flash output" width="400px">
 
-The YAML script:
+The "co2_scd40.yaml" YAML script:
 ```yaml
 # Sourcecode by vdbrink.github.io
 esphome:
