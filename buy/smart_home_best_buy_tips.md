@@ -60,7 +60,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
 > **_NOTE 1:_** Links on this page are devices I also use myself. 
 > Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
 
-> **_NOTE 2:_** I advise these products based on my personal experience. I run my network with a CC2652 zigbee adapter and Zigbee2MQTT. 
+> **_NOTE 2:_** I advise these products based on my personal experience. I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT. 
 > It can be with other hardware combinations it doesn't run with the same experience.
 ---
 ## Why I chose Zigbee
@@ -71,7 +71,7 @@ On the market, there are different types of protocols to create a smart home net
 
 This is why I choose for Zigbee:
 * There is a wide range of sensor and actuator types available;
-* Every zigbee device, independent of manufacturer, it works in your network;
+* Every Zigbee device, independent of manufacturer, it works in your network;
 * The prices are low;
 * It works locally, no internet is required;
 * You can even link buttons direct to (a group) lamps without the need of a hub;
@@ -161,7 +161,7 @@ It can also detect persons when they don't move, like they sit on a couch. Ideal
 
 Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. You put it "on" and place the smart plug between the socket and wall. Now you change the switch functionality to the plug which you can be controlled automatically.
 
-Sockets are always connected to power, this makes this sensor also a hub in the zigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
+Sockets are always connected to power, this makes this sensor also a hub in theZigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
 
 A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
 
@@ -268,7 +268,7 @@ The easiest way to make a dimmable group with gu10 lights smart.
 
 {{imgBasket}}<a href="https://www.ecodim.nl/nl/eco-dim07-zigbee-basic.html" target="_blank">ECO-DIM.07 Led dimmer press/turn 0-200W - EcoDim (manufacturer site with links to different shops)</a>
 
-{{imgBasket}}<a href="https://www.ecodim.nl/nl/smart-led-dimmers-en-schakelaars/zigbee/" target="_blank">Other EcoDim zigbee devices - EcoDim (manufacturer site with links to different shops)</a>
+{{imgBasket}}<a href="https://www.ecodim.nl/nl/smart-led-dimmers-en-schakelaars/zigbee/" target="_blank">Other EcoDimZigbee devices - EcoDim (manufacturer site with links to different shops)</a>
 
 ---
 

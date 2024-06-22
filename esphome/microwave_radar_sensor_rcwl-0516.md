@@ -63,7 +63,10 @@ This radar sensor detect human presence via radar signals.
 </a>
 
 You can buy a single sensor for around &euro; 0,45 or buy 5 or 10 in bulk,
-which is cheaper per piece if you plan to create multiple sensor to use around the house.
+which is cheaper per piece if you plan to create multiple sensors to use around the house.
+
+<img src="images_rcwl-0516/multiple_top.jpg" height="150px" alt="multiple RCWL-0516 presence sensor top" />
+<img src="images_rcwl-0516/multiple_bottom.jpg" height="150px" alt="multiple RCWL-0516 presence sensor bottom" />
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE3U61H" target="_blank">link 2, per 5 pieces (AliExpress)</a>\
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">link 3, per 10 pieces (AliExpress)</a>

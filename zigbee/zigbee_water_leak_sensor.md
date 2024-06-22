@@ -10,13 +10,13 @@ image: /zigbee/images_leak/leak_sensor_in_action.jpg
 
 ## Introduction
 
-<img src="images_leak/leak_sensor_in_action.jpg" alt="diy zigbee leak sensor" height="150px" style="margin-left:15px;float:right"/>
-A have a water filter behind my kitchen closets and I want to detect if there is any leak because you don't see it and have no easy access to it. When you find out it leaks it tool late. It never happened, but in case of a disaster happened I want to know it direct!
+<img src="images_leak/leak_sensor_in_action.jpg" alt="diy Zigbee leak sensor" height="150px" style="margin-left:15px;float:right"/>
+A have a water filter behind my kitchen closets, and I want to detect if there is any leak because you don't see it and have no easy access to it. When you find out it leaks it tool late. It never happened, but in case of a disaster happened I want to know it direct!
 I had no leak sensor direct available, and they were at that time quite expensive, but I still had some contact sensors lying around. 
 
 Water conducts current, so I thought I could also create from a contact sensor a leak sensor with just a small modification, and so I did.
 
-Nowadays, these [leak sensors](../buy/smart_home_best_buy_tips#leak-sensor) are wide available, and you can buy them for the same price as a contact sensor but if you want to create one based on a contact sensor it's also possible ;) 
+Nowadays, these [leak sensors](../buy/smart_home_best_buy_tips#leak-sensor) are widely available, and you can buy them for the same price as a contact sensor but if you want to create one based on a contact sensor it's also possible ;) 
 
 <a href="../buy/smart_home_best_buy_tips#leak-sensor">
 <img src="../buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
@@ -25,7 +25,7 @@ Nowadays, these [leak sensors](../buy/smart_home_best_buy_tips#leak-sensor) are 
 
 ## Required hardware
 
-You only need a zigbee contact sensor and two wires:
+You only need a Zigbee contact sensor and two wires:
 
 [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)
 
@@ -62,6 +62,6 @@ When you hold a magnet close enough to it, it will make a closed circuit.
 Use two dupont cables, remove the connectors at one end and remove for a centimeter at the end the isolation 
 and solder them to the reed switch.
 
-<img src="images_leak/leak_sensor_assemblage.jpg" alt="diy zigbee leak sensor assemblage" height="450px"/>
+<img src="images_leak/leak_sensor_assemblage.jpg" alt="diy Zigbee leak sensor assemblage" height="450px"/>
 
-<img src="images_leak/leak_sensor_in_action.jpg" alt="diy zigbee leak sensor in action" height="450px"/>
+<img src="images_leak/leak_sensor_in_action.jpg" alt="diy Zigbee leak sensor in action" height="450px"/>

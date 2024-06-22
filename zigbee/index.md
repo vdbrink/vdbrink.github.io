@@ -17,7 +17,7 @@ How to create custom Zigbee sensors:
 
 [//]: # (* [DIY Zigbee chair occupancy sensor]&#40;zigbee_chair_occupancy_sensor&#41;)
 * [DIY Zigbee leak detector](zigbee_water_leak_sensor)
-  * <a href="zigbee_water_leak_sensor"><img src="images_leak/leak_sensor_assemblage.jpg" alt="diy zigbee leak sensor assemblage" height="100px"/></a>
+  * <a href="zigbee_water_leak_sensor"><img src="images_leak/leak_sensor_assemblage.jpg" alt="diy Zigbee leak sensor assemblage" height="100px"/></a>
 
 ---
 
@@ -29,7 +29,7 @@ On the market, there are different types of protocols to create a smart home net
 
 This is why I choose for Zigbee:
 * There is a wide range of sensor and actuator types available;
-* Every zigbee device, independent of manufacturer, it works in your network;
+* Every Zigbee device, independent of manufacturer, it works in your network;
 * The prices are low;
 * It works locally, no internet is required;
 * You can even link buttons direct to (a group) lamps without the need of a hub;
@@ -48,7 +48,8 @@ A reason why not to choose for Zigbee? I don't know :)
 <a href="https://slae.sh/projects/cc2652/" target="_blank">
 <img src="../buy/images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" height="150px" style="margin-left:15px;float:right"/></a>
 
-Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issue, it's a very reliable stick.
+Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issues, 
+it's a very reliable stick.
 My network grew to 120+ devices today, and it still runs fast.
 
 To avoid interference with Bluetooth or wifi,
@@ -62,12 +63,15 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" t
 I create my [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips) for all kinds or Zigbee hardware which I like.
 
 <a href="../buy/smart_home_best_buy_tips">
-<img src="../buy/images_zigbee/zigbee_banner.png" width="500px">
+<img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>
 </a>
 
 ---
 
 ## Zigbee2MQTT
 
-<img src="images/zigbee2mqtt.png" alt="" height="150px" style="margin-left:15px;float:right"/></a>
-Zigbee2MQTT 
+<img src="images/zigbee2mqtt.png" alt="Zigbee2MQTT" height="150px" style="margin-left:15px;float:right"/></a>
+Zigbee2MQTT is the application which retrieves the data from the coordinator and convert the data
+to a json format and push that data to a MQTT topic.
+
+You can also send data to sensors on their topic to define settings or update the current status.

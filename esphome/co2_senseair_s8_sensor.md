@@ -12,7 +12,7 @@ image: /esphome/images_co2/case_fit_co2_sensor.jpg
 
 ## Introduction
 
-<img src="images_co2/senseair_s8.jpg" alt="zigbee" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_co2/senseair_s8.jpg" alt="Zigbee" height="150px" style="margin-left:15px;float:right"/>
 
 There are not so many affordable out-of-the-box Co2 sensors available, but it's easy to create one yourself.
 With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 

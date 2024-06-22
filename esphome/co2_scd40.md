@@ -16,15 +16,17 @@ image: /esphome/images_scd40/hardware.jpg
 
 <img src="images_scd40/SCD40_co2_with_cable.webp" alt="SCD40" height="150px" style="margin-left:15px;float:right"/>
 
-There are Co2 sensors available, most of them are really expensive but 
+There are Co2 sensors available, most of them are expensive, but 
 you can also create one yourself with just a single sensor and an ESP board. 
-It's easy (and fun) to create one yourself. 
+It's easy (and fun) to create one yourself.\
 You can even create this one WITHOUT SOLDERING!!
 
 Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
-If your in a space with a too high ppm level, you can feel tired, your start yawning and can get a headache.
-For your, and your family health, it's important to act when these values are too high.
+If your in a space with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
+For your, and your family health, it's important to act when these values are too high.\
+The value rice gradual, so you don't notice it directly. 
+That's why it's important to get notified about it.
 
 The base value is what you measure outside and is around 400 ppm.
 
@@ -38,16 +40,18 @@ This table shows for which value, which action is required.
 
 <br>
 
+In Home Assistant, you can visualize how the Co2 value changed over time.
+
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
-In Home Assistant, you can visualize how the Co2 value changed over time. Read along how you create this graph yourself.
+Read along how you create this graph yourself.
 
 ---
 
 ## My solution
 
 This sensor is the easiest way to start with ESPHome.\
-No soldering required here.\
+No soldering is required here.\
 You only need to connect the wires to the ESP and flash the correct configuration.
 
 <a href="images_scd40/hardware.jpg">
@@ -78,7 +82,7 @@ Affiliate links are used here. Same price, and you sponsor this blog.
 
 ### SCD40 Co2 sensor
 
-This small gas sensor measures Co2 (in a range 400-2000 ppm), temperature (-10-60 degrees) and humidity (0-100 percent).
+This small gas sensor measures Co2 (in a range 400-2000 ppm) and also temperature (-10-60 degrees) and humidity (0-100 percent).
 
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
@@ -104,7 +108,7 @@ ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (AliExpress)
 ### Case
 
 You can use any object with holes in it, which has a minimum length of 7 cm, width of 3 cm, and a height of 3 cm.\
-The only requirement is that there could be enough air reach the sensor to measure the values from the air.\
+The only requirement is that there could be enough air reach the sensor to measure the values in the air.\
 
 It can also be a plastic box from a local shop and drill some holes in it.
 
@@ -148,9 +152,10 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ## Connect the hardware
 
-I've made a scheme how to connect the GY SCD40 to the ESP.
-This sensor uses an i2c interface to connect to the ESP. 
-The ESP has predefined pins for SDA and SDL.
+I've made a scheme how to connect the GY SCD40 to the ESP.\
+This sensor uses an i2c bus interface to connect to the ESP. 
+This makes it possible to connect multiple sensors to this bus.\
+The ESP has predefined pins for SDA (data) and SDL (clock).
 
 | ESP pin | GPIO esp8266 pin | SCD40 pin   | color  |
 |---------|------------------|-------------|--------|
@@ -181,11 +186,11 @@ Click on the photos to open them in fullscreen.
 
 ![ESPHome](images/esphome.png)
 
-The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
+The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.
 
 This software is used to flash the config file to the ESP board.
 
-Their website contains a lot of information about how to config all kinds of sensors.
+Their website contains a lot of information about how-to config all kinds of sensors.
 Also, the one we used here:
 * [ESPHome SCD4X page](https://esphome.io/components/sensor/scd4x.html)
 * [ESPHome I2C page](https://esphome.io/components/i2c.html)
@@ -197,7 +202,7 @@ Read [here](esphome_flashing) how to upload it.
 
 Connect the ESP via USB to the computer.
 
-One possible way is to run python in command line:
+One possible way is to run Python in command line:
 > esphome "co2_scd40.yaml" run
 
 <img src="images_scd40/python_flash.png" alt="Python Flash output" width="400px">
@@ -322,7 +327,8 @@ hours_to_show: 6
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="Home Assistant History Graph" width="500px" />
 
-You can also show baseline values in the graph by creating some extra custom sensors with a fixed value.
+You can also show baseline values in the graph by creating some extra custom sensors with a fixed value.\
+This shows direct if the value is still correct.
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -437,3 +443,5 @@ chips:
       {% endif %}
 {% endraw %}
 ```
+
+That's it!

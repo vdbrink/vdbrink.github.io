@@ -309,7 +309,7 @@ protocol websockets
 
 ## Zigbee2MQTT
 
-A bridge to read zigbee devices values and convert the data to json and send it to the [mosquitto](#mosquitto) MQTT server.
+A bridge to read Zigbee devices values and convert the data to json and send it to the [mosquitto](#mosquitto) MQTT server.
 
 
 ```
@@ -330,7 +330,7 @@ A bridge to read zigbee devices values and convert the data to json and send it 
     environment:
       - TZ=Europe/Amsterdam
 ```
-The content of the file `./volumes/zigbee2mqtt/configuration.yaml` where you define things like all the zigbee devices and the groups with their devices.
+The content of the file `./volumes/zigbee2mqtt/configuration.yaml` where you define things like all theZigbee devices and the groups with their devices.
 ```
 homeassistant: true
 permit_join: true
