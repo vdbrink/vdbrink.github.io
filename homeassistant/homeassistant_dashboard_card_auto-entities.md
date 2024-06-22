@@ -24,6 +24,7 @@ The git repository with also all options and some examples can be found at https
   * [Show only the lights which are 'on' at the moment](#show-only-the-lights-which-are-on-at-the-moment)
   * [Full moon (single condition)](#full-moon-single-condition)
   * [Only X days left (multiple conditions with AND)](#only-x-days-left-multiple-conditions-with-and)
+  * [With attribute data](#with-attribute-data)
   * [Chores](#chores)
 <!-- TOC -->
 
@@ -139,11 +140,11 @@ Show this only when the entity `sensor.moon` has the status `full_moon`.
 ---
 ## Only X days left (multiple conditions with AND)
 
-For the paper pickup day I only want this visible when there are only three days left.
+For the paper pickup day, I only want this visible when there are only three days left.
 
-Show only when the amount of days is less than 4 AND more than -1.
+Show only when the number of days is less than 4 AND more than -1.
 
-[See here how to create a days countdown based on a date.](homeassistant_dashboard_date_time#days-count-down)
+[See here how to create a day countdown based on a date.](homeassistant_dashboard_date_time#days-count-down)
 
 ```yaml
 {% raw %}
@@ -159,6 +160,35 @@ Show only when the amount of days is less than 4 AND more than -1.
         state 2: "> -1"
 {% endraw %}
 ```
+
+---
+## With attribute data
+
+Show all room presence entities and as `secondary_info` an attribute value, in this case the `distance` attribute.
+
+<img src="images_autoentities/with_attributes_autoentities.png" width="400px"  alt="auto-entities with attribute data"/>
+
+````yaml
+type: custom:auto-entities
+card:
+  type: entities
+  state_color: true
+  title: Tracker
+filter:
+  include:
+    - domain: sensor
+      entity_id: '*.room_presence'
+      options:
+        type: custom:multiple-entity-row
+        secondary_info:
+          attribute: distance
+  exclude:
+    - state: unknown
+    - state: unavailable
+sort:
+  method: last-changed
+  reverse: true
+````
 
 ---
 ## Chores

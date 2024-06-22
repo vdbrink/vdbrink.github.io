@@ -270,15 +270,18 @@ The value on the right is the actual sensor value.
 ---
 ## Last changed indication
 
+A custom sensor that shows the time since the last change.\
+Also useful to show on a floor map. 
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-    mailbox_timer:
-      friendly_name: mailbox
-      icon_template: mdi:clock-outline
-      value_template: >
-        {{ relative_time(states.binary_sensor.mailbox_contact.last_changed) }}
+mailbox_timer:
+  friendly_name: mailbox
+  icon_template: mdi:clock-outline
+  value_template: >
+    {{ relative_time(states.binary_sensor.mailbox_contact.last_changed) }}
 {% endraw %}
 ```
 
