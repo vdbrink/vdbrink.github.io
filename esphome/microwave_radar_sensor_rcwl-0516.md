@@ -1,9 +1,9 @@
 ---
 title: ESPHome Presence detection with a microwave radar sensor
-description: "Create your own ESPHome presence sensor based on the RCWL-0516 sensor for Home Assistant"
+description: "Create your own ESPHome motion and presence sensor based on the RCWL-0516 sensor for Home Assistant"
 category: ESPHome
 tags: [ESP8266, "Home Assistant", ESPHome, D1 mini, RCWL-0516, microwave, presence, occupancy]
-image: /esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg
+image: /esphome/images_rcwl-0516/rcwl_0516_wired.jpg
 ---
 {% capture imgBasket %}<img src="../buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -15,12 +15,15 @@ image: /esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg
 
 <img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="150px" style="margin-left:15px;float:right"/>
 
-The RCWL-0516 microwave sensor is a cheap presence detection sensor based on radar technology.\
-The advantage above a traditional PIR motion sensor is that you can hide it out of sight by placing it, for example, inside a closet.
+The RCWL-0516 microwave sensor is a cheap motion and presence detection sensor based on radar technology.\
+The advantage above a traditional PIR motion sensor is that you can hide it out of sight by placing it, for example, inside a closet.\
+The advantage is also that this sensor is a cheap one (~&euro;0,45/p)
+
+No extra hub needed, the protocol is over wifi.
 
 ## My solution
 
-I used this sensor in combination with a compact D1 mini ESP chip to create multiple, low-priced, occupancy detection sensors which also works in Home Assistant.
+I used this sensor in combination with a compact D1 mini ESP chip to create multiple, low-priced, motion and occupancy detection sensors which also works in Home Assistant.
 
 <a href="images_rcwl-0516/rcwl_0516_wired.jpg">
 <img src="images_rcwl-0516/rcwl_0516_wired.jpg" alt="hardware connected" width="400px"/>
@@ -36,12 +39,12 @@ Click on the photos to see them in fullscreen.
 
 ## Table of Contents
 <!-- TOC -->
-  * [My solution](#my-solution)
-  * [Required hardware](#required-hardware)
-  * [Connect the hardware](#connect-the-hardware)
-  * [Required software](#required-software)
-  * [Test if it works](#test-if-it-works)
-  * [Home Assistant](#home-assistant)
+* [My solution](#my-solution)
+* [Required hardware](#required-hardware)
+* [Connect the hardware](#connect-the-hardware)
+* [Required software](#required-software)
+* [Test if it works](#test-if-it-works)
+* [Home Assistant](#home-assistant)
 <!-- TOC -->
 
 ---
@@ -51,11 +54,17 @@ Click on the photos to see them in fullscreen.
 These hardware components do I use for this project:
 The sensor, an ESP, wires, usb cable and a power adapter.
 
+No extra hub needed, the protocol is over wifi.
+
 Affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
 
 ### RCWL-0516 microwave sensor
 
-This radar sensor detect human presence via radar signals.
+This radar sensor detect human motion and presence via doppler radar signals.
+
+The range of this sensor is 2-5 meter.
+
+[Detailed information about this sensor.](https://github.com/jdesbonnet/RCWL-0516?tab=readme-ov-file#rcwl-0516-information)
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1 (AliExpress)
 <br>
@@ -86,11 +95,11 @@ You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini.
 
 ### Dupont cables
 
-Dupont are cables to connect the ESP pins with sensors pins. 
-The dupont cables are in different variants: male-to-male, female-to-male and male-to-female. 
+Dupont are cables to connect the ESP pins with sensors pins.
+The dupont cables are in different variants: male-to-male, female-to-male and male-to-female.
 You can also cut one end to just solder it direct to the connector.
 
-I used for this project female-to-female because I soldered the pin heads on the ESP and sensor. 
+I used for this project female-to-female because I soldered the pin heads on the ESP and sensor.
 
 <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">
 <img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/></a>
@@ -275,5 +284,4 @@ In Home Assistant you now have a new boolean sensor if presence is detected.
 
 <img src="images_rcwl-0516/rcwl-0516_ha_detected.png" alt="Home Assistant sensor" width="400px">
 
-
-
+Enjoy!

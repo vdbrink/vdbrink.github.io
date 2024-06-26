@@ -94,7 +94,7 @@ These hardware components did I use for this project:
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* [5V USB power adapter to power the ESP](../buy/esphome_diy#v-usb-adapter)
+* [5V USB power adapter to power the ESP](../buy/esphome_diy#5v-usb-adapter)
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
