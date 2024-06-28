@@ -32,6 +32,7 @@ I created dashboards with all kinds of elements in it:
   * [Auto entities](homeassistant_dashboard_card_auto-entities) 
   * [Mushroom](homeassistant_dashboard_card_mushroom) 
   * [Afvalbeheer](homeassistant_hacs_afvalbeheer)
+* [Grafana](homeassistant_dashboard_grafana) (Grafana graph integration)
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
 * [Hardware monitor](homeassistant_hardware_monitor)
 * [Random examples](homeassistant_dashboard_examples) (The latest news)
