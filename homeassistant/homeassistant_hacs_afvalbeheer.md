@@ -1,11 +1,12 @@
 ---
-title: "Home Assistant HACS Afvalbeheer"
+title: "Home Assistant - HACS Afvalbeheer"
+description: "Setup Home Assistant Afvalbeheer integration"
 category: Home Assistant
-tags: Home Assistant, dashboard, lovelace, card, afvalbeheer, HACS
+tags: [Home Assistant, dashboard, lovelace, card, Afvalbeheer, HACS, bin, waste]
 image: /homeassistant/images_afvalbeheer/kliko.jpg
 ---
 
-# Home Assistant HACS Afvalbeheer
+# Home Assistant - HACS Afvalbeheer
 
 <img style="float: right;" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">
 
@@ -414,21 +415,11 @@ chips:
 ```
 
 ---
-### Notification reminders
-
-```yaml
-{% raw %}
- 
-{% endraw %}
-```
-
-
----
 ## LED strip indicator
 
 I created a [separated page](../projects/bin_day_led_strip_reminder.md) how I setup a LED strip under my dressoir to light up the evening before bin day.
 
-<img src="../projects/images_bin_day/bin_day_ledstrip.png" alt="bin day LED strip" width="200px">
+<img src="../projects/images_bin_day/bin_day_ledstrip_animation.gif" alt="Bin day - LED strip reminder animation">
 
 ---
 [^^ Top](#table-of-contents)
