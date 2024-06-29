@@ -51,9 +51,10 @@ Affiliate links are used here. Same price, and you sponsor this blog.
 
 It's also possible to use an E27 bulb lamp to create the same light effects.\
 [Zigbee dimmable colored LED E27 bulb](https://s.click.aliexpress.com/e/_oFxRuUw)
+  * 15/18 Watt version
 
-  <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
-  <img src="../ideas/images/smart_bulb.webp" height="250px" alt="E27 colored Zigbee bulb"></a>
+    <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
+    <img src="../ideas/images/smart_bulb.webp" height="250px" alt="E27 colored Zigbee bulb"></a>
 
 ---
 
@@ -95,12 +96,15 @@ This is my Node-RED flow which you can use.\
 I normally control my Zigbee devices via Zigbee2MQTT myself, but disabled this node in this example and use the HA nodes. 
 I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which way of integration you want to use, and set the correct entity name, both methods will work.
 
-On top, I added an inject-node where you can click on to test if the lights go on.
+As addition, I added an inject-node where you can click on to test if the lights go on.
+
+Another addition is the node to send the text also to your phone. Check [here](../node-red/node-red_home-assistant_notifications) how to send this message to you Home Assistant companion app.
 
 At the bottom, there is an inject-node which get triggered at 0:00 to disable the light again.
 There is also a link-node with the value `ledstrip_bin_day trigger off`. You can trigger this when you have another trigger to turn off the light. In my case: \
 WHEN the light is on AND the garden gate is opened THEN this LED strip light goes off again. (This is not in this Node-RED example added.)\
-Everybody has his own off condition, you can also turn if off with a light toggle on your dashboard.
+Everybody has his own off-condition, you can also turn if off with a light toggle on your dashboard.
+For example, in my case when the garden gate is opened, after a specific time, on the evening to put the bin outside the lights turn off again. In case I skip one time I set it off via my dashboard.
 
 <a href="images_bin_day/bin_day_node_red_flow.png">
 <img src="images_bin_day/bin_day_node_red_flow.png" alt="bin day - LED strip - Node RED flow" width="800px">
