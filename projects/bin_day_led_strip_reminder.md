@@ -24,12 +24,13 @@ An animation with the four different bin type colors.
 
 ## Table of Contents
 <!-- TOC -->
-  * [Hardware requirements](#hardware-requirements)
-  * [Software requirements](#software-requirements)
-  * [Installation](#installation)
-    * [Waste collection schedule](#waste-collection-schedule)
-    * [Node-RED flow to turn the LED strip on, on bin day](#node-red-flow-to-turn-the-led-strip-on-on-bin-day)
-      * [RGB LED strip colors](#rgb-led-strip-colors)
+* [Hardware requirements](#hardware-requirements)
+* [Software requirements](#software-requirements)
+* [Installation](#installation)
+  * [Waste collection schedule](#waste-collection-schedule)
+  * [Node-RED flow to turn the LED strip on, on bin day](#node-red-flow-to-turn-the-led-strip-on-on-bin-day)
+    * [RGB LED strip colors](#rgb-led-strip-colors)
+  * [FAQ](#faq)
 <!-- TOC -->
 
 ---
@@ -104,7 +105,7 @@ At the bottom, there is an inject-node which get triggered at 0:00 to disable th
 There is also a link-node with the value `ledstrip_bin_day trigger off`. You can trigger this when you have another trigger to turn off the light. In my case: \
 WHEN the light is on AND the garden gate is opened THEN this LED strip light goes off again. (This is not in this Node-RED example added.)\
 Everybody has his own off-condition, you can also turn if off with a light toggle on your dashboard.
-For example, in my case when the garden gate is opened, after a specific time, on the evening to put the bin outside the lights turn off again. In case I skip one time I set it off via my dashboard.
+For example, in my case when the garden gate is opened, after a specific time, in the evening to put the bin outside the lights turn off again. In case I skip one time I set it off via my dashboard.
 
 <a href="images_bin_day/bin_day_node_red_flow.png">
 <img src="images_bin_day/bin_day_node_red_flow.png" alt="bin day - LED strip - Node RED flow" width="800px">
@@ -132,9 +133,18 @@ These are my bin types and the RGB and HEX color codes I used in this flow. See 
 | Paper     | blue      | 0,     0, 249 | #0000F9        |
 | Plastic   | orange    | 255, 165,  44 | #FFA52C        |
 
-<br>
-<br>
+---
 
+### FAQ
+
+Q: What if two bin has to put outside on the same day?\
+A: For me this was never the case yet. In the current situation one color overrules the other one. 
+If you implemented also a notification to your phone you get both messages. 
+Or if you present the [days countdown](../homeassistant/homeassistant_hacs_afvalbeheer) on your dashboard you know already you have to put multiple outside. 
+
+---
+
+<br>
 I hope you like this project and get inspiration for your own home automation projects!
 
 Related link: [Home Assistant - HACS Afvalbeheer](../homeassistant/homeassistant_hacs_afvalbeheer)
