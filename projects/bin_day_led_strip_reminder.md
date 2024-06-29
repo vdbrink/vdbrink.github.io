@@ -64,7 +64,7 @@ It's also possible to use an E27 bulb lamp to create the same light effects.\
 * Home Assistant
   * HACS [Afvalbeheer](../homeassistant/homeassistant_hacs_afvalbeheer) integration or other bin day schedule which applies for your city.
   * Add the [custom days countdown helper entities](../homeassistant/homeassistant_hacs_afvalbeheer#custom-helper-entities-days-count-down)
-  * LED strip entity
+  * LED strip entity (How to add and integrate this Zigbee LED strip into Home Assistant is not part of this page)
 * Node-RED (for the automations)
   * Add and setup the Home Assistant integration in Node-RED [node-red-contrib-home-assistant-websocket](../node-red/node-red_home-assistant#initial-setup)
   * Load the [Node-RED script](#node-red-script) from this page.
