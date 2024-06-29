@@ -88,6 +88,8 @@ implemented it. Also with extra missing functionality for me, I have the number 
 
 I use for all my automations Node-RED. Here used with the [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED-strip entity.
 
+> **_NOTE:_** If you share the Home Assistant equivalent code with me, I can add it also here.
+
 This is my Node-RED flow which you can use.\
 I normally control my Zigbee devices via Zigbee2MQTT myself, but disabled this node in this example and use the HA nodes. 
 I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which way of integration you want to use, and set the correct entity name, both methods will work.
