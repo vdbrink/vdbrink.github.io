@@ -97,7 +97,7 @@ This is my Node-RED flow which you can use.\
 I normally control my Zigbee devices via Zigbee2MQTT myself, but disabled this node in this example and use the HA nodes. 
 I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which way of integration you want to use, and set the correct entity name, both methods will work.
 
-As addition, I added an inject-node where you can click on to test if the lights go on.
+As addition, I added an inject-node where you can click on to test if the lights goes on.
 
 Another addition is the node to send the text also to your phone. Check [here](../node-red/node-red_home-assistant_notifications) how to send this message to you Home Assistant companion app.
 
