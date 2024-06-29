@@ -2,7 +2,7 @@
 title: "Home Assistant - HACS Afvalbeheer"
 description: "Setup Home Assistant Afvalbeheer integration"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, card, Afvalbeheer, HACS, bin, waste]
+tags: [Home Assistant, dashboard, lovelace, card, Afvalbeheer, HACS, trash, bin, waste collector]
 image: /homeassistant/images_afvalbeheer/kliko.jpg
 ---
 
@@ -14,9 +14,10 @@ image: /homeassistant/images_afvalbeheer/kliko.jpg
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
-Afvalbeheer is a Dutch and Belgium integration which works for many waste collectors. This integration adds sensors to HA to show when a specific bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.  
+Afvalbeheer is a Dutch and Belgium integration which works for many waste collectors. 
+This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.  
 
-Check the git repository to find all the options and if you can use it in your city. https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
+Check the git repository to find all the options and if you can use it in your city: https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
 
 ---
 ## Table of Contents
@@ -45,13 +46,13 @@ Check the git repository to find all the options and if you can use it in your c
 
 ## Intro
 
-I want to show the upcoming waste collecting not with a date as state but with a number of days countdown.
-Also, a presentation that shows only the ones that are relevant for the upcoming few days.
-This is not by default available, but I've made it the way I wanted it. 
+I want to show the upcoming waste collecting not with a date, like 15-04-2024, as state but with a number of days countdown.
+Also, a presentation that shows only the ones that are relevant for the upcoming few days.\
+This is not available by default, but I've made it the way I wanted it. 
 
-I also add some extra examples here.
+I also add some extra dashboard presentation examples.
 
-Here you can read how I did this, enjoy!
+Enjoy reading it, and hopefully you can use it for yor own dashboard.
 
 ---
 
@@ -59,13 +60,12 @@ Here you can read how I did this, enjoy!
 
 ### Afvalbeheer integration
 
-The HACS integration `afvalbeheer` is available for a lot of cities.
-After the installation you need to add and config these settings to your `configuration.yaml`.
+The HACS integration `afvalbeheer` is available for a lot of cities.\
+After the installation you need to add and config these settings in your `configuration.yaml`.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard card code
 # configuration.yaml
 afvalbeheer:
     wastecollector: XXX  # Check https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/?tab=readme-ov-file#wastecollector
@@ -88,20 +88,22 @@ afvalbeheer:
 
 ### Auto-entities integration
 
-To show the (countdown) entities by wildcard and sort them by date, you also need the HACS frontend repository [auto-entities](homeassistant_dashboard_card_auto-entities).
+I used here the HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) is very useful and makes it possible to show only the (countdown) entities and sort them by date.
 
 ---
 ## HA presentations
 
 ### Default presentation
 
-When the installation is complete, you get at least 4 entities which you can add to your dashboard.
+When the installation is complete, you get at least four entities which you can add to your dashboard.
 
 This is the default presentation.
 
 <img src="images_afvalbeheer/default.png" alt="default afvalbeheer presentation" width="400px">
 
-The downside is that it isn't ordered by date, you get a colored (distracting) icon and you don't see the numbers of days. Now you need to know the current date and calculate when it's the right date to put it on the street. So work todo to make it more practical and a cleaner presentation. 
+The downside is that it isn't ordered by date, you get a colored (distracting and not matching with the default other) icons, 
+and you don't see the numbers of days. Now you need to know the current date and calculate for yourself when it's the right date to put it on the street. 
+So work todo to make it more practical and a cleaner presentation. 
 
 This dashboard code belongs to the above presentation screenshot.
 In my case my `wastecollector` is `cyclus` that's why I have that name in my sensor name. Yours can be different.
@@ -123,17 +125,14 @@ show_header_toggle: false
 ---
 ### Sort by date
 
-Each entity comes with extra data which we can use to sort by date for example.
-It has an attribute called `Days_until` which contains the numeric days to bin day. 
-We can use it for sorting on date in combination by using the custom HACS card `auto-entities`.
+Each entity comes with extra data which can be used to sort by date, for example.\
+It has an attribute called `Days_until` which contains the numeric days to bin day.\
+It can be used for sorting on date by using the custom HACS card [auto-entities](homeassistant_dashboard_card_auto-entities).
 
 #### As row - order by date
 
 An example to show the entities sorted by date in a row.
-In this example `dateonly: 0` which also add the day. But when you set `dateonly: 1` you only see the date as state underneath the icon.
-
-Unfortunately: It's not possible to show an attribute value in combination with card type glance...\
-I create new helper [countdown](#custom-helper-entities-days-countdown) entities which make this possible.
+In this example `dateonly: 0` which also add the day. But when set `dateonly: 1` you only see the date as state underneath the icon.
 
 <img src="images_afvalbeheer/pres_row_own-icon.png" alt="afvalbeheer presentation as row" width="400px">
 
@@ -184,6 +183,9 @@ sort:
 #### As list - days countdown
 
 Show the default entities as a list, ordered by date and show the days until bin day.
+
+Unfortunately: It's not possible to show an attribute value in combination with card type glance.\
+I created new helper [countdown](#custom-helper-entities-days-countdown) entities which make this possible.
 
 <img src="images_afvalbeheer/pres_list_icon_date.png" alt="afvalbeheer presentation as list with original icon and days countdown" width="400px">
 
@@ -376,13 +378,14 @@ filter:
 ---
 ### Mushroom element
 
-On top of my dashboard I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.
-I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. These are all the possible visible icon options (only one is visible at the same time).
+On top of my dashboard I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.\
+I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. 
+These are all the possible visible icon options (only one is visible at the same time).
 
 <img src="images_afvalbeheer/afvalbeheer_mushroom.png" alt="Mushroom conditional and colored" width="200px">
 
 I use here also my extra created countdown helper entities.\
-The condition is: If tomorrow some waste must be placed outside, it shows the corresponding color trashcan, otherwise there is no trashcan visible in the circle. 
+The condition is: If tomorrow some waste must be placed outside, it shows the corresponding colored trash can, otherwise there is no trashcan visible in the circle. 
 
 ```yaml
 {% raw %}
@@ -417,9 +420,11 @@ chips:
 ---
 ## LED strip indicator
 
-I created a [separated page](../projects/bin_day_led_strip_reminder.md) how I setup a LED strip under my dressoir to light up the evening before bin day.
+I created a [separated page](../projects/bin_day_led_strip_reminder) how I setup a LED strip under my dresser to light up the evening before trash bin day.
 
+<a href="../projects/bin_day_led_strip_reminder">
 <img src="../projects/images_bin_day/bin_day_ledstrip_animation.gif" alt="Bin day - LED strip reminder animation">
+</a>
 
 ---
 [^^ Top](#table-of-contents)

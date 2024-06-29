@@ -1,7 +1,7 @@
 ---
 title: "Bin day - LED strip reminder"
 category: Bin day
-tags: [Home Assistant, afvalbeheer, bin day, LED, strip]
+tags: [Home Assistant, afvalbeheer, bin day, LED, strip, trash]
 image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 ---
 
@@ -10,10 +10,10 @@ image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 <img style="float: right;margin-left:20px" src="../homeassistant/images_afvalbeheer/kliko.jpg" height="150px" alt="Kliko">
 
 I was looking for a way to reminder me about the waste collection schedule.
-We have four bins and every bin has different recurring schedules. With bank holidays it also changes to another day. 
+We have four trash bins and every bin has different recurring schedules. With bank holidays it also changes to another day. 
 A single notification was not enough, it can easily be swiped away. So I was looking for another nice subtle automation.
 
-I came up with a RBG LED strip under the dressoir which indicates which bin must be put on the street.
+I came up with a RBG LED strip under the dresser which indicates which trash bin must be put on the street.
 
 <img src="images_bin_day/bin_day_ledstrip_animation.gif" alt="Bin day - LED strip reminder animation">
 
@@ -38,13 +38,21 @@ An animation with the four different bin type colors.
 I have already a running home server with a Zigbee network, that's why I choose for a Zigbee LED strip. This will also
 work for a Wifi/bluetooth/other network type but then the control will also be different.
 
-* [Zigbee RGB 5m LED strip](https://s.click.aliexpress.com/e/_ookcWte) it's available in different versions:
-    * Indoor no waterproof (IP20) / Outdoor waterproof (IP65)
-    * 5 / 10 meter
-    * RGB White or RGB Warm White
+Affiliate links are used here. Same price, and you sponsor this blog.
+
+[Zigbee RGB 5m LED strip](https://s.click.aliexpress.com/e/_ookcWte) it's available in different versions:
+  * Indoor no waterproof (IP20) / Outdoor waterproof (IP65)
+  * 5 / 10 meter
+  * RGB White or RGB Warm White
 
     <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">
     <img src="images_bin_day/zigbee_rgb_led_strip.webp" height="250px" alt="LED strip"></a>
+
+It's also possible to use an E27 bulb lamp to create the same light effects.\
+[Zigbee dimmable colored LED E27 bulb](https://s.click.aliexpress.com/e/_oFxRuUw)
+
+  <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
+  <img src="../ideas/images/smart_bulb.webp" height="250px" alt="E27 colored Zigbee bulb"></a>
 
 ---
 
@@ -71,24 +79,24 @@ I live in The Netherlands and we have a HACS integration called Afvalbeheer.\
 This integration downloads the waste collection schedule from most of the collection companies, in the Netherlands, and
 generates entities in Home Assistant with the next pick-up date for each type of bin.
 
-I create a [separated blog post page](../homeassistant/homeassistant_hacs_afvalbeheer) about this integration and how I
-implemented it, and add extra missing functionality, so I have the days sorted by the pickup days by creating custom countdown helper entities.
+I created a [separated blog post page](../homeassistant/homeassistant_hacs_afvalbeheer) about this integration and how I
+implemented it. Also with extra missing functionality for me, I have the number of days and sorted by the pickup date with the help of custom countdown helper entities.
 
 ---
 
 ### Node-RED flow to turn the LED strip on, on bin day
 
-I use Node-RED with [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED-strip entity.
+I use for all my automations Node-RED. Here used with the [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED-strip entity.
 
-This is my Node-RED flow you can use.\
-I control my Zigbee devices via Zigbee2MQTT myself but disabled this node in this example. I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which one you want to use, and set the correct entity name, both methods will work.
+This is my Node-RED flow which you can use.\
+I normally control my Zigbee devices via Zigbee2MQTT myself but disabled this node in this example and use the HA nodes. I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which way of integration you want to use, and set the correct entity name, both methods will work.
 
 On top, I added an inject-node where you can click on to test if the lights go on.
 
 At the bottom, there is an inject-node which get triggered at 0:00 to disable the light again.
-There is also a link-node with the value `ledstrip_bin_day trigger off`. You can trigger this when you have another trigger to turn off the light. In my case:\
+There is also a link-node with the value `ledstrip_bin_day trigger off`. You can trigger this when you have another trigger to turn off the light. In my case: \
 WHEN the light is on AND the garden gate is opened THEN this LED strip light goes off again. (This is not in this Node-RED example added.)\
-Everybody has his own condition, you can also turn if off with a toggle on your dashboard.
+Everybody has his own off condition, you can also turn if off with a light toggle on your dashboard.
 
 <a href="images_bin_day/bin_day_node_red_flow.png">
 <img src="images_bin_day/bin_day_node_red_flow.png" alt="bin day - LED strip - Node RED flow" width="800px">
@@ -107,7 +115,7 @@ Everybody has his own condition, you can also turn if off with a toggle on your 
 I have four bin types, and each bin has his own color.\
 I tried to use the same color to light up.
 
-These are my bin types and the RGB and HEX color codes I use.
+These are my bin types and the RGB and HEX color codes I used in this flow. See the animation how this looks like.
 
 | Bin type  | Bin color | RGB color     | HEX color code |
 |-----------|-----------|---------------|----------------|
@@ -119,9 +127,9 @@ These are my bin types and the RGB and HEX color codes I use.
 <br>
 <br>
 
-I hope you like this project and get inspiration for your projects!
+I hope you like this project and get inspiration for your own home automation projects!
 
-[Home Assistant - HACS Afvalbeheer](../homeassistant/homeassistant_hacs_afvalbeheer)
+Related link: [Home Assistant - HACS Afvalbeheer](../homeassistant/homeassistant_hacs_afvalbeheer)
 
 ---
 
