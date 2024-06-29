@@ -250,7 +250,7 @@ binary_sensor:
     device_class: motion
     filters:
       - delayed_off: 10s # wait for 10 seconds without motion to send OFF. 
-      # Play with this value, to find the right balance.
+      # Play with this value, to find the right balance. For bed/bathroom or office it can be much higher compare to a walk through hallway. 
 ```
 
 ---
