@@ -333,7 +333,7 @@ The downside is that these make the sensor also quite big.
 
 <img src="images_zigbee/cr2032.webp" alt="CR2032" height="50px" style="margin-left:15px;float:right"/>
 
-This CR2032 is the most commonly used battery. It's small but still has enough power to run sensors for a year.
+This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mNV6Pge" target="_blank">link 1 (AliExpress)</a>
 

@@ -872,7 +872,7 @@ cards:
 
 #### Grafana
 
-I run Grafana where I can visualize the power consumption of my ventilation related device as the ventilation system itself but also the washing machine and dryer.
+I run Grafana where I can visualize the power consumption of my ventilation related device as the ventilation system itself, but also the washing machine and dryer.
 
 I integrated the exported Grafana dashboard in a vertical stack to stick them together in the dashboard.
 
@@ -903,7 +903,7 @@ The system can automatically be controlled by different type of sensors and actu
 - The original 15RF remote.
 - A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 Co2 sensor](co2_senseair_s8_sensor).
 - A temperature and humidity sensor (Aqara WSDCGQ11LM) in the extractor hood above the stove.
-- A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low but in autumn very high for the whole day. In my experience if you use fixed values, to control the system, it can be that it will never drop below the 60%.
+- A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500px" />
   

@@ -37,7 +37,7 @@ This "hack" use a Zigbee contact sensor connected to a car seat sensor to detect
 You only need these two devices:
  
 [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
-I have a Zigbee network, so I use a Zigbee contact sensor but any other protocol sensor can also be used for this.
+I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also be used for this.
 
 <a href="../buy/smart_home_best_buy_tips#contact-sensor">
 <img src="../buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">

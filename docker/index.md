@@ -4,7 +4,7 @@
 The advantage of running applications using Docker is that it's easy to setup. 
 Just with a few line you can have an application up and running.
 Also update or rollback a version is possible with a single command.
-For backups you don't need to backup the application itself but only the data(base) and configuration files are enough.
+For backup you don't need to backup the application itself, but only the data(base) and configuration files are enough.
 
 
 ## Table of Contents

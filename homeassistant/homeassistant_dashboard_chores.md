@@ -88,7 +88,7 @@ Repeat all these steps to create all your weekly chores.
 
 > You can always add new chores, they will automatically add to the dashboard.
 
-For the periodic chores repeat also these steps but use `chore_x_` as reference text.
+For the periodic chores repeat also these steps, but use `chore_x_` as reference text.
 
 > To hide temporary season chores just change the reference text. Then they don't match on it, and they don't show up in the dashboard.
 
@@ -327,7 +327,7 @@ I was looking for a solution to manage the weekend chores for use.\
 I did it before with writing down chore, from a list in an app, on the whiteboard.\
 I'm trying to move, as much as possible, from the old-school whiteboard to a digital version with Home Assistant. With these recurring chores, this should be possible. I looked at different solutions how to manage chores in Home Assistant.
 
-I tried the old HA shopping list but when you mark it is gone and I could only make one list. Then I fixed the Microsoft To-Do integration, then I could maintain it from the app. The downside here was I couldn't undo chores and no good solution for periodic chores.
+I tried the old HA shopping list, but when you mark it is gone and I could only make one list. Then I fixed the Microsoft To-Do integration, then I could maintain it from the app. The downside here was I couldn't undo chores and no good solution for periodic chores.
 
 Then I found a solution with Home Assistant helpers. This is what I've worked out and fits all my needs for a while now.
 

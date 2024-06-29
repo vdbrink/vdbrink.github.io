@@ -16,7 +16,7 @@ I had no leak sensor direct available, and they were at that time quite expensiv
 
 Water conducts current, so I thought I could also create from a contact sensor a leak sensor with just a small modification, and so I did.
 
-Nowadays, these [leak sensors](../buy/smart_home_best_buy_tips#leak-sensor) are widely available, and you can buy them for the same price as a contact sensor but if you want to create one based on a contact sensor it's also possible ;) 
+Nowadays, these [leak sensors](../buy/smart_home_best_buy_tips#leak-sensor) are widely available, and you can buy them for the same price as a contact sensor, but if you want to create one based on a contact sensor it's also possible ;) 
 
 <a href="../buy/smart_home_best_buy_tips#leak-sensor">
 <img src="../buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>

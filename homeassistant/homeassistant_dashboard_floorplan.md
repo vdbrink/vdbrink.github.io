@@ -236,7 +236,7 @@ To format a temperature see [here](homeassistant_dashboard_formatting#rounded-te
 
 With click actions (tap_action), Double-click (double_tap_action) and Long-press (hold_action) you can ignore it, toggle the status, navigate to another card, show a more info in a popup or call a script.
 
-In the example here I used click action but this can also replace with one of the other tab actions.
+In the example here I used click action, but this can also replace with one of the other tab actions.
 
 #### Click: No action
 ```yaml
