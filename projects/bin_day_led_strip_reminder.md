@@ -78,7 +78,7 @@ It's also possible to use an E27 bulb lamp to create the same light effects.\
 
 ### Waste collection schedule
 
-I live in The Netherlands and we have a HACS integration called Afvalbeheer.\
+I live in The Netherlands and we have a HACS integration called `Afvalbeheer`.\
 This integration downloads the waste collection schedule from most of the collection companies, in the Netherlands, and
 generates entities in Home Assistant with the next pick-up date for each type of bin.
 
@@ -89,17 +89,30 @@ implemented it. Also with extra missing functionality for me, I have the number 
 
 ### Node-RED flow to turn the LED strip on, on bin day
 
-I use for all my automations Node-RED. Here used with the [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED-strip entity.
+I use for all my automations Node-RED. 
+Here used with the [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED-strip entity.
 
 > **_NOTE:_** If you share the Home Assistant equivalent code with me, I can add it also here.
 
-This is my Node-RED flow which you can use.\
-I normally control my Zigbee devices via Zigbee2MQTT myself, but disabled this node in this example and use the HA nodes. 
-I also added the same Home Assistant light entity `ledstrip_bin_day` here. Choose which way of integration you want to use, and set the correct entity name, both methods will work.
+This is my Node-RED flow which you can use and modify as an example.\
+I normally control my Zigbee devices via Zigbee2MQTT, but disabled this node in this example and use the HA nodes. 
+I also added the same Home Assistant light entity `ledstrip_bin_day` here. 
+Choose which way of integration you want to use, and set the correct entity name, both methods will work with this example.
 
-As addition, I added an inject-node where you can click on to test if the lights goes on.
+**Custom helper entities for days countdown**
+
+I created [customer helper entities](../homeassistant/homeassistant_hacs_afvalbeheer#custom-helper-entities-days-countdown) in Home Assistant to show on my dashboard the amount of days for the bin day.
+These entities are also used here to check if tomorrow is bin day.
+
+**Test the light**
+
+In addition, I added an inject-node where you can click on to test if the lights goes on.
+
+**Send notification**
 
 Another addition is the node to send the text also to your phone. Check [here](../node-red/node-red_home-assistant_notifications) how to send this message to you Home Assistant companion app.
+
+**Turn LED strip off**
 
 At the bottom, there is an inject-node which get triggered at 0:00 to disable the light again.
 There is also a link-node with the value `ledstrip_bin_day trigger off`. You can trigger this when you have another trigger to turn off the light. In my case: \
