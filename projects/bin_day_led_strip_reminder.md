@@ -1,6 +1,7 @@
 ---
 title: "Bin day - LED strip reminder"
-category: Bin day
+description: "How to create a LED strip bin day reminder"
+category: projects
 tags: [Home Assistant, afvalbeheer, bin day, LED, strip, trash]
 image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 ---
@@ -13,7 +14,7 @@ I was looking for a way to reminder me about the waste collection schedule.
 We have four trash bins and every bin has different recurring schedules. With bank holidays it also changes to another day. 
 A single notification was not enough, it can easily be swiped away. So I was looking for another nice subtle automation.
 
-I came up with a RBG LED strip under the dresser which indicates which trash bin must be put on the street.
+I came up with a RBG LED strip under my French antique dresser which indicates which trash bin must be put on the street.
 
 <img src="images_bin_day/bin_day_ledstrip_animation.gif" alt="Bin day - LED strip reminder animation">
 
