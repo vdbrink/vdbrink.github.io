@@ -52,7 +52,13 @@ This is not available by default, but I've made it the way I wanted it.
 
 I also add some extra dashboard presentation examples.
 
-Enjoy reading it, and hopefully you can use it for yor own dashboard.
+With this data I also automated a LED strip to indicate which bin has to put outside for tomorrow.
+
+<a href="../projects/bin_day_led_strip_reminder">
+<img src="../projects/images_bin_day/bin_day_ledstrip_reminder_banner.png" alt="Bin day - LED strip reminder" height="150px">
+</a>
+
+Enjoy reading it, and hopefully you can use it for your own dashboard.
 
 ---
 
