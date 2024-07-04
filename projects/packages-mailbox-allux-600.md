@@ -2,7 +2,9 @@
 title: "Packages mailbox - Allux 600"
 category: Projects
 tags: [Mailbox, package box, mail, node-red, home assistant]
+image: /projects/images_allux-600/allux_result.jpg
 ---
+
 # Packages mailbox - Allux 600
 
 I was looking for a packages-mailbox where 80% of my ordered packages should fit in, so I don't have to wait at home for the delivery guy to arrive, but still I can receive my package.
