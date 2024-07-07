@@ -438,12 +438,18 @@ card_mod:
 
 ## Out of the freezer the evening before
 
-I created a Node-RED automation which reminds me in the evening if I need to get meat/fish/anything else out of the freezer and move it to the refrigerator to slowly defrost already for the dinner of tomorrow.
-This is based on the ingredient list, for the Mealie meal of tomorrow, if there is one of the ingredients has the text `[freezer]` in it, I show the names of the ingredients in a message.
+I created a Node-RED automation which reminds me in the evening if I need to get meat/fish/anything else out of the freezer and move it to the refrigerator to let it slowly defrost it already for the dinner of tomorrow.
+This is based on the ingredient list, for the meal of tomorrow, if there is one of the ingredients which has the text `[freezer]` in it, I show the names of these ingredients in the notification.
 
 ### Notification
 
+This is an example of how such notification could look like:
+
 <img src="images_mealie/mealie_freezer_message.jpg" alt="freezer message" width="400px">
+
+Other possible messages are:
+* "For tomorrow no recipe found"
+* "For tomorrow nothing need out of the freezer for {recipe_name}"
 
 ### Tag an ingredient
 
