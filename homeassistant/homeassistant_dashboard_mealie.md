@@ -256,7 +256,7 @@ http://< ip-address >:9925/api/media/recipes/{{states('sensor.mealie_todays_meal
 #### Card element
 Now we have stored the name of the meal for today and the corresponding image we can use it to add it to our HA as card, like this:
 
-<img src="images_mealie/picture_element_meal1_tonight.png" alt="Square picture" width="400px">
+<img src="images_mealie/picture_element_meal1_tonight2.png" alt="Square picture" width="400px">
 
 Add a Picture element to the dashboard with this code:
 
@@ -462,7 +462,7 @@ Only ingredients with the text `[freezer]` are used in the notification.
 
 ### Node-RED flow
 
-<img src="images_mealie/mealie_freezer_node-red.png" alt="freezer message" width="400px">
+<img src="images_mealie/mealie_freezer_node-red.png" alt="freezer message" width="100%">
 
 ```yaml
 {% raw %}
