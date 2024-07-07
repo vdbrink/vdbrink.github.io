@@ -188,9 +188,11 @@ So I designed two stickers:
 * One to place on the lid of the box.
   * I gathered some delivery company logo's, created an image and placed the text that this is a package mailbox, my name and street name with house number on it (blurred on the photo).
 
- <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> 
+ <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> Download <a href="https://www.getpaint.net" target="_blank">Paint.net</a>
 
-  <img src="images_allux-600/sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
+ <a href="images_allux-600/pakketbrievenbussticker_template.psd">Download here the Photoshop PSD file of this sticker.</a>
+
+ <img src="images_allux-600/sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
 
 * And I placed the other one direct under the doorbell with a reference there is also a package box.
 
