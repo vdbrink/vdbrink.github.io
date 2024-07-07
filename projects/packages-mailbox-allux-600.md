@@ -116,7 +116,8 @@ Click on the above image to see the video.
 ## Mounting to the ground
 
 The regular Allux 600 is without any mounting materials.
-The only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame. In my opinion, way too expensive, and it should also be possible to solve this for way less, but that needs a creative solution.
+The only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame. 
+In my opinion, way too expensive, and it should also be possible to solve this for way less, but that needs a creative solution.
 
 <img src="images_allux-600/allux_default_mount.webp" height="250px" alt="default mount"/>
 
@@ -128,7 +129,8 @@ The Allux has already in the bottom, in each corner and in the center, pre-drill
 ### Used parts for my DIY ground mount
 
 I came up with a DIY solution that would work for me.\
-My box is placed on soil. So I decided to dig a hole under the box, and place something heavy in the ground, and this should be mounted to the box. So you can't pick it up and walk away with it.
+My box is placed on soil. So I decided to dig a hole under the box, and place something heavy in the ground, and this should be mounted to the box. 
+So you can't pick it up and walk away with it.
 
 This was my shopping list for my DIY ground mount: 
 
@@ -203,11 +205,16 @@ So I designed two stickers:
 ## Automations
 
 This package box is not smart by itself, but it was easy to make it smart.\
-I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box. I created automations for notifications and added the status to my Home Assistant dashboard.
+I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box. 
+I created automations for notifications and added the status to my Home Assistant dashboard.
 
 ### Notification when a package is delivered
 
-* The first contact sensor is mounted under the inner metal plate where the packages are place on when the lid is opened. When the lid is opened, the contact breaks and a trigger is sent. This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions. The signal is strong enough to get through the steel.
+* The first [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is mounted under the inner metal plate where the packages are place on when the lid is opened. 
+When the lid is opened, the contact breaks and a trigger is sent. 
+This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions. 
+The signal is strong enough to get through the steel.
+I have at 1.5m, inside the house, a [smart socket](../buy/smart_home_best_buy_tips#smart-socket) installed to receive the Zigbee signals.
 
   <img src="images_allux-600/lid_open_contact_sensor.jpg" height="250px" alt="Lid opened" />
 
@@ -215,11 +222,13 @@ I have already a Zigbee network up and running, so I added two contact sensors (
 
   <img src="images_allux-600/front_door_contact_sensor.jpg" height="250px" alt="package box emptied" />
 
-Is this full-proof? No, everybody who opens the lid triggers that there is a package inside. It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo. But for me this is now good enough. 
+Is this full-proof? No, everybody who opens the lid triggers that there is a package inside. 
+It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo. 
+But for me this is now good enough. 
 
 ### Node-RED flow
 
-For creating all my automations around the house I have a home server running and use the software Node-RED to make automations based on all my sensors input.
+For creating all my automations around the house I have a home server running and use the software [Node-RED](../node-red) to make automations based on all my sensors input.
 
 In Node-RED I defined a custom [MQTT topic](#how-mqtt-works) to indicate if there is a package in the box.
 I named it `homeassistant/packagebox`.
@@ -490,7 +499,9 @@ This is how my Node-RED flow looks like.
 
 ### Notification on my phone
 
-I have already a separated Node-RED flow to send messages to my phone. I use a `link out node` (most right bottom block in the screenshot) to connect to that flow. And every message it received will be sent to my phone to notify me there is a package. (How this exact works is not yet documented here.)
+I have already a separated Node-RED flow to [send messages to my phone](../node-red/node-red_home-assistant_notifications). 
+I use a `link out node` (most right bottom block in the screenshot) to connect to that flow. 
+And every message it received will be sent to my phone to notify me there is a package.
 
 You can use your own preferred notification app here, like the Home Assistant Companion app, Whatsapp, Xabber, Telegram, Pushbullet, etc  
 
@@ -501,11 +512,17 @@ You can use your own preferred notification app here, like the Home Assistant Co
 
 #### How MQTT works 
 
-The advantage of MQTT is that multiple applications can send and received messages on a topic. A topic is some kind of channel. The messages are in standard json format. So in my case Node-RED updates the status of topic `homeassistant/packagebox` and Home Assistant also listen to it and use it for its own automations and dashboard. Check online tutorials for all ins and outs about MQTT.
+The advantage of MQTT is that multiple applications can send and received messages on a topic. 
+A topic is some kind of channel. 
+The messages are in standard json format. 
+So in my case Node-RED updates the status of topic `homeassistant/packagebox` and Home Assistant also listen to it and use it for its own automations and dashboard. 
+Check online tutorials for all ins and outs about MQTT.
 
 #### MQTT entity
 
-In Home Assistant I added YAML code in configuration.yaml. I defined a sensor for a MQTT topic to listen to. It becomes a binary sensor in Home Assistant. When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor sets the status to `ON` and with topic value `false` the state will be `OFF`.
+In Home Assistant I added YAML code in configuration.yaml. 
+I defined a sensor for a MQTT topic to listen to. 
+It becomes a binary sensor in Home Assistant. When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor sets the status to `ON` and with topic value `false` the state will be `OFF`.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
