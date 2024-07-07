@@ -53,7 +53,7 @@ Here you find flows to interact between Home Assistant and Node-RED.
 * [Node-RED - Send notifications to Home Assistant app](node-red_homeassistant_notification)
 
 ### Advanced flow
-Here you see an example of a script which I use to automatic control my ventilation system.
+Here you see an example of a script which I use to automatically control my ventilation system.
 You can read all the details about this project on the [Control an Orcon mechanic ventilation system from Home Assistant](../esphome/orcon_mechanic_ventilation) page.
 
 <a href="../esphome/orcon_images/script_node-red.png" target="_blank">

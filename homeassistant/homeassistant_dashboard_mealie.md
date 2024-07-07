@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Mealie Recipe Manager"
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner]
-date: 10-03-2024
+date: 07-07-2024
 description: "How to install and integrate the recipe and meal planner Mealie into Home Assistant"
 image: /homeassistant/images_mealie/mealie1_ha_integration.png
 ---
@@ -14,9 +14,6 @@ image: /homeassistant/images_mealie/mealie1_ha_integration.png
 Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
-
-
-> **_NOTE:_** The code on this page is based on HA 2024.3.0 and Mealie 1.3
 
 ---
 ## Table of Contents
@@ -38,6 +35,7 @@ Here you find how I seamlessly integrate the recipe manager **Mealie** into my H
     * [Meal planning for this week as a list](#meal-planning-for-this-week-as-a-list)
       * [Store meal planning data as a sensors](#store-meal-planning-data-as-a-sensors)
       * [Markdown element](#markdown-element)
+  * [Out of the freezer the evening before](#out-of-the-freezer-the-evening-before)
   * [FAQ](#faq)
 <!-- TOC -->
 
@@ -157,6 +155,8 @@ This is how it will look like, integrated in Home Assistant.
 
 ### As sidebar link
 
+[update] This can be removed in newer HA versions.
+
 Another option is to add a link to Mealie in the sidebar.
 
 <img src="images_mealie/mealie_link_sidemenu.png" alt="Result" width="600px">
@@ -215,7 +215,7 @@ If you don't want to use the `secrets.yaml` method, you can also place the token
 # configuration.yaml
 rest:
  - scan_interval: 3600
-   resource: "http://< ip-address >:9925/api/groups/mealplans/today"
+   resource: "http://< mealie-url >:9925/api/groups/mealplans/today"
    headers:
      Authorization: !secret mealie_bearer
    sensor:
@@ -243,7 +243,7 @@ http://mealie-recipes:9000/api/media/recipes/{{states('sensor.mealie_todays_meal
 {% endraw %}
 ```
 
-or the outside host url (replace `< ip-address >` with your own server ip-address):
+or the outside host url (replace `< ip-address >` with your own server ip-address or the internal docker name, in my case `mealie-recipes`):
 ```yaml
 {% raw %}
 http://< ip-address >:9925/api/media/recipes/{{states('sensor.mealie_todays_meal_id')}}/images/min-original.webp
@@ -434,6 +434,57 @@ card_mod:
 ```
 </details>
 
+---
+
+## Out of the freezer the evening before
+
+I created a Node-RED automation which reminds me in the evening if I need to get meat/fish/anything else out of the freezer and move it to the refrigerator to slowly defrost already for the dinner of tomorrow.
+This is based on the ingredient list, for the Mealie meal of tomorrow, if there is one of the ingredients has the text `[freezer]` in it, I show the names of the ingredients in a message.
+
+### Notification
+
+<img src="images_mealie/mealie_freezer_message.jpg" alt="freezer message" width="400px">
+
+### Tag an ingredient
+
+Only ingredients with the text `[freezer]` are used in the notification.
+
+<img src="images_mealie/mealie_freezer_mark.png" alt="freezer reminder" width="400px">
+
+### Node-RED flow
+
+<img src="images_mealie/mealie_freezer_node-red.png" alt="freezer message" width="400px">
+
+```yaml
+{% raw %}
+[{"id":"bd0839aee9138ce9","type":"tab","label":"Mealie test","disabled":false,"info":"","env":[]},{"id":"74e61f540d6cfdff","type":"inject","z":"bd0839aee9138ce9","name":"","props":[{"p":"topic","vt":"str"}],"repeat":"","crontab":"00 22 * * *","once":false,"onceDelay":0.1,"topic":"","x":110,"y":100,"wires":[["d0a80ee27f0fa9ac"]]},{"id":"403b6a3cd68b67c4","type":"http request","z":"bd0839aee9138ce9","name":"get mealplans after now","method":"GET","ret":"txt","paytoqs":"ignore","url":"http://mealie-recipes:9000/api/groups/mealplans?orderBy=date&orderDirection=asc&perPage=1&start_date={{{start_date}}}","tls":"","persist":false,"proxy":"","insecureHTTPParser":false,"authType":"bearer","senderr":false,"headers":[],"x":550,"y":100,"wires":[["1d7bcc9aea364223"]]},{"id":"d0a80ee27f0fa9ac","type":"function","z":"bd0839aee9138ce9","name":"tomorrow as YYYY-MM-DD","func":"let currentDate = new Date();\ncurrentDate.setDate(currentDate.getDate() + 1);\n\n// Format the date to YYYY-MM-DD\nlet year = currentDate.getFullYear();\nlet month = ('0' + (currentDate.getMonth() + 1)).slice(-2); // Adding 1 because months are zero-based\nlet day = ('0' + currentDate.getDate()).slice(-2);\nlet formattedDate = year + '-' + month + '-' + day;\n\nmsg.start_date = formattedDate;\nreturn msg;","outputs":1,"timeout":0,"noerr":0,"initialize":"","finalize":"","libs":[],"x":300,"y":100,"wires":[["403b6a3cd68b67c4"]]},{"id":"dc16d1889207dc1c","type":"http request","z":"bd0839aee9138ce9","name":"get recipe for tomorrow","method":"GET","ret":"txt","paytoqs":"ignore","url":"http://mealie-recipes:9000/api/recipes/{{{recipeId}}}","tls":"","persist":false,"proxy":"","insecureHTTPParser":false,"authType":"bearer","senderr":false,"headers":[],"x":310,"y":260,"wires":[["d2048ea8d9e3ba36"]]},{"id":"f95f8b3686b07a9b","type":"function","z":"bd0839aee9138ce9","name":"get recipeId","func":"if (msg.payload.items.length>0) {\n    msg.recipeId = msg.payload.items[0].recipeId;\n}\nreturn msg;","outputs":1,"timeout":0,"noerr":0,"initialize":"","finalize":"","libs":[],"x":391,"y":180,"wires":[["c30cf32f3fb9dcb0"]]},{"id":"1d7bcc9aea364223","type":"json","z":"bd0839aee9138ce9","name":"","property":"payload","action":"","pretty":false,"x":250,"y":180,"wires":[["f95f8b3686b07a9b"]]},{"id":"d2048ea8d9e3ba36","type":"json","z":"bd0839aee9138ce9","name":"","property":"payload","action":"","pretty":false,"x":490,"y":260,"wires":[["18553b8d68008d00"]]},{"id":"18553b8d68008d00","type":"function","z":"bd0839aee9138ce9","name":"find tag from ingredients","func":"var recipe = msg.payload;\n\nmsg.payload = {};\nmsg.payload.recipe_name = recipe.name;\nmsg.payload.fridge = null;\n\nvar keyword = \"freezer\";\nvar tag = \"[\" + keyword +\"]\";\nvar freezerIngredients = Array();\nfor (let i = 0; i < recipe.recipeIngredient.length; i++) {\n    var ingredient = recipe.recipeIngredient[i];\n    if (ingredient.display.includes(tag)) {\n        // remove tag and add to the array\n         freezerIngredients.push(ingredient.display.replace(' '+ tag, ''));\n    }\n}\nmsg.payload.fridge = freezerIngredients.join(\" and \");\nreturn msg;","outputs":1,"timeout":0,"noerr":0,"initialize":"","finalize":"","libs":[],"x":310,"y":340,"wires":[["6600274d3fc3c995"]]},{"id":"ab1563c57ccf9d26","type":"template","z":"bd0839aee9138ce9","name":"from fridge","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"For tomorrow {{payload.fridge}} must get out of the freezer for {{payload.recipe_name}}","output":"str","x":770,"y":320,"wires":[["dd9bfa2ced5eb6ff"]]},{"id":"6600274d3fc3c995","type":"switch","z":"bd0839aee9138ce9","name":"!= null","property":"payload.fridge","propertyType":"msg","rules":[{"t":"nnull"},{"t":"else"}],"checkall":"true","repair":false,"outputs":2,"x":510,"y":340,"wires":[["ab1563c57ccf9d26"],["cb9246ee0de6055b"]]},{"id":"2c49779e764870f5","type":"link out","z":"bd0839aee9138ce9","name":"send message","mode":"link","links":[],"x":1125,"y":320,"wires":[]},{"id":"cb9246ee0de6055b","type":"template","z":"bd0839aee9138ce9","name":"nothing out of the freezer","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"For tomorrow nothing need out of the freezer for {{payload.recipe_name}}","output":"str","x":810,"y":360,"wires":[["dd9bfa2ced5eb6ff"]]},{"id":"c30cf32f3fb9dcb0","type":"switch","z":"bd0839aee9138ce9","name":"recipeId != null","property":"recipeId","propertyType":"msg","rules":[{"t":"nnull"},{"t":"else"}],"checkall":"true","repair":false,"outputs":2,"x":560,"y":180,"wires":[["dc16d1889207dc1c"],["6b12146002663662"]]},{"id":"6b12146002663662","type":"template","z":"bd0839aee9138ce9","name":"no recipe for tomorrow","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"For tomorrow no recipe found","output":"str","x":800,"y":280,"wires":[["dd9bfa2ced5eb6ff"]]},{"id":"9f7205ae535d4aea","type":"comment","z":"bd0839aee9138ce9","name":"Get meat out of fridge (vdbrink.github.io)","info":"","x":200,"y":40,"wires":[]},{"id":"dd9bfa2ced5eb6ff","type":"rbe","z":"bd0839aee9138ce9","name":"","func":"rbe","gap":"","start":"","inout":"out","septopics":true,"property":"payload","topi":"topic","x":1030,"y":320,"wires":[["2c49779e764870f5"]]}]
+{% endraw %}
+```
+
+The Node-RED flow explanation:
+* Call the Mealie API to get all the recipes after today 
+  * Endpoint `http://mealie-recipes:9000/api/groups/mealplans?orderBy=date&orderDirection=asc&perPage=1&start_date={{{start_date}}}`
+* Get the first recipe ID
+* If there is no recipe found:
+  * Send a message `For tomorrow no recipe found`
+* Otherwise, call the Mealie API to get the recipe data with the ingredients
+  * * Endpoint `http://mealie-recipes:9000/api/recipes/{{{recipeId}}}`
+* Filter all ingredients and find in one of them contains the text `[freezer]`
+* If this isn't found:
+  * Send a message `For tomorrow nothing need out of the freezer for {recipe_name}`
+* Otherwise, send a message `For tomorrow {ingredient_from_fridge} must get out of the freezer for {recipe_name}`
+* If the same message was sent before, no new message is sent (in case you have the same meal for 2 days after each other)
+
+Setup flow:
+* Define your own host and port number in the endpoints.
+* This flow required a [Bearer token](#FAQ) to call the Mealie API. Add the token to the two `get ..` API nodes.
+* Link the last node to your own notification flow. I explained [here](../node-red/node-red_homeassistant_notification) how to use the Companion App to send messages to.
+
+Possible additions:
+* Trigger the flow also earlier and send the message to a Home Assistant sensor to show it on your dashboard.
+
+<hr>
+
 <br>
 
 I hope you also enjoy using Mealie!
@@ -449,8 +500,9 @@ Password: MyPassword
 A: In the side menu go to settings, here you can change the locale.
 
 **Q: How can to create a Bearer token?**\
-A: See [API Key Generation](https://docs.mealie.io/documentation/getting-started/api-usage/#getting-a-token)\
-Save this private value in the [secrets.yaml](https://www.home-assistant.io/docs/configuration/secrets/) file.
+A: Go to your local Meal website url `/user/profile/api-tokens`\
+Create a new token and 
+save this private value in the [secrets.yaml](https://www.home-assistant.io/docs/configuration/secrets/) file.
 ````yaml
 # Sourcecode by vdbrink.github.io
 # secrets.yaml
