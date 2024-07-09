@@ -10,7 +10,7 @@ tags: [Node-RED, price, watch, monitor, sales]
 <a name="top"></a>
 <img style="float: right;margin-left:20px" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
 
-Let Node-RED check, on a daily basis, the actual product prices, on different websites, for you and only send a notification when it meets your desired (sales) price.
+Let Node-RED check on a daily basis the actual product prices on different websites for you and only send a notification when it meets your desired price.
 
 <img src="images_pricewatch/sales_price_example.png" height="100px" alt="sales price">
 
@@ -39,8 +39,8 @@ Let Node-RED check, on a daily basis, the actual product prices, on different we
 
 ## How it works
 
-With this flow you download a whole webpage and via HTML and CSS element names you filter out only the price of the product.
-Then you compare the price with your desired price. If this is lower it creates a message with the product name and a link and sends it to your phone as notification.
+With this flow it downloads a whole webpage and via HTML and CSS element names it filters out only the price of the product.
+Then compare the price with the desired price. If this is lower it sends a message with the product name, current price and a link to your phone as notification.
 
 <img src="images_pricewatch/notification.jpg" height="150px" alt="notification">
 
@@ -70,10 +70,13 @@ With this flow you can check a website for the actual price of a product.
     ```
     <html><head>...<div id="price">20,95</div>...</head></html>
     ```
-    Sometimes you can try the other options if there comes no data out of this node. 
+    Sometimes you can try the other options if there is no data as output of this node. 
 
 
-* **[html node]** Grab only the price from the page.
+* **[html node]** This node filters away all data to only return the actual price on the page. 
+  This Selector is different on each page and the hardest part to find.   
+  See [CSS Selector](#define-the-selector) how you can define your own required Selector.
+
     ```
     Property   msg.payload
     Selector   #price
@@ -86,10 +89,9 @@ With this flow you can check a website for the actual price of a product.
     ```
     20,95
     ```
-  See [CSS Selector](#define-the-selector) how you can define your own required Selector.
 
  
-* **[change node]** Extract the price to a real number.
+* **[change node]** Extract the price to a real number (no cents are used).
     ```
     Set           msg.payload
     to the value  [expression] $number((payload.$split(',')[0]))  
@@ -116,12 +118,12 @@ With this flow you can check a website for the actual price of a product.
 * **[template node]** Create a notification message text.
     ```
     Property    msg.payload
-    Template    De wasverzachter is in de aanbieding! Huidige prijs {{payload}}
+    Template    The fabric softener is on sale! Current price {{payload}}
                 https://www.bol.com/nl/p/robijn-puur-zacht-wasverzachter-4-x-18-wasbeurten-voordeelverpakking/9200000108581694/     
     ```
   Output msg.payload:
     ```
-    De wasverzachter is in de aanbieding! Huidige prijs 20
+    The fabric softener is on sale! Current price 20
     https://www.bol.com/nl/p/robijn-puur-zacht-wasverzachter-4-x-18-wasbeurten-voordeelverpakking/9200000108581694/   
     ```
   * **[delay node]** Only send a notification once per 3 days.
@@ -144,16 +146,28 @@ This is how this message looks like in Telegram.
 
 ## Flows for different sites
 
-Here I defined the Selectors and formatter for some sites.
+Here I defined the `Selectors` and `Price formatter` node values for some sites. 
+I also add an example flow for each site. 
+In the examples, I used high prices to trigger the notification. 
 
-### Amazon
+### Amazon.com / Amazon.de
+
+> **_NOTE:_** I have problems getting the content of this page. Please let me know if you have a solution for this.
 
 ```
 Selector:       .a-price-whole
 
-Price formatter: $number((payload.$split('<')[0]))
+Price formatter: $number(payload.$split('<')[0])
 ```
-Download an example flow.
+
+### Amazon.nl
+
+```
+Selector:       #corePrice_feature_div > div > div > span.a-price.aok-align-center > span:nth-child(2) > span.a-price-whole
+
+Price formatter: $number(payload.$split(',')[0])
+```
+[Download an Amazon.nl example flow.](flows/node-red_flow_vdbrink_pricewatch_amazon-nl.json)
 
 ### Bol.com
 
@@ -162,7 +176,7 @@ Selector:       .buy-block .promo-price
 
 Price formatter: $number((payload.$split('\n')[0]))
 ```
-Download an example flow.
+[Download a Bol.com example flow.](flows/node-red_flow_vdbrink_pricewatch_bol-com.json)
 
 ### iBood.com
 
@@ -171,8 +185,9 @@ Selector:       ._price_n1pwc_7
 
 Price formatter: $number((payload[0].$split(',')[0]))
 ```
-Download an example flow.
+[Download an iBood example flow.](flows/node-red_flow_vdbrink_pricewatch_ibood-com.json)
 
+<!--
 ### Coolblue
 
 ```
@@ -180,9 +195,20 @@ Selector:       .js-product-order-form .sales-price__current
 
 Price formatter: $number((payload.$split(',')[0]))
 ```
-[Download an example flow](flows/vdbrink_pricewatch.json)
+[Download a Coolblue example flow](flows/node-red_flow_vdbrink_pricewatch_coolblue-com.json)
+-->
 
-If they change their site structure, this will break. Let me know [here](#remarks-or-suggestions) if one is broken then I can fix it.
+### Kruidvat.nl
+
+```
+Selector:       .pricebadge__new-price-decimal
+
+Price formatter: $number(payload[0])
+```
+[Download a Kruidvat example flow](flows/node-red_flow_vdbrink_pricewatch_kruidvat-nl.json)
+
+
+> **_NOTE:_** If they change their site structure, this will break. Let me know [here](#remarks-or-suggestions) if one is broken then I can fix it.
 
 ---
 
@@ -211,15 +237,20 @@ $number((payload.$split('\n')[0]))
 
 ### Other format?
 
-Panic? If the above examples doesn't match your format just google for it to find out how you can extract the price. That's also how I find mine! Let me know if you have some additions, then I can add those here.
+Panic? If the above examples don't match your format, Google for it to find out how you can extract the price. 
+That's also how I find mine! 
+Let me know if you have some additions, then I can add those here.
 
 ---
 ## Define the selector
 
 These steps are needed to take to get the **selector** value to get the price:
-1. Get the whole webpage source into an online evaluate page
-2. Find the corresponding Selector for your text
-3. Strip the unneeded part from the selector
+
+* Go to the page <a href="https://try.jsoup.org" target="_blank">try.jsoup.org</a>
+* Click on the button **Fetch URL**
+* Fill in the url to try
+* Click on the button **Fetch**. Now the whole page source is loaded
+* 
 
 ---
 [Top ^](#top)
