@@ -3,7 +3,7 @@ title: Control an Orcon mechanic ventilation system from Home Assistant
 date: 2022-06-24
 category: ESPHome
 tags: [Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome]
-image: /esphome/orcon_images/home_assistant_orcon_remote_all_types.jpg
+image: /esphome/orcon_images/wires_connected.jpg
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -1009,3 +1009,13 @@ This info helped me to eventually realize my implementation.
     
 [tweakerVdR for sharing his HA code](https://gathering.tweakers.net/forum/view_message/66345082)
 
+
+---
+
+My other ESPHome projects:
+
+* [Motion and Presence sensor based on the RCWL-0516 sensor](microwave_radar_sensor_rcwl-0516)
+* [Co2 sensor based on a SCD40 sensor](co2_scd40)
+* [Co2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
+
+[ESPHome DIY sensors - best buy tips](../buy/esphome_diy)
