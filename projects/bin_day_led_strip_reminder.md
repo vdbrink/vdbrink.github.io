@@ -8,6 +8,8 @@ image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 
 # Bin day - LED strip reminder
 
+## Introduction
+
 <img style="float: right;margin-left:20px" src="../homeassistant/images_afvalbeheer/kliko.jpg" height="150px" alt="Kliko">
 
 I was looking for a way to reminder me about the waste collection schedule.
@@ -83,7 +85,8 @@ This integration downloads the waste collection schedule from most of the collec
 generates entities in Home Assistant with the next pick-up date for each type of bin.
 
 I created a [separated blog post page](../homeassistant/homeassistant_hacs_afvalbeheer) about this integration and how I
-implemented it. Also with extra missing functionality for me, I have the number of days and sorted by the pickup date with the help of custom countdown helper entities.
+implemented it. 
+Also with extra missing functionality for me, I have the number of days and sorted by the pickup date with the help of custom countdown helper entities.
 
 ---
 

@@ -29,6 +29,7 @@ Node-RED example flows related to light.
 Keep the lights on while there is motion detected.
 
 ![Node-RED flow](images/flows/light_on_based_on_motion.png)
+
 You can download this flow [here](flows/light_on_based_on_motion.json).
 
 **Scenario:**
@@ -44,7 +45,7 @@ This flow turns on the light if someone enters the room and turn it off when nob
 
 * **[inject node]** 
 
-\* This get node is part of the additional nodes set, named **node-red-contrib-zigbee2mqtt**. You must install this first to used it. Via the menu > Manage Palette > Palette
+* This get node is part of the additional nodes set, named **node-red-contrib-zigbee2mqtt**. You must install this first to used it. Via the menu > Manage Palette > Palette
 
 **Additions to this flow:**
 

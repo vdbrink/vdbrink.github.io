@@ -31,6 +31,7 @@ With clickable arrows to open the news site.
 
 Get every 15 minutes the latest news headline from the new site nu.nl.
 ```yaml
+{% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
 - platform: scrape
@@ -38,6 +39,7 @@ Get every 15 minutes the latest news headline from the new site nu.nl.
   select: ".title.fluid:first-of-type"
   name: "nu.nl headline"
   scan_interval: 900
+{% endraw %}
 ```
 Use a Markdown card to present the news.
 ```yaml
@@ -54,7 +56,7 @@ Use a Markdown card to present the news.
 ## Create a new custom sensor: chair occupancy
 
 By default, the contact status is inverted as preferred.
-With this addition to configuration.yaml you can create a new sensor which show the correct status in your dashboard.
+With this addition to configuration.yaml you can create a new sensor that shows the correct status in your dashboard.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io

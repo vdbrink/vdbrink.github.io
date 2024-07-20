@@ -115,6 +115,7 @@ filter:
       options:
         tap_action:
           action: toggle
+{% endraw %}
 ```
 
 ---

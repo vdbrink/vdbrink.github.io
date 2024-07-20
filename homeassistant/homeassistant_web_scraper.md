@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant: Web Scraper"
 category: Home Assistant
-tags: [Home Assistant, dashboard, web scraper]
+tags: [Home Assistant, dashboard, web scraper, news]
 ---
 
 # Home Assistant: Web Scraper
@@ -32,7 +32,7 @@ We use here, as example, the actual dynamic gas price from a provider and show t
 ---
 ## How it works
 
-The web scraper integration use underwater the library **Beautiful Soup** to read first the whole website and then with the, so called, **CSS Selector** grabs the correct HTML element type (like an A, P, LI, TD or DIV element). This selector is normal used to style these element on a pages with CSS. Then find the corresponding **index** which contains the element you want to scrape.
+The web scraper integration uses underwater the library **Beautiful Soup** to read first the whole website and then with the, so called, **CSS Selector** grabs the correct HTML element type (like an A, P, LI, TD or DIV element). This selector is normal used to style these element on a pages with CSS. Then find the corresponding **index** which contains the element you want to scrape.
 In the scrape integration you can define some extra templating to format and fine-tune the value.
 
 ---
@@ -86,7 +86,7 @@ It is possible you get an `errors`, then try the manual option.
 
 #### 4. Find the corresponding index
 
-* Now you see a numbered list which match all the third columns values from the table as TD HTML elements
+* Now you see a numbered list that matches all the third columns values from the table as TD HTML elements
 * We need the 5th row which is index **4** (start counting by 0)
 <br>
 Now we have all the required input data for the scraper, now we can setup the scraper in Home Assistant.
@@ -146,8 +146,21 @@ If you're not totally happy with the result:
 Now you can use your new sensor on your dashboard or in an automation.
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
-<br><br>
-Happy scraping!
+
+Or use a Markdown card to present the news, for example.
+
+![News nu.nl](images/news_headline.png)
+
+The corresponding YAML code: 
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: markdown
+content: |
+  {{ states('sensor.nu_nl_headline') }} [>>](http://nu.nl)
+{% endraw %}
+```
 
 ---
 ## Other examples
@@ -157,9 +170,12 @@ Just some other page and settings with data you can scrape.
 | Site                     | URL                                                             | Selector            | Index |
 |--------------------------|-----------------------------------------------------------------|---------------------|-------|
 | Latest formula 1 news    | https://www.f1news.nl/                                          | div.uplp-post-title | 0     |
-| KNMI dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | div.alert__heading  | 0     |
+| KNMI Dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | div.alert__heading  | 0     |
 | nu.nl news headline      | https://www.nu.nl                                               | h1.title.fluid      | 0     |
+
 <br>
+Happy scraping!
+
 Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scraped data!
 
 ---

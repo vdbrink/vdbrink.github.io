@@ -51,7 +51,14 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
   * [Vibration sensor](#vibration-sensor)
   * [Google Coral USB](#google-coral-usb)
   * [Batteries](#batteries)
+    * [AAA sized](#aaa-sized)
+    * [CR2032](#cr2032)
+    * [CR1632](#cr1632)
+    * [CR2450](#cr2450)
   * [Cables](#cables)
+    * [Micro USB power cable](#micro-usb-power-cable)
+    * [USB-C power cable](#usb-c-power-cable)
+    * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
 <!-- TOC -->
 
@@ -171,6 +178,16 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-15 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-13 (Banggood)</a>
+
+### Outdoor socket
+<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="blank">
+<img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor Zigbee power socket, where each socket can be controlled individual and has power consumption measurements.
+
+{{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon.de)</a>
+
+<br>
 
 ---
 
@@ -319,49 +336,89 @@ These are common types of batteries used by the above-mentioned sensors:
 
 ### AAA sized
 
-<img src="images_zigbee/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/>
+<a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">
+<img src="images_zigbee/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/></a>
 
 The advantage of these is that they are everywhere available to buy, also in your local supermarket.
 Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
 The downside is that these make the sensor also quite big.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFTjSkm" target="_blank">link 1: rechargeable (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Eneloop Rechargeable AA and AAA batteries - Panasonic (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">link 2: non rechargeable (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">4x Rechargeable AA batteries - Duracell (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Non rechargeable AA and AAA batteries - Yuform (AliExpress)</a>
 
 ### CR2032
 
-<img src="images_zigbee/cr2032.webp" alt="CR2032" height="50px" style="margin-left:15px;float:right"/>
+<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">
+<img src="images_zigbee/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
 
 This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mNV6Pge" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">CR2032 - Panasonic (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJIdGI" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DncQAcL" target="_blank">CR2032 - Sony (AliExpress)</a>
+
+#### CR2032 rechargeable = LIR2032
+
+<a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">
+<img src="images_zigbee/cr2032_rechargeable.webp" alt="LIR2032" width="100px" style="margin-left:15px;float:right"/></a>
+Instead of buying batteries for only a single use it's also possible to buy the rechargeable variant of the CR2032, called LIR2032.
+
+They not very famous and more expensive but environment friendlier, and it reduces waste.
+<br><br>
+<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">
+<img src="images_zigbee/cr2032_rechargeable_adapter.webp" alt="LIR2032 adapter" height="150px" style="margin-left:15px;float:right"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included)</a> Lights green when it's full.
+DON'T CHARGE NORMAL CR2032 WITH IT!
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">2x LIR2032 rechargeable batteries - L.A Energy </a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmO93yn" target="_blank">2x LIR2032 rechargeable batteries - Maxwell</a>
+
+#### CR2032 USB battery replacements
+
+<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
+<img src="images_zigbee/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" /></a>
+It's also possible to convert a wireless CR2032 devices to a USB wired devices. Now you don't have to care about replacing batteries. 
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">link 1 (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">link 2 (AliExpress)</a>
+
 
 ### CR1632
 
-<img src="images_zigbee/cr1632.webp" alt="CR1632" height="50px" style="margin-left:15px;float:right"/>
+<img src="images_zigbee/cr1632.webp" alt="CR1632" width="100px" style="margin-left:15px;float:right"/>
 
 This CR1632 battery is a bit smaller than the CR2032.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE2CUQX" target="_blank">Rechargeable LIR1632 - L.A Energy (AliExpress)</a>
 
 ### CR2450
 
-<img src="images_zigbee/cr2450.webp" alt="CR2450" height="50px" style="margin-left:15px;float:right"/>
+<img src="images_zigbee/cr2450.webp" alt="CR2450" width="100px" style="margin-left:15px;float:right"/>
 
 This CR2450 battery is a bit thicker than the other ones.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">CR2450 - Panasonic (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DevdMzz" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DntctnV" target="_blank">Rechargeable LIR2450 + charger (AliExpress)</a>
 
 ### Battery eliminators
 
-<img src="../projects/images_christmas_lights/battery_eliminator.webp" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" />
+<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">
+<img src="../projects/images_christmas_lights/battery_eliminator.webp" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
 
 Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
 This saves you from buying new batteries. The big advantage is also that you now can control them with your home automations by adding a smart plugin between the plug and the wall outlet. Now you also don't have to worry that you forgot them to put them off again.
@@ -376,6 +433,8 @@ I use these a lot for all kinds of Christmas decorations.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opJpPLu" target="_blank">AAA battery replacement with power socket EU (AliExpress)</a> 
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 battery replacement with USB (AliExpress)</a>
 
 ---
 

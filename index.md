@@ -46,14 +46,13 @@ My latest big updates on this blog:
 
 Topics you can find here:
 
-|                                                                                                                                      |                                                                                       | 
-|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>  | [Home Assistant: <br>Home automation dashboards](homeassistant/index)                 |
-| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                  | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                   |
-| <a href="zigbee/index"><img src="zigbee/images/zigbee.jpg" alt="Zigbee logo" height="50px"></a>                                      | [Zigbee: <br>Create your own Zigbee sensors](zigbee/index)                            |
-| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                        | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index) |
-| <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                | [Docker: <br>Run applications](docker/index)                                          |
-| <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>      | [Random projects](projects/index)                                                     |
-| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>               | [Home automation ideas](ideas/home_automation_ideas)                                  |
-| <a href="buy/index"><img src="buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Smart home best buy tips" height="100px"></a> | [Smart home best buy tips](buy/smart_home_best_buy_tips)                              |
- 
+|                                                                                                                                      |                                                                                                                    | 
+|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>  | [Home Assistant: <br>Home automation dashboards](homeassistant/index)                                              |
+| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                  | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                                                |
+| <a href="zigbee/index"><img src="zigbee/images/zigbee.jpg" alt="Zigbee logo" height="50px"></a>                                      | [Zigbee: <br>Create your own Zigbee sensors](zigbee/index)                                                         |
+| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                        | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index)                              |
+| <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                | [Docker: <br>Run applications](docker/index)                                                                       |
+| <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>      | [Random projects](projects/index)                                                                                  |
+| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>               | [Home automation ideas](ideas/home_automation_ideas)<br><br>[Home automation videos](ideas/home_automation_videos) |
+| <a href="buy/index"><img src="buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Smart home best buy tips" height="100px"></a> | [Zigbee Smart home best buy tips](buy/smart_home_best_buy_tips)<br><br>[ESP DIY best buy tips](buy/esphome_diy)    |

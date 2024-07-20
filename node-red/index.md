@@ -42,7 +42,6 @@ Look at these Cheat Sheets where I described how you can convert values from one
 
 Here you find some basic useful example flows to control light, act on temperatures, etc.
 
-* [Node-RED - Light flows](node-red_light_flows)
 * [Node-RED - Temperature flows](node-red_temperature_flows)
 
 ###  Node-RED + Home Assistant integration
@@ -52,7 +51,11 @@ Here you find flows to interact between Home Assistant and Node-RED.
 * [Node-RED - Home Assistant](node-red_home-assistant)
 * [Node-RED - Send notifications to Home Assistant app](node-red_homeassistant_notification)
 
-### Advanced flow
+### Average flows
+
+* [Node-RED - Check if meat must be defrosted for the meal of tomorrow](../homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before)
+
+### Advanced flows
 Here you see an example of a script which I use to automatically control my ventilation system.
 You can read all the details about this project on the [Control an Orcon mechanic ventilation system from Home Assistant](../esphome/orcon_mechanic_ventilation) page.
 

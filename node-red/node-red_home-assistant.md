@@ -11,12 +11,12 @@ tags: [Node-RED, Home Assistant]
 <img style="float: right;" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
 </a>
 
-Combine the power of Node-RED and Home Assistant (also called here just 'HA').
+Combine the power of Node-RED and Home Assistant.
 
 Examples:
-* [HA state change -> trigger Node-RED flow](node-red_home-assistant_full_moon)
-
-[//]: # (* [Node-RED flow -> HA App notification]&#40;node-red_home-assistant_camera_notification&#41;)
+* [Home Assistant state change -> trigger Node-RED flow](node-red_home-assistant_full_moon)
+* [Node-RED + Home Assistant: Full moon trigger](node-red_home-assistant_full_moon)
+* [Node-RED flow -> HA App notification](node-red_home-assistant_notifications)
 
 [//]: # (* [Node-RED flow -> update HA helper entity]&#40;node-red_home-assistant_update_helper&#41;)
 

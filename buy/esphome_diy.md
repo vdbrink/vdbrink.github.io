@@ -77,9 +77,9 @@ The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and i
 <img src="../esphome/images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 NodeMCU v3" />
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">ESP8266 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">ESP8266 (AliExpress)</a>
 
 ### ESP D1 mini
 
@@ -118,7 +118,7 @@ AGS10 TVOC air quality gas sensor.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Des8CFV" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">link 2 (AliExpress)</a>
 
 
 ### Co2 sensor
