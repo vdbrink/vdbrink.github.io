@@ -73,6 +73,7 @@ Affiliate links are used here. Same price, but you also sponsor this blog.
 These hardware components did I use for this project:
 
 * [SenseAir S8 Co2 sensor](../buy/esphome_diy#senseair-s8)
+  * [Manufacture product page](https://senseair.com/product/s8/)  
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
 
@@ -372,3 +373,5 @@ chips:
       {% endif %}
 {% endraw %}
 ```
+
+Keep your home healthy, measuring is knowing!

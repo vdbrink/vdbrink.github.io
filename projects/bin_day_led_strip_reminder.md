@@ -1,7 +1,7 @@
 ---
 title: "Bin day - LED strip reminder"
 description: "How to create a LED strip bin day reminder"
-category: projects
+category: Projects
 tags: [Home Assistant, afvalbeheer, bin day, LED, strip, trash]
 image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 ---
@@ -39,7 +39,7 @@ An animation with the four different bin type colors.
 
 ## Hardware requirements
 
-I have already a running home server with a Zigbee network, that's why I choose for a Zigbee LED strip. This will also
+I already have a running home server with a Zigbee network, that's why I choose for a Zigbee LED strip. This will also
 work for a Wifi/bluetooth/other network type, but then the control will also be different.
 
 Affiliate links are used here. Same price, and you sponsor this blog.

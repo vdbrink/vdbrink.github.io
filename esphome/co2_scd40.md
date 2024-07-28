@@ -82,8 +82,8 @@ Affiliate links are used here. Same price, and you sponsor this blog.
 
 ### SCD40 Co2 sensor
 
-This small gas sensor measures Co2 (in a range 400-2000 ppm) and also temperature (-10-60 degrees) and humidity (0-100 percent).
-
+This small gas sensor measures Co2 (in a range 400-2000 ppm) and also temperature (-10-60 degrees) and humidity (0-100 percent).\
+The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) for all the details specs from this sensor.
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 This sensor is useful if you don't want to solder (AliExpress)
@@ -190,7 +190,7 @@ The only software you need is <a href="https://esphome.io/" target="_blank">ESPH
 
 This software is used to flash the config file to the ESP board.
 
-Their website contains a lot of information about how-to config all kinds of sensors.
+Their website contains a lot of information about how-to config and calibrate all kinds of sensors.\
 Also, the one we used here:
 * [ESPHome SCD4X page](https://esphome.io/components/sensor/scd4x.html)
 * [ESPHome I2C page](https://esphome.io/components/i2c.html)
@@ -207,7 +207,7 @@ One possible way is to run Python in command line:
 
 <img src="images_scd40/python_flash.png" alt="Python Flash output" width="400px">
 
-The "co2_scd40.yaml" YAML script:
+The `co2_scd40.yaml` YAML script:
 ```yaml
 # Sourcecode by vdbrink.github.io
 esphome:

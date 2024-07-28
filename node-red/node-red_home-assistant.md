@@ -39,7 +39,7 @@ To get data from Home Assistant you need, in Node-RED, to install the extra node
   <img src="images_ha/nr_config_node.png" width="250px" alt="Configuration nodes in Node-RED"/>
 
 * Under the section 'On all flows' scroll to server and double-click on the Home Assistant element.
-* Define the *Base URL*, this must be the url where Home Assistant can be reached from Node-RED. If you run both in a docker, you need the name of the docker image as host name. For example http://homeassistant:8123 Now Node-RED reach Home Assistant from inside the docker network. It's also possible to use the IP-address, but then it access it outside the docker and via the internal network which can act slower.
+* Define the *Base URL*, this must be the url where Home Assistant can be reached from Node-RED. If you run both in a docker in the same network, you can use the name of the docker image as host name. For example http://homeassistant:8123 Now Node-RED reach Home Assistant from inside the docker network. It's also possible to use the IP-address, but this can change, and then it access it outside the docker and via your network which can act slower.
 
   <img src="images_ha/config_ha_server.png" alt="config Home Assistant server in Node-RED"/>
 

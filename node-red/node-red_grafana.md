@@ -1,6 +1,6 @@
 ---
 title: "Node-RED Cheat Sheet - Grafana"
-category:  Node-RED
+category: Node-RED
 tags:  [Node-RED, grafana]
 ---
 {% capture imgHeightSmall %}35{% endcapture %}

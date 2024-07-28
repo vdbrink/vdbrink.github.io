@@ -1,12 +1,10 @@
 ---
 title: "Zigbee Smart home - best buy tips"
 description: "Useful link to buy Zigbee sensors other devices for your smart home automation with Home Assistant"
-date: 2024-05-01
 category: Buy tips
 tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee]
 image: /buy/images_zigbee/zigbee_banner.png
 ---
-<meta property="og:image" content={previewImageSrc} />
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Zigbee Smart home - best buy tips
@@ -20,12 +18,12 @@ image: /buy/images_zigbee/zigbee_banner.png
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
-On this page, you find my personal favorite sensors, actuator and other home automation related Zigbee hardware.
+On this page, you find my personal favorite sensors, actuator and other Zigbee home automation related hardware.
 
 If you need some home automation inspiration, check my [home automation ideas](../ideas/home_automation_ideas) section!
 
-Most devices are for sale by the online shops AliExpress or Banggood.
-I order 90% of my home automation devices on these two sites for years already. 
+Most devices are for sale by the online shop AliExpress.
+I order 90% of my home automation devices on this site for years already. 
 You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!
 
 ---
@@ -64,10 +62,11 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
 
 ---
 
-> **_NOTE 1:_** Links on this page are devices I also use myself. 
+> **_NOTE 1:_** Almost all hardware links on this page are devices I also use myself.\
 > Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
 
-> **_NOTE 2:_** I advise these products based on my personal experience. I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT. 
+> **_NOTE 2:_** I advise these products based on my personal experience.\
+> I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT.\
 > It can be with other hardware combinations it doesn't run with the same experience.
 ---
 ## Why I chose Zigbee
@@ -475,6 +474,13 @@ USB-A to USB-C cable to power the ESP.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
+
+5V USB power adapter to power multiple usb devices, with fast charging and 3.1A.
+
+<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
+<img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link 2</a>
 
 ---
 

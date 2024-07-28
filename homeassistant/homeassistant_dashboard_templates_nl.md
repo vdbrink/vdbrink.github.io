@@ -69,7 +69,9 @@ De template:
   en {{ states('sensor.meteoserver_verw').lower()}}.
 {% endraw %}
 ```
- ---
+
+---
+
 ## De huidige temperatuur met kleding advies
 
 Voorbeeld notaties van deze template:

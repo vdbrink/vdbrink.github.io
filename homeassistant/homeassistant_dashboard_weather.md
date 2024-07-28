@@ -7,11 +7,9 @@ image: /homeassistant/images/thunderstorm.jpg
 
 # Home Assistant dashboard: Weather
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you can find weather related examples for your own dashboard.
-
 
 [Here](homeassistant_dashboard_weather_nl) you can also find Dutch weather elements.
 

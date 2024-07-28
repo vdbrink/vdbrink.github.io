@@ -243,7 +243,7 @@ USB-A to USB-C cable to power the ESP32.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2</a>
 
-5V USB power adapter to power multiple usb devices, with fast charging with 3.1A.
+5V USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 
 <a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
