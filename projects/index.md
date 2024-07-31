@@ -5,7 +5,7 @@ tags: [projects]
 ---
 # Projects
 
-Bigger projects:
+Here you find bigger projects I've done.
 
 * [Bin day - LED strip reminder](bin_day_led_strip_reminder)
 * [Packages mailbox - Allux 600](packages-mailbox-allux-600)

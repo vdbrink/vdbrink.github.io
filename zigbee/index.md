@@ -7,7 +7,10 @@ image: /zigbee/images/zigbee.jpg
 
 # Zigbee
 
-Zigbee is a local smart home protocol.
+Zigbee is a local smart home protocol.\
+I'm a hugh fan of it because it's local and wide support. 
+I have over 100 devices from all kinds of brands working together.\
+Find here related information and my Zigbee [Best Buy Tips](../buy/smart_home_best_buy_tips).
 
 ---
 
@@ -60,7 +63,7 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" t
 
 ## Best Buy Tips
 
-I create my [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips) for all kinds or Zigbee hardware which I like.
+I create my [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) for all kinds or Zigbee hardware that I like.
 
 <a href="../buy/smart_home_best_buy_tips">
 <img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>
