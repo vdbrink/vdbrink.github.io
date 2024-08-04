@@ -16,6 +16,7 @@ Welcome to my blog about Home Automations.
 
 My latest bigger updates on this blog:
 
+* [Home Assistant - Buienradar with hometown marker](/homeassistant/homeassistant_dashboard_weather_nl#buienradar)
 * [Bin day - LED strip reminder](projects/bin_day_led_strip_reminder)
 * [Home Assistant - HACS Afvalbeheer](homeassistant/homeassistant_hacs_afvalbeheer)
 * [ESPHome - DIY motion and presence sensor](esphome/microwave_radar_sensor_rcwl-0516) 
