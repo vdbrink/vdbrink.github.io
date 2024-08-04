@@ -18,14 +18,14 @@ My latest bigger updates on this blog:
 
 * [Bin day - LED strip reminder](projects/bin_day_led_strip_reminder)
 * [Home Assistant - HACS Afvalbeheer](homeassistant/homeassistant_hacs_afvalbeheer)
-* [ESPHome - DIY motion and presence sensor - Based on the RCWL-0516 sensor](esphome/microwave_radar_sensor_rcwl-0516) 
+* [ESPHome - DIY motion and presence sensor](esphome/microwave_radar_sensor_rcwl-0516) 
 * [Node-RED - Send notifications to Home Assistant app](node-red/node-red_homeassistant_notification)
 * [Home Automation - Inspiration videos](ideas/home_automation_videos)
-* [ESPHome - DIY Co2 sensor - Based on the SCD40 sensor](esphome/co2_scd40)
-* [Zigbee Smart home - best buy tips](buy/smart_home_best_buy_tips)
+* [ESPHome - DIY Co2 sensor](esphome/co2_scd40)
+* [Zigbee Smart home - Best Buy Tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Home Automation - Ideas](ideas/home_automation_ideas)
-* [Mealie - Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal weekplanner and HA integrations)
+* [Mealie - Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal week planner and HA integrations)
 
 ---
 
