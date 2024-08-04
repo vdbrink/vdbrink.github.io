@@ -96,6 +96,10 @@ Now we have all the required input data for the scraper, now we can setup the sc
 
 We use the Home Assistant **Scrape** integration for this.
 
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
+
+Or:
+
 * Go in Home Assistant to the menu items **Settings** > **Devices & Services**
 * In the bottom right corner select the **Add Integration** button
 * Type `Scrape` and select the integration

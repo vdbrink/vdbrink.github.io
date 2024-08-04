@@ -133,6 +133,9 @@ Different types of (weather) data, with [rounded](homeassistant_dashboard_format
 <img src="images_layout/layout_weather.png" alt="machines" width="400px">
 
 The custom HACS integration [multiple-entity-row](homeassistant_dashboard_hacs#multiple-entity-row) is used here.
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
 
 
 ```yaml
@@ -247,7 +250,10 @@ Use the slider to dim the light.
 
 <img src="images_layout/layout_lamp_slider.png" alt="lamp sliders" width="400px">
 
-The custom HACS integration [slider-entity-row](homeassistant_dashboard_hacs#slider-entity-row) is also used here.
+The custom HACS integration [slider-entity-row](homeassistant_dashboard_hacs#slider-entity-row) is also used here. 
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
 
 ```yaml
 {% raw %}
@@ -344,6 +350,9 @@ See the [afvalbeheer](homeassistant_hacs_afvalbeheer#days-count-down) page how t
 <img src="images_afvalbeheer/days_countdown.png" alt="ordered by date" width="400px">
 
 The custom HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) is used here.
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 ```yaml
 {% raw %}
@@ -373,6 +382,9 @@ There are different ways to group entities per subject together. One way is, for
 <img src="images_layout/layout_per_room.png" alt="data per room" width="400px">
 
 This card is not by default available, but as custom HACS integration [room-card](https://github.com/marcokreeft87/room-card?tab=readme-ov-file#room-card).
+Install it
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=marcokreeft87&repository=room-card&category=integration)
 
 Check here all the possible options for this card https://github.com/marcokreeft87/room-card/wiki/Configuration
 

@@ -366,8 +366,6 @@ In your dashboard, add a Markdown card with this code.\
 Make sure you're in the cards `Code Editor` mode (toggle mode with the blue text in the bottom of the dialog) when you paste this code.\
 The date will be formatted to the short notation for the day of the week.
 
-https://github.com/thomasloven/lovelace-card-mod
-
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -399,6 +397,9 @@ content: >-
 This extended version makes it possible to click on the menu text and go to the Mealie page.
 Without the card_mod extension, which add some CSS, you see all the text in blue underlined.
 Here is another HACS integration needed, `card-mod`, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a>
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ```yaml
 {% raw %}

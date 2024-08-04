@@ -66,7 +66,10 @@ Enjoy reading it, and hopefully you can use it for your own dashboard.
 
 ### Afvalbeheer integration
 
-The HACS integration `afvalbeheer` is available for a lot of cities.\
+The HACS integration `afvalbeheer` is available for a lot of cities.
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pippyn&repository=Home-Assistant-Sensor-Afvalbeheer&category=integration)
+
 After the installation you need to add and config these settings in your `configuration.yaml`.
 
 ```yaml
@@ -94,7 +97,11 @@ afvalbeheer:
 
 ### Auto-entities integration
 
-I used here the HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) is very useful and makes it possible to show only the (countdown) entities and sort them by date.
+I used here the HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) it is very useful and makes it possible to show only the (countdown) entities and sort them by date.
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
+
 
 ---
 ## HA presentations
@@ -249,7 +256,7 @@ sort:
 
 I wanted my presentation like this:
 * Only with the numbers of days instead of the full date as the state value.
-* A more subtle icon which match the rest of the icons on my dashboard.
+* A more subtle icon that matches the rest of the icons on my dashboard.
 * Ordered by days left
 
 <img src="images_afvalbeheer/days_countdown.png" alt="countdown" width="400px">
@@ -362,7 +369,7 @@ sort:
 ### Show conditional, only for the next 5 days
 
 Show only the waste pickup for the upcoming 5 days.\
-In this case there is only one pickup in the next 5 days otherwise more entities will be visible.
+In this case there is only one pickup in the next 5 days, otherwise more entities will be visible.
 
 <img src="images_afvalbeheer/pres_5days.png" alt="only for the next 5 days" width="400px">
 

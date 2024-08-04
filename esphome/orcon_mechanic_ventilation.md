@@ -317,7 +317,14 @@ One way to test if the ESP now works is to send a MQTT message.
 On Windows you can use MQTT Explorer. Send an empty body to topic `orcon_mcu/mode_3` and listen if the system spins up.
 
 ### Via Home Assistant
-If the ESP is not already auto-discovered by Home Assistant you can go to Integrations and add the ESPHome integration. It will ask you for the IP-address and port number. I found the IP-address while flashing the ESP. The prefilled port `6053` is just fine. If it finds your device, you see this:
+If the ESP is not already auto-discovered by Home Assistant you can go to Integrations and add the ESPHome integration.
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=esphome)
+
+It will ask you for the IP-address and port number. 
+I found the IP-address while flashing the ESP. 
+The prefilled port `6053` is just fine. 
+If it finds your device, you see this:
 
 <img src="orcon_images/orcon_mcu_in_home_assistant_integrations.jpg" alt="New ESPHome integration in Home Assistant" width="250px" />
 

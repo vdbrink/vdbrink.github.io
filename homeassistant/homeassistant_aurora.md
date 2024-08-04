@@ -31,6 +31,10 @@ Go to integrations and search for `noaa aurora`
 
 <img src="images_aurora/aurora_integration.png" width="450px" alt="find NOAA Aurora Sensor integration">
 
+or use this link to install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=aurora)
+
 This Aurora integration uses the NOAA Aurora Forecast service to let you know if an aurora might be visible at your home location in the next 30 minutes, based on the current solar flare activity.
 
 This service adds two sensors, one contains a number 0-100 representing the current likelihood in percentage of visible auroras at your latitude/longitude.

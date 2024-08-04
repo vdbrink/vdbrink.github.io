@@ -14,23 +14,25 @@ Here you can find dashboard related to the weather in the Netherlands.
 There are a lot of weather sites who service weather data on the web or in apps.
 We can use that data also to show direct on our Home Assistant dashboards.
 
-<a href="index"><img src="images/overview_weather_elements.png" alt="weather elements" height="1200px"></a>
+<a href="index"><img src="images_weather/overview_weather_elements.png" alt="weather elements" height="1200px"></a>
 
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Animated weather predictions](#animated-weather-predictions)
-* [Weather predictions](#weather-predictions)
-* [Rain expected value](#rain-expected-value)
-* [Rain radar animated](#rain-radar-animated)
-* [Weather alarm map](#weather-alarm-map)
-* [Weather alarm](#weather-alarm)
-  * [Conditional weather alarm](#conditional-weather-alarm)
-* [Pollen](#pollen)
-  * [image 1](#image-1)
-  * [Image 2](#image-2)
-* [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
-* [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
+  * [Animated weather predictions](#animated-weather-predictions)
+  * [Weather predictions](#weather-predictions)
+  * [Rain expected value](#rain-expected-value)
+  * [Rain radar animated](#rain-radar-animated)
+    * [Buienradar](#buienradar)
+    * [Weeronline](#weeronline)
+  * [Weather alarm map](#weather-alarm-map)
+  * [Weather alarm](#weather-alarm)
+    * [Conditional weather alarm](#conditional-weather-alarm)
+  * [Pollen](#pollen)
+    * [image 1](#image-1)
+    * [Image 2](#image-2)
+  * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
+  * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
 <!-- TOC -->
 
 ---
@@ -93,14 +95,81 @@ Based on the buienalarm data: a number how much rain is expected.
         {{ total_precip }}
 {% endraw %}
 ```
+
 ---
 ## Rain radar animated
 
-Source: Weeronline
+### Buienradar
+
+*With extra hometown marker !!!!!*
+
+<img src="images_weather/buienradar.gif" alt="Rain radar animated with buienradar" width="400px">
+
+You need to install the `Buienradar` integration:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=buienradar)
+
+Enable the entity `camera.buienradar`.
+
+Add a new dashboard card with this content and change the `top` and `left` properties to position the marker to your hometown.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: picture-elements
+camera_image: camera.buienradar
+camera_view: live
+aspect_ratio: '1:0.75'
+elements:
+  - type: image
+    image: https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
+    style:
+      top: 60%
+      left: 50%
+{% endraw %}
+```
+
+(The `aspect_ratio` is needed because by default only half of the image is shown.)
+
+
+<details>
+  <summary><b>> Click here to see the variant with a local camera entity >></b></summary>
+
+Add a Generic camera integration:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=generic)
+
+Use the url https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
+it's this marker 
+![marker_home.svg](images_weather/marker_home.svg)
+
+Rename the sensor to `camera.marker_home`
+ 
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: picture-elements
+camera_image: camera.buienradar
+camera_view: live
+aspect_ratio: '1:0.75'
+elements:
+  - type: image
+    entity: camera.marker_home
+    camera_image: camera.marker_home
+    style:
+      top: 60%
+      left: 50%
+{% endraw %}
+```
+</details>
+
+### Weeronline
 
 An animated image of 2 hours prediction of the rain in steps of 5 minutes.
 
-<img src="images/rain_radar_animated.png" alt="Rain radar animated" width="400px">
+<img src="images_weather/rain_radar_animated.png" alt="Rain radar animated" width="400px">
 
 ```yaml
 {% raw %}
@@ -119,7 +188,7 @@ Source: KNMI
 
 Alarm code colors per province.
 
-<img src="images/weather_alarm_map_knmi.jpg" alt="Weather alarm map" width="400px">
+<img src="images_weather/weather_alarm_map_knmi.jpg" alt="Weather alarm map" width="400px">
 
 ```yaml
 {% raw %}
@@ -143,7 +212,7 @@ Source: KNMI
 
 Read the weather alarm code and description from the KNMI.nl site.
 
-<img src="images/weather_alarm_knmi.png" alt="Weather alarm" width="400px">
+<img src="images_weather/weather_alarm_knmi.png" alt="Weather alarm" width="400px">
 
 First you need to define a scraper to scrape every 10 minutes the latest alarm code and text.
 
@@ -166,7 +235,10 @@ First you need to define a scraper to scrape every 10 minutes the latest alarm c
 ```
 This is the corresponding code for the screenshot.
 
-The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
+The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+
 
 ```yaml
 {% raw %}
@@ -243,7 +315,7 @@ Source: Pollennieuws
 
 Show the actual pollen intensity image.
 
-<img src="images/pollennieuws.png" alt="Pollen nieuws" width="400px">
+<img src="images_weather/pollennieuws.png" alt="Pollen nieuws" width="400px">
 
 This is the basic variant which show only the image.
 ```yaml
@@ -288,7 +360,7 @@ Source: Buienradar
 
 Show the actual pollen intensity image from another source.
 
-<img src="images/pollenradar.png" alt="Pollen nieuws" width="400px">
+<img src="images_weather/pollenradar.png" alt="Pollen nieuws" width="400px">
 
 Another way to show an image is with the image entity card.
 Here you can also add some text and an entity, like the current outside temperature.
@@ -317,7 +389,7 @@ Source: KNMI
 
 Image with the precipitation surplus (neerslagoverschot) for (the last) 3 months.
 
-<img src="images/weather_neerslagoverschot.png" alt="Precipitation surplus (neerslagoverschot)" width="400px">
+<img src="images_weather/weather_neerslagoverschot.png" alt="Precipitation surplus (neerslagoverschot)" width="400px">
 
 ```yaml
 {% raw %}
@@ -339,7 +411,7 @@ Source: Weerplaza
 
 An iframe with a compact presentation of the weather for the next 3 or 5 days and a score for different type of activities.
 
-<img src="images/weather_score_weerplaza.png" alt="Weather score" width="400px">
+<img src="images_weather/weather_score_weerplaza.png" alt="Weather score" width="400px">
 
 Find more widgets at [https://www.weerplaza.nl/weerwidgets/](https://www.weerplaza.nl/weerwidgets/)
 

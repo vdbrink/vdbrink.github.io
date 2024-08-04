@@ -17,6 +17,10 @@ Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f
 
 The git repository is https://github.com/piitaya/lovelace-mushroom
 
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
+
 ---
 ## Table of Contents
 <!-- TOC -->

@@ -12,9 +12,14 @@ image: /homeassistant/images_autoentities/temp_round_sorted_color-autoentities.p
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom element **auto-entities** which you can easily use on your own dashboards.
 
-Auto-entities is a very powerful addon card which can let you make dynamic entity lists based on multiple filters, include and exclude entities and different type of sorting.
+Auto-entities is a very powerful addon card that can let you make dynamic entity lists based on multiple filters, include and exclude entities and different type of sorting.
 
 The git repository with also all options and some examples can be found at https://github.com/thomasloven/lovelace-auto-entities
+
+Install it:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
+
 
 ---
 ## Table of Contents

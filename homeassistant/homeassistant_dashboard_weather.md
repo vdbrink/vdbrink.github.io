@@ -26,7 +26,7 @@ Here you can find weather related examples for your own dashboard.
 
 Show an iframe with the realtime lightning and thunderstorm activities from blitzortung.org.
 
-<img src="images/thunderstorm.jpg" alt="blitzortung lightning and thunderstorm" width="400px">
+<img src="images_weather/thunderstorm.jpg" alt="blitzortung lightning and thunderstorm" width="400px">
 
 ```yaml
 {% raw %}
@@ -41,7 +41,7 @@ aspect_ratio: '1:0.6'
 
 ## Outside pressure, good vs bad
 
-A template which indicate good or bad based on a threshold value.
+A template that indicates good or bad based on a threshold value.
 
 ```yaml
 {% raw %}
