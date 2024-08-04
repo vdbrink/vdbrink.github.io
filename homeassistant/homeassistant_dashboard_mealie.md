@@ -16,7 +16,7 @@ Here you find how I seamlessly integrate the recipe manager **Mealie** into my H
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
 > **_UPDATE:_** There is now also a [Mealie integration](https://www.home-assistant.io/integrations/mealie/) in Home Assistant.\
-> This page was already create before this exists, here I describe also other functionalities then you get with this integration.
+> This page was already created before this exists, here I describe also other functionalities than you get with this integration.
 
 ---
 ## Table of Contents
