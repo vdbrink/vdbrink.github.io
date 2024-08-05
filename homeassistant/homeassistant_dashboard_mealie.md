@@ -488,7 +488,7 @@ Only ingredients with the text `[freezer]` are used in the notification.
 #### Setup
 * Define your own host and port number in the endpoints.
 * This flow required a [Bearer token](#FAQ) to call the Mealie API. Add the token to the two `get ..` API nodes.
-* Link the last node to your own notification flow. I explained [here](../node-red/node-red_homeassistant_notification) how to use the Companion App to send messages to.
+* Link the last node to your own notification flow. I explained [here](../node-red/node-red_home-assistant_notifications) how to use the Companion App to send messages to.
 
 #### Possible additions
 * Trigger the flow also earlier and send the message to a Home Assistant sensor to show it on your dashboard.

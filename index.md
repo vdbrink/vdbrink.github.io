@@ -20,7 +20,7 @@ My latest bigger updates on this blog:
 * [Bin day - LED strip reminder](projects/bin_day_led_strip_reminder)
 * [Home Assistant - HACS Afvalbeheer](homeassistant/homeassistant_hacs_afvalbeheer)
 * [ESPHome - DIY motion and presence sensor](esphome/microwave_radar_sensor_rcwl-0516) 
-* [Node-RED - Send notifications to Home Assistant app](node-red/node-red_homeassistant_notification)
+* [Node-RED - Send notifications to Home Assistant app](node-red/node-red_home-assistant_notifications)
 * [Home Automation - Inspiration videos](ideas/home_automation_videos)
 * [ESPHome - DIY Co2 sensor](esphome/co2_scd40)
 * [Zigbee Smart home - Best Buy Tips](buy/smart_home_best_buy_tips)
