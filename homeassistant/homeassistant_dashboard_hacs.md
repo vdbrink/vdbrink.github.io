@@ -36,8 +36,7 @@ A Google calendar overview.
 
 Repo: https://github.com/totaldebug/atomic-calendar-revive#about-the-project
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
 
 ---
@@ -52,8 +51,7 @@ Example: Sorted on temperature
 
 Repo: https://github.com/thomasloven/lovelace-auto-entities
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 I have a [dedicate page](homeassistant_dashboard_card_auto-entities) with examples and a dashboard with [chores](homeassistant_dashboard_chores) based on this custom element.
@@ -72,8 +70,7 @@ I have a [styling page](homeassistant_dashboard_styling) with multiple examples 
 
 Repo: https://github.com/thomasloven/lovelace-card-mod
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
@@ -86,8 +83,7 @@ Add a slider for brightness, volume, cover position, speed, number, etc.
 ![slider-entity-row](images_hacs/hacs_slider-entity-row.png)
 Repo: https://github.com/thomasloven/lovelace-slider-entity-row
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
 
 ```yaml
@@ -110,8 +106,7 @@ Current weather and predictions for the coming days.
 
 Repo: https://github.com/bramkragten/weather-card
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
 
 ---
@@ -124,8 +119,7 @@ Place multiple entities compact together on a single row.
 
 Repo: https://github.com/benct/lovelace-multiple-entity-row
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
 
 ---
@@ -138,8 +132,7 @@ Show expected rain from the possible sources Buienalarm and Buienradar.
 
 Repo: https://github.com/aex351/home-assistant-neerslag-app
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
 
 ---
@@ -150,8 +143,7 @@ Swipe to left/right to switch to the side lovelace dashboard on your mobile devi
 
 Repo: https://github.com/zanna-37/hass-swipe-navigation
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
@@ -164,8 +156,7 @@ Customize a single row for an entities.
 
 Repo: https://github.com/thomasloven/lovelace-template-entity-row
 
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
 
 

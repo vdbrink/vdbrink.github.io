@@ -98,8 +98,7 @@ afvalbeheer:
 ### Auto-entities integration
 
 I used here the HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) it is very useful and makes it possible to show only the (countdown) entities and sort them by date.
-Install it:
-
+Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 

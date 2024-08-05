@@ -23,7 +23,7 @@ We can use that data also to show direct on our Home Assistant dashboards.
   * [Weather predictions](#weather-predictions)
   * [Rain expected value](#rain-expected-value)
   * [Rain radar animated](#rain-radar-animated)
-    * [Buienradar](#buienradar)
+    * [Buienradar with residence marker](#buienradar-with-residence-marker)
     * [Weeronline](#weeronline)
   * [Weather alarm map](#weather-alarm-map)
   * [Weather alarm](#weather-alarm)
@@ -40,7 +40,8 @@ We can use that data also to show direct on our Home Assistant dashboards.
 
 <img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
 
-Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration.
+Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
 
 ```yaml
 {% raw %}
@@ -63,7 +64,8 @@ Nice overview of the current weather predictions.
 
 <img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
 
-Install the HACS [**weather-chart-card**](https://community.home-assistant.io/t/lovelace-weather-chart-card/638917) integration.
+Install the HACS [**weather-chart-card**](https://community.home-assistant.io/t/lovelace-weather-chart-card/638917) integration via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
 
 ```yaml
 {% raw %}
@@ -76,7 +78,7 @@ entity: weather.home
 ---
 ## Rain expected value
 
-Based on the buienalarm data: a number how much rain is expected.
+Based on the Buienalarm data: a number how much rain is expected.
 
 ```yaml
 {% raw %}
@@ -97,21 +99,40 @@ Based on the buienalarm data: a number how much rain is expected.
 ```
 
 ---
+
 ## Rain radar animated
 
-### Buienradar
+### Buienradar with residence marker
 
-*With extra hometown marker !!!!!*
+Buienradar has a Home Assistant [integration](https://www.home-assistant.io/integrations/buienradar/) which contains, next to weather entities, also an animation of the rain expectation for The Netherlands.
+
+*I added myself an extra residence marker to it !!!!*
+
+#### Result
 
 <img src="images_weather/buienradar.gif" alt="Rain radar animated with buienradar" width="400px">
 
-You need to install the `Buienradar` integration:
+#### Installation
 
+You need to install the `Buienradar` integration with this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=buienradar)
 
-Enable the entity `camera.buienradar`.
+#### Enable the radar entity
 
-Add a new dashboard card with this content and change the `top` and `left` properties to position the marker to your hometown.
+Enable the Buienradar radar entity `camera.buienradar`, this one is disabled by default.
+
+See how to do this:
+
+<img src="images_weather/buienradar_camera_activate.gif" alt="Enable camera.buienradar entity" width="400px">
+
+Or direct go to all entities [![Open your Home Assistant instance and show the entities.](https://my.home-assistant.io/badges/entities.svg)](https://my.home-assistant.io/redirect/entities) and filter on `camera.buienradar`.
+
+#### Create the dashboard card
+
+Now all preparations are done, the dashboard card can be created.
+
+Add a new card to your dashboard (or edit your existing) with this content 
+and change the `top` and `left` properties to position the marker to your residence.
 
 ```yaml
 {% raw %}
@@ -132,16 +153,21 @@ elements:
 
 (The `aspect_ratio` is needed because by default only half of the image is shown.)
 
+#### Alternative implementation
+
+Instead of an online file, it's also possible to use a camera entity or download the file locally.
 
 <details>
-  <summary><b>> Click here to see the variant with a local camera entity >></b></summary>
+  <summary><b>> Click here to see the two variants >></b></summary>
+
+##### Via a camera image
 
 Add a Generic camera integration:
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=generic)
 
 Use the url https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
-it's this marker 
+It's this marker 
 ![marker_home.svg](images_weather/marker_home.svg)
 
 Rename the sensor to `camera.marker_home`
@@ -163,7 +189,37 @@ elements:
       left: 50%
 {% endraw %}
 ```
+
+##### Via a local image
+
+You can also use the image as a local image.\
+Download the file https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
+and place if in your local Home Assistant `/www/` directory.\
+And use this script:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: picture-elements
+camera_image: camera.buienradar
+camera_view: live
+aspect_ratio: '1:0.75'
+elements:
+  - type: image
+    image: /local/marker_home.svg
+    style:
+      top: 60%
+      left: 50%
+{% endraw %}
+```
 </details>
+
+---
+
+Consider a small [donation](#donate) if you like this blog.
+
+---
 
 ### Weeronline
 
@@ -235,8 +291,7 @@ First you need to define a scraper to scrape every 10 minutes the latest alarm c
 ```
 This is the corresponding code for the screenshot.
 
-The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install it:
-
+The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
@@ -317,7 +372,7 @@ Show the actual pollen intensity image.
 
 <img src="images_weather/pollennieuws.png" alt="Pollen nieuws" width="400px">
 
-This is the basic variant which show only the image.
+This is the basic variant that shows only the image.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -327,7 +382,7 @@ image: https://pollennieuws.nl/weerkaart/KaartNL_280-website.png
 {% endraw %}
 ```
 
-In this version it's possible to also click on the image to open the Pollennieuws website.
+In this version, it's possible to also click on the image to open the Pollennieuws website.
 
 You have to place the [overlay image black.png](images/black.png) in the Home Assistant `www` directory first.
 
@@ -425,9 +480,6 @@ aspect_ratio: 60%
 title: fietsweer
 {% endraw %}
 ```
-
----
-Consider a donation if this is useful for you, via [PayPal](https://www.paypal.me/revdbrink)
 
 ---
 [^^ Top](#table-of-contents)
