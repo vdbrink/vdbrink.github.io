@@ -132,7 +132,11 @@ Or direct go to all entities [![Open your Home Assistant instance and show the e
 Now all preparations are done, the dashboard card can be created.
 
 Add a new card to your dashboard (or edit your existing) with this content 
-and change the `top` and `left` properties to position the marker to your residence.
+and change the `top` and `left` properties to position the marker to your residence. 
+And use `scale` to change the size of the image.
+
+The marker looks like this: ![marker_home.svg](images_weather/marker_home.svg)\
+You can also use any other images you like better.
 
 ```yaml
 {% raw %}
@@ -148,6 +152,7 @@ elements:
     style:
       top: 60%
       left: 50%
+      scale: 100%
 {% endraw %}
 ```
 
