@@ -192,6 +192,7 @@ elements:
     style:
       top: 60%
       left: 50%
+      scale: 100%
 {% endraw %}
 ```
 
@@ -216,6 +217,7 @@ elements:
     style:
       top: 60%
       left: 50%
+      scale: 100%
 {% endraw %}
 ```
 </details>
