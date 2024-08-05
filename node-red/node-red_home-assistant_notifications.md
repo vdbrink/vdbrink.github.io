@@ -19,7 +19,10 @@ Send notifications from Node-RED to your phone via the Home Assistant companion 
 ---
 ## Introduction
 
-With Node-RED you can choose which application you prefer to use to send notifications to your phone. Example are Telegram, Pushover, PushBullet, WhatsApp and the Home Assistant Companion app. In this example I show you how to send a notification to the Home Assistant Companion app. 
+With Node-RED you can choose which application you prefer to use to send notifications to your phone. 
+Example are Telegram, Pushover, PushBullet, WhatsApp and the Home Assistant Companion app. 
+
+In this example, I show you how to send a notification to the Home Assistant Companion app. 
 
 ---
 
