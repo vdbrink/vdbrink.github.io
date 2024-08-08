@@ -148,7 +148,7 @@ camera_view: live
 aspect_ratio: '1:0.75'
 elements:
   - type: image
-    image: https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
+    image: https://vdbrink.github.io/homeassistant/images_weather/marker_home.svg
     style:
       top: 60%
       left: 50%
