@@ -163,7 +163,7 @@ elements:
 Instead of an online file, it's also possible to use a camera entity or download the file locally.
 
 <details>
-  <summary><b>> Click here to see the two variants >></b></summary>
+  <summary><b>> Click here to see the other examples with: camera entity / local file >></b></summary>
 
 ##### Via a camera image
 
