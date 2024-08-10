@@ -42,22 +42,22 @@ Hugh time notation and a full date notation.
 # configuration.yaml
 type: vertical-stack
 cards:
-- type: custom:mushroom-title-card
-  title: '{{now().strftime(''%H:%M'')}}'
-  alignment: center
-  card_mod:
-  style: |
-  ha-card {
-  --title-font-size: 90px !important;
-  }
-- type: custom:mushroom-title-card
-  title: '{{states.sensor.date_only_formatted.state}}'
-  alignment: center
-  card_mod:
-  style: |
-  ha-card {
-  --title-font-size: 30px !important;
-  }
+  - type: custom:mushroom-title-card
+    title: '{{now().strftime(''%H:%M'')}}'
+    alignment: center
+    card_mod:
+      style: |
+        ha-card {
+          --title-font-size: 90px !important;
+        }
+  - type: custom:mushroom-title-card
+    title: '{{states.sensor.date_only_formatted.state}}'
+    alignment: center
+    card_mod:
+      style: |
+        ha-card {
+          --title-font-size: 30px !important;
+        }
 {% endraw %}
 ```
 
