@@ -8,7 +8,6 @@ image: /homeassistant/images/home_assistant_logo.png
 
 # Home Assistant dashboard: Date & Time
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard examples related to date and time which you can easily add to your own dashboards.
@@ -18,21 +17,54 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Current time and date (Dutch format)](#current-time-and-date-dutch-format)
-* [Current day of the week (Dutch format)](#current-day-of-the-week-dutch-format)
-* [Days count down](#days-count-down)
-* [How long an entity is active in human-readable text](#how-long-an-entity-is-active-in-human-readable-text)
-* [Hours count up](#hours-count-up)
-* [Last changed indication as secondary info](#last-changed-indication-as-secondary-info)
-* [Last changed indication](#last-changed-indication)
-* [Triggered today](#triggered-today)
+  * [Time and date](#time-and-date)
+  * [Inline time and date (Dutch format)](#inline-time-and-date-dutch-format)
+  * [Current day of the week (Dutch format)](#current-day-of-the-week-dutch-format)
+  * [Days count down](#days-count-down)
+  * [How long an entity is active in human-readable text](#how-long-an-entity-is-active-in-human-readable-text)
+  * [Hours count up](#hours-count-up)
+  * [Last changed indication as secondary info](#last-changed-indication-as-secondary-info)
+  * [Last changed indication](#last-changed-indication)
+  * [Triggered today](#triggered-today)
 <!-- TOC -->
 
 ---
 
-## Current time and date (Dutch format)
+## Time and date
 
-![Current date and time](images/date_time.png)
+Hugh time notation and a full date notation.
+
+![time_date.png](images_date_time/time_date.png)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+type: vertical-stack
+cards:
+- type: custom:mushroom-title-card
+  title: '{{now().strftime(''%H:%M'')}}'
+  alignment: center
+  card_mod:
+  style: |
+  ha-card {
+  --title-font-size: 90px !important;
+  }
+- type: custom:mushroom-title-card
+  title: '{{states.sensor.date_only_formatted.state}}'
+  alignment: center
+  card_mod:
+  style: |
+  ha-card {
+  --title-font-size: 30px !important;
+  }
+{% endraw %}
+```
+
+---
+## Inline time and date (Dutch format)
+
+![Current date and time](images_date_time/date_time.png)
 
 ```yaml
 {% raw %}
@@ -66,7 +98,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Current day of the week (Dutch format)
 
-<img src="images/day_of_the_week.png" alt="Day of the week" width="400px">
+<img src="images_date_time/day_of_the_week.png" alt="Day of the week" width="400px">
 
 ```yaml
 {% raw %}
@@ -95,7 +127,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Days count down
 
-<img src="images/days_countdown.png" alt="Days countdown" width="400px">
+<img src="images_date_time/days_countdown.png" alt="Days countdown" width="400px">
 
 ### Twente Milieu: format `YYYY-MM-DD`
 Countdown for the number of days until they pick up the paper waste. 
@@ -230,7 +262,7 @@ Install it via this button
 
 ## Hours count up
 
-<img src="images/hours_ago.jpg" alt="Hours count upn" width="400px">
+<img src="images_date_time/hours_ago.jpg" alt="Hours count upn" width="400px">
 
 Count the hours since the last changed state. In this case when a drawer with medicines was opened for the last time.
 
@@ -255,7 +287,7 @@ The value 11.3 will round to 11 and also 11.6 will round to 11 hours.
 ---
 ## Last changed indication as secondary info
 
-<img src="images/hours_countdown_secondary.png" alt="Last changed indication as secondary info" width="400px">
+<img src="images_date_time/hours_countdown_secondary.png" alt="Last changed indication as secondary info" width="400px">
 
 The value on the right is the actual sensor value.
 
@@ -291,7 +323,7 @@ mailbox_timer:
 ---
 ## Triggered today
 
-Test if the robot vacuum already run today.
+Test if the robot vacuum already runs today.
 
 ```yaml
 {% raw %}
