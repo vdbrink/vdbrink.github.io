@@ -26,6 +26,8 @@ Install it via this button
   * [Humidity (rounded, sorted and colored)](#humidity-rounded-sorted-and-colored)
   * [Show lights ordered by state](#show-lights-ordered-by-state)
   * [Show only the lights which are 'on' at the moment](#show-only-the-lights-which-are-on-at-the-moment)
+  * [Latest activities (motions and doors)](#latest-activities-motions-and-doors)
+  * [Missing devices](#missing-devices)
   * [Full moon (single condition)](#full-moon-single-condition)
   * [Only X days left (multiple conditions with AND)](#only-x-days-left-multiple-conditions-with-and)
   * [With attribute data](#with-attribute-data)
