@@ -23,6 +23,7 @@ Install it via this button
 ## Table of Contents
 <!-- TOC -->
   * [Temperatures (rounded, sorted and colored)](#temperatures-rounded-sorted-and-colored)
+  * [Humidity (rounded, sorted and colored)](#humidity-rounded-sorted-and-colored)
   * [Show lights ordered by state](#show-lights-ordered-by-state)
   * [Show only the lights which are 'on' at the moment](#show-only-the-lights-which-are-on-at-the-moment)
   * [Full moon (single condition)](#full-moon-single-condition)
@@ -76,6 +77,54 @@ sort:
 ```
 
 ---
+## Humidity (rounded, sorted and colored)
+
+Show all humidity sensors in order of their humidity from high to low 
+and only when the value is higher or equal than 65%.\
+Hide sensor `temp12` and with value `unavailable`.\
+Show the rounded humidity to a real number and for humidity higher than 70% red,
+higher 60% orange, higher than 55% white.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  show_header_toggle: false
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.temp*_humidity_rounded
+      options:
+        type: custom:template-entity-row
+        state: |
+          {{ states(config.entity)|round(0)}} %
+        style: |
+          :host {
+            --paper-item-icon-color:
+             {% set level = states(config.entity)|round(0) %}
+             {% if level >= 70 %} firebrick
+             {% elif level >= 60 %} orange
+             {% elif level >= 55 %} white
+             {% else %} var(--primary-text-color)
+             {% endif %} 
+             ;
+           }
+  exclude:
+    - entity_id: sensor.temp12_humidity
+    - state: unavailable
+    - state: <= 65
+show_empty: false
+sort:
+  method: state
+  reverse: true
+  numeric: true  
+{% endraw %}
+```
+
+---
 ## Show lights ordered by state
 Show the lights which are currently `on` always on top.\
 Hide also the unavailable ones.
@@ -122,6 +171,87 @@ filter:
 ```
 
 ---
+## Latest activities (motions and doors)
+
+Show the latest 10 active motion-, presence- and contact door sensors which are changed in the last 30 minutes.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  state_color: true
+  title: Latest activities
+filter:
+  include:
+    # active motion sensors
+    - domain: binary_sensor
+      state: 'on'
+      attributes:
+        device_class: motion
+      options:
+        secondary_info: last-changed
+    # active presence sensors
+    - domain: binary_sensor
+      state: 'on'
+      attributes:
+        device_class: presence
+      options:
+        secondary_info: last-changed
+    # contact/door sensors
+    - domain: binary_sensor
+      entity_id: '*_contact'
+      options:
+        secondary_info: last-changed
+  exclude:
+    - last_changed: '> 30m ago'
+sort:
+  method: last_changed
+  count: 10
+  reverse: true
+{% endraw %}
+```
+
+---
+## Missing devices
+
+Show devices which didn't change their value for more than 1440 minutes (1 day). 
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  state_color: true
+  title: Missing devices
+filter:
+  include:
+    - entity_id: /sensor.*_temperature/
+      options:
+        secondary_info: last-changed
+        last_changed: '> 1440'
+    - domain: binary_sensor
+      attributes:
+        device_class: motion
+      options:
+        secondary_info: last-changed
+        last_changed: '> 1440'
+    - entity_id: /sensor.*_contact/
+      options:
+        secondary_info: last-changed
+        last_changed: '> 1440'
+sort:
+  method: last_changed
+  count: 15
+  reverse: false
+{% endraw %}
+```
+
+---
 ## Full moon (single condition)
 
 Show this only when the entity `sensor.moon` has the status `full_moon`.
@@ -130,14 +260,14 @@ Show this only when the entity `sensor.moon` has the status `full_moon`.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: custom:auto-entities
-  card:
-    type: entities
-  filter:
-    include:
-      - entity_id: sensor.moon
-        state: full_moon
-  show_empty: false
+type: custom:auto-entities
+card:
+  type: entities
+filter:
+  include:
+    - entity_id: sensor.moon
+      state: full_moon
+show_empty: false
 {% endraw %}
 ```
 
@@ -154,14 +284,14 @@ Show only when the number of days is less than 4 AND more than -1.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: custom:auto-entities
-  card:
-    type: entities
-  filter:
-    include:
-      - entity_id: sensor.paper_waste_pickup_countdown
-        state 1: "< 4"
-        state 2: "> -1"
+type: custom:auto-entities
+card:
+  type: entities
+filter:
+  include:
+    - entity_id: sensor.paper_waste_pickup_countdown
+      state 1: "< 4"
+      state 2: "> -1"
 {% endraw %}
 ```
 
