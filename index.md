@@ -68,4 +68,3 @@ I also get inspired by others with new ideas which I can use for my own setup.
 
 Here you can find examples and configurations which I created and gathered over the years.
 I want to share and inspire other people, so they can improve their own home automation projects.
-

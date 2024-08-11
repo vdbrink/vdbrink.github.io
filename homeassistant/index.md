@@ -17,6 +17,7 @@ I created dashboards with all kinds of elements in it:
 * [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc.)
 * Templates:
+  * [Template examples](homeassistant_templates) 
   * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
   * [Aurora integration](homeassistant_aurora) Aurora Borealis alert

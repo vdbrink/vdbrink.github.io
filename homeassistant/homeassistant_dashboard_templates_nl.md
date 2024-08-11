@@ -2,7 +2,6 @@
 title: "Home Assistant dashboard: Voorbeeld templates NL"
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, templates, nl, weer]
-image: /homeassistant/images/rain_radar_animated.png
 ---
 
 # Home Assistant dashboard: Voorbeeld templates NL
@@ -21,6 +20,7 @@ Hier vind je Nederlandse Home Assistant template voorbeelden om op je dashboard 
   * [Het weer voor vandaag](#het-weer-voor-vandaag)
   * [De huidige temperatuur met kleding advies](#de-huidige-temperatuur-met-kleding-advies)
   * [De duur dat de wasmachine aan is](#de-duur-dat-de-wasmachine-aan-is)
+  * [Datum en tijd weergaves](#datum-en-tijd-weergaves)
 <!-- TOC -->
 
 ---
@@ -167,6 +167,12 @@ De template:
   {{ ' bezig.' }}
 {% endraw %}
 ```
+
+---
+
+## Datum en tijd weergaves
+
+Zie de [Date and time](homeassistant_dashboard_date_time#time-and-date) pagina voor meerdere voorbeelden.
 
 ---
 [^^ Top](#table-of-contents)
