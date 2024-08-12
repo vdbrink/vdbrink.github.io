@@ -1,10 +1,10 @@
 # Docker compose examples
 
-
 The advantage of running applications using Docker is that it's easy to setup. 
-Just with a few line you can have an application up and running.
-Also update or rollback a version is possible with a single command.
-For backup you don't need to backup the application itself, but only the data(base) and configuration files are enough.
+Just with a few lines, you can have an application up and running.
+Also, update or rollback a version is possible with a single command.
+For backup, it's not needed to backup the application itself, 
+only the data(base) and configuration files are enough.
 
 
 ## Table of Contents
@@ -25,8 +25,10 @@ For backup you don't need to backup the application itself, but only the data(ba
 ---
 
 ## Docker commands
+
 You can control your docker containers via command line commands.
-Here you find some usefully commands.
+
+Here you find some useful commands:
 
 **Update container**
 
@@ -269,8 +271,9 @@ GF_SECURITY_ALLOW_EMBEDDING=true
 
 ## Mosquitto
 
-Mosquitto is a, so called, message broker for MQTT messages.\
-Sensors can send their messages in json format to a MQTT topic and other applications can read those messages.
+Mosquitto is a, so-called, message broker for MQTT messages.\
+Sensors can send their messages in JSON format to a MQTT topic, 
+and other applications can read those messages.
 
 ```
   mosquitto:
@@ -311,7 +314,6 @@ protocol websockets
 
 A bridge to read Zigbee devices values and convert the data to json and send it to the [mosquitto](#mosquitto) MQTT server.
 
-
 ```
   zigbee2mqtt:
     container_name: zigbee2mqtt
@@ -330,7 +332,7 @@ A bridge to read Zigbee devices values and convert the data to json and send it 
     environment:
       - TZ=Europe/Amsterdam
 ```
-The content of the file `./volumes/zigbee2mqtt/configuration.yaml` where you define things like all theZigbee devices and the groups with their devices.
+The content of the file `./volumes/zigbee2mqtt/configuration.yaml` defines things like all the Zigbee devices and the groups with their devices.
 ```
 homeassistant: true
 permit_join: true

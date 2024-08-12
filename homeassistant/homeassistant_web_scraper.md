@@ -2,6 +2,7 @@
 title: "Home Assistant: Web Scraper"
 category: Home Assistant
 tags: [Home Assistant, dashboard, web scraper, news]
+
 ---
 
 # Home Assistant: Web Scraper
@@ -15,6 +16,8 @@ You can use this data to present on your own dashboard or make automations based
 Or show the latest (formula 1) news or weather alarm.
 
 We use here, as example, the actual dynamic gas price from a provider and show this on our dashboard.
+
+<img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
 ---
 
@@ -32,26 +35,30 @@ We use here, as example, the actual dynamic gas price from a provider and show t
 ---
 ## How it works
 
-The web scraper integration uses underwater the library **Beautiful Soup** to read first the whole website and then with the, so called, **CSS Selector** grabs the correct HTML element type (like an A, P, LI, TD or DIV element). This selector is normal used to style these element on a pages with CSS. Then find the corresponding **index** which contains the element you want to scrape.
-In the scrape integration you can define some extra templating to format and fine-tune the value.
+The web scraper integration uses underwater the library **Beautiful Soup** to read first the whole website and then with the, so-called, **CSS Selector** it grabs the correct HTML element type (like an A, P, LI, TD or DIV element). 
+This selector is normally used to style these elements on a pages with CSS. 
+Then find the corresponding **index** which contains the element you want to scrape/extract.\
+In the scrape integration, you can define some extra templating to format and fine-tune the value.
+
+Let's get started!
 
 ---
 ## Define the CSS Selector and Index
 
-These steps are needed to take to get the **CSS Selector** and **Index** value for the scraper:
-1. Get the whole webpage source into an online evaluate page
+The following steps are needed to take to get the **CSS Selector** and **Index** value for the scraper:
+1. Get the whole webpage source into an online evaluation page
 2. Find the corresponding CSS Selector for your text
 3. Strip the unneeded part from the CSS Selector
 4. Find the corresponding index
 <br>
-In this animation you see the steps in action.
+In this animation you see all these steps in action.
 <img src="images_web_scraper/web_scraper_animation.gif" alt="Define the CSS Selector and Index for the Web Scraper" width="100%">
 
-We use here the page https://callmepower.be/nl/energie/gids/tarief/prijs-gas, and we want the current gas price from 'Eneco Flex'.
+The page https://callmepower.be/nl/energie/gids/tarief/prijs-gas is used in this example, and the current gas price from 'Eneco Flex' is what we want to scrape.
 
 ### 1. Get the whole webpage source into an online evaluate page
 
-To test if the scraper will work in Home Assistant we use the evaluation page <a href="https://try.jsoup.org" target="_blank">try.jsoup.org</a>, this page will help us test the correct CSS Selector and index.
+To test if the scraper works in Home Assistant we use the evaluation page <a href="https://try.jsoup.org" target="_blank">try.jsoup.org</a>, this page will help us test the correct CSS Selector and index.
 
 * Go to the page <a href="https://try.jsoup.org" target="_blank">try.jsoup.org</a>
 * Click on the button **Fetch URL** 
@@ -73,9 +80,9 @@ It is possible you get an `errors`, then try the manual option.
 ### 2. Find the corresponding CSS Selector for your text
 
 * Go back to the original site
-* Right-click on your text you want as sensor
+* Right-click on the required text to be stored in the sensor
 * Select the menu item **Inspect**. The debug section will open with the page source
-* Right-click on the HTML element which contains your text. In this case `<td>4.520000</td>`
+* Right-click on the HTML element which contains the required text. In this case `<td>4.520000</td>`
 * Select the menu item **Copy** > **Copy selector** (see animation)
 
 ### 3. Strip the unneeded part from the CSS Selector
@@ -86,15 +93,15 @@ It is possible you get an `errors`, then try the manual option.
 
 #### 4. Find the corresponding index
 
-* Now you see a numbered list that matches all the third columns values from the table as TD HTML elements
-* We need the 5th row which is index **4** (start counting by 0)
+* A numbered list, that matches all the third columns values from the table as TD HTML elements, is visible.
+* The 5th row contains the data. This is index **4** (start counting by 0)
 <br>
-Now we have all the required input data for the scraper, now we can setup the scraper in Home Assistant.
+Now all the required input data is available for the scraper. It's time to setup the scraper in Home Assistant.
 
 ---
 ## Configure the scraper in Home Assistant
 
-We use the Home Assistant **Scrape** integration for this.
+Use the Home Assistant **Scrape** integration for this.
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
 
@@ -117,9 +124,9 @@ Or:
 * Submit to finish the configuration
 <br>
 
-Congratulations! You just created a new web scrape sensor!
+Congratulations! A new web scrape sensor is created!
 
-You don't need to refresh or restart anything, the sensor is direct available.
+It's not needed to refresh or restart anything, the sensor is directly available.
 
 ---
 ## Check your sensor
@@ -130,14 +137,14 @@ Hopefully everything went well. Let's check the result!
 * Go to the **State** tab
 * Filter on `eneco_flex_gas_price`
 
-Now you should see your just created scrape sensor which looks like this:
+Now the just created scrape sensor is available, and looks like this:
 
 <img src="images_web_scraper/eneco_flex_gas_price_sensor.png" alt="Eneco Flex gas price as sensor" width="100%">
 
 ---
 ## Update the sensor
 
-If you're not totally happy with the result:
+If you're not totally happy with the extracted result:
 * Go to **Settings** > **Devices & Services**
 * Click on the wheel in the **Scrape** integration
 * Click on **Configure** behind the url
@@ -147,15 +154,16 @@ If you're not totally happy with the result:
 ---
 ## Add it to your dashboard
 
-Now you can use your new sensor on your dashboard or in an automation.
+Now the new sensor can be added to the dashboard or can be used in an automation.
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
-Or use a Markdown card to present the news, for example.
+Or use a Markdown card to present the extract data.\
+For example, if you scrape a news site headline.
 
 ![News nu.nl](images/news_headline.png)
 
-The corresponding YAML code: 
+This is the corresponding YAML code: 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -169,7 +177,7 @@ content: |
 ---
 ## Other examples
 
-Just some other page and settings with data you can scrape.
+Just some other pages and settings with data that can be scraped.
 
 | Site                     | URL                                                             | Selector            | Index |
 |--------------------------|-----------------------------------------------------------------|---------------------|-------|
