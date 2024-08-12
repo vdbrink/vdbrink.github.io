@@ -491,6 +491,4 @@ title: fietsweer
 ---
 [^^ Top](#table-of-contents)
 
-[Other weather elements >>](homeassistant_dashboard_weather)
-
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)

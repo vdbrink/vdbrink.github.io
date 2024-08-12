@@ -378,7 +378,7 @@ Create three static value sensors with the threshold values: 800, 1200 and 1500.
 ---
 ## Temperature static value
 
-Create a static value sensor with the threshold value of 23 degrees celsius.
+Create a static value sensor with the threshold value of 23 degrees Celsius.
 
 ```yaml
 {% raw %}
@@ -414,4 +414,4 @@ Count the number of lights with the status on.
 ---
 [^^ Top](#table-of-contents)
 
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)

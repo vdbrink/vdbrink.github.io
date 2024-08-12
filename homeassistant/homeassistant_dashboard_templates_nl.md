@@ -177,4 +177,4 @@ Zie de [Date and time](homeassistant_dashboard_date_time#time-and-date) pagina v
 ---
 [^^ Top](#table-of-contents)
 
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)

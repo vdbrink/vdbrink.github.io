@@ -217,4 +217,4 @@ In this graph you can see that each type of soil has his own levels when it's go
 ---
 [^^ Top](#table-of-contents)
 
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)

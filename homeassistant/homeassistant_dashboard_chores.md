@@ -344,4 +344,4 @@ https://smarthomepursuits.com/chore-tracking-with-point-system-in-home-assistant
 ---
 [^^ Top](#table-of-contents)
 
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)

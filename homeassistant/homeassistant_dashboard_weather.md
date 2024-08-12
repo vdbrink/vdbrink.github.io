@@ -65,4 +65,4 @@ A template that indicates good or bad based on a threshold value.
 
 [Dutch weather elements >>](homeassistant_dashboard_weather)
 
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)

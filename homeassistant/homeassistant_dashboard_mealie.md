@@ -536,4 +536,4 @@ A: Checkout the [website](https://hay-kot.github.io/mealie/) or via [Discord](ht
 ---
 [^^ Top](#table-of-contents)
 
-[<< See also my other Home Assistant pages](index)
+[<< See also my other Home Assistant tips and tricks](index)
