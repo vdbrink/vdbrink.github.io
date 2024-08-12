@@ -16,6 +16,7 @@ Welcome to my blog about Home Automations.
 
 My latest bigger updates on this blog:
 
+* [Home Assistant - Web Scraper](homeassistant/homeassistant_web_scraper)
 * [Home Assistant - Buienradar with residence marker](/homeassistant/homeassistant_dashboard_weather_nl#buienradar-with-residence-marker)
 * [Bin day - LED strip reminder](projects/bin_day_led_strip_reminder)
 * [Home Assistant - HACS Afvalbeheer](homeassistant/homeassistant_hacs_afvalbeheer)
