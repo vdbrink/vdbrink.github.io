@@ -2,7 +2,6 @@
 title: "Home Assistant: Web Scraper"
 category: Home Assistant
 tags: [Home Assistant, dashboard, web scraper, news]
-
 ---
 
 # Home Assistant: Web Scraper
@@ -12,10 +11,11 @@ tags: [Home Assistant, dashboard, web scraper, news]
 
 Here you find how you can scrape (text) elements from a webpage and create a Home Assistant sensor which contains this text.
 
-You can use this data to present on your own dashboard or make automations based on it. Like run the washing machine based on low dynamic energy prices.
-Or show the latest (formula 1) news or weather alarm.
+You can use this data to present on your own dashboard or make automations based on it. 
+Like run the washing machine based on low dynamic energy prices.
+Or show the latest (formula 1) news or show the current weather alarm messages.
 
-We use here, as example, the actual dynamic gas price from a provider and show this on our dashboard.
+Here we use, as example, the actual dynamic gas price (from a specific provider) and show this on the dashboard.
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
@@ -45,7 +45,7 @@ Let's get started!
 ---
 ## Define the CSS Selector and Index
 
-The following steps are needed to take to get the **CSS Selector** and **Index** value for the scraper:
+The following steps are necessary to take to get the **CSS Selector** and **Index** value for the scraper:
 1. Get the whole webpage source into an online evaluation page
 2. Find the corresponding CSS Selector for your text
 3. Strip the unneeded part from the CSS Selector
@@ -93,7 +93,7 @@ It is possible you get an `errors`, then try the manual option.
 
 #### 4. Find the corresponding index
 
-* A numbered list, that matches all the third columns values from the table as TD HTML elements, is visible.
+* A numbered list that matches all the third columns values from the table as TD HTML elements, is visible.
 * The 5th row contains the data. This is index **4** (start counting by 0)
 <br>
 Now all the required input data is available for the scraper. It's time to setup the scraper in Home Assistant.
@@ -108,7 +108,7 @@ Use the Home Assistant **Scrape** integration for this.
 Or:
 
 * Go in Home Assistant to the menu items **Settings** > **Devices & Services**
-* In the bottom right corner select the **Add Integration** button
+* In the bottom right corner, select the **Add Integration** button
 * Type `Scrape` and select the integration
 * Fill in all the required fields:
   * Tab 1
@@ -126,7 +126,7 @@ Or:
 
 Congratulations! A new web scrape sensor is created!
 
-It's not needed to refresh or restart anything, the sensor is directly available.
+It's unnecessary to refresh or restart anything, the sensor is directly available.
 
 ---
 ## Check your sensor
@@ -158,8 +158,8 @@ Now the new sensor can be added to the dashboard or can be used in an automation
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
-Or use a Markdown card to present the extract data.\
-For example, if you scrape a news site headline.
+With a Markdown card it's possible to only present the extracted data,
+for example, if you scrape a news site headline. 
 
 ![News nu.nl](images/news_headline.png)
 
@@ -178,6 +178,7 @@ content: |
 ## Other examples
 
 Just some other pages and settings with data that can be scraped.
+It can be used for news, weather, prices etc.
 
 | Site                     | URL                                                             | Selector            | Index |
 |--------------------------|-----------------------------------------------------------------|---------------------|-------|
