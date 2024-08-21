@@ -373,9 +373,9 @@ They not very famous and more expensive but environment friendlier, and it reduc
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included)</a> Lights green when it's full.
 DON'T CHARGE NORMAL CR2032 WITH IT!
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">2x LIR2032 rechargeable batteries - L.A Energy </a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCye8sj" target="_blank">2x LIR2032 rechargeable batteries - PynMont</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmO93yn" target="_blank">2x LIR2032 rechargeable batteries - Maxwell</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnnhBnN" target="_blank">5x LIR2032 rechargeable batteries</a>
 
 #### CR2032 USB battery replacements
 
@@ -397,8 +397,6 @@ This CR1632 battery is a bit smaller than the CR2032.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE2CUQX" target="_blank">Rechargeable LIR1632 - L.A Energy (AliExpress)</a>
 
 ### CR2450
 

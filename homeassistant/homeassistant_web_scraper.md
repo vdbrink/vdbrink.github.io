@@ -178,7 +178,7 @@ content: |
 ## Other examples
 
 Just some other pages and settings with data that can be scraped.
-It can be used for news, weather, prices etc.
+It can be used for news, weather, prices, etc.
 
 | Site                     | URL                                                             | Selector            | Index |
 |--------------------------|-----------------------------------------------------------------|---------------------|-------|

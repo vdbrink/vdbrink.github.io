@@ -11,13 +11,15 @@ tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, pressure, 
 
 <img src="images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>
 For my office I want a way to detect if I'm there.
-To detect that you can use a motion sensor, or to detect when you sit still on a chair you can use a radar millimeter wave sensors, 
-the downside with one this is it will also detect animals or blowing fans.
+To detect that, it's possible to use a motion sensor, 
+or to detect when you sit still on a chair, it's alo possible to use a radar millimeter wave sensors, 
+the downside with one of those, those will also detect animals or blowing fans.
 
 ---
 ## My solution
 
-This "hack" uses a Zigbee contact sensor connected to a car seat sensor to detect if a chair is occupied, or not, exactly what I needed!
+This "hack" uses a Zigbee contact sensor connected to a car seat sensor to detect if a chair is occupied, 
+exactly what I needed!
 
 ---
 
@@ -33,7 +35,7 @@ This "hack" uses a Zigbee contact sensor connected to a car seat sensor to detec
 
 ## Required hardware
 
-You only need these two devices:
+This project only requires these two devices:
  
 [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
 I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also be used for this.
@@ -42,13 +44,13 @@ I have a Zigbee network, so I use a Zigbee contact sensor, but any other protoco
 <img src="../buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-[Car seat pressure sensor](../buy/esphome_diy#pressure-sensor)
+And a [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor)
 
 <a href="../buy/esphome_diy#pressure-sensor">
 <img src="../buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" />
 </a>
 
-To connect both together, you need also some soldering tools:
+To connect both, you need also some soldering tools:
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
 
@@ -68,7 +70,7 @@ To connect both together, you need also some soldering tools:
 
 ## Automations
 
-With this new sensor you can make all kind different automations, a few examples are:
+With this new sensor, it's possible to make all kind different automations, a few examples are:
 * When the light can turn on/off
 * When the PC can shut down
 * When it's time to take a break
@@ -82,7 +84,7 @@ With this new sensor you can make all kind different automations, a few examples
 ### Create a new custom chair sensor
 
 By default, the contact status is inverted as preferred.
-With this addition to `configuration.yaml` you can create a new sensor that shows the correct status in your dashboard.
+With this addition in the `configuration.yaml` file, it creates a new sensor that shows the correct status in the dashboard.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -111,7 +113,8 @@ homeassistant:
 With the [history stats](https://www.home-assistant.io/integrations/history_stats/) it's possible to create new sensors which indicate how long something takes.
 In this case we want to track how long the chair is occupied on each day.
 The start/reset is on a new day and end time is the current time and within this timeframe how long has entity `binary_sensor.chair_work` the state `on`.
-This is the code you need to add in the `configuration.yaml`. This will generate a new sensor called `sensor.chair_occupancy`.
+This is the code to add in the `configuration.yaml`.  
+This will generate a new sensor called `sensor.chair_occupancy`.
 
 ```yaml
 {% raw %}
@@ -150,7 +153,7 @@ entities:
 #### Occupied in time as graph
 
 Or show the occupied time in a line graph in time.\
-You can exactly see where I took some breaks, the line is broken.
+It shows exactly where I took some breaks, the line is flat at that time.
 
 <img src="images_chair/hours_occupancy.png" alt="History graph Card in Home Assistant" width="400px">
 
@@ -170,12 +173,12 @@ title: Office chair
 
 #### Total time in a bar
 
-If you use the same History graph Card with binary sensors, it's presented as a bar.
+Use the same History graph Card with binary sensors, then it's presented as a bar.
 
-Here I add the chair occupancy sensor next to the value of a pir motion sensor in the same room. As you can see the chair sensor is much more reliable if you sit still! A  
+Here I add the chair occupancy sensor next to the value of a pir motion sensor in the same room. 
+As you can see, the chair sensor is much more reliable if you sit still!
 
 <img src="images_chair/bar_motion_chair_occupancy.png" alt="History graph bar Card in Home Assistant" width="400px">
-
 
 ```yaml
 {% raw %}
