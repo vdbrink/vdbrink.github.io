@@ -227,6 +227,18 @@ A leak sensor is a sensor that measures if there is water, then the two contacts
 
 ---
 
+## Rain sensor
+
+<a href="https://s.click.aliexpress.com/e/" target="blank">
+<img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor sensor detects raindrops and measures the light intensity (lux).\
+It contains a build-in battery that charges via a small solar panel.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">Zigbee raindrop + lux sensor (AliExpress)</a>
+
+---
+
 ## Lights
 
 ### Bulb
