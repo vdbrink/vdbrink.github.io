@@ -36,9 +36,11 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
   * [Motion sensor](#motion-sensor)
   * [Presence detection sensor](#presence-detection-sensor)
   * [Smart socket](#smart-socket)
+  * [Air quality sensor](#air-quality-sensor)
   * [Temperature sensor](#temperature-sensor)
   * [Lux sensor](#lux-sensor)
   * [Leak sensor](#leak-sensor)
+  * [Rain sensor](#rain-sensor)
   * [Lights](#lights)
     * [Bulb](#bulb)
     * [LED strip](#led-strip)
@@ -53,6 +55,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [CR2032](#cr2032)
     * [CR1632](#cr1632)
     * [CR2450](#cr2450)
+    * [Battery eliminators](#battery-eliminators)
   * [Cables](#cables)
     * [Micro USB power cable](#micro-usb-power-cable)
     * [USB-C power cable](#usb-c-power-cable)
@@ -99,7 +102,7 @@ A reason why not to choose for Zigbee? I don't know :)
 Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issue, it's a very reliable stick.
 My network grew to 120+ devices today, and it still runs fast.
 
-To avoid interference with Bluetooth or wifi,
+To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick. 
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> for it.
 
@@ -167,7 +170,7 @@ It can also detect persons when they don't move, like they sit on a couch. Ideal
 
 Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. You put it "on" and place the smart plug between the socket and wall. Now you change the switch functionality to the plug which you can be controlled automatically.
 
-Sockets are always connected to power, this makes this sensor also a hub in theZigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
+Sockets are always connected to power, this makes this sensor also a hub in the Zigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
 
 A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
 
@@ -190,12 +193,35 @@ This outdoor Zigbee power socket, where each socket can be controlled individual
 
 ---
 
+## Air quality sensor
+
+<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="blank">
+<img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+This 6-in-1 sensor can detect six kinds of environmental parameters:
+* PM2.5
+* Formaldehyde
+* VOC of poisonous gas
+* CO2
+* Temperature
+* Humidity  
+
+All these values can affect a healthy environment at home.
+
+Normally you get single sensors for each parameter!
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
+
+---
+
 ## Temperature sensor
 
 <a href="https://s.click.aliexpress.com/e/_DFVRG63" target="blank">
 <img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. this sensor is useful to make automations like take action if someone is in the shower. Or in the summer when it becomes outside colder than inside.
+A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. 
+This sensor is useful to make automations like take action if someone is in the shower. 
+Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">Zigbee temperature and humidity sensor - Aqara (AliExpress)</a>
 

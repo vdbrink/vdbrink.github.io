@@ -55,7 +55,7 @@ Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="h
 it's a very reliable stick.
 My network grew to 120+ devices today, and it still runs fast.
 
-To avoid interference with Bluetooth or wifi,
+To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick.
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> for it.
 
@@ -63,7 +63,9 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" t
 
 ## Best Buy Tips
 
-I create my [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) for all kinds or Zigbee hardware that I like.
+I create my [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) with all kinds or Zigbee hardware that I like and advice to buy for others.
+After buying and using them, on a daily basis, by myself. 
+I have more than 120 Zigbee devices and some running already for more than 4 years non-stop.
 
 <a href="../buy/smart_home_best_buy_tips">
 <img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>

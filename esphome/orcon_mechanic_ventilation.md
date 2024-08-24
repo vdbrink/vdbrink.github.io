@@ -290,7 +290,7 @@ If you want to add these also to your script checkout [this message](https://com
 If you want to read all about the remote possibilities, I placed a link to the Dutch manual in the [References](#references) chapter.
 
 #### Problems with flashing
-* Flash succeed, but he won't connect to my wifi network.
+* Flash succeed, but he won't connect to my Wifi network.
  <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
   * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network, but if it has the same name, he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
   <img src="orcon_images/flash_esphome_with_ip.jpg" alt="IP failed" height="300px"/>

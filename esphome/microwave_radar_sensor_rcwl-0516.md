@@ -19,7 +19,7 @@ The RCWL-0516 microwave sensor is a cheap motion and presence detection sensor b
 The advantage above a traditional PIR motion sensor is that you can hide it out of sight by placing it, for example, inside a closet.\
 The advantage is also that this sensor is a cheap one (~&euro;0,45/p)
 
-No extra hub needed, the protocol is over wifi.
+No extra hub needed, the protocol is over Wifi.
 
 ## My solution
 
@@ -54,7 +54,7 @@ Click on the photos to see them in fullscreen.
 These hardware components do I use for this project:
 The sensor, an ESP, wires, usb cable and a power adapter.
 
-No extra hub needed, the protocol is over wifi.
+No extra hub needed, the protocol is over Wifi.
 
 Affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
 

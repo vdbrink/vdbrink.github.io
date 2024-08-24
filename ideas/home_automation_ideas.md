@@ -232,14 +232,14 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 #### Front yard
 * Outside lights on when:
   * Someone enters the door. (web-/doorcam with person recognition, smart outside light, [Google Coral](../buy/smart_home_best_buy_tips#google-coral-usb))
-  * You connect to your wifi. (outside light)
+  * You connect to your Wifi. (outside light)
   * You enter home-zone. (Home Assistant Companion app and outside light)
     <br><img src="images/person_detected.jpg" alt="person detected" height="250px" />
 
 #### Car
 * Notification to cover the car if the dew point is below -1 in the evening. This increases the chance of not having to scrape in the morning! (weather station)
 * Notification to family when I leave work. (location positioning)
-* Activate the driveway lights when you arrive home. (When enter the Home-zone, or connect to your local wifi network AND the phone bluetooth is connected to the car)
+* Activate the driveway lights when you arrive home. (When enter the Home-zone, or connect to your local Wifi network AND the phone bluetooth is connected to the car)
 * Activate the front door lights. (see previous flow)
 
 #### Putting out the bin

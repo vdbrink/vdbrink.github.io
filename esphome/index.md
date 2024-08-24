@@ -20,16 +20,16 @@ Sometimes the only way is to create one yourself.\
 It's also fun to build your own. 
 It's also possible to combine multiple sensors together with one ESP board.
 
-The ESP board is a small mini computer with onboard wifi. ESPHome makes it easy to program these boards.
+The ESP board is a small mini computer with onboard Wifi. ESPHome makes it easy to program these boards.
 
 You define for each ESP board the connected sensors in a template. In the template, you define your ESP board and which and how the sensors are connected.
-The sensor also automatically register itself to Home Assistant (or sends its data to a MQTT server).
+The sensor registers itself automatically to Home Assistant (or sends its data to a MQTT server).
 
 ---
 
 ## Articles
 
-I wrote multiple articles about creating your own wireless wifi sensors and actuators based on the ESP chip with ESPHome:
+I wrote multiple articles about creating your own wireless Wifi sensors and actuators based on the ESP chip with ESPHome:
 
 * [Motion and Presence sensor based on the RCWL-0516 sensor](microwave_radar_sensor_rcwl-0516)
 * [Co2 sensor based on a SCD40 sensor](co2_scd40)
