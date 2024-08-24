@@ -18,6 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest bigger updates on this blog:
 
+* New Best Buy Tips: [USB adapter switch](buy/smart_home_best_buy_tips#usb-adapter-switch), [Air quality sensor](buy/smart_home_best_buy_tips#air-quality-sensor), [Rain sensor](buy/smart_home_best_buy_tips#rain-sensor)
 * [Home Assistant - Web Scraper](homeassistant/homeassistant_web_scraper)
 * [Home Assistant - Buienradar with residence marker](/homeassistant/homeassistant_dashboard_weather_nl#buienradar-with-residence-marker)
 * [Bin day - LED strip reminder](projects/bin_day_led_strip_reminder)
