@@ -49,6 +49,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Wall dimmer](#wall-dimmer)
     * [Portable button](#portable-button)
   * [Vibration sensor](#vibration-sensor)
+  * [USB adapter switch](#usb-adapter-switch)
   * [Google Coral USB](#google-coral-usb)
   * [Batteries](#batteries)
     * [AAA sized](#aaa-sized)
@@ -263,6 +264,8 @@ It contains a build-in battery that charges via a small solar panel.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">Zigbee raindrop + lux sensor (AliExpress)</a>
 
+<br><br>
+
 ---
 
 ## Lights
@@ -343,9 +346,21 @@ This button can trigger multiple scenario's because it supports three press type
 <a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">
 <img src="images_zigbee/zigbee_vibration_sensor.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
 
-This button can measure vibrations and rotations in the X, Y and Z direction.
+This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">Zigbee vibration sensor - Aqara (AliExpress)</a>
+<br><br><br><br>
+
+---
+
+## USB adapter switch
+
+<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">
+<img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" style="margin-left:15px;float:right"/></a>
+
+This actuator can toggle the power state of each USB port individual.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
 <br><br><br><br>
 
 ---
