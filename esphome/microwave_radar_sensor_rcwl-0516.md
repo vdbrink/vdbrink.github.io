@@ -153,7 +153,7 @@ This project require some soldering, If you don't have an soldering iron and tin
 
 <br>
 
-Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - best buy tips](../buy/esphome_diy) for alternative links.
+Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy) for alternative links.
 
 ---
 ## Connect the hardware

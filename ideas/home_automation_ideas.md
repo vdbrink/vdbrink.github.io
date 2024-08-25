@@ -249,4 +249,4 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 ---
 
 See also:
-[Home Automation Videos](home_automation_videos) or [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips)
+[Home Automation Videos](home_automation_videos) or [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips)

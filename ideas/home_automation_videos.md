@@ -53,4 +53,4 @@ If you know any other great videos that inspired you, let me know via a <a href=
 ---
 
 See also my
-[Home Automation Ideas](home_automation_ideas) or [Zigbee Smart home - best buy tips](../buy/smart_home_best_buy_tips) pages too.
+[Home Automation Ideas](home_automation_ideas) or [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) pages too.

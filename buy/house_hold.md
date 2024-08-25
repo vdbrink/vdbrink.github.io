@@ -1,5 +1,5 @@
 ---
-title: "Household - best buy tips"
+title: "Household - Best Buy Tips"
 description: "Useful link to buy household items"
 date: 2024-05-01
 category: Buy tips

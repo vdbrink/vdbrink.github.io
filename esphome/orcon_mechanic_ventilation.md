@@ -110,7 +110,7 @@ Affiliate links are used here.
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
 
 
-See [ESPHome DIY sensors best buy tips](../buy/esphome_diy) for more DIY hardware buy tips.
+See [ESPHome DIY sensors Best Buy Tips](../buy/esphome_diy) for more DIY hardware buy tips.
 
 ---
 
@@ -1025,4 +1025,4 @@ My other ESPHome projects:
 * [Co2 sensor based on a SCD40 sensor](co2_scd40)
 * [Co2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
 
-[ESPHome DIY sensors - best buy tips](../buy/esphome_diy)
+[ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy)

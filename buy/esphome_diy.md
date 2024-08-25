@@ -1,5 +1,5 @@
 ---
-title: "ESPHome DIY sensors - best buy tips"
+title: "ESPHome DIY sensors - Best Buy Tips"
 description: "Useful link to buy sensors and tools to create your own sensors with ESPHome for Home Assistant"
 date: 2024-05-07
 category: Buy tips
@@ -7,7 +7,7 @@ tags: [Best, Buy, tips, ESPHome, sensors, soldering]
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# ESPHome DIY sensors - best buy tips
+# ESPHome DIY sensors - Best Buy Tips
 
 ## Introduction
 
@@ -381,6 +381,6 @@ Links to other sections of this blog:
 
 * [ESPHome custom sensors and actuators](../esphome/index) how to create your own sensors with ESPHome.
 
-* [Zigbee Smart home - best buy tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
+* [Zigbee Smart home - Best Buy Tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
 
 * [All my best buy tip pages](index) 

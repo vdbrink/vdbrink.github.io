@@ -113,7 +113,7 @@ Affiliate links are used here, so you sponsor my blog also with it, without payi
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
 
 
-See [ESPHome DIY sensors best buy tips](../buy/esphome_diy) for more DIY hardware buy tips.
+See [ESPHome DIY sensors Best Buy Tips](../buy/esphome_diy) for more DIY hardware buy tips.
 
 ---
 

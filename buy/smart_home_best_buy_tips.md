@@ -1,5 +1,5 @@
 ---
-title: "Zigbee Smart home - best buy tips"
+title: "Zigbee Smart home - Best Buy Tips"
 description: "Useful link to buy Zigbee sensors other devices for your smart home automation with Home Assistant"
 category: Buy tips
 tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee]
@@ -7,7 +7,7 @@ image: /buy/images_zigbee/zigbee_banner.png
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# Zigbee Smart home - best buy tips
+# Zigbee Smart home - Best Buy Tips
 
 <br>
 

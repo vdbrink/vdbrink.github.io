@@ -49,4 +49,4 @@ ESP8266 D1 mini
 
 ## DIY Best Buy Tips
 
-See {{imgBasket}}[ESPHome DIY sensors - best buy tips](../buy/esphome_diy) for all kinds or hardware buy tips to create your own sensors.
+See {{imgBasket}}[ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy) for all kinds or hardware buy tips to create your own sensors.
