@@ -354,6 +354,8 @@ Daylight brightness converted to opacity for CSS.
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
 
+<img src="images_templates/base_values_sensors.jpg" alt="C02 base values" width="450px" />
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -379,6 +381,9 @@ Create three static value sensors with the threshold values: 800, 1200 and 1500.
 ## Temperature static value
 
 Create a static value sensor with the threshold value of 23 degrees Celsius.
+Add this to a graph to get this result:
+
+<img src="images_templates/23_degrees_temp_static_sensor.png" alt="static value" width="450px" />
 
 ```yaml
 {% raw %}
