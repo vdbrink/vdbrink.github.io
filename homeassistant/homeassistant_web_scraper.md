@@ -2,6 +2,7 @@
 title: "Home Assistant: Web Scraper"
 category: Home Assistant
 tags: [Home Assistant, dashboard, web scraper, news]
+image: /homeassistant/images_web_scraper/ha_webscraper.png
 ---
 
 # Home Assistant: Web Scraper
@@ -18,6 +19,9 @@ Or show the latest (formula 1) news or show the current weather alarm messages.
 Here we use, as example, the actual dynamic gas price (from a specific provider) and show this on the dashboard.
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
+
+<br><br>
+<img src="images_web_scraper/ha_webscraper.png" alt="Home Assistant webscraper" width="400px">
 
 ---
 
@@ -180,15 +184,17 @@ content: |
 Just some other pages and settings with data that can be scraped.
 It can be used for news, weather, prices, etc.
 
-| Site                     | URL                                                             | Selector            | Index |
-|--------------------------|-----------------------------------------------------------------|---------------------|-------|
-| Latest formula 1 news    | https://www.f1news.nl/                                          | div.uplp-post-title | 0     |
-| KNMI Dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | div.alert__heading  | 0     |
-| nu.nl news headline      | https://www.nu.nl                                               | h1.title.fluid      | 0     |
+| Site                     | URL                                                             | Selector                | Index |
+|--------------------------|-----------------------------------------------------------------|-------------------------|-------|
+| Latest formula 1 news    | https://www.f1news.nl/                                          | `div.uplp-post-title`     | 0     |
+| KNMI Dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | `div.alert__heading` and `a.alert__description` | 0     |
+| nu.nl news headline      | https://www.nu.nl                                               | `h1.title.fluid`          | 0     |
 
 <br>
 Happy scraping!
 
+<br>
+<br>
 Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scraped data!
 
 ---
