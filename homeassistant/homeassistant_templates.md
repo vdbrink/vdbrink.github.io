@@ -125,10 +125,10 @@ One minute after the last trigger the state goes back to `off`.
   sensors:
     paper_waste_pickup_countdown:
       friendly_name: "paper pick up"
+      icon_template: mdi:delete-empty
       value_template: >-
         {% set datex = state_attr('sensor.cyclus_papier','Sort_date') | string %}
         {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-      icon_template: mdi:delete-empty
       unit_of_measurement: "days"
 {% endraw %}
 ```
@@ -146,12 +146,12 @@ Minutes since the snail mail is delivered.
   sensors:
     mail_delivered_minutes_ago:
       friendly_name: "mail delivered"
+      icon_template: mdi:mailbox
       value_template: >-
         {% set now_timestamp = as_timestamp(now()) %}
         {% set mailbox_timestamp = as_timestamp(states.binary_sensor.contact2_contact.last_changed) %}
         {% set minutes = ((now_timestamp - mailbox_timestamp) / 60) | round(0, 'ceil')  %}
         {{ minutes }}
-      icon_template: mdi:mailbox
       unit_of_measurement: "minutes"
 {% endraw %}
 ```
@@ -266,7 +266,7 @@ Expected rain amount for the coming hours based on the Dutch Buienradar data.
 ---
 ## Rain intensity
 
-Rain intensity for the coming hours based on the Buienradar data.
+Rain intensity for the coming hours based on the Dutch Buienradar data.
 
 ```yaml
 {% raw %}
@@ -384,6 +384,12 @@ When you have a floorplan and want to show a dark overlay when the lux is low, y
 ---
 ## Sink leak status
 
+I created a custom [leak sensor](/zigbee/zigbee_water_leak_sensor) based on a contact sensor.
+The used sensor stores the value if it detects a leak in an attribute value `contact`. 
+This attribute is now used to create a boolean value.
+
+<img src="images_templates/leak_sink.png" alt="sink leak" width="450px" />
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -392,9 +398,9 @@ When you have a floorplan and want to show a dark overlay when the lux is low, y
   sensors:
     sink_leak:
       friendly_name: "leak sink"
+      icon_template: mdi:water
       value_template: >-
         {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
-      icon_template: mdi:water
 {% endraw %}
 ```
 
@@ -402,9 +408,9 @@ When you have a floorplan and want to show a dark overlay when the lux is low, y
 
 ## Chair occupancy
 
-I create a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
-If you sit on it the contact sensor return `off`.
-I needed to invert the normal value of the contact sensor.
+I created a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
+If you sit on it the contact sensor return `off`.\
+The normal value of the contact sensor needs to be inverted.\
 That's what happened here.
 
 <img src="../zigbee/images_chair/pillow_with_sensor.jpg" width="450px" />
@@ -417,6 +423,7 @@ That's what happened here.
   sensors:
     chair:
       friendly_name: "chair"
+      icon_template: mdi:chair-rolling
       value_template: >-
         {% if is_state('binary_sensor.contact1_contact', 'off') %}
            on
@@ -426,6 +433,11 @@ That's what happened here.
 {% endraw %}
 ```
 
+---
+
+That's it; I hope you can use some of these templates in your own setup.
+
+Let me know which cool and useful templates you use!
 
 ---
 [^^ Top](#table-of-contents)
