@@ -8,8 +8,8 @@ tags: [Home Assistant, dashboard, lovelace, templates]
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find some Home Assistant template examples 
-that you can add to your own configuration to create new custom sensors based on other sensors.
+Here you find some Home Assistant template examples.\
+With templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
 <br>
 
 ---
