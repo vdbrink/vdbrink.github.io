@@ -117,6 +117,10 @@ One minute after the last trigger the state goes back to `off`.
 ---
 ## Trash bin days countdown
 
+Count the days before the paper bin will be picked up.
+
+<img src="images_templates/paper_waste_countdown.png" alt="days countdown" width="400px">
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -132,6 +136,13 @@ One minute after the last trigger the state goes back to `off`.
       unit_of_measurement: "days"
 {% endraw %}
 ```
+
+The sensor `sensor.cyclus_papier` has an attribute `Sort_date` which holds the date for the bin pickup day in the format "YYYYMMDD".\
+Based on today's date the diff in days is calculated.\
+(The sensor value is not always accurate, that's why I use the attribute value.)
+
+<img src="images_templates/attribute_date_countdown.png" alt="date attribute" width="400px">
+
 
 ---
 ## Time mail is delivered
