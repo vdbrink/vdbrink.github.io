@@ -10,38 +10,37 @@ tags: [Home Assistant, dashboard, lovelace, templates]
 
 Here you find some Home Assistant template examples 
 that you can add to your own configuration to create new custom sensors based on other sensors.
-
-<br>
 <br>
 
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Chair occupancy](#chair-occupancy)
-  * [Overlay based on lux](#overlay-based-on-lux)
+  * [Count the number of lights on](#count-the-number-of-lights-on)
   * [Floor activity](#floor-activity)
   * [Day of the week (short Dutch)](#day-of-the-week-short-dutch)
   * [Day of the week (long Dutch)](#day-of-the-week-long-dutch)
-  * [Moon image based on state](#moon-image-based-on-state)
   * [Trash bin days countdown](#trash-bin-days-countdown)
-  * [Sink leak status](#sink-leak-status)
   * [Time mail is delivered](#time-mail-is-delivered)
-  * [Expected rain amount](#expected-rain-amount)
-  * [Rain intensity](#rain-intensity)
   * [What to wear outside](#what-to-wear-outside)
   * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
   * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
   * [Is it night](#is-it-night)
+  * [Expected rain amount](#expected-rain-amount)
+  * [Rain intensity](#rain-intensity)
   * [Co2 threshold values](#co2-threshold-values)
   * [Temperature static value](#temperature-static-value)
-  * [Count the number of lights on](#count-the-number-of-lights-on)
+  * [Overlay based on lux](#overlay-based-on-lux)
+  * [Moon image based on state](#moon-image-based-on-state)
+  * [Sink leak status](#sink-leak-status)
+  * [Chair occupancy](#chair-occupancy)
 <!-- TOC -->
 
 ---
+## Count the number of lights on
 
-## Chair occupancy
+Count the number of lights with the status `on`.
 
-Use a contact sensor to detect if a chair is occupied.
+<img src="images_templates/nr_lights_on.png" alt="Number of lights on" width="400px">
 
 ```yaml
 {% raw %}
@@ -49,43 +48,21 @@ Use a contact sensor to detect if a chair is occupied.
 # configuration.yaml
 - platform: template
   sensors:
-    chair:
-      friendly_name: "chair"
-      value_template: >-
-        {% if is_state('binary_sensor.contact1_contact', 'off') %}
-           on
-        {% else %}
-           off
-        {% endif %}
-{% endraw %}
-```
-
----
-
-## Overlay based on lux
-
-When you have a floorplan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-- platform: template
-    overlay:
-      friendly_name: "overlay"
-      value_template: >-
-        {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
-           on
-        {% else %}
-           off
-        {% endif %}
+    count_lights_on:
+      friendly_name: "# lights on"
+      icon_template: mdi:ceiling-light
+      unit_of_measurement: "on"
+      value_template: "{{ states.light | selectattr('state', 'eq', 'on') | list | count }}"  
 {% endraw %}
 ```
 
 ---
 ## Floor activity
 
-Check if there is any activity on a specific floor.
+Check if there is any activity on a specific floor or section based on multiple sensors.\
+One minute after the last trigger the state goes back to `off`.
+
+<img src="images_templates/floor_activity.png" alt="floor activity" width="400px">
 
 ```yaml
 {% raw %}
@@ -94,6 +71,7 @@ Check if there is any activity on a specific floor.
 - platform: template
   activity_downstairs:
     friendly_name: Activity downstairs
+    icon_template: mdi:radar
     value_template: >
       {{ is_state("binary_sensor.motion1_occupancy", "on")
         or is_state("binary_sensor.motion2_occupancy", "on") 
@@ -137,23 +115,6 @@ Check if there is any activity on a specific floor.
 ```
 
 ---
-## Moon image based on state
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-# the template for the moon phase pictures using the original moon component
-- platform: template
-  sensors:
-    moon_phases:
-      friendly_name: 'moonphase'
-      value_template: '{{ states.sensor.moon.state }}'
-      entity_picture_template: /local/moon_phases/{{ states.sensor.moon.state }}.png
-{% endraw %}
-```
-
----
 ## Trash bin days countdown
 
 ```yaml
@@ -169,23 +130,6 @@ Check if there is any activity on a specific floor.
         {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
       icon_template: mdi:delete-empty
       unit_of_measurement: "days"
-{% endraw %}
-```
-
----
-## Sink leak status
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-- platform: template
-  sensors:
-    sink_leak:
-      friendly_name: "leak sink"
-      value_template: >-
-        {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
-      icon_template: mdi:water
 {% endraw %}
 ```
 
@@ -209,59 +153,6 @@ Minutes since the snail mail is delivered.
         {{ minutes }}
       icon_template: mdi:mailbox
       unit_of_measurement: "minutes"
-{% endraw %}
-```
-
----
-## Expected rain amount
-
-Expected rain amount for the coming hours based on the Buienradar data.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-- platform: template
-  sensors:
-    buienalarm_rain_expected:
-      friendly_name: "rain expected"
-      value_template: >-
-        {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% set total_precip = 0 %}
-        {% for value in rain %}
-            {% set total_precip = total_precip +(value | int) %}
-        {% endfor %}
-        {{ total_precip }}
-{% endraw %}
-```
-
----
-## Rain intensity
-
-Rain intensity for the coming hours based on the Buienradar data.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-- platform: template
-  sensors:
-    buienalarm_rain_level:
-      friendly_name: "rain intensity"
-      value_template: >-
-        {% set threshold_licht = '0.4' | float %}
-        {% set threshold_matig = '2.0' | float %}
-        {% set threshold_zwaar = '5.0' | float %}
-        {% for regen in state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% if regen | float >= threshold_licht %}
-          {{ 'light rain' }}
-        {% elif regen | float >= threshold_matig %}
-          {{ 'medium rain' }}
-        {% elif regen | float >= threshold_zwaar %}
-          {{ 'heavy rain' }}
-        {% endif %}
-          {{ 'no rain' }}
-        {% endfor %}
 {% endraw %}
 ```
 
@@ -350,6 +241,59 @@ Daylight brightness converted to opacity for CSS.
 ```
 
 ---
+## Expected rain amount
+
+Expected rain amount for the coming hours based on the Dutch Buienradar data.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+    buienalarm_rain_expected:
+      friendly_name: "rain expected"
+      value_template: >-
+        {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
+        {% set total_precip = 0 %}
+        {% for value in rain %}
+            {% set total_precip = total_precip +(value | int) %}
+        {% endfor %}
+        {{ total_precip }}
+{% endraw %}
+```
+
+---
+## Rain intensity
+
+Rain intensity for the coming hours based on the Buienradar data.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+    buienalarm_rain_level:
+      friendly_name: "rain intensity"
+      value_template: >-
+        {% set threshold_licht = '0.4' | float %}
+        {% set threshold_matig = '2.0' | float %}
+        {% set threshold_zwaar = '5.0' | float %}
+        {% for regen in state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
+        {% if regen | float >= threshold_licht %}
+          {{ 'light rain' }}
+        {% elif regen | float >= threshold_matig %}
+          {{ 'medium rain' }}
+        {% elif regen | float >= threshold_zwaar %}
+          {{ 'heavy rain' }}
+        {% endif %}
+          {{ 'no rain' }}
+        {% endfor %}
+{% endraw %}
+```
+
+---
 ## Co2 threshold values
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
@@ -399,9 +343,46 @@ Add this to a graph to get this result:
 ```
 
 ---
-## Count the number of lights on
 
-Count the number of lights with the status on.
+## Overlay based on lux
+
+When you have a floorplan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+    overlay:
+      friendly_name: "overlay"
+      value_template: >-
+        {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
+           on
+        {% else %}
+           off
+        {% endif %}
+{% endraw %}
+```
+
+---
+## Moon image based on state
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+# the template for the moon phase pictures using the original moon component
+- platform: template
+  sensors:
+    moon_phases:
+      friendly_name: 'moonphase'
+      value_template: '{{ states.sensor.moon.state }}'
+      entity_picture_template: /local/moon_phases/{{ states.sensor.moon.state }}.png
+{% endraw %}
+```
+
+---
+## Sink leak status
 
 ```yaml
 {% raw %}
@@ -409,12 +390,42 @@ Count the number of lights with the status on.
 # configuration.yaml
 - platform: template
   sensors:
-    count_lights_on:
-      friendly_name: "# lights on"
-      unit_of_measurement: "on"
-      value_template: "{{ states.light | selectattr('state', 'eq', 'on') | list | count }}"
+    sink_leak:
+      friendly_name: "leak sink"
+      value_template: >-
+        {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
+      icon_template: mdi:water
 {% endraw %}
 ```
+
+---
+
+## Chair occupancy
+
+I create a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
+If you sit on it the contact sensor return `off`.
+I needed to invert the normal value of the contact sensor.
+That's what happened here.
+
+<img src="../zigbee/images_chair/pillow_with_sensor.jpg" width="450px" />
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+    chair:
+      friendly_name: "chair"
+      value_template: >-
+        {% if is_state('binary_sensor.contact1_contact', 'off') %}
+           on
+        {% else %}
+           off
+        {% endif %}
+{% endraw %}
+```
+
 
 ---
 [^^ Top](#table-of-contents)
