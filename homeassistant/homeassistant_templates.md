@@ -17,10 +17,9 @@ With templates you can create new custom sensors based on other sensor values to
 <!-- TOC -->
   * [Count the number of lights on](#count-the-number-of-lights-on)
   * [Floor activity](#floor-activity)
-  * [Day of the week (short Dutch)](#day-of-the-week-short-dutch)
-  * [Day of the week (long Dutch)](#day-of-the-week-long-dutch)
+  * [Day of the week translation](#day-of-the-week-translation)
   * [Trash bin days countdown](#trash-bin-days-countdown)
-  * [Time mail is delivered](#time-mail-is-delivered)
+  * [Minutes since mail is delivered](#minutes-since-mail-is-delivered)
   * [What to wear outside](#what-to-wear-outside)
   * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
   * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
@@ -31,8 +30,8 @@ With templates you can create new custom sensors based on other sensor values to
   * [Temperature static value](#temperature-static-value)
   * [Overlay based on lux](#overlay-based-on-lux)
   * [Moon image based on state](#moon-image-based-on-state)
-  * [Sink leak status](#sink-leak-status)
-  * [Chair occupancy](#chair-occupancy)
+  * [DIY Sink leak status](#diy-sink-leak-status)
+  * [DIY Chair occupancy status](#diy-chair-occupancy-status)
 <!-- TOC -->
 
 ---
@@ -82,7 +81,12 @@ One minute after the last trigger the state goes back to `off`.
 ```
 
 ---
-## Day of the week (short Dutch)
+## Day of the week translation
+
+By default, the day of the week is in English.\
+With this template, you can translate it to a non-English language (like here to Dutch).
+
+<img src="images_templates/day_of_the_week.png" alt="Day of the week translated" width="400px">
 
 ```yaml
 {% raw %}
@@ -92,25 +96,7 @@ One minute after the last trigger the state goes back to `off`.
   sensors:
     dayoftheweek:
       value_template: >
-        {{ ['ma','di','wo','do','vr','za','zo'][now().weekday()] }}
-{% endraw %}
-```
-
----
-## Day of the week (long Dutch)
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-- platform: template
-  sensors:
-    day_of_the_week_full:
-      friendly_name: "Dag van de week"
-      value_template: >-
-        {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
-        {% set day = days[now().weekday()] %}
-        {{ day }}
+        {{ ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"][now().weekday()] }}
 {% endraw %}
 ```
 
@@ -143,9 +129,8 @@ Based on today's date the diff in days is calculated.\
 
 <img src="images_templates/attribute_date_countdown.png" alt="date attribute" width="400px">
 
-
 ---
-## Time mail is delivered
+## Minutes since mail is delivered
 
 Minutes since the snail mail is delivered. 
 
@@ -170,7 +155,9 @@ Minutes since the snail mail is delivered.
 ---
 ## What to wear outside
 
-Based on the outside temperature defined what to wear.
+Based on the outside temperature defined what to wear when you go outside.
+
+<img src="images_templates/what_to_wear.png" alt="What to wear outside" width="100px" />
 
 ```yaml
 {% raw %}
@@ -183,13 +170,27 @@ Based on the outside temperature defined what to wear.
       value_template: >-
         {% if states.sensor.tempest_temperature_feels_like_rounded.state|int <= 5 %} winter jacket and hand gloves
         {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 14 %} softshell
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 18 %} vest
+        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 18 %} thin jacket
         {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int > 18 %} T-shirt{% endif %}
 {% endraw %}
 ```
-
+This is the code for the mushroom card, as shown on the image, based on this template.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# dashboard card code
+type: custom:mushroom-chips-card
+chips:
+  - type: entity
+    entity: sensor.what_to_wear_outside
+    icon: mdi:tshirt-v
+{% endraw %}
+```
 ---
 ## Calculate daylight brightness percentage
+
+Based on the sun sensor elevation and the cloud coverage, calculate the daylight brightness percentage.
+Which can be used to control the lights, the window blinds or on a floor map as overlay image.
 
 ```yaml
 {% raw %}
@@ -220,7 +221,7 @@ Based on the outside temperature defined what to wear.
 ---
 ## Daylight brightness to opacity
 
-Daylight brightness converted to opacity for CSS.
+Daylight brightness, from the previous template, converted to opacity for CSS to use as overlay on a floor map.
 
 ```yaml
 {% raw %}
@@ -239,6 +240,8 @@ Daylight brightness converted to opacity for CSS.
 ---
 ## Is it night
 
+Boolean value if it is night.
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -255,6 +258,8 @@ Daylight brightness converted to opacity for CSS.
 ## Expected rain amount
 
 Expected rain amount for the coming hours based on the Dutch Buienradar data.
+
+<img src="images_templates/expected_rain_amount.png" alt="Expected rain amount" width="450px" />
 
 ```yaml
 {% raw %}
@@ -278,6 +283,8 @@ Expected rain amount for the coming hours based on the Dutch Buienradar data.
 ## Rain intensity
 
 Rain intensity for the coming hours based on the Dutch Buienradar data.
+
+<img src="images_templates/rain_intensity.png" alt="Rain intensity" width="450px" />
 
 ```yaml
 {% raw %}
@@ -357,7 +364,7 @@ Add this to a graph to get this result:
 
 ## Overlay based on lux
 
-When you have a floorplan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
+When you have a floor plan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
 
 ```yaml
 {% raw %}
@@ -378,6 +385,13 @@ When you have a floorplan and want to show a dark overlay when the lux is low, y
 ---
 ## Moon image based on state
 
+The default moon component in Home Assistant gives the moon phase as a text value. 
+With an image corresponding to each phase, you can show the moon phase as an image.
+
+<img src="images_templates/moon_phase.png" alt="moon phase" width="100px" />
+
+[Download here the moon images.](https://community.home-assistant.io/t/moon-platform-with-moon-phases-pictures/86646/7)
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -393,7 +407,7 @@ When you have a floorplan and want to show a dark overlay when the lux is low, y
 ```
 
 ---
-## Sink leak status
+## DIY Sink leak status
 
 I created a custom [leak sensor](/zigbee/zigbee_water_leak_sensor) based on a contact sensor.
 The used sensor stores the value if it detects a leak in an attribute value `contact`. 
@@ -417,7 +431,7 @@ This attribute is now used to create a boolean value.
 
 ---
 
-## Chair occupancy
+## DIY Chair occupancy status
 
 I created a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
 If you sit on it the contact sensor return `off`.\
@@ -448,7 +462,7 @@ That's what happened here.
 
 That's it; I hope you can use some of these templates in your own setup.
 
-Let me know which cool and useful templates you use!
+Let me know which cool templates you use!
 
 ---
 [^^ Top](#table-of-contents)

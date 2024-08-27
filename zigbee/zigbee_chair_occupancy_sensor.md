@@ -204,3 +204,8 @@ entities:
   - entity: binary_sensor.chair_occupancy
 {% endraw %}
 ```
+
+---
+[^^ Top](#table-of-contents)
+
+[<< See also my other Zigbee content](index)
