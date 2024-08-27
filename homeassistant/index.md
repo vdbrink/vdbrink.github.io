@@ -8,7 +8,7 @@ image: /homeassistant/images/ha_banner.png
 
 ![Banner](images/ha_banner.png)
 
-<img style="float: right;height:200px" src="images/home_assistant_logo.png" alt="Home Assistant logo" >
+<img style="float:right;height:150px" src="images/home_assistant_logo.png" alt="Home Assistant logo" >
 
 I created so many different dashboards that I want to document and share them with you.
 One by one, I will add them here.

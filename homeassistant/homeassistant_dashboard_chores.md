@@ -7,7 +7,6 @@ image: /homeassistant/images_chores/chores_banner.png
 
 # Home Assistant dashboard: Chores
 
-
 <img src="images_chores/chores_banner.png" alt="Chores banner" height="175px">
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right" alt="Home Assistant logo" height="100px"></a>

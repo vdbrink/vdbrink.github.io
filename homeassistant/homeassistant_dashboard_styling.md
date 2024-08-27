@@ -5,8 +5,7 @@ tags: [Home Assistant, dashboard, lovelace, styling]
 ---
 # Home Assistant dashboard: Styling
 
-
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float:right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard styling examples which you can easily add to your own dashboards.
 <br/><br/><br/>

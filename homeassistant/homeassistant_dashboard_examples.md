@@ -6,7 +6,6 @@ tags: [Home Assistant, dashboard, lovelace]
 
 # Home Assistant dashboard: Examples
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find some random Home Assistant (lovelace) dashboard examples which you can easily add to your own dashboards.

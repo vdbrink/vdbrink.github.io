@@ -7,7 +7,6 @@ image: /homeassistant/images_floorplan/banner.png
 
 # Home Assistant dashboard: Floor plan
 
-
 <img src="images_floorplan/banner.png" alt="floor plan banner" height="100%">
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>

@@ -14,7 +14,7 @@ image: /homeassistant/images_afvalbeheer/kliko.jpg
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
-Afvalbeheer is a Dutch and Belgium integration which works for many waste collectors. 
+Afvalbeheer is a Dutch and Belgium integration that works for many waste collectors. 
 This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.  
 
 Check the git repository to find all the options and if you can use it in your city: https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/

@@ -7,7 +7,6 @@ image: /homeassistant/images_pientere_tuinen/pt-logo.webp
 
 # Home Assistant dashboard: Pientere tuinen
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 <img src="images_pientere_tuinen/pt-logo.webp" alt="Pientere tuinen banner" height="100px">

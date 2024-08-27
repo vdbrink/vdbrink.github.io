@@ -7,7 +7,6 @@ image: /homeassistant/images/system_monitor.png
 
 # Home Assistant: Hardware monitor
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find a Home Assistant (lovelace) dashboard to monitor your server hardware.
@@ -34,9 +33,9 @@ I want to monitor how my server is doing in use of resources.
 
 How does adding a new specific docker container impact the load on my server?
 
-I was looking for a script which monitor temperature, cpu, disk, memory and push that to MQTT. 
+I was looking for a script that monitors temperature, cpu, disk, memory and push that to MQTT. 
 
-From MQTT it's easy to load it into Home Assistant to create a presentation of it and with Node-RED to create alerts when it reaches a maximum value.
+From MQTT, it's easy to load it into Home Assistant to create a presentation of it and with Node-RED to create alerts when it reaches a maximum value.
 
 ---
 ## Setup
@@ -113,14 +112,14 @@ This is an example of the payload:
 ---
 ## Dashboard
 
-On the github page there is an example card to present the data in a nice way.
+On the GitHub page, there is an example card to present the data nicely.
 
-I modified it a bit and mine look like this.\
+I modified it a bit, and mine look like this.\
 It's using the HACS cards `vertical-stack-in-card`, `mini-graph-card` and `bar-card`.
 
 <img src="images/system_monitor.png" alt="System monitor" width="500px">
 
-This is the corresponding Home Assistant yaml code:
+This is the corresponding Home Assistant YAML code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io

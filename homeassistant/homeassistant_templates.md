@@ -39,7 +39,7 @@ With templates you can create new custom sensors based on other sensor values to
 
 Count the number of lights with the status `on`.
 
-<img src="images_templates/nr_lights_on.png" alt="Number of lights on" width="400px">
+<img src="images_templates/nr_lights_on.png" alt="Number of lights on" width="450px">
 
 ```yaml
 {% raw %}
@@ -61,7 +61,7 @@ Count the number of lights with the status `on`.
 Check if there is any activity on a specific floor or section based on multiple sensors.\
 One minute after the last trigger the state goes back to `off`.
 
-<img src="images_templates/floor_activity.png" alt="floor activity" width="400px">
+<img src="images_templates/floor_activity.png" alt="floor activity" width="450px">
 
 ```yaml
 {% raw %}
@@ -86,7 +86,7 @@ One minute after the last trigger the state goes back to `off`.
 By default, the day of the week is in English.\
 With this template, you can translate it to a non-English language (like here to Dutch).
 
-<img src="images_templates/day_of_the_week.png" alt="Day of the week translated" width="400px">
+<img src="images_templates/day_of_the_week.png" alt="Day of the week translated" width="450px">
 
 ```yaml
 {% raw %}
@@ -105,7 +105,7 @@ With this template, you can translate it to a non-English language (like here to
 
 Count the days before the paper bin will be picked up.
 
-<img src="images_templates/paper_waste_countdown.png" alt="days countdown" width="400px">
+<img src="images_templates/paper_waste_countdown.png" alt="days countdown" width="450px">
 
 ```yaml
 {% raw %}
@@ -127,14 +127,14 @@ The sensor `sensor.cyclus_papier` has an attribute `Sort_date` which holds the d
 Based on today's date the diff in days is calculated.\
 (The sensor value is not always accurate, that's why I use the attribute value.)
 
-<img src="images_templates/attribute_date_countdown.png" alt="date attribute" width="400px">
+<img src="images_templates/attribute_date_countdown.png" alt="date attribute" width="450px">
 
 ---
 ## Minutes since mail is delivered
 
 Minutes since the snail mail is delivered. 
 
-<img src="images_templates/mail_delivered_in_minutes.png" alt="minutes since mail is delivered" width="400px" />
+<img src="images_templates/mail_delivered_in_minutes.png" alt="minutes since mail is delivered" width="450px" />
 
 ```yaml
 {% raw %}
