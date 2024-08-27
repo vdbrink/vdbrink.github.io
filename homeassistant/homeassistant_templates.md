@@ -134,6 +134,8 @@ Based on today's date the diff in days is calculated.\
 
 Minutes since the snail mail is delivered. 
 
+<img src="images_templates/mail_delivered_in_minutes.png" alt="minutes since mail is delivered" width="400px" />
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -276,6 +278,7 @@ Expected rain amount for the coming hours based on the Dutch Buienradar data.
             {% set total_precip = total_precip +(value | int) %}
         {% endfor %}
         {{ total_precip }}
+      unit_of_measurement: 'mm'
 {% endraw %}
 ```
 
@@ -294,6 +297,7 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
   sensors:
     buienalarm_rain_level:
       friendly_name: "rain intensity"
+      icon_template: mdi:weather-pouring
       value_template: >-
         {% set threshold_licht = '0.4' | float %}
         {% set threshold_matig = '2.0' | float %}
