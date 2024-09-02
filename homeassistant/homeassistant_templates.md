@@ -10,32 +10,140 @@ tags: [Home Assistant, dashboard, lovelace, templates]
 
 Here you find some Home Assistant template examples.\
 With templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
+This new sensor can have a textual output or a boolean value true/false.
 <br>
 
 ---
-## Table of Contents
+### Table of Contents
 <!-- TOC -->
-  * [Count the number of lights on](#count-the-number-of-lights-on)
-  * [Floor activity](#floor-activity)
-  * [Day of the week translation](#day-of-the-week-translation)
-  * [Trash bin days countdown](#trash-bin-days-countdown)
-  * [Minutes since mail is delivered](#minutes-since-mail-is-delivered)
-  * [What to wear outside](#what-to-wear-outside)
-  * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
-  * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
-  * [Is it night](#is-it-night)
-  * [Expected rain amount](#expected-rain-amount)
-  * [Rain intensity](#rain-intensity)
-  * [Co2 threshold values](#co2-threshold-values)
-  * [Temperature static value](#temperature-static-value)
-  * [Overlay based on lux](#overlay-based-on-lux)
-  * [Moon image based on state](#moon-image-based-on-state)
-  * [DIY Sink leak status](#diy-sink-leak-status)
-  * [DIY Chair occupancy status](#diy-chair-occupancy-status)
+  * [Home Assistant](#home-assistant)
+    * [What is the difference between a binary and normal sensor?](#what-is-the-difference-between-a-binary-and-normal-sensor)
+    * [How to add a template](#how-to-add-a-template)
+    * [How to debug a template](#how-to-debug-a-template)
+  * [Template examples](#template-examples)
+    * [Is it a specific day in the year](#is-it-a-specific-day-in-the-year)
+    * [Count the number of lights on](#count-the-number-of-lights-on)
+    * [Unavailable devices](#unavailable-devices)
+    * [Low battery](#low-battery)
+    * [Floor activity](#floor-activity)
+    * [Day of the week translation](#day-of-the-week-translation)
+    * [Trash bin days countdown](#trash-bin-days-countdown)
+    * [Minutes since mail is delivered](#minutes-since-mail-is-delivered)
+    * [What to wear outside](#what-to-wear-outside)
+    * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
+    * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
+    * [Is it night](#is-it-night)
+    * [Expected rain amount](#expected-rain-amount)
+    * [Rain intensity](#rain-intensity)
+    * [Co2 threshold values](#co2-threshold-values)
+    * [Temperature static value](#temperature-static-value)
+    * [Overlay based on lux](#overlay-based-on-lux)
+    * [Moon image based on state](#moon-image-based-on-state)
+    * [DIY Sink leak status](#diy-sink-leak-status)
+    * [DIY Chair occupancy status](#diy-chair-occupancy-status)
 <!-- TOC -->
 
 ---
-## Count the number of lights on
+## Home Assistant
+
+### What is the difference between a binary and normal sensor?
+
+A normal sensor can have any output, text, number or a boolean also and a binary sensor can only have a boolean value as output. 
+It can only have the state `true` or `false`. 
+This sensor can be used in automations to check if a condition matches. 
+
+### How to add a template
+
+There are two ways to add a template to your Home Assistant.
+
+#### Via configuration.yaml
+
+One way to add a new template is by adding the code to the `configuration.yaml` file under the `sensor:` or `binary_sensor:` section.
+
+#### Via the frontend
+
+The other way is via the frontend, you can create a new template via the **Settings** menu item, 
+then go to **Devices and Services**, select **Helpers**. 
+This button directly opens the **Helpers** page in your Home Assistant:
+
+[![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
+
+Select the bottom-right button `+ CREATE HELPER`, 
+select **Template** then one of the options **Template a sensor** or **Template a binary sensor**.
+
+Copy the `value_template` part from the below examples and add it in the visual editor under `State template*`.
+
+As is visible in this example where a (binary) template is added to test if the current month is August.
+
+<img src="images_templates/create_helper_template.gif" alt="" width="450px">
+
+---
+
+### How to debug a template
+
+Via the Home Assistant frontend you can create and test a Template.\
+Go to the **Developer tools** menu item, 
+then go to **Template** tab.
+
+Or use this button to open the Helpers in your Home Assistant:
+
+[![Open your Home Assistant instance and show your template developer tools.](https://my.home-assistant.io/badges/developer_template.svg)](https://my.home-assistant.io/redirect/developer_template/)
+
+Now you're here:
+
+<img src="images_templates/test_template.png" alt="Template debug tool" width="100%">
+
+In the **Template editor** you can debug the code and on the right you see direct the result.
+
+Use the below examples, search the internet or use ChatGPT to help you to create your new template.
+
+---
+
+---
+
+## Template examples
+
+Here are all kinds of different template examples.
+
+### Is it a specific day in the year
+
+A boolean sensor to test if it is a specific month, season, day (like Christmas or April Fools' Day etc.)?
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+    is_january:
+      friendly_name: "Is January"
+      value_template: >
+        {{ now().month == 1 }}
+    is_monday:
+      friendly_name: "Is Monday"
+      value_template: >
+        {{ now().isoweekday() == 1 }}
+    is_april_fools_day:
+      friendly_name: "Is April Fools Day"
+      value_template: >
+        {{ now().month == 4 and now().day == 1 }}
+    is_christmas:
+      friendly_name: "Is Christmas"
+      value_template: >
+        {{ now().month == 12 and now().day == 25 }}
+    is_around_christmas:
+      friendly_name: "Is around Christmas"
+      value_template: >
+        {{ (now().month == 12 and now().day > 10) or (now().month == 1 and now().day < 11) }}
+    is_new_years_eve:
+      friendly_name: "Is new years eve"
+      value_template: >
+        {{ now().month == 12 and now().day == 31 }}
+{% endraw %}
+```
+
+---
+### Count the number of lights on
 
 Count the number of lights with the status `on`.
 
@@ -51,12 +159,68 @@ Count the number of lights with the status `on`.
       friendly_name: "# lights on"
       icon_template: mdi:ceiling-light
       unit_of_measurement: "on"
-      value_template: "{{ states.light | selectattr('state', 'eq', 'on') | list | count }}"  
+      value_template: >
+        {{ states.light | selectattr('state', 'eq', 'on') | list | count }}
 {% endraw %}
 ```
 
 ---
-## Floor activity
+### Unavailable devices
+
+Get all devices by name that have the state unavailable in a sorted list. 
+
+```yaml
+{% raw %}
+  # Sourcecode by vdbrink.github.io
+  # configuration.yaml
+- platform: template
+  sensors:
+    unavailable_devices:
+       friendly_name: "unavailable devices"
+       value_template: >
+         {{ states| selectattr('state', 'in', ['unavailable'])
+         | map(attribute='entity_id')
+         | map('device_attr', 'name_by_user')
+         | reject('match', 'None')
+         | unique
+         | list
+         | sort
+         | join('\n')
+         }}
+{% endraw %}
+```
+
+---
+### Low battery
+
+Get all devices by name that have the battery level with less than 10% in a sorted list.
+
+<img src="images_templates/low_battery_devices.png" alt="low battery devices" width="150px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+     low_battery_devices:
+        friendly_name: "low battery devices"
+        value_template: >  
+          {{ states
+          | selectattr('attributes.device_class','in',['battery'])
+          | selectattr('state', 'lessthan', '10')
+          | map(attribute='entity_id')
+          | map('state_attr', 'friendly_name')
+          | reject('match', 'None')
+          | list
+          | sort
+          | join('\n')
+          }}
+{% endraw %}
+```
+
+---
+### Floor activity
 
 Check if there is any activity on a specific floor or section based on multiple sensors.\
 One minute after the last trigger the state goes back to `off`.
@@ -81,7 +245,7 @@ One minute after the last trigger the state goes back to `off`.
 ```
 
 ---
-## Day of the week translation
+### Day of the week translation
 
 By default, the day of the week is in English.\
 With this template, you can translate it to a non-English language (like here to Dutch).
@@ -101,7 +265,7 @@ With this template, you can translate it to a non-English language (like here to
 ```
 
 ---
-## Trash bin days countdown
+### Trash bin days countdown
 
 Count the days before the paper bin will be picked up.
 
@@ -118,7 +282,7 @@ Count the days before the paper bin will be picked up.
       icon_template: mdi:delete-empty
       value_template: >-
         {% set datex = state_attr('sensor.cyclus_papier','Sort_date') | string %}
-        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
+        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil') }}
       unit_of_measurement: "days"
 {% endraw %}
 ```
@@ -130,7 +294,7 @@ Based on today's date the diff in days is calculated.\
 <img src="images_templates/attribute_date_countdown.png" alt="date attribute" width="450px">
 
 ---
-## Minutes since mail is delivered
+### Minutes since mail is delivered
 
 Minutes since the snail mail is delivered. 
 
@@ -155,7 +319,7 @@ Minutes since the snail mail is delivered.
 ```
 
 ---
-## What to wear outside
+### What to wear outside
 
 Based on the outside temperature defined what to wear when you go outside.
 
@@ -189,7 +353,7 @@ chips:
 {% endraw %}
 ```
 ---
-## Calculate daylight brightness percentage
+### Calculate daylight brightness percentage
 
 Based on the sun sensor elevation and the cloud coverage, calculate the daylight brightness percentage.
 Which can be used to control the lights, the window blinds or on a floor map as overlay image.
@@ -221,7 +385,7 @@ Which can be used to control the lights, the window blinds or on a floor map as 
 ```
 
 ---
-## Daylight brightness to opacity
+### Daylight brightness to opacity
 
 Daylight brightness, from the previous template, converted to opacity for CSS to use as overlay on a floor map.
 
@@ -240,7 +404,7 @@ Daylight brightness, from the previous template, converted to opacity for CSS to
 ```
 
 ---
-## Is it night
+### Is it night
 
 Boolean value if it is night.
 
@@ -257,7 +421,7 @@ Boolean value if it is night.
 ```
 
 ---
-## Expected rain amount
+### Expected rain amount
 
 Expected rain amount for the coming hours based on the Dutch Buienradar data.
 
@@ -283,7 +447,7 @@ Expected rain amount for the coming hours based on the Dutch Buienradar data.
 ```
 
 ---
-## Rain intensity
+### Rain intensity
 
 Rain intensity for the coming hours based on the Dutch Buienradar data.
 
@@ -316,7 +480,7 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
 ```
 
 ---
-## Co2 threshold values
+### Co2 threshold values
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
 
@@ -344,7 +508,7 @@ Create three static value sensors with the threshold values: 800, 1200 and 1500.
 ```
 
 ---
-## Temperature static value
+### Temperature static value
 
 Create a static value sensor with the threshold value of 23 degrees Celsius.
 Add this to a graph to get this result:
@@ -366,7 +530,7 @@ Add this to a graph to get this result:
 
 ---
 
-## Overlay based on lux
+### Overlay based on lux
 
 When you have a floor plan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
 
@@ -387,7 +551,7 @@ When you have a floor plan and want to show a dark overlay when the lux is low, 
 ```
 
 ---
-## Moon image based on state
+### Moon image based on state
 
 The default moon component in Home Assistant gives the moon phase as a text value. 
 With an image corresponding to each phase, you can show the moon phase as an image.
@@ -411,7 +575,7 @@ With an image corresponding to each phase, you can show the moon phase as an ima
 ```
 
 ---
-## DIY Sink leak status
+### DIY Sink leak status
 
 I created a custom [leak sensor](/zigbee/zigbee_water_leak_sensor) based on a contact sensor.
 The used sensor stores the value if it detects a leak in an attribute value `contact`. 
@@ -435,7 +599,7 @@ This attribute is now used to create a boolean value.
 
 ---
 
-## DIY Chair occupancy status
+### DIY Chair occupancy status
 
 I created a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
 If you sit on it the contact sensor return `off`.\
