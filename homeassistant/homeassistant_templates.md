@@ -95,11 +95,14 @@ Now you're here:
 
 In the **Template editor** the code can be placed and edit, and on the right you see direct the output.
 
-> Use the below examples, search the internet or use ChatGPT to help you to create your own new templates.
+---
+### Where to get help
+
+Use the below examples, search the internet, use the Home Assistant Community forum, the HA Facebook groups, Reddit or ChatGPT to help you to create your own new templates.
+
+ChatGPT is really useful and fast with helping you to create a new template and improve it to fine-tune it.
 
 <img src="images_templates/chatgpt_resource.png" alt="chatGPT as source" width="100%">
-
----
 
 ---
 
