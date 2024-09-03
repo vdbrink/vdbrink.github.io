@@ -23,6 +23,7 @@ This new sensor can have a textual output or a boolean value true/false.
   * [Template examples](#template-examples)
     * [Is it a specific day in the year](#is-it-a-specific-day-in-the-year)
     * [Count the number of lights on](#count-the-number-of-lights-on)
+    * [Calculate temperature differences](#calculate-temperature-differences)
     * [Unavailable devices](#unavailable-devices)
     * [Low battery](#low-battery)
     * [Floor activity](#floor-activity)
@@ -162,6 +163,30 @@ Count the number of lights with the status `on`.
       unit_of_measurement: "on"
       value_template: >
         {{ states.light | selectattr('state', 'eq', 'on') | list | count }}
+{% endraw %}
+```
+
+---
+### Calculate temperature differences
+
+Calculate the temperature difference between an inside room temperature and the outside temperature, and round by two decimals.
+
+<img src="images_templates/temp_diff.png" alt="Temperature difference with outside" width="450px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+    temp_diff_office_outside:
+      friendly_name: "temperature diff office and outside"
+      icon_template: hass:thermometer
+      unit_of_measurement: "°C"
+      value_template: >
+        {% set temp1 = states('sensor.espscd40_co2_temperature') | float %}
+        {% set temp2 = states('sensor.tempest_outside_temperature') | float %}
+        {{ (temp1 - temp2) | round(2, 'ceil') }}
 {% endraw %}
 ```
 
