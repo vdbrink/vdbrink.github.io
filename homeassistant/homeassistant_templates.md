@@ -20,6 +20,7 @@ This new sensor can have a textual output or a boolean value true/false.
     * [What is the difference between a binary and normal sensor?](#what-is-the-difference-between-a-binary-and-normal-sensor)
     * [How to add a template](#how-to-add-a-template)
     * [How to debug a template](#how-to-debug-a-template)
+    * [Where to get help](#where-to-get-help)
   * [Template examples](#template-examples)
     * [Is it a specific day in the year](#is-it-a-specific-day-in-the-year)
     * [Count the number of lights on](#count-the-number-of-lights-on)
