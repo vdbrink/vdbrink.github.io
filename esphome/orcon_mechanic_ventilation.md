@@ -128,18 +128,21 @@ I've made close-up photos and a table how everything is connected.
 
 This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
 
-| Flat cable +<br>adapter pin | 15RF remote button | Dupont cable color | ESP pin |
-|-----------------------------|--------------------|--------------------|---------|
-| 1                           | -                  | -                  | -       |
-| 2                           | timer*             | -                  | -       |
-| 3                           | ground             | purple             | G       |
-| 4                           | automatic          | blue               | D1      |
-| 5                           | away*              | -                  | -       |
-| 6                           | mode 3             | green              | D6      |
-| 7                           | mode 2             | yellow             | D5      |
-| 8                           | mode 1             | orange             | D2      |
+UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order. 
+Then you need to look at the second column in the table for the right adapter pins. Let me know which one is correct for you.
 
-> I haven't connected the 'timer' and 'away' buttons because I don't use them.
+| Flat cable +<br>adapter pin | Reverse order | 15RF remote button | Dupont cable color | ESP pin |
+|-----------------------------|---------------|--------------------|--------------------|---------|
+| 1                           | 8             | -                  | -                  | -       |
+| 2                           | 7             | timer*             | -                  | -       |
+| 3                           | 6             | ground             | purple             | G       |
+| 4                           | 5             | automatic          | blue               | D1      |
+| 5                           | 4             | away*              | -                  | -       |
+| 6                           | 3             | mode 3             | green              | D6      |
+| 7                           | 2             | mode 2             | yellow             | D5      |
+| 8                           | 1             | mode 1             | orange             | D2      |
+
+> *I haven't connected the 'timer' and 'away' buttons because I don't use them.
 
 You can also replace the 3V CR 2032 battery from the remote and connect it to the ESP which can also provide the required 3V.
 
@@ -341,7 +344,7 @@ With these controls it's only a one way communication, you can only send data to
 
 ### Background
 
-To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf SHP-15](../buy/smart_home_best_buy_tips#smart-socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
+To get the current mode of the ventilation system, cccccbbiehevbiginhrrlihhrrrffcyou can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf SHP-15](../buy/smart_home_best_buy_tips#smart-socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
 Based on the used power I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
