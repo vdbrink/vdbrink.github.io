@@ -53,7 +53,7 @@ This sensor can be used in automations to check if a condition matches.
 
 ### How to add a template
 
-There are two ways to add a template to your Home Assistant.
+There are two ways to add a template to your Home Assistant:
 
 #### Via configuration.yaml
 
@@ -62,17 +62,17 @@ One way to add a new template is by adding the code to the `configuration.yaml` 
 #### Via the frontend
 
 The other way is via the frontend, you can create a new template via the **Settings** menu item, 
-then go to **Devices and Services**, select **Helpers**. 
+then go to **Devices and Services** and select **Helpers**.\
 This button directly opens the **Helpers** page in your Home Assistant:
 
 [![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
 
 Select the bottom-right button `+ CREATE HELPER`, 
-select **Template** then one of the options **Template a sensor** or **Template a binary sensor**.
+select **Template** then one of the two options **Template a sensor** or **Template a binary sensor**.
 
-Copy the `value_template` part from the below examples and add it in the visual editor under `State template*`.
+Copy the `value_template` part from the below examples and add it in the visual editor under **State template***.
 
-As is visible in this example where a (binary) template is added to test if the current month is August.
+In this example a (binary) template is created to check if the current month is August.
 
 <img src="images_templates/create_helper_template.gif" alt="" width="450px">
 
@@ -92,9 +92,11 @@ Now you're here:
 
 <img src="images_templates/test_template.png" alt="Template debug tool" width="100%">
 
-In the **Template editor** you can debug the code and on the right you see direct the result.
+In the **Template editor** the code can be placed and edit, and on the right you see direct the output.
 
-Use the below examples, search the internet or use ChatGPT to help you to create your new template.
+> Use the below examples, search the internet or use ChatGPT to help you to create your own new templates.
+
+<img src="images_templates/chatgpt_resource.png" alt="chatGPT as source" width="100%">
 
 ---
 
@@ -247,7 +249,7 @@ One minute after the last trigger the state goes back to `off`.
 ### Day of the week translation
 
 By default, the day of the week is in English.\
-With this template, you can translate it to a non-English language (like here to Dutch).
+With this template, it translates the day to a non-English language (like here to Dutch).
 
 <img src="images_templates/day_of_the_week.png" alt="Day of the week translated" width="450px">
 
