@@ -9,7 +9,7 @@ tags: [Home Assistant, dashboard, lovelace, templates]
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find some Home Assistant template examples.\
-With templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
+With these templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
 This new sensor can have a textual output or a boolean value true/false.
 <br>
 
@@ -36,7 +36,6 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Expected rain amount](#expected-rain-amount)
     * [Rain intensity](#rain-intensity)
     * [Co2 threshold values](#co2-threshold-values)
-    * [Temperature static value](#temperature-static-value)
     * [Overlay based on lux](#overlay-based-on-lux)
     * [Moon image based on state](#moon-image-based-on-state)
     * [DIY Sink leak status](#diy-sink-leak-status)
@@ -406,7 +405,7 @@ Daylight brightness, from the previous template, converted to opacity for CSS to
 ---
 ### Is it night
 
-Boolean value if it is night.
+Boolean state if it is night.
 
 ```yaml
 {% raw %}
@@ -507,26 +506,11 @@ Create three static value sensors with the threshold values: 800, 1200 and 1500.
 {% endraw %}
 ```
 
----
-### Temperature static value
+It's also possible to use a Number helper for this. 
+This generates an `input_number.800` entity which can also be used in graphs. 
+It's important to set here also the right unit of measurement.
 
-Create a static value sensor with the threshold value of 23 degrees Celsius.
-Add this to a graph to get this result:
-
-<img src="images_templates/23_degrees_temp_static_sensor.png" alt="static value" width="450px" />
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-- platform: template
-  sensors:
-    temp_value_23:
-      friendly_name: "23"
-      value_template: 23
-      unit_of_measurement: '°C'
-{% endraw %}
-```
+<img src="images_templates/input_number_static_value.png" alt="static helper" width="450px" />
 
 ---
 
