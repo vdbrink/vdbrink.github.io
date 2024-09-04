@@ -141,6 +141,8 @@ Each entity comes with extra data which can be used to sort by date, for example
 It has an attribute called `Days_until` which contains the numeric days to bin day.\
 It can be used for sorting on date by using the custom HACS card [auto-entities](homeassistant_dashboard_card_auto-entities).
 
+<img src="images_afvalbeheer/days_until_states.png" alt="days until attribute" width="250px">
+
 #### As row - order by date
 
 An example to show the entities sorted by date in a row.
