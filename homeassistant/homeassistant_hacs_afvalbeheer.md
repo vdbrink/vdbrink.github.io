@@ -66,7 +66,7 @@ Enjoy reading it, and hopefully you can use it for your own dashboard.
 
 ### Afvalbeheer integration
 
-The HACS integration `afvalbeheer` is available for a lot of cities.
+The HACS integration `afvalbeheer` is available for a lot of Dutch and Belgium cities to get the collection days.
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pippyn&repository=Home-Assistant-Sensor-Afvalbeheer&category=integration)
 
