@@ -1,17 +1,21 @@
 ---
-title: "Home Assistant dashboard: Templates"
+title: "Home Assistant: Templates"
+description: "Home Assistant Templates examples and how to create them"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, templates]
+tags: [Home Assistant, dashboard, lovelace, templates, sensors]
+image: /homeassistant/images_templates/ha_templates_banner.png
 ---
 
-# Home Assistant dashboard: Templates
+# Home Assistant: Templates
 
+<img src="images_templates/ha_templates_banner.png" alt="Home Assistant templates banner" width="100%">
+<br><br>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find some Home Assistant template examples.\
 With these templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
 This new sensor can have a textual output or a boolean value true/false.
-<br>
+<br><br>
 
 ---
 ### Table of Contents

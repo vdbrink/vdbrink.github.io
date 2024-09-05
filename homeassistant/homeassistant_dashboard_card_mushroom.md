@@ -11,9 +11,9 @@ image: /homeassistant/images_mushroom/mushroom_examples.png
 
 Here you find Home Assistant (lovelace) dashboard examples related to the **mushroom** cards which you can easily add to your own dashboards.
 
-Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add small widget on your dashboard.
+Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add a small widget on your dashboard.
 
-<img src="images_mushroom/mushroom_examples.png" width="350px"  alt=""/> 
+<img src="images_mushroom/mushroom_examples.png" width="350px"  alt="mushroom examples"/> 
 
 The git repository is https://github.com/piitaya/lovelace-mushroom
 
@@ -41,7 +41,7 @@ Install it via this button
 ## Intro
 
 The mushroom card has a whole set of different card types.
-In my examples here I only use two of them. If you want to know more about them all check this page https://github.com/piitaya/lovelace-mushroom#cards
+In my examples here I only use two of them. If you want to know more about them all, check this page https://github.com/piitaya/lovelace-mushroom#cards
 
 <img src="images_mushroom/mushroom_card_types.png" alt="mushroom card types" width="150px" />
 
@@ -57,7 +57,7 @@ The title card show data based on a template and has no background.
 #### Welcome text and weather forecast for today
 <img src="images_mushroom/mushroom_title.png" alt="mushroom title" width="400px">
 
-Welcome text based on the time of the day and the name of the logged in user.\
+Welcome text based on the time of the day and the name of the logged-in user.\
 Show also the minimal and maximum temperature for today and a textual description of the weather.
 
 ```yaml

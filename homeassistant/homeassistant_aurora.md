@@ -63,7 +63,7 @@ I use Node-RED for my automations.
 
 This flow sends a text if the above binary_sensor is `true`/`on`.
 
-<img src="images_aurora/aurora_nodered_alert.png" width="450px" alt="node-RED flow alert">
+<img src="images_aurora/aurora_nodered_alert.png" width="450px" alt="aurora Node-RED flow alert">
 
 * The first block is the [HA condition node](../node-red/node-red_home-assistant) `events: state node` with (my) entity `binary_sensor.aurora_52_4` which has state `on`
 * If that state matches, the next node is triggered and passes the text `Northern light is now possible visible` 
