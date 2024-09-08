@@ -27,6 +27,8 @@ A small stretched display, next to my monitor, where I can see my office climate
 
 <img src="images_stretch_display/office_display_next2monitor.jpg" alt="stretch display in action" height="400px">
 
+<img src="images_stretch_display/office_display_closeup.jpg" alt="stretch display close-up" height="400px">
+
 I created two Home Assistant dashboards: one for my office climate and the other as my weather data display.
 
 <img src="images_stretch_display/office_display1.png" alt="HA office display" width="150px">&nbsp;
@@ -65,8 +67,6 @@ These hardware components (or alternatives) are required:
 ### Stretch Display
 
 For my project, I use option 1, but there are a lot of displays available on the market!
-
-<img src="images_stretch_display/colors_display.jpg" alt="" height="250px">
 
 #### Option 1
 
