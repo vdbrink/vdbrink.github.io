@@ -3,7 +3,7 @@ title: "Stretch display"
 description: "A stretched display to show Home Assistant dashboard on"
 category: Projects
 tags: [display, stretch, long, weather, station, Home Assistant, raspberry, rpi, kiosk]
-#image:
+image: /projects/images_stretch_display/office_display_next2monitor.jpg
 ---
 
 # Stretch display
@@ -18,13 +18,19 @@ I had for years a basic weather station with a radio receiver to see the in- and
 I was also looking for a small display to show the actual Co2 and temperature data in my home office.
 I found out when the Co2 was too high and/or the temperature is above 23 degrees, the concentration drops.
 
+> This page is still under construction, I fill in all chapters one by one how I set it up. So you can create exactly the same, or use it as a reference for your own display project.
+
 ---
 ## My solutions
+
+A small stretched display, next to my monitor, where I can see my office climate data in a Home Assistant dashboard, controlled by a Raspberry pi.
+
+<img src="images_stretch_display/office_display_next2monitor.jpg" alt="stretch display in action" height="400px">
 
 I created two Home Assistant dashboards: one for my office climate and the other as my weather data display.
 
 <img src="images_stretch_display/office_display1.png" alt="HA office display" width="150px">&nbsp;
-<img src="images_stretch_display/weather_display1.png" alt="HA office display" width="150px">
+<img src="images_stretch_display/weather_display1.png" alt="HA weather display" width="150px">
 
 [//]: # (I considered just using a normal tablet, but for me, it was quite big.)
 
@@ -62,15 +68,18 @@ A small device with an OS which can run a web browser on it.\
 I had a <a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank">case</a> (AliExpress) for it.\
 You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank">Raspberry Pi Zero W</a> (AliExpress), a faster <a href="https://s.click.aliexpress.com/e/_DBzV3yf" target="blank">Raspberry Pi Zero 2 W</a> (AliExpress) or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.
 
-<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" width="30%"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" width="30%"/></a>
-<img src="images_stretch_display/old_phone.jpg" alt="Old phone" width="30%"/>
+<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
+<img src="images_stretch_display/old_phone.jpg" alt="Old phone" height="180px"/>
 
 #### Micro SD-card
 
-<a href="https://s.click.aliexpress.com/e/_DlQd1i3" target="blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop. An 8 GB version is already enough. Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
+<a href="https://s.click.aliexpress.com/e/" target="blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop. 
+A minimal of 8 GB version is already enough, but larger one are just a little bit more expensive. 
+Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
 
-<a href="https://s.click.aliexpress.com/e/_DlQd1i3" target="blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
+<a href="https://s.click.aliexpress.com/e/" target="blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
 
 #### Power
 
@@ -93,6 +102,8 @@ An <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">USB cable
 
 For my project, I use option 1.
 
+<img src="images_stretch_display/colors_display.jpg" alt="" height="250px">
+
 #### Option 1
 
 <a href="https://s.click.aliexpress.com/e/_DEfuj8B" target="blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
@@ -105,24 +116,38 @@ For my project, I use option 1.
 
 #### Option 2
 
-<a href="https://s.click.aliexpress.com/e/_DEfuj8B" target="blank">Stretch Display 2</a> ~ &euro; 90,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="blank">Stretch Display 2</a> ~ &euro; 110,- (AliExpress)
 * Same size and resolution but a better version as above
 * WITH IPS touchscreen
 * Brighter colors
 * Raspberry mount on the back
 
-  <a href="https://s.click.aliexpress.com/e/_DDB5WBt" target="blank"><img src="images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch display with touchscreen" width="30%"/></a>
+  <a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="blank"><img src="images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch display with touchscreen" width="30%"/></a>
 
 #### Option 3
 
+<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="blank">Stretch displays are also in all different size available</a> (Aliexpress)
+
 Of course, any other display can also be used!
+
+---
 
 ### Display holder
 
-<a href="https://s.click.aliexpress.com/e/_Dek5V2b">Display holder</a> (AliExpress) An adjustable version in width and height to position the display in the right height and angle.
- This display fits exactly between the claws and the cable fits through it. Which gives it a smooth design. 
+<a href="https://s.click.aliexpress.com/e/_Dek5V2b" target="blank">Display holder</a> (AliExpress) 
+
+The mount for the display can stretch to hold devices in a range of 4.7" - 17.3". 
+It fits perfect between the claws, and the cables fit also perfectly through the bottom and directly connect to the ports. 
+Which gives it a smooth design.
+
+The stand itself can also adjust in height and angle to position the display in the right position. 
+The big round heavy feet make it stand stable.
   
-<img src="images_stretch_display/display_holder.webp" alt="Display holder" height="180px"/>
+<img src="images_stretch_display/holder.webp" alt="Display holder" height="200px"/>
+
+<img src="images_stretch_display/holder_side.jpg" alt="" height="250px">
+
+<img src="images_stretch_display/holder_cables.jpg" alt="" height="250px">
 
 ---
 
@@ -142,6 +167,16 @@ Optional USB keyboard to install the Raspberry. Once installed, it can be contro
 
 ---
 
+### Co2 sensor
+
+<a href="../buy/smart_home_best_buy_tips#smart-socket"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px"/></a>
+
+### Temperature sensor
+
+<a href="../buy/smart_home_best_buy_tips#temperature-sensor"><img src="../.jpg" alt="" height="150px"/></a>
+
+---
+
 ## Required software
 
  https://www.raspberrypi.com/software/operating-systems/
@@ -151,6 +186,11 @@ Home Assistant
 ---
 
 ## Display PC configuration
+
+<img src="images_stretch_display/setup_wip2.jpg" alt="" height="250px">
+
+<img src="images_stretch_display/setup_wip1.jpg" alt="" height="250px">
+
 
 ### Install Raspberry OS Desktop
 
