@@ -62,45 +62,9 @@ Also affiliate links are used here.
 
 These hardware components (or alternatives) are required:
 
-### Device with a web browser
-
-A small device with an OS which can run a web browser on it.\
-I had a <a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank">case</a> (AliExpress) for it.\
-You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank">Raspberry Pi Zero W</a> (AliExpress), a faster <a href="https://s.click.aliexpress.com/e/_DBzV3yf" target="blank">Raspberry Pi Zero 2 W</a> (AliExpress) or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.
-
-<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" height="180px"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
-<img src="images_stretch_display/old_phone.jpg" alt="Old phone" height="180px"/>
-
-#### Micro SD-card
-
-<a href="https://s.click.aliexpress.com/e/" target="blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop. 
-A minimal of 8 GB version is already enough, but larger one are just a little bit more expensive. 
-Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
-
-<a href="https://s.click.aliexpress.com/e/" target="blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
-
-#### Power
-
-To power the Raspberry 3B it requires at least 5V with 3A, otherwise you get the message "Low voltage warning" in Raspberry OS.
-To also power the display, I use <a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">this adapter</a>.
-
-<a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">
-<img src="../buy/images_diy/usb_power_charger.png" alt="5V USB power adapter" width="180px"/></a>
-
-An <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.
-
-<a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">
-<img src="../buy/images_diy/usb_cable_micro_usb.avif" alt="USB cable" width="180px"/></a>
-
-<a href="/buy/esphome_diy" target="_blank">alternative links</a>
-
----
-
 ### Stretch Display
 
-For my project, I use option 1.
+For my project, I use option 1, but there are a lot of displays available on the market!
 
 <img src="images_stretch_display/colors_display.jpg" alt="" height="250px">
 
@@ -148,6 +112,43 @@ The big round heavy feet make it stand stable.
 <img src="images_stretch_display/holder_side.jpg" alt="" height="250px">
 
 <img src="images_stretch_display/holder_cables.jpg" alt="" height="250px">
+
+---
+
+
+### Device with a web browser
+
+A small device with an OS which can run a web browser on it.\
+I had a <a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank">case</a> (AliExpress) for it.\
+You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank">Raspberry Pi Zero W</a> (AliExpress), a faster <a href="https://s.click.aliexpress.com/e/_DBzV3yf" target="blank">Raspberry Pi Zero 2 W</a> (AliExpress) or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.
+
+<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
+<img src="images_stretch_display/old_phone.jpg" alt="Old phone" height="180px"/>
+
+#### Micro SD-card
+
+<a href="https://s.click.aliexpress.com/e/" target="blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop.
+A minimal of 8 GB version is already enough, but larger one are just a little bit more expensive.
+Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
+
+<a href="https://s.click.aliexpress.com/e/" target="blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
+
+#### Power
+
+To power the Raspberry 3B it requires at least 5V with 3A, otherwise you get the message "Low voltage warning" in Raspberry OS.
+To also power the display, I use <a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">this adapter</a>.
+
+<a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">
+<img src="../buy/images_diy/usb_power_charger.png" alt="5V USB power adapter" width="180px"/></a>
+
+An <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.
+
+<a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">
+<img src="../buy/images_diy/usb_cable_micro_usb.avif" alt="USB cable" width="180px"/></a>
+
+<a href="/buy/esphome_diy" target="_blank">alternative links</a>
 
 ---
 
