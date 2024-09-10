@@ -468,7 +468,7 @@ This CR2450 battery is a bit thicker than the other ones.
 ### Battery eliminators
 
 <a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">
-<img src="../projects/images_christmas_lights/battery_eliminator.webp" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
+<img src="../projects/images_christmas_decorations/battery_eliminator.webp" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
 
 Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
 This saves you from buying new batteries. The big advantage is also that you now can control them with your home automations by adding a smart plugin between the plug and the wall outlet. Now you also don't have to worry that you forgot them to put them off again.

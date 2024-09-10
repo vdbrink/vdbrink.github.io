@@ -36,6 +36,7 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
     * [Rain gauge sensor](#rain-gauge-sensor)
     * [Waterproof temperature sensor](#waterproof-temperature-sensor)
     * [Occupancy sensor (mmWave)](#occupancy-sensor-mmwave)
+    * [Presence sensor (microwave)](#presence-sensor-microwave)
   * [Cables](#cables)
   * [Power](#power)
   * [USB hub](#usb-hub)
@@ -43,6 +44,11 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
   * [Pin heads](#pin-heads)
   * [Boxes](#boxes)
   * [Tools](#tools)
+    * [Soldering iron](#soldering-iron)
+    * [Soldering tin wire](#soldering-tin-wire)
+    * [Desoldering](#desoldering)
+    * [Breadboard](#breadboard)
+    * [Helping hand](#helping-hand)
   * [RTL-SDR Radio sniffer for 433 and 868 MHz](#rtl-sdr-radio-sniffer-for-433-and-868-mhz)
   * [P1 cable for smart gas and energy meter](#p1-cable-for-smart-gas-and-energy-meter)
   * [Internal links](#internal-links)
@@ -50,8 +56,8 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
 
 ---
 
-> **_NOTE 1:_** Links on this page are hardware I also bought myself.
-> Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
+> **_NOTE 1:_** Most links on this page are hardware I also bought myself.
+> Most of the links are affiliate links, you pay the same price AND support my blog by buying it from here.
 
 ---
 
@@ -255,7 +261,7 @@ USB-A to USB-C cable to power the ESP32.
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
 
 <a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
-<img src="images_zigbee/christmas_light_adapter.webp" alt="christmas light adapter" width="200px"/></a>
+<img src="../projects/images_christmas_decorations/christmas_light_adapter.webp" alt="christmas light adapter" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
 
@@ -349,6 +355,17 @@ A breadboard with dupont cables and power connector to test your setup first.
 </a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (AliExpress)</a>
+
+
+### Helping hand
+
+This helping hand can be used to hold the ESP board and sensor while soldering.
+
+<a href="https://s.click.aliexpress.com/e/_Ev4uoq9" target="_blank">
+<img src="images_diy/helping_hand.avif" alt="helping hand" width="200px"/>
+</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ev4uoq9" target="_blank">link 1 (AliExpress)</a>
 
 ---
 
