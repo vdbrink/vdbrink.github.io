@@ -3,4 +3,11 @@
 
 {%- include google-analytics.html -%}
 
-<a id="top"></a>
+<script type="text/javascript">
+    function onloadBody() {
+        let els = document.querySelectorAll(".bbt");
+        let num = Math.floor(Math.random() * els.length);
+        els[num].style.display = "inline-block";
+    }
+    window.onload = onloadBody;
+</script>

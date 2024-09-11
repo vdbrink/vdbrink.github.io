@@ -103,6 +103,12 @@ A reason why not to choose for Zigbee? I don't know :)
 Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issue, it's a very reliable stick.
 My network grew to 120+ devices today, and it still runs fast.
 
+Another new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EGiVxC1" target="_blank">Sonoff ZBDongle-E</a>.
+
+<a href="https://s.click.aliexpress.com/e/_EGiVxC1" target="_blank">
+<img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle" height="150px"/></a>
+
+
 To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick. 
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> for it.
