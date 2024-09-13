@@ -14,17 +14,16 @@ Here you find Home Assistant (lovelace) dashboard custom elements which are defa
 ---
 
 ## Table of Contents
-<!-- TOC --> 
-* [Atomic Calendar Revive](#atomic-calendar-revive)
-* [auto-entities](#auto-entities)
-* [card-mod 3 (lovelace-card-mod)](#card-mod-3-lovelace-card-mod)
-* [slider-entity-row](#slider-entity-row)
-* [Lovelace animated weather card](#lovelace-animated-weather-card)
-* [multiple-entity-row](#multiple-entity-row)
-* [Neerslag App](#neerslag-app)
-* [Swipe Navigation](#swipe-navigation)
-* [template-entity-row](#template-entity-row)
-* [example: slider-entity-row](#example-slider-entity-row)
+<!-- TOC -->
+  * [Atomic Calendar Revive](#atomic-calendar-revive)
+  * [auto-entities](#auto-entities)
+  * [card-mod 3 (lovelace-card-mod)](#card-mod-3-lovelace-card-mod)
+  * [slider-entity-row](#slider-entity-row)
+  * [Lovelace animated weather card](#lovelace-animated-weather-card)
+  * [multiple-entity-row](#multiple-entity-row)
+  * [Neerslag App](#neerslag-app)
+  * [Swipe Navigation](#swipe-navigation)
+  * [template-entity-row](#template-entity-row)
 <!-- TOC -->
 
 ---
