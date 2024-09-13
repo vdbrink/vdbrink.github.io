@@ -204,3 +204,5 @@ Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scrap
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
+
+[Dashboard: Layout examples >>](homeassistant_dashboard_layout)

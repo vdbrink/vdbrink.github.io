@@ -444,3 +444,7 @@ I created a [separated page](../projects/bin_day_led_strip_reminder) how I setup
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
+
+[Home Assistant: Templates >>](homeassistant_templates)
+
+[Home Assistant dashboard custom element: Auto-entities >>](homeassistant_dashboard_card_auto-entities)

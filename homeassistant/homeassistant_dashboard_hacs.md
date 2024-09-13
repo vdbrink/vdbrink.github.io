@@ -197,3 +197,7 @@ entities:
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
+
+[Custom element: Auto-entities >>](homeassistant_dashboard_card_auto-entities)
+
+[Dashboard card: Mushroom >>](homeassistant_dashboard_card_mushroom)

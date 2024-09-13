@@ -443,3 +443,5 @@ To use this iframing, you need to set in `grafana.env` this value
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
+
+[Dashboard: Styling >>](homeassistant_dashboard_styling)

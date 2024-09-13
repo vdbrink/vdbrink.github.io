@@ -172,9 +172,11 @@ De template:
 
 ## Datum en tijd weergaves
 
-Zie de [Date and time](homeassistant_dashboard_date_time#time-and-date) pagina voor meerdere voorbeelden.
+Zie de [Date and time](homeassistant_dashboard_date_time#time-and-date) pagina met meerdere voorbeelden.
 
 ---
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
+
+[Templates >>](homeassistant_templates)

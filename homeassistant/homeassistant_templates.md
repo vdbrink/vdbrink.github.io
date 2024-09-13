@@ -655,3 +655,5 @@ Let me know which cool templates you use!
 [^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
+
+[Dashboard: Layout examples >>](homeassistant_dashboard_layout)
