@@ -100,10 +100,14 @@ Now you're here:
 
 In the **Template editor** the code can be placed and edit, and on the right you see direct the output.
 
+Home Assistant use [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates/?sfnsn=wa) as a template engine to combine static text with variables.
+
 ---
 ### Where to get help
 
 Use the below examples, search the internet, use the Home Assistant Community forum, the HA Facebook groups, Reddit or ChatGPT to help you to create your own new templates.
+
+[The Home Assistant website contains also a lot examples!](https://www.home-assistant.io/docs/configuration/templating/)
 
 ChatGPT is really useful and fast with helping you to create a new template and improve it to fine-tune it.
 
