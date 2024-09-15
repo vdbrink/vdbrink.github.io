@@ -22,6 +22,7 @@ Here you find Home Assistant (lovelace) dashboard custom elements which are defa
 * [multiple-entity-row](#multiple-entity-row)
 * [template-entity-row](#template-entity-row)
 * [Atomic Calendar Revive](#atomic-calendar-revive)
+* [Clock Weather Card](#clock-weather-card)
 * [Lovelace animated weather card](#lovelace-animated-weather-card)
 * [Neerslag App](#neerslag-app)
 <!-- TOC -->
