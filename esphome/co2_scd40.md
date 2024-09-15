@@ -72,6 +72,7 @@ Click on the photo to open it fullscreen.
   * [Required software](#required-software)
   * [Test if it works](#test-if-it-works)
   * [Home Assistant Dashboards](#home-assistant-dashboards)
+  * [Automations](#automations)
 <!-- TOC -->
 
 ---
@@ -416,7 +417,7 @@ entities:
 
 ### Dashboard Mushroom entity
 
-<img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"> 
+<img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"/> 
  Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
 
 
@@ -445,5 +446,14 @@ chips:
       {% endif %}
 {% endraw %}
 ```
+
+---
+
+## Automations
+
+When the CO2 value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
+Or use a colored light or [LED-strip](/projects/bin_day_led_strip_reminder) to indicate the condition.
+
+<br><br>
 
 That's it!

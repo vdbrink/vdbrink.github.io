@@ -60,6 +60,7 @@ Inside a CO2 sensor and an ESP mini.
   * [Dashboard History Graphic](#dashboard-history-graphic)
   * [Dashboard condition text](#dashboard-condition-text)
   * [Dashboard Mushroom entity](#dashboard-mushroom-entity)
+* [Automations](#automations)
 <!-- TOC -->
 
 ---
@@ -374,4 +375,12 @@ chips:
 {% endraw %}
 ```
 
+---
+
+## Automations
+
+When the CO2 value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
+Or use a colored light or [LED-strip](/projects/bin_day_led_strip_reminder) to indicate the condition.
+
+<br><br>
 Keep your home healthy, measuring is knowing!
