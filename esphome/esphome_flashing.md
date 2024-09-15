@@ -28,7 +28,7 @@ The sensor also automatically registers itself to Home Assistant (or sends its d
 # Sourcecode by vdbrink.github.io
 esphome:
   name: espscd40
-  comment: Room Co2 sensor
+  comment: Room CO2 sensor
   platform: ESP8266
   board: nodemcuv2
 
@@ -51,9 +51,9 @@ sensor:
     co2:
       name: "SCD40 CO2"
     temperature:
-      name: "co2 temperature"
+      name: "CO2 temperature"
     humidity:
-      name: "co2 humidity"
+      name: "CO2 humidity"
 ```
 </details>
 

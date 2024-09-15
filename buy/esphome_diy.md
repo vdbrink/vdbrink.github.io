@@ -30,7 +30,7 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
   * [Sensors](#sensors)
     * [Temperature and humidity sensor](#temperature-and-humidity-sensor)
     * [Air quality sensor](#air-quality-sensor)
-    * [Co2 sensor](#co2-sensor)
+    * [CO2 sensor](#co2-sensor)
     * [Pressure sensor](#pressure-sensor)
     * [Weight sensor](#weight-sensor)
     * [Rain gauge sensor](#rain-gauge-sensor)
@@ -127,17 +127,17 @@ AGS10 TVOC air quality gas sensor.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">link 2 (AliExpress)</a>
 
 
-### Co2 sensor
+### CO2 sensor
 
-Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm). 
+CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm). 
 If the amount of ppms is too high for a long time, it's not good for you're healthy.
 
 #### SenseAir S8
 
-SenseAir S8 Co2 sensor.
+SenseAir S8 CO2 sensor.
 
 <a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">
-<img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" /></a>
+<img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">link 1 (AliExpress)</a>
 
@@ -145,7 +145,7 @@ SenseAir S8 Co2 sensor.
 
 #### SCD41
 
-SCD40 or SCD41 Co2 sensor are compact Co2, humidity and temperature sensors. 
+SCD40 or SCD41 CO2 sensor are compact CO2 , humidity and temperature sensors. 
 Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">

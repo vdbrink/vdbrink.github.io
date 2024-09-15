@@ -1,14 +1,14 @@
 ---
-title: ESPHome SCD40 Co2 sensor
-description: "Create your own ESPHome Co2 sensor based on the SCD40 sensor for Home Assistant"
+title: ESPHome SCD40 CO2 sensor
+description: "Create your own ESPHome CO2 sensor based on the SCD40 sensor for Home Assistant"
 date: 2022-06-24
 category: ESPHome
-tags: [Co2, ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering]
+tags: [CO2 , ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering]
 image: /esphome/images_scd40/hardware.jpg
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# ESPHome Co2 sensor
+# ESPHome CO2 sensor
 
 *Based on the SCD40 sensor*
 
@@ -16,12 +16,12 @@ image: /esphome/images_scd40/hardware.jpg
 
 <img src="images_scd40/SCD40_co2_with_cable.webp" alt="SCD40" height="150px" style="margin-left:15px;float:right"/>
 
-There are Co2 sensors available, most of them are expensive, but 
+There are CO2 sensors available, most of them are expensive, but 
 you can also create one yourself with just a single sensor and an ESP board. 
 It's easy (and fun) to create one yourself.\
 You can even create this one WITHOUT SOLDERING!!
 
-Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
+CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
 If your in a space with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
 For your, and your family health, it's important to act when these values are too high.\
@@ -40,7 +40,7 @@ This table shows for which value, which action is required.
 
 <br>
 
-In Home Assistant, you can visualize how the Co2 value changed over time.
+In Home Assistant, you can visualize how the CO2 value changed over time.
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
@@ -80,15 +80,15 @@ These hardware components do I use for this project.
 
 Affiliate links are used here. Same price, and you sponsor this blog.
 
-### SCD40 Co2 sensor
+### SCD40 CO2 sensor
 
-This small gas sensor measures Co2 (in a range 400-2000 ppm) and also temperature (-10-60 degrees) and humidity (0-100 percent).\
+This small gas sensor measures CO2 (in a range 400-2000 ppm) and also temperature (-10-60 degrees) and humidity (0-100 percent).\
 The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) for all the details specs from this sensor.
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 This sensor is useful if you don't want to solder (AliExpress)
 <br>
-<img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 Co2 sensor without soldering" />
+<img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 CO2 sensor without soldering" />
 </a>
 
 ### ESP board
@@ -212,7 +212,7 @@ The `co2_scd40.yaml` YAML script:
 # Sourcecode by vdbrink.github.io
 esphome:
   name: espscd40
-  comment: Room Co2 sensor
+  comment: Room CO2 sensor
   platform: ESP8266
   board: nodemcuv2
 
@@ -222,7 +222,7 @@ wifi:
   fast_connect: true # only needed for hidden SSID
 
 # Push the data also to MQTT topics: 
-# * Co2 espscd40/sensor/scd40_co2/state
+# * CO2 espscd40/sensor/scd40_co2/state
 # * Temperature espscd40/sensor/co2_temperature/state  
 # * Humidity espscd40/sensor/co2_humidity/state
 mqtt:
@@ -248,9 +248,9 @@ sensor:
     co2:
       name: "SCD40 CO2"
     temperature:
-      name: "co2 temperature"
+      name: "CO2 temperature"
     humidity:
-      name: "co2 humidity"
+      name: "CO2 humidity"
 ```
 
 ---
@@ -268,7 +268,7 @@ you see the readings in the console direct after the ESP is flashed.
 
 Ones the ESP is online it automatically registers itself by Home Assistant if you installed ESPHome.
 
-You will see a new device with three entities, Co2, temperature and humidity.
+You will see a new device with three entities, CO2 , temperature and humidity.
 
 <img src="images_scd40/ha_esphome_entities.png" alt="New ESPHome device" width="250px">
 
@@ -289,7 +289,7 @@ Now the data is available in Home Assistant we can create dashboard elements to 
 
 ### Dashboard Gauge
 
-In a Gauge, you can directly see if the current co2 value is correct.
+In a Gauge, you can directly see if the current CO2 value is correct.
 I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction).
 
 <img src="images_co2/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
@@ -305,13 +305,13 @@ severity:
 entity: sensor.scd40_co2_value
 min: 350
 max: 1500
-name: Room Co2 sensor
+name: Room CO2 sensor
 ```
 ### Dashboard Graphic
 
 To show the history of the last 6 hours, you can use the history-graph-card (or a line-card for a rawer version).
 
-<img src="images_co2/home_assistant_co2_history_graph_base.png" alt="Co2 value for the last 6 hours" width="500px"/>
+<img src="images_co2/home_assistant_co2_history_graph_base.png" alt="CO2 value for the last 6 hours" width="500px"/>
 
 The corresponding dashboard yaml code.
 ```yaml
@@ -369,7 +369,7 @@ sensor:
 
 ### Dashboard condition text
 
-<img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional Co2 text" width="500px" />
+<img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional CO2 text" width="500px" />
 
 This creates a new sensor that shows a textual presentation of the current condition.
 
@@ -395,7 +395,7 @@ This creates a new sensor that shows a textual presentation of the current condi
 ### Dashboard bad condition text
 
 In my dashboard, I have a section with important messages. Only when there is an action required, you see that here.
-There is also a message when the Co2 value is not good. This section can be achieved by using conditional entities.
+There is also a message when the CO2 value is not good. This section can be achieved by using conditional entities.
 
 ```yaml
 {% raw %}

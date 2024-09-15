@@ -191,7 +191,7 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 * Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + chair occupancy)
 * On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/smart_home_best_buy_tips#lights))
 * Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
-* Notification to open a window if the Co2 value is too high. ([Co2 sensor](../esphome/co2_senseair_s8_sensor))
+* Notification to open a window if the CO2 value is too high. ([CO2 sensor](../esphome/co2_senseair_s8_sensor))
 * Airco on when it's too hot in- and outside. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 
 ---

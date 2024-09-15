@@ -28,7 +28,7 @@ Install it via this button
     * [Title card](#title-card)
       * [Welcome text and weather forecast for today](#welcome-text-and-weather-forecast-for-today)
     * [Chips card](#chips-card)
-      * [Co2 colored icon indicator based on a number](#co2-colored-icon-indicator-based-on-a-number)
+      * [CO2 colored icon indicator based on a number](#co2-colored-icon-indicator-based-on-a-number)
       * [Weather alarm state colored icon indicator based on a value](#weather-alarm-state-colored-icon-indicator-based-on-a-value)
       * [Nice weather (only an icon)](#nice-weather-only-an-icon)
       * [Outside temperature (custom icon)](#outside-temperature-custom-icon)
@@ -82,7 +82,7 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 Chips cards are small icon which indicate a status.\
 In my example I only show them, with a condition, when they are relative. 
 
-#### Co2 colored icon indicator based on a number
+#### CO2 colored icon indicator based on a number
 
 <img src="images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px">
  Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.

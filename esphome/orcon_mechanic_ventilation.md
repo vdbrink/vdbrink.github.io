@@ -911,7 +911,7 @@ cards:
 
 The system can automatically be controlled by different type of sensors and actuators:
 - The original 15RF remote.
-- A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 Co2 sensor](co2_senseair_s8_sensor).
+- A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 CO2 sensor](co2_senseair_s8_sensor).
 - A temperature and humidity sensor (Aqara WSDCGQ11LM) in the extractor hood above the stove.
 - A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
@@ -1025,7 +1025,7 @@ This info helped me to eventually realize my implementation.
 My other ESPHome projects:
 
 * [Motion and Presence sensor based on the RCWL-0516 sensor](microwave_radar_sensor_rcwl-0516)
-* [Co2 sensor based on a SCD40 sensor](co2_scd40)
-* [Co2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
+* [CO2 sensor based on a SCD40 sensor](co2_scd40)
+* [CO2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
 
 [ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy)

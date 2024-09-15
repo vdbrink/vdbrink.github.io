@@ -27,7 +27,7 @@ My latest bigger updates on this blog:
 * [ESPHome - DIY motion and presence sensor](esphome/microwave_radar_sensor_rcwl-0516) 
 * [Node-RED - Send notifications to Home Assistant app](node-red/node-red_home-assistant_notifications)
 * [Home Automation - Inspiration videos](ideas/home_automation_videos)
-* [ESPHome - DIY Co2 sensor](esphome/co2_scd40)
+* [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
 * [Zigbee Smart home - Best Buy Tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Home Automation - Ideas](ideas/home_automation_ideas)

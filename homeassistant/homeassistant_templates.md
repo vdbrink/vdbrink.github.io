@@ -15,7 +15,7 @@ image: /homeassistant/images_templates/ha_templates_banner.png
 Here you find some Home Assistant template examples.\
 With these templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
 This new sensor can have a textual output or a boolean value true/false.
-<br><br>
+<br>
 
 ---
 ### Table of Contents
@@ -41,7 +41,7 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Is it night](#is-it-night)
     * [Expected rain amount](#expected-rain-amount)
     * [Rain intensity](#rain-intensity)
-    * [Co2 threshold values](#co2-threshold-values)
+    * [CO2 threshold values](#co2-threshold-values)
     * [Overlay based on lux](#overlay-based-on-lux)
     * [Moon image based on state](#moon-image-based-on-state)
     * [DIY Sink leak status](#diy-sink-leak-status)
@@ -518,7 +518,7 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
 ```
 
 ---
-### Co2 threshold values
+### CO2 threshold values
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
 

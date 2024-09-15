@@ -9,7 +9,7 @@ image: /homeassistant/images/home_assistant_logo.png
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard custom elements which are default not available in Home Assistant, but which you can add to your dashboard.
-<br/><br/><br/>
+<br/><br/>
 
 ---
 

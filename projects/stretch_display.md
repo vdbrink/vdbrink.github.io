@@ -15,8 +15,8 @@ image: /projects/images_stretch_display/office_display_next2monitor.jpg
 <a href="index"><img src="images_stretch_display/basic_weather_station.jpg" style="float: right;margin-left:15px" alt="Old weather station" height="150px"></a>
 I had for years a basic weather station with a radio receiver to see the in- and outside weather data (temperature, humidity and pressure). Now with Home Assistant, and my local weather station, I have so much more weather data available that I want to replace my old weather station display for something new, based on the data in Home assistant.
 
-I was also looking for a small display to show the actual Co2 and temperature data in my home office.
-I found out when the Co2 was too high and/or the temperature is above 23 degrees, the concentration drops.
+I was also looking for a small display to show the actual CO2 and temperature data in my home office.
+I found out when the CO2 was too high and/or the temperature is above 23 degrees, the concentration drops.
 
 > This page is still under construction, I fill in all chapters one by one how I set it up. So you can create exactly the same, or use it as a reference for your own display project.
 
@@ -168,7 +168,7 @@ Optional USB keyboard to install the Raspberry. Once installed, it can be contro
 
 ---
 
-### Co2 sensor
+### CO2 sensor
 
 <a href="../buy/smart_home_best_buy_tips#smart-socket"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px"/></a>
 

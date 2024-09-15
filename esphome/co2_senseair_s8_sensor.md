@@ -1,20 +1,20 @@
 ---
-title: ESPHome SenseAir S8 Co2 sensor
-description: "Create your own ESPHome Co2 sensor based on the SenseAir S8 sensor for Home Assistant"
+title: ESPHome SenseAir S8 CO2 sensor
+description: "Create your own ESPHome CO2 sensor based on the SenseAir S8 sensor for Home Assistant"
 date: 2024-06-24
 category: ESPHome
-tags: [Co2, ESP8266, ESPHome, Home Assistant, air quality, senseAir,health]
+tags: [CO2 , ESP8266, ESPHome, Home Assistant, air quality, senseAir,health]
 image: /esphome/images_co2/case_fit_co2_sensor.jpg
 ---
 
-# ESPHome Co2 sensor
+# ESPHome CO2 sensor
 *Based on the SenseAir S8 sensor*
 
 ## Introduction
 
 <img src="images_co2/senseair_s8.jpg" alt="Zigbee" height="150px" style="margin-left:15px;float:right"/>
 
-There are not so many affordable out-of-the-box Co2 sensors available, but it's easy to create one yourself.
+There are not so many affordable out-of-the-box CO2 sensors available, but it's easy to create one yourself.
 With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
 
 If your in a space with a too high ppm level, you can feel tired, your start yawning, 
@@ -23,7 +23,7 @@ Without knowing, this happens because it goes very gradually.
 To prevent this, use your smart home automations and take action if the levels are too high.\
 This keeps you and your family healthy!
 
-Co2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
+CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
 The average value outside is around 400 ppm, which is a base value.
 That's also why you need to open a window when the value is too high, get some fresh air from outside.
@@ -38,7 +38,7 @@ That's also why you need to open a window when the value is too high, get some f
 ## My final result
 
 A small box with a tail.  
-Inside a Co2 sensor and an ESP mini.
+Inside a CO2 sensor and an ESP mini.
 
 ![final box](images_co2/holes_in_case.jpg)
 
@@ -72,10 +72,10 @@ Affiliate links are used here. Same price, but you also sponsor this blog.
 
 These hardware components did I use for this project:
 
-* [SenseAir S8 Co2 sensor](../buy/esphome_diy#senseair-s8)
+* [SenseAir S8 CO2 sensor](../buy/esphome_diy#senseair-s8)
   * [Manufacture product page](https://senseair.com/product/s8/)  
 
-<img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 Co2 sensor" />
+<img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
 * [ESP 12S Wemos D1 mini (no pro or V3)](../buy/esphome_diy#esp-d1-mini)
   * You can use any ESP chip, but I like this one because of its small size
@@ -159,7 +159,7 @@ If you place the sensor on top of the ESP mini, it fits perfect in the DIY box.
 You need to drill a hole in the edge of the box so the USB power cable can go through it.
 ![perfect fit in case](images_co2/case_fit_co2_sensor.jpg)
 
-I drilled some holes in the case. Now the air can reach the Co2 sensor inside the box.
+I drilled some holes in the case. Now the air can reach the CO2 sensor inside the box.
 
 ![holes in case](images_co2/holes_in_case.jpg)
 
@@ -183,7 +183,7 @@ The script:
 # Sourcecode by vdbrink.github.io
 esphome:
   name: esp_co2
-  comment: Room Co2 sensor
+  comment: Room CO2 sensor
   platform: ESP8266
   board: d1_mini
   arduino_version: latest
@@ -208,7 +208,7 @@ sensor:
   - platform: senseair
     co2:
       id: senseair_co2
-      name: "SenseAir Co2 Value"
+      name: "SenseAir CO2 Value"
     update_interval: 30s
 ```
 
@@ -220,7 +220,7 @@ Ones the sensor pushes the data, you can use and present the data on your dashbo
 
 ### Dashboard Gauge
 
-In a Gauge, you can directly see if the current co2 value is correct.
+In a Gauge, you can directly see if the current CO2 value is correct.
 I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction). 
 
 <img src="images_co2/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
@@ -236,7 +236,7 @@ severity:
 entity: sensor.senseair_co2_value
 min: 350
 max: 1500
-name: Room Co2 sensor
+name: Room CO2 sensor
 ```
 
 ### Dashboard Line Graphic
@@ -251,7 +251,7 @@ To show the history of the last X hours, you can use the card.
 type: sensor
 graph: line
 entity: sensor.senseair_co2_value
-name: Room Co2 sensor
+name: Room CO2 sensor
 hours_to_show: 6
 ```
 
@@ -301,7 +301,7 @@ This is how you create three custom lines in the graph to see the threshold valu
 
 ### Dashboard condition text
 
-<img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional Co2 text" width="500px" />
+<img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional CO2 text" width="500px" />
 
 This creates a new sensor that shows a textual presentation of the current condition.
 
@@ -313,7 +313,7 @@ This creates a new sensor that shows a textual presentation of the current condi
   sensors:
     senseair_co2_value_text:
         icon_template: "mdi:molecule-co2"
-        friendly_name: "Room Co2"
+        friendly_name: "Room CO2 "
         value_template: >-
           {% set state = states('sensor.senseair_co2_value') | int %}
           {% if state < 800 %}good
@@ -325,7 +325,7 @@ This creates a new sensor that shows a textual presentation of the current condi
 ```
 
 In my dashboard, I have a section with important messages. Only when there is an action required, you see that here.
-There is also a message when the Co2 value is not good. This section can be achieved by using conditional entities. 
+There is also a message when the CO2 value is not good. This section can be achieved by using conditional entities. 
 
 ```yaml
 {% raw %}
