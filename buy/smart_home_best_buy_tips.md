@@ -364,7 +364,8 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 <a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">
 <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" style="margin-left:15px;float:right"/></a>
 
-This actuator can toggle the power state of each USB port individual.
+This actuator can toggle the power state of each USB port individual.\
+The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
 <br><br><br><br>
