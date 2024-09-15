@@ -15,27 +15,27 @@ Here you find Home Assistant (lovelace) dashboard custom elements which are defa
 
 ## Table of Contents
 <!-- TOC -->
-  * [Atomic Calendar Revive](#atomic-calendar-revive)
-  * [auto-entities](#auto-entities)
-  * [card-mod 3 (lovelace-card-mod)](#card-mod-3-lovelace-card-mod)
-  * [slider-entity-row](#slider-entity-row)
-  * [Lovelace animated weather card](#lovelace-animated-weather-card)
-  * [multiple-entity-row](#multiple-entity-row)
-  * [Neerslag App](#neerslag-app)
-  * [Swipe Navigation](#swipe-navigation)
-  * [template-entity-row](#template-entity-row)
+* [Swipe Navigation](#swipe-navigation)
+* [auto-entities](#auto-entities)
+* [card-mod 3 (lovelace-card-mod)](#card-mod-3-lovelace-card-mod)
+* [slider-entity-row](#slider-entity-row)
+* [multiple-entity-row](#multiple-entity-row)
+* [template-entity-row](#template-entity-row)
+* [Atomic Calendar Revive](#atomic-calendar-revive)
+* [Lovelace animated weather card](#lovelace-animated-weather-card)
+* [Neerslag App](#neerslag-app)
 <!-- TOC -->
 
 ---
-## Atomic Calendar Revive
-A Google calendar overview.
 
-<img src="images_hacs/hacs_atomic-calendar-revive.png" alt="Atomic Calendar Revive" width="400px">
+## Swipe Navigation
 
-Repo: https://github.com/totaldebug/atomic-calendar-revive#about-the-project
+Swipe to left/right to switch to the side lovelace dashboard on your mobile device.
+
+Repo: https://github.com/zanna-37/hass-swipe-navigation
 
 Install it via this button
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
 
@@ -71,7 +71,6 @@ Repo: https://github.com/thomasloven/lovelace-card-mod
 Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
-
 ---
 
 ## slider-entity-row
@@ -96,19 +95,6 @@ toggle: true
 
 ---
 
-## Lovelace animated weather card
-
-Current weather and predictions for the coming days.
-
-![Lovelace animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
-
-Repo: https://github.com/bramkragten/weather-card
-
-Install it via this button
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
-
----
-
 ## multiple-entity-row
 
 Place multiple entities compact together on a single row.
@@ -122,33 +108,10 @@ Install it via this button
 
 ---
 
-## Neerslag App
-
-Show expected rain from the possible sources Buienalarm and Buienradar.
-
-![Neerslag App](https://github.com/aex351/home-assistant-neerslag-app/raw/main/documentation/example.png)
-
-Repo: https://github.com/aex351/home-assistant-neerslag-app
-
-Install it via this button
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
-
----
-
-## Swipe Navigation
-
-Swipe to left/right to switch to the side lovelace dashboard on your mobile device.
-
-Repo: https://github.com/zanna-37/hass-swipe-navigation
-
-Install it via this button
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
-
----
-
 ## template-entity-row
 
-Customize a single row for an entities.
+Customize a single row for an entities.\
+In this example, a rounded temperature with a colored, based on the temperature, icon.
 
 <img src="images_hacs/hacs_template-entity-row.png" alt="template-entity-row" width="400px">
 
@@ -156,7 +119,6 @@ Repo: https://github.com/thomasloven/lovelace-template-entity-row
 
 Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
-
 
 ```yaml
 {% raw %}
@@ -188,9 +150,75 @@ entities:
          {% else %} var(--primary-text-color)
          {% endif %} 
        }
-
 {% endraw %}
 ```
+
+---
+## Atomic Calendar Revive
+A Google calendar overview.
+
+<img src="images_hacs/hacs_atomic-calendar-revive.png" alt="Atomic Calendar Revive" width="400px">
+
+Repo: https://github.com/totaldebug/atomic-calendar-revive#about-the-project
+
+Install it via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
+
+---
+
+## Clock Weather Card
+
+A clock and weather forecast in one card.
+
+<img src="images_hacs/clock-weather-card.gif" alt="Clock Weather Card" width="400px">
+
+Repo: https://github.com/pkissling/clock-weather-card
+
+Install it via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
+
+You can also minimize the card to only show the weather forecast.
+<img src="images_hacs/my_clock_weather_card.png" alt="My Clock Weather Card" width="400px">
+    
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: custom:clock-weather-card
+  entity: weather.forecast_home
+  forecast_days: 5
+  locale: nl
+  time_format: 24
+  hide_clock: true
+  date_pattern: ''
+  hide_today_section: true
+  hide_forecast_section: false
+{% endraw %}
+```
+---
+
+## Lovelace animated weather card
+
+Current weather and predictions for the coming days.
+
+![Lovelace animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
+
+Repo: https://github.com/bramkragten/weather-card
+
+Install it via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
+
+## Neerslag App
+
+Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
+
+![Neerslag App](https://github.com/aex351/home-assistant-neerslag-app/raw/main/documentation/example.png)
+
+Repo: https://github.com/aex351/home-assistant-neerslag-app
+
+Install it via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
+
 
 ---
 [^^ Top](#table-of-contents)
