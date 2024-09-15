@@ -41,10 +41,12 @@ This table shows for which value, which action is required.
 <br>
 
 In Home Assistant, you can visualize how the CO2 value changed over time.
+And with an automation, you can get notified when the value is too high. 
+Use a notification to get a message on your phone or a smart speaker.
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
-Read along how you create this graph yourself.
+Read along how you create this graph yourself...
 
 ---
 
