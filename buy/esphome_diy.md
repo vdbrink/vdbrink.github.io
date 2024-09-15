@@ -165,7 +165,7 @@ This car seat sensor measures if there is pressure on a chair or seat. The outpu
 <a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link (AliExpress)</a>
 
 ### Weight sensor
 
@@ -174,7 +174,7 @@ The HX711 Module comes with four pressure sensors which you can place under your
 <a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">
 <img src="images_diy/weight_sensors.webp" height="180px" alt="weight sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link (AliExpress)</a>
 
 ### Rain gauge sensor
 
@@ -183,7 +183,7 @@ Can be used, together with a contact sensor, to create your own rain gauge senso
 <a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link (AliExpress)</a>
 
 ### Waterproof temperature sensor
 
@@ -192,7 +192,7 @@ The DS18B20 sensor is one to measure temperature in wet areas like an aquarium f
 <a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">
 <img src="images_diy/ds18b20.webp" height="180px" alt="ds18b20 waterproof temperature sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">link (AliExpress)</a>
 
 ---
 
@@ -212,7 +212,7 @@ The RCWL-0516 presence sensor (a.k.a. micrometer sensor)
 <a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">
 <img src="../esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link (AliExpress)</a>
 
 ---
 
@@ -224,7 +224,7 @@ USB-A to micro USB cable to power the ESP8266.
 
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 <img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
-{{imgBasket}}Micro USB cable</a>
+{{imgBasket}}Micro USB cable (AliExpress)</a>
 
 ### USB-C power cable
 
@@ -232,7 +232,7 @@ USB-A to USB-C cable to power the ESP32.
 
 <a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
-{{imgBasket}}USB-C cable</a>
+{{imgBasket}}USB-C cable (AliExpress)</a>
 
 ---
 
@@ -245,16 +245,16 @@ USB-A to USB-C cable to power the ESP32.
 <a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
 
 5V USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 
 <a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link 2</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link (AliExpress)</a>
 
 ### Christmas light adapter
 
@@ -263,7 +263,7 @@ A 2 pins adapter without a button to select a mode, just on, for Christmas light
 <a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
 <img src="../projects/images_christmas_decorations/christmas_light_adapter.webp" alt="christmas light adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link (AliExpress)</a>
 
 ---
 
@@ -274,7 +274,7 @@ Active USB hub to power multiple USB devices.
 <a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">
 <img src="images_diy/usbhub.webp" alt="active powered USB hub" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">link (AliExpress)</a>
 
 ---
 
@@ -301,7 +301,7 @@ Only required if they are not already provided.
 <a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">
 <img src="images_diy/pinhead_female.webp" height="180px" alt="pin heads female" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">link (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">
 <img src="images_diy/pinhead_male.webp" height="180px" alt="pin heads male" /></a>
@@ -317,7 +317,7 @@ Plastic DIY Case to fix the esp board and sensor in.
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
 <img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link: a lot of boxes with all kinds of sizes (AliExpress)</a>
 
 ---
 
@@ -336,7 +336,7 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">
 <img src="../esphome/images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering tin wire (AliExpress)</a>
 
 ### Desoldering
 
@@ -344,7 +344,7 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 <img src="../esphome/images/desoldering.webp" alt="Desoldering" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBED3xN" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBED3xN" target="_blank">Desoldering (AliExpress)</a>
 
 ### Breadboard
 
@@ -354,7 +354,7 @@ A breadboard with dupont cables and power connector to test your setup first.
 <img src="../esphome/images/breadboard.webp" alt="breadboard" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkm9H7l" target="_blank">Breadboard (AliExpress)</a>
 
 
 ### Helping hand
@@ -365,7 +365,7 @@ This helping hand can be used to hold the ESP board and sensor while soldering.
 <img src="images_diy/helping_hand.avif" alt="helping hand" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ev4uoq9" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ev4uoq9" target="_blank">Helping hand (AliExpress)</a>
 
 ---
 
@@ -376,7 +376,7 @@ This receiver can be used to receive or snif signals send by device which uses t
 <a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">
 <img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link (AliExpress)</a>
 
 ---
 
@@ -388,7 +388,7 @@ With this cable, you can read your smart meter to read the gas and energy consum
 <img src="images_diy/p1_cable.webp" alt="P1 smart meter cable" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link (AliExpress)</a>
 
 ---
 

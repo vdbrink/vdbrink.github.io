@@ -416,7 +416,7 @@ This CR2032 is the most commonly used battery. It's small, but still has enough 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">CR2032 - Panasonic (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DncQAcL" target="_blank">CR2032 - Sony (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzKymsH" target="_blank">CR2032 - Sony (AliExpress)</a>
 
 #### CR2032 rechargeable = LIR2032
 
@@ -467,7 +467,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">CR2450 - Panasonic (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DevdMzz" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Eu4Gfup" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DntctnV" target="_blank">Rechargeable LIR2450 + charger (AliExpress)</a>
 
@@ -514,7 +514,7 @@ USB-A to USB-C cable to power the ESP.
 
 ### USB-A extension cable
 
-<a href="https://s.click.aliexpress.com/e/_mstQlFs" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_EHGVJIH" target="_blank">
 <img src="images_zigbee/usb_a_extension_cable.webp" height="150px" alt="battery eliminator" /><br>
 {{imgBasket}}USB A Extension Cable Male to Female (AliExpress)</a>
 
