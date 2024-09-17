@@ -355,14 +355,14 @@ template:
         unique_id: paper_waste_pickup_countdown
         icon: mdi:delete-empty
         state: >
-          {% set pickup_date = state_attr('sensor.cyclus_papier','sort_date') | as_datetime %}
+          {% set pickup_date = strptime(state_attr('sensor.cyclus_papier','sort_date'), '%Y%m%d') %}
           {{ (pickup_date.date() - now().date()).days }}
         unit_of_measurement: days
-        availability: "{{ state_attr('sensor.cyclus_papier','sort_date') | as_datetime(default=none) is not none }}"
+        availability: "{{ strptime(state_attr('sensor.cyclus_papier','sort_date', none), '%Y%m%d') is not none }}"
 {% endraw %}
 ```
 
-The sensor `sensor.cyclus_papier` has an attribute `sort_date` which holds the date for the bin pickup day in the format "YYYY-MM-DD".\
+The sensor `sensor.cyclus_papier` has an attribute `sort_date` which holds the date for the bin pickup day in the format "YYYYMMDD".\
 Based on today's date the diff in days is calculated.\
 (The sensor value is not always accurate, that's why I use the attribute value.)
 
@@ -379,17 +379,15 @@ Minutes since the snail mail is delivered.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    mail_delivered_minutes_ago:
-      friendly_name: "mail delivered"
-      icon_template: mdi:mailbox
-      value_template: >-
-        {% set now_timestamp = as_timestamp(now()) %}
-        {% set mailbox_timestamp = as_timestamp(states.binary_sensor.contact2_contact.last_changed) %}
-        {% set minutes = ((now_timestamp - mailbox_timestamp) / 60) | round(0, 'ceil')  %}
-        {{ minutes }}
-      unit_of_measurement: "minutes"
+template:
+  - sensor:
+      - name: Mail Delivered
+        unique_id: sensor_mail_delivered
+        state: >
+          {% set mailbox_datetime = states.binary_sensor.contact2_contact.last_changed %}
+          {{ (now() - mailbox_datetime).total_seconds() // 60  }}
+        icon: mdi:mailbox
+        unit_of_measurement: minutes
 {% endraw %}
 ```
 
