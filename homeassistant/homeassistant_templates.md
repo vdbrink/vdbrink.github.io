@@ -205,7 +205,7 @@ This sensor introduces an `availability` template, which will ensure the templat
 # configuration.yaml
 template:
   - sensor:
-      - name: "temperature diff office and outside"
+      - name: "Temperature diff office and outside"
         unique_id: template_diff_office_and_outside
         icon: mdi:thermometer
         unit_of_measurement: "°C"
@@ -304,7 +304,7 @@ One minute after the last trigger the state goes back to `off`.
 # configuration.yaml
 template:
   - binary_sensor:
-      - name: Activity downstairs
+      - name: "Activity downstairs"
         unique_id: activity_downstairs_sensor
         state: >
          {{ is_state("binary_sensor.motion1_occupancy", "on")
@@ -330,7 +330,7 @@ With this template, it translates the day to a non-English language (like here t
 # configuration.yaml
 template:
   - sensor:
-      - name: Day of week
+      - name: "Day of week"
         unique_id: day_of_week_sensor
         icon: mdi:calendar
         state: >
@@ -351,7 +351,7 @@ Count the days before the paper bin will be picked up.
 # configuration.yaml
 template:
   - sensor:
-      - name: Paper Waste Pickup Countdown
+      - name: "Paper Waste Pickup Countdown"
         unique_id: paper_waste_pickup_countdown
         icon: mdi:delete-empty
         state: >
@@ -381,7 +381,7 @@ Minutes since the snail mail is delivered.
 # configuration.yaml
 template:
   - sensor:
-      - name: Mail Delivered
+      - name: "Mail Delivered"
         unique_id: sensor_mail_delivered
         state: >
           {% set mailbox_datetime = states.binary_sensor.contact2_contact.last_changed %}
@@ -402,15 +402,22 @@ Based on the outside temperature defined what to wear when you go outside.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    what_to_wear_outside:
-      friendly_name: "wear outside"
-      value_template: >-
-        {% if states.sensor.tempest_temperature_feels_like_rounded.state|int <= 5 %} winter jacket and hand gloves
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 14 %} softshell
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 18 %} thin jacket
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int > 18 %} T-shirt{% endif %}
+template:
+  - name: "Wear outside"
+    unique_id: sensor_wear_outside
+    icon: mdi:tshirt-crew
+    state: >-
+      {% set temp  = states('sensor.tempest_temperature_feels_like_rounded') | float %}
+      {% if temp <= 5 %}
+        winter jacket and hand gloves
+      {% elif temp <= 14 %}
+        softshell
+      {% elif temp <= 18 %}
+        thin jacket
+      {% else %}
+        T-shirt
+      {% endif %}
+    availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}
 {% endraw %}
 ```
 This is the code for the mushroom card, as shown on the image, based on this template.
@@ -435,25 +442,26 @@ Which can be used to control the lights, the window blinds or on a floor map as 
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    sunlight_pct:
-      value_template: >-
-        {%- set elevation = state_attr('sun.sun','elevation') | float %}
-        {%- set cloud_coverage = states('sensor.dark_sky_cloud_coverage') | float %}
-        {%- set cloud_factor = (1 - (0.75 * ( cloud_coverage / 100) ** 3 )) %}
-        {%- set min_elevation = -6 %}
-        {%- set max_elevation = 90 %}
-        {%- set adjusted_elevation = elevation - min_elevation %}
-        {%- set adjusted_elevation = [adjusted_elevation,0] | max %}
-        {%- set adjusted_elevation = [adjusted_elevation,max_elevation - min_elevation] | min %}
-        {%- set adjusted_elevation = adjusted_elevation / (max_elevation - min_elevation) %}
-        {%- set adjusted_elevation = adjusted_elevation %}
-        {%- set adjusted_elevation = adjusted_elevation * 100 %}
-        {%- set brightness = adjusted_elevation * cloud_factor %}
-        {{ brightness | round }}
-      unit_of_measurement: '%'
-      device_class: 'illuminance'
+template:
+  - sensor:
+      - name: "Sunlight pct"
+        unique_id: sunlight_pct_sensor
+        state: >
+          {%- set elevation = state_attr('sun.sun','elevation') | float %}
+          {%- set cloud_coverage = states('sensor.dark_sky_cloud_coverage') | float %}
+          {%- set cloud_factor = (1 - (0.75 * ( cloud_coverage / 100) ** 3 )) %}
+          {%- set min_elevation = -6 %}
+          {%- set max_elevation = 90 %}
+          {%- set adjusted_elevation = elevation - min_elevation %}
+          {%- set adjusted_elevation = [adjusted_elevation,0] | max %}
+          {%- set adjusted_elevation = [adjusted_elevation,max_elevation - min_elevation] | min %}
+          {%- set adjusted_elevation = adjusted_elevation / (max_elevation - min_elevation) %}
+          {%- set adjusted_elevation = adjusted_elevation %}
+          {%- set adjusted_elevation = adjusted_elevation * 100 %}
+          {%- set brightness = adjusted_elevation * cloud_factor %}
+          {{ brightness | round }}
+        unit_of_measurement: '%'
+        device_class: 'illuminance'
 {% endraw %}
 ```
 
@@ -466,30 +474,31 @@ Daylight brightness, from the previous template, converted to opacity for CSS to
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    sunlight_opacity:
-      value_template: >-
-        {%- set sunpct = states('sensor.sunlight_pct') | float %}
-        {%- set opacity = sunpct / 100 | float %}
-        {{ opacity }}
+template:
+  - sensor:
+      - name: "Sunlight Opacity"
+        unique_id: sensor_sunlight_opacity
+        state: > 
+          {%- set sunpct = states('sensor.sunlight_pct') | float %}
+          {{ sunpct / 100 | float }}
  {% endraw %}
 ```
 
 ---
 ### Is it night
 
-Boolean state if it is night.
+Boolean state if it is night. Will be `on` when it's night, otherwise it will be `off`.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    night_state:
-      friendly_name: night state
-      value_template: "{% if is_state('sun.sun', 'below_horizon') %}1{% else %}0{% endif %}"
+template:
+  - binary_sensor:
+      - name: "Night State"
+        unique_id: binary_sensor_night_state
+        state: "{{ is_state('sun.sun', 'below_horizon') }}"
+        icon: "{{ 'mdi:weather-night' if is_state('sun.sun', 'below_horizon') else 'mdi:weather-sunny' }}" 
 {% endraw %}
 ```
 
@@ -504,18 +513,14 @@ Expected rain amount for the coming hours based on the Dutch Buienradar data.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    buienalarm_rain_expected:
-      friendly_name: "rain expected"
-      value_template: >-
-        {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% set total_precip = 0 %}
-        {% for value in rain %}
-            {% set total_precip = total_precip +(value | int) %}
-        {% endfor %}
-        {{ total_precip }}
-      unit_of_measurement: 'mm'
+template:
+  - sensor:
+      - name: "Rain Expected"
+        unique_id: sensor_expected_rain
+        state: >
+          {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
+          {{ rain | sum | round }}
+        unit_of_measurement: 'mm'
 {% endraw %}
 ```
 
@@ -530,25 +535,24 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    buienalarm_rain_level:
-      friendly_name: "rain intensity"
-      icon_template: mdi:weather-pouring
-      value_template: >-
-        {% set threshold_licht = '0.4' | float %}
-        {% set threshold_matig = '2.0' | float %}
-        {% set threshold_zwaar = '5.0' | float %}
-        {% for regen in state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% if regen | float >= threshold_licht %}
-          {{ 'light rain' }}
-        {% elif regen | float >= threshold_matig %}
-          {{ 'medium rain' }}
-        {% elif regen | float >= threshold_zwaar %}
-          {{ 'heavy rain' }}
-        {% endif %}
-          {{ 'no rain' }}
-        {% endfor %}
+template:
+  - sensor:
+      - name: Buienalarm Rain Level
+        icon: mdi:weather-pouring
+        state: >-
+          {% set threshold_light = '0.4' | float %}
+          {% set threshold_medium = '2.0' | float %}
+          {% set threshold_heavy = '5.0' | float %}
+          {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip[0] %}
+          {% if rain >= threshold_light %}
+            light rain
+          {% elif rain >= threshold_medium %}
+            medium rain
+          {% elif rain >= threshold_heavy %}
+            heavy rain
+          {% else %}
+            no rain
+          {% endif %}
 {% endraw %}
 ```
 
@@ -556,6 +560,7 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
 ### CO2 threshold values
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
+As the entity_id is based on the `name` field, this template sensor uses a trick to give it the right name to base the entity_id on when the entity is created. After that the name will indicate the threshold name.
 
 <img src="images_templates/base_values_sensors.jpg" alt="C02 base values" width="450px" />
 
@@ -563,20 +568,20 @@ Create three static value sensors with the threshold values: 800, 1200 and 1500.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    co2_value_800:
-      friendly_name: "good"
-      value_template: 800
-      unit_of_measurement: 'ppm'
-    co2_value_1200:
-      friendly_name: "medium"
-      value_template: 1200
-      unit_of_measurement: 'ppm'
-    co2_value_1500:
-      friendly_name: "bad"
-      value_template: 1500
-      unit_of_measurement: 'ppm'
+template:
+  - sensor:
+      - name: "{{ 'CO2 value 800' if this.state == 'unknown' else 'Good' }}"
+        unique_id: sensor_co2_value_800
+        state: 800
+        unit_of_measurement: "ppm"
+      - name: "{{ 'CO2 value 1200' if this.state == 'unknown' else 'Good' }}"
+        unique_id: sensor_co2_value_1200
+        state: 1200
+        unit_of_measurement: "ppm"
+      - name: "{{ 'CO2 value 1500' if this.state == 'unknown' else 'Good' }}"
+        unique_id: sensor_co2_value_1500
+        state: 1500
+        unit_of_measurement: "ppm"
 {% endraw %}
 ```
 
@@ -590,21 +595,18 @@ It's important to set here also the right unit of measurement.
 
 ### Overlay based on lux
 
-When you have a floor plan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
+When you have a floor plan and want to show a dark overlay when the lux is low, you can create a new binary sensor based on the lux value.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-    overlay:
-      friendly_name: "overlay"
-      value_template: >-
-        {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
-           on
-        {% else %}
-           off
-        {% endif %}
+template:
+  - binary_sensor:
+      - name: "Overlay"
+        unique_id: sensor_overlay
+        state: "{{ states('sensor.motion_illuminance_lux') | float > 5 }}"
+        availability: "{{ 'sensor.motion_illuminance_lux' | has_value }}"
 {% endraw %}
 ```
 
@@ -623,12 +625,12 @@ With an image corresponding to each phase, you can show the moon phase as an ima
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
 # the template for the moon phase pictures using the original moon component
-- platform: template
-  sensors:
-    moon_phases:
-      friendly_name: 'moonphase'
-      value_template: '{{ states.sensor.moon.state }}'
-      entity_picture_template: /local/moon_phases/{{ states.sensor.moon.state }}.png
+template:
+  - sensor:
+      - name: "Moon phase"
+        unique_id: sensor_moon_phase
+        state: "{{ states('sensor.moon') }}"
+        entity_picture: /local/moon_phases/{{ this.state }}.png
 {% endraw %}
 ```
 
@@ -645,13 +647,13 @@ This attribute is now used to create a boolean value.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    sink_leak:
-      friendly_name: "leak sink"
-      icon_template: mdi:water
-      value_template: >-
-        {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
+template:
+  - sensor:
+      - name: "Leak Sink"
+        unique_id: sensor_leak_sink
+        icon: mdi:water
+        state: >
+          {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
 {% endraw %}
 ```
 
@@ -670,17 +672,13 @@ That's what happened here.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    chair:
-      friendly_name: "chair"
-      icon_template: mdi:chair-rolling
-      value_template: >-
-        {% if is_state('binary_sensor.contact1_contact', 'off') %}
-           on
-        {% else %}
-           off
-        {% endif %}
+template:
+  - binary_sensor:
+      - name: "Chair"
+        unique_id: binary_sensor_chair
+        state: >
+          {{ is_state('binary_sensor.contact1_contact', 'off') }}
+        device_class: presence
 {% endraw %}
 ```
 
