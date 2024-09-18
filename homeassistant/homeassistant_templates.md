@@ -64,8 +64,9 @@ There are two ways to add a template to your Home Assistant:
 #### Via configuration.yaml
 
 One way to add a new template is by adding the code to the `configuration.yaml` file.
-In 2022 the configuration for template entities changed. Where previously the configuration was placedc under the `sensor:` or `binary_sensor:` section a new `template` section was introduced.
-Using the moder template format has a couple of advantages, you can use a `trigger` and `action` (like in automations) which gives more control over when the entity should be updated, and it allows to set a `state_class` so the state of the entity will also be stored in Long Term Statistics. It also allows to create `button`, `image`, `number` and `select` entities which is not possible using the legacy platform.
+In 2022 the configuration for template entities changed. Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section a new `template` section was introduced.
+Using the modern template format has a couple of advantages. 
+You can use a `trigger` and `action` (like in automations) which gives more control over when the entity should be updated, and it allows to set a `state_class` so the state of the entity will also be stored in Long Term Statistics. It also allows to create `button`, `image`, `number` and `select` entities which is not possible using the legacy platform.
 
 For more information also see the [Home Assistant documentation](<https://www.home-assistant.io/integrations/template/>). The legacy format is still documented all the way at the bottom.
 
@@ -88,7 +89,7 @@ In this example a (binary) template is created to check if the current month is 
 
 <img src="images_templates/create_helper_template.gif" alt="" width="450px">
 
-The template helpers are more user friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and workting with triggers. It also doesn't have the option to provide a template for `availablity` of the entity.
+The template helpers are more user friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers. It also doesn't have the option to provide a template for `availablity` of the entity.
 
 ---
 
@@ -126,7 +127,9 @@ ChatGPT is really useful and fast with helping you to create a new template and 
 ## Template examples
 
 Here are all kinds of different template examples.
-Note that every entity has a `unique_id`. This does not define the entity_id, the entity_id is defined by the name (so `name: "Lights On"` will generate `sensor.lights_on`). By providing a `unique_id` you will be able to change `name`, `icon`, `entity_id` and based on the type of entity also the `device_class` in the GUI. I also ensures you don't get suffixes like `_2` after changing your configuration and reloading the template entities.
+Note that every entity has a `unique_id`. This does not define the entity_id, the entity_id is defined by the name (so `name: "Lights On"` will generate `sensor.lights_on`). 
+By providing a `unique_id` you will be able to change `name`, `icon`, `entity_id` and based on the type of entity also the `device_class` in the frontend. 
+It also ensures you don't get suffixes like `_2` after changing your configuration and reloading the template entities.
 
 ### Is it a specific day in the year
 
@@ -171,7 +174,8 @@ template:
 ### Count the number of lights on
 
 Count the number of lights with the status `on`.
-By checking if the `entity_id` attribute exists on the light entites it will exlcude the light groups created in Home Assistant. Otherwise it would count both the group, and the members as light, which will give a higher number than expected.
+By checking if the `entity_id` attribute exists on the light entities it will exclude the light groups created in Home Assistant. 
+Otherwise, it would count both the group, and the members as light, which will give a higher number than expected.
 The icon is changed dynamically based on the state of the sensor itself, and self references the state using `this.state`. 
 
 <img src="images_templates/nr_lights_on.png" alt="Number of lights on" width="450px">
@@ -195,7 +199,8 @@ template:
 ### Calculate temperature differences
 
 Calculate the temperature difference between an inside room temperature and the outside temperature, and round by two decimals.
-This sensor introduces an `availability` template, which will ensure the template sensor will only be available when both source sensors are working properly. If not, the template sensor will show as unavailable.
+This sensor introduces an `availability` template, which will ensure the template sensor will only be available when both source sensors are working properly. 
+If not, the template sensor will show as unavailable.
 
 <img src="images_templates/temp_diff.png" alt="Temperature difference with outside" width="450px">
 
@@ -222,7 +227,7 @@ template:
 
 Get all devices by name that have the state unavailable in a sorted list. 
 As states are limited to 255 characters, the list is stored in an attribute, the state of the entity will be a count of the unavailable devices.
-The device is considered unavailable when ALL entities belonging to that device are unavailable, as it could happen that only one entity is unavailable for specific reasons.
+The device is considered unavailable when ALL entities belonging to that device are unavailable, as it could happen that only one entity is unavailable for specific reasons.\
 The icon is changed dynamically and will show the number of devices as well (9+ in case it's over 9).
 
 ```yaml
@@ -260,8 +265,10 @@ template:
 ### Low battery
 
 Get all devices by name that have the battery level with less than 10% in a sorted list.
-It is not possible to simply filter on the state, as all states in Home Assistant are a string, and if you compare the string `"6"` with the string `"10"` you get unwanted results (`"6" < "10"` returns `false`).
-Therefor it is needed to convert the strings to a number first. As we also still want to access the other properties, this requires a for-loop. To access the data created in the for loop outside the for loop, a namespace has to be used.
+It is not possible to simply filter on the state, as all states in Home Assistant are a string, and if you compare the string `"6"` with the string `"10"` you get unwanted results (`"6" < "10"` returns `false`).\
+Therefore, it is needed to convert the strings to a number first.\
+As we also still want to access the other properties, this requires a for-loop. 
+To access the data created in the for loop outside the for loop, a namespace has to be used.
 Just like in the previous example, the names are listed in an attribute, because otherwise the character limit of 255 characters for an entity state can become an issue.
 
 <img src="images_templates/low_battery_devices.png" alt="low battery devices" width="150px">
@@ -355,14 +362,14 @@ template:
         unique_id: paper_waste_pickup_countdown
         icon: mdi:delete-empty
         state: >
-          {% set pickup_date = strptime(state_attr('sensor.cyclus_papier','sort_date'), '%Y%m%d') %}
+          {% set pickup_date = strptime(state_attr('sensor.cyclus_papier','Sort_date'), '%Y%m%d') %}
           {{ (pickup_date.date() - now().date()).days }}
         unit_of_measurement: days
-        availability: "{{ strptime(state_attr('sensor.cyclus_papier','sort_date', none), '%Y%m%d') is not none }}"
+        availability: "{{ strptime(state_attr('sensor.cyclus_papier','Sort_date', none), '%Y%m%d') is not none }}"
 {% endraw %}
 ```
 
-The sensor `sensor.cyclus_papier` has an attribute `sort_date` which holds the date for the bin pickup day in the format "YYYYMMDD".\
+The sensor `sensor.cyclus_papier` has an attribute `Sort_date` which holds the date for the bin pickup day in the format "YYYYMMDD".\
 Based on today's date the diff in days is calculated.\
 (The sensor value is not always accurate, that's why I use the attribute value.)
 
@@ -407,7 +414,7 @@ template:
     unique_id: sensor_wear_outside
     icon: mdi:tshirt-crew
     state: >-
-      {% set temp  = states('sensor.tempest_temperature_feels_like_rounded') | float %}
+      {% set temp = states('sensor.tempest_temperature_feels_like_rounded') | float %}
       {% if temp <= 5 %}
         winter jacket and hand gloves
       {% elif temp <= 14 %}
@@ -560,7 +567,8 @@ template:
 ### CO2 threshold values
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
-As the entity_id is based on the `name` field, this template sensor uses a trick to give it the right name to base the entity_id on when the entity is created. After that the name will indicate the threshold name.
+As the entity_id is based on the `name` field, this template sensor uses a trick to give it the right name to base the entity_id on when the entity is created. 
+After that, the name will indicate the threshold name.
 
 <img src="images_templates/base_values_sensors.jpg" alt="C02 base values" width="450px" />
 
