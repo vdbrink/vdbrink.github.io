@@ -63,7 +63,14 @@ There are two ways to add a template to your Home Assistant:
 
 #### Via configuration.yaml
 
-One way to add a new template is by adding the code to the `configuration.yaml` file under the `sensor:` or `binary_sensor:` section.
+One way to add a new template is by adding the code to the `configuration.yaml` file.
+In 2022 the configuration for template entities changed. Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section a new `template` section was introduced.
+Using the modern template format has a couple of advantages. 
+You can use a `trigger` and `action` (like in automations) which gives more control over when the entity should be updated, and it allows to set a `state_class` so the state of the entity will also be stored in Long Term Statistics. It also allows to create `button`, `image`, `number` and `select` entities which is not possible using the legacy platform.
+
+For more information also see the [Home Assistant documentation](<https://www.home-assistant.io/integrations/template/>). The legacy format is still documented all the way at the bottom.
+
+All the examples below start with the `template:` key. Be sure to define this only once in your `configuration.yaml`. All template enitites should be created under the same `template:` key.
 
 #### Via the frontend
 
@@ -81,6 +88,8 @@ Copy the `value_template` part from the below examples and add it in the visual 
 In this example a (binary) template is created to check if the current month is August.
 
 <img src="images_templates/create_helper_template.gif" alt="" width="450px">
+
+The template helpers are more user friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers. It also doesn't have the option to provide a template for `availablity` of the entity.
 
 ---
 
@@ -118,41 +127,46 @@ ChatGPT is really useful and fast with helping you to create a new template and 
 ## Template examples
 
 Here are all kinds of different template examples.
+Note that every entity has a `unique_id`. This does not define the entity_id, the entity_id is defined by the name (so `name: "Lights On"` will generate `sensor.lights_on`). 
+By providing a `unique_id` you will be able to change `name`, `icon`, `entity_id` and based on the type of entity also the `device_class` in the frontend. 
+It also ensures you don't get suffixes like `_2` after changing your configuration and reloading the template entities.
 
 ### Is it a specific day in the year
 
 A boolean sensor to test if it is a specific month, season, day (like Christmas or April Fools' Day etc.)?
+This will create `binary_sensor` enties which will be `on` when the template returns `true` and otherwise they will be `off`
+You can optionally refine the entities even more by providing a template for the `icon`
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    is_january:
-      friendly_name: "Is January"
-      value_template: >
-        {{ now().month == 1 }}
-    is_monday:
-      friendly_name: "Is Monday"
-      value_template: >
-        {{ now().isoweekday() == 1 }}
-    is_april_fools_day:
-      friendly_name: "Is April Fools Day"
-      value_template: >
-        {{ now().month == 4 and now().day == 1 }}
-    is_christmas:
-      friendly_name: "Is Christmas"
-      value_template: >
-        {{ now().month == 12 and now().day == 25 }}
-    is_around_christmas:
-      friendly_name: "Is around Christmas"
-      value_template: >
-        {{ (now().month == 12 and now().day > 10) or (now().month == 1 and now().day < 11) }}
-    is_new_years_eve:
-      friendly_name: "Is new years eve"
-      value_template: >
-        {{ now().month == 12 and now().day == 31 }}
+template:
+  - binary_sensor:
+      - name: "Is January"
+        unique_id: is_january
+        state: >
+          {{ now().month == 1 }}
+      - name: "Is Monday"
+        unique_id: is_monday
+        state: >
+          {{ now().isoweekday() == 1 }}
+      - name: "Is April Fools Day"
+        unique_id: is_april_fools
+        state: >
+          {{ now().month == 4 and now().day == 1 }}
+      - name: "Is Christmas"
+        unique_id: is_christmas
+        state: >
+          {{ now().month == 12 and now().day == 25 }}
+      - name: "Is around Christmas"
+        unique_id: is_around_christmas
+        state: >
+          {{ (now().month == 12 and now().day > 10) or (now().month == 1 and now().day < 11) }}
+      - name: "Is new years eve"
+        unique_id: is_new_years_eve
+        state: >
+          {{ now().month == 12 and now().day == 31 }}
 {% endraw %}
 ```
 
@@ -160,6 +174,9 @@ A boolean sensor to test if it is a specific month, season, day (like Christmas 
 ### Count the number of lights on
 
 Count the number of lights with the status `on`.
+By checking if the `entity_id` attribute exists on the light entities it will exclude the light groups created in Home Assistant. 
+Otherwise, it would count both the group, and the members as light, which will give a higher number than expected.
+The icon is changed dynamically based on the state of the sensor itself, and self references the state using `this.state`. 
 
 <img src="images_templates/nr_lights_on.png" alt="Number of lights on" width="450px">
 
@@ -167,14 +184,14 @@ Count the number of lights with the status `on`.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    count_lights_on:
-      friendly_name: "# lights on"
-      icon_template: mdi:ceiling-light
-      unit_of_measurement: "on"
-      value_template: >
-        {{ states.light | selectattr('state', 'eq', 'on') | list | count }}
+template:
+  - sensor:
+      - name: "# lights on"
+        unique_id: count_lights_on
+        icon: "{{ 'mdi:lightbulb' if this.state | int(0) > 0 else 'mdi:lightbulb-off' }}"
+        unit_of_measurement: "lights"
+        state: >
+          {{ states.light | rejectattr('attributes.entity_id', 'defined') | selectattr('state', 'eq', 'on') | list | count }}
 {% endraw %}
 ```
 
@@ -182,6 +199,8 @@ Count the number of lights with the status `on`.
 ### Calculate temperature differences
 
 Calculate the temperature difference between an inside room temperature and the outside temperature, and round by two decimals.
+This sensor introduces an `availability` template, which will ensure the template sensor will only be available when both source sensors are working properly. 
+If not, the template sensor will show as unavailable.
 
 <img src="images_templates/temp_diff.png" alt="Temperature difference with outside" width="450px">
 
@@ -189,16 +208,17 @@ Calculate the temperature difference between an inside room temperature and the 
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    temp_diff_office_outside:
-      friendly_name: "temperature diff office and outside"
-      icon_template: hass:thermometer
-      unit_of_measurement: "°C"
-      value_template: >
-        {% set temp1 = states('sensor.espscd40_co2_temperature') | float %}
-        {% set temp2 = states('sensor.tempest_outside_temperature') | float %}
-        {{ (temp1 - temp2) | round(2, 'ceil') }}
+template:
+  - sensor:
+      - name: "Temperature diff office and outside"
+        unique_id: template_diff_office_and_outside
+        icon: mdi:thermometer
+        unit_of_measurement: "°C"
+        state: >
+          {% set temp1 = states('sensor.espscd40_co2_temperature') | float %}
+          {% set temp2 = states('sensor.tempest_outside_temperature') | float %}
+          {{ (temp1 - temp2) | round(2, 'ceil') }}
+        availabilty: "{{ 'sensor.espscd40_co2_temperature' | has_value and 'sensor.tempest_outside_temperature' | has_value }}"
 {% endraw %}
 ```
 
@@ -206,25 +226,38 @@ Calculate the temperature difference between an inside room temperature and the 
 ### Unavailable devices
 
 Get all devices by name that have the state unavailable in a sorted list. 
+As states are limited to 255 characters, the list is stored in an attribute, the state of the entity will be a count of the unavailable devices.
+The device is considered unavailable when ALL entities belonging to that device are unavailable, as it could happen that only one entity is unavailable for specific reasons.\
+The icon is changed dynamically and will show the number of devices as well (9+ in case it's over 9).
 
 ```yaml
 {% raw %}
-  # Sourcecode by vdbrink.github.io
-  # configuration.yaml
-- platform: template
-  sensors:
-    unavailable_devices:
-       friendly_name: "unavailable devices"
-       value_template: >
-         {{ states| selectattr('state', 'in', ['unavailable'])
-         | map(attribute='entity_id')
-         | map('device_attr', 'name_by_user')
-         | reject('match', 'None')
-         | unique
-         | list
-         | sort
-         | join('\n')
-         }}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+template:
+  - sensor:
+      - name: "Unavailable devices"
+        unique_id: count_unavailable_devices
+        state: " {{ this.attributes.get('devices', []) | count }}"
+        icon: >
+          {% set count = this.attributes.get('devices', []) | count %}
+          {{ 'mdi:numeric-9-plus-circle' if count > 9 else ('mdi:numeric-' ~ count ~ '-circle') }}
+        attributes:
+          devices: >
+            {% set devices = states
+                               | map(attribute='entity_id')
+                               | map('device_id')
+                               | select()
+                               | unique
+            %}
+            {% set ns = namespace(unavailable=[]) %}
+            {% for d in devices %}
+              {% set u = device_entities(d) | select('has_value') | list | count %}
+              {% if device_entities(d) | count > 0 and u == 0 %}
+                {% set ns.unavailable = ns.unavailable + [device_attr(d, 'name_by_user') or device_attr(d, 'name')]  %}
+              {% endif %}
+            {% endfor %} 
+            {{ ns.unavailable }}
 {% endraw %}
 ```
 
@@ -232,6 +265,11 @@ Get all devices by name that have the state unavailable in a sorted list.
 ### Low battery
 
 Get all devices by name that have the battery level with less than 10% in a sorted list.
+It is not possible to simply filter on the state, as all states in Home Assistant are a string, and if you compare the string `"6"` with the string `"10"` you get unwanted results (`"6" < "10"` returns `false`).\
+Therefore, it is needed to convert the strings to a number first.\
+As we also still want to access the other properties, this requires a for-loop. 
+To access the data created in the for loop outside the for loop, a namespace has to be used.
+Just like in the previous example, the names are listed in an attribute, because otherwise the character limit of 255 characters for an entity state can become an issue.
 
 <img src="images_templates/low_battery_devices.png" alt="low battery devices" width="150px">
 
@@ -239,21 +277,23 @@ Get all devices by name that have the battery level with less than 10% in a sort
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-     low_battery_devices:
-        friendly_name: "low battery devices"
-        value_template: >  
-          {{ states
-          | selectattr('attributes.device_class','in',['battery'])
-          | selectattr('state', 'lessthan', '10')
-          | map(attribute='entity_id')
-          | map('state_attr', 'friendly_name')
-          | reject('match', 'None')
-          | list
-          | sort
-          | join('\n')
-          }}
+template:
+  - sensor:
+      - name: "Low Battery Devices"
+        unique_id: count_low_batt_devices
+        state: " {{ this.attributes.get('devices', []) | count }}"
+        icon: >
+          {% set count = this.attributes.get('devices', []) | count %}
+          {{ 'mdi:numeric-9-plus-circle' if count > 9 else ('mdi:numeric-' ~ count ~ '-circle') }}
+        attributes:
+          devices: >
+            {% set threshold = 10 %}
+            {% set batt_sensors = states.sensor | selectattr('attributes.device_class', 'defined') | selectattr('attributes.device_class', 'eq', 'battery') | list %}
+            {% set ns = namespace(batt_low=[]) %}
+            {% for s in batt_sensors if s.state | float(101) <= threshold %}
+              {% set ns.batt_low = ns.batt_low + [device_attr(s.entity_id, 'name_by_user') or device_attr(s.entity_id, 'name') or s.name] %}
+            {% endfor %}
+            {{ ns.batt_low }}
 {% endraw %}
 ```
 
@@ -269,16 +309,17 @@ One minute after the last trigger the state goes back to `off`.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  activity_downstairs:
-    friendly_name: Activity downstairs
-    icon_template: mdi:radar
-    value_template: >
-      {{ is_state("binary_sensor.motion1_occupancy", "on")
-        or is_state("binary_sensor.motion2_occupancy", "on") 
-        or is_state("binary_sensor.motion3_occupancy", "on") 
-      }}
-    delay_off: "00:01:00"
+template:
+  - binary_sensor:
+      - name: "Activity downstairs"
+        unique_id: activity_downstairs_sensor
+        state: >
+         {{ is_state("binary_sensor.motion1_occupancy", "on")
+           or is_state("binary_sensor.motion2_occupancy", "on") 
+           or is_state("binary_sensor.motion3_occupancy", "on") 
+         }}
+        device_class: occupancy
+        delay_off: "00:01:00"
 {% endraw %}
 ```
 
@@ -294,11 +335,13 @@ With this template, it translates the day to a non-English language (like here t
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    dayoftheweek:
-      value_template: >
-        {{ ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"][now().weekday()] }}
+template:
+  - sensor:
+      - name: "Day of week"
+        unique_id: day_of_week_sensor
+        icon: mdi:calendar
+        state: >
+          {{ ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"][now().weekday()] }}
 {% endraw %}
 ```
 
@@ -313,15 +356,16 @@ Count the days before the paper bin will be picked up.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    paper_waste_pickup_countdown:
-      friendly_name: "paper pick up"
-      icon_template: mdi:delete-empty
-      value_template: >-
-        {% set datex = state_attr('sensor.cyclus_papier','Sort_date') | string %}
-        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil') }}
-      unit_of_measurement: "days"
+template:
+  - sensor:
+      - name: "Paper Waste Pickup Countdown"
+        unique_id: paper_waste_pickup_countdown
+        icon: mdi:delete-empty
+        state: >
+          {% set pickup_date = strptime(state_attr('sensor.cyclus_papier','Sort_date'), '%Y%m%d') %}
+          {{ (pickup_date.date() - now().date()).days }}
+        unit_of_measurement: days
+        availability: "{{ strptime(state_attr('sensor.cyclus_papier','Sort_date', none), '%Y%m%d') is not none }}"
 {% endraw %}
 ```
 
@@ -342,17 +386,15 @@ Minutes since the snail mail is delivered.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    mail_delivered_minutes_ago:
-      friendly_name: "mail delivered"
-      icon_template: mdi:mailbox
-      value_template: >-
-        {% set now_timestamp = as_timestamp(now()) %}
-        {% set mailbox_timestamp = as_timestamp(states.binary_sensor.contact2_contact.last_changed) %}
-        {% set minutes = ((now_timestamp - mailbox_timestamp) / 60) | round(0, 'ceil')  %}
-        {{ minutes }}
-      unit_of_measurement: "minutes"
+template:
+  - sensor:
+      - name: "Mail Delivered"
+        unique_id: sensor_mail_delivered
+        state: >
+          {% set mailbox_datetime = states.binary_sensor.contact2_contact.last_changed %}
+          {{ (now() - mailbox_datetime).total_seconds() // 60  }}
+        icon: mdi:mailbox
+        unit_of_measurement: minutes
 {% endraw %}
 ```
 
@@ -367,15 +409,22 @@ Based on the outside temperature defined what to wear when you go outside.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    what_to_wear_outside:
-      friendly_name: "wear outside"
-      value_template: >-
-        {% if states.sensor.tempest_temperature_feels_like_rounded.state|int <= 5 %} winter jacket and hand gloves
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 14 %} softshell
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int <= 18 %} thin jacket
-        {% elif states.sensor.tempest_temperature_feels_like_rounded.state|int > 18 %} T-shirt{% endif %}
+template:
+  - name: "Wear outside"
+    unique_id: sensor_wear_outside
+    icon: mdi:tshirt-crew
+    state: >-
+      {% set temp = states('sensor.tempest_temperature_feels_like_rounded') | float %}
+      {% if temp <= 5 %}
+        winter jacket and hand gloves
+      {% elif temp <= 14 %}
+        softshell
+      {% elif temp <= 18 %}
+        thin jacket
+      {% else %}
+        T-shirt
+      {% endif %}
+    availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}
 {% endraw %}
 ```
 This is the code for the mushroom card, as shown on the image, based on this template.
@@ -400,25 +449,26 @@ Which can be used to control the lights, the window blinds or on a floor map as 
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    sunlight_pct:
-      value_template: >-
-        {%- set elevation = state_attr('sun.sun','elevation') | float %}
-        {%- set cloud_coverage = states('sensor.dark_sky_cloud_coverage') | float %}
-        {%- set cloud_factor = (1 - (0.75 * ( cloud_coverage / 100) ** 3 )) %}
-        {%- set min_elevation = -6 %}
-        {%- set max_elevation = 90 %}
-        {%- set adjusted_elevation = elevation - min_elevation %}
-        {%- set adjusted_elevation = [adjusted_elevation,0] | max %}
-        {%- set adjusted_elevation = [adjusted_elevation,max_elevation - min_elevation] | min %}
-        {%- set adjusted_elevation = adjusted_elevation / (max_elevation - min_elevation) %}
-        {%- set adjusted_elevation = adjusted_elevation %}
-        {%- set adjusted_elevation = adjusted_elevation * 100 %}
-        {%- set brightness = adjusted_elevation * cloud_factor %}
-        {{ brightness | round }}
-      unit_of_measurement: '%'
-      device_class: 'illuminance'
+template:
+  - sensor:
+      - name: "Sunlight pct"
+        unique_id: sunlight_pct_sensor
+        state: >
+          {%- set elevation = state_attr('sun.sun','elevation') | float %}
+          {%- set cloud_coverage = states('sensor.dark_sky_cloud_coverage') | float %}
+          {%- set cloud_factor = (1 - (0.75 * ( cloud_coverage / 100) ** 3 )) %}
+          {%- set min_elevation = -6 %}
+          {%- set max_elevation = 90 %}
+          {%- set adjusted_elevation = elevation - min_elevation %}
+          {%- set adjusted_elevation = [adjusted_elevation,0] | max %}
+          {%- set adjusted_elevation = [adjusted_elevation,max_elevation - min_elevation] | min %}
+          {%- set adjusted_elevation = adjusted_elevation / (max_elevation - min_elevation) %}
+          {%- set adjusted_elevation = adjusted_elevation %}
+          {%- set adjusted_elevation = adjusted_elevation * 100 %}
+          {%- set brightness = adjusted_elevation * cloud_factor %}
+          {{ brightness | round }}
+        unit_of_measurement: '%'
+        device_class: 'illuminance'
 {% endraw %}
 ```
 
@@ -431,30 +481,31 @@ Daylight brightness, from the previous template, converted to opacity for CSS to
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    sunlight_opacity:
-      value_template: >-
-        {%- set sunpct = states('sensor.sunlight_pct') | float %}
-        {%- set opacity = sunpct / 100 | float %}
-        {{ opacity }}
+template:
+  - sensor:
+      - name: "Sunlight Opacity"
+        unique_id: sensor_sunlight_opacity
+        state: > 
+          {%- set sunpct = states('sensor.sunlight_pct') | float %}
+          {{ sunpct / 100 | float }}
  {% endraw %}
 ```
 
 ---
 ### Is it night
 
-Boolean state if it is night.
+Boolean state if it is night. Will be `on` when it's night, otherwise it will be `off`.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    night_state:
-      friendly_name: night state
-      value_template: "{% if is_state('sun.sun', 'below_horizon') %}1{% else %}0{% endif %}"
+template:
+  - binary_sensor:
+      - name: "Night State"
+        unique_id: binary_sensor_night_state
+        state: "{{ is_state('sun.sun', 'below_horizon') }}"
+        icon: "{{ 'mdi:weather-night' if is_state('sun.sun', 'below_horizon') else 'mdi:weather-sunny' }}" 
 {% endraw %}
 ```
 
@@ -469,18 +520,14 @@ Expected rain amount for the coming hours based on the Dutch Buienradar data.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    buienalarm_rain_expected:
-      friendly_name: "rain expected"
-      value_template: >-
-        {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% set total_precip = 0 %}
-        {% for value in rain %}
-            {% set total_precip = total_precip +(value | int) %}
-        {% endfor %}
-        {{ total_precip }}
-      unit_of_measurement: 'mm'
+template:
+  - sensor:
+      - name: "Rain Expected"
+        unique_id: sensor_expected_rain
+        state: >
+          {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
+          {{ rain | sum | round }}
+        unit_of_measurement: 'mm'
 {% endraw %}
 ```
 
@@ -495,25 +542,24 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    buienalarm_rain_level:
-      friendly_name: "rain intensity"
-      icon_template: mdi:weather-pouring
-      value_template: >-
-        {% set threshold_licht = '0.4' | float %}
-        {% set threshold_matig = '2.0' | float %}
-        {% set threshold_zwaar = '5.0' | float %}
-        {% for regen in state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% if regen | float >= threshold_licht %}
-          {{ 'light rain' }}
-        {% elif regen | float >= threshold_matig %}
-          {{ 'medium rain' }}
-        {% elif regen | float >= threshold_zwaar %}
-          {{ 'heavy rain' }}
-        {% endif %}
-          {{ 'no rain' }}
-        {% endfor %}
+template:
+  - sensor:
+      - name: Buienalarm Rain Level
+        icon: mdi:weather-pouring
+        state: >-
+          {% set threshold_light = '0.4' | float %}
+          {% set threshold_medium = '2.0' | float %}
+          {% set threshold_heavy = '5.0' | float %}
+          {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip[0] %}
+          {% if rain >= threshold_light %}
+            light rain
+          {% elif rain >= threshold_medium %}
+            medium rain
+          {% elif rain >= threshold_heavy %}
+            heavy rain
+          {% else %}
+            no rain
+          {% endif %}
 {% endraw %}
 ```
 
@@ -521,6 +567,8 @@ Rain intensity for the coming hours based on the Dutch Buienradar data.
 ### CO2 threshold values
 
 Create three static value sensors with the threshold values: 800, 1200 and 1500.
+As the entity_id is based on the `name` field, this template sensor uses a trick to give it the right name to base the entity_id on when the entity is created. 
+After that, the name will indicate the threshold name.
 
 <img src="images_templates/base_values_sensors.jpg" alt="C02 base values" width="450px" />
 
@@ -528,20 +576,20 @@ Create three static value sensors with the threshold values: 800, 1200 and 1500.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    co2_value_800:
-      friendly_name: "good"
-      value_template: 800
-      unit_of_measurement: 'ppm'
-    co2_value_1200:
-      friendly_name: "medium"
-      value_template: 1200
-      unit_of_measurement: 'ppm'
-    co2_value_1500:
-      friendly_name: "bad"
-      value_template: 1500
-      unit_of_measurement: 'ppm'
+template:
+  - sensor:
+      - name: "{{ 'CO2 value 800' if this.state == 'unknown' else 'Good' }}"
+        unique_id: sensor_co2_value_800
+        state: 800
+        unit_of_measurement: "ppm"
+      - name: "{{ 'CO2 value 1200' if this.state == 'unknown' else 'Good' }}"
+        unique_id: sensor_co2_value_1200
+        state: 1200
+        unit_of_measurement: "ppm"
+      - name: "{{ 'CO2 value 1500' if this.state == 'unknown' else 'Good' }}"
+        unique_id: sensor_co2_value_1500
+        state: 1500
+        unit_of_measurement: "ppm"
 {% endraw %}
 ```
 
@@ -555,21 +603,18 @@ It's important to set here also the right unit of measurement.
 
 ### Overlay based on lux
 
-When you have a floor plan and want to show a dark overlay when the lux is low, you can create a new sensor based on the lux value.
+When you have a floor plan and want to show a dark overlay when the lux is low, you can create a new binary sensor based on the lux value.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-    overlay:
-      friendly_name: "overlay"
-      value_template: >-
-        {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
-           on
-        {% else %}
-           off
-        {% endif %}
+template:
+  - binary_sensor:
+      - name: "Overlay"
+        unique_id: sensor_overlay
+        state: "{{ states('sensor.motion_illuminance_lux') | float > 5 }}"
+        availability: "{{ 'sensor.motion_illuminance_lux' | has_value }}"
 {% endraw %}
 ```
 
@@ -588,12 +633,12 @@ With an image corresponding to each phase, you can show the moon phase as an ima
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
 # the template for the moon phase pictures using the original moon component
-- platform: template
-  sensors:
-    moon_phases:
-      friendly_name: 'moonphase'
-      value_template: '{{ states.sensor.moon.state }}'
-      entity_picture_template: /local/moon_phases/{{ states.sensor.moon.state }}.png
+template:
+  - sensor:
+      - name: "Moon phase"
+        unique_id: sensor_moon_phase
+        state: "{{ states('sensor.moon') }}"
+        entity_picture: /local/moon_phases/{{ this.state }}.png
 {% endraw %}
 ```
 
@@ -610,13 +655,13 @@ This attribute is now used to create a boolean value.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    sink_leak:
-      friendly_name: "leak sink"
-      icon_template: mdi:water
-      value_template: >-
-        {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
+template:
+  - sensor:
+      - name: "Leak Sink"
+        unique_id: sensor_leak_sink
+        icon: mdi:water
+        state: >
+          {{ state_attr('binary_sensor.water_contact', 'contact') | lower }}
 {% endraw %}
 ```
 
@@ -635,17 +680,13 @@ That's what happened here.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    chair:
-      friendly_name: "chair"
-      icon_template: mdi:chair-rolling
-      value_template: >-
-        {% if is_state('binary_sensor.contact1_contact', 'off') %}
-           on
-        {% else %}
-           off
-        {% endif %}
+template:
+  - binary_sensor:
+      - name: "Chair"
+        unique_id: binary_sensor_chair
+        state: >
+          {{ is_state('binary_sensor.contact1_contact', 'off') }}
+        device_class: presence
 {% endraw %}
 ```
 
