@@ -410,21 +410,22 @@ Based on the outside temperature defined what to wear when you go outside.
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
 template:
-  - name: "Wear outside"
-    unique_id: sensor_wear_outside
-    icon: mdi:tshirt-crew
-    state: >-
-      {% set temp = states('sensor.tempest_temperature_feels_like_rounded') | float %}
-      {% if temp <= 5 %}
-        winter jacket and hand gloves
-      {% elif temp <= 14 %}
-        softshell
-      {% elif temp <= 18 %}
-        thin jacket
-      {% else %}
-        T-shirt
-      {% endif %}
-    availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}
+  - sensor:
+      - name: "Wear outside"
+        unique_id: sensor_wear_outside
+        icon: mdi:tshirt-crew
+        state: >-
+          {% set temp = states('sensor.tempest_temperature_feels_like_rounded') | float %}
+          {% if temp <= 5 %}
+            winter jacket and hand gloves
+          {% elif temp <= 14 %}
+            softshell
+          {% elif temp <= 18 %}
+            thin jacket
+          {% else %}
+            T-shirt
+          {% endif %}
+        availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}
 {% endraw %}
 ```
 This is the code for the mushroom card, as shown on the image, based on this template.
