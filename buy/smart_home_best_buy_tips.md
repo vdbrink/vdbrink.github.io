@@ -206,16 +206,19 @@ This outdoor Zigbee power socket, where each socket can be controlled individual
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six kinds of environmental parameters:
-* PM2.5
-* Formaldehyde
-* VOC of poisonous gas
-* CO2
 * Temperature
-* Humidity  
+* Humidity
+* PM2.5
+* VOC of poisonous gas
+* Formaldehyde (not really accurate)
+* CO2 (not really accurate, then you need a dedicated one)
 
 All these values can affect a healthy environment at home.
 
 Normally you get single sensors for each parameter!
+
+Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor. 
+But for the other parameters it a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
 
@@ -368,7 +371,7 @@ This actuator can toggle the power state of each USB port individual.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
-<br><br><br><br>
+<br><br>
 
 ---
 
