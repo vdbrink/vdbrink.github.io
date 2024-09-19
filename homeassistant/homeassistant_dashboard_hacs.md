@@ -285,6 +285,9 @@ hide_forecast_section: false
 {% endraw %}
 ```
 
+BeardedTinker also made a YouTube video about this card.
+[![Clock Weather Card HA installation](http://img.youtube.com/vi/jHgnO3JryCM/0.jpg)](http://www.youtube.com/watch?v=jHgnO3JryCM "Clock Weather Card HA installation")
+
 ---
 ## Lovelace animated weather card
 
