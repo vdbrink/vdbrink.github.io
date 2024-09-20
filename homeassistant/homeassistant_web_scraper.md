@@ -16,7 +16,7 @@ You can use this data to present on your own dashboard or make automations based
 Like run the washing machine based on low dynamic energy prices.
 Show the latest (formula 1) news or show the current weather alarm messages.
 
-This scraper is by default available in Home Assistant.
+This *Scrape* integration is by default available in Home Assistant.
 
 <img src="images_web_scraper/ha_webscraper.png" alt="Home Assistant webscraper" width="400px">
 
@@ -52,11 +52,14 @@ Let's get started!
 ---
 ## Define the CSS Selector and Index
 
-The following steps are necessary to take to get the **CSS Selector** and **Index** value for the scraper:
-1. Get the whole webpage source into an online evaluation page
-2. Find the corresponding CSS Selector for your text
-3. Strip the unneeded part from the CSS Selector
-4. Find the corresponding index
+> **_NOTE:_** Before configuring the Scrape integration in Home Assistant, you need to find first all the required data for it. 
+
+The following steps are necessary to take to get the required **CSS Selector** and **Index** value for the Scrape integration:
+1. Get the whole webpage source into an online evaluation page;
+2. Find the corresponding CSS Selector for your text;
+3. Strip the unneeded part from the CSS Selector;
+4. Find the corresponding index.
+
 <br>
 In this animation you see all these steps in action.
 <img src="images_web_scraper/web_scraper_animation.gif" alt="Define the CSS Selector and Index for the Web Scraper" width="100%">
@@ -98,10 +101,10 @@ It is possible you get an `errors`, then try the manual option.
 * Paste the clipboard content into the field **Query**
 * Remove all the data before the last `>` In this case the original selector value was `#block-agrippa-content > article > div:nth-child(3) > div.table--swap.table--responsive > table > tbody > tr:nth-child(5) > td:nth-child(3)`, keep only `td:nth-child(3)`
 
-#### 4. Find the corresponding index
+### 4. Find the corresponding index
 
 * A numbered list that matches all the third columns values from the table as TD HTML elements, is visible.
-* The 5th row contains the data. This is index **4** (start counting by 0)
+* The fifth row contains the data. This is index **4** (start counting by 0)
 <br>
 Now all the required input data is available for the scraper. It's time to setup the scraper in Home Assistant.
 
