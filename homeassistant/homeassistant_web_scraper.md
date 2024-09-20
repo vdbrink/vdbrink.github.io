@@ -26,6 +26,8 @@ On this page I use, as example, the actual dynamic gas price (from a specific pr
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
+> **_REMARK:_** It's not always possible to scrape all text, this also depends on the website structure.
+
 ---
 
 ## Table of Contents
@@ -204,7 +206,7 @@ Happy scraping!
 Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scraped data!
 
 ---
-> **_NOTE:_** In the old YAML [scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!
+> **_NOTE:_** In the old YAML [Scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!
 
 ---
 [^^ Top](#table-of-contents)
