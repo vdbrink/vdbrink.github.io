@@ -7,21 +7,24 @@ image: /homeassistant/images_web_scraper/ha_webscraper.png
 
 # Home Assistant: Web Scraper
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how you can scrape (text) elements from a webpage and create a Home Assistant sensor which contains this text.
+It also works with data from API calls.
 
 You can use this data to present on your own dashboard or make automations based on it. 
 Like run the washing machine based on low dynamic energy prices.
-Or show the latest (formula 1) news or show the current weather alarm messages.
+Show the latest (formula 1) news or show the current weather alarm messages.
 
-Here we use, as example, the actual dynamic gas price (from a specific provider) and show this on the dashboard.
+This scraper is by default available in Home Assistant.
+
+<img src="images_web_scraper/ha_webscraper.png" alt="Home Assistant webscraper" width="400px">
+
+The official info page: https://www.home-assistant.io/integrations/scrape/
+
+On this page I use, as example, the actual dynamic gas price (from a specific provider) and show this on my dashboard.
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
-
-<br><br>
-<img src="images_web_scraper/ha_webscraper.png" alt="Home Assistant webscraper" width="400px">
 
 ---
 
@@ -162,7 +165,7 @@ Now the new sensor can be added to the dashboard or can be used in an automation
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
-With a Markdown card it's possible to only present the extracted data,
+With a Markdown card, it's possible to only show the extracted data,
 for example, if you scrape a news site headline. 
 
 ![News nu.nl](images/news_headline.png)
