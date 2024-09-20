@@ -10,7 +10,7 @@ image: /homeassistant/images_web_scraper/ha_webscraper.png
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how you can scrape (text) elements from a webpage and create a Home Assistant sensor which contains this text.
-It also works with data from API calls.
+It also works with data from API calls. For each scraper you can define the update time to always get the most actual data. 
 
 You can use this data to present on your own dashboard or make automations based on it. 
 Like run the washing machine based on low dynamic energy prices.
