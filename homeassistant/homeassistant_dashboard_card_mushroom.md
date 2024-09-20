@@ -52,7 +52,7 @@ I highlight here two cards.
 
 ### Title card
 
-The title card show data based on a template and has no background.
+The title card shows data based on a template and has no background.
 
 #### Welcome text and weather forecast for today
 <img src="images_mushroom/mushroom_title.png" alt="mushroom title" width="400px">
@@ -65,7 +65,7 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
 - type: custom:mushroom-title-card
-  title: > 2
+  title: >2
     {%- if now().hour < 12 -%}Goeiemorgen
     {%- elif now().hour < 18 -%}Goeiemiddag
     {%- else -%}Goeieavond{%- endif -%}, {{user}}. 
@@ -188,7 +188,7 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
 ```
 
 #### Person status
-<img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left">Show if your at home.
+<img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left">Show this icon only when I'm at home.
 <br/><br/>
 
 ```yaml
@@ -213,7 +213,7 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
 
 #### Door open (custom picture)
 
-<img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left">Show a custom picture when the front door is open.
+<img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left">Show a custom picture when the front door is open. Otherwise hide it.
 <br/><br/>
 
 ```yaml
@@ -235,7 +235,7 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
 ---
 
 ## More examples
-Looking for more examples check this link:
+Looking for more examples? Check this link:
 * https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/
 
 ---

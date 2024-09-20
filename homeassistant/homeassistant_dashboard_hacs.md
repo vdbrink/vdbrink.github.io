@@ -17,6 +17,7 @@ Here you find Home Assistant (lovelace) dashboard custom elements which are defa
 <!-- TOC -->
   * [Swipe Navigation](#swipe-navigation)
   * [auto-entities](#auto-entities)
+  * [Mushroom](#mushroom)
   * [card-mod 3 (lovelace-card-mod)](#card-mod-3-lovelace-card-mod)
   * [slider-entity-row](#slider-entity-row)
   * [multiple-entity-row](#multiple-entity-row)
@@ -43,7 +44,7 @@ Install it via this button
 
 ## auto-entities
 
-Dynamic show entities base on a variance of sorting and filtering.
+Dynamically show entities based on a variance of sorting and filtering.
 
 Example: Show all temperature entities, sorted on temperature, round on no decimals and colored based on the temperature.
 
@@ -93,6 +94,28 @@ sort:
 ```
 
 ---
+## Mushroom
+
+With the mushroom element, you can add small elements on top of your dashboard.\
+Only a colored icon or also with a state value.\
+You can also show them only for a specific state. 
+Like rain expected, CO2 level is incorrect, temperature not right, nice weather to sit outside etc.
+
+Examples:
+
+<img src="images_mushroom/mushroom_examples.png" width="350px"  alt="mushroom examples"/> 
+<img src="images_mushroom/mushroom_co2.png" height="50px"  alt="mushroom examples"/> 
+<img src="images_mushroom/mushroom_home.png" height="50px"  alt="mushroom examples"/> 
+
+Repo: https://github.com/piitaya/lovelace-mushroom
+
+Install it via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
+
+
+[My dedicated page about the Mushroom element >>](homeassistant_dashboard_card_mushroom)
+
+---
 
 ## card-mod 3 (lovelace-card-mod)
 
@@ -100,7 +123,7 @@ Add custom CSS styling to your dashboard.
 
 Example: Colored icon based on entity state.
 
-<img src="images_styling/colored_icon.png" alt="Colored icon" width="400px">
+<img src="images_styling/colored_icon.png" alt="Colored icon" width="350px">
 
 I have a [styling page](homeassistant_dashboard_styling) with multiple examples based on this custom element.
 
