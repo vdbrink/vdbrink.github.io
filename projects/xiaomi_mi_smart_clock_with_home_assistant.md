@@ -8,6 +8,7 @@ image: /projects/images_mi_smart_clock/mi_smart_clock.png
 
 # Xiaomi Mi smart clock with Home Assistant dashboard
 
+This is the original Google display interface:
 ![mi_smart_clock.png](images_mi_smart_clock/mi_smart_clock.png)
 
 > **_NOTE:_** This is a work in progress project...
