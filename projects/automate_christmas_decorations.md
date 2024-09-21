@@ -9,20 +9,37 @@ tags: [battery, Christmas, smart socket, usb hub, wall outlet]
 
 ## Introduction
 
-<img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="200px" style="float:right" />
-During the Christmas season, we have a lot of extra lights around the house. Like Christmas trees, battery powered decorations and outside lights.
+<img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="200px" style="margin-left:15px;float:right" />
+During the Christmas season, we have a lot of extra lights around the house. Like Christmas trees, battery powered decorations and outside lights to cheer up the dark days.
 
-As automation geek I was looking for a solution to also automate all the extra season lights. Not start the day with turning on all the lights and end the day with turning them off again manually. And when there is no one around for a while, why should the lights be on? A waste of energy!
 
-We also have a lot of battery powered decorations. I could use rechargeable batteries, but then I still have to turn them all the decorations on and off manually every day to enjoy it. This could be done better in an automated way!
+As an automation geek, I was looking for solutions to automate all the extra season lights. 
+Not start the day by turning on all the lights and end the day with turning them off again manually. 
+And when there is no one around for a while, why should the lights be on? 
+A waste of energy!
 
-<img src="images_christmas_decorations/tree_light_plug.jpg" alt="Christmas light plug" width="200px" style="float:right" />
-My Christmas tree lights have a power socket with a button and with seven different modes. Each time you press the button, it switches from mode. And the normal required non-disco mode is the last mode! So I had to press every day that button seven times. And that for two strings of light. When you press one time too much you can start all over again! Aargh!
+We also have a lot of **battery powered** decorations. I could use rechargeable batteries, but then I still have to turn them all the decorations on and off manually every day to enjoy it. This could be done better in an automated way!
 
-There should be a better way to automate all these lights!\
-Yes, there is! Here you can read how I achieved this.
+<img src="images_christmas_decorations/tree_light_plug.jpg" alt="Christmas light plug" width="200px" style="margin-left:5px;float:right" />
 
-<img src="images_christmas_decorations/dummy_battery_example.jpg" alt="Battery Eliminator in action" width="200px"/>
+My **Christmas tree** lights have a power socket with a button and with seven different modes. Each time you press the button, it switches from mode. 
+And the normal required non-disco mode is the last mode! So I had to press every day that button seven times. 
+And that for two strings of light. 
+When you press one time too much, you can start all over again! Aargh!
+
+The **plug powered lights** are easy to automate. 
+Plug them into a good old fashioned timer like everybody had already in Home Alone in the previous century!
+
+<img src="images_christmas_decorations/home_alone_automatic_timers.gif" alt="Home Alone automatic timers" width="450px" />
+
+Two decades later, we can use "smarter" solutions. 
+Like control them more dynamically based on the daylight level or motion detection.
+
+There should be a better ways to automate all these lights!\
+Yes, there are! 
+On this page you can read how I achieved this.
+
+Enjoy the Christmas season even more by automate it all!
 
 <br/>
 
