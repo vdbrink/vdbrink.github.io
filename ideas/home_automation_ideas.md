@@ -185,10 +185,10 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 ---
 
 ### Home office
-* Computer screen + lights + phone charger on when you sit in the office chair. (car seat pressure sensor in the chair)
+* Computer screen + lights + phone charger on when you sit in the office chair. ([car seat pressure sensor in the chair](/zigbee/zigbee_chair_occupancy_sensor))
 * Computer screen + lights + phone charger on when you enter the office. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the door)
 * Office lights only on when it's dark and someone is in the room. ([smart light](../buy/smart_home_best_buy_tips#lights), [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), [mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor) to detect a person who sits still)
-* Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + chair occupancy)
+* Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + [chair occupancy](/zigbee/zigbee_chair_occupancy_sensor))
 * On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/smart_home_best_buy_tips#lights))
 * Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 * Notification to open a window if the CO2 value is too high. ([CO2 sensor](../esphome/co2_senseair_s8_sensor))
