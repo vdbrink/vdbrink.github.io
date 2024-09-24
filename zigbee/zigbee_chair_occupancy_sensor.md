@@ -6,21 +6,27 @@ image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
 # DIY Zigbee chair occupancy sensor
-*Based on a Zigbee contact sensor and a car seat pressure sensor*
+*Based on a contact sensor and a car seat pressure sensor*
 
 ## Introduction
 
 <img src="images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>
-For my office I want a way to detect if I'm there.
+For my home office I want a way to detect if I'm there behind the desk.
 To detect that, it's possible to use a motion sensor, 
-or to detect when you sit still on a chair, it's alo possible to use a radar millimeter wave sensors, 
-the downside with one of those, those will also detect animals or blowing fans.
+ to detect when you also sit still on a chair, it's better to use a presence sensor. 
+The downside with one of those is, they will also detect animals or blowing fans and are more expensive. 
+And they detect a wide range and not only the chair occupancy.
 
 ---
 ## My solution
 
-This "hack" uses a Zigbee contact sensor connected to a car seat sensor to detect if a chair is occupied, 
+This "hack" uses a contact sensor connected to a car seat sensor to detect if a chair is occupied, 
 exactly what I needed!
+
+Other purposes for this sensor are:
+* In the couch/sofa/relax chair
+* Under your mattress to detect bed occupancy (only works if there is enough pressure through the mattress)
+* Under a mat on the floor (to detect if someone entering a space)
 
 ---
 
@@ -38,7 +44,7 @@ exactly what I needed!
 
 This project only requires these two devices:
  
-1. [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
+1. [(Zigbee) Contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
 I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also do the trick.
 
 <a href="../buy/smart_home_best_buy_tips#contact-sensor">
