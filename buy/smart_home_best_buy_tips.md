@@ -62,6 +62,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [USB-C power cable](#usb-c-power-cable)
     * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
+  * [Battery powered PIR lights](#battery-powered-pir-lights)
 <!-- TOC -->
 
 ---
@@ -181,12 +182,12 @@ Sockets are always connected to power, this makes this sensor also a hub in the 
 
 A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
 
-I use the Zigbee BlitzWolf SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues. 
+I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues. 
 If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-15 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf SHP-13 (Banggood)</a>
+{{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 (Banggood)</a>
 
 ### Outdoor socket
 <a href="https://www.amazon.de/dp/B0CN8FDSKP" target="blank">
@@ -346,6 +347,9 @@ The easiest way to make a dimmable group with gu10 lights smart.
 This button can trigger multiple scenario's because it supports three press types: single-, double- and long press.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (AliExpress)</a>
+
+<br>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">Small Zigbee button - Tuya (AliExpress)</a>
 <br><br><br><br>
 
 ---
@@ -514,9 +518,19 @@ USB-A to USB-C cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
-{{imgBasket}}USB-C cable (AliExpress)</a>
+{{imgBasket}}USB-A to USB-C cable (AliExpress)</a>
+
+### USB-C to USB-C
+
+USB-C to USB-C power cable with 90-degree connectors.
+
+<a href="https://s.click.aliexpress.com/e/_EvdirFL" target="_blank">
+<img src="/buy/images_diy/usb_c_cable.avif" height="150px" alt="USB C to USB C cable" /><br>
+{{imgBasket}}USB-C to USB-C power cable (AliExpress)</a>
 
 ### USB-A extension cable
+
+Useful to move your Zigbee stick away from your server for the best range and avoid interference.
 
 <a href="https://s.click.aliexpress.com/e/_EHGVJIH" target="_blank">
 <img src="images_zigbee/usb_a_extension_cable.webp" height="150px" alt="battery eliminator" /><br>
@@ -528,7 +542,7 @@ USB-A to USB-C cable to power the ESP.
 
 ### Adapters
 
-5V USB power adapter to power your USB devices.
+5V EU USB power adapter to power your USB devices.
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
@@ -536,13 +550,27 @@ USB-A to USB-C cable to power the ESP.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
 
-5V USB power adapter to power multiple usb devices, with fast charging and 3.1A.
+5V EU USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 
 <a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
-<img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
+<img src="images_diy/usb_power_charger.png" alt="5V EU USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link 2</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">5V EU USB power adapter</a>
 
 ---
+
+## Battery powered PIR lights
+
+Not connected, but still smart with its PIR sensor.\
+Very useful for closets or stairs where no power is available.
+
+<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">
+<img src="images_diy/battery_powered_pir_lights.avif" alt="Battery powered PIR lights" width="200px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">Battery powered PIR lights</a>
+
+---
+
+<br><br>
 
 See [ESPHome DIY sensors buy tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.

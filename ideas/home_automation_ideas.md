@@ -69,7 +69,7 @@ Criteria for my own automations are:
 ### Mailbox
 * Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
 * Notification if mail is sticking out. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is broken and not closed again after 1 minute)
-* Send a picture of the mailbox after something is delivered.
+* Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/>
 
@@ -91,8 +91,8 @@ Criteria for my own automations are:
 
 
 * Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) to detect brightness from inside and outside)
-* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + switch [button](../buy/smart_home_best_buy_tips#portable-button) near the bed)
-* Lights are automatically turned off when no one is in the living anymore.
+* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [button](../buy/smart_home_best_buy_tips#portable-button) near the bed)
+* Lights are automatically turned off when no one is in the living anymore. ([presence detection with mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor))
 * Dimming lights after a few minutes when the movie player is on. 
 Brightness increases again when someone is detected in the kitchen. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [motion sensor](../buy/smart_home_best_buy_tips#motion-sensor))
  <br><a href="../buy/smart_home_best_buy_tips#motion-sensor"><img src="images/motion_sensor.png" alt="motion sensor" height="150px" /></a>
@@ -100,8 +100,8 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 ---
 
 ### Christmas lights
-* Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/smart_home_best_buy_tips#battery-eliminators) and multiple connected to an active USB hub, powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
-* Christmas tree lights. (replace the default power switch with always on mode switch and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
+* Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/smart_home_best_buy_tips#battery-eliminators) and multiple connected to a [USB adapter switch](../buy/smart_home_best_buy_tips#usb-adapter-switch), powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
+* Christmas tree lights. (replace the default [power socket with always on mode switch](/buy/esphome_diy#christmas-light-adapter) and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) to control it)
 <br/><br/>
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators">
 <img src="images/christmas_battery.jpg" alt="Christmas decoration lights battery powered" height="350px" />
@@ -197,7 +197,7 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 ---
 
 ### Closet / pantry / storage / stairs
-* Lights on when you open a closet door. (battery-powered LED light with a PIR sensor. Not connected, but smart/convenient!)
+* Lights on when you open a closet door. ([battery-powered LED light with a PIR sensor](/buy/smart_home_best_buy_tips#battery-powered-pir-lights). Not connected, but smart/convenient!)
 
 ---
 

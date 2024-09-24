@@ -101,9 +101,9 @@ These hardware components do I use for this project:
 ![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
 
 * (optional) Smart power socket with power measurement. 
-* I use the [Zigbee BlitzWolf SHP](../buy/smart_home_best_buy_tips#smart-socket)
+* I use the [Zigbee EU BlitzWolf SHP](../buy/smart_home_best_buy_tips#smart-socket)
 
-![BlitzWolf SHP-13](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-13")
+![BlitzWolf EU SHP-13](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-13")
 
 Affiliate links are used here.
 
@@ -337,15 +337,15 @@ When you click on the device link, you see the defined buttons from the script.
 
 You can now toggle the switches to test if you can control it now from Home Assistant.
 
-With these controls it's only a one way communication, you can only send data to the ESP. To get feedback of the current active mode you also need to read the power consumption of your system.
+With these controls it's only a one way communication, you can only send data to the ESP. To get feedback of the current active mode, you also need to read the power consumption of your system.
 
 ---
 ## Read the current mode
 
 ### Background
 
-To get the current mode of the ventilation system, cccccbbiehevbiginhrrlihhrrrffcyou can read the last triggered button from the ESP. The downside is, this wil not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf SHP-15](../buy/smart_home_best_buy_tips#smart-socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
-Based on the used power I can determine the current mode, and present that in Home Assistant via MQTT.
+To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this will not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
+Based on the used power, I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
 |------|-------------------|
@@ -400,7 +400,7 @@ When you press a button, it triggers a service script which sets a message on a 
 
 #### Create 6 helper switches
 
-First you need to create six helper switches (Via Settings -> Devices & Services -> Helpers) which represent each button on the panel.
+First, you need to create six helper switches (Via Settings -> Devices & Services -> Helpers) which represent each button on the panel.
 These buttons get activated by the Node-RED script to show which mode is the current active mode.
 
 I used these icons:
@@ -414,7 +414,7 @@ I used these icons:
 | 2         | mdi:fan-speed-2              |
 | 3         | mdi:fan-speed-3              |
 
-This is how a configured helper switch must look like:
+This is what a configured helper switch must look like:
 
 <img src="orcon_images/ha_create_helper_buttons.jpg" alt="New ESPHome integration in Home Assistant" width="200px" />
 
@@ -502,7 +502,7 @@ switch_orcon_mode_away:
 
 I created three different designs to see which looks the best for me.
 
-In my first two designs you also get feedback and see what's the current active mode by the colored icon on the bottom row. You can't see it if someone used one of the top buttons.
+In my first two designs, you also get feedback and see what's the current active mode by the colored icon on the bottom row. You can't see it if someone used one of the top buttons.
 
 
 #### Design 1: Home Assistant buttons
