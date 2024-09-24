@@ -2,6 +2,7 @@
 title: DIY Zigbee chair occupancy sensor
 category: Zigbee
 tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, pressure, car]
+image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
 # DIY Zigbee chair occupancy sensor
@@ -37,14 +38,14 @@ exactly what I needed!
 
 This project only requires these two devices:
  
-[Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
-I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also be used for this.
+1. [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
+I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also do the trick.
 
 <a href="../buy/smart_home_best_buy_tips#contact-sensor">
 <img src="../buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-And a [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor)
+2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor)
 
 <a href="../buy/esphome_diy#pressure-sensor">
 <img src="../buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" />
@@ -58,24 +59,41 @@ To connect both, you need also some soldering tools:
 
 ## Wire them together
 
-![opened_contact_sensor.jpg](images_chair/opened_contact_sensor.jpg)
-![remove_reed_from_contact_sensor.jpg](images_chair/remove_reed_from_contact_sensor.jpg)
-![solder_wires_to_reed_contacts.jpg](images_chair/solder_wires_to_reed_contacts.jpg)
-![wires_through_hole.jpg](images_chair/wires_through_hole.jpg)
-![double_pressure_sensor.jpg](images_chair/double_pressure_sensor.jpg)
+A contact sensor is a boolean sensor, the circuit can be opened or closed.\
+That's also exact what the car seat pressure sensor returns.
 
+The only this that has to be done is connecting the pressure sensor wires to the (reed) contacts of the contact sensor.
+
+First open the contact sensor.
+![opened_contact_sensor.jpg](images_chair/opened_contact_sensor.jpg)
+You can remove the reed contact, but you can also leave it like it is. 
+Because there is no magnet nearby, those ends don't make contact. 
+The sensor is set parallel over this switch. 
+![remove_reed_from_contact_sensor.jpg](images_chair/remove_reed_from_contact_sensor.jpg)
+Drill a hole in the side of the contact sensor so the cables can go inside.
+![wires_through_hole.jpg](images_chair/wires_through_hole.jpg)
+Solder the wires to each side of the (reed) contact.
+![solder_wires_to_reed_contacts.jpg](images_chair/solder_wires_to_reed_contacts.jpg)
+You can also use two pressure sensors if you want to cover more space with just one sensor.\
+You connect both sensors together on the same reed contacts ends.
+![double_pressure_sensor.jpg](images_chair/double_pressure_sensor.jpg)
+Now you can place the sensor inside a pillow on the chair of inside the chair itself if you can zip the seat open.
 ![pillow_with_sensor_top.jpg](images_chair/pillow_with_sensor_top.jpg)
+
+When you now sit on it, the state of the contact sensor will change.\
+Now you can create automations based on it!
 
 ---
 
 ## Automations
 
 With this new sensor, it's possible to make all kind different automations, a few examples are:
-* When the light can turn on/off
-* When the PC can shut down
+* When the light still needs to be on
+* When the PC/monitor can shut down
 * When it's time to take a break
 * When it's time to end your working day
 * Control the room temperature because it's occupied
+* Send notifications with incorrect office health state values (CO2, temperature, humidity, PM2.5, VOC, or Formaldehyde)
 
 ---
 
@@ -152,10 +170,10 @@ entities:
 
 #### Occupied in time as graph
 
-Or show the occupied time in a line graph in time.\
+Or show the occupied time in a line graph over time.\
 It shows exactly where I took some breaks, the line is flat at that time.
 
-<img src="images_chair/hours_occupancy.png" alt="History graph Card in Home Assistant" width="400px">
+<img src="images_chair/graph_hours_occupancy.jpg" alt="History graph Card in Home Assistant" width="400px">
 
 A History graph Card is used for this.
 
@@ -178,7 +196,7 @@ Use the same History graph Card with binary sensors, then it's presented as a ba
 Here I add the chair occupancy sensor next to the value of a pir motion sensor in the same room. 
 As you can see, the chair sensor is much more reliable if you sit still!
 
-<img src="images_chair/bar_motion_chair_occupancy.png" alt="History graph bar Card in Home Assistant" width="400px">
+<img src="images_chair/bar_motion_chair_occupancy.jpg" alt="History graph bar Card in Home Assistant" width="400px">
 
 ```yaml
 {% raw %}
@@ -191,6 +209,8 @@ hours_to_show: 24
 
 {% endraw %}
 ```
+
+#### Is occupied
 
 Indicate if someone is sitting on the chair.
 
@@ -205,7 +225,18 @@ entities:
 {% endraw %}
 ```
 
+<br>
+
+That's it, a very useful and reliable DIY Zigbee chair sensor (for me at least!).
+
+<br>
+
 ---
+
+See also: [DIY zigbee leak sensor based on a contact sensor](zigbee_water_leak_sensor) or [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
+
+---
+
 [^^ Top](#table-of-contents)
 
 [<< See also my other Zigbee content](index)

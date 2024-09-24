@@ -10,17 +10,21 @@ image: /zigbee/images/zigbee.jpg
 Zigbee is a local smart home protocol.\
 I'm a hugh fan of it because it's local and wide support. 
 I have over 100 devices from all kinds of brands working together.\
-Find here related information and my Zigbee [Best Buy Tips](../buy/smart_home_best_buy_tips).
+Find here related information and my [Zigbee Best Buy Tips](../buy/smart_home_best_buy_tips).
 
 ---
 
-## Links
+## DIY projects
 
 How to create custom Zigbee sensors:
 
-[//]: # (* [DIY Zigbee chair occupancy sensor]&#40;zigbee_chair_occupancy_sensor&#41;)
+* [DIY Zigbee chair occupancy sensor](zigbee_chair_occupancy_sensor)
+
+  <a href="zigbee_chair_occupancy_sensor"><img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="DIY Zigbee chair occupancy sensor" height="100px"/></a>
+
 * [DIY Zigbee leak detector](zigbee_water_leak_sensor)
-  * <a href="zigbee_water_leak_sensor"><img src="images_leak/leak_sensor_assemblage.jpg" alt="diy Zigbee leak sensor assemblage" height="100px"/></a>
+  
+  <a href="zigbee_water_leak_sensor"><img src="images_leak/leak_sensor_assemblage.jpg" alt="DIY Zigbee leak sensor assemblage" height="100px"/></a>
 
 ---
 
