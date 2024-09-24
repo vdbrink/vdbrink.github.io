@@ -5,7 +5,7 @@ tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, pressure, 
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
-# DIY Zigbee chair occupancy sensor
+# DIY chair occupancy sensor
 *Based on a contact sensor and a car seat pressure sensor*
 
 ## Introduction

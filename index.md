@@ -18,7 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest bigger updates on this blog:
 
-* [DIY Zigbee chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
+* [DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
 * New Best Buy Tips: [USB adapter switch](buy/smart_home_best_buy_tips#usb-adapter-switch), [Air quality sensor](buy/smart_home_best_buy_tips#air-quality-sensor), [Rain sensor](buy/smart_home_best_buy_tips#rain-sensor)
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
