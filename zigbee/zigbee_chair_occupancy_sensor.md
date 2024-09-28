@@ -32,11 +32,27 @@ Other purposes for this sensor are:
 
 ## Table of Contents
 <!-- TOC -->
-  * [My solution](#my-solution)
-  * [Required hardware](#required-hardware)
-  * [Automations](#automations)
-  * [Home Assistant](#home-assistant)
+ * [My solution](#my-solution)
+ * [Automations](#automations)
+ * [Required hardware](#required-hardware)
+ * [Home Assistant](#home-assistant)
 <!-- TOC -->
+
+---
+
+## Automations
+
+<img src="images_chair/graph_hours_occupancy.jpg" alt="History graph Card in Home Assistant" width="400px">
+
+With this new sensor, it's possible to make all kind different automations, a few examples are:
+* When the light still needs to be on
+* Power up all the computer peripherals (monitor, lights, chargers)
+* Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while
+* When it's time to take a break to stand up and stretch your legs
+* When it's time to end your working day
+
+* Control the room temperature because it's occupied
+* Send notifications with incorrect office health state values (CO2, temperature, humidity, PM2.5, VOC, or Formaldehyde)
 
 ---
 
@@ -113,20 +129,6 @@ Now you can place the sensor inside a pillow on the chair of inside the chair it
 
 When you now sit on it, the state of the contact sensor will change.\
 Now you can create automations based on it!
-
----
-
-## Automations
-
-With this new sensor, it's possible to make all kind different automations, a few examples are:
-* When the light still needs to be on
-* Power up all the computer peripherals (monitor, lights, chargers)
-* Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while
-* When it's time to take a break to stand up and stretch your legs
-* When it's time to end your working day
-
-* Control the room temperature because it's occupied
-* Send notifications with incorrect office health state values (CO2, temperature, humidity, PM2.5, VOC, or Formaldehyde)
 
 ---
 
