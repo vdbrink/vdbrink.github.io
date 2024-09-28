@@ -1,7 +1,7 @@
 ---
 title: DIY Zigbee chair occupancy sensor
 category: Zigbee
-tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, pressure, car]
+tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, bed, mat, pressure, car]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
@@ -43,27 +43,46 @@ Other purposes for this sensor are:
 ## Required hardware
 
 This project only requires these two devices:
+
+> I have a Zigbee network, so I use a Zigbee contact sensors, but any other protocol sensor can also do the trick.
  
-1. [(Zigbee) Contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)\
-I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also do the trick.
+1a. [Aqara Water leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) (No soldering required)\
+The Aqara leak sensor has two metal screw contacts on the back of the sensor where you can connect the two wires behind.
 
-<a href="../buy/smart_home_best_buy_tips#contact-sensor">
-<img src="../buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
+<a href="/buy/smart_home_best_buy_tips#leak-sensor">
+<img src="/buy/images_zigbee/aqara_leak_sensor.webp" alt="Aqara water leak sensor" width="200px">
 </a>
 
-2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor)
+<br>
 
-<a href="../buy/esphome_diy#pressure-sensor">
-<img src="../buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" />
+1b. Or use a [(Zigbee) Contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) (Soldering required)\
+A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.\
+On this page I describe how it works with this sensor.
+
+<a href="/buy/smart_home_best_buy_tips#contact-sensor">
+<img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-To connect both, you need also some soldering tools:
+2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor) (smaller or bigger versions are available)
+
+<a href="/buy/esphome_diy#pressure-sensor">
+<img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> <img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
+</a>
+
+To connect them together, you need also some soldering tools if you use the contact sensor:
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
 
 ---
 
 ## Wire them together
+
+### With the Aqara water leak sensor
+
+With the Aqara water leak sensor you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. Screw them tight again an done!! 
+![Aqara water leak back with screws](images_chair/aqara_water_leak_back.jpg)
+
+### With a contact sensor
 
 A contact sensor is a boolean sensor, the circuit can be opened or closed.\
 That's also exact what the car seat pressure sensor returns.

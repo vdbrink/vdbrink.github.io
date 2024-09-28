@@ -254,13 +254,29 @@ A lux sensor is a sensor that measures the light intensity.
 
 ## Leak sensor
 
+<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="blank">
+<img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water, then the two contacts have a closed circuit because water conducts.
+
+This sensor can also be used with other boolean sensors, 
+like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">Aqara leak sensor (AliExpress)</a>
+
+### Other leak sensor
+
 <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-A leak sensor is a sensor that measures if there is water, then the two contacts have a closed circuit because water conducts.
+Another leak sensor is a sensor that measures if there is water, 
+then the two contacts have a closed circuit because water conducts.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (AliExpress)</a>
-<br><br><br>
+
+<br>
+<br>
+<br>
 
 ---
 

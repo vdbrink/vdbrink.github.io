@@ -160,12 +160,20 @@ Both are quite similar, but the 41 has some higher accuracy and can measure a bi
 
 ### Pressure sensor
 
-This car seat sensor measures if there is pressure on a chair or seat. The output is just an open or a closed circuit.
+This car seat sensor measures if there is pressure on a chair or seat. 
+The output is just an open or a closed circuit. 
+You can directly attach it to a contact-/water leak sensor. 
+
+
+<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">
+<img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">bigger version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">smaller version (AliExpress)</a>
 
 ### Weight sensor
 
