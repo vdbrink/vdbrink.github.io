@@ -82,9 +82,9 @@ To connect them together, you need also some soldering tools if you use the cont
 
 ## Wire them together
 
-### With the Aqara water leak sensor
+### With an Aqara water leak sensor
 
-With the Aqara water leak sensor you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. Screw them tight again and done!!
+With the Aqara water leak sensor, you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. Screw them tight again and done!!
 
 <a href="images_chair/aqara_leak_sensor_screws.jpg"><img src="images_chair/aqara_leak_sensor_screws.jpg" title="Aqara water leak back with screws" width="250px"/></a>
 
