@@ -120,9 +120,11 @@ Now you can create automations based on it!
 
 With this new sensor, it's possible to make all kind different automations, a few examples are:
 * When the light still needs to be on
-* When the PC/monitor can shut down
-* When it's time to take a break
+* Power up all the computer peripherals (monitor, lights, chargers)
+* Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while
+* When it's time to take a break to stand up and stretch your legs
 * When it's time to end your working day
+
 * Control the room temperature because it's occupied
 * Send notifications with incorrect office health state values (CO2, temperature, humidity, PM2.5, VOC, or Formaldehyde)
 
