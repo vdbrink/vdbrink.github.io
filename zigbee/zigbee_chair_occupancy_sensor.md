@@ -42,10 +42,15 @@ Other purposes for this sensor are:
 
 ## Required hardware
 
-This project only requires these two devices:
+This project only requires these two devices: A sensor to detect true or false and a pressure sensor.
 
 > I have a Zigbee network, so I use a Zigbee contact sensors, but any other protocol sensor can also do the trick.
- 
+
+The first sensor needs to detect anything or nothing. 
+This can be achieved with two different types of sensors. 
+A water leak sensor or a contact sensor. 
+Both work with a boolean (true of false) state.
+
 1a. [Aqara Water leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) (No soldering required)\
 The Aqara leak sensor has two metal screw contacts on the back of the sensor where you can connect the two wires behind.
 
@@ -79,8 +84,9 @@ To connect them together, you need also some soldering tools if you use the cont
 
 ### With the Aqara water leak sensor
 
-With the Aqara water leak sensor you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. Screw them tight again an done!! 
-![Aqara water leak back with screws](images_chair/aqara_water_leak_back.jpg)
+With the Aqara water leak sensor you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. Screw them tight again and done!!
+
+<a href="images_chair/aqara_leak_sensor_screws.jpg"><img src="images_chair/aqara_leak_sensor_screws.jpg" title="Aqara water leak back with screws" width="250px"/></a>
 
 ### With a contact sensor
 
