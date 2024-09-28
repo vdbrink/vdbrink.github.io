@@ -41,7 +41,7 @@ Other purposes for this sensor are:
 ---
 
 ## Automations
-
+ 
 <img src="images_chair/graph_hours_occupancy.jpg" alt="History graph Card in Home Assistant" width="400px">
 
 With this new sensor, it's possible to make all kind different automations, a few examples are:
@@ -58,17 +58,17 @@ With this new sensor, it's possible to make all kind different automations, a fe
 
 ## Required hardware
 
-This project only requires these two devices: A sensor to detect true or false and a pressure sensor.
+This project only requires these two devices: A boolean sensor to detect true or false and a pressure sensor.
 
 > I have a Zigbee network, so I use a Zigbee contact sensors, but any other protocol sensor can also do the trick.
 
-The first sensor needs to detect anything or nothing. 
+The first device needs to detect anything or nothing. 
 This can be achieved with two different types of sensors. 
 A water leak sensor or a contact sensor. 
 Both work with a boolean (true of false) state.
 
 1a. [Aqara Water leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) (No soldering required)\
-The Aqara leak sensor has two metal screw contacts on the back of the sensor where you can connect the two wires behind.
+The Aqara leak sensor has two metal screw contacts on the back of the sensor where you can connect direct the two wires of the pressure sensor behind.
 
 <a href="/buy/smart_home_best_buy_tips#leak-sensor">
 <img src="/buy/images_zigbee/aqara_leak_sensor.webp" alt="Aqara water leak sensor" width="200px">
@@ -90,9 +90,11 @@ On this page I describe how it works with this sensor.
 <img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> <img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
 
-To connect them together, you need also some soldering tools if you use the contact sensor:
+To connect them together, and you use the contact sensor you need also some soldering tools:
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
+
+With the leak sensor, you only need to strip the protection layer from the pressure sensor cables, that it.
 
 ---
 
