@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Grafana integration"
 description: "Integrate Grafana dashboard into Home Assistant"
 categories: [Home Assistant, Grafana]
 tags: [Home Assistant, dashboard, lovelace, Grafana, graphs, influxdb]
+image: /homeassistant/images_grafana/grafana_integration.png
 ---
 
 # Home Assistant dashboard: Grafana integration
@@ -98,8 +99,19 @@ You can add extra parameters to the url to change the way the data is presented.
 
 Add a `Webpage Card` (a.k.a. `iframe`) to your dashboard with the next settings:
 * Without a title
-* Set the URL to http://{grafana-host}:3000/{path}}orgId=1&kiosk=tv
+* Set the URL to http://{grafana-host}:3000/{path}orgId=1&kiosk=tv
 * Set the Aspect ratio to 100%
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# dashboard element code
+type: iframe
+aspect_ratio: 100%
+url: >-
+  http://{grafana-host}:3000/{path}?orgId=1&kiosk=tv
+{% endraw %}
+```
 
 <img src="images_grafana/grafana_integration.png" alt="Grafana as dashboard card" width="300px">
 
@@ -122,7 +134,7 @@ Then it will show the Grafana graph.
   card:
       type: iframe
       url: >-
-      http://{grafana-host}/path?orgId=1&refresh=1m&kiosk&viewPanel=11
+      http://{grafana-host}:3000/{path}?orgId=1&refresh=1m&kiosk&viewPanel=11
       aspect_ratio: '4:3'
 ```
 
@@ -151,6 +163,8 @@ Ones in a while I need to login in Grafana from the Home Assistant dashboard.
 <br>
 
 Good luck!
+
+Any questions or still unclear? Please let me know where I can improve it.
 
 ---
 [^^ Top](#table-of-contents)

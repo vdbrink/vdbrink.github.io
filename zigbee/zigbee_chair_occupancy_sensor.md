@@ -90,7 +90,7 @@ On this page I describe how it works with this sensor.
 <img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> <img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
 
-To connect them together, and you use the contact sensor you need also some soldering tools:
+To connect them together, and you use the contact sensor, you need also some soldering tools:
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
 

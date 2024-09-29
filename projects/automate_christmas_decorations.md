@@ -12,9 +12,10 @@ tags: [battery, Christmas, smart socket, usb hub, wall outlet]
 <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="200px" style="margin-left:15px;float:right" />
 During the Christmas season, we have a lot of extra lights around the house. Like Christmas trees, battery powered decorations and outside lights to cheer up the dark days.
 
+<br>
 
-As an automation geek, I was looking for solutions to automate all the extra season lights. 
-Not start the day by turning on all the lights and end the day with turning them off again manually. 
+As an automation geek, Last year I was looking for solutions to automate all these extra season lights. 
+Not start the day by turning on all the lights manually and end the day with turning them off again manually. 
 And when there is no one around for a while, why should the lights be on? 
 A waste of energy!
 

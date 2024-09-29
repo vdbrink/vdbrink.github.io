@@ -182,6 +182,8 @@ Sockets are always connected to power, this makes this sensor also a hub in the 
 
 A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
 
+I live in The Netherlands and around the world there are many different types of plugs. 
+These will only work in just a few EU lands.\
 I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues. 
 If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
 

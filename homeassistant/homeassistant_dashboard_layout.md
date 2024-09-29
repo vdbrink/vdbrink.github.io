@@ -422,22 +422,12 @@ entities:
 
 ## Embed Grafana graph
 
-Use the `iframe` element to include a Grafana graph in your Home Assistant dashboard. Use in Grafana the share functionality to generate the correct url.
+There is a dedicated [Home Assistant dashboard: Grafana integration](/homeassistant/homeassistant_dashboard_grafana) page how to integrate Grafana graphs in your Home Assistant dashboard.
 
 <img src="images_layout/layout_grafana.png" alt="ordered by date" width="400px">
 
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-- type: iframe
-  aspect_ratio: 100%
-  url: >-
-    http://<host>/d/7nsprokRk/overzicht?orgId=1&refresh=1m&theme=dark&kiosk&viewPanel=8
-{% endraw %}
-```
-
-To use this iframing, you need to set in `grafana.env` this value
-`GF_SECURITY_ALLOW_EMBEDDING=true`.
+You need to activate the iframe allowed functionality in Grafana, and then you can include a graph via an iframe/web card in Home Assistant.\
+Read all about in on the dedicated page.
 
 ---
 [^^ Top](#table-of-contents)
