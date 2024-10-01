@@ -44,13 +44,24 @@ By default, it's not possible to directly include Grafana graphs in Home Assista
 
 First, you need to add an extra environment variable or setting in grafana.ini to allow rendering in an iframe.
 
-Via environment settings:
+**Via HA Grafana addon configuration:**
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Addon configuration
+env_vars:
+  - name: GF_SECURITY_ALLOW_EMBEDDING
+  value: "true"
+{% endraw %}
+```
+
+**Or via Docker environment settings:**
 ```yaml
  environment:
       - GF_SECURITY_ALLOW_EMBEDDING=true 
 ```
 
-Or via grafana.ini:
+**Or via Grafana's own grafana.ini file:**
 ````yaml
 allow_embedding = true
 ````
@@ -94,6 +105,13 @@ You can add extra parameters to the url to change the way the data is presented.
 ---
 
 ## Home Assistant
+
+### Grafana addon installation
+
+Use this button to install Grafana as addon if you use the Home Assistant OS or Supervised. 
+Otherwise, you need to install it manually.
+
+<a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana&amp;repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository" rel="nofollow"><img src="https://camo.githubusercontent.com/a54868bd2c4edb2d623ab2fef3d074fe711b45c2c1cdc0fbe4dfd296faa594f8/68747470733a2f2f6d792e686f6d652d617373697374616e742e696f2f6261646765732f73757065727669736f725f6164646f6e2e737667" alt="Open this add-on in your Home Assistant instance." data-canonical-src="https://my.home-assistant.io/badges/supervisor_addon.svg" style="max-width: 100%;"></a>
 
 ### Include Grafana graph
 
