@@ -31,6 +31,7 @@ It's also possible to include these graphs, via the Home Assistant iframe panel,
     * [Create a dashboard link](#create-a-dashboard-link)
     * [Link tips](#link-tips)
   * [Home Assistant](#home-assistant)
+    * [Grafana addon installation](#grafana-addon-installation)
     * [Include Grafana graph](#include-grafana-graph)
     * [Conditional Grafana Graph](#conditional-grafana-graph)
     * [Grafana dashboard as full View dashboard](#grafana-dashboard-as-full-view-dashboard)
@@ -112,6 +113,7 @@ You can add extra parameters to the url to change the way the data is presented.
 
 Use this button to install Grafana as addon if you use the Home Assistant OS or Supervised. 
 Otherwise, you need to install it manually.
+This is possible via [Docker](/docker/index#grafana)
 
 <a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana&amp;repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository" rel="nofollow"><img src="https://camo.githubusercontent.com/a54868bd2c4edb2d623ab2fef3d074fe711b45c2c1cdc0fbe4dfd296faa594f8/68747470733a2f2f6d792e686f6d652d617373697374616e742e696f2f6261646765732f73757065727669736f725f6164646f6e2e737667" alt="Open this add-on in your Home Assistant instance." data-canonical-src="https://my.home-assistant.io/badges/supervisor_addon.svg" style="max-width: 100%;"></a>
 
