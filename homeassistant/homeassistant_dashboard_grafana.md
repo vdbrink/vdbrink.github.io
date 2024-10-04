@@ -3,7 +3,7 @@ title: "Home Assistant dashboard: Grafana integration"
 description: "Integrate Grafana dashboard into Home Assistant"
 categories: [Home Assistant, Grafana]
 tags: [Home Assistant, dashboard, lovelace, Grafana, graphs, influxdb]
-image: /homeassistant/images_grafana/grafana_integration.png
+image: /homeassistant/images_grafana/grafana_integration_dashboard.png
 ---
 
 # Home Assistant dashboard: Grafana integration
@@ -19,6 +19,8 @@ For that reason, you want to compare, for example, data from last year to curren
 Grafana and InfluxDB have seamless integration with each other.
 
 It's also possible to include these graphs, via the Home Assistant iframe panel, in your own dashboard.
+
+<img src="images_grafana/grafana_integration_dashboard.png" alt="Grafana integration in Home Assistant" height="400px" />
 
 ---
 ## Table of Contents
