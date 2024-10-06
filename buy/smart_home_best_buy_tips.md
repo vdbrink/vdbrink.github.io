@@ -35,7 +35,6 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
   * [Contact sensor](#contact-sensor)
   * [Motion sensor](#motion-sensor)
   * [Presence detection sensor](#presence-detection-sensor)
-  * [Smart socket](#smart-socket)
   * [Air quality sensor](#air-quality-sensor)
   * [Temperature sensor](#temperature-sensor)
   * [Lux sensor](#lux-sensor)
@@ -50,7 +49,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Portable button](#portable-button)
   * [Vibration sensor](#vibration-sensor)
   * [USB adapter switch](#usb-adapter-switch)
-  * [Google Coral USB](#google-coral-usb)
+  * [Smart socket](#smart-socket)
   * [Batteries](#batteries)
     * [AAA sized](#aaa-sized)
     * [CR2032](#cr2032)
@@ -60,6 +59,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
   * [Cables](#cables)
     * [Micro USB power cable](#micro-usb-power-cable)
     * [USB-C power cable](#usb-c-power-cable)
+    * [USB-C to USB-C](#usb-c-to-usb-c)
     * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
   * [Battery powered PIR lights](#battery-powered-pir-lights)
@@ -151,12 +151,15 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" style="margin-left:15px;float:left"/></a> &nbsp;
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
+<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="images_zigbee/zigbee_motion_pir.avif" height="100px"></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">Zigbee motion sensor beam, with stand - Aqara (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">Zigbee motion sensor beam, without stand - Xiaomi (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank">Zigbee motion sensor all directions - Tuya (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">Zigbee / WIFI motion sensor PIR, AAA powered (cheaper) - Tuya (AliExpress)</a>
 
 ---
 ## Presence detection sensor
@@ -169,37 +172,6 @@ It uses 24 GHz to send it signal to detect people in a room.
 It can also detect persons when they don't move, like they sit on a couch. Ideal for the living room or home office.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee mmWave Presence detection sensor (AliExpress)</a>
-
----
-
-## Smart socket
-<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="blank">
-<img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. You put it "on" and place the smart plug between the socket and wall. Now you change the switch functionality to the plug which you can be controlled automatically.
-
-Sockets are always connected to power, this makes this sensor also a hub in the Zigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
-
-A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
-
-I live in The Netherlands and around the world there are many different types of plugs. 
-These will only work in just a few EU lands.\
-I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues. 
-If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
-
-{{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 (Banggood)</a>
-
-### Outdoor socket
-<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="blank">
-<img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor Zigbee power socket, where each socket can be controlled individual and has power consumption measurements.
-
-{{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon.de)</a>
-
-<br>
 
 ---
 
@@ -221,7 +193,7 @@ All these values can affect a healthy environment at home.
 Normally you get single sensors for each parameter!
 
 Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor. 
-But for the other parameters it a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
+But for the other parameters it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
 
@@ -395,16 +367,37 @@ The first port can also be used to switch on/off data access via USB, the other 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
 <br><br>
 
+
 ---
 
-## Google Coral USB
+## Smart socket
+<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="blank">
+<img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
 
-<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">
-<img src="images_zigbee/google_coral.webp" alt="Google Coral" width="150px" style="margin-left:15px;float:right"/></a>
+Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. You put it "on" and place the smart plug between the socket and wall. Now you change the switch functionality to the plug which you can be controlled automatically.
 
-USB stick to handle heavy GPU processes, like human detection with Frigate. 
+Sockets are always connected to power, this makes this sensor also a hub in the Zigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">Coral - Google (AliExpress)</a>
+A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
+
+I live in The Netherlands and around the world there are many different types of plugs.
+These will only work in just a few EU lands.\
+I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues.
+If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
+
+{{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 (Banggood)</a>
+
+### Outdoor socket
+<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="blank">
+<img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor Zigbee power socket, where each socket can be controlled individual and has power consumption measurements.
+
+{{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon.de)</a>
+
+<br>
 
 ---
 
