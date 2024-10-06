@@ -212,6 +212,8 @@ Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EuScxuN" target="_blank">Zigbee temperature and humidity sensor (cheaper) - Tuya (AliExpress)</a>
+
 ---
 
 ## Lux sensor
