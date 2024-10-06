@@ -178,7 +178,7 @@ To load this, take the next steps:
 
 ---
 
-Ones in a while I need to login in Grafana from the Home Assistant dashboard.
+Once in a while, I need to login in Grafana from the Home Assistant dashboard.
 
 <img src="images_grafana/grafana_ha_login.png" alt="Grafana login" width="300px">
 
