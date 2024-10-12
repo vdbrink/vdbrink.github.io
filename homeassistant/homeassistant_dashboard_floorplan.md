@@ -47,6 +47,10 @@ To solve that, I was looking for a solution and I found some videos about the fl
 In a floor plan, you can add a lot of information on what's happening in each room with icons, colors and overlays. 
 This gives you a quick overview around the house, so I started creating my own interactive floor plan.
 
+An example how it could look like:
+
+<img src="images_floorplan/floorplan_appartment.jpg" alt="floor plan example" height="400px">
+
 > Before you start: be aware, this takes a lot of time to create it.\
 > But it's worth it!
 
