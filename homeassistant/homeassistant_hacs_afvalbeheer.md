@@ -22,7 +22,7 @@ Check the git repository to find all the options and if you can use it in your c
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Intro](#intro)
+  * [Intro](#introduction)
   * [Installation](#installation)
     * [Afvalbeheer integration](#afvalbeheer-integration)
     * [Auto-entities integration](#auto-entities-integration)
@@ -44,7 +44,7 @@ Check the git repository to find all the options and if you can use it in your c
 
 ---
 
-## Intro
+## Introduction
 
 I want to show the upcoming waste collecting not with a date, like 15-04-2024, as state but with a number of days countdown.
 Also, a presentation that shows only the ones that are relevant for the upcoming few days.\

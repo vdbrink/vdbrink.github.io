@@ -21,7 +21,7 @@ for managing my weekend chores.
 
 ## Table of Contents
 <!-- TOC -->
-* [Intro](#intro)
+* [Intro](#introduction)
 * [Functionalities](#functionalities)
 * [Final result](#final-result)
 * [Create the chores](#create-the-chores)
@@ -36,7 +36,7 @@ for managing my weekend chores.
 
 ---
 
-## Intro
+## Introduction
 
 I was looking for a solution to manage the weekend chores, via Home Assistant, for myself and the rest of the family. Where everyone can easily mark when they finished one.
 

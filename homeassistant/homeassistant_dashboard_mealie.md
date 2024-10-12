@@ -21,7 +21,7 @@ Here you find how I seamlessly integrate the recipe manager **Mealie** into my H
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Intro](#intro)
+  * [Intro](#introduction)
   * [Functionalities](#functionalities)
   * [Installation](#installation)
     * [Docker](#docker)
@@ -44,7 +44,7 @@ Here you find how I seamlessly integrate the recipe manager **Mealie** into my H
 
 ---
 
-## Intro
+## Introduction
 
 How do you manage your recipes? Via bookmarks in your browser? And end up with dead links to great recipes? Or as printed version with notes with your own improvements?
 

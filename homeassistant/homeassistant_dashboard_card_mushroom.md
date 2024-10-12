@@ -23,7 +23,7 @@ Install it via this button
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Intro](#intro)
+  * [Intro](#introduction)
   * [Cards](#cards)
     * [Title card](#title-card)
       * [Welcome text and weather forecast for today](#welcome-text-and-weather-forecast-for-today)
@@ -38,10 +38,10 @@ Install it via this button
 <!-- TOC -->
 
 ---
-## Intro
+## Introduction
 
 The mushroom card has a whole set of different card types.
-In my examples here I only use two of them. If you want to know more about them all, check this page https://github.com/piitaya/lovelace-mushroom#cards
+In my examples here, I only use two of them. If you want to know more about them all, check this page https://github.com/piitaya/lovelace-mushroom#cards
 
 <img src="images_mushroom/mushroom_card_types.png" alt="mushroom card types" width="150px" />
 

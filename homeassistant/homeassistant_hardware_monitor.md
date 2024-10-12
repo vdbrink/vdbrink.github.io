@@ -17,7 +17,7 @@ Git repository: https://github.com/Sennevds/system_sensors
 
 ## Table of Contents
 <!-- TOC -->
-* [Intro](#intro)
+* [Intro](#introduction)
 * [Setup](#setup)
 * [MQTT](#mqtt)
 * [Dashboard](#dashboard)
@@ -25,7 +25,7 @@ Git repository: https://github.com/Sennevds/system_sensors
 
 ---
 
-## Intro
+## Introduction
 
 <img src="images/system_monitor.png" alt="System monitor" style="float:right" width="180px">
 
