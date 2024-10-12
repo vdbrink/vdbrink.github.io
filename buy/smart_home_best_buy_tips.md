@@ -34,24 +34,26 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
 <!-- TOC -->
   * [Why I chose Zigbee](#why-i-chose-zigbee)
   * [Zigbee coordinator](#zigbee-coordinator)
-  * [Contact sensor](#contact-sensor)
-  * [Motion sensor](#motion-sensor)
-  * [Presence detection sensor](#presence-detection-sensor)
-  * [Air quality sensor](#air-quality-sensor)
-  * [Temperature sensor](#temperature-sensor)
-  * [Lux sensor](#lux-sensor)
-  * [Leak sensor](#leak-sensor)
-  * [Rain sensor](#rain-sensor)
-  * [Lights](#lights)
-    * [Bulb](#bulb)
-    * [LED strip](#led-strip)
-  * [Buttons](#buttons)
-    * [Wall switch](#wall-switch)
-    * [Wall dimmer](#wall-dimmer)
-    * [Portable button](#portable-button)
-  * [Vibration sensor](#vibration-sensor)
-  * [USB adapter switch](#usb-adapter-switch)
-  * [Smart socket](#smart-socket)
+  * [Zigbee sensors and actuators](#zigbee-sensors-and-actuators)
+    * [Contact sensor](#contact-sensor)
+    * [Motion sensor](#motion-sensor)
+    * [Presence detection sensor](#presence-detection-sensor)
+    * [Air quality sensor](#air-quality-sensor)
+    * [Temperature sensor](#temperature-sensor)
+    * [Lux sensor](#lux-sensor)
+    * [Leak sensor](#leak-sensor)
+    * [Rain sensor](#rain-sensor)
+    * [Lights](#lights)
+      * [Bulb](#bulb)
+      * [LED strip](#led-strip)
+    * [Buttons](#buttons)
+      * [Wall switch](#wall-switch)
+      * [Wall dimmer](#wall-dimmer)
+      * [Portable button](#portable-button)
+    * [Vibration sensor](#vibration-sensor)
+    * [USB adapter switch](#usb-adapter-switch)
+    * [Smart socket](#smart-socket)
+      * [Outdoor socket](#outdoor-socket)
   * [Batteries](#batteries)
     * [AAA sized](#aaa-sized)
     * [CR2032](#cr2032)
@@ -118,7 +120,9 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" t
 
 ---
 
-## Contact sensor
+## Zigbee sensors and actuators
+
+### Contact sensor
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -144,7 +148,7 @@ The sensor can also be used attached to other sensors that also return an open o
 
 ---
 
-## Motion sensor
+### Motion sensor
 <a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
@@ -173,7 +177,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
 ---
-## Presence detection sensor
+
+### Presence detection sensor
 
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
 <img src="images_zigbee/mmwave_motion_sensor.jpg" alt="mmwave Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -187,7 +192,7 @@ It can also detect persons when they don't move, like they sit on a couch. Ideal
 
 ---
 
-## Air quality sensor
+### Air quality sensor
 
 <a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -212,7 +217,7 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 
 ---
 
-## Temperature sensor
+### Temperature sensor
 
 <a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">
 <img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -232,7 +237,7 @@ Or in the summer when it becomes outside colder than inside.
 
 ---
 
-## Lux sensor
+### Lux sensor
 
 <a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -246,7 +251,7 @@ A lux sensor is a sensor that measures the light intensity.
 
 ---
 
-## Leak sensor
+### Leak sensor
 
 <a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -259,7 +264,7 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">Aqara leak sensor (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 
-### Other leak sensor
+#### Other leak sensor
 
 <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -276,7 +281,7 @@ then the two contacts have a closed circuit because water conducts.
 
 ---
 
-## Rain sensor
+### Rain sensor
 
 <a href="https://s.click.aliexpress.com/e/" target="_blank">
 <img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -291,9 +296,9 @@ It contains a build-in battery that charges via a small solar panel.
 
 ---
 
-## Lights
+### Lights
 
-### Bulb
+#### Bulb
 
 <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
 
@@ -308,7 +313,7 @@ With a colored version, you can use it to inform yourself with a color for diffe
 
 ---
 
-### LED strip
+#### LED strip
 
 <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">
 <img src="../projects/images_bin_day/zigbee_rgb_led_strip.webp" alt="LED strip" height="150px" style="margin-left:15px;float:right"/></a>
@@ -325,9 +330,9 @@ This LED strip is available in different versions:
 
 ---
 
-## Buttons
+### Buttons
 
-### Wall switch
+#### Wall switch
 
 <a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
@@ -341,7 +346,7 @@ This LED strip is available in different versions:
 <br>
 <br>
 
-### Wall dimmer
+#### Wall dimmer
 
 <a href="https://www.ecodim.nl/nl/eco-dim07-zigbee-basic.html" target="_blank">
 <img src="images_zigbee/ecodim07.webp" alt="Zigbee dimmers" height="150px" style="margin-left:15px;float:right"/></a>
@@ -356,7 +361,7 @@ The easiest way to make a dimmable group with gu10 lights smart.
 
 ---
 
-### Portable button
+#### Portable button
 
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">
 <img src="images_zigbee/zigbee_button.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
@@ -373,7 +378,7 @@ This button can trigger multiple scenario's because it supports three press type
 
 ---
 
-## Vibration sensor
+### Vibration sensor
 
 <a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">
 <img src="images_zigbee/zigbee_vibration_sensor.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
@@ -387,7 +392,7 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 ---
 
-## USB adapter switch
+### USB adapter switch
 
 <a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">
 <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" style="margin-left:15px;float:right"/></a>
@@ -402,7 +407,7 @@ The first port can also be used to switch on/off data access via USB, the other 
 
 ---
 
-## Smart socket
+### Smart socket
 <a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">
 <img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
 
@@ -423,7 +428,7 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 {{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 (Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
 
-### Outdoor socket
+#### Outdoor socket
 <a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">
 <img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
