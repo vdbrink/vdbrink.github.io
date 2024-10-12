@@ -118,22 +118,24 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" t
 
 ## Contact sensor
 
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">
+<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A contact sensor can be placed to check if doors and windows are open or closed. The sensor knows only those two values. The contact sensor works with a "reed switch", the circuit is by default open, but when there is a magnet nearby, the internal metal closes the circuit.
 
 The sensor can also be used attached to other sensors that also return an open or closed circuit. With this behavior, you can create also a seat sensor or a water leak sensor.
 
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">
+<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
 &nbsp;
-<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="blank">
+<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="blank">Zigbee Contact sensor - Aqara (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor - Aqara (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered (cheaper) - Tuya (AliExpress)</a> / <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" alt="ZD06">model ZD06</a>
 
 ---
 
@@ -164,7 +166,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 ---
 ## Presence detection sensor
 
-<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="blank">
+<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
 <img src="images_zigbee/mmwave_motion_sensor.jpg" alt="mmwave Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A millimeter wave presence sensor has no need to direct sight. You can hide it in a closet.
@@ -177,7 +179,7 @@ It can also detect persons when they don't move, like they sit on a couch. Ideal
 
 ## Air quality sensor
 
-<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="blank">
+<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six kinds of environmental parameters:
@@ -201,7 +203,7 @@ But for the other parameters it is a good overall air quality sensor to detect h
 
 ## Temperature sensor
 
-<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="blank">
+<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">
 <img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. 
@@ -218,7 +220,7 @@ Or in the summer when it becomes outside colder than inside.
 
 ## Lux sensor
 
-<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="blank">
+<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A lux sensor is a sensor that measures the light intensity.
@@ -230,7 +232,7 @@ A lux sensor is a sensor that measures the light intensity.
 
 ## Leak sensor
 
-<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="blank">
+<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water, then the two contacts have a closed circuit because water conducts.
@@ -242,7 +244,7 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 ### Other leak sensor
 
-<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="blank">
+<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 Another leak sensor is a sensor that measures if there is water, 
@@ -258,7 +260,7 @@ then the two contacts have a closed circuit because water conducts.
 
 ## Rain sensor
 
-<a href="https://s.click.aliexpress.com/e/" target="blank">
+<a href="https://s.click.aliexpress.com/e/" target="_blank">
 <img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This outdoor sensor detects raindrops and measures the light intensity (lux).\
@@ -340,7 +342,6 @@ This button can trigger multiple scenario's because it supports three press type
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (AliExpress)</a>
 
-<br>
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">Small Zigbee button - Tuya (AliExpress)</a>
 <br><br><br><br>
 
@@ -373,7 +374,7 @@ The first port can also be used to switch on/off data access via USB, the other 
 ---
 
 ## Smart socket
-<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="blank">
+<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">
 <img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. You put it "on" and place the smart plug between the socket and wall. Now you change the switch functionality to the plug which you can be controlled automatically.
@@ -392,7 +393,7 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 {{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 (Banggood)</a>
 
 ### Outdoor socket
-<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="blank">
+<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">
 <img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 This outdoor Zigbee power socket, where each socket can be controlled individual and has power consumption measurements.
