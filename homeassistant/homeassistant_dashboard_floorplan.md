@@ -11,7 +11,7 @@ image: /homeassistant/images_floorplan/banner.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find examples about how you can create your own interactive floor plan.
+Here you can find information about how you can create your own interactive floor plan.
 <br>
 <br>
 <br>
@@ -19,7 +19,7 @@ Here you can find examples about how you can create your own interactive floor p
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Intro](#intro)
+* [Introduction](#introduction)
 * [Get inspired](#get-inspired)
 * [Applications](#applications)
   * [Floorplanner.com](#floorplannercom)
@@ -38,37 +38,40 @@ Here you can find examples about how you can create your own interactive floor p
 
 ---
 
-## Intro
+## Introduction
 
 The possibility of creating an interactive floor plan was for me the reason to start with Home Assistant.\
-Before this I used an app to control some lights and see the temperatures and running Node-RED to automate stuff.\
-But after I added more and more sensors to my network it wasn't possible get a quick overview anymore.\
-I was looking for a solution and I found some video's about the floor plan possibilities in Home Assistant. 
-In a floor plan you can add a lot of information what's happening in each room with icons, colors and overlays. Which gives you a quick overview around the house.\
-So I started creating my own.
+Before Home Assistant, I used an app to control some lights and see the temperatures and running Node-RED to automate stuff.
+After I added more and more sensors to my network, it wasn't possible to get a quick overview anymore.
 
-> Before you start: be aware this take a lot of time to create it.\
+To solve that, I was looking for a solution and I found some videos about the floor plan possibilities in Home Assistant. 
+In a floor plan, you can add a lot of information on what's happening in each room with icons, colors and overlays. 
+This gives you a quick overview around the house, so I started creating my own interactive floor plan.
+
+> Before you start: be aware, this takes a lot of time to create it.\
 > But it's worth it!
 
 ---
 ## Get inspired
-Before you start take a look what other people made as floor plan and find the one which you like the most, so you can use that as example.
+Before you start, take a look at what other people created as a floor plan and find the one that you like the most, use this one as an example.
 
 Here are some sites where you can find such examples:
-* https://www.google.com/search?q=floorplan+home+assistant&source=lnms&tbm=isch
-* https://gathering.tweakers.net/forum/list_messages/1929384/0
-* https://github.com/theone11/HomeAssistantConfig
+* <a href="https://www.google.com/search?q=floorplan+home+assistant&source=lnms&tbm=isch" target="_blank">Google: floorplan Home Assistant</a>
+* <a href="https://www.pinterest.com/search/pins/?q=floorplan%20home%20assistant&rs=typed" target="_blank">Pinterest: floorplan Home Assistant</a>
+* <a href="https://github.com/theone11/HomeAssistantConfig" target="_blank">https://github.com/theone11/HomeAssistantConfig</a>
 
 ---
 ## Applications
-There a two common used applications to create a floor plan.
+If you already have a digital version of your floor plans, you can use those (initially).
+
+There are two commonly used applications to create a floor plan.
 
 ### Floorplanner.com
 
 <img src="images_floorplan/floorplanner-com.png" alt="floorplanner.com" height="100%">
 
 [Floorplanner.com](https://www.floorplanner.com) is a free online tool to create a 3D model of your house.
-It's easy to use and without any costs you have already a lot of furniture available.
+It's easy to use and without any costs you already have a lot of furniture available.
 This is also the tool I used for my floor plan.
 
 * You can use it everywhere because it's online
@@ -86,18 +89,19 @@ This is also the tool I used for my floor plan.
 
 ---
 ## Creating your floor plan
-When you've chosen an application you can start.\
+When you've chosen an application, you can start.\
 The first step is to create a raw digital map of your house. This can be done by drawing the walls, doors and windows. You can already start using this in your interactive floor plan.
 
 It's always possible to create a fancier floor plan with the actual wall colors, floor types and furniture in it.
-But this takes a lot of time, but it's worth it. ones you did it your can be proud off yourself and love it every time you use it!
+But this takes a lot of time, but it's worth it. 
+Ones you did it your can be proud of yourself and love it every time you use it!
 
 Steps to take:
 * Get online inspiration how you want it to look like.  
 * The best way to start is to get all the official sizes of each room.
 * Then draw all the walls and place the doors and windows in it.
 * Then add the furniture to each room.
-* Then as addition you can add floors and wall colors.
+* Then, as an addition, you can add floors and wall colors.
 * Now you can start adding the digital information
   * Start with the light icons
   * Add labels like room temperature
@@ -107,8 +111,12 @@ Steps to take:
 
 Your floor plan will be a layered model with the raw floor plan as base, then a layer with entities and on top of it overlays. 
 
----
 ### Floor plan images
+
+The first, bottom layer is the static image of your floor plan.
+
+Use the picture card element and upload the image to the `www` (a.k.a. `/local/`) directory of Home Assistant.
+
 <img src="images_floorplan/base_layer.png" alt="base floor plan image" height="150px">
 
 ```yaml
@@ -121,25 +129,26 @@ elements:
   ...
 {% endraw %}
 ```
+
 ---
 ### Overlays
 
-With overlays you can darken a room to indicate no one is there, or it's dark there.
+With overlays, you can darken a room to indicate no one is there, or no lights are on.
 
-<img src="images_floorplan/entities.png" alt="overlay on" height="150px">
+<img src="images_floorplan/entities.png" alt="overlay on" height="150px"> 
+&nbsp; &nbsp;
 <img src="images_floorplan/entity_icons.png" alt="overlay off" height="150px">
 
-If you use room in your floor plan and have all 90 degrees angles you can use a single small [black](images/black.png) square image to create the overlay. With the settings you can scale it to every size.
- 
-In this example I have a smartplug as entity for the overlay.
-When the plug has the state `on` it's full transparant and `off` it's 75% transparant. Then you still see all the elements but with a dark layer over the room.
+If you use rooms in your floor plan, and have all 90-degree angles, you can use a single small [black](images/black.png) square image to create the semi-transparent overlay. 
+With the settings, you can scale it to every size. By changing the `style` and `aspect_ratio` values.
 
-You create the right size of the overlay by changing the `style` and `aspect_ratio` values.
+In this example, I have a smart plug as entity for the overlay.
+When the plug has the state `on` it's full transparent and `off` it's 75% transparent. 
+Then you still see all the elements but with a dark layer over the room.
 
-The `tap_action` is here disabled. You can also choose to control the switch by clicking on it.
+The `tap_action` is here disabled. You can also choose to control the switch by clicking on the icon.
 
-Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X.
-
+Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X. 
 <details>
   <summary><b>> Click here to see an example of a binary helper sensor >></b></summary>
 
@@ -189,7 +198,8 @@ Overlay based on a smart plug status.
 
 ### Entity icons
 
-Entity icons (state-icon) show the icon of an entity.
+Entity icons (`state-icon`) show the icon of an entity.\
+By default, when you click on it is toggles, or you see the details.
 
 <img src="images_floorplan/entity_icons.png" alt="Entity icons" height="150px">
 
@@ -208,9 +218,9 @@ Entity icons (state-icon) show the icon of an entity.
 ---
 ### Entity labels
 
-Entity labels (state-label) show the text value of an entity.
+Entity labels (`state-label`) show the text value of an entity.
 
-To format a temperature see [here](homeassistant_dashboard_formatting#rounded-temperature-sensors)
+To format a temperature, see [here](homeassistant_dashboard_formatting#rounded-temperature-sensors)
 
 <img src="images_floorplan/entity_labels.png" alt="Entity labels" height="100px">
 
@@ -230,12 +240,11 @@ To format a temperature see [here](homeassistant_dashboard_formatting#rounded-te
     color: '#FFF'
 {% endraw %}
 ```
+
 ---
 ### Click, Double-click and Long-press actions
 
-With click actions (tap_action), Double-click (double_tap_action) and Long-press (hold_action) you can ignore it, toggle the status, navigate to another card, show a more info in a popup or call a script.
-
-In the example here I used click action, but this can also replace with one of the other tab actions.
+With click actions (`tap_action`), double-click (`double_tap_action`) and long-press (`hold_action`), or you can ignore it (`none`), toggle (`toggle`) the status, navigate to another card (`navigate`), show more info in a popup (`more-info`) or call a script (`call-service`).
 
 #### Click: No action
 ```yaml
@@ -244,6 +253,7 @@ tap_action:
   action: none
 {% endraw %}
 ```
+
 #### Click: Toggle status (default)
 ```yaml
 {% raw %}
@@ -258,7 +268,9 @@ tap_action:
 tap_action:
   action: navigate
   navigation_path: /lovelace/weather
+{% endraw %}
 ```
+
 #### Click: More info
 ```yaml
 {% raw %}
@@ -266,6 +278,7 @@ tap_action:
   action: more-info
 {% endraw %}
 ```
+
 #### Click: Service call
 ```yaml
 {% raw %}
@@ -274,10 +287,14 @@ tap_action:
   service: script.do_something
 {% endraw %}
 ```
+
 See also https://www.home-assistant.io/dashboards/actions/ for all info.
 
 ---
 ### Rotations
+
+You can rotate the icons at any angle.
+
 <img src="images_floorplan/rotations.png" alt="rotations" height="100px">
 
 ```yaml
@@ -288,7 +305,6 @@ style:
   rotate: degrees(90)
 {% endraw %}
 ```
-
 or with
 ```yaml
 {% raw %}
@@ -304,6 +320,7 @@ or with
 ---
 
 ### Change icons
+You can override the current icon for each entity.
 
 ```yaml
 {% raw %}
@@ -316,8 +333,14 @@ or with
 
 ### Change layer order
 
-When you can't click on an entity you need to change the order in the list.
-The higher in your yaml file the higher in the layer.
+When you can't click on an entity, you need to change the order in the list.
+The higher in your YAML file, the higher in the layer.
+
+---
+
+This is it from my side.\
+There are a lot more functionalities possible! 
+It's endless!
 
 ---
 [^^ Top](#table-of-contents)
