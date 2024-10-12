@@ -14,7 +14,6 @@ image: /homeassistant/images_floorplan/banner.png
 Here you can find information about how you can create your own interactive floor plan.
 <br>
 <br>
-<br>
 
 ---
 ## Table of Contents
