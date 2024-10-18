@@ -91,6 +91,8 @@ This is also the tool I used for my floor plan.
 * You have your own data locally
 * It has realistic light effects which you can use as overlay
 
+With this [Home Assistant Floor Plan Generator Plugin](https://github.com/shmuelzon/home-assistant-floor-plan/) you can export images direct in a format which you can directly use in Home Assistant.
+
 ---
 ## Creating your floor plan
 When you've chosen an application, you can start.\

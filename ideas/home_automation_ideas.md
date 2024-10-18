@@ -71,7 +71,8 @@ Criteria for my own automations are:
 * Notification if mail is sticking out. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is broken and not closed again after 1 minute)
 * Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
-<img src="images/mailbox.jpg" alt="mailbox" height="200px"/>
+<img src="images/mailbox.jpg" alt="mailbox" height="200px"/> &nbsp;
+<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
 
 ---
 
