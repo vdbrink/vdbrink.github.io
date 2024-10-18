@@ -11,21 +11,20 @@ image: /projects/images_christmas_decorations/banner_christmas.png
 
 ## Introduction
 
-<img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="200px" style="margin-left:15px;float:right" />
+<img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="90px" style="margin-left:15px;float:right" />
 
-During the Christmas season, we have a lot of extra lights in and around our house. 
-**Christmas trees**, all kinds of **battery powered decorations** and **outside lights** to cheer up the dark days.
+During the Christmas season, we have a lot of extra lights and powered decorations in and around our house. 
+**Christmas trees**, **battery powered decorations** and **outside lights** to cheer up the dark days.
 
-This COULD result in a lot of frustrations, but we don't go that way!\
+A lot of work to control them manually, but we don't go that way. Let's automate it.
+
 On this blog page, you can read how I automate all of it to enjoy the Christmas season even more!
-
-<br>
 
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [My old situation](#my-old-situation)
   * [Advantages](#advantages)
+  * [My old situation](#my-old-situation)
   * [My solutions](#my-solutions)
     * [Battery powered decorations](#battery-powered-decorations)
     * [Christmas tree lights string](#christmas-tree-lights-string)
@@ -33,6 +32,30 @@ On this blog page, you can read how I automate all of it to enjoy the Christmas 
     * [Outdoor lights](#outdoor-lights)
   * [Other solutions](#other-solutions)
 <!-- TOC -->
+
+---
+## Advantages
+
+<img src="images_christmas_decorations/ani_snow_globe.gif" alt="snow globe" width="100px" style="margin-left:15px;float:right" />
+
+There are a lot of advantages to automate all the lights and electric decorations. More than you can think of, like:
+* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again;
+    * _No use of batteries, no useless power usage, more time for other things, more comfort._
+    * _Only downside: No morning gymnastics to switch all the buttons in each corner._
+* Come downstairs, and all the cozy lights are (just) on;
+    * _More joy, quicker to the coffee!_
+* Outside lights only on when it becomes dark;
+    * _On a sunny day it doesn't make sense to put also all outside lights on_
+* No light on when there is nobody around for a while;
+    * _No useless power usage_
+* Spend more time in bed and sleep like a baby;
+    * _More rest, more energy, less coffee_
+* Fellow house members have no one to blame when it's complete dark because you were in a hurry to go to work;
+    * _More harmonie, for a better Christmas spirit_
+* Save money. You still need to buy once the stuff to automate it, but in the end it earns itself back very fast;
+    * _Less energy consumption, no batteries that need to be replaced every few days._
+
+These advantages must be enough excuses to buy even more home automation hardware. I convinced even myself!
 
 ---
 ## My old situation
@@ -58,30 +81,6 @@ Totally nothing wrong with the 90s!
 Two decades later, we can use "smarter" solutions. 
 Like control them more dynamically based on the daylight level or motion and occupancy detection.
 I, as an automation geek, I was (previous years) looking for such solutions and found them!
-
----
-## Advantages
-
-<img src="images_christmas_decorations/ani_snow_globe.gif" alt="snow globe" width="200px" style="margin-left:15px;float:right" />
-
-There are a lot of advantages to automate it, like:
-* Don't start every day with turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again;
-    * _Less stress, no use of batteries, no useless power usage, more time for other things, more comfort_
-    * _Only downside: No morning gymnastics_
-* Come downstairs, and all the cozy lights are (just) on;
-    * _More joy, quicker to the coffee!_
-* Outside lights only on when it becomes dark;
-    * _On a sunny day it doesn't make sense to put also all outside lights on_
-* No light on when there is nobody around for a while;
-    * _No useless power usage_
-* Spend more time in bed and sleep like a baby;
-    * _More rest, more energy, less coffee_
-* Fellow house members have no one to blame when it's complete dark because you were in a hurry to go to work;
-    * _More harmonie, for a better Christmas spirit_
-* Save money. You still need to buy once the stuff to automate it, but in the end it earns itself back very fast;
-    * _Less energy consumption, no batteries that need to be replaced every few days._
-
-These advantages must be enough excuses to buy even more home automation hardware. I convinced even myself!
 
 ---
 
