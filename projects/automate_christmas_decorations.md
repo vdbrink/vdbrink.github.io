@@ -3,9 +3,11 @@ title: "Automate Christmas decorations"
 description: "How to automate all your Christmas decorations."
 category: Projects
 tags: [battery, Christmas, smart socket, usb hub, wall outlet]
-#image:/projects/images_christmas_decorations/banner.png
+image: /projects/images_christmas_decorations/banner_christmas.png
 ---
 # Automate Christmas decorations
+
+<img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Christmas banner" width="450px" />
 
 ## Introduction
 
@@ -29,6 +31,7 @@ On this blog page, you can read how I automate all of it to enjoy the Christmas 
     * [Christmas tree lights string](#christmas-tree-lights-string)
     * [Lights with a power plug](#lights-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
+  * [Other solutions](#other-solutions)
 <!-- TOC -->
 
 ---
@@ -174,20 +177,33 @@ A two-pin EU outlet plug WITHOUT any button to select a mode, it's just always o
 
 ### Outdoor lights
 
+For outdoor wall sockets, there are also water-resistant Zigbee smart sockets.
+
 <img src="images_christmas_decorations/front_door_light.jpg" alt="Front door lights" width="200px" />
 
 <br>
 
-<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">
-<img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+* Nous outdoor Zigbee EU power socket has two ports, where each socket can be controlled individual and has power consumption measurements.
+ 
+  {{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon.de)
 
-This outdoor Zigbee EU power socket, where each socket can be controlled individual and has power consumption measurements.
+  <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
 
-{{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon.de)</a>
+* Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
 
+  {{imgBasket}}<a href="https://www.amazon.de/dp/B0BG8HSPTJ" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)
+
+  <img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
+
+---
+
+## Other solutions
+
+Do you have other solutions to automate your Christmas decorations? 
+Please let me know!
 
 ---
 
 Links to other sections of this blog site.
 
-[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node RED](../node-red/index)
+[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node-RED](../node-red/index)
