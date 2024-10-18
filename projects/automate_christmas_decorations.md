@@ -40,14 +40,16 @@ On this blog page, you can read how I automate all of it to enjoy the Christmas 
 
 There are a lot of advantages to automate all the lights and electric decorations. More than you can think of, like:
 * Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again;
-    * _No use of batteries, no useless power usage, more time for other things, more comfort._
-    * _Only downside: No morning gymnastics to switch all the buttons in each corner._
+    * _No use of batteries, no useless power usage, more time for other things, more comfort_
+    * _Only downside: No morning gymnastics to switch all the buttons in each corner_
 * Come downstairs, and all the cozy lights are (just) on;
     * _More joy, quicker to the coffee!_
 * Outside lights only on when it becomes dark;
     * _On a sunny day it doesn't make sense to put also all outside lights on_
+* Activate something (like playing Christmas music, or a dancing Santa) when someone shows up at your doorstep;
+    * _A smile on their face_     
 * No light on when there is nobody around for a while;
-    * _No useless power usage_
+    * _No useless power usage, which saves money_
 * Spend more time in bed and sleep like a baby;
     * _More rest, more energy, less coffee_
 * Fellow house members have no one to blame when it's complete dark because you were in a hurry to go to work;
