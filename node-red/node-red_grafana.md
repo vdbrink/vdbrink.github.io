@@ -10,12 +10,12 @@ tags:  [Node-RED, grafana]
 <img src="../esphome/orcon_images/grafana_shower_humidity.jpg" height="200px">
 
 ## Save device data to Grafana
-If the InfluxDB is up and running you can use Node-RED to push every message, which comes from a sensor, direct into the database.
+If the InfluxDB is up and running, you can use Node-RED to push every message, which comes from a sensor, direct into the database.
 
-The InfluxDB node converts every json entity to a separated column.
+The InfluxDB node converts every JSON entity to a separated column.
 Only the table name (in InfluxDB this called a `measurement`) needs to be set, this can be done in this node but, it's also possible to set it dynamic, this avoids making for every sensor duplicate flows. 
 
-When the node get this `msg.measurement=contact1` as input it will store the sensor data in `contact1`.
+When the node gets this `msg.measurement=contact1` as input it will store the sensor data in `contact1`.
 
 ![Save device data to InfluxDB](images/save_to_grafana.png)
 Used nodes:

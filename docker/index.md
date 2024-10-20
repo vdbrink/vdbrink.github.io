@@ -312,7 +312,7 @@ protocol websockets
 
 ## Zigbee2MQTT
 
-A bridge to read Zigbee devices values and convert the data to json and send it to the [mosquitto](#mosquitto) MQTT server.
+A bridge to read Zigbee devices values and convert the data to JSON and send it to the [mosquitto](#mosquitto) MQTT server.
 
 ```
   zigbee2mqtt:

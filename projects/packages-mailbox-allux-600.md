@@ -514,7 +514,7 @@ You can use your own preferred notification app here, like the Home Assistant Co
 
 The advantage of MQTT is that multiple applications can send and received messages on a topic. 
 A topic is some kind of channel. 
-The messages are in standard json format. 
+The messages are in standard JSON format. 
 So in my case Node-RED updates the status of topic `homeassistant/packagebox` and Home Assistant also listen to it and use it for its own automations and dashboard. 
 Check online tutorials for all ins and outs about MQTT.
 

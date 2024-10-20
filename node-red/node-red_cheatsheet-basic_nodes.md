@@ -26,8 +26,8 @@ More advanced examples with the function node can be found [here](node-red_cheat
 
 ---
 
-## Extract value from json
-Pass a single entity value, in this case the temperature, from a json message.
+## Extract value from JSON
+Pass a single entity value, in this case the temperature, from a JSON message.
 <div class="nodered">
 
 |                                                                              |                                                                   |        |

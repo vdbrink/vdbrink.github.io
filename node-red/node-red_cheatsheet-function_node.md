@@ -18,7 +18,7 @@ Examples of javascript code which you can use in Node-RED function nodes.
 * [Use flow variable](#use-flow-variable)
 * [Send (multiple) output message](#send-multiple-output-message)
 * [Show state icon](#show-state-icon)
-* [New json message](#new-json-message)
+* [New JSON message](#new-json-message)
 * [Convert String to Integer](#convert-string-to-integer)
 * [Send to a dynamic topic](#send-to-a-dynamic-topic)
 * [Convert Boolean to OFF/ON](#convert-boolean-to-offon)
@@ -64,8 +64,8 @@ var diff = 0;
 node.status( { fill: "green", shape: "ring", text: diff } );
 ```
 ---
-## New json message
-Create a new json message based on the input json message.
+## New JSON message
+Create a new JSON message based on the input JSON message.
 ```
 var temp = msg.payload;
 msg.payload = {
