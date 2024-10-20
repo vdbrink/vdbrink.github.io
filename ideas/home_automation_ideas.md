@@ -101,6 +101,9 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 ---
 
 ### Christmas lights
+
+I have a [dedicated page](/projects/automate_christmas_decorations) about how I automated my Christmas decorations.
+
 * Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/smart_home_best_buy_tips#battery-eliminators) and multiple connected to a [USB adapter switch](../buy/smart_home_best_buy_tips#usb-adapter-switch), powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
 * Christmas tree lights. (replace the default [power socket with always on mode switch](/buy/esphome_diy#christmas-light-adapter) and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) to control it)
 <br/><br/>
