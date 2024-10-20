@@ -8,6 +8,13 @@
         let els = document.querySelectorAll(".bbt");
         let num = Math.floor(Math.random() * els.length);
         els[num].style.display = "inline-block";
+
+        document.querySelectorAll('h1, h2, h3, h4, h5').forEach(title => {
+            title.addEventListener('click', function() {
+                const anchor = this.id;
+                window.location.href = window.location.origin + window.location.pathname + '#' + anchor;
+            });
+        });
     }
     window.onload = onloadBody;
 </script>
