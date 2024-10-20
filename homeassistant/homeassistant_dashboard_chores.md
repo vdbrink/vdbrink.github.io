@@ -32,6 +32,7 @@ for managing my weekend chores.
 * [Maintenance dashboard](#maintenance-dashboard)
 * [Background](#background)
 * [Credits](#credits)
+* [Alternatives](#alternatives)
 <!-- TOC -->
 
 ---
@@ -339,6 +340,12 @@ Then I found a solution with Home Assistant helpers. This is what I've worked ou
 
 I got the inspiration for this approach from
 https://smarthomepursuits.com/chore-tracking-with-point-system-in-home-assistant/
+
+---
+
+## Alternatives
+
+There is also a HACS integration where you also can manage your household tasks, [Chore Helper for Home Assistant](https://github.com/bmcclure/ha-chore-helper?tab=readme-ov-file#chore-helper-for-home-assistant)
 
 ---
 [^^ Top](#table-of-contents)
