@@ -90,7 +90,9 @@ I have more than 120 Zigbee devices and some running already for more than 4 yea
 ## Zigbee2MQTT
 
 <img src="images/zigbee2mqtt.png" alt="Zigbee2MQTT" height="150px" style="margin-left:15px;float:right"/></a>
-Zigbee2MQTT is the application which retrieves the data from the coordinator and convert the data
-to a JSON format and push that data to a MQTT topic.
+[Zigbee2MQTT](https://www.zigbee2mqtt.io/) is the application which retrieves the data from the coordinator and convert the data to a JSON format and push that data to the MQTT topics.
 
 You can also send data to sensors on their topic to define settings or update the current status.
+
+My Zigbee network map:
+<img src="images/zigbee_network_map.png" alt="Zigbee network map" width="500px" />
