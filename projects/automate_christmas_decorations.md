@@ -33,8 +33,8 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
   * [My old situation](#my-old-situation)
   * [My solutions](#my-solutions)
     * [Battery powered decorations](#battery-powered-decorations)
-    * [Christmas tree lights string](#christmas-tree-lights-string)
-    * [Lights with a power plug](#lights-with-a-power-plug)
+    * [Christmas tree lights](#christmas-tree-lights)
+    * [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
   * [Other solutions](#other-solutions)
 <!-- TOC -->
@@ -129,9 +129,10 @@ Now I also can control all my Christmas decorations from my phone.
 
 ### Battery powered decorations
 
-There are multiple smart hardware device combinations possible to change battery powered decorations . Here are some examples.
+There are multiple smart hardware device combinations possible to change battery powered decorations. 
+Here are some examples.
 
-#### Examples
+#### Example 1: battery-to-USB + smart USB adapter + 5V-adapter
 
 An example of a battery powered light is a garland with lights above the door. 
 Automated with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter and a 5V-adapter. With the smart USB-adapter you can activate each port individually.
@@ -151,6 +152,8 @@ Automated with a battery-to-usb set (a.k.a. battery eliminator/replacement), a s
 <a href="images_christmas_decorations/christmas_lights.jpg">
 <img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="300px" /></a>
 
+#### Example 2: battery-to-plug + smart socket
+
 Another example is a battery powered light in a bottle. I use for this a battery-to-plug set and a smart socket.
 
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
@@ -163,6 +166,8 @@ Another example is a battery powered light in a bottle. I use for this a battery
 <a href="images_christmas_decorations/battery_powered_deco.jpg">
 <img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration" height="300px"/></a>
 
+#### Example 3: battery-to-USB + USB hub + smart socket
+
 If you have multiple battery power devices close to each other, and you want to automate them the same way, you can use an active powered USB-hub.
 This hub can be powered with a smart socket to control all the connected devices at once.
 
@@ -172,6 +177,10 @@ This hub can be powered with a smart socket to control all the connected devices
 &nbsp;
 <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
 <img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" />
+</a>
+
+<a href="images_christmas_decorations/battery_powered_decorations.jpg">
+<img src="images_christmas_decorations/battery_powered_decorations.jpg" alt="battery powered deco with USB hub" height="300px"/>
 </a>
 
 #### Hardware suggestions
