@@ -13,6 +13,16 @@ I have over 100 devices from all kinds of brands working together.\
 Find here related information and my [Zigbee Best Buy Tips](../buy/smart_home_best_buy_tips).
 
 ---
+## Table of Contents
+<!-- TOC -->
+  * [DIY projects](#diy-projects)
+  * [Why I chose Zigbee](#why-i-chose-zigbee)
+  * [My Zigbee coordinator](#my-zigbee-coordinator)
+  * [Best Buy Tips](#best-buy-tips)
+  * [Zigbee2MQTT](#zigbee2mqtt)
+<!-- TOC -->
+
+---
 
 ## DIY projects
 
@@ -57,7 +67,7 @@ A reason why not to choose for Zigbee? I don't know :)
 
 Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issues, 
 it's a very reliable stick.
-My network grew to 120+ devices today, and it still runs fast.
+My network grew to 130+ devices today, and it still runs fast.
 
 To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick.
@@ -81,6 +91,6 @@ I have more than 120 Zigbee devices and some running already for more than 4 yea
 
 <img src="images/zigbee2mqtt.png" alt="Zigbee2MQTT" height="150px" style="margin-left:15px;float:right"/></a>
 Zigbee2MQTT is the application which retrieves the data from the coordinator and convert the data
-to a json format and push that data to a MQTT topic.
+to a JSON format and push that data to a MQTT topic.
 
 You can also send data to sensors on their topic to define settings or update the current status.
