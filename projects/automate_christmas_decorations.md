@@ -235,7 +235,6 @@ A two-pin EU outlet plug WITHOUT any button to select a mode, it's just always o
 
 ### Decoration/lights powered with a power plug
 
-
 * [Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket)
 
   <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
@@ -263,6 +262,30 @@ For outdoor wall sockets, there are also water-resistant Zigbee smart sockets.
   {{imgBasket}}<a href="https://www.amazon.de/dp/B0BG8HSPTJ" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)
 
   <img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
+
+---
+
+## Upcoming projects
+
+For this year I have an additional project. 
+I will use wireless lights, with different colors and brightness and controlled by a remote.
+I want to put the lights in a paper star and use a Zigbee IR remote control to replace the original remote so this can be automated.
+
+  <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">LED lights, with different colors and brightness, controlled by a remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
+    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px"/>
+  </a>
+
+* An infrared remote control. 
+  It can learn signals from a remote, and via Zigbee you can resend it via this device again. \
+ {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">IR remote control - Moes</a>
+
+  <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
+    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px"/>
+  </a>
 
 ---
 
