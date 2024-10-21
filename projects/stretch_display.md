@@ -70,27 +70,27 @@ For my project, I use option 1, but there are a lot of displays available on the
 
 #### Option 1
 
-<a href="https://s.click.aliexpress.com/e/_DEfuj8B" target="blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_DEfuj8B" target="_blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
 * 8.8 Inch 
 * Resolution 1920 * 480
 * NO touchscreen
 * Comes with power and HDMI cable
 
-  <a href="https://s.click.aliexpress.com/e/_DeEXehl" target="blank"><img src="images_stretch_display/stretch_display.webp" alt="Stretch display with touchscreen" width="30%"/></a>
+  <a href="https://s.click.aliexpress.com/e/_DeEXehl" target="_blank"><img src="images_stretch_display/stretch_display.webp" alt="Stretch display with touchscreen" width="30%"/></a>
 
 #### Option 2
 
-<a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 110,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 110,- (AliExpress)
 * Same size and resolution but a better version as above
 * WITH IPS touchscreen
 * Brighter colors
 * Raspberry mount on the back
 
-  <a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="blank"><img src="images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch display with touchscreen" width="30%"/></a>
+  <a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="_blank"><img src="images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch display with touchscreen" width="30%"/></a>
 
 #### Option 3
 
-<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="blank">Stretch displays are also in all different size available</a> (Aliexpress)
+<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="_blank">Stretch displays are also in all different size available</a> (Aliexpress)
 
 Of course, any other display can also be used!
 
@@ -98,7 +98,7 @@ Of course, any other display can also be used!
 
 ### Display holder
 
-<a href="https://s.click.aliexpress.com/e/_Dek5V2b" target="blank">Display holder</a> (AliExpress) 
+<a href="https://s.click.aliexpress.com/e/_Dek5V2b" target="_blank">Display holder</a> (AliExpress) 
 
 The mount for the display can stretch to hold devices in a range of 4.7" - 17.3". 
 It fits perfect between the claws, and the cables fit also perfectly through the bottom and directly connect to the ports. 
@@ -119,21 +119,21 @@ The big round heavy feet make it stand stable.
 ### Device with a web browser
 
 A small device with an OS which can run a web browser on it.\
-I had a <a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank">case</a> (AliExpress) for it.\
-You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank">Raspberry Pi Zero W</a> (AliExpress), a faster <a href="https://s.click.aliexpress.com/e/_DBzV3yf" target="blank">Raspberry Pi Zero 2 W</a> (AliExpress) or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.
+I had a <a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="_blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="_blank">case</a> (AliExpress) for it.\
+You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="_blank">Raspberry Pi Zero W</a> (AliExpress), a faster <a href="https://s.click.aliexpress.com/e/_DBzV3yf" target="_blank">Raspberry Pi Zero 2 W</a> (AliExpress) or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.
 
-<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" height="180px"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="_blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="_blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="_blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
 <img src="images_stretch_display/old_phone.jpg" alt="Old phone" height="180px"/>
 
 #### Micro SD-card
 
-<a href="https://s.click.aliexpress.com/e/" target="blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop.
+<a href="https://s.click.aliexpress.com/e/" target="_blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop.
 A minimal of 8 GB version is already enough, but larger one are just a little bit more expensive.
 Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
 
-<a href="https://s.click.aliexpress.com/e/" target="blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
+<a href="https://s.click.aliexpress.com/e/" target="_blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
 
 #### Power
 
@@ -146,35 +146,49 @@ To also power the display, I use <a href="https://s.click.aliexpress.com/e/_DEeG
 An <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.
 
 <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">
-<img src="../buy/images_diy/usb_cable_micro_usb.avif" alt="USB cable" width="180px"/></a>
-
-<a href="/buy/esphome_diy" target="_blank">alternative links</a>
+<img src="../buy/images_diy/micro_usb_cable.avif" alt="Micro USB cable" width="180px"/></a>
 
 ---
 
-### Smart socket
+### EU Smart socket
 
-<a href="../buy/smart_home_best_buy_tips#smart-socket">Zigbee smart plug</a> (AliExpress), to only run the PC and display only when someone is nearby otherwise it can automatically be turned off to save energy.
+<a href="../buy/smart_home_best_buy_tips#smart-socket">Zigbee smart EU plug</a> (AliExpress), to only run the PC and display only when someone is nearby otherwise it can automatically be turned off to save energy.
 
-  <a href="../buy/smart_home_best_buy_tips#smart-socket"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px"/></a>
+  <a href="../buy/smart_home_best_buy_tips#smart-socket"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15 smart socket" height="150px"/></a>
 
 ---
 
 ### USB Keyboard
 
-Optional USB keyboard to install the Raspberry. Once installed, it can be controlled via SSH.
+Optional [USB keyboard](https://s.click.aliexpress.com/e/_EywEzrL) to install the Raspberry.\
+They have different versions with different layouts.\
+Once installed, it can be controlled via SSH.
 
-<img src="images_stretch_display/usb_keyboard.webp" alt="" height="180px"/>
+<a href="https://s.click.aliexpress.com/e/_EywEzrL ">
+<img src="images_stretch_display/usb_keyboard.webp" alt="" width="180px"/>
+</a>
 
 ---
 
 ### CO2 sensor
 
-<a href="../buy/smart_home_best_buy_tips#smart-socket"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px"/></a>
+I have a [project page](/esphome/co2_scd40) how to create a cheap CO2 sensor yourself.
+
+<a href="/esphome/co2_scd40"><img src="/esphome/images_scd40/hardware.jpg" alt="DIY C02 sensor" width="180px"/></a>
+
+---
 
 ### Temperature sensor
 
-<a href="../buy/smart_home_best_buy_tips#temperature-sensor"><img src="../.jpg" alt="" height="150px"/></a>
+An example of a temperature sensor is this [Aqara Zigbee sensor](/buy/smart_home_best_buy_tips#temperature-sensor).
+
+<a href="/buy/smart_home_best_buy_tips#temperature-sensor"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aquara temperture sensor" width="180px"/></a>
+
+<br>
+
+Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
+
+<a href="/buy/esphome_diy" target="_blank">Alternative links</a> for above mentioned products.
 
 ---
 
@@ -211,14 +225,22 @@ https://github.com/NemesisRE/kiosk-mode
 
 ## Home Assistant dashboard
 
+See [this](/homeassistant/homeassistant_dashboard_stretch_layout) page where I describe the different elements on the dashboard.
+
 ### Weather station stretch display
 
-### Office stretch display
-
+<img src="images_stretch_display/weather_display1.png" alt="HA weather display" width="150px">
 
 ---
 
-## Future improvements
+### Office stretch display
+
+<img src="images_stretch_display/office_display1.png" alt="HA office display" width="150px">
+
+
+[//]: # (---)
+
+[//]: # (## Future improvements)
 
 [//]: # ()
 [//]: # (* Auto switch tabs )
@@ -292,6 +314,6 @@ https://github.com/NemesisRE/kiosk-mode
 
 ---
 
-Links to other sections of this blog site.
+Links to other sections of this blog site:
 
 [Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node RED](../node-red/index)
