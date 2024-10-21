@@ -52,6 +52,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
       * [Portable button](#portable-button)
     * [Vibration sensor](#vibration-sensor)
     * [USB adapter switch](#usb-adapter-switch)
+    * [Infrared remote control](#infrared-remote-control)
     * [Smart socket](#smart-socket)
       * [Outdoor socket](#outdoor-socket)
   * [Batteries](#batteries)
@@ -402,6 +403,21 @@ The first port can also be used to switch on/off data access via USB, the other 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
+
+<br>
+
+---
+
+### Infrared remote control
+
+<a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">
+<img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Zigbee IR remote control" height="150px" style="margin-left:15px;float:right"/></a>
+
+This device can learn infrared remote control signals and send them again via Zigbee. 
+This way you can create automations for air conditioners, fans, lights, etc.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
 <br>
 
