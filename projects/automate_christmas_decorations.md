@@ -36,7 +36,8 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
     * [Christmas tree lights](#christmas-tree-lights)
     * [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
-  * [Other solutions](#other-solutions)
+  * [Upcoming projects](#upcoming-projects)
+  * [Do you have other solutions?](#do-you-have-other-solutions)
 <!-- TOC -->
 
 ---
@@ -289,7 +290,7 @@ I want to put the lights in a paper star and use a Zigbee IR remote control to r
 
 ---
 
-## Other solutions
+## Do you have other solutions?
 
 Do you have other solutions to automate your Christmas decorations? 
 Please let me know!
