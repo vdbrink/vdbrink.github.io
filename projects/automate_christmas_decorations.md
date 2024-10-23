@@ -267,7 +267,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
 
-  {{imgBasket}}<a href="https://www.amazon.de/dp/B0BG8HSPTJ" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)
+  {{imgBasket}}<a href="https://www.amazon.de/dp/B0BG8HSPTJ" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)\
   {{imgBasket}}I bought mine at the local Lidl store, but they are not always available there (also not online), only once in a while.
 
   <img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
@@ -297,18 +297,20 @@ I want to put the lights in a paper star and use a Zigbee IR remote control to r
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px"/>
   </a>
 
+More details about this project will follow after I realized it!
+
 ---
 
 ## Automations
 
-I use Node-RED myself to control and automate all the decorations.
+I use Node-RED myself to control all the decoration and light automations.\
 If you have such automations in Home Assistant I can add those here also if you share them.
 
-### Activate a socket on motion detection
+### Activate a light on motion detection
 
 ```yaml
 {% raw %}
-
+[{"id":"e4c9ffe6e9ebc89e","type":"mqtt in","z":"fc546c6ffaa0d24f","name":"","topic":"zigbee2mqtt/motion1","qos":"0","datatype":"json","broker":"7527d055.ed7e2","nl":false,"rap":false,"inputs":0,"x":130,"y":40,"wires":[["283a54355d600404"]]},{"id":"7527d055.ed7e2","type":"mqtt-broker","name":"","broker":"mosquitto","port":"1883","tls":"bbaa4676.58e4c8","clientid":"node-red-client","autoConnect":true,"usetls":false,"protocolVersion":"5","keepalive":"60","cleansession":false,"autoUnsubscribe":true,"birthTopic":"","birthQos":"0","birthPayload":"","birthMsg":{},"closeTopic":"","closePayload":"","closeMsg":{},"willTopic":"","willQos":"0","willPayload":"","willMsg":{},"userProps":"","sessionExpiry":""},{"id":"bbaa4676.58e4c8","type":"tls-config","name":"","cert":"","key":"","ca":"","certname":"m2mqtt_srv.crt","keyname":"m2mqtt_srv.key","caname":"m2mqtt_ca.crt","servername":"","verifyservercert":false}]
 {% endraw %}
 ```
 
@@ -316,7 +318,7 @@ If you have such automations in Home Assistant I can add those here also if you 
 
 ```yaml
 {% raw %}
-
+[{"id":"fc546c6ffaa0d24f","type":"tab","label":"Flow 3","disabled":false,"info":"","env":[]},{"id":"95857193e1d3014e","type":"mqtt out","z":"fc546c6ffaa0d24f","name":"plug1","topic":"zigbee2mqtt/plug1/set","qos":"0","retain":"false","respTopic":"","contentType":"","userProps":"","correl":"","expiry":"","broker":"7527d055.ed7e2","x":1110,"y":94,"wires":[]},{"id":"283a54355d600404","type":"switch","z":"fc546c6ffaa0d24f","name":"occupancy = true","property":"payload.occupancy","propertyType":"msg","rules":[{"t":"true"},{"t":"else"}],"checkall":"true","repair":false,"outputs":2,"x":350,"y":100,"wires":[["4bd8838f5b3148e6","9234488c505f1034"],["f02e50b55cb46eaa"]]},{"id":"e4c9ffe6e9ebc89e","type":"mqtt in","z":"fc546c6ffaa0d24f","name":"","topic":"zigbee2mqtt/motion1","qos":"0","datatype":"json","broker":"7527d055.ed7e2","nl":false,"rap":false,"inputs":0,"x":130,"y":100,"wires":[["283a54355d600404"]]},{"id":"32d13518d26f4f38","type":"template","z":"fc546c6ffaa0d24f","name":"OFF","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"OFF","output":"str","x":770,"y":134,"wires":[["1b0aafefe85d17b3"]]},{"id":"1b0aafefe85d17b3","type":"rbe","z":"fc546c6ffaa0d24f","name":"","func":"rbe","gap":"","start":"","inout":"out","septopics":true,"property":"payload","x":970,"y":94,"wires":[["95857193e1d3014e"]]},{"id":"4bd8838f5b3148e6","type":"template","z":"fc546c6ffaa0d24f","name":"ON","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"ON","output":"str","x":770,"y":94,"wires":[["1b0aafefe85d17b3"]]},{"id":"f02e50b55cb46eaa","type":"delay","z":"fc546c6ffaa0d24f","name":"","pauseType":"delay","timeout":"30","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"allowrate":false,"outputs":1,"x":640,"y":134,"wires":[["32d13518d26f4f38"]]},{"id":"9234488c505f1034","type":"change","z":"fc546c6ffaa0d24f","name":"reset","rules":[{"t":"set","p":"reset","pt":"msg","to":"1","tot":"num"}],"action":"","property":"","from":"","to":"","reg":false,"x":510,"y":60,"wires":[["f02e50b55cb46eaa"]]},{"id":"17481e8d3a375fed","type":"comment","z":"fc546c6ffaa0d24f","name":"vdbrink.github.io","info":"","x":120,"y":40,"wires":[]},{"id":"7527d055.ed7e2","type":"mqtt-broker","name":"","broker":"mosquitto","port":"1883","tls":"bbaa4676.58e4c8","clientid":"node-red-client","autoConnect":true,"usetls":false,"protocolVersion":"5","keepalive":"60","cleansession":false,"autoUnsubscribe":true,"birthTopic":"","birthQos":"0","birthPayload":"","birthMsg":{},"closeTopic":"","closePayload":"","closeMsg":{},"willTopic":"","willQos":"0","willPayload":"","willMsg":{},"userProps":"","sessionExpiry":""},{"id":"bbaa4676.58e4c8","type":"tls-config","name":"","cert":"","key":"","ca":"","certname":"m2mqtt_srv.crt","keyname":"m2mqtt_srv.key","caname":"m2mqtt_ca.crt","servername":"","verifyservercert":false}]
 {% endraw %}
 ```
 
@@ -324,7 +326,7 @@ If you have such automations in Home Assistant I can add those here also if you 
 
 ```yaml
 {% raw %}
-
+[{"id":"fc546c6ffaa0d24f","type":"tab","label":"Flow 3","disabled":false,"info":"","env":[]},{"id":"95857193e1d3014e","type":"mqtt out","z":"fc546c6ffaa0d24f","name":"plug1","topic":"zigbee2mqtt/plug1/set","qos":"0","retain":"false","respTopic":"","contentType":"","userProps":"","correl":"","expiry":"","broker":"7527d055.ed7e2","x":890,"y":100,"wires":[]},{"id":"17481e8d3a375fed","type":"comment","z":"fc546c6ffaa0d24f","name":"vdbrink.github.io","info":"","x":120,"y":40,"wires":[]},{"id":"4887e36795501543","type":"mqtt in","z":"fc546c6ffaa0d24f","name":"","topic":"zigbee2mqtt/lux1","qos":"0","datatype":"json","broker":"7527d055.ed7e2","nl":false,"rap":false,"inputs":0,"x":120,"y":100,"wires":[["7e9d2015c86738a5"]]},{"id":"c3cfddf246fe13bb","type":"template","z":"fc546c6ffaa0d24f","name":"ON","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"ON","output":"str","x":610,"y":80,"wires":[["e51d8f56add45b05"]]},{"id":"abd3f54563749818","type":"template","z":"fc546c6ffaa0d24f","name":"OFF","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"OFF","output":"str","x":610,"y":120,"wires":[["e51d8f56add45b05"]]},{"id":"e51d8f56add45b05","type":"rbe","z":"fc546c6ffaa0d24f","name":"","func":"rbe","gap":"","start":"","inout":"out","septopics":true,"property":"payload","topi":"topic","x":750,"y":100,"wires":[["95857193e1d3014e","7f32ace694a0666d"]]},{"id":"afcd6d623fd01433","type":"falling-edge","z":"fc546c6ffaa0d24f","name":"160","threshold":"160","x":490,"y":80,"wires":[["c3cfddf246fe13bb"]]},{"id":"dde843e60d0762fe","type":"rising-edge","z":"fc546c6ffaa0d24f","name":"1000","threshold":"1000","x":490,"y":120,"wires":[["abd3f54563749818"]]},{"id":"7e9d2015c86738a5","type":"change","z":"fc546c6ffaa0d24f","name":"","rules":[{"t":"set","p":"payload","pt":"msg","to":"payload.illuminance_lux","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":320,"y":100,"wires":[["afcd6d623fd01433","dde843e60d0762fe"]]},{"id":"fe23de1883877205","type":"inject","z":"fc546c6ffaa0d24f","name":"800","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"{ \"illuminance_lux\": 800}","payloadType":"json","x":110,"y":200,"wires":[["7e9d2015c86738a5"]]},{"id":"7f32ace694a0666d","type":"debug","z":"fc546c6ffaa0d24f","name":"debug 105","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":910,"y":60,"wires":[]},{"id":"30de2de1673e6490","type":"inject","z":"fc546c6ffaa0d24f","name":"100","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"{ \"illuminance_lux\": 100}","payloadType":"json","x":110,"y":240,"wires":[["7e9d2015c86738a5"]]},{"id":"a995a4bfd8f4d4e7","type":"inject","z":"fc546c6ffaa0d24f","name":"1001","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"{ \"illuminance_lux\": 1001}","payloadType":"json","x":110,"y":160,"wires":[["7e9d2015c86738a5"]]},{"id":"7527d055.ed7e2","type":"mqtt-broker","name":"","broker":"mosquitto","port":"1883","tls":"bbaa4676.58e4c8","clientid":"node-red-client","autoConnect":true,"usetls":false,"protocolVersion":"5","keepalive":"60","cleansession":false,"autoUnsubscribe":true,"birthTopic":"","birthQos":"0","birthPayload":"","birthMsg":{},"closeTopic":"","closePayload":"","closeMsg":{},"willTopic":"","willQos":"0","willPayload":"","willMsg":{},"userProps":"","sessionExpiry":""},{"id":"bbaa4676.58e4c8","type":"tls-config","name":"","cert":"","key":"","ca":"","certname":"m2mqtt_srv.crt","keyname":"m2mqtt_srv.key","caname":"m2mqtt_ca.crt","servername":"","verifyservercert":false}]
 {% endraw %}
 ```
 
@@ -332,7 +334,7 @@ If you have such automations in Home Assistant I can add those here also if you 
 
 ```yaml
 {% raw %}
-
+[{"id":"fc546c6ffaa0d24f","type":"tab","label":"Flow 3","disabled":false,"info":"","env":[]},{"id":"95857193e1d3014e","type":"mqtt out","z":"fc546c6ffaa0d24f","name":"plug1","topic":"zigbee2mqtt/plug1/set","qos":"0","retain":"false","respTopic":"","contentType":"","userProps":"","correl":"","expiry":"","broker":"7527d055.ed7e2","x":730,"y":80,"wires":[]},{"id":"17481e8d3a375fed","type":"comment","z":"fc546c6ffaa0d24f","name":"vdbrink.github.io","info":"","x":120,"y":40,"wires":[]},{"id":"e51d8f56add45b05","type":"rbe","z":"fc546c6ffaa0d24f","name":"","func":"rbe","gap":"","start":"","inout":"out","septopics":true,"property":"payload","topi":"topic","x":590,"y":80,"wires":[["95857193e1d3014e"]]},{"id":"7aeac0d65eb31c24","type":"mqtt in","z":"fc546c6ffaa0d24f","name":"","topic":"frigate/camera_1/person/snapshot","qos":"2","datatype":"buffer","broker":"7527d055.ed7e2","nl":false,"rap":false,"rh":"2","inputs":0,"x":180,"y":80,"wires":[["3738a583e0135c76"]]},{"id":"3738a583e0135c76","type":"trigger","z":"fc546c6ffaa0d24f","name":"","op1":"ON","op2":"OFF","op1type":"str","op2type":"str","duration":"3","extend":true,"overrideDelay":false,"units":"min","reset":"","bytopic":"all","topic":"topic","outputs":1,"x":430,"y":80,"wires":[["e51d8f56add45b05"]]},{"id":"7527d055.ed7e2","type":"mqtt-broker","name":"","broker":"mosquitto","port":"1883","tls":"bbaa4676.58e4c8","clientid":"node-red-client","autoConnect":true,"usetls":false,"protocolVersion":"5","keepalive":"60","cleansession":false,"autoUnsubscribe":true,"birthTopic":"","birthQos":"0","birthPayload":"","birthMsg":{},"closeTopic":"","closePayload":"","closeMsg":{},"willTopic":"","willQos":"0","willPayload":"","willMsg":{},"userProps":"","sessionExpiry":""},{"id":"bbaa4676.58e4c8","type":"tls-config","name":"","cert":"","key":"","ca":"","certname":"m2mqtt_srv.crt","keyname":"m2mqtt_srv.key","caname":"m2mqtt_ca.crt","servername":"","verifyservercert":false}]
 {% endraw %}
 ```
 ---
