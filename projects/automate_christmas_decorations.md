@@ -31,12 +31,13 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
 <!-- TOC -->
   * [Advantages](#advantages)
   * [My old situation](#my-old-situation)
-  * [My solutions](#my-solutions)
+  * [My smart hardware solutions](#my-smart-hardware-solutions)
     * [Battery powered decorations](#battery-powered-decorations)
     * [Christmas tree lights](#christmas-tree-lights)
     * [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
   * [Upcoming projects](#upcoming-projects)
+  * [Automations](#automations)
   * [Do you have other solutions?](#do-you-have-other-solutions)
 <!-- TOC -->
 
@@ -49,7 +50,7 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
 There are a lot of advantages to automate all the lights and electric decorations. 
 It's not only about turning them on and off.
 It's more than you can think of, like:
-* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again;
+* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again; [Node-RED automation](#activate-a-socket-on-motion-detection)
     * _No use of batteries, no useless power usage, more time for other things, more comfort_
     * _Only downside: No morning gymnastics to switch all the buttons in each corner_
 * Come downstairs, and all the cozy lights are (just) on;
@@ -105,7 +106,7 @@ Read along how I did that.
 
 ---
 
-## My solutions
+## My smart hardware solutions
 
 As mentioned, I have multiple types of Christmas decorations.\
 Which result in four power types to automate:
@@ -114,8 +115,8 @@ Which result in four power types to automate:
 <img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" /></a>
 
 * [Battery powered decorations](#battery-powered-decorations), 15+ pieces
-* [Christmas tree lights](#christmas-tree-lights-string) with a button to turn it on and change light mode to get to the right mode.
-* [Decoration/lights powered with a power plug](#lights-with-a-outlet-plug)
+* [Christmas tree lights](#christmas-tree-lights) with a button to turn it on and change light mode to get to the right mode.
+* [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug), 10+ pieces
 * [Outdoor lights](#outdoor-lights)
 <br>
 
@@ -188,36 +189,36 @@ This hub can be powered with a smart socket to control all the connected devices
 
 As you could read, there are multiple combinations possible.
 
-* [Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators)
+* [Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
    
    <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
         <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" />
    </a>
 
-* [5V EU USB power adapter](../buy/smart_home_best_buy_tips#power)
+* [5V EU USB power adapter](../buy/smart_home_best_buy_tips#power) to power the USB battery eliminators.
 
     <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
         <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200"/>
     </a>
 
-* [EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket)
+* [EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or the correct socket for your country.
 
     <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
         <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px"/>
     </a>
 
-* [Active USB hub](../buy/esphome_diy#usb-hub)
+* [Active USB hub](../buy/esphome_diy#usb-hub) to power and control multiple battery eliminators at once.
 
     <a href="../buy/esphome_diy#usb-hub" target="_blank">
         <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px"/>
     </a>
 
-* [USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch)
+* [USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individual.
 
     <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
     <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" /></a>
 
-    This actuator can toggle the power state of each USB port individual.
+    This actuator can toggle the power state of each USB port individual. You can choose for an adapter with 1, 2 or 3 ports.
 
     {{imgBasket}}<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
 
@@ -225,7 +226,9 @@ As you could read, there are multiple combinations possible.
 
 ### Christmas tree lights
 
-A two-pin EU outlet plug WITHOUT any button to select a mode, it's just always on, for a Christmas light string with the specs 31V and 3.6W.
+My Christmas tree have a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress I found this exact same plug but without a power button and without switching the disco modes, just always on.
+If you have also a plug with a button you can always try to find a similar plug without a button.
+Or if your familiar with soldering and electronics you can modify the current button and make it always on, but only advised for Professionals!!
 
 <a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
 <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" width="200px"/></a>
@@ -236,7 +239,7 @@ A two-pin EU outlet plug WITHOUT any button to select a mode, it's just always o
 
 ### Decoration/lights powered with a power plug
 
-* [Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket)
+* [Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or look for a smart socket that fits your country.
 
   <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
     <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="smart socket" width="200px"/>
@@ -246,11 +249,15 @@ A two-pin EU outlet plug WITHOUT any button to select a mode, it's just always o
 
 ### Outdoor lights
 
-For outdoor wall sockets, there are also water-resistant Zigbee smart sockets.
+I have in my garden several waterproof power sockets. Here I use outdoor water-resistant Zigbee power sockets to automate the outdoor decorations and lights.
+
+<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="200px" />
 
 <img src="images_christmas_decorations/front_door_light.jpg" alt="Front door lights" width="200px" />
 
 <br>
+The number of these sockets models are limited. 
+If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * Nous outdoor Zigbee EU power socket has two ports, where each socket can be controlled individual and has power consumption measurements.
  
@@ -261,6 +268,7 @@ For outdoor wall sockets, there are also water-resistant Zigbee smart sockets.
 * Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
 
   {{imgBasket}}<a href="https://www.amazon.de/dp/B0BG8HSPTJ" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)
+  {{imgBasket}}I bought mine at the local Lidl store, but they are not always available there (also not online), only once in a while.
 
   <img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
 
@@ -268,7 +276,8 @@ For outdoor wall sockets, there are also water-resistant Zigbee smart sockets.
 
 ## Upcoming projects
 
-For this year I have an additional project. 
+For this year I have an additional project I will work on. 
+Here are already the specs of this project.
 I will use wireless lights, with different colors and brightness and controlled by a remote.
 I want to put the lights in a paper star and use a Zigbee IR remote control to replace the original remote so this can be automated.
 
@@ -290,10 +299,53 @@ I want to put the lights in a paper star and use a Zigbee IR remote control to r
 
 ---
 
+## Automations
+
+I use Node-RED myself to control and automate all the decorations.
+If you have such automations in Home Assistant I can add those here also if you share them.
+
+### Activate a socket on motion detection
+
+```yaml
+{% raw %}
+
+{% endraw %}
+```
+
+#### Disable a socket after a period of inactivity
+
+```yaml
+{% raw %}
+
+{% endraw %}
+```
+
+### Activate a socket based on outside lux
+
+```yaml
+{% raw %}
+
+{% endraw %}
+```
+
+### Activate a socket based on someone entering the house
+
+```yaml
+{% raw %}
+
+{% endraw %}
+```
+---
+
 ## Do you have other solutions?
 
-Do you have other solutions to automate your Christmas decorations? 
+Do you have other solutions or idea's to automate your Christmas decorations? 
 Please let me know!
+
+---
+
+I hope you enjoyed reading this blog post and found it useful!
+If you have any questions or comments, please post them below my social media posts, in the comment section.
 
 ---
 
