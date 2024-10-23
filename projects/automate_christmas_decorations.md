@@ -61,6 +61,8 @@ It's more than you can think of, like:
     * _A smile on their face_     
 * No lights on when there is nobody around for a while;
     * _No useless power usage, which saves money_
+<a href="images_christmas_decorations/outside_tree_light.jpg">
+<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
 * Spend more time in bed and sleep like a baby;
     * _More rest, more energy, less coffee_
 * Fellow house members have no one to blame when the cozy lights are off because you were in a hurry to go to work;
@@ -249,14 +251,17 @@ Or if your familiar with soldering and electronics you can modify the current bu
 
 ### Outdoor lights
 
-I have in my garden several waterproof power sockets. Here I use outdoor water-resistant Zigbee power sockets to automate the outdoor decorations and lights.
+I have in my garden several waterproof power sockets. Here I use outdoor water-resistant Zigbee power sockets to automate the outdoor decorations and lights.\
+In the front yard I put the light string wire through the mailbox to plug it inside.
 
-<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="200px" />
-
-<img src="images_christmas_decorations/front_door_light.jpg" alt="Front door lights" width="200px" />
+<a href="images_christmas_decorations/outside_tree_light.jpg">
+<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" height="200px" /></a>
+&nbsp;
+<a href="images_christmas_decorations/front_door_light.jpg">
+<img src="images_christmas_decorations/front_door_light.jpg" alt="Front door lights" height="200px" /></a>
 
 <br>
-The number of these sockets models are limited. 
+The number of these socket models are limited. 
 If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * Nous outdoor Zigbee EU power socket has two ports, where each socket can be controlled individual and has power consumption measurements.
