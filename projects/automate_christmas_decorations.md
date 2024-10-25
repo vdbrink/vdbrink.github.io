@@ -61,9 +61,7 @@ It's more than you can think of, like:
     * _A smile on their face_     
 * No lights on when there is nobody around for a while;
     * _No useless power usage, which saves money_
-<a href="images_christmas_decorations/outside_tree_light.jpg">
-<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
-* Spend more time in bed and sleep like a baby;
+* Spend more time in bed and sleep like a baby; <a href="images_christmas_decorations/outside_tree_light.jpg"><img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
     * _More rest, more energy, less coffee_
 * Fellow house members have no one to blame when the cozy lights are off because you were in a hurry to go to work;
     * _More harmonie, for a better Christmas spirit_
@@ -151,7 +149,8 @@ Automated with a battery-to-usb set (a.k.a. battery eliminator/replacement), a s
     <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" height="150px"/>
 </a>
 <br>
-<img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string" height="300px" />
+<a href="images_christmas_decorations/door_deco_lights.jpg">
+<img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string" height="300px" /></a>
 
 <a href="images_christmas_decorations/christmas_lights.jpg">
 <img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="300px" /></a>
@@ -166,7 +165,8 @@ Another example is a battery powered light in a bottle. I use for this a battery
 <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
 <img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" /></a>
 <br>
-<img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights" height="300px" />
+<a href="images_christmas_decorations/lights_in_a_bottle.jpg">
+<img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights" height="300px" /></a>
 <a href="images_christmas_decorations/battery_powered_deco.jpg">
 <img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration" height="300px"/></a>
 
@@ -175,12 +175,12 @@ Another example is a battery powered light in a bottle. I use for this a battery
 If you have multiple battery power devices close to each other, and you want to automate them the same way, you can use an active powered USB-hub.
 This hub can be powered with a smart socket to control all the connected devices at once.
 
-<a href="images_christmas_decorations/usb_hub.jpg">
-<img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub" height="300px"/>
+<a href="../buy/esphome_diy#usb-hub" target="_blank">
+<img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub" height="300px" class="buy-link" />
 </a>
 &nbsp;
 <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
-<img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" />
+<img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" class="buy-link" />
 </a>
 
 <a href="images_christmas_decorations/battery_powered_decorations.jpg">
@@ -194,31 +194,31 @@ As you could read, there are multiple combinations possible.
 * [Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
    
    <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
-        <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" />
+        <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" class="buy-link"/>
    </a>
 
 * [5V EU USB power adapter](../buy/smart_home_best_buy_tips#power) to power the USB battery eliminators.
 
     <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
-        <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200"/>
+        <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200" class="buy-link"/>
     </a>
 
 * [EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or the correct socket for your country.
 
     <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
-        <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px"/>
+        <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
     </a>
 
 * [Active USB hub](../buy/esphome_diy#usb-hub) to power and control multiple battery eliminators at once.
 
     <a href="../buy/esphome_diy#usb-hub" target="_blank">
-        <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px"/>
+        <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px" class="buy-link"/>
     </a>
 
 * [USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individual.
 
     <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
-    <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" /></a>
+    <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" class="buy-link"/></a>
 
     This actuator can toggle the power state of each USB port individual. You can choose for an adapter with 1, 2 or 3 ports.
 
@@ -233,7 +233,7 @@ If you have also a plug with a button you can always try to find a similar plug 
 Or if your familiar with soldering and electronics you can modify the current button and make it always on, but only advised for Professionals!!
 
 <a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
-<img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" width="200px"/></a>
+<img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" width="200px" class="buy-link"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
 
@@ -244,7 +244,7 @@ Or if your familiar with soldering and electronics you can modify the current bu
 * [Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or look for a smart socket that fits your country.
 
   <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
-    <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="smart socket" width="200px"/>
+    <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="smart socket" width="200px" class="buy-link"/>
     </a>
 
 ---
@@ -291,7 +291,7 @@ I want to put the lights in a paper star and use a Zigbee IR remote control to r
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">LED lights, with different colors and brightness, controlled by a remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
-    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px"/>
+    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
   </a>
 
 * An infrared remote control. 
@@ -299,7 +299,7 @@ I want to put the lights in a paper star and use a Zigbee IR remote control to r
  {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">IR remote control - Moes</a>
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
-    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px"/>
+    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
   </a>
 
 More details about this project will follow after I realized it!
