@@ -1,6 +1,6 @@
 ---
 title: "Automate Christmas decorations"
-description: "How to automate all your Christmas decorations."
+description: "How I automated all mine Christmas lights and other powered decorations."
 category: Projects
 tags: [battery, Christmas, smart home, socket, lights, usb hub, decorations, Halloween]
 image: /projects/images_christmas_decorations/banner_christmas.png
@@ -52,16 +52,16 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
 There are a lot of advantages to automate all the lights and electric decorations. 
 It's not only about turning them on and off.
 It's more than you can think of, like:
-* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again; [Node-RED automation](#activate-a-socket-on-motion-detection)
+* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again; [Node-RED automation](#activate-a-light-on-motion-detection)
     * _No use of batteries, no useless power usage, more time for other things, more comfort_
     * _Only downside: No morning gymnastics to switch all the buttons in each corner_
-* Come downstairs, and all the cozy lights are (just) on;
+* Come downstairs, and all the cozy lights are (just) on; [Node-RED automation](#activate-a-light-on-motion-detection)
     * _More joy, quicker to the coffee!_
-* Outside lights only on when it becomes dark;
+* Outside lights only on when it becomes dark; [Node-RED automation](#activate-a-socket-based-on-outside-lux)
     * _On a sunny day it doesn't make sense to put also all outside lights on_
-* Activate something (like playing Christmas music, or a dancing Santa) when someone shows up at your doorstep;
+* Activate something (like playing Christmas music, or a dancing Santa) when someone shows up at your doorstep; [Node-RED automation](#activate-a-socket-based-on-someone-entering-the-house)
     * _A smile on their face_     
-* No lights on when there is nobody around for a while;
+* No lights on when there is nobody around for a while; [Node-RED automation](#disable-a-socket-after-a-period-of-inactivity)
     * _No useless power usage, which saves money_
 * Spend more time in bed and sleep like a baby; <a href="images_christmas_decorations/outside_tree_light.jpg"><img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
     * _More rest, more energy, less coffee_
