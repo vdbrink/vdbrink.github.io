@@ -21,7 +21,9 @@ It's a lot of work to control them manually every day.
 I've made my life easier by automating them all.
 On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
 
-> **_NOTE:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
+> **_NOTE:_** Also affiliate links are used on this page. Same product prices as normal, but you sponsor this blog also with a few cents.
+
+> **_TIP:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
 
 ---
 ## Table of Contents
@@ -189,7 +191,7 @@ This hub can be powered with a smart socket to control all the connected devices
 
 #### Hardware suggestions
 
-As you could read, there are multiple combinations possible.
+As you could read, there are multiple combinations possible to control battery powered devices.
 
 * [Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
    
