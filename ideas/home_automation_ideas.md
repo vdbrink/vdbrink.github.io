@@ -107,13 +107,17 @@ I have a [dedicated page](/projects/automate_christmas_decorations) about how I 
 * Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/smart_home_best_buy_tips#battery-eliminators) and multiple connected to a [USB adapter switch](../buy/smart_home_best_buy_tips#usb-adapter-switch), powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
 * Christmas tree lights. (replace the default [power socket with always on mode switch](/buy/esphome_diy#christmas-light-adapter) and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) to control it)
 <br/><br/>
-<a href="../buy/smart_home_best_buy_tips#battery-eliminators">
-<img src="images/christmas_battery.jpg" alt="Christmas decoration lights battery powered" height="350px" />
+<a href="/projects/automate_christmas_decorations">
+<img src="/projects/images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas decoration lights battery powered" height="350px" />
+<img src="/projects/images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="350px" />
 </a>
 
 ---
 
 ### Mechanical ventilation
+
+I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I automated my mechanical ventilation.
+
 * Depends on which area's the ventilation system is connected to.
   In my case, my bathroom humidity/temperature, kitchen humidity/temperature,
   kitchen/bathroom temperature/humidity difference, duration of a toilet visit.
@@ -179,7 +183,8 @@ I have a [dedicated page](/projects/automate_christmas_decorations) about how I 
 
 
 #### Sink
-* Leak detector under the sink. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) or a modified [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
+* Leak detector under the sink. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) or a modified [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)). 
+I have a [dedicated page](/zigbee/zigbee_water_leak_sensor) about how I created this sensor.
 <br>
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
@@ -230,12 +235,15 @@ I have a [dedicated page](/projects/automate_christmas_decorations) about how I 
 * Notification when the gate is opened. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
 * Turn the lights on when going outside in the evening/night. ([lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
 * Put out the sunscreen when it heats the home too much.
-* Close the curtains when it heats the home too much.
-* Close the curtains when it cools the home too much.
+* Close the curtains when it heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
+* Close the curtains when it cools the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
 
 #### Front yard
+
+I have a [dedicated page](/projects/automate_christmas_decorations#outdoor-lights) about how I automated my outdoor (Christmas) lights.
+
 * Outside lights on when:
-  * Someone enters the door. (web-/doorcam with person recognition, smart outside light, [Google Coral](../buy/smart_home_best_buy_tips#google-coral-usb))
+  * Someone enters the door. (web-/doorcam with person recognition, smart outside light, Google Coral)
   * You connect to your Wifi. (outside light)
   * You enter home-zone. (Home Assistant Companion app and outside light)
     <br><img src="images/person_detected.jpg" alt="person detected" height="250px" />
@@ -247,10 +255,12 @@ I have a [dedicated page](/projects/automate_christmas_decorations) about how I 
 * Activate the front door lights. (see previous flow)
 
 #### Putting out the bin
+I have a [dedicated page](/projects/bin_day_led_strip_reminder) about how I automated my bin day reminders.
+
 * Notification when paper/green/plastic/residual waste bin needs to be put on the street to be emptied tomorrow. (waste calendar integration)
 * [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration + [LED strip](../buy/smart_home_best_buy_tips#led-strip))
 
 ---
 
-See also:
-[Home Automation Videos](home_automation_videos) or [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips)
+See also my:
+[Home Automation Videos](home_automation_videos) and [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) pages.

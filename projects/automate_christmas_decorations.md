@@ -124,10 +124,10 @@ Which result in four power types to automate:
 
 In the next chapters I'll describe how I automated each type.
 
+Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
+
 <a href="images_christmas_decorations/home_assistant_switches.jpg">
 <img src="images_christmas_decorations/home_assistant_switches.jpg" alt="random plugs" width="200px" /></a>
-
-Now I also can control all my Christmas decorations from my phone.
 
 ---
 

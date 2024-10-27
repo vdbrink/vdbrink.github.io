@@ -108,7 +108,6 @@ These hardware components did I use for this project:
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 
-
 Affiliate links are used here, so you sponsor my blog also with it, without paying extra for it.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
