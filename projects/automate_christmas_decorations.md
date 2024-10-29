@@ -7,6 +7,8 @@ image: /projects/images_christmas_decorations/banner_christmas.png
 ---
 # Automate Christmas decorations
 
+{% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Christmas banner" width="450px" />
 
 ## Introduction
@@ -47,7 +49,8 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
 ## Advantages
 
 <a href="images_christmas_decorations/ani_snow_globe.gif">
-<img src="images_christmas_decorations/ani_snow_globe.gif" alt="snow globe" width="100px" style="margin-left:15px;float:right" /></a>
+<img src="images_christmas_decorations/ani_snow_globe.gif" alt="snow globe" width="100px" style="margin-left:15px;float:right" />
+</a>
 
 There are a lot of advantages to automate all the lights and electric decorations. 
 It's not only about turning them on and off.
@@ -77,7 +80,8 @@ These advantages must be enough excuses to automate these decorations. I even co
 ## My old situation
 
 <a href="images_christmas_decorations/tree_light_plug_button.jpg">
-<img src="images_christmas_decorations/tree_light_plug_button.jpg" alt="Christmas light plug" width="100px" style="margin-left:15px;float:right" /></a>
+<img src="images_christmas_decorations/tree_light_plug_button.jpg" alt="Christmas light plug" width="100px" style="margin-left:15px;float:right" />
+</a>
 
 Before I automated it, there were a lot of frustrations I had to deal with.
 
@@ -89,7 +93,8 @@ Those sockets are also out of sight under the tree, so you need to dive under th
 And when you press one time too much, you can start all over again! Aargh!
 
 <a href="images_christmas_decorations/dummy_battery_example.jpg">
-<img src="images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas light on battery" width="100px" style="margin-left:15px;float:right" /></a>
+<img src="images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas light on battery" width="100px" style="margin-left:15px;float:right" />
+</a>
 
 We also have a lot of **battery powered** decorations.
 I could use rechargeable batteries, but then I still have to turn all the decorations on and off manually every day to enjoy it.
@@ -114,7 +119,8 @@ As mentioned, I have multiple types of Christmas decorations.\
 Which result in four power types to automate:
 
 <a href="images_christmas_decorations/random_plugs.jpg">
-<img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" /></a>
+<img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" />
+</a>
 
 * [Battery powered decorations](#battery-powered-decorations), 15+ pieces
 * [Christmas tree lights](#christmas-tree-lights) with a button to turn it on and change light mode to get to the right mode.
@@ -127,7 +133,8 @@ In the next chapters I'll describe how I automated each type.
 Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
 
 <a href="images_christmas_decorations/home_assistant_switches.jpg">
-<img src="images_christmas_decorations/home_assistant_switches.jpg" alt="random plugs" width="200px" /></a>
+<img src="images_christmas_decorations/home_assistant_switches.jpg" alt="random plugs" width="200px" />
+</a>
 
 ---
 
@@ -142,35 +149,43 @@ An example of a battery powered light is a garland with lights above the door.
 Automated with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter and a 5V-adapter. With the smart USB-adapter you can activate each port individually.
 
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
-<img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/></a>
+<img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/>
+</a>
  &nbsp;
 <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
-<img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" /></a>
+<img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" />
+</a>
 &nbsp;
 <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
-    <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" height="150px"/>
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" height="150px"/>
 </a>
 <br>
 <a href="images_christmas_decorations/door_deco_lights.jpg">
-<img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string" height="300px" /></a>
+<img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string" height="300px" />
+</a>
 
 <a href="images_christmas_decorations/christmas_lights.jpg">
-<img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="300px" /></a>
+<img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="300px" />
+</a>
 
 #### Example 2: battery-to-plug + smart socket
 
 Another example is a battery powered light in a bottle. I use for this a battery-to-plug set and a smart socket.
 
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
-<img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug" height="150px"/></a>
+<img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug" height="150px"/>
+</a>
 &nbsp;
-<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
-<img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" /></a>
+<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
+<img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" />
+</a>
 <br>
 <a href="images_christmas_decorations/lights_in_a_bottle.jpg">
-<img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights" height="300px" /></a>
+<img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights" height="300px" />
+</a>
 <a href="images_christmas_decorations/battery_powered_deco.jpg">
-<img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration" height="300px"/></a>
+<img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration" height="300px"/>
+</a>
 
 #### Example 3: battery-to-USB + USB hub + smart socket
 
@@ -181,7 +196,7 @@ This hub can be powered with a smart socket to control all the connected devices
 <img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub" height="300px" class="buy-link" />
 </a>
 &nbsp;
-<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
+<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
 <img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" class="buy-link" />
 </a>
 
@@ -192,58 +207,64 @@ This hub can be powered with a smart socket to control all the connected devices
 #### Hardware suggestions
 
 As you could read, there are multiple combinations possible to control battery powered devices.
+It depends on how many devices you want to control at once and how close they are to each other which is the best combination in your case.
 
-* [Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
+* {{imgBasket}}[Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
    
    <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
         <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" class="buy-link"/>
    </a>
 
-* [5V EU USB power adapter](../buy/smart_home_best_buy_tips#power) to power the USB battery eliminators.
+* {{imgBasket}}[5V EU USB power adapter](../buy/smart_home_best_buy_tips#power) to power the USB battery eliminators.
 
     <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
         <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200" class="buy-link"/>
     </a>
 
-* [EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or the correct socket for your country.
+* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or the correct socket for your country to automate the devices.
 
     <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
         <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
     </a>
 
-* [Active USB hub](../buy/esphome_diy#usb-hub) to power and control multiple battery eliminators at once.
+* {{imgBasket}}[Active USB hub](../buy/esphome_diy#usb-hub) to power multiple USB battery eliminators at once. In combination with the socket you can control them.
 
     <a href="../buy/esphome_diy#usb-hub" target="_blank">
         <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px" class="buy-link"/>
     </a>
 
-* [USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individual.
+* {{imgBasket}}[Zigbee USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individual. You can choose for an adapter with 1, 2 or 3 ports.
 
     <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
     <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" class="buy-link"/></a>
-
-    This actuator can toggle the power state of each USB port individual. You can choose for an adapter with 1, 2 or 3 ports.
-
-    {{imgBasket}}<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
 
 ---
 
 ### Christmas tree lights
 
 My Christmas tree have a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress I found this exact same plug but without a power button and without switching the disco modes, just always on.
-If you have also a plug with a button you can always try to find a similar plug without a button.
-Or if your familiar with soldering and electronics you can modify the current button and make it always on, but only advised for Professionals!!
 
 <a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
-<img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" width="200px" class="buy-link"/></a>
+  <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
+  <img src="images_christmas_decorations/tree_power_top.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
+</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link 1</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">Christmas light string plug 31V/3.6W</a>
+
+<a href="images_christmas_decorations/christmas_tree.jpg">
+  <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
+</a>
+
+If you have also a plug with a button, you can always try to find a similar plug without a button.\
+Please, let me know if you use an otherone which fits for your light string.
+
+Or if your familiar with soldering and electronics, you can modify the current button and make it always on, but only advised for professionals!!
 
 ---
 
 ### Decoration/lights powered with a power plug
 
-* [Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or look for a smart socket that fits your country.
+* {{imgBasket}}[Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or look for a smart socket that fits your country.
 
   <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
     <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="smart socket" width="200px" class="buy-link"/>
@@ -257,10 +278,12 @@ I have in my garden several waterproof power sockets. Here I use outdoor water-r
 In the front yard I put the light string wire through the mailbox to plug it inside.
 
 <a href="images_christmas_decorations/outside_tree_light.jpg">
-<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" height="200px" /></a>
+<img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" height="200px" />
+</a>
 &nbsp;
 <a href="images_christmas_decorations/front_door_light.jpg">
-<img src="images_christmas_decorations/front_door_light.jpg" alt="Front door lights" height="200px" /></a>
+<img src="images_christmas_decorations/front_door_light.jpg" alt="Front door lights" height="200px" />
+</a>
 
 <br>
 The number of these socket models are limited. 
@@ -284,9 +307,14 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 ## Upcoming projects
 
 For this year I have an additional project I will work on. 
-Here are already the specs of this project.
-I will use wireless lights, with different colors and brightness and controlled by a remote.
+I have these paper stars that contains a regular light bulb. 
+This reduces the positions where I can place them, they must now be in reach of a power socket. 
+Also you see the cable. With this project, I want to improve this.
+
+Here are already the details of this project:
+I will use wireless (battery powered) lights, with different colors and brightness AND controllable by an infrared remote.
 I want to put the lights in a paper star and use a Zigbee IR remote control to replace the original remote so this can be automated.
+If you have created already a similar project I like to hear your experience!
 
   <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
 
@@ -296,15 +324,14 @@ I want to put the lights in a paper star and use a Zigbee IR remote control to r
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
   </a>
 
-* An infrared remote control. 
-  It can learn signals from a remote, and via Zigbee you can resend it via this device again. \
- {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">IR remote control - Moes</a>
+* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An infrared remote control - Moes</a>
+  It can learn signals from a remote, and via Zigbee you can resend it via this device again to automate a remote.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
   </a>
 
-More details about this project will follow after I realized it!
+More details about this project will follow after I realized it....!
 
 ---
 
