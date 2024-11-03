@@ -8,6 +8,7 @@ image: /projects/images_christmas_decorations/banner_christmas.png
 # Automate Christmas decorations
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Christmas banner" width="450px" />
 
@@ -37,10 +38,10 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
   * [My old situation](#my-old-situation)
   * [My smart hardware solutions](#my-smart-hardware-solutions)
     * [Battery powered decorations](#battery-powered-decorations)
+    * [Christmas paper stars with lights](#christmas-paper-stars-with-lights)
     * [Christmas tree lights](#christmas-tree-lights)
     * [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
-  * [Upcoming projects](#upcoming-projects)
   * [Automations](#automations)
   * [Do you have other solutions?](#do-you-have-other-solutions)
 <!-- TOC -->
@@ -66,6 +67,8 @@ It's more than you can think of, like:
     * _A smile on their face_     
 * No lights on when there is nobody around for a while; [Node-RED automation](#disable-a-socket-after-a-period-of-inactivity)
     * _No useless power usage, which saves money_
+* No power cables to paper Christmas stars;
+  * _Freedom to place paper Christmas stars everywhere_
 * Spend more time in bed and sleep like a baby; <a href="images_christmas_decorations/outside_tree_light.jpg"><img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
     * _More rest, more energy, less coffee_
 * Fellow house members have no one to blame when the cozy lights are off because you were in a hurry to go to work;
@@ -100,6 +103,10 @@ We also have a lot of **battery powered** decorations.
 I could use rechargeable batteries, but then I still have to turn all the decorations on and off manually every day to enjoy it.
 As a result, during the season they are only a few times on. And if you forgot one, it ends up with empty batteries after Santa was singing and dancing all night long.
 
+Some of mine **Christmas paper stars** have a normal bulb and powered via the main power. 
+This limits the places where to place them, they need to be closed to a wall socket and preferably hide the cable behind some curtains or closet to make it look nice. 
+Other stars are battery powered but the button to turn them on is inside the star itself. Not easy to reach when it hangs on the ceiling!
+
 The **plug powered lights** are easy to automate. 
 Plug them into a good old-fashioned timers, everybody had already automated it in the previous century like in Home Alone! Every day on exact the same time.
 
@@ -116,13 +123,14 @@ Read along how I did that.
 ## My smart hardware solutions
 
 As mentioned, I have multiple types of Christmas decorations.\
-Which result in four power types to automate:
+Which result in five power types to automate:
 
 <a href="images_christmas_decorations/random_plugs.jpg">
 <img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" />
 </a>
 
 * [Battery powered decorations](#battery-powered-decorations), 15+ pieces
+* [Christmas paper stars with lights](#infrared-wireless-lights) controlled by a custom programmable infrared remote.
 * [Christmas tree lights](#christmas-tree-lights) with a button to turn it on and change light mode to get to the right mode.
 * [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug), 10+ pieces
 * [Outdoor lights](#outdoor-lights)
@@ -207,7 +215,7 @@ This hub can be powered with a smart socket to control all the connected devices
 #### Hardware suggestions
 
 As you could read, there are multiple combinations possible to control battery powered devices.
-It depends on how many devices you want to control at once and how close they are to each other which is the best combination in your case.
+It depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
 
 * {{imgBasket}}[Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
    
@@ -240,9 +248,86 @@ It depends on how many devices you want to control at once and how close they ar
 
 ---
 
+### Christmas paper stars with lights
+
+I have Christmas paper stars that contain a regular light bulb.
+This reduces the positions where I could place them, 
+they must be in reach of a power socket and somewhere where I could keep the power cable out of sight, guide them behind a curtain or so.
+
+
+  <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
+
+I solved this by using battery powered LED lights, which are controllable via an infrared remote. 
+I used a Zigbee programmable infrared receiver and transmitter which can learn from the original remote.
+This transmitter is a Zigbee, battery powered, device that can be placed in the sight of multiple stars. 
+I have it at a distance of five meters and still works great as long as your star is made of thin carton/paper.
+
+#### The programmable infrared remote
+
+I used the [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, a battery powered (wireless) Zigbee programmable infared receiver and transmitter to replace the original LED light remote.\
+This device can store multiple different signals.
+
+Learn mode:
+
+To learn a new signal, set the device in learning mode by sending this payload to the MQTT topic of the device, for it that `zigbee2mqtt/irremote/set`
+```yaml
+{% raw %}
+{     
+  "learn_ir_code":"ON" 
+}
+{% endraw %}
+```
+Now a light turned on in front of the device. 
+Now you can hold the original remote in front of the device and press a single button. 
+
+The response contains the infrared code to use to resend the signal via this device now.
+```yaml
+{% raw %}
+{
+  "battery" : 11,
+  "last_seen" : "2024-11-03T09:21:03.343Z",
+  "learn_ir_code" : null,
+  "learned_ir_code" : "Bb8jphFIAuAXAQF9BuAVA0ABwCPgAwFAE0ABwAdAAUALwANAAUALCcqdvyPBCEgC///gAgcCCEgC",
+  "linkquality" : 43,
+  "voltage" : 1200
+}
+{% endraw %}
+```
+
+To resend the signal, send on the topic MQTT topic `zigbee2mqtt/irremote/set` this payload to send the same signal as from the original remote.
+
+```yaml
+{% raw %}
+{
+  "ir_code_to_send": "Bb8jphFIAuAXAQF9BuAVA0ABwCPgAwFAE0ABwAdAAUALwANAAUALCcqdvyPBCEgC///gAgcCCEgC"
+}
+{% endraw %}
+```
+
+Now the lights also turned on!
+
+Now you can add these commands to your automation.
+
+#### Used hardware
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
+    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
+  </a>
+
+* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote - Moes</a>
+  It can learn signals from the original remote, and via Zigbee it can resend the copied signal.
+
+  <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
+    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
+  </a>
+
+---
+
 ### Christmas tree lights
 
-My Christmas tree have a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress I found this exact same plug but without a power button and without switching the disco modes, just always on.
+My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
 <a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
   <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
@@ -255,8 +340,8 @@ My Christmas tree have a specific EU outlet plug with the output of 31V and 3.6W
   <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
 </a>
 
-If you have also a plug with a button, you can always try to find a similar plug without a button.\
-Please, let me know if you use an otherone which fits for your light string.
+If you also have a plug with a button, you can always try to find a similar plug without a button.\
+Please, let me know if you use another one which fits for your light string.
 
 Or if your familiar with soldering and electronics, you can modify the current button and make it always on, but only advised for professionals!!
 
@@ -301,37 +386,6 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
   {{imgBasket}}I bought mine at the local Lidl store, but they are not always available there (also not online), only once in a while.
 
   <img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
-
----
-
-## Upcoming projects
-
-For this year I have an additional project I will work on. 
-I have these paper stars that contains a regular light bulb. 
-This reduces the positions where I can place them, they must now be in reach of a power socket. 
-Also you see the cable. With this project, I want to improve this.
-
-Here are already the details of this project:
-I will use wireless (battery powered) lights, with different colors and brightness AND controllable by an infrared remote.
-I want to put the lights in a paper star and use a Zigbee IR remote control to replace the original remote so this can be automated.
-If you have created already a similar project I like to hear your experience!
-
-  <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">LED lights, with different colors and brightness, controlled by a remote</a>
-
-  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
-    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
-  </a>
-
-* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An infrared remote control - Moes</a>
-  It can learn signals from a remote, and via Zigbee you can resend it via this device again to automate a remote.
-
-  <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
-    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
-  </a>
-
-More details about this project will follow after I realized it....!
 
 ---
 
