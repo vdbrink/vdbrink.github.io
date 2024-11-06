@@ -22,11 +22,19 @@ During the Christmas season, we have a lot of extra lights and other powered dec
 
 It's a lot of work to control them manually every day. 
 I've made my life easier by automating them all.
+
 On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
 
-> **_NOTE:_** Also affiliate links are used on this page. Same product prices as normal, but you sponsor this blog also with a few cents.
+Quick links: 
+* [Convert battery powered devices -> main power](#battery-powered-decorations)
+* [Automate infrared lights/candles/tea lights](#christmas-paper-stars-with-lights)
+* [Automate Christmas tree lights -> no activate button anymore](#christmas-tree-lights)
+* [Automate decorations powered with a power plug](#decorationlights-powered-with-a-power-plug)
+* [Automate outdoor lights](#outdoor-lights)
 
 > **_TIP:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
+
+> **_NOTE:_** Affiliate links are used on this page.
 
 ---
 ## Table of Contents
@@ -86,7 +94,13 @@ These advantages must be enough excuses to automate these decorations. I even co
 <img src="images_christmas_decorations/tree_light_plug_button.jpg" alt="Christmas light plug" width="100px" style="margin-left:15px;float:right" />
 </a>
 
-Before I automated it, there were a lot of frustrations I had to deal with.
+Before I automated it, there were a lot of manual actions I had to deal with.
+
+I, as a home automation geek, I was (previous year) looking for solutions and found them for all my decorations and lights!
+Read along how I did that.
+
+<details>
+  <summary><b>> Click here to read the situation before I automated it >></b></summary>
 
 For example, my biggest **Christmas tree** lights have two light strings, and each has a power socket with a button which controls seven different flash modes. 
 Each time you press the button, it switches from mode. 
@@ -114,9 +128,7 @@ Plug them into a good old-fashioned timers, everybody had already automated it i
 
 Two decades later, we can use "smarter" solutions. 
 Like control them more dynamically based on the daylight level or motion and occupancy detection.
-
-I, as a home automation geek, I was (previous year) looking for solutions and found them for all my decorations and lights! 
-Read along how I did that.
+</details>
 
 ---
 
@@ -317,11 +329,34 @@ Now you can add these commands to your automation.
   </a>
 
 * {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote - Moes</a>
-  It can learn signals from the original remote, and via Zigbee it can resend the copied signal.
+  It can learn signals from the original remote, and via Zigbee you can resend the copied signal to simulate the press on the button via an automation.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
   </a>
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">A Christmas paper star - example 1</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcwrLNr" target="_blank">A Christmas paper star - example 2</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">
+    <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
+  </a>
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
+    <img src="images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+  </a>
+
+[//]: # (* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">A candle lights controlled by an infrared remote</a>)
+
+[//]: # ()
+[//]: # (  <a href="https://s.click.aliexpress.com/e/" target="_blank">)
+
+[//]: # (    <img src="images_christmas_decorations/candle_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>)
+
+[//]: # (  </a>)
 
 ---
 
@@ -374,9 +409,9 @@ In the front yard I put the light string wire through the mailbox to plug it ins
 The number of these socket models are limited. 
 If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
-* Nous outdoor Zigbee EU power socket has two ports, where each socket can be controlled individual and has power consumption measurements.
+* An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individual, and it has power consumption measurements.
  
-  {{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon.de)
+  {{imgBasket}}<a href="../buy/smart_home_best_buy_tips#outdoor-socket" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous.
 
   <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
 
