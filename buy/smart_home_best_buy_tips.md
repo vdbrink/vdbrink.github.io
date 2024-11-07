@@ -135,13 +135,13 @@ The sensor can also be used attached to other sensors that also return an open o
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
 &nbsp;
-<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor - Aqara (AliExpress)</a> 
 <a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdEILMb" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered (cheaper) - Tuya (AliExpress)</a> 
@@ -195,7 +195,7 @@ It can also detect persons when they don't move, like they sit on a couch. Ideal
 
 ### Air quality sensor
 
-<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_DD0WB5J" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six kinds of environmental parameters:
@@ -213,7 +213,7 @@ Normally you get single sensors for each parameter!
 Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor. 
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzMO9dT" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DD0WB5J" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
 ---
@@ -421,8 +421,7 @@ This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">Wifi IR remote control - Tuya (AliExpress)</a>
 
-
-<br>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">Wifi IR remote control - Broadlink (AliExpress)</a> RM4 Mini
 
 ---
 
@@ -520,10 +519,9 @@ DON'T CHARGE NORMAL CR2032 WITH IT!
 <img src="images_zigbee/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" /></a>
 It's also possible to convert a wireless CR2032 devices to a USB wired devices. Now you don't have to care about replacing batteries. 
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">link 2 (AliExpress)</a>
-
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
 
 ### CR1632
 
@@ -531,7 +529,7 @@ It's also possible to convert a wireless CR2032 devices to a USB wired devices. 
 
 This CR1632 battery is a bit smaller than the CR2032.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mLyGW8a" target="_blank">CR1632 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeRGeFB" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
@@ -543,7 +541,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mrp3BBy" target="_blank">CR2450 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Eu4Gfup" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
@@ -616,9 +614,9 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">5V USB power adapter - link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">5V USB power adapter - link 2 (AliExpress)</a>
 
 5V EU USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 
