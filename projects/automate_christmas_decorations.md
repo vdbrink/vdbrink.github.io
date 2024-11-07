@@ -50,7 +50,6 @@ Quick links:
 <img src="images_christmas_decorations/door_deco_lights2.jpg" alt="Christmas door light" height="180px" style="margin-left:15px;float:right" /></a>
 
 <!-- TOC -->
-  * [Table of Contents](#table-of-contents)
   * [Advantages](#advantages)
   * [My old situation](#my-old-situation)
   * [My smart hardware solutions](#my-smart-hardware-solutions)
@@ -294,7 +293,7 @@ I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R
 This device can store multiple different signals.
 Also the original remote can be used to control them!
 
-Check my dedicated page about this [Zigbee infrared transmitter / receiver](/zigbee/infrared_transmitter_receiver) for more information how to program and use this device to replace and automate the original remote.
+Check my dedicated page about this [Zigbee infrared transmitter / receiver](../zigbee/smart_infrared_transmitter_receiver) for more information how to program and use this device to replace and automate the original remote.
 
 Now you can automate these devices also!
 
