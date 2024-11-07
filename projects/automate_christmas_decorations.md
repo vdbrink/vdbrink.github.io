@@ -281,7 +281,6 @@ I had before Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
 they must be in reach of a power socket and somewhere where I could keep the power cable out of sight, guide them behind a curtain or so.
 
-
   <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
 
 I solved this by using battery powered LED lights, which are controllable via an infrared remote. 
@@ -291,50 +290,13 @@ I have it at a distance of five meters, and still it works great as long as the 
 
 #### The programmable infrared remote
 
-I used the [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, a battery powered (wireless) Zigbee programmable infrared receiver and transmitter to replace the original LED light remote. 
+I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [wifi models](../buy/smart_home_best_buy_tips#infrared-remote-control)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
 Also the original remote can be used to control them!
 
-Learn mode:
+Check my dedicated page about this [Zigbee infrared transmitter / receiver](/zigbee/infrared_transmitter_receiver) for more information how to program and use this device to replace and automate the original remote.
 
-To learn a new signal, set the device in learning mode by sending this payload to the MQTT topic of the device, for it that `zigbee2mqtt/irremote/set`
-```yaml
-{% raw %}
-{     
-  "learn_ir_code":"ON" 
-}
-{% endraw %}
-```
-Now a light turned on in front of the device. 
-Now you can hold the original remote in front of the device and press a single button. 
-
-The response contains the infrared code to use to resend the signal via this device now.
-```yaml
-{% raw %}
-{
-  "battery" : 11,
-  "last_seen" : "2024-11-03T09:21:03.343Z",
-  "learn_ir_code" : null,
-  "learned_ir_code" : "Bb8jphFIAuAXAQF9BuAVA0ABwCPgAwFAE0ABwAdAAUALwANAAUALCcqdvyPBCEgC///gAgcCCEgC",
-  "linkquality" : 43,
-  "voltage" : 1200
-}
-{% endraw %}
-```
-
-To resend the signal, send on the topic MQTT topic `zigbee2mqtt/irremote/set` this payload to send the same signal as from the original remote.
-
-```yaml
-{% raw %}
-{
-  "ir_code_to_send": "Bb8jphFIAuAXAQF9BuAVA0ABwCPgAwFAE0ABwAdAAUALwANAAUALCcqdvyPBCEgC///gAgcCCEgC"
-}
-{% endraw %}
-```
-
-Now the lights also turned on!
-
-Now you can add these commands to your automation.
+Now you can automate these devices also!
 
 #### Used hardware
 
