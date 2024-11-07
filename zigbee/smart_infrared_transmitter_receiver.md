@@ -1,13 +1,15 @@
 ---
 title: Zigbee infrared transmitter / receiver
 category: Zigbee
-tags: [Zigbee, infrared, transmitter, receiver, remote, learn, send]
+tags: [Zigbee, infrared, transmitter, receiver, remote, learn, send, airconditioner, TV, fireplace, lights, screens]
 ---
 
 ## Introduction
 
-> **_NOTE:_** Affiliate links are used on this page.
+With a small device, you can automate all your infrared controlled devices! 
+Like a TV, air conditioner, fireplace, screens or lights.
 
+> **_NOTE:_** Affiliate links are used on this page.
 
 ---
 ### smart infrared transmitter / receiver
