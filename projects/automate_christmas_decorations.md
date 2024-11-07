@@ -163,13 +163,15 @@ In the next chapters I'll describe how I automated each type.
 
 ### Battery powered decorations
 
-There are multiple smart hardware device combinations possible to change battery powered decorations. 
-Here are some examples.
+There are multiple smart hardware device combinations possible to change battery powered decorations, so you don't need any battery at all anymore!
 
-#### Example 1: battery-to-USB + smart USB adapter + 5V-adapter
+Here are some examples how-to accomplish this:
 
-An example of a battery powered light is a garland with lights above the door. 
-Automated with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter and a 5V-adapter. With the smart USB-adapter you can activate each port individually.
+#### Example 1: battery-to-USB + smart USB adapter/switch + 5V-adapter
+
+An example of a battery powered light is a garland with lights above the door.\
+I Automated it with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter/switch and a 5V-adapter.
+This smart (Zigbee or Wifi) USB-adapter/switch can be remote controlled and each port can be activated individually.
 
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
 <img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/>
@@ -182,18 +184,25 @@ Automated with a battery-to-usb set (a.k.a. battery eliminator/replacement), a s
 <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" height="150px"/>
 </a>
+
+This original battery-powered garland is now powered via the main power and controlled automatically.
 <br>
 <a href="images_christmas_decorations/door_deco_lights.jpg">
 <img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string" height="300px" />
 </a>
 
+These battery-powered light string is now powered via the main power and controlled automatically. 
+<br>
 <a href="images_christmas_decorations/christmas_lights.jpg">
 <img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="300px" />
 </a>
 
 #### Example 2: battery-to-plug + smart socket
 
-Another example is a battery powered light in a bottle. I use for this a battery-to-plug set and a smart socket.
+Another example is a battery powered light in a bottle. 
+
+I use for this a battery-to-plug set and a smart socket.
+Place the dummy batteries in the original battery case and connect the power adapter to the smart socket to control is via an automation.
 
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
 <img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug" height="150px"/>
@@ -212,7 +221,7 @@ Another example is a battery powered light in a bottle. I use for this a battery
 
 #### Example 3: battery-to-USB + USB hub + smart socket
 
-If you have multiple battery power devices close to each other, and you want to automate them the same way, you can use an active powered USB-hub.
+If you have multiple battery power devices close to each other, and you want to automate them the same way, you can also use an active powered USB-hub.\
 This hub can be powered with a smart socket to control all the connected devices at once.
 
 <a href="../buy/esphome_diy#usb-hub" target="_blank">
@@ -229,10 +238,11 @@ This hub can be powered with a smart socket to control all the connected devices
 
 #### Hardware suggestions
 
-As you could read, there are multiple combinations possible to control battery powered devices.
-It depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
+As you could read, there are multiple combinations possible to control battery powered devices.\
+It really depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
 
-* {{imgBasket}}[Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries.
+* {{imgBasket}}[Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries. 
+Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use a electronic wire to connect the ends.
    
    <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
         <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" class="buy-link"/>
@@ -244,13 +254,13 @@ It depends on how many devices you want to control at once and how close they ar
         <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200" class="buy-link"/>
     </a>
 
-* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or the correct socket for your country to automate the devices.
+* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [wifi/zigbee socket](https://s.click.aliexpress.com/e/_DluyKLX) for your country to automate the devices.
 
     <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
         <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
     </a>
 
-* {{imgBasket}}[Active USB hub](../buy/esphome_diy#usb-hub) to power multiple USB battery eliminators at once. In combination with the socket you can control them.
+* {{imgBasket}}[Active USB hub](../buy/esphome_diy#usb-hub) to power multiple USB battery eliminators at once. In combination with the socket you can automate them.
 
     <a href="../buy/esphome_diy#usb-hub" target="_blank">
         <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px" class="buy-link"/>
@@ -265,7 +275,9 @@ It depends on how many devices you want to control at once and how close they ar
 
 ### Infrared lights
 
-I have Christmas paper stars that contain a regular light bulb.
+There are these days different kinds of infrared controlled device available like LEDs, fake candles or fake tea lights.
+
+I had before Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
 they must be in reach of a power socket and somewhere where I could keep the power cable out of sight, guide them behind a curtain or so.
 
@@ -273,14 +285,15 @@ they must be in reach of a power socket and somewhere where I could keep the pow
   <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
 
 I solved this by using battery powered LED lights, which are controllable via an infrared remote. 
-I used a Zigbee programmable infrared receiver and transmitter which can learn from the original remote.
-This transmitter is a Zigbee, battery powered, device that can be placed in the sight of multiple stars. 
-I have it at a distance of five meters and still works great as long as your star is made of thin carton/paper.
+I used a Zigbee programmable infrared receiver and transmitter which can learn from the original remote.\
+This transmitter is a Wifi or Zigbee, battery powered, device that can be placed in the sight of multiple infrared devices. \
+I have it at a distance of five meters, and still it works great as long as the star is made of thin carton/paper otherwise the signal can't get through the paper to reach the LED.
 
 #### The programmable infrared remote
 
-I used the [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, a battery powered (wireless) Zigbee programmable infared receiver and transmitter to replace the original LED light remote.\
+I used the [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, a battery powered (wireless) Zigbee programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
+Also the original remote can be used to control them!
 
 Learn mode:
 
@@ -331,8 +344,8 @@ Now you can add these commands to your automation.
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
   </a>
 
-* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote - Moes</a>
-  It can learn signals from the original remote, and via Zigbee you can resend the copied signal to simulate the press on the button via an automation.
+* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote</a>
+  It can learn signals from the original remote, and via Wifi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>

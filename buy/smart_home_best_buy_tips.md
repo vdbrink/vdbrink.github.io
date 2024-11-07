@@ -419,6 +419,9 @@ This way you can create automations for air conditioners, fans, lights, etc.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">Wifi IR remote control - Tuya (AliExpress)</a>
+
+
 <br>
 
 ---
