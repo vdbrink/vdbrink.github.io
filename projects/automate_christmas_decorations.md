@@ -17,20 +17,28 @@ image: /projects/images_christmas_decorations/banner_christmas.png
 <a href="images_christmas_decorations/christmas_tree.jpg">
 <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="90px" style="margin-left:15px;float:right" /></a>
 
-During the Christmas season, we have a lot of extra lights and other powered decorations in and around our house. 
+During the Christmas season, I have a lot of extra lights and other powered decorations in and around our house. 
 **Christmas trees**, **battery powered decorations** and **outside lights** to cheer up the dark days.
 
-It's a lot of work to control them manually every day. 
-I've made my life easier by automating them all.
+It's a lot of work to control them manually every day.\
+It's also a waste of energy when no one sees it or it a clear day.\
+I've made my life easier by automating them all!
+
+Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
+
+<a href="images_christmas_decorations/home_assistant_switches.jpg">
+<img src="images_christmas_decorations/home_assistant_switches.jpg" alt="random plugs" width="200px" />
+</a>
+
 
 On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
 
+
 Quick links: 
 * [Convert battery powered devices -> main power](#battery-powered-decorations)
-* [Automate infrared lights/candles/tea lights](#christmas-paper-stars-with-lights)
+* [Automate infrared LEDs / candles / tea lights](#infrared-lights)
 * [Automate Christmas tree lights -> no activate button anymore](#christmas-tree-lights)
-* [Automate decorations powered with a power plug](#decorationlights-powered-with-a-power-plug)
-* [Automate outdoor lights](#outdoor-lights)
+* [Automate decorations powered with a power plug](#decorations-powered-with-a-power-plug)
 
 > **_TIP:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
 
@@ -42,13 +50,14 @@ Quick links:
 <img src="images_christmas_decorations/door_deco_lights2.jpg" alt="Christmas door light" height="180px" style="margin-left:15px;float:right" /></a>
 
 <!-- TOC -->
+  * [Table of Contents](#table-of-contents)
   * [Advantages](#advantages)
   * [My old situation](#my-old-situation)
   * [My smart hardware solutions](#my-smart-hardware-solutions)
     * [Battery powered decorations](#battery-powered-decorations)
-    * [Christmas paper stars with lights](#christmas-paper-stars-with-lights)
+    * [Infrared lights](#infrared-lights)
     * [Christmas tree lights](#christmas-tree-lights)
-    * [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug)
+    * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
   * [Automations](#automations)
   * [Do you have other solutions?](#do-you-have-other-solutions)
@@ -135,26 +144,20 @@ Like control them more dynamically based on the daylight level or motion and occ
 ## My smart hardware solutions
 
 As mentioned, I have multiple types of Christmas decorations.\
-Which result in five power types to automate:
+Which results at the end in five different type of power types to automate:
 
 <a href="images_christmas_decorations/random_plugs.jpg">
 <img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" />
 </a>
 
-* [Battery powered decorations](#battery-powered-decorations), 15+ pieces
-* [Christmas paper stars with lights](#infrared-wireless-lights) controlled by a custom programmable infrared remote.
-* [Christmas tree lights](#christmas-tree-lights) with a button to turn it on and change light mode to get to the right mode.
-* [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug), 10+ pieces
-* [Outdoor lights](#outdoor-lights)
+* [Battery powered decorations](#battery-powered-decorations), 15+ pieces, now controlled with dummy batteries which are connected now to the main power.
+* [Infrared controlled LEDs / candles / tea lights](#infrared-wireless-lights) now automatic controlled now by a programmable infrared remote.
+* [Christmas tree lights](#christmas-tree-lights) now with a replaced adapter, without a switch button which requires a manual to activate it first.
+* [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug), 10+ pieces, now controlled with a smart socket between it.
+* [Outdoor lights](#outdoor-lights) now controlled with outdoor smart sockets.
 <br>
 
 In the next chapters I'll describe how I automated each type.
-
-Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
-
-<a href="images_christmas_decorations/home_assistant_switches.jpg">
-<img src="images_christmas_decorations/home_assistant_switches.jpg" alt="random plugs" width="200px" />
-</a>
 
 ---
 
@@ -260,7 +263,7 @@ It depends on how many devices you want to control at once and how close they ar
 
 ---
 
-### Christmas paper stars with lights
+### Infrared lights
 
 I have Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
@@ -382,7 +385,7 @@ Or if your familiar with soldering and electronics, you can modify the current b
 
 ---
 
-### Decoration/lights powered with a power plug
+### Decorations powered with a power plug
 
 * {{imgBasket}}[Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or look for a smart socket that fits your country.
 
