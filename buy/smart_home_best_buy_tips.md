@@ -568,6 +568,11 @@ I use these a lot for all kinds of Christmas decorations.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 battery replacement with USB (AliExpress)</a>
 
+<a href="https://s.click.aliexpress.com/e/_DeBgzBR" target="_blank">
+<img src="../projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
+<br>{{imgBasket}} USB A or C to clips 3V (same voltage as two batteries) (AliExpress)
+</a>
+
 ---
 
 ## Cables
