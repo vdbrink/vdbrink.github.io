@@ -67,8 +67,18 @@ The brains of your own sensor. It contains the processor to run the program on, 
 
 ### ESP32
 
-The newer and faster ESP32 board has a dual core processor, bluetooth, usb-c and already soldered pins.
+The newer and faster ESP32 board has a dual-core processor, bluetooth, usb-c and already soldered pins.
 
+#### ESP32-C3 Supermini
+A really tiny ESP32 with bluetooth.
+
+<a href="https://s.click.aliexpress.com/e/_DkQwIwv" target="_blank">
+<img src="../esphome/images/esp32_c3_mini.avif" height="180px" alt="ESP32-C3" />
+</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkQwIwv" target="_blank">ESP32-C3 supermini (AliExpress)</a>
+
+#### ESP32S WROOM
 <a href="https://s.click.aliexpress.com/e/_DDYRBIF" target="_blank">
 <img src="../esphome/images/esp32.webp" height="180px" alt="ESP32" />
 </a>
