@@ -87,8 +87,11 @@ On this page I describe how it works with this sensor.
 2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor) (smaller or bigger versions are available)
 
 <a href="/buy/esphome_diy#pressure-sensor">
-<img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> <img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
+<img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> 
+<img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
+<img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
+
 
 To connect them together, and you use the contact sensor, you need also some soldering tools:
 * [Soldering iron](../buy/esphome_diy#soldering-iron)

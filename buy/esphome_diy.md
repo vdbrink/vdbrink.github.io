@@ -174,14 +174,18 @@ This car seat sensor measures if there is pressure on a chair or seat.
 The output is just an open or a closed circuit. 
 You can directly attach it to a contact-/water leak sensor. 
 
+<a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">
+<img src="/zigbee/images_chair/pressure_mat_even_bigger.avif" height="180px" alt="pressure sensor biggest" /></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">largest version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">
-<img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor" /></a>
+<img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">bigger version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">large version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">
-<img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor" /></a>
+<img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor smal" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">smaller version (AliExpress)</a>
 
