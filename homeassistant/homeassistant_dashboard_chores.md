@@ -137,7 +137,7 @@ This is all the YAML code you need in your horizontal stack card.\
 It contains the layout and the four cards.
 
 <details>
-  <summary><b>> Click here to see all the required yaml code >></b></summary>
+  <summary><b>> Click here to see all the required YAML code >></b></summary>
 
 ```yaml
 {% raw %}

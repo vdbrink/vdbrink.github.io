@@ -293,7 +293,8 @@ I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R
 This device can store multiple different signals.
 Also the original remote can be used to control them!
 
-Check my dedicated page about this [Zigbee infrared transmitter / receiver](../zigbee/smart_infrared_transmitter_receiver) for more information how to program and use this device to replace and automate the original remote.
+Check my dedicated page about this [Zigbee infrared transmitter / receiver](../zigbee/smart_infrared_transmitter_receiver) for more information on how to program and use this device to replace and automate the original remote.
+Also, how to send infrared event signals from the Home Assistant dashboard.
 
 Now you can automate these devices also!
 

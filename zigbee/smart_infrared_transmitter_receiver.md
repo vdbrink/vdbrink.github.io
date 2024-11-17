@@ -1,7 +1,7 @@
 ---
 title: Zigbee infrared transmitter / receiver
 category: Zigbee
-tags: [Zigbee, infrared, transmitter, receiver, remote, learn, send, airconditioner, TV, fireplace, lights, screens]
+tags: [Zigbee, wifi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, lights, screens]
 ---
 
 ## Introduction
@@ -14,12 +14,11 @@ Like a TV, air conditioner, fireplace, screens or lights.
 ---
 ### smart infrared transmitter / receiver
 
-<img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control"  width="90px" style="margin-left:15px;float:right" />
+<a href="/buy/images_zigbee/zigbee_ir_remote.webp"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="90px" style="margin-left:15px;float:right" /></a>
 With this small black box, powered on batteries, you can control any infrared device.
 
-A fireplace, a TV, an air conditioner, or lights, you can control them all with this device.
-
-<br/>
+A fireplace, a TV, air conditioner, or lights, you can control them all with this device.
+Also, Christmas decorations, see my [dedicated page](/projects/automate_christmas_decorations) about this subject.
 
 ---
 ### Learn mode
@@ -64,6 +63,29 @@ To resend the signal, send on the topic MQTT topic `zigbee2mqtt/irremote/set` th
 Now the lights also turned on!
 
 Now you can add these commands to your automation.
+
+---
+### Home Assistant
+
+From Home Assistant, you can create buttons on your dashboard and send a MQTT events to a specific topic.
+
+<img src="images_infrared/ha_mqtt_button.png" alt="Home Assistant button send MQTT event" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard button card code
+type: button
+name: Turn on
+tap_action:
+  action: perform-action
+  perform_action: mqtt.publish
+  data:
+    topic: zigbee2mqtt/irremote/set
+    payload: >-
+      {"ir_code_to_send":"BcsjsBFGAuAXAQGFBuAZA0ABQCfgAwHgAw/AC0AHwANAAUALCc+dyyPDCEYC///gCgcCCEYC"}
+{% endraw %}
+```
 
 ---
 ### Hardware

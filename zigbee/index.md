@@ -15,12 +15,18 @@ Find here related information and my [Zigbee Best Buy Tips](../buy/smart_home_be
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Device highlights](#device-highlights)
   * [DIY projects](#diy-projects)
   * [Why I chose Zigbee](#why-i-chose-zigbee)
   * [My Zigbee coordinator](#my-zigbee-coordinator)
   * [Best Buy Tips](#best-buy-tips)
   * [Zigbee2MQTT](#zigbee2mqtt)
 <!-- TOC -->
+
+---
+## Device highlights
+
+* [Infrared transmitter / receiver](smart_infrared_transmitter_receiver)
 
 ---
 
