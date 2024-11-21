@@ -109,7 +109,7 @@ A reason why not to choose for Zigbee? I don't know :)
 Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
 My network grew to 130+ devices today, and it still runs fast.
 
-Another new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">Sonoff ZBDongle-E Plus</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
+Another new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">Sonoff ZBDongle-E Plus (AliExpress)</a> <a href="https://amzn.to/3OkLelX" target="_blank">(Amazon)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
 
 <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a> 
@@ -117,7 +117,7 @@ Another new coordinator which many people are very satisfied with is the <a href
 
 To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick. 
-You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> for it.
+You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> <a href="https://amzn.to/3V2q9Rk" target="_blank">(Amazon)</a> for it.
 
 ---
 
@@ -138,13 +138,16 @@ The sensor can also be used attached to other sensors that also return an open o
 <a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor - Aqara (AliExpress)</a> 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor - Aqara (AliExpress)</a>
+<a href="https://amzn.to/4fzYtvd" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
+<a href="https://amzn.to/3ZfMxch" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered (cheaper) - Tuya (AliExpress)</a> 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered (cheaper) - Tuya (AliExpress)</a>
+<a href="https://amzn.to/4eBavTK" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" title="ZD06">{{imgZ2M}}ZD06</a>
 
 ---
@@ -166,6 +169,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="images_zigbee/zigbee_motion_pir.avif" height="100px"></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">Zigbee motion sensor beam, with stand - Aqara (AliExpress)</a>
+<a href="https://amzn.to/3Oj8yR5" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">Zigbee motion sensor beam, without stand - Xiaomi (AliExpress)</a>
@@ -177,6 +181,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">Zigbee / WIFI motion sensor PIR, AAA powered (cheaper) - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
+{{imgBasket}}<a href="https://amzn.to/4i18dQH" target="_blank">Zigbee motion sensor all directions - LIGHTEU (Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/PIR1-ZB.html" target="_blank" title="ZP01">{{imgZ2M}}PIR1-ZB</a>
 ---
 
 ### Presence detection sensor
@@ -189,6 +195,7 @@ It uses 24 GHz to send it signal to detect people in a room.
 It can also detect persons when they don't move, like they sit on a couch. Ideal for the living room or home office.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee mmWave Presence detection sensor (AliExpress)</a>
+<a href="https://amzn.to/3Zi5pay" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
 ---
@@ -214,6 +221,7 @@ Because the price is low, there are some downsides in sensor precision, the form
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DD0WB5J" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
+<a href="https://amzn.to/40Y4IEB" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
 ---
@@ -228,9 +236,8 @@ This sensor is useful to make automations like take action if someone is in the 
 Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">Zigbee temperature and humidity sensor - Aqara (AliExpress)</a>
-<a href="https://www.zigbee2mqtt.io/devices/WSDCGQ11LM.html" target="_blank" title="WSDCGQ11LM">{{imgZ2M}}WSDCGQ11LM</a>
-
-{{imgBasket}}<a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">Zigbee temperature and humidity sensor - Aqara (Banggood)</a>
+<a href="https://amzn.to/3V2h0YX" target="_blank">(Amazon)</a>
+<a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSDCGQ11LM.html" target="_blank" title="WSDCGQ11LM">{{imgZ2M}}WSDCGQ11LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EuScxuN" target="_blank">Zigbee temperature and humidity sensor (cheaper) - Tuya (AliExpress)</a>
@@ -263,6 +270,7 @@ This sensor can also be used with other boolean sensors,
 like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">Aqara leak sensor (AliExpress)</a>
+<a href="https://amzn.to/3ZhvMNJ" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 
 #### Other leak sensor
@@ -274,6 +282,7 @@ Another leak sensor is a sensor that measures if there is water,
 then the two contacts have a closed circuit because water conducts.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (AliExpress)</a>
+<a href="https://amzn.to/3Zj7va8" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
 <br>
@@ -291,6 +300,7 @@ This outdoor sensor detects raindrops and measures the light intensity (lux).\
 It contains a build-in battery that charges via a small solar panel.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">Zigbee raindrop + lux sensor (AliExpress)</a>
+<a href="https://amzn.to/4i2oF32" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>
@@ -339,9 +349,11 @@ This LED strip is available in different versions:
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">Zigbee wall switch - Aqara (AliExpress)</a>
+<a href="https://amzn.to/3CxE8YH" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/QBKG41LM.html" target="_blank" title="QBKG41LM">{{imgZ2M}}QBKG41LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">Zigbee wall switch - Moes (AliExpress)</a>
+<a href="https://amzn.to/4hXszdD" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZS-EUB_2gang.html" target="_blank" title="ZS-EUB_2gang">{{imgZ2M}}ZS-EUB</a>
 
 <br>
@@ -355,8 +367,10 @@ This LED strip is available in different versions:
 This Zigbee dimmer replaces an original wall dimmer module.\
 The easiest way to make a dimmable group with gu10 lights smart.
 
-{{imgBasket}}<a href="https://www.ecodim.nl/nl/eco-dim07-zigbee-basic.html" target="_blank">ECO-DIM.07 Led dimmer press/turn 0-200W - EcoDim (manufacturer site with links to different shops)</a>
+{{imgBasket}}<a href="https://www.ecodim.nl/nl/eco-dim07-zigbee-basic.html" target="_blank">ECO-DIM.07 LED dimmer press/turn 0-200W - EcoDim (manufacturer site with links to different shops)</a>
 <a href="https://www.zigbee2mqtt.io/devices/Eco-Dim.07_Eco-Dim.10.html" target="_blank" title="Eco-Dim.07_Eco-Dim.10">{{imgZ2M}}Eco-Dim.07</a>
+
+{{imgBasket}}<a href="https://amzn.to/4108Zri" target="_blank">ECO-DIM.01 LED dimmer press/turn 0-300W - EcoDim (Amazon)</a>
 
 {{imgBasket}}<a href="https://www.ecodim.nl/nl/smart-led-dimmers-en-schakelaars/zigbee/" target="_blank">Other EcoDimZigbee devices - EcoDim (manufacturer site with links to different shops)</a>
 
@@ -367,12 +381,14 @@ The easiest way to make a dimmable group with gu10 lights smart.
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">
 <img src="images_zigbee/zigbee_button.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
 
-This button can trigger multiple scenario's because it supports three press types: single-, double- and long press.
+This button can trigger multiple scenarios because it supports three press types: single-, double- and long press.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (AliExpress)</a>
+<a href="https://amzn.to/40XzGws" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WXKG11LM.html" target="_blank" title="WXKG11LM">{{imgZ2M}}WXKG11LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">Small Zigbee button - Tuya / Loginovo (AliExpress)</a>
+<a href="https://amzn.to/3AJuNg6" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-101ZL.html" target="_blank" title="ZG-101ZL">{{imgZ2M}}ZG-101ZL</a>
 
 <br>
@@ -387,6 +403,7 @@ This button can trigger multiple scenario's because it supports three press type
 This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">Zigbee vibration sensor - Aqara (AliExpress)</a>
+<a href="https://amzn.to/3OiAAvY" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/DJT11LM.html" target="_blank" title="DJT11LM">{{imgZ2M}}DJT11LM</a>
 
 <br><br><br>
@@ -402,6 +419,7 @@ This actuator can toggle the power state of each USB port individual.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
+<a href="https://amzn.to/4hSTs2x" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
 
 <br>
@@ -417,11 +435,14 @@ This device can learn infrared remote control signals and send them again via Zi
 This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
+<a href="https://amzn.to/495yrxA" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">Wifi IR remote control - Tuya (AliExpress)</a>
+<a href="https://amzn.to/4eJPxlw" target="_blank">(Amazon)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">Wifi IR remote control - Broadlink (AliExpress)</a> RM4 Mini
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">Wifi IR remote control RM4 Mini - Broadlink (AliExpress)</a>
+<a href="https://amzn.to/3CDLyK1" target="_blank">(Amazon)</a>
 
 ---
 
@@ -443,16 +464,30 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
 
-{{imgBasket}}<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 (Banggood)</a>
+{{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 <a href="https://amzn.to/4i0Vhdv" target="_blank">(Amazon)</a>
+<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
 
 #### Outdoor socket
-<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">
+
+<a href="https://amzn.to/4eBZVMp" target="_blank">
+<img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without energy power measurement).
+
+{{imgBasket}}<a href="https://amzn.to/4eBZVMp" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>
+
+<br>
+
+<br>
+
+<a href="https://amzn.to/40SVJoc" target="_blank">
 <img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
-This outdoor Zigbee power socket, where each socket can be controlled individual and has power consumption measurements.
+This is a dual socket outdoor Zigbee device, where each socket can be controlled individual and has power consumption measurements.
 
-{{imgBasket}}<a href="https://www.amazon.de/dp/B0CN8FDSKP" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon.de)</a>
+{{imgBasket}}<a href="https://amzn.to/40SVJoc" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
 
 <br>
@@ -479,8 +514,10 @@ Because of the size, they can run for a long time on a single battery. Even thes
 The downside is that these make the sensor also quite big.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Eneloop Rechargeable AA and AAA batteries - Panasonic (AliExpress)</a>
+<a href="https://amzn.to/493a0ke" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">4x Rechargeable AA batteries - Duracell (AliExpress)</a>
+<a href="https://amzn.to/4ePpz0k" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Non rechargeable AA and AAA batteries - Yuform (AliExpress)</a>
 
@@ -492,8 +529,10 @@ The downside is that these make the sensor also quite big.
 This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">CR2032 - Panasonic (AliExpress)</a>
+<a href="https://amzn.to/3V4sHye" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzKymsH" target="_blank">CR2032 - Sony (AliExpress)</a>
+<a href="https://amzn.to/4i2rCAE" target="_blank">(Amazon)</a>
 
 #### CR2032 rechargeable = LIR2032
 
@@ -506,12 +545,13 @@ They not very famous and more expensive but environment friendlier, and it reduc
 <a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">
 <img src="images_zigbee/cr2032_rechargeable_adapter.webp" alt="LIR2032 adapter" height="150px" style="margin-left:15px;float:right"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included)</a> Lights green when it's full.
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included) (AliExpress)</a> Lights green when it's full.
 DON'T CHARGE NORMAL CR2032 WITH IT!
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCye8sj" target="_blank">2x LIR2032 rechargeable batteries - PynMont</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCye8sj" target="_blank">2x LIR2032 rechargeable batteries - PynMont (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnnhBnN" target="_blank">5x LIR2032 rechargeable batteries</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnnhBnN" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
+<a href="https://amzn.to/4fCK0i9" target="_blank">(Amazon)</a>
 
 #### CR2032 USB battery replacements
 
@@ -520,6 +560,7 @@ DON'T CHARGE NORMAL CR2032 WITH IT!
 It's also possible to convert a wireless CR2032 devices to a USB wired devices. Now you don't have to care about replacing batteries. 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
+<a href="" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
 
