@@ -18,12 +18,12 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
-* [I automated all my powered Christmas decorations](projects/automate_christmas_decorations)
-* [Home Assistant - Floor plan](homeassistant/homeassistant_dashboard_floorplan)
-* [DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
+* [I automated all my powered Christmas decorations](projects/automate_christmas_decorations)
+* [DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
+* [Home Assistant - Floor plan](homeassistant/homeassistant_dashboard_floorplan)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Home Automation - Ideas](ideas/home_automation_ideas)
 * [Mealie - Recipe manager](homeassistant/homeassistant_dashboard_mealie) (With meal week planner and HA integrations)
