@@ -571,6 +571,7 @@ It's also possible to convert a wireless CR2032 devices to a USB wired devices. 
 This CR1632 battery is a bit smaller than the CR2032.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeRGeFB" target="_blank">CR1632 - Panasonic (AliExpress)</a>
+<a href="https://amzn.to/490qqKe" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
@@ -583,6 +584,7 @@ This CR2450 battery is a bit thicker than the other ones.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
+<a href="https://amzn.to/4hT10SV" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Eu4Gfup" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
@@ -600,8 +602,10 @@ There are different variants of them. Replacements for AA or AAA batteries and w
 I use these a lot for all kinds of Christmas decorations.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">AA battery replacement with USB (AliExpress)</a>
+<a href="https://amzn.to/3AIfXqb" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBi7yye" target="_blank">AAA battery replacement with USB (AliExpress)</a>
+<a href="https://amzn.to/3ATHOUb" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
 
@@ -625,6 +629,7 @@ USB-A to micro USB cable to power the ESP.
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 <img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
 {{imgBasket}}Micro USB cable (AliExpress)</a>
+<a href="https://amzn.to/3CAUNdU" target="_blank">(Amazon)</a>
 
 ### USB-C power cable
 
@@ -641,6 +646,7 @@ USB-C to USB-C power cable with 90-degree connectors.
 <a href="https://s.click.aliexpress.com/e/_EvdirFL" target="_blank">
 <img src="/buy/images_diy/usb_c_cable.avif" height="150px" alt="USB C to USB C cable" /><br>
 {{imgBasket}}USB-C to USB-C power cable (AliExpress)</a>
+
 
 ### USB-A extension cable
 

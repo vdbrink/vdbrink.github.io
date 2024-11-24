@@ -19,6 +19,7 @@ You find here examples from my automations, which you can use in your own projec
 My latest biggest updates on this blog:
 
 * [I automated all my powered Christmas decorations](projects/automate_christmas_decorations)
+* [Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)
 * [Home Assistant - Floor plan](homeassistant/homeassistant_dashboard_floorplan)
 * [DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
@@ -43,7 +44,7 @@ Topics you can find here:
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                       |
 | <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>          | [Random projects](projects/index)                                                                                  |
 | <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>                   | [Home automation ideas](ideas/home_automation_ideas)<br><br>[Home automation videos](ideas/home_automation_videos) |
-| <a href="buy/smart_home_best_buy_tips"><img src="buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" height="100px"></a> | [Zigbee Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)<br><br>[ESP DIY Best Buy Tips](buy/esphome_diy)    |
+| <a href="buy/smart_home_best_buy_tips"><img src="buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" height="100px"></a> | [Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)<br><br>[ESP DIY Best Buy Tips](buy/esphome_diy)    |
 
 ---
 
