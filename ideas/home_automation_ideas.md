@@ -181,7 +181,6 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 <br>
 <img src="../esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
 
-
 #### Sink
 * Leak detector under the sink. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) or a modified [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)). 
 I have a [dedicated page](/zigbee/zigbee_water_leak_sensor) about how I created this sensor.

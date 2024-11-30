@@ -18,7 +18,7 @@ Like a TV, air conditioner, fireplace, screens or lights.
 With this small black box, powered on batteries, you can control any infrared device.
 
 A fireplace, a TV, air conditioner, or lights, you can control them all with this device.
-Also, Christmas decorations, see my [dedicated page](/projects/automate_christmas_decorations) about this subject.
+Also, Christmas decorations, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about this subject.
 
 ---
 ### Learn mode
@@ -90,7 +90,7 @@ tap_action:
 ---
 ### Hardware
 
-These hardware devices are examples of what can be used with this automation.
+These hardware devices are examples of what can be used with infrared automation.
 
 #### Infrared transmitter / receiver
 
@@ -126,5 +126,9 @@ Tea lights
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
     <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
+
+Also, Christmas decorations, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about this subject.
+
+---
 
 Where do you use the infrared transmitter / receiver for in your smart home?

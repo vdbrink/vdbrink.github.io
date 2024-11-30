@@ -53,6 +53,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Vibration sensor](#vibration-sensor)
     * [USB adapter switch](#usb-adapter-switch)
     * [Infrared remote control](#infrared-remote-control)
+    * [Radiator Thermostat](#radiator-thermostat)
     * [Smart socket](#smart-socket)
       * [Outdoor socket](#outdoor-socket)
   * [Batteries](#batteries)
@@ -183,6 +184,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 {{imgBasket}}<a href="https://amzn.to/4i18dQH" target="_blank">Zigbee motion sensor all directions - LIGHTEU (Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/PIR1-ZB.html" target="_blank" title="ZP01">{{imgZ2M}}PIR1-ZB</a>
+
 ---
 
 ### Presence detection sensor
@@ -443,6 +445,23 @@ This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">Wifi IR remote control RM4 Mini - Broadlink (AliExpress)</a>
 <a href="https://amzn.to/3CDLyK1" target="_blank">(Amazon)</a>
+
+---
+
+### Radiator Thermostat
+
+<a href="https://s.click.aliexpress.com/e/_Ddaa6GD" target="_blank">
+<img src="/buy/images_zigbee/thermostat.avif" alt="Zigbee radiator thermostat" height="150px" style="margin-left:15px;float:right"/></a>
+
+With this radiator thermostat valve, it is possible to open and close the radiator in steps.\
+You can also schedule complete weeks in it what the temperature should be.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddaa6GD" target="_blank">Zigbee smart radiator thermostat - Moes / Tuya (AliExpress)</a>
+<a href="https://amzn.to/417IWOV" target="_blank">(Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html" target="_blank" alt="TV02">{{imgZ2M}}TV02</a>
+<br>
+
+<br>
 
 ---
 
