@@ -2,7 +2,7 @@
 title: "Zigbee Smart home - Best Buy Tips"
 description: "Useful link to buy Zigbee sensors other devices for your smart home automation with Home Assistant"
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee]
+tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee, wifi]
 image: /buy/images_zigbee/zigbee_banner.png
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -445,6 +445,18 @@ This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">Wifi IR remote control RM4 Mini - Broadlink (AliExpress)</a>
 <a href="https://amzn.to/3CDLyK1" target="_blank">(Amazon)</a>
+
+#### Infrared + RF + 433MHz + 315MHz remote control
+
+<a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">
+<img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="Wifi IR + RF + 433 + 315 remote control" height="150px" style="margin-left:15px;float:right"/></a>
+
+This wifi device supports a wide range of different wireless protocols, like Infrared + RF + 433MHz + 315MHz. 
+It can learn from the original remote control it signals and send them again via Zigbee.\
+This way you can create automations for air conditioners, fans, lights, etc.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">Wifi IR + RF + 433 + 315 remote control - Moes (AliExpress)</a>
+Model: RF-R1
 
 ---
 
