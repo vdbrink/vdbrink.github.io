@@ -501,12 +501,24 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 
 #### Outdoor socket
 
+<a href="https://amzn.to/3Vt83Ip" target="_blank">
+<img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (without power measurement).
+
+{{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
+
+<br>
+<br>
+<br>
+
 <a href="https://amzn.to/4eBZVMp" target="_blank">
 <img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
-This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without energy power measurement).
+This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without power measurement).
 
-{{imgBasket}}<a href="https://amzn.to/4eBZVMp" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon)</a>
+{{imgBasket}}<a href="https://amzn.to/4eBZVMp" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>
 
 <br>
@@ -516,7 +528,7 @@ This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an I
 <a href="https://amzn.to/40SVJoc" target="_blank">
 <img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
-This is a dual socket outdoor Zigbee device, where each socket can be controlled individual and has power consumption measurements.
+This is a **dual socket** outdoor Zigbee device, where each socket can be controlled individual and has **power consumption measurements**.
 
 {{imgBasket}}<a href="https://amzn.to/40SVJoc" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
