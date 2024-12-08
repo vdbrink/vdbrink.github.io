@@ -77,7 +77,7 @@ My network grew to 130+ devices today, and it still runs fast.
 
 To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick.
-You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> for it.
+You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">USB A extension cord (AliExpress)</a> for it.
 
 ---
 

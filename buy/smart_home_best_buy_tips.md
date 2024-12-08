@@ -118,7 +118,7 @@ Another new coordinator which many people are very satisfied with is the <a href
 
 To avoid interference with Bluetooth or Wifi,
 it's better to move the stick away from the server. This is recommended for every stick. 
-You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0Tzory" target="_blank">20 cm USB A extension cord (AliExpress)</a> <a href="https://amzn.to/3V2q9Rk" target="_blank">(Amazon)</a> for it.
+You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">USB A extension cord (AliExpress)</a> <a href="https://amzn.to/3V2q9Rk" target="_blank">(Amazon)</a> for it.
 
 ---
 
@@ -696,8 +696,8 @@ USB-C to USB-C power cable with 90-degree connectors.
 
 Useful to move your Zigbee stick away from your server for the best range and avoid interference.
 
-<a href="https://s.click.aliexpress.com/e/_EHGVJIH" target="_blank">
-<img src="images_zigbee/usb_a_extension_cable.webp" height="150px" alt="battery eliminator" /><br>
+<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">
+<img src="images_zigbee/usb_a_extension_cable.webp" height="150px" alt="extension cable" /><br>
 {{imgBasket}}USB A Extension Cable Male to Female (AliExpress)</a>
 
 ---
