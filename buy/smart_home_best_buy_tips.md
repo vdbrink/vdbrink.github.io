@@ -182,8 +182,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">Zigbee / WIFI motion sensor PIR, AAA powered (cheaper) - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
-{{imgBasket}}<a href="https://amzn.to/4i18dQH" target="_blank">Zigbee motion sensor all directions - LIGHTEU (Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/PIR1-ZB.html" target="_blank" title="ZP01">{{imgZ2M}}PIR1-ZB</a>
+[//]: # ({{imgBasket}}<a href="https://amzn.to/4i18dQH" target="_blank">Zigbee motion sensor all directions - LIGHTEU &#40;Amazon&#41;</a>)
+[//]: # (<a href="https://www.zigbee2mqtt.io/devices/PIR1-ZB.html" target="_blank" title="ZP01">{{imgZ2M}}PIR1-ZB</a>)
 
 ---
 
@@ -197,7 +197,7 @@ You can also hide it in a closet.
 It can detect persons when they don't move, for example, when they sit on a couch.\
 Ideal for the living room, bedrooms and home office.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee human Presence detection sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee / WIFI human Presence detection sensor (AliExpress)</a>
 <a href="https://amzn.to/3Zi5pay" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
@@ -205,7 +205,7 @@ Ideal for the living room, bedrooms and home office.
 
 ### Air quality sensor
 
-<a href="https://s.click.aliexpress.com/e/_DD0WB5J" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six kinds of environmental parameters:
@@ -223,7 +223,7 @@ Normally you get single sensors for each parameter!
 Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor. 
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DD0WB5J" target="_blank">Zigbee Air quality sensor - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">Zigbee / WIFI Air quality sensor - Tuya (AliExpress)</a>
 <a href="https://amzn.to/40Y4IEB" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
@@ -421,7 +421,7 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 This actuator can toggle the power state of each USB port individual.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee USB adapter switch - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee / WIFI USB adapter switch - Tuya (AliExpress)</a>
 <a href="https://amzn.to/4hSTs2x" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
 
@@ -437,7 +437,7 @@ The first port can also be used to switch on/off data access via USB, the other 
 This device can learn infrared remote control signals and send them again via Zigbee. 
 This way you can create automations for air conditioners, fans, lights, etc.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
 <a href="https://amzn.to/495yrxA" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 

@@ -148,8 +148,10 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 
 ### Bathroom
 * Notification when someone takes a shower. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) or water usage measuring)
+  * ... Detect afterward the door is opened again. Now the next one can take a shower! 
 * Detect if someone is in the bathroom. ([presence detection with mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor))
 * Water consumption. (Water meter reader)
+* Dimmed light during night visits.
 * Change light color when someone is too long in the shower. (Water consumption, [presence](../buy/smart_home_best_buy_tips#presence-detection-sensor), [LED strip](../buy/smart_home_best_buy_tips#led-strip))
 
 ---
@@ -165,6 +167,8 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 * Notification when the dishwasher is finished. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
 * Notification when dishwasher is not emptied yet after X time. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the door)
   <br>
+* Notification when the dishwasher didn't start its cycle at X o'clock. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter to detect if it runs)
+
 <a href="../buy/smart_home_best_buy_tips#contact-sensor"><img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/></a>
 
 #### Oven
@@ -223,6 +227,11 @@ I have a [dedicated page](/zigbee/zigbee_water_leak_sensor) about how I created 
 * Temperature warning if water is too hot/cold. (ESP with waterproof temperature sensor)
 <br>
 <img src="images/aquarium.jpg" alt="aquarium" height="200px">
+
+---
+
+### Garage
+* Notification when the e-bike charger is not activated at X o'clock. Did I forgot to connect it to the charger? (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
 
 ---
 
