@@ -273,7 +273,7 @@ This sensor can also be used with other boolean sensors,
 like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">Aqara leak sensor (AliExpress)</a>
-<a href="https://amzn.to/41ofELN" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3ZneX2Z" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 
 #### Other leak sensor
