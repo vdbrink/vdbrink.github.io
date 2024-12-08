@@ -11,16 +11,20 @@ image: /zigbee/images_chair/pillow_with_sensor.jpg
 ## Introduction
 
 <img src="images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>
-For my home office I want a way to detect if I'm there behind the desk.
+For my home office I want a way to detect if I'm there behind my desk. 
+So I can automate my desk peripherals as heater, monitor power, desk light and phone charger.
+
 To detect that, it's possible to use a motion sensor, 
  to detect when you also sit still on a chair, it's better to use a presence sensor. 
 The downside with one of those is, they will also detect animals or blowing fans and are more expensive. 
-And they detect a wide range and not only the chair occupancy.
+They detect a wider range and not only the chair occupancy.\
+I also use this room when I'm not at my desk then I don't need all these things powered up.
 
 ---
 ## My solution
 
-This "hack" uses a contact sensor connected to a car seat sensor to detect if a chair is occupied, 
+So I found the solution in this "hack". 
+It uses a contact (or leak) sensor connected to a car seat sensor to detect if a chair is occupied, 
 exactly what I needed!
 
 Other purposes for this sensor are:
@@ -46,7 +50,7 @@ Other purposes for this sensor are:
 
 With this new sensor, it's possible to make all kind different automations, a few examples are:
 * When the light still needs to be on
-* Power up all the computer peripherals (monitor, lights, chargers)
+* Power up all the computer peripherals (monitor, lights, chargers, heater)
 * Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while
 * When it's time to take a break to stand up and stretch your legs
 * When it's time to end your working day
@@ -77,11 +81,19 @@ The Aqara leak sensor has two metal screw contacts on the back of the sensor whe
 <br>
 
 1b. Or use a [(Zigbee) Contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) (Soldering required)\
-A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.\
+A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.
+
 On this page I describe how it works with this sensor.
 
 <a href="/buy/smart_home_best_buy_tips#contact-sensor">
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
+</a>
+
+1c. Or use an alternative [(Zigbee) leak sensor](/buy/smart_home_best_buy_tips#other-leak-sensor) (Soldering required)\
+This alternative leak sensor has external contact point, really easy to connect to the two seat sensor wires.
+
+<a href="/buy/smart_home_best_buy_tips#other-leak-sensor">
+<img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" width="200px">
 </a>
 
 2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor) (smaller or bigger versions are available)
@@ -93,11 +105,9 @@ On this page I describe how it works with this sensor.
 </a>
 
 
-To connect them together, and you use the contact sensor, you need also some soldering tools:
+To connect them together, and you use the contact or the alternative leak sensor, you also need soldering tools (even hot clue can be possible as long as the metals make contact!):
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
-
-With the leak sensor, you only need to strip the protection layer from the pressure sensor cables, that it.
 
 ---
 
@@ -273,7 +283,7 @@ That's it, a very useful and reliable DIY Zigbee chair sensor (for me at least!)
 
 ---
 
-See also: [DIY zigbee leak sensor based on a contact sensor](zigbee_water_leak_sensor) or [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
+See also: [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
 
 ---
 

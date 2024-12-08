@@ -20,7 +20,7 @@ My latest biggest updates on this blog:
 
 * [I automated all my powered Christmas decorations](projects/automate_christmas_decorations)
 * [Home Automation - Ideas](ideas/home_automation_ideas)
-* [DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
+* [DIY Zigbee - chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
