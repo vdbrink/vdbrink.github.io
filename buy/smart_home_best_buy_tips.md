@@ -40,7 +40,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Presence detection sensor](#presence-detection-sensor)
     * [Air quality sensor](#air-quality-sensor)
     * [Temperature sensor](#temperature-sensor)
-    * [Lux sensor](#lux-sensor)
+    * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
     * [Rain sensor](#rain-sensor)
     * [Lights](#lights)
@@ -248,17 +248,22 @@ Or in the summer when it becomes outside colder than inside.
 
 ---
 
-### Lux sensor
+### Light intensity sensor
 
 <a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">
-<img src="../ideas/images/lux_sensor.jpg" alt="lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-A lux sensor is a sensor that measures the light intensity.
+A light intensity sensor (lux sensor) measures the amount of light brightness.\
+Usefull to enable the lights when it become dark outside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">Zigbee lux sensor - Aqara (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GZCGQ01LM.html" target="_blank" title="GZCGQ01LM">{{imgZ2M}}GZCGQ01LM</a>
 
-<br><br><br>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">Zigbee lux sensor (cheaper) - Moes (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">Zigbee lux sensor (cheaper) - Tuya (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0222.html" target="_blank" title="TS0222">{{imgZ2M}}TS0222/a>
 
 ---
 
