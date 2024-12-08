@@ -105,7 +105,7 @@ This alternative leak sensor has external contact point, really easy to connect 
 </a>
 
 
-To connect them together, and you use the contact or the alternative leak sensor, you also need soldering tools (even hot clue can be possible as long as the metals make contact!):
+To connect them together, and you use the contact or the alternative leak sensor, you also need soldering tools (even hot glue can be possible as long as the metals make contact!):
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
 
