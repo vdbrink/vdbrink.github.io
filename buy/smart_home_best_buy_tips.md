@@ -190,13 +190,14 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 ### Presence detection sensor
 
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
-<img src="images_zigbee/mmwave_motion_sensor.jpg" alt="mmwave Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="images_zigbee/mmwave_motion_sensor.jpg" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-A millimeter wave presence sensor has no need to direct sight. You can hide it in a closet.
-It uses 24 GHz to send it signal to detect people in a room.
-It can also detect persons when they don't move, like they sit on a couch. Ideal for the living room or home office.
+A human presence sensor has no need to direct sight. 
+You can also hide it in a closet.
+It can detect persons when they don't move, for example, when they sit on a couch.\
+Ideal for the living room, bedrooms and home office.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee mmWave Presence detection sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee human Presence detection sensor (AliExpress)</a>
 <a href="https://amzn.to/3Zi5pay" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
