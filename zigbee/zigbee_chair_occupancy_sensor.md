@@ -89,25 +89,38 @@ On this page I describe how it works with this sensor.
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-1c. Or use an alternative [(Zigbee) leak sensor](/buy/smart_home_best_buy_tips#other-leak-sensor) (Soldering required)\
+1c. Or use an alternative [(Zigbee) leak sensor](/buy/smart_home_best_buy_tips#other-leak-sensor) (No soldering required)\
 This alternative leak sensor has external contact point, really easy to connect to the two seat sensor wires.
 
 <a href="/buy/smart_home_best_buy_tips#other-leak-sensor">
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" width="200px">
 </a>
 
+---
+
 2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor) (smaller or bigger versions are available)
 
 <a href="/buy/esphome_diy#pressure-sensor">
+<img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" />
 <img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> 
 <img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
-<img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
 
+---
 
-To connect them together, and you use the contact or the alternative leak sensor, you also need soldering tools (even hot glue can be possible as long as the metals make contact!):
+3a. To connect the alternative leak sensor and the pressure sensor, you can use different kinds of <a href="../buy/esphome_diy#cable-connectors">clips</a> to avoid soldering.
+
+<a href="../buy/esphome_diy#cable-connectors">
+<img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="100px"/>
+&nbsp;
+<img src="/buy/images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" height="100px"/>
+</a>
+
+3b. To connect it to the contact sensor, you need soldering tools:
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
+
+3c. Or use hot glue. That can also be possible as long as the metals make contact!
 
 ---
 

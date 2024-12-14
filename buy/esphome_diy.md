@@ -315,6 +315,24 @@ Dupont are cables to connect the ESP pins with sensors pins. The dupont cables a
 
 ---
 
+## Cable connectors
+
+Connect two wires without soldering.
+
+<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">
+<img src="images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="180px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">Cable connectors - option 1 (AliExpress)</a>
+
+
+<a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">
+<img src="images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" width="250px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">Cable connectors - option 2 (AliExpress)</a>
+
+
+---
+
 ## Pin heads
 
 Pin heads to use dupont cables to connect the ESP with sensor.
@@ -328,7 +346,7 @@ Only required if they are not already provided.
 <a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">
 <img src="images_diy/pinhead_male.webp" height="180px" alt="pin heads male" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">link (AliExpress)</a>
 
 ---
 
