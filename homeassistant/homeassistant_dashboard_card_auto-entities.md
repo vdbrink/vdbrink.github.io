@@ -25,12 +25,13 @@ Install it via this button
   * [Temperatures (rounded, sorted and colored)](#temperatures-rounded-sorted-and-colored)
   * [Humidity (rounded, sorted and colored)](#humidity-rounded-sorted-and-colored)
   * [Show lights ordered by state](#show-lights-ordered-by-state)
-  * [Show only the lights which are 'on' at the moment](#show-only-the-lights-which-are-on-at-the-moment)
+  * [Show only the lights which are 'on'](#show-only-the-lights-which-are-on)
   * [Latest activities (motions and doors)](#latest-activities-motions-and-doors)
   * [Missing devices](#missing-devices)
   * [Full moon (single condition)](#full-moon-single-condition)
   * [Only X days left (multiple conditions with AND)](#only-x-days-left-multiple-conditions-with-and)
   * [With attribute data](#with-attribute-data)
+  * [Conditional mushroom cards](#conditional-mushroom-cards)
   * [Chores](#chores)
 <!-- TOC -->
 
@@ -128,8 +129,10 @@ sort:
 
 ---
 ## Show lights ordered by state
-Show the lights which are currently `on` always on top.\
+Show all the lights which are currently `on` always on top.\
 Hide also the unavailable ones.
+
+<img src="images_autoentities/lights-autoentities.png" alt="Show lights ordered by state" width="400px">
 
 ```yaml
 {% raw %}
@@ -152,7 +155,11 @@ sort:
 ```
 
 ---
-## Show only the lights which are 'on' at the moment
+## Show only the lights which are 'on'
+
+Show only the lights which are 'on'.
+
+<img src="images_autoentities/lights-on-autoentities.png" alt="Show only the lights which are on" width="400px">
 
 ```yaml
 {% raw %}
@@ -177,6 +184,8 @@ filter:
 
 Show the latest 10 active motion-, presence- and contact door sensors which are changed in the last 30 minutes.
 
+<img src="images_autoentities/latest-activities-autoentities.png" alt="Latest activities (motions and doors)" width="400px">
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -188,27 +197,17 @@ card:
   title: Latest activities
 filter:
   include:
-    # active motion sensors
     - domain: binary_sensor
-      state: 'on'
       attributes:
         device_class: motion
       options:
         secondary_info: last-changed
-    # active presence sensors
     - domain: binary_sensor
-      state: 'on'
-      attributes:
-        device_class: presence
-      options:
-        secondary_info: last-changed
-    # contact/door sensors
-    - domain: binary_sensor
-      entity_id: '*_contact'
+      entity_id: "*_contact"
       options:
         secondary_info: last-changed
   exclude:
-    - last_changed: '> 30m ago'
+    - last_changed: "> 30m ago"
 sort:
   method: last_changed
   count: 10
@@ -220,6 +219,8 @@ sort:
 ## Missing devices
 
 Show devices which didn't change their value for more than 1440 minutes (1 day). 
+
+<img src="images_autoentities/missing-devices-autoentities.png" alt="Missing devices" width="400px">
 
 ```yaml
 {% raw %}
@@ -278,7 +279,9 @@ show_empty: false
 
 For the paper pickup day, I only want this visible when there are only three days left.
 
-Show only when the number of days is less than 4 AND more than -1.
+Show only for the upcoming days (when the number of days is less than 4 AND more than -1).
+
+<img src="images_autoentities/waste-pickup-autoentities.png" alt="Waste pickup upcoming days" width="400px">
 
 [See here how to create a day countdown based on a date.](homeassistant_dashboard_date_time#days-count-down)
 
@@ -325,6 +328,11 @@ sort:
   method: last-changed
   reverse: true
 ````
+
+---
+## Conditional mushroom cards
+
+Mushroom cards can also be shown conditionally, see my [conditional mushroom card](/homeassistant/homeassistant_dashboard_card_mushroom#nice-weather-only-an-icon) examples.
 
 ---
 ## Chores
