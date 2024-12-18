@@ -31,7 +31,9 @@ English spoken home automation videos for inspiration:
 <br>
 
 [The whole playlist of Smart Home Tours by Smart Home Solver](https://www.youtube.com/playlist?list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99)
-<br><br>
+<br>
+
+[Home Alone movie with a smart home](http://www.youtube.com/watch?v=-lfHXKbsMLE)
 
 ---
 

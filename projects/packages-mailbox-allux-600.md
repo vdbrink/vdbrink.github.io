@@ -648,7 +648,8 @@ Did you create one yourself? Let me know!
 I found some alternative package boxes:
 
 * [Veehaus - Lucas Plus Statief 1000](https://www.bol.com/nl/nl/p/veehaus-lucas-plus-statief-1000-achteruitname-pakketbrievenbus-met-statief-pakketbrievenbus-brievenbus-pakketbox-metaal-26-x-41-x-109-cm-zwart/9300000108153838/) (Exact the same model as the Allux 600)
-* Allux 800 - bigger version
+* [Allux 800 - bigger version](https://allux.com/allux-800-parcel/p/66529)
+* [Allux 800L - even bigger version](https://allux.com/allux-800l-parcel/p/66751)
 * [PakketPanda Classic – XXL Pakketbrievenbus](https://pakketpanda.nl/product/pakketpanda-classic-pakketbrievenbus/)
 * [PostNL advertise with a GePro Box](https://www.postnl.nl/campagnes/pakketkluis/)
 * [Logixbox Multibox-S](https://www.logixbox.nl/pakjes-brievenbus-multibox-s.html)

@@ -95,6 +95,10 @@ It's more than you can think of, like:
   
 These advantages must be enough excuses to automate these decorations. I even convinced myself again!
 
+Home Alone with a smart home is like:
+
+[![Home Alone with a smart home](http://img.youtube.com/vi/-lfHXKbsMLE/0.jpg)](http://www.youtube.com/watch?v=-lfHXKbsMLE "Home Alone with a smart home")
+
 ---
 ## My old situation
 
