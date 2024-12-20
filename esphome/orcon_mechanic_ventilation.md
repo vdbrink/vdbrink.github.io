@@ -15,20 +15,20 @@ image: /esphome/orcon_images/wires_connected.jpg
 
 For a few years this project was on top of my automation wishlist. I tried different approaches to get this done, and now it works like a charm I want to share my solution and the knowledge I gathered over the years.  
 
-I know there are much more people like me struggling to get this automated.
+I know there are many more people like me struggling to get this automated.
 
-On this page you can read all about how you can set it up yourself.
+On this page, you can read all about how you can set it up yourself.
 
 <details>
   <summary><b>> Click here to see all compatible Orcon systems >></b></summary>
 
-Because the Orcon remote 15RF is compatible with a lot of Orcon ventilation models this solution will work if you have one of these models: 
+Because the Orcon remote 15RF is compatible with a lot of Orcon ventilation models, this solution will work if you have one of these models: 
  Compact-10RHB, MPV-10WRB, MVS-15R, MVS-15RH, MVS-15RHB, MVS-5RHBP, MVS-15RH, HRC-300/400-15BRH, HRC-300/400BRPH-15, HRC-220/225-15BR, HRC-300/400/500, HRC-425/570, HRC-350/450.
 </details>
 
 ## My solution
 
-With my solution I use an extra original remote connected and controlled by an ESP8266.
+With my solution, I use an extra original remote connected and controlled by an ESP8266.
 
 ![Orcon MVS 15 controlled by ESP](orcon_images/orcon_compact_10rhb_esp_controlled.jpg "Orcon MVS 15 controlled by ESP")
 
@@ -110,7 +110,8 @@ Affiliate links are used here.
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
 
 
-See [ESPHome DIY sensors Best Buy Tips](../buy/esphome_diy) for more DIY hardware buy tips.
+See [ESPHome DIY sensors Best Buy Tips](/buy/esphome_diy) for more DIY hardware buy tips.\
+See [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips) for more Zigbee sensors buy tips.
 
 ---
 
@@ -122,8 +123,8 @@ I've made close-up photos and a table how everything is connected.
 
 >  Click on the image to see the full photos of the connected wires.
 
-| Connected pins close up                                                                                          | All connected cables                                                                                                      | Pins on a ESP8266 MCU v3                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Connected pins close up                                                                                          | All connected cables                                                                                                        | Pins on a ESP8266 MCU v3                                                                                                               |
+|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <a href="orcon_images/esp_wires.jpg"><img src="orcon_images/esp_wires.jpg" alt="ESP wires" height="300px" /></a> | <a href="orcon_images/wires_connected.jpg"><img src="orcon_images/wires_connected.jpg" alt="ESP wires" height="300px"/></a> | <a href="images/pins_esp8266_mcu_v3.jpg"><img src="images/pins_esp8266_mcu_v3.jpg" alt="Pins on a ESP8266 MCU v3" height="300px"/></a> |
 
 This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
@@ -293,7 +294,7 @@ If you want to add these also to your script checkout [this message](https://com
 If you want to read all about the remote possibilities, I placed a link to the Dutch manual in the [References](#references) chapter.
 
 #### Problems with flashing
-* Flash succeed, but he won't connect to my Wifi network.
+* Flash succeeds, but he won't connect to my Wifi network.
  <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
   * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network, but if it has the same name, he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
   <img src="orcon_images/flash_esphome_with_ip.jpg" alt="IP failed" height="300px"/>
@@ -337,7 +338,8 @@ When you click on the device link, you see the defined buttons from the script.
 
 You can now toggle the switches to test if you can control it now from Home Assistant.
 
-With these controls it's only a one way communication, you can only send data to the ESP. To get feedback of the current active mode, you also need to read the power consumption of your system.
+With these controls, it's only a one-way communication, you can only send data to the ESP. 
+To get feedback of the current active mode, you also need to read the power consumption of your system.
 
 ---
 ## Read the current mode
@@ -387,7 +389,7 @@ You can download this flow [here](orcon_files/node-red_flow.json).
 
 #### Home Assistant
 
-_If you implemented this flow direct in Home Assistant please [let me know](https://github.com/vdbrink/vdbrink.github.io/issues), so I can add that code also here._
+_If you implemented this flow direct in Home Assistant, please [let me know](https://github.com/vdbrink/vdbrink.github.io/issues), so I can add that code also here._
 
 ---
 ## Home Assistant dashboard remotes
@@ -692,8 +694,8 @@ elements:
 
 #### Design 3: Original remote
 
-This design is a photo of the original remote with transparant buttons defined on the place of the actual buttons.
-In this design you can't see the current mode.
+This design is a photo of the original remote with transparent buttons defined on the place of the actual buttons.
+In this design, you can't see the current mode.
 
 <img src="orcon_images/home_assistant_orcon_remote_d3.jpg" width="500px" alt="Original remote" />
 
@@ -912,23 +914,23 @@ cards:
 The system can automatically be controlled by different type of sensors and actuators:
 - The original 15RF remote.
 - A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 CO2 sensor](co2_senseair_s8_sensor).
-- A temperature and humidity sensor (Aqara WSDCGQ11LM) in the extractor hood above the stove.
-- A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience if you use fixed values, to control the system, it can be that it will never drop below the 60%.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/smart_home_best_buy_tips#temperature-sensor) in the extractor hood above the stove.
+- A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500px" />
   
-- A temperature and humidity sensor (Aqara WSDCGQ11LM) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/smart_home_best_buy_tips#temperature-sensor) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
 - I also have a reference sensor outside the bathroom as reference data.
 
 <img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500px" />
 
-- A toilet VOC (Volatile Organic Compounds) sensor (Not yet realized)
+- A toilet [VOC (Volatile Organic Compounds) sensor](/buy/smart_home_best_buy_tips#air-quality-sensor) (Not yet realized)
 
 ### Automation script
 
 I store my sensor data in an influxDB database which gives me the possibility to visualize all the data together in a Grafana dashboard.
 
-Here you can see, one of my first scripts, the Orcon is automatic activated (yellow line) after the humidity in the shower is more than 70%, and it automatically shuts down when it's lower than 55%. 
+Here you can see, one of my first scripts, the Orcon is automatically activated (yellow line) after the humidity in the shower is more than 70%, and it automatically shuts down when it's lower than 55%. 
 
 <img src="orcon_images/grafana_shower_humidity.jpg" alt="Automatic controlled based on humidity" width="500px" />
 
@@ -957,7 +959,7 @@ Every 15 minutes this flow is triggered.
   *  When you heat food on the stove, the humidity can rise and drop.
 * Is the difference between the humidity in- and outside the extractor hood less than 7%?
   *  When you heat food on the stove, the humidity will drop.
-* Is the extractor hood temperature less than 26 degrees?
+* Is the extractor hood temperature lower than 26 degrees?
     * This can be caused by the dryer or taking a shower.
 
 <br/>
@@ -981,7 +983,7 @@ This is the corresponding flow in Node-RED.
 ## Possible improvements
 - Power the remote from the ESP
 - Register the remote to the system via the ESP
-- Activate the system based on toilet usage via a VOC sensor
+- Activate the system based on toilet usage via a [VOC sensor](/buy/smart_home_best_buy_tips#air-quality-sensor)
 - Show the current mode in design 3
 
 ---
@@ -989,10 +991,10 @@ This is the corresponding flow in Node-RED.
 There are other projects who use other ways to control the Orcon ventilation system.
 
 ### Clone the remote signals
-The Orcon remote uses a CC1101 RF module which does the RF wireless communication over 868,3 MHz. I tried to catch the remote signals with an RTL-SDR dongle and resend it. This didn't work and around the same time I found out it uses a two-way communication system called "Honeywell Ramses II".
-At that time there was no open implementation of it. Now there are. This approach stopped here for me.
+The Orcon remote uses a CC1101 RF module which does the RF wireless communication over 868,3 MHz. I tried to catch the remote signals with an [RTL-SDR dongle](/buy/esphome_diy#rtl-sdr-radio-sniffer-for-433-and-868-mhz) and resend it. This didn't work and around the same time I found out it uses a two-way communication system called "Honeywell Ramses II".
+At that time, there was no open implementation of it. Now there are. This approach stopped here for me.
 
-### Control direct the motor
+### Directly control the motor
 Other projects use a 0 - 10V PWM dimmer to overrule the voltage direct on the motor.
 
 
