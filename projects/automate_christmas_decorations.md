@@ -317,13 +317,7 @@ Now you can automate these devices also!
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
   </a>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">A Christmas paper star - example 1</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcwrLNr" target="_blank">A Christmas paper star - example 2</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3</a>
-
-  <a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">
-    <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
-  </a>
+<br>
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
 
@@ -331,14 +325,23 @@ Now you can automate these devices also!
     <img src="images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
-[//]: # (* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">A candle lights controlled by an infrared remote</a>)
+<br>
 
-[//]: # ()
-[//]: # (  <a href="https://s.click.aliexpress.com/e/" target="_blank">)
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">A candle lights controlled by an infrared remote</a>
 
-[//]: # (    <img src="images_christmas_decorations/candle_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>)
+  <a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">
+    <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+  </a>
 
-[//]: # (  </a>)
+<br>
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">A Christmas paper star - example 1</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcwrLNr" target="_blank">A Christmas paper star - example 2</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">
+    <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
+  </a>
 
 ---
 
@@ -397,12 +400,16 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
   <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
 
+<br>
+
 * Innr Zigbee power socket can handle 2300 W and has an IP44 rating, without power measurement.
 
   {{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
 
   <a href="https://amzn.to/3Vt83Ip" target="_blank">
    <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" /></a>
+
+<br>
 
 * Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
 

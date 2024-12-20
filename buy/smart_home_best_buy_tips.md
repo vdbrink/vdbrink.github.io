@@ -131,7 +131,7 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" t
 
 A contact sensor can be placed to check if doors and windows are open or closed. The sensor knows only those two values. The contact sensor works with a "reed switch", the circuit is by default open, but when there is a magnet nearby, the internal metal closes the circuit.
 
-The sensor can also be used attached to other sensors that also return an open or closed circuit. With this behavior, you can create also a seat sensor or a water leak sensor.
+The sensor can also be used attached to other sensors that also return an open or closed circuit. With this behavior, you can create also a [seat sensor](/zigbee/zigbee_chair_occupancy_sensor) or a [water leak sensor](/zigbee/zigbee_water_leak_sensor).
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
@@ -140,16 +140,19 @@ The sensor can also be used attached to other sensors that also return an open o
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor - Aqara (AliExpress)</a>
-<a href="https://amzn.to/4fzYtvd" target="_blank">(Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a>
+<a href="https://amzn.to/3Dnl1kK" target="_blank">(Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a> 
+Small and a long battery life.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
 <a href="https://amzn.to/3ZfMxch" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
+Small cheaper.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered (cheaper) - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered - Tuya (AliExpress)</a>
 <a href="https://amzn.to/4eBavTK" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" title="ZD06">{{imgZ2M}}ZD06</a>
+Battery powered, bigger, cheaper.
 
 ---
 
@@ -254,27 +257,34 @@ Or in the summer when it becomes outside colder than inside.
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A light intensity sensor (lux sensor) measures the amount of light brightness.\
-Usefull to enable the lights when it become dark outside.
+Usefull to enable the lights when it becomes dark outside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">Zigbee lux sensor - Aqara (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GZCGQ01LM.html" target="_blank" title="GZCGQ01LM">{{imgZ2M}}GZCGQ01LM</a>
+Very reliable, very long battery life, quick response on small light changes, more expensive.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">Zigbee lux sensor (cheaper) - Moes (AliExpress)</a>
-<a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a> 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">Zigbee lux sensor (cheaper) - Tuya (AliExpress)</a>
-<a href="https://www.zigbee2mqtt.io/devices/TS0222.html" target="_blank" title="TS0222">{{imgZ2M}}TS0222/a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0222.html" target="_blank" title="TS0222">{{imgZ2M}}TS0222</a>
 
 ---
 
 ### Leak sensor
 
+Each leak sensor has two metal contacts, when these contacts get in contact with water, the current flows from one contact to the other, then you have a closed circuit. 
+The sensor sends a signal "water detected"!
+Water conducts the current and air doesn't.
+
 <a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water, then the two contacts have a closed circuit because water conducts.
+The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water.
+This sensor is completely water-resistant. 
+It has a small size and the battery lasts very long. That makes this sensor a more expensive but very reliable one.
 
-This sensor can also be used with other boolean sensors, 
+It can also be used to create other boolean sensors, 
 like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">Aqara leak sensor (AliExpress)</a>
@@ -286,8 +296,8 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-Another leak sensor is a sensor that measures if there is water, 
-then the two contacts have a closed circuit because water conducts.
+Another leak sensor is the one with a wire, this sensor itself isn't water-resistant, only the other end of the cable may become wet.
+This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (AliExpress)</a>
 <a href="https://amzn.to/3Zj7va8" target="_blank">(Amazon)</a>
@@ -389,7 +399,7 @@ The easiest way to make a dimmable group with gu10 lights smart.
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">
 <img src="images_zigbee/zigbee_button.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
 
-This button can trigger multiple scenarios because it supports three press types: single-, double- and long press.
+These buttons can trigger multiple scenarios because they support three press types: single-, double- and long press.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (AliExpress)</a>
 <a href="https://amzn.to/40XzGws" target="_blank">(Amazon)</a>
@@ -439,7 +449,7 @@ The first port can also be used to switch on/off data access via USB, the other 
 <a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">
 <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Zigbee IR remote control" height="150px" style="margin-left:15px;float:right"/></a>
 
-This device can learn infrared remote control signals and send them again via Zigbee. 
+These devices can learn infrared remote control signals and send them again via Zigbee. 
 This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
@@ -501,9 +511,11 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
 
-{{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13 <a href="https://amzn.to/4i0Vhdv" target="_blank">(Amazon)</a>
+{{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
 <a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
+
+[//]: # ( &#40;<a href="https://amzn.to/4i0Vhdv" target="_blank">&#40;Amazon&#41;</a>&#41;)
 
 #### Outdoor socket
 
@@ -519,13 +531,18 @@ This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (
 <br>
 <br>
 
-<a href="https://amzn.to/4eBZVMp" target="_blank">
-<img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+[//]: # ()
+[//]: # (<a href="" target="_blank">)
 
-This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without power measurement).
+[//]: # (<img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>)
 
-{{imgBasket}}<a href="https://amzn.to/4eBZVMp" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>
+[//]: # ()
+[//]: # (This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating &#40;without power measurement&#41;.)
+
+[//]: # ()
+[//]: # ({{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset &#40;Amazon&#41;</a>)
+
+[//]: # (<a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>)
 
 <br>
 
@@ -599,7 +616,7 @@ DON'T CHARGE NORMAL CR2032 WITH IT!
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCye8sj" target="_blank">2x LIR2032 rechargeable batteries - PynMont (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnnhBnN" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olLhl1p" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
 <a href="https://amzn.to/4fCK0i9" target="_blank">(Amazon)</a>
 
 #### CR2032 USB battery replacements
@@ -609,7 +626,6 @@ DON'T CHARGE NORMAL CR2032 WITH IT!
 It's also possible to convert a wireless CR2032 devices to a USB wired devices. Now you don't have to care about replacing batteries. 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
-<a href="" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
 
