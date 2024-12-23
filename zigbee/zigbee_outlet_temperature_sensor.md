@@ -77,3 +77,15 @@ This project only requires these devices: A battery powered temperature sensor a
 ---
 
 Any other solutions or feedback? Please let me know!
+
+<br>
+
+---
+
+See also: [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
+
+---
+
+[^^ Top](#table-of-contents)
+
+[<< See also my other Zigbee content](index)
