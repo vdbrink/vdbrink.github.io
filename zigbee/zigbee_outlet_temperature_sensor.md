@@ -82,8 +82,4 @@ Any other solutions or feedback? Please let me know!
 
 ---
 
-See also: [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
-
----
-
 [<< See also my other Zigbee content](index)
