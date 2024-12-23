@@ -94,7 +94,7 @@ All the docker-compose commands can be found on the
 
 ---
 ## Docker compose file explanation
-In the *docker-compose.yml* file you can define a list with applications. 
+In the *docker-compose.yml* file you can define a list of applications. 
 For each application you can override the default image container settings and map the internal container
 ports (ports), environment variables (environment), directories (volumes) and hardware (devices) to the hosts. 
 With this functionality you can easily backup custom data and settings.

@@ -1,7 +1,7 @@
 ---
 title: DIY Zigbee chair occupancy sensor
 category: Zigbee
-tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, bed, mat, pressure, car]
+tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, cat, bed, mat, pressure, car]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
@@ -28,6 +28,7 @@ It uses a contact (or leak) sensor connected to a car seat sensor to detect if a
 exactly what I needed!
 
 Other purposes for this sensor are:
+* In the cat/dog basket
 * In the couch/sofa/relax chair
 * Under your mattress to detect bed occupancy (only works if there is enough pressure through the mattress)
 * Under a mat on the floor (to detect if someone entering a space)
@@ -120,6 +121,7 @@ This alternative leak sensor has external contact point, really easy to connect 
 * [Soldering iron](../buy/esphome_diy#soldering-iron)
 * [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
 
+<br>
 3c. Or use hot glue. That can also be possible as long as the metals make contact!
 
 ---
@@ -210,6 +212,8 @@ This will generate a new sensor called `sensor.chair_occupancy`.
   end: '{{ now() }}'
 {% endraw %}
 ```
+
+---
 
 ### Graphs
 
