@@ -1,16 +1,17 @@
 ---
 title: Zigbee
 category: Zigbee
-tags: [Zigbee]
+tags: [Zigbee, best buy, stick, adapter, smart, home]
 image: /zigbee/images/zigbee.jpg
 ---
 
 # Zigbee
 
 Zigbee is a local smart home protocol.\
-I'm a hugh fan of it because it's local and wide support. 
-I have over 100 devices from all kinds of brands working together.\
-Find here related information and my [Zigbee Best Buy Tips](../buy/smart_home_best_buy_tips).
+I'm a hugh fan of it because it's local, affordable and has a wide range of products available.\  
+I have over 140 devices from all kinds of brands and they are all working together, no limitations.
+
+On this page you find products, information and projects related to Zigbee.
 
 ---
 ## Table of Contents
@@ -38,6 +39,10 @@ How to create custom Zigbee sensors:
 
   <a href="zigbee_chair_occupancy_sensor"><img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="DIY Zigbee chair occupancy sensor" height="100px"/></a>
 
+* [DIY Zigbee outlet temperature sensor](zigbee_outlet_temperature_sensor)
+
+  <a href="zigbee_temperature_no_battery"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor" height="100px"/></a>
+
 * [DIY Zigbee leak detector](zigbee_water_leak_sensor)
   
   <a href="zigbee_water_leak_sensor"><img src="images_leak/leak_sensor_assemblage.jpg" alt="DIY Zigbee leak sensor assemblage" height="100px"/></a>
@@ -46,7 +51,7 @@ How to create custom Zigbee sensors:
 
 ## Why I chose Zigbee
 
-On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, Wifi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
+On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, WiFi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
 
 <img src="images/zigbee.jpg" alt="zigbee" height="60px" style="margin-left:15px;float:right"/>
 
@@ -75,7 +80,7 @@ Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="h
 it's a very reliable stick.
 My network grew to 130+ devices today, and it still runs fast.
 
-To avoid interference with Bluetooth or Wifi,
+To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick.
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">USB A extension cord (AliExpress)</a> for it.
 

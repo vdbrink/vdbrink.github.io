@@ -63,7 +63,8 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
 
 ## ESP board
 
-The brains of your own sensor. It contains the processor to run the program on, and with the Wifi module on it which can make contact with your own network.
+The brains of your own sensor. 
+It contains the processor to run the program on, and with the WiFi module on it which can make contact with your own network.
 
 ### ESP32
 

@@ -174,7 +174,7 @@ Here are some examples how-to accomplish this:
 
 An example of a battery powered light is a garland with lights above the door.\
 I Automated it with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter/switch and a 5V-adapter.
-This smart (Zigbee or Wifi) USB-adapter/switch can be remote controlled and each port can be activated individually.
+This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each port can be activated individually.
 
 <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
 <img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/>
@@ -257,7 +257,7 @@ Those extra dummy batteries are only needed to make contact between the ends of 
         <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200" class="buy-link"/>
     </a>
 
-* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [wifi/zigbee socket](https://s.click.aliexpress.com/e/_DluyKLX) for your country to automate the devices.
+* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [WiFi/zigbee socket](https://s.click.aliexpress.com/e/_DluyKLX) for your country to automate the devices.
 
     <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
         <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
@@ -288,12 +288,12 @@ they must be in reach of a power socket and somewhere where I could keep the pow
 
 I solved this by using battery powered LED lights, which are controllable via an infrared remote. 
 I used a Zigbee programmable infrared receiver and transmitter which can learn from the original remote.\
-This transmitter is a Wifi or Zigbee, battery powered, device that can be placed in the sight of multiple infrared devices. \
+This transmitter is a WiFi or Zigbee, battery powered, device that can be placed in the sight of multiple infrared devices. \
 I have it at a distance of five meters, and still it works great as long as the star is made of thin carton/paper otherwise the signal can't get through the paper to reach the LED.
 
 #### The programmable infrared remote
 
-I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [wifi models](../buy/smart_home_best_buy_tips#infrared-remote-control)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
+I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [WiFi models](../buy/smart_home_best_buy_tips#infrared-remote-control)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
 Also the original remote can be used to control them!
 
@@ -311,7 +311,7 @@ Now you can automate these devices also!
   </a>
 
 * {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote</a>
-  It can learn signals from the original remote, and via Wifi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
+  It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>

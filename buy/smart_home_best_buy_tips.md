@@ -2,7 +2,7 @@
 title: "Zigbee Smart home - Best Buy Tips"
 description: "Useful link to buy Zigbee sensors other devices for your smart home automation with Home Assistant"
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee, wifi]
+tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee, WiFi]
 image: /buy/images_zigbee/zigbee_banner.png
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -82,7 +82,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
 ---
 ## Why I chose Zigbee
 
-On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, Wifi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
+On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, WiFi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one, specific Zigbee.
 
 <img src="images_zigbee/zigbee.jpg" alt="zigbee" height="60px" style="margin-left:15px;float:right"/>
 
@@ -116,7 +116,7 @@ Another new coordinator which many people are very satisfied with is the <a href
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a> 
 
 
-To avoid interference with Bluetooth or Wifi,
+To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick. 
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">USB A extension cord (AliExpress)</a> <a href="https://amzn.to/3V2q9Rk" target="_blank">(Amazon)</a> for it.
 
@@ -182,7 +182,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank">Zigbee motion sensor all directions - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/IH012-RT01.html" target="_blank" title="IH012-RT01">{{imgZ2M}}IH012-RT01</a> <!-- or 809WZT -->
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">Zigbee / WIFI motion sensor PIR, AAA powered (cheaper) - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">Zigbee / WiFi motion sensor PIR, AAA powered (cheaper) - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
 [//]: # ({{imgBasket}}<a href="https://amzn.to/4i18dQH" target="_blank">Zigbee motion sensor all directions - LIGHTEU &#40;Amazon&#41;</a>)
@@ -200,7 +200,7 @@ You can also hide it in a closet.
 It can detect persons when they don't move, for example, when they sit on a couch.\
 Ideal for the living room, bedrooms and home office.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee / WIFI human Presence detection sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee / WiFi human Presence detection sensor (AliExpress)</a>
 <a href="https://amzn.to/3Zi5pay" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
@@ -226,7 +226,7 @@ Normally you get single sensors for each parameter!
 Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor. 
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">Zigbee / WIFI Air quality sensor - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">Zigbee / WiFi Air quality sensor - Tuya (AliExpress)</a>
 <a href="https://amzn.to/40Y4IEB" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
@@ -248,6 +248,11 @@ Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EuScxuN" target="_blank">Zigbee temperature and humidity sensor (cheaper) - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RSH-HS06.html" target="_blank" title="RSH-HS06">{{imgZ2M}}RSH-HS06</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank">Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/WSD500A.html" target="_blank" title="WSD500A">{{imgZ2M}}WSD500A</a> Battery powered, bigger, cheaper.\
+This sensor can be converted to an [outlet sensor](/zigbee/zigbee_temperature_no_battery).\
+<img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a> 
 
 ---
 
@@ -436,7 +441,7 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 This actuator can toggle the power state of each USB port individual.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee / WIFI USB adapter switch - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnCpniJ" target="_blank">Zigbee / WiFi USB adapter switch - Tuya (AliExpress)</a>
 <a href="https://amzn.to/4hSTs2x" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
 
@@ -456,22 +461,22 @@ This way you can create automations for air conditioners, fans, lights, etc.
 <a href="https://amzn.to/495yrxA" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">Wifi IR remote control - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">WiFi IR remote control - Tuya (AliExpress)</a>
 <a href="https://amzn.to/4eJPxlw" target="_blank">(Amazon)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">Wifi IR remote control RM4 Mini - Broadlink (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">WiFi IR remote control RM4 Mini - Broadlink (AliExpress)</a>
 <a href="https://amzn.to/3CDLyK1" target="_blank">(Amazon)</a>
 
 #### Infrared + RF + 433MHz + 315MHz remote control
 
 <a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">
-<img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="Wifi IR + RF + 433 + 315 remote control" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="WiFi IR + RF + 433 + 315 remote control" height="150px" style="margin-left:15px;float:right"/></a>
 
-This wifi device supports a wide range of different wireless protocols, like Infrared + RF + 433MHz + 315MHz. 
+This WiFi device supports a wide range of different wireless protocols, like Infrared + RF + 433MHz + 315MHz. 
 It can learn from the original remote control it signals and send them again via Zigbee.\
 This way you can create automations for air conditioners, fans, lights, etc.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">Wifi IR + RF + 433 + 315 remote control - Moes (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">WiFi IR + RF + 433 + 315 remote control - Moes (AliExpress)</a>
 Model: RF-R1
 
 ---
@@ -658,7 +663,7 @@ This CR2450 battery is a bit thicker than the other ones.
 ### Battery eliminators
 
 <a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">
-<img src="../projects/images_christmas_decorations/battery_eliminator.webp" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
+<img src="/buy/images_diy/battery_eliminator.png" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
 
 Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
 This saves you from buying new batteries. The big advantage is also that you now can control them with your home automations by adding a smart plugin between the plug and the wall outlet. Now you also don't have to worry that you forgot them to put them off again.

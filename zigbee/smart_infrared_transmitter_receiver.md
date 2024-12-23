@@ -1,7 +1,7 @@
 ---
 title: Zigbee infrared transmitter / receiver
 category: Zigbee
-tags: [Zigbee, wifi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, lights, screens]
+tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, lights, screens]
 ---
 
 ## Introduction
@@ -96,7 +96,7 @@ These hardware devices are examples of what can be used with infrared automation
 
 * {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote</a>
 
-  It can learn signals from the original remote, and via Wifi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
+  It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>

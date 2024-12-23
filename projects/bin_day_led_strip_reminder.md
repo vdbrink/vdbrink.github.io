@@ -40,7 +40,7 @@ An animation with the four different bin type colors.
 ## Hardware requirements
 
 I already have a running home server with a Zigbee network, that's why I choose for a Zigbee LED strip. This will also
-work for a Wifi/bluetooth/other network type, but then the control will also be different.
+work for a WiFi/bluetooth/other network type, but then the control will also be different.
 
 Affiliate links are used here. Same price, and you sponsor this blog.
 

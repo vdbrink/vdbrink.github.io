@@ -14,7 +14,7 @@ image: esphome/images/esphome.png
 
 <img src="images/esp8266_nodemcu.jpg" alt="ESP8266 NodeMCU v3" height="150px" style="margin-left:15px;float:right"/>
 
-The ESP board is a small mini computer with onboard Wifi. ESPHome makes it easy to program these boards.
+The ESP board is a small mini computer with onboard WiFi. ESPHome makes it easy to program these boards.
 
 You define for each ESP board the connected sensors in a template. In the template, you define your ESP board and which and how the sensors are connected.
 The sensor also automatically registers itself to Home Assistant (or sends its data to a MQTT server).
@@ -33,8 +33,8 @@ esphome:
   board: nodemcuv2
 
 wifi:
-  ssid: "My wifi network SSID"
-  password: "My wifi password"
+  ssid: "My WiFi network SSID"
+  password: "My WiFi password"
 
 # Home Assistant integration
 api:

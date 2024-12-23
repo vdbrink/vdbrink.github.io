@@ -42,7 +42,7 @@ I created dashboards with all kinds of elements in it:
 ---
 ## How I use Home Assistant
 
-I started my home automation without Home Assistant on a tiny Raspberry zero (in 2018). 
+I started my home automation without Home Assistant on a tiny Raspberry zero (in 2019). 
 In those days, I used an app ([Mqtt Dashboard](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard)) where I could see and control all my devices. 
 For my smart flows, I used Node-RED.  
 After I got more and more sensors, I couldn't get a clear overview of the status of all my sensors anymore.
