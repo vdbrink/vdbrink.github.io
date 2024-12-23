@@ -67,6 +67,5 @@ and solder them to the reed switch.
 <img src="images_leak/leak_sensor_in_action.jpg" alt="diy Zigbee leak sensor in action" height="450px"/>
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Zigbee content](index)

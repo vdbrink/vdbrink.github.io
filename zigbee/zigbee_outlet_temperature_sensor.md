@@ -1,11 +1,11 @@
 ---
-title: Zigbee outlet temperature sensor
+title: DIY Zigbee outlet temperature sensor
 description: "Create a non-battery Zigbee temperature sensor"
 category: Zigbee
 tags: [Zigbee, diy, temperature, sensor, wall, outlet, socket]
 ---
 
-# Zigbee outlet temperature sensor
+# DIY Zigbee outlet temperature sensor
 *Based on a temperature sensor and a battery replacements*
 
 ## Introduction
@@ -85,7 +85,5 @@ Any other solutions or feedback? Please let me know!
 See also: [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
 
 ---
-
-[^^ Top](#table-of-contents)
 
 [<< See also my other Zigbee content](index)

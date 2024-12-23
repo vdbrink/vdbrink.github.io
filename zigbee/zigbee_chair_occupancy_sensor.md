@@ -304,6 +304,4 @@ See also: [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
 
 ---
 
-[^^ Top](#table-of-contents)
-
 [<< See also my other Zigbee content](index)
