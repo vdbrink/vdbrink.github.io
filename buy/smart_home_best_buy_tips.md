@@ -251,7 +251,7 @@ Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank">Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSD500A.html" target="_blank" title="WSD500A">{{imgZ2M}}WSD500A</a> Battery powered, bigger, cheaper.\
-This sensor can be converted to an [outlet sensor](/zigbee/zigbee_temperature_no_battery).\
+This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_temperature_sensor).\
 <img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a> 
 
 ---

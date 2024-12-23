@@ -41,7 +41,7 @@ How to create custom Zigbee sensors:
 
 * [DIY Zigbee outlet temperature sensor](zigbee_outlet_temperature_sensor)
 
-  <a href="zigbee_temperature_no_battery"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor" height="100px"/></a>
+  <a href="zigbee_outlet_temperature_sensor"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor" height="100px"/></a>
 
 * [DIY Zigbee leak detector](zigbee_water_leak_sensor)
   
