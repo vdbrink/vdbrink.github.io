@@ -66,7 +66,7 @@ This project only requires these devices: A battery powered temperature sensor a
    <a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank">
    <img src="/buy/images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Tuya AAA battery powered temperature and humidity sensor" height="150px" /></a>
 
-2. A <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements">AAA battery replacement/eliminator to USB adapter</a>\
+2. A <a href="/buy/smart_home_best_buy_tips#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
    <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
    <img src="/buy/images_diy/battery_eliminator.png" alt="battery replacement to USB adapter" height="150px" /></a>
 
