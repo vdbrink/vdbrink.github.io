@@ -18,8 +18,6 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
-
-* [DIY Zigbee outlet temperature sensor](zigbee/zigbee_outlet_temperature_sensor)
 * [I automated all my powered Christmas decorations](projects/automate_christmas_decorations)
 * [Home Automation - Ideas](ideas/home_automation_ideas)
 * [DIY Zigbee - chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
