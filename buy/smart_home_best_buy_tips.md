@@ -282,7 +282,7 @@ Each leak sensor has two metal contacts, when these contacts get in contact with
 The sensor sends a signal "water detected"!
 Water conducts the current and air doesn't.
 
-<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">
+<a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water.
@@ -292,7 +292,7 @@ It has a small size and the battery lasts very long. That makes this sensor a mo
 It can also be used to create other boolean sensors, 
 like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN " target="_blank">Aqara leak sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">Aqara leak sensor (AliExpress)</a>
 <a href="https://amzn.to/3ZneX2Z" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 

@@ -73,38 +73,38 @@ Affiliate links are used here. Same price, but you also sponsor this blog.
 
 These hardware components did I use for this project:
 
-* [SenseAir S8 CO2 sensor](../buy/esphome_diy#senseair-s8)
-  * [Manufacture product page](https://senseair.com/product/s8/)  
+* <a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">SenseAir S8 CO2 sensor</a>
+  * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
-* [ESP 12S Wemos D1 mini (no pro or V3)](../buy/esphome_diy#esp-d1-mini)
+* <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">ESP 12S Wemos D1 mini (no pro or V3)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* [Dupont male to male wires](../buy/esphome_diy#dupont)
+* <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">Dupont male to male wires</a>
   * If you order these, you can better order all three types at ones, also for any further projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
-* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in [white still available](https://s.click.aliexpress.com/e/_DlrBL2n)) or at least one with a minimal of these sizes. [link 1: a lot of boxes with all kinds of sizes](https://s.click.aliexpress.com/e/_DDALbXD)
+* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_DlrBL2n" target="_blank">white still available</a>) or at least one with a minimal of these sizes. <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* [Micro USB cable to power the ESP board](../buy/esphome_diy#micro-usb-power-cable)
+* <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">Micro USB cable to power the ESP board</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* [5V USB power adapter to power the ESP](../buy/esphome_diy#5v-usb-adapter)
+* <a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">5V USB power adapter to power the ESP</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-* [Soldering iron](../buy/esphome_diy#soldering-iron). I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron</a>. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
-* [Soldering tin wire](../buy/esphome_diy#soldering-tin-wire)
+* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering tin wire</a>
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 

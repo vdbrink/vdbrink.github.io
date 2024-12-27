@@ -72,28 +72,28 @@ This can be achieved with two different types of sensors.
 A water leak sensor or a contact sensor. 
 Both work with a boolean (true of false) state.
 
-1a. [Aqara Water leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) (No soldering required)\
+1a. <a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">Aqara Water leak sensor</a> (No soldering required)\
 The Aqara leak sensor has two metal screw contacts on the back of the sensor where you can connect direct the two wires of the pressure sensor behind.
 
-<a href="/buy/smart_home_best_buy_tips#leak-sensor">
+<a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">
 <img src="/buy/images_zigbee/aqara_leak_sensor.webp" alt="Aqara water leak sensor" width="200px">
 </a>
 
 <br>
 
-1b. Or use a [(Zigbee) Contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) (Soldering required)\
+1b. Or use a <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">(Zigbee) Contact sensor</a> (Soldering required)\
 A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.
 
-On this page I describe how it works with this sensor.
+On this page I describe how it works with this <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">contact sensor</a>.
 
-<a href="/buy/smart_home_best_buy_tips#contact-sensor">
+<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-1c. Or use an alternative [(Zigbee) leak sensor](/buy/smart_home_best_buy_tips#other-leak-sensor) (No soldering required)\
+1c. Or use an alternative <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">(Zigbee) leak sensor</a> (No soldering required)\
 This alternative leak sensor has external contact point, really easy to connect to the two seat sensor wires.
 
-<a href="/buy/smart_home_best_buy_tips#other-leak-sensor">
+<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" width="200px">
 </a>
 
@@ -101,25 +101,25 @@ This alternative leak sensor has external contact point, really easy to connect 
 
 2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor) (smaller or bigger versions are available)
 
-<a href="/buy/esphome_diy#pressure-sensor">
-<img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" />
-<img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /> 
-<img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
+<a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">
+<img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" /></a>
+<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank"><img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /></a>
+<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank"><img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
 
 ---
 
 3a. To connect the alternative leak sensor and the pressure sensor, you can use different kinds of <a href="../buy/esphome_diy#cable-connectors">clips</a> to avoid soldering.
 
-<a href="../buy/esphome_diy#cable-connectors">
-<img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="100px"/>
+<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">
+<img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="100px"/></a>
 &nbsp;
-<img src="/buy/images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" height="100px"/>
+<a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank"><img src="/buy/images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" height="100px"/>
 </a>
 
 3b. To connect it to the contact sensor, you need soldering tools:
-* [Soldering iron](../buy/esphome_diy#soldering-iron)
-* [Soldering iron tin](../buy/esphome_diy#soldering-tin-wire)
+* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron</a>
+* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron tin</a>
 
 <br>
 3c. Or use hot glue. That can also be possible as long as the metals make contact!
