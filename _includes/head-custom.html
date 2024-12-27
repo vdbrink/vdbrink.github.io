@@ -15,6 +15,12 @@
                 window.location.href = window.location.origin + window.location.pathname + '#' + anchor;
             });
         });
+
+         document.querySelectorAll('a').forEach(href => {
+             if (href.href.startsWith('http') && !href.hasAttribute('target')) {
+                href.setAttribute('target', '_blank');
+            }
+         })
     }
     window.onload = onloadBody;
 </script>
