@@ -180,10 +180,12 @@ This can be done via an available API on the IP-address of the device.
 
 The API endpoint must contain these authentication headers.
 
-```
- Type: Digest
+```bash
+{% raw %}
+ Type    : Digest
  Username: "user"
  Password: "{{slide_device_code}}"
+{% endraw %}
 ```
 
 The `slide_device_code` is an eight character value.
@@ -204,6 +206,7 @@ Body request:
 ```
 
 Field `pos` value `0` for completely open, and value `1` for close.
+You can also use a float value for a percentage opened curtains.
 
 Response:
 ```json
@@ -218,7 +221,7 @@ Response:
 
 POST `/rpc/Slide.GetInfo`
 
-No request body required.
+No request body is required.
 
 Response:
 ```json
@@ -241,13 +244,13 @@ Response:
 
 POST `/rpc/Slide.Calibrate`
 
+No request body is required.
+
 ### Stop
 
 POST `/rpc/Slide.Stop`
 
-### WiFi config
-
-POST `/rpc/Slide.Config.WiFi`
+No request body is required.
 
 ---
 
