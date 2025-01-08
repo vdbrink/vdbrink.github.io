@@ -48,21 +48,101 @@ I hope this page will help you make a substantiated choice for yourself. To sele
 
 ## Questions before you start
 
+You can ask yourself some questions before you start to choose your smart home system.
+This way you can already filter some categories out.
+
 ### Commercial vs nonprofit
 
-### Open- vs close source
+#### Commercial
 
-### Cloud vs local
+Big tech companies sell affordable home automation system solutions (like Google Home, Alexa), but nothing is for free. 
+All YOUR local data is stored on THEIR **cloud** servers. 
+If you have lamps, motion detections and cameras, they know when you are at home, when you sleep, 
+when you are awake, when you are in the bathroom, etc. 
+This data do they use eventually for commercial purposes.
+
+> **_NOTE:_** If you don't pay much for the product, you are the product.
+
+#### Nonprofit
+
+Nonprofit solutions like Home Assistant, OpenHAB, Domoticz are open-source and free software solutions.
+You can look into all the code of these applications and see what happens with your data.
+These solutions don't provide any cloud storage solutions; 
+you need to arrange the storage location yourself, which will mainly be on a local (network) hard disk.
+These solutions can be installed on a wide range of hardware of your own choice.
 
 ### Protocols
 
-WiFi, Bluetooth, Infrared, Zigbee, Thread, Matter, Z-Wave, Lora
+In your home, your devices (laptop, phone, tablet) communicate with each other over Wifi or via the wired network via a central router and use the TCP/IP protocol. The same protocol is used to connect with the internet.
+Smart home devices also need a protocol to communicate with each other.
+This can also be WiFi, then your router is your 'hub'. 
+WiFi sensors are easy to start with because you have this already available.
+
+However, there are other protocols, especially for smart home devices, 
+like Zigbee, Thread, Matter, Z-Wave, Lora, Bluetooth, Infrared.
+Each protocol has its own advantages and disadvantages and is perfect for different situations.
+To support a protocol, you need for each protocol a specific USB adapter which 'talks' that protocol. 
+
+| Protocol      | Range* | Speed         | Power consumption | Purpose                                                                                                    |
+|---------------|--------|---------------|-------------------|------------------------------------------------------------------------------------------------------------|
+| **WiFi**      | 30 m   | 100 Mbps      | High              | Downloading large files and fast communication                                                             |
+| **Zigbee**    | 20 m   | 250 kbps      | Low               | Small messages, lower power consumption, it use a mesh network to create bigger coverage of the network    |
+| **Thread**    | 200 m  | 250 kbps      | Low               | It use IPv6, which allows direct internet connectivity and easier integration with other IP-based networks |
+| **Matter**    | 200 m  | 250 kbps      | Low               | New standard, let different brands and protocols speak with each other over IPv6, also to cloud servers    |
+| **Z-Wave**    | 40 m   | 100 kbps      | Low               | Strict standard, mesh network, max 232 devices                                                             |
+| **Lora**      | 15 km  | 0,3 - 50 kbps | Low               | Very long distance communication, used for street and traffic lights, bike location tracking               |
+| **Bluetooth** | 10 m   | 1 Mbps        | Low               | Communication on a short distance, wireless earphones, mouse, keyboard, toothbrush                         |
+| **Infrared**  | 10 m   | 1 Mbps        | Low               | Only one way communication in a direct line on a short distance, like a remote control                     |
+
+* The range is an indication, it can be influenced by walls, floors, and other obstacles.
 
 ---
 
-## Which categories are there?
+## Which categories in smart hubs are there?
 
+### Voice-Controlled Hubs
 
+Description: These hubs include built-in voice assistants, allowing users to control smart devices through voice commands.
+
+Examples:
+* Amazon Echo (Alexa)
+* Google Nest Hub (Google Assistant)
+* Apple HomePod (Siri)
+
+Key Features:
+* Seamless integration with other smart devices.
+* Voice-based automation.
+* Often include speakers for media playback.
+
+Smart home hubs can be categorized based on their design, functionality, and the type of devices or ecosystems they support. Here's a breakdown of the main smart home hub categories:
+
+#### App-Based Hubs
+
+Description: Hubs managed primarily through mobile or desktop apps, focusing on remote and centralized control.
+
+Examples:
+* Samsung SmartThings App
+* Apple HomeKit (via the Home app)
+* Google Home app
+
+Key Features:
+* Unified app interface for all devices.
+* Easy setup and management.
+* Ideal for users comfortable with smartphone-based control.
+
+#### Open-Source and DIY Hubs
+
+Description: Customizable hubs designed for tech-savvy users who prefer flexibility and control.
+
+Examples:
+Home Assistant
+OpenHAB
+Domoticz
+
+Key Features:
+Highly customizable with open-source software.
+Requires more technical expertise to set up.
+Support for diverse protocols and hardware.
 
 ---
 
@@ -154,17 +234,19 @@ here is a list of abbreviations and terms that frequently come up in discussions
 
 <div class="align-left">
 
-| Term        | Explanation                                                                                                                                                                                               | 
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 12th Gen    |                                                                                                                                                                                                           | 
-| HA          | Abbreviation for **Home Assistant**                                                                                                                                                                       | 
-| HAOS        | Abbreviation for **Home Assistant Operating System**                                                                                                                                                      | 
-| Mini PC     | This refer to the size of popular **small pc** cases                                                                                                                                                      | 
-| NUC         | It stands for 'Next Unit of Computing' a small (4"x4") but complete desktop **pc serie**, original from Intel and now take over by Asus <br/><img alt="NUC" width="150px" src="images_system/nuc.webp"/>  | 
-| N100        | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in Mini PCs. Others N-series processors are N95, N200, N305                                                     | 
-| Proxmox     | Is a Debian Linux Operating System where applications can be 'installed' via virtual machines and containers                                                                                              | 
-| T630/T620   | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.<br/><img alt="HP 620" width="150px" src="images_system/hp_620.webp"/> | 
-| Thin client | An energy effective PC with just enough power to connect to a central (cloud) system where the heavy tasks runs.                                                                                          | 
+| Term         | Explanation                                                                                                                                                                                               | 
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 12th Gen     |                                                                                                                                                                                                           | 
+| HA           | Abbreviation for **Home Assistant**                                                                                                                                                                       | 
+| IoT          | Abbreviation for **Internet of Things**                                                                                                                                                                   | 
+| HAOS         | Abbreviation for **Home Assistant Operating System**                                                                                                                                                      | 
+| Mesh network | A network topology where nodes can relay data for the network. This can make the range much wider.                                                                                                        |
+| Mini PC      | This refer to the size of popular **small pc** cases                                                                                                                                                      | 
+| NUC          | It stands for 'Next Unit of Computing' a small (4"x4") but complete desktop **pc serie**, original from Intel and now take over by Asus <br/><img alt="NUC" width="150px" src="images_system/nuc.webp"/>  | 
+| N100         | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in Mini PCs. Others N-series processors are N95, N200, N305                                                     | 
+| Proxmox      | Is a Debian Linux Operating System where applications can be 'installed' via virtual machines and containers                                                                                              | 
+| T630/T620    | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.<br/><img alt="HP 620" width="150px" src="images_system/hp_620.webp"/> | 
+| Thin client  | An energy effective PC with just enough power to connect to a central (cloud) system where the heavy tasks runs.                                                                                          | 
 </div>
 
 ---
