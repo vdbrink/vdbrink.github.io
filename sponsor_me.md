@@ -15,4 +15,8 @@ Or via Buy Me A Coffee
 
 <a href="https://www.buymeacoffee.com/revdbrink" target="_blank"><img src="images/bmc_qr.png" alt="Support my blog and donate with Buy me a coffee" width="170"></a>
 
+Or via the [GitHub sponsoring](https://github.com/sponsors/vdbrink) program.
+
+<br>
+
 I want to thank everybody who already made a donation and support my work!

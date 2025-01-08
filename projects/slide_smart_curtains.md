@@ -1,11 +1,12 @@
 ---
-title: Slide Smart Curtains
-description: Slide Smart Curtains
+title: Slide - Smart Curtains
+description: Slide - Smart Curtains
 category: "Projects"
 tags: [WiFi, Home Assistant, curtain, electric, smart]
+image: /projects/images_slide_curtain/slide_module.webp
 ---
 
-# Slide Smart Curtains
+# Slide - Smart Curtains
 *Based on WiFi with local API*
 
 <img src="images_slide_curtain/slide_logo.png" alt="slide logo" height="60px">
