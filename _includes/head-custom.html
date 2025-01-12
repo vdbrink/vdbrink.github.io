@@ -17,7 +17,8 @@
         });
 
          document.querySelectorAll('a').forEach(href => {
-             if (href.href.startsWith('http') && !href.href.includes('vdbrink.github.io') && !href.hasAttribute('target')) {
+             if (href.href.startsWith('http') && !href.href.includes('localhost') &&
+             !href.href.includes('vdbrink.github.io') && !href.hasAttribute('target')) {
                 href.setAttribute('target', '_blank');
             }
          })
