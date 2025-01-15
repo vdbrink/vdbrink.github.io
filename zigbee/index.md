@@ -39,9 +39,9 @@ How to create custom Zigbee sensors:
 
   <a href="zigbee_chair_occupancy_sensor"><img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="DIY Zigbee chair occupancy sensor" height="100px"/></a>
 
-* [DIY Zigbee outlet temperature sensor](zigbee_outlet_temperature_sensor)
+* [DIY Zigbee outlet (temperature, leak, motion) sensor](zigbee_outlet_sensor)
 
-  <a href="zigbee_outlet_temperature_sensor"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor" height="100px"/></a>
+  <a href="zigbee_outlet_sensor"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor" height="100px"/></a>
 
 * [DIY Zigbee leak detector](zigbee_water_leak_sensor)
   
