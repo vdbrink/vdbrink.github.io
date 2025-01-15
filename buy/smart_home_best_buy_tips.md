@@ -503,9 +503,9 @@ You can also schedule complete weeks in it what the temperature should be.
 
 <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">
 <img src="/buy/images_zigbee/powerstrip.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
-Zigbee power strip with 4x outlets (max. 16A) and 2x USB-A (5V 2.1A) outlets.
+Zigbee power strip with 4x outlets (max. 16A) and 2x USB-A (5V 2.1A).
 <br><br>
-Each outlet and the two USB ports can be controlled independently.\
+Each outlet and the two USB ports can be controlled independently.
 Cheaper solution than four single smart sockets!
 
 * Suitable for EU/US/JP
@@ -525,7 +525,7 @@ Cheaper solution than four single smart sockets!
 <img src="/buy/images_zigbee/powerstrip_4xusb.jpg" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 Other version, also Zigbee EU power strip with 4x outlets (max. 16A) and 3x USB-A and 1x USB-C fast charge. 
 <br><br>
-Each outlet and the four USB ports can be controlled independently.\
+Each outlet and the four USB ports can be controlled independently.
 Cheaper solution than four single smart sockets!
 
 * Suitable for EU
@@ -535,7 +535,7 @@ Cheaper solution than four single smart sockets!
 * Manual master switch
 * LED indicate for each socket
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">Zigbee power strip with 4 and 4 USB ports - UseeLink (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">Zigbee power strip with 4 outlets and 4 USB ports - UseeLink (AliExpress)</a>
 <a href="https://amzn.to/3PFr86N" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
 
