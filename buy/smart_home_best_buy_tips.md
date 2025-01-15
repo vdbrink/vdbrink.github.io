@@ -54,6 +54,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [USB adapter switch](#usb-adapter-switch)
     * [Infrared remote control](#infrared-remote-control)
     * [Radiator Thermostat](#radiator-thermostat)
+    * [Power strip](#power-strip)
     * [Smart socket](#smart-socket)
       * [Outdoor socket](#outdoor-socket)
   * [Batteries](#batteries)
@@ -251,7 +252,7 @@ Or in the summer when it becomes outside colder than inside.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank">Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSD500A.html" target="_blank" title="WSD500A">{{imgZ2M}}WSD500A</a> Battery powered, bigger, cheaper.\
-This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_temperature_sensor).\
+This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_sensor).\
 <img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a> 
 
 ---
@@ -498,6 +499,48 @@ You can also schedule complete weeks in it what the temperature should be.
 
 ---
 
+### Power strip
+
+<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">
+<img src="/buy/images_zigbee/powerstrip.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
+Zigbee power strip with 4x outlets (max. 16A) and 2x USB-A (5V 2.1A) outlets.
+<br><br>
+Each outlet and the two USB ports can be controlled independently.\
+Cheaper solution than four single smart sockets!
+
+* Suitable for EU/US/JP
+* With overload protection switch
+* Extension cable 1.5m
+* Manual master switch
+* LED indicate for each socket
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">Zigbee power strip with 4 outlets and 2 USB ports - UseeLink (AliExpress)</a>
+<a href="https://amzn.to/3CbB7xu" target="_blank">(Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
+
+<br>
+<br>
+
+<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">
+<img src="/buy/images_zigbee/powerstrip_4xusb.jpg" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
+Other version, also Zigbee EU power strip with 4x outlets (max. 16A) and 3x USB-A and 1x USB-C fast charge. 
+<br><br>
+Each outlet and the four USB ports can be controlled independently.\
+Cheaper solution than four single smart sockets!
+
+* Suitable for EU
+* 1x USB-C PD20W fast charge port
+* 2x USB-A charge port
+* 1x USB-A QC3.0 18W charge port
+* Manual master switch
+* LED indicate for each socket
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">Zigbee power strip with 4 and 4 USB ports - UseeLink (AliExpress)</a>
+<a href="https://amzn.to/3PFr86N" target="_blank">(Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
+
+---
+
 ### Smart socket
 <a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">
 <img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
@@ -602,7 +645,7 @@ This CR2032 is the most commonly used battery. It's small, but still has enough 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">CR2032 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/3V4sHye" target="_blank">(Amazon)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EzKymsH" target="_blank">CR2032 - Sony (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooUmuKN" target="_blank">CR2032 (AliExpress)</a>
 <a href="https://amzn.to/4i2rCAE" target="_blank">(Amazon)</a>
 
 #### CR2032 rechargeable = LIR2032
