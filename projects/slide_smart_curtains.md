@@ -162,7 +162,10 @@ I have some examples of automations which you can apply.
   * as wake-up with natural light
   * a delivery guy is expected
     * If you have an integration with expected packages or meal delivery
-  * it's warmer inside than outside during a warm day
+  * it's warmer inside than it's outside during a warm day
+
+For a bedroom window: open it just a bit when it's completely dark outside to let some fresh air get inside. 
+And close it completely again when it becomes light outside. 
 
 <br>
 
@@ -175,6 +178,17 @@ Please let me know, I'm interested!
 
 The power of this device is the possibility to control it locally.\
 This can be done via an available API on the IP-address of the device.
+
+### Set in local-mode
+
+Before you can use the Slide Local integration or API, you have to make sure the slide is configured for the local API. 
+By default, the Slide connects to the cloud API, but it is possible to use the local API. 
+Only one of them can be active. 
+To switch between the cloud and local API, do the following:
+
+Press the reset button 2x and
+* the LED flashes 5x fast: cloud API disabled, local API enabled 
+* the LED flashes 2x slow: local API disabled, cloud API enabled
 
 ### Authentication
 
