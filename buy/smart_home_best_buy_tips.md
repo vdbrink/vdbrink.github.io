@@ -529,6 +529,8 @@ Each outlet and the four USB ports can be controlled independently.
 Cheaper solution than four single smart sockets!
 
 * Suitable for EU
+* With overload protection switch
+* Max. 3520 W
 * 1x USB-C PD20W fast charge port
 * 2x USB-A charge port
 * 1x USB-A QC3.0 18W charge port
