@@ -327,7 +327,7 @@ Now you can automate these devices also!
 
 <br>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">A candle lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">A candle lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">
     <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>

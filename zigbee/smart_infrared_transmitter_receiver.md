@@ -113,9 +113,9 @@ LEDS
 
 Light curtains
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">Light curtains</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains</a>
 
-  <a href="https://s.click.aliexpress.com/e/" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">
   <img src="images_infrared/light_string.avif" alt="light curtains" width="200px" class="buy-link"/>
   </a>
 

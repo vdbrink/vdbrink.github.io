@@ -129,11 +129,11 @@ You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" t
 
 #### Micro SD-card
 
-<a href="https://s.click.aliexpress.com/e/" target="_blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop.
+<a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop.
 A minimal of 8 GB version is already enough, but larger one are just a little bit more expensive.
 Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
 
-<a href="https://s.click.aliexpress.com/e/" target="_blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
+<a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
 
 #### Power
 
