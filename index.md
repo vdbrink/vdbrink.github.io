@@ -18,6 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
+* [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
 * [Slide - Smart Curtains](projects/slide_smart_curtains)
 * [I automated all my powered Christmas decorations](projects/automate_christmas_decorations)
 * [Home Automation - Ideas](ideas/home_automation_ideas)
@@ -34,6 +35,8 @@ My latest biggest updates on this blog:
 
 Topics you can find here:
 
+<div id="center">
+
 |                                                                                                                                          |                                                                                                                    | 
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>      | [Home Assistant](homeassistant/index)                                                                              |
@@ -44,6 +47,8 @@ Topics you can find here:
 | <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>          | [Random projects](projects/index)                                                                                  |
 | <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                            | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index)                              |
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                       |
+
+</div>
 
 ---
 
