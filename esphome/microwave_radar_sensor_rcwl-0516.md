@@ -56,28 +56,43 @@ The sensor, an ESP, wires, usb cable and a power adapter.
 
 No extra hub needed, the protocol is over WiFi.
 
-Affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
+> Affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
 
+* [RCWL-0516 microwave sensor](#rcwl-0516-microwave-sensor)
+* [ESP board](#esp-board)
+* [Dupont cables](#dupont-cables)
+* [Case](#case)
+* [USB power cable](#usb-power-cable)
+* [5V USB power adapter](#5v-usb-power-adapter)
+* [Soldering tools if you don't have them yet](#soldering-tools)
+  
 ### RCWL-0516 microwave sensor
 
-This radar sensor detect human motion and presence via doppler radar signals.
-
-The range of this sensor is 2-5 meter.
+This radar sensor detects human motion and presence via doppler radar signals.\
+The range of this sensor is 2-5 meters.\
+The signal goes through wood and even a brick wall of 10 cm.\
+You can block a part of the detection signal by using aluminum foil in the case.\
+You can also use it in a bathroom to detect a person behind a glass door or stone wall with the sensor placed in a nearby closet.
 
 [Detailed information about this sensor.](https://github.com/jdesbonnet/RCWL-0516?tab=readme-ov-file#rcwl-0516-information)
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1 (AliExpress)
-<br>
-<img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" />
+Click to zoom:
+
+<a href="images_rcwl-0516/multiple_top.jpg">
+<img src="images_rcwl-0516/multiple_top.jpg" height="150px" alt="multiple RCWL-0516 presence sensor top" /></a>
+<a href="images_rcwl-0516/multiple_bottom.jpg">
+<img src="images_rcwl-0516/multiple_bottom.jpg" height="150px" alt="multiple RCWL-0516 presence sensor bottom" />
 </a>
 
 You can buy a single sensor for around &euro; 0,45 or buy 5 or 10 in bulk,
 which is cheaper per piece if you plan to create multiple sensors to use around the house.
 
-<img src="images_rcwl-0516/multiple_top.jpg" height="150px" alt="multiple RCWL-0516 presence sensor top" />
-<img src="images_rcwl-0516/multiple_bottom.jpg" height="150px" alt="multiple RCWL-0516 presence sensor bottom" />
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1, single piece (AliExpress)
+<br>
+<img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" />
+</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE3U61H" target="_blank">link 2, per 5 pieces (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFRE3dx" target="_blank">link 2, per 5 pieces (AliExpress)</a>\
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">link 3, per 10 pieces (AliExpress)</a>
 
 
@@ -87,8 +102,8 @@ You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini.
 
 * The pins are not soldered on the board yet (with some practice even you can do it for sure!)
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (AliExpress)</a>\
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmlkMXv" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1, choose the "D1 mini" (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmlkMXv" target="_blank">link 2,  (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
 <img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
@@ -175,7 +190,8 @@ Click on the photos/image to open it fullscreen.
 &ast; The `GPIO pin` is the port which is used in the ESPHome yaml.
 
 I've made a small hole in the case for the power USB cable.\
-The sensor detects through the case, no holes are needed in the case.
+The sensor has a front, which is the side with the circle, this is the antenna, and detects in that direction.\
+It detects through the case, so no extra holes are needed in the case.
 
 <a href="images_rcwl-0516/rcwl_0516_in_the_box.jpg">
 <img src="images_rcwl-0516/rcwl_0516_in_the_box.jpg" height="250px" alt="RCWL-0516 in a box" />
@@ -193,11 +209,11 @@ The sensor detects through the case, no holes are needed in the case.
 
 ![ESPHome](images/esphome.png)
 
-The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.\
+The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.
 
 This software is used to flash the config file to the ESP board.
 
-Their website contains a lot of information about how to config all kinds of sensors.
+Their website contains a lot of information about how-to config all kinds of sensors.
 Also, the one we used here, a binary sensor:
 
 * [ESPHome Binary Sensor Component page](https://esphome.io/components/binary_sensor/)
@@ -210,7 +226,10 @@ Read [here](esphome_flashing) how to upload it.
 Connect the ESP via USB to the computer.
 
 One possible way is to run python in command line:
+
+```bash
 > esphome "microwave sensor RCWL-0516.yaml" run
+```
 
 The "microwave sensor RCWL-0516.yaml" YAML file
 ```yaml
@@ -281,8 +300,10 @@ The sensor sends it data to the topics `/esp_microwave_1/binary_sensor/microwave
 
 ## Home Assistant
 
-In Home Assistant you now have a new boolean sensor if presence is detected.
+In Home Assistant, you now have a new boolean sensor if presence is detected.
 
 <img src="images_rcwl-0516/rcwl-0516_ha_detected.png" alt="Home Assistant sensor" width="400px">
 
-Enjoy!
+[Buy here the required hardware >](#required-hardware)
+
+Good luck with creating it!
