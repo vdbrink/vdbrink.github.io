@@ -43,6 +43,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
     * [Rain sensor](#rain-sensor)
+    * [Soil sensor](#soil-sensor)
     * [Lights](#lights)
       * [Bulb](#bulb)
       * [LED strip](#led-strip)
@@ -317,7 +318,7 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 
 ### Rain sensor
 
-<a href="https://s.click.aliexpress.com/e/" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">
 <img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This outdoor sensor detects raindrops and measures the light intensity (lux).\
@@ -328,6 +329,20 @@ It contains a build-in battery that charges via a small solar panel.
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>
+
+---
+### Soil sensor
+
+<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">
+<img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+This sensor measures the soil temperature and humidity.\
+It can be used for plants inside and outside.\
+It contains a build-in battery that charges via a solar panel on top of it.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">Zigbee soil sensor (AliExpress)</a>
+
+<a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B.html" target="_blank" title="NAS-STH02B">{{imgZ2M}}NAS-STH02B</a>
 
 ---
 
