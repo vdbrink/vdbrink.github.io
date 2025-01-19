@@ -9,7 +9,7 @@ image: /zigbee/images/zigbee.jpg
 
 Zigbee is a local smart home protocol.\
 I'm a hugh fan of it because it's local, affordable and has a wide range of products available.\  
-I have over 140 devices from all kinds of brands and they are all working together, no limitations.
+I have over 140 devices from all kinds of brands, and they are all working together, no limitations.
 
 On this page you find products, information and projects related to Zigbee.
 
@@ -27,6 +27,9 @@ On this page you find products, information and projects related to Zigbee.
 ---
 ## Device highlights
 
+I created some detailed pages about specific Zigbee devices:
+
+* [Soil sensor](zigbee_soil_sensor)
 * [Infrared transmitter / receiver](smart_infrared_transmitter_receiver)
 
 ---
