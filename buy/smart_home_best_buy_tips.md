@@ -647,8 +647,7 @@ The downside is that these make the sensor also quite big.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Eneloop Rechargeable AA and AAA batteries - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/493a0ke" target="_blank">(Amazon)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">4x Rechargeable AA batteries - Duracell (AliExpress)</a>
-<a href="https://amzn.to/4ePpz0k" target="_blank">(Amazon)</a>
+{{imgBasket}}<a href="https://amzn.to/4ePpz0k" target="_blank">4x Rechargeable AA batteries - Duracell (Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Non rechargeable AA and AAA batteries - Yuform (AliExpress)</a>
 
