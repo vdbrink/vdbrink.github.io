@@ -529,7 +529,7 @@ Cheaper solution than four single smart sockets!
 * Manual master switch
 * LED indicate for each socket
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">Zigbee power strip with 4 outlets and 2 USB ports - UseeLink (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">Zigbee power strip with 4 outlets and 2 USB ports - UseeLink (AliExpress)</a> <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3CbB7xu" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
 
