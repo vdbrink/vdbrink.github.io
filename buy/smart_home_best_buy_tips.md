@@ -516,7 +516,7 @@ You can also schedule complete weeks in it what the temperature should be.
 
 ### Power strip
 
-<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">
 <img src="/buy/images_zigbee/powerstrip.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 Zigbee power strip with 4x outlets (max. 16A) and 2x USB-A (5V 2.1A).
 <br><br>
