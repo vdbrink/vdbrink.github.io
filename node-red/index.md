@@ -43,6 +43,8 @@ Look at these Cheat Sheets where I described how you can convert values from one
 Here you find some basic useful example flows to control light, act on temperatures, etc.
 
 * [Node-RED - Temperature flows](node-red_temperature_flows)
+  * [Compare two different temperatures (inside/outside)](node-red_diff_different_sensors)
+  * [Detect quick temperature change in time](node-red_diff_in_time)
 
 ###  Node-RED + Home Assistant integration
 

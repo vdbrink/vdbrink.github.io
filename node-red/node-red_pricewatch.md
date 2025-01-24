@@ -1,11 +1,11 @@
 ---
 title: "Node-RED Pricewatch"
+description: "Node-RED Pricewatch"
 category: Node-RED
 tags: [Node-RED, price, watch, monitor, sales]
 ---
 
 # Node-RED Pricewatch
-
 
 <a name="top"></a>
 <img style="float: right;margin-left:20px" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
@@ -19,8 +19,6 @@ Let Node-RED check on a daily basis the actual product prices on different websi
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Node-RED Pricewatch](#node-red-pricewatch)
-  * [Table of Contents](#table-of-contents)
   * [How it works](#how-it-works)
   * [Flow explanation](#flow-explanation)
   * [Flows for different sites](#flows-for-different-sites)
@@ -39,8 +37,8 @@ Let Node-RED check on a daily basis the actual product prices on different websi
 
 ## How it works
 
-With this flow it downloads a whole webpage and via HTML and CSS element names it filters out only the price of the product.
-Then compare the price with the desired price. If this is lower it sends a message with the product name, current price and a link to your phone as notification.
+With this flow, it downloads a whole webpage and via HTML and CSS element names it filters out only the price of the product.
+Then compare the price with the desired price. If this is lower, it sends a message with the product name, current price and a link to your phone as notification.
 
 <img src="images_pricewatch/notification.jpg" height="150px" alt="notification">
 
@@ -49,7 +47,7 @@ Now you only need to click on the link and order it!
 ---
 ## Flow explanation
 
-With this flow you can check a website for the actual price of a product.
+With this flow, you can check a website for the actual price of a product.
 
 ![Node-RED flow](images_pricewatch/node-red_flow_pricewatch.png)
 
@@ -208,7 +206,7 @@ Price formatter: $number(payload[0])
 [Download a Kruidvat example flow](flows/node-red_flow_vdbrink_pricewatch_kruidvat-nl.json)
 
 
-> **_NOTE:_** If they change their site structure, this will break. Let me know [here](#remarks-or-suggestions) if one is broken then I can fix it.
+> **_NOTE:_** If they change their site structure, this will break. Let me know [here](#remarks-or-suggestions) if one is broken, then I can fix it.
 
 ---
 
@@ -216,10 +214,12 @@ Price formatter: $number(payload[0])
 
 -- does the page work with the http request node?
 
-The html node use [CSS4 and/or jQuery](https://github.com/fb55/css-select#user-content-supported-selectors) to grabs the correct CSS element. The CSS name is normally used to style the element on the page with size, color, etc.
+The HTML node uses [CSS4 and/or jQuery](https://github.com/fb55/css-select#user-content-supported-selectors) to grab the correct CSS element. 
+The CSS name is normally used to style the element on the page with size, color, etc.
 
 ## Price Formatter examples
- What you need is the raw price, without decimals, and as number. Only with this value you can compare the price if it match your desired price.
+ What you need is the raw price, without decimals, and as number. 
+ Only with this value you can compare the price if it matches your desired price.
 
 ### With new lines
 
@@ -249,8 +249,7 @@ These steps are needed to take to get the **selector** value to get the price:
 * Go to the page <a href="https://try.jsoup.org" target="_blank">try.jsoup.org</a>
 * Click on the button **Fetch URL**
 * Fill in the url to try
-* Click on the button **Fetch**. Now the whole page source is loaded
-* 
+* Click on the button **Fetch**. Now the whole page source is loaded 
 
 ---
 [Top ^](#top)
