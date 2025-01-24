@@ -8,7 +8,7 @@ tags: [Node-RED, humidity, shower, diff, temperature]
 {% capture imgHeight %}50{% endcapture %}
 
 # Node-RED calculate diff in time
-*Example: Detect is someone is taking a shower*
+*Example: Detect if someone is taking a shower*
 
 <a name="top"></a>
 <a href="node-red_home-assistant">
@@ -36,7 +36,7 @@ I used for this flow an additional Node which you need to have installed first i
 
 The steps of this flow are:
 * Trigger by a sensor
-* Wait for 4 minutes
+* Wait for 4 minutes (play with this time to see which delay works the best for your situation)
 * Save the original value
 * And get the current value for the same sensor
 * Compare the two values with each other
