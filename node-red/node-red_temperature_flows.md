@@ -11,7 +11,7 @@ tags: [Node-RED, temperature, flows]
 <img style="float: right;margin-left:15px" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
 </a>
 * [Compare two different temperatures (inside/outside)](node-red_diff_different_sensors)
-* [Detect quick temperature change in time](node-red_diff_in_time)
+* [Detect temperature change in time](node-red_diff_in_time)
 
 ---
 [<< See also my other Node-RED pages](index)
