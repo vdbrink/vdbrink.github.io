@@ -18,7 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
-* I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo">/brinkhomeautomations</a>
+* I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
 * [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
 * [Slide - Smart Curtains](projects/slide_smart_curtains)
 * [Home Automation - Ideas](ideas/home_automation_ideas)

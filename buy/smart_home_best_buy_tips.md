@@ -168,12 +168,12 @@ I like the Aqara motion sensor myself a lot. It's fast, reliable. With the stand
 
 If I want to cover a whole room, I use a different type PIR sensor which you can stick in the center of the ceiling and look around in all directions.
 
-<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" style="margin-left:15px;float:left"/></a> &nbsp;
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="images_zigbee/zigbee_motion_pir.avif" height="100px"></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">Zigbee motion sensor beam, with stand - Aqara (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara (AliExpress)</a>
 <a href="https://amzn.to/3Oj8yR5" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM</a>
 
