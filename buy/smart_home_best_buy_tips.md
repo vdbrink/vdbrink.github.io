@@ -158,7 +158,7 @@ Battery powered, bigger, cheaper.
 ---
 
 ### Motion sensor
-<a href="https://s.click.aliexpress.com/e/_DBmzpmB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 
