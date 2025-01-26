@@ -1,13 +1,23 @@
 ---
 title: Zigbee infrared transmitter / receiver
 category: Zigbee
-tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, lights, screens]
+tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, lights, candles, screens]
 ---
 
 ## Introduction
 
 With a small device, you can automate all your infrared controlled devices! 
-Like a TV, air conditioner, fireplace, screens or lights.
+Like a TV, air conditioner, fireplace, candles, screens or lights.
+
+ <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
+
+ <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" height="100px" />
+
+<img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" height="100px" />
+
+ <img src="images_infrared/light_string.avif" alt="light curtains" height="100px" />
+
+
 
 > **_NOTE:_** Affiliate links are used on this page.
 
@@ -124,7 +134,23 @@ Tea lights
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
-    <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+    <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="tea lights" width="200px" class="buy-link"/>
+  </a>
+
+
+Candles
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ondkuzR" target="_blank">Candle lights controlled by an infrared remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_ondkuzR" target="_blank">
+    <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+  </a>
+
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
+    <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
   </a>
 
 Also, Christmas decorations, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about this subject.
