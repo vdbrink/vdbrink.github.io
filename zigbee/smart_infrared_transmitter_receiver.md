@@ -72,7 +72,7 @@ To resend the signal, send on the topic MQTT topic `zigbee2mqtt/irremote/set` th
 
 Now the lights also turned on!
 
-Now you can add these commands to your automation.
+Now you can add these commands to your automations.
 
 ---
 ### Home Assistant
@@ -145,7 +145,6 @@ Candles
   <a href="https://s.click.aliexpress.com/e/_ondkuzR" target="_blank">
     <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
-
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
 
