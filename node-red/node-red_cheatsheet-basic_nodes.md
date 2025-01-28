@@ -127,7 +127,7 @@ When the dryer is finished, the value drops below 6 to 0 again the next trigger 
 ---
 ## Trigger only on passing a value on rise
 
-The rising edge node only passes a value through when an input payload value passes a defined threshold value.
+The rising edge node only passes a value through when an input payload value decrease, and passes a defined threshold value.
 
 <img src="images/nodes/node_rising_edge.png" height="{{imgHeight}}px">
 
@@ -140,7 +140,7 @@ A trigger is only sent when the input value changes from a value below 5 to a ne
 ---
 ## Trigger only on passing a value on fall
 
-The rising edge node only pass a value through when an input payload value passes a defined threshold value.
+The falling edge node only passes a value through when an input payload value increase, and passes a defined threshold value.
 
 <img src="images/nodes/node_falling_edge.png" height="{{imgHeight}}px">
 
