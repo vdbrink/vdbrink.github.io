@@ -8,11 +8,13 @@ tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air c
 
 With a infrared controller box, you can automate all your infrared controlled devices! 
  There are lot devices that have a remote which works via infrared. 
-Like a TV, air conditioner, fireplace, screens, lights or electric candles.
+Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights or electric candles.
 The signal of an infrared remote has no encryption and is always the same. 
 This makes it easy to capture, store and resend the signal.
 
- <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
+ <img src="images_infrared/ceiling_fan_remote.webp" alt="fireplace with remote" height="100px" />
+
+<img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
 
  <img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
 
