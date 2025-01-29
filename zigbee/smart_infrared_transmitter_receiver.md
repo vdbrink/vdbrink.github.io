@@ -15,7 +15,7 @@ Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights or electr
 The signal of an infrared remote has no encryption and is always the same. 
 This makes it easy to capture, store and resend the signal.
 
- <img src="images_infrared/ceiling_fan_remote.webp" alt="fireplace with remote" height="100px" />
+ <img src="images_infrared/ceiling_fan_remote.webp" alt="ceiling fan with remote" height="100px" />
 
 <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
 

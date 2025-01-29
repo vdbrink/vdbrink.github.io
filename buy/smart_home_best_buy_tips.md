@@ -45,12 +45,8 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Rain sensor](#rain-sensor)
     * [Soil sensor](#soil-sensor)
     * [Lights](#lights)
-      * [Bulb](#bulb)
-      * [LED strip](#led-strip)
+    * [Bulb socket](#bulb-socket)
     * [Buttons](#buttons)
-      * [Wall switch](#wall-switch)
-      * [Wall dimmer](#wall-dimmer)
-      * [Portable button](#portable-button)
     * [Vibration sensor](#vibration-sensor)
     * [USB adapter switch](#usb-adapter-switch)
     * [Infrared remote control](#infrared-remote-control)
@@ -70,7 +66,9 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [USB-C to USB-C](#usb-c-to-usb-c)
     * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
-  * [Battery powered PIR lights](#battery-powered-pir-lights)
+  * [Battery powered with PIR](#battery-powered-with-pir-)
+    * [Lights](#lights-1)
+    * [Soap dispenser](#soap-dispenser)
 <!-- TOC -->
 
 ---
@@ -90,15 +88,15 @@ On the market, there are different types of protocols to create a smart home net
 
 This is why I choose for Zigbee:
 * There is a wide range of sensor and actuator types available;
-* Every Zigbee device, independent of manufacturer, it works in your network;
+* Every Zigbee device, independent of a manufacturer, it works in your network;
 * The prices are low;
 * It works locally, no internet is required;
 * You can even link buttons direct to (a group) lamps without the need of a hub;
-* Not dependent on the manufacture app, cloud or other software. When a manufacture gets bankrupt, you still can use your devices.
+* Not dependent on the manufacture app, cloud or other software. When manufacture gets bankrupt, you still can use your devices.
 * It works as a mesh network, you can reach devices far away from the coordinator as long as there are enough active hops in between;
 * The standard is an open protocol, you don't pay for a license fees (for Z-Wave you do) to use it;
 * No compatibility issues with hardware with older or newer Zigbee versions;
-* Active development on the software Zigbee2MQTT with every release a bulk of new supported Zigbee devices;
+* Active development on the software Zigbee2MQTT with every release a set of new supported Zigbee devices;
 
 A reason why not to choose for Zigbee? I don't know :)
 
@@ -109,10 +107,11 @@ A reason why not to choose for Zigbee? I don't know :)
 <a href="https://slae.sh/projects/cc2652/" target="_blank">
 <img src="images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" height="150px" style="margin-left:15px;float:right"/></a>
 
-Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
-My network grew to 130+ devices today, and it still runs fast.
+This new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">Sonoff ZBDongle-E Plus (AliExpress)</a> <a href="https://amzn.to/3OkLelX" target="_blank">(Amazon)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
 
-Another new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">Sonoff ZBDongle-E Plus (AliExpress)</a> <a href="https://amzn.to/3OkLelX" target="_blank">(Amazon)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
+I've run my Zigbee network since 202 non-stop with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
+My network grew to 140+ devices today, and it still runs fast.
+
 
 <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a>
@@ -158,10 +157,26 @@ Battery powered, bigger, cheaper.
 ---
 
 ### Motion sensor
+
+<a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">
+<img src="images_zigbee/human_presence_sensor.avif" alt="pir + mmWave human motion and presence sensor" height="150px" style="margin-left:15px;float:right"/>
+</a>
+New and improved, human presence sensors are now available!<br>
+It's a combination with a PIR + mmWave radar and brightness sensor. 
+It's wireless and 2x AAA battery powered.<br> 
+The PIR sensor is used to detect a person and to activate the mmWave radar sensor. 
+It avoids the detection of animals.
+It can also detect persons who sit still or laying in bed.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">Zigbee Human motion + presence sensor - Aqara (AliExpress)</a>
+<a href="https://amzn.to/4hBkSc5" target="_blank">(Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
+
+<br>
+
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
-
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals. 
 
 I like the Aqara motion sensor myself a lot. It's fast, reliable. With the stand you can point it in a specific direction, so it doesn't 'see' the whole room.
@@ -357,6 +372,19 @@ With a colored version, you can use it to inform yourself with a color for diffe
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">Zigbee light bulb dimmable colored (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/CK-BL702-AL-01.html" target="_blank" title="CK-BL702-AL-01">{{imgZ2M}}CK-BL702-AL-01</a>
+
+&nbsp;
+<br>
+
+### Bulb socket
+
+<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="images_zigbee/bulb_socket.avif" alt="smart bulb socket" height="150px" style="margin-left:15px;float:right"/></a>
+An easy solution, screw it between the original socket and the lamp to make it controllable.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooH9zP3" target="_blank">WiFi / Zigbee smart light bulb socket (AliExpress)</a>
+
+&nbsp;
+<br>
 
 &nbsp;
 <br>
@@ -570,8 +598,8 @@ A smart plug with power consumption metrics can be useful to detect the state of
 
 I live in The Netherlands and around the world there are many different types of plugs.
 These will only work in just a few EU lands.\
-I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physic button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues.
-If you buy one which has a lower wattage, your socket constantly stops working; then you know you need one with a higher wattage!
+I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physical button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues.
+If you buy one which has lower wattage, your socket constantly stops working; then you know you need one with higher wattage!
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
@@ -579,8 +607,6 @@ If you buy one which has a lower wattage, your socket constantly stops working; 
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
 <a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
-
-[//]: # ( &#40;<a href="https://amzn.to/4i0Vhdv" target="_blank">&#40;Amazon&#41;</a>&#41;)
 
 #### Outdoor socket
 
@@ -622,6 +648,17 @@ This is a **dual socket** outdoor Zigbee device, where each socket can be contro
 <a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
 
 <br>
+
+---
+
+## Google Coral USB
+
+<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">
+<img src="images_zigbee/google_coral.webp" alt="Google Coral" width="150px" style="margin-left:15px;float:right"/></a>
+
+USB stick to handle heavy GPU processes, like human detection with Frigate.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">Coral - Google (AliExpress)</a>
 
 ---
 
@@ -804,19 +841,34 @@ Useful to move your Zigbee stick away from your server for the best range and av
 <a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V EU USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">5V EU USB power adapter</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">5V EU USB power adapter (AliExpress)</a>
 
 ---
 
-## Battery powered PIR lights
+## Battery powered with PIR 
 
-Not connected, but still smart with its PIR sensor.\
+Not connected, but still smart with a PIR sensor in it.
+
+### Lights
+
 Very useful for closets or stairs where no power is available.
 
 <a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">
 <img src="images_diy/battery_powered_pir_lights.avif" alt="Battery powered PIR lights" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">Battery powered PIR lights</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">Battery powered PIR lights (AliExpress)</a>
+
+### Soap dispenser
+
+Fill it with a mix of soap and water, and you get direct foam soap when you hold your hand underneath it because of the build-in PIR sensor.
+No dirty soap pump, no need to spill of extra water to make the soap foam first.
+
+It saves a lot of time and water while cooking!
+
+<a href="https://s.click.aliexpress.com/e/_EuQBBmY" target="_blank">
+<img src="images_kitchen/soap_dispenser.avif" alt="Battery powered soap dispenser" width="150px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EuQBBmY" target="_blank">Battery powered soap dispenser, in white or black (AliExpress)</a>
 
 ---
 

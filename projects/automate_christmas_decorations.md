@@ -327,10 +327,24 @@ Now you can automate these devices also!
 
 <br>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">A candle lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
+    <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+  </a>
+
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">Other candle lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">
     <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+  </a>
+
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
+    <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
   </a>
 
 <br>

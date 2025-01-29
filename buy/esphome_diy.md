@@ -342,12 +342,12 @@ Only required if they are not already provided.
 <a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">
 <img src="images_diy/pinhead_female.webp" height="180px" alt="pin heads female" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dl8W2wB" target="_blank">Pin head female (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">
 <img src="images_diy/pinhead_male.webp" height="180px" alt="pin heads male" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk4s94R" target="_blank">Pin head male (AliExpress)</a>
 
 ---
 
@@ -358,7 +358,9 @@ Plastic DIY Case to fix the esp board and sensor in.
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
 <img src="../esphome/images/diy_cases.png" height="180px" alt="DIY cases" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link: a lot of boxes with all kinds of sizes (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">A lot of boxes in all kind of sizes (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opoz0M1" target="_blank">A lot of Waterproof boxes in all kind of sizes (AliExpress)</a>
 
 ---
 
@@ -371,6 +373,12 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 <img src="../esphome/images/soldering_iron.webp" alt="soldering iron" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (AliExpress)</a>
+
+### Soldering kit
+<a href="https://s.click.aliexpress.com/e/_oFMlFjT" target="_blank">
+<img src="images_diy/soldering_kit.avif" alt="soldering kit" width="200px"/></a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFMlFjT" target="_blank">Soldering kit (AliExpress)</a>
 
 ### Soldering tin wire
 

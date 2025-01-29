@@ -65,7 +65,7 @@ On the market, there are different types of protocols to create a smart home net
 
 This is why I choose for Zigbee:
 * There is a wide range of sensor and actuator types available;
-* Every Zigbee device, independent of manufacturer, it works in your network;
+* Every Zigbee device, independent of a manufacturer, it works in your network;
 * The prices are low;
 * It works locally, no internet is required;
 * You can even link buttons direct to (a group) lamps without the need of a hub;
@@ -161,7 +161,7 @@ It's useful in identifying interference, obstacles, or malfunctioning devices.
 
 Since 2020, I've run non-stop my Zigbee network with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> without any issues, 
 it's a very reliable stick.
-My network grew to 130+ devices today, and it still runs fast.
+My network grew to 140+ devices today, and it still runs fast.
 
 Another new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">Sonoff ZBDongle-E Plus (AliExpress)</a> <a href="https://amzn.to/3OkLelX" target="_blank">(Amazon)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
 
