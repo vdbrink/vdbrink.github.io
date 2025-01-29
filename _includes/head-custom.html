@@ -7,7 +7,7 @@
     function onloadBody() {
         let els = document.querySelectorAll(".bbt");
         let num = Math.floor(Math.random() * els.length);
-        els[num].style.display = "inline-block";
+        els[num].classList.remove("hide");
 
         document.querySelectorAll('h1, h2, h3, h4, h5').forEach(title => {
             title.addEventListener('click', function() {
