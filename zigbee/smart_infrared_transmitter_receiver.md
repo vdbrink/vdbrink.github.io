@@ -9,8 +9,8 @@ tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air c
 
 ## Introduction
 
-With a infrared controller box, you can automate all your infrared controlled devices! 
- There are lot devices that have a remote which works via infrared. 
+With an infrared controller box, you can automate all your infrared controlled devices! 
+ There are a lot of devices that have a remote which works via infrared. 
 Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights or electric candles.
 The signal of an infrared remote has no encryption and is always the same. 
 This makes it easy to capture, store and resend the signal.
@@ -21,7 +21,7 @@ This makes it easy to capture, store and resend the signal.
 
  <img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
 
- <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" height="100px" />
+ <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" height="100px" />
 
 <img src="images_infrared/light_string.avif" alt="light curtains" height="100px" />
 
@@ -92,7 +92,7 @@ Because it works on batteries your free to position the device.
 {% endraw %}
 ```
 
-If all went correctly, the device now also react on your box!
+If all goes correctly, the device now also reacts on your box!
 Now you can add also other buttons from the remote to the box.
 
 Now the fun continues to automation the commands!
@@ -134,8 +134,8 @@ These hardware devices are examples of what you need and can use in your own inf
 
 * {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An few examples of Zigbee and WiFi devices which act as programmable infrared remotes</a>.
 
-  They can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
-  There are also devices which support RF signals as well.
+  They can learn signals from the original remote, and via Wi-Fi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
+  There are also devices that support RF signals as well.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
@@ -143,7 +143,7 @@ These hardware devices are examples of what you need and can use in your own inf
   
 #### Infrared controlled devices
 
-As mentioned in the introduction there are a lot of devices which can be controlled via infrared. 
+As mentioned in the introduction, there are a lot of devices that can be controlled via infrared. 
 Here are some links to products which all work via infrared, and can be controlled via the above mentioned infrared transmitter / receiver.
 
 LEDS
@@ -171,6 +171,12 @@ Tea lights
 
 
 Candles
+
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
+    <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
+  </a>
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ondkuzR" target="_blank">Candle lights controlled by an infrared remote</a>
 
