@@ -40,6 +40,9 @@ I used for this project the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" 
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a> 
 With this small black box, powered on batteries, you can control any infrared device.
 
+An infrared sender needs to be in a direct line with the receiver. 
+If you have more devices you want to control, it can be that you need multiple smart devices to control them all.
+
 > There are also similar [WiFi versions](https://s.click.aliexpress.com/e/_DnpWmYp) available of this device.
 
 <a href="images_infrared/purposes_ir.png" target="_blank">
