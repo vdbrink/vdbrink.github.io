@@ -9,7 +9,8 @@ image: /projects/images_christmas_decorations/candles3_with_ir_remote.avif
 {% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
-# Automate infrared devices in Home Assistant
+# Automate infrared devices
+*In Home Assistant*
 
 ## Introduction
 
