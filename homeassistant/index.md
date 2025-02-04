@@ -40,6 +40,19 @@ I created dashboards with all kinds of elements in it:
 * [Pientere Tuinen](homeassistant_dashboard_pientere_tuinen) (Dutch garden and soil project)
 
 ---
+Other Home Assistant integrations
+
+* [Automate infrared devices in Home Assistant](../zigbee/smart_infrared_transmitter_receiver)
+
+Node-RED + Home Assistant integration
+
+Here you find flows to interact between Home Assistant and Node-RED.
+
+* [Node-RED - Home Assistant](node-red_home-assistant)
+* [Node-RED - Send notifications to the Home Assistant app](node-red_home-assistant_notifications)
+
+
+---
 ## How I use Home Assistant
 
 I started my home automation without Home Assistant on a tiny Raspberry zero (in 2019). 

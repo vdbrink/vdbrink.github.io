@@ -18,7 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
-* [Automate infrared devices](zigbee/smart_infrared_transmitter_receiver)
+* [Automate infrared devices in Home Assistant](zigbee/smart_infrared_transmitter_receiver)
 * I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
 * [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
 * [Slide - Smart Curtains](projects/slide_smart_curtains)

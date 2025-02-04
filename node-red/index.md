@@ -51,7 +51,7 @@ Here you find some basic useful example flows to control light, act on temperatu
 Here you find flows to interact between Home Assistant and Node-RED.
 
 * [Node-RED - Home Assistant](node-red_home-assistant)
-* [Node-RED - Send notifications to Home Assistant app](node-red_home-assistant_notifications)
+* [Node-RED - Send notifications to the Home Assistant app](node-red_home-assistant_notifications)
 
 ### Average flows
 

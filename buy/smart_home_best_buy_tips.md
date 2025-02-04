@@ -24,7 +24,7 @@ On this page, you find my personal favorite sensors, actuator and other Zigbee h
 
 If you need some home automation inspiration, check my [home automation ideas](../ideas/home_automation_ideas) section!
 
-Most devices are for sale by the online shop AliExpress.
+Most devices are for sale by the online shop [AliExpress](https://s.click.aliexpress.com/e/_omcoItX).
 I order 90% of my home automation devices on this site for years already. 
 You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!
 

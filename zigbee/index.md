@@ -35,7 +35,7 @@ On this page you find products, information and projects related to Zigbee.
 I created some detailed pages about specific Zigbee devices:
 
 * [Soil sensor](zigbee_soil_sensor)
-* [Infrared transmitter / receiver](smart_infrared_transmitter_receiver)
+* [Automate infrared devices in Home Assistant](smart_infrared_transmitter_receiver)
 
 ---
 

@@ -1,17 +1,21 @@
 ---
-title: Zigbee infrared transmitter / receiver
+title: "Automate infrared devices in Home Assistant"
+description: "Automate infrared devices in Home Assistant with a smart home infrared transmitter/receiver box"
 category: Zigbee
-tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, lights, candles, screens]
+tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, led, lights, candles, screens]
+image: /projects/images_christmas_decorations/candles3_with_ir_remote.avif
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
+# Automate infrared devices in Home Assistant
+
 ## Introduction
 
-With an infrared controller box, you can automate all your infrared controlled devices! 
- There are a lot of devices that have a remote which works via infrared. 
-Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights or electric candles.
+With a Zigbee/WiFi infrared transmitter and receiver device, you can automate all your infrared controlled devices!  
+There are a lot of devices that have a remote which works via infrared. 
+Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights and electric candles.
 The signal of an infrared remote has no encryption and is always the same. 
 This makes it easy to capture, store and resend the signal.
 
@@ -33,19 +37,20 @@ This makes it easy to capture, store and resend the signal.
 <a href="/buy/images_zigbee/zigbee_ir_remote.webp"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" style="margin-left:15px;float:right" /></a>
 I used for this project the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a> 
-With this small black box, powered on batteries, you can control any infrared device. 
+With this small black box, powered on batteries, you can control any infrared device.
+
+> There are also similar [WiFi versions](https://s.click.aliexpress.com/e/_DnpWmYp) available of this device.
 
 <a href="images_infrared/purposes_ir.png" target="_blank">
 <img src="images_infrared/purposes_ir.png" alt="purposes curtains" height="250px" />
 </a>
 
-> There are also similar [WiFi versions](https://s.click.aliexpress.com/e/_DnpWmYp) available of this device.
+You can set the device in learning mode to copy signals and store the signal on the device.\
+When you trigger the device with a code, it sends the stored signals but now from this box.
+You can save a lot of signals on this box, each button on a remote and that for multiple remotes.
 
-You can set the device in learning mode to copy signals and store it.\
-Or trigger the device, with a code, to send one of the stored signals. 
-
-I used this solution also for my Christmas decorations. 
-For my Christmas star and electronic tea lights, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about this project.
+> I used this solution also for my Christmas paper star, 
+see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about my automated Christmas lights and decorations.
 
 ---
 ### Learning mode
@@ -55,7 +60,7 @@ To learn a new signal, set the device in learning mode by sending this payload t
 ```yaml
 {% raw %}
 {     
-  "learn_ir_code":"ON" 
+  "learn_ir_code": "ON" 
 }
 {% endraw %}
 ```
@@ -92,8 +97,9 @@ Because it works on batteries your free to position the device.
 {% endraw %}
 ```
 
-If all goes correctly, the device now also reacts on your box!
-Now you can add also other buttons from the remote to the box.
+If all goes well, the device now also reacts on your box!
+
+Now you can add also other buttons from the remote to the box and clone the signals of other remotes as well.
 
 Now the fun continues to automation the commands!
 Turn the candles/fireplace on when you enter the room in the evening or whatever scenario you can think of! 
@@ -190,7 +196,13 @@ Candles
     <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
   </a>
 
-Also, Christmas decorations, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about this subject.
+Also, some Christmas decorations have an infrared remote, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) how I used this project for it.
+
+
+**Physical stores**
+
+* [The Dutch Action sells them also in their shops](https://www.action.com/nl-nl/p/3206761/ledkaarsenset/)
+* [The Dutch Hema sells 4 rechargeable tea lights with a remote](https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html)
 
 ---
 
