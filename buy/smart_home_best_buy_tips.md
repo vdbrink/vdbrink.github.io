@@ -161,14 +161,14 @@ Battery powered, bigger, cheaper.
 <a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">
 <img src="images_zigbee/human_presence_sensor.avif" alt="pir + mmWave human motion and presence sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
-New and improved, human presence sensors are now available!<br>
+New and improved, human presence sensors.<br>
 It's a combination with a PIR + mmWave radar and brightness sensor. 
 It's wireless and 2x AAA battery powered.<br> 
 The PIR sensor is used to detect a person and to activate the mmWave radar sensor. 
 It avoids the detection of animals.
 It can also detect persons who sit still or laying in bed.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">Zigbee Human motion + presence sensor - Aqara (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">Zigbee Human motion + presence + lux sensor - Hoazee (AliExpress)</a>
 <a href="https://amzn.to/4hBkSc5" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
 
