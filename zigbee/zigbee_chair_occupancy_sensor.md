@@ -1,7 +1,7 @@
 ---
 title: DIY Zigbee chair occupancy sensor
 category: Zigbee
-tags: [Zigbee, occupancy, diy, contact, sensor, Aqara, chair, office, cat, bed, mat, pressure, car]
+tags: [Zigbee, occupancy, diy, zigbee, WiFi, contact, sensor, Aqara, chair, office, cat, bed, mat, pressure, car]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
@@ -90,10 +90,11 @@ On this page I describe how it works with this <a href="https://s.click.aliexpre
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-1c. Or use an alternative <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">(Zigbee) leak sensor</a> (No soldering required)\
-This alternative leak sensor has external contact point, really easy to connect to the two seat sensor wires.
+1c. Or use an alternative <a href="https://s.click.aliexpress.com/e/_omkbvFz" target="_blank">(Zigbee/WiFi) leak sensor</a> (No soldering required)\
+This alternative leak sensor has external contact point, really easy to connect to the two seat sensor wires. 
+See 3a how to connect the wires from the leak- and pressure sensor with each other.
 
-<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_omkbvFz" target="_blank">
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" width="200px">
 </a>
 
@@ -103,8 +104,8 @@ This alternative leak sensor has external contact point, really easy to connect 
 
 <a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">
 <img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" /></a>
-<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank"><img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /></a>
-<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank"><img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
+<a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank"><img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /></a>
+<a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank"><img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
 
 ---

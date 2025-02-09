@@ -180,15 +180,15 @@ You can directly attach it to a contact-/water leak sensor.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">largest version (AliExpress)</a>
 
-<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EJLIF9B" target="_blank">large version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">large version (AliExpress)</a>
 
-<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor smal" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dk6XL1V" target="_blank">smaller version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank">smaller version (AliExpress)</a>
 
 ### Weight sensor
 
