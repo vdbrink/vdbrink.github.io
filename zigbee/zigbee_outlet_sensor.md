@@ -25,13 +25,13 @@ This solution works for all these types of sensors:
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
 <img src="/buy/images_zigbee/zigbee_motion_pir.avif" alt="motion sensor" height="100px" style="margin-left:15px;float:left"></a>
 
-<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">
 <img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="100px" style="margin-left:15px;float:left"/></a>
     
 <a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank">
 <img src="/buy/images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="100px" style="margin-left:15px;float:left"/></a>
     
-<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="100px" style="margin-left:15px;"/></a>
 </div>
 
@@ -114,8 +114,8 @@ This project only requires these devices: A battery powered sensor and a battery
 ### Combination 3: Leak sensor with AAA battery replacement
 
 1. It also works with other sensors like this leak sensor with two AAA batteries.
-  <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (AliExpress)</a> <a href="https://amzn.to/3Zj7va8" target="_blank">(Amazon)</a>
-  <a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">Zigbee leak sensor (AliExpress)</a> <a href="https://amzn.to/3Zj7va8" target="_blank">(Amazon)</a>
+  <a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
   <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px"/></a>
 
 2. A <a href="/buy/smart_home_best_buy_tips#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\

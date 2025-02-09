@@ -131,7 +131,7 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" t
 
 A contact sensor can be placed to check if doors and windows are open or closed. The sensor knows only those two values. The contact sensor works with a "reed switch", the circuit is by default open, but when there is a magnet nearby, the internal metal closes the circuit.
 
-The sensor can also be used attached to other sensors that also return an open or closed circuit. With this behavior, you can create also a [seat sensor](/zigbee/zigbee_chair_occupancy_sensor) or a [water leak sensor](/zigbee/zigbee_water_leak_sensor).
+The sensor can also be used attached to other sensors that also return an open or closed circuit. With this behavior, you can create also a [seat occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) or a [water leak sensor](/zigbee/zigbee_water_leak_sensor).
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
@@ -250,14 +250,14 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 
 ### Temperature sensor
 
-<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">
 <img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. 
 This sensor is useful to make automations like take action if someone is in the shower. 
 Or in the summer when it becomes outside colder than inside.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFVRG63" target="_blank">Zigbee temperature and humidity sensor - Aqara (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">Zigbee temperature and humidity sensor - Aqara (AliExpress)</a>
 <a href="https://amzn.to/3V2h0YX" target="_blank">(Amazon)</a>
 <a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSDCGQ11LM.html" target="_blank" title="WSDCGQ11LM">{{imgZ2M}}WSDCGQ11LM</a>
@@ -314,13 +314,13 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 #### Other leak sensor
 
-<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 Another leak sensor is the one with a wire, this sensor itself isn't water-resistant, only the other end of the cable may become wet.
 This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCRMz4L" target="_blank">Zigbee leak sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">Zigbee leak sensor (AliExpress)</a>
 <a href="https://amzn.to/3Zj7va8" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
@@ -622,6 +622,14 @@ This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (
 <br>
 <br>
 
+<a href="https://amzn.to/4gBFjop" target="_blank">
+<img src="/buy/images_zigbee/ledvance_outdoor_socket.jpg" alt="LEDVANCE ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rating and with power measurement.
+
+{{imgBasket}}<a href="https://amzn.to/4gBFjop" target="_blank">Zigbee outdoor power socket - LEDVANCE (Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank" title="4099854293276">{{imgZ2M}}4099854293276</a>
+
 [//]: # ()
 [//]: # (<a href="" target="_blank">)
 
@@ -775,7 +783,7 @@ I use these a lot for all kinds of Christmas decorations.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opJpPLu" target="_blank">AAA battery replacement with power socket EU (AliExpress)</a> 
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank">AAA battery replacement with power socket EU (AliExpress)</a> 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 battery replacement with USB (AliExpress)</a>
 
