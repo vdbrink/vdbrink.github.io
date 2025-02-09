@@ -27,8 +27,8 @@ and if I'm after X minutes not returned, everything shuts down.
 ---
 ## My solution
 
-So I found the solution in this "hack". 
-It uses a contact (or leak) sensor connected to a car seat sensor to detect if a chair is occupied, 
+So I found the solution with this "hack".
+It uses a contact (or leak) sensor connected to a car seat pressure sensor to detect if a chair is occupied, 
 exactly what I needed!
 
 Other purposes for this sensor are:
@@ -50,10 +50,8 @@ Other purposes for this sensor are:
 ---
 
 ## Automations
- 
-<img src="images_chair/graph_hours_occupancy.jpg" alt="History graph Card in Home Assistant" width="400px">
 
-With this new sensor, it's possible to make all kind different automations, a few examples are:
+With this new sensor, it's possible to create all kind different automations, a few examples are:
 * When the light still needs to be on
 * Power up all the computer peripherals (monitor, lights, chargers, heater)
 * Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while
@@ -136,7 +134,8 @@ See 3a how to connect the wires from the leak- and pressure sensor with each oth
 
 ### With an Aqara water leak sensor
 
-With the Aqara water leak sensor, you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. Screw them tight again and done!!
+With the Aqara water leak sensor, you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. 
+Screw them tight again and done!!
 
 <a href="images_chair/aqara_leak_sensor_screws.jpg"><img src="images_chair/aqara_leak_sensor_screws.jpg" title="Aqara water leak back with screws" width="250px"/></a>
 
@@ -145,7 +144,7 @@ With the Aqara water leak sensor, you only need to unscrew the screws, wrap the 
 A contact sensor is a boolean sensor, the circuit can be opened or closed.\
 That's also exact what the car seat pressure sensor returns.
 
-The only this that has to be done is connecting the pressure sensor wires to the (reed) contacts of the contact sensor.
+The thing that has to be done is connecting the pressure sensor wires to the (reed) contacts of the contact sensor.
 
 First open the contact sensor.
 ![opened_contact_sensor.jpg](images_chair/opened_contact_sensor.jpg)
