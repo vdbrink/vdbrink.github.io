@@ -96,8 +96,6 @@ The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and i
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">ESP8266 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">ESP8266 (AliExpress)</a>
-
 ### ESP D1 mini
 
 This ESP D1 mini is also an ESP8266 variant (don't use the pro or V3) 
@@ -107,7 +105,7 @@ This ESP D1 mini is also an ESP8266 variant (don't use the pro or V3)
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
 <img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">ESP D1, link 1 (AliExpress)</a>
 
 ---
 
@@ -124,7 +122,7 @@ Dht11 is a commonly used temperature and humidity sensor.
 <a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">
 <img src="images_diy/dht11_temperature_sensor.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">DHT11 (AliExpress)</a>
 
 ### Air quality sensor
 
@@ -133,9 +131,9 @@ AGS10 TVOC air quality gas sensor.
 <a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">
 <img src="images_diy/ags10.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olq1AMr" target="_blank">AGS10 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">AGS10 (AliExpress)</a>
 
 
 ### CO2 sensor
@@ -147,17 +145,21 @@ If the amount of ppms is too high for a long time, it's not good for you're heal
 
 SenseAir S8 CO2 sensor.
 
+Check [this page](/esphome/co2_senseair_s8_sensor) how to make your own CO2 sensor with this sensor.
+
 <a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">
 <img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">SenseAir S8 CO2 sensor, link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">SenseAir S8 CO2 sensor, link 2 (AliExpress)</a>
 
 #### SCD41
 
-SCD40 or SCD41 CO2 sensor are compact CO2 , humidity and temperature sensors. 
+SCD40 or SCD41 CO2 sensor are compact CO2, humidity and temperature sensors. 
 Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
+
+Check [this page](/esphome/co2_scd40) how to make your own CO2 sensor with this sensor.
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 <img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 40 WITHOUT soldering due to a i2c cable (AliExpress)" /></a>
@@ -197,7 +199,7 @@ The HX711 Module comes with four pressure sensors which you can place under your
 <a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">
 <img src="images_diy/weight_sensors.webp" height="180px" alt="weight sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkwwYYr" target="_blank">HX711 weight sensor, link (AliExpress)</a>
 
 ### Rain gauge sensor
 
@@ -206,16 +208,16 @@ Can be used, together with a contact sensor, to create your own rain gauge senso
 <a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">Rain gauge, link (AliExpress)</a>
 
 ### Waterproof temperature sensor
 
-The DS18B20 sensor is one to measure temperature in wet areas like an aquarium for example.
+The DS18B20 sensor is one to measure temperature in wet areas like an aquarium, for example.
 
-<a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_opWfMK7" target="_blank">
 <img src="images_diy/ds18b20.webp" height="180px" alt="ds18b20 waterproof temperature sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dkzs3vV" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opWfMK7" target="_blank">DS18B20 water temp sensor, link (AliExpress)</a>
 
 ---
 
@@ -223,10 +225,10 @@ The DS18B20 sensor is one to measure temperature in wet areas like an aquarium f
 
 The HLK-2410C is a 24GHz occupancy sensor (a.k.a. millimeter wave sensor)
 
-<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oDNOaAb" target="_blank">
 <img src="images_zigbee/HLK-2410C.png" height="180px" alt="HLK-2410C 24GHz Motion sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEg4ufC" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDNOaAb" target="_blank">HLK-2410C, link 1 (AliExpress)</a>
 
 ### Presence sensor (microwave)
 
@@ -235,7 +237,7 @@ The RCWL-0516 presence sensor (a.k.a. micrometer sensor)
 <a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">
 <img src="../esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">RCWL-0516, link (AliExpress)</a>
 
 ---
 
