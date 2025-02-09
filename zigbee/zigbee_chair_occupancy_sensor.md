@@ -6,11 +6,13 @@ image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
 # DIY chair occupancy sensor
-*Based on a contact sensor and a car seat pressure sensor*
+*Based on a leak or contact sensor and a car seat pressure sensor*
 
 ## Introduction
 
+<a href="images_chair/pillow_with_sensor.jpg">
 <img src="images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>
+</a>
 For my home office I want a way to detect if I'm there behind my desk. 
 So I can automate my desk peripherals as heater, monitor power, desk light and phone charger.
 
@@ -21,8 +23,9 @@ They detect a wider range and not only the chair occupancy.\
 I also use this room when I'm not at my desk, then I don't need all these things powered up.
 
 Of course, with a regular button you can activate these devices also, but now my "bottom presses the button".
+
 Also, when I walk away from my desk, it's automatically detected, then my heater goes off, 
-and if I'm after X minutes not returned, everything shuts down.
+and if I'm after X minutes not returned, everything shuts down automatically.
 
 ---
 ## My solution
@@ -52,8 +55,9 @@ Other purposes for this sensor are:
 
 ## Automations
 
-With this new sensor, it's possible to create all kind different automations, like:
 <img src="images_chair/chair_occupancy.png" alt="" width="400px">
+
+With this new sensor, it's possible to create all kind different automations, like:
 * When the light still needs to be on.
 * Power up all the computer peripherals (monitor, lights, chargers, heater).
 * Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while.
@@ -136,10 +140,13 @@ See 3a how to connect the wires from the leak- and pressure sensor with each oth
 
 ### With an Aqara water leak sensor
 
-With the Aqara water leak sensor, you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. 
+With the Aqara Zigbee water leak sensor, you only need to unscrew the screws, wrap the blank wires from the pressure sensor around it. 
 Screw them tight again and done!!
 
 <a href="images_chair/aqara_leak_sensor_screws.jpg"><img src="images_chair/aqara_leak_sensor_screws.jpg" title="Aqara water leak back with screws" width="250px"/></a>
+
+You can skip the contact sensor description 
+and continue with the [Home Assistant](#home-assistant) section if you use the leak sensor.
 
 ### With a contact sensor
 
@@ -198,6 +205,9 @@ Now you can create automations based on it!
 
 By default, the contact status is inverted as preferred.
 With this addition in the `configuration.yaml` file, it creates a new sensor that shows the correct status in the dashboard.
+
+<img src="images_chair/chair_occupancy.png" alt="" width="400px">
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -226,7 +236,8 @@ homeassistant:
 With the [history stats](https://www.home-assistant.io/integrations/history_stats/) it's possible to create new sensors which indicate how long something takes.
 In this case we want to track how long the chair is occupied on each day.
 The start/reset is on a new day and end time is the current time and within this timeframe how long has entity `binary_sensor.chair_work` the state `on`.
-This is the code to add in the `configuration.yaml`.  
+
+This is the code to add in the `configuration.yaml`.\
 This will generate a new sensor called `sensor.chair_occupancy`.
 
 ```yaml
@@ -242,8 +253,6 @@ This will generate a new sensor called `sensor.chair_occupancy`.
   end: '{{ now() }}'
 {% endraw %}
 ```
-
----
 
 ### Graphs
 
@@ -324,14 +333,10 @@ entities:
 
 <br>
 
-That's it, a very useful and reliable DIY Zigbee chair sensor (for me at least!).
+That's it, a very useful and reliable DIY chair occupancy sensor (for me at least!).
 
 <br>
 
 ---
 
-See also: [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips)
-
----
-
-[<< See also my other Zigbee content](index)
+[<< See also my other Zigbee related content](index)
