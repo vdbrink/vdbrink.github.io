@@ -41,10 +41,11 @@ Other purposes for this sensor are:
 
 ## Table of Contents
 <!-- TOC -->
- * [My solution](#my-solution)
- * [Automations](#automations)
- * [Required hardware](#required-hardware)
- * [Home Assistant](#home-assistant)
+  * [My solution](#my-solution)
+  * [Automations](#automations)
+  * [Required hardware](#required-hardware)
+  * [Wire them together](#wire-them-together)
+  * [Home Assistant](#home-assistant)
 <!-- TOC -->
 
 ---
@@ -52,6 +53,7 @@ Other purposes for this sensor are:
 ## Automations
 
 With this new sensor, it's possible to create all kind different automations, like:
+<img src="images_chair/chair_occupancy.png" alt="" width="400px">
 * When the light still needs to be on.
 * Power up all the computer peripherals (monitor, lights, chargers, heater).
 * Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while.
@@ -147,20 +149,43 @@ That's also exact what the car seat pressure sensor returns.
 The thing that has to be done is connecting the pressure sensor wires to the (reed) contacts of the contact sensor.
 
 First open the contact sensor.
-![opened_contact_sensor.jpg](images_chair/opened_contact_sensor.jpg)
+
+<a href="images_chair/opened_contact_sensor.jpg">
+<img src="images_chair/opened_contact_sensor.jpg" alt="" width="200px">
+</a>
+
 You can remove the reed contact, but you can also leave it like it is. 
 Because there is no magnet nearby, those ends don't make contact. 
-The sensor is set parallel over this switch. 
-![remove_reed_from_contact_sensor.jpg](images_chair/remove_reed_from_contact_sensor.jpg)
+The sensor is set parallel over this switch.
+
+<a href="images_chair/remove_reed_from_contact_sensor.jpg">
+<img src="images_chair/remove_reed_from_contact_sensor.jpg" alt="" width="200px">
+</a>
+
 Drill a hole in the side of the contact sensor so the cables can go inside.
-![wires_through_hole.jpg](images_chair/wires_through_hole.jpg)
+
+<a href="images_chair/wires_through_hole.jpg">
+<img src="images_chair/wires_through_hole.jpg" alt="" width="200px">
+</a>
+
 Solder the wires to each side of the (reed) contact.
-![solder_wires_to_reed_contacts.jpg](images_chair/solder_wires_to_reed_contacts.jpg)
+
+<a href="images_chair/solder_wires_to_reed_contacts.jpg">
+<img src="images_chair/solder_wires_to_reed_contacts.jpg" alt="" width="200px">
+</a>
+
 You can also use two pressure sensors if you want to cover more space with just one sensor.\
 You connect both sensors together on the same reed contacts ends.
-![double_pressure_sensor.jpg](images_chair/double_pressure_sensor.jpg)
+
+<a href="images_chair/double_pressure_sensor.jpg">
+<img src="images_chair/double_pressure_sensor.jpg" alt="" width="200px">
+</a>
+
 Now you can place the sensor inside a pillow on the chair of inside the chair itself if you can zip the seat open.
-![pillow_with_sensor_top.jpg](images_chair/pillow_with_sensor_top.jpg)
+
+<a href="images_chair/pillow_with_sensor_top.jpg">
+<img src="images_chair/pillow_with_sensor_top.jpg" alt="" width="200px">
+</a>
 
 When you now sit on it, the state of the contact sensor will change.\
 Now you can create automations based on it!
