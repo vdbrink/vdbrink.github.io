@@ -15,10 +15,14 @@ For my home office I want a way to detect if I'm there behind my desk.
 So I can automate my desk peripherals as heater, monitor power, desk light and phone charger.
 
 To detect that, it's possible to use a motion sensor, 
- to detect when you also sit still on a chair, it's better to use a presence sensor. 
+ but to detect when you also sit still on a chair, it's better to use a presence sensor. 
 The downside with one of those is, they will also detect animals or blowing fans and are more expensive. 
 They detect a wider range and not only the chair occupancy.\
-I also use this room when I'm not at my desk then I don't need all these things powered up.
+I also use this room when I'm not at my desk, then I don't need all these things powered up.
+
+Of course, with a regular button you can activate these devices also, but now my "bottom presses the button".
+Also, when I walk away from my desk, it's automatically detected, then my heater goes off, 
+and if I'm after X minutes not returned, everything shuts down.
 
 ---
 ## My solution
@@ -72,8 +76,8 @@ This can be achieved with two different types of sensors.
 A water leak sensor or a contact sensor. 
 Both work with a boolean (true of false) state.
 
-1a. <a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">Aqara Water leak sensor</a> (No soldering required)\
-The Aqara leak sensor has two metal screw contacts on the back of the sensor where you can connect direct the two wires of the pressure sensor behind.
+1a. <a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">Aqara Zigbee water leak sensor</a> (No soldering required)\
+The Aqara Zigbee leak sensor has two metal screw contacts on the back of the sensor where you can connect direct the two wires of the pressure sensor behind.
 
 <a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">
 <img src="/buy/images_zigbee/aqara_leak_sensor.webp" alt="Aqara water leak sensor" width="200px">
@@ -81,7 +85,8 @@ The Aqara leak sensor has two metal screw contacts on the back of the sensor whe
 
 <br>
 
-1b. Or use a <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">(Zigbee) Contact sensor</a> (Soldering required)\
+1b. Or use any <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor</a> (or WiFi version). 
+Soldering is required if you use this way.\
 A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.
 
 On this page I describe how it works with this <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">contact sensor</a>.
