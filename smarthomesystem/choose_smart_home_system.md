@@ -13,6 +13,9 @@ You enter a "rabbit hole" with all those unknown terms like NUC, N100, Proxmox a
 You have no idea what they mean!
 I can completely understand this scares you.
 
+I have a technical background and know already a lot about computers, networks, and software.
+All my live I have been interested, did studies and worked in all kinds of different technical sectors.
+
 On this page, I try to clear things up by comparing the different smart home solutions and explain terminology with some extra background information.
 
 Be aware that everybody has different knowledge / experience levels, budget, and functionality wishes. 
@@ -32,10 +35,16 @@ There are also a lot of other smart people who can help you.
 ## Table of Contents
 <!-- TOC -->
   * [Questions before you start](#questions-before-you-start)
-    * [Commercial vs nonprofit](#commercial-vs-nonprofit)
-    * [Protocols](#protocols)
+    * [Commercial vs nonprofit vs mixed](#commercial-vs-nonprofit-vs-mixed)
+      * [Commercial](#commercial)
+      * [Nonprofit](#nonprofit)
+      * [Mixed](#mixed)
+    * [Which protocols do you want to use?](#which-protocols-do-you-want-to-use)
   * [What is a smart home system?](#what-is-a-smart-home-system)
   * [Which categories are there?](#which-categories-are-there)
+    * [Voice-Controlled](#voice-controlled)
+    * [App-Based](#app-based)
+    * [Open-Source and DIY](#open-source-and-diy)
   * [Terminology](#terminology)
   * [Need help?](#need-help)
   * [Remarks](#remarks)
@@ -49,37 +58,82 @@ There are also a lot of other smart people who can help you.
 You can ask yourself some questions before you start to choose your smart home system.
 This way you can already filter some categories out.
 
-### Commercial vs nonprofit
+---
+
+### Commercial vs nonprofit vs mixed
+
+Do you mind that companies use your data for commercial purposes?
 
 #### Commercial
 
-Big tech companies sell affordable home automation system solutions (like Google Home, Alexa), but nothing is for free. 
-All YOUR local data is stored on THEIR **cloud** servers. 
-If you have lamps, motion detections and cameras, they know when you are at home, when you sleep, 
-when you are awake, when you are in the bathroom, etc. 
-This data do they use eventually for commercial purposes.
+Big tech companies sell affordable home automation system solutions (like Google Home, Alexa), but nothing is for free.
+You get a complete product with many out-of-the-box functionalities.
+You don't need any technical knowledge to maintain or install it.
 
-> **_NOTE:_** If you don't pay much for the product, you are the product.
+But realize yourself that all YOUR data is stored on THEIR **cloud** servers. 
+If you have lamps, motion detections and cameras added to the system, they know when you're at home, when you sleep, 
+when you're awake, when you're in the bathroom, etc. 
+They use (and sell) this data and use it eventually for commercial purposes.
+
+> **_NOTE:_** If you don't pay much for the product, you are the product!
+
+These parties have the power to change the conditions and functionalities with a single update.
+We've seen products that force you to suddenly create an account (Hue).
+Or stop local support "per accident" (Somfy)
+Or when the company decided to pull the plug out of the product, they also shutdown their required cloud servers.
+The product will end up as useless brick.
+
+This is something that you can (most of the time) avoid while choosing the products you want to buy and check if it also support local communication.
+When the company stops existing, you can still use the product locally.
+It happened to me already with my smart curtains. The company stopped but with the local support, I can still use the product!
 
 #### Nonprofit
 
-Nonprofit solutions like Home Assistant, OpenHAB, Domoticz are open-source and free software solutions.
+Nonprofit solutions are also available, like Home Assistant, OpenHAB, Domoticz
+they are open-source and free software solutions.
 You can look into all the code of these applications and see what happens with your data.
+
 These solutions don't provide any cloud storage solutions; 
 you need to arrange the storage location yourself, which will mainly be on a local (network) hard disk.
 These solutions can be installed on a wide range of hardware of your own choice.
+That makes you also responsible for your setup, backups, and updates.
 
-### Protocols
+These days there are a lot of instruction videos on YouTube, online manuals, forums, social media and chat groups 
+dedicated to these products. 
+Here you can search for a comparable problem and otherwise ask for help from people who have a lot of experience. 
 
-In your home, your devices (laptop, phone, tablet) communicate with each other over Wifi or via the wired network via a central router and use the TCP/IP protocol. The same protocol is used to connect with the internet.
+#### Mixed
+
+You can also use mixed solutions, like Home Assistant,
+which can be installed on your own hardware
+where you use a local protocol to communicate with most of your smart home devices. 
+And also use use for some devices their cloud solution integration,
+like for your electric car, dishwasher or robot vacuum cleaner. 
+Then you can decide for each new device
+you add to your setup
+if you feel comfortable that only this specific data is stored in the cloud
+or that you only want a product that works locally.
+
+---
+
+### Which protocols do you want to use?
+
+In your home your phone and computer communicate with each other over WiFi or via the wired network via a central router 
+and use the TCP/IP protocol to communicate with each other.
+The same protocol is used to connect these devices also to the internet.
+
 Smart home devices also need a protocol to communicate with each other.
-This can also be WiFi, then your router is your 'hub'. 
-WiFi sensors are easy to start with because you have this already available.
+This can also be via the WiFi (aka WLAN), then your router is your 'hub'. 
+Which make WiFi sensors an easy choice to start with because you have this network already available.
 
-However, there are other protocols, especially for smart home devices, 
-like Zigbee, Thread, Matter, Z-Wave, Lora, Bluetooth, Infrared.
+However, there are other protocols, especially for smart home devices as well. 
+
+You have the Personal area network (PAN) protocols for short distances; like Zigbee, Thread, Matter, Z-Wave, Bluetooth, Infrared.
+
+The ones with a bigger range grouped under Wireless Sensor Networks (WSN / WSAN) like Lora, Zigbee and Z-Wave (some overlap).
+
 Each protocol has its own advantages and disadvantages and is perfect for different situations.
-To support a protocol, you need for each protocol a specific USB adapter which 'talks' that protocol.
+To support a protocol, you need for each a specific USB adapter that 'talks' that protocol.
 
 | Protocol          | Range* | Speed         | Power consumption | Purpose                                                                                                     |
 |-------------------|--------|---------------|-------------------|-------------------------------------------------------------------------------------------------------------|
