@@ -89,7 +89,7 @@ Affiliate links are used here. Same price, and you sponsor this blog.
 
 ### SCD40 CO2 sensor
 
-This small gas sensor measures CO2 (in a range 400-2000 ppm) and also temperature (-10-60 degrees) and humidity (0-100 percent).\
+This small gas sensor measures **CO2** (in a range 400-2000 ppm) and also **temperature** (-10-60 degrees) and **humidity** (0-100 percent).\
 The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) for all the details specs from this sensor.
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
