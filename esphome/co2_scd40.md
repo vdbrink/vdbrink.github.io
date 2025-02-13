@@ -19,13 +19,13 @@ image: /esphome/images_scd40/hardware.jpg
 There are CO2 sensors available, most of them are expensive, but 
 you can also create one yourself with just a single sensor and an ESP board. 
 It's easy (and fun) to create one yourself.\
-You can even create this one WITHOUT SOLDERING!!
+You can even create this one **WITHOUT SOLDERING!!**
 
-Besides CO2, this one also measures the temperature and humidity. 
+Besides **CO2**, this one also measures the **temperature** and **humidity**.
+
+<img src="images_scd40/ha_esphome_device.png" alt="ESPHome device sensors" width="250px">
 
 CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
-
-<img src="images_scd40/ha_esphome_device.png" alt="ESPHome device sensors" width="250px" style="float:right;margin-left:15px">
 
 If your in a room with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
 For your, and your family health, it's important to act when these values are too high.\
