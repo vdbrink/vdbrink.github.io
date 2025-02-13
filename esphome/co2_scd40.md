@@ -3,7 +3,7 @@ title: ESPHome SCD40 CO2 sensor
 description: "Create your own ESPHome CO2 sensor based on the SCD40 sensor for Home Assistant"
 date: 2022-06-24
 category: ESPHome
-tags: [CO2 , ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering]
+tags: [CO2 , ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering, temperature, humidity]
 image: /esphome/images_scd40/hardware.jpg
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -21,9 +21,13 @@ you can also create one yourself with just a single sensor and an ESP board.
 It's easy (and fun) to create one yourself.\
 You can even create this one WITHOUT SOLDERING!!
 
+Besides CO2, this one also measures the temperature and humidity. 
+
 CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
-If your in a space with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
+<img src="images_scd40/ha_esphome_device.png" alt="ESPHome device sensors" width="250px" style="float:right;margin-left:15px">
+
+If your in a room with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
 For your, and your family health, it's important to act when these values are too high.\
 The value rice gradual, so you don't notice it directly. 
 That's why it's important to get notified about it.
@@ -42,11 +46,11 @@ This table shows for which value, which action is required.
 
 In Home Assistant, you can visualize how the CO2 value changed over time.
 And with an automation, you can get notified when the value is too high. 
-Use a notification to get a message on your phone or a smart speaker.
+Send this notification to your phone or make an announcement via a smart speaker.
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
-Read along how you create this graph yourself...
+Read along how you create this sensor yourself...
 
 ---
 
@@ -105,7 +109,7 @@ ESP8266 NodeMCU v3 (Ch340) with pre soldered pins (AliExpress)
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
 <br>
-<a href="https://s.click.aliexpress.com/e/_mPJWRqE" target="_blank">Alternative link (AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oEUmqpo" target="_blank">Alternative link (AliExpress)</a>
 <br>
 
 ### Case
@@ -259,7 +263,7 @@ sensor:
 ---
 ## Test if it works
 
-Now the data is flashed, check if the sensor pushes the data correctly.
+Now the data is flashed, check if the sensor pushes the CO2, temperature and humidity data correctly.
 
 ### Via console
 If you flash the ESP via the console and enabled logging, 
@@ -451,7 +455,7 @@ chips:
 
 ## Automations
 
-When the CO2 value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
+When the CO2/temperature/humidity value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
 Or use a colored light or [LED-strip](/projects/bin_day_led_strip_reminder) to indicate the condition.
 
 <br><br>
