@@ -98,6 +98,11 @@ This sensor is useful if you don't want to solder (AliExpress)
 <img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 CO2 sensor without soldering" />
 </a>
 
+<br>
+<a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">
+Otherwise you can also buy this cheaper version where you need to solder the pins (AliExpress)
+
+
 ### ESP board
 
 You can use any ESP board: [ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../buy/esphome_diy#esp-d1-mini), 
