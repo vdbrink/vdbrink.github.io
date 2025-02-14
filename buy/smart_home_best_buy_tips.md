@@ -749,6 +749,14 @@ This CR1632 battery is a bit smaller than the CR2032.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
+### CR1632 rechargeable = LIR1632
+
+<img src="images_zigbee/lir1632.avif" alt="LIR1632" width="100px" style="margin-left:15px;float:right"/>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_om9Uopk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEp8zbk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
+
 ### CR2450
 
 <img src="images_zigbee/cr2450.webp" alt="CR2450" width="100px" style="margin-left:15px;float:right"/>
@@ -759,6 +767,8 @@ This CR2450 battery is a bit thicker than the other ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/4hT10SV" target="_blank">(Amazon)</a>
+
+### CR2450 rechargeable = LIR2450
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Eu4Gfup" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
