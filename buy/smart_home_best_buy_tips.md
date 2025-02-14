@@ -709,6 +709,7 @@ This CR2032 is the most commonly used battery. It's small, but still has enough 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooUmuKN" target="_blank">CR2032 (AliExpress)</a>
 <a href="https://amzn.to/4i2rCAE" target="_blank">(Amazon)</a>
 
+<a name="cr2032-rechargeable--lir2032)"></a>
 #### CR2032 rechargeable = LIR2032
 
 <a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">
