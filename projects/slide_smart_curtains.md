@@ -25,7 +25,7 @@ After a few months after buying the product, unfortunately, the company (Innovat
 
 Luckily, another company, Robb Shop, took over the production, website and support and continues with this great product! Hopefully they can keep this product alive.
 
-It's now (for only a few days) in [pre-order available](https://www.robbshop.nl/pre-order-slide-slim-gordijnsysteem-wifi) Delivery will be probably in June because a new batch needs to be made.
+It's now in [pre-order available](https://www.robbshop.nl/pre-order-slide-slim-gordijnsysteem-wifi) Delivery will be probably in June because a new batch needs to be made.
 
 The product website: https://slide.store
 
