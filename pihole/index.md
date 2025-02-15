@@ -3,8 +3,9 @@ title: "Pi-hole"
 description: "Pi-hole"
 category: Pi-hole
 tags: [Pi-hole, block, advertisement, tracking]
-
+image: /pihole/images/pi-hole_logo.svg
 ---
+
 # Pi-hole
 *Advertisement and tracking blocker*
 
@@ -26,15 +27,30 @@ The advantage of blocking these websites is also that the scripts and images fro
 which result in faster loading of the websites.
 
 <a href="images/stats.png">
-<img src="images/stats.png" alt="blocked items" width="450px" />
+<img src="images/stats.png" alt="blocked items" width="100%" />
 </a>
 
 Website: https://pi-hole.net/
 
-[//]: # ()
-[//]: # (---)
+---
 
-[//]: # (## Installation)
+## Installation
+
+### Via Home Assistant
+
+Use the Home Assistant [**Pi-hole** integration](https://www.home-assistant.io/integrations/pi_hole/) for this.
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=pi_home)
+
+<!--
+
+## Setup router
+
+---
+
+## Setup phones
+
+-->
 
 ---
 
