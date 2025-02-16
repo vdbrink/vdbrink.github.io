@@ -2,7 +2,7 @@
 title: "Batteries - Best Buy Tips"
 description: "Batteries - Best Buy Tips"
 category: Buy tips
-tags: [Best, Buy, tips, home automation, batteries, CR2032, AA, AAA, CR1632, CR2450, sensors]
+tags: [Disposable, Best, Buy, tips, home automation, batteries, CR2032, AA, AAA, CR1632, CR2450, sensors]
 image: /buy/images_batteries/battery_banner.jpg
 ---
 
@@ -32,7 +32,7 @@ To avoid waste of pressure metals, you can also use **rechargeable** equivalents
 On the long end, they are cheaper because you can use them over and over again. 
 You also don't have to worry about buying new ones, just recharge and reuse them!
 
-If you use the single used ones, and they are empty, bring them to a location where they can recycle them!
+If you use the disposables, and they are empty, bring them to a location where they can recycle them!
 
 These are common types of batteries:
 * [AA](#aa)
@@ -50,30 +50,30 @@ Also, ways to convert a battery powered device into a wall powered device.
 
 ## Table of Contents
 <!-- TOC -->
-* [AA](#aa)
-  * [Single use](#single-use)
-  * [Rechargeable](#rechargeable)
-  * [Charger](#charger)
-* [AAA](#aaa)
-  * [Single use](#single-use-1)
-  * [Rechargeable](#rechargeable-1)
-  * [Charger](#charger-1)
-* [CR2032](#cr2032)
-  * [Single use](#single-use-2)
-  * [Rechargeable](#rechargeable-2)
-  * [Charger](#charger-2)
-  * [CR2032 USB battery replacements](#cr2032-usb-battery-replacements)
-* [CR1632](#cr1632)
-  * [Single use](#single-use-3)
-  * [Rechargeable](#rechargeable-3)
-  * [Charger](#charger-3)
-* [CR2450](#cr2450)
-  * [Single use](#single-use-4)
-  * [Rechargeable](#rechargeable-4)
-  * [Charger](#charger-4)
-* [Battery eliminators](#battery-eliminators)
-  * [DIY Zigbee outlet sensor](#diy-zigbee-outlet-sensor)
-  * [Battery powered Christmas decorations](#battery-powered-christmas-decorations)
+  * [AA](#aa)
+    * [Disposable](#disposable)
+    * [Rechargeable](#rechargeable)
+    * [Charger](#charger)
+  * [AAA](#aaa)
+    * [Disposable](#disposable-1)
+    * [Rechargeable](#rechargeable-1)
+    * [Charger](#charger-1)
+  * [CR2032](#cr2032)
+    * [Disposable](#disposable-2)
+    * [Rechargeable](#rechargeable-2)
+    * [Charger](#charger-2)
+    * [CR2032 USB battery replacements](#cr2032-usb-battery-replacements)
+  * [CR1632](#cr1632)
+    * [Disposable](#disposable-3)
+    * [Rechargeable](#rechargeable-3)
+    * [Charger](#charger-3)
+  * [CR2450](#cr2450)
+    * [Disposable](#disposable-4)
+    * [Rechargeable](#rechargeable-4)
+    * [Charger](#charger-4)
+  * [Battery eliminators](#battery-eliminators)
+    * [DIY Zigbee outlet sensor](#diy-zigbee-outlet-sensor)
+    * [Battery powered Christmas decorations](#battery-powered-christmas-decorations)
 <!-- TOC -->
 
 > **_NOTE 1:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
@@ -83,10 +83,10 @@ Also, ways to convert a battery powered device into a wall powered device.
 
 <img src="images_batteries/battery_aa_aaa.jpg" alt="battery AA" height="150px" style="margin-left:15px;float:right"/>
 
-#### Single use
+#### Disposable
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Non rechargeable AA batteries - Yuform (AliExpress)</a>\
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCXqAAc" target="_blank">Non rechargeable AA batteries - Yuform (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Disposable AA batteries - Yuform (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCXqAAc" target="_blank">Disposable AA batteries - Yuform (AliExpress)</a>
 
 #### Rechargeable
 
@@ -107,10 +107,10 @@ Charger for AA and AAA batteries
 ---
 ### AAA
 
-#### Single use
+#### Disposable
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Non rechargeable AAA batteries - Yuform (AliExpress)</a>\
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oplmqnI" target="_blank">Non rechargeable AAA batteries - PARAISO (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Disposable AAA batteries - Yuform (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oplmqnI" target="_blank">Disposable AAA batteries - PARAISO (AliExpress)</a>
 
 #### Rechargeable
 
@@ -137,7 +137,7 @@ Charger for AA and AAA batteries.
 ---
 ### CR2032
 
-#### Single use
+#### Disposable
 
 <a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">
 <img src="images_batteries/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
@@ -173,7 +173,7 @@ They are not very famous and more expensive, but environment friendlier, and it 
 
 Lights green when it's full.
 
-DON'T CHARGE NORMAL CR2032 WITH IT!
+DON'T CHARGE NORMAL DISPOSABLE CR2032 WITH IT!
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC1kf5e" target="_blank">LIR2032 and others coin cell charger with USB-C (batteries not included) (AliExpress)</a>\
 <img src="images_batteries/lir_charger.avif" alt="LIR2032 adapter" height="150px"/>
@@ -195,7 +195,7 @@ It's also possible to convert a wireless CR2032 devices to a USB wired devices. 
 
 This CR1632 battery is a bit smaller than the CR2032.
 
-#### Single use
+#### Disposable
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeRGeFB" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/3ECCUg3" target="_blank">(AmazonUS)</a>
@@ -224,7 +224,7 @@ The CR1632 rechargeable version is the **LIR1632**.
 
 This CR2450 battery is a bit thicker than the other ones.
 
-#### Single use
+#### Disposable
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
