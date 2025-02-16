@@ -679,101 +679,11 @@ Before you start using a new sensor, first check what kind of battery it uses an
 When it gets out of fuel, you can directly replace it with a new battery.
 
 These are common types of batteries used by the above-mentioned sensors:
-
-### AAA sized
-
-<a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">
-<img src="images_zigbee/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/></a>
-
-The advantage of these is that they are everywhere available to buy, also in your local supermarket.
-Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
-The downside is that these make the sensor also quite big.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Eneloop Rechargeable AA and AAA batteries - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/493a0ke" target="_blank">(Amazon)</a>
-
-{{imgBasket}}<a href="https://amzn.to/4ePpz0k" target="_blank">4x Rechargeable AA batteries - Duracell (Amazon)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mr8Qxrc" target="_blank">Non rechargeable AA and AAA batteries - Yuform (AliExpress)</a>
-
-### CR2032
-
-<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">
-<img src="images_zigbee/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
-
-This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">CR2032 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/3V4sHye" target="_blank">(Amazon)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooUmuKN" target="_blank">CR2032 (AliExpress)</a>
-<a href="https://amzn.to/4i2rCAE" target="_blank">(Amazon)</a>
-
-<a name="cr2032-rechargeable--lir2032)"></a>
-#### CR2032 rechargeable = LIR2032
-
-<a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">
-<img src="images_zigbee/cr2032_rechargeable.webp" alt="LIR2032" width="100px" style="margin-left:15px;float:right"/></a>
-Instead of buying batteries for only a single use it's also possible to buy the rechargeable variant of the CR2032, called LIR2032.
-
-They not very famous and more expensive but environment friendlier, and it reduces waste.
-<br><br>
-<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">
-<img src="images_zigbee/cr2032_rechargeable_adapter.webp" alt="LIR2032 adapter" height="150px" style="margin-left:15px;float:right"/></a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included) (AliExpress)</a> Lights green when it's full.
-DON'T CHARGE NORMAL CR2032 WITH IT!
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCye8sj" target="_blank">2x LIR2032 rechargeable batteries - PynMont (AliExpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olLhl1p" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
-<a href="https://amzn.to/4fCK0i9" target="_blank">(Amazon)</a>
-
-#### CR2032 USB battery replacements
-
-<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
-<img src="images_zigbee/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" /></a>
-It's also possible to convert a wireless CR2032 devices to a USB wired devices. Now you don't have to care about replacing batteries. 
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
-
-### CR1632
-
-<img src="images_zigbee/cr1632.webp" alt="CR1632" width="100px" style="margin-left:15px;float:right"/>
-
-This CR1632 battery is a bit smaller than the CR2032.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeRGeFB" target="_blank">CR1632 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/490qqKe" target="_blank">(Amazon)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
-
-### CR1632 rechargeable = LIR1632
-
-<img src="images_zigbee/lir1632.avif" alt="LIR1632" width="100px" style="margin-left:15px;float:right"/>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_om9Uopk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEp8zbk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
-
-### CR2450
-
-<img src="images_zigbee/cr2450.webp" alt="CR2450" width="100px" style="margin-left:15px;float:right"/>
-
-This CR2450 battery is a bit thicker than the other ones.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/4hT10SV" target="_blank">(Amazon)</a>
-
-### CR2450 rechargeable = LIR2450
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Eu4Gfup" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DntctnV" target="_blank">Rechargeable LIR2450 + charger (AliExpress)</a>
+* [AA](/buy/batteries#aa)
+* [AAA](/buy/batteries#aaa)
+* [CR2032](/buy/batteries#cr2032)
+* [CR1632](/buy/batteries#cr1632)
+* [CR2450](/buy/batteries#cr2450)
 
 ### Battery eliminators
 
