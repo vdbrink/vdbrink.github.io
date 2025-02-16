@@ -67,7 +67,7 @@ There are multiple battery-eliminators:
   <img src="/buy/images_diy/battery_eliminator.png" alt="battery replacement to USB adapter" height="150px" /></a>
 * For a CR 2032 cell battery\
   <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements" target="_blank">
-  <img src="/buy/images_zigbee/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
+  <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
 
 ---
 
@@ -87,7 +87,7 @@ This project only requires these devices: A battery powered sensor and a battery
 
 2. A <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements">CR2032 battery to USB adapter</a>\
    <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements" target="_blank">
-   <img src="/buy/images_zigbee/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
+   <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
 
 3. A <a href="/buy/smart_home_best_buy_tips#adapters">USB to outlet adapter</a>\
    <a href="/buy/smart_home_best_buy_tips#adapters" target="_blank">
