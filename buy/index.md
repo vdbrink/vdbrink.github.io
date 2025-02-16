@@ -14,3 +14,4 @@ Here you find links to hardware you can buy where I'm very happy with and what I
 
 * [Zigbee Smart home - Best Buy Tips](smart_home_best_buy_tips) For creating a smart home.
 * [ESPHome DIY sensors - Best Buy Tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.
+* [Batteries - Best Buy Tips](batteries) for all kinds of batteries to power your sensors.

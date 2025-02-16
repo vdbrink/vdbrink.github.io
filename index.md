@@ -19,12 +19,16 @@ You find here examples from my automations, which you can use in your own projec
 My latest biggest updates on this blog:
 
 * [Automate infrared devices in Home Assistant](zigbee/smart_infrared_transmitter_receiver)
+* [Batteries - Best Buy Tips](/buy/batteries) for all kinds of batteries to power your sensors.
 * I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
 * [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
-* [Slide - Smart Curtains](projects/slide_smart_curtains)
+
+
 * [Home Automation - Ideas](ideas/home_automation_ideas)
 * [DIY Zigbee - chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
+
+
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
 * [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
