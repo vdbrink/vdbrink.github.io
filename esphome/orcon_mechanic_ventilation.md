@@ -1007,9 +1007,9 @@ More information about this subject.
 
 [Dutch forum, Tweakers.net, about this subject with multiple solutions](https://gathering.tweakers.net/forum/list_messages/1806429)
 
-[Orcon 10RHB product page](https://www.orcon.nl/producten/compact-10rhb-ventilator-met-rf-bediening-en-vochtsensor/)
+[Orcon 10RHB product page](https://orcon.nl/product/compact-10rhb/)
 
-[Orcon remote 15RF manual Dutch](https://www.orcon.nl/wp-content/uploads/2021/10/handleiding-afstandsbediening-15rf-lr.pdf)
+[Orcon remote 15RF manual Dutch](https://orcon.nl/download/3933/?tmstv=1681999960)
 
 
 ---
