@@ -23,11 +23,9 @@ My latest biggest updates on this blog:
 * I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
 * [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
 
-
 * [Home Automation - Ideas](ideas/home_automation_ideas)
 * [DIY Zigbee - chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
-
 
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
@@ -42,16 +40,16 @@ Topics you can find here:
 
 <div id="center">
 
-|                                                                                                                                          |                                                                                                                    | 
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>      | [Home Assistant](homeassistant/index)                                                                              |
-| <a href="zigbee/index"><img src="zigbee/images/zigbee.jpg" alt="Zigbee logo" height="50px"></a>                                          | [Zigbee: Why choose it?<br>Create your own Zigbee sensors](zigbee/index)                                           |
-| <a href="buy/smart_home_best_buy_tips"><img src="buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" height="100px"></a> | [Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)<br><br>[ESP DIY Best Buy Tips](buy/esphome_diy)           |
-| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                      | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                                                |
-| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>                   | [Home automation ideas](ideas/home_automation_ideas)<br><br>[Home automation videos](ideas/home_automation_videos) |
-| <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>          | [Random projects](projects/index)                                                                                  |
-| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                            | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index)                              |
-| <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                       |
+|                                                                                                                                          |                                                                                                                                                        | 
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>      | [Home Assistant](homeassistant/index) related information, examples, integrations etc...                                                               |
+| <a href="zigbee/index"><img src="zigbee/images/zigbee.jpg" alt="Zigbee logo" height="50px"></a>                                          | [Zigbee: Why choose it?<br>Create your own Zigbee sensors](zigbee/index)                                                                               |
+| <a href="buy/smart_home_best_buy_tips"><img src="buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" height="100px"></a> | [Smart Home - Best Buy Tips](buy/smart_home_best_buy_tips)<br>[ESP DIY - Best Buy Tips](buy/esphome_diy)<br>[Batteries - Best Buy Tips](buy/batteries) |
+| <a href="esphome/index"><img src="esphome/images/esphome.png" alt="ESPHome logo" height="50px"></a>                                      | [ESPHome: <br>Create your own sensors and actuators](esphome/index)                                                                                    |
+| <a href="ideas/home_automation_ideas"><img src="ideas/images/idea.png" alt="Home automation ideas" height="100px"></a>                   | [Home automation ideas](ideas/home_automation_ideas)<br><br>[Home automation videos](ideas/home_automation_videos)                                     |
+| <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>          | [Random projects](projects/index)                                                                                                                      |
+| <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                            | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index)                                                                  |
+| <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                                                           |
 
 </div>
 
