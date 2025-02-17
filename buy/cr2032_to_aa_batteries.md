@@ -20,14 +20,18 @@ There is a way to replace a small CR2032 battery with two high capacity AA batte
 
 How it works: A single CR2032 is 3V, two AA batteries in series are comparable, 2.4 - 3V (depending on the battery model).
 * Place two (rechargeable) AA batteries in a case with a female USB port.
-* Connect the male USB cable from CR2032-to-USB-male adapter (aka battery eliminator).
+* Connect the male USB cable from CR2032-to-USB adapter (aka battery eliminator).
 * Place the other end, with the fake CR2032 battery, in the sensor. 
   Probably you can't close the cover of the sensor anymore without making a hole in it to guide the wire outside.
 
-**The amount of ampere is now 4200mAh compared to 225mAh. 
+<br>
+
+**The amount of ampere is now increased to 4200mAh compared to 225mAh. 
 That's 18.5x more than the single coin cell was!**\
 Yes, you have a big box attached to your sensor now, 
-but when you use it for already hidden (temperature/leak/..) [sensors](/buy/smart_home_best_buy_tips), this is not a problem, right?
+but when you use it for already hidden (temperature/contact/..) [sensors](/buy/smart_home_best_buy_tips), this is not a problem, right?
+
+<br>
 
 To create this: you need these **three items**, plug them together, and you're done:
 * [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(AmazonUS)](https://amzn.to/4hDezp1)
@@ -46,9 +50,11 @@ To create this: you need these **three items**, plug them together, and you're d
   <img src="/buy/images_batteries/eneloop2.avif" alt="Eneloop AA batteries" height="150px" />
   </a>
 
-<br>
+The result:\
+Still portable, but now with much longer battery life!\
+And not buying new CR2032 batteries, just recharge the AA batteries and the sensor can do their job again for years!
 
-Still portable, but now with a way much longer battery life!
+---
 
 See also my [Zigbee - Best Buy Tips](/buy/smart_home_best_buy_tips) for battery powered Zigbee sensors.
 
