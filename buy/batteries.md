@@ -44,36 +44,38 @@ These are common types of batteries:
 <br>
 
 On this page, you find links to online stores where you can buy the most common batteries also the links to the rechargeable equivalents.
-Also, ways to convert a battery powered device into a wall powered device.
+Also, ways to convert a battery powered device into a wall powered device.\
+And how you can replace a CR2032 battery for two AAs for a much longer battery life.
 
 ---
 
 ## Table of Contents
 <!-- TOC -->
-  * [AA](#aa)
-    * [Disposable](#disposable)
-    * [Rechargeable](#rechargeable)
-    * [Charger](#charger)
-  * [AAA](#aaa)
-    * [Disposable](#disposable-1)
-    * [Rechargeable](#rechargeable-1)
-    * [Charger](#charger-1)
-  * [CR2032](#cr2032)
-    * [Disposable](#disposable-2)
-    * [Rechargeable](#rechargeable-2)
-    * [Charger](#charger-2)
-    * [CR2032 USB battery replacements](#cr2032-usb-battery-replacements)
-  * [CR1632](#cr1632)
-    * [Disposable](#disposable-3)
-    * [Rechargeable](#rechargeable-3)
-    * [Charger](#charger-3)
-  * [CR2450](#cr2450)
-    * [Disposable](#disposable-4)
-    * [Rechargeable](#rechargeable-4)
-    * [Charger](#charger-4)
-  * [Battery eliminators](#battery-eliminators)
-    * [DIY Zigbee outlet sensor](#diy-zigbee-outlet-sensor)
-    * [Battery powered Christmas decorations](#battery-powered-christmas-decorations)
+* [AA](#aa)
+  * [Disposable](#disposable)
+  * [Rechargeable](#rechargeable)
+  * [Charger](#charger)
+* [AAA](#aaa)
+  * [Disposable](#disposable-1)
+  * [Rechargeable](#rechargeable-1)
+  * [Charger](#charger-1)
+* [CR2032](#cr2032)
+  * [Disposable](#disposable-2)
+  * [Rechargeable](#rechargeable-2)
+  * [Charger](#charger-2)
+  * [CR2032 USB battery replacements](#cr2032-usb-battery-replacements)
+  * [CR2032 coin cell to two AA batteries adapter](#cr2032-coin-cell-to-two-aa-batteries-adapter)
+* [CR1632](#cr1632)
+  * [Disposable](#disposable-3)
+  * [Rechargeable](#rechargeable-3)
+  * [Charger](#charger-3)
+* [CR2450](#cr2450)
+  * [Disposable](#disposable-4)
+  * [Rechargeable](#rechargeable-4)
+  * [Charger](#charger-4)
+* [Battery eliminators](#battery-eliminators)
+* [DIY Zigbee outlet sensor](#diy-zigbee-outlet-sensor)
+* [Battery powered Christmas decorations](#battery-powered-christmas-decorations)
 <!-- TOC -->
 
 > **_NOTE 1:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
@@ -90,9 +92,13 @@ Also, ways to convert a battery powered device into a wall powered device.
 
 #### Rechargeable
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Eneloop Rechargeable AA batteries - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Rechargeable AA batteries - Eneloop Panasonic (AliExpress)</a>
 <a href="https://amzn.to/4hGVMsM" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/493a0ke" target="_blank">(AmazonNL)</a>
+
+<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">
+<img src="images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
+</a>
 
 {{imgBasket}}<a href="https://amzn.to/4ePpz0k" target="_blank">4x Rechargeable AA batteries - Duracell (AmazonUS)</a>
 <a href="https://amzn.to/4ePpz0k" target="_blank">(AmazonNL)</a>
@@ -121,9 +127,13 @@ The advantage of these is that they are everywhere available to buy, also in you
 Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
 The downside is that these make the sensor also quite big.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">Eneloop Rechargeable AAA batteries - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">Rechargeable AAA batteries - Eneloop Panasonic (AliExpress)</a>
 <a href="https://amzn.to/4hY0BO6" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/493a0ke" target="_blank">(AmazonNL)</a>
+
+<a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">
+<img src="images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
+</a>
 
 {{imgBasket}}<a href="https://amzn.to/3X3I0Z2" target="_blank">4x Rechargeable AAA batteries - Duracell (Amazon)</a>
 
@@ -178,15 +188,61 @@ DON'T CHARGE NORMAL DISPOSABLE CR2032 WITH IT!
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC1kf5e" target="_blank">LIR2032 and others coin cell charger with USB-C (batteries not included) (AliExpress)</a>\
 <img src="images_batteries/lir_charger.avif" alt="LIR2032 adapter" height="150px"/>
 
+---
 
 #### CR2032 USB battery replacements
 
 <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
-<img src="images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" /></a>
-It's also possible to convert a wireless CR2032 devices to a USB wired devices. Now you don't have to care about replacing batteries. 
+<img src="images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" />
+</a>
+It's also possible to convert a wireless CR2032 devices to a USB wired devices. 
+Now you don't have to care about replacing batteries. 
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 USB battery replacements (AliExpress)</a>\
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dlb4x11" target="_blank">CR2032 USB battery replacements (AliExpress)</a>
+
+<br>
+<br>
+
+---
+
+#### CR2032 coin cell to two AA batteries adapter
+
+<img src="images_batteries/cr2032.webp" alt="CR2032" height="100px" style="float:right">
+
+Due to the small size of the CR2032, they don't contain so much power as AA batteries.\
+There is a way to replace a small CR2032 battery with two high capacity AA batteries for a much longer (18.5x) life span for your sensors.
+
+How it works: A single CR2032 is 3V, two AA batteries in series are comparable, 2.4 - 3V (depending on the battery model).
+You place two (rechargeable) AA batteries in a case with a female USB port. 
+Plug in here a CR2032-to-USB-male adapter (aka battery eliminator).  
+
+**The amount of ampere is now 4200mAh compared to 225mAh (18.5x more) than the single coin cell was!**\
+Yes, you have a big box attached to your sensor now but when you use it for already hidden (temperature/leak/..) sensors this is not a problem.
+
+So, you need these **three items**, plug them together, and you're done:
+* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(AmazonUS)](https://amzn.to/4hDezp1)
+
+  <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
+  <img src="images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" />
+  </a>
+* [A USB battery case for **TWO** AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_oprvgmC) [(AliExpress)](https://s.click.aliexpress.com/e/_oCLThYk) or [(AmazonUS)](https://amzn.to/4gMd1re)
+
+  <a href="https://s.click.aliexpress.com/e/_oprvgmC" target="_blank">
+  <img src="images_batteries/aa_case.avif" alt="2x AA battery case" height="150px" />
+  </a>
+* [(At least) two (Eneloop) AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_ooEc2QU) [(AliExpress)](https://s.click.aliexpress.com/e/_op4UGsC) or [(AmazonUS)](https://amzn.to/42ZC6fb)
+
+  <a href="https://s.click.aliexpress.com/e/_ooEc2QU" target="_blank">
+  <img src="images_batteries/eneloop2.avif" alt="Eneloop AA batteries" height="150px" />
+  </a>
+
+<br>
+
+Still portable, but with a way much longer battery life!
+
+<br>
+<br>
 
 ---
 ### CR1632
@@ -274,13 +330,16 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 <br>{{imgBasket}} USB A or C to clips 3V (same voltage as two batteries) (AliExpress)
 </a>
 
-#### DIY Zigbee outlet sensor
+---
+
+### DIY Zigbee outlet sensor
 
 Sometimes you want to convert a battery powered Zigbee sensor to a hardwired sensor.
 You can use these battery eliminators for that. 
 Check this out on my [DIY Zigbee outlet sensor](/zigbee/zigbee_outlet_sensor) page.
 
-#### Battery powered Christmas decorations
+---
+### Battery powered Christmas decorations
 
 I use these a lot for all kinds of my [Christmas decorations](/projects/automate_christmas_decorations#battery-powered-decorations).
 I have a [dedicated page](/projects/automate_christmas_decorations#battery-powered-decorations) about how I did this to automate my battery powered Christmas decorations.
