@@ -1,8 +1,8 @@
 ---
-title: "Mi Smart Clock with Home Assistant dashboard"
-description: "How to run a Mi Smart Clock with a Home Assistant dashboard."
-category: Projects
-tags: [batteries, CR2032, long life, Eneloop, rechargeable]
+title: "CR2032 coin cell to two AA batteries adapter"
+description: "Replace a CR2032 coin cell with two AA batteries for a much longer life span"
+category: Buy
+tags: [batteries, CR2032, long life, AA, battery eliminator, Eneloop, rechargeable]
 ---
 
 ## CR2032 coin cell to two AA batteries adapter
@@ -39,6 +39,6 @@ So, you need these **three items**, plug them together, and you're done:
 
 <br>
 
-Still portable, but with a way much longer battery life!
+Still portable, but now with a way much longer battery life!
 
 See also my [Batteries - Best Buy Tips](/buy/batteries)
