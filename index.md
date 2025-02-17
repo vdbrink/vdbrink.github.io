@@ -19,7 +19,7 @@ You find here examples from my automations, which you can use in your own projec
 My latest biggest updates on this blog:
 
 * [Automate infrared devices in Home Assistant](zigbee/smart_infrared_transmitter_receiver)
-* [18.5x longer life for a sensor with a CR2032 battery](/buy/batteries#cr2032-coin-cell-to-two-aa-batteries-adapter)
+* [18.5x longer life for a sensor with a CR2032 battery](/buy/cr2032_to_aa_batteries)
 * [Batteries - Best Buy Tips](/buy/batteries) for all kinds of batteries to power your sensors.
 * I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
 * [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
