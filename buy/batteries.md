@@ -3,14 +3,14 @@ title: "Batteries - Best Buy Tips"
 description: "Batteries - Best Buy Tips"
 category: Buy tips
 tags: [Disposable, Best, Buy, tips, home automation, batteries, CR2032, AA, AAA, CR1632, CR2450, sensors]
-image: /buy/images_batteries/battery_banner.jpg
+image: /buy/images_batteries/battery_banner2.jpg
 ---
 
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Batteries - Best Buy Tips
 
-![Banner](images_batteries/battery_banner.jpg)
+<img src="/buy/images_batteries/battery_banner.jpg" alt="batteries banner" height="200px" />
 
 ## Introduction
 
