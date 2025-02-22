@@ -34,8 +34,14 @@ On this page you find products, information and projects related to Zigbee.
 
 I created some detailed pages about specific Zigbee devices:
 
-* [Soil sensor](zigbee_soil_sensor)
+* [Soil sensor](zigbee_soil_sensor) to detect the earth humidity and temperature.
+
+  <a href="zigbee_soil_sensor"><img src="images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="100px"/></a>
+
 * [Automate infrared devices in Home Assistant](smart_infrared_transmitter_receiver)
+
+  <a href="smart_infrared_transmitter_receiver"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared control via Zigbee and Home Assistant" height="100px"/></a>
+
 
 ---
 

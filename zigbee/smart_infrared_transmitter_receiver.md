@@ -14,7 +14,10 @@ image: /projects/images_christmas_decorations/candles3_with_ir_remote.avif
 
 ## Introduction
 
-With a Zigbee/WiFi infrared transmitter and receiver device, you can automate all your infrared controlled devices!  
+[//]: # ( <img src="images_infrared/" alt="infrared control from HA" height="400px" />)
+
+With an infrared transmitter and receiver device, you can automate all your infrared controlled devices!  
+
 There are a lot of devices that have a remote which works via infrared. 
 Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights and electric candles.
 The signal of an infrared remote has no encryption and is always the same. 
@@ -29,6 +32,10 @@ This makes it easy to capture, store and resend the signal.
  <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" height="100px" />
 
 <img src="images_infrared/light_string.avif" alt="light curtains" height="100px" />
+
+Read further how you can create buttons, on your **Home Assistant dashboard**, to control your infrared devices.
+
+<img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="400px">
 
 > **_NOTE:_** Also affiliate links are used on this page. You sponsor my work and still pay the original price. 
 
@@ -59,7 +66,22 @@ see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights
 ---
 ### Learning mode
 
-To learn a new signal, set the device in learning mode by sending this payload to the MQTT topic of the device, for it that `zigbee2mqtt/irremote/set`
+There are multiple ways to set the device in learning mode to receive the IR codes: via the Zigbee2MQTT frontend for example, or via messages on MQTT.
+
+#### Option 1: via Zigbee2MQTT
+
+If the device is paired with Zigbee2MQTT, you can go to the frontend and in the `Exposes` tab you can enable the learning mode.\
+When you point the original remote to the device, and press a single button, the code will be visible in the second row.\
+You can test the code by copy it to the input field and press the `Enter` key, the device sends now the cloned signal.
+
+ <a href="images_infrared/z2m_animation.gif">
+ <img src="images_infrared/z2m_animation.gif" alt="learn IR codes in Z2M" width="350px" />
+</a>
+
+#### Option 2: via MQTT
+It's also possible via MQTT.
+
+To learn a new signal, set the device in learning mode by sending this payload to the MQTT topic of the device `zigbee2mqtt/irremote/set`
 
 ```yaml
 {% raw %}
@@ -68,10 +90,11 @@ To learn a new signal, set the device in learning mode by sending this payload t
 }
 {% endraw %}
 ```
-Now a LED light turned on in front of the device.
+Now a LED light turned on in front of the device.\
 Now you can hold the original remote in front of the device and press a single button.
 
-The response in MQTT on the topic `zigbee2mqtt/irremote` contains the infrared code. You need this code to resend the signal via this same device.
+The response is sent to the MQTT topic `zigbee2mqtt/irremote` and contains the infrared code. 
+You need this code to resend the signal via this same device.
 ```yaml
 {% raw %}
 {
@@ -112,7 +135,7 @@ Enjoy home automation!
 ---
 ### Home Assistant
 
-From Home Assistant, you can create buttons on your dashboard and send a MQTT events to a specific topic.
+From Home Assistant, you can create buttons on your dashboard and send a MQTT events with a specific copied IR signal to the IR device topic.
 
 <img src="images_infrared/ha_mqtt_button.png" alt="Home Assistant button send MQTT event" width="400px">
 
@@ -120,20 +143,25 @@ From Home Assistant, you can create buttons on your dashboard and send a MQTT ev
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard button card code
+show_name: true
+show_icon: true
 type: button
-name: Turn on
 tap_action:
   action: perform-action
   perform_action: mqtt.publish
   data:
     topic: zigbee2mqtt/irremote/set
     payload: >-
-      {"ir_code_to_send":"BcsjsBFGAuAXAQGFBuAZA0ABQCfgAwHgAw/AC0AHwANAAUALCc+dyyPDCEYC///gCgcCCEYC"}
+      {"ir_code_to_send":"BdsjmxFPAuAXAQF1BuAZA0ABQCfgAwHgAw/AC0AHwANAAUALCdma2yO3CE8C///gEgcCCE8C"}
+name: Turn on
+icon: mdi:candle
 {% endraw %}
 ```
 
-You can create a script which contains the MQTT event and call this script from an automation. 
+You can also create a script which contains the MQTT event and call this script from an automation.\
 For readability, I place it here direct on the dashboard as action for a button.
+
+<img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="400px">
 
 ---
 ### Hardware
@@ -145,7 +173,8 @@ These hardware devices are examples of what you need and can use in your own inf
 * {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An few examples of Zigbee and WiFi devices which act as programmable infrared remotes</a>.
 
   They can learn signals from the original remote, and via Wi-Fi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
-  There are also devices that support RF signals as well.
+  There are also devices that support RF signals as well.\
+  I use in these examples the [Zigbee Moes UFO-R11](https://s.click.aliexpress.com/e/_DEUWZ73).
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
     <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
@@ -207,6 +236,7 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
 
 * [The Dutch Action sells them also in their shops](https://www.action.com/nl-nl/p/3206761/ledkaarsenset/)
 * [The Dutch Hema sells 4 rechargeable tea lights with a remote](https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html)
+  <img src="images_infrared/hema_ir_tealights.webp" alt="Hema IR tea lights" width="200px" class="buy-link"/>
 
 ---
 
