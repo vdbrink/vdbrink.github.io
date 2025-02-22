@@ -74,8 +74,8 @@ If the device is paired with Zigbee2MQTT, you can go to the frontend and in the 
 When you point the original remote to the device, and press a single button, the code will be visible in the second row.\
 You can test the code by copy it to the input field and press the `Enter` key, the device sends now the cloned signal.
 
- <a href="images_infrared/z2m_animation.gif">
- <img src="images_infrared/z2m_animation.gif" alt="learn IR codes in Z2M" width="350px" />
+<a href="images_infrared/z2m_animation.gif">
+<img src="images_infrared/z2m_animation.gif" alt="learn IR codes in Z2M" width="400px" />
 </a>
 
 #### Option 2: via MQTT
@@ -236,8 +236,12 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
 
 * [The Dutch Action sells them also in their shops](https://www.action.com/nl-nl/p/3206761/ledkaarsenset/)
 * [The Dutch Hema sells 4 rechargeable tea lights with a remote](https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html)
+  
+  <a href="https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html">
   <img src="images_infrared/hema_ir_tealights.webp" alt="Hema IR tea lights" width="200px" class="buy-link"/>
+  </a>
 
 ---
 
 Where do you use the infrared transmitter / receiver for in your smart home?
+
