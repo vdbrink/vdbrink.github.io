@@ -36,16 +36,16 @@ Check [here for the hardware section](/projects/stretch_display) where I describ
 <!-- TOC -->
   * [Introduction](#introduction)
   * [Hide top toolbar](#hide-top-toolbar)
-  * [Themes](#themes)
+  * [Custom themes](#custom-themes)
   * [Dashboard elements](#dashboard-elements)
     * [Time and date](#time-and-date)
-    * [Alerts](#alerts)
-    * [News](#news)
+    * [Room temperature](#room-temperature)
+    * [CO2](#co2)
+    * [Humidity](#humidity)
+    * [News headline](#news-headline)
     * [Conditional elements](#conditional-elements)
     * [Textual weather](#textual-weather)
     * [Gauge](#gauge)
-    * [Graph 1](#graph-1)
-    * [Graph 2](#graph-2)
     * [Flexible Horseshoe card](#flexible-horseshoe-card)
 <!-- TOC -->
 
@@ -100,14 +100,14 @@ See all possible configuration parameters at https://github.com/NemesisRE/kiosk-
 Only define `hide_header` is enough.
 
 ```yaml
-  {% raw %}
-  # Sourcecode by vdbrink.github.io
-  # Raw configuration editor
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Raw configuration editor
 kiosk_mode:
   hide_header: true
 views:
   ...
-  {% endraw %}
+{% endraw %}
 ```
 
 To show the top toolbar again, add `?disable_km=` to the url.
@@ -133,11 +133,50 @@ I created two custom themes for this project to see which has the best contrast 
 
 ### Reload theme after update
 
+* Go to `Developer tools`.
+* Go to tab `Actions`.
+
+ You can quickly go there via this link:
+[![Open Developer tools: actions](https://my.home-assistant.io/badges/developer_services.svg)](https://my.home-assistant.io/redirect/developer_services/)
+* Select `Home Assistant Frontend: Reload themes`.
+* Press the button `Perform action`.
+
+<br>
+
+Or create a button on your dashboard to trigger the reload of the themes.
+
+```yaml
+{% raw %}
+type: custom:button-card
+entity: zone.home
+icon: mdi:restart
+name: Theme Restart
+tap_action:
+  action: call-service
+  service: frontend.reload_themes
+  {% endraw %}
+```
+
 ---
 ## Dashboard elements
 
-Here I describe how I realize the different element.
+Here I describe how I realize the different elements.
+
 I add some custom CSS to the dashboard elements if I couldn't get it correct via the theme.
+
+* [Time and date](#time-and-date)
+* [Room temperature](#room-temperature)
+* [CO2](#co2)
+* [Humidity](#humidity)
+* [News headline](#news-headline)
+* [Conditional elements](#conditional-elements)
+    * [Temperature too high](#temperature-too-high)
+    * [CO2 too high](#co2-too-high)
+    * [Camera stream](#camera-stream)
+    * [Open doors](#open-doors)
+* [Textual weather](#textual-weather)
+* [Gauge](#gauge)
+* [Flexible Horseshoe card](#flexible-horseshoe-card)
 
 ### Time and date
 
@@ -181,7 +220,7 @@ With some extra CSS is the size bigger now.
 
 ---
 
-### Room temperature 
+### Room temperature
 
 #### Colored line
 
@@ -307,9 +346,7 @@ For the current room humidity, I used my own [DIY ESPHome CO2, temperature, humi
 # Sourcecode by vdbrink.github.io
 type: history-graph
 entities:
-  - entity: sensor.espscd40_co2_temperature
-  - entity: sensor.temp_temperature
-  - entity: sensor.temp_value_23
+    - entity: sensor.espscd40_co2_humidity
 hours_to_show: 4
 {% endraw %}
 ```
@@ -317,8 +354,11 @@ hours_to_show: 4
 ---
 ### News headline
 
-<a href="images_layout_stretch/news.png">
-<img src="images_layout_stretch/news.png" alt="news headline" width="450px" />
+For the latest news,
+I used the [web scraper](homeassistant_web_scraper) to create a sensor based on the news website headline.
+
+<a href="images_layout_stretch/headline.png">
+<img src="images_layout_stretch/headline.png" alt="news headline" width="450px" />
 </a>
 
 ```yaml
@@ -341,22 +381,283 @@ card_mod:
 ---
 ### Conditional elements
 
+#### Mushrooms
+
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+- type: custom:mushroom-chips-card
+    chips:
+        - type: conditional
+          conditions:
+            - entity: sensor.knmi_weercode
+              state_not: Code groen
+          chip:
+            type: template
+            icon: mdi:weather-lightning-rainy
+            icon_color: |-
+              {% if is_state('sensor.knmi_weercode', 'Code groen') %}
+                 green
+              {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
+                 yellow
+              {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
+                 red
+              {% else %}
+                 1C1C1C
+              {% endif %}
+            entity: sensor.knmi_weercode
+            content: ""
+            tap_action:
+              action: url
+              url_path: https://www.knmi.nl/nederland-nu/weer/waarschuwingen/zuid-holland
+            card_mod: null
+          - type: conditional
+            conditions:
+              - entity: binary_sensor.rain_expected_2
+                state: "on"
+                content: ""
+            chip:
+              type: template
+              entity: binary_sensor.rain_expected_2
+              icon: mdi:weather-pouring
+              icon_color: red
+              content: ""
+          - type: conditional
+            conditions:
+              - entity: binary_sensor.rain_expected_2
+                state: "on"
+                content: ""
+            chip:
+              type: entity
+              icon: mdi:clock
+              icon_color: blue
+              entity: sensor.rain_expected_time
+          - type: entity
+            entity: sensor.tempest_temperature_feels_like_rounded
+            icon: mdi:hand-back-right
+            tap_action:
+              action: navigate
+              navigation_path: /lovelace-diverse/test2
+          - type: entity
+            entity: sensor.office_chair_occupancy
+          - type: conditional
+            conditions:
+              - entity: switch.blitzsmartplug23
+                state: "on"
+                content: ""
+            chip:
+              type: entity
+              icon_color: red
+              entity: switch.blitzsmartplug23
+- type: conditional
+  conditions:
+    - condition: numeric_state
+      entity: sensor.scd40_co2
+      above: 800
+  card:
+    type: entities
+    entities:
+      - entity: sensor.scd40_co2
+    card_mod:
+      style: |
+        ha-card {
+           --ha-card-background:
+          {% if states.sensor.scd40_co2.state | int > 800 %}
+           #ff4500;
+          {% elif states.sensor.scd40_co2.state | int > 1000 %}
+           #ff4500;
+          {% elif states.sensor.scd40_co2.state | int > 1200 %}
+           #ffd700;
+          {% else %}
+           #008000;
+          {% endif %}
+          --paper-item-icon-color:black;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+         }
+- type: conditional
+  conditions:
+    - condition: numeric_state
+      entity: sensor.espscd40_co2_temperature
+      above: 23
+  card:
+    type: entities
+    entities:
+      - entity: sensor.espscd40_co2_temperature
+    card_mod:
+      style: |
+        ha-card {
+           --ha-card-background:
+          {% if states.sensor.espscd40_co2_temperature.state | int > 18 %}
+           #ff4500;
+          {% elif states.sensor.espscd40_co2_temperature.state | int > 23 %}
+           #ff4500;
+          {% elif states.sensor.espscd40_co2_temperature.state | int > 24 %}
+           #ffd700;
+          {% else %}
+           #008000;
+          {% endif %}
+          --paper-item-icon-color:black;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+         }
+- type: conditional
+  conditions:
+    - condition: state
+      entity: input_boolean.frontdoor_detection_mode
+      state: "on"
+  card:
+    type: custom:webrtc-camera
+    url: rtsp://ronald:ggyk4DNSrX4PWJX57FV@192.168.1.174:554//h264Preview_01_main
+
+{% endraw %}
+```
+
 #### Temperature too high
 
 <a href="images_layout_stretch/.png">
-<img src="images_layout_stretch/.png" alt="multiple temperatures graph" width="450px" />
+<img src="images_layout_stretch/.png" alt="temperature too high" width="450px" />
 </a>
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
+- type: custom:mushroom-chips-card
+    chips:
+        - type: conditional
+          conditions:
+            - entity: sensor.knmi_weercode
+              state_not: Code groen
+          chip:
+            type: template
+            icon: mdi:weather-lightning-rainy
+            icon_color: |-
+              {% if is_state('sensor.knmi_weercode', 'Code groen') %}
+                 green
+              {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
+                 yellow
+              {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
+                 red
+              {% else %}
+                 1C1C1C
+              {% endif %}
+            entity: sensor.knmi_weercode
+            content: ""
+            tap_action:
+              action: url
+              url_path: https://www.knmi.nl/nederland-nu/weer/waarschuwingen/zuid-holland
+            card_mod: null
+          - type: conditional
+            conditions:
+              - entity: binary_sensor.rain_expected_2
+                state: "on"
+                content: ""
+            chip:
+              type: template
+              entity: binary_sensor.rain_expected_2
+              icon: mdi:weather-pouring
+              icon_color: red
+              content: ""
+          - type: conditional
+            conditions:
+              - entity: binary_sensor.rain_expected_2
+                state: "on"
+                content: ""
+            chip:
+              type: entity
+              icon: mdi:clock
+              icon_color: blue
+              entity: sensor.rain_expected_time
+          - type: entity
+            entity: sensor.tempest_temperature_feels_like_rounded
+            icon: mdi:hand-back-right
+            tap_action:
+              action: navigate
+              navigation_path: /lovelace-diverse/test2
+          - type: entity
+            entity: sensor.office_chair_occupancy
+          - type: conditional
+            conditions:
+              - entity: switch.blitzsmartplug23
+                state: "on"
+                content: ""
+            chip:
+              type: entity
+              icon_color: red
+              entity: switch.blitzsmartplug23
+- type: conditional
+  conditions:
+    - condition: numeric_state
+      entity: sensor.scd40_co2
+      above: 800
+  card:
+    type: entities
+    entities:
+      - entity: sensor.scd40_co2
+    card_mod:
+      style: |
+        ha-card {
+           --ha-card-background:
+          {% if states.sensor.scd40_co2.state | int > 800 %}
+           #ff4500;
+          {% elif states.sensor.scd40_co2.state | int > 1000 %}
+           #ff4500;
+          {% elif states.sensor.scd40_co2.state | int > 1200 %}
+           #ffd700;
+          {% else %}
+           #008000;
+          {% endif %}
+          --paper-item-icon-color:black;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+         }
+- type: conditional
+  conditions:
+    - condition: numeric_state
+      entity: sensor.espscd40_co2_temperature
+      above: 23
+  card:
+    type: entities
+    entities:
+      - entity: sensor.espscd40_co2_temperature
+    card_mod:
+      style: |
+        ha-card {
+           --ha-card-background:
+          {% if states.sensor.espscd40_co2_temperature.state | int > 18 %}
+           #ff4500;
+          {% elif states.sensor.espscd40_co2_temperature.state | int > 23 %}
+           #ff4500;
+          {% elif states.sensor.espscd40_co2_temperature.state | int > 24 %}
+           #ffd700;
+          {% else %}
+           #008000;
+          {% endif %}
+          --paper-item-icon-color:black;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+         }
+- type: conditional
+  conditions:
+    - condition: state
+      entity: input_boolean.frontdoor_detection_mode
+      state: "on"
+  card:
+    type: custom:webrtc-camera
+    url: rtsp://ronald:ggyk4DNSrX4PWJX57FV@192.168.1.174:554//h264Preview_01_main
 
-{% endraw %}
+  {% endraw %}
 ```
+
 #### CO2 too high
 
 <a href="images_layout_stretch/.png">
-<img src="images_layout_stretch/.png" alt="multiple temperatures graph" width="450px" />
+<img src="images_layout_stretch/.png" alt="CO2 too high" width="450px" />
 </a>
 
 ```yaml
