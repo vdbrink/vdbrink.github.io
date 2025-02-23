@@ -66,7 +66,8 @@ see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights
 ---
 ### Learning mode
 
-There are multiple ways to set the device in learning mode to receive the IR codes: via the Zigbee2MQTT frontend for example, or via messages on MQTT.
+There are multiple ways to set the device in learning mode to receive the IR codes: via the Zigbee2MQTT frontend, for example.\
+This device is also [compatible with ZHA](https://zigbee.blakadder.com/Moes_UFO-R11.html) then you can set it also via a messages on a MQTT topic to learning mode.
 
 #### Option 1: via Zigbee2MQTT
 
