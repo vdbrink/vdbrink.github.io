@@ -14,8 +14,6 @@ image: /projects/images_christmas_decorations/candles3_with_ir_remote.avif
 
 ## Introduction
 
-[//]: # ( <img src="images_infrared/" alt="infrared control from HA" height="400px" />)
-
 With an infrared transmitter and receiver device, you can automate all your infrared controlled devices!  
 
 There are a lot of devices that have a remote which works via infrared. 
@@ -38,6 +36,17 @@ Read further how you can create buttons, on your **Home Assistant dashboard**, t
 <img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="400px">
 
 > **_NOTE:_** Also affiliate links are used on this page. You sponsor my work and still pay the original price. 
+
+---
+### Video
+
+In this video, you see the device in action.
+I can control the lights via the original remote and also from my Home Assistant dashboard.
+
+<video controls height="400px">
+    <source src="images_infrared/ir_reel_720p.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ---
 ### Smart infrared transmitter / receiver
