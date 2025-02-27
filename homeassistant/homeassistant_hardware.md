@@ -36,20 +36,23 @@ There are also a lot of other smart and experienced people who can help you furt
 
 
 > There are also links on this page which are affiliate links, you pay the same price, AND you support this blog.
->
+
 ---
 
 ## Table of Contents
 <!-- TOC -->
-  * [Old hardware](#old-hardware)
+  * [Terminology](#terminology)
+  * [Older hardware](#older-hardware)
     * [Desktop](#desktop)
     * [Laptop](#laptop)
-    * [HP T630 / T620 thin client](#hp-t630--t620-thin-client)
-  * [All-in-one mini PCs](#all-in-one-mini-pcs)
-    * [Basic](#basic)
-    * [High end](#high-end)
-  * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
-  * [Raspberry Pi](#raspberry-pi)
+    * [Thin client](#thin-client)
+    * [NAS](#nas)
+  * [New hardware](#new-hardware)
+    * [All-in-one mini PCs](#all-in-one-mini-pcs)
+      * [Basic](#basic)
+      * [High end](#high-end)
+    * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
+    * [Raspberry Pi](#raspberry-pi)
   * [Need help?](#need-help)
   * [Remarks](#remarks)
 <!-- TOC -->
@@ -67,6 +70,7 @@ First, I want to explain some terms that are used here, and frequently in discus
 | 12th Gen    | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  | 
 | Bare metal  | It refers to a **physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    | 
 | Docker      | It's is an **application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. | 
+| Form factor | A common design for a PC group.                                                                                                                                       | 
 | HA          | Abbreviation for **Home Assistant**                                                                                                                                   | 
 | HAOS        | Abbreviation for **Home Assistant Operating System**                                                                                                                  | 
 | Mini PC     | This refer to the size of popular **small pc** cases.                                                                                                                 | 
@@ -105,7 +109,7 @@ The disadvantage is they use more power than a laptop or mini PC.
 <img alt="laptop" width="150px" src="images_hardware/laptop.jpg" {{style_img_right}} />
 A spare laptop can also be used as a server to run Home Assistant on.
 
-The advantage is it's energy effective and compact.
+The advantage is it's energy-effective and compact.
 
 The disadvantage can be the battery constant on the power or charge daily. 
 Some laptops also run without a battery, which is the best solution.
@@ -121,7 +125,7 @@ Dell has also Thin clients: the Wyse 5060 or 7020.
 They are used in offices and now widely available second hand on sites like Ebay.
 Even with HA already installed on it.
 
-### NAS 
+### NAS
 
 <img alt="QNAP NAS" width="130px" src="images_hardware/nas.png" {{style_img_right}} />
 A NAS, is a Network-Attached Storage mostly used as shared network storage, 
@@ -133,18 +137,21 @@ A Synology or QNAP NAS are examples of that.
 
 ---
 
-## All-in-one mini PCs
+## New hardware
+
+
+
+### All-in-one mini PCs
 
 <img alt="NUC" width="200px" src="images_hardware/nuc.webp" {{style_img_right}}/>
 Intel started with the all-in-one NUC mini PCs.
-After this success, a lot of manufacturers followed with their own versions.
-
+After this success, many other manufacturers followed with their own versions of this form factor.
+<br>
 The current most popular hardware to run Home Assistant on are the all-in-one mini PCs. 
 They have enough power to run Home Assistant, together with a lot other applications.
 Without to worry about latency or any other performance issues for the best experience.
 
 > Target group: More advanced and demanding users
-
 
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
@@ -188,7 +195,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc){% endcapture %}
 {% capture ser9_nl %}[Amazon NL](https://amzn.to/3QwKfjQ){% endcapture %}
 
-### Basic
+#### Basic
 
 | Model                | N150                          | N100                           | N97                           | N95                           |  
 |----------------------|-------------------------------|--------------------------------|-------------------------------|-------------------------------|
@@ -206,7 +213,7 @@ Without to worry about latency or any other performance issues for the best expe
 | **Amazon UK**        | {{n150_uk}}                   | {{n100_uk}}                    | {{n97_uk}}                    | {{n95_uk}}                    |  
 | **Amazon DE**        | {{n150_de}}                   | {{n100_de}}                    | {{n97_de}}                    | {{n95_de}}                    |  
 
-### High end
+#### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
 If you really want to run also heavy processes with small AI models on the server, you can choose for a high-end model.
@@ -233,14 +240,16 @@ If you really want to run also heavy processes with small AI models on the serve
 | **Amazon UK**        | {{ser9_uk}}        | {{185h_uk}}        | {{12650h_uk}}      | 
 | **Amazon DE**        | {{ser9_de}}        | {{185h_de}}        | {{12650h_de}}      | 
 
+<!--
 latency
 
 https://www.cnx-software.com/2024/05/04/intel-processor-n95-vs-n97-vs-n100-vs-core-i3-n305-benchmarks-comparison/
 
 https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
+-->
 
 ---
-## Home Assistant Green vs Yellow
+### Home Assistant Green vs Yellow
 
 {% capture ha_green_img %}<img alt="Home Assistant Green" height="200px" src="images_hardware/ha_green.webp"/>{% endcapture %}
 {% capture ha_yellow_img %}<img alt="Home Assistant Yellow" height="200px" src="images_hardware/ha_yellow.webp"/>{% endcapture %}
@@ -264,7 +273,7 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 | **Buy link**                  | [NL](https://www.robbshop.nl/home-assistant-green-smart-hub)    |                                                                              |
 ---
 
-## Raspberry Pi
+### Raspberry Pi
 
 <img alt="Raspberry logo" height="100px" src="images_hardware/raspberry_logo.svg" style="float: right"/>
 
