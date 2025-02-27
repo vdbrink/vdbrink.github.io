@@ -2,7 +2,7 @@
 title: Which hardware to run Home Assistant on?
 description: "Which hardware to run Home Assistant on?"
 category: Home Assistant
-tags: [system, NUC, rpi, raspberry, pi, hardware, mini pc, home lab, refurbished]
+tags: [system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished]
 ---
 
 {% capture style_img_right %}style="float:right;margin-left:15px"{% endcapture %}
@@ -49,8 +49,6 @@ There are also a lot of other smart and experienced people who can help you furt
     * [NAS](#nas)
   * [New hardware](#new-hardware)
     * [All-in-one mini PCs](#all-in-one-mini-pcs)
-      * [Basic](#basic)
-      * [High end](#high-end)
     * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
     * [Raspberry Pi](#raspberry-pi)
   * [Need help?](#need-help)
@@ -143,8 +141,13 @@ A Synology or QNAP NAS are examples of that.
 
 ### All-in-one mini PCs
 
+> It's a kind of mini desktop PC with laptop features.
+
 <img alt="NUC" width="200px" src="images_hardware/nuc.webp" {{style_img_right}}/>
 Intel started with the all-in-one NUC mini PCs.
+They have a small nice-looking and silent square form factor which you also can place ON your desk.
+They contain all required hardware in it and with many external ports (USB, network, display). 
+
 After this success, many other manufacturers followed with their own versions of this form factor.
 <br>
 The current most popular hardware to run Home Assistant on are the all-in-one mini PCs. 
@@ -206,7 +209,7 @@ Without to worry about latency or any other performance issues for the best expe
 | **Memory**           | 16 GB                         | 16 GB                          | 12 GB                         | 8 GB                          |  
 | **Hard disk**        | 512 GB                        | 500 GB                         | 512 GB                        | 256 GB                        |  
 | **Cores / Threads**  | 8 / 8                         | 4 / 4                          | 4 / 4                         | 4 / 4                         |  
-| **Price indication** | &euro; 220,-                  | &euro; 240,-                   | &euro; 150,-                  | &euro; 200,-                  |  
+| **Price indication** | &euro; 220                    | &euro; 240                     | &euro; 150                    | &euro; 200                    |  
 | **AliExpress**       | {{n150_global}}               | {{n100_global}}                | {{n97_global}}                | {{n95_global}}                |  
 | **Amazon US**        | {{n150_us}}                   | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |  
 | **Amazon NL**        | {{n150_uk}}                   | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |  
@@ -223,22 +226,22 @@ If you really want to run also heavy processes with small AI models on the serve
 {% capture 185h_img %}<img alt="Beelink GTi14 - 185H" height="150px" src="images_hardware/185h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 {% capture 12650h_img %}<img alt="Beelink EQi12 - 12650H" height="150px" src="images_hardware/12650h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 
-| Model                | SER9               | 185H               | 12650H             | 
-|----------------------|--------------------|--------------------|--------------------|
-| **Model**            | {{ser9_img}}       | {{185h_img}}       | {{12650h_img}}     | 
-| **Model**            | SER9               | GTi14              | EQi12              | 
-| **Brand**            | Beelink            | Beelink            | Beelink            | 
-| **Processor**        | AMD Ryzen 9 HX 370 | Intel Core Ultra 9 | Core i7-12650H     | 
-| **CPU**              | 5.1 GHz            | 5.1 GHz            | 4.7 GHz            | 
-| **Memory**           | 32 GB              | 32 GB              | 24 GB              | 
-| **Hard disk**        | 1024 GB            | 1024 GB            | 512 GB             | 
-| **Cores / Threads**  | 12 / 24            | 16 / 22            | 10 / 16            | 
-| **Price indication** | &euro; 1400,-      | &euro; 1200,-      | &euro; 600 - 700,- | 
-| **AliExpress**       | {{ser9_global}}    | {{185h_global}}    | {{12650h_global}}  | 
-| **Amazon US**        | {{ser9_us}}        | {{185h_us}}        | {{12650h_us}}      | 
-| **Amazon NL**        | {{ser9_nl}}        | {{185h_nl}}        | {{12650h_nl}}      | 
-| **Amazon UK**        | {{ser9_uk}}        | {{185h_uk}}        | {{12650h_uk}}      | 
-| **Amazon DE**        | {{ser9_de}}        | {{185h_de}}        | {{12650h_de}}      | 
+| Model                | SER9               | 185H               | 12650H            | 
+|----------------------|--------------------|--------------------|-------------------|
+| **Model**            | {{ser9_img}}       | {{185h_img}}       | {{12650h_img}}    | 
+| **Model**            | SER9               | GTi14              | EQi12             | 
+| **Brand**            | Beelink            | Beelink            | Beelink           | 
+| **Processor**        | AMD Ryzen 9 HX 370 | Intel Core Ultra 9 | Core i7-12650H    | 
+| **CPU**              | 5.1 GHz            | 5.1 GHz            | 4.7 GHz           | 
+| **Memory**           | 32 GB              | 32 GB              | 24 GB             | 
+| **Hard disk**        | 1024 GB            | 1024 GB            | 512 GB            | 
+| **Cores / Threads**  | 12 / 24            | 16 / 22            | 10 / 16           | 
+| **Price indication** | &euro; 1400        | &euro; 1200        | &euro; 600 - 700  | 
+| **AliExpress**       | {{ser9_global}}    | {{185h_global}}    | {{12650h_global}} | 
+| **Amazon US**        | {{ser9_us}}        | {{185h_us}}        | {{12650h_us}}     | 
+| **Amazon NL**        | {{ser9_nl}}        | {{185h_nl}}        | {{12650h_nl}}     | 
+| **Amazon UK**        | {{ser9_uk}}        | {{185h_uk}}        | {{12650h_uk}}     | 
+| **Amazon DE**        | {{ser9_de}}        | {{185h_de}}        | {{12650h_de}}     | 
 
 <!--
 latency
@@ -255,22 +258,22 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 {% capture ha_yellow_img %}<img alt="Home Assistant Yellow" height="200px" src="images_hardware/ha_yellow.webp"/>{% endcapture %}
 
 
-|                               | Home Assistant Green                                            | Home Assistant Yellow                                                        |
-|-------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------|
-| **Photo**                     | {{ha_green_img}}                                                | {{ha_yellow_img}}                                                            | 
-| **Website**                   | https://www.home-assistant.io/green/                            | https://www.home-assistant.io/yellow/                                        | 
-| **Brand**                     | Nabu Casa                                                       | Nabu Casa                                                                    | 
-| **Operating system**          | Home Assistant Operating System                                 | Home Assistant Operating System                                              | 
-| **Processor**                 | 1.8 Ghz Quad core AMD                                           | (Not included: Raspberry Pi Compute Module 4 (CM 4))                         | 
-| **Working memory (RAM)**      | 4 GB                                                            |                                                                              | 
-| **Hard disk**                 | 32 GB external flash drive                                      | (Not included: )                                                             | 
-| **Local protocols**           | Only WiFi                                                       | WiFi, Zigbee 3.0, OpenThread and Matter                                      | 
-| **Power consumption on load** | 3 W                                                             | 5-9 W                                                                        | 
-| **Target group**              | beginner                                                        | medior                                                                       | 
-| **Price range**               | $ 99 / &euro; 110                                               | (+ costs for RAM, CM4, hard disk)                                            | 
-| **Pros**                      | * Cheap<br>* Plug-and-play                                      | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
-| **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. |                                                                              | 
-| **Buy link**                  | [NL](https://www.robbshop.nl/home-assistant-green-smart-hub)    |                                                                              |
+|                               | Home Assistant Green                                                            | Home Assistant Yellow                                                        |
+|-------------------------------|---------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| **Photo**                     | {{ha_green_img}}                                                                | {{ha_yellow_img}}                                                            | 
+| **Website**                   | https://www.home-assistant.io/green/                                            | https://www.home-assistant.io/yellow/                                        | 
+| **Brand**                     | Nabu Casa                                                                       | Nabu Casa                                                                    | 
+| **Operating system**          | Home Assistant Operating System                                                 | Home Assistant Operating System                                              | 
+| **Processor**                 | 1.8 Ghz Quad core AMD                                                           | (Not included: Raspberry Pi Compute Module 4 (CM 4))                         | 
+| **Working memory (RAM)**      | 4 GB                                                                            |                                                                              | 
+| **Hard disk**                 | 32 GB external flash drive                                                      | (Not included: )                                                             | 
+| **Local protocols**           | Only WiFi                                                                       | WiFi, Zigbee 3.0, OpenThread and Matter                                      | 
+| **Power consumption on load** | 3 W                                                                             | 5-9 W                                                                        | 
+| **Target group**              | beginner                                                                        | medior                                                                       | 
+| **Price range**               | $ 99 / &euro; 110                                                               | (+ costs for RAM, CM4, hard disk)                                            | 
+| **Pros**                      | * Cheap<br>* Plug-and-play                                                      | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
+| **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. Slow hard disk. |                                                                              | 
+| **Buy link**                  | [NL](https://www.robbshop.nl/home-assistant-green-smart-hub)                    |                                                                              |
 ---
 
 ### Raspberry Pi
@@ -314,23 +317,23 @@ Click to go to the original post:
 
 Check the website for even more details about the boards if you want to know more about them.
 
-|                                   | Raspberry Pi 5 - 8 GB                         | Raspberry Pi 4B - 8 GB                 | Raspberry Pi 3B+ - 1 GB      |
-|-----------------------------------|-----------------------------------------------|----------------------------------------|------------------------------|
-| **Photo**                         | {{rpi5_img}}                                  | {{rpi4_img}}                           | {{rpi3_img}}                 |
-| **Releases**                      | 10 - 2023                                     | 05 - 2020                              | 03 - 2018                    |
-| **Remarks**                       | Latest model                                  | A very good device to run HA           | Multiple upgrades: A+, B, B+ |
-| **Performance**                   |                                               | 3x faster then the Pi 3                |                              |
-| **Processor**                     | Cortex-A76 ARM quad-core                      | Cortex-A72 (ARM v8) quad-core          | Cortex-A53 quad-core         |
-| **Working memory (RAM)**          | 8 GB<br>(also available in 2 GB, 4 GB, 16 GB) | 8 GB<br>(also available in 2 GB, 4 GB) | 1 GB                         |
-| **CPU**                           | 2.4 GHz                                       | 1.5 GHz                                | 1.4GHz                       |
-| **Cores / Threads**               | 4                                             | 4                                      | 4                            |
-| **Power consumption idle / load** | 3 W / 6 W                                     | 3 W / 6 W                              | 2 W / 5 W                    |
-| **Price range**                   | &euro; 100,- - 140,-                          | &euro; 90,-                            | &euro; 41,-                  |
-| **AliExpress**                    | {{rpi5_global}}                               | {{rpi4_global}}                        | {{rpi3_global}}              |
-| **Amazon US**                     | {{rpi5_us}}                                   | {{rpi4_us}}                            | {{rpi3_us}}                  |
-| **Amazon NL**                     | {{rpi5_nl}}                                   | {{rpi4_nl}}                            | {{rpi3_nl}}                  |
-| **Amazon UK**                     | {{rpi5_uk}}                                   | {{rpi4_uk}}                            | {{rpi3_uk}}                  |
-| **Amazon DE**                     | {{rpi5_de}}                                   | {{rpi4_de}}                            | {{rpi3_de}}                  |
+|                                   | Raspberry Pi 5 - 8 GB                   | Raspberry Pi 4B - 8 GB              | Raspberry Pi 3B+ - 1 GB       |
+|-----------------------------------|-----------------------------------------|-------------------------------------|-------------------------------|
+| **Photo**                         | {{rpi5_img}}                            | {{rpi4_img}}                        | {{rpi3_img}}                  |
+| **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
+| **Remarks**                       | Latest model                            | A very good device to run HA        | Multiple upgrades: A+, B, B+  |
+| **Performance**                   |                                         | 3x faster then the Pi 3             | Less resources, only 1 GB mem |
+| **Processor**                     | Cortex-A76 ARM quad-core                | Cortex-A72 (ARM v8) quad-core       | Cortex-A53 quad-core          |
+| **Working memory (RAM)**          | 8 GB<br>(also available in 2, 4, 16 GB) | 8 GB<br>(also available in 2, 4 GB) | 1 GB                          |
+| **CPU**                           | 2.4 GHz                                 | 1.5 GHz                             | 1.4GHz                        |
+| **Cores / Threads**               | 4                                       | 4                                   | 4                             |
+| **Power consumption idle / load** | 3 W / 6 W                               | 3 W / 6 W                           | 2 W / 5 W                     |
+| **Price range**                   | &euro; 100 - 140                        | &euro; 90                           | &euro; 41                     |
+| **AliExpress**                    | {{rpi5_global}}                         | {{rpi4_global}}                     | {{rpi3_global}}               |
+| **Amazon US**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
+| **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
+| **Amazon UK**                     | {{rpi5_uk}}                             | {{rpi4_uk}}                         | {{rpi3_uk}}                   |
+| **Amazon DE**                     | {{rpi5_de}}                             | {{rpi4_de}}                         | {{rpi3_de}}                   |
 ---
 
 ## Need help?
