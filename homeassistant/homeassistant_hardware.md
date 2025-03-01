@@ -150,8 +150,8 @@ They contain all required hardware in it and with many external ports (USB, netw
 
 After this success, many other manufacturers followed with their own versions of this form factor.
 <br>
-The current most popular hardware to run Home Assistant on are the all-in-one mini PCs. 
-They have enough power to run Home Assistant, together with a lot other applications.
+The current most popular hardware to run Home Assistant on is the all-in-one mini PCs. 
+They have enough power to run Home Assistant, together with a lot of other applications.
 Without to worry about latency or any other performance issues for the best experience.
 
 > Target group: More advanced and demanding users
@@ -200,12 +200,22 @@ Without to worry about latency or any other performance issues for the best expe
 
 #### Basic
 
+In 2025, the most popular basic hardware device is a mini pc with the N100 processor.
+Due to more than enough power to run Home Assistant (and a bunch of addons) smooth on and with the best value for your money.
+
+The models N95 and N97 are quite in the same performance range. 
+The N150 is a newer model with more cores, threads and cpu to be even faster.
+
+It's interesting to compare the prices they can fluctuate based on supply and demand, 
+that's why I added the links to these comparable models.
+
 | Model                | N150                          | N100                           | N97                           | N95                           |  
 |----------------------|-------------------------------|--------------------------------|-------------------------------|-------------------------------|
 | **Model**            | Mini S13                      | Mini S12 Pro                   | G2                            | Mini S12                      |  
 | **Brand**            | Beelink                       | Beelink                        | GMKtec                        | Beelink                       |  
 | **Processor**        | 14th Gen Twin Lake Intel-N150 | 13th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |  
-| **CPU**              | 3.6 GHz                       | 1.8 GHz with 3.4 GHz turbo     | 1.8 GHz with 3.6 GHz turbo    | 2 GHz with 3.4 GHz turbo      |  
+| **CPU basic**        | 0.8 GHz                       | 0.7 GHz                        | 3.6 GHz                       | 1.7 GHz                       |  
+| **CPU Turbo**        | 3.6 GHz                       | 3.4 GHz                        | -                             | 3.4 GHz                       |  
 | **Memory**           | 16 GB                         | 16 GB                          | 12 GB                         | 8 GB                          |  
 | **Hard disk**        | 512 GB                        | 500 GB                         | 512 GB                        | 256 GB                        |  
 | **Cores / Threads**  | 8 / 8                         | 4 / 4                          | 4 / 4                         | 4 / 4                         |  
@@ -219,7 +229,7 @@ Without to worry about latency or any other performance issues for the best expe
 #### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
-If you really want to run also heavy processes with small AI models on the server, you can choose for a high-end model.
+If you really want to run heavy processes with small AI models on the server, you can better choose for a high-end model.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
 {% capture ser9_img %}<img alt="Beelink SER9 - SER9" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
@@ -338,8 +348,8 @@ Check the website for even more details about the boards if you want to know mor
 
 ## Need help?
 
-If you need help in your choice, DON'T contact me personally, but use the social media communities or fora.
-There are also a lot other smart people who can help you further.
+If you need help in your choice, use these social media communities or forums.
+There are also many other people who can help you further.
 
 * [Home Assistant forum](https://community.home-assistant.io/)
 * [Reddit - Home Assistant](https://www.reddit.com/r/homeassistant/)

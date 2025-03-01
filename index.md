@@ -56,18 +56,6 @@ Topics you can find here:
 
 ---
 
-<br>
-<div width="100%" style="text-align: center;">
-    <a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank">
-        Computer quotes T-shirts, Hoodies, Mugs, Stickers, etc..
-        <br>
-        <img src="/shop/images/banner3.png" alt="Computer says no" height="150px" />
-    </a>
-</div>
-<br>
-
----
-
 ## Background
 
 Hi, since I was a little kid, I was always interested in home automation and years later still it's my passion to
