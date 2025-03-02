@@ -406,6 +406,11 @@ This LED strip is available in different versions:
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0503B.html" target="_blank" title="TS0503B">{{imgZ2M}}TS0503B</a>
 
+<br>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_on0VP8A" target="_blank">WiFi ESP32 WLED RGB 3-30m LED strip (AliExpress)</a>
+This one support over 100 dynamic effects. These are controllable via the WLED API or app.
+
 ---
 
 ### Buttons
