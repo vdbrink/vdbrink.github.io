@@ -337,8 +337,7 @@ cards:
               background: rgb(128,193,177);
               color:
                 {% set level = states('sensor.pollen_weeds_concentration') %}
-                {% set color = {'Laag':'green','Gemiddeld':'orange', 
-                   'Hoog':'darkorange','Zeer Hoog':'maroon'} %}
+                {% set color = {'Laag':'green','Gemiddeld':'orange', 'Hoog':'darkorange','Zeer Hoog':'maroon'} %}
                 {% set level_color = color.get(level,'gray') %}
                 {{level_color}};
               font-weight: 800;
@@ -354,8 +353,7 @@ cards:
               background: rgb(128,193,177);
               color:
                 {% set level = states('sensor.pollen_grass_concentration') %}
-                {% set color = {'Laag':'green','Gemiddeld':'orange',
-                   'Hoog':'darkorange','Zeer Hoog':'maroon'} %}
+                {% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}
                 {% set level_color = color.get(level,'gray') %}
                 {{level_color}};
               font-weight: 800;
@@ -371,8 +369,7 @@ cards:
               background: rgb(128,193,177);
               color:
                 {% set level = states('sensor.pollen_trees_concentration') %}
-                {% set color = {'Laag':'green','Gemiddeld':'orange',
-                   'Hoog':'darkorange','Zeer Hoog':'maroon'} %}
+                {% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}
                 {% set level_color = color.get(level,'gray') %}
                 {{level_color}};
               font-weight: 800;
