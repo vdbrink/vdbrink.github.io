@@ -29,8 +29,6 @@ We can use that data also to show direct on our Home Assistant dashboards.
   * [Weather alarm](#weather-alarm)
     * [Conditional weather alarm](#conditional-weather-alarm)
   * [Pollen](#pollen)
-    * [image 1](#image-1)
-    * [Image 2](#image-2)
   * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
   * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
 <!-- TOC -->
@@ -416,34 +414,6 @@ elements:
 {% endraw %}
 ```
 
-### Image 2
-
-Source: Buienradar
-
-Show the actual pollen intensity image from another source.
-
-<img src="images_weather/pollenradar.png" alt="Pollen nieuws" width="400px">
-
-Another way to show an image is with the image entity card.
-Here you can also add some text and an entity, like the current outside temperature.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-show_state: false
-show_name: true
-camera_view: auto
-type: picture-entity
-image: https://api.buienradar.nl/image/1.0/pollenradarhourlynl?w=500&h=512
-entity: sensor.outside_temp_rounded
-name: Pollen
-tap_action:
-  action: url
-  url_path: https://www.buienradar.nl/nederland/gezondheid/pollen
-{% endraw %}
-```
----
 
 ## Precipitation surplus (neerslagoverschot)
 
