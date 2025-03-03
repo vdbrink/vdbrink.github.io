@@ -29,6 +29,8 @@ We can use that data also to show direct on our Home Assistant dashboards.
   * [Weather alarm](#weather-alarm)
     * [Conditional weather alarm](#conditional-weather-alarm)
   * [Pollen](#pollen)
+    * [image](#image)
+    * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
   * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
   * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
 <!-- TOC -->
@@ -370,7 +372,7 @@ The text is also clickable to open the corresponding site with more info.
 ---
 ## Pollen
 
-### image 1
+### image
 Source: Pollennieuws
 
 Show the actual pollen intensity image.
@@ -414,6 +416,15 @@ elements:
 {% endraw %}
 ```
 
+---
+
+### Kleenex pollen radar Integration
+
+<img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
+
+Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration.
+
+---
 
 ## Precipitation surplus (neerslagoverschot)
 
@@ -435,6 +446,7 @@ elements:
     title: Neerslagoverschot
 {% endraw %}
 ```
+
 ---
 
 ## Bike/BBQ/Terrace weather score upcoming days
