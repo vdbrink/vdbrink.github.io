@@ -3,13 +3,13 @@ title: "Home Assistant - HACS Kleenex Pollen Radar"
 description: "Setup Home Assistant Kleenex Pollen Radar integration"
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, card, pollen, HACS, berk, trees, weed, grass]
-image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
+image: /homeassistant/images_kleenex/kleenex_advanced_presentation_high.png
 ---
 
 # Home Assistant -<br>HACS Kleenex Pollen Radar
 
 <a href="images_kleenex/kleenex_advanced_presentation.png">
-<img src="images_kleenex/kleenex_advanced_presentation.png" width="50%" alt="advanced Kleenx pollen">
+<img src="images_kleenex/kleenex_advanced_presentation_high.png" width="50%" alt="advanced Kleenx pollen">
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
@@ -400,7 +400,7 @@ cards:
         content: |
           {{states(config.entity)}}
       - type: markdown
-        entity: sensor.pollen_trees_concentratie
+        entity: sensor.pollen_trees_concentration
         card_mod:
           style: |
             ha-card {
