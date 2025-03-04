@@ -28,7 +28,12 @@ Check the git repository to find out all the options: https://github.com/MarcoGo
   * [HA presentations](#ha-presentations)
     * [Default presentation](#default-presentation)
     * [Advanced: with colors](#advanced-with-colors)
+      * [Result](#result)
+      * [Helper sensors](#helper-sensors)
+      * [Via the frontend](#via-the-frontend)
+      * [Dashboard code](#dashboard-code)
     * [Advanced: with a clickable link, colors and labels](#advanced-with-a-clickable-link-colors-and-labels)
+    * [Specific subtypes forecast](#specific-subtypes-forecast)
 <!-- TOC -->
 
 ---
@@ -422,7 +427,9 @@ cards:
 
 ### Specific subtypes forecast
 
-Work in progress ...
+If you're allergic to a specific tree or grass, you can add these also to the dashboard.
+
+Later more, work in progress ...
 
 <br>
 
