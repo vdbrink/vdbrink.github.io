@@ -8,8 +8,9 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 
 # Home Assistant -<br>HACS Kleenex Pollen Radar
 
-<img style="float: right;" src="images_kleenex/kleenex_advanced_presentation.png" height="250px" alt="">
-
+<a href="images_kleenex/kleenex_advanced_presentation.png">
+<img src="images_kleenex/kleenex_advanced_presentation.png" width="50%" alt="advanced Kleenx pollen">
+</a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar** which you can easily use on your own dashboards.
@@ -95,15 +96,27 @@ entities:
 
 ### Advanced: with colors
 
+#### Result
+
 Show the entities with matching colors and a level border color.
 
-<img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="100%">
+<a href="images_kleenex/kleenex_colored_presentation.png">
+<img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="400px">
+</a>
 
 The entities are clickable which show you the values over time:
 
-<img src="images_kleenex/kleenex_advanced_popup.png" alt="kleenex popup" width="350px">
+<img src="images_kleenex/kleenex_advanced_popup.png" alt="kleenex popup" width="400px">
 
-Add this helper sensors to the `configuration.yaml` file.
+For the advanced presentation, you need to add three new sensors to divide the ppm number into a textual value.
+This value will be used as text, but also be used for different colors and an indication circle of the intensity.
+
+#### Helper sensors
+
+You need to add these three helper sensors first.
+
+This can be done to the sensor section in the file `configuration.yaml` with this code.\
+Or create them via the HA helper frontend, see below this code block.
 
 ```yaml
 {% raw %}
@@ -112,7 +125,6 @@ Add this helper sensors to the `configuration.yaml` file.
 - platform: template
   sensors:
     pollen_grass_concentration:
-      unit_of_measurement: "ppm"
       value_template: >-
         {% set level = states('sensor.kleenex_pollen_radar_huis_grass')|int(0) %}
         {% if level <= 29 %} Laag
@@ -121,7 +133,6 @@ Add this helper sensors to the `configuration.yaml` file.
         {% else %} Zeer Hoog
         {% endif %}
     pollen_trees_concentration:
-      unit_of_measurement: "ppm"
       value_template: >-
         {% set level = states('sensor.kleenex_pollen_radar_huis_trees')|int(0) %}
         {% if level <= 29 %} Laag
@@ -130,7 +141,6 @@ Add this helper sensors to the `configuration.yaml` file.
         {% else %} Zeer Hoog
         {% endif %}
     pollen_weeds_concentration:
-      unit_of_measurement: "ppm"
       value_template: >-
         {% set level = states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %}
         {% if level <= 29 %} Laag
@@ -141,7 +151,33 @@ Add this helper sensors to the `configuration.yaml` file.
 {% endraw %}
 ```
 
-The corresponding code:
+#### Via the frontend
+
+The other way is via the frontend, you can create a new template via the **Settings** menu item,
+then go to **Devices and Services** and select **Helpers**.\
+This button directly opens the **Helpers** page in your Home Assistant:
+
+[![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
+
+Select the bottom-right button `+ CREATE HELPER`,
+select **Template** then one of the option **Template a sensor**
+
+<a href="images_kleenex/kleenex_sensor_create_template_helper.png">
+<img src="images_kleenex/kleenex_sensor_create_template_helper.png" alt="kleenex advanced presentation" width="400px">
+</a>
+
+Fill the fields like this.
+Do this three times also for the `pollen_weeds_concentration` and `pollen_trees_concentration`
+
+<a href="images_kleenex/kleenex_sensor_create_template.png">
+<img src="images_kleenex/kleenex_sensor_create_template.png" alt="kleenex advanced presentation" width="400px">
+</a>
+
+Read more how to add a template (via the HA frontend itself) here on my [advanced Templates page](homeassistant_templates#how-to-add-a-template).
+
+#### Dashboard code
+
+This is the corresponding dashboard YAML code for the screenshot. 
 
 ```yaml
 {% raw %}
@@ -232,7 +268,9 @@ cards:
 
 Show a clickable link to the Kleenex website, the entities with matching colors and colored labels, like this:
 
-<img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex advanced presentation" width="100%">
+<a href="images_kleenex/kleenex_advanced_presentation.png">
+<img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex advanced presentation" width="400px">
+</a>
 
 This is the corresponding code:
 
@@ -379,6 +417,16 @@ cards:
           {{states('sensor.pollen_trees_concentration')}}
 {% endraw %}
 ```
+
+---
+
+### Specific subtypes forecast
+
+Work in progress ...
+
+<br>
+
+Good luck with the integration!
 
 ---
 [^^ Top](#table-of-contents)
