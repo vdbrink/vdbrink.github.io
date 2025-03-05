@@ -188,7 +188,7 @@ Fill the fields like this.
 Do this three times also for the `pollen_weeds_concentration` and `pollen_trees_concentration`
 
 <a href="images_kleenex/kleenex_sensor_create_template.png">
-<img src="images_kleenex/kleenex_sensor_create_template.png" alt="kleenex advanced presentation" width="400px">
+<img src="images_kleenex/kleenex_sensor_create_template.png" alt="attribute tree data apexcharts" width="400px">
 </a>
 
 Read more how to add a template (via the HA frontend itself) here on my [advanced Templates page](homeassistant_templates#how-to-add-a-template).
@@ -440,9 +440,124 @@ cards:
 
 ### Specific subtypes forecast
 
-If you're allergic to a specific tree or grass, you can add these also to the dashboard.
+I created a bar graph with all tree data for the upcoming days.
+I used for this presentation the HACS *apexcharts* integration.
 
-Later more, work in progress ...
+<!--
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=MarcoGos&repository=kleenex_pollenradar&category=Integration)
+-->
+
+<a href="images_kleenex/attribute_tree_data_apexcharts.jpg">
+<img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="kleenex advanced presentation" width="400px">
+</a>
+
+This is the corresponding code:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: custom:apexcharts-card
+header:
+  show: true
+  title: Kleenex Pollen Radar (Huis) - Trees
+  show_states: true
+now:
+  show: true
+graph_span: 5d
+span:
+  start: day
+  offset: +0d
+series:
+  - name: Hazelaar
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#1f77b4"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Hazelaar").value]);
+  - name: Iep
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#ff7f0e"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Iep").value]);
+  - name: Els
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#2ca02c"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Els").value]);
+  - name: Populier
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#d62728"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Populier").value]);
+  - name: Eik
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#9467bd"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Eik").value]);
+  - name: Plataan
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#8c564b"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Plataan").value]);
+  - name: Berk
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#e377c2"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Berk").value]);
+  - name: Cipres
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    attribute: forecast
+    type: column
+    color: "#7f7f7f"
+    data_generator: >
+      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
+      d.details.find(t => t.name === "Cipres").value]);
+apex_config:
+  chart:
+    type: bar
+  xaxis:
+    type: datetime
+  plotOptions:
+    bar:
+      columnWidth: 60%
+  tooltip:
+    enabled: true
+  legend:
+    show: true
+    position: bottom
+    markers:
+      fillColors:
+        - "#1f77b4"
+        - "#ff7f0e"
+        - "#2ca02c"
+        - "#d62728"
+        - "#9467bd"
+        - "#8c564b"
+        - "#e377c2"
+        - "#7f7f7f"
+{% endraw %}
+```
 
 <br>
 
