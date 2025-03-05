@@ -19,20 +19,19 @@ You find here examples from my automations, which you can use in your own projec
 My latest biggest updates on this blog:
 
 * [Home Assistant - Pollen Radar](homeassistant/homeassistant_hacs_kleenex)
-* [Automate infrared devices in Home Assistant](zigbee/smart_infrared_transmitter_receiver)
+* [Home Assistant - Automate infrared-controlled devices](zigbee/smart_infrared_transmitter_receiver)
 * [18.5x longer life for a sensor with a CR2032 battery](/buy/cr2032_to_aa_batteries)
 * [Batteries - Best Buy Tips](/buy/batteries) for all kinds of batteries to power your sensors.
-<br>
 * I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
-* [How to choose your smart home system?](smarthomesystem/choose_smart_home_system)
-<br>
+
+
 * [Home Automation - Ideas](ideas/home_automation_ideas)
-* [DIY Zigbee - chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
+* [Zigbee - DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
-<br>
+
+
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
-* [Home Assistant - Layout examples](homeassistant/homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * [Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)
 
 ---
