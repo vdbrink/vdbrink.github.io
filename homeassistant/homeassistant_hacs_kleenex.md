@@ -70,10 +70,15 @@ Use this button to go to the `Developer tools` and filter the entities on `kleen
 
 [![Open your Home Assistant instance and show your state developer tools.](https://my.home-assistant.io/badges/developer_states.svg)](https://my.home-assistant.io/redirect/developer_states/)
 
+Click on the image to see all the forecast and subtype details which are also stored in the `attribute` data. 
+
 <a href="images_kleenex/kleenex_forecast.png">
 <img src="images_kleenex/kleenex_forecast.png" alt="Kleenex forecast" width=250px">
 </a>
 
+<!--
+I created also a [presentation](#) based on these attributes.
+-->
 ---
 ## HA presentations
 
@@ -115,6 +120,14 @@ The entities are clickable which show you the values over time:
 
 For the advanced presentation, you need to add three new sensors to divide the ppm number into a textual value.
 This value will be used as text, but also be used for different colors and an indication circle of the intensity.
+
+#### Alternative icons
+
+If you want an alternative icon for weeds you can also use `mdi:sprout`.
+
+<a href="images_kleenex/alternative_weed_icon.jpg">
+<img src="images_kleenex/alternative_weed_icon.jpg" alt="alternative icon" width="100px">
+</a>
 
 #### Helper sensors
 
@@ -434,6 +447,11 @@ Later more, work in progress ...
 <br>
 
 Good luck with the integration!
+
+## Credits
+
+I got the ideas for the presentations from the HA forum:
+[[Help request] Pollen sensor Dutch hooikoortsradar.nl](https://community.home-assistant.io/t/help-request-pollen-sensor-dutch-hooikoortsradar-nl/524633)
 
 ---
 [^^ Top](#table-of-contents)
