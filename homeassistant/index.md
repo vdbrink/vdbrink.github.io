@@ -16,7 +16,7 @@ One by one, I will add them here.
 I created dashboards with all kinds of elements in it:
 * [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * Templates:
-  * [Template examples](homeassistant_templates) 
+  * [Template examples](homeassistant_templates) creating, debugger, practical examples 
   * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
   * [External sites](homeassistant_dashboard_weather) (Thunderstorm)
@@ -25,6 +25,7 @@ I created dashboards with all kinds of elements in it:
 * [HACS custom elements](homeassistant_dashboard_hacs) (Overview of some very useful custom HACS elements)
   * [Auto entities](homeassistant_dashboard_card_auto-entities)
   * [Mushroom](homeassistant_dashboard_card_mushroom)
+  * [Pollen Radar](homeassistant_hacs_kleenex.md)
   * [Afvalbeheer](homeassistant_hacs_afvalbeheer)
 * [Grafana](homeassistant_dashboard_grafana) (Grafana graph integration)
 * [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc.)
@@ -38,6 +39,10 @@ I created dashboards with all kinds of elements in it:
 * [Random examples](homeassistant_dashboard_examples) (The latest news)
 * [Web scraper](homeassistant_web_scraper) (Show website data on your dashboard)
 * [Pientere Tuinen](homeassistant_dashboard_pientere_tuinen) (Dutch garden and soil project)
+
+---
+
+* [Which hardware to run Home Assistant on?](homeassistant_hardware)
 
 ---
 Other Home Assistant integrations

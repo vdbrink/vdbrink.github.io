@@ -13,8 +13,6 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation_high.jpg
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-> There is a bug in the latest 2025.3.0 release, which breaks this integration!
-
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar** which you can easily use on your own dashboards.
 
 This integration shows Pollen information for grass, weeds and trees.
@@ -126,9 +124,14 @@ This value will be used as text, but also be used for different colors and an in
 #### Alternative icons
 
 If you want an alternative icon for weeds you can also use `mdi:sprout`.
+Or use `mdi:flower-pollen`.
 
-<a href="images_kleenex/alternative_weed_icon.jpg">
-<img src="images_kleenex/alternative_weed_icon.jpg" alt="alternative icon" width="100px">
+<a href="images_kleenex/sprout_icon.jpg">
+<img src="images_kleenex/sprout_icon.jpg" alt="alternative icon mdi:sprout" width="100px">
+</a>
+
+<a href="images_kleenex/flower-pollen_icon.jpg">
+<img src="images_kleenex/flower-pollen_icon.jpg" alt="alternative icon mdi:flower-pollen" width="100px">
 </a>
 
 #### Helper sensors
@@ -464,77 +467,94 @@ header:
   show: true
   title: Kleenex Pollen Radar (Huis) - Trees
   show_states: true
+  colorize_states: true
 now:
   show: true
-graph_span: 5d
+graph_span: 4d
 span:
   start: day
-  offset: +0d
+  offset: +1d
 series:
   - name: Hazelaar
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#1f77b4"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Hazelaar").value]);
+    color: "#1f77b4" # Blue
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Hazelaar").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Hazelaar").value]));
   - name: Iep
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#ff7f0e"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Iep").value]);
+    color: "#ff7f0e" # Orange
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Iep").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Iep").value]));
   - name: Els
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#2ca02c"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Els").value]);
+    color: "#2ca02c" # Green
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Els").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Els").value]));
   - name: Populier
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#d62728"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Populier").value]);
+    color: "#d62728" # Red
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Populier").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Populier").value]));
   - name: Eik
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#9467bd"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Eik").value]);
+    color: "#9467bd" # Purple
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Eik").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Eik").value]));
   - name: Plataan
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#8c564b"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Plataan").value]);
+    color: "#8c564b" # Brown
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Plataan").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Plataan").value]));
   - name: Berk
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#e377c2"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Berk").value]);
+    color: "#e377c2" # Pink
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Berk").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Berk").value]));
   - name: Cipres
     entity: sensor.kleenex_pollen_radar_huis_trees
-    attribute: forecast
     type: column
-    color: "#7f7f7f"
-    data_generator: >
-      return entity.attributes.forecast.map(d => [new Date(d.date).getTime(),
-      d.details.find(t => t.name === "Cipres").value]);
+    color: "#7f7f7f" # Grey
+    data_generator: |
+      let data = [];
+      if (entity.attributes.current) {
+        data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Cipres").value]);
+      }
+      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Cipres").value]));
 apex_config:
   chart:
     type: bar
@@ -542,7 +562,7 @@ apex_config:
     type: datetime
   plotOptions:
     bar:
-      columnWidth: 60%
+      columnWidth: "60%" # Adjust for better visibility
   tooltip:
     enabled: true
   legend:
@@ -550,15 +570,15 @@ apex_config:
     position: bottom
     markers:
       fillColors:
-        - "#1f77b4"
-        - "#ff7f0e"
-        - "#2ca02c"
-        - "#d62728"
-        - "#9467bd"
-        - "#8c564b"
-        - "#e377c2"
-        - "#7f7f7f"
-{% endraw %}
+        - "#1f77b4" # Hazelaar
+        - "#ff7f0e" # Iep
+        - "#2ca02c" # Els
+        - "#d62728" # Populier
+        - "#9467bd" # Eik
+        - "#8c564b" # Plataan
+        - "#e377c2" # Berk
+        - "#7f7f7f" # Cipres
+  {% endraw %}
 ```
 
 <br>
@@ -568,7 +588,8 @@ Good luck with the integration!
 ## Credits
 
 I got the ideas for the presentations from the HA forum:
-[[Help request] Pollen sensor Dutch hooikoortsradar.nl](https://community.home-assistant.io/t/help-request-pollen-sensor-dutch-hooikoortsradar-nl/524633)
+[[Help request] Pollen sensor Dutch hooikoortsradar.nl](https://community.home-assistant.io/t/help-request-pollen-sensor-dutch-hooikoortsradar-nl/524633)\
+If you got any questions you can ask them also here.
 
 ---
 [^^ Top](#table-of-contents)
