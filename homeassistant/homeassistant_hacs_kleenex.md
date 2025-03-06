@@ -29,11 +29,13 @@ Check the git repository to find out all the options: https://github.com/MarcoGo
     * [Default presentation](#default-presentation)
     * [Advanced: with colors](#advanced-with-colors)
       * [Result](#result)
+      * [Alternative icons](#alternative-icons)
       * [Helper sensors](#helper-sensors)
       * [Via the frontend](#via-the-frontend)
       * [Dashboard code](#dashboard-code)
     * [Advanced: with a clickable link, colors and labels](#advanced-with-a-clickable-link-colors-and-labels)
     * [Specific subtypes forecast](#specific-subtypes-forecast)
+  * [Credits](#credits)
 <!-- TOC -->
 
 ---
