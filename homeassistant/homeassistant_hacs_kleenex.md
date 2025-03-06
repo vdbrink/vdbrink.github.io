@@ -13,6 +13,8 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation_high.jpg
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
+> There is a bug in the latest 2025.3.0 release, which breaks this integration!
+
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar** which you can easily use on your own dashboards.
 
 This integration shows Pollen information for grass, weeds and trees.
