@@ -448,11 +448,11 @@ cards:
 ### Specific subtypes forecast
 
 I created a bar graph with all tree data for the upcoming days.
-I used for this presentation the HACS *apexcharts* integration.
+I used for this presentation the HACS *ApexCharts Card* integration.
 
-<!--
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=MarcoGos&repository=kleenex_pollenradar&category=Integration)
--->
+Click this button to install the ApexCharts Card:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=RomRider&repository=apexcharts-card&category=module)
 
 <a href="images_kleenex/attribute_tree_data_apexcharts.jpg">
 <img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="kleenex advanced presentation" width="400px">
