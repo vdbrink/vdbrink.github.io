@@ -298,14 +298,16 @@ How this works:
 * The helper sensors you also need to create converts the numbered value `sensor.kleenex_pollen_radar_huis_grass` to `pollen_grass_concentration` 
 that contains a textual value `Laag` (Dutch for low) for example.
 * This line converts this text to a color, `Laag` -> `green` etc.\
-  ```{% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}```
+  ```{% raw %}{% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}{% endraw %}```
 * This line defines the progress of the darker circle around the icon.
-  ```{% set circle = {'Laag':'25','Gemiddeld':'50','Hoog':'75','Zeer Hoog':'100'} %}```    
+  ```{% raw %}{% set circle = {'Laag':'25','Gemiddeld':'50','Hoog':'75','Zeer Hoog':'100'} %}{% endraw %}```    
 * This CSS code defines the background color and circle.
-    ```border-radius: 24px;
+    ```{% raw %}
+    border-radius: 24px;
     background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
     conic-gradient({{level_color}} {{percentage}}% 0%,
     var(--card-background-color) 0% 100%);
+    {% endraw %}
     ```
 * This custom CSS requires the extra HACS integration `lovelace-card-mod`, is this installed? See earlier on this page how to do this.
 
