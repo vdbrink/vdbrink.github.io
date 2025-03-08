@@ -469,7 +469,7 @@ cards:
 ### Specific subtypes forecast
 
 I created a bar graph with all tree data for the upcoming days.
-I used for this presentation the HACS *ApexCharts Card* integration.
+I used for this presentation the HACS [ApexCharts Card](https://github.com/RomRider/apexcharts-card) integration.
 
 Click this button to install the ApexCharts Card:
 
