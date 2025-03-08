@@ -25,15 +25,12 @@ Check the git repository to find out all the options: https://github.com/MarcoGo
 ## Table of Contents
 <!-- TOC -->
   * [Installation](#installation)
-  * [HA presentations](#ha-presentations)
+  * [Dashboard presentations](#dashboard-presentations)
+    * [Alternative icons](#alternative-icons)
     * [Default presentation](#default-presentation)
-    * [Advanced: with colors](#advanced-with-colors)
-      * [Result](#result)
-      * [Alternative icons](#alternative-icons)
-      * [Helper sensors](#helper-sensors)
-      * [Via the frontend](#via-the-frontend)
-      * [Dashboard code](#dashboard-code)
-    * [Advanced: with a clickable link, colors and labels](#advanced-with-a-clickable-link-colors-and-labels)
+    * [Mushroom](#mushroom)
+    * [Tile card with progress indicator](#tile-card-with-progress-indicator)
+    * [Tile card: with an extra clickable link and labels](#tile-card-with-an-extra-clickable-link-and-labels)
     * [Specific subtypes forecast](#specific-subtypes-forecast)
   * [Credits](#credits)
 <!-- TOC -->
@@ -66,13 +63,36 @@ Now you have these five new sensors.
 <img src="images_kleenex/kleenex_sensors.png" alt="Kleenex sensors" width=250px">
 </a>
 
+---
+
+### Sub types in attributes
+
 Each sensor contains also in its `attributes` also extra information about different subtypes and a forecast for the upcoming days.
 
-Use this button to go to the `Developer tools` and filter the entities on `kleenex`.
+* Trees
+  * Hazelaar (NL), Hazel (EN)
+  * Pijnboom (NL), Pine (EN)
+  * Populier (NL), Poplar (EN)
+  * Plataan (NL), Plane (EN)
+  * Cipres (NL), Cypress (EN)
+  * Els (NL), Els (EN)
+  * Iep (NL), Elm (EN)
+  * Berk (NL), Birch (EN)
+  * Eik (NL), Oak (EN)
+* Grass
+  * Poaceae (NL), Poaceae (EN)
+* Weeds
+  * Bijvoet (NL), Mugwort (EN)
+  * Ganzevoet (NL), Goosefoot (EN)
+  * Ambrosia (NL), Ambrosia (EN)
+  * Brandnetel (NL), Nettle (EN)
+
+To see this forecast data use this button to go to the `Developer tools` and filter the entities on with the keyword `kleenex`.
+<br>
 
 [![Open your Home Assistant instance and show your state developer tools.](https://my.home-assistant.io/badges/developer_states.svg)](https://my.home-assistant.io/redirect/developer_states/)
 
-Click on the image to see all the forecast and subtype details which are also stored in the `attribute` data. 
+Click on the image to see all the forecast and subtype details which are stored in the `attribute` data. 
 
 <a href="images_kleenex/kleenex_forecast.png">
 <img src="images_kleenex/kleenex_forecast.png" alt="Kleenex forecast" width=250px">
@@ -81,9 +101,34 @@ Click on the image to see all the forecast and subtype details which are also st
 <!--
 I created also a [presentation](#) based on these attributes.
 -->
----
-## HA presentations
 
+---
+## Dashboard presentations
+
+I have different examples of how to present this data on your dashboard:
+* [Default as list entities](#default-presentation) - no extra modules needed.\
+  <a href="#default-presentation"><img src="images_kleenex/kleenex_default_presentation.png" alt="default Kleenex presentation" width="300px"></a>
+* [Mushroom template with bigger icons](#mushroom) - extra mushroom modules required.\
+  <a href="#mushroom"><img src="images_kleenex/kleenex_mushroom_presentation.jpg" alt="mushroom Kleenex presentation" width="300px"></a>
+* [Tile card with level indicator](#tile-card-with-progress-indicator) - extra helpers needed to create. With default Dutch text.\
+  <a href="#tile-card-with-progress-indicator"><img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="300px"></a>
+  * [Same as previous but with extra clickable link to Kleenex website and labels](#tile-card-with-an-extra-clickable-link-and-labels)\
+    <a href="#tile-card-with-an-extra-clickable-link-and-labels"><img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex presentation with colors" width="300px"></a>
+
+---
+### Alternative icons
+
+If you want an alternative icon for weeds you can also use `mdi:sprout` or `mdi:flower-pollen`.
+
+<a href="images_kleenex/sprout_icon.jpg">
+<img src="images_kleenex/sprout_icon.jpg" alt="alternative icon mdi:sprout" width="150px">
+</a>
+
+<a href="images_kleenex/flower-pollen_icon.jpg">
+<img src="images_kleenex/flower-pollen_icon.jpg" alt="alternative icon mdi:flower-pollen" width="150px">
+</a>
+
+---
 ### Default presentation
 
 When the installation is complete, you get at least three entities which you can add to your dashboard.
@@ -105,10 +150,179 @@ entities:
 ```
 
 ---
+### Mushroom
 
-### Advanced: with colors
+This presentation uses English levels and has bigger icons.\
+No need to create extra helper sensors.
 
-#### Result
+<a href="images_kleenex/kleenex_mushroom_presentation.jpg">
+<img src="images_kleenex/kleenex_mushroom_presentation.jpg" alt="kleenex presentation with mushroom card" width="400px">
+</a>
+
+This presentation required the HACS integration [lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom) to create a custom presentation.\
+Install it via this button:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+type: grid
+cards:
+  - type: custom:mushroom-template-card
+    primary: >-
+      Trees: {% set level =
+      states('sensor.kleenex_pollen_radar_home_trees')|int(0) %}
+      {% if level <= 29 %} Low
+      {% elif level <= 60 %} Moderate 
+      {% elif level <= 341 %} High
+      {% else %} very High
+      {% endif %}
+    secondary: "{{ states('sensor.kleenex_pollen_radar_home_trees') }} ppm"
+    icon: mdi:tree
+    icon_color: |-
+      {% set trees = states('sensor.kleenex_pollen_radar_home_trees') | int %}
+      {% if trees < 25 %}
+      #006400
+      {% elif trees < 50 %}
+      #008000
+      {% elif trees < 75 %}
+      #90EE90
+      {% elif trees < 100 %}
+      #FFFF00
+      {% elif trees < 125 %}
+      #FFD700
+      {% elif trees < 149 %}
+      #FFA500
+      {% elif trees < 250 %}
+      #FF8C00
+      {% elif trees < 400 %}
+      #FF0000
+      {% elif trees >= 400 %}
+      #8B0000
+      {% else %}
+      #800080
+      {% endif %} 
+    layout: vertical
+    entity: sensor.kleenex_pollen_radar_home_trees
+    multiline_secondary: false
+    tap_action:
+      action: more-info
+    layout_options:
+      grid_columns: 1
+      grid_rows: 2
+    card_mod:
+      style: |
+        ha-card {
+          --icon-size: 60px;
+          background-color: hsla(0, 0%, 0%, 0);
+        }
+  - type: custom:mushroom-template-card
+    primary: >-
+      Grass: {% set level =
+      states('sensor.kleenex_pollen_radar_home_grass')|int(0) %}
+      {% if level <= 29 %} Low
+      {% elif level <= 60 %} Moderate 
+      {% elif level <= 341 %} High
+      {% else %} very High
+      {% endif %}
+    secondary: "{{ states('sensor.kleenex_pollen_radar_home_grass') }} ppm"
+    icon: mdi:grass
+    icon_color: |-
+      {% set grass = states('sensor.kleenex_pollen_radar_home_grass') | int %}
+      {% if grass < 25 %}
+      #006400
+      {% elif grass < 50 %}
+      #008000
+      {% elif grass < 75 %}
+      #90EE90
+      {% elif grass < 100 %}
+      #FFFF00
+      {% elif grass < 125 %}
+      #FFD700
+      {% elif grass < 149 %}
+      #FFA500
+      {% elif grass < 250 %}
+      #FF8C00
+      {% elif grass < 400 %}
+      #FF0000
+      {% elif grass < 500 %}
+      #8B0000
+      {% else %}
+      #800080
+      {% endif %} 
+    layout: vertical
+    entity: sensor.kleenex_pollen_radar_home_grass
+    multiline_secondary: false
+    tap_action:
+      action: more-info
+    layout_options:
+      grid_columns: 1
+      grid_rows: 2
+    card_mod:
+      style: |
+        ha-card {
+          --icon-size: 60px;
+          background-color: hsla(0, 0%, 0%, 0);
+        }
+  - type: custom:mushroom-template-card
+    primary: |-
+      Weeds:
+      {% set level = states('sensor.kleenex_pollen_radar_home_weeds')|int(0) %}
+      {% if level <= 29 %} Low
+      {% elif level <= 60 %} Moderate 
+      {% elif level <= 341 %} High
+      {% else %} very High
+      {% endif %}
+    secondary: "{{ states('sensor.kleenex_pollen_radar_home_weeds') }} ppm"
+    icon: mdi:flower-pollen
+    icon_color: |-
+      {% set weeds = states('sensor.kleenex_pollen_radar_home_weeds') | int %}
+      {% if weeds < 25 %}
+      #006400
+      {% elif weeds < 50 %}
+      #008000
+      {% elif weeds < 75 %}
+      #90EE90
+      {% elif weeds < 100 %}
+      #FFFF00
+      {% elif weeds < 125 %}
+      #FFD700
+      {% elif weeds < 149 %}
+      #FFA500
+      {% elif weeds < 250 %}
+      #FF8C00
+      {% elif weeds < 400 %}
+      #FF0000
+      {% elif weeds < 500 %}
+      #8B0000
+      {% else %}
+      #800080
+      {% endif %} 
+    layout: vertical
+    entity: sensor.kleenex_pollen_radar_home_weeds
+    multiline_secondary: false
+    tap_action:
+      action: more-info
+    layout_options:
+      grid_columns: 1
+      grid_rows: 2
+    card_mod:
+      style: |
+        ha-card {
+          --icon-size: 60px;
+          background-color: hsla(0, 0%, 0%, 0);
+        }
+{% endraw %}
+```
+</details>
+
+---
+
+### Tile card with progress indicator
 
 Show the entities with matching colors and a level border color.
 
@@ -120,33 +334,23 @@ The entities are clickable which show you the values over time:
 
 <img src="images_kleenex/kleenex_advanced_popup.png" alt="kleenex popup" width="400px">
 
-For the advanced presentation, you need to add **three new sensors** to divide the ppm number into a textual value.
+For this advanced presentation, you also need to add **three new sensors** to divide the ppm number into a textual value.
 This value will be used as text, but also be used for different colors and an indication circle of the intensity.
-
+<a name="lovelace-card-mod"/>
 And this presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
 Install it via this button:
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
-
-#### Alternative icons
-
-If you want an alternative icon for weeds you can also use `mdi:sprout`.
-Or use `mdi:flower-pollen`.
-
-<a href="images_kleenex/sprout_icon.jpg">
-<img src="images_kleenex/sprout_icon.jpg" alt="alternative icon mdi:sprout" width="100px">
-</a>
-
-<a href="images_kleenex/flower-pollen_icon.jpg">
-<img src="images_kleenex/flower-pollen_icon.jpg" alt="alternative icon mdi:flower-pollen" width="100px">
-</a>
 
 #### Helper sensors
 
 You need to add these three helper sensors first.
 
 This can be done to the sensor section in the file `configuration.yaml` with this code.\
-Or create them via the HA helper frontend, see below this code block.
+Or create them via the [HA helper frontend](#via-the-frontend), see below this code block.
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
 {% raw %}
@@ -180,6 +384,7 @@ Or create them via the HA helper frontend, see below this code block.
         {% endif %}
 {% endraw %}
 ```
+</details>
 
 #### Via the frontend
 
@@ -208,6 +413,9 @@ Read more how to add a template (via the HA frontend itself) here on my [advance
 #### Dashboard code
 
 This is the corresponding dashboard YAML code for the screenshot. 
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
 {% raw %}
@@ -292,27 +500,31 @@ cards:
         }
 {% endraw %}
 ```
+</details>
+
+#### Help
 
 If you don't get the progress indicator visible, this could be due to different reasons.
 How this works:
 * The helper sensors you also need to create converts the numbered value `sensor.kleenex_pollen_radar_huis_grass` to `pollen_grass_concentration` 
 that contains a textual value `Laag` (Dutch for low) for example.
 * This line converts this text to a color, `Laag` -> `green` etc.\
-  ```{% raw %}{% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}{% endraw %}```
+  ```yaml{% raw %}{% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}{% endraw %}```
 * This line defines the progress of the darker circle around the icon.
-  ```{% raw %}{% set circle = {'Laag':'25','Gemiddeld':'50','Hoog':'75','Zeer Hoog':'100'} %}{% endraw %}```    
+  ```yaml{% raw %}{% set circle = {'Laag':'25','Gemiddeld':'50','Hoog':'75','Zeer Hoog':'100'} %}{% endraw %}```    
 * This CSS code defines the background color and circle.
-    ```{% raw %}
+    ```yaml
+    {% raw %}
     border-radius: 24px;
     background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
     conic-gradient({{level_color}} {{percentage}}% 0%,
     var(--card-background-color) 0% 100%);
     {% endraw %}
     ```
-* This custom CSS requires the extra HACS integration `lovelace-card-mod`, is this installed? See earlier on this page how to do this.
+* This custom CSS requires the extra HACS integration `lovelace-card-mod`, is this installed? See [earlier on this page](#lovelace-card-mod) how to do this.
 
 ---
-### Advanced: with a clickable link, colors and labels
+### Tile card: with an extra clickable link and labels
 
 Show a clickable link to the Kleenex website, the entities with matching colors and colored labels, like this:
 
@@ -320,7 +532,8 @@ Show a clickable link to the Kleenex website, the entities with matching colors 
 <img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex advanced presentation" width="400px">
 </a>
 
-This is the corresponding code:
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
 {% raw %}
@@ -465,6 +678,7 @@ cards:
           {{states('sensor.pollen_trees_concentration')}}
 {% endraw %}
 ```
+</details>
 
 ---
 
@@ -481,7 +695,9 @@ Click this button to install the ApexCharts Card:
 <img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="kleenex advanced presentation" width="400px">
 </a>
 
-This is the corresponding code:
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
 {% raw %}
@@ -605,6 +821,7 @@ apex_config:
         - "#7f7f7f" # Cipres
   {% endraw %}
 ```
+</details>
 
 <br>
 
