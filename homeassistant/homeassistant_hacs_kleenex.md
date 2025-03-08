@@ -120,8 +120,13 @@ The entities are clickable which show you the values over time:
 
 <img src="images_kleenex/kleenex_advanced_popup.png" alt="kleenex popup" width="400px">
 
-For the advanced presentation, you need to add three new sensors to divide the ppm number into a textual value.
+For the advanced presentation, you need to add **three new sensors** to divide the ppm number into a textual value.
 This value will be used as text, but also be used for different colors and an indication circle of the intensity.
+
+And this presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
+Install it via this button:
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 #### Alternative icons
 
@@ -287,6 +292,22 @@ cards:
         }
 {% endraw %}
 ```
+
+If you don't get the progress indicator visible, this could be due to different reasons.
+How this works:
+* The helper sensors you also need to create converts the numbered value `sensor.kleenex_pollen_radar_huis_grass` to `pollen_grass_concentration` 
+that contains a textual value `Laag` (Dutch for low) for example.
+* This line converts this text to a color, `Laag` -> `green` etc.\
+  ```{% set color = {'Laag':'green','Gemiddeld':'orange','Hoog':'darkorange','Zeer Hoog':'maroon'} %}```
+* This line defines the progress of the darker circle around the icon.
+  ```{% set circle = {'Laag':'25','Gemiddeld':'50','Hoog':'75','Zeer Hoog':'100'} %}```    
+* This CSS code defines the background color and circle.
+    ```border-radius: 24px;
+    background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
+    conic-gradient({{level_color}} {{percentage}}% 0%,
+    var(--card-background-color) 0% 100%);
+    ```
+* This custom CSS requires the extra HACS integration `lovelace-card-mod`, is this installed? See earlier on this page how to do this.
 
 ---
 ### Advanced: with a clickable link, colors and labels
