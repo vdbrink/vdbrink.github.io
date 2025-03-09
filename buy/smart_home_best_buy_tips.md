@@ -321,7 +321,7 @@ Another leak sensor is the one with a wire, this sensor itself isn't water-resis
 This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">Zigbee leak sensor (AliExpress)</a>
-<a href="https://amzn.to/3Zj7va8" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4hkYjYw" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
 <br>
