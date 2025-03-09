@@ -158,8 +158,11 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 
 ### Kitchen
 
+In the kitchen are a lot of peripherals, and these can be made smart. 
+Sometimes by adding a sensor outside the device.
+
 #### Lights
-* Lights on, based on presence + light. ([motion sensor](../buy/smart_home_best_buy_tips#motion-sensor) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) + normal LED strip with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
+* Lights on, based on presence + light intensity. ([motion sensor](../buy/smart_home_best_buy_tips#motion-sensor) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) + normal LED strip with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
  <br>
  <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
 
@@ -178,16 +181,16 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 
 #### Refrigerator
 * Detect if the door is opened too long. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside or door [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
+* Detect when the freezer door isn't opened before go to bed and there must get some meat/fish out it to defrost already for tomorrow's diner ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) and [Mealie meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before))
 
 #### Stove
 * Detect if someone is cooking. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
 * Extraction fan on based on temperature/humidity. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) in the extractor hood)
 <br>
-<img src="../esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
+<img src="/esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
 
 #### Sink
-* Leak detector under the sink. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) or a modified [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor)). 
-I have a [dedicated page](/zigbee/zigbee_water_leak_sensor) about how I created this sensor.
+* Leak detector under the sink. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) or a modified [contact sensor](/zigbee/zigbee_water_leak_sensor))
 <br>
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
