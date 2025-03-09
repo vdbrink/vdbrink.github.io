@@ -31,6 +31,7 @@ Check the git repository to find out all options: https://github.com/MarcoGos/kl
     * [Mushroom](#mushroom)
     * [Tile card with progress indicator](#tile-card-with-progress-indicator)
     * [Tile card: with an extra clickable link and labels](#tile-card-with-an-extra-clickable-link-and-labels)
+    * [Subtypes values](#subtypes-values)
     * [Specific subtypes forecast](#specific-subtypes-forecast)
   * [Credits](#credits)
 <!-- TOC -->
@@ -117,7 +118,10 @@ I have different examples of how to present this data on your dashboard:
   <a href="#tile-card-with-progress-indicator"><img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="300px"></a>
   * [Same as previous but with extra clickable link to Kleenex website and labels](#tile-card-with-an-extra-clickable-link-and-labels)\
     <a href="#tile-card-with-an-extra-clickable-link-and-labels"><img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex presentation with colors" width="300px"></a>
-
+* [Sub types](#subtypes-values) - two tree subtype examples.\
+  <a href="#subtypes-values"><img src="images_kleenex/attribute_tree_data_tile.jpg" alt="subtypes" width="300px"></a>
+* [Sub types forecast graph](#specific-subtypes-forecast) - trees forecast.\
+  <a href="#specific-subtypes-forecast"><img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="forecast trees" width="300px"></a>
 ---
 ### Alternative icons
 
@@ -682,8 +686,13 @@ cards:
 </details>
 
 ---
+### Subtypes values
 
-<!--
+I filtered from the tree attributes the values from the `Hazelaar` (Hazel) and `Berk` (Birch).
+
+<a href="images_kleenex/attribute_tree_data_tile.jpg">
+<img src="images_kleenex/attribute_tree_data_tile.jpg" alt="subtype data" width="400px">
+</a>
 
 <details>
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
@@ -692,40 +701,92 @@ cards:
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Entities Card Configuration
-type: tile
-entity: 'sensor.kleenex_pollen_radar_huis_trees'
-name: Hazelaar
-vertical: true
-card_mod:
-  style: |
-    {% set input_name = 'Hazelaar' %}
-    {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'current').details %}
-    {% set item = details | selectattr('name', 'eq', input_name) | first() %}
-    
-    {% set level = item.level | default('N/A') %}
-    {% set color_map = {'low': 'green', 'medium': 'orange', 'high': 'darkorange', 'very high': 'maroon'} %}
-    {% set circle_map = {'low': '25', 'medium': '50', 'high': '75', 'very high': '100'} %}
-    {% set level_color = color_map.get(level, 'gray') %}
-    {% set percentage = circle_map.get(level, '25') %}
-    
-    .icon-container {
-      border-radius: 24px;
-      background: radial-gradient(var(--card-background-color) 60%, transparent calc(60% + 1px)),
-      conic-gradient({{ level_color }} {{ percentage }}% 0%, var(--card-background-color) 0% 100%);
-    }
-    
-    ha-tile-icon {
-       --tile-color: {{level_color}};
-    }
+type: horizontal-stack
+cards:
+  - type: tile
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    name: Hazelaar
+    grid_options:
+      columns: 3
+      rows: 2
+    vertical: true
+    features_position: bottom
+    card_mod:
+      style:
+        ha-tile-icon: >
+          {% set input_name = 'Hazelaar' %} 
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'current').details %} 
+          {% set item = details | selectattr('name', 'eq', input_name) | first() %} 
+          {% set level = item.level | default('N/A') %}  
+          {% set color_map = {'low':'green', 'moderate': 'orange', 'high': 'darkorange', 'very high': 'maroon'} %} 
+          {% set level_color = color_map.get(level, 'gray') %}
 
-    ha-tile-info$: 
-      .secondary state-display { display: none; }
-      .secondary:after { content: "h"; }
+          ha-state-icon {
+            conic-gradient({{ level_color }} var(--card-background-color) 0% 100%);
+          }
+
+          ha-tile-icon {
+             --tile-color: {{level_color}};
+          }
+        ha-tile-info$: >
+          {% set input_name = 'Hazelaar' %}  
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'current').details %} 
+          {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+
+          .secondary state-display {
+            display: none;
+          }
+
+          .secondary::after {
+            content: "{{ item.value }} ppm";
+            display: block;
+            text-align: center;
+          }
+  - type: tile
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    name: Berk
+    grid_options:
+      columns: 3
+      rows: 2
+    vertical: true
+    features_position: bottom
+    card_mod:
+      style:
+        ha-tile-icon: >
+          {% set input_name = 'Berk' %} 
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'current').details %} 
+          {% set item = details | selectattr('name', 'eq', input_name) | first() %} 
+          {% set level = item.level | default('N/A') %}  
+          {% set color_map = {'low':'green', 'moderate': 'orange', 'high': 'darkorange', 'very high': 'maroon'} %} 
+          {% set level_color = color_map.get(level, 'gray') %}
+
+          ha-state-icon {
+            conic-gradient({{ level_color }} var(--card-background-color) 0% 100%);
+          }
+
+          ha-tile-icon {
+             --tile-color: {{level_color}};
+          }
+        ha-tile-info$: >
+          {% set input_name = 'Berk' %}  
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'current').details %} 
+          {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+
+          .secondary state-display {
+            display: none;
+          }
+
+          .secondary::after {
+            content: "{{ item.value }} ppm";
+            display: block;
+            text-align: center;
+          }
 {% endraw %}
 ```
-</details>
--->
 
+</details>
+
+---
 ### Specific subtypes forecast
 
 I created a bar graph with all tree data for the upcoming days.
