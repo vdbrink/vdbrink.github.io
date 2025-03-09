@@ -87,11 +87,11 @@ Criteria for my own automations are:
 ---
 
 ### Living room
-* Close the curtains in the evening. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor))
-* Open the curtains in the morning. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor))
+* Close the curtains in the evening. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor))
+* Open the curtains in the morning. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor))
 
 
-* Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) to detect brightness from inside and outside)
+* Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor) to detect brightness from inside and outside)
 * Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [button](../buy/smart_home_best_buy_tips#portable-button) near the bed)
 * Lights are automatically turned off when no one is in the living anymore. ([presence detection with mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor))
 * Dimming lights after a few minutes when the movie player is on. 
@@ -121,7 +121,7 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 * Depends on which area's the ventilation system is connected to.
   In my case, my bathroom humidity/temperature, kitchen humidity/temperature,
   kitchen/bathroom temperature/humidity difference, duration of a toilet visit.
-  ([lux](../buy/smart_home_best_buy_tips#lux-sensor) value above threshold x for time Y,  [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor), 
+  ([lux](../buy/smart_home_best_buy_tips#light-intensity-sensor) value above threshold x for time Y,  [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor), 
 [MV control via an additional remote linked to an ESP](../esphome/orcon_mechanic_ventilation))
 <br>
 <img src="images/ventilation_socket.jpg" alt="ventilation" height="350px" />
@@ -162,7 +162,7 @@ In the kitchen are a lot of peripherals, and these can be made smart.
 Sometimes by adding a sensor outside the device.
 
 #### Lights
-* Lights on, based on presence + light intensity. ([motion sensor](../buy/smart_home_best_buy_tips#motion-sensor) + [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor) + normal LED strip with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
+* Lights on, based on presence + light intensity. ([motion sensor](../buy/smart_home_best_buy_tips#motion-sensor) + [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor) + normal LED strip with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
  <br>
  <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
 
@@ -202,7 +202,7 @@ Sometimes by adding a sensor outside the device.
 ### Home office
 * Computer screen + lights + phone charger on when you sit in the office chair. ([car seat pressure sensor in the chair](/zigbee/zigbee_chair_occupancy_sensor))
 * Computer screen + lights + phone charger on when you enter the office. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the door)
-* Office lights only on when it's dark and someone is in the room. ([smart light](../buy/smart_home_best_buy_tips#lights), [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), [mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor) to detect a person who sits still)
+* Office lights only on when it's dark and someone is in the room. ([smart light](../buy/smart_home_best_buy_tips#lights), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor) to detect a person who sits still)
 * Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + [chair occupancy](/zigbee/zigbee_chair_occupancy_sensor))
 * On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/smart_home_best_buy_tips#lights))
 * Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
@@ -239,12 +239,12 @@ Sometimes by adding a sensor outside the device.
 ---
 
 ### Outside
-* Notification when it's nice weather to sit outside. (based on temperature, [humidity](../buy/smart_home_best_buy_tips#temperature-sensor), [lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), sun strength from a weather station)
+* Notification when it's nice weather to sit outside. (based on temperature, [humidity](../buy/smart_home_best_buy_tips#temperature-sensor), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), sun strength from a weather station)
 * Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + API weather forecast/weather station)
 * Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Close the sunscreen if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Notification when the gate is opened. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
-* Turn the lights on when going outside in the evening/night. ([lux sensor](../buy/smart_home_best_buy_tips#lux-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
+* Turn the lights on when going outside in the evening/night. ([lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
 * Put out the sunscreen when it heats the home too much.
 * Close the curtains when it heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
 * Close the curtains when it cools the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
