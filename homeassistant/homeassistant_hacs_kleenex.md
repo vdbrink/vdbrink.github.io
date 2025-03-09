@@ -13,13 +13,13 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation_high.jpg
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar** which you can easily use on your own dashboards.
+Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar** which you can easily add to your own dashboard.
 
-This integration shows Pollen information for grass, weeds and trees.
+This integration shows Pollen information for grass, trees and weeds.
 
-It's available for the countries: France, Italy, the Netherlands, the United Kingdom and the United States of America.
+It's available for the countries: The Netherlands, France, Italy, the United Kingdom and the United States of America.
 
-Check the git repository to find out all the options: https://github.com/MarcoGos/kleenex_pollenradar
+Check the git repository to find out all options: https://github.com/MarcoGos/kleenex_pollenradar
 
 ---
 ## Table of Contents
@@ -39,19 +39,21 @@ Check the git repository to find out all the options: https://github.com/MarcoGo
 
 ## Installation
 
-Here are the steps to setup this HACS `Kleenex Pollen Radar` integration.
+Here are the steps to install this HACS `Kleenex Pollen Radar` integration.
 
-* Use this button to install the [Kleenex pollen radar / Scottex](https://github.com/MarcoGos/kleenex_pollenradar) integration:
+* Use this button to add the [Kleenex pollen radar / Scottex](https://github.com/MarcoGos/kleenex_pollenradar) integration:
  
   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=MarcoGos&repository=kleenex_pollenradar&category=Integration)
-* Click Add integration
+* Click `Add integration`\
   Now you get one search result.
 * Select the Kleenex integration
 * Click on the detail page, in the right bottom corner on `Download`
+
+Now is the integration added, but not yet installed. 
 * Click this button to install the integration:
 
   [![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=kleenex_pollenradar)
-* Select your country and press Submit.
+* Select your country and press the `Submit` button.
 
   <a href="images_kleenex/kleenex_setup.png">
   <img src="images_kleenex/kleenex_setup.png" alt="setup Kleenex" width="250px">
@@ -65,9 +67,10 @@ Now you have these five new sensors.
 
 ---
 
-### Sub types in attributes
+### Subtypes in attributes
 
-Each sensor contains also in its `attributes` also extra information about different subtypes and a forecast for the upcoming days.
+Each sensor contains also in it's `attribute` value extra information about different subtypes and a forecast for the upcoming days.\
+These subtypes are possible:
 
 * Trees
   * Hazelaar (NL), Hazel (EN)
@@ -87,7 +90,7 @@ Each sensor contains also in its `attributes` also extra information about diffe
   * Ambrosia (NL), Ambrosia (EN)
   * Brandnetel (NL), Nettle (EN)
 
-To see this forecast data use this button to go to the `Developer tools` and filter the entities on with the keyword `kleenex`.
+To see this subtype and forecast data use this button to go to the `Developer tools` and filter the entities on with the keyword `kleenex`.
 <br>
 
 [![Open your Home Assistant instance and show your state developer tools.](https://my.home-assistant.io/badges/developer_states.svg)](https://my.home-assistant.io/redirect/developer_states/)
@@ -159,8 +162,8 @@ No need to create extra helper sensors.
 <img src="images_kleenex/kleenex_mushroom_presentation.jpg" alt="kleenex presentation with mushroom card" width="400px">
 </a>
 
-This presentation required the HACS integration [lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom) to create a custom presentation.\
-Install it via this button:
+This presentation required the HACS integration [lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom) to create this custom presentation.\
+Install the integration via this button:
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
 
@@ -324,7 +327,7 @@ cards:
 
 ### Tile card with progress indicator
 
-Show the entities with matching colors and a level border color.
+This presentation shows the entities with matching colors and a level border color.
 
 <a href="images_kleenex/kleenex_colored_presentation.png">
 <img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="400px">
@@ -337,7 +340,7 @@ The entities are clickable which show you the values over time:
 For this advanced presentation, you also need to add **three new sensors** to divide the ppm number into a textual value.
 This value will be used as text, but also be used for different colors and an indication circle of the intensity.
 <a name="lovelace-card-mod"/>
-And this presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
+This presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
 Install it via this button:
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
@@ -350,7 +353,7 @@ This can be done to the sensor section in the file `configuration.yaml` with thi
 Or create them via the [HA helper frontend](#via-the-frontend), see below this code block.
 
 <details>
-  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
+  <summary><b>> Click here to see the corresponding configuration.yaml code >></b></summary>
 
 ```yaml
 {% raw %}
@@ -411,8 +414,6 @@ Do this three times also for the `pollen_weeds_concentration` and `pollen_trees_
 Read more how to add a template (via the HA frontend itself) here on my [advanced Templates page](homeassistant_templates#how-to-add-a-template).
 
 #### Dashboard code
-
-This is the corresponding dashboard YAML code for the screenshot. 
 
 <details>
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
@@ -682,6 +683,49 @@ cards:
 
 ---
 
+<!--
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Entities Card Configuration
+type: tile
+entity: 'sensor.kleenex_pollen_radar_huis_trees'
+name: Hazelaar
+vertical: true
+card_mod:
+  style: |
+    {% set input_name = 'Hazelaar' %}
+    {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'current').details %}
+    {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+    
+    {% set level = item.level | default('N/A') %}
+    {% set color_map = {'low': 'green', 'medium': 'orange', 'high': 'darkorange', 'very high': 'maroon'} %}
+    {% set circle_map = {'low': '25', 'medium': '50', 'high': '75', 'very high': '100'} %}
+    {% set level_color = color_map.get(level, 'gray') %}
+    {% set percentage = circle_map.get(level, '25') %}
+    
+    .icon-container {
+      border-radius: 24px;
+      background: radial-gradient(var(--card-background-color) 60%, transparent calc(60% + 1px)),
+      conic-gradient({{ level_color }} {{ percentage }}% 0%, var(--card-background-color) 0% 100%);
+    }
+    
+    ha-tile-icon {
+       --tile-color: {{level_color}};
+    }
+
+    ha-tile-info$: 
+      .secondary state-display { display: none; }
+      .secondary:after { content: "h"; }
+{% endraw %}
+```
+</details>
+-->
+
 ### Specific subtypes forecast
 
 I created a bar graph with all tree data for the upcoming days.
@@ -694,7 +738,6 @@ Click this button to install the ApexCharts Card:
 <a href="images_kleenex/attribute_tree_data_apexcharts.jpg">
 <img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="kleenex advanced presentation" width="400px">
 </a>
-
 
 <details>
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
@@ -829,7 +872,7 @@ Good luck with the integration!
 
 ## Credits
 
-I got the ideas for the presentations from the HA forum:
+I got some ideas for the presentations from this HA forum:
 [[Help request] Pollen sensor Dutch hooikoortsradar.nl](https://community.home-assistant.io/t/help-request-pollen-sensor-dutch-hooikoortsradar-nl/524633)\
 If you got any questions you can ask them also here.
 

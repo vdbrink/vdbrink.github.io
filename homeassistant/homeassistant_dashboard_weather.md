@@ -16,8 +16,9 @@ Here you can find weather related examples for your own dashboard.
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Lightning and thunderstorm](#lightning-and-thunderstorm)
-* [Outside pressure, good vs bad](#outside-pressure-good-vs-bad)
+  * [Lightning and thunderstorm](#lightning-and-thunderstorm)
+  * [Outside pressure, good vs bad](#outside-pressure-good-vs-bad)
+  * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
 <!-- TOC -->
 
 ---
@@ -59,6 +60,14 @@ A template that indicates good or bad based on a threshold value.
         {% endif %}
 {% endraw %}
 ```
+
+---
+
+## Kleenex pollen radar Integration
+
+<img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
+
+Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration.
 
 ---
 [^^ Top](#table-of-contents)
