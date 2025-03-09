@@ -7,7 +7,8 @@ image: /zigbee/images/zigbee.jpg
 
 # Zigbee
 
-Zigbee is a local smart home protocol.\
+Zigbee is a local smart home protocol.
+
 I'm a hugh fan of it because it's local, affordable and has a wide range of products available.\  
 I have over 140 devices from all kinds of brands, and they’re all working together, no limitations.
 

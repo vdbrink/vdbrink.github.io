@@ -9,6 +9,10 @@
         let num = Math.floor(Math.random() * els.length);
         els[num].classList.remove("hide");
 
+        let hla = document.querySelectorAll(".hla");
+        let numHLA = Math.floor(Math.random() * hla.length);
+        hla[numHLA].classList.remove("hide");
+
         document.querySelectorAll('h1, h2, h3, h4, h5').forEach(title => {
             title.addEventListener('click', function() {
                 const anchor = this.id;
