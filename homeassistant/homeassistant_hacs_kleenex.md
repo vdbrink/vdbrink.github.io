@@ -17,9 +17,14 @@ Here you find Home Assistant (lovelace) dashboard examples related to the custom
 
 This integration shows Pollen information for grass, trees and weeds.
 
-It's available for the countries: The Netherlands, France, Italy, the United Kingdom and the United States of America.
-
+It's available for the countries: The Netherlands, France, Italy, the United Kingdom and the United States of America.\
 Check the git repository to find out all options: https://github.com/MarcoGos/kleenex_pollenradar
+
+**Alternative integration**
+
+If your country isn't in the list, 
+or you want to try another data provider, 
+you can also look at the [Google Pollen](https://github.com/svenove/home-assistant-google-pollen) integration.
 
 ---
 ## Table of Contents
