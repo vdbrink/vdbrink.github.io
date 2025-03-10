@@ -24,7 +24,7 @@ Check the git repository to find out all options: https://github.com/MarcoGos/kl
 
 If your country isn't in the list, 
 or you want to try another data provider, 
-you can also look at the [Google Pollen](https://github.com/svenove/home-assistant-google-pollen) integration.
+you can also look at the [Google Pollen](https://github.com/svenove/home-assistant-google-pollen#home-assistant-google-pollen) integration.
 
 ---
 ## Table of Contents
