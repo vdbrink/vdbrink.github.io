@@ -811,98 +811,119 @@ Click this button to install the ApexCharts Card:
 # Sourcecode by vdbrink.github.io
 # Entities Card Configuration
 type: custom:apexcharts-card
-header:
-  show: true
-  title: Kleenex Pollen Radar (Huis) - Trees
-  show_states: true
-  colorize_states: true
 now:
   show: true
 graph_span: 4d
 span:
   start: day
-  offset: +1d
 series:
   - name: Hazelaar
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#1f77b4" # Blue
-    data_generator: |
+    color: "#1f77b4"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Hazelaar").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Hazelaar").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name ===
+      "Hazelaar").value]));
   - name: Iep
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#ff7f0e" # Orange
-    data_generator: |
+    color: "#ff7f0e"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Iep").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Iep").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name === "Iep").value]));
   - name: Els
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#2ca02c" # Green
-    data_generator: |
+    color: "#2ca02c"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Els").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Els").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name === "Els").value]));
   - name: Populier
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#d62728" # Red
-    data_generator: |
+    color: "#d62728"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Populier").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Populier").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name ===
+      "Populier").value]));
   - name: Eik
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#9467bd" # Purple
-    data_generator: |
+    color: "#9467bd"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Eik").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Eik").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name === "Eik").value]));
   - name: Plataan
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#8c564b" # Brown
-    data_generator: |
+    color: "#8c564b"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Plataan").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Plataan").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name ===
+      "Plataan").value]));
   - name: Berk
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#e377c2" # Pink
-    data_generator: |
+    color: "#e377c2"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Berk").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Berk").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name === "Berk").value]));
   - name: Cipres
     entity: sensor.kleenex_pollen_radar_huis_trees
     type: column
-    color: "#7f7f7f" # Grey
-    data_generator: |
+    color: "#7f7f7f"
+    data_generator: >
       let data = [];
+
       if (entity.attributes.current) {
         data.push([new Date(entity.attributes.current.date).getTime(), entity.attributes.current.details.find(t => t.name === "Cipres").value]);
       }
-      return data.concat(entity.attributes.forecast.map(d => [new Date(d.date).getTime(), d.details.find(t => t.name === "Cipres").value]));
+
+      return data.concat(entity.attributes.forecast.map(d => [new
+      Date(d.date).getTime(), d.details.find(t => t.name === "Cipres").value]));
 apex_config:
   chart:
     type: bar
@@ -910,25 +931,19 @@ apex_config:
     type: datetime
   plotOptions:
     bar:
-      columnWidth: "60%" # Adjust for better visibility
+      columnWidth: 70%
   tooltip:
     enabled: true
   legend:
-    show: true
-    position: bottom
-    markers:
-      fillColors:
-        - "#1f77b4" # Hazelaar
-        - "#ff7f0e" # Iep
-        - "#2ca02c" # Els
-        - "#d62728" # Populier
-        - "#9467bd" # Eik
-        - "#8c564b" # Plataan
-        - "#e377c2" # Berk
-        - "#7f7f7f" # Cipres
-  {% endraw %}
+    labels: {
+      useSeriesColors: true
+    }
+{% endraw %}
 ```
 </details>
+
+The values in the legend are the ones from the last date.
+> If you know how to hide the legend values, please let me know.
 
 <br>
 
