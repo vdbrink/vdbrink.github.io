@@ -943,17 +943,22 @@ apex_config:
 </details>
 
 The values in the legend are the ones from the last date.
-> If you know how to hide the legend values, please let me know.
+> If you know how to hide the legend values, please let me know!
 
 <br>
 
 Good luck with the integration!
 
+Any questions or suggestions?
+Please let me know then I can improve this page for the next reader.
+
+---
+
 ## Credits
 
 I got some ideas for the presentations from this HA forum:
 [[Help request] Pollen sensor Dutch hooikoortsradar.nl](https://community.home-assistant.io/t/help-request-pollen-sensor-dutch-hooikoortsradar-nl/524633)\
-If you got any questions you can ask them also here.
+If you got any questions you can also ask them here.
 
 ---
 [^^ Top](#table-of-contents)
