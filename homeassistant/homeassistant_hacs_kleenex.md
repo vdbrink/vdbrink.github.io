@@ -188,32 +188,32 @@ cards:
     primary: >-
       Trees: {% set level =
       states('sensor.kleenex_pollen_radar_home_trees')|int(0) %}
-      {% if level <= 29 %} Low
-      {% elif level <= 60 %} Moderate 
-      {% elif level <= 341 %} High
+      {% if level <= 95 %} Low
+      {% elif level <= 207 %} Moderate 
+      {% elif level <= 703 %} High
       {% else %} very High
       {% endif %}
     secondary: "{{ states('sensor.kleenex_pollen_radar_home_trees') }} ppm"
     icon: mdi:tree
     icon_color: |-
       {% set trees = states('sensor.kleenex_pollen_radar_home_trees') | int %}
-      {% if trees < 25 %}
+      {% if trees < 80 %}
       #006400
-      {% elif trees < 50 %}
+      {% elif trees < 96 %}
       #008000
-      {% elif trees < 75 %}
+      {% elif trees < 120 %}
       #90EE90
-      {% elif trees < 100 %}
+      {% elif trees < 170 %}
       #FFFF00
-      {% elif trees < 125 %}
-      #FFD700
-      {% elif trees < 149 %}
-      #FFA500
       {% elif trees < 250 %}
+      #FFD700
+      {% elif trees < 330 %}
+      #FFA500
+      {% elif trees < 500 %}
       #FF8C00
-      {% elif trees < 400 %}
+      {% elif trees =< 704 %}
       #FF0000
-      {% elif trees >= 400 %}
+      {% elif trees > 704 %}
       #8B0000
       {% else %}
       #800080
@@ -247,22 +247,20 @@ cards:
       {% set grass = states('sensor.kleenex_pollen_radar_home_grass') | int %}
       {% if grass < 25 %}
       #006400
-      {% elif grass < 50 %}
+      {% elif grass < 29 %}
       #008000
-      {% elif grass < 75 %}
+      {% elif grass < 61 %}
       #90EE90
       {% elif grass < 100 %}
       #FFFF00
-      {% elif grass < 125 %}
+      {% elif grass < 180 %}
       #FFD700
-      {% elif grass < 149 %}
-      #FFA500
       {% elif grass < 250 %}
+      #FFA500
+      {% elif grass < 342 %}
       #FF8C00
-      {% elif grass < 400 %}
+      {% elif grass > 341 %}
       #FF0000
-      {% elif grass < 500 %}
-      #8B0000
       {% else %}
       #800080
       {% endif %} 
@@ -284,32 +282,32 @@ cards:
     primary: |-
       Weeds:
       {% set level = states('sensor.kleenex_pollen_radar_home_weeds')|int(0) %}
-      {% if level <= 29 %} Low
-      {% elif level <= 60 %} Moderate 
-      {% elif level <= 341 %} High
+      {% if level <= 20 %} Low
+      {% elif level <= 77 %} Moderate 
+      {% elif level <= 266 %} High
       {% else %} very High
       {% endif %}
     secondary: "{{ states('sensor.kleenex_pollen_radar_home_weeds') }} ppm"
     icon: mdi:flower-pollen
     icon_color: |-
       {% set weeds = states('sensor.kleenex_pollen_radar_home_weeds') | int %}
-      {% if weeds < 25 %}
+      {% if weeds < 15 %}
       #006400
-      {% elif weeds < 50 %}
+      {% elif weeds < 21 %}
       #008000
-      {% elif weeds < 75 %}
+      {% elif weeds < 45 %}
       #90EE90
-      {% elif weeds < 100 %}
+      {% elif weeds < 60 %}
       #FFFF00
-      {% elif weeds < 125 %}
+      {% elif weeds < 100 %}
       #FFD700
-      {% elif weeds < 149 %}
+      {% elif weeds < 150 %}
       #FFA500
-      {% elif weeds < 250 %}
+      {% elif weeds < 200 %}
       #FF8C00
-      {% elif weeds < 400 %}
+      {% elif weeds < 267 %}
       #FF0000
-      {% elif weeds < 500 %}
+      {% elif weeds > 266 %}
       #8B0000
       {% else %}
       #800080
@@ -381,17 +379,17 @@ Or create them via the [HA helper frontend](#via-the-frontend), see below this c
     pollen_trees_concentration:
       value_template: >-
         {% set level = states('sensor.kleenex_pollen_radar_huis_trees')|int(0) %}
-        {% if level <= 29 %} Laag
-        {% elif level <= 60 %} Gemiddeld
-        {% elif level <= 341 %} Hoog
+        {% if level <= 95 %} Laag
+        {% elif level <= 207 %} Gemiddeld
+        {% elif level <= 703 %} Hoog
         {% else %} Zeer Hoog
         {% endif %}
     pollen_weeds_concentration:
       value_template: >-
         {% set level = states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %}
-        {% if level <= 29 %} Laag
-        {% elif level <= 60 %} Gemiddeld
-        {% elif level <= 341 %} Hoog
+        {% if level <= 20 %} Laag
+        {% elif level <= 77 %} Gemiddeld
+        {% elif level <= 266 %} Hoog
         {% else %} Zeer Hoog
         {% endif %}
 {% endraw %}
