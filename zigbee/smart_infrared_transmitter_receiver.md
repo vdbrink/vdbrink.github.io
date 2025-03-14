@@ -182,7 +182,7 @@ These hardware devices are examples of what you need and can use in your own inf
 
 * {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An few examples of Zigbee and WiFi devices which act as programmable infrared remotes</a>.
 
-  They can learn signals from the original remote, and via Wi-Fi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
+  They can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
   There are also devices that support RF signals as well.\
   I use in these examples the [Zigbee Moes UFO-R11](https://s.click.aliexpress.com/e/_DEUWZ73).
 

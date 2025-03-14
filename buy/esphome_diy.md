@@ -255,7 +255,7 @@ USB-A to micro USB cable to power the ESP8266.
 
 USB-A to USB-C cable to power the ESP32.
 
-<a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oB1SfVP" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
 {{imgBasket}}USB-C cable (AliExpress)</a>
 

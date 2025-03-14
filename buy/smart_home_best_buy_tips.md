@@ -100,13 +100,13 @@ A reason why not to choose for Zigbee? I don't know :)
 <a href="https://slae.sh/projects/cc2652/" target="_blank">
 <img src="images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" height="150px" style="margin-left:15px;float:right"/></a>
 
-This new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">Sonoff ZBDongle-E Plus (AliExpress)</a> <a href="https://amzn.to/3OkLelX" target="_blank">(Amazon)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
+This new coordinator which many people are very satisfied with is the <a href="https://s.click.aliexpress.com/e/_omtmrmV" target="_blank">Sonoff ZBDongle-E Plus (AliExpress)</a> <a href="https://amzn.to/3OkLelX" target="_blank">(Amazon)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
 
 I've run my Zigbee network since 2020 non-stop with the {{imgBasket}}<a href="https://slae.sh/projects/cc2652/" target="_blank">Slaesh's CC2652RB stick (Slae website)</a> <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
 My network grew to 140+ devices today, and it still runs fast.
 
 
-<a href="https://s.click.aliexpress.com/e/_EuPZr6H" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_omtmrmV" target="_blank">
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a>
 
 To avoid interference with Bluetooth or WiFi,
@@ -134,7 +134,7 @@ The sensor can also be used attached to other sensors that also return an open o
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor - Aqara (AliExpress)</a>
 <a href="https://amzn.to/3Dnl1kK" target="_blank">(Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a> 
+<a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a> aka T1 
 Small and a long battery life.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
@@ -154,7 +154,7 @@ Battery powered, bigger, cheaper.
 <a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">
 <img src="images_zigbee/human_presence_sensor.avif" alt="pir + mmWave human motion and presence sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
-New and improved, human presence sensors.<br>
+A human presence sensors.<br>
 It's a combination with a PIR + mmWave radar and brightness sensor. 
 It's wireless and 2x AAA battery powered.<br> 
 The PIR sensor is used to detect a person and to activate the mmWave radar sensor. 
@@ -291,7 +291,6 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 <a href="https://amzn.to/4hkYjYw" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
-<br>
 <br>
 <br>
 
@@ -444,7 +443,7 @@ There is a separated page where you can find them [Outdoor sensors - Best Buy Ti
 
 ### Air quality sensor
 
-<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oo1Odtf" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six kinds of environmental parameters:
@@ -462,7 +461,7 @@ Normally you get single sensors for each parameter!
 Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor.
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">Zigbee / WiFi Air quality sensor - Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oo1Odtf" target="_blank">Zigbee / WiFi Air quality sensor - Tuya (AliExpress)</a>
 <a href="https://amzn.to/40Y4IEB" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
@@ -503,13 +502,13 @@ Model: RF-R1
 
 ### Radiator Thermostat
 
-<a href="https://s.click.aliexpress.com/e/_Ddaa6GD" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_ongwmtx" target="_blank">
 <img src="/buy/images_zigbee/thermostat.avif" alt="Zigbee radiator thermostat" height="150px" style="margin-left:15px;float:right"/></a>
 
 With this radiator thermostat valve, it is possible to open and close the radiator in steps.\
 You can also schedule complete weeks in it what the temperature should be.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddaa6GD" target="_blank">Zigbee smart radiator thermostat - Moes / Tuya (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ongwmtx" target="_blank">Zigbee smart radiator thermostat - Moes / Tuya (AliExpress)</a>
 <a href="https://amzn.to/417IWOV" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html" target="_blank" alt="TV02">{{imgZ2M}}TV02</a>
 <br>
@@ -593,7 +592,7 @@ If you buy one which has lower wattage, your socket constantly stops working; th
 
 USB stick to handle heavy GPU processes, like human detection with Frigate.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">Coral - Google (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">Coral USB - Google (AliExpress)</a>
 
 ---
 
@@ -657,7 +656,7 @@ USB-A to micro USB cable to power the ESP.
 
 USB-A to USB-C cable to power the ESP.
 
-<a href="https://s.click.aliexpress.com/e/_EHngRGX" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oB1SfVP" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
 {{imgBasket}}USB-A to USB-C cable (AliExpress)</a>
 

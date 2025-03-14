@@ -67,6 +67,18 @@ This one support over 100 dynamic effects. These are controllable via the WLED A
 
 ## Outdoor socket
 
+<a href="https://amzn.to/4gBFjop" target="_blank">
+<img src="/buy/images_zigbee/ledvance_outdoor_plug.jpg" alt="LEDVANCE ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rating and with power measurement.
+
+{{imgBasket}}<a href="https://amzn.to/4gBFjop" target="_blank">Zigbee outdoor power socket - LEDVANCE (Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank" title="4099854293276">{{imgZ2M}}4099854293276</a>
+
+<br>
+<br>
+<br>
+
 <a href="https://amzn.to/3Vt83Ip" target="_blank">
 <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
@@ -75,17 +87,6 @@ This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (
 {{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
 
-<br>
-<br>
-<br>
-
-<a href="https://amzn.to/4gBFjop" target="_blank">
-<img src="/buy/images_zigbee/ledvance_outdoor_plug.jpg" alt="LEDVANCE ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rating and with power measurement.
-
-{{imgBasket}}<a href="https://amzn.to/4gBFjop" target="_blank">Zigbee outdoor power socket - LEDVANCE (Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank" title="4099854293276">{{imgZ2M}}4099854293276</a>
 
 [//]: # ()
 [//]: # (<a href="" target="_blank">)

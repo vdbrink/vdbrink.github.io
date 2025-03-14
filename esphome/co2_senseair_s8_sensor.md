@@ -174,7 +174,7 @@ I drilled some holes in the case. Now the air can reach the CO2 sensor inside th
 
 Connect the ESP via USB to the computer.
 
-Install ESPHome and compile the configuration code after you configured your own wi-fi. And configure (or remove) the MQTT section. This is not needed if you integrate it direct in Home Assistant.
+Install ESPHome and compile the configuration code after you configured your own wifi. And configure (or remove) the MQTT section. This is not needed if you integrate it direct in Home Assistant.
 
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
@@ -188,7 +188,7 @@ esphome:
   board: d1_mini
   arduino_version: latest
 
-wi-fi:
+wifi:
   ssid: "xxx"
   password: "xxx"
   fast_connect: true # only needed for hidden SSID

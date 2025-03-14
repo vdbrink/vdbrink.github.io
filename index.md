@@ -62,7 +62,7 @@ Topics you can find here:
 Hi, since I was a little kid, I was always interested in home automation and years later still it's my passion to
 automate my home!
 
-With the introduction of the ESP boards, with wi-fi support, it all became easier to create your own sensors.
+With the introduction of the ESP boards, with wifi support, it all became easier to create your own sensors.
 Manufactures started to create products which are now more affordable and easier to connect to each other.
 Software projects, Like Zigbee2MQTT, Home Assistant and Node-RED, popped up, and more users adopted these projects and so did I.
 With this as your base, you can connect hardware devices together and let them work together via software, the

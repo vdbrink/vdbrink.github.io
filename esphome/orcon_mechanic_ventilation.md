@@ -159,7 +159,7 @@ Based on the used power I can determ the current state.
 
 ### Functionality
 With ESPHome you can flash the ESP8266 with software to trigger the connected remote buttons by using the momentary switch functionality. This puts, for a few moments, a signal on a pin. This simulates a press on the button.
-Because the ESP8266 has wi-fi access, you can control this from any device in the network.
+Because the ESP8266 has wifi access, you can control this from any device in the network.
 
 ### Why ESPHome
 ESPHome has seamless integration with Home Assistant and supports MQTT out of the box. This is all I need.
@@ -169,7 +169,7 @@ In the code, there are also these two ways defined to control the ESP. One via t
 
 Connect the ESP via USB to the computer.  
 
-Install ESPHome and compile the configuration code after you configured your own wi-fi. And configure (or remove) the MQTT section.
+Install ESPHome and compile the configuration code after you configured your own wifi. And configure (or remove) the MQTT section.
 
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
