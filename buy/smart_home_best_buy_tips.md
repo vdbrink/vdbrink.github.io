@@ -38,27 +38,22 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Contact sensor](#contact-sensor)
     * [Motion sensor](#motion-sensor)
     * [Presence detection sensor](#presence-detection-sensor)
-    * [Air quality sensor](#air-quality-sensor)
     * [Temperature sensor](#temperature-sensor)
     * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
-    * [Rain sensor](#rain-sensor)
-    * [Soil sensor](#soil-sensor)
     * [Lights](#lights)
     * [Bulb socket](#bulb-socket)
     * [Buttons](#buttons)
     * [Vibration sensor](#vibration-sensor)
     * [USB adapter switch](#usb-adapter-switch)
+    * [Outdoor sensors](#outdoor-sensors)
+    * [Air quality sensor](#air-quality-sensor)
     * [Infrared remote control](#infrared-remote-control)
     * [Radiator Thermostat](#radiator-thermostat)
     * [Power strip](#power-strip)
     * [Smart socket](#smart-socket)
-      * [Outdoor socket](#outdoor-socket)
+  * [Google Coral USB](#google-coral-usb)
   * [Batteries](#batteries)
-    * [AAA sized](#aaa-sized)
-    * [CR2032](#cr2032)
-    * [CR1632](#cr1632)
-    * [CR2450](#cr2450)
     * [Battery eliminators](#battery-eliminators)
   * [Cables](#cables)
     * [Micro USB power cable](#micro-usb-power-cable)
@@ -66,9 +61,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [USB-C to USB-C](#usb-c-to-usb-c)
     * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
-  * [Battery powered with PIR](#battery-powered-with-pir-)
-    * [Lights](#lights-1)
-    * [Soap dispenser](#soap-dispenser)
+  * [Battery powered with PIR](#battery-powered-with-pir)
 <!-- TOC -->
 
 ---
@@ -147,7 +140,7 @@ Small and a long battery life.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">Zigbee Contact sensor - Tuya (AliExpress)</a>
 <a href="https://amzn.to/3ZfMxch" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
-Small cheaper.
+Small and cheaper.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">Zigbee Contact sensor 2xAAA powered - Tuya (AliExpress)</a>
 <a href="https://amzn.to/4eBavTK" target="_blank">(Amazon)</a>
@@ -219,32 +212,6 @@ Ideal for the living room, bedrooms and home office.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">Zigbee / WiFi human Presence detection sensor (AliExpress)</a>
 <a href="https://amzn.to/3Zi5pay" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
-
----
-
-### Air quality sensor
-
-<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">
-<img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
-
-This 6-in-1 sensor can detect six kinds of environmental parameters:
-* Temperature
-* Humidity
-* PM2.5
-* VOC of poisonous gas
-* Formaldehyde (not really accurate)
-* CO2 (not really accurate, then you need a dedicated one)
-
-All these values can affect a healthy environment at home.
-
-Normally you get single sensors for each parameter!
-
-Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor. 
-But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">Zigbee / WiFi Air quality sensor - Tuya (AliExpress)</a>
-<a href="https://amzn.to/40Y4IEB" target="_blank">(Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
 ---
 
@@ -326,37 +293,6 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 
 <br>
 <br>
-<br>
-
----
-
-### Rain sensor
-
-<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">
-<img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor sensor detects raindrops and measures the light intensity (lux).\
-It contains a build-in battery that charges via a small solar panel.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">Zigbee raindrop + lux sensor (AliExpress)</a>
-<a href="https://amzn.to/4i2oF32" target="_blank">(Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
-
-<br><br>
-
----
-### Soil sensor
-
-<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">
-<img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="150px" style="margin-left:15px;float:right"/></a>
-
-This sensor measures the soil temperature and humidity.\
-It can be used for plants inside and outside.\
-It contains a build-in battery that charges via a solar panel on top of it.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">Zigbee soil sensor (AliExpress)</a>
-<a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
-
 <br>
 
 ---
@@ -497,6 +433,41 @@ The first port can also be used to switch on/off data access via USB, the other 
 <br>
 
 ---
+### Outdoor sensors
+
+There are also outdoor sensors and actuators available, 
+like water-resistant sockets, LED strips, rain sensors, etc...
+
+There is a separated page where you can find them [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
+
+---
+
+### Air quality sensor
+
+<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">
+<img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+This 6-in-1 sensor can detect six kinds of environmental parameters:
+* Temperature
+* Humidity
+* PM2.5
+* VOC of poisonous gas
+* Formaldehyde (not really accurate)
+* CO2 (not really accurate, then you need a dedicated one)
+
+All these values can affect a healthy environment at home.
+
+Normally you get single sensors for each parameter!
+
+Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor.
+But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCFb99R" target="_blank">Zigbee / WiFi Air quality sensor - Tuya (AliExpress)</a>
+<a href="https://amzn.to/40Y4IEB" target="_blank">(Amazon)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
+
+---
+
 
 ### Infrared remote control
 
@@ -612,55 +583,6 @@ If you buy one which has lower wattage, your socket constantly stops working; th
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
 <a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
-
-#### Outdoor socket
-
-<a href="https://amzn.to/3Vt83Ip" target="_blank">
-<img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (without power measurement).
-
-{{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
-
-<br>
-<br>
-<br>
-
-<a href="https://amzn.to/4gBFjop" target="_blank">
-<img src="/buy/images_zigbee/ledvance_outdoor_socket.jpg" alt="LEDVANCE ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rating and with power measurement.
-
-{{imgBasket}}<a href="https://amzn.to/4gBFjop" target="_blank">Zigbee outdoor power socket - LEDVANCE (Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank" title="4099854293276">{{imgZ2M}}4099854293276</a>
-
-[//]: # ()
-[//]: # (<a href="" target="_blank">)
-
-[//]: # (<img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>)
-
-[//]: # ()
-[//]: # (This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating &#40;without power measurement&#41;.)
-
-[//]: # ()
-[//]: # ({{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset &#40;Amazon&#41;</a>)
-
-[//]: # (<a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>)
-
-<br>
-
-<br>
-
-<a href="https://amzn.to/40SVJoc" target="_blank">
-<img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-This is a **dual socket** outdoor Zigbee device, where each socket can be controlled individual and has **power consumption measurements**.
-
-{{imgBasket}}<a href="https://amzn.to/40SVJoc" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon)</a>
-<a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
-
-<br>
 
 ---
 
@@ -779,7 +701,7 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 ---
 
-## Battery powered with PIR 
+## Battery powered with PIR
 
 Not connected, but still smart with a PIR sensor in it.
 
@@ -792,20 +714,9 @@ Very useful for closets or stairs where no power is available.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">Battery powered PIR lights (AliExpress)</a>
 
-### Soap dispenser
-
-Fill it with a mix of soap and water, and you get direct foam soap when you hold your hand underneath it because of the build-in PIR sensor.
-No dirty soap pump, no need to spill of extra water to make the soap foam first.
-
-It saves a lot of time and water while cooking!
-
-<a href="https://s.click.aliexpress.com/e/_EuQBBmY" target="_blank">
-<img src="images_kitchen/soap_dispenser.avif" alt="Battery powered soap dispenser" width="150px"/></a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EuQBBmY" target="_blank">Battery powered soap dispenser, in white or black (AliExpress)</a>
-
 ---
 
 <br><br>
+That's it for the indoor sensors, see also my [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
 
-See [ESPHome DIY sensors buy tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.
+Or checkout [ESPHome DIY sensors buy tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.
