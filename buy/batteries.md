@@ -149,12 +149,12 @@ Charger for AA and AAA batteries.
 
 #### Disposable
 
-<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oDUcuQH" target="_blank">
 <img src="images_batteries/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
 
 This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBuYbP9" target="_blank">CR2032 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDUcuQH" target="_blank">CR2032 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/4hRObaI" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/3V4sHye" target="_blank">(AmazonNL)</a>
 
@@ -225,7 +225,7 @@ This CR1632 battery is a bit smaller than the CR2032.
 <a href="https://amzn.to/3ECCUg3" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/490qqKe" target="_blank">(AmazonNL)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onH4bF0" target="_blank">CR1632 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_omGaaZj" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
 #### Rechargeable
 

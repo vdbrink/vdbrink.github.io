@@ -13,7 +13,9 @@ image: /buy/images_zigbee/zigbee_banner.png
 
 <br>
 
-![Banner](images_zigbee/zigbee_banner.png)
+<a href="/buy">
+<img src="images_zigbee/zigbee_banner.png" alt="Banner"/>
+</a>
 
 <br>
 

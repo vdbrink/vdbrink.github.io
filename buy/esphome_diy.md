@@ -131,7 +131,7 @@ AGS10 TVOC air quality gas sensor.
 <a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">
 <img src="images_diy/ags10.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olq1AMr" target="_blank">AGS10 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opE66VT" target="_blank">AGS10 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">AGS10 (AliExpress)</a>
 
@@ -234,10 +234,12 @@ The HLK-2410C is a 24GHz occupancy sensor (a.k.a. millimeter wave sensor)
 
 The RCWL-0516 presence sensor (a.k.a. micrometer sensor)
 
+Check [this page](/esphome/microwave_radar_sensor_rcwl-0516) how to make your own presence detection sensor with this sensor.
+
 <a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">
 <img src="../esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">RCWL-0516, link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">RCWL-0516 (AliExpress)</a>
 
 ---
 
