@@ -792,6 +792,8 @@ cards:
 ---
 ### Specific subtypes forecast
 
+#### ApexCharts
+
 I created a bar graph with all tree data for the upcoming days.
 I used for this presentation the HACS [ApexCharts Card](https://github.com/RomRider/apexcharts-card) integration.
 
@@ -816,6 +818,9 @@ now:
 graph_span: 4d
 span:
   start: day
+all_series_config:
+  show:
+    legend_value: false  
 series:
   - name: Hazelaar
     entity: sensor.kleenex_pollen_radar_huis_trees
@@ -942,14 +947,59 @@ apex_config:
 ```
 </details>
 
-The values in the legend are the ones from the last date.
-> If you know how to hide the legend values, please let me know!
+---
+#### Markdown table
 
+I created a table, based on a Markdown Card, with all tree data for today.
+
+<a href="images_kleenex/attribute_tree_data_table.jpg">
+<img src="images_kleenex/attribute_tree_data_table.jpg" alt="kleenex table presentation" width="400px">
+</a>
+
+<details>
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Markdown Card Configuration
+type: markdown
+content: >-
+  <table width="100%">
+    <thead>
+      <tr>
+        <th align="left">Tree</th>
+        <th align="left">Value</th>
+        <th align="left">Level</th>
+      </tr>
+    </thead>
+    <tbody>
+  {% set pollen =
+  states.sensor.kleenex_pollen_radar_huis_trees.attributes.current.details %}
+  {% for tree in pollen %}
+    <tr>
+      <td>{{ tree.name }}</td>
+      <td>{{ tree.value }}</td>
+      <td>{{ tree.level }}</td>
+    </tr>
+  {% endfor %}
+    </tbody>
+  </table>
+card_mod:
+  style: |
+    ha-card {
+      font-size: 14px;
+    }
+{% endraw %}
+```
+</details>
+
+---
 <br>
 
 Good luck with the integration!
 
-Any questions or suggestions?
+Any questions or suggestions?\
 Please let me know then I can improve this page for the next reader.
 
 ---
