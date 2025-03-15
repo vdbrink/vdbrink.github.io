@@ -1011,7 +1011,6 @@ I got some ideas for the presentations from this HA forum:
 If you got any questions you can also ask them here.
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
 

@@ -179,6 +179,5 @@ entities:
 ```
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)

@@ -349,6 +349,5 @@ There are a lot more functionalities possible!
 It's endless!
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)

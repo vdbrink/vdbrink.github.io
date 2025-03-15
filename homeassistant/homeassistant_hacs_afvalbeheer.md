@@ -441,7 +441,6 @@ I created a [separated page](../projects/bin_day_led_strip_reminder) how I setup
 </a>
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
 

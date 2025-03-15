@@ -70,7 +70,6 @@ A template that indicates good or bad based on a threshold value.
 Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration.
 
 ---
-[^^ Top](#table-of-contents)
 
 [Dutch weather elements >>](homeassistant_dashboard_weather)
 

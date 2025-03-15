@@ -544,6 +544,5 @@ A: No, but you can increase the hours your login token is valid. The default val
 A: Checkout the [website](https://hay-kot.github.io/mealie/) or via [Discord](https://discord.gg/QuStdQGSGK)
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)

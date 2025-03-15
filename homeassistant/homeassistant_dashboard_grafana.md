@@ -193,6 +193,5 @@ Good luck!
 Any questions or still unclear? Please let me know where I can improve it.
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)

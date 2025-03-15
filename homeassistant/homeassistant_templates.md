@@ -698,7 +698,6 @@ That's it; I hope you can use some of these templates in your own setup.
 Let me know which cool templates you use!
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
 

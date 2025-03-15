@@ -340,6 +340,5 @@ Mushroom cards can also be shown conditionally, see my [conditional mushroom car
 I created a [separated page](homeassistant_dashboard_chores.md) about this subject where I use multiple auto entities lists to show which chores must be done and which are already done.
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant pages](index)

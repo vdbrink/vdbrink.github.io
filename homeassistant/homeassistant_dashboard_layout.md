@@ -430,7 +430,6 @@ You need to activate the iframe allowed functionality in Grafana, and then you c
 Read all about in on the dedicated page.
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
 

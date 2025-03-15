@@ -274,6 +274,5 @@ A: Yes you can with this code block in the description.
 A: See their [website](https://hay-kot.github.io/mealie/)
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)

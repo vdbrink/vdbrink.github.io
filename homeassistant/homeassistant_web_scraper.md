@@ -209,7 +209,6 @@ Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scrap
 > **_NOTE:_** In the old YAML [Scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
 

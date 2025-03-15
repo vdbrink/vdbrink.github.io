@@ -348,6 +348,5 @@ https://smarthomepursuits.com/chore-tracking-with-point-system-in-home-assistant
 There is also a HACS integration where you also can manage your household tasks, [Chore Helper for Home Assistant](https://github.com/bmcclure/ha-chore-helper?tab=readme-ov-file#chore-helper-for-home-assistant)
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)

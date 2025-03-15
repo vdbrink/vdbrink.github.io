@@ -209,11 +209,10 @@ See this [private project link](https://help.wecity.nl/bodemvocht-en-grondsoort)
 
 ## Soil type and water levels
 
-In this graph you can see that each type of soil has his own levels when it's good for plants to live on.
+In this graph, you can see that each type of soil has his own levels when it's good for plants to live on.
 
 <img src="images_pientere_tuinen/range-of-optimum-soil-moisture.jpg" alt="" width="400px">
 
 ---
-[^^ Top](#table-of-contents)
 
 [<< See also my other Home Assistant tips and tricks](index)
