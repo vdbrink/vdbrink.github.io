@@ -2,7 +2,7 @@
 title: "Zigbee Outdoor - Best Buy Tips"
 description: "Useful link to buy Zigbee sensors and actuator for outdoor."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, sensors, Aqara, outdoor, Zigbee, WiFi]
+tags: [Best, Buy, tips, smart, home automation, sensors, lights, soil, garden, outdoor, Zigbee]
 image: /buy/images_zigbee/zigbee_banner.png
 ---
 {% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -11,7 +11,7 @@ image: /buy/images_zigbee/zigbee_banner.png
 
 # Zigbee Outdoor - Best Buy Tips
 
-For outdoor electronic hardware devices are also Zigbee and WiFi smart devices available.
+For outdoor electronic hardware devices are also Zigbee smart devices available.
 
 Find here a set of preselected devices which you can buy for in your garden or garden room.
 
@@ -21,6 +21,10 @@ Find here a set of preselected devices which you can buy for in your garden or g
 <!-- TOC -->
   * [Rain sensor](#rain-sensor)
   * [Soil sensor](#soil-sensor)
+  * [Garden lights](#garden-lights)
+    * [Lawn light](#lawn-light)
+    * [Spotlight](#spotlight)
+    * [Floodlight](#floodlight)
   * [LED strip](#led-strip)
   * [Outdoor socket](#outdoor-socket)
 <!-- TOC -->
@@ -57,23 +61,63 @@ It contains a build-in battery that charges via a solar panel on top of it.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">Zigbee soil sensor (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
-<br><br>
+<br>
 
 ---
 
 ## Garden lights
 
+### Lawn light
+
 <a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">
-<img src="images_outdoor/zigbee_outdoor_pole_light.avif" alt="Outdoor Zigbee light pole" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_outdoor/zigbee_outdoor_pole_light.avif" alt="Outdoor Zigbee lawn light" height="150px" style="margin-left:15px;float:right"/>
 </a>
+A 9W / 24V DC light with 16 million colors.
+The brightness and color temperature are adjustable, and it's (of course) water-resistant.
 
-
-<br>
+Support 2.4G RF remote control directly.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">Outdoor Zigbee garden light pole - MiBoxer (AliExpress)</a>
 
-[//]: # (<a href="https://www.zigbee2mqtt.io/devices/xxx.html" target="_blank" title="xxx">{{imgZ2M}}xxx</a>)
+model: LA5-09S-ZL
 
+---
+
+### Spotlight
+
+<a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">
+<img src="images_outdoor/zigbee_spotlight.avif" alt="Outdoor Zigbee spotlight" height="150px" style="margin-left:15px;float:right"/>
+</a>
+A 7W / 24V DC spotlight with 16 million colors..
+The brightness and color temperature are adjustable, and it's (of course) water-resistant.
+
+Support 2.4G RF remote control directly.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">Zigbee Spotlight - Gledopto (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/GL-G-003P.html" target="_blank" title="GL-G-003P">{{imgZ2M}}GL-G-003P</a>
+
+You can link multiple lights together.
+
+<a href="images_outdoor/zigbee_spotlight_linking.avif">
+<img src="images_outdoor/zigbee_spotlight_linking.avif" alt="Outdoor Zigbee spotlight" height="150px" />
+</a>
+
+---
+
+### Floodlight
+
+<a href="https://s.click.aliexpress.com/e/_okk5Oi1" target="_blank">
+<img src="images_outdoor/zigbee_floodlight.avif" alt="Outdoor Zigbee floodlight" height="150px" style="margin-left:15px;float:right"/>
+</a>
+A 10W / 12V DC LED floodlight with 16 million colors.
+The brightness and color temperature are adjustable, and it's (of course) water-resistant.
+
+Support 2.4G RF remote control directly.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okk5Oi1" target="_blank">Zigbee Floodlight - Gledopto (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/GL-FL-001P.html" target="_blank" title="GL-FL-001P">{{imgZ2M}}GL-FL-001P</a>
+
+<br>
 
 ---
 
@@ -91,11 +135,6 @@ This LED strip is available in different versions:
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0503B.html" target="_blank" title="TS0503B">{{imgZ2M}}TS0503B</a>
-
-<br>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_on0VP8A" target="_blank">WiFi ESP32 WLED RGB 3-30m LED strip (AliExpress)</a>
-This one support over 100 dynamic effects. These are controllable via the WLED API or app.
 
 ---
 
