@@ -15,7 +15,10 @@ For outdoor electronic hardware devices are also Zigbee smart devices available.
 
 Find here a set of preselected devices which you can buy for in your garden or garden room.
 
+<img src="images_outdoor/spotlights.png" alt="spotlights in the garden" height="150px" /></a>
+
 ---
+
 
 ## Table of Contents
 <!-- TOC -->
