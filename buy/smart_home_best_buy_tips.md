@@ -69,7 +69,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
 ---
 
 > **_NOTE 1:_** Almost all hardware links on this page are devices I also use myself.\
-> Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
+> Most of the links are affiliate links, you pay the same price AND support my blog a bit.
 
 > **_NOTE 2:_** I advise these products based on my personal experience.\
 > I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT.\

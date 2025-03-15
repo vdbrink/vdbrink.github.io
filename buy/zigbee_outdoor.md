@@ -11,6 +11,24 @@ image: /buy/images_zigbee/zigbee_banner.png
 
 # Zigbee Outdoor - Best Buy Tips
 
+For outdoor electronic hardware devices are also Zigbee and WiFi smart devices available.
+
+Find here a set of preselected devices which you can buy for in your garden or garden room.
+
+---
+
+## Table of Contents
+<!-- TOC -->
+  * [Rain sensor](#rain-sensor)
+  * [Soil sensor](#soil-sensor)
+  * [LED strip](#led-strip)
+  * [Outdoor socket](#outdoor-socket)
+<!-- TOC -->
+
+---
+
+> **_NOTE:_**  Most of the links are affiliate links, you pay the same price AND support my blog a bit.
+
 ---
 ## Rain sensor
 
@@ -40,6 +58,22 @@ It contains a build-in battery that charges via a solar panel on top of it.
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 <br><br>
+
+---
+
+## Garden lights
+
+<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">
+<img src="images_outdoor/zigbee_outdoor_pole_light.avif" alt="Outdoor Zigbee light pole" height="150px" style="margin-left:15px;float:right"/>
+</a>
+
+
+<br>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">Outdoor Zigbee garden light pole - MiBoxer (AliExpress)</a>
+
+[//]: # (<a href="https://www.zigbee2mqtt.io/devices/xxx.html" target="_blank" title="xxx">{{imgZ2M}}xxx</a>)
+
 
 ---
 

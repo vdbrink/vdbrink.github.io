@@ -8,7 +8,7 @@ image: /ideas/images/video.png
 
 # Home Automation Videos
 
-<img src="images/video.png" style="float: right;" alt="video" height="100px">
+<img src="images/video.png" style="float: right;padding-left:15px;" alt="video" height="100px">
 
 There are more home automation geeks like me, luckily I'm not the only one.\
 I can proof it with these videos.
@@ -25,6 +25,7 @@ But first, a funny video why you should not rely on a single way to control your
 ## Inspiration videos
 
 English spoken home automation videos for inspiration:
+* [Home tour by Home Automation Guy, UK (Home Automation Guy 2025)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
 * [Home tour of a Home Assistant user to the extreme, US (Smart Home Solver 2024)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
 * [Home tour on a range, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=ZYGYG8tDaDY&t=1s)
 * [Home tour at Jimmy, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=bzHdg0RLO1I)
