@@ -25,7 +25,7 @@ But first, a funny video why you should not rely on a single way to control your
 ## Inspiration videos
 
 English spoken home automation videos for inspiration:
-* [Home tour by Home Automation Guy, UK (Home Automation Guy 2025)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
+* [Home tour by Home Automation Guy, UK (Home Automation Guy 2025)](https://www.youtube.com/watch?v=gPspAA6H9ng)
 * [Home tour of a Home Assistant user to the extreme, US (Smart Home Solver 2024)](https://www.youtube.com/watch?v=EBT1mnLMPmI)
 * [Home tour on a range, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=ZYGYG8tDaDY&t=1s)
 * [Home tour at Jimmy, US (Smart Home Solver 2023)](https://www.youtube.com/watch?v=bzHdg0RLO1I)
