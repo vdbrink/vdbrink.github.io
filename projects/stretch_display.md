@@ -31,10 +31,14 @@ A small stretched display, next to my monitor, where I can see my office climate
 
 I created two Home Assistant dashboards: one for my office climate and the other as my weather data display.
 
-<img src="images_stretch_display/office_display1.png" alt="HA office display" width="150px">&nbsp;
-<img src="images_stretch_display/weather_display1.png" alt="HA weather display" width="150px">
-
-[//]: # (I considered just using a normal tablet, but for me, it was quite big.)
+<a href="/homeassistant/images_layout_stretch/weather_display1.png">
+<img src="/homeassistant/images_layout_stretch/weather_display1.png" alt="HA weather display" height="550px"></a>
+<a href="/homeassistant/images_layout_stretch/office_display1.png"><img src="/homeassistant/images_layout_stretch/office_display1.png" alt="HA office display" height="550px"></a>
+&nbsp;
+&nbsp;
+<a href="/homeassistant/images_layout_stretch/office_display_dark.jpg"><img src="/homeassistant/images_layout_stretch/office_display_dark.jpg" alt="HA office display" height="550px"></a>
+&nbsp;
+<a href="/homeassistant/images_layout_stretch/office_display_charamel.jpg"><img src="/homeassistant/images_layout_stretch/office_display_charamel.jpg" alt="HA display other theme" height="550px"></a>
 
 ---
 
@@ -90,7 +94,7 @@ For my project, I use option 1, but there are a lot of displays available on the
 
 #### Option 3
 
-<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="_blank">Stretch displays are also in all different size available</a> (Aliexpress)
+<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="_blank">Stretch displays are also in all different size available</a> (AliExpress)
 
 Of course, any other display can also be used!
 

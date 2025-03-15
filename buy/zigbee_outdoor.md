@@ -11,6 +11,8 @@ image: /buy/images_zigbee/zigbee_banner.png
 
 # Zigbee Outdoor - Best Buy Tips
 
+<br>
+
 For outdoor electronic hardware devices are also Zigbee smart devices available.
 
 Find here a set of preselected devices which you can buy for in your garden or garden room.
