@@ -247,6 +247,31 @@ To format a temperature, see [here](homeassistant_dashboard_formatting#rounded-t
 {% endraw %}
 ```
 
+#### Open different view on click
+
+I use rounded temperature values on my map, but when I click on it, I want to see the normal temperature value with decimals.
+You need for this the extra HACS module [hass-browser_mod
+](https://github.com/thomasloven/hass-browser_mod).
+
+Install it via this button
+
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration)
+
+```yaml
+{% raw %}
+# Dashboard card code
+- type: state-label
+    title: Living temperature
+    entity: sensor.tempX_temperature_rounded
+    tap_action:
+      action: fire-dom-event
+      browser_mod:
+        service: browser_mod.more_info
+        data:
+          entity: sensor.tempX_temperature
+{% endraw %}
+```
+
 ---
 ### Click, Double-click and Long-press actions
 
