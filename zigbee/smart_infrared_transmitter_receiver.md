@@ -3,7 +3,7 @@ title: "Automate infrared devices in Home Assistant"
 description: "Automate infrared devices in Home Assistant with a smart home infrared transmitter/receiver box"
 category: Zigbee
 tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air conditioner, TV, fireplace, led, lights, candles, screens]
-image: /projects/images_christmas_decorations/candles3_with_ir_remote.avif
+image: /zigbee/images_infrared/ir_buttons_ha.png
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
