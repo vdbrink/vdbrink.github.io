@@ -120,7 +120,7 @@ You need this code to resend the signal via this same device.
 
 ### Resend signal
 
-To resend the signal, send on the MQTT topic `zigbee2mqtt/irremote/set` this payload to resend the same signal as send from the original remote.
+To resend the signal, send on the MQTT topic `zigbee2mqtt/irremote/set` this payload to resend the same signal as sent from the original remote.
 
 Make sure your signal is in line with the device because the infrared signal is an invisible light beam. 
 My experience is that the signal can control devices still in a range of 5 meters.
