@@ -986,8 +986,8 @@ content: >-
     </thead>
     <tbody>
   {% set pollen =
-  states.sensor.kleenex_pollen_radar_huis_trees.attributes.current.details %}
-  {% for tree in pollen %}
+  state_attr('sensor.kleenex_pollen_radar_huis_trees','current').details %}{%
+  for tree in pollen %}
     <tr>
       <td>{{ tree.name }}</td>
       <td>{{ tree.value }}</td>
@@ -1000,6 +1000,9 @@ card_mod:
   style: |
     ha-card {
       font-size: 14px;
+      th {
+        text-align:left;
+      }
     }
 {% endraw %}
 ```
