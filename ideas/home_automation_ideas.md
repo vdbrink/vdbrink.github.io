@@ -68,11 +68,22 @@ Criteria for my own automations are:
 
 ### Mailbox
 * Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
-* Notification if mail is sticking out. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is broken and not closed again after 1 minute)
+* Notification if mail is sticking out of the mailbox. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is broken and not closed again after 1 minute)
 * Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/> &nbsp;
 <img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
+
+---
+
+### Package box
+* Notification when a package is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
+
+  See my [dedicated](/projects/packages-mailbox-allux-600) page about how I made this package box smart!
+<br>
+<a href="/projects/packages-mailbox-allux-600">
+  <img src="/projects/images_allux-600/final-result.jpg" alt="package box" height="200px"/>
+</a>
 
 ---
 
@@ -89,7 +100,7 @@ Criteria for my own automations are:
 ### Living room
 * Close the curtains in the evening. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor))
 * Open the curtains in the morning. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor))
-
+  * See my [dedicated](/projects/slide_smart_curtains) page about the Slide Pro curtains.
 
 * Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor) to detect brightness from inside and outside)
 * Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [button](../buy/smart_home_best_buy_tips#portable-button) near the bed)

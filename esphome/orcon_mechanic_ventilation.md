@@ -129,8 +129,9 @@ I've made close-up photos and a table how everything is connected.
 
 This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
 
-UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order. 
-Then you need to look at the second column in the table for the right adapter pins. Let me know which one is correct for you.
+> UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order. 
+Then you need to look at the second column in the table for the correct adapter pins. 
+Please let me know which one is correct for you.
 
 | Flat cable +<br>adapter pin | Reverse order | 15RF remote button | Dupont cable color | ESP pin |
 |-----------------------------|---------------|--------------------|--------------------|---------|
