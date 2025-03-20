@@ -45,9 +45,11 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Leak sensor](#leak-sensor)
     * [Lights](#lights)
     * [Bulb socket](#bulb-socket)
+      * [LED strip](#led-strip)
     * [Buttons](#buttons)
     * [Vibration sensor](#vibration-sensor)
     * [USB adapter switch](#usb-adapter-switch)
+    * [Plant soil sensor](#plant-soil-sensor)
     * [Outdoor sensors](#outdoor-sensors)
     * [Air quality sensor](#air-quality-sensor)
     * [Infrared remote control](#infrared-remote-control)
@@ -434,12 +436,12 @@ The first port can also be used to switch on/off data access via USB, the other 
 <br>
 
 ---
-### Plant soil sensor 
+### Plant soil sensor
 
 <a href="https://s.click.aliexpress.com/e/_okZVL7L" target="_blank">
 <img src="images_zigbee/TS0601_soil_3.png" alt="Zigbee soil sensor" height="200px" style="margin-left:15px;float:right"/></a>
 Do your plants have enough water?
-You stick this sensor in the soil with the plant, and it detects if the soil is not too dry.
+You stick this sensor in the soil with the plant, and it detects if the soil is not too dry or the temperature too high.
 
 Powered by two AAA batteries.
 
