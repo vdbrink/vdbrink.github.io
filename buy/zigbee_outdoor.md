@@ -66,7 +66,7 @@ It contains a build-in battery that charges via a solar panel on top of it.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">Zigbee soil sensor (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
-<br>
+See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this sensor.
 
 ---
 
