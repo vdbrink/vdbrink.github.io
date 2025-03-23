@@ -157,6 +157,7 @@ This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rati
 <br>
 <br>
 
+<!--
 <a href="https://amzn.to/3Vt83Ip" target="_blank">
 <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
@@ -164,20 +165,19 @@ This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (
 
 {{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
+-->
 
+<!--
+<a href="" target="_blank">
 
-[//]: # ()
-[//]: # (<a href="" target="_blank">)
+<img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
-[//]: # (<img src="/projects/images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>)
+This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without power measurement).
 
-[//]: # ()
-[//]: # (This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating &#40;without power measurement&#41;.)
+{{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon)</a>
 
-[//]: # ()
-[//]: # ({{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset &#40;Amazon&#41;</a>)
-
-[//]: # (<a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>)
+<a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>
+-->
 
 <br>
 
