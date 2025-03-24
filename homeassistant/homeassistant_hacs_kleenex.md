@@ -30,7 +30,12 @@ you can also look at the [Google Pollen](https://github.com/svenove/home-assista
 > I updated this manual afterwards and is now compatible with version 1.1.6
 
 > **_UPDATE 2 -  24 March 2025:_** Since Home Assistant version 2025.3.0 the colored background with the level indicator circle is broken.
-> I'll log an issue for it in HA.
+> If you rollback to version 2025.2.2 it works as expected.
+> If you see the screenshot the `<div class="icon-container" ..>` is removed now.
+> I update this docs to replace `.icon-container` with `ha-tile-icon` in the CSS to fix the level indicator.
+<a href="images_kleenex/ha_broken_update.png"> 
+<img src="images_kleenex/ha_broken_update.png" alt="broken upgrade HA" width="450px">
+</a>
 
 ---
 ## Table of Contents
@@ -385,7 +390,7 @@ cards:
       action: more-info
     card_mod:
       style: |
-        .icon-container {
+        ha-tile-icon {
           {% set level = states('sensor.kleenex_pollen_radar_huis_weeds_level') %}
           {% set color = {'none','white','low':'green','moderate':'orange','high':'darkorange','very-high':'maroon'} %}
           {% set level_color = color.get(level,'gray') %}
@@ -410,7 +415,7 @@ cards:
       action: more-info
     card_mod:
       style: |
-        .icon-container {
+        ha-tile-icon {
           {% set level = states('sensor.kleenex_pollen_radar_huis_grass_level') %}
           {% set color = {'none','white','low':'green','moderate':'orange','high':'darkorange','very-high':'maroon'} %}
           {% set level_color = color.get(level,'gray') %}
@@ -435,7 +440,7 @@ cards:
       action: more-info
     card_mod:
       style: |
-        .icon-container {
+        ha-tile-icon {
            {% set level = states('sensor.kleenex_pollen_radar_huis_trees_level') %}
            {% set color = {'none','white','low':'green','moderate':'orange','high':'darkorange','very-high':'maroon'} %}
           {% set level_color = color.get(level,'gray') %}
@@ -492,7 +497,7 @@ cards:
           action: more-info
         card_mod:
           style: |
-            .icon-container {
+            ha-tile-icon {
               {% set level = states('sensor.kleenex_pollen_radar_huis_weeds_level') %}
               {% set color = {'none','white','low':'green','moderate':'orange','high':'darkorange','very-high':'maroon'} %}
               {% set level_color = color.get(level,'gray') %}
@@ -517,7 +522,7 @@ cards:
           action: more-info
         card_mod:
           style: |
-            .icon-container {
+            ha-tile-icon {
               {% set level = states('sensor.kleenex_pollen_radar_huis_grass_level') %}
               {% set color = {'none','white','low':'green','moderate':'orange','high':'darkorange','very-high':'maroon'} %}
               {% set level_color = color.get(level,'gray') %}
@@ -542,7 +547,7 @@ cards:
           action: more-info
         card_mod:
           style: |
-            .icon-container {
+            ha-tile-icon {
                {% set level = states('sensor.kleenex_pollen_radar_huis_trees_level') %}
                {% set color = {'none','white','low':'green','moderate':'orange','high':'darkorange','very-high':'maroon'} %}
               {% set level_color = color.get(level,'gray') %}
