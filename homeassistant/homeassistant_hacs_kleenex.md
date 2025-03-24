@@ -26,8 +26,11 @@ If your country isn't in the list,
 or you want to try another data provider, 
 you can also look at the [Google Pollen](https://github.com/svenove/home-assistant-google-pollen#home-assistant-google-pollen) integration.
 
-> **_UPDATE -  23 March 2025:_** Since version [1.1.3 released at 17 March 2025](https://github.com/MarcoGos/kleenex_pollenradar/releases/tag/v1.1.3) the data structure is changed. 
+> **_UPDATE 1 -  23 March 2025:_** Since version [1.1.3 released at 17 March 2025](https://github.com/MarcoGos/kleenex_pollenradar/releases/tag/v1.1.3) the data structure is changed. 
 > I updated this manual afterwards and is now compatible with version 1.1.6
+
+> **_UPDATE 2 -  24 March 2025:_** Since Home Assistant version 2025.3.0 the colored background with the level indicator circle is broken.
+> I'll log an issue for it in HA.
 
 ---
 ## Table of Contents
