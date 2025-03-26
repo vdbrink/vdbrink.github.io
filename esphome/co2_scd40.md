@@ -6,7 +6,7 @@ category: ESPHome
 tags: [CO2 , ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering, temperature, humidity]
 image: /esphome/images_scd40/hardware.jpg
 ---
-{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # ESPHome CO2 sensor
 

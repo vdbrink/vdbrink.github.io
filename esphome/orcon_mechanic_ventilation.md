@@ -5,7 +5,7 @@ category: ESPHome
 tags: [Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome]
 image: /esphome/orcon_images/wires_connected.jpg
 ---
-{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Control an Orcon mechanic ventilation system from Home Assistant
 

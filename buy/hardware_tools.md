@@ -4,7 +4,7 @@ description: "Useful link to buy hardware tools"
 category: Buy tips
 tags: [Best, Buy, tips, AliExpress]
 ---
-{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Hardware tools - Best Buy Tips
 

@@ -5,7 +5,7 @@ category: Buy tips
 tags: [Best, Buy, tips, smart, home automation, batteries, sensors, Aqara, Tuya, Zigbee, WiFi]
 image: /buy/images_zigbee/zigbee_banner.png
 ---
-{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
@@ -22,7 +22,7 @@ image: /buy/images_zigbee/zigbee_banner.png
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
-On this page, you find my personal favorite sensors, actuator and other Zigbee home automation related hardware.
+On this page, you find my personal favorite sensors, actuator and other (Zigbee) home automation related hardware.
 
 If you need some home automation inspiration, check my [home automation ideas](../ideas/home_automation_ideas) section!
 

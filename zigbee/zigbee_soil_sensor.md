@@ -4,7 +4,7 @@ description: A Zigbee soil sensor which measure humidity and temperature
 category: Zigbee
 tags: [Zigbee, soil, sensor, humidity, temperature]
 ---
-{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
@@ -156,26 +156,28 @@ Are you also excited about this sensor? Here you can buy it yourself.
 
 <br>
 
-See [here](/buy/zigbee_outdoor) for more  outdoor Zigbee devices!
+See [here](/buy/zigbee_outdoor) for more outdoor Zigbee devices!
 
 ---
 
 ## Other plant sensors
 
 <a href="https://s.click.aliexpress.com/e/_okZVL7L" target="_blank">
-<img src="../buy/images_zigbee/TS0601_soil_3.png" alt="Zigbee soil sensor" height="200px" style="margin-left:15px;float:right"/></a>
+<img src="../buy/images_zigbee/TS0601_soil_3.png" alt="Zigbee soil sensor" height="200px" style="margin-left:15px;float:right" />
+</a>
+
 Other Zigbee sensors to track your plant health!
 
-* [Tiny indoor plant senors (AliExpress)](https://s.click.aliexpress.com/e/_okZVL7L)
+* {{imgBasket}}[Tiny indoor plant senors (AliExpress)](https://s.click.aliexpress.com/e/_okZVL7L)
 
-* [Cheaper version on 3 AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_okhmDa9)
+* {{imgBasket}}[Cheaper version on 3 AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_okhmDa9)
 
-* [Green soil sensor measure also lux (AliExpress)](https://s.click.aliexpress.com/e/_oBMB8Vf)
+* {{imgBasket}}[Green soil sensor measure also lux (AliExpress)](https://s.click.aliexpress.com/e/_oBMB8Vf)
 
-* [Other outdoor soil sensor (AliExpress)](https://s.click.aliexpress.com/e/_on02f3r)
+* {{imgBasket}}[Other outdoor soil sensor (AliExpress)](https://s.click.aliexpress.com/e/_oFFXYet)
 
-* [Indoor soil sensor - MOES (AliExpress)](https://s.click.aliexpress.com/e/_oC6bebb)
+* {{imgBasket}}[Indoor soil sensor - MOES (AliExpress)](https://s.click.aliexpress.com/e/_oC6bebb)
 
-* [Rain and light sensor (AliExpress)](https://s.click.aliexpress.com/e/_EIt99cD)
+* {{imgBasket}}[Rain and light sensor (AliExpress)](https://s.click.aliexpress.com/e/_EIt99cD)
 
-* [Light sensor (AliExpress)](https://s.click.aliexpress.com/e/_DdVtS4P)
+* {{imgBasket}}[Light sensor (AliExpress)](https://s.click.aliexpress.com/e/_DdVtS4P)

@@ -3,7 +3,7 @@ title: "Computer - best buy tips"
 category: Buy tips
 tags: [Best, Buy, tips, computer, pc, laptop, home office]
 ---
-{% capture imgBasket %}<img src="images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Computer - best buy tips
 
