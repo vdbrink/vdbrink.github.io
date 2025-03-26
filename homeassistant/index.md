@@ -14,6 +14,7 @@ I created so many different dashboards that I want to document and share them wi
 One by one, I will add them here.
 
 I created dashboards with all kinds of elements in it:
+* [Global HA Tips & Tricks](homeassistant_tips_tricks)
 * [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * Templates:
   * [Template examples](homeassistant_templates) creating, debugger, practical examples 
