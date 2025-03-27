@@ -31,7 +31,7 @@ Click on the `done` button to confirm.
 
 ---
 
-> Do you know more cool features which everybody should know, let me know!
+> Do you know more cool features, like these which everybody should know, let me know!
 
 <br>
 <br>
@@ -39,3 +39,5 @@ Click on the `done` button to confirm.
 <hr>
 
 <a href="/buy/smart_home_best_buy_tips"><img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" height="100%"></a>
+
+[See also my other Home Assistant pages >>](/homeassistant)

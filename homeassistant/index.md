@@ -13,7 +13,7 @@ image: /homeassistant/images/ha_banner.png
 I created so many different dashboards that I want to document and share them with you.
 One by one, I will add them here.
 
-I created dashboards with all kinds of elements in it:
+I created dashboards with all kinds of elements on it:
 * [Global HA Tips & Tricks](homeassistant_tips_tricks)
 * [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * Templates:
