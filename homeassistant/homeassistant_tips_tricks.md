@@ -19,15 +19,15 @@ But you can click on the dialog header text to enlarge this dialog!
 <img src="images_tips/enlarge_dialog.gif" alt="dialog enlarge">
 
 ---
-## Dashboard side menu reorder
+## Dashboard side menu rearrange
 
 You can rearrange the items in the side menu by open the side menu, double-click on the side menu header.\
 Now you can drag and drop the items or remove them by clicking on the cross.\
 Click on the `done` button to confirm.
 
-<img src="images_tips/sidemenu.gif" alt="side menu reorder" width="200px">
+<img src="images_tips/sidemenu.gif" alt="side menu rearrange" width="200px">
 &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="images_tips/sidemenu.png" alt="side menu reorder" width="200px">
+<img src="images_tips/sidemenu.png" alt="side menu rearrange" width="200px">
 
 ---
 
