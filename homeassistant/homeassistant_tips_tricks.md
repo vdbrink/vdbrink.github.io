@@ -21,7 +21,7 @@ But you can click on the dialog header text to enlarge this dialog!
 ---
 ## Dashboard side menu reorder
 
-You can rearrange the items in the side menu by double-click on the side menu header.\
+You can rearrange the items in the side menu by open the side menu, double-click on the side menu header.\
 Now you can drag and drop the items or remove them by clicking on the cross.\
 Click on the `done` button to confirm.
 
