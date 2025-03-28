@@ -51,7 +51,7 @@ cards:
           --title-font-size: 90px !important;
         }
   - type: custom:mushroom-title-card
-    title: '{{states.sensor.date_only_formatted.state}}'
+    title: {{states('sensor.date_only_formatted')}}
     alignment: center
     card_mod:
       style: |

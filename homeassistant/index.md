@@ -43,20 +43,21 @@ I created dashboards with all kinds of elements on it:
 
 ---
 
+## Hardware to run HA on
+
 * [Which hardware to run Home Assistant on?](homeassistant_hardware)
 
 ---
-Other Home Assistant integrations
+## Other Home Assistant integrations
 
 * [Automate infrared devices in Home Assistant](../zigbee/smart_infrared_transmitter_receiver)
 
-Node-RED + Home Assistant integration
+## Node-RED + Home Assistant integration
 
 Here you find flows to interact between Home Assistant and Node-RED.
 
-* [Node-RED - Home Assistant](node-red_home-assistant)
-* [Node-RED - Send notifications to the Home Assistant app](node-red_home-assistant_notifications)
-
+* [Node-RED - Home Assistant](/node-red/node-red_home-assistant)
+* [Node-RED - Send notifications to the Home Assistant app](/node-red/node-red_home-assistant_notifications)
 
 ---
 ## How I use Home Assistant

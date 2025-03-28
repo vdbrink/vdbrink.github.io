@@ -208,7 +208,7 @@ With some extra CSS is the size bigger now.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 - type: custom:mushroom-title-card
-  title: '{{states.sensor.date_only_formatted.state}}'
+  title: {{states('sensor.date_only_formatted')}}
   alignment: center
   card_mod:
     style: |
@@ -463,11 +463,11 @@ card_mod:
       style: |
         ha-card {
            --ha-card-background:
-          {% if states.sensor.scd40_co2.state | int > 800 %}
+          {% if states('sensor.scd40_co2') | int > 800 %}
            #ff4500;
-          {% elif states.sensor.scd40_co2.state | int > 1000 %}
+          {% elif states('sensor.scd40_co2') | int > 1000 %}
            #ff4500;
-          {% elif states.sensor.scd40_co2.state | int > 1200 %}
+          {% elif states('sensor.scd40_co2') | int > 1200 %}
            #ffd700;
           {% else %}
            #008000;
@@ -490,11 +490,11 @@ card_mod:
       style: |
         ha-card {
            --ha-card-background:
-          {% if states.sensor.espscd40_co2_temperature.state | int > 18 %}
+          {% if states('sensor.espscd40_co2_temperature') | int > 18 %}
            #ff4500;
-          {% elif states.sensor.espscd40_co2_temperature.state | int > 23 %}
+          {% elif states('sensor.espscd40_co2_temperature') | int > 23 %}
            #ff4500;
-          {% elif states.sensor.espscd40_co2_temperature.state | int > 24 %}
+          {% elif states('sensor.espscd40_co2_temperature') | int > 24 %}
            #ffd700;
           {% else %}
            #008000;
@@ -601,11 +601,11 @@ card_mod:
       style: |
         ha-card {
            --ha-card-background:
-          {% if states.sensor.scd40_co2.state | int > 800 %}
+          {% if states('sensor.scd40_co2') | int > 800 %}
            #ff4500;
-          {% elif states.sensor.scd40_co2.state | int > 1000 %}
+          {% elif states('sensor.scd40_co2') | int > 1000 %}
            #ff4500;
-          {% elif states.sensor.scd40_co2.state | int > 1200 %}
+          {% elif states('sensor.scd40_co2') | int > 1200 %}
            #ffd700;
           {% else %}
            #008000;
@@ -628,11 +628,11 @@ card_mod:
       style: |
         ha-card {
            --ha-card-background:
-          {% if states.sensor.espscd40_co2_temperature.state | int > 18 %}
+          {% if states('sensor.espscd40_co2_temperature') | int > 18 %}
            #ff4500;
-          {% elif states.sensor.espscd40_co2_temperature.state | int > 23 %}
+          {% elif states('sensor.espscd40_co2_temperature') | int > 23 %}
            #ff4500;
-          {% elif states.sensor.espscd40_co2_temperature.state | int > 24 %}
+          {% elif states('sensor.espscd40_co2_temperature') | int > 24 %}
            #ffd700;
           {% else %}
            #008000;

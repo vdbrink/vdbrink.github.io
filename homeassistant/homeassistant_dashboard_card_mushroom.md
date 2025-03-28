@@ -69,9 +69,9 @@ Show also the minimal and maximum temperature for today and a textual descriptio
     {%- if now().hour < 12 -%}Goeiemorgen
     {%- elif now().hour < 18 -%}Goeiemiddag
     {%- else -%}Goeieavond{%- endif -%}, {{user}}. 
-    Vandaag is het tussen de {{states.sensor.meteoserver_d0tmin.state}} en de
-    {{ states.sensor.meteoserver_d0tmax.state }} °C  
-    met {{ states.sensor.meteoserver_verw.state.lower() }}.
+    Vandaag is het tussen de {{states('sensor.meteoserver_d0tmin')}} en de
+    {{ states('sensor.meteoserver_d0tmax') }} °C  
+    met {{ states('sensor.meteoserver_verw').lower() }}.
 {% endraw %}
 ```
 
