@@ -44,6 +44,7 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
     * [Lights](#lights)
+      * [Bulb](#bulb)
     * [Bulb socket](#bulb-socket)
       * [LED strip](#led-strip)
     * [Buttons](#buttons)
@@ -54,8 +55,8 @@ You pay a good price, and they have fast shipping, sometimes you have the order 
     * [Air quality sensor](#air-quality-sensor)
     * [Infrared remote control](#infrared-remote-control)
     * [Radiator Thermostat](#radiator-thermostat)
-    * [Power strip](#power-strip)
     * [Smart socket](#smart-socket)
+    * [Power strip](#power-strip)
   * [Google Coral USB](#google-coral-usb)
   * [Batteries](#batteries)
     * [Battery eliminators](#battery-eliminators)
@@ -537,6 +538,31 @@ You can also schedule complete weeks in it what the temperature should be.
 
 ---
 
+### Smart socket
+<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">
+<img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
+
+Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. 
+
+Sockets are always connected to power, this makes this sensor also a hub in the Zigbee network which extends the range and coverage of your network. 
+You can also plug a smart socket somewhere strategic with bad coverage to improve this. 
+
+A smart plug with power consumption metrics can be useful to detect the state of the machine by its power consumption. 
+This can be used for washing machines, dryers, dishwashers, ovens, etc.
+
+I use the European Zigbee BlitzWolf EU SHP-13 and SHP-15 which has also power consumption measurement. 
+It has a physical button to switch the state, and can handle 3680 W and 16 A which is enough for washing machines and dryers. 
+It took me a while before I got the correct smart socket for this purpose, and now they've run for years without any issues.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
+
+{{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
+<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
+
+---
+
 ### Power strip
 
 <a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">
@@ -578,30 +604,6 @@ Cheaper solution than four single smart sockets!
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">Zigbee power strip with 4 outlets and 4 USB ports - UseeLink (AliExpress)</a>
 <a href="https://amzn.to/3PFr86N" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
-
----
-
-### Smart socket
-<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">
-<img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
-
-Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. You put it "on" and place the smart plug between the socket and wall. Now you change the switch functionality to the plug which you can be controlled automatically.
-
-Sockets are always connected to power, this makes this sensor also a hub in the Zigbee network which extends the range and coverage of your network. You can also plug a smart socket somewhere strategic with bad coverage to improve this. He doesn't need to be on or used.
-
-A smart plug with power consumption metrics can be useful to detect the state of the machine. You don't use the on/off functionality in that case. This can be used for washing machines, dryers, dishwashers, ovens, etc.
-
-I live in The Netherlands and around the world there are many different types of plugs.
-These will only work in just a few EU lands.\
-I use the Zigbee BlitzWolf EU SHP-13 or SHP-15 which has also power consumption measurement, a physical button to switch the state and can handle 3680 W and 16 A which is enough for washing machines and dryers. It took me a while before I got the correct one for this purpose, and now it runs for years without issues.
-If you buy one which has lower wattage, your socket constantly stops working; then you know you need one with higher wattage!
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 (AliExpress)</a>
-<a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
-
-{{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
-<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
-<a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
 
 ---
 
