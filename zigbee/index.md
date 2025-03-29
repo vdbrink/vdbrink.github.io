@@ -1,7 +1,7 @@
 ---
 title: Zigbee
 category: Zigbee
-tags: [Zigbee, best buy, stick, adapter, smart, home]
+tags: [Zigbee, best buy, stick, adapter, smart, home, network]
 image: /zigbee/images/zigbee.jpg
 ---
 
@@ -19,13 +19,13 @@ On this page you find products, information and projects related to Zigbee.
   * [Device highlights](#device-highlights)
   * [DIY projects](#diy-projects)
   * [Why I chose Zigbee](#why-i-chose-zigbee)
+  * [Best Buy Tips](#best-buy-tips)
   * [Zigbee details](#zigbee-details)
     * [The network](#the-network)
     * [Pairing](#pairing)
     * [MQTT](#mqtt)
     * [Link Quality Indicator (LQI)](#link-quality-indicator-lqi)
   * [My Zigbee coordinator](#my-zigbee-coordinator)
-  * [Best Buy Tips](#best-buy-tips)
   * [Zigbee2MQTT](#zigbee2mqtt)
 <!-- TOC -->
 
@@ -65,7 +65,8 @@ How to create custom Zigbee sensors:
 
 ## Why I chose Zigbee
 
-On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, WiFi, Bluetooth, Z-Wave and Matter. All with their pros and cons. You can use different protocols next to each other. I chose for one protocol: Zigbee.
+On the market, there are different types of protocols to create a smart home network. Like Zigbee, Thread, WiFi, Bluetooth, Z-Wave and Matter. 
+All with their pros and cons. You can use different protocols next to each other. I chose for one protocol: Zigbee.
 
 <img src="images/zigbee.jpg" alt="zigbee" height="60px" style="margin-left:15px;float:right"/>
 
@@ -75,13 +76,25 @@ This is why I choose for Zigbee:
 * The prices are low;
 * It works locally, no internet is required;
 * You can even link buttons direct to (a group) lamps without the need of a hub;
-* Not dependent on the manufacture app, cloud or other software. When a manufacture gets bankrupt, you still can use your devices.
+* Not dependent on the manufacture app, cloud or other software. When manufactures get bankrupt, you still can use your devices.
 * It works as a mesh network, you can reach devices far away from the coordinator as long as there are enough active hops in between;
 * The standard is an open protocol, you don't pay for a license fees (for Z-Wave you do) to use it;
 * No compatibility issues with hardware with older or newer Zigbee versions;
 * Active development on the software Zigbee2MQTT with every release a bulk of new supported Zigbee devices;
 
 A reason why not to choose for Zigbee? I don't know :)
+
+---
+
+## Best Buy Tips
+
+I create my [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) with all kinds or Zigbee hardware that I like and advice to buy for others.
+After buying and using them, on a daily basis, by myself.
+I have more than 120 Zigbee devices and some running already for more than four years, non-stop.
+
+<a href="../buy/smart_home_best_buy_tips">
+<img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>
+</a>
 
 ---
 
@@ -177,18 +190,6 @@ Another new coordinator which many people are very satisfied with is the <a href
 To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick.
 You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">USB A extension cord (AliExpress)</a> for it.
-
----
-
-## Best Buy Tips
-
-I create my [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) with all kinds or Zigbee hardware that I like and advice to buy for others.
-After buying and using them, on a daily basis, by myself. 
-I have more than 120 Zigbee devices and some running already for more than 4 years non-stop.
-
-<a href="../buy/smart_home_best_buy_tips">
-<img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>
-</a>
 
 ---
 
