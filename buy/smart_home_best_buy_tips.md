@@ -600,7 +600,7 @@ Cheaper solution than four single smart sockets!
 * Manual master switch
 * LED indicate for each socket
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">Zigbee/wifi power strip with 4 outlets and 2 USB ports - Lellki (AliExpress)</a> <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">Zigbee/wifi power strip with 4 outlets and 2 USB ports - Lellki (AliExpress)</a> 
 
 <a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
 
