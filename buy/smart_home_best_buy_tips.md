@@ -578,9 +578,33 @@ Cheaper solution than four single smart sockets!
 * Manual master switch
 * LED indicate for each socket
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">Zigbee power strip with 4 outlets and 2 USB ports - UseeLink (AliExpress)</a> <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">Zigbee power strip with 4 outlets and 2 USB ports - Melery (AliExpress)</a> <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3CbB7xu" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
+
+<br>
+<br>
+
+<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">
+<img src="/buy/images_zigbee/powerstrip2.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
+An other Zigbee power strip with 4x outlets (max. 16A 4000W) and 2x USB-A (5V 3A) fast charging.
+<br><br>
+Each outlet can be controlled independently with light indicator.
+The two USB ports controlled together.
+Cheaper solution than four single smart sockets!
+
+* Physical button for each socket 
+* Suitable for EU
+* Overload protection
+* Extension cable 1.8m
+* Manual master switch
+* LED indicate for each socket
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">Zigbee/wifi power strip with 4 outlets and 2 USB ports - Lellki (AliExpress)</a> <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
+
+<a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
+
+<br>
 
 <br>
 <br>
