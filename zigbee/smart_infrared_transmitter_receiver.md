@@ -251,6 +251,10 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
   <img src="images_infrared/hema_ir_tealights.webp" alt="Hema IR tea lights" width="200px" class="buy-link"/>
   </a>
 
+**Online models**
+
+[Here](/buy/smart_home_best_buy_tips#infrared-remote-control) you find a list of different infrared remote control devices.
+
 ---
 
 Where do you use the infrared transmitter / receiver for in your smart home?
