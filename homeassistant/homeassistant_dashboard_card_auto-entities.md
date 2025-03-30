@@ -28,9 +28,11 @@ Install it via this button
   * [Show lights ordered by state](#show-lights-ordered-by-state)
   * [Show only the lights which are 'on'](#show-only-the-lights-which-are-on)
   * [Latest activities (motions and doors)](#latest-activities-motions-and-doors)
+  * [Open windows](#open-windows)
   * [Missing devices](#missing-devices)
   * [Full moon (single condition)](#full-moon-single-condition)
   * [Only X days left (multiple conditions with AND)](#only-x-days-left-multiple-conditions-with-and)
+  * [Upcoming week and sort by days](#upcoming-week-and-sort-by-days)
   * [With attribute data](#with-attribute-data)
   * [Conditional mushroom cards](#conditional-mushroom-cards)
   * [Chores](#chores)
@@ -217,6 +219,65 @@ sort:
 ```
 
 ---
+## Open windows
+
+Show which windows are open.
+
+<img src="images_autoentities/open-windows.png" alt="open windows" width="400px">
+
+Example 2: based on `device_class`= `window`.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  state_color: true
+  title: open windows
+  show_header_toggle: false
+filter:
+  include:
+    - domain: binary_sensor
+      state: "on"
+      attributes:
+        device_class: window
+sort:
+  method: last_updated
+  reverse: true
+  numeric: false
+show_empty: true
+{% endraw %}
+```
+
+Example 2: based on entity name (`raam*`).
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  state_color: true
+  title: open windows
+  show_header_toggle: false
+filter:
+  include:
+    - name: "*raam*"
+      state: "on"
+      options:
+        secondary_info: last-changed
+sort:
+  method: last_updated
+  reverse: true
+  numeric: false
+show_empty: true
+
+{% endraw %}
+```
+
+
+---
 ## Missing devices
 
 Show devices which didn't change their value for more than 1440 minutes (1 day). 
@@ -300,6 +361,35 @@ filter:
       state 2: "> -1"
 {% endraw %}
 ```
+
+---
+## Upcoming week and sort by days
+
+For my waste bin pickups, I show how many days are left until they picked up.
+
+<img src="images_autoentities/waste-pickup-autoentities2.png" alt="Waste pickup upcoming days" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:auto-entities
+card:
+  type: entities
+  show_header_toggle: false
+  state_color: false
+filter:
+  include:
+    - entity_id: sensor.*waste_pickup_countdown
+      state 1: "> 0"
+      state 2: < 8
+show_empty: false
+sort:
+  method: state
+  numeric: true
+{% endraw %}
+```
+
 
 ---
 ## With attribute data
