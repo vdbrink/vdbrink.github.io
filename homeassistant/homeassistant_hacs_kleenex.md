@@ -9,7 +9,7 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation_high.jpg
 # Home Assistant -<br>HACS Kleenex Pollen Radar
 
 <a href="images_kleenex/kleenex_advanced_presentation.png">
-<img src="images_kleenex/kleenex_advanced_presentation_high.jpg" width="50%" alt="advanced Kleenx pollen">
+<img src="images_kleenex/kleenex_advanced_presentation.png" width="50%" alt="advanced Kleenx pollen">
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
@@ -164,11 +164,11 @@ This is a default presentation with the entities card.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Entities Card Configuration
-type: entities
-entities:
-  - sensor.kleenex_pollen_radar_huis_grass
-  - sensor.kleenex_pollen_radar_huis_trees
-  - sensor.kleenex_pollen_radar_huis_weeds
+    type: entities
+    entities:
+      - sensor.kleenex_pollen_radar_huis_grass
+      - sensor.kleenex_pollen_radar_huis_trees
+      - sensor.kleenex_pollen_radar_huis_weeds
 {% endraw %}
 ```
 
@@ -196,20 +196,24 @@ Install the integration via this button:
 type: grid
 cards:
   - type: custom:mushroom-template-card
-    primary: >-
-      Trees: {% set level =
-      states('sensor.kleenex_pollen_radar_huis_trees')|int(0) %} {% if level ==
-      0 %} None {% elif level <= 95 %} Low {% elif level <= 207 %} Moderate  {%
-      elif level <= 703 %} High {% else %} very High {% endif %}
-    secondary: "{{ states('sensor.kleenex_pollen_radar_huis_trees') }} ppm"
-    icon: mdi:tree
+    primary: |-
+      Weeds:
+      {% set level = states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %}
+      {% if level == 0 %} None
+      {% elif level <= 20 %} Low
+      {% elif level <= 77 %} Moderate 
+      {% elif level <= 266 %} High
+      {% else %} very High
+      {% endif %}
+    secondary: "{{ states('sensor.kleenex_pollen_radar_huis_weeds') }} ppm"
+    icon: mdi:flower-pollen
     icon_color: |-
       {% set level =
-       states('sensor.kleenex_pollen_radar_huis_trees')|int(0) %} {% if level ==
-       0 %} green {% elif level <= 95 %} yellow {% elif level <= 207 %} orange  {%
-       elif level <= 703 %} red {% else %} maroon {% endif %}
+      states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %} {% if level ==
+      0 %} green {% elif level <= 95 %} yellow {% elif level <= 207 %} orange  {%
+      elif level <= 703 %} red {% else %} maroon {% endif %}
     layout: vertical
-    entity: sensor.kleenex_pollen_radar_huis_trees
+    entity: sensor.kleenex_pollen_radar_huis_weeds
     multiline_secondary: false
     tap_action:
       action: more-info
@@ -250,24 +254,20 @@ cards:
           background-color: hsla(0, 0%, 0%, 0);
         }
   - type: custom:mushroom-template-card
-    primary: |-
-      Weeds:
-      {% set level = states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %}
-      {% if level == 0 %} None
-      {% elif level <= 20 %} Low
-      {% elif level <= 77 %} Moderate 
-      {% elif level <= 266 %} High
-      {% else %} very High
-      {% endif %}
-    secondary: "{{ states('sensor.kleenex_pollen_radar_huis_weeds') }} ppm"
-    icon: mdi:flower-pollen
+    primary: >-
+      Trees: {% set level =
+      states('sensor.kleenex_pollen_radar_huis_trees')|int(0) %} {% if level ==
+      0 %} None {% elif level <= 95 %} Low {% elif level <= 207 %} Moderate  {%
+      elif level <= 703 %} High {% else %} very High {% endif %}
+    secondary: "{{ states('sensor.kleenex_pollen_radar_huis_trees') }} ppm"
+    icon: mdi:tree
     icon_color: |-
       {% set level =
-      states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %} {% if level ==
-      0 %} green {% elif level <= 95 %} yellow {% elif level <= 207 %} orange  {%
-      elif level <= 703 %} red {% else %} maroon {% endif %}
+       states('sensor.kleenex_pollen_radar_huis_trees')|int(0) %} {% if level ==
+       0 %} green {% elif level <= 95 %} yellow {% elif level <= 207 %} orange  {%
+       elif level <= 703 %} red {% else %} maroon {% endif %}
     layout: vertical
-    entity: sensor.kleenex_pollen_radar_huis_weeds
+    entity: sensor.kleenex_pollen_radar_huis_trees
     multiline_secondary: false
     tap_action:
       action: more-info
@@ -556,7 +556,6 @@ cards:
       columns: 3
       rows: 2
     vertical: true
-    features_position: bottom
     card_mod:
       style:
         ha-tile-icon: >
@@ -564,7 +563,7 @@ cards:
           {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %} 
           {% set item = details | selectattr('name', 'eq', input_name) | first() %} 
           {% set level = item.level | default('N/A') %}  
-          {% set color_map = {'none: 'green', 'low': 'yellow', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %} 
+          {% set color_map = {'none': 'green', 'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %} 
           {% set level_color = color_map.get(level, 'gray') %}
 
           ha-state-icon {
@@ -595,7 +594,6 @@ cards:
       columns: 3
       rows: 2
     vertical: true
-    features_position: bottom
     card_mod:
       style:
         ha-tile-icon: >
@@ -603,7 +601,7 @@ cards:
           {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %} 
           {% set item = details | selectattr('name', 'eq', input_name) | first() %} 
           {% set level = item.level | default('N/A') %}  
-          {% set color_map = {'none: 'green', 'low': 'yellow', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %} 
+          {% set color_map = {'none': 'green', 'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %} 
           {% set level_color = color_map.get(level, 'gray') %}
 
           ha-state-icon {
