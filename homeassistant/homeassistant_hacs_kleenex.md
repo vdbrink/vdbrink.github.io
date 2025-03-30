@@ -26,16 +26,23 @@ If your country isn't in the list,
 or you want to try another data provider, 
 you can also look at the [Google Pollen](https://github.com/svenove/home-assistant-google-pollen#home-assistant-google-pollen) integration.
 
-> **_UPDATE 1 -  23 March 2025:_** Since version [1.1.3 released at 17 March 2025](https://github.com/MarcoGos/kleenex_pollenradar/releases/tag/v1.1.3) the data structure is changed. 
-> I updated this manual afterward and is now compatible with version 1.1.6
+**Compatibility**
+
+This documentation is based on Home Assistant version 2025.3.4 and integration 1.1.7
+
+In the past, due to updates in HA and the integration, the presentations were broken.
+
+> **_UPDATE 3 -  30 March 2025:_**  All dashboard presentations YAML and screenshots are updated and now aligned again.
 
 > **_UPDATE 2 -  24 March 2025:_** Since Home Assistant version 2025.3.0 the colored background with the level indicator circle is broken.
 > If you rollback to version 2025.2.2 it works as expected.
 > If you see the screenshot the `<div class="icon-container" ..>` is removed now.
-> I update this doc to replace `.icon-container` with `ha-tile-icon` in the CSS to fix the level indicator.
-<a href="images_kleenex/ha_broken_update.png"> 
+a href="images_kleenex/ha_broken_update.png"> 
 <img src="images_kleenex/ha_broken_update.png" alt="broken upgrade HA" width="450px">
 </a>
+
+> **_UPDATE 1 -  23 March 2025:_** Since version [1.1.3 released at 17 March 2025](https://github.com/MarcoGos/kleenex_pollenradar/releases/tag/v1.1.3) the data structure is changed for the integration.
+> I updated this manual, and it's now compatible with version 1.1.6
 
 ---
 ## Table of Contents
