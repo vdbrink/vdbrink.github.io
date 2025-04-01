@@ -184,7 +184,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" style="margin-left:15px;float:left"/></a> &nbsp;
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
-<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="images_zigbee/zigbee_motion_pir.avif" height="100px"></a>
+<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="/buy/images_zigbee/zigbee_motion_pir.avif" height="100px"></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara (AliExpress)</a>
 <a href="https://amzn.to/3Oj8yR5" target="_blank">(Amazon)</a>
@@ -361,7 +361,7 @@ This one support over 100 dynamic effects. These are controllable via the WLED A
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">Zigbee wall switch - Aqara (AliExpress)</a>
-<a href="https://amzn.to/3CxE8YH" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4cgAL6f" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/QBKG41LM.html" target="_blank" title="QBKG41LM">{{imgZ2M}}QBKG41LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">Zigbee wall switch - Moes (AliExpress)</a>
@@ -396,7 +396,7 @@ The easiest way to make a dimmable group with gu10 lights smart.
 These buttons can trigger multiple scenarios because they support three press types: single-, double- and long press.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">Zigbee button - Aqara (AliExpress)</a>
-<a href="https://amzn.to/40XzGws" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3DNOAMY" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WXKG11LM.html" target="_blank" title="WXKG11LM">{{imgZ2M}}WXKG11LM</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">Small Zigbee button - Tuya / Loginovo (AliExpress)</a>
@@ -530,7 +530,7 @@ With this radiator thermostat valve, it is possible to open and close the radiat
 You can also schedule complete weeks in it what the temperature should be.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ongwmtx" target="_blank">Zigbee smart radiator thermostat - Moes / Tuya (AliExpress)</a>
-<a href="https://amzn.to/417IWOV" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4hX8D9A" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html" target="_blank" alt="TV02">{{imgZ2M}}TV02</a>
 <br>
 
@@ -739,10 +739,10 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 5V EU USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 
-<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V EU USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">5V EU USB power adapter (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">5V EU USB power adapter (AliExpress)</a>
 
 ---
 

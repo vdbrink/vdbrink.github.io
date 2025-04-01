@@ -216,10 +216,10 @@ Can be used, together with a contact sensor, to create your own rain gauge senso
 
 The DS18B20 sensor is one to measure temperature in wet areas like an aquarium, for example.
 
-<a href="https://s.click.aliexpress.com/e/_opWfMK7" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_okXqtFF" target="_blank">
 <img src="images_diy/ds18b20.webp" height="180px" alt="ds18b20 waterproof temperature sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opWfMK7" target="_blank">DS18B20 water temp sensor, link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okXqtFF" target="_blank">DS18B20 water temp sensor, link (AliExpress)</a>
 
 ---
 
@@ -280,10 +280,10 @@ USB-A to USB-C cable to power the ESP32.
 
 5V USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 
-<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeEZ7xD" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">link (AliExpress)</a>
 
 ### Christmas light adapter
 
@@ -327,13 +327,13 @@ Dupont are cables to connect the ESP pins with sensors pins. The dupont cables a
 Connect two wires without soldering.
 
 <a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">
-<img src="images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="180px"/></a>
+<img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="180px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">Cable connectors - option 1 (AliExpress)</a>
 
 
 <a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">
-<img src="images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" width="250px"/></a>
+<img src="/buy/images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" width="250px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">Cable connectors - option 2 (AliExpress)</a>
 

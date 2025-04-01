@@ -14,7 +14,7 @@ image: /buy/images_batteries/battery_banner2.jpg
 
 ## Introduction
 
-<img src="images_batteries/lir1632.avif" alt="LIR1632" width="150px" style="margin-left:15px;float:right"/>
+<img src="/buy/images_batteries/lir1632.avif" alt="LIR1632" width="150px" style="margin-left:15px;float:right"/>
 
 **AA and AAA** batteries are used for years in toys and sensors to make them portable, and with the **coin cell** batteries, 
 devices can be made very small but still battery powered.
@@ -83,7 +83,7 @@ And how you can replace a CR2032 battery for two AAs for a much longer battery l
 ---
 ### AA
 
-<img src="images_batteries/battery_aa_aaa.jpg" alt="battery AA" height="150px" style="margin-left:15px;float:right"/>
+<img src="/buy/images_batteries/battery_aa_aaa.jpg" alt="battery AA" height="150px" style="margin-left:15px;float:right"/>
 
 #### Disposable
 
@@ -97,7 +97,7 @@ And how you can replace a CR2032 battery for two AAs for a much longer battery l
 <a href="https://amzn.to/493a0ke" target="_blank">(AmazonNL)</a>
 
 <a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">
-<img src="images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
+<img src="/buy/images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
 </a>
 
 {{imgBasket}}<a href="https://amzn.to/4ePpz0k" target="_blank">4x Rechargeable AA batteries - Duracell (AmazonUS)</a>
@@ -105,10 +105,10 @@ And how you can replace a CR2032 battery for two AAs for a much longer battery l
 
 #### Charger
 
-<a href="https://s.click.aliexpress.com/e/_okkWmWc" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okkWmWc" target="_blank">
 Charger for AA and AAA batteries
 
-<img src="images_batteries/aa_charger.avif" alt="battery AA and AAA charger" height="150px"/></a>
+<img src="/buy/images_batteries/aa_charger.avif" alt="battery AA and AAA charger" height="150px"/></a>
 
 ---
 ### AAA
@@ -121,7 +121,7 @@ Charger for AA and AAA batteries
 #### Rechargeable
 
 <a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">
-<img src="images_batteries/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="/buy/images_batteries/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/></a>
 
 The advantage of these is that they are everywhere available to buy, also in your local supermarket.
 Because of the size, they can run for a long time on a single battery. Even these are available as rechargeable. 
@@ -132,17 +132,17 @@ The downside is that these make the sensor also quite big.
 <a href="https://amzn.to/493a0ke" target="_blank">(AmazonNL)</a>
 
 <a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">
-<img src="images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
+<img src="/buy/images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
 </a>
 
 {{imgBasket}}<a href="https://amzn.to/3X3I0Z2" target="_blank">4x Rechargeable AAA batteries - Duracell (Amazon)</a>
 
 #### Charger
 
-<a href="https://s.click.aliexpress.com/e/_okkWmWc" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okkWmWc" target="_blank">
 Charger for AA and AAA batteries.
 
-<img src="images_batteries/aa_charger.avif" alt="battery AA and AAA charger" height="150px"/></a>
+<img src="/buy/images_batteries/aa_charger.avif" alt="battery AA and AAA charger" height="150px"/></a>
 
 ---
 ### CR2032
@@ -150,7 +150,7 @@ Charger for AA and AAA batteries.
 #### Disposable
 
 <a href="https://s.click.aliexpress.com/e/_oDUcuQH" target="_blank">
-<img src="images_batteries/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
+<img src="/buy/images_batteries/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
 
 This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
@@ -159,19 +159,19 @@ This CR2032 is the most commonly used battery. It's small, but still has enough 
 <a href="https://amzn.to/3V4sHye" target="_blank">(AmazonNL)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooUmuKN" target="_blank">CR2032 (AliExpress)</a>
-<a href="https://amzn.to/4i2rCAE" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4i2rCAE" target="_blank">(AmazonNL)</a>
 
 #### Rechargeable
 
 The CR2032 rechargeable version is the **LIR2032**.
 
 <a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">
-<img src="images_batteries/cr2032_rechargeable.webp" alt="LIR2032" width="100px" style="margin-left:15px;float:right"/></a>
+<img src="/buy/images_batteries/cr2032_rechargeable.webp" alt="LIR2032" width="100px" style="margin-left:15px;float:right"/></a>
 Instead of buying batteries for only a single use it's also possible to buy the rechargeable variant of the CR2032, called LIR2032.
 
 They are not very famous and more expensive, but environment friendlier, and it reduces waste.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opE9WdE" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oERl3Vn" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olLhl1p" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
 <a href="https://amzn.to/4fCK0i9" target="_blank">(Amazon)</a>
@@ -179,21 +179,21 @@ They are not very famous and more expensive, but environment friendlier, and it 
 #### Charger
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included) (AliExpress)</a>\
-<img src="images_batteries/cr2032_rechargeable_adapter.webp" alt="LIR2032 adapter" height="150px"/>
+<img src="/buy/images_batteries/cr2032_rechargeable_adapter.webp" alt="LIR2032 adapter" height="150px"/>
 
 Lights green when it's full.
 
 DON'T CHARGE NORMAL DISPOSABLE CR2032 WITH IT!
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC1kf5e" target="_blank">LIR2032 and others coin cell charger with USB-C (batteries not included) (AliExpress)</a>\
-<img src="images_batteries/lir_charger.avif" alt="LIR2032 adapter" height="150px"/>
+<img src="/buy/images_batteries/lir_charger.avif" alt="LIR2032 adapter" height="150px"/>
 
 ---
 
 #### CR2032 USB battery replacements
 
 <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
-<img src="images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" />
+<img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" style="margin-left:15px;float:right" />
 </a>
 It's also possible to convert a wireless CR2032 devices to a USB wired devices. 
 Now you don't have to care about replacing batteries. 
@@ -215,7 +215,7 @@ See my [dedicated page](cr2032_to_aa_batteries) about this "hack".
 ---
 ### CR1632
 
-<img src="images_batteries/cr1632.webp" alt="CR1632" width="100px" style="margin-left:15px;float:right"/>
+<img src="/buy/images_batteries/cr1632.webp" alt="CR1632" width="100px" style="margin-left:15px;float:right"/>
 
 This CR1632 battery is a bit smaller than the CR2032.
 
@@ -231,7 +231,7 @@ This CR1632 battery is a bit smaller than the CR2032.
 
 The CR1632 rechargeable version is the **LIR1632**.
 
-<img src="images_batteries/lir1632.avif" alt="LIR1632" width="100px" style="margin-left:15px;float:right"/>
+<img src="/buy/images_batteries/lir1632.avif" alt="LIR1632" width="100px" style="margin-left:15px;float:right"/>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_om9Uopk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>\
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEp8zbk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
@@ -239,12 +239,12 @@ The CR1632 rechargeable version is the **LIR1632**.
 #### Charger
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC1kf5e" target="_blank">LIR1632 and others coin cell charger with USB-C (batteries not included) (AliExpress)</a>\
-<img src="images_batteries/lir_charger.avif" alt="LIR1632 adapter" height="150px"/>
+<img src="/buy/images_batteries/lir_charger.avif" alt="LIR1632 adapter" height="150px"/>
 
 ---
 ### CR2450
 
-<img src="images_batteries/cr2450.webp" alt="CR2450" width="100px" style="margin-left:15px;float:right"/>
+<img src="/buy/images_batteries/cr2450.webp" alt="CR2450" width="100px" style="margin-left:15px;float:right"/>
 
 This CR2450 battery is a bit thicker than the other ones.
 
@@ -253,8 +253,8 @@ This CR2450 battery is a bit thicker than the other ones.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/4hT10SV" target="_blank">(AmazonUS)</a>
-<a href="https://amzn.to/4hT10SV" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/3FRlQU0" target="_blank">(AmazonUS)</a>
+<a href="https://amzn.to/3G0MycM" target="_blank">(AmazonNL)</a>
 
 #### Rechargeable
 
@@ -267,7 +267,7 @@ The CR2450 rechargeable version is the **LIR2450**.
 #### Charger
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC1kf5e" target="_blank">LIR2450 and others coin cell charger with USB-C (batteries not included) (AliExpress)</a>\
-<img src="images_batteries/lir_charger.avif" alt="LIR2450 adapter" height="150px"/>
+<img src="/buy/images_batteries/lir_charger.avif" alt="LIR2450 adapter" height="150px"/>
 
 ---
 ### Battery eliminators
@@ -294,7 +294,7 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">CR2032 battery replacement with USB (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_DeBgzBR" target="_blank">
-<img src="../projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
+<img src="/projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
 <br>{{imgBasket}} USB A or C to clips 3V (same voltage as two batteries) (AliExpress)
 </a>
 
