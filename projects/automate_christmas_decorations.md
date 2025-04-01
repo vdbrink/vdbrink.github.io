@@ -424,13 +424,14 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
    <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" /></a>
 
 <br>
-
+<!--
 * Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
 
   {{imgBasket}}<a href="https://amzn.to/4eBZVMp" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)</a>\
   {{imgBasket}}I bought mine at the local Lidl store, but they are not always available there (also not online), only once in a while.
 
   <a href="https://amzn.to/4eBZVMp" target="_blank"><img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
+-->
 
 ---
 

@@ -23,7 +23,7 @@ This solution works for all these types of sensors:
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="100px" style="margin-left:15px;float:left"/></a>
 
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
-<img src="/buy/images_zigbee/zigbee_motion_pir.avif" alt="motion sensor" height="100px" style="margin-left:15px;float:left"></a>
+<img src="/buy/images_zigbee/zigbee_motion_pir.jpg" alt="motion sensor" height="100px" style="margin-left:15px;float:left"></a>
 
 <a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">
 <img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="100px" style="margin-left:15px;float:left"/></a>
@@ -132,7 +132,7 @@ This project only requires these devices: A battery powered sensor and a battery
 
 1. It also works with other sensors like this motion sensor with two AAA batteries.\
    <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
-   <img src="/buy/images_zigbee/zigbee_motion_pir.avif" alt="motion sensor" height="100px" style="margin-left:15px"></a>
+   <img src="/buy/images_zigbee/zigbee_motion_pir.jpg" alt="motion sensor" height="100px" style="margin-left:15px"></a>
 
 2. A <a href="/buy/smart_home_best_buy_tips#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
    <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
