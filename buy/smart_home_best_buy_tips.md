@@ -335,7 +335,6 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
 <br>
-<br>
 
 ---
 
@@ -506,7 +505,7 @@ Make sure you select the Zigbee version:\
 [(Amazon US)](https://amzn.to/3G3WnH0)
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
-<br><br>
+<br>
 
 ---
 ### Outdoor sensors
@@ -646,7 +645,7 @@ Cheaper solution than four single smart sockets!
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Melery 
 <a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">(AliExpress)</a> 
 <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4idt1Ub" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4cpWLM9" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3CbB7xu" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
 
@@ -669,7 +668,8 @@ Cheaper solution than four single smart sockets!
 * LED indicate for each socket
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Lellki 
-<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">(AliExpress)</a> 
+<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4idt1Ub" target="_blank">(Amazon US)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
 
@@ -696,7 +696,7 @@ Cheaper solution than four single smart sockets!
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 4 USB ports - UseeLink 
 <a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">(AliExpress)</a>
-<a href="" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lnnnkP" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3PFr86N" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
 

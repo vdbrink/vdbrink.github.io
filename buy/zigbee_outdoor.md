@@ -47,8 +47,9 @@ Find here a set of preselected devices which you can buy for in your garden or g
 This outdoor sensor detects raindrops and measures the light intensity (lux).\
 It contains a build-in battery that charges via a small solar panel.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">Zigbee raindrop + lux sensor (AliExpress)</a>
-<a href="https://amzn.to/4i2oF32" target="_blank">(Amazon)</a>
+{{imgBasket}}Zigbee raindrop + lux sensor 
+<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4i2oF32" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>
@@ -63,7 +64,9 @@ This sensor measures the soil temperature and humidity.\
 It can be used for plants inside and outside.\
 It contains a build-in battery that charges via a solar panel on top of it.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">Zigbee soil sensor (AliExpress)</a>
+{{imgBasket}}Zigbee soil sensor 
+<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/43MsK6V" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this sensor.
@@ -82,7 +85,8 @@ The brightness and color temperature are adjustable, and it's (of course) water-
 
 Support 2.4G RF remote control directly.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">Outdoor Zigbee garden light pole - MiBoxer (AliExpress)</a>
+{{imgBasket}}Outdoor Zigbee garden light pole - MiBoxer 
+<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">(AliExpress)</a>
 
 model: LA5-09S-ZL
 
@@ -98,7 +102,8 @@ The brightness and color temperature are adjustable, and it's (of course) water-
 
 Support 2.4G RF remote control directly.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">Zigbee Spotlight - Gledopto (AliExpress)</a>
+{{imgBasket}}Zigbee Spotlight - Gledopto 
+<a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GL-G-003P.html" target="_blank" title="GL-G-003P">{{imgZ2M}}GL-G-003P</a>
 
 You can link multiple lights together.
@@ -119,7 +124,8 @@ The brightness and color temperature are adjustable, and it's (of course) water-
 
 Support 2.4G RF remote control directly.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okk5Oi1" target="_blank">Zigbee Floodlight - Gledopto (AliExpress)</a>
+{{imgBasket}}Zigbee Floodlight - Gledopto 
+<a href="https://s.click.aliexpress.com/e/_okk5Oi1" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GL-FL-001P.html" target="_blank" title="GL-FL-001P">{{imgZ2M}}GL-FL-001P</a>
 
 <br>
@@ -138,7 +144,8 @@ This LED strip is available in different versions:
 
 <br>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">Zigbee RGB 5m LED strip (AliExpress)</a>
+{{imgBasket}}Zigbee RGB 5m LED strip 
+<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0503B.html" target="_blank" title="TS0503B">{{imgZ2M}}TS0503B</a>
 
 ---
@@ -150,7 +157,8 @@ This LED strip is available in different versions:
 
 This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rating and with power measurement.
 
-{{imgBasket}}<a href="https://amzn.to/4gBFjop" target="_blank">Zigbee outdoor power socket - LEDVANCE (Amazon)</a>
+{{imgBasket}}Zigbee outdoor power socket - LEDVANCE 
+<a href="https://amzn.to/4gBFjop" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank" title="4099854293276">{{imgZ2M}}4099854293276</a>
 
 <br>
@@ -163,7 +171,8 @@ This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rati
 
 This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (without power measurement).
 
-{{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
+{{imgBasket}}Zigbee outdoor power socket - Innr (Dual Pack) 
+<a href="https://amzn.to/3Vt83Ip" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
 -->
 
@@ -174,7 +183,7 @@ This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (
 
 This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without power measurement).
 
-{{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon)</a>
+{{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon NL)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>
 -->
@@ -188,7 +197,8 @@ This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an I
 
 This is a **dual socket** outdoor Zigbee device, where each socket can be controlled individual and has **power consumption measurements**.
 
-{{imgBasket}}<a href="https://amzn.to/40SVJoc" target="_blank">Zigbee dual port power socket with power measurement - Nous (Amazon)</a>
+{{imgBasket}}Zigbee dual port power socket with power measurement - Nous 
+<a href="https://amzn.to/40SVJoc" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
 
 <br>
