@@ -34,6 +34,8 @@ On this page you find products, information and projects related to Zigbee.
 
 I created some detailed pages about specific Zigbee devices:
 
+* [USB adapter switch](usb_adapter_switch) to control USB devices.
+
 * [Soil sensor](zigbee_soil_sensor) to detect the soil humidity and temperature.
 
   <a href="zigbee_soil_sensor"><img src="images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="100px"/></a>

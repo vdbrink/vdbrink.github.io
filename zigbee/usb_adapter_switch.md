@@ -110,7 +110,8 @@ See the [Z2M product page](https://www.zigbee2mqtt.io/devices/TS0003.html) for a
 
 If you're interested in this sensor,\
 you can buy it {{imgBasket}}
-[here (AliExpress)](https://s.click.aliexpress.com/e/_op29q8h).
+[here (AliExpress)](https://s.click.aliexpress.com/e/_op29q8h) or via
+[Amazon US](https://amzn.to/43GLLrs).
 
 There are different versions you can choose between:
 * It's available for the Zigbee or WiFi protocol;
