@@ -23,7 +23,7 @@ Here you find Home Assistant (lovelace) dashboard custom elements which are defa
   * [multiple-entity-row](#multiple-entity-row)
   * [template-entity-row](#template-entity-row)
   * [Atomic Calendar Revive](#atomic-calendar-revive)
-  * [birthday-reminder-card](#birthday-reminder-card)
+  * [Birthday Reminder Card](#birthday-reminder-card)
   * [Clock Weather Card](#clock-weather-card)
   * [Lovelace animated weather card](#lovelace-animated-weather-card)
   * [Neerslag App](#neerslag-app)
@@ -253,7 +253,7 @@ Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
 
 ---
-## birthday-reminder-card
+## Birthday Reminder Card
 
 A birthday and wedding day overview.
 
@@ -262,7 +262,7 @@ A birthday and wedding day overview.
 Repo: https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card
 
 Install it via this button
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=erlsta&repository=homeassistant-lovelace-birthday-reminder-card&category=integration)
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=vdbrink&repository=homeassistant-lovelace-birthday-reminder-card&category=Plugin)
 
 To add your own dates, you need to dive into your installation files to edit the `birthday-reminder-card.js` file. 
 You can find the file in the `www` folder of your Home Assistant installation.
