@@ -816,3 +816,9 @@ If you got any questions you can also ask them here.
 [Home Assistant integration: Afvalbeheer >>](homeassistant_hacs_afvalbeheer)
 
 [Home Assistant: Templates >>](homeassistant_templates)
+
+---
+
+See also my Smart home Best Buy Tips:
+
+<a href="/buy/smart_home_best_buy_tips"><img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" width="100%"></a>

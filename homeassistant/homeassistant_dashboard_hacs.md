@@ -368,3 +368,8 @@ entities:
 [Custom element: Auto-entities >>](homeassistant_dashboard_card_auto-entities)
 
 [Dashboard card: Mushroom >>](homeassistant_dashboard_card_mushroom)
+
+---
+See also my Smart home Best Buy Tips:
+
+<a href="/buy/smart_home_best_buy_tips"><img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" width="100%"></a>

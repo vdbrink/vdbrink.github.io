@@ -702,3 +702,8 @@ Let me know which cool templates you use!
 [<< See also my other Home Assistant tips and tricks](index)
 
 [Dashboard: Layout examples >>](homeassistant_dashboard_layout)
+
+---
+See also my Smart home Best Buy Tips:
+
+<a href="/buy/smart_home_best_buy_tips"><img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" width="100%"></a>
