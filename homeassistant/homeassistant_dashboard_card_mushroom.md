@@ -13,7 +13,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to the **mush
 
 Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add a small widget on your dashboard.
 
-<img src="images_mushroom/mushroom_examples.png" width="350px"  alt="mushroom examples"/> 
+<img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples" /> 
 
 The git repository is https://github.com/piitaya/lovelace-mushroom
 
@@ -23,10 +23,11 @@ Install it via this button
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Intro](#introduction)
+  * [Introduction](#introduction)
   * [Cards](#cards)
     * [Title card](#title-card)
       * [Welcome text and weather forecast for today](#welcome-text-and-weather-forecast-for-today)
+      * [Time and date with large font](#time-and-date-with-large-font)
     * [Chips card](#chips-card)
       * [CO2 colored icon indicator based on a number](#co2-colored-icon-indicator-based-on-a-number)
       * [Weather alarm state colored icon indicator based on a value](#weather-alarm-state-colored-icon-indicator-based-on-a-value)
@@ -75,12 +76,43 @@ Show also the minimal and maximum temperature for today and a textual descriptio
 {% endraw %}
 ```
 
+#### Time and date with large font
+
+Larger font size to show the time and the full date.
+
+<img src="images_date_time/time_date.png" alt="mushroom title date large font" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+type: vertical-stack
+cards:
+  - type: custom:mushroom-title-card
+    title: '{{now().strftime(''%H:%M'')}}'
+    alignment: center
+    card_mod:
+      style: |
+        ha-card {
+          --title-font-size: 90px !important;
+        }
+  - type: custom:mushroom-title-card
+    title: {{states('sensor.date_only_formatted')}}
+    alignment: center
+    card_mod:
+      style: |
+        ha-card {
+          --title-font-size: 30px !important;
+        }
+{% endraw %}
+```
+
 ---
 
 ### Chips card
 
-Chips cards are small icon which indicate a status.\
-In my example I only show them, with a condition, when they are relative. 
+Chips cards are small icon that indicates a status.\
+In my example, I only show them, with a condition, when they are relative. 
 
 #### CO2 colored icon indicator based on a number
 
@@ -115,8 +147,11 @@ In my example I only show them, with a condition, when they are relative.
 
 #### Weather alarm state colored icon indicator based on a value
 
+<img src="images_mushroom/mushroom_weather_code.png" alt="weather status mushroom chips" width="50px" style="float:left;margin-right:10px">
 
 Show a green icon, when the value is `Code groen`, yellow for `Code geel` and red for `Code rood`.
+
+<br>
 
 ```yaml
 {% raw %}
@@ -146,10 +181,54 @@ Show a green icon, when the value is `Code groen`, yellow for `Code geel` and re
 {% endraw %}
 ```
 
+#### Bigger icon
+
+<img src="images_mushroom/mushroom_bigger_icon.png" alt="mushroom chips" width="100px" style="float:left">
+
+&nbsp; Show the mushroom icon in a mush bigger size with the `card_mod` HACS integration, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a> for more info.
+
+<br>
+
+Install `card_mod` via this button\
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:mushroom-chips-card
+chips:
+  - chip:
+    type: template
+    icon: mdi:weather-lightning-rainy
+    icon_color: |-
+      {% if is_state('sensor.knmi_weercode', 'Code groen') %}
+         green
+      {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
+         yellow
+      {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
+         red
+      {% else %}
+         1C1C1C
+      {% endif %}
+    entity: sensor.knmi_weercode
+    content: ""
+    card_mod:
+      style: |
+        ha-card {
+          --chip-icon-size: 80px;
+          width: 100px !important;
+          height: 100px !important
+        }
+{% endraw %}
+```
+
+
 #### Nice weather (only an icon)
 
 <img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50px" style="float:left">
- Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon is not visible.
+&nbsp;  Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon is not visible.
 
 ```yaml
 {% raw %}
