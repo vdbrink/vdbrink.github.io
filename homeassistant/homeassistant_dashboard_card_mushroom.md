@@ -31,6 +31,7 @@ Install it via this button
     * [Chips card](#chips-card)
       * [CO2 colored icon indicator based on a number](#co2-colored-icon-indicator-based-on-a-number)
       * [Weather alarm state colored icon indicator based on a value](#weather-alarm-state-colored-icon-indicator-based-on-a-value)
+      * [Bigger icon](#bigger-icon)
       * [Nice weather (only an icon)](#nice-weather-only-an-icon)
       * [Outside temperature (custom icon)](#outside-temperature-custom-icon)
       * [Person status](#person-status)
