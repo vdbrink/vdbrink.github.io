@@ -15,6 +15,16 @@ Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f
 
 <img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples" /> 
 
+Click on one of these icons to go to the corresponding example code:
+
+<a href="#co2-colored-icon-indicator-based-on-a-number"><img src="images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" height="50px"></a>
+<a href="#weather-alarm-state-colored-icon-indicator-based-on-a-value"><img src="images_mushroom/mushroom_weather_code.png" alt="mushroom chips" height="50px"></a>
+<a href="#bigger-icon"><img src="images_mushroom/mushroom_bigger_icon.png" alt="mushroom chips" height="50px"></a>
+<a href="#nice-weather-only-an-icon"><img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" height="50px"></a>
+<a href="#temperature-custom-icon"><img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chips" height="50px"></a>
+<a href="#person-status"><img src="images_mushroom/mushroom_home.png" alt="mushroom chips" height="50px"></a>
+<a href="#door-open-custom-picture"><img src="images_mushroom/mushroom_door_open.png" alt="mushroom chips" height="50px"></a>
+
 The git repository is https://github.com/piitaya/lovelace-mushroom
 
 Install it via this button
@@ -134,8 +144,7 @@ cards:
 
 ### Chips card
 
-Chips cards are small icon that indicates a status.\
-In my example, I only show them, with a condition, when they are relative. 
+Chips cards are a small icon that indicates a status.
 
 #### CO2 colored icon indicator based on a number
 
@@ -245,12 +254,11 @@ chips:
 {% endraw %}
 ```
 
-
 #### Nice weather (only an icon)
 
 <img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50px" style="float:left">
 
-&nbsp;  Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon isn't visible.
+&nbsp; Show (it only based on a condition) only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon isn't visible.
 
 ```yaml
 {% raw %}
@@ -273,7 +281,7 @@ chips:
 
 #### Temperature (custom icon)
 
-<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show a temperature.
+<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp Show a (outdoor/room/pool/etc) temperature.
 <br/><br/>
 
 ```yaml
