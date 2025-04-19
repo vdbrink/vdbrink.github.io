@@ -88,20 +88,20 @@ De template:
 {% raw %}
 # Sourcecode by vdbrink.github.io
   Het weer buiten is 
-  {% if states('tempest_temperature_feels_like_rounded')|int <= 5 %} erg koud met slechts 
-  {% elif states('tempest_temperature_feels_like_rounded')|int <= 10 %} fris met slechts  
-  {% elif states('tempest_temperature_feels_like_rounded')|int < 18 %} aangenaam met 
-  {% elif states('tempest_temperature_feels_like_rounded')|int < 28 %} een erg aangename temperatuur met 
-  {% elif states('tempest_temperature_feels_like_rounded')|int >= 28 %} heet met 
+  {% if states('sensor.tempest_temperature_feels_like_rounded')|int <= 5 %} erg koud met slechts 
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 10 %} fris met slechts  
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int < 18 %} aangenaam met 
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int < 28 %} een erg aangename temperatuur met 
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int >= 28 %} heet met 
   {% endif %}
   {{states('tempest_temperature_feels_like_rounded')}} graden als gevoelstemperatuur.
 
   en {{states('tempest_temperature_rounded')}} graden celcius op de thermometer.
   
-  {% if states('tempest_temperature_feels_like_rounded')|int <= 5 %} Winterjas en handschoenen
-  {% elif states('tempest_temperature_feels_like_rounded')|int <= 12 %} Softshell
-  {% elif states('tempest_temperature_feels_like_rounded')|int <= 16 %} Vest
-  {% elif states('tempest_temperature_feels_like_rounded')|int > 16 %} T-shirt
+  {% if states('sensor.tempest_temperature_feels_like_rounded')|int <= 5 %} Winterjas en handschoenen
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 12 %} Softshell
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 16 %} Vest
+  {% elif states('sensor.tempest_temperature_feels_like_rounded')|int > 16 %} T-shirt
   {% endif %} aan als je naar buiten gaat.
 {% endraw %}
 ```

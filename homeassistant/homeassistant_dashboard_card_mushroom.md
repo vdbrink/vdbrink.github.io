@@ -26,14 +26,15 @@ Install it via this button
   * [Introduction](#introduction)
   * [Cards](#cards)
     * [Title card](#title-card)
-      * [Welcome text and weather forecast for today](#welcome-text-and-weather-forecast-for-today)
+      * [What to wear when you go outside](#what-to-wear-when-you-go-outside)
+      * [Welcome text and weather forecast for today (Dutch)](#welcome-text-and-weather-forecast-for-today-dutch)
       * [Time and date with large font](#time-and-date-with-large-font)
     * [Chips card](#chips-card)
       * [CO2 colored icon indicator based on a number](#co2-colored-icon-indicator-based-on-a-number)
       * [Weather alarm state colored icon indicator based on a value](#weather-alarm-state-colored-icon-indicator-based-on-a-value)
       * [Bigger icon](#bigger-icon)
       * [Nice weather (only an icon)](#nice-weather-only-an-icon)
-      * [Outside temperature (custom icon)](#outside-temperature-custom-icon)
+      * [Temperature (custom icon)](#temperature-custom-icon)
       * [Person status](#person-status)
       * [Door open (custom picture)](#door-open-custom-picture)
   * [More examples](#more-examples)
@@ -50,16 +51,37 @@ In my examples here, I only use two of them. If you want to know more about them
 ---
 ## Cards
 
-I highlight here two cards.
+I show here some examples of the two cards, the Tile and Chip card.
 
 ### Title card
 
-The title card shows data based on a template and has no background.
+The title card shows data based on a template.
 
-#### Welcome text and weather forecast for today
+#### What to wear when you go outside
+
+<img src="images_mushroom/mushroom_wear_outside.png" alt="mushroom title" width="400px">
+
+Show what to wear as clothes when you go outside.
+You can change it the way you like or extend it by adding rain expectations.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: custom:mushroom-title-card
+  title: >2
+   Wear a {% if states('sensor.feels_like_temperature')|int <= 5 %}winter coat and gloves
+  {% elif states('sensor.feels_like_temperature')|int <= 12 %}jacket
+  {% elif states('sensor.feels_like_temperature')|int <= 16 %}sweater
+  {% elif states('sensor.feels_like_temperature')|int > 16 %}T-shirt
+  {% endif %} when you go outside. It feels as {{ states('sensor.feels_like_temperature')|int }} °C.
+{% endraw %}
+```
+
+#### Welcome text and weather forecast for today (Dutch)
 <img src="images_mushroom/mushroom_title.png" alt="mushroom title" width="400px">
 
-Welcome text based on the time of the day and the name of the logged-in user.\
+Dutch welcome text based on the time of the day and the name of the logged-in user.\
 Show also the minimal and maximum temperature for today and a textual description of the weather.
 
 ```yaml
@@ -152,8 +174,6 @@ In my example, I only show them, with a condition, when they are relative.
 
 Show a green icon, when the value is `Code groen`, yellow for `Code geel` and red for `Code rood`.
 
-<br>
-
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -229,7 +249,8 @@ chips:
 #### Nice weather (only an icon)
 
 <img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50px" style="float:left">
-&nbsp;  Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon is not visible.
+
+&nbsp;  Show only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon isn't visible.
 
 ```yaml
 {% raw %}
@@ -250,9 +271,9 @@ chips:
 {% endraw %}
 ```
 
-#### Outside temperature (custom icon)
+#### Temperature (custom icon)
 
-<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left">Show the outside temperature.
+<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show a temperature.
 <br/><br/>
 
 ```yaml
@@ -268,7 +289,7 @@ chips:
 ```
 
 #### Person status
-<img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left">Show this icon only when I'm at home.
+<img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show this icon only when I'm at home.
 <br/><br/>
 
 ```yaml
@@ -293,7 +314,7 @@ chips:
 
 #### Door open (custom picture)
 
-<img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left">Show a custom picture when the front door is open. Otherwise hide it.
+<img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show a custom picture when the front door is open. Otherwise hide it.
 <br/><br/>
 
 ```yaml
@@ -321,6 +342,3 @@ Looking for more examples? Check this link:
 ---
 
 [<< See also my other Home Assistant pages](index)
-
-
-
