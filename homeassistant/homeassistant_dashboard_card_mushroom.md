@@ -28,8 +28,15 @@ Click on one of these icons to go to the corresponding example code:
 
 The git repository is https://github.com/piitaya/lovelace-mushroom
 
-Install it via this button
+Install the Mushroom card via this button\
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
+
+**Custom styling**
+
+For some examples, some custom CSS styling is applied which isn't possible by default. 
+You need the extra HACS integration `card_mod`. You can install it via this button\
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+
 
 ---
 ## Table of Contents
@@ -209,7 +216,6 @@ chips:
     tap_action:
       action: url
       url_path: https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
-    card_mod: null
 {% endraw %}
 ```
 
