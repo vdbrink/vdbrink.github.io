@@ -3,7 +3,7 @@ title: "Zigbee Outdoor - Best Buy Tips"
 description: "Useful link to buy Zigbee sensors and actuator for outdoor."
 category: Buy tips
 tags: [Best, Buy, tips, smart, home automation, sensors, lights, soil, garden, outdoor, Zigbee]
-image: /buy/images_zigbee/zigbee_banner.png
+image: /buy/images_outdoor/spotlights.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -83,7 +83,7 @@ See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this senso
 A 9W / 24V DC light with 16 million colors.
 The brightness and color temperature are adjustable, and it's (of course) water-resistant.
 
-Support 2.4G RF remote control directly.
+Also, possible to control them with a remote (2.4 GHz).
 
 {{imgBasket}}Outdoor Zigbee garden light pole - MiBoxer 
 <a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">(AliExpress)</a>
@@ -97,8 +97,8 @@ model: LA5-09S-ZL
 <a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">
 <img src="images_outdoor/zigbee_spotlight.avif" alt="Outdoor Zigbee spotlight" height="150px" style="margin-left:15px;float:right"/>
 </a>
-A 7W / 24V DC spotlight with 16 million colors..
-The brightness and color temperature are adjustable, and it's (of course) water-resistant.
+A 7W / 24V DC spotlight with 16 million colors.
+The brightness and color temperature are adjustable, and it's water-resistant.
 
 Support 2.4G RF remote control directly.
 
@@ -106,7 +106,7 @@ Support 2.4G RF remote control directly.
 <a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GL-G-003P.html" target="_blank" title="GL-G-003P">{{imgZ2M}}GL-G-003P</a>
 
-You can link multiple lights together.
+You can chain multiple lights together to power them.
 
 <a href="images_outdoor/zigbee_spotlight_linking.avif">
 <img src="images_outdoor/zigbee_spotlight_linking.avif" alt="Outdoor Zigbee spotlight" height="150px" />
