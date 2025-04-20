@@ -22,6 +22,7 @@ Click on one of these icons to go to the corresponding example code:
 <a href="#bigger-icon"><img src="images_mushroom/mushroom_bigger_icon.png" alt="mushroom chips" height="50px"></a>
 <a href="#nice-weather-only-an-icon"><img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" height="50px"></a>
 <a href="#temperature-custom-icon"><img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chips" height="50px"></a>
+<a href="#temperature-colored-icon-and-text"><img src="images_mushroom/mushroom_colored.png" alt="mushroom chips" height="50px"></a>
 <a href="#person-status"><img src="images_mushroom/mushroom_home.png" alt="mushroom chips" height="50px"></a>
 <a href="#door-open-custom-picture"><img src="images_mushroom/mushroom_door_open.png" alt="mushroom chips" height="50px"></a>
 
@@ -45,6 +46,7 @@ Install it via this button
       * [Bigger icon](#bigger-icon)
       * [Nice weather (only an icon)](#nice-weather-only-an-icon)
       * [Temperature (custom icon)](#temperature-custom-icon)
+      * [Temperature (colored icon and text)](#temperature-colored-icon-and-text)
       * [Person status](#person-status)
       * [Door open (custom picture)](#door-open-custom-picture)
   * [More examples](#more-examples)
@@ -281,7 +283,7 @@ chips:
 
 #### Temperature (custom icon)
 
-<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp Show a (outdoor/room/pool/etc) temperature.
+<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show a (outdoor/room/pool/etc) temperature.
 <br/><br/>
 
 ```yaml
@@ -293,6 +295,59 @@ chips:
     - type: entity
       entity: sensor.temperature_outside_feels_like
       icon: mdi:sun-thermometer
+{% endraw %}
+```
+
+#### Temperature (colored icon and text)
+
+<img src="images_mushroom/mushroom_colored.png" alt="mushroom chip" height="50px" style="float:left"> &nbsp; Set the icon and text color based on the entity value.
+<br/><br/>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: custom:mushroom-chips-card
+  chips:
+    - type: entity
+    entity: sensor.tempest_temperature_feels_like_rounded
+    icon: mdi:hand-back-right
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace-diverse/test2
+    card_mod:
+      style:
+        .: |
+          ha-card {
+            --icon-primary-color:
+            {% if is_state('sensor.tempest_temperature_feels_like_rounded', 'unavailable') %}
+             #1C1C1C;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 5 %}
+             blue;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 14 %}
+             yellow;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 18 %}
+             orange;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int > 25 %}
+              red;
+            {% else %}
+             green;
+            {% endif %}
+             --text-color:
+            {% if is_state('sensor.tempest_temperature_feels_like_rounded', 'unavailable') %}
+             gray;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 5 %}
+             blue;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 14 %}
+             yellow;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 18 %}
+             orange;
+            {% elif states('sensor.tempest_temperature_feels_like_rounded')|int > 25 %}
+              red;
+            {% else %}
+             green;
+            {% endif %}
+          }
 {% endraw %}
 ```
 
