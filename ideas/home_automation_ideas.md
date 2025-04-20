@@ -25,6 +25,7 @@ I hope I can inspire you with some new home automation ideas you can integrate i
   * [Introduction](#introduction)
   * [Devices and locations to be automated](#devices-and-locations-to-be-automated)
     * [Mailbox](#mailbox)
+    * [Package box](#package-box)
     * [Washing machine / dryer](#washing-machine--dryer)
     * [Living room](#living-room)
     * [Christmas lights](#christmas-lights)
@@ -44,11 +45,11 @@ I hope I can inspire you with some new home automation ideas you can integrate i
     * [Closet / pantry / storage / stairs](#closet--pantry--storage--stairs)
     * [Drawer](#drawer)
     * [Aquarium](#aquarium)
+    * [Garage](#garage)
     * [Outside](#outside)
       * [Front yard](#front-yard)
       * [Car](#car)
       * [Putting out the bin](#putting-out-the-bin)
-  * [(Dutch) Inspiration videos](#dutch-inspiration-videos)
 <!-- TOC -->
 
 ---
@@ -68,7 +69,7 @@ Criteria for my own automations are:
 
 ### Mailbox
 * Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
-* Notification if mail is sticking out of the mailbox. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is broken and not closed again after 1 minute)
+* Notification if mail is sticking out of the mailbox. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) doesn't make contact anymore, and not closed again after 1 minute)
 * Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/> &nbsp;
