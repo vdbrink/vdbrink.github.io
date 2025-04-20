@@ -28,8 +28,10 @@ If you need some home automation inspiration, check my [home automation ideas](.
 
 Most devices are for sale by the online shop [AliExpress](https://s.click.aliexpress.com/e/_omcoItX).
 I order 90% of my home automation devices on this site for years already. 
-You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!
-If the product is also available at Amazon, I also placed a link.
+You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!\
+If the product is also available at Amazon, I also placed a link to it also.
+
+[> Go direct to the sensor section on this page.](#zigbee-sensors-and-actuators)
 
 ---
 
@@ -78,7 +80,11 @@ If the product is also available at Amazon, I also placed a link.
 > **_NOTE 2:_** I advise these products based on my personal experience.\
 > I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT.\
 > It can be with other hardware combinations it doesn't run with the same experience.
+
 ---
+
+[> Go direct to the sensor section on this page.](#zigbee-sensors-and-actuators)
+
 ## Why I chose Zigbee
 
 On the market, there are different types of protocols to create a smart home network. 
