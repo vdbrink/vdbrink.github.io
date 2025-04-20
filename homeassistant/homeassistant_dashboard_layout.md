@@ -336,6 +336,8 @@ This functionality makes your dashboard more dynamic, compact and shows only act
 {% endraw %}
 ```
 
+The used weather alarm entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
+
 > **_NOTE:_** The `rain_expected` sensor here is a personal custom sensor, provided by a Node-RED script which checks the data from `sensor.neerslag_buienalarm_regen_data` and `sensor.neerslag_buienradar_regen_data` if any rain is expected. 
 
 ---

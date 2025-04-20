@@ -277,7 +277,7 @@ Read the weather alarm code and description from the KNMI.nl site.
 
 <img src="images_weather/weather_alarm_knmi.png" alt="Weather alarm" width="400px">
 
-First you need to define a scraper to scrape every 10 minutes the latest alarm code and text.
+First, you need to define a scraper to scrape every 10 minutes the latest alarm code and text.
 
 ```yaml
 {% raw %}

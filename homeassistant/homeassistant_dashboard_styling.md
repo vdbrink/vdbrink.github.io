@@ -28,6 +28,9 @@ Install it via this button
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ![Changing icon color](images_styling/colored_icon.png)
+
+The use entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
