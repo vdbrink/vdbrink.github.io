@@ -162,13 +162,13 @@ See [here](/buy/zigbee_outdoor) for more outdoor Zigbee devices!
 
 ## Other plant sensors
 
-<a href="https://s.click.aliexpress.com/e/_okZVL7L" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">
 <img src="../buy/images_zigbee/TS0601_soil_3.png" alt="Zigbee soil sensor" height="200px" style="margin-left:15px;float:right" />
 </a>
 
 Other Zigbee sensors to track your plant health!
 
-* {{imgBasket}}[Tiny indoor plant senors (AliExpress)](https://s.click.aliexpress.com/e/_okZVL7L)
+* {{imgBasket}}[Tiny indoor plant senors (AliExpress)](https://s.click.aliexpress.com/e/_onIII5b)
 
 * {{imgBasket}}[Cheaper version on 3 AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_okhmDa9)
 
