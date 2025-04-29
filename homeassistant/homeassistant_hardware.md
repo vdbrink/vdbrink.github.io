@@ -2,44 +2,51 @@
 title: Which hardware to run Home Assistant on?
 description: "Which hardware to run Home Assistant on?"
 category: Home Assistant
-tags: [system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished]
+tags: [ system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished ]
 ---
 
 {% capture style_img_right %}style="float:right;margin-left:15px"{% endcapture %}
 
-#  Which Home Assistant hardware?
+# Which Home Assistant hardware?
+
 *Will it be a N100, Raspberry Pi, HP T630 Thin client, or anything else...*
 
 ## Introduction
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:15px" alt="Home Assistant logo" height="100px"></a>
 
-You maybe already have one or more vendor-locked hubs with some smart sensors, each hub has its own app.
+Maybe you have one or more vendor-locked hubs with it's own smart sensors, and each hub has its own app.
 And ALL your data is stored in the big guys cloud.
 And there is no way you can let them work nicely together or combine it in one app.
 
 "Home automations with Home Assistant" you heard about it, you read about it, and it all sounds as the holy grail!
 You've made the choice to dive into the rabbit hole called "Home Assistant" (aka HA).
 
+Or if you running already Home Assistant on a Raspberry but it will now become a bit slower and want to upgrade to something more powerful but don't want to spend a fortune on it. 
+Then you're there on the right place to find out which hardware is the best for you.
+
 <a href="images_hardware/beelink_front_back.jpg">
 <img src="images_hardware/beelink_front_back.jpg" {{style_img_right}} alt="Beelink model mini pc" height="100px">
 </a>
 
 Then comes the question: On which hardware should I run it?
-It can be installed on a whole range of hardware, like a **Mini PC, Home Assistant Green, Home Assistant Yellow, Raspberry Pi, old laptop/desktop, thin client, etc...**\
-I explain on this page which one of these systems fits the best for your situation and what the differences between the hardware are.
+It can be installed on a whole range of hardware, like a **Mini PC, Home Assistant Green, Home Assistant Yellow,
+Raspberry Pi, old laptop/desktop, thin client, etc...**\
+I explain on this page which one of these systems fits the best for your situation and what the differences between the
+hardware are.
 
-I don't mention ALL possible options here, just in my eyes, the most popular ones.
+I don't mention ALL possible options here, just my opinion, the most popular ones.
 
-After reading this page, if you still have questions, about the choice you need to make, don't contact me personally, but use the [social media channels or forums](#need-help).
+After reading this page, if you still have questions about the choice you need to make, don't contact me personally,
+but use the [social media channels or forums](#need-help).
 There are also a lot of other smart and experienced people who can help you further.
-
 
 > There are also links on this page which are affiliate links, you pay the same price, AND you support this blog.
 
 ---
 
 ## Table of Contents
+
 <!-- TOC -->
   * [Terminology](#terminology)
   * [Older hardware](#older-hardware)
@@ -59,7 +66,7 @@ There are also a lot of other smart and experienced people who can help you furt
 
 ## Terminology
 
-First, I want to explain some terms that are used here, and frequently in discussions about this topic.
+First, I want to explain some terms that are used here, and frequently used in discussions about this topic.
 
 <div class="align-left">
 
@@ -78,27 +85,31 @@ First, I want to explain some terms that are used here, and frequently in discus
 | Proxmox     | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            | 
 | T630/T620   | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   | 
 | Thin client | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          | 
+
 </div>
 
 ---
 
 ## Older hardware
 
-> Target group: If you still have some unused hardware available. Or buy it inexpensive second hand if you want to find out this is something for you.
+> Target group: If you still have some unused hardware available. 
+> Or buy it inexpensive second hand if you want to find out this is something for you.
 
-Make sure the hardware has at least 8 GB RAM and 64 GB SSD hard disk space to install Home Assistant on and have enough space to install also other related applications.
+Make sure the hardware has at least 8 GB RAM and 64 GB SSD hard disk space to install Home Assistant on and have enough
+space to install also other related applications.
 
-Computer stores or on sites, like Ebay, they sell refurbished computers, mostly did they them get them bulk from companies.
-Clean them, upgrade the memory or hard disk and sell them. 
+Computer stores or on sites, like Ebay, they sell refurbished computers, mostly they get them in bulk from companies.
+Clean them, upgrade the memory or hard disk and sell them.
 These computers are not the newest but have enough power and can run for another few years without any problem.
-This is an affordable way to buy hardware to test HA on.
+This is an affordable way to buy/upgrade hardware to test HA on.
 
 ### Desktop
 
 <img alt="desktop" width="150px" src="images_hardware/desktop.webp" {{style_img_right}} />
 If you still have a desktop PC lying around, you can use it to run Home Assistant on.
 
-The advantage is that you can easily upgrade hardware elements like memory, processor or extra video card power if needed.
+The advantage is that you can easily upgrade hardware elements like memory, processor or extra video card power if
+needed.
 
 The disadvantage is they use more power than a laptop or mini PC.
 
@@ -109,25 +120,25 @@ A spare laptop can also be used as a server to run Home Assistant on.
 
 The advantage is it's energy-effective and compact.
 
-The disadvantage can be the battery constant on the power or charge daily. 
+The disadvantage can be the battery constant on the power or charge daily.
 Some laptops also run without a battery, which is the best solution.
 
 ### Thin client
 
 <img alt="HP 620" width="130px" src="images_hardware/hp_620.webp" {{style_img_right}} />
-A Thin client is compact, energy effective, silent and not expensive. 
+A Thin client is compact, energy effective, silent and not expensive.
 
 HP has the T630 or T620 which are often mentioned as good hardware.\
 Dell has also Thin clients: the Wyse 5060 or 7020.
 
-They are used in offices and now widely available second hand on sites like Ebay.
+They used in offices and now widely available on second hand sites like Ebay.
 Even with HA already installed on it.
 
 ### NAS
 
 <img alt="QNAP NAS" width="130px" src="images_hardware/nas.png" {{style_img_right}} />
-A NAS, is a Network-Attached Storage mostly used as shared network storage, 
-but there are models that have enough power to also install your own Docker application on.
+A NAS, is a Network-Attached Storage mostly used as shared network storage,
+but there are models that have enough power to also install your own Docker applications, like Home Assistant, on.
 
 A Synology or QNAP NAS are examples of that.
 
@@ -137,20 +148,20 @@ A Synology or QNAP NAS are examples of that.
 
 ## New hardware
 
-
+> Target group: If you want to run Home Assistant (and more) on a brand new and fast device.
 
 ### All-in-one mini PCs
 
-> It's a kind of mini desktop PC with laptop features.
+> It's a kind of mini desktop PC with laptop components and features.
 
 <img alt="NUC" width="200px" src="images_hardware/nuc.webp" {{style_img_right}}/>
 Intel started with the all-in-one NUC mini PCs.
 They have a small nice-looking and silent square form factor which you also can place ON your desk.
-They contain all required hardware in it and with many external ports (USB, network, display). 
+They contain all required hardware in it and with many external ports (USB, network, display).
 
 After this success, many other manufacturers followed with their own versions of this form factor.
 <br>
-The current most popular hardware to run Home Assistant on is the all-in-one mini PCs. 
+The current most popular hardware to run Home Assistant on is the all-in-one mini PCs.
 They have enough power to run Home Assistant, together with a lot of other applications.
 Without to worry about latency or any other performance issues for the best experience.
 
@@ -160,14 +171,22 @@ Without to worry about latency or any other performance issues for the best expe
 
 {% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFB63ZC){% endcapture %}
 {% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_ooqM2zc){% endcapture %}
-{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFB63ZC){% endcapture %}
+{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_omIhlWt){% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFyTKN0){% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
-{% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oEKgH2g){% endcapture %}
+{% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oDUSYFX){% endcapture %}
 {% capture ser9_global %}[AliExpress](https://s.click.aliexpress.com/e/_okQwYnU){% endcapture %}
 
+{% capture n95_beelink %}[Beelink](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
+{% capture n97_beelink %} n/a {% endcapture %}
+{% capture n100_beelink %}[Beelink](https://www.bee-link.com/products/beelink-mini-s12-pro-n100?variant=46167095771378){% endcapture %}
+{% capture n150_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eq14-n150?variant=46285631291634){% endcapture %}
+{% capture 12650h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12?variant=46665682026738){% endcapture %}
+{% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
+{% capture ser9_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
+
 {% capture n95_us %}[Amazon US](https://amzn.to/4gV8vqH){% endcapture %}
-{% capture n97_us %}[Amazon US](https://amzn.to/4b7HYVT){% endcapture %}
+{% capture n97_us %}[Amazon US](https://amzn.to/4lWIECw){% endcapture %}
 {% capture n100_us %}[Amazon US](https://amzn.to/3W6s5Zk){% endcapture %}
 {% capture n150_us %}[Amazon US](https://amzn.to/4gRClfx){% endcapture %}
 {% capture 12650h_us %}[Amazon US](https://amzn.to/3XeMBYl){% endcapture %}
@@ -175,7 +194,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture ser9_us %}[Amazon US](https://amzn.to/3D2V7CU){% endcapture %}
 
 {% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr){% endcapture %}
-{% capture n97_uk %}[Amazon UK](https://amzn.to/3D1TVQa){% endcapture %}
+{% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM){% endcapture %}
 {% capture n100_uk %}[Amazon UK](https://amzn.to/4hKHeIH){% endcapture %}
 {% capture n150_uk %}[Amazon UK](https://amzn.to/4gSCdMZ){% endcapture %}
 {% capture 12650h_uk %}[Amazon UK](https://amzn.to/3EQDoiH){% endcapture %}
@@ -183,15 +202,15 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture ser9_uk %}[Amazon UK](https://amzn.to/41rdn2a){% endcapture %}
 
 {% capture n95_de %}[Amazon DE](https://amzn.to/3QuWBJh){% endcapture %}
-{% capture n97_de %}[Amazon DE](https://amzn.to/41dcbhL){% endcapture %}
+{% capture n97_de %}[Amazon DE](https://amzn.to/4jYFzQz){% endcapture %}
 {% capture n100_de %}[Amazon DE](https://amzn.to/3D31YMz){% endcapture %}
 {% capture n150_de %}[Amazon DE](https://amzn.to/4gSCEXD){% endcapture %}
 {% capture 12650h_de %}[Amazon DE](https://amzn.to/4gRdTen){% endcapture %}
 {% capture 185h_de %}[Amazon DE](https://amzn.to/431bmLo){% endcapture %}
 {% capture ser9_de %}[Amazon DE](https://amzn.to/3D3AA0W){% endcapture %}
 
-{% capture n95_nl %}[Amazon NL](https://amzn.to/3ERkmbZ){% endcapture %}
-{% capture n97_nl %}[Amazon NL](https://amzn.to/4i9askm){% endcapture %}
+{% capture n95_nl %}[Amazon NL](https://amzn.to/_okn1cgp){% endcapture %}
+{% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk){% endcapture %}
 {% capture n100_nl %}[Amazon NL](https://amzn.to/4iclwgD){% endcapture %}
 {% capture n150_nl %}[Amazon NL](https://amzn.to/3XgabUK){% endcapture %}
 {% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv){% endcapture %}
@@ -201,12 +220,14 @@ Without to worry about latency or any other performance issues for the best expe
 #### Basic
 
 In 2025, the most popular basic hardware device is a mini pc with the N100 processor.
-Due to more than enough power to run Home Assistant (and a bunch of addons) smooth on and with the best value for your money.
+Due to more than enough power to run Home Assistant (and a bunch of addons) smooth on and with the best value for your
+money.
 
-The models N95 and N97 are quite in the same performance range. 
-The N150 is a newer model with more cores, threads and cpu to be even faster.
+The models N95 and N97 are quite in the same performance range.
+The N150 is a newer model with more cores, threads and cpu to be even faster and can be worth it to spend a bit more
+money on even more performance.
 
-It's interesting to compare the prices they can fluctuate based on supply and demand, 
+It's interesting to compare the prices they can fluctuate based on supply and demand,
 that's why I added the links to these comparable models.
 
 | Model                | N150                          | N100                           | N97                           | N95                           |  
@@ -222,36 +243,40 @@ that's why I added the links to these comparable models.
 | **Price indication** | &euro; 220                    | &euro; 240                     | &euro; 150                    | &euro; 200                    |  
 | **AliExpress**       | {{n150_global}}               | {{n100_global}}                | {{n97_global}}                | {{n95_global}}                |  
 | **Amazon US**        | {{n150_us}}                   | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |  
-| **Amazon NL**        | {{n150_uk}}                   | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |  
+| **Amazon NL**        | {{n150_nl}}                   | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |  
 | **Amazon UK**        | {{n150_uk}}                   | {{n100_uk}}                    | {{n97_uk}}                    | {{n95_uk}}                    |  
 | **Amazon DE**        | {{n150_de}}                   | {{n100_de}}                    | {{n97_de}}                    | {{n95_de}}                    |  
+| **Beelink**          | {{n150_beelink}}              | {{n100_beelink}}               | {{n97_beelink}}               | {{n95_beelink}}               |  
 
 #### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
-If you really want to run heavy processes with small AI models on the server, you can better choose for a high-end model.
+If you really want to run heavy processes with small AI models on the server, you can better choose for a high-end
+model.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
 {% capture ser9_img %}<img alt="Beelink SER9 - SER9" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
 {% capture 185h_img %}<img alt="Beelink GTi14 - 185H" height="150px" src="images_hardware/185h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 {% capture 12650h_img %}<img alt="Beelink EQi12 - 12650H" height="150px" src="images_hardware/12650h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 
-| Model                | SER9               | 185H               | 12650H            | 
-|----------------------|--------------------|--------------------|-------------------|
-| **Model**            | {{ser9_img}}       | {{185h_img}}       | {{12650h_img}}    | 
-| **Model**            | SER9               | GTi14              | EQi12             | 
-| **Brand**            | Beelink            | Beelink            | Beelink           | 
-| **Processor**        | AMD Ryzen 9 HX 370 | Intel Core Ultra 9 | Core i7-12650H    | 
-| **CPU**              | 5.1 GHz            | 5.1 GHz            | 4.7 GHz           | 
-| **Memory**           | 32 GB              | 32 GB              | 24 GB             | 
-| **Hard disk**        | 1024 GB            | 1024 GB            | 512 GB            | 
-| **Cores / Threads**  | 12 / 24            | 16 / 22            | 10 / 16           | 
-| **Price indication** | &euro; 1400        | &euro; 1200        | &euro; 600 - 700  | 
-| **AliExpress**       | {{ser9_global}}    | {{185h_global}}    | {{12650h_global}} | 
-| **Amazon US**        | {{ser9_us}}        | {{185h_us}}        | {{12650h_us}}     | 
-| **Amazon NL**        | {{ser9_nl}}        | {{185h_nl}}        | {{12650h_nl}}     | 
-| **Amazon UK**        | {{ser9_uk}}        | {{185h_uk}}        | {{12650h_uk}}     | 
-| **Amazon DE**        | {{ser9_de}}        | {{185h_de}}        | {{12650h_de}}     | 
+| Model                | SER9               | 185H                       | 12650H             | 
+|----------------------|--------------------|----------------------------|--------------------|
+| **Model**            | {{ser9_img}}       | {{185h_img}}               | {{12650h_img}}     | 
+| **Model**            | SER9 Pro AI        | GTi14 AI                   | EQi12              | 
+| **Brand**            | Beelink            | Beelink                    | Beelink            | 
+| **Processor**        | AMD Ryzen 9 HX 370 | Intel Core Ultra 9         | Core i7-12650H     | 
+| **CPU**              | 5.1 GHz            | 5.1 GHz                    | 4.7 GHz            | 
+| **GPU**              | AMD Radeon 890M    | Intel Arc graphics 2.35GHz | Intel UHD Graphics | 
+| **Memory**           | 32 GB              | 32 GB                      | 24 GB              | 
+| **Hard disk**        | 1024 GB            | 1024 GB                    | 512 GB             | 
+| **Cores / Threads**  | 12 / 24            | 16 / 22                    | 10 / 16            | 
+| **Price indication** | &euro; 1400        | &euro; 1000 - 1400         | &euro; 600 - 700   | 
+| **AliExpress**       | {{ser9_global}}    | {{185h_global}}            | {{12650h_global}}  | 
+| **Amazon US**        | {{ser9_us}}        | {{185h_us}}                | {{12650h_us}}      | 
+| **Amazon NL**        | {{ser9_nl}}        | {{185h_nl}}                | {{12650h_nl}}      | 
+| **Amazon UK**        | {{ser9_uk}}        | {{185h_uk}}                | {{12650h_uk}}      | 
+| **Amazon DE**        | {{ser9_de}}        | {{185h_de}}                | {{12650h_de}}      | 
+| **Beelink**          | {{ser9_beelink}}   | {{185h_beelink}}           | {{12650h_beelink}} | 
 
 <!--
 latency
@@ -262,10 +287,14 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 -->
 
 ---
+
 ### Home Assistant Green vs Yellow
 
 {% capture ha_green_img %}<img alt="Home Assistant Green" height="200px" src="images_hardware/ha_green.webp"/>{% endcapture %}
+{% capture ha_green_buy_1 %}[NL](https://www.robbshop.nl/home-assistant-green-smart-hub){% endcapture %}
+
 {% capture ha_yellow_img %}<img alt="Home Assistant Yellow" height="200px" src="images_hardware/ha_yellow.webp"/>{% endcapture %}
+{% capture ha_yellow_buy_1 %}[DE](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html{% endcapture %}
 
 
 |                               | Home Assistant Green                                                            | Home Assistant Yellow                                                        |
@@ -283,17 +312,19 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 | **Price range**               | $ 99 / &euro; 110                                                               | (+ costs for RAM, CM4, hard disk)                                            | 
 | **Pros**                      | * Cheap<br>* Plug-and-play                                                      | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
 | **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. Slow hard disk. |                                                                              | 
-| **Buy link**                  | [NL](https://www.robbshop.nl/home-assistant-green-smart-hub)                    |                                                                              |
+| **Buy links**                 | {{ha_green_buy_1}}                                                              | {{ha_yellow_buy_1}}                                                          |
+
 ---
 
 ### Raspberry Pi
 
 <img alt="Raspberry logo" height="100px" src="images_hardware/raspberry_logo.svg" style="float: right"/>
 
-The Raspberry Pi models where for a long term very popular to run Home Assistant on. 
+The Raspberry Pi models where for a long term very popular to run Home Assistant on.
 Because of the all-in-one board, with low energy consumption and it was cost-efficient.
 
-Currently, they are nowadays less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the `N100` which are more powerful and have more memory and storage.
+Currently, they are nowadays less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the `N100` which
+are more powerful and have more memory and storage.
 
 Click to go to the original post:
 
@@ -305,7 +336,7 @@ Click to go to the original post:
 {% capture rpi4_global %}[AliExpress](https://s.click.aliexpress.com/e/_oEyiS2c){% endcapture %}
 {% capture rpi5_global %}[AliExpress](https://s.click.aliexpress.com/e/_oCaXY9K){% endcapture %}
 
-{% capture rpi3_us %}N/A{% endcapture %}
+{% capture rpi3_us %}[Amazon US](https://amzn.to/4d0606a){% endcapture %}
 {% capture rpi4_us %}[Amazon US](https://amzn.to/41vT9Ez){% endcapture %}
 {% capture rpi5_us %}[Amazon US](https://amzn.to/4hg55Pz){% endcapture %}
 
@@ -330,6 +361,7 @@ Check the website for even more details about the boards if you want to know mor
 |                                   | Raspberry Pi 5 - 8 GB                   | Raspberry Pi 4B - 8 GB              | Raspberry Pi 3B+ - 1 GB       |
 |-----------------------------------|-----------------------------------------|-------------------------------------|-------------------------------|
 | **Photo**                         | {{rpi5_img}}                            | {{rpi4_img}}                        | {{rpi3_img}}                  |
+| **Model**                         | Pi 5                                    | Pi 4B                               | Pi 3B+                        |
 | **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
 | **Remarks**                       | Latest model                            | A very good device to run HA        | Multiple upgrades: A+, B, B+  |
 | **Performance**                   |                                         | 3x faster then the Pi 3             | Less resources, only 1 GB mem |
@@ -344,6 +376,7 @@ Check the website for even more details about the boards if you want to know mor
 | **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
 | **Amazon UK**                     | {{rpi5_uk}}                             | {{rpi4_uk}}                         | {{rpi3_uk}}                   |
 | **Amazon DE**                     | {{rpi5_de}}                             | {{rpi4_de}}                         | {{rpi3_de}}                   |
+
 ---
 
 ## Need help?
@@ -361,7 +394,9 @@ There are also many other people who can help you further.
 ---
 
 ## Remarks
-I hope this pages helps you to make a choice in the hardware you want to run Home Assistant on.
+
+I hope this pages helps you to make a choice in the best hardware for you to run Home Assistant on.
 
 Do you have any other remarks, suggestions, spell errors found after reading this page?\
-Please let me know, you can reach me in one of mine social media posts or create a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
+Please let me know, you can reach me in one of mine social media posts or create
+a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
