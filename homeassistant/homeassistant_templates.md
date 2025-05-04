@@ -85,11 +85,11 @@ select **Template** then one of the two options **Template a sensor** or **Templ
 
 Copy the `value_template` part from the below examples and add it in the visual editor under **State template***.
 
-In this example a (binary) template is created to check if the current month is August.
+In this example, a (binary) template is created to check if the current month is August.
 
 <img src="images_templates/create_helper_template.gif" alt="" width="450px">
 
-The template helpers are more user friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers. It also doesn't have the option to provide a template for `availablity` of the entity.
+The template helpers are more user-friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers. It also doesn't have the option to provide a template for `availablity` of the entity.
 
 ---
 
@@ -109,14 +109,14 @@ Now you're here:
 
 In the **Template editor** the code can be placed and edit, and on the right you see direct the output.
 
-Home Assistant use [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates/?sfnsn=wa) as a template engine to combine static text with variables.
+Home Assistant uses [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates/?sfnsn=wa) as a template engine to combine static text with variables.
 
 ---
 ### Where to get help
 
 Use the below examples, search the internet, use the Home Assistant Community forum, the HA Facebook groups, Reddit or ChatGPT to help you to create your own new templates.
 
-[The Home Assistant website contains also a lot examples!](https://www.home-assistant.io/docs/configuration/templating/)
+[The Home Assistant website contains also a lot of examples!](https://www.home-assistant.io/docs/configuration/templating/)
 
 ChatGPT is really useful and fast with helping you to create a new template and improve it to fine-tune it.
 
@@ -131,10 +131,10 @@ Note that every entity has a `unique_id`. This does not define the entity_id, th
 By providing a `unique_id` you will be able to change `name`, `icon`, `entity_id` and based on the type of entity also the `device_class` in the frontend. 
 It also ensures you don't get suffixes like `_2` after changing your configuration and reloading the template entities.
 
-### Is it a specific day in the year
+### Is it a specific day in the year?
 
 A boolean sensor to test if it is a specific month, season, day (like Christmas or April Fools' Day etc.)?
-This will create `binary_sensor` enties which will be `on` when the template returns `true` and otherwise they will be `off`
+This will create `binary_sensor` entities which will be `on` when the template returns `true` and otherwise they will be `off`
 You can optionally refine the entities even more by providing a template for the `icon`
 
 ```yaml
@@ -346,8 +346,98 @@ template:
 ```
 
 ---
-### Trash bin days countdown
+### Day countdown
 
+This day countdown can be used for any big day, like a wedding, birth of a child, birthday, christmas, etc..
+
+#### Create date sensor
+
+First, you need to create two helpers.
+* One to define the date, this can be done with a `Date and/or time` helper;
+* The other one to calculate the difference in date between THE date and now, this can be done with a `template a sensor` helper.
+
+[Check here (also on this page) how to create these two helpers via the frontend.](#via-the-frontend)
+
+The first sensor is the `Date and/or time` helper. 
+Give it a name, in this case `Community Day`.
+Select for the input type a `Date`.
+
+<img src="images_templates/helper_date.png" alt="create date helper" width="450px">
+
+Once the helper `input_datetime.community_day` is created, click on it and set the correct date. 
+Now this part is ready. 
+
+<img src="images_templates/helper_date_define.png" alt="" width="450px">
+
+Now we need to create another sensor, 
+from the type `template a sensor` to calculate the days until the defined date.
+The value of the `State template must be:`
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+{% set com_date = strptime(states('input_datetime.community_day'), '%Y-%m-%d') %}
+{{ (com_date.date() - now().date()).days }}
+{% endraw %}
+```
+And in the `Unit of measurement` field you can set it on `days`.\
+The other fields are not required.
+
+<img src="images_templates/helper_date_template.png" alt="template helper" width="450px">
+
+Now you have created these two sensors!
+
+<img src="images_templates/helper_date_helpers.png" alt="two created helpers" width="450px">
+
+
+
+#### Community day countdown
+
+Count the days before the Home Assistant Community day.
+With a background image.
+Based on a Picture Entity card.
+
+<img src="images_templates/community_day_countdown_basic.png" alt="days countdown for the Home Assistant community day" width="450px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+type: picture-entity
+entity: sensor.community_day_countdown
+show_state: true
+show_name: false
+image: >-
+  https://images.lumacdn.com/cdn-cgi/image//calendar-cover-images/ud/ec89cf26-ebe8-4966-b2b6-ac982a5ebf57.png
+{% endraw %}
+```
+
+A slightly different presentation for the countdown with a some CSS modifications, no transparant background, black text color and bigger font, for the Picture Entity card with the help of the `card_mod` integration.
+You can install it via this button\
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+
+<img src="images_templates/community_day_countdown_cardmod.png" alt="days countdown for the Home Assistant community day" width="450px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+type: picture-entity
+entity: sensor.community_day_countdown
+show_state: true
+show_name: false
+image: >-
+  https://images.lumacdn.com/cdn-cgi/image//calendar-cover-images/ud/ec89cf26-ebe8-4966-b2b6-ac982a5ebf57.png
+card_mod:
+  style: |
+    ha-card {
+      .footer {
+        background: none;
+        color: black;
+        font-weight: 800;
+      }
+    }
+{% endraw %}
+```
+
+#### Trash bin day countdown
 Count the days before the paper bin will be picked up.
 
 <img src="images_templates/paper_waste_countdown.png" alt="days countdown" width="450px">
