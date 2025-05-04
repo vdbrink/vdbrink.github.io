@@ -358,7 +358,7 @@ template:
 This day countdown can be used to show the days until a special day, 
 like a wedding, birth of a child, birthday, Christmas, or in this example, the Home Assistant Community Day!
 
-<img src="images_templates/community_day_countdown_basic.png" alt="days countdown for the Home Assistant community day" width="450px">
+<img src="images_templates/community_day_countdown_basic.png" alt="day countdown for the Home Assistant community day" width="450px">
 
 #### Create date sensor
 
@@ -407,7 +407,7 @@ To present the number of days before the Home Assistant Community day, I used a 
 so I could use a corresponding background image.
 This is what I added to my own dashboard:
 
-<img src="images_templates/community_day_countdown_basic.png" alt="days countdown for the Home Assistant community day" width="450px">
+<img src="images_templates/community_day_countdown_basic.png" alt="day countdown for the Home Assistant community day" width="450px">
 
 The corresponding code:
 ```yaml
@@ -435,7 +435,7 @@ For the Picture Entity card with the help of the `card_mod` integration.
 You can install it via this button\
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
-<img src="images_templates/community_day_countdown_cardmod.png" alt="days countdown for the Home Assistant community day" width="450px">
+<img src="images_templates/community_day_countdown_cardmod.png" alt="day countdown for the Home Assistant community day with card_mod" width="450px">
 
 ```yaml
 {% raw %}
@@ -463,7 +463,7 @@ You can also use this higher alternative image: https://www.home-assistant.io/im
 #### Trash bin day countdown
 Count the days before the paper bin will be picked up.
 
-<img src="images_templates/paper_waste_countdown.png" alt="days countdown" width="450px">
+<img src="images_templates/paper_waste_countdown.png" alt="day countdown" width="450px">
 
 ```yaml
 {% raw %}
