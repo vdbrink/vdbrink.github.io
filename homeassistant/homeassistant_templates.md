@@ -68,13 +68,15 @@ There are two ways to add a template to your Home Assistant:
 #### Via configuration.yaml
 
 One way to add a new template is by adding the code to the `configuration.yaml` file.
-In 2022 the configuration for template entities changed. Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section a new `template` section was introduced.
+In 2022, the configuration for template entities changed. 
+Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section a new `template` section was introduced.
 Using the modern template format has a couple of advantages. 
 You can use a `trigger` and `action` (like in automations) which gives more control over when the entity should be updated, and it allows to set a `state_class` so the state of the entity will also be stored in Long Term Statistics. It also allows to create `button`, `image`, `number` and `select` entities which is not possible using the legacy platform.
 
-For more information also see the [Home Assistant documentation](<https://www.home-assistant.io/integrations/template/>). The legacy format is still documented all the way at the bottom.
+For more information, also see the [Home Assistant documentation](<https://www.home-assistant.io/integrations/template/>). The legacy format is still documented all the way at the bottom.
 
-All the examples below start with the `template:` key. Be sure to define this only once in your `configuration.yaml`. All template enitites should be created under the same `template:` key.
+All the examples below start with the `template:` key. Be sure to define this only once in your `configuration.yaml`. 
+All template entities should be created under the same `template:` key.
 
 #### Via the frontend
 
@@ -89,11 +91,12 @@ select **Template** then one of the two options **Template a sensor** or **Templ
 
 Copy the `value_template` part from the below examples and add it in the visual editor under **State template***.
 
-In this example, a (binary) template is created to check if the current month is August.
+In this example animation, a (binary) template is created to check if the current month is August.
 
 <img src="images_templates/create_helper_template.gif" alt="" width="450px">
 
-The template helpers are more user-friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers. It also doesn't have the option to provide a template for `availablity` of the entity.
+The template helpers are more user-friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers. 
+It also doesn't have the option to provide a template for `availablity` of the entity.
 
 ---
 
@@ -352,29 +355,33 @@ template:
 ---
 ### Day countdown
 
-This day countdown can be used for any big day, like a wedding, birth of a child, birthday, christmas, etc..
+This day countdown can be used to show the days until a special day, 
+like a wedding, birth of a child, birthday, Christmas, or in this example, the Home Assistant Community Day!
+
+<img src="images_templates/community_day_countdown_basic.png" alt="days countdown for the Home Assistant community day" width="450px">
 
 #### Create date sensor
 
-First, you need to create two helpers.
-* One to define the date, this can be done with a `Date and/or time` helper;
-* The other one to calculate the difference in date between THE date and now, this can be done with a `template a sensor` helper.
+First, you need to create two helpers:
+* One to define the date itself, this can be done with a `Date and/or time` helper;
+* The other one to calculate the difference between THE date and today, this can be done with a `template a sensor` helper.
+<br>
 
 [Check here (also on this page) how to create these two helpers via the frontend.](#via-the-frontend)
 
-The first sensor is the `Date and/or time` helper. 
-Give it a name, in this case `Community Day`.
+The first sensor is a `Date and/or time` helper.\
+Give it a name, in this case `Community Day`.\
 Select for the input type a `Date`.
 
 <img src="images_templates/helper_date.png" alt="create date helper" width="450px">
 
 Once the helper `input_datetime.community_day` is created, click on it and set the correct date. 
-Now this part is ready. 
+Now this helper is ready. 
 
 <img src="images_templates/helper_date_define.png" alt="" width="450px">
 
 Now we need to create another sensor, 
-from the type `template a sensor` to calculate the days until the defined date.
+from the type `template a sensor` to calculate the days until the defined date.\
 The value of the `State template must be:`
 ```yaml
 {% raw %}
@@ -383,25 +390,26 @@ The value of the `State template must be:`
 {{ (com_date.date() - now().date()).days }}
 {% endraw %}
 ```
-And in the `Unit of measurement` field you can set it on `days`.\
+And in the `Unit of measurement` field you can fill in `days` as unit.\
 The other fields are not required.
 
 <img src="images_templates/helper_date_template.png" alt="template helper" width="450px">
 
-Now you have created these two sensors!
+Now you have created the two required sensors!
 
 <img src="images_templates/helper_date_helpers.png" alt="two created helpers" width="450px">
 
-
+Now we can create a presentation with this data.
 
 #### Community day countdown
 
-Count the days before the Home Assistant Community day.
-With a background image.
-Based on a Picture Entity card.
+To present the number of days before the Home Assistant Community day, I used a Picture Entity card, 
+so I could use a corresponding background image.
+This is what I added to my own dashboard:
 
 <img src="images_templates/community_day_countdown_basic.png" alt="days countdown for the Home Assistant community day" width="450px">
 
+The corresponding code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -414,7 +422,16 @@ image: >-
 {% endraw %}
 ```
 
-A slightly different presentation for the countdown with a some CSS modifications, no transparant background, black text color and bigger font, for the Picture Entity card with the help of the `card_mod` integration.
+<br>
+
+**Alternative presentation**
+
+I also created a slightly different presentation for the countdown with a some CSS modifications to the Picture Entity Card.
+* No transparent background, 
+* black text color and,
+* bigger font.
+
+For the Picture Entity card with the help of the `card_mod` integration.
 You can install it via this button\
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
@@ -440,6 +457,8 @@ card_mod:
     }
 {% endraw %}
 ```
+
+You can also use this higher alternative image: https://www.home-assistant.io/images/blog/2025-04-community-day/art.png
 
 #### Trash bin day countdown
 Count the days before the paper bin will be picked up.
