@@ -18,6 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
+* [Home Assistant - Community Day countdown](homeassistant/homeassistant_templates#day-countdown)
 * [USB adapter switch](/zigbee/usb_adapter_switch) to control USB devices
 * [Home Assistant - Tips: Dashboard edit dialog enlarger](/homeassistant/homeassistant_tips_tricks)
 * [Home Assistant - Pollen Radar](homeassistant/homeassistant_hacs_kleenex)
@@ -35,6 +36,12 @@ My latest biggest updates on this blog:
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
 * [Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)
+
+---
+
+<a href="https://quote-shirt-shop.myspreadshop.nl/i+turn+coffee+into+yaml-A681d2642bbdb492a481b3d9e?productType=31&sellable=ZNpXpvqO8bIE5GLe5Y2z-31-32&appearance=1" target="_blank">
+    <img src="/shop/images/mug_coffee_into_yaml.png" alt="Mug - I convert coffee into yaml" height="150px"/>
+</a>
 
 ---
 
@@ -56,6 +63,18 @@ Topics you can find here:
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                                                                                                                               |
 
 </div>
+
+---
+
+<br>
+<div width="100%" style="text-align: center;">
+    <a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank">
+        Computer quotes T-shirts, Hoodies, Mugs, Stickers, etc..
+        <br>
+        <img src="/shop/images/banner3.png" alt="Computer says no" height="150px" />
+    </a>
+</div>
+<br>
 
 ---
 
