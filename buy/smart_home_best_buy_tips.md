@@ -60,6 +60,7 @@ If the product is also available at Amazon, I also placed a link to it also.
     * [Radiator Thermostat](#radiator-thermostat)
     * [Smart socket](#smart-socket)
     * [Power strip](#power-strip)
+  * [Smart Curtains](#smart-curtains)
   * [Google Coral USB](#google-coral-usb)
   * [Batteries](#batteries)
     * [Battery eliminators](#battery-eliminators)
@@ -714,6 +715,12 @@ Cheaper solution than four single smart sockets!
 <a href="https://amzn.to/4lnnnkP" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3PFr86N" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
+
+---
+
+## Smart Curtains
+
+If you're looking for a U-rail solution you can look at [Slide - Smart Curtains](/projects/slide_smart_curtains).
 
 ---
 
