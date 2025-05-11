@@ -2,7 +2,7 @@
 title: Which hardware to run Home Assistant on?
 description: "Which hardware to run Home Assistant on?"
 category: Home Assistant
-tags: [ system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished ]
+tags: [ system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished, N100, N150]
 ---
 
 {% capture style_img_right %}style="float:right;margin-left:15px"{% endcapture %}
@@ -15,15 +15,15 @@ tags: [ system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, r
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:15px" alt="Home Assistant logo" height="100px"></a>
 
-Maybe you have one or more vendor-locked hubs with it's own smart sensors, and each hub has its own app.
+Maybe you have one or more vendor-locked hubs with its own smart sensors, and each hub has its own app.
 And ALL your data is stored in the big guys cloud.
 And there is no way you can let them work nicely together or combine it in one app.
 
 "Home automations with Home Assistant" you heard about it, you read about it, and it all sounds as the holy grail!
 You've made the choice to dive into the rabbit hole called "Home Assistant" (aka HA).
 
-Or if you running already Home Assistant on a Raspberry but it will now become a bit slower and want to upgrade to something more powerful but don't want to spend a fortune on it. 
-Then you're there on the right place to find out which hardware is the best for you.
+Or if you're already running Home Assistant on a Raspberry, but it will now become a bit slower and want to upgrade to something more powerful but don't want to spend a fortune on it. 
+Then you're there at the right place to find out which hardware is the best for you.
 
 <a href="images_hardware/beelink_front_back.jpg">
 <img src="images_hardware/beelink_front_back.jpg" {{style_img_right}} alt="Beelink model mini pc" height="100px">
@@ -81,7 +81,7 @@ First, I want to explain some terms that are used here, and frequently used in d
 | Mini PC     | This refer to the size of popular **small pc** cases.                                                                                                                 | 
 | NAS         | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               | 
 | NUC         | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            | 
-| N100        | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N200, N305.                | 
+| N100        | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          | 
 | Proxmox     | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            | 
 | T630/T620   | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   | 
 | Thin client | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          | 
@@ -175,7 +175,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFyTKN0){% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oDUSYFX){% endcapture %}
-{% capture ser9_global %}[AliExpress](https://s.click.aliexpress.com/e/_okQwYnU){% endcapture %}
+{% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_okQwYnU){% endcapture %}
 
 {% capture n95_beelink %}[Beelink](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
 {% capture n97_beelink %} n/a {% endcapture %}
@@ -183,7 +183,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n150_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eq14-n150?variant=46285631291634){% endcapture %}
 {% capture 12650h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12?variant=46665682026738){% endcapture %}
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
-{% capture ser9_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
+{% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
 {% capture n95_us %}[Amazon US](https://amzn.to/4gV8vqH){% endcapture %}
 {% capture n97_us %}[Amazon US](https://amzn.to/4lWIECw){% endcapture %}
@@ -191,7 +191,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n150_us %}[Amazon US](https://amzn.to/4gRClfx){% endcapture %}
 {% capture 12650h_us %}[Amazon US](https://amzn.to/3XeMBYl){% endcapture %}
 {% capture 185h_us %}[Amazon US](https://amzn.to/4gqln8T){% endcapture %}
-{% capture ser9_us %}[Amazon US](https://amzn.to/3D2V7CU){% endcapture %}
+{% capture hx370_us %}[Amazon US](https://amzn.to/3D2V7CU){% endcapture %}
 
 {% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr){% endcapture %}
 {% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM){% endcapture %}
@@ -199,7 +199,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n150_uk %}[Amazon UK](https://amzn.to/4gSCdMZ){% endcapture %}
 {% capture 12650h_uk %}[Amazon UK](https://amzn.to/3EQDoiH){% endcapture %}
 {% capture 185h_uk %}[Amazon UK](https://amzn.to/4k6T5T1){% endcapture %}
-{% capture ser9_uk %}[Amazon UK](https://amzn.to/41rdn2a){% endcapture %}
+{% capture hx370_uk %}[Amazon UK](https://amzn.to/41rdn2a){% endcapture %}
 
 {% capture n95_de %}[Amazon DE](https://amzn.to/3QuWBJh){% endcapture %}
 {% capture n97_de %}[Amazon DE](https://amzn.to/4jYFzQz){% endcapture %}
@@ -207,7 +207,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n150_de %}[Amazon DE](https://amzn.to/4gSCEXD){% endcapture %}
 {% capture 12650h_de %}[Amazon DE](https://amzn.to/4gRdTen){% endcapture %}
 {% capture 185h_de %}[Amazon DE](https://amzn.to/431bmLo){% endcapture %}
-{% capture ser9_de %}[Amazon DE](https://amzn.to/3D3AA0W){% endcapture %}
+{% capture hx370_de %}[Amazon DE](https://amzn.to/3D3AA0W){% endcapture %}
 
 {% capture n95_nl %}[Amazon NL](https://amzn.to/_okn1cgp){% endcapture %}
 {% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk){% endcapture %}
@@ -215,7 +215,17 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n150_nl %}[Amazon NL](https://amzn.to/3XgabUK){% endcapture %}
 {% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv){% endcapture %}
 {% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc){% endcapture %}
-{% capture ser9_nl %}[Amazon NL](https://amzn.to/3QwKfjQ){% endcapture %}
+{% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ){% endcapture %}
+
+> The **CPU benchmark** row is a raw multithread CPU speed indicator. The total performance depends also on the speed of your memory and harddisk etc!
+
+{% capture n95_performance %}[5.358](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N95&id=5206){% endcapture %}
+{% capture n97_performance %}[5.643](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N97&id=5337){% endcapture %}
+{% capture n100_performance %}[5.407](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N100&id=5157){% endcapture %}
+{% capture n150_performance %}[5.542](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N150&id=6304){% endcapture %}
+{% capture 12650h_performance %}[22.161](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12650H&id=4771){% endcapture %}
+{% capture 185h_performance %}[29.430](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+9+185H&id=5815){% endcapture %}
+{% capture hx370_performance %}[35.215](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+HX+370&id=6143){% endcapture %}
 
 #### Basic
 
@@ -225,7 +235,7 @@ money.
 
 The models N95 and N97 are quite in the same performance range.
 The N150 is a newer model with more cores, threads and cpu to be even faster and can be worth it to spend a bit more
-money on even more performance.
+money on even higher performance.
 
 It's interesting to compare the prices they can fluctuate based on supply and demand,
 that's why I added the links to these comparable models.
@@ -235,6 +245,7 @@ that's why I added the links to these comparable models.
 | **Model**            | Mini S13                      | Mini S12 Pro                   | G2                            | Mini S12                      |  
 | **Brand**            | Beelink                       | Beelink                        | GMKtec                        | Beelink                       |  
 | **Processor**        | 14th Gen Twin Lake Intel-N150 | 13th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |  
+| **CPU benchmark**    | {{n150_performance}}          | {{n100_performance}}           | {{n97_performance}}           | {{n95_performance}}           |  
 | **CPU basic**        | 0.8 GHz                       | 0.7 GHz                        | 3.6 GHz                       | 1.7 GHz                       |  
 | **CPU Turbo**        | 3.6 GHz                       | 3.4 GHz                        | -                             | 3.4 GHz                       |  
 | **Memory**           | 16 GB                         | 16 GB                          | 12 GB                         | 8 GB                          |  
@@ -251,32 +262,33 @@ that's why I added the links to these comparable models.
 #### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
-If you really want to run heavy processes with small AI models on the server, you can better choose for a high-end
+If you really want to run heavy processes with AI calculations on the server, you better can choose for a high-end
 model.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
-{% capture ser9_img %}<img alt="Beelink SER9 - SER9" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
+{% capture hx370_img %}<img alt="Beelink SER9 - HX 370" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
 {% capture 185h_img %}<img alt="Beelink GTi14 - 185H" height="150px" src="images_hardware/185h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 {% capture 12650h_img %}<img alt="Beelink EQi12 - 12650H" height="150px" src="images_hardware/12650h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 
-| Model                | SER9               | 185H                       | 12650H             | 
-|----------------------|--------------------|----------------------------|--------------------|
-| **Model**            | {{ser9_img}}       | {{185h_img}}               | {{12650h_img}}     | 
-| **Model**            | SER9 Pro AI        | GTi14 AI                   | EQi12              | 
-| **Brand**            | Beelink            | Beelink                    | Beelink            | 
-| **Processor**        | AMD Ryzen 9 HX 370 | Intel Core Ultra 9         | Core i7-12650H     | 
-| **CPU**              | 5.1 GHz            | 5.1 GHz                    | 4.7 GHz            | 
-| **GPU**              | AMD Radeon 890M    | Intel Arc graphics 2.35GHz | Intel UHD Graphics | 
-| **Memory**           | 32 GB              | 32 GB                      | 24 GB              | 
-| **Hard disk**        | 1024 GB            | 1024 GB                    | 512 GB             | 
-| **Cores / Threads**  | 12 / 24            | 16 / 22                    | 10 / 16            | 
-| **Price indication** | &euro; 1400        | &euro; 1000 - 1400         | &euro; 600 - 700   | 
-| **AliExpress**       | {{ser9_global}}    | {{185h_global}}            | {{12650h_global}}  | 
-| **Amazon US**        | {{ser9_us}}        | {{185h_us}}                | {{12650h_us}}      | 
-| **Amazon NL**        | {{ser9_nl}}        | {{185h_nl}}                | {{12650h_nl}}      | 
-| **Amazon UK**        | {{ser9_uk}}        | {{185h_uk}}                | {{12650h_uk}}      | 
-| **Amazon DE**        | {{ser9_de}}        | {{185h_de}}                | {{12650h_de}}      | 
-| **Beelink**          | {{ser9_beelink}}   | {{185h_beelink}}           | {{12650h_beelink}} | 
+| Model                | SER9                     | 185H                        | 12650H                 | 
+|----------------------|--------------------------|-----------------------------|------------------------|
+| **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         | 
+| **Model**            | SER9 Pro AI              | GTi14 AI                    | EQi12                  | 
+| **Brand**            | Beelink                  | Beelink                     | Beelink                | 
+| **Processor**        | AMD Ryzen 9 HX 370       | Intel Core Ultra 9 185H     | Intel Core i7-12650H   | 
+| **CPU benchmark**    | {{hx370_performance}}    | {{185h_performance}}        | {{12650h_performance}} |
+| **CPU**              | 5.1 GHz                  | 5.1 GHz                     | 4.7 GHz                | 
+| **GPU**              | AMD Radeon 890M          | Intel Arc graphics 2.35GHz  | Intel UHD Graphics     | 
+| **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  | 
+| **Hard disk**        | 1024 GB (also with 2 TB) | 1024 GB (also with 2 TB)    | 512 GB                 | 
+| **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                | 
+| **Price indication** | &euro; 1400              | &euro; 1000 - 1400          | &euro; 600 - 700       | 
+| **AliExpress**       | {{hx370_global}}         | {{185h_global}}             | {{12650h_global}}      | 
+| **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          | 
+| **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          | 
+| **Amazon UK**        | {{hx370_uk}}             | {{185h_uk}}                 | {{12650h_uk}}          | 
+| **Amazon DE**        | {{hx370_de}}             | {{185h_de}}                 | {{12650h_de}}          | 
+| **Beelink**          | {{hx370_beelink}}        | {{185h_beelink}}            | {{12650h_beelink}}     | 
 
 <!--
 latency
@@ -297,22 +309,23 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 {% capture ha_yellow_buy_1 %}[DE](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html{% endcapture %}
 
 
-|                               | Home Assistant Green                                                            | Home Assistant Yellow                                                        |
-|-------------------------------|---------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| **Photo**                     | {{ha_green_img}}                                                                | {{ha_yellow_img}}                                                            | 
-| **Website**                   | https://www.home-assistant.io/green/                                            | https://www.home-assistant.io/yellow/                                        | 
-| **Brand**                     | Nabu Casa                                                                       | Nabu Casa                                                                    | 
-| **Operating system**          | Home Assistant Operating System                                                 | Home Assistant Operating System                                              | 
-| **Processor**                 | 1.8 Ghz Quad core AMD                                                           | (Not included: Raspberry Pi Compute Module 4 (CM 4))                         | 
-| **Working memory (RAM)**      | 4 GB                                                                            |                                                                              | 
-| **Hard disk**                 | 32 GB external flash drive                                                      | (Not included: )                                                             | 
-| **Local protocols**           | Only WiFi                                                                       | WiFi, Zigbee 3.0, OpenThread and Matter                                      | 
-| **Power consumption on load** | 3 W                                                                             | 5-9 W                                                                        | 
-| **Target group**              | beginner                                                                        | medior                                                                       | 
-| **Price range**               | $ 99 / &euro; 110                                                               | (+ costs for RAM, CM4, hard disk)                                            | 
-| **Pros**                      | * Cheap<br>* Plug-and-play                                                      | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
-| **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. Slow hard disk. |                                                                              | 
-| **Buy links**                 | {{ha_green_buy_1}}                                                              | {{ha_yellow_buy_1}}                                                          |
+|                               | Home Assistant Green                                                                   | Home Assistant Yellow                                                        |
+|-------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| **Photo**                     | {{ha_green_img}}                                                                       | {{ha_yellow_img}}                                                            | 
+| **Website**                   | https://www.home-assistant.io/green/                                                   | https://www.home-assistant.io/yellow/                                        | 
+| **Brand**                     | Nabu Casa                                                                              | Nabu Casa                                                                    | 
+| **Operating system**          | Home Assistant Operating System                                                        | Home Assistant Operating System                                              | 
+| **Processor**                 | 1.8 Ghz Quad core Rockchip RK3566 Arm Cortex-A55 CPU                                   | (Not included: Raspberry Pi Compute Module 4 (CM 4))                         | 
+| **CPU benchmark**             | [798](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A55+4+Core+2208+MHz&id=6543) | -                                                                            | 
+| **Working memory (RAM)**      | 4 GB                                                                                   |                                                                              | 
+| **Hard disk**                 | 32 GB external flash drive                                                             | (Not included: )                                                             | 
+| **Local protocols**           | Only WiFi                                                                              | WiFi, Zigbee 3.0, OpenThread and Matter                                      | 
+| **Power consumption on load** | 3 W                                                                                    | 5-9 W                                                                        | 
+| **Target group**              | beginner                                                                               | medior                                                                       | 
+| **Price range**               | $ 99 / &euro; 110                                                                      | (+ costs for RAM, CM4, hard disk)                                            | 
+| **Pros**                      | * Cheap<br>* Plug-and-play                                                             | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
+| **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. Slow hard disk.        |                                                                              | 
+| **Buy links**                 | {{ha_green_buy_1}}                                                                     | {{ha_yellow_buy_1}}                                                          |
 
 ---
 
@@ -352,6 +365,10 @@ Click to go to the original post:
 {% capture rpi4_nl %}[Amazon NL](https://amzn.to/3DaETHT){% endcapture %}
 {% capture rpi5_nl %}[Amazon NL](https://amzn.to/4kcHm5j){% endcapture %}
 
+{% capture rpi3_performance %}[739](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A53+8+Core+1512+MHz&id=4150){% endcapture %}
+{% capture rpi4_performance %}[1071](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A72+6+Core+1416+MHz&id=4487){% endcapture %}
+{% capture rpi5_performance %}[3118](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A76+4+Core+1800+MHz&id=5424){% endcapture %}
+
 {% capture rpi3_img %}<img alt="Raspberry Pi 3B+" height="150px" src="images_hardware/raspberry-pi-3b-plus-top.png"/>{% endcapture %}
 {% capture rpi4_img %}<img alt="Raspberry Pi 4B" height="150px" src="images_hardware/raspberry-pi-4-top.png"/>{% endcapture %}
 {% capture rpi5_img %}<img alt="Raspberry Pi 5" height="150px" src="images_hardware/raspberry-pi-5-top.png"/>{% endcapture %}
@@ -364,8 +381,9 @@ Check the website for even more details about the boards if you want to know mor
 | **Model**                         | Pi 5                                    | Pi 4B                               | Pi 3B+                        |
 | **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
 | **Remarks**                       | Latest model                            | A very good device to run HA        | Multiple upgrades: A+, B, B+  |
-| **Performance**                   |                                         | 3x faster then the Pi 3             | Less resources, only 1 GB mem |
+| **Performance remarks**           |                                         | 3x faster then the Pi 3             | Less resources, only 1 GB mem |
 | **Processor**                     | Cortex-A76 ARM quad-core                | Cortex-A72 (ARM v8) quad-core       | Cortex-A53 quad-core          |
+| **CPU benchmark**                 | {{rpi5_performance}}                    | {{rpi4_performance}}                | {{rpi3_performance}}          |
 | **Working memory (RAM)**          | 8 GB<br>(also available in 2, 4, 16 GB) | 8 GB<br>(also available in 2, 4 GB) | 1 GB                          |
 | **CPU**                           | 2.4 GHz                                 | 1.5 GHz                             | 1.4GHz                        |
 | **Cores / Threads**               | 4                                       | 4                                   | 4                             |
