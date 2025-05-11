@@ -50,6 +50,7 @@ I hope I can inspire you with some new home automation ideas you can integrate i
       * [Front yard](#front-yard)
       * [Car](#car)
       * [Putting out the bin](#putting-out-the-bin)
+      * [Battery powered devices powered by an outlet](#battery-powered-devices-powered-by-an-outlet)
 <!-- TOC -->
 
 ---
@@ -282,6 +283,11 @@ I have a [dedicated page](/projects/bin_day_led_strip_reminder) about how I auto
 
 * Notification when paper/green/plastic/residual waste bin needs to be put on the street to be emptied tomorrow. (waste calendar integration)
 * [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration + [LED strip](../buy/smart_home_best_buy_tips#led-strip))
+
+#### Battery powered devices powered by an outlet
+
+With a battery to USB adapter and a USB power plug is it possible to power a battery-powered device with an outlet.
+Check this [dedicated page](/zigbee/zigbee_outlet_sensor) for the examples.
 
 ---
 
