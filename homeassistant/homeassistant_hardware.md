@@ -366,8 +366,8 @@ Click to go to the original post:
 {% capture rpi5_nl %}[Amazon NL](https://amzn.to/4kcHm5j){% endcapture %}
 
 {% capture rpi3_performance %}[739](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A53+8+Core+1512+MHz&id=4150){% endcapture %}
-{% capture rpi4_performance %}[1071](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A72+6+Core+1416+MHz&id=4487){% endcapture %}
-{% capture rpi5_performance %}[3118](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A76+4+Core+1800+MHz&id=5424){% endcapture %}
+{% capture rpi4_performance %}[1.071](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A72+6+Core+1416+MHz&id=4487){% endcapture %}
+{% capture rpi5_performance %}[3.118](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A76+4+Core+1800+MHz&id=5424){% endcapture %}
 
 {% capture rpi3_img %}<img alt="Raspberry Pi 3B+" height="150px" src="images_hardware/raspberry-pi-3b-plus-top.png"/>{% endcapture %}
 {% capture rpi4_img %}<img alt="Raspberry Pi 4B" height="150px" src="images_hardware/raspberry-pi-4-top.png"/>{% endcapture %}
