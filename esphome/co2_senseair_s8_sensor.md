@@ -6,6 +6,7 @@ category: ESPHome
 tags: [CO2 , ESP8266, ESPHome, Home Assistant, air quality, senseAir,health]
 image: /esphome/images_co2/case_fit_co2_sensor.jpg
 ---
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # ESPHome CO2 sensor
 *Based on the SenseAir S8 sensor*
@@ -80,38 +81,42 @@ Affiliate links are used here. Same price, but you also sponsor this blog.
 
 These hardware components did I use for this project:
 
-* <a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">SenseAir S8 CO2 sensor</a>
+* {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
+<a href="https://amzn.to/3ShAiry" target="_blank">(Amazon US)</a>
   * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
-* <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">ESP 12S Wemos D1 mini (no pro or V3)</a>
+* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3SOIvDC">(Amazon US)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">Dupont male to male wires</a>
+* {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43HvzFU">(Amazon US)</a>
   * If you order these, you can better order all three types at ones, also for any further projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
-* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">link 1: a lot of boxes with all kinds of sizes</a>
+* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. 
+
+  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43FwAya">(Amazon US)</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">Micro USB cable to power the ESP board</a>
+* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43mVuBq">(Amazon US)</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">5V USB power adapter to power the ESP</a>
+* {{imgBasket}}5V USB power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqIem" target="_blank">(Amazon US)</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron</a>. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqwf8" target="_blank">(Amazon US)</a>. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
-* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering tin wire</a>
+* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3Zt4Zha" target="_blank">(Amazon US)</a>
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 

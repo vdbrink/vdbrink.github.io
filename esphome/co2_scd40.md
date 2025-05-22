@@ -21,7 +21,10 @@ you can also create one yourself with just a single sensor and an ESP board.
 It's easy (and fun) to create one yourself.\
 You can even create this one **WITHOUT SOLDERING!!**
 
-Besides **CO2**, this one also measures the **temperature** and **humidity**.
+> **_NOTE:_** The SCD41 can also be used here, the pins are the same. The difference between these two models is in their range and power consumption.
+> The SCD41 can reach up to 5000 (compared to 2000) ppm, and the lower power consumption is reached by a periodic measurement every 5 minutes compared to do it always realtime.
+
+Besides **CO2**, this sensor also measures the **temperature** and **humidity**.
 
 <img src="images_scd40/ha_esphome_device.png" alt="ESPHome device sensors" width="250px">
 
@@ -100,9 +103,9 @@ This small gas sensor measures **CO2** (in a range 400-2000 ppm) and also **temp
 The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) for all the details specs from this sensor.
 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
-This sensor is useful if you don't want to solder (AliExpress)
-</a><br>
-<a href="https://amzn.to/3XUVXsB" target="_blank">with I2C interface (Amazon US)</a>
+This sensor with i2c interface is useful if you don't want to solder (AliExpress)
+</a>
+<a href="https://amzn.to/3XUVXsB" target="_blank"> (Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 <img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 CO2 sensor without soldering" />
