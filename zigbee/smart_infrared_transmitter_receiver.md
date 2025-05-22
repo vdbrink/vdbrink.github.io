@@ -93,7 +93,7 @@ It's also possible via MQTT.
 
 To learn a new signal, set the device in learning mode by sending this payload to the MQTT topic of the device `zigbee2mqtt/irremote/set`
 
-```yaml
+```json
 {% raw %}
 {     
   "learn_ir_code": "ON" 
@@ -105,7 +105,7 @@ Now you can hold the original remote in front of the device and press a single b
 
 The response is sent to the MQTT topic `zigbee2mqtt/irremote` and contains the infrared code. 
 You need this code to resend the signal via this same device.
-```yaml
+```json
 {% raw %}
 {
   "battery" : 11,
@@ -126,7 +126,7 @@ Make sure your signal is in line with the device because the infrared signal is 
 My experience is that the signal can control devices still in a range of 5 meters.
 Because it works on batteries your free to position the device.
 
-```yaml
+```json
 {% raw %}
 {
   "ir_code_to_send": "Bb8jphFIAuAXAQF9BuAVA0ABwCPgAwFAE0ABwAdAAUALwANAAUALCcqdvyPBCEgC///gAgcCCEgC"

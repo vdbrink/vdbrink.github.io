@@ -89,7 +89,7 @@ Now the device should be found by Zigbee2MQTT and added to your network.
 </a>
 
 To control each port, you need to send on the MQTT topic `zigbee2mqtt/usbswitch/set` this payload to activate the left USB port.
-```yaml
+```json
 {% raw %}
 {
   "state_left": "ON"

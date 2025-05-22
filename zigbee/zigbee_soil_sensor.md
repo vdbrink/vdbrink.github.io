@@ -97,7 +97,7 @@ To pair it, there is a button underneath the head that you need to press for a f
 </a>
 
 
-```yaml
+```json
 {% raw %}
   {
     "battery": 81,
