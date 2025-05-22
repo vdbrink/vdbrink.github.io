@@ -272,7 +272,7 @@ The CR2450 rechargeable version is the **LIR2450**.
 ---
 ### Battery eliminators
 
-<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">
 <img src="/buy/images_diy/battery_eliminator.png" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
 
 Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
@@ -281,10 +281,10 @@ Now you also don't have to worry that you forgot them to put them off again.
 There are different variants of them. Replacements for AA or AAA batteries and with a plug or USB connector. 
 The advantage of a USB connector is that you can plug multiple to an active powered USB-hub to control multiple ones.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">AA battery replacement with USB (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AA battery replacement with USB (AliExpress)</a>
 <a href="https://amzn.to/3AIfXqb" target="_blank">(Amazon)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oBi7yye" target="_blank">AAA battery replacement with USB (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF5APee" target="_blank">AAA battery replacement with USB (AliExpress)</a>
 <a href="https://amzn.to/3ATHOUb" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>

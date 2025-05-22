@@ -165,12 +165,12 @@ Small and a long battery life.
 {{imgBasket}}Zigbee Contact sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4icZRnP" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3ZfMxch" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4dtRaVG" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 Small and cheaper.
 
 {{imgBasket}}Zigbee Contact sensor 2xAAA powered - Tuya 
-<a href="https://s.click.aliexpress.com/e/_DBqHJ9x" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_olDzemw" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42FerQs" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4eBavTK" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" title="ZD06">{{imgZ2M}}ZD06</a>
@@ -192,7 +192,7 @@ It can also detect persons who sit still or laying in bed.
 
 {{imgBasket}}Zigbee Human motion + presence + lux sensor - Hoazee 
 <a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4hBkSc5" target="_blank">(Amazon DE)</a>
+<a href="https://amzn.to/4jignnc" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
 
 <br>
@@ -207,28 +207,32 @@ I like the Aqara motion sensor myself a lot. It's fast, reliable. With the stand
 If I want to cover a whole room, I use a different type PIR sensor which you can stick in the center of the ceiling and look around in all directions.
 
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
-<img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" style="margin-left:15px;float:left"/></a> &nbsp;
-<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
-<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="/buy/images_zigbee/zigbee_motion_pir.jpg" height="100px"></a>
+<img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a> &nbsp;
 
 {{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara 
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4i7HjFu" target="_blank">(Amazon US)</a>
+<!--(<a href="https://amzn.to/4i7HjFu" target="_blank">&#40;Amazon US&#41;</a>)-->
 <a href="https://amzn.to/3Oj8yR5" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM</a>
 
 {{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
 <a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">(AliExpress)</a>
+<!-- <a href="https://amzn.to/45k5dee" target="_blank">(Amazon US)</a> -->
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ01LM.html" target="_blank" title="RTCGQ01LM">{{imgZ2M}}RTCGQ01LM</a>
 
-{{imgBasket}}Zigbee motion sensor all directions - Tuya 
-<a href="https://amzn.to/3G0RcYq" target="_blank">(Amazon US)</a>
+<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
+
+{{imgBasket}}Zigbee motion sensor all directions - Tuya
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3G0RcYq" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3H4xlrT" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/IH012-RT01.html" target="_blank" title="IH012-RT01">{{imgZ2M}}IH012-RT01</a> <!-- or 809WZT -->
 
+<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="/buy/images_zigbee/zigbee_motion_pir.jpg" height="100px"></a>
+
 {{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered (cheaper) - Tuya
-<a href="https://amzn.to/4jqxXWH" target="_blank">(Amazon US)</a>
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4jqxXWH" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
 [//]: # ({{imgBasket}}<a href="https://amzn.to/4i18dQH" target="_blank">Zigbee motion sensor all directions - LIGHTEU &#40;Amazon&#41;</a>)
@@ -270,8 +274,8 @@ Or in the summer when it becomes outside colder than inside.
 <a href="https://www.zigbee2mqtt.io/devices/WSDCGQ11LM.html" target="_blank" title="WSDCGQ11LM">{{imgZ2M}}WSDCGQ11LM</a>
 
 {{imgBasket}}Zigbee temperature and humidity sensor (cheaper) - Tuya 
-<a href="https://amzn.to/4cuvcBp" target="_blank">(Amazon US)</a>
 <a href="https://s.click.aliexpress.com/e/_EuScxuN" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4cuvcBp" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RSH-HS06.html" target="_blank" title="RSH-HS06">{{imgZ2M}}RSH-HS06</a>
 
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya 
@@ -321,7 +325,7 @@ Each leak sensor has two metal contacts, when these contacts get in contact with
 The sensor sends a signal "water detected"!
 Water conducts the current and air doesn't.
 
-<a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water.
@@ -332,7 +336,7 @@ It can also be used to create other boolean sensors,
 like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 {{imgBasket}}Leak sensor - Aqara 
-<a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3ZneX2Z" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 
@@ -460,12 +464,12 @@ These buttons can trigger multiple scenarios because they support three press ty
 
 {{imgBasket}}Zigbee button - Aqara 
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3DNOAMY" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4droHj8" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WXKG11LM.html" target="_blank" title="WXKG11LM">{{imgZ2M}}WXKG11LM</a>
 
 {{imgBasket}}Small Zigbee button - Tuya / Loginovo 
 <a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3AJuNg6" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4mrlK6r" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-101ZL.html" target="_blank" title="ZG-101ZL">{{imgZ2M}}ZG-101ZL</a>
 
 <br>
@@ -490,14 +494,14 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 ### USB adapter switch
 
-<a href="https://s.click.aliexpress.com/e/_okRUZyl" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oB5NKYq" target="_blank">
 <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 This actuator can toggle the power state of each USB port individual.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Tuya 
-<a href="https://s.click.aliexpress.com/e/_okRUZyl" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oB5NKYq" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4lwr1cv" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4hSTs2x" target="_blank">(Amazon NL)</a>
 [(Amazon US)](https://amzn.to/43GLLrs)
@@ -574,15 +578,15 @@ This way you can create automations for air conditioners, fans, lights, etc.
 <a href="https://amzn.to/495yrxA" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
+{{imgBasket}}WiFi IR remote control RM4 Mini - Broadlink
+<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4cmFt2i" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3CDLyK1" target="_blank">(Amazon NL)</a>
+
 {{imgBasket}}WiFi IR remote control - Tuya 
 <a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4lfUHKC" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4eJPxlw" target="_blank">(Amazon NL)</a>
-
-{{imgBasket}}WiFi IR remote control RM4 Mini - Broadlink 
-<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4cmFt2i" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3CDLyK1" target="_blank">(Amazon NL)</a>
 
 #### Infrared + RF + 433MHz + 315MHz remote control
 
@@ -645,7 +649,7 @@ It took me a while before I got the correct smart socket for this purpose, and n
 
 ### Power strip
 
-<a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">
 <img src="/buy/images_zigbee/powerstrip.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 Zigbee power strip with 4x outlets (max. 16A) and 2x USB-A (5V 2.1A).
 <br><br>
@@ -659,10 +663,10 @@ Cheaper solution than four single smart sockets!
 * LED indicate for each socket
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Melery 
-<a href="https://s.click.aliexpress.com/e/_EIuYFqs" target="_blank">(AliExpress)</a> 
 <a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4cpWLM9" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3CbB7xu" target="_blank">(Amazon NL)</a>
+<a href="https://s.click.aliexpress.com/e/_oDn4Uqa" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3SgJpbS" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4mwSHys" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
 
 <br>
@@ -754,7 +758,7 @@ These are common types of batteries used by the above-mentioned sensors:
 
 ### Battery eliminators
 
-<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">
 <img src="/buy/images_diy/battery_eliminator.png" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
 
 Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
@@ -768,12 +772,12 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 I use these a lot for all kinds of Christmas decorations.
 
 {{imgBasket}}AA battery replacement with USB 
-<a href="https://s.click.aliexpress.com/e/_oElMTEQ" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4lv9H7M" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3AIfXqb" target="_blank">(Amazon NL)</a>
 
 {{imgBasket}}AAA battery replacement with USB 
-<a href="https://s.click.aliexpress.com/e/_oBi7yye" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oF5APee" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cqCQwo" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4jnFDZB" target="_blank">(Amazon NL)</a>
 
@@ -785,10 +789,11 @@ I use these a lot for all kinds of Christmas decorations.
 
 {{imgBasket}}CR2032 battery replacement with USB 
 <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/43GUo5k" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3YWg1LO" target="_blank">(Amazon US)</a>
 
 {{imgBasket}}USB A or C to clips 3V (same voltage as two batteries) 
 <a href="https://s.click.aliexpress.com/e/_DeBgzBR" target="_blank">
+
 <img src="../projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
 <br>{{imgBasket}}(AliExpress)
 </a>
@@ -844,9 +849,9 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-{{imgBasket}}5V USB power adapter <a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a>
 
-{{imgBasket}}5V USB power adapter <a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">(AliExpress)</a>
 
 5V EU USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 

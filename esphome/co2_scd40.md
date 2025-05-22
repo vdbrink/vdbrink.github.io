@@ -166,10 +166,10 @@ Micro USB cable to USB A to power the ESP (AliExpress)</a>
 A power adapter to power the ESP.
 
 5V USB power adapter 
-<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4j2wDcC" target="_blank">(Amazon US)</a>
 <br>
-<a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px" />
 </a>
 

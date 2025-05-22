@@ -80,10 +80,10 @@ This can be achieved with two different types of sensors.
 A water leak sensor or a contact sensor. 
 Both work with a boolean (true of false) state.
 
-1a. <a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">Aqara Zigbee water leak sensor</a> (No soldering required)\
+1a. <a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">Aqara Zigbee water leak sensor</a> (No soldering required)\
 The Aqara Zigbee leak sensor has two metal screw contacts on the back of the sensor where you can connect direct the two wires of the pressure sensor behind.
 
-<a href="https://s.click.aliexpress.com/e/_Ez89iiN" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">
 <img src="/buy/images_zigbee/aqara_leak_sensor.webp" alt="Aqara water leak sensor" width="200px">
 </a>
 

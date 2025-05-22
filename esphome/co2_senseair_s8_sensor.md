@@ -103,7 +103,7 @@ These hardware components did I use for this project:
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* <a href="https://s.click.aliexpress.com/e/_DBB3Upl" target="_blank">5V USB power adapter to power the ESP</a>
+* <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">5V USB power adapter to power the ESP</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 

@@ -27,7 +27,6 @@ Find here a set of preselected devices which you can buy for in your garden or g
   * [Rain sensor](#rain-sensor)
   * [Soil sensor](#soil-sensor)
   * [Garden lights](#garden-lights)
-    * [Lawn light](#lawn-light)
     * [Spotlight](#spotlight)
     * [Floodlight](#floodlight)
   * [LED strip](#led-strip)
@@ -41,6 +40,20 @@ Find here a set of preselected devices which you can buy for in your garden or g
 ---
 ## Rain sensor
 
+<a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">
+<img src="images_outdoor/rain_sensor.avif" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor sensor detects raindrops.\
+It runs on two AAA batteries.
+It's already triggered with a single drop.
+
+{{imgBasket}}Zigbee raindrop sensor
+<a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">(AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/SNZB-05.html" target="_blank" title="SNZB-05">{{imgZ2M}}SNZB-05 (works fine, but model looks different)</a>
+
+<br>
+
+### Rain + lux
 <a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">
 <img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
@@ -91,6 +104,7 @@ Make sure you select the Zigbee version:\
 
 ## Garden lights
 
+<!--
 ### Lawn light
 
 <a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">
@@ -107,6 +121,7 @@ Also, possible to control them with a remote (2.4 GHz).
 model: LA5-09S-ZL
 
 ---
+-->
 
 ### Spotlight
 
