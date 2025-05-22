@@ -80,7 +80,7 @@ Affiliate links are used here. Same price, but you also sponsor this blog.
 
 These hardware components did I use for this project:
 
-* <a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">SenseAir S8 CO2 sensor</a>
+* <a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">SenseAir S8 CO2 sensor</a>
   * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />

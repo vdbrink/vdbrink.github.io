@@ -133,8 +133,6 @@ AGS10 TVOC air quality gas sensor.
 <a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">
 <img src="images_diy/ags10.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opE66VT" target="_blank">AGS10 (AliExpress)</a>
-
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">AGS10 (AliExpress)</a>
 
 
@@ -149,12 +147,12 @@ SenseAir S8 CO2 sensor.
 
 Check [this page](/esphome/co2_senseair_s8_sensor) how to make your own CO2 sensor with this sensor.
 
-<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">
 <img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mM6V8we" target="_blank">SenseAir S8 CO2 sensor, link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">SenseAir S8 CO2 sensor, link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oCFOEJ6" target="_blank">SenseAir S8 CO2 sensor, link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC3ntyw" target="_blank">SenseAir S8 CO2 sensor, link 2 (AliExpress)</a>
 
 #### SCD41
 
@@ -428,10 +426,10 @@ This helping hand can be used to hold the ESP board and sensor while soldering.
 
 This receiver can be used to receive or snif signals send by device which uses the 433 or 868 MHz bandwidth.
 
-<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_okkC81o" target="_blank">
 <img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDbcyVp" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okkC81o" target="_blank">link (AliExpress)</a>
 
 ---
 
