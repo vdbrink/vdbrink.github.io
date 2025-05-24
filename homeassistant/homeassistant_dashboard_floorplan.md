@@ -11,28 +11,31 @@ image: /homeassistant/images_floorplan/banner2.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find information about how you can create your own interactive floor plan.
-<br>
-<br>
+On this page, you can read how you can create your own interactive floor plan.
+
+My big advantage of a floor plan dashboard page is to see in a single overview many statuses at once.
+
+You can use a background image of a floor and add icons and sensor values of room temperatures, light control icons or motion detected on top of it.
+When you click on an entity, you can define the expected follow-up action which you like.
 
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Introduction](#introduction)
-* [Get inspired](#get-inspired)
-* [Applications](#applications)
-  * [Floorplanner.com](#floorplannercom)
-  * [Sweet Home 3D](#sweet-home-3d)
-* [Creating your floor plan](#creating-your-floor-plan)
-* [Make it interactive](#make-it-interactive)
-  * [Floor plan images](#floor-plan-images)
-  * [Overlays](#overlays)
-  * [Entity icons](#entity-icons)
-  * [Entity labels](#entity-labels)
-  * [Click, Double-click and Long-press actions](#click-double-click-and-long-press-actions)
-  * [Rotations](#rotations)
-  * [Change icons](#change-icons)
-  * [Change layer order](#change-layer-order)
+  * [Introduction](#introduction)
+  * [Get inspired](#get-inspired)
+  * [Applications](#applications)
+    * [Floorplanner.com](#floorplannercom)
+    * [Sweet Home 3D](#sweet-home-3d)
+  * [Creating your floor plan](#creating-your-floor-plan)
+  * [Make it interactive](#make-it-interactive)
+    * [Floor plan images](#floor-plan-images)
+    * [Entity icons](#entity-icons)
+    * [Entity labels](#entity-labels)
+    * [Click, Double-click and Long-press actions](#click-double-click-and-long-press-actions)
+    * [Rotations](#rotations)
+    * [Change icons](#change-icons)
+    * [Overlays](#overlays)
+    * [Change layer order](#change-layer-order)
 <!-- TOC -->
 
 ---
@@ -47,7 +50,7 @@ To solve that, I was looking for a solution and I found some videos about the fl
 In a floor plan, you can add a lot of information on what's happening in each room with icons, colors and overlays. 
 This gives you a quick overview around the house, so I started creating my own interactive floor plan.
 
-An example of how it could look like:
+An example of what it could look like:
 
 <a href="images_floorplan/floorplan_appartment.jpg">
 <img src="images_floorplan/floorplan_appartment.jpg" alt="floor plan example" height="400px"></a>
@@ -68,19 +71,18 @@ Here are some sites where you can find such examples:
 ## Applications
 If you already have a digital version of your floor plans, you can use those (initially).
 
-There are two commonly used applications to create a floor plan.
+If you don't have it there are two commonly used applications to create a floor plan.
 
 ### Floorplanner.com
 
 <img src="images_floorplan/floorplanner-com.png" alt="floorplanner.com" height="100%">
 
 [Floorplanner.com](https://www.floorplanner.com) is a free online tool to create a 3D model of your house.
-It's easy to use and without any costs you already have a lot of furniture available.
+It's easy to use, and without any costs you already have a lot of furniture available.
 This is also the tool I used for my floor plan.
 
 * You can use it everywhere because it's online
 * No installation required
-
 
 ### Sweet Home 3D
 
@@ -103,7 +105,7 @@ But this takes a lot of time, but it's worth it.
 Ones you did it your can be proud of yourself and love it every time you use it!
 
 Steps to take:
-* Get online inspiration how you want it to look like.  
+* Get online inspiration what you want it to look like.  
 * The best way to start is to get all the official sizes of each room.
 * Then draw all the walls and place the doors and windows in it.
 * Then add the furniture to each room.
@@ -133,70 +135,6 @@ type: picture-elements
 image: /local/base.png
 elements:
   ...
-{% endraw %}
-```
-
----
-### Overlays
-
-With overlays, you can darken a room to indicate no one is there, or no lights are on.
-
-<img src="images_floorplan/entities.png" alt="overlay on" height="150px"> 
-&nbsp; &nbsp;
-<img src="images_floorplan/entity_icons.png" alt="overlay off" height="150px">
-
-If you use rooms in your floor plan, and have all 90-degree angles, you can use a single small [black](images/black.png) square image to create the semi-transparent overlay. 
-With the settings, you can scale it to every size. By changing the `style` and `aspect_ratio` values.
-
-In this example, I have a smart plug as entity for the overlay.
-When the plug has the state `on` it's full transparent and `off` it's 75% transparent. 
-Then you still see all the elements but with a dark layer over the room.
-
-The `tap_action` is here disabled. You can also choose to control the switch by clicking on the icon.
-
-Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X. 
-<details>
-  <summary><b>> Click here to see an example of a binary helper sensor >></b></summary>
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-binary_sensor:
-  - platform: template
-    sensors:
-      overlay_x:
-        friendly_name: "overlay x"
-        value_template: >-
-          {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
-             on
-          {% else %}
-             off
-          {% endif %}
-{% endraw %}
-```
-</details>
-
-Overlay based on a smart plug status.
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-- type: image
-  entity: binary_sensor.overlay_x
-  title: overlay
-  tap_action:
-    action: none
-  image: /local/black.png
-  aspect_ratio: 10x8.1
-  style:
-    top: 54%
-    left: 49%
-    width: 48%
-    height: 2%
-  state_filter:
-    'on': opacity(0%)
-    'off': opacity(75%)
 {% endraw %}
 ```
 
@@ -357,6 +295,71 @@ You can override the current icon for each entity.
 {% raw %}
 - type: state-icon
   icon: mdi:cctv
+{% endraw %}
+```
+
+
+---
+### Overlays
+
+With overlays, you can darken a room to indicate no one is there, or no lights are on.
+
+<img src="images_floorplan/entities.png" alt="overlay on" height="150px"> 
+&nbsp; &nbsp;
+<img src="images_floorplan/entity_icons.png" alt="overlay off" height="150px">
+
+If you use rooms in your floor plan, and have all 90-degree angles, you can use a single small [black](images/black.png) square image to create the semi-transparent overlay.
+With the settings, you can scale it to every size. By changing the `style` and `aspect_ratio` values.
+
+In this example, I have a smart plug as entity for the overlay.
+When the plug has the state `on` it's full transparent and `off` it's 75% transparent.
+Then you still see all the elements but with a dark layer over the room.
+
+The `tap_action` is here disabled. You can also choose to control the switch by clicking on the icon.
+
+Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X.
+<details>
+  <summary><b>> Click here to see an example of a binary helper sensor >></b></summary>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+binary_sensor:
+  - platform: template
+    sensors:
+      overlay_x:
+        friendly_name: "overlay x"
+        value_template: >-
+          {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
+             on
+          {% else %}
+             off
+          {% endif %}
+{% endraw %}
+```
+</details>
+
+Overlay based on a smart plug status.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: image
+  entity: binary_sensor.overlay_x
+  title: overlay
+  tap_action:
+    action: none
+  image: /local/black.png
+  aspect_ratio: 10x8.1
+  style:
+    top: 54%
+    left: 49%
+    width: 48%
+    height: 2%
+  state_filter:
+    'on': opacity(0%)
+    'off': opacity(75%)
 {% endraw %}
 ```
 
