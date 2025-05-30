@@ -18,7 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
-* [Home Assistant - Community Day countdown](homeassistant/homeassistant_templates#day-countdown)
+* [Home Assistant - Floor plan](/homeassistant/homeassistant_dashboard_floorplan)
 * [USB adapter switch](/zigbee/usb_adapter_switch) to control USB devices
 * [Home Assistant - Tips: Dashboard edit dialog enlarger](/homeassistant/homeassistant_tips_tricks)
 * [Home Assistant - Pollen Radar](homeassistant/homeassistant_hacs_kleenex)
