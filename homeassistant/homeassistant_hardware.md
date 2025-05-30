@@ -3,6 +3,7 @@ title: Which hardware to run Home Assistant on?
 description: "Which hardware to run Home Assistant on?"
 category: Home Assistant
 tags: [ system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished, N100, N150]
+image: 
 ---
 
 {% capture style_img_right %}style="float:right;margin-left:15px"{% endcapture %}
@@ -22,20 +23,22 @@ And there is no way you can let them work nicely together or combine it in one a
 "Home automations with Home Assistant" you heard about it, you read about it, and it all sounds as the holy grail!
 You've made the choice to dive into the rabbit hole called "Home Assistant" (aka HA).
 
-Or if you're already running Home Assistant on a Raspberry, but it will now become a bit slower and want to upgrade to something more powerful but don't want to spend a fortune on it. 
-Then you're there at the right place to find out which hardware is the best for you.
+Or if you're already running Home Assistant on a Raspberry, but it will now become a bit slower, 
+and you want to upgrade to something more powerful but don't want to spend a fortune on it. 
+Then you're here at the right place to find out which hardware could be the best for you.
 
 <a href="images_hardware/beelink_front_back.jpg">
-<img src="images_hardware/beelink_front_back.jpg" {{style_img_right}} alt="Beelink model mini pc" height="100px">
+<img src="images_hardware/beelink_front_back.jpg" alt="Beelink model mini pc" height="100px" {{style_img_right}}>
 </a>
 
 Then comes the question: On which hardware should I run it?
-It can be installed on a whole range of hardware, like a **Mini PC, Home Assistant Green, Home Assistant Yellow,
+It can be installed on a whole range of hardware: like a **Mini PC, Home Assistant Green, Home Assistant Yellow,
 Raspberry Pi, old laptop/desktop, thin client, etc...**\
+I split it up in two sections: new hardware but you can also run it on refurbished PCs could be powerful enough!\
 I explain on this page which one of these systems fits the best for your situation and what the differences between the
 hardware are.
 
-I don't mention ALL possible options here, just my opinion, the most popular ones.
+I don't mention ALL possible options here, just in my opinion, the most popular ones.
 
 After reading this page, if you still have questions about the choice you need to make, don't contact me personally,
 but use the [social media channels or forums](#need-help).
@@ -49,15 +52,15 @@ There are also a lot of other smart and experienced people who can help you furt
 
 <!-- TOC -->
   * [Terminology](#terminology)
+  * [New hardware](#new-hardware)
+    * [All-in-one mini PCs](#all-in-one-mini-pcs)
+    * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
+    * [Raspberry Pi](#raspberry-pi)
   * [Older hardware](#older-hardware)
     * [Desktop](#desktop)
     * [Laptop](#laptop)
     * [Thin client](#thin-client)
     * [NAS](#nas)
-  * [New hardware](#new-hardware)
-    * [All-in-one mini PCs](#all-in-one-mini-pcs)
-    * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
-    * [Raspberry Pi](#raspberry-pi)
   * [Need help?](#need-help)
   * [Remarks](#remarks)
 <!-- TOC -->
@@ -90,65 +93,9 @@ First, I want to explain some terms that are used here, and frequently used in d
 
 ---
 
-## Older hardware
-
-> Target group: If you still have some unused hardware available. 
-> Or buy it inexpensive second hand if you want to find out this is something for you.
-
-Make sure the hardware has at least 8 GB RAM and 64 GB SSD hard disk space to install Home Assistant on and have enough
-space to install also other related applications.
-
-Computer stores or on sites, like Ebay, they sell refurbished computers, mostly they get them in bulk from companies.
-Clean them, upgrade the memory or hard disk and sell them.
-These computers are not the newest but have enough power and can run for another few years without any problem.
-This is an affordable way to buy/upgrade hardware to test HA on.
-
-### Desktop
-
-<img alt="desktop" width="150px" src="images_hardware/desktop.webp" {{style_img_right}} />
-If you still have a desktop PC lying around, you can use it to run Home Assistant on.
-
-The advantage is that you can easily upgrade hardware elements like memory, processor or extra video card power if
-needed.
-
-The disadvantage is they use more power than a laptop or mini PC.
-
-### Laptop
-
-<img alt="laptop" width="150px" src="images_hardware/laptop.jpg" {{style_img_right}} />
-A spare laptop can also be used as a server to run Home Assistant on.
-
-The advantage is it's energy-effective and compact.
-
-The disadvantage can be the battery constant on the power or charge daily.
-Some laptops also run without a battery, which is the best solution.
-
-### Thin client
-
-<img alt="HP 620" width="130px" src="images_hardware/hp_620.webp" {{style_img_right}} />
-A Thin client is compact, energy effective, silent and not expensive.
-
-HP has the T630 or T620 which are often mentioned as good hardware.\
-Dell has also Thin clients: the Wyse 5060 or 7020.
-
-They used in offices and now widely available on second hand sites like Ebay.
-Even with HA already installed on it.
-
-### NAS
-
-<img alt="QNAP NAS" width="130px" src="images_hardware/nas.png" {{style_img_right}} />
-A NAS, is a Network-Attached Storage mostly used as shared network storage,
-but there are models that have enough power to also install your own Docker applications, like Home Assistant, on.
-
-A Synology or QNAP NAS are examples of that.
-
-[Install HA on a NAS](https://www.home-assistant.io/installation/alternative/#install-home-assistant-container)
-
----
-
 ## New hardware
 
-> Target group: If you want to run Home Assistant (and more) on a brand new and fast device.
+> Target group: If you want to run Home Assistant (and more) on a new and fast device.
 
 ### All-in-one mini PCs
 
@@ -333,13 +280,15 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 
 <img alt="Raspberry logo" height="100px" src="images_hardware/raspberry_logo.svg" style="float: right"/>
 
-The Raspberry Pi models where for a long term very popular to run Home Assistant on.
+The Raspberry Pi models where for a long time very popular to run Home Assistant on.
 Because of the all-in-one board, with low energy consumption and it was cost-efficient.
 
-Currently, they are nowadays less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the `N100` which
-are more powerful and have more memory and storage.
+Currently, they are nowadays less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the **N100** which
+are in the same price range.
+They are more powerful (check the CPU benchmark stats!) and have all required components (like memory and storage) already build in.
 
-Click to go to the original post:
+See this Facebook poll how popular the mini pcs are.
+Click on the image to go to the original post:
 
 <a href="https://www.facebook.com/groups/HomeAssistant/permalink/3935518023386205/">
 <img alt="Facebook poll RPi5 vs N100" src="images_hardware/poll-rpi5-vs-n100.png" width="350px" />
@@ -375,6 +324,8 @@ Click to go to the original post:
 
 Check the website for even more details about the boards if you want to know more about them.
 
+Be aware that the price here is without a hard disk, power supply and a case!
+
 |                                   | Raspberry Pi 5 - 8 GB                   | Raspberry Pi 4B - 8 GB              | Raspberry Pi 3B+ - 1 GB       |
 |-----------------------------------|-----------------------------------------|-------------------------------------|-------------------------------|
 | **Photo**                         | {{rpi5_img}}                            | {{rpi4_img}}                        | {{rpi3_img}}                  |
@@ -394,6 +345,62 @@ Check the website for even more details about the boards if you want to know mor
 | **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
 | **Amazon UK**                     | {{rpi5_uk}}                             | {{rpi4_uk}}                         | {{rpi3_uk}}                   |
 | **Amazon DE**                     | {{rpi5_de}}                             | {{rpi4_de}}                         | {{rpi3_de}}                   |
+
+---
+
+## Older hardware
+
+> Target group: If you still have some unused hardware available.
+> Or buy it inexpensive second hand if you want to find out this is something for you.
+
+Make sure the hardware has at least 8 GB RAM and 64 GB SSD hard disk space to install Home Assistant on and have enough
+space to install also other related applications.
+
+Computer stores or on sites, like Ebay, they sell refurbished computers, mostly they get them in bulk from companies.
+Clean them, upgrade the memory or hard disk and sell them.
+These computers are not the newest but have enough power and can run for another few years without any problem.
+This is an affordable way to buy/upgrade hardware to test HA on.
+
+### Desktop
+
+<img alt="desktop" width="150px" src="images_hardware/desktop.webp" {{style_img_right}} />
+If you still have a desktop PC lying around, you can use it to run Home Assistant on.
+
+The advantage is that you can easily upgrade hardware elements like memory, processor or extra video card power if
+needed.
+
+The disadvantage is they use more power than a laptop or mini PC.
+
+### Laptop
+
+<img alt="laptop" width="150px" src="images_hardware/laptop.jpg" {{style_img_right}} />
+A spare laptop can also be used as a server to run Home Assistant on.
+
+The advantage is it's energy-effective and compact.
+
+The disadvantage can be the battery constant on the power or charge daily.
+Some laptops also run without a battery, which is the best solution.
+
+### Thin client
+
+<img alt="HP 620" width="130px" src="images_hardware/hp_620.webp" {{style_img_right}} />
+A Thin client is compact, energy effective, silent and not expensive.
+
+HP has the T630 or T620 which are often mentioned as good hardware.\
+Dell has also Thin clients: the Wyse 5060 or 7020.
+
+They used in offices and now widely available on second hand sites like Ebay.
+Even with HA already installed on it.
+
+### NAS
+
+<img alt="QNAP NAS" width="130px" src="images_hardware/nas.png" {{style_img_right}} />
+A NAS, is a Network-Attached Storage mostly used as shared network storage,
+but there are models that have enough power to also install your own Docker applications, like Home Assistant, on.
+
+A Synology or QNAP NAS are examples of that.
+
+[Install HA on a NAS](https://www.home-assistant.io/installation/alternative/#install-home-assistant-container)
 
 ---
 

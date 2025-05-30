@@ -55,7 +55,19 @@ Yes, it looks very messy with all those icons and labels, but it gives a quick o
 Also, I know each room and what each icon means, so this image is logic and clear for me and not messy. 
 
 <a href="images_floorplan/floorplan_appartment.jpg">
-<img src="images_floorplan/floorplan_appartment.jpg" alt="floor plan example" height="400px"></a>
+<img src="images_floorplan/floorplan_appartment.jpg" alt="floor plan example" width="300px"></a>
+
+You can also choose to use fewer colors.
+
+<a href="images_floorplan/plan_with_less_colors.png">
+<img src="images_floorplan/plan_with_less_colors.png" alt="floor plan example black/white" width="300px"></a>
+
+Or only use the room walls and don't add furniture in the floor plan.
+
+<a href="images_floorplan/plan_no_furniture.png">
+<img src="images_floorplan/plan_no_furniture.png" alt="floor plan example no furniture" width="300px"></a>
+
+It's all up to you what you prefer!
 
 > Before you start: be aware, this takes a lot of time to create it.\
 > But it's worth it!
