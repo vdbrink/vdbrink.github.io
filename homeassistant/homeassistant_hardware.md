@@ -95,7 +95,14 @@ First, I want to explain some terms that are used here, and frequently used in d
 
 ## New hardware
 
-> Target group: If you want to run Home Assistant (and more) on a new and fast device.
+If you always want the best experience with Home Assistant, you better choose for new hardware.
+If you want to run it for the upcoming years without any performance issue and want to try new (machine learning) features,
+then you better choose for a new powerful device.
+Nothing is so frustrating as automations that react slow.
+
+The current most popular hardware to run Home Assistant on is an all-in-one mini PCs.
+
+> Target group: If you want to run Home Assistant (and more) on a brand new and fast device.
 
 ### All-in-one mini PCs
 
@@ -108,7 +115,6 @@ They contain all required hardware in it and with many external ports (USB, netw
 
 After this success, many other manufacturers followed with their own versions of this form factor.
 <br>
-The current most popular hardware to run Home Assistant on is the all-in-one mini PCs.
 They have enough power to run Home Assistant, together with a lot of other applications.
 Without to worry about latency or any other performance issues for the best experience.
 
@@ -176,20 +182,17 @@ Without to worry about latency or any other performance issues for the best expe
 
 #### Basic
 
-In 2025, the most popular basic hardware device is a mini pc with the N100 processor.
-Due to more than enough power to run Home Assistant (and a bunch of addons) smooth on and with the best value for your
-money.
+As of 2025, the most popular entry-level hardware for Home Assistant is a mini PC with an N100 processor. 
+This option offers more than enough power to run Home Assistant smoothly, along with several add-ons, making it the best value for your money.
 
-The models N95 and N97 are quite in the same performance range.
-The N150 is a newer model with more cores, threads and cpu to be even faster and can be worth it to spend a bit more
-money on even higher performance.
+The N95 and N97 models deliver similar performance, while the newer N150 features more cores and threads, providing even greater speed. 
+If you want higher performance, it may be worth spending a bit more on the N150.
 
-It's interesting to compare the prices they can fluctuate based on supply and demand,
-that's why I added the links to these comparable models.
+Prices for these models can fluctuate based on supply and demand, so I’ve included links to help you compare current offers.
 
 | Model                | N150                          | N100                           | N97                           | N95                           |  
 |----------------------|-------------------------------|--------------------------------|-------------------------------|-------------------------------|
-| **Model**            | Mini S13                      | Mini S12 Pro                   | G2                            | Mini S12                      |  
+| **Model**            | **Mini S13**                  | **Mini S12 Pro**               | **G2**                        | **Mini S12**                  |  
 | **Brand**            | Beelink                       | Beelink                        | GMKtec                        | Beelink                       |  
 | **Processor**        | 14th Gen Twin Lake Intel-N150 | 13th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |  
 | **CPU benchmark**    | {{n150_performance}}          | {{n100_performance}}           | {{n97_performance}}           | {{n95_performance}}           |  
@@ -209,8 +212,8 @@ that's why I added the links to these comparable models.
 #### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
-If you really want to run heavy processes with AI calculations on the server, you better can choose for a high-end
-model.
+If you want to run also heavy processes, like local machine learning functionality on the server, you better can choose for a high-end
+model with more memory, faster CPU, GPU and more cores.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
 {% capture hx370_img %}<img alt="Beelink SER9 - HX 370" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
@@ -220,7 +223,7 @@ model.
 | Model                | SER9                     | 185H                        | 12650H                 | 
 |----------------------|--------------------------|-----------------------------|------------------------|
 | **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         | 
-| **Model**            | SER9 Pro AI              | GTi14 AI                    | EQi12                  | 
+| **Model**            | **SER9 Pro AI**          | **GTi14 AI**                | **EQi12**              |
 | **Brand**            | Beelink                  | Beelink                     | Beelink                | 
 | **Processor**        | AMD Ryzen 9 HX 370       | Intel Core Ultra 9 185H     | Intel Core i7-12650H   | 
 | **CPU benchmark**    | {{hx370_performance}}    | {{185h_performance}}        | {{12650h_performance}} |
@@ -249,11 +252,15 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 
 ### Home Assistant Green vs Yellow
 
+Nabu Casa, the company behind Home Assistant, provides two official hardware devices to run Home Assistant on: 
+the **Home Assistant Green** and the **Home Assistant Yellow**.
+The green is the all-in-one entry-level device, while the yellow is the more advanced version with more custom options to build.
+
 {% capture ha_green_img %}<img alt="Home Assistant Green" height="200px" src="images_hardware/ha_green.webp"/>{% endcapture %}
-{% capture ha_green_buy_1 %}[NL](https://www.robbshop.nl/home-assistant-green-smart-hub){% endcapture %}
+{% capture ha_green_buy_1 %}[NL](https://www.robbshop.nl/home-assistant-green-smart-hub) [US](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){% endcapture %}
 
 {% capture ha_yellow_img %}<img alt="Home Assistant Yellow" height="200px" src="images_hardware/ha_yellow.webp"/>{% endcapture %}
-{% capture ha_yellow_buy_1 %}[DE](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html{% endcapture %}
+{% capture ha_yellow_buy_1 %}[DE](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html) [US](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html){% endcapture %}
 
 
 |                               | Home Assistant Green                                                                   | Home Assistant Yellow                                                        |
@@ -263,13 +270,13 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 | **Brand**                     | Nabu Casa                                                                              | Nabu Casa                                                                    | 
 | **Operating system**          | Home Assistant Operating System                                                        | Home Assistant Operating System                                              | 
 | **Processor**                 | 1.8 Ghz Quad core Rockchip RK3566 Arm Cortex-A55 CPU                                   | (Not included: Raspberry Pi Compute Module 4 (CM 4))                         | 
-| **CPU benchmark**             | [798](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A55+4+Core+2208+MHz&id=6543) | -                                                                            | 
+| **CPU benchmark**             | [798](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A55+4+Core+2208+MHz&id=6543) | - (depends on CM module)                                                     | 
 | **Working memory (RAM)**      | 4 GB                                                                                   |                                                                              | 
-| **Hard disk**                 | 32 GB external flash drive                                                             | (Not included: )                                                             | 
+| **Hard disk**                 | 32 GB external flash drive                                                             | (Not included)                                                               | 
 | **Local protocols**           | Only WiFi                                                                              | WiFi, Zigbee 3.0, OpenThread and Matter                                      | 
 | **Power consumption on load** | 3 W                                                                                    | 5-9 W                                                                        | 
-| **Target group**              | beginner                                                                               | medior                                                                       | 
-| **Price range**               | $ 99 / &euro; 110                                                                      | (+ costs for RAM, CM4, hard disk)                                            | 
+| **Target group**              | beginner                                                                               | medior / advantaged                                                          | 
+| **Price range**               | $ 99 / &euro; 110                                                                      | $ 200 / &euro; 200  (+ costs for RAM, CM4, hard disk)                        | 
 | **Pros**                      | * Cheap<br>* Plug-and-play                                                             | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
 | **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. Slow hard disk.        |                                                                              | 
 | **Buy links**                 | {{ha_green_buy_1}}                                                                     | {{ha_yellow_buy_1}}                                                          |
@@ -354,11 +361,11 @@ Be aware that the price here is without a hard disk, power supply and a case!
 > Or buy it inexpensive second hand if you want to find out this is something for you.
 
 Make sure the hardware has at least 8 GB RAM and 64 GB SSD hard disk space to install Home Assistant on and have enough
-space to install also other related applications.
+space for related applications as well.
 
-Computer stores or on sites, like Ebay, they sell refurbished computers, mostly they get them in bulk from companies.
-Clean them, upgrade the memory or hard disk and sell them.
-These computers are not the newest but have enough power and can run for another few years without any problem.
+Computer stores or online sites, like Ebay, they sell refurbished computers, mostly they get them in bulk from companies.
+They clean them, upgrade the memory and/or hard disk and sell them.
+These computers aren’t the newest but have enough power and with the small upgrade can run for another few years without any problem.
 This is an affordable way to buy/upgrade hardware to test HA on.
 
 ### Desktop
