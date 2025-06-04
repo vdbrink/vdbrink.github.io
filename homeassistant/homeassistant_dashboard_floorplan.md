@@ -11,12 +11,12 @@ image: /homeassistant/images_floorplan/banner2.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-On this page, you can read how you can create your own interactive floor plan.
+This page explains how to create your own interactive floor plan for Home Assistant.
 
-My big advantage of a floor plan dashboard page is to see in a single overview many statuses at once.
+The main advantage of a floor plan dashboard is the ability to view multiple statuses in a single, comprehensive overview.
 
-You can use a background image of a floor and add icons and sensor values of room temperatures, light control icons or motion detected on top of it.
-When you click on an entity, you can define the expected follow-up action which you like.
+You can use a background image of your floor plan and overlay it with icons and sensor values, such as room temperatures, light controls, or motion detection indicators. 
+Clicking on an entity allows you to define specific follow-up actions based on your preferences.
 
 ---
 ## Table of Contents
@@ -42,17 +42,17 @@ When you click on an entity, you can define the expected follow-up action which 
 
 ## Introduction
 
-The possibility of creating an interactive floor plan was for me the reason to start with Home Assistant.\
-Before Home Assistant, I used an app to control some lights and see the temperatures and running Node-RED to automate stuff.
-After I added more and more sensors to my network, it wasn't possible to get a quick overview anymore.
+The ability to create an interactive floor plan was the main reason I started using Home Assistant.\
+Previously, I used an app to control lights and monitor temperatures, alongside Node-RED for automation.\
+However, as I added more sensors to my network, it became increasingly difficult to get a quick overview of everything.
 
-To solve that, I was looking for a solution and I found some videos about the floor plan possibilities in Home Assistant. 
-In a floor plan, you can add a lot of information on what's happening in each room with icons, colors and overlays. 
-This gives you a quick overview around the house, so I started creating my own interactive floor plan.
+Searching for a solution, I discovered videos showcasing the floor plan capabilities of Home Assistant.\
+With a floor plan, you can visualize detailed information about each room using icons, colors, and overlays.\
+This provides a clear and comprehensive overview of your home, which inspired me to create my own interactive floor plan.
 
-An example of what it could look like.
-Yes, it looks very messy with all those icons and labels, but it gives a quick overview of all the sensors in the whole house.
-Also, I know each room and what each icon means, so this image is logic and clear for me and not messy. 
+Here’s an example of what it might look like.\
+Although it may seem cluttered with icons and labels, it offers a quick overview of all sensors throughout the house.\
+Since I know each room and the meaning of every icon, the layout is logical and easy to understand for me.
 
 <a href="images_floorplan/floorplan_appartment.jpg">
 <img src="images_floorplan/floorplan_appartment.jpg" alt="floor plan example" width="300px"></a>
@@ -74,7 +74,8 @@ It's all up to you what you prefer!
 
 ---
 ## Get inspired
-Before you start, take a look at what other people created as a floor plan and find the one that you like the most, use this one as an example.
+Before you begin, explore examples of floor plans created by others to find inspiration. 
+Choose one that you like and use it as a reference for your own design.
 
 Here are some sites where you can find such examples:
 * <a href="https://www.google.com/search?q=floorplan+home+assistant&source=lnms&tbm=isch" target="_blank">Google: floorplan Home Assistant</a>
@@ -312,7 +313,6 @@ You can override the current icon for each entity.
 {% endraw %}
 ```
 
-
 ---
 ### Overlays
 
@@ -329,7 +329,8 @@ In this example, I have a smart plug as entity for the overlay.
 When the plug has the state `on` it's full transparent and `off` it's 75% transparent.
 Then you still see all the elements but with a dark layer over the room.
 
-The `tap_action` is here disabled. You can also choose to control the switch by clicking on the icon.
+The `tap_action` is here disabled. 
+You can also choose to control the switch by clicking on the icon.
 
 Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X.
 <details>
@@ -382,13 +383,12 @@ Overlay based on a smart plug status.
 ### Change layer order
 
 When you can't click on an entity, you need to change the order in the list.
-The higher in your YAML file, the higher in the layer.
+The higher in your YAML file, the higher in the layers.
 
 ---
 
-This is it from my side.\
-There are a lot more functionalities possible! 
-It's endless!
+This is it from my side.
+I hope you found this information useful and that it inspires you to create your own interactive floor plan in Home Assistant.
 
 ---
 
