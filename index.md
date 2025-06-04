@@ -18,12 +18,11 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
+* [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
 * [Home Assistant - Floor plan](/homeassistant/homeassistant_dashboard_floorplan)
-* [USB adapter switch](/zigbee/usb_adapter_switch) to control USB devices
 * [Home Assistant - Tips: Dashboard edit dialog enlarger](/homeassistant/homeassistant_tips_tricks)
 * [Home Assistant - Pollen Radar](homeassistant/homeassistant_hacs_kleenex)
 * [Home Assistant - Automate infrared-controlled devices](zigbee/smart_infrared_transmitter_receiver)
-* [18.5x longer life for a sensor with a CR2032 battery](/buy/cr2032_to_aa_batteries)
 * [Batteries - Best Buy Tips](/buy/batteries) for all kinds of batteries to power your sensors.
 * I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
 
