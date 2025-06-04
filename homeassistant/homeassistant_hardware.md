@@ -42,6 +42,10 @@ hardware are.
 
 I don't mention ALL possible options here, just in my opinion, the most popular ones.
 
+In the hardware tables, I added the row **CPU benchmark**. 
+This is a raw multi-thread CPU speed indicator that gives you an indication of how it performs compared to other hardware. 
+Know that the total performance also depends on the speed of the memory and harddisk etc.!
+
 After reading this page, if you still have questions about the choice you need to make, don't contact me personally,
 but use the [social media channels or forums](#need-help).
 There are also a lot of other smart and experienced people who can help you further.
@@ -171,8 +175,6 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv){% endcapture %}
 {% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc){% endcapture %}
 {% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ){% endcapture %}
-
-> The **CPU benchmark** row is a raw multithread CPU speed indicator. The total performance depends also on the speed of your memory and harddisk etc!
 
 {% capture n95_performance %}[5.358](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N95&id=5206){% endcapture %}
 {% capture n97_performance %}[5.643](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N97&id=5337){% endcapture %}
