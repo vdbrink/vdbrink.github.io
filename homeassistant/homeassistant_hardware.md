@@ -87,6 +87,7 @@ First, I want to explain some terms that are used here, and frequently used in d
 | Form factor | A common design for a PC group.                                                                                                                                       | 
 | HA          | Abbreviation for **Home Assistant**                                                                                                                                   | 
 | HAOS        | Abbreviation for **Home Assistant Operating System**                                                                                                                  | 
+| Home lab    | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                                | 
 | Mini PC     | This refer to the size of popular **small pc** cases.                                                                                                                 | 
 | NAS         | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               | 
 | NUC         | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            | 
