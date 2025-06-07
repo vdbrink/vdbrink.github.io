@@ -14,14 +14,14 @@ image: /pihole/images/pi-hole_logo.svg
 <img src="images/pi-hole_logo.svg" alt="Pi-hole" width="90px" style="margin-left:15px;float:right" />
 Pi-hole is an application that validates DNS requests and allows or blocks it based on a list with "bad" domains.
 
-This prevents to see a lot of advertisements when your browsing but underwater it blocks also many tracking sites!
+This prevents seeing a lot of advertisements when your browsing but underwater it blocks also many tracking sites!
 These tracking sites use your visited websites to make a profile from your browse behavior.
 
 This is my dashboard, and as you can see in the third yellow box, more than 50% of the requested website urls are blocked!
-And in total one million domains are blocked. 
+And in total, one million domains are blocked. 
 You probably think I can't browse anymore because everything is blocked now, 
 but I almost never bump to a website that isn't loaded.
-If this happened and I want to visit it you can whitelist is forever or disable the blocking functionality for an X amount of time to visit the site.
+If this happened and I want to visit it, you can whitelist is forever or disable the blocking functionality for an X amount of time to visit the site.
 
 The advantage of blocking these websites is also that the scripts and images from those websites are not downloaded 
 which result in faster loading of the websites.
@@ -35,6 +35,10 @@ Website: https://pi-hole.net/
 ---
 
 ## Installation
+
+### Via docker
+
+Check the [docker-compose](https://github.com/pi-hole/docker-pi-hole/?tab=readme-ov-file#quick-start) file on the Pi-hole website with an example.
 
 ### Via Home Assistant
 

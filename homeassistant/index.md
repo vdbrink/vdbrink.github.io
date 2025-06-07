@@ -45,12 +45,17 @@ I created dashboards with all kinds of elements on it:
 
 ## Hardware to run HA on
 
+I compare the most popular hardware options, both new and refurbished.
+This page will help you to compare the different options you have: 
+like a NUC mini PC, N100, Raspberry Pi or a refurbished thin client, desktop or laptop. 
+
 * [Which hardware to run Home Assistant on?](homeassistant_hardware)
 
 ---
 ## Other Home Assistant integrations
 
 * [Automate infrared devices in Home Assistant](../zigbee/smart_infrared_transmitter_receiver)
+* [Pi-hole Ad blocker application](/pihole)
 
 ## Node-RED + Home Assistant integration
 
