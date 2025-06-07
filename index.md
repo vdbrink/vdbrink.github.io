@@ -38,20 +38,6 @@ My latest biggest updates on this blog:
 
 ---
 
-<a href="https://quote-shirt-shop.myspreadshop.nl/i+turn+coffee+into+yaml-A681d2642bbdb492a481b3d9e?productType=31&sellable=ZNpXpvqO8bIE5GLe5Y2z-31-32&appearance=1" target="_blank">
-    <img src="/shop/images/mug_coffee_into_yaml.png" alt="Mug - I convert coffee into yaml" height="150px"/>
-</a>
-
-<a href="https://www.spreadshirt.nl/shop/design/i+turn+coffee+into+yaml+uniseks+bio+t-shirt+van+stanley+stella-D681d2642bbdb492a481b3d9e?sellable=ZNpXpvqO8bIE5GLe5Y2z-1265-7&view=1_10749" target="_blank">
-    <img src="/shop/images/t-shirt_coffee_into_yaml.png" alt="T-shirt - I convert coffee into yaml" height="150px"/>
-</a>
-
-<a href="https://www.spreadshirt.nl/shop/design/i+turn+coffee+into+yaml+sticker-D681d2642bbdb492a481b3d9e?sellable=ZNpXpvqO8bIE5GLe5Y2z-1459-215&view=D1" target="_blank">
-    <img src="/shop/images/sticker_coffee_into_yaml.png" alt="Sticker - I convert coffee into yaml" height="150px"/>
-</a>
-
----
-
 ## Topics
 
 Topics you can find here:
