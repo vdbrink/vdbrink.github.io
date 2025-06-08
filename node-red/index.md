@@ -56,6 +56,7 @@ Here you find flows to interact between Home Assistant and Node-RED.
 ### Average flows
 
 * [Node-RED - Check if meat must be defrosted for the meal of tomorrow](../homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before)
+* [Node-RED - Send frigate image to Telegram](node-red_frigate_image_notification)
 
 ### Advanced flows
 Here you see an example of a script which I use to automatically control my ventilation system.
