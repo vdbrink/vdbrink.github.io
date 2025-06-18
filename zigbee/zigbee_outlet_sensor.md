@@ -60,13 +60,13 @@ and replace the normal battery with a dummy battery adapter to USB and connect i
 There are multiple battery-eliminators:
 
 * For AA batteries\
-  <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+  <a href="/buy/batteries#battery-eliminators" target="_blank">
   <img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="battery replacement to USB adapter" height="150px" /></a>
 * For AAA batteries\
-  <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+  <a href="/buy/batteries#battery-eliminators" target="_blank">
   <img src="/buy/images_diy/battery_eliminator.png" alt="battery replacement to USB adapter" height="150px" /></a>
 * For a CR 2032 cell battery\
-  <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements" target="_blank">
+  <a href="/buy/batteries#cr2032-usb-battery-replacements" target="_blank">
   <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
 
 ---
@@ -85,8 +85,8 @@ This project only requires these devices: A battery powered sensor and a battery
    <a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank">
    <img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" /></a>
 
-2. A <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements">CR2032 battery to USB adapter</a>\
-   <a href="/buy/smart_home_best_buy_tips#cr2032-usb-battery-replacements" target="_blank">
+2. A <a href="/buy/batteries#cr2032-usb-battery-replacements">CR2032 battery to USB adapter</a>\
+   <a href="/buy/batteries#cr2032-usb-battery-replacements" target="_blank">
    <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
 
 3. A <a href="/buy/smart_home_best_buy_tips#adapters">USB to outlet adapter</a>\
@@ -101,8 +101,8 @@ This project only requires these devices: A battery powered sensor and a battery
    <a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank">
    <img src="/buy/images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Tuya AAA battery powered temperature and humidity sensor" height="150px" /></a>
 
-2. A <a href="/buy/smart_home_best_buy_tips#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
-   <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+2. A <a href="/buy/batteries#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
+   <a href="/buy/batteries#battery-eliminators" target="_blank">
    <img src="/buy/images_diy/battery_eliminator.png" alt="battery replacement to USB adapter" height="150px" /></a>
 
 3. A <a href="/buy/smart_home_best_buy_tips#adapters">USB to outlet adapter</a>\
@@ -118,8 +118,8 @@ This project only requires these devices: A battery powered sensor and a battery
   <a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
   <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px"/></a>
 
-2. A <a href="/buy/smart_home_best_buy_tips#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
-   <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+2. A <a href="/buy/batteries#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
+   <a href="/buy/batteries#battery-eliminators" target="_blank">
    <img src="/buy/images_diy/battery_eliminator.png" alt="battery replacement to USB adapter" height="150px" /></a>
 
 3. A <a href="/buy/smart_home_best_buy_tips#adapters">USB to outlet adapter</a>\
@@ -134,8 +134,8 @@ This project only requires these devices: A battery powered sensor and a battery
    <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
    <img src="/buy/images_zigbee/zigbee_motion_pir.jpg" alt="motion sensor" height="100px" style="margin-left:15px"></a>
 
-2. A <a href="/buy/smart_home_best_buy_tips#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
-   <a href="/buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+2. A <a href="/buy/batteries#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\
+   <a href="/buy/batteries#battery-eliminators" target="_blank">
    <img src="/buy/images_diy/battery_eliminator.png" alt="battery replacement to USB adapter" height="150px" /></a>
 
 3. A <a href="/buy/smart_home_best_buy_tips#adapters">USB to outlet adapter</a>\

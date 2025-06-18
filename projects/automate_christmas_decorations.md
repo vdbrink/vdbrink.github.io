@@ -176,7 +176,7 @@ An example of a battery powered light is a garland with lights above the door.\
 I Automated it with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter/switch and a 5V-adapter.
 This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each port can be activated individually.
 
-<a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+<a href="../buy/batteries#battery-eliminators" target="_blank">
 <img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/>
 </a>
  &nbsp;
@@ -207,7 +207,7 @@ Another example is a battery powered light in a bottle.
 I use for this a battery-to-plug set and a smart socket.
 Place the dummy batteries in the original battery case and connect the power adapter to the smart socket to control is via an automation.
 
-<a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+<a href="../buy/batteries#battery-eliminators" target="_blank">
 <img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug" height="150px"/>
 </a>
 &nbsp;
@@ -244,10 +244,10 @@ This hub can be powered with a smart socket to control all the connected devices
 As you could read, there are multiple combinations possible to control battery powered devices.\
 It really depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
 
-* {{imgBasket}}[Battery to USB / battery eliminator](../buy/smart_home_best_buy_tips#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries. 
+* {{imgBasket}}[Battery to USB / battery eliminator](../buy/batteries#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries. 
 Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use a electronic wire to connect the ends.
    
-   <a href="../buy/smart_home_best_buy_tips#battery-eliminators" target="_blank">
+   <a href="../buy/batteries#battery-eliminators" target="_blank">
         <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" class="buy-link"/>
    </a>
 

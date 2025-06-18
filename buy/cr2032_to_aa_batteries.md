@@ -77,7 +77,7 @@ and the sensor can do their job again for years!
 <a href="/buy/batteries">
 <img src="/buy/images_batteries/cr2032_rechargeable.webp" alt="LIR2032" width="80px" style="margin-right:15px;float:left"/>
 </a>
-Did you know there are also rechargable CR2032? They are called LIR2032.
+Did you know there are also rechargeable CR2032? They are called LIR2032.
 
 You can find more information about them [here](/buy/batteries).
 
