@@ -421,6 +421,36 @@ This is what a configured helper switch must look like:
 
 <img src="orcon_images/ha_create_helper_buttons.jpg" alt="New ESPHome integration in Home Assistant" width="200px" />
 
+#### Current state as sensor
+
+Based on the used power, you can create a custom sensor which indicates if the ventilation system is activated based on the power usage.
+
+Go to Home Assistant -> Developer tools and search for the entity that reads out the power of the smart plug. 
+Something like `sensor.xxxx_power`.
+
+Now create a new sensor.\
+Go to Home Assistant -> Devices & services -> Helpers -> Create Helper -> Template -> Template a sensor
+
+In State Template, you can use the following code.
+I was not able to distinguish between SPEED 1, 2 and AWAY.
+
+Only SPEED 3 use more power.
+
+```
+{% set p = states('sensor.xxxx_power) | float(0) %}
+{% if 0 <= p <= 45 %}
+OFF
+{% elif 45 <= p %}
+SPEED 3
+{% else %}
+UNKNOWN
+{% endif %}
+```
+
+After that
+
+Home Assistant -> Dashboard -> Edit -> Add Card -> Entities
+
 #### Script to trigger the ESP
 
 To act on a button press, I created for each mode a script which triggers the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 

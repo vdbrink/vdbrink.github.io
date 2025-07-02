@@ -35,7 +35,7 @@ Find here a set of preselected devices which you can buy for in your garden or g
 
 ---
 
-> **_NOTE:_**  Most of the links are affiliate links, you pay the same price AND support my blog a bit.
+> **_NOTE:_** Most of the links are affiliate links, you pay the same price AND support my blog a bit.
 
 ---
 ## Rain sensor
@@ -62,13 +62,15 @@ It contains a build-in battery that charges via a small solar panel.
 
 {{imgBasket}}Zigbee raindrop + lux sensor 
 <a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4i2oF32" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4i2oF32#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>
 
 ---
 ## Soil sensor
+
+### NAS-STH02B2
 
 <a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">
 <img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -79,7 +81,7 @@ It contains a build-in battery that charges via a solar panel on top of it.
 
 {{imgBasket}}Zigbee soil sensor 
 <a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/43MsK6V" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/43MsK6V#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this sensor.
@@ -96,9 +98,21 @@ Powered by two AAA batteries.
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
-[(Amazon US)](https://amzn.to/3G3WnH0)
+[(Amazon US)](https://amzn.to/3G3WnH0#ad)
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
+
+[//]: # (### Ecowitt WH51)
+
+[//]: # ()
+[//]: # ({{imgBasket}} soil sensor)
+
+[//]: # (<a href="https://s.click.aliexpress.com/e/_o2Cg7q7" target="_blank">&#40;AliExpress&#41;</a>)
+
+[//]: # (<a href="https://amzn.to/#ad" target="_blank">&#40;Amazon US&#41;</a>)
+
+[//]: # ()
+[//]: # (Model: WH51)
 
 ---
 
@@ -183,13 +197,13 @@ This LED strip is available in different versions:
 
 ## Outdoor socket
 
-<a href="https://amzn.to/4gBFjop" target="_blank">
+<a href="https://amzn.to/4gBFjop#ad" target="_blank">
 <img src="/buy/images_zigbee/ledvance_outdoor_plug.jpg" alt="LEDVANCE ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rating and with power measurement.
 
 {{imgBasket}}Zigbee outdoor power socket - LEDVANCE 
-<a href="https://amzn.to/4gBFjop" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4gBFjop#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank" title="4099854293276">{{imgZ2M}}4099854293276</a>
 
 <br>
@@ -197,13 +211,13 @@ This outdoor LEDVANCE Zigbee power socket can handle 3680 W and has an IP44 rati
 <br>
 
 <!--
-<a href="https://amzn.to/3Vt83Ip" target="_blank">
+<a href="https://amzn.to/3Vt83Ip#ad" target="_blank">
 <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (without power measurement).
 
 {{imgBasket}}Zigbee outdoor power socket - Innr (Dual Pack) 
-<a href="https://amzn.to/3Vt83Ip" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/3Vt83Ip#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
 -->
 
@@ -223,13 +237,13 @@ This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an I
 
 <br>
 
-<a href="https://amzn.to/40SVJoc" target="_blank">
+<a href="https://amzn.to/40SVJoc#ad" target="_blank">
 <img src="images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 This is a **dual socket** outdoor Zigbee device, where each socket can be controlled individual and has **power consumption measurements**.
 
 {{imgBasket}}Zigbee dual port power socket with power measurement - Nous 
-<a href="https://amzn.to/40SVJoc" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/40SVJoc#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
 
 <br>

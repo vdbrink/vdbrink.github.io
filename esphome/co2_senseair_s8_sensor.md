@@ -83,7 +83,7 @@ These hardware components did I use for this project:
 
 * {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
-<a href="https://amzn.to/3ShAiry" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3ShAiry#ad" target="_blank">(Amazon US)</a>
   * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
@@ -108,15 +108,15 @@ These hardware components did I use for this project:
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* {{imgBasket}}5V USB power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqIem" target="_blank">(Amazon US)</a>
+* {{imgBasket}}5V USB power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqIem#ad" target="_blank">(Amazon US)</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
 
-* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqwf8" target="_blank">(Amazon US)</a>. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqwf8#ad" target="_blank">(Amazon US)</a>. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
-* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3Zt4Zha" target="_blank">(Amazon US)</a>
+* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3Zt4Zha#ad" target="_blank">(Amazon US)</a>
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 

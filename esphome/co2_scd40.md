@@ -105,7 +105,7 @@ The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 This sensor with i2c interface is useful if you don't want to solder (AliExpress)
 </a>
-<a href="https://amzn.to/3XUVXsB" target="_blank"> (Amazon US)</a>
+<a href="https://amzn.to/3XUVXsB#ad" target="_blank"> (Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 <img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 CO2 sensor without soldering" />
@@ -114,7 +114,7 @@ This sensor with i2c interface is useful if you don't want to solder (AliExpress
 <br>
 Otherwise you can also buy this cheaper version where you need to solder the pins 
 <a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3Gh8sIQ" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3Gh8sIQ#ad" target="_blank">(Amazon US)</a>
 
 ### ESP board
 
@@ -123,13 +123,13 @@ but on this page I use an ESP8266.
 
 ESP8266 NodeMCU v3 (Ch340) with pre soldered pins
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3Gh8W1C" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3Gh8W1C#ad" target="_blank">(Amazon US)</a>
 <br>
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
 <br>
 <a href="https://s.click.aliexpress.com/e/_oEUmqpo" target="_blank">Alternative link (AliExpress)</a>
-<a href="https://amzn.to/3RbrCCo" target="_blank"> (Amazon US)</a>
+<a href="https://amzn.to/3RbrCCo#ad" target="_blank"> (Amazon US)</a>
 <br>
 
 ### Case
@@ -144,7 +144,7 @@ Also, a decorative small statuette can be used as long as it is porous or with h
 On AliExpress they also sell 
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
 Plastic DIY Cases (AliExpress)
-<a href="https://amzn.to/3G3EhVB" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3G3EhVB#ad" target="_blank">(Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
@@ -157,7 +157,7 @@ A cable to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 Micro USB cable to USB A to power the ESP (AliExpress)</a>
-<a href="https://amzn.to/4lqcvCK" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lqcvCK#ad" target="_blank">(Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
 <img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
@@ -170,7 +170,7 @@ A power adapter to power the ESP.
 
 5V USB power adapter 
 <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4j2wDcC" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">
 <img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px" />

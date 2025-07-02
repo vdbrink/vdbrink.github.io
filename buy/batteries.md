@@ -93,15 +93,15 @@ And how you can replace a CR2032 battery for two AAs for a much longer battery l
 #### Rechargeable
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Rechargeable AA batteries - Eneloop Panasonic (AliExpress)</a>
-<a href="https://amzn.to/4hGVMsM" target="_blank">(AmazonUS)</a>
-<a href="https://amzn.to/493a0ke" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/4hGVMsM#ad" target="_blank">(AmazonUS)</a>
+<a href="https://amzn.to/493a0ke#ad" target="_blank">(AmazonNL)</a>
 
 <a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">
 <img src="/buy/images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
 </a>
 
-{{imgBasket}}<a href="https://amzn.to/4ePpz0k" target="_blank">4x Rechargeable AA batteries - Duracell (AmazonUS)</a>
-<a href="https://amzn.to/4ePpz0k" target="_blank">(AmazonNL)</a>
+{{imgBasket}}<a href="https://amzn.to/4ePpz0k#ad" target="_blank">4x Rechargeable AA batteries - Duracell (AmazonUS)</a>
+<a href="https://amzn.to/4ePpz0k#ad" target="_blank">(AmazonNL)</a>
 
 #### Charger
 
@@ -128,14 +128,14 @@ Because of the size, they can run for a long time on a single battery. Even thes
 The downside is that these make the sensor also quite big.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">Rechargeable AAA batteries - Eneloop Panasonic (AliExpress)</a>
-<a href="https://amzn.to/4hY0BO6" target="_blank">(AmazonUS)</a>
-<a href="https://amzn.to/493a0ke" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/4hY0BO6#ad" target="_blank">(AmazonUS)</a>
+<a href="https://amzn.to/493a0ke#ad" target="_blank">(AmazonNL)</a>
 
 <a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">
 <img src="/buy/images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
 </a>
 
-{{imgBasket}}<a href="https://amzn.to/3X3I0Z2" target="_blank">4x Rechargeable AAA batteries - Duracell (Amazon)</a>
+{{imgBasket}}<a href="https://amzn.to/3X3I0Z2#ad" target="_blank">4x Rechargeable AAA batteries - Duracell (Amazon)</a>
 
 #### Charger
 
@@ -155,11 +155,11 @@ Charger for AA and AAA batteries.
 This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDUcuQH" target="_blank">CR2032 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/4hRObaI" target="_blank">(AmazonUS)</a>
-<a href="https://amzn.to/3V4sHye" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/4hRObaI#ad" target="_blank">(AmazonUS)</a>
+<a href="https://amzn.to/3V4sHye#ad" target="_blank">(AmazonNL)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooUmuKN" target="_blank">CR2032 (AliExpress)</a>
-<a href="https://amzn.to/4i2rCAE" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/4i2rCAE#ad" target="_blank">(AmazonNL)</a>
 
 #### Rechargeable
 
@@ -174,7 +174,7 @@ They are not very famous and more expensive, but environment friendlier, and it 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oERl3Vn" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olLhl1p" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
-<a href="https://amzn.to/4fCK0i9" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4fCK0i9#ad" target="_blank">(Amazon)</a>
 
 #### Charger
 
@@ -222,8 +222,8 @@ This CR1632 battery is a bit smaller than the CR2032.
 #### Disposable
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeRGeFB" target="_blank">CR1632 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/3ECCUg3" target="_blank">(AmazonUS)</a>
-<a href="https://amzn.to/490qqKe" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/3ECCUg3#ad" target="_blank">(AmazonUS)</a>
+<a href="https://amzn.to/490qqKe#ad" target="_blank">(AmazonNL)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_omGaaZj" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
@@ -253,8 +253,8 @@ This CR2450 battery is a bit thicker than the other ones.
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
-<a href="https://amzn.to/3FRlQU0" target="_blank">(AmazonUS)</a>
-<a href="https://amzn.to/3G0MycM" target="_blank">(AmazonNL)</a>
+<a href="https://amzn.to/3FRlQU0#ad" target="_blank">(AmazonUS)</a>
+<a href="https://amzn.to/3G0MycM#ad" target="_blank">(AmazonNL)</a>
 
 #### Rechargeable
 
@@ -282,10 +282,10 @@ There are different variants of them. Replacements for AA or AAA batteries and w
 The advantage of a USB connector is that you can plug multiple to an active powered USB-hub to control multiple ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AA battery replacement with USB (AliExpress)</a>
-<a href="https://amzn.to/3AIfXqb" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3AIfXqb#ad" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF5APee" target="_blank">AAA battery replacement with USB (AliExpress)</a>
-<a href="https://amzn.to/3ATHOUb" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3ATHOUb#ad" target="_blank">(Amazon)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
 

@@ -410,7 +410,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individual, and it has power consumption measurements.
  
-  {{imgBasket}}<a href="https://amzn.to/40SVJoc" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous.
+  {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous.
 
   <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
 
@@ -418,19 +418,19 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * Innr Zigbee power socket can handle 2300 W and has an IP44 rating, without power measurement.
 
-  {{imgBasket}}<a href="https://amzn.to/3Vt83Ip" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
+  {{imgBasket}}<a href="https://amzn.to/3Vt83Ip#ad" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon)</a>
 
-  <a href="https://amzn.to/3Vt83Ip" target="_blank">
+  <a href="https://amzn.to/3Vt83Ip#ad" target="_blank">
    <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" /></a>
 
 <br>
 <!--
 * Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
 
-  {{imgBasket}}<a href="https://amzn.to/4eBZVMp" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)</a>\
+  {{imgBasket}}<a href="https://amzn.to/4eBZVMp#ad" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)</a>\
   {{imgBasket}}I bought mine at the local Lidl store, but they are not always available there (also not online), only once in a while.
 
-  <a href="https://amzn.to/4eBZVMp" target="_blank"><img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px" /></a>
+  <a href="https://amzn.to/4eBZVMp" target="_blank"><img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px#ad" /></a>
 -->
 
 ---
@@ -475,7 +475,7 @@ If you have such automations in Home Assistant I can add those here also if you 
 
 ## Do you have other solutions?
 
-Do you have other solutions or idea's to automate your Christmas decorations? 
+Do you have other solutions or ideas to automate your Christmas decorations? 
 Please let me know!
 
 ---
