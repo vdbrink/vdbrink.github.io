@@ -436,7 +436,9 @@ I was not able to distinguish between SPEED 1, 2 and AWAY.
 
 Only SPEED 3 use more power.
 
-```
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
 {% set p = states('sensor.xxxx_power) | float(0) %}
 {% if 0 <= p <= 45 %}
 OFF
@@ -445,11 +447,10 @@ SPEED 3
 {% else %}
 UNKNOWN
 {% endif %}
+{% endraw %}
 ```
 
-After that
-
-Home Assistant -> Dashboard -> Edit -> Add Card -> Entities
+After that, go to: Home Assistant -> Dashboard -> Edit -> Add Card -> Entities
 
 #### Script to trigger the ESP
 
