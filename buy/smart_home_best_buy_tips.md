@@ -285,6 +285,7 @@ Or in the summer when it becomes outside colder than inside.
 This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_sensor).\
 <a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank"><img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a> 
 
+---
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered with display. 
 The width is 7 cm and height is 2,6 cm.\
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank">(AliExpress)</a>
@@ -292,6 +293,16 @@ The width is 7 cm and height is 2,6 cm.\
 Model: ZY-TH01Pro
 <!--<a href="https://www.zigbee2mqtt.io/devices/ZY-TH01Pro.html" target="_blank" title="ZY-TH01Pro">{{imgZ2M}}ZY-TH01Pro</a>-->
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/display_temp_hum.avif" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
+
+---
+{{imgBasket}}Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with probe and display.
+<a href="https://s.click.aliexpress.com/e/_oEuJPkc" target="_blank">(AliExpress)</a>
+
+Model: SNZB-02LD
+Battery: CR2477 
+<a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
+
+<a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
 
 ---
 
