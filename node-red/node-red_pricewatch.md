@@ -22,10 +22,11 @@ Let Node-RED check on a daily basis the actual product prices on different websi
   * [How it works](#how-it-works)
   * [Flow explanation](#flow-explanation)
   * [Flows for different sites](#flows-for-different-sites)
-    * [Amazon](#amazon)
+    * [Amazon.com / Amazon.de](#amazoncom--amazonde)
+    * [Amazon.nl](#amazonnl)
     * [Bol.com](#bolcom)
     * [iBood.com](#iboodcom)
-    * [Coolblue](#coolblue)
+    * [Kruidvat.nl](#kruidvatnl)
   * [Create your own prize checker](#create-your-own-prize-checker)
   * [Price Formatter examples](#price-formatter-examples)
     * [With new lines](#with-new-lines)
@@ -219,7 +220,7 @@ The CSS name is normally used to style the element on the page with size, color,
 
 ## Price Formatter examples
  What you need is the raw price, without decimals, and as number. 
- Only with this value you can compare the price if it matches your desired price.
+ Only with this value, you can compare the price if it matches your desired price.
 
 ### With new lines
 
