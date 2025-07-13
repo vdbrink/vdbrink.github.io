@@ -129,20 +129,19 @@ I've made close-up photos and a table how everything is connected.
 
 This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
 
-> UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order. 
-Then you need to look at the second column in the table for the correct adapter pins. 
-Please let me know which one is correct for you.
+> UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order or ground is on an other pin (2 vs 3).
+Please let me know which one is correct for you via [this issue](https://github.com/vdbrink/vdbrink.github.io/issues/2).
 
-| Flat cable +<br>adapter pin | Reverse order | 15RF remote button | Dupont cable color | ESP pin |
-|-----------------------------|---------------|--------------------|--------------------|---------|
-| 1                           | 8             | -                  | -                  | -       |
-| 2                           | 7             | timer*             | -                  | -       |
-| 3                           | 6             | ground             | purple             | G       |
-| 4                           | 5             | automatic          | blue               | D1      |
-| 5                           | 4             | away*              | -                  | -       |
-| 6                           | 3             | mode 3             | green              | D6      |
-| 7                           | 2             | mode 2             | yellow             | D5      |
-| 8                           | 1             | mode 1             | orange             | D2      |
+| Flat cable +<br>adapter pin | 15RF remote button | Dupont cable color | ESP pin |
+|-----------------------------|--------------------|--------------------|---------|
+| 1                           | -                  | -                  | -       |
+| 2                           | ground             | purple             | G       |
+| 3                           | timer*             |                    | -       |
+| 4                           | automatic          | blue               | D1      |
+| 5                           | away*              | -                  | -       |
+| 6                           | mode 3             | green              | D6      |
+| 7                           | mode 2             | yellow             | D5      |
+| 8                           | mode 1             | orange             | D2      |
 
 > *I haven't connected the 'timer' and 'away' buttons because I don't use them.
 
