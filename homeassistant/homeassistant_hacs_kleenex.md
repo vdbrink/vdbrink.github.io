@@ -493,9 +493,9 @@ cards:
             }
         content: |
           {% set level = states(config.entity) %}
-          {% set text = {'low':'laag','moderate':'gemiddeld','high':'hoog','very-high':'heel hoog'} %}
+          {% set text = {'low':'low','moderate':'moderate','high':'high','very-high':'very high'} %}
           {% set level_text = text.get(level,'onbekend') %}
-          {{ level_text }}
+          {{ level }}
       - type: markdown
         entity: sensor.kleenex_pollen_radar_huis_grass_level
         card_mod:
@@ -514,7 +514,7 @@ cards:
           {% set level = states(config.entity) %}
           {% set text = {'low':'laag','moderate':'gemiddeld','high':'hoog','very-high':'heel hoog'} %}
           {% set level_text = text.get(level,'onbekend') %}
-          {{ level_text }}
+          {{ level }}
       - type: markdown
         entity: sensor.kleenex_pollen_radar_huis_trees_level
         card_mod:
@@ -533,7 +533,7 @@ cards:
           {% set level = states(config.entity) %}
           {% set text = {'low':'laag','moderate':'gemiddeld','high':'hoog','very-high':'heel hoog'} %}
           {% set level_text = text.get(level,'onbekend') %}
-          {{ level_text }}
+          {{ level }}
 {% endraw %}
 ```
 </details>
