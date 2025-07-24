@@ -136,6 +136,8 @@ You can use a {{imgBasket}}USB A extension cord <a href="https://s.click.aliexpr
 <a href="https://amzn.to/43OGuhG#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">(Amazon NL)</a> for it.
 
+<br>
+
 ---
 
 ## Zigbee sensors and actuators
@@ -145,12 +147,13 @@ You can use a {{imgBasket}}USB A extension cord <a href="https://s.click.aliexpr
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-A contact sensor can be placed to check if doors and windows are open or closed. The sensor knows only those two values. The contact sensor works with a "reed switch", the circuit is by default open, but when there is a magnet nearby, the internal metal closes the circuit.
+A contact sensor can be placed to check if doors and windows are open or closed. The sensor knows only those two values. 
+The contact sensor works with a "reed switch", the circuit is by default open, but when there is a magnet nearby, the internal metal closes the circuit.
 
-The sensor can also be used attached to other sensors that also return an open or closed circuit. With this behavior, you can create also a [seat occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) or a [water leak sensor](/zigbee/zigbee_water_leak_sensor).
+The sensor can also be used attached to other sensors that also return an open or closed circuit. 
+With this behavior, you can create also a [seat occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) or a [water leak sensor](/zigbee/zigbee_water_leak_sensor).
 
 **Best option:**\
-
 {{imgBasket}}Zigbee Contact sensor - Aqara
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3Dnl1kK#ad" target="_blank">(Amazon NL)</a>
@@ -159,6 +162,8 @@ Small and a long battery life.
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
+
+<br>
 
 **Cheaper option:**\
 {{imgBasket}}Zigbee Contact sensor - Tuya
@@ -169,7 +174,9 @@ Small and a long battery life.
 Small and cheaper.
 
 <a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">
-<img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
+<img src="images_zigbee/zigbee_contact_sensor.webp" alt="Tuya contact sensor" height="100px" /></a>
+
+<br>
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee Contact sensor 2xAAA powered - Tuya 
@@ -220,15 +227,13 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
-<br>
+<<br>
 
 **Cheaper option:**\
 {{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
 <a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4kUzGUw#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ01LM.html" target="_blank" title="RTCGQ01LM">{{imgZ2M}}RTCGQ01LM</a>
-
-<br>
 
 **All direction option:**\
 {{imgBasket}}Zigbee motion sensor all directions - Tuya
@@ -239,10 +244,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
 
-<br>
-
 **2xAAA battery option:**\
-{{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered (cheaper) - Tuya
+{{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered - Tuya
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4jqxXWH#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
@@ -251,6 +254,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 [//]: # ({{imgBasket}}<a href="https://amzn.to/4i18dQH#ad" target="_blank">Zigbee motion sensor all directions - LIGHTEU &#40;Amazon&#41;</a>)
 [//]: # (<a href="https://www.zigbee2mqtt.io/devices/PIR1-ZB.html" target="_blank" title="ZP01">{{imgZ2M}}PIR1-ZB</a>)
+
+<br>
 
 ---
 
@@ -266,9 +271,11 @@ Ideal for the living room, bedrooms and home office.
 
 {{imgBasket}}Zigbee / WiFi human Presence detection sensor 
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/43Nx8mm#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/46ZtuXT#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3Zi5pay#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
+
+<br>
 
 ---
 
@@ -284,46 +291,48 @@ Or in the summer when it becomes outside colder than inside.
 **Best option:**\
 {{imgBasket}}Zigbee temperature and humidity sensor - Aqara 
 <a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">(AliExpress)</a>
+(N/A in Amazon US)
 <a href="https://amzn.to/3V2h0YX#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSDCGQ11LM.html" target="_blank" title="WSDCGQ11LM">{{imgZ2M}}WSDCGQ11LM</a>
 
-<br>
-
 **Cheaper option:**\
-{{imgBasket}}Zigbee temperature and humidity sensor (cheaper) - Tuya 
+{{imgBasket}}Zigbee temperature and humidity sensor - Tuya / Thirdreality
 <a href="https://s.click.aliexpress.com/e/_EuScxuN" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4cuvcBp#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3GGLegb#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4cuvcBp#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RSH-HS06.html" target="_blank" title="RSH-HS06">{{imgZ2M}}RSH-HS06</a>
-
-<br>
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya 
 <a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3XVu3wK#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4f72VC3#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lfjVI5#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSD500A.html" target="_blank" title="WSD500A">{{imgZ2M}}WSD500A</a> Battery powered, bigger, cheaper.\
 This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_sensor).\
-<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank"><img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a> 
+<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank"><img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a>
 
----
+**With display option:**\
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered with display. 
 The width is 7 cm and the height is 2,6 cm.\
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3GotLs3#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lN2hwg#ad" target="_blank">(Amazon US)</a>
 Model: ZY-TH01Pro
 <!--<a href="https://www.zigbee2mqtt.io/devices/ZY-TH01Pro.html" target="_blank" title="ZY-TH01Pro">{{imgZ2M}}ZY-TH01Pro</a>-->
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/display_temp_hum.avif" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
 
----
+**Water-resistant option:**\
 {{imgBasket}}Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with probe and display.
 <a href="https://s.click.aliexpress.com/e/_oEuJPkc" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/44Unhd2#ad" target="_blank">(Amazon NL)</a>
 
 Model: SNZB-02LD
 Battery: CR2477 
 <a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
 
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
+
+<br>
 
 ---
 
@@ -335,19 +344,28 @@ Battery: CR2477
 A light intensity sensor (lux sensor) measures the amount of light brightness.\
 Usefull to enable the lights when it becomes dark outside.
 
+**Best option:**\
 {{imgBasket}}Zigbee lux sensor - Aqara 
 <a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">(AliExpress)</a>
+
 <a href="https://www.zigbee2mqtt.io/devices/GZCGQ01LM.html" target="_blank" title="GZCGQ01LM">{{imgZ2M}}GZCGQ01LM</a>
 Very reliable, very long battery life, quick response on small light changes, more expensive.
 
-{{imgBasket}}Zigbee lux sensor (cheaper) - Moes 
-<a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">(AliExpress)</a>
-<a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a> 
+<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">
+<img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" /></a>
 
-{{imgBasket}}Zigbee lux sensor (cheaper) - Tuya 
+**Cheaper option 1:**\
+{{imgBasket}}Zigbee lux sensor - Moes 
+<a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">(AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a>
+
+**Cheaper option 2:**\
+{{imgBasket}}Zigbee lux sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3RJdEI2#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3TX4A3y#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0222.html" target="_blank" title="TS0222">{{imgZ2M}}TS0222</a>
+
+<br>
 
 ---
 
@@ -367,24 +385,28 @@ It has a small size and the battery lasts very long. That makes this sensor a mo
 It can also be used to create other boolean sensors, 
 like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
+**Best option:**\
 {{imgBasket}}Leak sensor - Aqara 
 <a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3GGM3ph#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/3ZneX2Z#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 
-#### Other leak sensor
+<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">
+<img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" /></a>
 
-<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
-<img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
-
+**Cheaper option:**\
 Another leak sensor is the one with a wire, this sensor itself isn't water-resistant, only the other end of the cable may become wet.
 This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
-{{imgBasket}}Zigbee leak sensor 
+{{imgBasket}}Zigbee leak sensor
 <a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3R76AF0#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4hkYjYw#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/3H5bBwd#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/45cjJTY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
+
+<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
+<img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 <br>
 
@@ -467,7 +489,6 @@ This one supports over 100 dynamic effects. These are controllable via the WLED 
 <a href="https://www.zigbee2mqtt.io/devices/ZS-EUB_2gang.html" target="_blank" title="ZS-EUB_2gang">{{imgZ2M}}ZS-EUB</a>
 
 <br>
-<br>
 
 #### Wall dimmer
 
@@ -484,6 +505,8 @@ The easiest way to make a dimmable group with gu10 lights smart.
 <a href="https://amzn.to/4108Zri#ad" target="_blank">(Amazon NL)</a>
 
 {{imgBasket}}Other EcoDimZigbee devices - EcoDim <a href="https://www.ecodim.nl/nl/smart-led-dimmers-en-schakelaars/zigbee/" target="_blank">(manufacturer site with links to different shops)</a>
+
+<br>
 
 ---
 
@@ -520,7 +543,7 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 <a href="https://amzn.to/3OiAAvY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/DJT11LM.html" target="_blank" title="DJT11LM">{{imgZ2M}}DJT11LM</a>
 
-<br><br><br>
+<br>
 
 ---
 
@@ -540,6 +563,8 @@ The first port can also be used to switch on/off data access via USB, the other 
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
 
 Check also the [dedicated page](/zigbee/usb_adapter_switch) about this device.
+
+<br>
 
 ---
 ### Plant soil sensor
@@ -567,6 +592,8 @@ like water-resistant sockets, LED strips, rain sensors, etc...
 
 There is a separated page where you can find them [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
 
+<br>
+
 ---
 
 ### Air quality sensor
@@ -593,6 +620,8 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 <a href="https://s.click.aliexpress.com/e/_oo1Odtf" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/40Y4IEB#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
+
+<br>
 
 ---
 
@@ -632,6 +661,8 @@ This way you can create automations for air conditioners, fans, lights, etc.
 {{imgBasket}}WiFi IR + RF + 433 + 315 remote control - Moes 
 <a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">(AliExpress)</a>
 Model: RF-R1
+
+<br>
 
 ---
 
@@ -676,6 +707,8 @@ It took me a while before I got the correct smart socket for this purpose, and n
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
 <a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">(Banggood)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank" title="TS0121_plug">{{imgZ2M}}TS0121</a>
+
+<br>
 
 ---
 
@@ -752,11 +785,15 @@ Cheaper solution than four single smart sockets!
 <a href="https://amzn.to/3PFr86N#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
 
+<br>
+
 ---
 
 ## Smart Curtains
 
-If you're looking for a U-rail solution you can look at [Slide - Smart Curtains](/projects/slide_smart_curtains).
+If you're looking for a U-rail solution, you can look at [Slide - Smart Curtains](/projects/slide_smart_curtains).
+
+<br>
 
 ---
 
@@ -770,6 +807,8 @@ USB stick to handle heavy GPU processes, like human detection with Frigate.
 {{imgBasket}}Coral USB - Google 
 <a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/43NqU5N#ad" target="_blank">(Amazon US)</a>
+
+<br>
 
 ---
 
@@ -827,8 +866,8 @@ I use these a lot for all kinds of Christmas decorations.
 <a href="https://s.click.aliexpress.com/e/_DeBgzBR" target="_blank">
 
 <img src="../projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
-<br>{{imgBasket}}(AliExpress)
-</a>
+
+<br>
 
 ---
 
@@ -871,6 +910,8 @@ Useful to move your Zigbee stick away from your server for the best range and av
 {{imgBasket}}USB A Extension Cable Male to Female (AliExpress)</a>
 <a href="https://amzn.to/42tTmaE#ad" target="_blank">(Amazon US)</a>
 
+<br>
+
 ---
 
 ## Power
@@ -894,6 +935,8 @@ Useful to move your Zigbee stick away from your server for the best range and av
 <a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cvtLCK#ad" target="_blank">(Amazon US)</a>
 
+<br>
+
 ---
 
 ## Battery powered with PIR
@@ -910,6 +953,8 @@ Very useful for closets or stairs where no power is available.
 {{imgBasket}}Battery powered PIR lights 
 <a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42zFj4t#ad" target="_blank">(Amazon US)</a>
+
+<br>
 
 ---
 
