@@ -737,11 +737,9 @@ Cheaper solution than four single smart sockets!
 * Manual master switch
 * LED indicate for each socket
 
-{{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Melery 
-<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">(AliExpress)</a>
+{{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Melery / UseeLink
 <a href="https://s.click.aliexpress.com/e/_oDn4Uqa" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3SgJpbS#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4mwSHys#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/46nuiFT#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
 
 <br>
@@ -764,7 +762,6 @@ Cheaper solution than four single smart sockets!
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Lellki 
 <a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4idt1Ub#ad" target="_blank">(Amazon US)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
 
@@ -791,7 +788,6 @@ Cheaper solution than four single smart sockets!
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 4 USB ports - UseeLink 
 <a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4lnnnkP#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3PFr86N#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
 
@@ -816,7 +812,8 @@ USB stick to handle heavy GPU processes, like human detection with Frigate.
 
 {{imgBasket}}Coral USB - Google 
 <a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/43NqU5N#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/415ZUfA#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4594MC0#ad" target="_blank">(Amazon NL)</a>
 
 <br>
 
