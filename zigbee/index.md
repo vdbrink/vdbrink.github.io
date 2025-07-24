@@ -191,7 +191,7 @@ Another new coordinator which many people are very satisfied with is the <a href
 
 To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick.
-You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">USB A extension cord (AliExpress)</a> for it.
+You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">USB A extension cord (AliExpress)</a> for it.
 
 ---
 

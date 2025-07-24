@@ -133,7 +133,7 @@ My network grew to 140+ devices today, and it still runs fast.
 
 To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick. 
-You can use a {{imgBasket}}USB A extension cord <a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">(AliExpress)</a> 
+You can use a {{imgBasket}}USB A extension cord <a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/43OGuhG#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">(Amazon NL)</a> for it.
 
@@ -153,7 +153,7 @@ The sensor can also be used attached to other sensors that also return an open o
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
 &nbsp;
-<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
 {{imgBasket}}Zigbee Contact sensor - Aqara 
@@ -163,16 +163,16 @@ The sensor can also be used attached to other sensors that also return an open o
 Small and a long battery life.
 
 {{imgBasket}}Zigbee Contact sensor - Tuya 
-<a href="https://s.click.aliexpress.com/e/_DlnHPDB" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4icZRnP#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4dtRaVG#ad" target="_blank">(Amazon NL)</a>
+<a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3Ut5mp7#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4mbmFXy#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 Small and cheaper.
 
 {{imgBasket}}Zigbee Contact sensor 2xAAA powered - Tuya 
 <a href="https://s.click.aliexpress.com/e/_olDzemw" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/42FerQs#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4eBavTK#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/3H6NUDI#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3GJdFKq#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" title="ZD06">{{imgZ2M}}ZD06</a>
 Battery powered, bigger, cheaper.
 
@@ -192,7 +192,8 @@ It can also detect persons who sit still or laying in bed.
 
 {{imgBasket}}Zigbee Human motion + presence + lux sensor - Hoazee 
 <a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4jignnc#ad" target="_blank">(Amazon DE)</a>
+<a href="https://amzn.to/3TWO4k4#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/470o9Q6#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
 
 <br>
@@ -845,7 +846,7 @@ USB-C to USB-C power cable with 90-degree connectors.
 
 Useful to move your Zigbee stick away from your server for the best range and avoid interference.
 
-<a href="https://s.click.aliexpress.com/e/_Dm5S1BL" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">
 <img src="images_zigbee/usb_a_extension_cable.webp" height="150px" alt="extension cable" /><br>
 {{imgBasket}}USB A Extension Cable Male to Female (AliExpress)</a>
 <a href="https://amzn.to/42tTmaE#ad" target="_blank">(Amazon US)</a>
