@@ -435,7 +435,7 @@ An easy solution, screw it between the original socket and the lamp to make it c
 
 {{imgBasket}}WiFi / Zigbee smart light bulb socket 
 <a href="https://s.click.aliexpress.com/e/_ooH9zP3" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3EbV48s#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3H29ucE#ad" target="_blank">(Amazon US)</a>
 
 &nbsp;
 <br>
@@ -459,7 +459,8 @@ This LED strip is available in different versions:
 
 {{imgBasket}}Zigbee RGB 5m LED strip 
 <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/42nysdf#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/44MCe27#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3H5c0yN#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0503B.html" target="_blank" title="TS0503B">{{imgZ2M}}TS0503B</a>
 
 <br>
@@ -484,8 +485,8 @@ This one supports over 100 dynamic effects. These are controllable via the WLED 
 
 {{imgBasket}}Zigbee wall switch - Moes 
 <a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4cvs0FE#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4hXszdD#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/416gUlS#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3GF13nC#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZS-EUB_2gang.html" target="_blank" title="ZS-EUB_2gang">{{imgZ2M}}ZS-EUB</a>
 
 <br>
@@ -517,15 +518,21 @@ The easiest way to make a dimmable group with gu10 lights smart.
 
 These buttons can trigger multiple scenarios because they support three press types: single-, double- and long press.
 
+**Best option:**\
 {{imgBasket}}Zigbee button - Aqara 
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4droHj8#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WXKG11LM.html" target="_blank" title="WXKG11LM">{{imgZ2M}}WXKG11LM</a>
 
+**Cheaper option:**\
 {{imgBasket}}Small Zigbee button - Tuya / Loginovo 
 <a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4mrlK6r#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4l6OrUs#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-101ZL.html" target="_blank" title="ZG-101ZL">{{imgZ2M}}ZG-101ZL</a>
+
+**Alternative option:**\
+{{imgBasket}}Zigbee button - Sonoff
+<a href="https://amzn.to/4o6SClH#ad" target="_blank">(Amazon US)</a>
 
 <br>
 
@@ -540,10 +547,11 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 {{imgBasket}}Zigbee vibration sensor - Aqara 
 <a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4f2IrKG#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3OiAAvY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/DJT11LM.html" target="_blank" title="DJT11LM">{{imgZ2M}}DJT11LM</a>
 
-<br>
+<br><br>
 
 ---
 
@@ -557,10 +565,12 @@ The first port can also be used to switch on/off data access via USB, the other 
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Tuya 
 <a href="https://s.click.aliexpress.com/e/_oB5NKYq" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4lwr1cv#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4hSTs2x#ad" target="_blank">(Amazon NL)</a>
-[(Amazon US)](https://amzn.to/43GLLrs)
+<a href="https://amzn.to/4lL8Ijp#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
+
+{{imgBasket}}Zigbee / WiFi USB adapter switch - Sonoff
+<a href="https://amzn.to/3UhFZXv#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4fcxpmu#ad" target="_blank">(Amazon NL)</a>
 
 Check also the [dedicated page](/zigbee/usb_adapter_switch) about this device.
 
@@ -579,7 +589,7 @@ Powered by two AAA batteries.
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
-[(Amazon US)](https://amzn.to/3G3WnH0)
+
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
 <br>
@@ -641,12 +651,12 @@ This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}WiFi IR remote control RM4 Mini - Broadlink
 <a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4cmFt2i#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3CDLyK1#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/3J10LYF#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4593Q0s#ad" target="_blank">(Amazon NL)</a>
 
 {{imgBasket}}WiFi IR remote control - Tuya 
 <a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4lfUHKC#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3UvXmDK#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4eJPxlw#ad" target="_blank">(Amazon NL)</a>
 
 #### Infrared + RF + 433MHz + 315MHz remote control
@@ -676,7 +686,7 @@ You can also schedule complete weeks in it what the temperature should be.
 
 {{imgBasket}}Zigbee smart radiator thermostat - Moes / Tuya 
 <a href="https://s.click.aliexpress.com/e/_ongwmtx" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4hX8D9A#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4hX8D9A#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html" target="_blank" alt="TV02">{{imgZ2M}}TV02</a>
 <br>
 
