@@ -127,7 +127,6 @@ I've run my Zigbee network since 2020 non-stop with the {{imgBasket}}Slaesh's CC
 <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
 My network grew to 140+ devices today, and it still runs fast.
 
-
 <a href="https://s.click.aliexpress.com/e/_omtmrmV" target="_blank">
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a>
 
@@ -152,15 +151,17 @@ The sensor can also be used attached to other sensors that also return an open o
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
-&nbsp;
-<a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">
-<img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
+**Best option:**\
 {{imgBasket}}Zigbee Contact sensor - Aqara 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3Dnl1kK#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a> aka T1 
 Small and a long battery life.
+
+**Cheaper option:**\
+<a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">
+<img src="images_zigbee/zigbee_contact_sensor.webp" alt="contact sensor" height="100px" /></a>
 
 {{imgBasket}}Zigbee Contact sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">(AliExpress)</a>
@@ -169,6 +170,7 @@ Small and a long battery life.
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 Small and cheaper.
 
+**2xAAA battery option:**\
 {{imgBasket}}Zigbee Contact sensor 2xAAA powered - Tuya 
 <a href="https://s.click.aliexpress.com/e/_olDzemw" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3H6NUDI#ad" target="_blank">(Amazon US)</a>
@@ -207,20 +209,24 @@ I like the Aqara motion sensor myself a lot. It's fast, reliable. With the stand
 
 If I want to cover a whole room, I use a different type PIR sensor which you can stick in the center of the ceiling and look around in all directions.
 
+**Best option:**\
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
-<img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a> &nbsp;
+<img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
-{{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara 
+{{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">(AliExpress)</a>
-<!--(<a href="https://amzn.to/4i7HjFu#ad" target="_blank">&#40;Amazon US&#41;</a>)-->
+<a href="https://amzn.to/3GT5efA#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3Oj8yR5#ad" target="_blank">(Amazon NL)</a>
-<a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM</a>
+<a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM / P1</a>
 
+**Cheaper option:**\
 {{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
 <a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">(AliExpress)</a>
 <!-- <a href="https://amzn.to/45k5dee#ad" target="_blank">(Amazon US)</a> -->
+<a href="https://amzn.to/4kUzGUw#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ01LM.html" target="_blank" title="RTCGQ01LM">{{imgZ2M}}RTCGQ01LM</a>
 
+**All direction option:**\
 <a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
 
 {{imgBasket}}Zigbee motion sensor all directions - Tuya
@@ -229,6 +235,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://amzn.to/3H4xlrT#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/IH012-RT01.html" target="_blank" title="IH012-RT01">{{imgZ2M}}IH012-RT01</a> <!-- or 809WZT -->
 
+**2xAAA battery option:**\
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="/buy/images_zigbee/zigbee_motion_pir.jpg" height="100px"></a>
 
 {{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered (cheaper) - Tuya
@@ -288,7 +295,7 @@ This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_sensor)
 
 ---
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered with display. 
-The width is 7 cm and height is 2,6 cm.\
+The width is 7 cm and the height is 2,6 cm.\
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3GotLs3#ad" target="_blank">(Amazon US)</a>
 Model: ZY-TH01Pro
