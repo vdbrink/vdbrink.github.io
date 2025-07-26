@@ -105,7 +105,6 @@ The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 This sensor with i2c interface is useful if you don't want to solder (AliExpress)
 </a>
-<a href="https://amzn.to/3XUVXsB#ad" target="_blank"> (Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 <img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 CO2 sensor without soldering" />
@@ -114,6 +113,8 @@ This sensor with i2c interface is useful if you don't want to solder (AliExpress
 <br>
 Otherwise you can also buy this cheaper version where you need to solder the pins 
 <a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/456xa7A#ad" target="_blank"> (Amazon US)</a>
+<a href="https://amzn.to/3XUVXsB#ad" target="_blank"> (Amazon NL)</a>
 
 ### ESP board
 
