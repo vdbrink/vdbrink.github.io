@@ -156,14 +156,14 @@ Micro USB cable to USB A to power the ESP (AliExpress)
 A power adapter to power the ESP and sensor.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">
-5V USB power adapter (AliExpress)
+5V USB EU power adapter (AliExpress)
 <br>
-<img src="images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+<img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 </a>
 
 ### Soldering tools
 
-This project require some soldering, If you don't have an soldering iron and tin wire yet check this link where to buy it.\
+This project requires some soldering, If you don't have a soldering iron and tin wire yet check this link where to buy it.\
 {{imgBasket}}<a href="/buy/esphome_diy#tools" target="_blank">soldering hardware</a>
 
 <br>

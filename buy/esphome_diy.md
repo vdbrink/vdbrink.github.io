@@ -177,10 +177,10 @@ This car seat sensor measures if there is pressure on a chair or seat.
 The output is just an open or a closed circuit. 
 You can directly attach it to a contact-/water leak sensor. 
 
-<a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_onVbUVI" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_even_bigger.avif" height="180px" alt="pressure sensor biggest" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcArDSV" target="_blank">largest version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onVbUVI" target="_blank">largest version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
@@ -267,19 +267,19 @@ USB-A to USB-C cable to power the ESP32.
 
 ### 5V USB adapter
 
-5V USB power adapter to power the ESP.
+5V USB EU power adapter to power the ESP.
 
 <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/></a>
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">link 1 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
 
-5V USB power adapter to power multiple usb devices, with fast charging and 3.1A.
+5V USB EU power adapter to power multiple usb devices, with fast charging and 3.1A.
 
 <a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">
-<img src="images_diy/usb_power_charger.png" alt="5V USB power adapter" width="200px"/></a>
+<img src="images_diy/usb_power_charger.png" alt="5V USB EU power adapter" width="200px"/></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">link (AliExpress)</a>
 
@@ -437,11 +437,11 @@ This receiver can be used to receive or snif signals send by device which uses t
 
 With this cable, you can read your smart meter to read the gas and energy consumption.
 
-<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_omcRGhA" target="_blank">
 <img src="images_diy/p1_cable.webp" alt="P1 smart meter cable" width="200px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCfNEdh" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_omcRGhA" target="_blank">link (AliExpress)</a>
 
 ---
 

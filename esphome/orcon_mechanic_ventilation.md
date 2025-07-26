@@ -96,9 +96,9 @@ These hardware components do I use for this project:
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* [5V USB power adapter](../buy/esphome_diy#v-usb-adapter) to power the ESP.
+* [5V USB EU power adapter](../buy/esphome_diy#v-usb-adapter) to power the ESP.
 
-![5V USB power adapter](images/5v_power_adapter.jpg "5V USB power adapter")
+![5V USB EU power adapter](images/5v_power_adapter.jpg "5V USB EU power adapter")
 
 * (optional) Smart power socket with power measurement. 
 * I use the [Zigbee EU BlitzWolf SHP](../buy/smart_home_best_buy_tips#smart-socket)

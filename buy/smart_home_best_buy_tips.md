@@ -925,9 +925,9 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 ### Adapters
 
-5V USB power adapter to power your USB devices.
+5V USB EU power adapter to power your USB devices.
 
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200px"/>
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
 {{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a>
 
@@ -938,7 +938,7 @@ Useful to move your Zigbee stick away from your server for the best range and av
 <a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V EU USB power adapter" width="200px"/></a>
 
-{{imgBasket}}5V USB power adapter 
+{{imgBasket}}5V USB EU power adapter 
 <a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cvtLCK#ad" target="_blank">(Amazon US)</a>
 

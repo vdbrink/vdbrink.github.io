@@ -145,7 +145,7 @@ To power the Raspberry 3B it requires at least 5V with 3A, otherwise you get the
 To also power the display, I use <a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">this adapter</a>.
 
 <a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">
-<img src="../buy/images_diy/usb_power_charger.png" alt="5V USB power adapter" width="180px"/></a>
+<img src="../buy/images_diy/usb_power_charger.png" alt="5V USB EU power adapter" width="180px"/></a>
 
 An <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.
 

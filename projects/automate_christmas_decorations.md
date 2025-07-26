@@ -185,7 +185,7 @@ This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each
 </a>
 &nbsp;
 <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" height="150px"/>
+<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" height="150px"/>
 </a>
 
 This original battery-powered garland is now powered via the main power and controlled automatically.
@@ -254,7 +254,7 @@ Those extra dummy batteries are only needed to make contact between the ends of 
 * {{imgBasket}}[5V EU USB power adapter](../buy/smart_home_best_buy_tips#power) to power the USB battery eliminators.
 
     <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
-        <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" width="200" class="buy-link"/>
+        <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200" class="buy-link"/>
     </a>
 
 * {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [WiFi / Zigbee socket](https://s.click.aliexpress.com/e/_DluyKLX) for your country to automate the devices.
