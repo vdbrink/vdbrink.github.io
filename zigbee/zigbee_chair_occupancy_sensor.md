@@ -27,6 +27,10 @@ Of course, with a regular button you can activate these devices also, but now my
 Also, when I walk away from my desk, it's automatically detected, then my heater goes off, 
 and if I'm after X minutes not returned, everything shuts down automatically.
 
+> UPDATE 2025-07: Now there are of-the-shelf Zigbee pressure mat sensors available!
+> ([AliExpress](https://s.click.aliexpress.com/e/_o2CfnOM))\
+> I didn't test it myself yet, I like to hear your experience with it.
+
 ---
 ## My solution
 
