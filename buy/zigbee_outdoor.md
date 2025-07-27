@@ -62,7 +62,6 @@ It contains a build-in battery that charges via a small solar panel.
 
 {{imgBasket}}Zigbee raindrop + lux sensor 
 <a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4i2oF32#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>
@@ -81,7 +80,6 @@ It contains a build-in battery that charges via a solar panel on top of it.
 
 {{imgBasket}}Zigbee soil sensor 
 <a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/43MsK6V#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this sensor.
@@ -98,7 +96,6 @@ Powered by two AAA batteries.
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
-[(Amazon US)](https://amzn.to/3G3WnH0#ad)
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
 

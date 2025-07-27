@@ -130,11 +130,11 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
 {% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFB63ZC){% endcapture %}
-{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_ooqM2zc){% endcapture %}
+{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_omkXIkf){% endcapture %}
 {% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_omIhlWt){% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFyTKN0){% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
-{% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oDUSYFX){% endcapture %}
+{% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFQPjEr){% endcapture %}
 {% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_okQwYnU){% endcapture %}
 
 {% capture n95_beelink %}[Beelink](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
@@ -145,13 +145,13 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
-{% capture n95_us %}[Amazon US](https://amzn.to/4gV8vqH){% endcapture %}
-{% capture n97_us %}[Amazon US](https://amzn.to/4lWIECw){% endcapture %}
-{% capture n100_us %}[Amazon US](https://amzn.to/3W6s5Zk){% endcapture %}
-{% capture n150_us %}[Amazon US](https://amzn.to/4gRClfx){% endcapture %}
-{% capture 12650h_us %}[Amazon US](https://amzn.to/3XeMBYl){% endcapture %}
-{% capture 185h_us %}[Amazon US](https://amzn.to/4gqln8T){% endcapture %}
-{% capture hx370_us %}[Amazon US](https://amzn.to/3D2V7CU){% endcapture %}
+{% capture n95_us %}[Amazon US](https://amzn.to/4oajwJw){% endcapture %}
+{% capture n97_us %}[Amazon US](https://amzn.to/4lI3GUI){% endcapture %}
+{% capture n100_us %}[Amazon US](https://amzn.to/4f70eQZ){% endcapture %}
+{% capture n150_us %}[Amazon US](https://amzn.to/4kVy2lp){% endcapture %}
+{% capture 12650h_us %}[Amazon US](https://amzn.to/3IOz9WK){% endcapture %}
+{% capture 185h_us %}[Amazon US](https://amzn.to/4o960FS){% endcapture %}
+{% capture hx370_us %}[Amazon US](https://amzn.to/44PPzGX){% endcapture %}
 
 {% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr){% endcapture %}
 {% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM){% endcapture %}
@@ -197,7 +197,7 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 
 | Model                | N150                          | N100                           | N97                           | N95                           |  
 |----------------------|-------------------------------|--------------------------------|-------------------------------|-------------------------------|
-| **Model**            | **Mini S13**                  | **Mini S12 Pro**               | **G2**                        | **Mini S12**                  |  
+| **Model**            | **Mini S13**                  | **Mini S12 Pro**               | **G5**                        | **Mini S12**                  |  
 | **Brand**            | Beelink                       | Beelink                        | GMKtec                        | Beelink                       |  
 | **Processor**        | 14th Gen Twin Lake Intel-N150 | 13th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |  
 | **CPU benchmark**    | {{n150_performance}}          | {{n100_performance}}           | {{n97_performance}}           | {{n95_performance}}           |  

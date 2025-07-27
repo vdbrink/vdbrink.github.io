@@ -424,7 +424,7 @@ This helping hand can be used to hold the ESP board and sensor while soldering.
 
 ## RTL-SDR Radio sniffer for 433 and 868 MHz
 
-This receiver can be used to receive or snif signals send by device which uses the 433 or 868 MHz bandwidth.
+This receiver can be used to receive or sniff signals send by device which uses the 433 or 868 MHz bandwidth.
 
 <a href="https://s.click.aliexpress.com/e/_okkC81o" target="_blank">
 <img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
