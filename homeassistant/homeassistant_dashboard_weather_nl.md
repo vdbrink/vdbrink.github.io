@@ -19,6 +19,7 @@ We can use that data also to show direct on our Home Assistant dashboards.
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Neerslag App](#neerslag-app)
   * [Animated weather predictions](#animated-weather-predictions)
   * [Weather predictions](#weather-predictions)
   * [Rain expected value](#rain-expected-value)
@@ -34,6 +35,30 @@ We can use that data also to show direct on our Home Assistant dashboards.
   * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
   * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
 <!-- TOC -->
+
+---
+## Neerslag App
+
+Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
+
+![Neerslag App](https://github.com/aex351/home-assistant-neerslag-app/raw/main/documentation/example.png)
+
+Repo: https://github.com/aex351/home-assistant-neerslag-app
+
+Install it via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:neerslag-card
+title: Neerslag
+entities:
+- sensor.neerslag_buienalarm_regen_data
+- sensor.neerslag_buienradar_regen_data
+{% endraw %}
+```
 
 ---
 ## Animated weather predictions
