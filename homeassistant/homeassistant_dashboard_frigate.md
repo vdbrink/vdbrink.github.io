@@ -8,7 +8,7 @@ tags: [Home Assistant, dashboard, lovelace, Frigate, clip, video]
 # Home Assistant dashboard: Frigate
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
-Frigate is a tool to analyse your video camera streams.
+Frigate is a tool to analyze your video camera streams.
 
 It can detect and store a snapshot and clip when it detects presence.
 
@@ -34,6 +34,18 @@ url: rtsp://username:password@<ip-address:port>/h264Preview_01_main
 
 ---
 ## Show MP4 video clip
+
+Frigate provides for each event a MP4 movie via the api.
+* Api format: http://<ip-address:port>/api/<camera-name>/<detection-object>/clip.mp4
+* Api example: http://192.168.1.2:5000/api/camera_1/person/clip.mp4
+
+With some HTML you can include the video on your dashboard. 
+This doesn't work with the default Markdown integration, but it works with the custom HACS integration `lovelace-html-card`.
+
+Repo: https://github.com/PiotrMachowski/lovelace-html-card
+
+Install this integration via this button in your own HA instance
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PiotrMachowski&repository=lovelace-html-card&category=integration)
 
 ```yaml
 # Dashboard card code

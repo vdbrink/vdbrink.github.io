@@ -133,7 +133,7 @@ Different types of (weather) data, with [rounded](homeassistant_dashboard_format
 <img src="images_layout/layout_weather.png" alt="machines" width="400px">
 
 The custom HACS integration [multiple-entity-row](homeassistant_dashboard_hacs#multiple-entity-row) is used here.
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
 
 
@@ -250,7 +250,7 @@ Use the slider to dim the light.
 <img src="images_layout/layout_lamp_slider.png" alt="lamp sliders" width="400px">
 
 The custom HACS integration [slider-entity-row](homeassistant_dashboard_hacs#slider-entity-row) is also used here. 
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
 
 ```yaml
@@ -350,7 +350,7 @@ See the [afvalbeheer](homeassistant_hacs_afvalbeheer#days-count-down) page how t
 <img src="images_afvalbeheer/days_countdown.png" alt="ordered by date" width="400px">
 
 The custom HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) is used here.
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 ```yaml

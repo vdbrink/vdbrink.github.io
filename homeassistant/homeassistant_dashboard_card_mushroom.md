@@ -35,7 +35,8 @@ Install the Mushroom card via this button\
 **Custom styling**
 
 For some examples, some custom CSS styling is applied which isn't possible by default. 
-You need the extra HACS integration `card_mod`. You can install it via this button\
+You need the extra HACS integration `card_mod`. 
+You can Install this integration via this button in your own HA instance\
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
@@ -332,7 +333,8 @@ chips:
  
 <br>
 
-To override the colors, you need the extra HACS integration `card_mod`. You can install it via this button\
+To override the colors, you need the extra HACS integration `card_mod`. 
+You can Install this integration via this button in your own HA instance\
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ```yaml

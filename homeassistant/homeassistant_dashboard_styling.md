@@ -24,7 +24,7 @@ Here you find Home Assistant (lovelace) dashboard styling examples which you can
 You can change the color of an icon based on its value.
 
 You need the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod).
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ![Changing icon color](images_styling/colored_icon.png)
@@ -65,7 +65,7 @@ entities:
 
 You can change the color of the sensor status based on its value.
 
-**Option 1**: Use the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install it via this button
+**Option 1**: Use the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
@@ -105,7 +105,7 @@ entities:
 
 Repo: https://github.com/thomasloven/lovelace-template-entity-row
 
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
 
 ```yaml
@@ -147,7 +147,8 @@ entities:
 
 You can change the color of the background based on its value.
 
-You need the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod). Install it via this button
+You need the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod). 
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 

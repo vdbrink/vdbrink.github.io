@@ -432,7 +432,7 @@ I also created a slightly different presentation for the countdown with a some C
 * bigger font.
 
 For the Picture Entity card with the help of the `card_mod` integration.
-You can install it via this button\
+You can Install this integration via this button in your own HA instance\
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 <img src="images_templates/community_day_countdown_cardmod.png" alt="day countdown for the Home Assistant community day with card_mod" width="450px">

@@ -308,7 +308,7 @@ The entities are clickable which show you the values over time:
 <a name="lovelace-card-mod"/>
 
 This presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
-Install it via this button:
+Install this integration via this button in your own HA instance:
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 

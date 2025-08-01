@@ -130,7 +130,7 @@ The periodic chores work a bit different. I only show the chores that have been 
 
 > You also need to install the [auto-entities](https://github.com/thomasloven/lovelace-auto-entities) dashboard custom element via HACS to create this dashboard.
 
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 This is all the YAML code you need in your horizontal stack card.\

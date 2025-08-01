@@ -45,7 +45,7 @@ Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
 
 Repo: https://github.com/aex351/home-assistant-neerslag-app
 
-Install it via this button
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
 
 ```yaml
@@ -323,7 +323,8 @@ First, you need to define a scraper to scrape every 10 minutes the latest alarm 
 ```
 This is the corresponding code for the screenshot.
 
-The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install it via this button
+The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) 
+Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
