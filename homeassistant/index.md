@@ -29,6 +29,7 @@ I created dashboards with all kinds of elements on it:
   * [Pollen Radar](homeassistant_hacs_kleenex.md)
   * [Afvalbeheer](homeassistant_hacs_afvalbeheer)
 * [Grafana](homeassistant_dashboard_grafana) (Grafana graph integration)
+* [Frigate](homeassistant_dashboard_frigate) (Frigate integration)
 * [Styling](homeassistant_dashboard_styling) (Changing the color of icons, status, backgrounds etc.)
 * [Date & Time](homeassistant_dashboard_date_time) (Days countdown)
 * [Formatting](homeassistant_dashboard_formatting) (Rounded temperature sensors)
