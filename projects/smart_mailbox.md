@@ -11,12 +11,19 @@ image: /projects/images_mailbox/sensor_in_mailbox.jpg
 
 ## Introduction
 
-<img src="images_mailbox/traditional_mailbox.png" alt="mailbox" height="100px" style="float: right;"/>
+<img src="images_mailbox/traditional_mailbox.png" alt="mailbox" height="100px" style="margin-left:15px;float: right;"/>
 A physical mail notification was one of the first projects I realized.
 I lived in an apartment and had to go a few stairs down to check if there was mail delivered.
 Sometimes you're waiting for a letter or package and want to know as soon as possible that it's delivered.
 <br>
-Read on this page how I realized different mail- and package box notifications over the years.
+<br>
+Here you can read how I've made different mail- and package boxes smart.
+<br>
+<br>
+
+<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="other smart mailbox" height="100px"/>
+<img src="/ideas/images/mailbox.jpg" alt="smart mailbox" height="100px"/>
+<img src="./images_allux-600/final-result.jpg" height="100px" alt="package box"/>
 
 ---
 ## Table of Contents
@@ -46,6 +53,10 @@ Changing every two weeks the battery wasn't a suitable solution.
 I decided to make it less smart and use my already existing Zigbee network to place a contact sensor inside the mailbox to detect if the flap was opened. 
 Less smart, but this battery lasts for way much longer!
 
+<a href="/zigbee/images_mailbox/mailbox_contact_sensor.jpg">
+<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="100px"/>
+</a>
+
 ---
 
 ## Automations
@@ -57,7 +68,10 @@ When you automate your mailbox, there are different automations possible:
   * To detect that: the flap is opened but still not closed after a few seconds.
 * Show the time since the mail was delivered.
 
-For mailboxes with a locked door to get the mail out of it, some extra automation is possible: 
+<br>
+
+For mailboxes with a locked door to get the mail out of it, some extra automations are possible:
+
 * Set the status `Mail delivered` which can be used to show as status icon on your dashboard.
 * Reset the `Mail delivered` status when the mailbox door is opened.
 
@@ -70,7 +84,7 @@ When the mail man opens the flap, the magnet gets too far away and the reed-cont
 
 <a href="images_mailbox/reedcontact.jpg"><img src="images_mailbox/reedcontact.jpg" alt="how reed contacts work" height="200px"/></a>
 
-I used the Zigbee [Aqara contact sensor](/buy/smart_home_best_buy_tips#contact-sensor), they have a good range, long battery life and compact size.
+I use the Zigbee [Aqara contact sensor](/buy/smart_home_best_buy_tips#contact-sensor), they have a good range, long battery life and compact size.
 
 ---
 ## Mailbox types
@@ -117,7 +131,7 @@ This is how the Allux 600 looks from the outside.
 I added an extra sticker on top of it to get some extra attention from delivery companies to let them know they can put the package over here.
 
 <a href="./images_allux-600/final-result.jpg">
-<img src="./images_allux-600/final-result.jpg" height="350px" alt="The final result"/>
+<img src="./images_allux-600/final-result.jpg" height="350px" alt="smart package box"/>
 </a>
 
 When you open the top lid, another metal plate on the inside comes up to avoid people can steal package from it, 
@@ -230,7 +244,7 @@ For more Mushroom cards examples, see also my [Mushroom card page](/homeassistan
 
 ---
 
-See my [Allux 600 package box project](/projects/packages-mailbox-allux-600#home-assistant) page how I created also other dashboard elements.
+See my [Allux 600 package box project](/projects/packages-mailbox-allux-600#home-assistant) page how I created also other dashboard elements for my package box.
 
 <img src="images_allux-600/automation_ha_conditional_message.jpg" width="400px" alt="message to indicate the package box is filled"/>
 
