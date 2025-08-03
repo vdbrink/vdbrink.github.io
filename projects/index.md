@@ -7,6 +7,7 @@ tags: [projects, home automation]
 
 Here you find bigger projects I've done.
 
+* [Smart traditional mailbox](/projects/smart_mailbox)
 * [Battery powered devices powered by an outlet](/zigbee/zigbee_outlet_sensor)
 * [Automate Christmas decorations](automate_christmas_decorations)
 * [Bin day - LED strip reminder](bin_day_led_strip_reminder)

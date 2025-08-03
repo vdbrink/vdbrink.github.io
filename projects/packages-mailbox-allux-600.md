@@ -224,16 +224,17 @@ I have at 1.5m, inside the house, a [smart socket](../buy/smart_home_best_buy_ti
 
 Is this full-proof? No, everybody who opens the lid triggers that there is a package inside. 
 It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo. 
-But for me this is now good enough. 
+But for me, this is now good enough. 
 
 ### Node-RED flow
 
-For creating all my automations around the house I have a home server running and use the software [Node-RED](../node-red) to make automations based on all my sensors input.
+For creating all my automations around the house, 
+I have a home server running and use the software [Node-RED](../node-red) to make automations based on all my sensors input.
 
-In Node-RED I defined a custom [MQTT topic](#how-mqtt-works) to indicate if there is a package in the box.
+In Node-RED, I defined a custom [MQTT topic](#how-mqtt-works) to indicate if there is a package in the box.
 I named it `homeassistant/packagebox`.
 If the lid Zigbee contact sensor sent a message to my server, the contact value is `false` (open), this flow sets the value of my custom topic to `true`. 
-When the front door is opened, the door sensor sent then `false`, then the custom topic is set to `false`. 
+When the package box front door is opened, the door sensor sent then `false`, then the custom topic is set to `false`. 
 This topic now indicates if there is a package inside.
 
 I also send a notification to the phones and speaker in the living room when a package is arrived.
@@ -520,9 +521,10 @@ Check online tutorials for all ins and outs about MQTT.
 
 #### MQTT entity
 
-In Home Assistant I added YAML code in configuration.yaml. 
+In Home Assistant, I added YAML code in configuration.yaml. 
 I defined a sensor for a MQTT topic to listen to. 
-It becomes a binary sensor in Home Assistant. When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor sets the status to `ON` and with topic value `false` the state will be `OFF`.
+It becomes a binary sensor in Home Assistant. 
+When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor sets the status to `ON` and with topic value `false` the state will be `OFF`.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -566,12 +568,12 @@ chips:
 
 #### Conditional row
 
-In my Home Assistant dashboard I have a list of conditional items which are only visible if it's relevant or any action is required.
-Like in this case it's only visible when you need to empty the package box.
+In my Home Assistant dashboard, I have a list of conditional items which are only visible if it's relevant or any action is required.
+Like in this case, it's only visible when you need to empty the package box.
 
 To show the package box entity like this:
 
-  <img src="images_allux-600/automation_ha_conditional_message.jpg" height="75px" alt="Icon to indicate the package box is filled"/>
+  <img src="images_allux-600/automation_ha_conditional_message.jpg" height="75px" alt="message to indicate the package box is filled"/>
 
 I used a Vertical Stack card in my dashboard with this code:
 ```yaml

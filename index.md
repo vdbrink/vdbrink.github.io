@@ -18,6 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
+* [Smart traditional mailbox](/projects/smart_mailbox)
 * [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
 * [Home Assistant - Floor plan](/homeassistant/homeassistant_dashboard_floorplan)
 * [Home Assistant - Tips: Dashboard edit dialog enlarger](/homeassistant/homeassistant_tips_tricks)
