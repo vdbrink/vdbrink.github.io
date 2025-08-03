@@ -65,7 +65,8 @@ Less smart, but this battery lasts for way much longer!
 
 When you automate your mailbox, there are different automations possible:
 
-* Notification when mail is delivered.
+* Notification on your phone when mail is delivered.
+* Notification on your smart speaker when mail is delivered.
 * Notification if mail is sticking out of the mailbox. 
   * To detect that: the flap is opened but still not closed after a few seconds.
 * Show the time since the mail was delivered.
