@@ -65,7 +65,8 @@ Less smart, but this battery lasts for way much longer!
 
 When you automate your mailbox, there are different automations possible:
 
-* Notification on your phone when mail is delivered.
+* Notification on your phone when mail is delivered.\
+  <img src="images_mailbox\youve_got_mail_notification.jpg" width="350px" />
 * Notification on your smart speaker when mail is delivered.
 * Notification if mail is sticking out of the mailbox. 
   * To detect that: the flap is opened but still not closed after a few seconds.
@@ -245,7 +246,7 @@ chip:
 ```
 <br>
 
-For more Mushroom cards examples, see also my [Mushroom card page](/homeassistant/homeassistant_dashboard_card_mushroom).
+For more Mushroom cards examples, see also my [Mushroom card](/homeassistant/homeassistant_dashboard_card_mushroom) page.
 
 ---
 

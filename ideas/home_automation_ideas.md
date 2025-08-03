@@ -69,7 +69,8 @@ Criteria for my own automations are:
 ## Devices and locations to be automated
 
 ### Mailbox
-* Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
+* Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)\
+  <img src="\projects\images_mailbox\youve_got_mail_notification.jpg" width="350px" />
 * Notification if mail is sticking out of the mailbox. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) doesn't make contact anymore, and not closed again after 1 minute)
 * Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
