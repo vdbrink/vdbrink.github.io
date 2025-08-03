@@ -37,6 +37,8 @@ Here you can read how I've made different mail- and package boxes smart.
   * [Home Assistant](#home-assistant)
 <!-- TOC -->
 
+> **_NOTE:_** Links on this page can be affiliate links.
+
 ---
 
 ## My solution
