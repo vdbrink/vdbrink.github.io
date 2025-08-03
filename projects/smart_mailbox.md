@@ -21,7 +21,7 @@ Here you can read how I've made different mail- and package boxes smart.
 <br>
 <br>
 
-<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="other smart mailbox" height="100px"/>
+<img src="/projects/images_mailbox/mailbox_contact_sensor.jpg" alt="other smart mailbox" height="100px"/>
 <img src="/ideas/images/mailbox.jpg" alt="smart mailbox" height="100px"/>
 <img src="./images_allux-600/final-result.jpg" height="100px" alt="package box"/>
 
@@ -53,8 +53,8 @@ Changing every two weeks the battery wasn't a suitable solution.
 I decided to make it less smart and use my already existing Zigbee network to place a contact sensor inside the mailbox to detect if the flap was opened. 
 Less smart, but this battery lasts for way much longer!
 
-<a href="/zigbee/images_mailbox/mailbox_contact_sensor.jpg">
-<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="100px"/>
+<a href="/projects/images_mailbox/mailbox_contact_sensor.jpg">
+<img src="/projects/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="100px"/>
 </a>
 
 ---
@@ -112,8 +112,8 @@ For my letterbox, I used the regular sensor's magnet and connected it to the fla
 The sensor is small and on one side of the opening. 
 It's a wide letterbox, so still all letters fit easily through it.
 
-<a href="/zigbee/images_mailbox/mailbox_contact_sensor.jpg">
-<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
+<a href="/projects/images_mailbox/mailbox_contact_sensor.jpg">
+<img src="/projects/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
 </a>
 
 ---

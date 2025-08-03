@@ -74,7 +74,7 @@ Criteria for my own automations are:
 * Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/> &nbsp;
-<img src="/zigbee/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
+<img src="/projects/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
 
 See my [dedicated](/projects/smart_mailbox) page about how I made my mailboxes smart!
 
