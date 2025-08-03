@@ -75,6 +75,8 @@ For mailboxes with a locked door to get the mail out of it, some extra automatio
 * Set the status `Mail delivered` which can be used to show as status icon on your dashboard.
 * Reset the `Mail delivered` status when the mailbox door is opened.
 
+(I have all my automations in Node-RED, I can't share these HA automations.)
+
 ---
 ### Reed contact sensor
 
