@@ -295,7 +295,7 @@ I have it at a distance of five meters, and still it works great as long as the 
 
 I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [WiFi models](../buy/smart_home_best_buy_tips#infrared-remote-control)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
-Also the original remote can be used to control them!
+Also, the original remote can be used to control them!
 
 Check my dedicated page about this [Zigbee infrared transmitter / receiver](../zigbee/smart_infrared_transmitter_receiver) for more information on how to program and use this device to replace and automate the original remote.
 Also, how to send infrared event signals from the Home Assistant dashboard.

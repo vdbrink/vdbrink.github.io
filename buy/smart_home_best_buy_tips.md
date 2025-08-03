@@ -227,7 +227,7 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
-<<br>
+<br>
 
 **Cheaper option:**\
 {{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
@@ -643,20 +643,26 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 These devices can learn infrared remote control signals and send them again via Zigbee. 
 This way you can create automations for air conditioners, fans, lights, etc.
 
+I have a dedicated page: [Zigbee infrared transmitter / receiver](/zigbee/smart_infrared_transmitter_receiver) 
+on how to program and use this device to replace and automate the original remote.
+Controlled by Home Assistant.
+
 {{imgBasket}}Zigbee IR remote control - Moes 
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3XRZ1Ws#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4ldfhdv#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
+**WiFi option:**
 {{imgBasket}}WiFi IR remote control RM4 Mini - Broadlink
 <a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3J10LYF#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4593Q0s#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/46zJzDz#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 
+**Cheaper WiFi option:**
 {{imgBasket}}WiFi IR remote control - Tuya 
 <a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3UvXmDK#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4mqJMh8#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4eJPxlw#ad" target="_blank">(Amazon NL)</a>
 
 #### Infrared + RF + 433MHz + 315MHz remote control
@@ -670,7 +676,9 @@ This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}WiFi IR + RF + 433 + 315 remote control - Moes 
 <a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">(AliExpress)</a>
-Model: RF-R1
+<a href="https://amzn.to/4lttIud#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/46GqsrC#ad" target="_blank">(Amazon NL)</a>
+Model: RF-R1 / UFO-R2-RF
 
 <br>
 

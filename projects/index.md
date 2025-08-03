@@ -8,8 +8,9 @@ tags: [projects, home automation]
 Here you find bigger projects I've done.
 
 * [Battery powered devices powered by an outlet](/zigbee/zigbee_outlet_sensor)
-* [Slide - Smart Curtains](slide_smart_curtains)
 * [Automate Christmas decorations](automate_christmas_decorations)
 * [Bin day - LED strip reminder](bin_day_led_strip_reminder)
 * [Packages mailbox - Allux 600](packages-mailbox-allux-600)
 * [Control an Orcon MVS-15 mechanic ventilation](../esphome/orcon_mechanic_ventilation)
+* [Slide - Smart Curtains](slide_smart_curtains)
+* [Automate infrared devices in Home Assistant](/zigbee/smart_infrared_transmitter_receiver)
