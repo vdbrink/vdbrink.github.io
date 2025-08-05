@@ -23,6 +23,7 @@ Website: https://frigate.video/
   * [Show live RTSP streams](#show-live-rtsp-streams)
   * [Show MP4 video clips](#show-mp4-video-clips)
   * [Show Frigate MQTT last event captured snapshots](#show-frigate-mqtt-last-event-captured-snapshots)
+  * [Frigate iframe](#frigate-iframe)
 <!-- TOC -->
 
 ---
@@ -89,6 +90,23 @@ tap_action:
     action: navigate
     navigation_path: /my-camera/frigate
 entity: camera.frigate_last_person
+```
+
+---
+## Frigate iframe
+
+To show the Frigate dashboard inside Home Assistant.
+Create a new tab with as layout `Panel (single card)` and name it frigate.
+
+<a href="images_frigate/frigate_iframe_settings.png">
+<img src="images_frigate/frigate_iframe_settings.png" alt="frigate HA tab setting" />
+</a>
+
+Click on the right bottom button `Add card` and select the Webpage card and paste this content:
+```yaml
+type: iframe
+aspect_ratio: 100%
+url: http://x.x.x.x:5000
 ```
 
 ---
