@@ -99,7 +99,7 @@ To show the Frigate dashboard inside Home Assistant.
 Create a new tab with as layout `Panel (single card)` and name it frigate.
 
 <a href="images_frigate/frigate_iframe_settings.png">
-<img src="images_frigate/frigate_iframe_settings.png" alt="frigate HA tab setting" />
+<img src="images_frigate/frigate_iframe_settings.png" alt="frigate HA tab setting" width="300px" />
 </a>
 
 Click on the right bottom button `Add card` and select the Webpage card and paste this content:
