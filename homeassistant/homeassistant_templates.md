@@ -8,6 +8,8 @@ image: /homeassistant/images_templates/ha_templates_banner.png
 
 # Home Assistant: Templates
 
+Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
+
 <img src="images_templates/ha_templates_banner.png" alt="Home Assistant templates banner" width="100%">
 <br><br>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>

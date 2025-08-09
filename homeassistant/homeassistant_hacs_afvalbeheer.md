@@ -8,16 +8,24 @@ image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 
 # Home Assistant - HACS Afvalbeheer
 
+Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
+
 <img style="float: right;" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
-Afvalbeheer is a Dutch and Belgium integration that works for many waste collectors. 
+Afvalbeheer is a Dutch and Belgium integration that works for many waste collectors.
 This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.  
 
 Check the git repository to find all the options and if you can use it in your city: https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
+
+> **_UPDATE 01-08-2025:_**  Since version 6.0.0 YAML configuration is deprecated. 
+> All new installations and configurations should use the Home Assistant UI (Config Flow). 
+> Existing YAML configurations will automatically be imported and should be removed manually from configuration.yaml after the migration.
+
+> For myself: I had enabled the prefix, but it wasn't migrated correct and I had to rename the new sensors from `sensor.papier` to `sensor.<prefix>_papier` manually.
 
 ---
 ## Table of Contents
