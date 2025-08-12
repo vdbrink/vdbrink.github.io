@@ -8,8 +8,6 @@ image: /homeassistant/images_mealie/mealie1_ha_integration.png
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
 
-Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 <img style="float: right;margin-left:10px" src="images_mealie/mealie.svg" height="100px" alt="Mealie logo">
 

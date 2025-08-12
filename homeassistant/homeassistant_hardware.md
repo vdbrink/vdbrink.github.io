@@ -145,37 +145,37 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
-{% capture n95_us %}[Amazon US](https://amzn.to/4oajwJw){% endcapture %}
-{% capture n97_us %}[Amazon US](https://amzn.to/4lI3GUI){% endcapture %}
-{% capture n100_us %}[Amazon US](https://amzn.to/4f70eQZ){% endcapture %}
-{% capture n150_us %}[Amazon US](https://amzn.to/4kVy2lp){% endcapture %}
-{% capture 12650h_us %}[Amazon US](https://amzn.to/3IOz9WK){% endcapture %}
-{% capture 185h_us %}[Amazon US](https://amzn.to/4o960FS){% endcapture %}
-{% capture hx370_us %}[Amazon US](https://amzn.to/44PPzGX){% endcapture %}
+{% capture n95_us %}[Amazon US](https://amzn.to/4oajwJw#ad){% endcapture %}
+{% capture n97_us %}[Amazon US](https://amzn.to/4lI3GUI#ad){% endcapture %}
+{% capture n100_us %}[Amazon US](https://amzn.to/4f70eQZ#ad){% endcapture %}
+{% capture n150_us %}[Amazon US](https://amzn.to/4fx4hGu#ad){% endcapture %}
+{% capture 12650h_us %}[Amazon US](https://amzn.to/3IOz9WK#ad){% endcapture %}
+{% capture 185h_us %}[Amazon US](https://amzn.to/4o960FS#ad){% endcapture %}
+{% capture hx370_us %}[Amazon US](https://amzn.to/44PPzGX#ad){% endcapture %}
 
-{% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr){% endcapture %}
-{% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM){% endcapture %}
-{% capture n100_uk %}[Amazon UK](https://amzn.to/4hKHeIH){% endcapture %}
-{% capture n150_uk %}[Amazon UK](https://amzn.to/4gSCdMZ){% endcapture %}
-{% capture 12650h_uk %}[Amazon UK](https://amzn.to/3EQDoiH){% endcapture %}
-{% capture 185h_uk %}[Amazon UK](https://amzn.to/4k6T5T1){% endcapture %}
-{% capture hx370_uk %}[Amazon UK](https://amzn.to/41rdn2a){% endcapture %}
+{% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr#ad){% endcapture %}
+{% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM#ad){% endcapture %}
+{% capture n100_uk %}[Amazon UK](https://amzn.to/4hKHeIH#ad){% endcapture %}
+{% capture n150_uk %}[Amazon UK](https://amzn.to/46UEciy#ad){% endcapture %}
+{% capture 12650h_uk %}[Amazon UK](https://amzn.to/3EQDoiH#ad){% endcapture %}
+{% capture 185h_uk %}[Amazon UK](https://amzn.to/4k6T5T1#ad){% endcapture %}
+{% capture hx370_uk %}[Amazon UK](https://amzn.to/41rdn2a#ad){% endcapture %}
 
-{% capture n95_de %}[Amazon DE](https://amzn.to/3QuWBJh){% endcapture %}
-{% capture n97_de %}[Amazon DE](https://amzn.to/4jYFzQz){% endcapture %}
-{% capture n100_de %}[Amazon DE](https://amzn.to/3D31YMz){% endcapture %}
-{% capture n150_de %}[Amazon DE](https://amzn.to/4gSCEXD){% endcapture %}
-{% capture 12650h_de %}[Amazon DE](https://amzn.to/4gRdTen){% endcapture %}
-{% capture 185h_de %}[Amazon DE](https://amzn.to/431bmLo){% endcapture %}
-{% capture hx370_de %}[Amazon DE](https://amzn.to/3D3AA0W){% endcapture %}
+{% capture n95_de %}[Amazon DE](https://amzn.to/3QuWBJh#ad){% endcapture %}
+{% capture n97_de %}[Amazon DE](https://amzn.to/4jYFzQz#ad){% endcapture %}
+{% capture n100_de %}[Amazon DE](https://amzn.to/3D31YMz#ad){% endcapture %}
+{% capture n150_de %}[Amazon DE](https://amzn.to/4gSCEXD#ad){% endcapture %}
+{% capture 12650h_de %}[Amazon DE](https://amzn.to/4gRdTen#ad){% endcapture %}
+{% capture 185h_de %}[Amazon DE](https://amzn.to/431bmLo#ad){% endcapture %}
+{% capture hx370_de %}[Amazon DE](https://amzn.to/3D3AA0W#ad){% endcapture %}
 
-{% capture n95_nl %}[Amazon NL](https://amzn.to/_okn1cgp){% endcapture %}
-{% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk){% endcapture %}
-{% capture n100_nl %}[Amazon NL](https://amzn.to/4iclwgD){% endcapture %}
-{% capture n150_nl %}[Amazon NL](https://amzn.to/3XgabUK){% endcapture %}
-{% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv){% endcapture %}
-{% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc){% endcapture %}
-{% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ){% endcapture %}
+{% capture n95_nl %}[Amazon NL](https://amzn.to/_okn1cgp#ad){% endcapture %}
+{% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
+{% capture n100_nl %}[Amazon NL](https://amzn.to/4iclwgD#ad){% endcapture %}
+{% capture n150_nl %}[Amazon NL](https://amzn.to/3XgabUK#ad){% endcapture %}
+{% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv#ad){% endcapture %}
+{% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc#ad){% endcapture %}
+{% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ#ad){% endcapture %}
 
 {% capture n95_performance %}[5.358](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N95&id=5206){% endcapture %}
 {% capture n97_performance %}[5.643](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N97&id=5337){% endcapture %}

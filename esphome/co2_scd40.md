@@ -58,9 +58,9 @@ Read along how you create this sensor yourself...
 When you prefer a ready-to-go CO2 sensor, you can also choose for the Netatmo Healthy Home Coach.
 It's an all-in-one solution with a CO2 and also decibel, temperature and humidity sensor in it.
 You can find it:
-[Amazon NL](https://amzn.to/44wKKCE),
-[Amazon DE](https://amzn.to/42nXN80),
-[Amazon UK](https://amzn.to/4d0299f)
+[Amazon NL](https://amzn.to/44wKKCE#ad),
+[Amazon DE](https://amzn.to/42nXN80#ad),
+[Amazon UK](https://amzn.to/4d0299f#ad)
 
 ---
 

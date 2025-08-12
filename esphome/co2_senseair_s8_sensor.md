@@ -46,9 +46,9 @@ Inside a CO2 sensor and an ESP mini.
 When you prefer a ready-to-go CO2 sensor, you can also choose for the Netatmo Healthy Home Coach.
 It's an all-in-one solution with a CO2 and also decibel, temperature and humidity sensor in it.
 You can find it:
-[Amazon NL](https://amzn.to/44wKKCE),
-[Amazon DE](https://amzn.to/42nXN80),
-[Amazon UK](https://amzn.to/4d0299f)
+[Amazon NL](https://amzn.to/44wKKCE#ad),
+[Amazon DE](https://amzn.to/42nXN80#ad),
+[Amazon UK](https://amzn.to/4d0299f#ad)
 
 ---
 
@@ -88,23 +88,23 @@ These hardware components did I use for this project:
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
-* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3SOIvDC">(Amazon US)</a>
+* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3SOIvDC#ad">(Amazon US)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43HvzFU">(Amazon US)</a>
+* {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43HvzFU#ad">(Amazon US)</a>
   * If you order these, you can better order all three types at ones, also for any further projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
 * Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. 
 
-  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43FwAya">(Amazon US)</a>
+  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43FwAya#ad">(Amazon US)</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43mVuBq">(Amazon US)</a>
+* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43mVuBq#ad">(Amazon US)</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 

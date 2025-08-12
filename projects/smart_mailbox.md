@@ -12,7 +12,7 @@ image: /projects/images_mailbox/sensor_in_mailbox.jpg
 ## Introduction
 
 <img src="images_mailbox/traditional_mailbox.png" alt="mailbox" height="100px" style="margin-left:15px;float: right;"/>
-A physical mail notification was one of the first projects I realized.
+A physical (snail)mail notification was one of the first projects I realized.
 I lived in an apartment and had to go a few stairs down to check if there was mail delivered.
 Sometimes you're waiting for a letter or package and want to know as soon as possible that it's delivered.
 <br>
@@ -65,11 +65,12 @@ Less smart, but this battery lasts for way much longer!
 
 When you automate your mailbox, there are different automations possible:
 
-* Notification on your phone when mail is delivered.\
-  <img src="images_mailbox\youve_got_mail_notification.jpg" width="350px" />
+* Notification on your phone when mail is delivered.
+  * Detection: if the contact changes from true to false.\
+ <img src="images_mailbox\youve_got_mail_notification.jpg" width="350px" />
 * Notification on your smart speaker when mail is delivered.
 * Notification if mail is sticking out of the mailbox. 
-  * To detect that: the flap is opened but still not closed after a few seconds.
+  * Detection: the flap is opened but still not closed after a few seconds.
 * Show the time since the mail was delivered.
 
 <br>
@@ -214,6 +215,37 @@ type: entities
 entities:
   - entity: sensor.mailbox_timer
     name: mailbox
+{% endraw %}
+```
+
+### Conditional message for two minutes
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+     mail_recently_changed:
+          friendly_name: voordeur
+          icon_template: mdi:radar
+          value_template: >
+             {{ (now() - states.binary_sensor.contact_mailbox_contact.last_changed).total_seconds() < 120 }}
+{% endraw %}
+```
+
+```yaml
+{% raw %}
+type: entities
+entities:
+    - type: conditional
+    conditions:
+      - entity: binary_sensor.mailbox_recently_changed
+        state: "on"
+    card:
+      type: entities
+      entities:
+        - entity: sensor.mailbox1_timer
 {% endraw %}
 ```
 

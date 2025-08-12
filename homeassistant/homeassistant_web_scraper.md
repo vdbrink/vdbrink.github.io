@@ -7,8 +7,6 @@ image: /homeassistant/images_web_scraper/ha_webscraper.png
 
 # Home Assistant: Web Scraper
 
-Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how you can scrape (text) elements from a webpage and create a Home Assistant sensor which contains this text.

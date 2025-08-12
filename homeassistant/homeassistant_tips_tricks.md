@@ -8,8 +8,6 @@ image: /homeassistant/images_tips/dialog_enlarge.png
 
 # Home Assistant - Tips & Tricks
 
-Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
-
 Home Assistant useful (hidden) features!
 
 ---

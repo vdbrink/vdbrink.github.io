@@ -8,8 +8,6 @@ image: /homeassistant/images_templates/ha_templates_banner.png
 
 # Home Assistant: Templates
 
-Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
-
 <img src="images_templates/ha_templates_banner.png" alt="Home Assistant templates banner" width="100%">
 <br><br>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
@@ -38,6 +36,7 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Floor activity](#floor-activity)
     * [Day of the week translation](#day-of-the-week-translation)
     * [Day countdown](#day-countdown)
+      * [Create date sensor](#create-date-sensor)
       * [Community day countdown](#community-day-countdown)
       * [Trash bin day countdown](#trash-bin-day-countdown)
     * [Minutes since mail is delivered](#minutes-since-mail-is-delivered)
@@ -45,8 +44,13 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
     * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
     * [Is it night](#is-it-night)
-    * [Expected rain amount](#expected-rain-amount)
-    * [Rain intensity](#rain-intensity)
+    * [Rain conditions](#rain-conditions)
+      * [Buienalarm data](#buienalarm-data)
+        * [Time when heavy rain is expected](#time-when-heavy-rain-is-expected)
+        * [Time when is become dry again](#time-when-is-become-dry-again)
+        * [Expected rain amount](#expected-rain-amount)
+        * [Rain intensity](#rain-intensity)
+      * [Buienradar data](#buienradar-data)
     * [CO2 threshold values](#co2-threshold-values)
     * [Overlay based on lux](#overlay-based-on-lux)
     * [Moon image based on state](#moon-image-based-on-state)
@@ -626,9 +630,122 @@ template:
 ```
 
 ---
-### Expected rain amount
+### Rain conditions
 
-Expected rain amount for the coming hours based on the Dutch Buienradar data.
+In The Netherlands, there are two main data providers for expected rain, Buienalarm and Buienradar.\
+I created for now some example conditions based on the Buienalarm data.\
+Someday, I'll create the same conditions also for Buienradar (and both combined) if there is interest for.
+
+First, you need to get the expected rain data as a sensor in Home Assistant.
+Install the [Neerslag App integration](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app)
+This generates the required sensors and contains a dashboard graph.
+
+---
+#### Buienalarm data
+
+The data is store in the attribute of the sensor `sensor.neerslag_buienalarm_regen_data`.\
+Some background what data is available in the sensor:
+* `data.precip`: An array where every item in the list is the amount of expected mm rain in the next 5 minutes.
+ The total forecast data is 2 hours (24 * 5 min).
+  * `[0, 0, 0, 0.2, 0.4, 0, 1.0, 0, 3.0, 0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]`
+* `data.start_human`: The human-readable time where the array starts.
+  * `11:35`
+* `data.start`: The start time in epoch format.
+  * `1754818500`
+* `data.delta`: The diff in seconds between each item in the list, 300 = 5 minutes.
+  * `300`
+* `data.levels`: The rain intensity for the line in the graph. 
+ In my templates, I use my own intensity level.
+  * ```
+    levels:
+      light: 0.25
+      moderate: 1
+      heavy: 2.5
+    ```
+
+I created and tested several conditions via the Developers Tools > Template.
+This is how I did it with first with `testdata` instead of (missing) real data.
+
+```yaml
+{% raw %}
+{% set testtime = 1754818500 %}
+{% set testdata = [0, 0, 0, 0.2, 0.4, 0, 1.0, 0, 3.0, 0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] %}
+{% set threshold_any = '0.0' | float %}
+{% set threshold_light = '0.4' | float %}
+{% set threshold_medium = '2.0' | float %}
+{% set threshold_heavy = '5.0' | float %}
+{% set rain = state_attr("sensor.neerslag_buienalarm_regen_data","data").precip %}
+{% set rain = testdata %} # remove this line to test with the curent real data
+  
+Any rain in 30 min: {{ rain[:6] | sum() > 0 }}
+Any rain expected in 2h: {{ rain[:24] | sum() > 0}}
+
+Light rain within 30 min: {{ rain[:6] | select('ge', threshold_light) | list | count > 0}}
+Medium rain in 30 min: {{ rain[:6] | select('ge', threshold_medium) | list | count > 0 }}
+Heavy rain in 2h: {{ rain[:24] | select('ge', threshold_heavy) | list | count > 0 }}
+
+# Minutes from the start time of the data in the precip array
+Minutes until it's gonna rain: {% for i in range(rain|length) if rain[i] > threshold_any %}{{ (i + 1) * 5 }}{% break %}{% endfor %}
+Minutes until light rain: {% for i in range(rain|length) if rain[i] > threshold_light %}{{ (i + 1) * 5 }}{% break %}{% endfor %}
+Minutes until heavy rain: {% for i in range(rain|length) if rain[i] > threshold_heavy %}{{ (i + 1) * 5 }}{% break %}{% endfor %}
+{% endraw %}
+```
+
+##### Time when heavy rain is expected
+
+```yaml
+{% raw %}
+{% set threshold_heavy = '5.0' | float %}
+{% set rain = state_attr("sensor.neerslag_buienalarm_regen_data","data").precip %}
+{% set minutes_until_heavy = namespace(value=None) %}
+{% for i in range(rain|length) if rain[i] > threshold_heavy %}
+    {% set minutes_until_heavy.value = (i + 1) * 5 %}
+    {% break %}
+{% endfor %}
+{% if minutes_until_heavy.value is not none %}
+{% set heavy_rain_epoch = testtime + (minutes_until_heavy.value * 60) %}
+Heavy rain expected at: {{ heavy_rain_epoch | timestamp_custom("%H:%M") }}
+{% endif %}
+{% endraw %}
+```
+
+##### Time when is become dry again
+
+```yaml
+{% raw %}
+{% set threshold_heavy = '5.0' | float %}
+{% set rain = state_attr("sensor.neerslag_buienalarm_regen_data","data").precip %}
+{{% if rain|length == 0 %}
+  No data available
+{% else %}
+  {# if last element > 0 -> keeps raining #}
+  {% if rain[-1] > threshold_any %}
+    it keeps raining
+  {% else %}
+    {# scan from the end backwards to find the last non-zero value #}
+    {% set last_nonzero = namespace(index=None) %}
+    {% for val in rain|reverse %}
+      {% if val > threshold_any %}
+        {% set last_nonzero.index = (rain|length - loop.index0) %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if last_nonzero.index is not none %}
+      {% set stop_minutes = (last_nonzero.index + 1) * 5 %}
+      {% set stop_epoch = testtime + (stop_minutes * 60) %}
+      No rain expected after: {{ stop_epoch | timestamp_custom("%H:%M") }}
+    {% else %}
+      No rain expected at all
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% endif %}
+{% endraw %}
+```
+
+##### Expected rain amount
+
+Expected rain amount for the coming hours based on the Dutch Buienalarm data.
 
 <img src="images_templates/expected_rain_amount.png" alt="Expected rain amount" width="450px" />
 
@@ -648,9 +765,9 @@ template:
 ```
 
 ---
-### Rain intensity
+##### Rain intensity
 
-Rain intensity for the coming hours based on the Dutch Buienradar data.
+Rain intensity for the coming hours based on the Dutch Buienalarm data.
 
 <img src="images_templates/rain_intensity.png" alt="Rain intensity" width="450px" />
 
@@ -678,6 +795,17 @@ template:
           {% endif %}
 {% endraw %}
 ```
+
+---
+#### Buienradar data
+
+The Buienradar data looks completely different.
+The sensor name is `sensor.neerslag_buienradar_regen_data`.\
+And the data looks like:
+```
+data: 000|11:00 000|11:05 000|11:10 000|11:15 000|11:20 000|11:25 000|11:30 000|11:35 000|11:40 000|11:45 000|11:50 000|11:55 000|12:00 000|12:05 000|12:10 000|12:15 000|12:20 000|12:25 000|12:30 000|12:35 000|12:40 000|12:45 000|12:50 000|12:55
+```
+> NOTE: later more examples with this data if people request for it.
 
 ---
 ### CO2 threshold values

@@ -8,11 +8,9 @@ image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 
 # Home Assistant - HACS Afvalbeheer
 
-Last modified: {{ page.last_modified_at | date: "%Y-%m-%d" }}
-
 <img style="float: right;" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">
 
-<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:15px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 

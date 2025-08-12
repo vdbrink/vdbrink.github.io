@@ -31,7 +31,7 @@ This makes it easy to capture, store and resend the signal.
 
 <img src="images_infrared/light_string.avif" alt="light curtains" height="100px" />
 
-Read further how you can create buttons, on your **Home Assistant dashboard**, to control your infrared devices.
+Read further how you can create buttons on your **Home Assistant dashboard**, to control your infrared devices.
 
 <img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="400px">
 
