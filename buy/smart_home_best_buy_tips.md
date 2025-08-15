@@ -158,7 +158,8 @@ With this behavior, you can create also a [seat occupancy sensor](/zigbee/zigbee
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3Dnl1kK#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a> aka T1
-Small and a long battery life.
+Small and a long battery life.\
+Unfortunately, not available for Amazon US, but <a href="https://amzn.to/4fGpP3x#ad" target="_blank">look here</a> for alternative Zigbee contact sensors.
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
