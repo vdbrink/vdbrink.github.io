@@ -220,6 +220,10 @@ entities:
 
 ### Conditional message for two minutes
 
+If you want to show a temporary message on your dashboard that mail is delivered, 
+you can create a new sensor which is `true` for (in my case) two minutes which can be used as condition to show if mail is delivered.
+
+The custom sensor template:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -227,13 +231,14 @@ entities:
 - platform: template
   sensors:
      mail_recently_changed:
-          friendly_name: voordeur
+          friendly_name: mailbox sensor triggered
           icon_template: mdi:radar
           value_template: >
              {{ (now() - states.binary_sensor.contact_mailbox_contact.last_changed).total_seconds() < 120 }}
 {% endraw %}
 ```
 
+The dashboard condition:
 ```yaml
 {% raw %}
 type: entities
