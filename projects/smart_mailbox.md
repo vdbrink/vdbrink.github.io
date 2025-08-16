@@ -167,6 +167,14 @@ Now you "know" no package is in the box anymore.
 
 ## Alternative solutions
 
+I use Zigbee contact sensors, but there are more solutions to detect if there is mail.
+
+### Vibration sensor
+
+A [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) can detect changes in x/y/z directions.
+This can be attached to a flap which opens when mail is delivered.
+
+
 ### Long range protocols
 
 <img src="/images/z-wave_logo.svg" alt="Z Wave" height="60px" style="margin-left:15px;float: right;"/>
