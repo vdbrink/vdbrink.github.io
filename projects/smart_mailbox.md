@@ -158,6 +158,28 @@ Now you "know" no package is in the box anymore.
 <img src="images_allux-600/front_door_contact_sensor.jpg" height="250px" alt="package box emptied" />
 </a>
 
+<br>
+
+---
+
+## Alternative solutions
+
+### Long range protocols
+
+<img src="/images/z-wave_logo.svg" alt="Z Wave" height="60px" style="margin-left:15px;float: right;"/>
+In some cases, Zigbee doesn't have the range to reach for your mailbox because you life on a high floor in an apartment of you have a very long driveway.
+
+Then you can use these protocols which support longer ranges:
+* [Z-Wave Long Range](https://z-wavealliance.org/z-wave-long-range-technology/), up to 2.4 km (1.5 mi)
+  * Nabu Casa created their own Z-Wave Long Range adapter, the [Home Assistant Connect ZWA-2](https://www.home-assistant.io/connect/zwa-2)
+* [Long Range aka LoRa](https://en.wikipedia.org/wiki/LoRa), up to 10 km (6.1 mi)
+
+### Camera
+
+It is also possible to point a camera outside at your mailbox and with AI analyze the detected person or bus if it's someone from the mail- or package delivery. 
+
+<br>
+
 ---
 
 ## Home Assistant
