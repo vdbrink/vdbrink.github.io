@@ -34,6 +34,9 @@ Here you can read how I've made different mail- and package boxes smart.
     * [Mailbox](#mailbox)
     * [Letterbox flap](#letterbox-flap)
     * [Package box](#package-box)
+  * [Alternative solutions](#alternative-solutions)
+    * [Long range protocols](#long-range-protocols)
+    * [Camera](#camera)
   * [Home Assistant](#home-assistant)
 <!-- TOC -->
 
