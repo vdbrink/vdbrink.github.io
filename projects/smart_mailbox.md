@@ -126,6 +126,22 @@ It's a wide letterbox, so still all letters fit easily through it.
 <img src="/projects/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
 </a>
 
+**Alternative**
+
+As an alternative, you can also (ab)use a [leak sensor with a probe](/buy/smart_home_best_buy_tips#leak-sensor) if you don't want the sensor to block a part of the opening.
+Now you place the sensor inside your house and only the wire is required to be inside the opening, 
+and when the flap is closed they need to be make contact to a metal plate (magnet is also metal) to let the circuit make a closed connection so the sensor knows the flap is closed.
+You need to use a custom template to define the mailbox is closed (and it doesn't show as "leak detected").
+
+<a href="/buy/smart_home_best_buy_tips#leak-sensor" target="_blank">
+<img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
+
+Or solder wires to a contact sensor yourself to only have those two wires inside your mailbox.
+I have a [separated page](/zigbee/zigbee_water_leak_sensor) how I did this for a DIY leak sensor based on a contact sensor.
+
+<a href="/zigbee/zigbee_water_leak_sensor" target="_blank">
+<img src="/zigbee/images_leak/leak_sensor_assemblage.jpg" alt="leak sensor" height="150px" /></a>
+
 ---
 
 ### Package box
@@ -169,11 +185,18 @@ Now you "know" no package is in the box anymore.
 
 I use Zigbee contact sensors, but there are more solutions to detect if there is mail.
 
+### Leak sensor
+
+A [leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) with a probe, you can place and hide it a bit further away from the flap opening.
+As long as the contacts make contact to a metal plate when the mailbox flap is closed.
+
+<a href="/buy/smart_home_best_buy_tips#leak-sensor" target="_blank">
+<img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
+
 ### Vibration sensor
 
 A [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) can detect changes in x/y/z directions.
 This can be attached to a flap which opens when mail is delivered.
-
 
 ### Long range protocols
 
