@@ -542,6 +542,7 @@ These buttons can trigger multiple scenarios because they support three press ty
 **Best option:**\
 {{imgBasket}}Zigbee button - Aqara 
 <a href="https://s.click.aliexpress.com/e/_DF2oxu7" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3Jmhl5w#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/4droHj8#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WXKG11LM.html" target="_blank" title="WXKG11LM">{{imgZ2M}}WXKG11LM</a>
 
@@ -569,6 +570,7 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 {{imgBasket}}Zigbee vibration sensor - Aqara 
 <a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4f2IrKG#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3JpoqlT#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/3OiAAvY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/DJT11LM.html" target="_blank" title="DJT11LM">{{imgZ2M}}DJT11LM</a>
 
@@ -586,11 +588,13 @@ The first port can also be used to switch on/off data access via USB, the other 
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Tuya 
 <a href="https://s.click.aliexpress.com/e/_oB5NKYq" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4mmuYQY#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/4lL8Ijp#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Sonoff
 <a href="https://amzn.to/3UhFZXv#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/41wvLXh#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/4fcxpmu#ad" target="_blank">(Amazon NL)</a>
 
 Check also the [dedicated page](/zigbee/usb_adapter_switch) about this device.
@@ -610,6 +614,7 @@ Powered by two AAA batteries.
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/45mlAqw#ad" target="_blank">(Amazon DE)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
@@ -649,6 +654,7 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 
 {{imgBasket}}Zigbee / WiFi Air quality sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_oo1Odtf" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4mnr22r#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/40Y4IEB#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
@@ -671,6 +677,7 @@ Controlled by Home Assistant.
 {{imgBasket}}Zigbee IR remote control - Moes 
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4ldfhdv#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4muKaeP#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 
