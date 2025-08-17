@@ -11,7 +11,7 @@ image: /homeassistant/images_mealie/mealie1_ha_integration.png
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 <img style="float: right;margin-left:10px" src="images_mealie/mealie.svg" height="100px" alt="Mealie logo">
 
-Here you find how I seamlessly integrate the recipe manager **Mealie** into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
+Here you find how I seamlessly integrate the recipe manager [**Mealie**](https://docs.mealie.io/) into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
 This documentation is based on Mealie version `2.0.0`
 
@@ -38,13 +38,14 @@ This documentation is based on Mealie version `2.0.0`
     * [As sidebar link](#as-sidebar-link)
   * [Integrate Mealie data into your dashboard](#integrate-mealie-data-into-your-dashboard)
     * [Today's meal](#todays-meal)
-      * [Store today meal data as a sensor](#store-today-meal-data-as-a-sensor)
-      * [Create today meal image](#create-today-meal-image)
+      * [Store today's meal data as a sensor](#store-todays-meal-data-as-a-sensor)
+      * [Create today's meal image](#create-todays-meal-image)
       * [Card element](#card-element)
     * [Meal planning for this week as a list](#meal-planning-for-this-week-as-a-list)
       * [Store meal planning data as a sensors](#store-meal-planning-data-as-a-sensors)
       * [Markdown element](#markdown-element)
   * [Out of the freezer the evening before](#out-of-the-freezer-the-evening-before)
+  * [Bookmark for direct import](#bookmark-for-direct-import)
   * [FAQ](#faq)
 <!-- TOC -->
 
@@ -92,12 +93,11 @@ The website and API (available under /docs) will be available on the server via 
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # docker-compose.yaml
-version: '2'
 services:
  
   mealie-recipes:
     container_name: mealie-recipes
-    # This documetation is based on version 2.0.0 (october 2024)
+    # This documentation is based on version 3.0.2 (augustus 2025)
     image: ghcr.io/mealie-recipes/mealie:latest 
     restart: always
     volumes:
@@ -110,15 +110,13 @@ services:
       TZ: Europe/Amsterdam
   
       # Default Recipe Settings
-      RECIPE_PUBLIC: 'true'
+      RECIPE_PUBLIC: 'false'
       RECIPE_SHOW_NUTRITION: 'false'
       RECIPE_SHOW_ASSETS: 'true'
       RECIPE_LANDSCAPE_VIEW: 'true'
       RECIPE_DISABLE_COMMENTS: 'true'
       RECIPE_DISABLE_AMOUNT: 'false'
       ALLOW_SIGNUP: 'true'
-      MAX_WORKERS: 1
-      WEB_CONCURRENCY: 1
       TOKEN_TIME: 99999
 {% endraw %}
 ```
@@ -208,7 +206,7 @@ To show it like this, the data must be stored in HA and then presented in a nice
 
 <img src="images_mealie/picture_element_meal1_tonight.png" alt="meal planner" width="400px">
 
-#### Store today meal data as a sensor
+#### Store today's meal data as a sensor
 
 First, a scraper is needed to get the data from the Mealie API and store it as a sensor in Home Assistant.
 This code creates a sensor `mealie_todays_meal` with the state like `Poffertjes`. This meal id is needed to grab the corresponding photo.
@@ -240,7 +238,7 @@ rest:
 {% endraw %}
 ```
 
-#### Create today meal image
+#### Create today's meal image
 
 To get the image for today, you need to add a `Generic Camera` via Settings, Devices & Services, Add Integration, and search for the generic camera entity.
 
@@ -508,6 +506,25 @@ Only ingredients with the text `[freezer]` are used in the notification.
 <br>
 
 I hope you also enjoy using Mealie!
+
+---
+## Bookmark for direct import
+
+With a Boomarklet you can click on a bookmark in your browser, and this page is automatically imported to your Mealie instance.\
+It's a piece of javascript in the bookmarks which makes this possible.
+
+Go make this work:
+* Go to https://docs.mealie.io/documentation/community-guide/import-recipe-bookmarklet/ and copy the code
+* Go to a [bookmarklet generator site](https://caiorss.github.io/bookmarklet-maker/)
+* Paste the code
+* Change the url to your own URL
+* Click on `Generate Boomarklet`
+* Copy the code from the `Output` field
+* Go to your browser
+* Go to your mealie page and bookmark it in your browser
+* Edit this bookmark and replace the link with the javascript code
+
+Go to a recipe web page and click on the Boomarklet, now this recipe will be imported into YOUR Mealie!
 
 ---
 ## FAQ
