@@ -676,8 +676,8 @@ Controlled by Home Assistant.
 
 {{imgBasket}}Zigbee IR remote control - Moes 
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4ldfhdv#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4muKaeP#ad" target="_blank">(Amazon DE)</a>
+<a href="https://amzn.to/3HuA4vk#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/47xtPBl#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 

@@ -53,13 +53,21 @@ I can control the lights via the original remote and also from my Home Assistant
 
 <a href="/buy/images_zigbee/zigbee_ir_remote.webp"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" style="margin-left:15px;float:right" /></a>
 I used for this project the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
+<a href="https://amzn.to/3HuA4vk#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/47xtPBl#ad" target="_blank">(Amazon DE)</a>
+<a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a> 
 With this small black box, powered on batteries, you can control any infrared device.
 
 An infrared sender needs to be in a direct line with the receiver. 
 If you have more devices you want to control, it can be that you need multiple smart devices to control them all.
 
-> There are also similar [WiFi versions](https://s.click.aliexpress.com/e/_DnpWmYp) available of this device.
+> There are also similar [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_DnpWmYp) [(Amazon US)](https://amzn.to/3UzxCGU) [(Amazon DE)](https://amzn.to/41b3nJU) available of this device.
+
+> Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
+<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/46zJzDz#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 
 <a href="images_infrared/purposes_ir.png" target="_blank">
 <img src="images_infrared/purposes_ir.png" alt="purposes curtains" height="250px" />
@@ -227,9 +235,9 @@ Candles
     <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ondkuzR" target="_blank">Candle lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">Candle lights controlled by an infrared remote</a>
 
-  <a href="https://s.click.aliexpress.com/e/_ondkuzR" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">
     <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
