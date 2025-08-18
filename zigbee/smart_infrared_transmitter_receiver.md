@@ -201,18 +201,20 @@ These hardware devices are examples of what you need and can use in your own inf
 #### Infrared controlled devices
 
 As mentioned in the introduction, there are a lot of devices that can be controlled via infrared. 
-Here are some links to products which all work via infrared, and can be controlled via the above mentioned infrared transmitter / receiver.
+Here are some links to products which all work via infrared, and can be controlled via the above-mentioned infrared transmitter / receiver.
 
 LEDS
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
 
   <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
-    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
+    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="led light with remote control" width="200px" class="buy-link"/>
   </a>
 
 Light curtains
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains (AliExpress)</a>
+<a href="https://amzn.to/3JkKUVi#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/45GQ9pR#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">
   <img src="images_infrared/light_string.avif" alt="light curtains" width="200px" class="buy-link"/>
@@ -220,7 +222,9 @@ Light curtains
 
 Tea lights
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
+<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/45DME39#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
     <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="tea lights" width="200px" class="buy-link"/>
@@ -229,19 +233,24 @@ Tea lights
 
 Candles
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
+<a href="https://amzn.to/45GxlXO#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
     <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">Candle lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
+  <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/4fLGJxR#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">
     <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
+  <a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/4mqgDmC#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
     <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
