@@ -354,3 +354,7 @@ See my [Allux 600 package box project](/projects/packages-mailbox-allux-600#home
 ---
 
 I hope you can use this for your own smart mailbox!
+
+---
+
+See also my other [Home Automation - Ideas](ideas/home_automation_ideas) page.

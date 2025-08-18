@@ -278,3 +278,6 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
 
 Where do you use the infrared transmitter / receiver for in your smart home?
 
+---
+
+See also my other [Home Automation - Ideas](ideas/home_automation_ideas) page.
