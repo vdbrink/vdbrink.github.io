@@ -205,6 +205,8 @@ Here are some links to products which all work via infrared, and can be controll
 
 LEDS
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
+<a href="https://amzn.to/4fE8qsa#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/47x8F6s#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="led light with remote control" width="200px" class="buy-link"/>
