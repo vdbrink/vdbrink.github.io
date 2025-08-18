@@ -126,9 +126,13 @@ It's a wide letterbox, so still all letters fit easily through it.
 <img src="/projects/images_mailbox/mailbox_contact_sensor.jpg" alt="mailbox" height="200px"/>
 </a>
 
-**Alternative**
+**Alternatives**
 
-As an alternative, you can also (ab)use a [leak sensor with a probe](/buy/smart_home_best_buy_tips#leak-sensor) if you don't want the sensor to block a part of the opening.
+When your mailbox flap opens to the inside you can use the contact sensor like this:\
+<a href="images_mailbox/mailbox_open_inside.jpg" target="_blank">
+<img src="images_mailbox/mailbox_open_inside.jpg" alt="mailbox open to inside" height="100px" /></a>
+
+As another alternative, you can also (ab)use a [leak sensor with a probe](/buy/smart_home_best_buy_tips#leak-sensor) if you don't want the sensor to block a part of the opening.
 Now you place the sensor inside your house and only the wire is required to be inside the opening, 
 and when the flap is closed they need to be make contact to a metal plate (magnet is also metal) to let the circuit make a closed connection so the sensor knows the flap is closed.
 You need to use a custom template to define the mailbox is closed (and it doesn't show as "leak detected").
