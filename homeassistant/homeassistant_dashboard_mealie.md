@@ -78,6 +78,26 @@ The program I was looking for must contain the next functionality:
 
 <br>
 Mealie is the open source tool that provides all these functionalities and is active in development.
+<br>
+
+As a recipe manager, it contains a lot of smart options, like:
+* Make use of sections in your recipe
+* Link ingredients to single steps
+* Hide steps which are finished during the cooking process
+* Check a checkbox for each ingredient you already got on the table
+* Split ingredients by amount, type and product
+* Add ingredients to a shopping list
+* Add extra photos to single steps
+* Add extra assets (PDFs, notes, photos) to a recipe
+* And many, many more...
+
+<br>
+
+This is an example of one of my recipes in Cook-mode:
+<a href="images_mealie/features_cook_mode.png">
+<img src="images_mealie/features_cook_mode.png" alt="Mealie features" width="600px"></a>
+
+<br>
 
 ---
 
@@ -109,14 +129,6 @@ services:
       PGID: 1000
       TZ: Europe/Amsterdam
   
-      # Default Recipe Settings
-      RECIPE_PUBLIC: 'false'
-      RECIPE_SHOW_NUTRITION: 'false'
-      RECIPE_SHOW_ASSETS: 'true'
-      RECIPE_LANDSCAPE_VIEW: 'true'
-      RECIPE_DISABLE_COMMENTS: 'true'
-      RECIPE_DISABLE_AMOUNT: 'false'
-      ALLOW_SIGNUP: 'true'
       TOKEN_TIME: 99999
 {% endraw %}
 ```
@@ -240,6 +252,10 @@ rest:
 
 #### Create today's meal image
 
+> **_NOTE:_** This way isn't possible anymore in the current Home Assistant version 2025-08.
+> The Still image needs to be an existing url.
+> When I have a new way to implement this, I'll update it here.
+
 To get the image for today, you need to add a `Generic Camera` via Settings, Devices & Services, Add Integration, and search for the generic camera entity.
 
 <img src="images_mealie/mealie1_image_as_camera.png" alt="Square picture" width="400px">
@@ -261,6 +277,7 @@ http://< ip-address >:9925/api/media/recipes/{{states('sensor.mealie_todays_meal
 ```
 
 #### Card element
+
 Now we have stored the name of the meal for today and the corresponding image we can use it to add it to our HA as card, like this:
 
 <img src="images_mealie/picture_element_meal1_tonight2.png" alt="Square picture" width="400px">
