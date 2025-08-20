@@ -118,7 +118,7 @@ A reason why not to choose for Zigbee? I don't know :)
 <img src="images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" height="150px" style="margin-left:15px;float:right"/></a>
 
 This new coordinator which many people are very satisfied with is the Sonoff ZBDongle-E Plus 
-<a href="https://s.click.aliexpress.com/e/_omtmrmV" target="_blank">(AliExpress)</a> 
+<a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/3RO4Ro9#ad" target="_blank">(Amazon US)</a> 
 <a href="https://amzn.to/45o9mO9#ad" target="_blank">(Amazon DE)</a> 
 <a href="https://amzn.to/3OkLelX#ad" target="_blank">(Amazon NL)</a> 
@@ -128,7 +128,7 @@ I've run my Zigbee network since 2020 non-stop with the {{imgBasket}}Slaesh's CC
 <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
 My network grew to 140+ devices today, and it still runs fast.
 
-<a href="https://s.click.aliexpress.com/e/_omtmrmV" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a>
 
 To avoid interference with Bluetooth or WiFi,
