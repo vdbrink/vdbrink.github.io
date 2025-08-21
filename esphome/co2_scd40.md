@@ -487,3 +487,7 @@ Or use a colored light or [LED-strip](/projects/bin_day_led_strip_reminder) to i
 <br><br>
 
 That's it!
+
+---
+
+Check also my other [ESPHome projects](/esphome/index#articles)!
