@@ -47,7 +47,7 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Rain conditions](#rain-conditions)
       * [Buienalarm data](#buienalarm-data)
         * [Time when heavy rain is expected](#time-when-heavy-rain-is-expected)
-        * [Time when is become dry again](#time-when-is-become-dry-again)
+        * [Time when it becomes dry again](#time-when-it-becomes-dry-again)
         * [Expected rain amount](#expected-rain-amount)
         * [Rain intensity](#rain-intensity)
       * [Buienradar data](#buienradar-data)
@@ -668,14 +668,15 @@ This is how I did it with first with `testdata` instead of (missing) real data.
 
 ```yaml
 {% raw %}
-{% set testtime = 1754818500 %}
 {% set testdata = [0, 0, 0, 0.2, 0.4, 0, 1.0, 0, 3.0, 0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] %}
 {% set threshold_any = '0.0' | float %}
 {% set threshold_light = '0.4' | float %}
 {% set threshold_medium = '2.0' | float %}
 {% set threshold_heavy = '5.0' | float %}
-{% set rain = state_attr("sensor.neerslag_buienalarm_regen_data","data").precip %}
-{% set rain = testdata %} # remove this line to test with the curent real data
+
+{% set rain_data = state_attr("sensor.neerslag_buienalarm_regen_data","data") %}
+{% set rain = rain_data.precip %}
+{# set rain = testdata #} # change this line to test with the test data
   
 Any rain in 30 min: {{ rain[:6] | sum() > 0 }}
 Any rain expected in 2h: {{ rain[:24] | sum() > 0}}
@@ -684,7 +685,7 @@ Light rain within 30 min: {{ rain[:6] | select('ge', threshold_light) | list | c
 Medium rain in 30 min: {{ rain[:6] | select('ge', threshold_medium) | list | count > 0 }}
 Heavy rain in 2h: {{ rain[:24] | select('ge', threshold_heavy) | list | count > 0 }}
 
-# Minutes from the start time of the data in the precip array
+{# Minutes from the start time of the data in the precip array #}
 Minutes until it's gonna rain: {% for i in range(rain|length) if rain[i] > threshold_any %}{{ (i + 1) * 5 }}{% break %}{% endfor %}
 Minutes until light rain: {% for i in range(rain|length) if rain[i] > threshold_light %}{{ (i + 1) * 5 }}{% break %}{% endfor %}
 Minutes until heavy rain: {% for i in range(rain|length) if rain[i] > threshold_heavy %}{{ (i + 1) * 5 }}{% break %}{% endfor %}
@@ -696,26 +697,35 @@ Minutes until heavy rain: {% for i in range(rain|length) if rain[i] > threshold_
 ```yaml
 {% raw %}
 {% set threshold_heavy = '5.0' | float %}
-{% set rain = state_attr("sensor.neerslag_buienalarm_regen_data","data").precip %}
+
+{% set rain_data = state_attr("sensor.neerslag_buienalarm_regen_data","data") %}
+{% set rain = rain_data.precip %}
+{% set time = rain_data.start %}
+
 {% set minutes_until_heavy = namespace(value=None) %}
 {% for i in range(rain|length) if rain[i] > threshold_heavy %}
-    {% set minutes_until_heavy.value = (i + 1) * 5 %}
+    {% set minutes_until_heavy.value = i * 5 %}
     {% break %}
 {% endfor %}
 {% if minutes_until_heavy.value is not none %}
-{% set heavy_rain_epoch = testtime + (minutes_until_heavy.value * 60) %}
-Heavy rain expected at: {{ heavy_rain_epoch | timestamp_custom("%H:%M") }}
+{% set heavy_rain_epoch = time + (minutes_until_heavy.value * 60) %}
 {% endif %}
+Heavy rain expected at: {{ heavy_rain_epoch | timestamp_custom("%H:%M") }}
 {% endraw %}
 ```
 
-##### Time when is become dry again
+##### Time when it becomes dry again
 
 ```yaml
 {% raw %}
+{% set threshold_any = '0.0' | float %}
 {% set threshold_heavy = '5.0' | float %}
-{% set rain = state_attr("sensor.neerslag_buienalarm_regen_data","data").precip %}
-{{% if rain|length == 0 %}
+
+{% set rain_data = state_attr("sensor.neerslag_buienalarm_regen_data","data") %}
+{% set rain = rain_data.precip %}
+{% set time = rain_data.start %}
+  
+{% if rain|length == 0 %}
   No data available
 {% else %}
   {# if last element > 0 -> keeps raining #}
@@ -732,7 +742,7 @@ Heavy rain expected at: {{ heavy_rain_epoch | timestamp_custom("%H:%M") }}
     {% endfor %}
     {% if last_nonzero.index is not none %}
       {% set stop_minutes = (last_nonzero.index + 1) * 5 %}
-      {% set stop_epoch = testtime + (stop_minutes * 60) %}
+      {% set stop_epoch = time + (stop_minutes * 60) %}
       No rain expected after: {{ stop_epoch | timestamp_custom("%H:%M") }}
     {% else %}
       No rain expected at all
