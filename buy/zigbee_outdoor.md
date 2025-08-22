@@ -24,8 +24,15 @@ Find here a set of preselected devices which you can buy for in your garden or g
 
 ## Table of Contents
 <!-- TOC -->
+* [Zigbee Outdoor - Best Buy Tips](#zigbee-outdoor---best-buy-tips)
+  * [Table of Contents](#table-of-contents)
   * [Rain sensor](#rain-sensor)
+    * [Rain + lux](#rain--lux)
   * [Soil sensor](#soil-sensor)
+    * [NAS-STH02B2](#nas-sth02b2)
+    * [TS0601](#ts0601)
+  * [Weather stations](#weather-stations)
+    * [Ecowitt 7-in-1](#ecowitt-7-in-1)
   * [Garden lights](#garden-lights)
     * [Spotlight](#spotlight)
     * [Floodlight](#floodlight)
@@ -49,6 +56,9 @@ It's already triggered with a single drop.
 
 {{imgBasket}}Zigbee raindrop sensor
 <a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">(AliExpress)</a>
+<a href="https://banggood.onelink.me/zMT7/8iw565j9#ad" target="_blank">(BangGood)</a>
+(Amazon US - not available)
+<a href="https://amzn.to/3JuOP1K#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SNZB-05.html" target="_blank" title="SNZB-05">{{imgZ2M}}SNZB-05 (works fine, but model looks different)</a>
 
 <br>
@@ -62,6 +72,7 @@ It contains a build-in battery that charges via a small solar panel.
 
 {{imgBasket}}Zigbee raindrop + lux sensor 
 <a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3HMbs11#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>
@@ -98,18 +109,28 @@ Make sure you select the Zigbee version:\
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
+---
+## Weather stations
 
-[//]: # (### Ecowitt WH51)
+Full-blown weather stations to detect outside temperature, humidity, rain, wind direction/speed etc.
 
-[//]: # ()
-[//]: # ({{imgBasket}} soil sensor)
+### Ecowitt 7-in-1
 
-[//]: # (<a href="https://s.click.aliexpress.com/e/_o2Cg7q7" target="_blank">&#40;AliExpress&#41;</a>)
+The most popular is the Ecowitt. 
+It isn't a Zigbee device but a WiFi weather station with a very good Home Assistant integration, all data is available as separated sensors in Home Assistant. 
 
-[//]: # (<a href="https://amzn.to/#ad" target="_blank">&#40;Amazon US&#41;</a>)
+<a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">
+<img src="images_weather/ecowitt.jpg" alt="Ecowitt weather station" height="200px" /></a>
 
-[//]: # ()
-[//]: # (Model: WH51)
+{{imgBasket}} Ecowitt GW2001 Weather Station includes:
+* GW2000 IoT Wi-Fi Gateway
+* WS90 7-in-1 Outdoor Solar Powered Weather Sensor
+
+<a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">(AliExpress)</a>
+
+[![Ecowitt Weather Station](http://img.youtube.com/vi/lz2TipTphbc/0.jpg)](https://www.youtube.com/watch?v=lz2TipTphbc&t=201s "Ecowitt Weather Station")
+
+Model: WS90
 
 ---
 
