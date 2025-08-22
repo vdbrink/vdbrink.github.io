@@ -114,21 +114,21 @@ Make sure you select the Zigbee version:\
 
 Full-blown weather stations to detect outside temperature, humidity, rain, wind direction/speed etc.
 
-### Ecowitt 7-in-1
+### Ecowitt Wittboy 7-in-1
 
-The most popular is the Ecowitt. 
+The most popular is the Ecowitt Wittboy. 
 It isn't a Zigbee device but a WiFi weather station with a very good Home Assistant integration, all data is available as separated sensors in Home Assistant. 
 
 <a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">
 <img src="images_weather/ecowitt.jpg" alt="Ecowitt weather station" height="200px" /></a>
 
-{{imgBasket}} Ecowitt GW2001 Weather Station includes:
+{{imgBasket}} <a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">Ecowitt GW2001 Wittboy Weather Station (AliExpress)</a> includes:
 * GW2000 IoT Wi-Fi Gateway
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 
-<a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">(AliExpress)</a>
-
 [![Ecowitt Weather Station](http://img.youtube.com/vi/lz2TipTphbc/0.jpg)](https://www.youtube.com/watch?v=lz2TipTphbc&t=201s "Ecowitt Weather Station")
+
+https://youtu.be/1zMqGfrySnc
 
 Model: WS90
 
