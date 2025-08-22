@@ -60,6 +60,14 @@ entities:
 {% endraw %}
 ```
 
+Based on the Buienalarm data, I created [multiple sensors](/homeassistant/homeassistant_templates#rain-conditions)
+to indicate when: 
+* [It starts with light/medium/heavy rain](/homeassistant/homeassistant_templates#time-when-heavy-rain-is-expected)
+* [At what time it will be dry again](/homeassistant/homeassistant_templates#time-when-it-becomes-dry-again)
+* [Expected rain amount](/homeassistant/homeassistant_templates#expected-rain-amount)
+
+Take a look also to these templates.
+
 ---
 ## Animated weather predictions
 
