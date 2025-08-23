@@ -48,15 +48,9 @@ I created two Home Assistant dashboards: one for my office climate and the other
   * [My solutions](#my-solutions)
   * [Required hardware](#required-hardware)
   * [Required software](#required-software)
-  * [Display PC configuration](#display-pc-configuration)
-    * [Install Raspberry OS Desktop](#install-raspberry-os-desktop)
-    * [Auto-load browser in kiosk mode on boot](#auto-load-browser-in-kiosk-mode-on-boot)
-    * [Home Assistant auto login user](#home-assistant-auto-login-user)
-    * [Energy saving](#energy-saving)
   * [Home Assistant dashboard](#home-assistant-dashboard)
     * [Weather station stretch display](#weather-station-stretch-display)
     * [Office stretch display](#office-stretch-display)
-  * [Future improvements](#future-improvements)
 <!-- TOC -->
 
 ---
@@ -118,7 +112,6 @@ The big round heavy feet make it stand stable.
 <img src="images_stretch_display/holder_cables.jpg" alt="" height="250px">
 
 ---
-
 
 ### Device with a web browser
 
@@ -192,15 +185,19 @@ An example of a temperature sensor is this [Aqara Zigbee sensor](/buy/smart_home
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
 
-<a href="/buy/esphome_diy" target="_blank">Alternative links</a> for above mentioned products.
+<a href="/buy/esphome_diy" target="_blank">Alternative links</a> for above-mentioned products.
 
 ---
 
 ## Required software
 
- https://www.raspberrypi.com/software/operating-systems/
+I installed [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) with desktop where a browser runs on.
 
-Home Assistant
+I created an auto-boot script to load the Home Assistant dashboard in Kiosk-mode on boot.
+
+(Later I'll describe and add the example code here)
+
+<!--
 
 ---
 
@@ -224,23 +221,32 @@ Home Assistant
 https://github.com/NemesisRE/kiosk-mode
 
 ### Energy saving - auto boot/shutdown
+-->
 
 ---
 
 ## Home Assistant dashboard
 
-See [this](/homeassistant/homeassistant_dashboard_stretch_layout) page where I describe the different elements on the dashboard.
+See [this separated page](/homeassistant/homeassistant_dashboard_stretch_layout) where I describe the different elements on the dashboard.
+I created a new theme and needed to increase font sizes to make it good readable also from a distance.
 
 ### Weather station stretch display
 
-<img src="images_stretch_display/weather_display1.png" alt="HA weather display" width="150px">
+This is how my weather overview looks like:
+
+<a href="/homeassistant/homeassistant_dashboard_stretch_layout">
+<img src="/homeassistant/images_layout_stretch/weather_display1.png" alt="HA weather display" width="150px">
+</a>
 
 ---
 
 ### Office stretch display
 
-<img src="images_stretch_display/office_display1.png" alt="HA office display" width="150px">
+This is how my office overview looks like:
 
+<a href="/homeassistant/homeassistant_dashboard_stretch_layout">
+<img src="/homeassistant/images_layout_stretch/office_display1.png" alt="HA office display" width="150px">
+</a>
 
 [//]: # (---)
 
@@ -315,6 +321,8 @@ See [this](/homeassistant/homeassistant_dashboard_stretch_layout) page where I d
 [//]: # (---)
 
 [//]: # ()
+
+[Stretch display layout explanation >>](/homeassistant/homeassistant_dashboard_stretch_layout)
 
 ---
 
