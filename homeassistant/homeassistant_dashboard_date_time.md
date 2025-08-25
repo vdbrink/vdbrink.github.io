@@ -368,6 +368,8 @@ There I use the HA helpers as Node in the automation flow.
 <img src="images_date_time/node_red_ha_timers.png" alt="Date and/or time helper" width="400px">
 </a>
 
+As an alternative, you can use the advanced [HACS scheduler integration](https://community.home-assistant.io/t/scheduler-card-custom-component/217458) to define timers.
+
 ---
 
 [<< See also my other Home Assistant tips and tricks](index)
