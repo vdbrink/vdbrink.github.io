@@ -130,7 +130,7 @@ It isn't a Zigbee device (these devices doesn't exist with Zigbee) but a WiFi we
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 
 The <a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">Ecowitt HP2564 Wittboy Weather Station (AliExpress)</a> includes:
-* HP2560 7" display with all weather data presented 
+* HP2560 7" display with all weather data presented and works as gateway 
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 
 <a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">
