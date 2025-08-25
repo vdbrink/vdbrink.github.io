@@ -17,6 +17,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Table of Contents](#table-of-contents)
   * [Time and date](#time-and-date)
   * [Inline time and date (Dutch format)](#inline-time-and-date-dutch-format)
   * [Current day of the week (Dutch format)](#current-day-of-the-week-dutch-format)
@@ -26,6 +27,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
   * [Last changed indication as secondary info](#last-changed-indication-as-secondary-info)
   * [Last changed indication](#last-changed-indication)
   * [Triggered today](#triggered-today)
+  * [Time selector on the dashboard](#time-selector-on-the-dashboard)
 <!-- TOC -->
 
 ---
@@ -337,6 +339,34 @@ binary_sensor:
             value_template: "{{ as_local(as_datetime(states("sensor.vacuum_last_clean_start"))).date() == now().date() }}"
 {% endraw %}
 ```
+
+---
+## Time selector on the dashboard
+
+I have a LED strip and want users defined by themselves, via the dashboard, IF and WHEN he must be triggered ON and OFF.
+
+<img src="images_date_time/time_selector_via_dashboard.png" alt="Time selector on the dashboard" width="400px">
+
+* The first row: is the normal LED strip entity and can be toggled manually via the dashboard.
+* The second row: is a `Toggle` helper, this is used in the automation to check if the ON/OFF time needs to be activated.
+* The third row: is a `Date and/or time` helper, this is used in the automation when the LED strip needs to be turned ON.
+* The fourth row: is a `Date and/or time` helper, this is used in the automation when the LED strip needs to be turned OFF.
+
+This is how you can configure the `Date and/or time` helper:
+
+<img src="images_date_time/helper_time.png" alt="Date and/or time helper" width="300px">
+
+Helpers can be created via **Devices and Services** and select **Helpers**.\
+Or with this button, you go directly to the **Helpers** page in your Home Assistant:
+
+[![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
+
+I have my automations in [Node-RED](/node-red).
+There I use the HA helpers as Node in the automation flow.  
+
+<a href="images_date_time/node_red_ha_timers.png">
+<img src="images_date_time/node_red_ha_timers.png" alt="Date and/or time helper" width="400px">
+</a>
 
 ---
 
