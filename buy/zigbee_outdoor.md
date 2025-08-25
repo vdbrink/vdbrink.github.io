@@ -109,6 +109,8 @@ Make sure you select the Zigbee version:\
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
+<br>
+
 ---
 ## Weather stations
 
@@ -116,21 +118,31 @@ Full-blown weather stations to detect outside temperature, humidity, rain, wind 
 
 ### Ecowitt Wittboy 7-in-1
 
-The most popular is the Ecowitt Wittboy. 
-It isn't a Zigbee device but a WiFi weather station with a very good Home Assistant integration, all data is available as separated sensors in Home Assistant. 
+The most popular is the Ecowitt Wittboy.\
+It measures temperature, humidity, wind speed, light, UV levels, rain and much more!\
+It isn't a Zigbee device (these devices doesn't exist with Zigbee) but a WiFi weather station with a very good Home Assistant integration, all data is available as separated sensors in Home Assistant. 
 
 <a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">
 <img src="images_weather/ecowitt.jpg" alt="Ecowitt weather station" height="200px" /></a>
 
-{{imgBasket}} <a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">Ecowitt GW2001 Wittboy Weather Station (AliExpress)</a> includes:
+{{imgBasket}} The <a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">Ecowitt GW2001 Wittboy Weather Station (AliExpress)</a> includes:
 * GW2000 IoT Wi-Fi Gateway
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 
+The <a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">Ecowitt HP2564 Wittboy Weather Station (AliExpress)</a> includes:
+* HP2560 7" display with all weather data presented 
+* WS90 7-in-1 Outdoor Solar Powered Weather Sensor
+
+<a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">
+  <img src="images_weather/ecowitt_display.avif" alt="Ecowitt weather station" height="200px" /></a>
+
+Video with the Ecowitt Wittboy functionalities:
+
+[![Ecowitt Weather Station](http://img.youtube.com/vi/1zMqGfrySnc/0.jpg)](https://www.youtube.com/watch?v=1zMqGfrySnc "Ecowitt Weather Station")
+
+Video with the Ecowitt Wittboy review:
+
 [![Ecowitt Weather Station](http://img.youtube.com/vi/lz2TipTphbc/0.jpg)](https://www.youtube.com/watch?v=lz2TipTphbc&t=201s "Ecowitt Weather Station")
-
-https://youtu.be/1zMqGfrySnc
-
-Model: WS90
 
 ---
 
