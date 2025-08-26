@@ -2,7 +2,7 @@
 title: "Home Assistant: Templates"
 description: "Home Assistant Templates examples and how to create them"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, templates, sensors]
+tags: [Home Assistant, dashboard, lovelace, templates, sensors, helpers, boolean, conditions]
 image: /homeassistant/images_templates/ha_templates_banner.png
 ---
 
@@ -12,8 +12,8 @@ image: /homeassistant/images_templates/ha_templates_banner.png
 <br><br>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find some Home Assistant template examples.\
-With these templates you can create new custom sensors based on other sensor values to use on the dashboard or in automations.
+Here you find some Home Assistant helper template examples.\
+With these helper templates, you can create new custom sensors (conditions) based on other sensor values to use on the dashboard or in automations.
 This new sensor can have a textual output or a boolean value true/false.
 <br>
 
@@ -43,7 +43,9 @@ This new sensor can have a textual output or a boolean value true/false.
     * [What to wear outside](#what-to-wear-outside)
     * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
     * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
-    * [Is it night](#is-it-night)
+    * [Is it morning](#is-it-morning)
+    * [Is it afternoon](#is-it-afternoon)
+    * [Is it night based on the sun](#is-it-night-based-on-the-sun)
     * [Rain conditions](#rain-conditions)
       * [Buienalarm data](#buienalarm-data)
         * [Time when heavy rain is expected](#time-when-heavy-rain-is-expected)
@@ -612,9 +614,44 @@ template:
 ```
 
 ---
-### Is it night
+### Is it morning
 
-Boolean state if it is night. Will be `on` when it's night, otherwise it will be `off`.
+Boolean state if it is morning based on the current time. 
+Is it before 12.00.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+template:
+  - binary_sensor:
+      - name: "Is it morning"
+        unique_id: binary_sensor_morning_state
+        state: "{{ as_timestamp(now()) | timestamp_custom('%H') | int > 12 }}"
+        
+{% endraw %}
+```
+
+### Is it afternoon
+
+Boolean state if it is afternoon based on the current time.
+Is it after 12.00 and before 18.00.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+template:
+  - binary_sensor:
+      - name: "Is it morning"
+        unique_id: binary_sensor_morning_state
+        state: "{{ 12 <= (as_timestamp(now()) | timestamp_custom('%H') | int) < 18 }}"
+{% endraw %}
+```
+
+---
+### Is it night based on the sun
+
+Boolean state if it is night. 
+Will be `on` when it's night, otherwise it will be `off`.
 
 ```yaml
 {% raw %}
