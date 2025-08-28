@@ -201,7 +201,7 @@ Sometimes by adding a sensor outside the device.
 
 #### Stove
 * Detect if someone is cooking. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
-* Extraction fan on based on temperature/humidity. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) in the extractor hood)
+* Exhaust fan on based on temperature/humidity. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) in the cooker hood)
 <br>
 <img src="/esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
 
