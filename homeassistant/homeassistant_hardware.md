@@ -79,22 +79,25 @@ First, I want to explain some terms that are used here, and frequently used in d
 
 <div class="align-left">
 
-| Term        | Explanation                                                                                                                                                           | 
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 12th Gen    | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  | 
-| Bare metal  | It refers to a **physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    | 
-| Docker      | It's is an **application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. | 
-| Form factor | A common design for a PC group.                                                                                                                                       | 
-| HA          | Abbreviation for **Home Assistant**                                                                                                                                   | 
-| HAOS        | Abbreviation for **Home Assistant Operating System**                                                                                                                  | 
-| Home lab    | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                                | 
-| Mini PC     | This refer to the size of popular **small pc** cases.                                                                                                                 | 
-| NAS         | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               | 
-| NUC         | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            | 
-| N100        | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          | 
-| Proxmox     | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            | 
-| T630/T620   | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   | 
-| Thin client | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          | 
+| Term            | Explanation                                                                                                                                                           | 
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 12th Gen        | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  | 
+| Bare metal      | It refers to a **physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    | 
+| Beelink         | It's a brand which makes **Mini PCs**                                                                                                                                 | 
+| Docker          | It's is an **application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. | 
+| Form factor     | A common design for a PC group.                                                                                                                                       | 
+| HA              | Abbreviation for **Home Assistant**                                                                                                                                   | 
+| HAOS            | Abbreviation for **Home Assistant Operating System**                                                                                                                  | 
+| Home lab        | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                                | 
+| Mini PC         | This refer to the size of popular **small pc** cases.                                                                                                                 | 
+| NAS             | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               | 
+| NUC             | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            | 
+| N100            | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          | 
+| Proxmox         | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            | 
+| Synology        | A brand name which makes NAS computers.                                                                                                                               | 
+| T630/T620       | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   | 
+| Thin client     | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          | 
+| Virtual machine | Also known as VM, is a software-based simulation of a physical computer that runs on top of an other operating system.                                                | 
 
 </div>
 
@@ -129,19 +132,19 @@ Without to worry about latency or any other performance issues for the best expe
 
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
-{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFB63ZC){% endcapture %}
+{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_olsEVZx)*{% endcapture %}
 {% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_omkXIkf){% endcapture %}
-{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_omIhlWt){% endcapture %}
-{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFyTKN0){% endcapture %}
+{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_omIhlWt)*{% endcapture %}
+{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oF2cjXn){% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFQPjEr){% endcapture %}
-{% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_okQwYnU){% endcapture %}
+{% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_op9BDlL){% endcapture %}
 
-{% capture n95_beelink %}[Beelink](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
+{% capture n95_beelink %}[Beelink sold out](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
 {% capture n97_beelink %} n/a {% endcapture %}
-{% capture n100_beelink %}[Beelink](https://www.bee-link.com/products/beelink-mini-s12-pro-n100?variant=46167095771378){% endcapture %}
+{% capture n100_beelink %}[Beelink sold out](https://www.bee-link.com/products/beelink-mini-s12-pro-n100?variant=46167095771378){% endcapture %}
 {% capture n150_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eq14-n150?variant=46285631291634){% endcapture %}
-{% capture 12650h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12?variant=46665682026738){% endcapture %}
+{% capture 12650h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12-intel%C2%AE-core-1220p-12450h-12650h?variant=47617869545714){% endcapture %}
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
@@ -169,7 +172,7 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 185h_de %}[Amazon DE](https://amzn.to/431bmLo#ad){% endcapture %}
 {% capture hx370_de %}[Amazon DE](https://amzn.to/3D3AA0W#ad){% endcapture %}
 
-{% capture n95_nl %}[Amazon NL](https://amzn.to/_okn1cgp#ad){% endcapture %}
+{% capture n95_nl %}[Amazon NL](https://amzn.to/45BtFHY#ad){% endcapture %}
 {% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
 {% capture n100_nl %}[Amazon NL](https://amzn.to/4iclwgD#ad){% endcapture %}
 {% capture n150_nl %}[Amazon NL](https://amzn.to/3XgabUK#ad){% endcapture %}
@@ -209,15 +212,16 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 | **Price indication** | &euro; 220                    | &euro; 240                     | &euro; 150                    | &euro; 200                    |  
 | **AliExpress**       | {{n150_global}}               | {{n100_global}}                | {{n97_global}}                | {{n95_global}}                |  
 | **Amazon US**        | {{n150_us}}                   | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |  
-| **Amazon NL**        | {{n150_nl}}                   | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |  
-| **Amazon UK**        | {{n150_uk}}                   | {{n100_uk}}                    | {{n97_uk}}                    | {{n95_uk}}                    |  
+| **Amazon NL**        | {{n150_nl}}                   | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |
 | **Amazon DE**        | {{n150_de}}                   | {{n100_de}}                    | {{n97_de}}                    | {{n95_de}}                    |  
 | **Beelink**          | {{n150_beelink}}              | {{n100_beelink}}               | {{n97_beelink}}               | {{n95_beelink}}               |  
+
+> * Make sure you select the right product!
 
 #### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
-If you want to run also heavy processes, like local machine learning functionality on the server, you better can choose for a high-end
+If you want to run heavy processes, like local machine learning functionality on the server, you better can choose for a high-end
 model with more memory, faster CPU, GPU and more cores.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
@@ -241,7 +245,6 @@ model with more memory, faster CPU, GPU and more cores.
 | **AliExpress**       | {{hx370_global}}         | {{185h_global}}             | {{12650h_global}}      | 
 | **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          | 
 | **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          | 
-| **Amazon UK**        | {{hx370_uk}}             | {{185h_uk}}                 | {{12650h_uk}}          | 
 | **Amazon DE**        | {{hx370_de}}             | {{185h_de}}                 | {{12650h_de}}          | 
 | **Beelink**          | {{hx370_beelink}}        | {{185h_beelink}}            | {{12650h_beelink}}     | 
 
@@ -355,7 +358,6 @@ Be aware that the price here is without a hard disk, power supply and a case!
 | **AliExpress**                    | {{rpi5_global}}                         | {{rpi4_global}}                     | {{rpi3_global}}               |
 | **Amazon US**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
 | **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
-| **Amazon UK**                     | {{rpi5_uk}}                             | {{rpi4_uk}}                         | {{rpi3_uk}}                   |
 | **Amazon DE**                     | {{rpi5_de}}                             | {{rpi4_de}}                         | {{rpi3_de}}                   |
 
 ---
