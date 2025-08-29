@@ -30,7 +30,7 @@ and you want to upgrade to something more powerful but don't want to spend a for
 Then you're here at the right place to find out which hardware could be the best for you.
 
 <a href="images_hardware/beelink_front_back.jpg">
-<img src="images_hardware/beelink_front_back.jpg" alt="Beelink model mini pc" height="100px" {{style_img_right}}>
+<img src="images_hardware/beelink_front_back.jpg" alt="Beelink model mini pc" height="100px" {{style_img_right}} />
 </a>
 
 Then comes the question: On which hardware should I run it?
@@ -148,13 +148,13 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
-{% capture n95_us %}[Amazon US](https://amzn.to/4oajwJw#ad){% endcapture %}
-{% capture n97_us %}[Amazon US](https://amzn.to/4lI3GUI#ad){% endcapture %}
-{% capture n100_us %}[Amazon US](https://amzn.to/4f70eQZ#ad){% endcapture %}
-{% capture n150_us %}[Amazon US](https://amzn.to/4fx4hGu#ad){% endcapture %}
-{% capture 12650h_us %}[Amazon US](https://amzn.to/3IOz9WK#ad){% endcapture %}
-{% capture 185h_us %}[Amazon US](https://amzn.to/4o960FS#ad){% endcapture %}
-{% capture hx370_us %}[Amazon US](https://amzn.to/44PPzGX#ad){% endcapture %}
+{% capture n95_us %}[Amazon US](https://amzn.to/4lP3SAP#ad){% endcapture %}
+{% capture n97_us %}[Amazon US](https://amzn.to/4lUhniP#ad){% endcapture %}
+{% capture n100_us %}[Amazon US](https://amzn.to/41s2DjT#ad){% endcapture %}
+{% capture n150_us %}[Amazon US](https://amzn.to/4mXpCvg#ad){% endcapture %}
+{% capture 12650h_us %}[Amazon US](https://amzn.to/4lP5zOH#ad){% endcapture %}
+{% capture 185h_us %}[Amazon US](https://amzn.to/4lP6NJN#ad){% endcapture %}
+{% capture hx370_us %}[Amazon US](https://amzn.to/4n4MNnB#ad){% endcapture %}
 
 {% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr#ad){% endcapture %}
 {% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM#ad){% endcapture %}
@@ -216,7 +216,9 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 | **Amazon DE**        | {{n150_de}}                   | {{n100_de}}                    | {{n97_de}}                    | {{n95_de}}                    |  
 | **Beelink**          | {{n150_beelink}}              | {{n100_beelink}}               | {{n97_beelink}}               | {{n95_beelink}}               |  
 
-> * Make sure you select the right product!
+<br>
+
+\* Make sure you select the right product!
 
 #### High end
 
