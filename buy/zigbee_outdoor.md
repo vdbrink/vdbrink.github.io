@@ -48,10 +48,25 @@ Find here a set of preselected devices which you can buy for in your garden or g
 ---
 ## Rain sensor
 
+
+<a href="https://s.click.aliexpress.com/e/_oC3Qt7f" target="_blank">
+<img src="images_outdoor/rain_sensor_with_solar.avif" alt="rain sensor with solar" height="150px" style="margin-left:15px;float:right"/></a>
+
+This outdoor sensor detects raindrops.\
+It gets recharged during the day.
+It's already triggered with a single drop.
+
+{{imgBasket}}Zigbee raindrop sensor
+<a href="https://s.click.aliexpress.com/e/_oC3Qt7f" target="_blank">(AliExpress)</a>
+
+[//]: # (<a href="https://www.zigbee2mqtt.io/devices/.html" target="_blank" title="">{{imgZ2M}}</a>)
+
+<br>
+
 <a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">
 <img src="images_outdoor/rain_sensor.avif" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-This outdoor sensor detects raindrops.\
+This other outdoor sensor detects also raindrops.\
 It runs on two AAA batteries.
 It's already triggered with a single drop.
 
@@ -286,7 +301,7 @@ This is a **dual socket** outdoor Zigbee device, where each socket can be contro
 ## Water flow controller
 
 <a href="https://s.click.aliexpress.com/e/_on4sUFj" target="_blank">
-<img src="images_zigbee/water_flow_controller.avif" alt="Zigbee water flow controller" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="images_outdoor/water_flow_controller.avif" alt="Zigbee water flow controller" height="150px" style="margin-left:15px;float:right"/></a>
 This can create a drip irrigation system due to its built-in water flow recorder controller.
 
 {{imgBasket}}Zigbee water valve - GiEX (Tuya) 
