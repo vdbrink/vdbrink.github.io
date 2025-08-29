@@ -32,12 +32,13 @@ Find here a set of preselected devices which you can buy for in your garden or g
     * [NAS-STH02B2](#nas-sth02b2)
     * [TS0601](#ts0601)
   * [Weather stations](#weather-stations)
-    * [Ecowitt 7-in-1](#ecowitt-7-in-1)
+    * [Ecowitt Wittboy 7-in-1](#ecowitt-wittboy-7-in-1)
   * [Garden lights](#garden-lights)
     * [Spotlight](#spotlight)
     * [Floodlight](#floodlight)
   * [LED strip](#led-strip)
   * [Outdoor socket](#outdoor-socket)
+  * [Water flow controller](#water-flow-controller)
 <!-- TOC -->
 
 ---
@@ -129,8 +130,10 @@ It isn't a Zigbee device (these devices doesn't exist with Zigbee) but a WiFi we
 * GW2000 IoT Wi-Fi Gateway
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 
-The <a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">Ecowitt HP2564 Wittboy Weather Station (AliExpress)</a> includes:
-* HP2560 7" display with all weather data presented and works as gateway 
+<br>
+
+An alternative model is the <a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">Ecowitt HP2564 Wittboy Weather Station (AliExpress)</a>, this one includes:
+* HP2560 a 7" display with all weather data presented and this works as gateway to Home Assistant
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 
 <a href="https://s.click.aliexpress.com/e/_oBO5vtN" target="_blank">
@@ -277,6 +280,18 @@ This is a **dual socket** outdoor Zigbee device, where each socket can be contro
 <a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank" title="A4Z">{{imgZ2M}}A4Z</a>
 
 <br>
+
+---
+
+## Water flow controller
+
+<a href="https://s.click.aliexpress.com/e/_on4sUFj" target="_blank">
+<img src="images_zigbee/water_flow_controller.avif" alt="Zigbee water flow controller" height="150px" style="margin-left:15px;float:right"/></a>
+This can create a drip irrigation system due to its built-in water flow recorder controller.
+
+{{imgBasket}}Zigbee water valve - GiEX (Tuya) 
+<a href="https://s.click.aliexpress.com/e/_on4sUFj" target="_blank">(AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/GX02.html" target="_blank" title="GX02">{{imgZ2M}}GX02</a>
 
 ---
 
