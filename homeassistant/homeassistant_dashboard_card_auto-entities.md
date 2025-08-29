@@ -280,7 +280,8 @@ show_empty: true
 ---
 ## Missing devices
 
-Show devices which didn't change their value for more than 1440 minutes (1 day). 
+Show devices which didn't trigger an update for the last 24 hours.
+You can fine tune this by including or excluding specific devices.
 
 <img src="images_autoentities/missing-devices-autoentities.png" alt="Missing devices" width="400px">
 
