@@ -296,19 +296,19 @@ card:
 filter:
   include:
     - entity_id: /sensor.*_temperature/
+      last_updated: "> 24h ago"
       options:
         secondary_info: last-changed
-        last_changed: '> 1440'
     - domain: binary_sensor
+      last_updated: "> 24h ago"
       attributes:
         device_class: motion
       options:
         secondary_info: last-changed
-        last_changed: '> 1440'
     - entity_id: /sensor.*_contact/
+      last_updated: "> 24h ago"
       options:
         secondary_info: last-changed
-        last_changed: '> 1440'
 sort:
   method: last_changed
   count: 15
