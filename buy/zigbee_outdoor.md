@@ -62,6 +62,9 @@ It's already triggered with a single drop.
 [//]: # (<a href="https://www.zigbee2mqtt.io/devices/.html" target="_blank" title="">{{imgZ2M}}</a>)
 
 <br>
+<br>
+<br>
+<br>
 
 <a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">
 <img src="images_outdoor/rain_sensor.avif" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
