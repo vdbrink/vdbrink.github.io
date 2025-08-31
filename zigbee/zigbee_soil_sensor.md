@@ -180,4 +180,4 @@ Other Zigbee sensors to track your plant health!
 
 * {{imgBasket}}[Rain and light sensor (AliExpress)](https://s.click.aliexpress.com/e/_EIt99cD)
 
-* {{imgBasket}}[Light sensor (AliExpress)](https://s.click.aliexpress.com/e/_DdVtS4P)
+* {{imgBasket}}[Light sensor (AliExpress)](https://s.click.aliexpress.com/e/_oBxc9XP)

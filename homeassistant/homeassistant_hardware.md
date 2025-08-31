@@ -132,10 +132,10 @@ Without to worry about latency or any other performance issues for the best expe
 
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
-{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_olsEVZx)*{% endcapture %}
+{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_o2dUKnj)*{% endcapture %}
 {% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_omkXIkf){% endcapture %}
-{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_omIhlWt)*{% endcapture %}
-{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oF2cjXn){% endcapture %}
+{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_ooulm3b){% endcapture %}
+{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_oF4v4RT){% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFQPjEr){% endcapture %}
 {% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_op9BDlL){% endcapture %}
