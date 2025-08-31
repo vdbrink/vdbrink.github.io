@@ -209,7 +209,7 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 | **Memory**           | 16 GB                         | 16 GB                          | 12 GB                         | 8 GB                          |  
 | **Hard disk**        | 512 GB                        | 500 GB                         | 512 GB                        | 256 GB                        |  
 | **Cores / Threads**  | 8 / 8                         | 4 / 4                          | 4 / 4                         | 4 / 4                         |  
-| **Price indication** | &euro; 220                    | &euro; 240                     | &euro; 150                    | &euro; 200                    |  
+| **Price indication** | &euro; 260 - 350              | &euro; 300                     | &euro; 160                    | &euro; 180                    |  
 | **AliExpress**       | {{n150_global}}               | {{n100_global}}                | {{n97_global}}                | {{n95_global}}                |  
 | **Amazon US**        | {{n150_us}}                   | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |  
 | **Amazon NL**        | {{n150_nl}}                   | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |
@@ -243,7 +243,7 @@ model with more memory, faster CPU, GPU and more cores.
 | **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  | 
 | **Hard disk**        | 1024 GB (also with 2 TB) | 1024 GB (also with 2 TB)    | 512 GB                 | 
 | **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                | 
-| **Price indication** | &euro; 1400              | &euro; 1000 - 1400          | &euro; 600 - 700       | 
+| **Price indication** | &euro; 1200 - 2000       | &euro; 1000 - 1800          | &euro; 300 - 400       | 
 | **AliExpress**       | {{hx370_global}}         | {{185h_global}}             | {{12650h_global}}      | 
 | **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          | 
 | **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          | 
