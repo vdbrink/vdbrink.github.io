@@ -46,6 +46,7 @@ If the product is also available at Amazon, I also placed a link to it also.
     * [Temperature sensor](#temperature-sensor)
     * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
+    * [Pressure sensor](#pressure-sensor)
     * [Lights](#lights)
       * [Bulb](#bulb)
     * [Bulb socket](#bulb-socket)
@@ -70,7 +71,9 @@ If the product is also available at Amazon, I also placed a link to it also.
     * [USB-C to USB-C](#usb-c-to-usb-c)
     * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
+    * [Adapters](#adapters)
   * [Battery powered with PIR](#battery-powered-with-pir)
+    * [Lights](#lights-1)
 <!-- TOC -->
 
 ---
@@ -428,6 +431,23 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 <br>
+
+---
+
+### Pressure sensor
+
+<a href="https://s.click.aliexpress.com/e/" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+A small strip with pressure sensors in it.\
+I got a separated page how I created my own [Zigbee chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
+
+Suitable for chairs/carpets/beds/sofas/carpets:
+* Compact and convenient, multiple pressure control point sensors
+* Flexible, lightweight, bend-resistant
+* Power input：CR2032 battery
+
+{{imgBasket}}Zigbee pressure sensor  - Tuya
+<a href="https://s.click.aliexpress.com/e/" target="_blank">(AliExpress)</a>
 
 ---
 
