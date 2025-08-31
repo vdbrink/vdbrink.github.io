@@ -60,13 +60,15 @@ entities:
 {% endraw %}
 ```
 
+<!--
 Based on the Buienalarm data, I created [multiple sensors](/homeassistant/homeassistant_templates#rain-conditions)
 to indicate when: 
 * [It starts with light/medium/heavy rain](/homeassistant/homeassistant_templates#time-when-heavy-rain-is-expected)
 * [At what time it will be dry again](/homeassistant/homeassistant_templates#time-when-it-becomes-dry-again)
 * [Expected rain amount](/homeassistant/homeassistant_templates#expected-rain-amount)
 
-Take a look also to these templates.
+Take also a look at these templates.
+-->
 
 ---
 ## Animated weather predictions
@@ -90,6 +92,32 @@ hide_today_section: false
 hide_forecast_section: false
 {% endraw %}
 ```
+
+This card is highly customizable.
+To show more days, no clock and also the expected weather per weather hour.
+
+<img src="images_weather/weather_per_hour.jpg" alt="clock-weather-card per hour" width="400px">
+
+This is the corresponding code:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:clock-weather-card
+entity: weather.forecast_home
+forecast_days: 5
+locale: nl
+time_format: 24
+hide_clock: true
+date_pattern: ""
+hide_today_section: true
+hide_forecast_section: false
+hourly_forecast: true
+forecast_rows: 12
+{% endraw %}
+```
+
 ---
 ## Weather predictions
 
@@ -125,7 +153,7 @@ Based on the Buienalarm data: a number how much rain is expected.
         {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
         {% set total_precip = 0 %}
         {% for value in rain %}
-          {% set total_precip = total_precip +(value | int) %}
+          {% set total_precip = total_precip + (value | int) %}
         {% endfor %}
         {{ total_precip }}
 {% endraw %}

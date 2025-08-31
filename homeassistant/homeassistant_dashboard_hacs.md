@@ -310,7 +310,9 @@ hide_forecast_section: false
 {% endraw %}
 ```
 
-BeardedTinker also made a YouTube video about this card.
+[See also another presentation with the weather per hour >](/homeassistant/homeassistant_dashboard_weather#clock-weather-card-per-hour)
+
+BeardedTinker made a YouTube video about this card.
 [![Clock Weather Card HA installation](http://img.youtube.com/vi/jHgnO3JryCM/0.jpg)](http://www.youtube.com/watch?v=jHgnO3JryCM "Clock Weather Card HA installation")
 
 ---

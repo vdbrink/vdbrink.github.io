@@ -18,6 +18,7 @@ Here you can find weather related examples for your own dashboard.
 <!-- TOC -->
   * [Lightning and thunderstorm](#lightning-and-thunderstorm)
   * [Outside pressure, good vs bad](#outside-pressure-good-vs-bad)
+  * [HACS Clock weather card](#hacs-clock-weather-card)
   * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
 <!-- TOC -->
 
@@ -58,6 +59,57 @@ A template that indicates good or bad based on a threshold value.
         {% else %}
           bad
         {% endif %}
+{% endraw %}
+```
+
+---
+
+## HACS Clock weather card
+
+<img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
+
+Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
+[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:clock-weather-card
+entity: weather.home
+forecast_days: 3
+locale: nl
+time_format: 24
+date_pattern: P
+hide_today_section: false
+hide_forecast_section: false
+{% endraw %}
+```
+
+<a name="clock-weather-card-per-hour"></a>
+
+This card is highly customizable.
+To show more days, no clock and also the expected weather per weather hour.
+
+<img src="images_weather/weather_per_hour.jpg" alt="clock-weather-card per hour" width="400px">
+
+This is the corresponding code:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:clock-weather-card
+entity: weather.forecast_home
+forecast_days: 5
+locale: nl
+time_format: 24
+hide_clock: true
+date_pattern: ""
+hide_today_section: true
+hide_forecast_section: false
+hourly_forecast: true
+forecast_rows: 12
 {% endraw %}
 ```
 
