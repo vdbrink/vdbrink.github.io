@@ -215,7 +215,7 @@ It can also detect persons who sit still or laying in bed.
 
 <br>
 
-<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_okFlU1n" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals. 
@@ -226,18 +226,18 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 **Best option:**\
 {{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara
-<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_okFlU1n" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3GT5efA#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/45DHsfK#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/3Oj8yR5#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM / P1</a>
 
-<a href="https://s.click.aliexpress.com/e/_oks5GWt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_okFlU1n" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
 <br>
 
-**Cheaper option:**\
+**Alternative option:**\
 {{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
 <a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/41NgMIi#ad" target="_blank">(Amazon DE)</a>
@@ -354,7 +354,7 @@ Battery: CR2477
 
 ### Light intensity sensor
 
-<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A light intensity sensor (lux sensor) measures the amount of light brightness.\
@@ -362,12 +362,12 @@ Usefull to enable the lights when it becomes dark outside.
 
 **Best option:**\
 {{imgBasket}}Zigbee lux sensor - Aqara
-<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">(AliExpress)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/GZCGQ01LM.html" target="_blank" title="GZCGQ01LM">{{imgZ2M}}GZCGQ01LM</a>
 Very reliable, very long battery life, quick response on small light changes, more expensive.
 
-<a href="https://s.click.aliexpress.com/e/_DdVtS4P" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" /></a>
 
 **Cheaper option 1:**\
