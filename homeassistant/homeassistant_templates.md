@@ -46,10 +46,6 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Is it morning](#is-it-morning)
     * [Is it afternoon](#is-it-afternoon)
     * [Is it night based on the sun](#is-it-night-based-on-the-sun)
-    * [Rain conditions](#rain-conditions)
-      * [Buienalarm data](#buienalarm-data)
-        * [Time when heavy rain is expected](#time-when-heavy-rain-is-expected)
-        * [Time when it becomes dry again](#time-when-it-becomes-dry-again)
         * [Expected rain amount](#expected-rain-amount)
         * [Rain intensity](#rain-intensity)
       * [Buienradar data](#buienradar-data)
@@ -665,6 +661,7 @@ template:
         icon: "{{ 'mdi:weather-night' if is_state('sun.sun', 'below_horizon') else 'mdi:weather-sunny' }}" 
 {% endraw %}
 ```
+<!--
 
 ---
 ### Rain conditions
@@ -789,6 +786,7 @@ Heavy rain expected at: {{ heavy_rain_epoch | timestamp_custom("%H:%M") }}
 {% endif %}
 {% endraw %}
 ```
+-->
 
 ##### Expected rain amount
 
