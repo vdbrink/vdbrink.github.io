@@ -339,8 +339,8 @@ Model: ZY-TH01Pro
 <!--<a href="https://www.zigbee2mqtt.io/devices/ZY-TH01Pro.html" target="_blank" title="ZY-TH01Pro">{{imgZ2M}}ZY-TH01Pro</a>-->
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/display_temp_hum.avif" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
 
-**Water-resistant option:**\
-{{imgBasket}}Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with probe and display.
+#### Water-resistant option:
+{{imgBasket}}Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display.
 <a href="https://s.click.aliexpress.com/e/_oEuJPkc" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4oWI9dd#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/44Unhd2#ad" target="_blank">(Amazon NL)</a>
@@ -349,7 +349,7 @@ Model: SNZB-02LD
 Battery: CR2477 
 <a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
 
-<a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
+<a href="https://s.click.aliexpress.com/e/_oEuJPkc" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
 
 <br>
 
@@ -421,13 +421,13 @@ Another leak sensor is the one with a wire, this sensor itself isn't water-resis
 This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
 {{imgBasket}}Zigbee leak sensor
-<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_o2bErAz" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3H5bBwd#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4mKUwH4#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/45cjJTY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
-<a href="https://s.click.aliexpress.com/e/_okW2H3h" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_o2bErAz" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 <br>
@@ -910,8 +910,8 @@ I use these a lot for all kinds of Christmas decorations.
 <a href="https://amzn.to/4lv9H7M#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3AIfXqb#ad" target="_blank">(Amazon NL)</a>
 
-{{imgBasket}}AAA battery replacement with USB 
-<a href="https://s.click.aliexpress.com/e/_oF5APee" target="_blank">(AliExpress)</a>
+{{imgBasket}}AAA battery replacement with USB
+<a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cqCQwo#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4jnFDZB#ad" target="_blank">(Amazon NL)</a>
 

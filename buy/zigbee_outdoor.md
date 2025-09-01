@@ -311,6 +311,9 @@ This can create a drip irrigation system due to its built-in water flow recorder
 <a href="https://s.click.aliexpress.com/e/_on4sUFj" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GX02.html" target="_blank" title="GX02">{{imgZ2M}}GX02</a>
 
+<br>
+<br>
+
 ---
 
 See also my [Indoor sensors - Best Buy Tips](smart_home_best_buy_tips)
