@@ -7,6 +7,7 @@ tags: [projects, home automation]
 
 Here you find bigger projects I've done.
 
+* [DIY chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor)
 * [Stretch display with Home Assistant dashboard](/projects/stretch_display)
 * [Smart traditional mailbox](/projects/smart_mailbox)
 * [Battery powered devices powered by an outlet](/zigbee/zigbee_outlet_sensor)

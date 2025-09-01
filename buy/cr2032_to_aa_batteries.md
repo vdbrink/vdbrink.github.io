@@ -13,7 +13,7 @@ image: /buy/images_batteries/cr2032_to_aa_banner.jpg
 
 <br>
 
-<img src="/buy/images_batteries/cr2032.webp" alt="CR2032" height="100px" style="float:right;padding-left:15px">
+<img src="/buy/images_batteries/cr2032.webp" alt="CR2032" height="100px" style="float:right;margin-left:15px">
 
 Due to the small size of the CR2032, they don't contain as much power as AA batteries.\
 There is a way to replace a small CR2032 battery with two high capacity AA batteries for a much longer (18.5x) life span for your sensors.

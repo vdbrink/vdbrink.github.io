@@ -945,7 +945,7 @@ cards:
 The system can automatically be controlled by different type of sensors and actuators:
 - The original 15RF remote.
 - A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 CO2 sensor](co2_senseair_s8_sensor).
-- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/smart_home_best_buy_tips#temperature-sensor) in the extractor hood above the stove.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/smart_home_best_buy_tips#temperature-sensor) in the cooker hood above the stove.
 - A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500px" />
@@ -985,12 +985,12 @@ Every 15 minutes this flow is triggered.
 
 <br/>
 
-**Kitchen extractor hood checks:**
-* Is the humidity in the kitchen extractor hood less than 70%?
+**Kitchen cooker hood checks:**
+* Is the humidity in the kitchen cooker hood less than 70%?
   *  When you heat food on the stove, the humidity can rise and drop.
-* Is the difference between the humidity in- and outside the extractor hood less than 7%?
+* Is the difference between the humidity in- and outside the cooker hood less than 7%?
   *  When you heat food on the stove, the humidity will drop.
-* Is the extractor hood temperature lower than 26 degrees?
+* Is the cooker hood temperature lower than 26 degrees?
     * This can be caused by the dryer or taking a shower.
 
 <br/>
