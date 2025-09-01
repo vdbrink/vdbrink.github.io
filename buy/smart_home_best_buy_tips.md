@@ -568,7 +568,7 @@ These buttons can trigger multiple scenarios because they support three press ty
 
 **Cheaper option:**\
 {{imgBasket}}Small Zigbee button - Tuya / Loginovo 
-<a href="https://s.click.aliexpress.com/e/_DE12BCH" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_on6fohX" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4l6OrUs#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-101ZL.html" target="_blank" title="ZG-101ZL">{{imgZ2M}}ZG-101ZL</a>
 
@@ -582,13 +582,13 @@ These buttons can trigger multiple scenarios because they support three press ty
 
 ### Vibration sensor
 
-<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_oEsclmH" target="_blank">
 <img src="images_zigbee/zigbee_vibration_sensor.webp" alt="Zigbee button" height="150px" style="margin-left:15px;float:right"/></a>
 
 This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 {{imgBasket}}Zigbee vibration sensor - Aqara 
-<a href="https://s.click.aliexpress.com/e/_Dn1kLJv" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_oEsclmH" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4f2IrKG#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3JpoqlT#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/3OiAAvY#ad" target="_blank">(Amazon NL)</a>
@@ -780,7 +780,7 @@ It took me a while before I got the correct smart socket for this purpose, and n
 
 ### Power strip
 
-<a href="https://s.click.aliexpress.com/e/_onwtZ2p" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_omZ0ZpF" target="_blank">
 <img src="/buy/images_zigbee/powerstrip.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 Zigbee power strip with 4x outlets (max. 16A) and 2x USB-A (5V 2.1A).
 <br><br>
@@ -861,13 +861,13 @@ If you're looking for a U-rail solution, you can look at [Slide - Smart Curtains
 
 ## Google Coral USB
 
-<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_om0IKYH" target="_blank">
 <img src="images_zigbee/google_coral.webp" alt="Google Coral" width="150px" style="margin-left:15px;float:right"/></a>
 
 USB stick to handle heavy GPU processes, like human detection with Frigate.
 
 {{imgBasket}}Coral USB - Google 
-<a href="https://s.click.aliexpress.com/e/_DlhnnAf" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_om0IKYH" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/415ZUfA#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4594MC0#ad" target="_blank">(Amazon NL)</a>
 
