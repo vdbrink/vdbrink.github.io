@@ -13,7 +13,7 @@ image: /projects/images_mailbox/sensor_in_mailbox.jpg
 
 <img src="images_mailbox/traditional_mailbox.png" alt="mailbox" height="100px" style="margin-left:15px;float: right;"/>
 A physical (snail)mail notification was one of the first projects I realized.
-I lived in an apartment and had to go a few stairs down to check if there was mail delivered.
+I lived in an apartment and had to go a few stairs down to check if there was mail or a package delivered.
 Sometimes you're waiting for a letter or package and want to know as soon as possible that it's delivered.
 <br>
 <br>
@@ -35,9 +35,15 @@ Here you can read how I've made different mail- and package boxes smart.
     * [Letterbox flap](#letterbox-flap)
     * [Package box](#package-box)
   * [Alternative solutions](#alternative-solutions)
+    * [Leak sensor](#leak-sensor)
+    * [Vibration sensor](#vibration-sensor)
     * [Long range protocols](#long-range-protocols)
     * [Camera](#camera)
   * [Home Assistant](#home-assistant)
+    * [Mailbox contact last time changed](#mailbox-contact-last-time-changed)
+    * [Timer when the last time mail was delivered](#timer-when-the-last-time-mail-was-delivered)
+    * [Conditional message for two minutes](#conditional-message-for-two-minutes)
+    * [Mushroom icon to indicate there is a package delivered](#mushroom-icon-to-indicate-there-is-a-package-delivered)
 <!-- TOC -->
 
 > **_NOTE:_** Links on this page can be affiliate links.
@@ -51,8 +57,8 @@ and took every few minutes a photo and compare it with the previous one.
 When the photo was totally different compared to the previous photo, mail was delivered and the photo was sent to my phone.
 When I emptied the mailbox, the photo was again different compared to the previous one, but it was the same compared to a reference photo of an empty mailbox.
 This marked the mailbox as empty again!\
-This worked, but the only downside was that I had no main power supply nearby that mailbox.
-I tried with a large battery pack and the use of deep sleep of the board, but still the battery was within less than two weeks empty. 
+This worked well, but the only downside was that I had no main power supply nearby that mailbox.
+I tried with a large battery pack and the use of deep sleep of the board, but still the battery was within less than two weeks empty.
 Changing every two weeks the battery wasn't a suitable solution.
 
 I decided to make it less smart and use my already existing Zigbee network to place a contact sensor inside the mailbox to detect if the flap was opened. 
@@ -83,18 +89,17 @@ For mailboxes with a locked door to get the mail out of it, some extra automatio
 * Set the status `Mail delivered` which can be used to show as status icon on your dashboard.
 * Reset the `Mail delivered` status when the mailbox door is opened.
 
-(I have all my automations in Node-RED, I can't share these HA automations.)
-
 ---
 ### Reed contact sensor
 
 I only use reed contact sensors, this is how they work:\
+<a href="images_mailbox/reedcontact.jpg"><img src="images_mailbox/reedcontact.jpg" alt="reed contact" height="200px"/></a>
+
 By default, the magnet is placed close by the sensor so the two metals touch each other in the reed-contact and the circuit is closed.
 When the mail man opens the flap, the magnet gets too far away and the reed-contact state changes to open, which triggers the change to the contact sensor.
 
-<a href="images_mailbox/reedcontact.jpg"><img src="images_mailbox/reedcontact.jpg" alt="how reed contacts work" height="200px"/></a>
-
-I use the Zigbee [Aqara contact sensor](/buy/smart_home_best_buy_tips#contact-sensor), they have a good range, long battery life and compact size.
+For all mailboxes, I used the Zigbee [Aqara contact sensor](/buy/smart_home_best_buy_tips#contact-sensor), they have a good range,
+long battery life and compact size.
 
 ---
 ## Mailbox types
@@ -155,9 +160,10 @@ You can read a large blog post how I installed it [here](/projects/packages-mail
 
 By default, it wasn't smart at all, but by adding two contact sensors it's now much smarter now.
 It knows when a package is delivered, and it knows when the door is opened to remove the packages out of it.
-I assume now no package is still there, after this door was opened and closed, again and show this on my dashboard.
+I assume now no package is still there after this door was opened and closed. 
+I show this state on my dashboard.
 
-This is how the Allux 600 looks from the outside. 
+This is how the Allux 600 looks from the outside.
 I added an extra sticker on top of it to get some extra attention from delivery companies to let them know they can put the package over here.
 
 <a href="./images_allux-600/final-result.jpg">
@@ -243,7 +249,7 @@ entities:
 ```
 ### Timer when the last time mail was delivered
 
-Show the passed time since the last time the mailbox flap was opened. 
+Show the passed time since the last time the mailbox flap was opened.
 
 <img src="images_mailbox/home_assistant_time_helper.png" width="400px" alt="home assistant helper time passed" />
 
