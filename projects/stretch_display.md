@@ -78,17 +78,18 @@ For my project, I use option 1, but there are a lot of displays available on the
 
 #### Option 2
 
-<a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 110,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_okiVQVv" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 110,- (AliExpress)
 * Same size and resolution but a better version as above
 * WITH IPS touchscreen
 * Brighter colors
 * Raspberry mount on the back
 
-  <a href="https://s.click.aliexpress.com/e/_DEmLYoL" target="_blank"><img src="images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch display with touchscreen" width="30%"/></a>
+  <a href="https://s.click.aliexpress.com/e/_okiVQVv" target="_blank"><img src="images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch display with touchscreen" width="30%"/></a>
 
 #### Option 3
 
-<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="_blank">Stretch displays are also in all different size available</a> (AliExpress)
+<a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="_blank">Stretch displays are also in all different sizes available</a> (AliExpress)
+* <a href="https://s.click.aliexpress.com/e/_olMnE0P" target="_blank">like an 11.3"</a> (AliExpress)
 
 Of course, any other display can also be used!
 
