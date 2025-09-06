@@ -39,12 +39,13 @@ If the product is also available at Amazon, I also placed a link to it also.
 <!-- TOC -->
   * [Why I chose Zigbee](#why-i-chose-zigbee)
   * [Zigbee coordinator](#zigbee-coordinator)
+  * [Home server](#home-server)
   * [Zigbee sensors and actuators](#zigbee-sensors-and-actuators)
     * [Contact sensor](#contact-sensor)
     * [Motion sensor](#motion-sensor)
     * [Presence detection sensor](#presence-detection-sensor)
     * [Temperature sensor](#temperature-sensor)
-      * [Water-resistant option](#water-resistant-option)
+      * [Water-resistant option:](#water-resistant-option)
     * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
     * [Pressure sensor](#pressure-sensor)
@@ -146,6 +147,16 @@ You can use a {{imgBasket}}USB A extension cord <a href="https://s.click.aliexpr
 <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">(Amazon NL)</a> for it.
 
 <br>
+
+---
+
+## Home server
+
+If you're looking for (upgrade) hardware where you can run Home Assistant and other service on 
+then you can take a look at this page: 
+[Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)\
+I explain which options are available and make common used terms clear.
+I hope this gives you more information to make a good choice.
 
 ---
 

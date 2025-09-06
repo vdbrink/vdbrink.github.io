@@ -7,6 +7,8 @@ tags: [projects, home automation]
 
 Here you find bigger projects I've done.
 
+<img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" width="400px">
+
 * [DIY chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor)
 * [Stretch display with Home Assistant dashboard](/projects/stretch_display)
 * [Smart traditional mailbox](/projects/smart_mailbox)

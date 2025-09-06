@@ -191,7 +191,7 @@ You only need to add this code to your `configuration.yaml` file.
 panel_iframe:
   mealie:
     title: Mealie
-    url: "http://<ip-address>:9926"
+    url: "http://<ip-address>:9925"
     icon: mdi:silverware-fork-knife
 {% endraw %}
 ```
