@@ -205,20 +205,20 @@ cards:
   - type: custom:mushroom-template-card
     primary: |-
       Weeds:
-      {% set level = states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %}
-      {% if level == 0 %} None
-      {% elif level <= 20 %} Low
-      {% elif level <= 77 %} Moderate 
-      {% elif level <= 266 %} High
-      {% else %} very High
-      {% endif %}
+      {% set input_name = 'Ragweed' %}
+      {% set details = state_attr('sensor.kleenex_pollen_radar_huis_weeds', 'details') %}
+      {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+      {% set level = item.level | default('N/A') %}
+      {% set color_map = {'none': 'green', 'low': 'green', 'moderate': 'orange', 'high': 'red','very high': 'maroon'} %} {{ level }}
     secondary: "{{ states('sensor.kleenex_pollen_radar_huis_weeds') }} ppm"
     icon: mdi:flower-pollen
     icon_color: |-
-      {% set level =
-      states('sensor.kleenex_pollen_radar_huis_weeds')|int(0) %} {% if level ==
-      0 %} green {% elif level <= 95 %} yellow {% elif level <= 207 %} orange  {%
-      elif level <= 703 %} red {% else %} maroon {% endif %}
+      {% set input_name = 'Ragweed' %}
+      {% set details = state_attr('sensor.kleenex_pollen_radar_huis_weeds', 'details') %}
+      {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+      {% set level = item.level | default('N/A') %}
+      {% set color_map = {'none': 'green', 'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %}
+      {% set level_color = color_map.get(level, 'gray') %} {{ level_color }}
     layout: vertical
     entity: sensor.kleenex_pollen_radar_huis_weeds
     multiline_secondary: false
