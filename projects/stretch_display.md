@@ -78,7 +78,7 @@ For my project, I use option 1, but there are a lot of displays available on the
 
 #### Option 2
 
-<a href="https://s.click.aliexpress.com/e/_okiVQVv" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 110,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_okiVQVv" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 90,- (AliExpress)
 * Same size and resolution but a better version as above
 * WITH IPS touchscreen
 * Brighter colors

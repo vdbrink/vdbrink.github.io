@@ -260,10 +260,9 @@ Sometimes by adding a sensor outside the device.
 * Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Close the sunscreen if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Notification when the gate is opened. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
-* Turn the lights on when going outside in the evening/night. ([lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
+* Turn the lights on when going outside, by opening the door, in the evening/night. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
 * Put out the sunscreen when it heats the home too much.
-* Close the curtains when it heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
-* Close the curtains when it cools the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
+* Close the curtains when it cools/heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
 
 #### Front yard
 

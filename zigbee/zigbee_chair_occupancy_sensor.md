@@ -42,7 +42,7 @@ Other purposes for this sensor are:
 * In the cat/dog basket
 * In the couch/sofa/relax chair
 * Under your mattress to detect bed occupancy (only works if there is enough pressure through the mattress)
-* Under a mat on the floor (to detect if someone entering a space)
+* Under a mat on the floor (to detect if someone entering a space or when the laundry basket is too heavy)
 
 ---
 
@@ -67,6 +67,7 @@ With this new sensor, it's possible to create all kind different automations, li
 * Shutdown the computer and peripherals automatically when you don't sit behind your desk for a while.
 * When it's time to take a break to stand up and stretch your legs.
 * When it's time to end your working day.
+* Show or announce today's calendar events at the start of the day. 
 
 * Control the room temperature because it's occupied.
 * Send notifications with incorrect office health state values only when you're there (CO2, temperature, humidity, PM2.5, VOC, or Formaldehyde).
