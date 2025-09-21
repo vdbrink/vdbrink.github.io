@@ -134,12 +134,12 @@ Without to worry about latency or any other performance issues for the best expe
 
 {% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_ok3c5OT)*{% endcapture %}
 {% capture n95_global2 %}[2](https://s.click.aliexpress.com/e/_oEdADw3)*{% endcapture %}
-{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_omkXIkf){% endcapture %}
-{% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_ombZl39){% endcapture %}
-{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_ooulm3b){% endcapture %}
-{% capture n100_global2 %}[2](https://s.click.aliexpress.com/e/_omdfDf9){% endcapture %}
-{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_om3qxcB){% endcapture %}
-{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_olLTZHZ){% endcapture %}
+{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3hg9nif){% endcapture %}
+{% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c4B2ED2n){% endcapture %}
+{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4mJzwzD){% endcapture %}
+{% capture n100_global2 %}[2](https://s.click.aliexpress.com/e/_c3EDJTC7)*{% endcapture %}
+{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3zXK55H){% endcapture %}
+{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c3cthETH)*{% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFQPjEr){% endcapture %}
 {% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_op9BDlL){% endcapture %}
@@ -222,7 +222,7 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 
 <br>
 
-\* Make sure you select the right product!
+\* Make sure you select the right product and check the shipping cost, these can be high sometimes to reduce the price of the product!
 
 #### High end
 
