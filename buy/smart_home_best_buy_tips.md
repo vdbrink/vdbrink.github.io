@@ -697,6 +697,20 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 
 ---
 
+## Smoke detector
+
+<a href="https://s.click.aliexpress.com/e/" target="_blank">
+<img src="images_zigbee/smoke_detector.avif" alt="smoke detector" height="150px" style="margin-left:15px;float:right"/></a>
+
+{{imgBasket}}Zigbee smoke detector - Heiman
+<a href="https://s.click.aliexpress.com/e/_c4emkYtV" target="_blank">(AliExpress)</a>
+
+<a href="https://www.zigbee2mqtt.io/devices/HS1SA.html" target="_blank" title="HS1SA Heiman smoke detector">{{imgZ2M}}HS1SA</a>
+
+<br>
+
+---
+
 ### Infrared remote control
 
 <a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">

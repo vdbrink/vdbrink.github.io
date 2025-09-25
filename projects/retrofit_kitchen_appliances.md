@@ -247,7 +247,7 @@ A sink can be made smarter with automations like a notification when there is a 
 
 * With a [leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) (or a modified [contact sensor](/zigbee/zigbee_water_leak_sensor)) under the sink: you can detect leaks.
 * With a [automatic and handsfree soap dispenser](/buy/smart_home_best_buy_tips#automatic-soap-dispenser): you can wash your hands quicker (the soap is already foam) and without touching the dispenser.
-* 
+
 <br>
 
 **Notifications**
@@ -263,6 +263,8 @@ With these automations you can make the next notifications and/or announcements 
 
 ## Coffee machine
 
+A coffee machine can be made a bit smarter and notify you when it's time to order new beans or cups, or when it needs descaling.
+
 <img src="images_kitchen_appliances/coffee_machine.jpg" alt="coffee machine" width="200px" {{margin}}>
 
 **Sensors and automations**
@@ -276,12 +278,13 @@ With a [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) attach
 With these automations you can make the next notifications and/or announcements when the coffee machine ...
 
 * to order new beans or cups (count the brewed coffees).
-* to descale the machine.
-* to clean the machine internally.
+* to descale the machine after it's used X times.
 
 ---
 
 ## Lights
+
+Lights in the kitchen can be made smarter by automating them based on presence or daylight.
 
 <img src="images_kitchen_appliances/kitchen.jpg" alt="lights" width="200px" {{margin}}>
 
@@ -293,12 +296,6 @@ With these automations you can make the next notifications and/or announcements 
 consumption monitoring: you can monitor the energy consumption of the lights.
 
 <br>
-
-**Notifications**
-
-Actions ...
-
-* turn on the light in the kitchen when someone is detected in the kitchen.
 
 ---
 
@@ -316,7 +313,7 @@ Actions ...
 
 With these automations you can make the next notifications and/or announcements when to ...
 
-* pen a door or window when the temperature or humidity is too high.
+* open a door or window when the temperature or humidity is too high.
 
 ---
 
@@ -340,7 +337,7 @@ With these automations you can make the next notifications and/or announcements 
 
 ## Conclusion
 
-As you can read with just an addition of a few sensors to your current dumb kitchen appliances you can make them must smarter!
+As you can read with just an addition of a few sensors to your current dumb kitchen appliances, you can make them must smarter!
 
 ---
 
