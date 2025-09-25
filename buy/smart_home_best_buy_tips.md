@@ -1034,6 +1034,27 @@ Very useful for closets or stairs where no power is available.
 
 <br>
 
+### Automatic soap dispenser 
+
+With this automatic soap dispenser, you can wash your hands much quicker and without touching the soap dispenser! 
+A must-have for in my kitchen since I used it for the first time. 
+It contains a PIR sensor to detect that your hand is close by and then it dispenses a small amount of foam soap. 
+The amount can be defined in four levels.
+
+The dispenser contains the soap already mixed with water so foam is coming out of it. 
+You don't need to create the foam yourself which saves water, time and soap.
+
+I have multiple ones around the house in use.
+
+<a href="https://s.click.aliexpress.com/e/_c3omX1mT" target="_blank">
+<img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px"/></a>
+
+{{imgBasket}}Battery powered automatic soap dispenser
+<a href="https://s.click.aliexpress.com/e/_c3omX1mT" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/46IqsFS#ad" target="_blank">(Amazon US)</a>
+
+<br>
+
 ---
 
 <br><br>

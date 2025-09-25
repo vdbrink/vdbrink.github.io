@@ -21,7 +21,6 @@ Find here a set of preselected devices which you can buy for in your garden or g
 
 ---
 
-
 ## Table of Contents
 <!-- TOC -->
 * [Zigbee Outdoor - Best Buy Tips](#zigbee-outdoor---best-buy-tips)

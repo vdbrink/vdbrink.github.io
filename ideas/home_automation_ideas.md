@@ -177,6 +177,8 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 In the kitchen are a lot of peripherals, and these can be made smart. 
 Sometimes by adding a sensor outside the device.
 
+See also my dedicated page about [smart kitchen appliances](/projects/retrofit_kitchen_appliances).
+
 #### Lights
 * Lights on, based on presence + light intensity. ([motion sensor](../buy/smart_home_best_buy_tips#motion-sensor) + [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor) + normal LED strip with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
  <br>

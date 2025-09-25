@@ -955,8 +955,6 @@ The system can automatically be controlled by different type of sensors and actu
 
 <img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500px" />
 
-- A toilet [VOC (Volatile Organic Compounds) sensor](/buy/smart_home_best_buy_tips#air-quality-sensor) (Not yet realized)
-
 ### Automation script
 
 I store my sensor data in an influxDB database which gives me the possibility to visualize all the data together in a Grafana dashboard.
