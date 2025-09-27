@@ -319,7 +319,7 @@ With these automations you can make the next notifications and/or announcements 
 
 ## Smoke detector
 
-<img src="images_kitchen_appliances/smoke_detector.jpg" alt="smoke detector" width="200px" {{margin}}>
+<img src="/buy/images_zigbee/smoke_detector.avif" alt="smoke detector" width="200px" {{margin}}>
 
 **Sensors and automations**
 
@@ -343,6 +343,8 @@ As you can read with just an addition of a few sensors to your current dumb kitc
 
 Do you have any other cool kitchen automations running?
 Please let me know via the comments under my posts.
+
+---
 
 ---
 

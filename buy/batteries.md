@@ -252,7 +252,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DkYYFap" target="_blank">CR2450 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c43DyyNN" target="_blank">CR2450 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/3FRlQU0#ad" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/3G0MycM#ad" target="_blank">(AmazonNL)</a>
 
@@ -260,7 +260,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 The CR2450 rechargeable version is the **LIR2450**.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Eu4Gfup" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4q3X3X9" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DntctnV" target="_blank">Rechargeable LIR2450 + charger (AliExpress)</a>
 

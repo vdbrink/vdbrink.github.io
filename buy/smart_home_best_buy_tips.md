@@ -699,13 +699,16 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 
 ## Smoke detector
 
-<a href="https://s.click.aliexpress.com/e/" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4TV3E8L" target="_blank">
 <img src="images_zigbee/smoke_detector.avif" alt="smoke detector" height="150px" style="margin-left:15px;float:right"/></a>
 
-{{imgBasket}}Zigbee smoke detector - Heiman
-<a href="https://s.click.aliexpress.com/e/_c4emkYtV" target="_blank">(AliExpress)</a>
+The device can detect smoke and has an alarm sound of 85 dB.
 
+{{imgBasket}}Zigbee smoke detector - Heiman
+<a href="https://s.click.aliexpress.com/e/_c4TV3E8L" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/HS1SA.html" target="_blank" title="HS1SA Heiman smoke detector">{{imgZ2M}}HS1SA</a>
+
+Battery: CR123A 
 
 <br>
 
