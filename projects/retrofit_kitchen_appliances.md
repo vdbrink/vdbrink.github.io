@@ -81,7 +81,7 @@ remind you to empty it, or track usage.
 
 * With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can track if it (still) running.
 * With a [contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) on the door: you can check if the door is opened (and probably emptied).
-* With a [lux sensor](/buy/smart_home_best_buy_tips#lux-sensor) next to the light underneath it: you can check if it indicates it's still running.
+* With a [lux sensor](/buy/smart_home_best_buy_tips#lux-sensor) next to the light underneath it: you can also check if it indicates it's still running.
 
 <br>
 
@@ -148,7 +148,7 @@ With these automations you can make the next notifications and/or announcements 
 
 ## Refrigerator
 
-A refrigerator can be made smarter with automations that notify you when it's too hot or cold in side or when the door is too long open.
+A refrigerator can be made smarter with automations that notify you when it's too hot or cold inside or when the door is too long open.
 
 <img src="images_kitchen_appliances/refrigerator.webp" alt="smart refrigerator" width="200px" {{margin}}>
 
@@ -156,7 +156,6 @@ A refrigerator can be made smarter with automations that notify you when it's to
 
 * With a [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside the refrigerator and freezer: you can monitor the temperature.
 * With a door [contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) attached to the doors: you can monitor if the doors are opened or closed (in a certain time range).
-* With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can monitor the flow of the energy consumption.
 
 <br>
 
@@ -168,11 +167,7 @@ With these automations you can make the next notifications and/or announcements 
     * The linked Aqara temperature sensor works still fine with temperatures of -20 degrees Celsius. 
       They have a shorter battery life than under normal temperature conditions, but still they work as expected.
 * the door isn't opened in the evening to get some meat/fish from the freezer for the meal of the next day.
-* doesn't use the expected energy which indicates a broken functioning compressor.
-
-<br>
-
-Check my [Mealie](/homeassistant/homeassistant_dashboard_mealie) page for the implementation.
+  Check my [Mealie](/homeassistant/homeassistant_dashboard_mealie) page for the implementation.
 
 ---
 
