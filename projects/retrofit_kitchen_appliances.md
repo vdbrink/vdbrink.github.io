@@ -173,13 +173,15 @@ Check my [Mealie](/homeassistant/homeassistant_dashboard_mealie) page for the im
 
 A stove can be made smarter with automations that can activate the ventilation or warn you of too much bad air.
 
+<a href="/esphome/orcon_images/stove.jpg" target="_blank">
 <img src="/esphome/orcon_images/stove.jpg" alt="stove temperature sensor" width="200px" {{margin}}>
+</a>
 
 **Sensors and automations**
 
 * With a [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside the extractor hood: you can monitor the temperature and humidity of steam from the cooked meals.
 * With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can monitor if the extraction fan is activated.
-* With an gas sensor: you can detect is the gas is still open while you're not cooking anymore.
+* With a gas sensor: you can detect is the gas is still open while you're not cooking anymore.
 
 <br>
 
