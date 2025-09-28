@@ -158,7 +158,8 @@ A refrigerator can be made smarter with automations that notify you when it's to
 With these automations you can make the next notifications and/or announcements when the refrigerator ...
 
 * the door is open too long (also when it isn't correct closed).
-    * The linked Aqara temperature sensor works still fine with temperatures of -20 degrees Celsius.
+    * The linked Aqara temperature sensor works still fine with temperatures of -20 degrees Celsius. 
+      They have a shorter battery life than under normal temperature conditions, but still they work as expected.
 * the door isn't opened in the evening to get some meat/fish from the freezer for the meal of the next day.
 * doesn't use the expected energy which indicates a broken functioning compressor.
 
