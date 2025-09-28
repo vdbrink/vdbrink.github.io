@@ -17,7 +17,7 @@ This documentation is based on Mealie version `3.3.0` (september 2025)
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
-> **_UPDATE:_** There is now also a [Mealie integration](https://www.home-assistant.io/integrations/mealie/) in Home Assistant.\
+> **_UPDATE 07-2024:_** There is now also a [Mealie integration](https://www.home-assistant.io/integrations/mealie/) in Home Assistant.\
 > This page was already created before this exists, here I describe also other functionalities than you get with this integration.
 
 > **_UPDATE 22-10-2024:_** Mealie version `2.0.0` is released and has breaking API changes compare to the previous `1.12.0` version. 
@@ -216,7 +216,7 @@ Go to http://< ip-adress >:9925/docs to see all the available API's.
 
 To show it like this, the data must be stored in HA and then presented in a nice way. 
 
-<img src="images_mealie/day_meal_image.png" alt="meal planner" width="400px">
+<img src="images_mealie/dashboard_day_meal.png" alt="meal planner" width="400px">
 
 #### Store today's meal data as a sensor
 
