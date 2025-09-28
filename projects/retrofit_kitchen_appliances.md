@@ -298,6 +298,9 @@ consumption monitoring: you can monitor the energy consumption of the lights.
 
 ## Temperature and humidity
 
+Temperature and humidity can be monitored in the kitchen. 
+Notifications can be sent when values reach a predefined threshold. 
+
 <img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="temperature sensor" width="200px" {{margin}}>
 
 **Sensors and automations**
@@ -315,6 +318,8 @@ With these automations you can make the next notifications and/or announcements 
 ---
 
 ## Smoke detector
+
+With a smoke detector, you can detect when there is too much smoke.
 
 <img src="/buy/images_zigbee/smoke_detector.avif" alt="smoke detector" width="200px" {{margin}}>
 
