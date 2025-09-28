@@ -13,7 +13,7 @@ image: /homeassistant/images_mealie/mealie1_ha_integration.png
 
 Here you find how I seamlessly integrate the recipe manager [**Mealie**](https://docs.mealie.io/) into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
-This documentation is based on Mealie version `2.0.0`
+This documentation is based on Mealie version `3.3.0` (september 2025)
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
@@ -74,7 +74,7 @@ The program I was looking for must contain the next functionality:
 * Create a meal week planning
 * Show a photo of today's meal
 * Self-hosting
-* API to show my weekplanning in a Home Assistant dashboard
+* API to show my week planning in a Home Assistant dashboard
 
 <br>
 Mealie is the open source tool that provides all these functionalities and is active in development.
@@ -117,7 +117,7 @@ services:
  
   mealie-recipes:
     container_name: mealie-recipes
-    # This documentation is based on version 3.0.2 (augustus 2025)
+    # This documentation is based on version 3.3.0 (september 2025)
     image: ghcr.io/mealie-recipes/mealie:latest 
     restart: always
     volumes:
@@ -129,7 +129,7 @@ services:
       PGID: 1000
       TZ: Europe/Amsterdam
   
-      TOKEN_TIME: 99999
+      TOKEN_TIME: 87600 # 10 years
 {% endraw %}
 ```
 
@@ -216,7 +216,7 @@ Go to http://< ip-adress >:9925/docs to see all the available API's.
 
 To show it like this, the data must be stored in HA and then presented in a nice way. 
 
-<img src="images_mealie/picture_element_meal1_tonight.png" alt="meal planner" width="400px">
+<img src="images_mealie/day_meal_image.png" alt="meal planner" width="400px">
 
 #### Store today's meal data as a sensor
 
@@ -252,16 +252,13 @@ rest:
 
 #### Create today's meal image
 
-> **_NOTE:_** This way isn't possible anymore in the current Home Assistant version 2025-08.
-> The Still image needs to be an existing url.
-> When I have a new way to implement this, I'll update it here.
+To create the image, we use a Mealie URL which provides the images based on the stored meal ID.
+To combine the dynamic meal ID with the URL we use a Helper template image.
 
-To get the image for today, you need to add a `Generic Camera` via Settings, Devices & Services, Add Integration, and search for the generic camera entity.
+To create this helper sensor:\
+Go to Home Assistant -> Devices & services -> Helpers -> Create Helper -> Template -> Image
 
-<img src="images_mealie/mealie1_image_as_camera.png" alt="Square picture" width="400px">
-
-The only field you need to fill in is the `Still Image URL`.
-
+Give it the name `Mealie today meal` and fill in is the `URL`.
 You can use the internal docker link:
 ```yaml
 {% raw %}
@@ -276,11 +273,15 @@ http://< ip-address >:9925/api/media/recipes/{{states('sensor.mealie_todays_meal
 {% endraw %}
 ```
 
+When you click on `submit`, you have a new sensor called, `image.mealie_today_meal`.
+
+<img src="images_mealie/day_meal_image.png" alt=" picture" width="400px">
+
 #### Card element
 
 Now we have stored the name of the meal for today and the corresponding image we can use it to add it to our HA as card, like this:
 
-<img src="images_mealie/picture_element_meal1_tonight2.png" alt="Square picture" width="400px">
+<img src="images_mealie/dashboard_day_meal.png" alt="day meal on the dashboard" width="400px">
 
 Add a Picture element to the dashboard with this code:
 
@@ -288,15 +289,22 @@ Add a Picture element to the dashboard with this code:
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: picture-entity
-  entity: sensor.mealie_todays_meal
-  camera_image: camera.mealie_recipes
-  name: avond eten
-  show_state: true
-  show_name: true
-  tap_action:
-    action: navigate
-    navigation_path: /lovelace-dashboard/mealie
+- type: vertical-stack
+  cards:
+    - type: picture
+      image_entity: image.mealie_today_meal
+      style: |
+        ha-card > img {
+        height: 100px !important;
+        overflow: hidden;
+        display: flex;
+        }
+    - type: custom:mushroom-title-card
+      title: "{{states.sensor.mealie_todays_meal.state}}"
+      alignment: center
+      title_tap_action:
+        action: navigate
+        navigation_path: /lovelace-dashboard/mealie
 {% endraw %}
 ```
 
@@ -475,7 +483,7 @@ This is an example of how such notification could look like:
 <img src="images_mealie/mealie_freezer_message.jpg" alt="freezer message" width="400px">
 
 Other possible messages are:
-* "For tomorrow no recipe found"
+* "For tomorrow no recipe is found."
 * "For tomorrow nothing need out of the freezer for {recipe_name}"
 
 ### Tag an ingredient
@@ -539,7 +547,7 @@ Go make this work:
 * Copy the code from the `Output` field
 * Go to your browser
 * Go to your mealie page and bookmark it in your browser
-* Edit this bookmark and replace the link with the javascript code
+* Edit this bookmark and replace the link with the JavaScript code
 
 Go to a recipe web page and click on the Boomarklet, now this recipe will be imported into YOUR Mealie!
 
@@ -572,7 +580,8 @@ A: Yes, you can with this code block in the description.
 ```
 
 **Q: Can I disable the required login?**\
-A: No, but you can increase the hours your login token is valid. The default value is `48` hours. Use the environment variable `TOKEN_TIME` to increase this time to something like `999999`.
+A: No, but you can increase the hours your login token is valid. The default value is `48` hours. 
+Use the environment variable `TOKEN_TIME` to increase this time to something like `87600` (10 years).
 
 **Q: Where can I find more info about Mealie**\
 A: Checkout the [website](https://hay-kot.github.io/mealie/) or via [Discord](https://discord.gg/QuStdQGSGK)
