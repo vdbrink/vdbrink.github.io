@@ -11,15 +11,13 @@ image: /projects/images_kitchen_appliances/kitchen_banner.png
 # Retrofit Kitchen Appliances
 *Make your kitchen smarter*
 
-<img src="images_kitchen_appliances/kitchen_banner.png" alt="kitchen with appliances" width="100%">
+<img src="images_kitchen_appliances/kitchen_banner.png" alt="kitchen with appliances" width="450px">
 
 ## Introduction
 
 As a home automation enthusiast, I try to make as many appliances "smarter".
 Not only by buying smart appliances, but also by making my existing appliances smart by adding sensors to a "dumb" appliance.
-
-<br>
-<br>
+With kitchen appliances, this is very easy to do.
 
 The **advantage** of this approach is: 
 * that you can get started right away;
@@ -27,18 +25,18 @@ The **advantage** of this approach is:
 * The selection of models is limited, also they are usually much more expensive.
 
 <br>
-<br>
 
 The **downside** is that you don’t get all the advanced smart features, only some basic ones.
 In most cases, this is not a reason to upgrade the appliance, and in the meanwhile, this is a good enough (for me at least).
 
-What matters most in a smart device, depends on individual preferences: is it it's features, privacy, price, or durability?
+What matters most for a smart device really depends on individual preferences: 
+is it it's features, privacy, price, or durability?
 
 For me, it’s privacy (running everything locally) and durability.
 
-On this page, I describe how I’ve added basic out-of-the-box sensors to "dumb" kitchen appliances to make them a bit smarter.
+On this page, I describe how I’ve added basic out-of-the-box sensors to each of my "dumb" kitchen appliances to make them a bit smarter.
 
->Note: If you add ESPs inside these appliances to overrule the buttons and read the display from intern, 
+>Note: If you add ESPs inside these appliances and overrule the buttons and read the display from intern, 
 you can make them even smarter, but that has an impact on the safety and assurance of it. 
 This is out of scope here. 
 If you've done it yourself, please let me know. 
@@ -63,11 +61,11 @@ I'm still very interested in it!
 
 ---
 
-I'll discuss one by one how you can your appliance smarter with simple sensors and automations.
+I'll describe one by one how an appliance can be made smarter with sensors, actuators and automations.
 
 ## Dishwasher
 
-A dishwasher can be made smarter with simple automations that notify you when cycles finish, 
+A dishwasher can be made smarter with automations that notify you when cycles finish, 
 remind you to empty it, or track usage. 
 
 <img src="/hardware_hacks/images_dishwasher/dishwasher.webp" alt="dishwasher" width="200px" {{margin}}>
@@ -104,7 +102,7 @@ Automations which you **can't** make this way:
 
 ## Oven
 
-An oven can be made smarter with simple automations that notify you when it's on it set temperature.
+An oven can be made smarter with automations that notify you when it's on it set temperature.
 
 <img src="images_kitchen_appliances/oven.webp" alt="smart oven" width="200px" {{margin}}>
 
@@ -138,7 +136,7 @@ With these automations you can make the next notifications and/or announcements 
 
 ## Refrigerator
 
-A refrigerator can be made smarter with simple automations that notify you when it's too hot or cold in side or when the door is too long open.
+A refrigerator can be made smarter with automations that notify you when it's too hot or cold in side or when the door is too long open.
 
 <img src="images_kitchen_appliances/refrigerator.webp" alt="smart refrigerator" width="200px" {{margin}}>
 
@@ -167,7 +165,7 @@ Check my [Mealie](/homeassistant/homeassistant_dashboard_mealie) page for the im
 
 ## Stove
 
-A stove can be made smarter with simple automations that can activate the ventilation or warn you of too much bad air.
+A stove can be made smarter with automations that can activate the ventilation or warn you of too much bad air.
 
 <img src="/esphome/orcon_images/stove.jpg" alt="stove temperature sensor" width="200px" {{margin}}>
 
@@ -175,7 +173,7 @@ A stove can be made smarter with simple automations that can activate the ventil
 
 * With a [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside the extractor hood: you can monitor the temperature and humidity of steam from the cooked meals.
 * With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can monitor if the extraction fan is activated.
-* With an gas sensor: you can detect is the gas is still open while your not cooking anymore.
+* With an gas sensor: you can detect is the gas is still open while you're not cooking anymore.
 
 <br>
 
@@ -211,7 +209,7 @@ Like if someone is cooking.
 
 **Actuators and automations**
 
-* With an automated ventilation system you can: decide when to turn it on or off.\
+* With an automated ventilation system, you can decide when to turn it on or off.\
 I realized this by using an ESP-board to control an extra remote of the ventilation system via MQTT and Home Assistant.
 Check out my [dedicated page](/esphome/orcon_mechanic_ventilation) about this project.
 <a href="/esphome/orcon_images/orcon_compact_10rhb_esp_controlled.jpg" >
@@ -230,7 +228,7 @@ I have these automations also in place:
 * With a [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) in the ventilation tube above the shower: you can detect if someone is showering.
 
 * With a extra [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) also somewhere else in the kitchen you can compare if the kitchen air is too humid or high and decide to activate the ventilation system.
-I use this extra sensor as reference to the humidity in the stove. 
+I use this extra sensor as a reference to the humidity in the stove. 
 The humidity in the summer can be very low, but in autumn very high for the whole day. 
 In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
