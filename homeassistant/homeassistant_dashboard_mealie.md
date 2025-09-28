@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Mealie Recipe Manager"
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner]
-date: 07-07-2024
+date: 28-09-2025
 description: "How to install and integrate the recipe and meal planner Mealie into Home Assistant"
 image: /homeassistant/images_mealie/mealie1_ha_integration.png
 ---
@@ -405,21 +405,30 @@ The date will be formatted to the short notation for the day of the week.
 type: markdown
 title: week menu
 content: >-
-   <table> 
-  {% for i in range(8) %}
-    {% set index = i|string %}
-    {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
-    {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
-    {% if meal_date != 'unknown' %} 
-    <tr>
-      <td>
-        {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }} 
-       <td>&nbsp; &nbsp;</td>
-      <td>{{ meal_name }}</td>
-    </tr>
-    {% endif %}
+  <a href="/lovelace-dashboard/mealie">
+   <table> {% for i in range(8) %}
+  {% set index = i|string %}
+  {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
+  {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
+  {% if meal_date != 'unknown' %} 
+  <tr>
+  <td>{{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }} 
+   <td>&nbsp; &nbsp;</td>
+  </td> 
+  <td>{{ meal_name }} </td>
+  </tr>
+  {% endif %}
   {% endfor %}
-  </table>
+  </table></a>
+card_mod:
+  style:
+    ha-markdown:
+      $: |
+        a { 
+          all:unset; 
+          color:white ! important;
+          cursor: pointer ! important;
+        }
 {% endraw %}
 ```
 
