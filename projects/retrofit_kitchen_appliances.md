@@ -95,7 +95,7 @@ remind you to empty it, or track usage.
 
 With these automations you can make the next notifications and/or announcements when the dishwasher is ...
 * finished.
-* not emptied yet after X time after it's finished.
+* not emptied yet after X time after it's finished. You can keep sending them until the door is opened.
 * not started yet today when the time is after Y.
 
 <br>
