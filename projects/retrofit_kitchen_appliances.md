@@ -1,9 +1,9 @@
 ---
 title: "Retrofit kitchen appliances to make them smarter"
-description: "Retrofit kitchen appliances to make them smarter by adding out-of-the-box sensors to it yourself."
+description: "Retrofit kitchen appliances to make them smarter by adding out-of-the-box sensors to it."
 category: Projects
 tags: [dumb, smart, kitchen, appliances, stove, dishwasher, oven, refrigerator]
-image: /projects/images_kitchen_appliances/kitchen.jpg
+image: /projects/images_kitchen_appliances/kitchen_banner.png
 ---
 
 {% capture margin %}style="margin-left:15px;float:right"{% endcapture %}
@@ -11,11 +11,10 @@ image: /projects/images_kitchen_appliances/kitchen.jpg
 # Retrofit Kitchen Appliances
 *Make your kitchen smarter*
 
+<img src="images_kitchen_appliances/kitchen_banner.png" alt="kitchen with appliances" width="100%">
+
 ## Introduction
 
-<a href="images_kitchen_appliances/kitchen.jpg">
-<img src="images_kitchen_appliances/kitchen.jpg" alt="kitchen with appliances" width="200px" style="margin-left:15px;float:right">
-</a>
 As a home automation enthusiast, I try to make as many appliances "smarter".
 Not only by buying smart appliances, but also by making my existing appliances smart by adding sensors to a "dumb" appliance.
 
@@ -348,4 +347,4 @@ Please let me know via the comments under my posts.
 
 ---
 
-For more automation ideas around your home, check my [ideas page](/ideas/) as well.
+For more automation ideas around your home, check my [ideas page](/ideas/home_automation_ideas) as well.
