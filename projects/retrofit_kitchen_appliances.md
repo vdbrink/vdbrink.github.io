@@ -36,7 +36,12 @@ For me, it’s privacy (running everything locally) and durability.
 
 On this page, I describe how I’ve added basic out-of-the-box sensors to each of my "dumb" kitchen appliances to make them a bit smarter.
 
->Note: If you add ESPs inside these appliances and overrule the buttons and read the display from intern, 
+> **_NOTE 1:_**: BE AWARE: Before using a smart socket between your appliances, 
+> make sure your device uses less power than the smart socket can handle.
+> Appliances can also have peek current consumptions which can cause damage 
+> and possible fire when the smart socket doesn't have a peak current security in it.
+
+> **_NOTE 2:_**: If you add ESPs inside these appliances and overrule the buttons and read the display from intern, 
 you can make them even smarter, but that has an impact on the safety and assurance of it. 
 This is out of scope here. 
 If you've done it yourself, please let me know. 
@@ -58,6 +63,8 @@ I'm still very interested in it!
   * [Smoke detector](#smoke-detector)
   * [Conclusion](#conclusion)
 <!-- TOC -->
+
+> **_NOTE:_** Links on this page can be affiliate links.
 
 ---
 
