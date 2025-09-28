@@ -109,7 +109,12 @@ An oven can be made smarter with automations that notify you when it's on it set
 **Sensors and automations**
 
 * With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: 
-when the power consumption drops, it reached his preset temperature.
+when the power consumption drops, it reached his preset temperature.\
+ First check the manual of your oven to see if the wattage is below the maximum of the smart socket.
+  <a href="images_kitchen_appliances/oven_power.png" target="_blank">
+  <img src="images_kitchen_appliances/oven_power.png" alt="oven power measurement" width="350px"/>
+  </a>
+
 * With a [contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) on the door: you can check if the door is opened and start a timer on a dashboard.
 
 <br>
