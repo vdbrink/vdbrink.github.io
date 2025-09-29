@@ -19,7 +19,6 @@ You find here examples from my automations, which you can use in your own projec
 My latest biggest updates on this blog:
 
 * [Home Assistant dashboard: Mealie Recipe Manager](/homeassistant/homeassistant_dashboard_mealie)
-* [Retrofit Kitchen Appliances](/projects/retrofit_kitchen_appliances)
 * [Smart traditional mailbox](/projects/smart_mailbox)
 * [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
 * [Home Assistant - Floor plan](/homeassistant/homeassistant_dashboard_floorplan)
