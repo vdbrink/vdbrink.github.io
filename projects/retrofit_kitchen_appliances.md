@@ -27,7 +27,7 @@ The **advantage** of this approach is:
 <br>
 
 The **downside** is that you don’t get all the advanced smart features, only some basic ones.
-In most cases, this is not a reason to upgrade the appliance, and in the meanwhile, this is a good enough (for me at least).
+In most cases, this is not a reason to upgrade the appliance, and in the meanwhile, this is good enough (for me at least).
 
 What matters most for a smart device really depends on individual preferences: 
 is it it's features, privacy, price, or durability?
@@ -228,13 +228,13 @@ You can create one [yourself](/esphome/co2_senseair_s8_sensor) with a ESP board 
 * With a [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) in the cooker hood above the stove: you can detect if someone is cooking.
 <br>
 
-It depends where your ventilation system is used for. 
+It depends on where your ventilation system is used for. 
 In my case for the stove, shower, and kitchen.
 I have these automations also in place:
 
 * With a [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) in the ventilation tube above the shower: you can detect if someone is showering.
 
-* With a extra [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) also somewhere else in the kitchen you can compare if the kitchen air is too humid or high and decide to activate the ventilation system.
+* With an extra [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) also somewhere else in the kitchen, you can compare if the kitchen air is too humid or high and decide to activate the ventilation system.
 I use this extra sensor as a reference to the humidity in the stove. 
 The humidity in the summer can be very low, but in autumn very high for the whole day. 
 In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
