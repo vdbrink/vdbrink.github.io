@@ -58,9 +58,6 @@ I'm still very interested in it!
   * [Ventilation system](#ventilation-system)
   * [Sink](#sink)
   * [Coffee machine](#coffee-machine)
-  * [Lights](#lights)
-  * [Temperature and humidity](#temperature-and-humidity)
-  * [Smoke detector](#smoke-detector)
   * [Conclusion](#conclusion)
 <!-- TOC -->
 
@@ -276,7 +273,8 @@ A coffee machine can be made a bit smarter and notify you when it's time to orde
 
 **Sensors and automations**
 
-With a [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) attached to the machine: you can detect when the coffee machine is used.
+* With a [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) attached to the machine: you can detect when the coffee machine is used.
+* With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can also detect when the coffee machine is used.
 
 <br>
 
@@ -286,64 +284,6 @@ With these automations you can make the next notifications and/or announcements 
 
 * to order new beans or cups (count the brewed coffees).
 * to descale the machine after it's used X times.
-
----
-
-## Lights
-
-Lights in the kitchen can be made smarter by automating them based on presence or daylight.
-
-<img src="images_kitchen_appliances/kitchen.jpg" alt="lights" width="200px" {{margin}}>
-
-**Sensors/Actuators**
-
-* With a [motion sensor](/buy/smart_home_best_buy_tips#motion-sensor) or [presence detection sensor](/buy/smart_home_best_buy_tips#presence-detection-sensor) in the kitchen: you can detect if someone is in the kitchen.
-* With [smart lights](/buy/smart_home_best_buy_tips#lights) in the kitchen: you can automatically turn on the lights.
-* With a [lux sensor](/buy/smart_home_best_buy_tips#lux-sensor) in the kitchen: you can check if there is enough daylight and the lights doesn't need to be activate.
-consumption monitoring: you can monitor the energy consumption of the lights.
-
-<br>
-
----
-
-## Temperature and humidity
-
-Temperature and humidity can be monitored in the kitchen. 
-Notifications can be sent when values reach a predefined threshold. 
-
-<img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="temperature sensor" width="200px" {{margin}}>
-
-**Sensors and automations**
-
-* With a [temperature sensor](/buy/smart_home_best_buy_tips#temperature-sensor) in the kitchen: you can monitor the temperature in the kitchen.
-
-<br>
-
-**Notifications**
-
-With these automations you can make the next notifications and/or announcements when to ...
-
-* open a door or window when the temperature or humidity is too high.
-
----
-
-## Smoke detector
-
-With a smoke detector, you can detect when there is too much smoke.
-
-<img src="/buy/images_zigbee/smoke_detector.avif" alt="smoke detector" width="200px" {{margin}}>
-
-**Sensors and automations**
-
-* With a [smoke detector](/buy/smart_home_best_buy_tips#smoke-detector) in the kitchen: you can monitor if there is too much smoke in the kitchen.
-
-<br>
-
-**Notifications**
-
-With these automations you can make the next notifications and/or announcements to ...
-
-* open a door or window when the amount of smoke is too high.
 
 ---
 
