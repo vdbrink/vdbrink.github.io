@@ -28,7 +28,9 @@ If you have tips or other suggestions for this page, please let me know!
 
 ## Cleaning and Maintenance
 
+<a href="/jura/jura_z10_cleaning_maintenance">
 <img style="float:right;width:150px; margin-left:15px;" src="images_products/microfiber_cloth.webp" alt="Jura machine cleaning tablets">
+</a>
 
 Manuals how to [clean and maintain](jura_z10_cleaning_maintenance) your Jura coffee machine.
 
@@ -42,7 +44,9 @@ Including the corresponding instructions videos all together on one page.
 ---
 ## Products
 
+<a href="/jura/products">
 <img style="float:right;width:150px; margin-left:15px;" src="images_products/jura_milk_container_cooled.jpg" alt="Jura cooled milk container">
+</a>
 
 Which [products](jura_products) can you buy to extend, maintain and enjoy your machine even more!
 
@@ -51,18 +55,22 @@ These items can also be used as an original present for your birthday or on your
 ---
 ## Hacks
 
+<a href="/jura/jura_milk_bottle_as_jura_container">
 <img style="float:right;width:150px; margin-left:15px;" src="images_bottle_hack/bottle_hack.jpg" alt="Jura machine milk container hack">
+</a>
 
 Jura provides many accessories for their machines, but people are creative and miss sometimes just something small which makes your life a bit easier with it.
 
 Find here some nice [hacks](jura_hacks) for your Jura coffee machines.
 
-I created a [milk bottle hack](jura_milk_bottle_as_jura_container) myself to use a plastic milk bottle as a compatible Jura container!
+I created a [milk bottle hack](jura_milk_bottle_as_jura_container) myself by using a plastic milk bottle as a compatible Jura container!
 
 ---
 ## App
 
+<a href="/jura/jura_app">
 <img style="float:right;width:150px; margin-left:15px;" src="images_app/jura_app.png" alt="Jura app">
+</a>
 
 (Some) Jura machines can be controlled via an [app](jura_app) on your smartphone/tablet/watch to brew your coffee based on custom products which you can predefine in the app.
 
@@ -71,8 +79,10 @@ Read more Jura [app](jura_app) tips and tricks to get the most out of it.
 ---
 ## FAQ
 
+<a href="/jura/jura_faq">
+<img style="float:right;width:150px; margin-left:15px;" src="images/jura_z10.jpg" alt="Jura z10">
+</a>
+
 A collection of Frequently Asked Questions about Jura coffee machines.
 
-<img style="float:right;width:150px; margin-left:15px;" src="images/jura_z10.jpg" alt="Jura z10">
-
-Find answers to common [questions](jura_faq) I got after buying and using a Jura Z10 coffee machine.
+Find answers to common [questions](jura_faq) I got after buying and using my Jura Z10 coffee machine.

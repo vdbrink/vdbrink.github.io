@@ -5,15 +5,20 @@ tags: [Jura, joe, coffee, machine, app, wifi, bluetooth, module, tips, tricks, H
 image: /jura/images/jura_logo.png
 ---
 
-# Jura app
+# Jura App
+*for coffee machines*
 
-<img src="images_app/jura_app_overview.jpg" alt="Jura app" width="450px">
+<a href="/jura/">
+<img style="height:80px;" src="images/jura_logo.png" alt="Jura logo">
+</a>
 
 ---
 ## Introduction
 
 Jura provided already for years an advanced app for their coffee machines, which allows you to control your coffee machine from your smartphone, tablet and even smartwatch.
 In the app, you can create custom personalized products, adjust the settings of your coffee machine, and monitor the maintenance status.
+
+<img src="images_app/jura_app_overview.jpg" alt="Jura coffee machine app" width="450px">
 
 ---
 ## Installation
@@ -72,3 +77,8 @@ Now the status is constant flickering between "Connecting" and "Connected", whic
 ---
 ### Home Assistant integration
 
+---
+
+<a href="/jura/jura_faq">Jura FAQ ></a>
+
+<a href="/jura/hacks/">< Jura Hacks</a>

@@ -6,35 +6,39 @@ image: /jura/images/jura_logo.png
 ---
 
 # Jura Hacks
+*for coffee machines*
+
+<a href="/jura/">
+<img style="height:80px;" src="images/jura_logo.png" alt="Jura logo">
+</a>
 
 ## Introduction
-<a href="/jura">
-<img style="float:right;height:100px; margin-left:15px;" src="images/jura_logo.png" alt="Jura logo">
-</a>
+
 Jura provides many accessories for their machines, but people are creative and miss sometimes just something small with makes life a bit easier with it.
 Here are some hack for Jura coffee machines.
 
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Milk bottle as container](#milk-bottle-as-container)
   * [Automatic water tank refill](#automatic-water-tank-refill)
   * [Milk pipe holder](#milk-pipe-holder)
   * [Magnetic milk pipe holder](#magnetic-milk-pipe-holder)
-  * [Block the RFID signal from the water sensor to the machine](#block-the-rfid-signal-from-the-water-sensor-to-the-machine)
+  * [Block the water filter signal](#block-the-water-filter-signal)
 <!-- TOC -->
 
 ---
-## Milk bottle cap
+## Milk bottle as container
 
-<img style="float:right;height:100px; margin-left:15px;" src="images_bottle_hack/milk_can_hack.jpg" alt="My milk can hack" />
+<img style="float:right;height:100px; margin-left:15px;" src="images_bottle_hack/bottle_hack.jpg" alt="My milk can hack" />
 I created myself also a hack to use an original milk can as a milk supply for my Jura coffee machine.
 
-[Milk bottle hack](jura_milk_bottle_top_hack)
+[My milk bottle hack](jura_milk_bottle_top_hack)
 
 ---
 ## Automatic water tank refill
 
-The Jura machines use a lot water and the water tank needs to be refilled often manually.
+The Jura machines use a lot of water and the water tank needs to be refilled often manually.
 By connecting the water tank to the water supply drain and use a float to see when it needs to be filled again.
 
 <a href="https://makerworld.com/en/models/44553-jura-z10-water-tank-lid-for-automatic-refill?from=search#profileId-46166" target="_blank">
@@ -63,10 +67,12 @@ With this 3D printed holder, you can hold the pipe via a magnet straight up.
 </a>
 
 ---
-## Block the RFID signal from the water sensor to the machine
+## Block the water filter signal
 
 [![No water filter check](http://img.youtube.com/vi/hD7-6RrvibI/0.jpg)](https://youtu.be/hD7-6RrvibI?si=HINRtCCPj2ROOyY- "No water filter check")
 
 ---
 
-See also my other <a href="/jura">Jura tips & tricks</a>
+<a href="/jura/jura_app">Jura App ></a>
+
+<a href="/jura/jura_products">< Jura products</a>

@@ -9,16 +9,18 @@ image: /jura/images/jura_logo.png
 # Plastic milk bottle as compatible Jura container Hack
 *supermarket plastic milk bottle attached to a Jura coffee machine*
 
-<img src="images/jura_logo.png" alt="Jura logo" height="50px">
+<a href="/jura/">
+<img style="height:80px;" src="images/jura_logo.png" alt="Jura logo">
+</a>
 
-<img src="images/solution.jpg" alt="milk can attach to Jura coffee machine" height="200px">
+<img src="images_bottle_hack/bottle_hack.jpg" alt="milk can attach to Jura coffee machine" height="200px">
 
 ## My "problem"
 <a href="/jura">
 <img style="float:right;height:100px; margin-left:15px;" src="images_products/jura_milk_can.jpg" alt="Jura milk can" height="150px">
 </a>
 I drink my coffee always with milk, that's why I started by using the Jura glass milk container.
-I can hold up to 0,5 liter milk and it works .... but it's not ideal.
+I can hold up to 0,5 liter milk, and it works .... but it's not ideal.
 
 My "problem", it doesn't contain enough milk to make two (for me and my partner) big cappuccino's with one filled container.
 After the first created coffee, I needed to add more milk to the glass container from a big plastic milk bottle before I can make the second one. 
@@ -52,7 +54,7 @@ That was my new mission!
 <img src="images_bottle_hack/milk_can_refill.jpg" alt="Jura milk can refill" height="150px">
 
 I want to use an original milk bottle from the supermarket as a milk supply for my Jura machine.
-Based on the same way the Jura milk container works.
+Based on the same way, the Jura milk container works.
 
 I want to screw a custom milk can top with a Jura milk connector and a stainless steel pipe attached to it which reach to the bottom.
 

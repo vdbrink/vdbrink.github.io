@@ -1,15 +1,20 @@
 ---
-title: Jura Products
+title: Jura coffee machine Products
 category: Jura
 tags: [Jura, Z10, cleaning, tabs, filter]
 image: /jura/images/jura_logo.png
 ---
 
 # Jura Products
+*for coffee machines*
+
+<a href="/jura/">
+<img style="height:80px;" src="images/jura_logo.png" alt="Jura logo">
+</a>
+
 
 ## Introduction
 
-Once
 
 ---
 
@@ -79,3 +84,9 @@ Once
 [Amazon DE]()
 
 *Alternative*
+
+---
+
+<a href="/jura/jura_hacks">Jura Hacks ></a>
+
+<a href="/jura/jura_z10_cleaning_maintenance">< Jura Cleaning and Maintenance</a>

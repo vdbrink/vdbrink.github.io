@@ -1,5 +1,5 @@
 ---
-title: Jura Z10 cleaning and maintenance
+title: Jura Z10 coffee machine cleaning and maintenance
 category: Jura
 tags: [Jura, Z10, tips, tricks, coffee, cleaning, maintenance, tabs, tablets, filter]
 image: /jura/images/jura_logo.png
@@ -7,6 +7,11 @@ image: /jura/images/jura_logo.png
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Jura Cleaning and Maintenance
+*for coffee machines*
+
+<a href="/jura/">
+<img style="height:80px;" src="images/jura_logo.png" alt="Jura logo">
+</a>
 
 ## Introduction
 
@@ -125,8 +130,7 @@ There are all kinds of descaling products available which can be used for kettle
   <a href="https://amzn.to/#ad" target="_blank">(Amazon US)</a>
 
 ---
-### Hotter coffee
 
-Someone suggested to clean the flap next to the waste water collector.
+<a href="/jura/jura_products">Jura Products ></a>
 
-Please let me know if this works for you or if you have any other suggestion to increase the temperature.
+<a href="/jura/">< Jura Tips & Tricks</a>
