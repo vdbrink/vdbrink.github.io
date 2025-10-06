@@ -5,7 +5,8 @@ tags: [Jura, Z10, tips, tricks, coffee]
 image: /jura/images/jura_logo.png
 ---
 
-# Jura coffee machine Tips & Tricks
+# Jura Tips & Tricks
+*for coffee machines*
 
 <img style="height:80px;" src="images/jura_logo.png" alt="Jura logo">
 
@@ -39,6 +40,8 @@ Answers to:
 * Which cleaning programs are there (for the Z10) 
 * Which cleaning products do you need?
 
+<br>
+
 Including the corresponding instructions videos all together on one page.
 
 ---
@@ -50,7 +53,9 @@ Including the corresponding instructions videos all together on one page.
 
 Which [products](jura_products) can you buy to extend, maintain and enjoy your machine even more!
 
-These items can also be used as an original present for your birthday or on your Christmas wish list!
+These products can also be used as an original present for your birthday or on your Christmas wish list!
+
+<br>
 
 ---
 ## Hacks
@@ -59,7 +64,7 @@ These items can also be used as an original present for your birthday or on your
 <img style="float:right;width:150px; margin-left:15px;" src="images_bottle_hack/bottle_hack.jpg" alt="Jura machine milk container hack">
 </a>
 
-Jura provides many accessories for their machines, but people are creative and miss sometimes just something small which makes your life a bit easier with it.
+Jura provides many accessories for their machines, but people are creative and miss sometimes just something small which makes your life a bit nicer with it.
 
 Find here some nice [hacks](jura_hacks) for your Jura coffee machines.
 
@@ -74,6 +79,7 @@ I created a [milk bottle hack](jura_milk_bottle_as_jura_container) myself by usi
 
 (Some) Jura machines can be controlled via an [app](jura_app) on your smartphone/tablet/watch to brew your coffee based on custom products which you can predefine in the app.
 
+The app contains much more!
 Read more Jura [app](jura_app) tips and tricks to get the most out of it.
 
 ---
@@ -85,4 +91,7 @@ Read more Jura [app](jura_app) tips and tricks to get the most out of it.
 
 A collection of Frequently Asked Questions about Jura coffee machines.
 
-Find answers to common [questions](jura_faq) I got after buying and using my Jura Z10 coffee machine.
+Find answers to common [questions](jura_faq) I got after buying and using my Jura coffee machine.
+
+<br>
+<br>
