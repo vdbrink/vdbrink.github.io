@@ -3,7 +3,7 @@ title: Plastic milk bottle as compatible Jura container Hack
 description: How to use a plastic milk bottle as a compatible Jura container.
 category: Jura
 tags: [Jura, hack, milk, can, bottle, top, adapter, stainless steel, tube]
-image: /jura/images/jura_logo.png
+image: /jura/images_bottle_hack/new_diy_can_top.jpg
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -26,24 +26,29 @@ image: /jura/images/jura_logo.png
 ---
 ## My "problem"
 
-I drink my coffee always with milk, that's why I started by using the Jura glass milk container.
-I can hold up to 0,5 liter milk, and it works .... but it's not ideal.
+I always drink my coffee with milk, that's why I started by using the [Jura glass milk container](jura_products#container).
+It can hold up to 0,5 liter milk, and it works .... but it's not ideal for me.
 
-My "problem", it doesn't contain enough milk to make two (for me and my partner) big cappuccino's with one filled container.
-After the first created coffee, I needed to add more milk to the glass container from a big plastic milk bottle before I can make the second one. 
+My "problem"; it doesn't contain enough milk to make two (for me and my partner) big cappuccino's with one filled container.
+After the first coffee is created, I needed to add more milk to the glass container from a big supermarket plastic milk bottle before I can make the second one.
+A lot of steps BEFORE YOU HAD ANY COFFEE :).
 
 <a href="images_products/jura_milk_can.jpg">
-<img src="images_products/jura_milk_can.jpg" alt="Jura milk can" height="250px">
+<img src="images_products/jura_milk_can.jpg" alt="Jura milk container" height="250px">
 </a>
 
 <a href="images_bottle_hack/milk_can_refill.jpg">
 <img src="images_bottle_hack/milk_can_refill.jpg" alt="Jura milk can refill" height="250px">
 </a>
 
-I could buy a bigger container, like a Jura milk cooler which can hold up to 1 liter milk, but it costs a fortune and I only make twice a day coffee.
-And with that solution, I still need to refill it every day.
+I could buy a bigger container, 
+like a [Jura milk cooler](jura_products#active-cooler-1l) which can hold up to 1 or 3 liter milk.
+The downsides are: I need to place it on the kitchen counter, I have to pay extra for the used energy to cool the milk, 
+it's not cheap and that for only make twice a day coffee.
+AND with this solution, I still need to refill it every day.
 
 So I thought, why can't I use the original milk bottle from the store as a milk supply for my Jura machine?
+Then I don't have to pour milk anymore.
 
 That was my new mission!
 
