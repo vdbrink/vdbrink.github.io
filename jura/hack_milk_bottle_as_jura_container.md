@@ -30,14 +30,13 @@ I can hold up to 0,5 liter milk, and it works .... but it's not ideal.
 My "problem", it doesn't contain enough milk to make two (for me and my partner) big cappuccino's with one filled container.
 After the first created coffee, I needed to add more milk to the glass container from a big plastic milk bottle before I can make the second one. 
 
-<div>
 <a href="images_products/jura_milk_can.jpg">
-<img style="float:left;height:250px; margin-left:15px;" src="images_products/jura_milk_can.jpg" alt="Jura milk can" height="150px">
+<img src="images_products/jura_milk_can.jpg" alt="Jura milk can" height="250px">
 </a>
+
 <a href="images_bottle_hack/milk_can_refill.jpg">
-<img style="float:left;height:250px; margin-left:15px;" src="images_bottle_hack/milk_can_refill.jpg" alt="Jura milk can refill" height="250px">
+<img src="images_bottle_hack/milk_can_refill.jpg" alt="Jura milk can refill" height="250px">
 </a>
-</div>
 
 I could buy a bigger container, like a Jura milk cooler which can hold up to 1 liter milk, but it costs a fortune and I only use it normally twice a day.
 With that solution, I still need to refill it every day.
@@ -56,7 +55,6 @@ That was my new mission!
     * [Test setup](#test-setup)
     * [Version 1](#version-1)
     * [Version 2](#version-2)
-  * [Help wanted, who can provide only the milk adapter?](#help-wanted-who-can-provide-only-the-milk-adapter)
   * [Create one yourself](#create-one-yourself)
 <!-- TOC -->
 
@@ -173,3 +171,8 @@ I like to hear about your experiences with it.
 ---
 
 Enjoy your coffee!
+
+<br>
+
+[Other Jura Hacks](/jura/jura_hacks) | 
+[Jura Tip & Tricks](/jura)
