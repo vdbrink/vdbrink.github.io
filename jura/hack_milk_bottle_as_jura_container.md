@@ -6,6 +6,8 @@ tags: [Jura, hack, milk, can, bottle, top, adapter, stainless steel, tube]
 image: /jura/images/jura_logo.png
 ---
 
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+
 # Plastic milk bottle as compatible Jura container Hack
 *supermarket plastic milk bottle directly attached to a Jura coffee machine*
 
@@ -38,10 +40,10 @@ After the first created coffee, I needed to add more milk to the glass container
 <img src="images_bottle_hack/milk_can_refill.jpg" alt="Jura milk can refill" height="250px">
 </a>
 
-I could buy a bigger container, like a Jura milk cooler which can hold up to 1 liter milk, but it costs a fortune and I only use it normally twice a day.
-With that solution, I still need to refill it every day.
+I could buy a bigger container, like a Jura milk cooler which can hold up to 1 liter milk, but it costs a fortune and I only make twice a day coffee.
+And with that solution, I still need to refill it every day.
 
-Why can't I use the original milk bottle from the store as a milk supply for my Jura machine?
+So I thought, why can't I use the original milk bottle from the store as a milk supply for my Jura machine?
 
 That was my new mission!
 
@@ -66,11 +68,13 @@ That was my new mission!
 </a>
 
 I want to use an original milk bottle from the supermarket as a milk supply for my Jura machine.
-Based on the same way, the Jura milk container works.
+Based on the same way, the principal of the original Jura tube and how the original Jura milk container works.
+this way I can still use the original way to clean the milk system.
 
-I want to screw a custom milk can top with a Jura milk connector and a stainless steel pipe attached to it which reach to the bottom.
+I want to screw a custom milk can top with a compatible Jura milk connector and with a stainless steel pipe attached to it which reach to the bottom of the can. 
+The top should close the milk can, so no air can come in.
 
-That should be brilliant!
+That should be brilliant if that's possible!
 
 <a href="images_bottle_hack/new_diy_can_top.jpg">
 <img src="images_bottle_hack/new_diy_can_top.jpg" alt="" height="250px">
@@ -83,9 +87,8 @@ That should be brilliant!
 ### Idea
 
 At the time I was looking for a solution (with a custom 3D printed) milk adapter, the new Jura milk Carafe was released.
-This [Jura Carafe](/jura/jura_products#carafe) has a removable milk adapter! 
-Exactly what I need! 
-A bit expensive but exactly what I need! 
+This [Jura Carafe](/jura/jura_products#carafe) has a removable milk adapter (actually two, a white and black one)!
+A bit expensive for only the adapter but exactly what I need!
 It's still cheaper than buying, maintaining and refilling a powered [Jura milk cooler](/jura/jura_products#active-cooler-1l).
 
 <a href="images_bottle_hack/carafe_package.jpg">
@@ -107,20 +110,30 @@ I found it on AliExpress, a 6 mm [stainless steel tube](https://s.click.aliexpre
 
 ### Test setup
 
+The carafe uses a 6 mm wide and X cm long stainless steel tube.
+But my milk can is much deeper than the carafe container, so I need a similar tube but a longer version of it.
+I found it on AliExpress, a 6 mm {{imgBasket}} [stainless steel tube](https://s.click.aliexpress.com/e/_ombnM7I) with a length of 215 mm.
+
+The adapter fits perfect on a 6 mm but also on an 8 mm tube.
+
 Now I need to test if this setup also works as intended.
-If it still can suck the milk through the total length of the tube and no air comes in.
+If it still can suck the milk through the extra long tube and no air comes in.
 
 <a href="images_bottle_hack/test_setup.jpg">
 <img src="images_bottle_hack/test_setup.jpg" alt="test setup" height="250px">
 </a>
 
 The test succeeded!
+The same amount of milk comes through the tube as with the original tube.
 
 ### Version 1
 
 Starting the next phase.
-Creating a total setup.
-Integrate the adapter in a milk bottle top.
+Creating a total solution.
+Now air comes in through the original milk can top, 
+so I need to create a new top with the adapter build in the milk can top.
+
+<img src="images_bottle_hack/custom_milk_can_top.jpg" alt="custom milk can top" height="150px" style="float:right; margin-left: 15px">
 
 I used a screw top from an old bottle and drew the contour of the Jura milk adapter on it.
 Then I cut the shape of the adapter out of the cap with a stanley knife.
@@ -148,7 +161,7 @@ This tube is also 2 mm wider but also fits perfect in the milk adapter.
 <img src="images_bottle_hack/saws_tube.jpg" alt="saw tube" height="250px" />
 </a>
 
-Now only just a very tiny bit of milk is left over in the can!
+With this replaced tube, there is only a very tiny bit of milk is left over in the can! 
 This can be decanted to the next can without any problem.
 Perfect!
 
@@ -160,6 +173,14 @@ Perfect!
  <img src="images_bottle_hack/almost-no_milk_left.jpg" alt="saw tube" height="250px" />
  </a>
 
+I'm a even happier person with my Jura and now also with this hack!
+
+---
+## Cleaning
+
+Because the tube is not part of the cleaning program of the machine itself you need to clean it manually.
+I clean the tube and lid every week when I also clean the rest of the machine.
+I use a small and long [brush]() to also clean the inside of the tube to avoid milk can residues.
 
 ---
 
