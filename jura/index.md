@@ -67,7 +67,7 @@ Jura provides many accessories for their machines, but people are creative and m
 
 Find here some nice [hacks](jura_hacks) for your Jura coffee machines.
 
-I created a [milk bottle hack](jura_milk_bottle_as_jura_container) myself by using a plastic milk bottle as a compatible Jura container!
+I created a [milk bottle hack](milk_bottle_as_jura_container) myself by using a plastic milk bottle as a compatible Jura container!
 
 ---
 ## App
