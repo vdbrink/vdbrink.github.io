@@ -18,10 +18,9 @@ After I bought a Jura Z10 espresso machine, I had a lot of questions while using
 Questions about cleaning, maintenance, possibilities, accessory, hacks, app, etc!
 I watched many instruction videos and joined social media groups to learn more and get the most out of my machine.
 
-I decided to bundle my gathered information and experiences on this page, so you can benefit from it as well.
-This is the result!
+I decided to bundle my gathered information and experiences on this site, so you can benefit from it as well.
 
-If you have tips or other suggestions for this page, please let me know!
+If you have tips or other suggestions for this page, please let me know.
 
 > **_NOTE:_** Also affiliate links are used on these pages. You sponsor my work and still pay the original price.
 

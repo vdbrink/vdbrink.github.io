@@ -20,15 +20,20 @@ image: /jura/images/jura_logo.png
 
 ## Table of Contents
 <!-- TOC -->
-* [Beans](#beans)
-* [Cleaning](#cleaning)
-  * [Tabs](#tabs)
-  * [Water filters](#water-filters)
-* [Milk container](#milk-container)
+  * [Beans](#beans)
+  * [Cleaning](#cleaning)
+    * [Milk system](#milk-system)
+      * [Tabs](#tabs)
+      * [Water filters](#water-filters)
+  * [Milk containers](#milk-containers)
+    * [Container](#container)
+    * [Carafe](#carafe)
+    * [Active cooler 1L](#active-cooler-1l)
+    * [Active cooler 3L](#active-cooler-3l)
 <!-- TOC -->
 
 ---
-### Beans
+## Beans
 
 <img src="images_products/lavazza_rossa_beans.jpg" height="150px" alt=""/>
 
@@ -38,7 +43,7 @@ image: /jura/images/jura_logo.png
 [Amazon DE]()
 
 ---
-### Cleaning
+## Cleaning
 
 ### Milk system
 
@@ -84,6 +89,28 @@ image: /jura/images/jura_logo.png
 [Amazon DE]()
 
 *Alternative*
+
+---
+## Milk containers
+
+### Container
+
+<img src="/jura/images_products/jura_milk_can.jpg" height="150px" alt="" />
+
+### Carafe
+
+<img src="/jura/images_products/new_jura_milk_carafe.jpg" height="150px" alt="" />
+
+<a href="https://amzn.to/46WKoX3#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4lHspJ1#ad" target="_blank">(Amazon NL)</a>
+
+
+### Active cooler 1L
+
+<img src="/jura/images_products/" height="150px" alt="" />
+
+### Active cooler 3L
+<img src="/jura/images_products/" height="150px" alt="" />
 
 ---
 
