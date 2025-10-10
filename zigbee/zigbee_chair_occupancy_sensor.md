@@ -116,7 +116,7 @@ See 3a how to connect the wires from the leak- and pressure sensor with each oth
 
 2. A [Car seat pressure sensor](../buy/esphome_diy#pressure-sensor) (smaller or bigger versions are available)
 
-<a href="https://s.click.aliexpress.com/e/_onVbUVI" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3vZ9fSL" target="_blank">
 <img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" /></a>
 <a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank"><img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /></a>
 <a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank"><img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
