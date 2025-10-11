@@ -728,7 +728,7 @@ Controlled by Home Assistant.
 
 {{imgBasket}}Zigbee IR remote control - Moes 
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3HuA4vk#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4o5bb9H#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/47xtPBl#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
@@ -736,13 +736,13 @@ Controlled by Home Assistant.
 **WiFi option:**
 {{imgBasket}}WiFi IR remote control RM4 Mini - Broadlink
 <a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/46zJzDz#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/46TDEYk#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 
 **Cheaper WiFi option:**
 {{imgBasket}}WiFi IR remote control - Tuya 
-<a href="https://s.click.aliexpress.com/e/_DnpWmYp" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4mqJMh8#ad" target="_blank">(Amazon US)</a>
+<a href="https://s.click.aliexpress.com/e/_c3xtCnnz" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4h1HsLO#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4eJPxlw#ad" target="_blank">(Amazon NL)</a>
 
 #### Infrared + RF + 433MHz + 315MHz remote control
@@ -833,7 +833,7 @@ Cheaper solution than four single smart sockets!
 <br>
 <br>
 
-<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2vgFrkP" target="_blank">
 <img src="/buy/images_zigbee/powerstrip2.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 An other Zigbee power strip with 4x outlets (max. 16A 4000W) and 2x USB-A (5V 3A) fast charging.
 <br><br>
@@ -849,7 +849,7 @@ Cheaper solution than four single smart sockets!
 * LED indicate for each socket
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Lellki 
-<a href="https://s.click.aliexpress.com/e/_oCVTrot" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c2vgFrkP" target="_blank">(AliExpress)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
 

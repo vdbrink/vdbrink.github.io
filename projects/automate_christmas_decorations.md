@@ -349,11 +349,11 @@ Now you can automate these devices also!
 
 <br>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">A Christmas paper star - example 1</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DcwrLNr" target="_blank">A Christmas paper star - example 2</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">A Christmas paper star - example 1</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 2</a>
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3</a>
 
-  <a href="https://s.click.aliexpress.com/e/_EHfMv8p" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">
     <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
   </a>
 
@@ -363,12 +363,12 @@ Now you can automate these devices also!
 
 My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
-<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">
   <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
   <img src="images_christmas_decorations/tree_power_top.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">Christmas light string plug 31V/3.6W</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">Christmas light string plug 31V/3.6W</a>
 
 <a href="images_christmas_decorations/christmas_tree.jpg">
   <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
@@ -410,7 +410,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individual, and it has power consumption measurements.
  
-  {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous.
+  {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon).
 
   <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
 
@@ -423,22 +423,12 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
   <a href="https://amzn.to/3Vt83Ip#ad" target="_blank">
    <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" /></a>
 
-<br>
-<!--
-* Silvercrest has an outdoor Zigbee EU power socket without power consumption measurements.
-
-  {{imgBasket}}<a href="https://amzn.to/4eBZVMp#ad" target="_blank">Zigbee outdoor socket - Silvercrest SWSA (Amazon.de)</a>\
-  {{imgBasket}}I bought mine at the local Lidl store, but they are not always available there (also not online), only once in a while.
-
-  <a href="https://amzn.to/4eBZVMp" target="_blank"><img src="images_christmas_decorations/silvercrest_outdoor_socket.jpg" alt="Silvercrest ZigBee Outdoor Smart Socket" height="150px#ad" /></a>
--->
-
 ---
 
 ## Automations
 
 I use Node-RED myself to control all the decoration and light automations.\
-If you have such automations in Home Assistant I can add those here also if you share them.
+If you have such automations in Home Assistant, I can add those here also if you share them.
 
 ### Activate a light on motion detection
 

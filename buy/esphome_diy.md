@@ -287,10 +287,10 @@ USB-A to USB-C cable to power the ESP32.
 
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
 
-<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">
 <img src="../projects/images_christmas_decorations/christmas_light_adapter.webp" alt="christmas light adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_mstDarg" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">link (AliExpress)</a>
 
 ---
 
