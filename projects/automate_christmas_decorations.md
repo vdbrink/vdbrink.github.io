@@ -292,6 +292,16 @@ I used a Zigbee programmable infrared receiver and transmitter which can learn f
 This transmitter is a WiFi or Zigbee, battery powered, device that can be placed in the sight of multiple infrared devices. \
 I have it at a distance of five meters, and still it works great as long as the star is made of thin carton/paper otherwise the signal can't get through the paper to reach the LED.
 
+#### Video
+
+In this video, you see my programmable infrared remote replacement device in action.
+I can control the lights via the original remote and also from my Home Assistant dashboard.
+
+<video controls height="400px">
+    <source src="/zigbee/images_infrared/ir_reel_720p.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 #### The programmable infrared remote
 
 I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [WiFi models](../buy/smart_home_best_buy_tips#infrared-remote-control)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
