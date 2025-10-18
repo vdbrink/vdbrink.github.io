@@ -287,7 +287,7 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">AAA battery replacement with USB (AliExpress)</a>
 <a href="https://amzn.to/3ATHOUb#ad" target="_blank">(Amazon)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4MPvDcL" target="_blank">AA battery replacement with power socket EU (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank">AAA battery replacement with power socket EU (AliExpress)</a> 
 

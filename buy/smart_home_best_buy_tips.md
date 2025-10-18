@@ -356,7 +356,7 @@ Model: ZY-TH01Pro
 
 #### Water-resistant option:
 {{imgBasket}}Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display.
-<a href="https://s.click.aliexpress.com/e/_oEuJPkc" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/44Unhd2#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/4oWI9dd#ad" target="_blank">(Amazon DE)</a>
 
@@ -364,7 +364,7 @@ Model: SNZB-02LD
 Battery: CR2477 
 <a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
 
-<a href="https://s.click.aliexpress.com/e/_oEuJPkc" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
+<a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
 
 <br>
 
@@ -451,7 +451,7 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 
 ### Pressure sensor
 
-<a href="https://s.click.aliexpress.com/e/" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
+<a href="https://s.click.aliexpress.com/e/_c3CKWzY7" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A small strip with pressure sensors in it.\
 I got a separated page how I created my own [Zigbee chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
@@ -461,8 +461,10 @@ Suitable for chairs/carpets/beds/sofas/carpets:
 * Flexible, lightweight, bend-resistant
 * Power input：CR2032 battery
 
+<br>
+
 {{imgBasket}}Zigbee pressure sensor  - Tuya
-<a href="https://s.click.aliexpress.com/e/" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3CKWzY7" target="_blank">(AliExpress)</a>
 
 ---
 
@@ -669,7 +671,7 @@ There is a separated page where you can find them [Outdoor sensors - Best Buy Ti
 
 ### Air quality sensor
 
-<a href="https://s.click.aliexpress.com/e/_oo1Odtf" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4pjXZtH" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six kinds of environmental parameters:
@@ -688,7 +690,7 @@ Because the price is low, there are some downsides in sensor precision, the form
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
 {{imgBasket}}Zigbee / WiFi Air quality sensor - Tuya 
-<a href="https://s.click.aliexpress.com/e/_oo1Odtf" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4pjXZtH" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4mnr22r#ad" target="_blank">(Amazon DE)</a>
 <a href="https://amzn.to/40Y4IEB#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
@@ -855,6 +857,7 @@ Cheaper solution than four single smart sockets!
 
 <br>
 
+<!--
 <br>
 <br>
 
@@ -878,7 +881,7 @@ Cheaper solution than four single smart sockets!
 <a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3PFr86N#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
-
+-->
 <br>
 
 ---
@@ -893,13 +896,13 @@ If you're looking for a U-rail solution, you can look at [Slide - Smart Curtains
 
 ## Google Coral USB
 
-<a href="https://s.click.aliexpress.com/e/_om0IKYH" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2JpmDMj" target="_blank">
 <img src="images_zigbee/google_coral.webp" alt="Google Coral" width="150px" style="margin-left:15px;float:right"/></a>
 
 USB stick to handle heavy GPU processes, like human detection with Frigate.
 
 {{imgBasket}}Coral USB - Google 
-<a href="https://s.click.aliexpress.com/e/_om0IKYH" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c2JpmDMj" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/415ZUfA#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4594MC0#ad" target="_blank">(Amazon NL)</a>
 
@@ -935,7 +938,7 @@ There are different variants of them.
 Replacements for AA or AAA batteries and with a plug or USB connector. 
 The advantage of a USB connector is that you can plug multiple to an active powered USB-hub to control multiple ones.
 
-I use these a lot for all kinds of Christmas decorations.
+I use these a lot for all kinds of [Christmas decorations](/projects/automate_christmas_decorations).
 
 {{imgBasket}}AA battery replacement with USB 
 <a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">(AliExpress)</a>
@@ -948,7 +951,7 @@ I use these a lot for all kinds of Christmas decorations.
 <a href="https://amzn.to/4jnFDZB#ad" target="_blank">(Amazon NL)</a>
 
 {{imgBasket}}AA battery replacement with power socket EU 
-<a href="https://s.click.aliexpress.com/e/_o2FtBHM" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4MPvDcL" target="_blank">(AliExpress)</a>
 
 {{imgBasket}}AAA battery replacement with power socket EU 
 <a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank">(AliExpress)</a> 

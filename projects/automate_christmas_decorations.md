@@ -278,7 +278,8 @@ Those extra dummy batteries are only needed to make contact between the ends of 
 
 ### Infrared lights
 
-There are these days different kinds of infrared controlled device available like LEDs, fake candles or fake tea lights.
+<img style="float:right;height:100px; margin-left:15px;" src="images_christmas_decorations/infrared_remote.jpg" alt="infrared remote" />
+There are these different kinds of infrared controlled device available like LEDs, fake candles or fake tea lights.
 
 I had before Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
@@ -304,13 +305,12 @@ Now you can automate these devices also!
 
 #### Used hardware
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
+There are all kinds of battery-powered lights available which can be controlled via infrared.
+With this project, all these lights can now be automated as well!
 
-  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
-    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
-  </a>
+##### Infrared signal transmitter
 
-* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote</a>
+{{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote</a>
   It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
@@ -319,35 +319,51 @@ Now you can automate these devices also!
 
 <br>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
+##### LED lights
+
+Wireless, battery-powered colored LED lights.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
+
+  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
+    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
+  </a>
+
+##### Tea lights
+
+I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
     <img src="images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
-<br>
+##### Candle lights
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
     <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
+<br>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">Other candle lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">Other candle lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">
     <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
+##### Long candle lights
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
 
   <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
     <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
   </a>
 
-<br>
+##### Paper stars
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">A Christmas paper star - example 1</a>
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 2</a>
