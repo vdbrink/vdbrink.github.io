@@ -263,7 +263,8 @@ Those extra dummy batteries are only needed to make contact between the ends of 
         <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
     </a>
 
-* {{imgBasket}}[Active USB hub](../buy/esphome_diy#usb-hub) to power multiple USB battery eliminators at once. In combination with the socket you can automate them.
+* {{imgBasket}}[Active USB hub](../buy/esphome_diy#usb-hub) to power multiple USB battery eliminators at once. 
+In combination with the socket, you can automate them.
 
     <a href="../buy/esphome_diy#usb-hub" target="_blank">
         <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px" class="buy-link"/>

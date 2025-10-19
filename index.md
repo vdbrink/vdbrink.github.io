@@ -18,6 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
+* [Automate Christmas decorations](/projects/automate_christmas_decorations)
 * [Home Assistant dashboard: Mealie Recipe Manager](/homeassistant/homeassistant_dashboard_mealie)
 * [Smart traditional mailbox](/projects/smart_mailbox)
 * [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
