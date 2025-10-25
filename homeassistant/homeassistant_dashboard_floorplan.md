@@ -33,6 +33,7 @@ Clicking on an entity allows you to define specific follow-up actions based on y
     * [Entity labels](#entity-labels)
     * [Click, Double-click and Long-press actions](#click-double-click-and-long-press-actions)
     * [Rotations](#rotations)
+    * [Scale icons](#scale-icons)
     * [Change icons](#change-icons)
     * [Overlays](#overlays)
     * [Change layer order](#change-layer-order)
@@ -301,10 +302,30 @@ or with
 {% endraw %}
 ```
 
+----
+
+### Scale icons
+You can change the size of an icon by defining the `scale` property under the `style`.
+
+<img src="images_floorplan/scale.png" alt="scale" height="50px">
+
+```yaml
+{% raw %}
+- type: state-icon
+  entity: switch.xxx
+  style:
+    top: 47%
+    left: 62%
+    scale: 150%
+{% endraw %}
+```
+
+
+
 ---
 
 ### Change icons
-You can override the current icon for each entity.
+You can override the default icon for each entity.
 
 ```yaml
 {% raw %}
