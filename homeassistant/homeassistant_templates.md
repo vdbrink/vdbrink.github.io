@@ -82,6 +82,46 @@ For more information, also see the [Home Assistant documentation](<https://www.h
 All the examples below start with the `template:` key. Be sure to define this only once in your `configuration.yaml`. 
 All template entities should be created under the same `template:` key.
 
+##### Example directory structure
+
+In the `configuration.yaml` you can add a line to link to a file with your templates, for example a file only for binary sensors.
+In the configuration file add the line `binary_sensors: !include binary_sensor.yaml`.
+Place the file `binary_sensor.yaml` in the root next to the configuration file.
+That file can look like this:
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# binary_sensor.yaml
+- platform: template
+  sensors:
+      office_prive:
+      friendly_name: "office chair"
+          value_template: >-
+            {% if is_state('binary_sensor.contact10_contact', 'off') %}
+               on
+            {% else %}
+               off
+            {% endif %}
+{% endraw %}
+```
+
+You can also create a directory and place in it multiple files, for each different subjects an own file.
+This makes it very clear and maintainable.
+Create a directory, for example called `sensors`, in the Home Assistant root.
+Now create the different .yaml-files in it.
+This way, you don't have to specify each single filename in the configuration file, all files in this directory will be included.
+Use the next definition to accomplish this:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+...
+sensor: !include_dir_merge_list sensors/
+binary_sensor: !include binary_sensor.yaml
+{% endraw %}
+```
+
 #### Via the frontend
 
 The other way is via the frontend, you can create a new template via the **Settings** menu item, 
