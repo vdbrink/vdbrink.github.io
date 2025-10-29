@@ -94,14 +94,14 @@ That file can look like this:
 # binary_sensor.yaml
 - platform: template
   sensors:
-      office_prive:
+    office_chair: # your defined name
       friendly_name: "office chair"
-          value_template: >-
-            {% if is_state('binary_sensor.contact10_contact', 'off') %}
-               on
-            {% else %}
-               off
-            {% endif %}
+      value_template: >-
+        {% if is_state('binary_sensor.contact10_contact', 'off') %}
+           on
+        {% else %}
+           off
+        {% endif %}
 {% endraw %}
 ```
 
