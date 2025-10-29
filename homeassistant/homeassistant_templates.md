@@ -105,12 +105,12 @@ That file can look like this:
 {% endraw %}
 ```
 
-You can also create a directory and place in it multiple files, for each different subjects an own file.
+You can also create a directory and place multiple files in it, for each different subjects an own file.
 This makes it very clear and maintainable.
 Create a directory, for example called `sensors`, in the Home Assistant root.
 Now create the different .yaml-files in it.
 This way, you don't have to specify each single filename in the configuration file, all files in this directory will be included.
-Use the next definition to accomplish this:
+Use the next definition in `configuration.yaml` to accomplish this:
 
 ```yaml
 {% raw %}
