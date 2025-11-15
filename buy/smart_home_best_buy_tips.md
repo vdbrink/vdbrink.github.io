@@ -617,14 +617,14 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 
 ### USB adapter switch
 
-<a href="https://s.click.aliexpress.com/e/_oB5NKYq" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c38UUilJ" target="_blank">
 <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 This actuator can toggle the power state of each USB port individual.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Tuya 
-<a href="https://s.click.aliexpress.com/e/_oB5NKYq" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c38UUilJ" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4lL8Ijp#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/4mmuYQY#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
@@ -951,7 +951,7 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 <a href="https://amzn.to/4jnFDZB#ad" target="_blank">(Amazon NL)</a>
 
 {{imgBasket}}AA battery replacement with power socket EU 
-<a href="https://s.click.aliexpress.com/e/_c4MPvDcL" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3oFkUUl" target="_blank">(AliExpress)</a>
 
 {{imgBasket}}AAA battery replacement with power socket EU 
 <a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank">(AliExpress)</a> 
