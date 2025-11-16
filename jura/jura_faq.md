@@ -19,7 +19,11 @@ When you buy and use a Jura coffee machine, you have a lot of questions.
 
 I have a separated page about [maintenance](jura_z10_cleaning_maintenance) look here if your answer is maybe here.
 
-If your question is not answered here, please use Jura social media groups like [Facebook]() or [Reddit](https://www.reddit.com/r/Jura/) to ask your question. Here are a lot of people who can maybe help you with your question.
+If your question is not answered here, 
+please use Jura social media groups like [Facebook - JURA COFFEE MACHINE OWNERS GROUP](https://www.facebook.com/groups/526724898563529) 
+[Facebook - Jura Coffee Club](https://www.facebook.com/groups/224296378455533)
+or [Reddit](https://www.reddit.com/r/Jura/) to ask your question. 
+Here are a lot of people who can maybe help you with your question.
 
 ---
 
@@ -40,8 +44,9 @@ It is cleaned automatically during the cleaning program.
 A: If you maintain it well, and follow all the instructions the machine gives you, you don't need to bring it to service. Checkout the [cleaning and maintenance page](jura_z10_cleaning_maintenance) for more information.
 
 **Q: Can I set the temperature higher?**\
-A: A lot of people ask this question, but the Jura Z10 has a fixed temperature setting which produces not very hot coffee is a common used complain.
-There is a [cleaning tip](jura_z10_cleaning_maintenance#hotter_coffee) which may help to increase the temperature a bit, but it is not guaranteed to work.
+A: You can change the temperature of the milk.
+Another way to keep the coffee warm is to preheat the cup by using a [cup heater](/jura/jura_products#cup-heater) or put for a few minutes hot water in the cup. 
+Then the cup doesn't cool down the coffee via the cold cup itself.
 
 ---
 

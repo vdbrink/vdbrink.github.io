@@ -30,8 +30,10 @@ Here are some hack for Jura coffee machines.
 ---
 ## Milk bottle as container
 
-<img style="float:right;height:100px; margin-left:15px;" src="images_bottle_hack/bottle_hack.jpg" alt="My milk can hack" />
+<a href="jura_milk_bottle_top_hack"><img style="float:right;height:100px; margin-left:15px;" src="images_bottle_hack/bottle_hack.jpg" alt="My milk can hack" /></a>
 I created myself also a hack to use an original milk can as a milk supply for my Jura coffee machine.
+
+<br/>
 
 [My milk bottle hack](jura_milk_bottle_top_hack)
 

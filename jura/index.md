@@ -59,7 +59,7 @@ These products can also be used as an original present for your birthday or on y
 ---
 ## Hacks
 
-<a href="hack_milk_bottle_as_jura_container">
+<a href="/jura/jura_hacks">
 <img style="float:right;width:150px; margin-left:15px;" src="images_bottle_hack/bottle_hack.jpg" alt="Jura machine milk container hack">
 </a>
 
