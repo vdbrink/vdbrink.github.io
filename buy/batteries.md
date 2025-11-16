@@ -149,16 +149,16 @@ Charger for AA and AAA batteries.
 
 #### Disposable
 
-<a href="https://s.click.aliexpress.com/e/_oDUcuQH" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4bqjaLF" target="_blank">
 <img src="/buy/images_batteries/cr2032.webp" alt="CR2032" width="100px" style="margin-left:15px;float:right"/></a>
 
 This CR2032 is the most commonly used battery. It's small, but still has enough power to run sensors for a year.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDUcuQH" target="_blank">CR2032 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4bqjaLF" target="_blank">CR2032 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/4hRObaI#ad" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/3V4sHye#ad" target="_blank">(AmazonNL)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooUmuKN" target="_blank">CR2032 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3Sf4Li9" target="_blank">CR2032 (AliExpress)</a>
 <a href="https://amzn.to/4i2rCAE#ad" target="_blank">(AmazonNL)</a>
 
 #### Rechargeable
@@ -221,11 +221,9 @@ This CR1632 battery is a bit smaller than the CR2032.
 
 #### Disposable
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeRGeFB" target="_blank">CR1632 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3aGiwhf" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/3ECCUg3#ad" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/490qqKe#ad" target="_blank">(AmazonNL)</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_omGaaZj" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 
 #### Rechargeable
 
@@ -233,8 +231,9 @@ The CR1632 rechargeable version is the **LIR1632**.
 
 <img src="/buy/images_batteries/lir1632.avif" alt="LIR1632" width="100px" style="margin-left:15px;float:right"/>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_om9Uopk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>\
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEp8zbk" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
+Not available right now.
+
+[//]: # ({{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEp8zbk" target="_blank">Rechargeable LIR1632 &#40;AliExpress&#41;</a>)
 
 #### Charger
 
@@ -252,7 +251,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Eoenkk (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c43DyyNN" target="_blank">CR2450 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EGHDQRv" target="_blank">CR2450 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/3FRlQU0#ad" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/3G0MycM#ad" target="_blank">(AmazonNL)</a>
 
@@ -260,7 +259,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 The CR2450 rechargeable version is the **LIR2450**.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4q3X3X9" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4bdd8o9" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DntctnV" target="_blank">Rechargeable LIR2450 + charger (AliExpress)</a>
 
