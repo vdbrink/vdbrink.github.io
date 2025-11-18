@@ -34,8 +34,8 @@ Instead, using a damp microfiber cloth, you can wash easily the outside of the m
 
 * {{imgBasket}}microfiber cloths (choose your favorite color)
 <a href="https://s.click.aliexpress.com/e/_oo2dg9f" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/45mH2dO#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/45rarU7#ad" target="_blank">(Amazon NL)</a>
+  <a href="https://amzn.to/45mH2dO#ad" target="_blank">(Amazon US)</a>
 
 ---
 ## Waste water collection
@@ -46,7 +46,7 @@ You can remove it by pulling the tray out.
 I suggest to clean all the waste water collection parts and the coffee grounds collection tray once a week thorough to avoid mold and bacteria growth.
 Most parts can be cleaned in the dishwasher, or even better, by hand with warm water and a mild detergent.
 
-<img src="images/jura_z10_waste_water_container_parts.jpg" alt="Jura Z10 waste water container parts" height="150px"/>
+<img src="images_maintenance/jura_z10_waste_water_parts.jpg" alt="Jura Z10 waste water parts" height="150px"/>
 
 Check out this video how you can optimally clean the machine.
 
@@ -62,12 +62,12 @@ The Jura Z10 has a milk system cleaning program that you can choose manually to 
 
 * {{imgBasket}}Urnex Rinza 1.1L (32 oz) milk system cleaner
 [Urnex Rinza instructions](https://urnex.com/blog/milk-system-cleaning-guide)
-<a href="https://amzn.to/3H2MBFQ#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4f2ZfkY#ad" target="_blank">(Amazon NL)</a>
+  <a href="https://amzn.to/3H2MBFQ#ad" target="_blank">(Amazon US)</a>
 
 * {{imgBasket}}Jura milk system cleaner mini tabs 180gr (for ~60 cleanings)
-<a href="https://amzn.to/4kTkI18#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/46o0qJw#ad" target="_blank">(Amazon NL)</a>
+  <a href="https://amzn.to/4kTkI18#ad" target="_blank">(Amazon US)</a>
 
 Check out this video how to clean the milk system.
 
@@ -88,8 +88,8 @@ Check out this video how to run the brewing unit cleaning program with cleaning 
 
 There are different cleaning tablets brands available for Jura machines:
 * {{imgBasket}}Urnex Cafiza 100 cleaning tablets, [Urnex Cafiza instructions](https://urnex.com/blog/brew-group-cleaning-guide)
-<a href="https://amzn.to/4f5Cc9h#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3IHtXUM#ad" target="_blank">(Amazon NL)</a>
+  <a href="https://amzn.to/4f5Cc9h#ad" target="_blank">(Amazon US)</a>
 
 * {{imgBasket}}Jura 3-phase 25 cleaning tablets
 <a href="https://amzn.to/40rDVzC#ad" target="_blank">(Amazon NL)</a>

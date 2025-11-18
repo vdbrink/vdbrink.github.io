@@ -62,6 +62,8 @@ That was my new mission!
     * [Test setup](#test-setup)
     * [Version 1](#version-1)
     * [Version 2](#version-2)
+    * [Cheaper version](#cheaper-version)
+  * [Cleaning](#cleaning)
   * [Create one yourself](#create-one-yourself)
 <!-- TOC -->
 
@@ -138,8 +140,6 @@ Creating a total solution.
 Now air comes in through the original milk can top, 
 so I need to create a new top with the adapter build in the milk can top.
 
-<img src="images_bottle_hack/custom_milk_can_top.jpg" alt="custom milk can top" height="150px" style="float:right; margin-left: 15px">
-
 I used a screw top from an old bottle and drew the contour of the Jura milk adapter on it.
 Then I cut the shape of the adapter out of the cap with a stanley knife.
 
@@ -149,6 +149,14 @@ Then I cut the shape of the adapter out of the cap with a stanley knife.
 
 <a href="images_bottle_hack/diy_top.jpg">
 <img src="images_bottle_hack/diy_top.jpg" alt="diy top" height="250px">
+</a>
+
+<a href="images_bottle_hack/diy_top_cutout.jpg">
+<img src="images_bottle_hack/diy_top_cutout.jpg" alt="diy top cut out" height="250px">
+</a>
+
+<a href="images_bottle_hack/diy_top_with_adapter.jpg">
+<img src="images_bottle_hack/diy_top_with_adapter.jpg" alt="diy top with adapter" height="250px">
 </a>
 
 After testing this for a while with success, there was still some milk left over in the can.
@@ -178,20 +186,36 @@ Perfect!
  <img src="images_bottle_hack/almost-no_milk_left.jpg" alt="saw tube" height="250px" />
  </a>
 
-I'm a even happier person with my Jura and now also with this hack!
+I'm an even happier person with my Jura and now also with this hack!
+
+### Cheaper version
+
+If you don't want to spend too much money on the Jura Carafe, 
+you can buy a [long hoses](https://amzn.to/4rce8XW) and put this direct in an open milk can.
+The downside is that milk "sticks" to the outside of the hose when you get it out of the bottle, 
+and you need to clean it direct to avoid dripping.
 
 ---
 ## Cleaning
 
-Because the tube is not part of the cleaning program of the machine itself you need to clean it manually.
+Because the tube is not part of the cleaning program of the machine itself, you need to clean it manually.
 I clean the tube and lid every week when I also clean the rest of the machine.
-I use a small and long [brush]() to also clean the inside of the tube to avoid milk can residues.
+I use a small and long [brush](https://s.click.aliexpress.com/e/_c3FYnYW9) to also clean the inside of the tube to avoid milk can residues.
 
 ---
 
 ## Create one yourself
 
-Do you also create one yourself like this?\
+Do you also create one yourself like this?
+
+The parts I used to create my final version:
+* An old milk bottle top
+* [Jura Carafe](/jura/jura_products#carafe) to use its adapter
+* [Stainless steel tube](https://s.click.aliexpress.com/e/_oFz0a1i)
+* [Cleaning brush](https://s.click.aliexpress.com/e/_c3FYnYW9)
+* Stanley knife
+* Pencil
+
 I like to hear about your experiences with it.
 
 ---
