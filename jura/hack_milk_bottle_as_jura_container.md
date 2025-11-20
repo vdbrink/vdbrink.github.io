@@ -151,12 +151,12 @@ Then I cut the shape of the adapter out of the cap with a stanley knife.
 <img src="images_bottle_hack/diy_top.jpg" alt="diy top" height="250px">
 </a>
 
-<a href="images_bottle_hack/diy_top_cutout.jpg">
-<img src="images_bottle_hack/diy_top_cutout.jpg" alt="diy top cut out" height="250px">
+<a href="images_bottle_hack/diy_top_cut.jpg">
+<img src="images_bottle_hack/diy_top_cut.jpg" alt="diy top cut out" height="250px">
 </a>
 
-<a href="images_bottle_hack/diy_top_with_adapter.jpg">
-<img src="images_bottle_hack/diy_top_with_adapter.jpg" alt="diy top with adapter" height="250px">
+<a href="images_bottle_hack/diy_top_inside.jpg">
+<img src="images_bottle_hack/diy_top_inside.jpg" alt="diy top with adapter" height="250px">
 </a>
 
 After testing this for a while with success, there was still some milk left over in the can.
