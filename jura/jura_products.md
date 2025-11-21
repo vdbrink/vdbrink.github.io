@@ -26,16 +26,15 @@ Here I summarize some of these products.
 ## Table of Contents
 <!-- TOC -->
   * [Beans](#beans)
-  * [Cleaning](#cleaning)
-    * [Milk system](#milk-system)
-      * [Tabs](#tabs)
-      * [Water filters](#water-filters)
   * [Milk containers](#milk-containers)
-    * [Container](#container)
-    * [Carafe](#carafe)
-    * [Active cooler 1L](#active-cooler-1l)
-    * [Active cooler 3L](#active-cooler-3l)
+    * [Not active cooled](#not-active-cooled)
+      * [Basic container](#basic-container)
+      * [Carafe](#carafe)
+    * [Active cooled](#active-cooled)
+      * [Active cooler 1L](#active-cooler-1l)
+      * [Active cooler 3L](#active-cooler-3l)
   * [Cup heater](#cup-heater)
+  * [Other Jura products](#other-jura-products)
 <!-- TOC -->
 
 ---
@@ -47,21 +46,20 @@ All with its own strength and additional tastes.
 The most important thing to pay attention is to choose for beans which are not oily. 
 The oil can clog grinders and pipes, leading to reduced performance and costly repairs.
 
-One of my favorite tastes is this medium strength beans:
+One of my favorite tastes is this medium strength [Lavazza, Rossa Beans](https://amzn.to/46nuIMk):
+
 <a href="images_products/lavazza_rossa_beans.jpg">
 <img src="images_products/lavazza_rossa_beans.jpg" height="150px" alt="Lavazza coffee beans"/>
 </a>
 
 [Amazon NL](https://amzn.to/46nuIMk)
 
-[//]: # ([Amazon US]&#40;&#41;,)
-
-[//]: # ([Amazon UK]&#40;&#41;,)
-
-[//]: # ([Amazon DE]&#40;&#41;)
-
+<!--
 ---
 ## Cleaning
+
+To keep your coffee machine in the perfect condition, it requires [maintenance](jura_z10_cleaning_maintenance).
+With these products, you keep it as new and with the best taste and avoid molt.
 
 ### Milk system
 
@@ -69,10 +67,12 @@ One of my favorite tastes is this medium strength beans:
 
 30 Cleanings, 90 gram
 
+<a href="images_products/jura_milk_system_cleaning_tabs.jpg">
 <img src="images_products/jura_milk_system_cleaning_tabs.jpg" height="150px" alt=""/>
+</a>
 
 [Amazon NL](),
-[Amazon US](https://amzn.to/4lbqr34), 
+[Amazon US](https://amzn.to/4lbqr34)
 
 *Alternative*
 
@@ -87,62 +87,109 @@ One of my favorite tastes is this medium strength beans:
 [Amazon US](),
 
 *Alternative*
+-->
 
 ---
 #### Water filters
+
+With the water filters, you reduce the water hardness and prevent limescale build-up.
 
 *Original*
 
 4 pack Jura Claris Smart+ water filters.
 
+<a href="images_products/jura_water_filter_3pack.jpg">
 <img src="images_products/jura_water_filter_3pack.jpg" height="150px" alt="Jura water filter 4 pack"/>
+</a>
 
-[Amazon NL](https://amzn.to/4oOa9iH),
-[Amazon US]()
+[Amazon NL](https://amzn.to/4oOa9iH)
 
 *Alternative*
 
 ---
 ## Milk containers
 
-### Container
+All Jura milk containers have an adapter to easy-to-connect the container via the hose to the container.
 
-<img src="/jura/images_products/jura_milk_can.jpg" height="150px" alt="" />
+### Not active cooled
 
-[Amazon NL](https://amzn.to/3K6s1pA),
-[Amazon US](),
+These types of containers are made of glass.
+You get it out of the refrigerator, make your coffee with it and put it back in the refrigerator.
 
+#### Basic container
 
-### Carafe
+This glass milk container has a capacity of 0,5 liter milk. 
+It's dishwasher proof.
 
-<img src="/jura/images_products/new_jura_milk_carafe.jpg" height="150px" alt="" />
+<a href="/jura/images_products/jura_milk_can.jpg">
+<img src="/jura/images_products/jura_milk_can.jpg" height="150px" alt="Jura glass milk container" />
+</a>
+
+[Amazon NL](https://amzn.to/3K6s1pA)
+
+#### Carafe
+
+This glass milk container has a capacity of 0,5 liter milk. 
+It's dishwasher proof.
+The lid can easily move away to refill it.
+
+AND this one has a removable adapter to make your own [plastic milk bottle container](hack_milk_bottle_as_jura_container).
+
+<a href="/jura/images_products/new_jura_milk_carafe.jpg">
+<img src="/jura/images_products/new_jura_milk_carafe.jpg" height="150px" alt="Jura Carafe milk container" />
+</a>
 
 <a href="https://amzn.to/4lHspJ1#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/46WKoX3#ad" target="_blank">(Amazon US)</a>
 
+### Active cooled
+#### Active cooler 1L
 
-### Active cooler 1L
+If the machine is used during the whole day with and without milk products, 
+you can choose to keep a small "refrigerator" directly connected to the machine with this Jura Active cooler.
+This version can contain 1 liter milk.
 
-<img src="/jura/images_products/jura_milk_cooler.jpg" height="150px" alt="Active cooler 1L" />
+<a src="/jura/images_products/jura_milk_cooler.jpg">
+<img src="/jura/images_products/jura_milk_cooler.jpg" height="150px" alt="Jura Active cooler 1L" />
+</a>
 
-[Amazon NL](https://amzn.to/44coyN1),
-[Amazon US](),
+[Amazon NL](https://amzn.to/44coyN1)
 
+#### Active cooler 3L
 
-### Active cooler 3L
+This is a bigger version which can contain up to 3 liters.
 
+<a href="/jura/images_products/jura_milk_container_cooled.jpg">
 <img src="/jura/images_products/jura_milk_container_cooled.jpg" height="150px" alt=" Active cooler 3L" />
+</a>
 
-[Amazon NL](https://amzn.to/3XnyNut),
-[Amazon US](),
+[Amazon NL](https://amzn.to/3XnyNut)
 
+---
 
 ## Cup heater
 
-<img src="/jura/images_products/jura_cup_heater.webp" height="150px" alt="Cup heater" />
+Is your coffee always too fast cold?
+With a preheated cup, the coffee will be much warmer than when you use a cold cup.
+It holds the cups at a constant temperature of 55 degrees (131 Fahrenheit).
 
-[Amazon NL](https://amzn.to/4r83UHT),
-[Amazon US](),
+Jura provides a cup heater with two draws. 
+It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø 57 mm), 4 coffee cups (Ø 66 mm).
+
+<a href="/jura/images_products/jura_cup_heater_closed.webp">
+<img src="/jura/images_products/jura_cup_heater_closed.webp" height="150px" alt="Cup heater closed" />
+</a>
+<a href="/jura/images_products/jura_cup_heater.webp">
+<img src="/jura/images_products/jura_cup_heater.webp" height="150px" alt="Cup heater" />
+</a>
+
+[Amazon NL](https://amzn.to/4r83UHT)
+
+---
+
+## Other Jura products
+
+See [here](https://amzn.to/48bcKfs) the full list of Jura products at Amazon.nl
 
 ---
 

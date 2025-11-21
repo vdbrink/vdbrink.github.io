@@ -198,7 +198,9 @@ and you need to clean it direct to avoid dripping.
 ---
 ## Cleaning
 
-Because the tube is not part of the cleaning program of the machine itself, you need to clean it manually.
+To clean the hose, use the milk cleaning program on the machine to remove the left milk from the hose.
+
+The adapter and tube inside the bottle are not part of the cleaning program of the machine itself, you need to clean it manually.
 I clean the tube and lid every week when I also clean the rest of the machine.
 I use a small and long [brush](https://s.click.aliexpress.com/e/_c3FYnYW9) to also clean the inside of the tube to avoid milk can residues.
 
@@ -206,11 +208,11 @@ I use a small and long [brush](https://s.click.aliexpress.com/e/_c3FYnYW9) to al
 
 ## Create one yourself
 
-Do you also create one yourself like this?
+Do you also want to create one yourself now?
 
-The parts I used to create my final version:
+These are the parts I used to create my final version:
 * An old milk bottle top
-* [Jura Carafe](/jura/jura_products#carafe) to use its adapter
+* [Jura Carafe](/jura/jura_products#carafe) for its adapter and hose
 * [Stainless steel tube](https://s.click.aliexpress.com/e/_oFz0a1i)
 * [Cleaning brush](https://s.click.aliexpress.com/e/_c3FYnYW9)
 * Stanley knife
@@ -221,6 +223,8 @@ I like to hear about your experiences with it.
 ---
 
 Enjoy your coffee!
+
+<img src="images/coffee.webp" alt="cup with coffee" width="250px" />
 
 <br>
 
