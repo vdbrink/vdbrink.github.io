@@ -28,11 +28,11 @@ If you have tips or other suggestions for this page, please let me know.
 
 ## Cleaning and Maintenance
 
-<a href="/jura/jura_z10_cleaning_maintenance">
+<a href="/jura/jura_cleaning_maintenance">
 <img style="float:right;width:150px; margin-left:15px;" src="images_products/microfiber_cloth.webp" alt="Jura machine cleaning tablets">
 </a>
 
-Manuals how to [clean and maintain](jura_z10_cleaning_maintenance) your Jura coffee machine.
+Manuals how to [clean and maintain](jura_cleaning_maintenance) your Jura coffee machine.
 
 Answers to: 
 * Which maintenance does it need

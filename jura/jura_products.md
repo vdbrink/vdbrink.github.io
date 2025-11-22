@@ -32,8 +32,8 @@ Here I summarize some of these products.
       * [Carafe](#carafe)
     * [Active cooled](#active-cooled)
       * [Active cooler 1L](#active-cooler-1l)
-      * [Active cooler 3L](#active-cooler-3l)
-  * [Cup heater](#cup-heater)
+      * [Active cooler 2.5L](#active-cooler-25l)
+  * [Cup warmer](#cup-warmer)
   * [Other Jura products](#other-jura-products)
 <!-- TOC -->
 
@@ -58,7 +58,7 @@ One of my favorite tastes is this medium strength [Lavazza, Rossa Beans](https:/
 ---
 ## Cleaning
 
-To keep your coffee machine in the perfect condition, it requires [maintenance](jura_z10_cleaning_maintenance).
+To keep your coffee machine in the perfect condition, it requires [maintenance](jura_cleaning_maintenance).
 With these products, you keep it as new and with the best taste and avoid molt.
 
 ### Milk system
@@ -118,21 +118,22 @@ You get it out of the refrigerator, make your coffee with it and put it back in 
 
 #### Basic container
 
-This glass milk container has a capacity of 0,5 liter milk. 
+This glass milk container has a capacity of 0.5 liter milk. 
 It's dishwasher proof.
 
-<a href="/jura/images_products/jura_milk_can.jpg">
-<img src="/jura/images_products/jura_milk_can.jpg" height="150px" alt="Jura glass milk container" />
+<a href="/jura/images_products/jura_milk_container.jpg">
+<img src="/jura/images_products/jura_milk_container.jpg" height="150px" alt="Jura glass milk container" />
 </a>
 
-[Amazon NL](https://amzn.to/3K6s1pA)
+[Amazon NL](https://amzn.to/3K6s1pA#ad)
+[Amazon DE](https://amzn.to/4oTbaFT#ad)
+[Amazon US](https://amzn.to/4plL1PT#ad)
 
 #### Carafe
 
-This glass milk container has a capacity of 0,5 liter milk. 
+This glass milk container has a capacity of 0.5 liter milk. 
 It's dishwasher proof.
 The lid can easily move away to refill it.
-
 AND this one has a removable adapter to make your own [plastic milk bottle container](hack_milk_bottle_as_jura_container).
 
 <a href="/jura/images_products/new_jura_milk_carafe.jpg">
@@ -140,59 +141,65 @@ AND this one has a removable adapter to make your own [plastic milk bottle conta
 </a>
 
 <a href="https://amzn.to/4lHspJ1#ad" target="_blank">(Amazon NL)</a>
+<a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/930000022669339" target="_blank">(Bol NL)</a>
 <a href="https://amzn.to/46WKoX3#ad" target="_blank">(Amazon US)</a>
+<a href="https://www.google.com/search?q=jura.com+carafe" target="_blank">(Google search)</a>
+
 
 ### Active cooled
 #### Active cooler 1L
 
 If the machine is used during the whole day with and without milk products, 
 you can choose to keep a small "refrigerator" directly connected to the machine with this Jura Active cooler.
-This version can contain 1 liter milk.
+This version can contain 1 liter (34 oz) milk.
 
-<a src="/jura/images_products/jura_milk_cooler.jpg">
+<a href="/jura/images_products/jura_milk_cooler.jpg">
 <img src="/jura/images_products/jura_milk_cooler.jpg" height="150px" alt="Jura Active cooler 1L" />
 </a>
 
-[Amazon NL](https://amzn.to/44coyN1)
+[Amazon NL](https://amzn.to/44coyN1#ad)
+[Amazon US](https://amzn.to/4ilB8je#ad)
 
-#### Active cooler 3L
+#### Active cooler 2.5L
 
-This is a bigger version which can contain up to 3 liters.
+This is a bigger version which can contain up to 2.5 liters (85 oz).
 
 <a href="/jura/images_products/jura_milk_container_cooled.jpg">
-<img src="/jura/images_products/jura_milk_container_cooled.jpg" height="150px" alt=" Active cooler 3L" />
+<img src="/jura/images_products/jura_milk_container_cooled.jpg" height="150px" alt=" Active cooler 2.5L" />
 </a>
 
-[Amazon NL](https://amzn.to/3XnyNut)
+[Amazon NL](https://amzn.to/3XnyNut#ad)
+[Amazon US](https://amzn.to/4oaUjNS#ad)
 
 ---
 
-## Cup heater
+## Cup warmer
 
 Is your coffee always too fast cold?
 With a preheated cup, the coffee will be much warmer than when you use a cold cup.
 It holds the cups at a constant temperature of 55 degrees (131 Fahrenheit).
 
-Jura provides a cup heater with two draws. 
+Jura provides a cup warmer with two draws. 
 It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø 57 mm), 4 coffee cups (Ø 66 mm).
 
-<a href="/jura/images_products/jura_cup_heater_closed.webp">
-<img src="/jura/images_products/jura_cup_heater_closed.webp" height="150px" alt="Cup heater closed" />
+<a href="/jura/images_products/jura_cup_warmer_closed.webp">
+<img src="/jura/images_products/jura_cup_warmer_closed.webp" height="150px" alt="Cup warmer closed" />
 </a>
-<a href="/jura/images_products/jura_cup_heater.webp">
-<img src="/jura/images_products/jura_cup_heater.webp" height="150px" alt="Cup heater" />
+<a href="/jura/images_products/jura_cup_warmer.webp">
+<img src="/jura/images_products/jura_cup_warmer.webp" height="150px" alt="Cup warmer" />
 </a>
 
-[Amazon NL](https://amzn.to/4r83UHT)
+[Amazon NL](https://amzn.to/4r83UHT#ad)
+[Amazon US](https://amzn.to/4ofkBON#ad)
 
 ---
 
 ## Other Jura products
 
-See [here](https://amzn.to/48bcKfs) the full list of Jura products at Amazon.nl
+See [here](https://amzn.to/48bcKfs#ad) the full list of Jura products at Amazon.nl
 
 ---
 
 <a href="/jura/jura_hacks">Jura Hacks ></a>
 
-<a href="/jura/jura_z10_cleaning_maintenance">< Jura Cleaning and Maintenance</a>
+<a href="/jura/jura_cleaning_maintenance">< Jura Cleaning and Maintenance</a>

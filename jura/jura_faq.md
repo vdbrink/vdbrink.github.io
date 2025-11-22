@@ -17,7 +17,7 @@ image: /jura/images/jura_logo.png
 
 When you buy and use a Jura coffee machine, you have a lot of questions.
 
-I have a separated page about [maintenance](jura_z10_cleaning_maintenance) look here if your answer is maybe here.
+I have a separated page about [maintenance](jura_cleaning_maintenance) look here if your answer is maybe here.
 
 If your question is not answered here, 
 please use Jura social media groups like [Facebook - JURA COFFEE MACHINE OWNERS GROUP](https://www.facebook.com/groups/526724898563529) 
@@ -41,11 +41,11 @@ A: No, the brewing unit is not removable on the Jura Z10.
 It is cleaned automatically during the cleaning program.
 
 **Q: Do I need to bring it to service once in a while?**\
-A: If you maintain it well, and follow all the instructions the machine gives you, you don't need to bring it to service. Checkout the [cleaning and maintenance page](jura_z10_cleaning_maintenance) for more information.
+A: If you maintain it well, and follow all the instructions the machine gives you, you don't need to bring it to service. Checkout the [cleaning and maintenance page](jura_cleaning_maintenance) for more information.
 
 **Q: Can I set the temperature higher?**\
 A: You can change the temperature of the milk.
-Another way to keep the coffee warm is to preheat the cup by using a [cup heater](/jura/jura_products#cup-heater) or put for a few minutes hot water in the cup. 
+Another way to keep the coffee warm is to preheat the cup by using a [cup warmer](/jura/jura_products#cup-warmer) or put for a few minutes hot water in the cup. 
 Then the cup doesn't cool down the coffee via the cold cup itself.
 
 ---
