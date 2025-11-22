@@ -56,7 +56,7 @@ The sensor, an ESP, wires, usb cable and a power adapter.
 
 No extra hub needed, the protocol is over WiFi.
 
-> Affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
+> Also affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
 
 * [RCWL-0516 microwave sensor](#rcwl-0516-microwave-sensor)
 * [ESP board](#esp-board)
@@ -155,7 +155,7 @@ Micro USB cable to USB A to power the ESP (AliExpress)
 
 A power adapter to power the ESP and sensor.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">
 5V USB EU power adapter (AliExpress)
 <br>
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>

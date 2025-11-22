@@ -20,7 +20,7 @@ I found this soil sensor, with a solar panel, which could do the job!
 
 <br>
 
-> **_NOTE:_** Affiliate links are used on this page.
+> **_NOTE:_** Also affiliate links are used on this page.
 
 ---
 

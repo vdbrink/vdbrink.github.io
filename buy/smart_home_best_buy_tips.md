@@ -1020,7 +1020,7 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
-{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">(AliExpress)</a>
 
 {{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">(AliExpress)</a>
 

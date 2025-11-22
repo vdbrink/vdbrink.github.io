@@ -76,7 +76,7 @@ You can find it:
 
 The links go to an overall page with all different kinds of DIY components with their webshop links.
 
-Affiliate links are used here. Same price, but you also sponsor this blog.
+Also affiliate links are used here. Same price, but you also sponsor this blog.
 
 These hardware components did I use for this project:
 
@@ -107,7 +107,7 @@ These hardware components did I use for this project:
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* {{imgBasket}}5V USB EU power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqIem#ad" target="_blank">(Amazon US)</a>
+* {{imgBasket}}5V USB EU power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqIem#ad" target="_blank">(Amazon US)</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
@@ -119,7 +119,7 @@ These hardware components did I use for this project:
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 
-Affiliate links are used here, so you sponsor my blog also with it, without paying extra for it.
+Also affiliate links are used here, so you sponsor my blog also with it, without paying extra for it.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
 

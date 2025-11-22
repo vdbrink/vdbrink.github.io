@@ -93,7 +93,7 @@ Click on the photo to open it fullscreen.
 
 These hardware components do I use for this project.
 
-Affiliate links are used here. Same price, and you sponsor this blog.
+Also affiliate links are used here. Same price, and you sponsor this blog.
 
 ### SCD40 CO2 sensor
 
@@ -126,7 +126,7 @@ ESP8266 NodeMCU v3 (Ch340) with pre soldered pins
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
 <br>
-<a href="https://s.click.aliexpress.com/e/_oEUmqpo" target="_blank">Alternative link (AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4U2UgOD" target="_blank">Alternative link (AliExpress)</a>
 <a href="https://amzn.to/44uRwXM#ad" target="_blank"> (Amazon US)</a>
 <br>
 
@@ -167,10 +167,10 @@ Micro USB cable to USB A to power the ESP (AliExpress)</a>
 A power adapter to power the ESP.
 
 5V USB EU power adapter 
-<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon US)</a>
 <br>
-<a href="https://s.click.aliexpress.com/e/_opoqyJG" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px" />
 </a>
 

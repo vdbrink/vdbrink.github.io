@@ -42,7 +42,7 @@ An animation with the four different bin type colors.
 I already have a running home server with a Zigbee network, that's why I choose for a Zigbee LED strip. This will also
 work for a WiFi/bluetooth/other network type, but then the control will also be different.
 
-Affiliate links are used here. Same price, and you sponsor this blog.
+Also affiliate links are used here. Same price, and you sponsor this blog.
 
 [Zigbee RGB 5m LED strip](https://s.click.aliexpress.com/e/_ookcWte) it's available in different versions:
   * Indoor no waterproof (IP20) / Outdoor waterproof (IP65)

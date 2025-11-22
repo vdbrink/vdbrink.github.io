@@ -143,7 +143,7 @@ AND this one has a removable adapter to make your own [plastic milk bottle conta
 <img src="/jura/images_products/new_jura_milk_carafe.jpg" height="150px" alt="Jura Carafe milk container" />
 </a>
 
-They don't sell it everywhere yet.
+They don't sell it everywhere yet.\
 <a href="https://amzn.to/4lHspJ1#ad" target="_blank">Amazon NL</a>,
 <a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/930000022669339" target="_blank">Bol NL</a>,
 <a href="https://amzn.to/46WKoX3#ad" target="_blank">Amazon US</a>,

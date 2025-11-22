@@ -42,7 +42,7 @@ Quick links:
 
 > **_TIP:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
 
-> **_NOTE:_** Affiliate links are used on this page.
+> **_NOTE:_** Also affiliate links are used on this page.
 
 ---
 ## Table of Contents

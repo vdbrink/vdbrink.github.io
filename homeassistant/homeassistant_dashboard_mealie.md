@@ -558,7 +558,29 @@ Go make this work:
 * Go to your mealie page and bookmark it in your browser
 * Edit this bookmark and replace the link with the JavaScript code
 
-Go to a recipe web page and click on the Boomarklet, now this recipe will be imported into YOUR Mealie!
+Go to a recipe web page and click on the Bookmarklet, now this recipe will be imported into YOUR Mealie!
+
+---
+
+## Ollama integration  
+
+With the OpenAI/Ollama integration, you can activate the feature to upload recipe image and extract the data into a new recipe.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# docker-compose.yaml
+  ....
+  # Ollama
+  OPENAI_SEND_DATABASE_DATA: "true"
+  OPENAI_ENABLE_IMAGE_SERVICES: "true"
+  OPENAI_BASE_URL: http://192.168.1.11:11434/v1
+  OPENAI_API_KEY: "ollama"
+  OPENAI_MODEL: "llama3.2:latest"
+{% endraw %}
+```
+
+Alternative models: `mistral-nemo:latest`
 
 ---
 ## FAQ

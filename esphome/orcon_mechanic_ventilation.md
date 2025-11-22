@@ -105,7 +105,7 @@ These hardware components do I use for this project:
 
 ![BlitzWolf EU SHP-13](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-13")
 
-Affiliate links are used here.
+Also affiliate links are used here.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
 
