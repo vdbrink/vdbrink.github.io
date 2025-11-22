@@ -96,15 +96,18 @@ With the water filters, you reduce the water hardness and prevent limescale buil
 
 *Original*
 
-4 pack Jura Claris Smart+ water filters.
+Multiple pack Jura Claris Smart+ water filters.
+There are different multipacks with 3, 4, 6 pieces.
 
 <a href="images_products/jura_water_filter_3pack.jpg">
-<img src="images_products/jura_water_filter_3pack.jpg" height="150px" alt="Jura water filter 4 pack"/>
+<img src="images_products/jura_water_filter_3pack.jpg" height="150px" alt="Jura water filter pack"/>
 </a>
 
-[Amazon NL](https://amzn.to/4oOa9iH)
+[4x Amazon NL](https://amzn.to/4oOa9iH#ad),
+[3x Amazon US](https://amzn.to/47W25pV#ad),
+[6x Amazon US](https://amzn.to/4p2qEb0#ad),
 
-*Alternative*
+[//]: # (*Alternative*)
 
 ---
 ## Milk containers
@@ -125,8 +128,8 @@ It's dishwasher proof.
 <img src="/jura/images_products/jura_milk_container.jpg" height="150px" alt="Jura glass milk container" />
 </a>
 
-[Amazon NL](https://amzn.to/3K6s1pA#ad)
-[Amazon DE](https://amzn.to/4oTbaFT#ad)
+[Amazon NL](https://amzn.to/3K6s1pA#ad),
+[Amazon DE](https://amzn.to/4oTbaFT#ad),
 [Amazon US](https://amzn.to/4plL1PT#ad)
 
 #### Carafe
@@ -140,10 +143,11 @@ AND this one has a removable adapter to make your own [plastic milk bottle conta
 <img src="/jura/images_products/new_jura_milk_carafe.jpg" height="150px" alt="Jura Carafe milk container" />
 </a>
 
-<a href="https://amzn.to/4lHspJ1#ad" target="_blank">(Amazon NL)</a>
-<a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/930000022669339" target="_blank">(Bol NL)</a>
-<a href="https://amzn.to/46WKoX3#ad" target="_blank">(Amazon US)</a>
-<a href="https://www.google.com/search?q=jura.com+carafe" target="_blank">(Google search)</a>
+They don't sell it everywhere yet.
+<a href="https://amzn.to/4lHspJ1#ad" target="_blank">Amazon NL</a>,
+<a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/930000022669339" target="_blank">Bol NL</a>,
+<a href="https://amzn.to/46WKoX3#ad" target="_blank">Amazon US</a>,
+<a href="https://www.google.com/search?q=jura.com+carafe" target="_blank">Google search</a>
 
 
 ### Active cooled
@@ -157,7 +161,7 @@ This version can contain 1 liter (34 oz) milk.
 <img src="/jura/images_products/jura_milk_cooler.jpg" height="150px" alt="Jura Active cooler 1L" />
 </a>
 
-[Amazon NL](https://amzn.to/44coyN1#ad)
+[Amazon NL](https://amzn.to/44coyN1#ad),
 [Amazon US](https://amzn.to/4ilB8je#ad)
 
 #### Active cooler 2.5L
@@ -168,7 +172,7 @@ This is a bigger version which can contain up to 2.5 liters (85 oz).
 <img src="/jura/images_products/jura_milk_container_cooled.jpg" height="150px" alt=" Active cooler 2.5L" />
 </a>
 
-[Amazon NL](https://amzn.to/3XnyNut#ad)
+[Amazon NL](https://amzn.to/3XnyNut#ad),
 [Amazon US](https://amzn.to/4oaUjNS#ad)
 
 ---
@@ -189,7 +193,7 @@ It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø
 <img src="/jura/images_products/jura_cup_warmer.webp" height="150px" alt="Cup warmer" />
 </a>
 
-[Amazon NL](https://amzn.to/4r83UHT#ad)
+[Amazon NL](https://amzn.to/4r83UHT#ad),
 [Amazon US](https://amzn.to/4ofkBON#ad)
 
 ---

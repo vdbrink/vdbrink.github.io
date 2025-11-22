@@ -36,8 +36,6 @@ On this page, you can read how I simplified making milk based coffee with my new
 ---
 ## My "problem"
 
-
-
 I always drink my coffee with milk, that's why I started by using the [Jura glass milk container](jura_products#basic-container).
 It can hold up to 0,5 liter milk, and it works .... but it's not ideal for me.
 
@@ -89,6 +87,9 @@ That was my new mission to see if this is possible to accomplish!
 ---
 ## Goal
 
+<a href="images_bottle_hack/z10_cleaning_hose_connection.jpg">
+<img src="images_bottle_hack/z10_cleaning_hose_connection.jpg" alt="Z10 cleaning milk hose" height="100px" style="float:right;margin-left:15px">
+</a>
 I want to use an original milk bottle from the supermarket as a milk supply for my Jura machine.
 Based on the same principal of the original Jura hose and how the original Jura milk container works.
 this way I still can use the original hose to clean the milk system.
@@ -101,7 +102,7 @@ And with a stainless steel pipe attached to it which reach to the bottom of the 
 That should be brilliant if that's possible!
 
 <a href="images_bottle_hack/new_diy_bottle_top.jpg">
-<img src="images_bottle_hack/new_diy_bottle_top.jpg" alt="" height="250px">
+<img src="images_bottle_hack/new_diy_bottle_top.jpg" alt="milk top hack" height="250px">
 </a>
 
 ---
@@ -111,8 +112,8 @@ That should be brilliant if that's possible!
 ### Idea
 
 At the time I was looking for a solution milk adapter, the new Jura milk Carafe was released.
-I first looked to a custom 3D printed adapter, but you need special plastic which is also suitable for food.
-This [Jura Carafe](/jura/jura_products#carafe) has a removable milk adapter (actually two, a white and black one)!
+I first looked at a custom 3D printed adapter, but you need special plastic which is also suitable for food.
+This [Jura Carafe](/jura/jura_products#carafe) has a removable milk adapter (actually two, a white and a black one)!
 A bit expensive for only the adapter but exactly what I need!
 It's still cheaper than buying, maintaining and refilling a powered [Jura milk cooler](/jura/jura_products#active-cooler-1l).
 
@@ -192,7 +193,7 @@ This tube is also 2 mm wider but also fits perfect in the milk adapter.
 <img src="images_bottle_hack/saws_tube.jpg" alt="saw tube" height="250px" />
 </a>
 
-With this replaced tube, there is only a very tiny bit of milk is left over in the bottle! 
+With this replaced tube, there is only a very little milk left over in the bottle! 
 This bottle be decanted to the next bottle without any problem.
 Perfect!
 
@@ -202,6 +203,10 @@ Perfect!
 
  <a href="images_bottle_hack/almost-no_milk_left.jpg">
  <img src="images_bottle_hack/almost-no_milk_left.jpg" alt="saw tube" height="250px" />
+ </a>
+
+ <a href="images_bottle_hack/new_diy_bottle_top.jpg">
+ <img src="images_bottle_hack/new_diy_bottle_top.jpg" alt="milk top hack" height="250px">
  </a>
 
 I'm an even happier person with my Jura and now also with this hack!
@@ -222,6 +227,8 @@ The adapter and tube inside the bottle are not part of the cleaning program of t
 I clean the tube and lid every week when I also clean the rest of the machine.
 I use a small and long [brush](https://s.click.aliexpress.com/e/_c3FYnYW9) to also clean the inside of the tube to avoid milk bottle residues.
 
+<img src="images_bottle_hack/straw_brush.jpg" alt="cleaning brush" width="150px" />
+
 ---
 
 ## Create one yourself
@@ -232,7 +239,7 @@ These are the parts I used to create my final version:
 * An old milk bottle top
 * [Jura Carafe](jura_products#carafe) for its adapter and hose
 * [Stainless steel tube](https://s.click.aliexpress.com/e/_oFz0a1i)
-* [Cleaning brush](https://s.click.aliexpress.com/e/_c3FYnYW9)
+* [Cleaning straw brush](https://s.click.aliexpress.com/e/_c3FYnYW9)
 * Stanley knife
 * Pencil
 
