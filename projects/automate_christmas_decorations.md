@@ -169,7 +169,7 @@ In the next chapters I'll describe how I automated each type.
 
 There are multiple smart hardware device combinations possible to change battery powered decorations, so you don't need any battery at all anymore!
 
-Here are some examples how-to accomplish this:
+Here are some examples of how to accomplish this:
 
 #### Example 1: battery-to-USB + smart USB adapter/switch + 5V-adapter
 
@@ -187,6 +187,10 @@ This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each
 &nbsp;
 <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" height="150px"/>
+</a>
+
+<a href="images_christmas_decorations/usb_smart_adapter_connect.jpg">
+<img src="images_christmas_decorations/usb_smart_adapter_connect.jpg" alt="battery powered decoration" height="150px"/>
 </a>
 
 This original battery-powered garland is now powered via the main power and controlled automatically.
