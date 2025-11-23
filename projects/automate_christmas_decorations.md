@@ -31,8 +31,6 @@ Now I also can control all my Christmas decorations from my phone in a Home Assi
 <img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
 </a>
 
-<br>
-
 On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
 
 
@@ -60,6 +58,7 @@ Quick links:
     * [Christmas tree lights](#christmas-tree-lights)
     * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
+  * [Home Assistant](#home-assistant)
   * [Automations](#automations)
   * [Do you have other solutions?](#do-you-have-other-solutions)
 <!-- TOC -->
@@ -77,7 +76,7 @@ It's more than you can think of, like:
 * Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again; [Node-RED automation](#activate-a-light-on-motion-detection)
     * _No use of batteries, no useless power usage, more time for other things, more comfort_
     * _Only downside: No morning gymnastics to switch all the buttons in each corner_
-* Come downstairs, and all the cozy lights are (just) on; [Node-RED automation](#activate-a-light-on-motion-detection)
+* Come downstairs, and all the cozy lights are (just) on; [Node-RED automation](#activate-a-light-on-motion-detection) [Home Assistant controls](#home-assistant)
     * _More joy, quicker to the coffee!_
 * Outside lights only on when it becomes dark; [Node-RED automation](#activate-a-socket-based-on-outside-lux)
     * _On a sunny day it doesn't make sense to put also all outside lights on_

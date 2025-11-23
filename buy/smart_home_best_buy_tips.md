@@ -125,19 +125,21 @@ A reason why not to choose for Zigbee? I don't know :)
 <a href="https://slae.sh/projects/cc2652/" target="_blank">
 <img src="images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" height="150px" style="margin-left:15px;float:right"/></a>
 
-This new coordinator which many people are very satisfied with is the Sonoff ZBDongle-E Plus 
-<a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">(AliExpress)</a> 
-<a href="https://amzn.to/3RO4Ro9#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3OkLelX#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/45o9mO9#ad" target="_blank">(Amazon DE)</a> 
-<a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
-
 I've run my Zigbee network since 2020 non-stop with the {{imgBasket}}Slaesh's CC2652RB stick <a href="https://slae.sh/projects/cc2652/" target="_blank">(Slae website)</a> 
 <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
 My network grew to 140+ devices today, and it still runs fast.
 
+This new coordinator which many people are very satisfied with is the Sonoff ZBDongle-E Plus
+<a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3RO4Ro9#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3OkLelX#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/45o9mO9#ad" target="_blank">(Amazon DE)</a>
+<a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
+
 <a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">
 <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a>
+
+Now, Nabu Casa (from Home Assistant) delivers also a Zigbee dongle with Zigbee or Thread, the [Home Assistant Connect - ZBT-2](https://www.home-assistant.io/connect/zbt-2/)
 
 To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick. 
@@ -257,9 +259,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 **Alternative option:**\
 {{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
-<a href="https://s.click.aliexpress.com/e/_DFRt33t" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4pwaEJj" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4kUzGUw#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/41NgMIi#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ01LM.html" target="_blank" title="RTCGQ01LM">{{imgZ2M}}RTCGQ01LM</a>
 
 **All direction option:**\
@@ -436,13 +437,13 @@ Another leak sensor is the one with a wire, this sensor itself isn't water-resis
 This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
 {{imgBasket}}Zigbee leak sensor
-<a href="https://s.click.aliexpress.com/e/_o2bErAz" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4547Us5" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3H5bBwd#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/45cjJTY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/4mKUwH4#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
-<a href="https://s.click.aliexpress.com/e/_o2bErAz" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4547Us5" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 <br>
@@ -630,9 +631,9 @@ The first port can also be used to switch on/off data access via USB, the other 
 <a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank" title="TS0003">{{imgZ2M}}TS0003</a>
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Sonoff
-<a href="https://amzn.to/3UhFZXv#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4fcxpmu#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/41wvLXh#ad" target="_blank">(Amazon DE)</a>
+<a href="https://amzn.to/44fJL8Y#ad" target="_blank">(Amazon US)</a>
 
 Check also the [dedicated page](/zigbee/usb_adapter_switch) about this device.
 
