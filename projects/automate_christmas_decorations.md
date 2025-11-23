@@ -26,10 +26,12 @@ I've made my life easier by automating them all!
 
 Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
 
-<a href="images_christmas_decorations/home_assistant_switches.jpg">
-<img src="images_christmas_decorations/home_assistant_switches.jpg" alt="random plugs" width="200px" />
+<i>Click to see a video of this dashboard in action.</i>\
+<a href="https://www.facebook.com/reel/841128491664565">
+<img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
 </a>
 
+<br>
 
 On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
 
@@ -449,6 +451,21 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
   <a href="https://amzn.to/3Vt83Ip#ad" target="_blank">
    <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" /></a>
+
+---
+
+## Home Assistant
+
+Because all lights are now connected via a Zigbee smart socket or Zigbee smart USB adapter, 
+I can control everything also from Home Assistant.
+
+This is how my dashboard looks like.
+Normally everything works by automations, but it can also be controlled from my Home Assistant dashboard. 
+
+<i>Click to see a video of this dashboard in action.</i>\
+<a href="https://www.facebook.com/reel/841128491664565">
+<img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
+</a>
 
 ---
 
