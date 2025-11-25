@@ -145,10 +145,9 @@ AND this one has a removable adapter to make your own [plastic milk bottle conta
 
 They don't sell it everywhere yet.\
 <a href="https://amzn.to/4lHspJ1#ad" target="_blank">Amazon NL</a>,
-<a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/930000022669339" target="_blank">Bol NL</a>,
+<a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/9300000226693397/" target="_blank">Bol NL</a>,
 <a href="https://amzn.to/46WKoX3#ad" target="_blank">Amazon US</a>,
 <a href="https://www.google.com/search?q=jura.com+carafe" target="_blank">Google search</a>
-
 
 ### Active cooled
 #### Active cooler 1L

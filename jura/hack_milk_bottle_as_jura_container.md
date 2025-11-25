@@ -21,7 +21,7 @@ image: /jura/images_bottle_hack/new_diy_bottle_top.jpg
 My name is Ronald, and I like to simplify life with life hack and digital automations. 
 There is this blog about.
 Sometimes with some simple combinations of materials, you can make your life easier.
-On this page, you can read how I simplified making milk based coffee with my new Jura Z10 machine.
+On this page, you can read how I converted a supermarket milk bottle to a Jura compatible container which I can directly attach to my new Jura Z10 machine.
 
 <a href="images_bottle_hack/bottle_hack.jpg">
 <img src="images_bottle_hack/bottle_hack.jpg" alt="plastic milk bottle attach to Jura coffee machine" height="250px">
@@ -39,7 +39,7 @@ On this page, you can read how I simplified making milk based coffee with my new
 I always drink my coffee with milk, that's why I started by using the [Jura glass milk container](jura_products#basic-container).
 It can hold up to 0,5 liter milk, and it works .... but it's not ideal for me.
 
-My "problem"; it doesn't contain enough milk to make two (for me and my partner) big cappuccino's with one filled container.
+My "problem"; it doesn't contain enough milk to make two (for me and my partner) big latte macchiatos with one filled container.
 After the first coffee is created, I needed to add more milk to the glass container from a big supermarket plastic milk bottle before I can make the second one.
 
 Many steps BEFORE I HAD ANY COFFEE :).
@@ -61,7 +61,11 @@ I have to pay extra for the used energy to cool the milk,
 it's not cheap and that for only make twice a day coffee.
 And, with this solution, I still need to refill it every day.
 
-So I thought, why can't I use the original milk bottle from the supermarket as a milk container for my Jura machine?
+I could also put the hose direct in the milk bottle, but then I need to clean the complete hose every time after each use. 
+The milk will stick to the hose when you take it out of the bottle, and it will drip.
+Also, it doesn't reach the bottom of the bottle, so there will be always some milk left over in the bottle.
+
+So I thought, why can't I use the original milk bottle from the supermarket as a milk container with a tube which reaches the bottom also for my Jura machine?
 Then I don't have to pour milk anymore.
 Then I can get the milk bottle from the refrigerator, attach it, 
 make my coffee, and put it back in the refrigerator. 
