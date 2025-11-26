@@ -53,8 +53,7 @@ I can control the lights via the original remote and also from my Home Assistant
 
 <a href="/buy/images_zigbee/zigbee_ir_remote.webp"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" style="margin-left:15px;float:right" /></a>
 I used for this project the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
-<a href="https://amzn.to/4o5bb9H#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/47xtPBl#ad" target="_blank">(Amazon DE)</a>
+<a href="https://amzn.to/4rm0u4v#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a> 
 With this small black box, powered on batteries, you can control any infrared device.
@@ -62,11 +61,11 @@ With this small black box, powered on batteries, you can control any infrared de
 An infrared sender needs to be in a direct line with the receiver. 
 If you have more devices you want to control, it can be that you need multiple smart devices to control them all.
 
-> There are also similar [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz) [(Amazon US)](https://amzn.to/3UzxCGU) [(Amazon DE)](https://amzn.to/41b3nJU) available of this device.
+> There are also similar [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz) [(Amazon US)](https://amzn.to/3UzxCGU#ad) [(Amazon NL)](https://amzn.to/41b3nJU#ad)  available of this device.
 
 > Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
 <a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/46TDEYk#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4p2FC0q#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 
 <a href="images_infrared/purposes_ir.png" target="_blank">
@@ -78,7 +77,7 @@ When you trigger the device with a code, it sends the stored signals but now fro
 You can save a lot of signals on this box, each button on a remote and that for multiple remotes.
 
 > I used this solution also for my Christmas paper star, 
-see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) about my automated Christmas lights and decorations.
+see my dedicated page about my [automated Christmas lights and decorations](/projects/automate_christmas_decorations#infrared-lights).
 
 ---
 ### Learning mode
@@ -216,6 +215,7 @@ Light curtains
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains (AliExpress)</a>
 <a href="https://amzn.to/3JkKUVi#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4ptf1JO#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/45GQ9pR#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">
@@ -226,6 +226,7 @@ Tea lights
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
 <a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/45DME39#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
@@ -244,6 +245,7 @@ Candles
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
   <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
   <a href="https://amzn.to/4fLGJxR#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">
@@ -252,7 +254,7 @@ Candles
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
   <a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
-  <a href="https://amzn.to/4mqgDmC#ad" target="_blank">(Amazon DE)</a>
+  <a href="https://amzn.to/44mdDk4#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
     <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
@@ -280,4 +282,5 @@ Where do you use the infrared transmitter / receiver for in your smart home?
 
 ---
 
-See also my other [Home Automation - Ideas](ideas/home_automation_ideas) page.
+
+See also my other [Home Automation - Ideas](ideas/home_automation_ideas) page or my [automated Christmas lights and decorations](/projects/automate_christmas_decorations#infrared-lights).

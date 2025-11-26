@@ -129,17 +129,19 @@ I've run my Zigbee network since 2020 non-stop with the {{imgBasket}}Slaesh's CC
 <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="CC2652RB">{{imgZ2M}}CC2652RB</a> without any issue, it's a very reliable stick.
 My network grew to 140+ devices today, and it still runs fast.
 
-This new coordinator which many people are very satisfied with is the Sonoff ZBDongle-E Plus
-<a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3RO4Ro9#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3OkLelX#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/45o9mO9#ad" target="_blank">(Amazon DE)</a>
-<a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
+* A coordinator where many people are very satisfied about, is the Sonoff ZBDongle-E Plus.
+ <a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">(AliExpress)</a>
+ <a href="https://amzn.to/3RO4Ro9#ad" target="_blank">(Amazon US)</a>
+ <a href="https://amzn.to/3OkLelX#ad" target="_blank">(Amazon NL)</a>
+ <a href="https://amzn.to/45o9mO9#ad" target="_blank">(Amazon DE)</a>
+ <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank" alt="https://www.zigbee2mqtt.io/guide/adapters/zstack.html#zstack-adapters-texas-instruments">{{imgZ2M}}EFR32MG21</a>
+ 
+ <a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">
+ <img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/>
+ </a>
 
-<a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">
-<img src="images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee 3.0 dongle Plus" height="150px"/></a>
-
-Now, Nabu Casa (from Home Assistant) delivers also a Zigbee dongle with Zigbee or Thread, the [Home Assistant Connect - ZBT-2](https://www.home-assistant.io/connect/zbt-2/)
+* Nabu Casa (from Home Assistant) delivers also a Zigbee dongle with Zigbee or Thread, 
+the [Home Assistant Connect - ZBT-2](https://www.home-assistant.io/connect/zbt-2/)
 
 To avoid interference with Bluetooth or WiFi,
 it's better to move the stick away from the server. This is recommended for every stick. 
