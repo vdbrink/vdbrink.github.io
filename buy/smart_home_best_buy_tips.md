@@ -292,22 +292,31 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 ### Presence detection sensor
 
-Aqara FP300
-<a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon US)</a>
-
-<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
-<img src="images_zigbee/mmwave_motion_sensor.jpg" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
-
-A human presence sensor has no need to direct sight. 
-You can also hide it in a closet.
-It can detect persons when they don't move, for example, when they sit on a couch.\
+A presence sensor has no need to direct sight. 
+It uses radar to detect people (and pets). 
+You can also hide it in a closet and still it detects.
+It can even detect a person when he isn't moving, for example, when he sits on a couch or chair.\
 Ideal for the living room, bedrooms and home office.
 
+**Best option:**\
+<a href="https://amzn.to/48qWsyY#ad" target="_blank">
+<img src="images_zigbee/aqara_fp300.avif" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
+The Aqara FP300 is a new battery powered motion sensor with PIR and mmWave radar sensor.
+It can detect up to 6 meters it also measures light, temperature and humidity.
+
+{{imgBasket}} Zigbee or Thread (Matter) - Aqara FP300
+<a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon NL)</a> (sold out)
+<a href="https://www.zigbee2mqtt.io/devices/PS-S04D.html" target="_blank" title="Aqara FP300">{{imgZ2M}}FP300</a>
+
+<br>
+
+**Cheaper option:**\
+<a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
+<img src="images_zigbee/mmwave_motion_sensor.jpg" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
 {{imgBasket}}Zigbee / WiFi human Presence detection sensor 
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/46ZtuXT#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3Zi5pay#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/4mQ1MBO#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
 <br>
