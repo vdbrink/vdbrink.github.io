@@ -134,15 +134,15 @@ Without to worry about latency or any other performance issues for the best expe
 
 {% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_ok3c5OT)*{% endcapture %}
 {% capture n95_global2 %}[2](https://s.click.aliexpress.com/e/_oEdADw3)*{% endcapture %}
-{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3hg9nif){% endcapture %}
+{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3Y6rDrn){% endcapture %}
 {% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c4B2ED2n){% endcapture %}
-{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4mJzwzD){% endcapture %}
-{% capture n100_global2 %}[2](https://s.click.aliexpress.com/e/_c3EDJTC7)*{% endcapture %}
-{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3zXK55H){% endcapture %}
-{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c3cthETH)*{% endcapture %}
-{% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_ol4rnNM){% endcapture %}
-{% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_oFQPjEr){% endcapture %}
-{% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_op9BDlL){% endcapture %}
+{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3TjJq1R){% endcapture %}
+{% capture n100_global2 %}[2](https://s.click.aliexpress.com/e/_c30QcKcl)*{% endcapture %}
+{% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3r8jpfR){% endcapture %}
+{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c4miXxId)*{% endcapture %}
+{% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c42OETY1){% endcapture %}
+{% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4aqbUfj){% endcapture %}
+{% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3RWz1fn){% endcapture %}
 
 {% capture n95_beelink %}[Beelink sold out](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
 {% capture n97_beelink %} n/a {% endcapture %}

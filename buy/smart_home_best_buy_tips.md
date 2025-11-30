@@ -232,7 +232,6 @@ It can also detect persons who sit still or laying in bed.
 <a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3TWO4k4#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/46H1JBL#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/471mJF4#ad" target="_blank">(Amazon DE)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
 
 <br>
@@ -292,6 +291,9 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 ---
 
 ### Presence detection sensor
+
+Aqara FP300
+<a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon US)</a>
 
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
 <img src="images_zigbee/mmwave_motion_sensor.jpg" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
