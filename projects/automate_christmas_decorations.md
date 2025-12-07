@@ -79,7 +79,7 @@ It's more than you can think of, like:
 * Come downstairs, and all the cozy lights are (just) on; [Node-RED automation](#activate-a-light-on-motion-detection) [Home Assistant controls](#home-assistant)
     * _More joy, quicker to the coffee!_
 * Outside lights only on when it becomes dark; [Node-RED automation](#activate-a-socket-based-on-outside-lux)
-    * _On a sunny day it doesn't make sense to put also all outside lights on_
+    * _On a sunny day it doesn't make sense to put all outside lights on_
 * Activate something (like playing Christmas music, or a dancing Santa) when someone shows up at your doorstep; [Node-RED automation](#activate-a-socket-based-on-someone-entering-the-house)
     * _A smile on their face_     
 * No lights on when there is nobody around for a while; [Node-RED automation](#disable-a-socket-after-a-period-of-inactivity)
@@ -148,7 +148,7 @@ Like control them more dynamically based on the daylight level or motion and occ
 ## My smart hardware solutions
 
 As mentioned, I have multiple types of Christmas decorations.\
-Which results at the end in five different type of power types to automate:
+Which results at the end in five different types of power types to automate:
 
 <a href="images_christmas_decorations/random_plugs.jpg">
 <img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" />
@@ -350,6 +350,8 @@ Wireless, battery-powered colored LED lights.
 I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
+<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
     <img src="images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
@@ -357,7 +359,10 @@ I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I a
 
 ##### Candle lights
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
+<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
+
 
   <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
     <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
@@ -365,7 +370,10 @@ I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I a
 
 <br>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">Other candle lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">Other candle lights controlled by an infrared remote (AliExpress)</a>
+<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
+
 
   <a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">
     <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
@@ -373,7 +381,10 @@ I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I a
 
 ##### Long candle lights
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
+<a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/44mdDk4#ad" target="_blank">(Amazon NL)</a>
+
 
   <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
     <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
@@ -381,9 +392,9 @@ I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I a
 
 ##### Paper stars
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">A Christmas paper star - example 1</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 2</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">A Christmas paper star - example 1 (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 2 (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3 (AliExpress)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">
     <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
@@ -400,7 +411,7 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
   <img src="images_christmas_decorations/tree_power_top.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">Christmas light string plug 31V/3.6W</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">Christmas light string plug 31V/3.6W (AliExpress)</a>
 
 <a href="images_christmas_decorations/christmas_tree.jpg">
   <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
@@ -442,7 +453,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 * An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individual, and it has power consumption measurements.
  
-  {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon).
+  {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon NL).
 
   <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
 

@@ -227,7 +227,6 @@ Tea lights
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
 <a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/45DME39#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
     <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="tea lights" width="200px" class="buy-link"/>
@@ -246,7 +245,6 @@ Candles
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
   <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
   <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
-  <a href="https://amzn.to/4fLGJxR#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">
     <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
