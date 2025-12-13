@@ -1,11 +1,6 @@
 ---
-title: Which hardware to run Home Assistant on?
-description: "Which hardware to run Home Assistant on?"
-category: Home Assistant
-tags: [system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished, N100, N150]
-image: /homeassistant/images_hardware/ha_hardware_banner.png
+span
 ---
-
 {% capture style_img_right %}style="float:right;margin-left:15px"{% endcapture %}
 
 # Which hardware to run Home Assistant on?
@@ -25,8 +20,8 @@ And there is no way you can let them work nicely together or combine it in one a
 "Home automations with Home Assistant" you heard about it, you read about it, and it all sounds as the holy grail!
 You've made the choice to dive into the rabbit hole called "Home Assistant" (aka HA).
 
-Or if you're already running Home Assistant on a Raspberry, but it will now become a bit slower, 
-and you want to upgrade to something more powerful but don't want to spend a fortune on it. 
+Or if you're already running Home Assistant on a Raspberry, but it will now become a bit slower,
+and you want to upgrade to something more powerful but don't want to spend a fortune on it.
 Then you're here at the right place to find out which hardware could be the best for you.
 
 <a href="images_hardware/beelink_front_back.jpg">
@@ -35,15 +30,15 @@ Then you're here at the right place to find out which hardware could be the best
 
 Then comes the question: On which hardware should I run it?
 It can be installed on a whole range of hardware: like a **Mini PC, Home Assistant Green, Home Assistant Yellow,
-Raspberry Pi, old laptop/desktop, thin client, etc...**\
-I split it up in two sections: new hardware but you can also run it on refurbished PCs could be powerful enough!\
+Raspberry Pi, old laptop/desktop, thin client, etc...**
+I split it up in two sections: new hardware but you can also run it on refurbished PCs could be powerful enough!
 I explain on this page which one of these systems fits the best for your situation and what the differences between the
 hardware are.
 
 I don't mention ALL possible options here, just in my opinion, the most popular ones.
 
-In the hardware tables, I added the row **CPU benchmark**. 
-This is a raw multi-thread CPU speed indicator that gives you an indication of how it performs compared to other hardware. 
+In the hardware tables, I added the row **CPU benchmark**.
+This is a raw multi-thread CPU speed indicator that gives you an indication of how it performs compared to other hardware.
 Know that the total performance also depends on the speed of the memory and harddisk etc.!
 
 After reading this page, if you still have questions about the choice you need to make, don't contact me personally,
@@ -57,18 +52,20 @@ There are also a lot of other smart and experienced people who can help you furt
 ## Table of Contents
 
 <!-- TOC -->
-  * [Terminology](#terminology)
-  * [New hardware](#new-hardware)
-    * [All-in-one mini PCs](#all-in-one-mini-pcs)
-    * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
-    * [Raspberry Pi](#raspberry-pi)
-  * [Older hardware](#older-hardware)
-    * [Desktop](#desktop)
-    * [Laptop](#laptop)
-    * [Thin client](#thin-client)
-    * [NAS](#nas)
-  * [Need help?](#need-help)
-  * [Remarks](#remarks)
+
+* [Terminology](#terminology)
+* [New hardware](#new-hardware)
+  * [All-in-one mini PCs](#all-in-one-mini-pcs)
+  * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
+  * [Raspberry Pi](#raspberry-pi)
+* [Older hardware](#older-hardware)
+  * [Desktop](#desktop)
+  * [Laptop](#laptop)
+  * [Thin client](#thin-client)
+  * [NAS](#nas)
+* [Need help?](#need-help)
+* [Remarks](#remarks)
+
 <!-- TOC -->
 
 ---
@@ -79,25 +76,26 @@ First, I want to explain some terms that are used here, and frequently used in d
 
 <div class="align-left">
 
-| Term            | Explanation                                                                                                                                                           | 
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 12th Gen        | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  | 
-| Bare metal      | It refers to a **physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    | 
-| Beelink         | It's a brand which makes **Mini PCs**                                                                                                                                 | 
-| Docker          | It's is an **application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. | 
-| Form factor     | A common design for a PC group.                                                                                                                                       | 
-| HA              | Abbreviation for **Home Assistant**                                                                                                                                   | 
-| HAOS            | Abbreviation for **Home Assistant Operating System**                                                                                                                  | 
-| Home lab        | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                                | 
-| Mini PC         | This refer to the size of popular **small pc** cases.                                                                                                                 | 
-| NAS             | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               | 
-| NUC             | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            | 
-| N100            | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          | 
-| Proxmox         | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            | 
-| Synology        | A brand name which makes NAS computers.                                                                                                                               | 
-| T630/T620       | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   | 
-| Thin client     | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          | 
-| Virtual machine | Also known as VM, is a software-based simulation of a physical computer that runs on top of an other operating system.                                                | 
+
+| Term            | Explanation                                                                                                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 12th Gen        | The version of Intel Core**processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  |
+| Bare metal      | It refers to a**physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    |
+| Beelink         | It's a brand which makes**Mini PCs**                                                                                                                                 |
+| Docker          | It's is an**application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. |
+| Form factor     | A common design for a PC group.                                                                                                                                      |
+| HA              | Abbreviation for**Home Assistant**                                                                                                                                   |
+| HAOS            | Abbreviation for**Home Assistant Operating System**                                                                                                                  |
+| Home lab        | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                               |
+| Mini PC         | This refer to the size of popular**small pc** cases.                                                                                                                 |
+| NAS             | Abbreviation for**Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               |
+| NUC             | Abbreviation for**Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            |
+| N100            | It's a popular, low power consuming, but powerful Intel**processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          |
+| Proxmox         | Is a Debian Linux**Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            |
+| Synology        | A brand name which makes NAS computers.                                                                                                                              |
+| T630/T620       | A small, compact and energy effective Thin client**PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   |
+| Thin client     | An energy effective**PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          |
+| Virtual machine | Also known as VM, is a software-based simulation of a physical computer that runs on top of an other operating system.                                               |
 
 </div>
 
@@ -133,13 +131,12 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
 {% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_ok3c5OT)*{% endcapture %}
-{% capture n95_global2 %}[2](https://s.click.aliexpress.com/e/_oEdADw3)*{% endcapture %}
 {% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3Y6rDrn){% endcapture %}
 {% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c4B2ED2n){% endcapture %}
-{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3TjJq1R){% endcapture %}
+{% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4cybVgl){% endcapture %}
 {% capture n100_global2 %}[2](https://s.click.aliexpress.com/e/_c30QcKcl)*{% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3r8jpfR){% endcapture %}
-{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c4miXxId)*{% endcapture %}
+{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c2IMmsxn)*{% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c42OETY1){% endcapture %}
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4aqbUfj){% endcapture %}
 {% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3RWz1fn){% endcapture %}
@@ -152,34 +149,18 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
-{% capture n95_us %}[Amazon US](https://amzn.to/4lP3SAP#ad){% endcapture %}
-{% capture n97_us %}[Amazon US](https://amzn.to/4lUhniP#ad){% endcapture %}
-{% capture n100_us %}[Amazon US](https://amzn.to/41s2DjT#ad){% endcapture %}
-{% capture n150_us %}[Amazon US](https://amzn.to/4mXpCvg#ad){% endcapture %}
-{% capture 12650h_us %}[Amazon US](https://amzn.to/4lP5zOH#ad){% endcapture %}
-{% capture 185h_us %}[Amazon US](https://amzn.to/4lP6NJN#ad){% endcapture %}
-{% capture hx370_us %}[Amazon US](https://amzn.to/4n4MNnB#ad){% endcapture %}
-
-{% capture n95_uk %}[Amazon UK](https://amzn.to/3D31xSr#ad){% endcapture %}
-{% capture n97_uk %}[Amazon UK](https://amzn.to/4iIAoTM#ad){% endcapture %}
-{% capture n100_uk %}[Amazon UK](https://amzn.to/4hKHeIH#ad){% endcapture %}
-{% capture n150_uk %}[Amazon UK](https://amzn.to/46UEciy#ad){% endcapture %}
-{% capture 12650h_uk %}[Amazon UK](https://amzn.to/3EQDoiH#ad){% endcapture %}
-{% capture 185h_uk %}[Amazon UK](https://amzn.to/4k6T5T1#ad){% endcapture %}
-{% capture hx370_uk %}[Amazon UK](https://amzn.to/41rdn2a#ad){% endcapture %}
-
-{% capture n95_de %}[Amazon DE](https://amzn.to/3QuWBJh#ad){% endcapture %}
-{% capture n97_de %}[Amazon DE](https://amzn.to/4jYFzQz#ad){% endcapture %}
-{% capture n100_de %}[Amazon DE](https://amzn.to/3D31YMz#ad){% endcapture %}
-{% capture n150_de %}[Amazon DE](https://amzn.to/4gSCEXD#ad){% endcapture %}
-{% capture 12650h_de %}[Amazon DE](https://amzn.to/4gRdTen#ad){% endcapture %}
-{% capture 185h_de %}[Amazon DE](https://amzn.to/431bmLo#ad){% endcapture %}
-{% capture hx370_de %}[Amazon DE](https://amzn.to/3D3AA0W#ad){% endcapture %}
+{% capture n95_us %}[Amazon US](https://amzn.to/3L0WiGV#ad){% endcapture %}
+{% capture n97_us %}[Amazon US](https://amzn.to/3MHeAgO#ad){% endcapture %}
+{% capture n100_us %}[Amazon US](https://amzn.to/48Cc9F4#ad){% endcapture %}
+{% capture n150_us %}[Amazon US](https://amzn.to/44mUajl#ad){% endcapture %}
+{% capture 12650h_us %}[Amazon US](https://amzn.to/4rLZ6Iu#ad){% endcapture %}
+{% capture 185h_us %}[Amazon US](https://amzn.to/4rTAUUJ#ad){% endcapture %}
+{% capture hx370_us %}[Amazon US](https://amzn.to/44p9Qm6#ad){% endcapture %}
 
 {% capture n95_nl %}[Amazon NL](https://amzn.to/45BtFHY#ad){% endcapture %}
 {% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
 {% capture n100_nl %}[Amazon NL](https://amzn.to/4iclwgD#ad){% endcapture %}
-{% capture n150_nl %}[Amazon NL](https://amzn.to/3XgabUK#ad){% endcapture %}
+{% capture n150_nl %}[Amazon NL](https://amzn.to/4p3vIes#ad){% endcapture %}
 {% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv#ad){% endcapture %}
 {% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc#ad){% endcapture %}
 {% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ#ad){% endcapture %}
@@ -194,31 +175,31 @@ Without to worry about latency or any other performance issues for the best expe
 
 #### Basic
 
-As of 2025, the most popular entry-level hardware for Home Assistant is a mini PC with an N100 processor. 
+As of 2025, the most popular entry-level hardware for Home Assistant is a mini PC with an N100 processor.
 This option offers more than enough power to run Home Assistant smoothly, along with several add-ons, making it the best value for your money.
 
-The N95 and N97 models deliver similar performance, while the newer N150 features more cores and threads, providing even greater speed. 
+The N95 and N97 models deliver similar performance, while the newer N150 features more cores and threads, providing even greater speed.
 If you want higher performance, it may be worth spending a bit more on the N150.
 
 Prices for these models can fluctuate based on supply and demand, so I’ve included links to help you compare current offers.
 
-| Model                | N150                               | N100                               | N97                              | N95                              |  
-|----------------------|------------------------------------|------------------------------------|----------------------------------|----------------------------------|
-| **Model**            | **Mini S13**                       | **Mini S12 Pro**                   | **G5**                           | **Mini S12**                     |  
-| **Brand**            | Beelink                            | Beelink                            | GMKtec                           | Beelink                          |  
-| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100     | 12th Gen Intel Alder Lake-N97    | 12th Gen Intel Alder Lake-N95    |  
-| **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}               | {{n97_performance}}              | {{n95_performance}}              |  
-| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                            | 3.6 GHz                          | 1.7 GHz                          |  
-| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                            | -                                | 3.4 GHz                          |  
-| **Memory**           | 16 GB                              | 16 GB                              | 12 GB                            | 8 GB                             |  
-| **Hard disk**        | 512 GB                             | 500 GB                             | 512 GB                           | 256 GB                           |  
-| **Cores / Threads**  | 8 / 8                              | 4 / 4                              | 4 / 4                            | 4 / 4                            |  
-| **Price indication** | &euro; 260 - 500                   | &euro; 300 - 450                   | &euro; 150                       | &euro; 200                       |  
-| **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}} / {{n100_global2}} | {{n97_global}} / {{n97_global2}} | {{n95_global}} / {{n95_global2}} |  
-| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                        | {{n97_us}}                       | {{n95_us}}                       |  
-| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                        | {{n97_nl}}                       | {{n95_nl}}                       |
-| **Amazon DE**        | {{n150_de}}                        | {{n100_de}}                        | {{n97_de}}                       | {{n95_de}}                       |  
-| **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}                   | {{n97_beelink}}                  | {{n95_beelink}}                  |  
+
+| Model                | N150                               | N100                               | N97                              | N95                           |
+| -------------------- | ---------------------------------- | ---------------------------------- | -------------------------------- | ----------------------------- |
+| **Model**            | **EQ 14**                          | **Mini S12 Pro**                   | **G5**                           | **Mini S12**                  |
+| **Brand**            | Beelink                            | Beelink                            | GMKtec                           | Beelink                       |
+| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100     | 12th Gen Intel Alder Lake-N97    | 12th Gen Intel Alder Lake-N95 |
+| **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}               | {{n97_performance}}              | {{n95_performance}}           |
+| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                            | 3.6 GHz                          | 1.7 GHz                       |
+| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                            | -                                | 3.4 GHz                       |
+| **Memory**           | 16 GB                              | 16 GB                              | 12 GB                            | 8 GB                          |
+| **Hard disk**        | 512 GB                             | 500 GB                             | 512 GB                           | 256 GB                        |
+| **Cores / Threads**  | 4 / 4                              | 4 / 4                              | 4 / 4                            | 4 / 4                         |
+| **Price indication** | &euro; 260 - 500                   | &euro; 300 - 450                   | &euro; 150                       | &euro; 200                    |
+| **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}} / {{n100_global2}} | {{n97_global}} / {{n97_global2}} | {{n95_global}}                |
+| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                        | {{n97_us}}                       | {{n95_us}}                    |
+| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                        | {{n97_nl}}                       | {{n95_nl}}                    |
+| **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}                   | {{n97_beelink}}                  | {{n95_beelink}}               |
 
 <br>
 
@@ -235,24 +216,24 @@ model with more memory, faster CPU, GPU and more cores.
 {% capture 185h_img %}<img alt="Beelink GTi14 - 185H" height="150px" src="images_hardware/185h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 {% capture 12650h_img %}<img alt="Beelink EQi12 - 12650H" height="150px" src="images_hardware/12650h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 
-| Model                | SER9                     | 185H                        | 12650H                 | 
-|----------------------|--------------------------|-----------------------------|------------------------|
-| **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         | 
+
+| Model                | SER9                     | 185H                        | 12650H                 |
+| -------------------- | ------------------------ | --------------------------- | ---------------------- |
+| **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         |
 | **Model**            | **SER9 Pro AI**          | **GTi14 AI**                | **EQi12**              |
-| **Brand**            | Beelink                  | Beelink                     | Beelink                | 
-| **Processor**        | AMD Ryzen 9 HX 370       | Intel Core Ultra 9 185H     | Intel Core i7-12650H   | 
+| **Brand**            | Beelink                  | Beelink                     | Beelink                |
+| **Processor**        | AMD Ryzen 9 HX 370       | Intel Core Ultra 9 185H     | Intel Core i7-12650H   |
 | **CPU benchmark**    | {{hx370_performance}}    | {{185h_performance}}        | {{12650h_performance}} |
-| **CPU**              | 5.1 GHz                  | 5.1 GHz                     | 4.7 GHz                | 
-| **GPU**              | AMD Radeon 890M          | Intel Arc graphics 2.35GHz  | Intel UHD Graphics     | 
-| **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  | 
-| **Hard disk**        | 1024 GB (also with 2 TB) | 1024 GB (also with 2 TB)    | 512 GB                 | 
-| **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                | 
-| **Price indication** | &euro; 1200 - 2000       | &euro; 1000 - 1800          | &euro; 300 - 400       | 
-| **AliExpress**       | {{hx370_global}}         | {{185h_global}}             | {{12650h_global}}      | 
-| **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          | 
-| **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          | 
-| **Amazon DE**        | {{hx370_de}}             | {{185h_de}}                 | {{12650h_de}}          | 
-| **Beelink**          | {{hx370_beelink}}        | {{185h_beelink}}            | {{12650h_beelink}}     | 
+| **CPU**              | 5.1 GHz                  | 5.1 GHz                     | 4.7 GHz                |
+| **GPU**              | AMD Radeon 890M          | Intel Arc graphics 2.35GHz  | Intel UHD Graphics     |
+| **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  |
+| **Hard disk**        | 1024 GB (also with 2 TB) | 1024 GB (also with 2 TB)    | 512 GB                 |
+| **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                |
+| **Price indication** | &euro; 1200 - 2000       | &euro; 1000 - 1800          | &euro; 300 - 400       |
+| **AliExpress**       | {{hx370_global}}         | {{185h_global}}             | {{12650h_global}}      |
+| **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          |
+| **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          |
+| **Beelink**          | {{hx370_beelink}}        | {{185h_beelink}}            | {{12650h_beelink}}     |
 
 <!--
 latency
@@ -266,34 +247,33 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 
 ### Home Assistant Green vs Yellow
 
-Nabu Casa, the company behind Home Assistant, provides two official hardware devices to run Home Assistant on: 
-the **Home Assistant Green** and the **Home Assistant Yellow**.
-The green is the all-in-one entry-level device, while the yellow is the more advanced version with more custom options to build.
+Nabu Casa, the company behind Home Assistant, provides an official hardware device to run Home Assistant on:
+the **Home Assistant Green**
+The green is the all-in-one entry-level device.
+
+The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in production anymore.
 
 {% capture ha_green_img %}<img alt="Home Assistant Green" height="200px" src="images_hardware/ha_green.webp"/>{% endcapture %}
 {% capture ha_green_buy_1 %}[NL](https://www.robbshop.nl/home-assistant-green-smart-hub) [US](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){% endcapture %}
 
-{% capture ha_yellow_img %}<img alt="Home Assistant Yellow" height="200px" src="images_hardware/ha_yellow.webp"/>{% endcapture %}
-{% capture ha_yellow_buy_1 %}[DE](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html) [US](https://www.seeedstudio.com/Home-Assistant-Yellow-Kit-with-selectable-CM4-p-5680.html){% endcapture %}
 
-
-|                               | Home Assistant Green                                                                   | Home Assistant Yellow                                                        |
-|-------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| **Photo**                     | {{ha_green_img}}                                                                       | {{ha_yellow_img}}                                                            | 
-| **Website**                   | https://www.home-assistant.io/green/                                                   | https://www.home-assistant.io/yellow/                                        | 
-| **Brand**                     | Nabu Casa                                                                              | Nabu Casa                                                                    | 
-| **Operating system**          | Home Assistant Operating System                                                        | Home Assistant Operating System                                              | 
-| **Processor**                 | 1.8 Ghz Quad core Rockchip RK3566 Arm Cortex-A55 CPU                                   | (Not included: Raspberry Pi Compute Module 4 (CM 4))                         | 
-| **CPU benchmark**             | [798](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A55+4+Core+2208+MHz&id=6543) | - (depends on CM module)                                                     | 
-| **Working memory (RAM)**      | 4 GB                                                                                   |                                                                              | 
-| **Hard disk**                 | 32 GB external flash drive                                                             | (Not included)                                                               | 
-| **Local protocols**           | Only WiFi                                                                              | WiFi, Zigbee 3.0, OpenThread and Matter                                      | 
-| **Power consumption on load** | 3 W                                                                                    | 5-9 W                                                                        | 
-| **Target group**              | beginner                                                                               | medior / advantaged                                                          | 
-| **Price range**               | $ 99 / &euro; 110                                                                      | $ 200 / &euro; 200  (+ costs for RAM, CM4, hard disk)                        | 
-| **Pros**                      | * Cheap<br>* Plug-and-play                                                             | * More RAM<br>* More and faster hard disk<br>* Support for Zigbee and Matter | 
-| **Cons**                      | By default **no** Zigbee or Matter support, extra stick needed. Slow hard disk.        |                                                                              | 
-| **Buy links**                 | {{ha_green_buy_1}}                                                                     | {{ha_yellow_buy_1}}                                                          |
+|                               | Home Assistant Green                                                                   | 
+| ----------------------------- | -------------------------------------------------------------------------------------- | 
+| **Photo**                     | {{ha_green_img}}                                                                       | 
+| **Website**                   | https://www.home-assistant.io/green/                                                   | 
+| **Brand**                     | Nabu Casa                                                                              | 
+| **Operating system**          | Home Assistant Operating System                                                        | 
+| **Processor**                 | 1.8 Ghz Quad core Rockchip RK3566 Arm Cortex-A55 CPU                                   | 
+| **CPU benchmark**             | [798](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A55+4+Core+2208+MHz&id=6543) | 
+| **Working memory (RAM)**      | 4 GB                                                                                   | 
+| **Hard disk**                 | 32 GB external flash drive                                                             | 
+| **Local protocols**           | Only WiFi                                                                              | 
+| **Power consumption on load** | 3 W                                                                                    | 
+| **Target group**              | beginner                                                                               | 
+| **Price range**               | $ 99 /&euro; 110                                                                       | 
+| **Pros**                      | * Cheap<br>* Plug-and-play                                                             | 
+| **Cons**                      | By default**no** Zigbee or Matter support, extra stick needed. Slow hard disk.         | 
+| **Buy links**                 | {{ha_green_buy_1}}                                                                     | 
 
 ---
 
@@ -323,14 +303,6 @@ Click on the image to go to the original post:
 {% capture rpi4_us %}[Amazon US](https://amzn.to/41vT9Ez){% endcapture %}
 {% capture rpi5_us %}[Amazon US](https://amzn.to/4hg55Pz){% endcapture %}
 
-{% capture rpi3_uk %}[Amazon UK](https://amzn.to/4kg9YL2){% endcapture %}
-{% capture rpi4_uk %}[Amazon UK](https://amzn.to/3QDlXom){% endcapture %}
-{% capture rpi5_uk %}[Amazon UK](https://amzn.to/4hTmwGt){% endcapture %}
-
-{% capture rpi3_de %}[Amazon DE](https://amzn.to/3XgLK9J){% endcapture %}
-{% capture rpi4_de %}[Amazon DE](https://amzn.to/3Qz8TAi){% endcapture %}
-{% capture rpi5_de %}[Amazon DE](https://amzn.to/3Xj2ygm){% endcapture %}
-
 {% capture rpi3_nl %}[Amazon NL](https://amzn.to/3EU3Mbq){% endcapture %}
 {% capture rpi4_nl %}[Amazon NL](https://amzn.to/3DaETHT){% endcapture %}
 {% capture rpi5_nl %}[Amazon NL](https://amzn.to/4kcHm5j){% endcapture %}
@@ -347,8 +319,9 @@ Check the website for even more details about the boards if you want to know mor
 
 Be aware that the price here is without a hard disk, power supply and a case!
 
+
 |                                   | Raspberry Pi 5 - 8 GB                   | Raspberry Pi 4B - 8 GB              | Raspberry Pi 3B+ - 1 GB       |
-|-----------------------------------|-----------------------------------------|-------------------------------------|-------------------------------|
+| --------------------------------- | --------------------------------------- | ----------------------------------- | ----------------------------- |
 | **Photo**                         | {{rpi5_img}}                            | {{rpi4_img}}                        | {{rpi3_img}}                  |
 | **Model**                         | Pi 5                                    | Pi 4B                               | Pi 3B+                        |
 | **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
@@ -364,7 +337,6 @@ Be aware that the price here is without a hard disk, power supply and a case!
 | **AliExpress**                    | {{rpi5_global}}                         | {{rpi4_global}}                     | {{rpi3_global}}               |
 | **Amazon US**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
 | **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
-| **Amazon DE**                     | {{rpi5_de}}                             | {{rpi4_de}}                         | {{rpi3_de}}                   |
 
 ---
 
@@ -406,7 +378,7 @@ Some laptops also run without a battery, which is the best solution.
 <img alt="HP 620" width="130px" src="images_hardware/hp_620.webp" {{style_img_right}} />
 A Thin client is compact, energy effective, silent and not expensive.
 
-HP has the T630 or T620 which are often mentioned as good hardware.\
+HP has the T630 or T620 which are often mentioned as good hardware.
 Dell has also Thin clients: the Wyse 5060 or 7020.
 
 They used in offices and now widely available on second hand sites like Ebay.
@@ -442,6 +414,6 @@ There are also many other people who can help you further.
 
 I hope this pages helps you to make a choice in the best hardware for you to run Home Assistant on.
 
-Do you have any other remarks, suggestions, spell errors found after reading this page?\
+Do you have any other remarks, suggestions, spell errors found after reading this page?
 Please let me know, you can reach me in one of mine social media posts or create
 a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
