@@ -82,25 +82,25 @@ First, I want to explain some terms that are used here, and frequently used in d
 <div class="align-left">
 
 
-| Term            | Explanation                                                                                                                                                          |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 12th Gen        | The version of Intel Core**processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  |
-| Bare metal      | It refers to a**physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    |
-| Beelink         | It's a brand which makes**Mini PCs**                                                                                                                                 |
-| Docker          | It's is an**application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. |
-| Form factor     | A common design for a PC group.                                                                                                                                      |
-| HA              | Abbreviation for**Home Assistant**                                                                                                                                   |
-| HAOS            | Abbreviation for**Home Assistant Operating System**                                                                                                                  |
-| Home lab        | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                               |
-| Mini PC         | This refer to the size of popular**small pc** cases.                                                                                                                 |
-| NAS             | Abbreviation for**Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               |
-| NUC             | Abbreviation for**Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            |
-| N100            | It's a popular, low power consuming, but powerful Intel**processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          |
-| Proxmox         | Is a Debian Linux**Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            |
-| Synology        | A brand name which makes NAS computers.                                                                                                                              |
-| T630/T620       | A small, compact and energy effective Thin client**PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   |
-| Thin client     | An energy effective**PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          |
-| Virtual machine | Also known as VM, is a software-based simulation of a physical computer that runs on top of an other operating system.                                               |
+| Term            | Explanation                                                                                                                                                           |
+| --------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 12th Gen        | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                  |
+| Bare metal      | It refers to a **physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.    |
+| Beelink         | It's a brand which makes **Mini PCs**                                                                                                                                 |
+| Docker          | It's is an **application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters. |
+| Form factor     | A common design for a PC group.                                                                                                                                       |
+| HA              | Abbreviation for **Home Assistant**                                                                                                                                   |
+| HAOS            | Abbreviation for **Home Assistant Operating System**                                                                                                                  |
+| Home lab        | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                                |
+| Mini PC         | This refer to the size of popular **small pc** cases.                                                                                                                 |
+| NAS             | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.               |
+| NUC             | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                            |
+| N100            | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.          |
+| Proxmox         | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                            |
+| Synology        | A brand name which makes NAS computers.                                                                                                                               |
+| T630/T620       | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                   |
+| Thin client     | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                          |
+| Virtual machine | Also known as VM, is a software-based simulation of a physical computer that runs on top of an other operating system.                                                |
 
 </div>
 
@@ -139,7 +139,6 @@ Without to worry about latency or any other performance issues for the best expe
 {% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3Y6rDrn){% endcapture %}
 {% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c4B2ED2n){% endcapture %}
 {% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4cybVgl){% endcapture %}
-{% capture n100_global2 %}[2](https://s.click.aliexpress.com/e/_c30QcKcl)*{% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3r8jpfR){% endcapture %}
 {% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c2IMmsxn)*{% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c42OETY1){% endcapture %}
@@ -189,22 +188,22 @@ If you want higher performance, it may be worth spending a bit more on the N150.
 Prices for these models can fluctuate based on supply and demand, so I’ve included links to help you compare current offers.
 
 
-| Model                | N150                               | N100                               | N97                              | N95                           |
-| -------------------- | ---------------------------------- | ---------------------------------- | -------------------------------- | ----------------------------- |
-| **Model**            | **EQ 14**                          | **Mini S12 Pro**                   | **G5**                           | **Mini S12**                  |
-| **Brand**            | Beelink                            | Beelink                            | GMKtec                           | Beelink                       |
-| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100     | 12th Gen Intel Alder Lake-N97    | 12th Gen Intel Alder Lake-N95 |
-| **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}               | {{n97_performance}}              | {{n95_performance}}           |
-| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                            | 3.6 GHz                          | 1.7 GHz                       |
-| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                            | -                                | 3.4 GHz                       |
-| **Memory**           | 16 GB                              | 16 GB                              | 12 GB                            | 8 GB                          |
-| **Hard disk**        | 512 GB                             | 500 GB                             | 512 GB                           | 256 GB                        |
-| **Cores / Threads**  | 4 / 4                              | 4 / 4                              | 4 / 4                            | 4 / 4                         |
-| **Price indication** | &euro; 260 - 500                   | &euro; 300 - 450                   | &euro; 150                       | &euro; 200                    |
-| **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}} / {{n100_global2}} | {{n97_global}} / {{n97_global2}} | {{n95_global}}                |
-| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                        | {{n97_us}}                       | {{n95_us}}                    |
-| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                        | {{n97_nl}}                       | {{n95_nl}}                    |
-| **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}                   | {{n97_beelink}}                  | {{n95_beelink}}               |
+| Model                | N150                               | N100                              | N97                              | N95                           |
+| -------------------- | ---------------------------------- | --------------------------------- | -------------------------------- | ----------------------------- |
+| **Model**            | **EQ 14**                          | **Mini S12 Pro**                  | **G5**                           | **Mini S12**                  |
+| **Brand**            | Beelink                            | Beelink                           | GMKtec                           | Beelink                       |
+| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100    | 12th Gen Intel Alder Lake-N97    | 12th Gen Intel Alder Lake-N95 |
+| **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}              | {{n97_performance}}              | {{n95_performance}}           |
+| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                           | 3.6 GHz                          | 1.7 GHz                       |
+| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                           | -                                | 3.4 GHz                       |
+| **Memory**           | 16 GB                              | 16 GB                             | 12 GB                            | 8 GB                          |
+| **Hard disk**        | 512 GB                             | 500 GB                            | 512 GB                           | 256 GB                        |
+| **Cores / Threads**  | 4 / 4                              | 4 / 4                             | 4 / 4                            | 4 / 4                         |
+| **Price indication** | &euro; 260 - 500                   | &euro; 300 - 450                  | &euro; 150                       | &euro; 200                    |
+| **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}} | {{n97_global}} / {{n97_global2}} | {{n95_global}}                |
+| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                       | {{n97_us}}                       | {{n95_us}}                    |
+| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                       | {{n97_nl}}                       | {{n95_nl}}                    |
+| **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}                  | {{n97_beelink}}                  | {{n95_beelink}}               |
 
 <br>
 
@@ -223,7 +222,7 @@ model with more memory, faster CPU, GPU and more cores.
 
 
 | Model                | SER9                     | 185H                        | 12650H                 |
-| -------------------- | ------------------------ | --------------------------- | ---------------------- |
+| -------------------- |--------------------------|-----------------------------|------------------------|
 | **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         |
 | **Model**            | **SER9 Pro AI**          | **GTi14 AI**                | **EQi12**              |
 | **Brand**            | Beelink                  | Beelink                     | Beelink                |
@@ -234,7 +233,7 @@ model with more memory, faster CPU, GPU and more cores.
 | **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  |
 | **Hard disk**        | 1024 GB (also with 2 TB) | 1024 GB (also with 2 TB)    | 512 GB                 |
 | **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                |
-| **Price indication** | &euro; 1200 - 2000       | &euro; 1000 - 1800          | &euro; 300 - 400       |
+| **Price indication** | &euro; 1200 - 2700       | &euro; 900 - 2000           | &euro; 500 - 800       |
 | **AliExpress**       | {{hx370_global}}         | {{185h_global}}             | {{12650h_global}}      |
 | **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          |
 | **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          |
@@ -259,11 +258,11 @@ The green is the all-in-one entry-level device.
 The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in production anymore.
 
 {% capture ha_green_img %}<img alt="Home Assistant Green" height="200px" src="images_hardware/ha_green.webp"/>{% endcapture %}
-{% capture ha_green_buy_1 %}[NL](https://www.robbshop.nl/home-assistant-green-smart-hub) [US](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){% endcapture %}
+{% capture ha_green_buy_1 %}[NL](https://www.robbshop.nl/home-assistant-green-smart-hub) <br> [US](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){% endcapture %}
 
 
 |                               | Home Assistant Green                                                                   | 
-| ----------------------------- | -------------------------------------------------------------------------------------- | 
+| ----------------------------- |----------------------------------------------------------------------------------------| 
 | **Photo**                     | {{ha_green_img}}                                                                       | 
 | **Website**                   | https://www.home-assistant.io/green/                                                   | 
 | **Brand**                     | Nabu Casa                                                                              | 
@@ -275,7 +274,7 @@ The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in
 | **Local protocols**           | Only WiFi                                                                              | 
 | **Power consumption on load** | 3 W                                                                                    | 
 | **Target group**              | beginner                                                                               | 
-| **Price range**               | $ 99 /&euro; 110                                                                       | 
+| **Price range**               | $ 99 / &euro; 110                                                                      | 
 | **Pros**                      | * Cheap<br>* Plug-and-play                                                             | 
 | **Cons**                      | By default**no** Zigbee or Matter support, extra stick needed. Slow hard disk.         | 
 | **Buy links**                 | {{ha_green_buy_1}}                                                                     | 
@@ -301,7 +300,7 @@ Click on the image to go to the original post:
 </a>
 
 {% capture rpi3_global %}[AliExpress](https://s.click.aliexpress.com/e/_oDWgdri){% endcapture %}
-{% capture rpi4_global %}[AliExpress](https://s.click.aliexpress.com/e/_oEyiS2c){% endcapture %}
+{% capture rpi4_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3ucQGT7){% endcapture %}
 {% capture rpi5_global %}[AliExpress](https://s.click.aliexpress.com/e/_oCaXY9K){% endcapture %}
 
 {% capture rpi3_us %}[Amazon US](https://amzn.to/4d0606a){% endcapture %}
@@ -326,7 +325,7 @@ Be aware that the price here is without a hard disk, power supply and a case!
 
 
 |                                   | Raspberry Pi 5 - 8 GB                   | Raspberry Pi 4B - 8 GB              | Raspberry Pi 3B+ - 1 GB       |
-| --------------------------------- | --------------------------------------- | ----------------------------------- | ----------------------------- |
+| --------------------------------- |-----------------------------------------|-------------------------------------|-------------------------------|
 | **Photo**                         | {{rpi5_img}}                            | {{rpi4_img}}                        | {{rpi3_img}}                  |
 | **Model**                         | Pi 5                                    | Pi 4B                               | Pi 3B+                        |
 | **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
@@ -338,7 +337,7 @@ Be aware that the price here is without a hard disk, power supply and a case!
 | **CPU**                           | 2.4 GHz                                 | 1.5 GHz                             | 1.4GHz                        |
 | **Cores / Threads**               | 4                                       | 4                                   | 4                             |
 | **Power consumption idle / load** | 3 W / 6 W                               | 3 W / 6 W                           | 2 W / 5 W                     |
-| **Price range**                   | &euro; 100 - 140                        | &euro; 90                           | &euro; 41                     |
+| **Price range**                   | &euro; 60 - 110                         | &euro; 60                           | &euro; 41 - 55                |
 | **AliExpress**                    | {{rpi5_global}}                         | {{rpi4_global}}                     | {{rpi3_global}}               |
 | **Amazon US**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
 | **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
