@@ -20,6 +20,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
   * [Table of Contents](#table-of-contents)
   * [Time and date](#time-and-date)
   * [Inline time and date (Dutch format)](#inline-time-and-date-dutch-format)
+  * [Date in Dutch format](#date-in-dutch-format)
   * [Current day of the week (Dutch format)](#current-day-of-the-week-dutch-format)
   * [Days count down](#days-count-down)
   * [How long an entity is active in human-readable text](#how-long-an-entity-is-active-in-human-readable-text)
