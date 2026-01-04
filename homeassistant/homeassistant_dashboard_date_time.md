@@ -98,6 +98,32 @@ cards:
 ```
 
 ---
+## Date in Dutch format
+
+The date formatted like this: `zo 04 januari 2026`.
+
+If you replace `day_short` in the last template line for `day` the value will be `zondag 04 januari 2026`.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+- platform: template
+  sensors:
+    date_only_formatted:
+      friendly_name: "Datum"
+      value_template: >-
+        {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
+        {% set day = days[now().weekday()] %}
+        {% set day_short = day[0:2] %}
+        {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
+        {% set month = months[now().month - 1] %}
+        {{ day_short + ' ' + now().strftime('%d') + ' ' + month + ' ' + now().strftime('%Y') + ' ' }}
+      icon_template: mdi:calendar-clock
+{% endraw %}
+```
+
+---
 ## Current day of the week (Dutch format)
 
 <img src="images_date_time/day_of_the_week.png" alt="Day of the week" width="400px">
