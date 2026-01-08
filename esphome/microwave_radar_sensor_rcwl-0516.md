@@ -144,7 +144,7 @@ Plastic DIY Cases (AliExpress)
 
 A cable to power the ESP.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
 Micro USB cable to USB A to power the ESP (AliExpress)
 <br>
 <img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />

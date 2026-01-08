@@ -963,7 +963,7 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 
 USB-A to micro USB cable to power the ESP.
 
-<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
 <img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
 {{imgBasket}}Micro USB cable (AliExpress)</a>
 <a href="https://amzn.to/42C3sHw#ad" target="_blank">(Amazon US)</a>
@@ -1010,7 +1010,7 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 {{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">(AliExpress)</a>
 
-{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3uacEZt" target="_blank">(AliExpress)</a>
 
 5V EU USB power adapter to power multiple usb devices, with fast charging and 3.1A.
 

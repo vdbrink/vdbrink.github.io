@@ -121,10 +121,10 @@ Here are some ready-to-use sensors that can be connected direct to an ESP withou
 
 Dht11 is a commonly used temperature and humidity sensor.
 
-<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2QRpeMX" target="_blank">
 <img src="images_diy/dht11_temperature_sensor.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB72RCn" target="_blank">DHT11 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c2QRpeMX" target="_blank">DHT11 (AliExpress)</a>
 
 ### Air quality sensor
 
@@ -147,10 +147,10 @@ SenseAir S8 CO2 sensor.
 
 Check [this page](/esphome/co2_senseair_s8_sensor) how to make your own CO2 sensor with this sensor.
 
-<a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">
 <img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">SenseAir S8 CO2 sensor, link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">SenseAir S8 CO2 sensor, link 1 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oC3ntyw" target="_blank">SenseAir S8 CO2 sensor, link 2 (AliExpress)</a>
 
@@ -177,10 +177,10 @@ This car seat sensor measures if there is pressure on a chair or seat.
 The output is just an open or a closed circuit. 
 You can directly attach it to a contact-/water leak sensor. 
 
-<a href="https://s.click.aliexpress.com/e/_c3vZ9fSL" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3kA8isr" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_even_bigger.avif" height="180px" alt="pressure sensor biggest" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3vZ9fSL" target="_blank">largest version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3kA8isr" target="_blank">largest version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
@@ -205,10 +205,10 @@ The HX711 Module comes with four pressure sensors which you can place under your
 
 Can be used, together with a contact sensor, to create your own rain gauge sensor.
 
-<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3JUzisP" target="_blank">
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDjhCHt" target="_blank">Rain gauge, link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3JUzisP" target="_blank">Rain gauge, link (AliExpress)</a>
 
 ### Waterproof temperature sensor
 
@@ -249,7 +249,7 @@ Check [this page](/esphome/microwave_radar_sensor_rcwl-0516) how to make your ow
 
 USB-A to micro USB cable to power the ESP8266.
 
-<a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
 <img src="../esphome/images/micro_usb_cable.jpg" height="150px" alt="Micro USB cable" /><br>
 {{imgBasket}}Micro USB cable (AliExpress)</a>
 
@@ -274,7 +274,7 @@ USB-A to USB-C cable to power the ESP32.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DCdi80b" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3uacEZt" target="_blank">link 2 (AliExpress)</a>
 
 5V USB EU power adapter to power multiple usb devices, with fast charging and 3.1A.
 
@@ -287,10 +287,10 @@ USB-A to USB-C cable to power the ESP32.
 
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
 
-<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">
 <img src="../projects/images_christmas_decorations/christmas_light_adapter.webp" alt="christmas light adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">link (AliExpress)</a>
 
 ---
 

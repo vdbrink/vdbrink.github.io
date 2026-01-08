@@ -406,12 +406,12 @@ I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I a
 
 My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
-<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">
   <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
   <img src="images_christmas_decorations/tree_power_top.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c45CWcjp" target="_blank">Christmas light string plug 31V/3.6W (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">Christmas light string plug 31V/3.6W (AliExpress)</a>
 
 <a href="images_christmas_decorations/christmas_tree.jpg">
   <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />

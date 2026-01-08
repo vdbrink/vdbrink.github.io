@@ -80,7 +80,7 @@ Also affiliate links are used here. Same price, but you also sponsor this blog.
 
 These hardware components did I use for this project:
 
-* {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_oEMg5KO" target="_blank">(AliExpress)</a>
+* {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
 <a href="https://amzn.to/3ShAiry#ad" target="_blank">(Amazon US)</a>
   * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
@@ -103,7 +103,7 @@ These hardware components did I use for this project:
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_onj6tZi" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43mVuBq#ad">(Amazon US)</a>
+* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43mVuBq#ad">(Amazon US)</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 

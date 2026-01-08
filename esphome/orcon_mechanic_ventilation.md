@@ -75,7 +75,7 @@ These hardware components do I use for this project:
 * Original Orcon 15RF remote control [link 1](https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/)
 
 ![Orcon 15RF remote](orcon_images/orcon_15rf_remote.jpg "Orcon 15RF remote")
-* ESP8266 NodeMCU v3 (or comparable) [link 1](https://s.click.aliexpress.com/e/_EIwdbqH) [link 2](https://s.click.aliexpress.com/e/_mPJWRqE)
+* ESP8266 NodeMCU v3 (or comparable) [link 1](https://s.click.aliexpress.com/e/_c30mVk0B) [link 2](https://s.click.aliexpress.com/e/_EIwdbqH)
 
 ![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg "ESP8266 nodeMCU v3")
 
@@ -83,11 +83,11 @@ These hardware components do I use for this project:
 
 ![Dupont female to female wires](images/dupont_female_to_female.jpg "Dupont female to female wires")
 
-* Adapter 8 pins, 1 mm pitch (NOT the 0.5 mm), with pin head [link 1](https://aliexpress.com/item/32974345886.html) [link 2](https://aliexpress.com/item/1005001311060175.html)
+* Adapter 8 pins, 1 mm pitch (NOT the 0.5 mm), with pin head [link 1](https://aliexpress.com/item/32974345886.html) [link 2](https://s.click.aliexpress.com/e/_c3umgQbN)
 
 ![Dupont female to female wires](orcon_images/adapter_8pins_1mm.jpg "Dupont female to female wires")
 
-* Flat cable 8 pins, 1 mm pitch (NOT the 0.5 mm) [link 1](https://s.click.aliexpress.com/e/_DEsQVNl) [link 2](https://s.click.aliexpress.com/e/_Dew4h5z)
+* Flat cable 8 pins, 1 mm pitch (NOT the 0.5 mm) [link 1](https://s.click.aliexpress.com/e/_DEsQVNl) [link 2](https://s.click.aliexpress.com/e/_c30XX6Kb)
   * The length and if the connectors are on the same side is up to you
 
 ![Dupont female to female wires](orcon_images/flat_cable_8pins_1mm.jpg "Dupont female to female wires")
