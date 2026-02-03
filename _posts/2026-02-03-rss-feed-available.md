@@ -1,6 +1,8 @@
 ---
+layout: default
 title: "RSS feed"
-date: 2026-02-03 12:00:00 -0200
+date: 2026-02-03
+permalink: /rss-feed-available
 ---
 
 # RSS feed
