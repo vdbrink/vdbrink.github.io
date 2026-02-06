@@ -789,6 +789,7 @@ It has a physical button to switch the state, and can handle 3680 W and 16 A whi
 It took me a while before I got the correct smart socket for this purpose, and now they've run for years without any issues.
 
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 
+<a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">(Banggood)</a>
 <a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
 
@@ -1008,7 +1009,7 @@ Useful to move your Zigbee stick away from your server for the best range and av
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
-{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c435H6Yl" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a>
 
 {{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3uacEZt" target="_blank">(AliExpress)</a>
 
