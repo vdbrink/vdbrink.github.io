@@ -189,13 +189,13 @@ Unfortunately, not available for Amazon US, but <a href="https://amzn.to/4fGpP3x
 
 **Cheaper option:**\
 {{imgBasket}}Zigbee Contact sensor - Tuya
-<a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3Ut5mp7#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4mbmFXy#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 Small and cheaper.
 
-<a href="https://s.click.aliexpress.com/e/_oFAHUPO" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="Tuya contact sensor" height="100px" /></a>
 
 <br>
@@ -252,8 +252,8 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 <br>
 
 **Alternative option:**\
-{{imgBasket}}Zigbee motion sensor beam, without stand - Xiaomi 
-<a href="https://s.click.aliexpress.com/e/_c4pwaEJj" target="_blank">(AliExpress)</a>
+{{imgBasket}}Zigbee motion sensor beam - Xiaomi 
+<a href="https://s.click.aliexpress.com/e/_c4CYStNH" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4kUzGUw#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ01LM.html" target="_blank" title="RTCGQ01LM">{{imgZ2M}}RTCGQ01LM</a>
 
@@ -295,7 +295,7 @@ The Aqara FP300 is a new battery powered motion sensor with PIR and mmWave radar
 It can detect up to 6 meters it also measures light, temperature and humidity.
 
 {{imgBasket}} Zigbee or Thread (Matter) - Aqara FP300
-<a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon NL)</a> (sold out)
+<a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/PS-S04D.html" target="_blank" title="Aqara FP300">{{imgZ2M}}FP300</a>
 
 <br>
@@ -310,12 +310,13 @@ It can detect up to 6 meters it also measures light, temperature and humidity.
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
 <br>
+<br>
 
 ---
 
 ### Temperature sensor
 
-<a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank">
 <img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room. 
@@ -324,7 +325,7 @@ Or in the summer when it becomes outside colder than inside.
 
 **Best option:**\
 {{imgBasket}}Zigbee temperature and humidity sensor - Aqara
-<a href="https://s.click.aliexpress.com/e/_oCYhgnd" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank">(AliExpress)</a>
 (N/A in Amazon US)
 <a href="https://amzn.to/3V2h0YX#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">(Banggood)</a>
@@ -339,12 +340,12 @@ Or in the summer when it becomes outside colder than inside.
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya 
-<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4f72VC3#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lfjVI5#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/WSD500A.html" target="_blank" title="WSD500A">{{imgZ2M}}WSD500A</a> Battery powered, bigger, cheaper.\
 This sensor can be converted to an [outlet sensor](/zigbee/zigbee_outlet_sensor).\
-<a href="https://s.click.aliexpress.com/e/_onVr48P" target="_blank"><img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a>
+<a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank"><img src="images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Battery powered temperature and humidity sensor" height="150px" /></a>
 
 **With display option:**\
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered with display. 
@@ -388,10 +389,12 @@ Very reliable, very long battery life, quick response on small light changes, mo
 <a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" /></a>
 
+<!--
 **Cheaper option 1:**\
 {{imgBasket}}Zigbee lux sensor - Moes 
 <a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a>
+-->
 
 **Cheaper option 2:**\
 {{imgBasket}}Zigbee lux sensor - Tuya 
@@ -434,12 +437,12 @@ Another leak sensor is the one with a wire, this sensor itself isn't water-resis
 This one runs on two common AAA batteries that make the sensor pretty big but cheaper to buy.
 
 {{imgBasket}}Zigbee leak sensor
-<a href="https://s.click.aliexpress.com/e/_c4547Us5" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3H5bBwd#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/45cjJTY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
-<a href="https://s.click.aliexpress.com/e/_c4547Us5" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">
 <img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 <br>
