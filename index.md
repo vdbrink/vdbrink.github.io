@@ -18,6 +18,7 @@ You find here examples from my automations, which you can use in your own projec
 
 My latest biggest updates on this blog:
 
+* [RSS feed](feed.xml) to get the latest updates
 * [Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
 * [Home Assistant dashboard: Mealie Recipe Manager](/homeassistant/homeassistant_dashboard_mealie)
 * [Smart traditional mailbox](/projects/smart_mailbox)

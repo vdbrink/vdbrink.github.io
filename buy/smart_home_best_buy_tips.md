@@ -528,7 +528,7 @@ This one supports over 100 dynamic effects. These are controllable via the WLED 
 
 #### Wall switch
 
-<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4pcVDnh" target="_blank">
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 {{imgBasket}}Zigbee wall switch - Aqara 
@@ -537,7 +537,7 @@ This one supports over 100 dynamic effects. These are controllable via the WLED 
 <a href="https://www.zigbee2mqtt.io/devices/QBKG41LM.html" target="_blank" title="QBKG41LM">{{imgZ2M}}QBKG41LM</a>
 
 {{imgBasket}}Zigbee wall switch - Moes 
-<a href="https://s.click.aliexpress.com/e/_Ddxq8ej" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4pcVDnh" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/416gUlS#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3GF13nC#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZS-EUB_2gang.html" target="_blank" title="ZS-EUB_2gang">{{imgZ2M}}ZS-EUB</a>

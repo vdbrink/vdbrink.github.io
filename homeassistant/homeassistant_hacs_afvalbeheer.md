@@ -398,7 +398,7 @@ filter:
 ---
 ### Mushroom element
 
-On top of my dashboard I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.\
+On top of my dashboard, I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.\
 I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. 
 These are all the possible visible icon options (only one is visible at the same time).
 

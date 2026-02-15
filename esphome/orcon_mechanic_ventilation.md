@@ -83,7 +83,7 @@ These hardware components do I use for this project:
 
 ![Dupont female to female wires](images/dupont_female_to_female.jpg "Dupont female to female wires")
 
-* Adapter 8 pins, 1 mm pitch (NOT the 0.5 mm), with pin head [link 1](https://s.click.aliexpress.com/e/_c2zKW7Sn) [link 2](https://s.click.aliexpress.com/e/_c4bdMgV1) [link 3](https://s.click.aliexpress.com/e/_c3yKO21h)
+* Adapter 8 pins, make sure you select the correct product. The 8P, 1 mm pitch (NOT the 0.5 mm), with pin head [link 1](https://s.click.aliexpress.com/e/_c2zKW7Sn) [link 2](https://s.click.aliexpress.com/e/_c4bdMgV1) [link 3](https://s.click.aliexpress.com/e/_c3yKO21h)
 
 ![Dupont female to female wires](orcon_images/adapter_8pins_1mm.jpg "Dupont female to female wires")
 

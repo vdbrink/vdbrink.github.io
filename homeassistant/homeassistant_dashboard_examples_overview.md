@@ -41,6 +41,7 @@ I hope you can use the examples for your own dashboard!
     <img width="450px" src="images_date_time/time_date.png" alt="Time and date" width="450px" />
 </a>
 
+---
 ## Weather
 
 ## Predictions
@@ -65,7 +66,7 @@ I hope you can use the examples for your own dashboard!
     <img width="450px" src="images_weather/thunderstorm.jpg" alt="blitzortung lightning and thunderstorm" />
 </a>
 
-
+---
 ## Weather in The Netherlands
 
 ### Rain
@@ -112,6 +113,7 @@ I hope you can use the examples for your own dashboard!
     <img src="images_kleenex/kleenex_colored_presentation.png" alt="Kleenex pollen" width="450px">
 </a>
 
+---
 ## Afvalbeheer Integration
 
   <a href="homeassistant_hacs_afvalbeheer#default-presentation">
