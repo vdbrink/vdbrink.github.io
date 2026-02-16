@@ -295,7 +295,7 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 <a href="/buy/batteries#cr2032-usb-battery-replacements" target="_blank">
 <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" /></a>
 
-<a href="https://s.click.aliexpress.com/e/_DeBgzBR" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2JDbXLD" target="_blank">
 <img src="/projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
 <br>{{imgBasket}} USB A or C to clips 3V (same voltage as two batteries) (AliExpress)
 </a>

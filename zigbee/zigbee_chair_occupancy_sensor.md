@@ -126,7 +126,7 @@ See 3a how to connect the wires from the leak- and pressure sensor with each oth
 
 3a. To connect the alternative leak sensor and the pressure sensor, you can use different kinds of <a href="../buy/esphome_diy#cable-connectors">clips</a> to avoid soldering.
 
-<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3mMEF2f" target="_blank">
 <img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="100px"/></a>
 &nbsp;
 <a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank"><img src="/buy/images_diy/cable_connectors2.avif" alt="Connect two wires without soldering" height="100px"/>

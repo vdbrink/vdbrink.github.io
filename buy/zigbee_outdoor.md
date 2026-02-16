@@ -47,24 +47,6 @@ Find here a set of preselected devices which you can buy for in your garden or g
 ---
 ## Rain sensor
 
-
-<a href="https://s.click.aliexpress.com/e/_oC3Qt7f" target="_blank">
-<img src="images_outdoor/rain_sensor_with_solar.avif" alt="rain sensor with solar" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor sensor detects raindrops.\
-It gets recharged during the day.
-It's already triggered with a single drop.
-
-{{imgBasket}}Zigbee raindrop sensor
-<a href="https://s.click.aliexpress.com/e/_oC3Qt7f" target="_blank">(AliExpress)</a>
-
-[//]: # (<a href="https://www.zigbee2mqtt.io/devices/.html" target="_blank" title="">{{imgZ2M}}</a>)
-
-<br>
-<br>
-<br>
-<br>
-
 <a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">
 <img src="images_outdoor/rain_sensor.avif" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
@@ -138,12 +120,12 @@ Full-blown weather stations to detect outside temperature, humidity, rain, wind 
 
 The most popular is the Ecowitt Wittboy.\
 It measures temperature, humidity, wind speed, light, UV levels, rain and much more!\
-It isn't a Zigbee device (these devices doesn't exist with Zigbee) but a WiFi weather station with a very good Home Assistant integration, all data is available as separated sensors in Home Assistant. 
+It isn't a Zigbee device (these devices don't exist with Zigbee) but a WiFi weather station with a very good Home Assistant integration, all data is available as separated sensors in Home Assistant. 
 
-<a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4osbuDp" target="_blank">
 <img src="images_weather/ecowitt.jpg" alt="Ecowitt weather station" height="200px" /></a>
 
-{{imgBasket}} The <a href="https://s.click.aliexpress.com/e/_omVcyoJ" target="_blank">Ecowitt GW2001 Wittboy Weather Station (AliExpress)</a> includes:
+{{imgBasket}} The <a href="https://s.click.aliexpress.com/e/_c4osbuDp" target="_blank">Ecowitt GW2001 Wittboy Weather Station (AliExpress)</a> includes:
 * GW2000 IoT Wi-Fi Gateway
 * WS90 7-in-1 Outdoor Solar Powered Weather Sensor
 

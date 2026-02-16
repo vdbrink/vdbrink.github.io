@@ -490,7 +490,7 @@ With a colored version, you can use it to inform yourself with a color for diffe
 An easy solution, screw it between the original socket and the lamp to make it controllable.
 
 {{imgBasket}}WiFi / Zigbee smart light bulb socket 
-<a href="https://s.click.aliexpress.com/e/_ooH9zP3" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3yd93IX" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3H29ucE#ad" target="_blank">(Amazon US)</a>
 
 &nbsp;
@@ -775,8 +775,9 @@ You can also schedule complete weeks in it what the temperature should be.
 
 ---
 
+
 ### Smart socket
-<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4majdPD" target="_blank">
 <img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug. 
@@ -793,7 +794,7 @@ It took me a while before I got the correct smart socket for this purpose, and n
 
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15 
 <a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">(Banggood)</a>
-<a href="https://s.click.aliexpress.com/e/_m0qPURC" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4majdPD" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
 
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
@@ -819,8 +820,11 @@ Cheaper solution than four single smart sockets!
 * Manual master switch
 * LED indicate for each socket
 
-{{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Melery / UseeLink
-<a href="https://s.click.aliexpress.com/e/_oE0D59z" target="_blank">(AliExpress)</a>
+<br>
+
+{{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - BORUIDAPLS / LELLKI
+<a href="https://s.click.aliexpress.com/e/_c3sqLPWf" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4WMorsL" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/46nuiFT#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank" title="SM-0306E-2W">{{imgZ2M}}SM-0306E-2W</a>
 
@@ -841,6 +845,8 @@ Cheaper solution than four single smart sockets!
 * Extension cable 1.8m
 * Manual master switch
 * LED indicate for each socket
+
+<br>
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Lellki 
 <a href="https://s.click.aliexpress.com/e/_c2vgFrkP" target="_blank">(AliExpress)</a>
@@ -953,7 +959,7 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 <a href="https://amzn.to/3YWg1LO#ad" target="_blank">(Amazon US)</a>
 
 {{imgBasket}}USB A or C to clips 3V (same voltage as two batteries) 
-<a href="https://s.click.aliexpress.com/e/_DeBgzBR" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2JDbXLD" target="_blank">
 
 <img src="../projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
 
@@ -1058,11 +1064,11 @@ You don't need to create the foam yourself which saves water, time and soap.
 
 I have multiple ones around the house in use.
 
-<a href="https://s.click.aliexpress.com/e/_c3omX1mT" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">
 <img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px"/></a>
 
 {{imgBasket}}Battery powered automatic soap dispenser
-<a href="https://s.click.aliexpress.com/e/_c3omX1mT" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/46IqsFS#ad" target="_blank">(Amazon US)</a>
 
 <br>

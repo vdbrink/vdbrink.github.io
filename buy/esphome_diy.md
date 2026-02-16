@@ -121,10 +121,10 @@ Here are some ready-to-use sensors that can be connected direct to an ESP withou
 
 Dht11 is a commonly used temperature and humidity sensor.
 
-<a href="https://s.click.aliexpress.com/e/_c2QRpeMX" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3jcNSMR" target="_blank">
 <img src="images_diy/dht11_temperature_sensor.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c2QRpeMX" target="_blank">DHT11 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3jcNSMR" target="_blank">DHT11 (AliExpress)</a>
 
 ### Air quality sensor
 
@@ -133,7 +133,7 @@ AGS10 TVOC air quality gas sensor.
 <a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">
 <img src="images_diy/ags10.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DBrzBkf" target="_blank">AGS10 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3uGSNpV" target="_blank">AGS10 (AliExpress)</a>
 
 
 ### CO2 sensor
@@ -164,12 +164,12 @@ Check [this page](/esphome/co2_scd40) how to make your own CO2 sensor with this 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
 <img src="../esphome/images_co2/scd4x_i2c.jpg" height="180px" alt="SCD 40 WITHOUT soldering due to a i2c cable (AliExpress)" /></a>
 
-<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3mSHT8x" target="_blank">
 <img src="../esphome/images_co2/scd41.webp" height="180px" alt="SCD 41 with soldering (AliExpress)" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">link 1 SCD41 WITHOUT requires soldering (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DeKQwFz" target="_blank">link 2 SCD41 which requires soldering (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3mSHT8x" target="_blank">link 2 SCD41 which requires soldering (AliExpress)</a>
 
 ### Pressure sensor
 
@@ -324,10 +324,10 @@ Dupont are cables to connect the ESP pins with sensors pins. The dupont cables a
 
 Connect two wires without soldering.
 
-<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3mMEF2f" target="_blank">
 <img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="180px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Ewo1TGo" target="_blank">Cable connectors - option 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3mMEF2f" target="_blank">Cable connectors - option 1 (AliExpress)</a>
 
 
 <a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">

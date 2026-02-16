@@ -135,7 +135,7 @@ Without to worry about latency or any other performance issues for the best expe
 
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
-{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_ok3c5OT)*{% endcapture %}
+{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3dOQion)*{% endcapture %}
 {% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3Y6rDrn){% endcapture %}
 {% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c4B2ED2n){% endcapture %}
 {% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4cybVgl){% endcapture %}
@@ -188,22 +188,22 @@ If you want higher performance, it may be worth spending a bit more on the N150.
 Prices for these models can fluctuate based on supply and demand, so I’ve included links to help you compare current offers.
 
 
-| Model                | N150                               | N100                              | N97                              | N95                           |
-| -------------------- | ---------------------------------- | --------------------------------- | -------------------------------- | ----------------------------- |
-| **Model**            | **EQ 14**                          | **Mini S12 Pro**                  | **G5**                           | **Mini S12**                  |
-| **Brand**            | Beelink                            | Beelink                           | GMKtec                           | Beelink                       |
-| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100    | 12th Gen Intel Alder Lake-N97    | 12th Gen Intel Alder Lake-N95 |
-| **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}              | {{n97_performance}}              | {{n95_performance}}           |
-| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                           | 3.6 GHz                          | 1.7 GHz                       |
-| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                           | -                                | 3.4 GHz                       |
-| **Memory**           | 16 GB                              | 16 GB                             | 12 GB                            | 8 GB                          |
-| **Hard disk**        | 512 GB                             | 500 GB                            | 512 GB                           | 256 GB                        |
-| **Cores / Threads**  | 4 / 4                              | 4 / 4                             | 4 / 4                            | 4 / 4                         |
-| **Price indication** | &euro; 260 - 500                   | &euro; 300 - 450                  | &euro; 150                       | &euro; 200                    |
-| **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}} | {{n97_global}} / {{n97_global2}} | {{n95_global}}                |
-| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                       | {{n97_us}}                       | {{n95_us}}                    |
-| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                       | {{n97_nl}}                       | {{n95_nl}}                    |
-| **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}                  | {{n97_beelink}}                  | {{n95_beelink}}               |
+| Model                | N150                               | N100                           | N97                           | N95                           |
+|----------------------|------------------------------------|--------------------------------|-------------------------------|-------------------------------|
+| **Model**            | **EQ 14**                          | **Mini S12 Pro**               | **G5**                        | **Mini S12**                  |
+| **Brand**            | Beelink                            | Beelink                        | GMKtec                        | Beelink                       |
+| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |
+| **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}           | {{n97_performance}}           | {{n95_performance}}           |
+| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                        | 3.6 GHz                       | 1.7 GHz                       |
+| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                        | -                             | 3.4 GHz                       |
+| **Memory**           | 16 GB                              | 16 GB                          | 12 GB                         | 8 GB                          |
+| **Hard disk**        | 512 GB                             | 500 GB                         | 512 GB                        | 256 GB                        |
+| **Cores / Threads**  | 4 / 4                              | 4 / 4                          | 4 / 4                         | 4 / 4                         |
+| **Price indication** | &euro; 260 - 500                   | &euro; 300 - 450               | &euro; 400                    | &euro; 200                    |
+| **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}}                | {{n97_global}}                | {{n95_global}}                |
+| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |
+| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |
+| **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}               | {{n97_beelink}}               | {{n95_beelink}}               |
 
 <br>
 
@@ -222,7 +222,7 @@ model with more memory, faster CPU, GPU and more cores.
 
 
 | Model                | SER9                     | 185H                        | 12650H                 |
-| -------------------- |--------------------------|-----------------------------|------------------------|
+|----------------------|--------------------------|-----------------------------|------------------------|
 | **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         |
 | **Model**            | **SER9 Pro AI**          | **GTi14 AI**                | **EQi12**              |
 | **Brand**            | Beelink                  | Beelink                     | Beelink                |
@@ -262,7 +262,7 @@ The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in
 
 
 |                               | Home Assistant Green                                                                   | 
-| ----------------------------- |----------------------------------------------------------------------------------------| 
+|-------------------------------|----------------------------------------------------------------------------------------| 
 | **Photo**                     | {{ha_green_img}}                                                                       | 
 | **Website**                   | https://www.home-assistant.io/green/                                                   | 
 | **Brand**                     | Nabu Casa                                                                              | 
@@ -325,7 +325,7 @@ Be aware that the price here is without a hard disk, power supply and a case!
 
 
 |                                   | Raspberry Pi 5 - 8 GB                   | Raspberry Pi 4B - 8 GB              | Raspberry Pi 3B+ - 1 GB       |
-| --------------------------------- |-----------------------------------------|-------------------------------------|-------------------------------|
+|-----------------------------------|-----------------------------------------|-------------------------------------|-------------------------------|
 | **Photo**                         | {{rpi5_img}}                            | {{rpi4_img}}                        | {{rpi3_img}}                  |
 | **Model**                         | Pi 5                                    | Pi 4B                               | Pi 3B+                        |
 | **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
