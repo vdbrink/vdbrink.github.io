@@ -143,9 +143,9 @@ If the amount of ppms is too high for a long time, it's not good for you're heal
 
 #### SenseAir S8
 
-SenseAir S8 CO2 sensor.
+SenseAir S8 is a basic CO2 sensor which can be used to make your own CO2 sensor.
 
-Check [this page](/esphome/co2_senseair_s8_sensor) how to make your own CO2 sensor with this sensor.
+Check [this page](/esphome/co2_senseair_s8_sensor) how to create this.
 
 <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">
 <img src="../esphome/images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" /></a>
@@ -453,4 +453,4 @@ Links to other sections of this blog:
 
 * [Zigbee Smart home - Best Buy Tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
 
-* [All my best buy tip pages](index) 
+* [All my Best Buy Tip pages](index) 
