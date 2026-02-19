@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "RSS feed"
+title: "Home Assistant floor plan"
 date: 2026-02-19
 permalink: /home-assistant-floor-plan
 ---
