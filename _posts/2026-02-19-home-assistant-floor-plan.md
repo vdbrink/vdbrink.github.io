@@ -22,4 +22,6 @@ Or if you have plenty of time to spend, you can go all the way down the rabbit h
 
 If you want to know more how to start, go to the page [Home Assistant dashboard: Floor plan](/homeassistant/homeassistant_dashboard_floorplan) to see my journey how I created it.
 
+<a href="/homeassistant/homeassistant_dashboard_floorplan">
 <img src="/homeassistant/images_floorplan/plan_no_furniture.png" alt="floor plan example no furniture" width="300px">
+</a>
