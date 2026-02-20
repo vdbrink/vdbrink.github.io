@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Home Assistant floor plan"
+title: "Feed: Home Assistant floor plan"
 date: 2026-02-19
 permalink: /home-assistant-floor-plan
 ---
 
-# Home Assistant floor plan
+# Feed: Home Assistant floor plan
 
 <img src="/homeassistant/images_floorplan/banner.png" alt="floor plan banner" height="100%">
 
