@@ -17,7 +17,7 @@ You find here examples from my automations, which you can use in your own projec
 ## Updates
 
 My latest biggest updates on this blog:
-
+* [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode)
 * [RSS feed](feed.xml) to get the latest updates
 * [Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
 * [Home Assistant dashboard: Mealie Recipe Manager](/homeassistant/homeassistant_dashboard_mealie)
@@ -58,6 +58,7 @@ Topics you can find here:
 | <a href="projects/index"><img src="projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" height="100px"></a>          | [Random automated projects](projects/index)<br>Package mailbox, ventilation system, Christmas deco etc..                                                                                                                                                                                            |
 | <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                            | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index)                                                                                                                                                                                                               |
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                                                                                                                                                                                                        |
+| <a href="hardware_hacks/index"><img src="hardware_hacks/images_dishwasher/dishwasher.webp" alt="Hardware fixed" height="100px"></a>      | [Hardware hacks to extend the lifespan of devices with a DIY solution.](hardware_hacks/index)                                                                                                                                                                                                       |
 
 </div>
 
