@@ -14,6 +14,7 @@ I created so many different dashboards that I want to document and share them wi
 One by one, I will add them here.
 
 I created dashboards with all kinds of elements on it:
+* [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant_dashboard_tablet_in_kiosk_mode) (Use a tablet to show the dashboard on)
 * [Elements examples overview](homeassistant_dashboard_examples_overview) (Visual element examples overview page)
 * [Global HA Tips & Tricks](homeassistant_tips_tricks)
 * [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
