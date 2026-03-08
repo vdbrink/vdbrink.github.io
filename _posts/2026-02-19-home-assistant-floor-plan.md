@@ -2,6 +2,7 @@
 layout: default
 title: "Feed: Home Assistant floor plan"
 date: 2026-02-19
+tags: [Home Assistant, floor plan, dashboard]
 permalink: /home-assistant-floor-plan
 ---
 

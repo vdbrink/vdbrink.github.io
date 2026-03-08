@@ -2,6 +2,7 @@
 layout: default
 title: "Feed: Home automation ideas with a contact sensor"
 date: 2026-03-08
+tags: [Home automation, Zigbee, contact sensor, idea] 
 permalink: /home-automation-ideas-with-a-contact-sensor
 ---
 
@@ -22,7 +23,7 @@ On my blog, I wrote down a list with more example automations like these which I
 
 I hope there are some new ideas which you can use in your home!
 
-[Home Automation Ideas page](/ideas/home_automation_ideas)
+Go to [Home Automation Ideas page](/ideas/home_automation_ideas)
 
 <a href="/ideas/home_automation_ideas">
 <img src="/ideas/images/idea.png" alt="Home automation ideas" height="200px">
