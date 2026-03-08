@@ -191,7 +191,7 @@ Unfortunately, not available for Amazon US, but <a href="https://amzn.to/4fGpP3x
 {{imgBasket}}Zigbee Contact sensor - Tuya
 <a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3Ut5mp7#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4mbmFXy#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4swcmAw#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 Small and cheaper.
 
@@ -401,6 +401,9 @@ Very reliable, very long battery life, quick response on small light changes, mo
 <a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3TX4A3y#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0222.html" target="_blank" title="TS0222">{{imgZ2M}}TS0222</a>
+
+<a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">
+<img src="images_zigbee/zigbee_lux_sensor.avif" alt="Light intensity / lux sensor" height="150px" /></a>
 
 <br>
 
