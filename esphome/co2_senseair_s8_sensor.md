@@ -227,7 +227,7 @@ sensor:
 
 ## Home Assistant
 
-Ones the sensor pushes the data, you can use and present the data on your dashboards or create notifications when the values are not good.
+Once the sensor pushes the data, you can use and present the data on your dashboards or create notifications when the values are not good.
 
 ### Dashboard Gauge
 

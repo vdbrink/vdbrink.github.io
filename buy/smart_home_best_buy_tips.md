@@ -1068,7 +1068,7 @@ The amount can be defined in four levels.
 The dispenser contains the soap already mixed with water so foam is coming out of it. 
 You don't need to create the foam yourself which saves water, time and soap.
 
-I have multiple ones around the house in use.
+I have multiple once around the house in use.
 
 <a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">
 <img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px"/></a>

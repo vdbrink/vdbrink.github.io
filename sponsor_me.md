@@ -2,7 +2,7 @@
 
 <img style="float: right;margin-left:20px" src="images/avatar.jpg" alt="me" width="100px">
 
-Do you like what you read here? Consider to support me, so I can write more articles like the ones you find here.
+Do you like what you read here? Consider to support me, so I can write more articles like the once you find here.
 
 It's up to you if and how much you want to support me.  
 I am very grateful.

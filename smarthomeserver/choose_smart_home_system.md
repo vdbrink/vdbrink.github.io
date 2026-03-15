@@ -130,7 +130,7 @@ However, there are other protocols, especially for smart home devices as well.
 
 You have the Personal area network (PAN) protocols for short distances; like Zigbee, Thread, Matter, Z-Wave, Bluetooth, Infrared.
 
-The ones with a bigger range grouped under Wireless Sensor Networks (WSN / WSAN) like Lora, Zigbee and Z-Wave (some overlap).
+The once with a bigger range grouped under Wireless Sensor Networks (WSN / WSAN) like Lora, Zigbee and Z-Wave (some overlap).
 
 Each protocol has its own advantages and disadvantages and is perfect for different situations.
 To support a protocol, you need for each a specific USB adapter that 'talks' that protocol.

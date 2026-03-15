@@ -118,7 +118,7 @@ The first step is to create a raw digital map of your house. This can be done by
 
 It's always possible to create a fancier floor plan with the actual wall colors, floor types and furniture in it.
 But this takes a lot of time, but it's worth it. 
-Ones you did it your can be proud of yourself and love it every time you use it!
+Once you did it your can be proud of yourself and love it every time you use it!
 
 Steps to take:
 * Get online inspiration what you want it to look like.  

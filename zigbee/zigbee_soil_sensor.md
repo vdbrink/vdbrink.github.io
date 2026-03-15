@@ -125,7 +125,7 @@ To pair it, there is a button underneath the head that you need to press for a f
 
 ## Home Assistant
 
-The sensor generates a lot of entities, but the main ones are temperature and humidity. There are a lot of alarms you can define and end up as entities.
+The sensor generates a lot of entities, but the main once are temperature and humidity. There are a lot of alarms you can define and end up as entities.
 
 <a href="images_soil_sensor/soil_ha_entities.jpg">
 <img src="images_soil_sensor/soil_ha_entities.jpg" alt="Home Assistant soil sensor" height="250px"/>

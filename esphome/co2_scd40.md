@@ -300,7 +300,7 @@ you see the readings in the console direct after the ESP is flashed.
 
 ### Via Home Assistant
 
-Ones the ESP is online it automatically registers itself by Home Assistant if you installed ESPHome.
+Once the ESP is online it automatically registers itself by Home Assistant if you installed ESPHome.
 
 You will see a new device with three entities, CO2 , temperature and humidity.
 

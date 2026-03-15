@@ -53,7 +53,7 @@ Check the git repository to find all the options and if you can use it in your c
 ## Introduction
 
 I want to show the upcoming waste collecting not with a date, like 15-04-2024, as state but with a number of days countdown.
-Also, a presentation that shows only the ones that are relevant for the upcoming few days.\
+Also, a presentation that shows only the once that are relevant for the upcoming few days.\
 This is not available by default, but I've made it the way I wanted it. 
 
 I also add some extra dashboard presentation examples.
