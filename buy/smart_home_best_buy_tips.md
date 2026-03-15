@@ -454,7 +454,7 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 
 ### Pressure sensor
 
-<a href="https://s.click.aliexpress.com/e/_c3CKWzY7" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
+<a href="https://s.click.aliexpress.com/e/_c4Fg3X1t" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A small strip with pressure sensors in it.\
 I got a separated page how I created my own [Zigbee chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
@@ -467,7 +467,10 @@ Suitable for chairs/carpets/beds/sofas/carpets:
 <br>
 
 {{imgBasket}}Zigbee pressure sensor  - Tuya
-<a href="https://s.click.aliexpress.com/e/_c3CKWzY7" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4Fg3X1t" target="_blank">(AliExpress)</a>
+
+gBasket}}Alternative: larger Zigbee pressure mat sensor  - Tuya
+<a href="https://s.click.aliexpress.com/e/_c3k6qjLH" target="_blank">(AliExpress)</a>
 
 ---
 
@@ -648,10 +651,10 @@ Powered by two AAA batteries.
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya 
 <a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
-
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
-<br>
+{{imgBasket}}Alternative: Zigbee soil humidity sensor - Tuya
+<a href="https://s.click.aliexpress.com/e/_c3tIjR3z" target="_blank">(AliExpress)</a>
 
 ---
 ### Outdoor sensors
