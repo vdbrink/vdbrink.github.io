@@ -170,6 +170,21 @@ I see it as a full (small) computer with:
 
 ---
 
+## Smart home system vs hub
+
+<div class="align-left">
+
+| <div style="width:400px">**Smart home system - Pros** </div>                                                                                                                                             |                                                                                                                                                                                                           
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| * No risk devices are not supported anymore<br/>* You can choose you own supported protocols<br/>* You can choose your own software<br/>* Hardware upgrades are possible<br/>All sensor data keeps local |
+
+| <div style="width:400px">**Smart home system - Cons** </div>                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| * You need to make your own backups<br/>* You need to update the software yourself<br/>* Technical knowledge about hardware and software maintenance |
+
+</div>
+
+
 ## Which categories are there?
 
 * [Voice-Controlled Hubs](#voice-controlled-hubs)

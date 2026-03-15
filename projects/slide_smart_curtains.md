@@ -266,6 +266,10 @@ POST `/rpc/Slide.Stop`
 
 No request body is required.
 
+### WiFi config
+
+POST `/rpc/Slide.Config.WiFi`
+
 ---
 
 ## Links

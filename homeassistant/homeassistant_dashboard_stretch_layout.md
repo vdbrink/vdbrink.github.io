@@ -46,7 +46,6 @@ Check [here for the hardware section](/projects/stretch_display) where I describ
     * [Conditional elements](#conditional-elements)
     * [Textual weather](#textual-weather)
     * [Gauge](#gauge)
-    * [Flexible Horseshoe card](#flexible-horseshoe-card)
 <!-- TOC -->
 
 ---
@@ -756,15 +755,9 @@ cards:
 {% endraw %}
 ```
 
----
-### Flexible Horseshoe card
+See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
 
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-
-{% endraw %}
-```
+I have also a page with more details about how to setup [kiosk mode](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) on a tablet.
 
 ---
 

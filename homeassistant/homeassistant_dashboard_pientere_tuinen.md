@@ -16,11 +16,11 @@ A project to monitor the diversity in gardens around the country and make people
 
 All this data will be used by different parties to see what the current status in each corner of the country and how to act on the current climate changes.
 
-<img src="images_pientere_tuinen/my_sensor.jpg" style="float: right;" alt="My sensor" height="350px">
+<img src="images_pientere_tuinen/my_sensor.jpg" style="float: right;;margin-left:20px" alt="My sensor" height="350px">
 
-Garden owners who live in a municipality who work together with the project can subscribe and if they fit in the project they can join and get a soil sensor. The first part of the project is to first track the soil humidity and temperature in the gardens and to see what they can do with this data. 
+Garden owners who live in a municipality who work together with the project can subscribe, and if they fit in the project, they can join and get a soil sensor. The first part of the project is to first track the soil humidity and temperature in the gardens and to see what they can do with this data. 
 
-During the project more and more environmental data will be added for each garden to get a better overview what has impact on your garden experience.
+During the project more and more environmental data will be added for each garden to get a better overview of what has an impact on your garden experience.
 
 The sensor works with on a lora network. There is no need for a local setup. You get an account for an online dashboard to see your data.
 

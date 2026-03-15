@@ -8,7 +8,7 @@ image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 
 # Home Assistant - HACS Afvalbeheer
 
-<img style="float: right;" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">
+<img style="float: right;margin-left:20px" src="images_afvalbeheer/kliko.jpg" height="250px" alt="Kliko">
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:15px" alt="Home Assistant logo" height="100px"></a>
 

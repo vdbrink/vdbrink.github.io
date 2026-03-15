@@ -285,10 +285,6 @@ elements:
 
 ---
 
-Consider a small [donation](#donate) if you like this blog.
-
----
-
 ### Weeronline
 
 An animated image of 2 hours prediction of the rain in steps of 5 minutes.

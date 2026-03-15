@@ -192,11 +192,11 @@ content: |
 Just some other pages and settings with data that can be scraped.
 It can be used for news, weather, prices, etc.
 
-| Site                     | URL                                                             | Selector                | Index |
-|--------------------------|-----------------------------------------------------------------|-------------------------|-------|
-| Latest formula 1 news    | https://www.f1news.nl/                                          | `div.uplp-post-title`     | 0     |
+| Site                     | URL                                                             | Selector                                        | Index |
+|--------------------------|-----------------------------------------------------------------|-------------------------------------------------|-------|
+| Latest formula 1 news    | https://www.f1news.nl/                                          | `div.uplp-post-title`                           | 0     |
 | KNMI Dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | `div.alert__heading` and `a.alert__description` | 0     |
-| nu.nl news headline      | https://www.nu.nl                                               | `h1.title.fluid`          | 0     |
+| nu.nl news headline      | https://www.nu.nl                                               | `h1.title.fluid`                                | 0     |
 
 <br>
 Happy scraping!
