@@ -190,15 +190,39 @@ So I designed two stickers:
 * One to place on the lid of the box.
   * I gathered some delivery company logo's, created an image and placed the text that this is a package mailbox, my name and street name with house number on it (blurred on the photo).
 
- <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> Download <a href="https://www.getpaint.net" target="_blank">Paint.net</a>
+     <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> Download <a href="https://www.getpaint.net" target="_blank">Paint.net</a>
+    
+     <a href="images_allux-600/pakketbrievenbussticker_template.psd">Download here the Photoshop PSD file of this sticker.</a>
 
- <a href="images_allux-600/pakketbrievenbussticker_template.psd">Download here the Photoshop PSD file of this sticker.</a>
+    These are my ordered sticker specs, you can also make the sticker a bit bigger that it will cover the complete top.
+    
+    | Specs     | Value      |
+    |-----------|------------|
+    | Width     | 30 cm      |
+    | Height    | 17 cm      |
+    | Shape     | Square     |
+    | Material  | Bubblefree |
+    | Finishing | Mat        |
+    
+     <img src="images_allux-600/sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
 
- <img src="images_allux-600/sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
+  * And I placed the other one direct under the doorbell with a reference there is also a package box.
 
-* And I placed the other one direct under the doorbell with a reference there is also a package box.
+    <a href="images_allux-600/belsticker.pdn">Download here the Paint.net PDN file of this sticker.</a>
+    
+    <a href="images_allux-600/belsticker.png">Download here the generated PNG file of this sticker.</a>
 
-  <img src="images_allux-600/doorbell_sticker_reference.jpg" height="250px" alt="Message for delivery guy"/>
+    These are my ordered sticker specs, you can also make the sticker a bit bigger that it will cover the complete top.
+  
+      | Specs     | Value      |
+      |-----------|------------|
+      | Width     | 4 cm       |
+      | Height    | 7 cm       |
+      | Shape     | Square     |
+      | Material  | Bubblefree |
+      | Finishing | Mat        |
+
+    <img src="images_allux-600/doorbell_sticker_reference.jpg" height="250px" alt="Message for delivery guy"/>
 
 ---
 
