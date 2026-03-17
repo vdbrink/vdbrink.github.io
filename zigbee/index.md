@@ -7,8 +7,10 @@ image: /zigbee/images/zigbee.jpg
 
 # Zigbee
 
+<a href="index"><img src="/zigbee/images/zigbee.jpg" style="float: right;" alt="Zigbee logo" height="50px"></a>
+
 Zigbee is a local smart home protocol.\
-I'm a hugh fan of it because it's local, affordable and has a wide range of products available.\
+I'm a huge fan of it because it's local, affordable and has a wide range of products available.\
 I have over 140 devices from all kinds of brands, and they’re all working together, no limitations.
 
 On this page you find products, information and projects related to Zigbee.
