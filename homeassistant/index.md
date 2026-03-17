@@ -14,6 +14,7 @@ I created so many different dashboards that I want to document and share them wi
 One by one, I will add them here.
 
 I created dashboards with all kinds of elements on it:
+* [Home Assistant dashboard - Wake-up alarm light](homeassistant_dashboard_wake-up-alarm-light)
 * [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant_dashboard_tablet_in_kiosk_mode) (Use a tablet to show the dashboard on)
 * [Elements examples overview](homeassistant_dashboard_examples_overview) (Visual element examples overview page)
 * [Global HA Tips & Tricks](homeassistant_tips_tricks)
