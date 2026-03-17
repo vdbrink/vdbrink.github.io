@@ -193,7 +193,8 @@ So I designed two stickers:
      <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> Download <a href="https://www.getpaint.net" target="_blank">Paint.net</a>
     
      <a href="images_allux-600/pakketbrievenbussticker_template.psd">Download here the Photoshop PSD file of this sticker.</a>
-
+      <br>
+      <br>
     These are my ordered sticker specs, you can also make the sticker a bit bigger that it will cover the complete top.
     
     | Specs     | Value      |
@@ -211,7 +212,8 @@ So I designed two stickers:
     <a href="images_allux-600/belsticker.pdn">Download here the Paint.net PDN file of this sticker.</a>
     
     <a href="images_allux-600/belsticker.png">Download here the generated PNG file of this sticker.</a>
-
+    <br>
+    <br>
     These are my ordered sticker specs, you can also make the sticker a bit bigger that it will cover the complete top.
   
       | Specs     | Value      |
