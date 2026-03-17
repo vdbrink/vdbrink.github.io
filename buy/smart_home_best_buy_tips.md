@@ -965,7 +965,7 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 <a href="https://amzn.to/3YWg1LO#ad" target="_blank">(Amazon US)</a>
 
 {{imgBasket}}USB A or C to clips 3V (same voltage as two batteries) 
-<a href="https://s.click.aliexpress.com/e/_c2JDbXLD" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3nZhTbN" target="_blank">
 
 <img src="../projects/images_christmas_decorations/USB_to_clip_3v.avif" height="150px" alt="battery eliminator"/>
 
