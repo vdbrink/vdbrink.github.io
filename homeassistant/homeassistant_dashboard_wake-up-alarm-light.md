@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Wake-up alarm light"
 date: 2026-03-17
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, date, time, alarm, led strip, lamp]
+tags: [Home Assistant, dashboard, clock, time, alarm, LED strip, lamp, automation]
 image: /homeassistant/images_wake-up/wake-up-dashboard.png
 ---
 
@@ -16,6 +16,8 @@ This way dashboard users can make modifications to the ON and OFF time of an ent
 <img src="images_wake-up/wake-up-dashboard.png" alt="wake-up dashboard" width="400px">
 
 This can be used, for example, as wake-up ceiling LED strip light.
+Any automation can be triggered on this time!
+Start streaming a radio channel, creating a coffee, announce the weather forecast, news, traffic. 
 
 <img src="images_wake-up/ledstrip_bedroom.png" alt="LED strip bedroom" width="400px">
 
