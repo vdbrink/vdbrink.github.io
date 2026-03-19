@@ -6,7 +6,7 @@ tags: [Home Assistant, YAML, dashboard]
 permalink: /home-assistant-hidden-features
 ---
 
-# Home Assistant - Hidden features
+# Feed: Home Assistant - Hidden features
 
 Home Assistant has some features which not many people know about, but they are very handy!
 

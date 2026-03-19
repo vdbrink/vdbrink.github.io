@@ -7,7 +7,7 @@ permalink: /zigbee-diy-chair-occupancy-sensor
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 
-# Zigbee DIY chair occupancy sensor
+# Feed: Zigbee DIY chair occupancy sensor
 
 <a href="/zigbee/zigbee_chair_occupancy_sensor">
     <img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>

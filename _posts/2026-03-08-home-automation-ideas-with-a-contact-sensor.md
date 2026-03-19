@@ -6,7 +6,7 @@ tags: [Home automation, Zigbee, contact sensor, idea]
 permalink: /home-automation-ideas-with-a-contact-sensor
 ---
 
-# Home automation ideas with a contact sensor
+# Feed: Home automation ideas with a contact sensor
 
 With just a basic sensor, you can already make many different kinds of automations.
 I automate so many things, but sometimes you see automations that are simple but that you wouldn't have thought of yourself.
