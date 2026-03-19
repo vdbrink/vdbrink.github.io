@@ -3,7 +3,7 @@ title: "Home Assistant dashboard: Wake-up alarm light"
 date: 2026-03-17
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, date, time, alarm, led strip, lamp]
-image: /homeassistant/images_wake-up/ledstrip_bedroom.png
+image: /homeassistant/images_wake-up/wake-up-dashboard.png
 ---
 
 # Home Assistant dashboard:<br>Wake-up alarm light

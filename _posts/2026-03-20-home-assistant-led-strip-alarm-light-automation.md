@@ -4,7 +4,7 @@ title: "Feed: Home Assistant - LED strip alarm light automation"
 date: 2026-03-20
 tags: [Home Assistant, LED, strip, alarm, YAML, dashboard, Node-RED, automation]
 permalink: /home-assistant-led-strip-alarm-light-automation
-image: /homeassistant/images_wake-up/ledstrip_bedroom.png
+image: /homeassistant/images_wake-up/wake-up-dashboard.png
 ---
 
 # Feed: Home Assistant - LED strip alarm light automation
