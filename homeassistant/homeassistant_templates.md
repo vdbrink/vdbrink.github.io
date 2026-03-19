@@ -125,12 +125,12 @@ binary_sensor: !include binary_sensor.yaml
 #### Via the frontend
 
 The other way is via the frontend, you can create a new template via the **Settings** menu item, 
-then go to **Devices and Services** and select **Helpers**.\
+then go to **Devices and Services** and select **Helpers** in the top bar.\
 This button directly opens the **Helpers** page in your Home Assistant:
 
 [![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
 
-Select the bottom-right button `+ CREATE HELPER`, 
+Select the bottom-right button `+ Create Helper`, 
 select **Template** then one of the two options **Template a sensor** or **Template a binary sensor**.
 
 Copy the `value_template` part from the below examples and add it in the visual editor under **State template***.

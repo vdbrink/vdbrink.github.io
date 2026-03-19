@@ -93,7 +93,7 @@ Also with extra missing functionality for me, I have the number of days and sort
 ### Node-RED flow to turn the LED strip on, on bin day
 
 I use for all my automations Node-RED. 
-Here used with the [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED-strip entity.
+Here used with the [Home Assistant integration](../node-red/node-red_home-assistant) to read and control the Home Assistant LED strip entity.
 
 > **_NOTE:_** If you share the Home Assistant equivalent code with me, I can add it also here.
 

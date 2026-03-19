@@ -72,7 +72,7 @@ I have two types of chores, weekly and periodic chores.
 To create the chores I create for each chore a new helper entity.
 
 * Go to Settings > Devices & Services > tab Helpers.
-* Click in the bottom right corner on + Create helper.
+* Click in the bottom right corner on + Create Helper.
 * Choose from the list the type Toggle.
 <img src="images_chores/chores_create_helper.png" alt="Create a toggle helper" width="400px">
 

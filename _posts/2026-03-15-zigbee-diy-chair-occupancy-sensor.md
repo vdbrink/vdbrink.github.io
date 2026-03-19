@@ -13,11 +13,11 @@ image: /zigbee/images_chair/pillow_with_sensor.jpg
     <img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 
-With a car-seat-pressure sensor and a Zigbee or WiFi contact sensor, you can create your own chair occupancy sensor.
+With a car-seat-pressure sensor and a Zigbee or WiFi contact sensor, you can create your own cheap chair occupancy sensor.
 
 With this solution you can detect if:
 * Someone sits on a chair
-* A pet is laying on his pillow
+* Your pet is laying on his pillow
 * Someone stands on a mat
 
 <br>

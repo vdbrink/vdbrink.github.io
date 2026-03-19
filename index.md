@@ -17,6 +17,8 @@ You find here examples from my automations, which you can use in your own projec
 ## Updates
 
 My latest biggest updates on this blog:
+* [Home Assistant dashboard - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
+* [RSS feed posts - grouped by tag](feed_sitemap.html)
 * [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode)
 * [RSS feed](feed.xml) to get the latest updates
 * [Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
