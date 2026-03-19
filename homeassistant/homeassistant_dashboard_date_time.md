@@ -370,30 +370,13 @@ binary_sensor:
 ---
 ## Time selector on the dashboard
 
-I have a LED strip and want users defined by themselves, via the dashboard, IF and WHEN he must be triggered ON and OFF.
+I have a LED strip and want users to define the ON/OFF time by themselves, via the dashboard.
+IF and WHEN he must be triggered ON and OFF.
 
-<img src="images_date_time/time_selector_via_dashboard.png" alt="Time selector on the dashboard" width="400px">
+<img src="images_wake-up/wake-up-dashboard.png" alt="Time selector on the dashboard" width="400px">
+<br>
 
-* The first row: is the normal LED strip entity and can be toggled manually via the dashboard.
-* The second row: is a `Toggle` helper, this is used in the automation to check if the ON/OFF time needs to be activated.
-* The third row: is a `Date and/or time` helper, this is used in the automation when the LED strip needs to be turned ON.
-* The fourth row: is a `Date and/or time` helper, this is used in the automation when the LED strip needs to be turned OFF.
-
-This is how you can configure the `Date and/or time` helper:
-
-<img src="images_date_time/helper_time.png" alt="Date and/or time helper" width="300px">
-
-Helpers can be created via **Devices and Services** and select **Helpers**.\
-Or with this button, you go directly to the **Helpers** page in your Home Assistant:
-
-[![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
-
-I have my automations in [Node-RED](/node-red).
-There I use the HA helpers as Node in the automation flow.  
-
-<a href="images_date_time/node_red_ha_timers.png">
-<img src="images_date_time/node_red_ha_timers.png" alt="Date and/or time helper" width="400px">
-</a>
+See the dedicated page [Home Assistant dashboard: Wake-up alarm light](homeassistant_dashboard_wake-up-alarm-light) how to set this up.
 
 As an alternative, you can use the advanced [HACS scheduler integration](https://community.home-assistant.io/t/scheduler-card-custom-component/217458) to define timers.
 
