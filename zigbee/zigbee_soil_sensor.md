@@ -39,24 +39,24 @@ I found this soil sensor, with a solar panel, which could do the job!
 
 These are the specifications for this sensor:
 
-| **Key**                                            | **Value**                                |
-|----------------------------------------------------|------------------------------------------|
-| Battery                                            | AA 1.2V * 3 Ni-MH battery (Rechargeable) |
-| Solar Charging Current                             | 35mA                                     |
-| Communication Protocol                             | Zigbee 3.0                               |
-| Wireless Protocol                                  | Zigbee IEEE 802.15.4                     |
-| Wireless Distance                                  | 50M                                      |
-| Waterproof Level                                   | IP66                                     |
-| Temperature Detection Range                        | -10～60℃ (14℉～140℉)                       |
-| Moisture Detection Range                           | 0～100%RH (Non-Condensing)                |
-| Maximum Detection Range of Electrical Conductivity | 20ms/cm                                  |
-| Temperature Detection Accuracy                     | 0.5℃ (Adjustable)                        |
-| Moisture Detection Accuracy                        | 5%RH (Adjustable)                        |
-| Electrical Conductivity Detection Accuracy         | 3%FS 0.01ms/cm                           |
-| Time Span of Detection                             | 10min (Adjustable)                       |
-| Working Temperature                                | -10 ~ 60℃ (14 ~ 140℉)                    |
-| Working Humidity                                   | 0 ~ 100%RH (Non-Condensing)              |
-| Size                                               | 78mm x 78mm x 146mm                      |
+| **Key**                                             | **Value**                                 |
+|:----------------------------------------------------|:------------------------------------------|
+| Battery                                             | AA 1.2V * 3 Ni-MH battery (Rechargeable)  |
+| Solar Charging Current                              | 35mA                                      |
+| Communication Protocol                              | Zigbee 3.0                                |
+| Wireless Protocol                                   | Zigbee IEEE 802.15.4                      |
+| Wireless Distance                                   | 50M                                       |
+| Waterproof Level                                    | IP66                                      |
+| Temperature Detection Range                         | -10～60℃ (14℉～140℉)                        |
+| Moisture Detection Range                            | 0～100%RH (Non-Condensing)                 |
+| Maximum Detection Range of Electrical Conductivity  | 20ms/cm                                   |
+| Temperature Detection Accuracy                      | 0.5℃ (Adjustable)                         |
+| Moisture Detection Accuracy                         | 5%RH (Adjustable)                         |
+| Electrical Conductivity Detection Accuracy          | 3%FS 0.01ms/cm                            |
+| Time Span of Detection                              | 10min (Adjustable)                        |
+| Working Temperature                                 | -10 ~ 60℃ (14 ~ 140℉)                     |
+| Working Humidity                                    | 0 ~ 100%RH (Non-Condensing)               |
+| Size                                                | 78mm x 78mm x 146mm                       |
 
 <a href="images_soil_sensor/side.avif">
 <img src="images_soil_sensor/side.avif" alt="Zigbee soil sensor" height="150px"/>

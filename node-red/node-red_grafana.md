@@ -28,9 +28,9 @@ The content of **change node**:
 
 <div class="nodered">
 
-|                      |                                                                   |          |
-|:---------------------|-------------------------------------------------------------------|---------:|
-| zigbee2mqtt/contact1 | <img src="images/nodes/node_change.png" height="{{imgHeight}}px"> | contact1 |
+|                      |                                                                    |          |
+|:---------------------|:-------------------------------------------------------------------|:---------|
+| zigbee2mqtt/contact1 | <img src="images/nodes/node_change.png" height="{{imgHeight}}px">  | contact1 |
 
 </div>
 

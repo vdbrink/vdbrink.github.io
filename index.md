@@ -48,9 +48,7 @@ My latest biggest updates on this blog:
 
 Topics you can find here:
 
-<div id="center">
-
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                     | 
+|                                                                                                                                          | Subjects                                                                                                                                                                                                                                                                                            | 
 |------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>      | [Home Assistant](homeassistant/index) related information, examples, integrations etc...                                                                                                                                                                                                            |
 | <a href="zigbee/index"><img src="zigbee/images/zigbee.jpg" alt="Zigbee logo" height="50px"></a>                                          | [Zigbee: Why choose it?<br>Create your own Zigbee sensors](zigbee/index)                                                                                                                                                                                                                            |
@@ -61,8 +59,6 @@ Topics you can find here:
 | <a href="node-red/index"><img src="node-red/images/node-red_logo.png" alt="Node-RED logo" height="100px"></a>                            | [Node-RED: <br>Graphical programming tool to create every automation](node-red/index)                                                                                                                                                                                                               |
 | <a href="docker/index"><img src="docker/images/docker-logo.png" alt="Docker logo" height="100px"></a>                                    | [Docker: <br>Run applications](docker/index)                                                                                                                                                                                                                                                        |
 | <a href="hardware_hacks/index"><img src="hardware_hacks/images_dishwasher/dishwasher.webp" alt="Hardware fixed" height="100px"></a>      | [Hardware hacks to extend the lifespan of devices with a DIY solution.](hardware_hacks/index)                                                                                                                                                                                                       |
-
-</div>
 
 ---
 

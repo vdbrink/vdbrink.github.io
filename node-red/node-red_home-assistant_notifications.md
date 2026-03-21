@@ -41,12 +41,12 @@ These are the settings for the "call service" node.
 
 <img src="images_notify/call_service_node_settings.png" width="400px" alt="" />
 
-| Property | Values                                                                              | Description                                                   |
-|----------|-------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| Server   | Home Assistant                                                                      | [Your defined HA server](node-red_home-assistant)             |
-| Domain   | notify                                                                              | Select it from the list                                       |
-| Service  | mobile_app_{phone_name}                                                             | When you use the Companion app you can select here your phone |
-| Data     | ```json{% raw %}{ "title": "Home Assistant", "message": $$.payload }{% endraw %}``` | Some template code                                            |
+| Property  | Values                                                                               | Description                                                    |
+|:----------|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+| Server    | Home Assistant                                                                       | [Your defined HA server](node-red_home-assistant)              |
+| Domain    | notify                                                                               | Select it from the list                                        |
+| Service   | mobile_app_{phone_name}                                                              | When you use the Companion app you can select here your phone  |
+| Data      | ```json{% raw %}{ "title": "Home Assistant", "message": $$.payload }{% endraw %}```  | Some template code                                             |
 
 ---
 
