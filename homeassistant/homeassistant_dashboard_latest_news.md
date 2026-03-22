@@ -13,13 +13,6 @@ Here you find an Home Assistant dashboard example how you can scrape and show th
 <br>
 
 ---
-## Table of Contents
-<!-- TOC -->
-* [News headline (nu.nl)](#news-headline-nunl)
-* [Create a new custom sensor: chair occupancy](#create-a-new-custom-sensor-chair-occupancy)
-<!-- TOC -->
-
----
 
 ## News headline (nu.nl)
 Show the most important news headline.<br>
@@ -42,6 +35,7 @@ The default scrape interval time is 600 seconds (5 minutes). I couldn't find an 
 | Name     | nu.nl headline               | 2   |
 | Select   | `.title.fluid:first-of-type` | 2   | 
 
+<br>
 
 Or add it manually via the `configuration.yaml`.\
 Here you can override the scan interval time.
@@ -57,6 +51,7 @@ Here you can override the scan interval time.
 {% endraw %}
 ```
 
+<br>
 
 Use a Markdown card to present the news on the dashboard.
 ```yaml
@@ -68,6 +63,8 @@ Use a Markdown card to present the news on the dashboard.
           {{ states('sensor.nu_nl_headline') }} [>>](http://nu.nl)
 {% endraw %}
 ```
+
+Now every 15 minutes you see the latest news refreshing on your dashboard!
 
 ---
 
