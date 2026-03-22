@@ -115,7 +115,7 @@ Now all the required input data is available for the scraper. It's time to setup
 
 Use the Home Assistant **Scrape** integration for this.
 
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
 
 Or:
 

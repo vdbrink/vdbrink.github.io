@@ -72,7 +72,7 @@ We want to hide this top menu by default.
 <br>
 
 Install the **kiosk-mode** integration via this button\
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=NemesisRE&repository=kiosk-mode&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=NemesisRE&repository=kiosk-mode&category=integration)
 
 To set these properties, select the three dots in the top right and select `Raw configuration editor`.
 
@@ -107,7 +107,7 @@ With the HACS integration `Swipe Navigation`
 Repo: https://github.com/zanna-37/hass-swipe-navigation
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
 ## Set a tablet in Kiosk mode

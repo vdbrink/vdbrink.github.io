@@ -25,7 +25,7 @@ You can change the color of an icon based on its value.
 
 You need the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod).
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ![Changing icon color](images_styling/colored_icon.png)
 
@@ -66,7 +66,7 @@ entities:
 You can change the color of the sensor status based on its value.
 
 **Option 1**: Use the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
 ![Changing text color](images_styling/colored_status.png)
@@ -106,7 +106,7 @@ entities:
 Repo: https://github.com/thomasloven/lovelace-template-entity-row
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
 
 ```yaml
 {% raw %}
@@ -149,7 +149,7 @@ You can change the color of the background based on its value.
 
 You need the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod). 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
 ![Changing text color](images_styling/colored_background.png)

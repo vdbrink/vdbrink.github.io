@@ -38,7 +38,7 @@ Swipe to left/right to switch to the side lovelace dashboard on your mobile devi
 Repo: https://github.com/zanna-37/hass-swipe-navigation
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
 
@@ -53,7 +53,7 @@ Example: Show all temperature entities, sorted on temperature, round on no decim
 Repo: https://github.com/thomasloven/lovelace-auto-entities
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 I have a [dedicate page](homeassistant_dashboard_card_auto-entities) with examples and a dashboard with [chores](homeassistant_dashboard_chores) based on this custom element.
 
@@ -110,7 +110,7 @@ Examples:
 Repo: https://github.com/piitaya/lovelace-mushroom
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
 
 
 [My dedicated page about the Mushroom element >>](homeassistant_dashboard_card_mushroom)
@@ -130,7 +130,7 @@ I have a [styling page](homeassistant_dashboard_styling) with multiple examples 
 Repo: https://github.com/thomasloven/lovelace-card-mod
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 The use entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
 
@@ -172,7 +172,7 @@ Add a slider for brightness, volume, cover position, speed, number, etc.
 Repo: https://github.com/thomasloven/lovelace-slider-entity-row
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
 
 ```yaml
 {% raw %}
@@ -194,7 +194,7 @@ Place multiple entities compact together on a single row.
 Repo: https://github.com/benct/lovelace-multiple-entity-row
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
 
 ---
 ## template-entity-row
@@ -208,7 +208,7 @@ In this example, a rounded temperature with a colored, based on the temperature,
 Repo: https://github.com/thomasloven/lovelace-template-entity-row
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
 
 ```yaml
 {% raw %}
@@ -252,7 +252,7 @@ A Google calendar overview.
 Repo: https://github.com/totaldebug/atomic-calendar-revive#about-the-project
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
 
 ---
 ## Birthday Reminder Card
@@ -264,7 +264,7 @@ A birthday and wedding day overview.
 Repo: https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=vdbrink&repository=homeassistant-lovelace-birthday-reminder-card&category=Plugin)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=vdbrink&repository=homeassistant-lovelace-birthday-reminder-card&category=Plugin)
 
 To add your own dates, you need to dive into your installation files to edit the `birthday-reminder-card.js` file. 
 You can find the file in the `www` folder of your Home Assistant installation.
@@ -289,7 +289,7 @@ A clock and weather forecast in one card.
 Repo: https://github.com/pkissling/clock-weather-card
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
 
 You can also minimize the card to only show the weather forecast.
 <img src="images_hacs/my_clock_weather_card.png" alt="My Clock Weather Card" width="400px">
@@ -325,7 +325,7 @@ Current weather conditions and the predictions for the coming days.
 Repo: https://github.com/bramkragten/weather-card
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
 
 ```yaml
 {% raw %}
@@ -351,7 +351,7 @@ Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
 Repo: https://github.com/aex351/home-assistant-neerslag-app
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
 
 ```yaml
 {% raw %}

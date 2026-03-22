@@ -13,16 +13,13 @@ image: /homeassistant/images_mealie/mealie1_ha_integration.png
 
 Here you find how I seamlessly integrate the recipe manager [**Mealie**](https://docs.mealie.io/) into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
-This documentation is based on Mealie version `3.3.0` (september 2025)
+This documentation is based on Mealie version `3.3.0` (september 2025)\
+And still works with Mealie `3.13.1` and Home Assistant `2026.3.3` (March 2026).
 
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
 > **_UPDATE 07-2024:_** There is now also a [Mealie integration](https://www.home-assistant.io/integrations/mealie/) in Home Assistant.\
 > This page was already created before this exists, here I describe also other functionalities than you get with this integration.
-
-> **_UPDATE 22-10-2024:_** Mealie version `2.0.0` is released and has breaking API changes compare to the previous `1.12.0` version. 
-> See this PR for the changed paths https://github.com/mealie-recipes/mealie/pull/3970 \
-> For example `/groups/mealplans` -> `/households/mealplans`
 
 ---
 ## Table of Contents
@@ -439,7 +436,7 @@ This extended version makes it possible to click on the menu text and go to the 
 Without the card_mod extension, which add some CSS, you see all the text in blue underlined.
 Here is another HACS integration needed, `card-mod`, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a>
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ```yaml
 {% raw %}

@@ -323,7 +323,7 @@ On Windows you can use MQTT Explorer. Send an empty body to topic `orcon_mcu/mod
 ### Via Home Assistant
 If the ESP is not already auto-discovered by Home Assistant you can go to Integrations and add the ESPHome integration.
 
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=esphome)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=esphome)
 
 It will ask you for the IP-address and port number. 
 I found the IP-address while flashing the ESP. 

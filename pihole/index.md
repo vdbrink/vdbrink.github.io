@@ -44,7 +44,7 @@ Check the [docker-compose](https://github.com/pi-hole/docker-pi-hole/?tab=readme
 
 Use the Home Assistant [**Pi-hole** integration](https://www.home-assistant.io/integrations/pi_hole/) for this.
 
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=pi_home)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=pi_home)
 
 <!--
 

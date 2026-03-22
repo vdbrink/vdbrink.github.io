@@ -98,7 +98,7 @@ Go to integrations and search for `Slide Local`
 
 or use this link to install it direct in your own Home Assistant:
 
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=slide_local)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=slide_local)
 
 Fill in the IP-address (and optional the device code) of the already installed Slide.\
 In your router you can find it by the name `espressif`.  

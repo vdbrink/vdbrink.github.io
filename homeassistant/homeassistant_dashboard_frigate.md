@@ -36,7 +36,7 @@ Repo: https://github.com/AlexxIT/WebRTC \
 There are a lot of possible settings possible, check this site for them.
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexxIT&repository=WebRTC&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexxIT&repository=WebRTC&category=integration)
 
 ```yaml
 # Dashboard card code
@@ -59,7 +59,7 @@ This doesn't work with the default Markdown integration, but it works with the c
 Repo: https://github.com/PiotrMachowski/lovelace-html-card
 
 Install this integration via this button in your own HA instance
-[![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PiotrMachowski&repository=lovelace-html-card&category=integration)
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PiotrMachowski&repository=lovelace-html-card&category=integration)
 
 ```yaml
 # Dashboard card code
