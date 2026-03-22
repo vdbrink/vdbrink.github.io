@@ -112,7 +112,7 @@ This sensor with i2c interface is useful if you don't want to solder (AliExpress
 <br>
 Otherwise you can also buy this cheaper version where you need to solder the pins 
 <a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4qnSrCh#ad" target="_blank"> (Amazon US)</a>
+<a href="https://amzn.to/4ss4zEb#ad" target="_blank"> (Amazon US)</a>
 <a href="https://amzn.to/3XUVXsB#ad" target="_blank"> (Amazon NL)</a>
 
 ### ESP board
@@ -123,8 +123,8 @@ but on this page I use a ESP8266.
 ESP8266 NodeMCU v3 (Ch340) with pre soldered pins
 <a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">Alternative (AliExpress)</a>
-<a href="https://amzn.to/4cbTAti#ad" target="_blank">(Amazon US)</a>
-<a href=https://amzn.to/4qirq3i#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4sTpEao#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4qirq3i#ad" target="_blank">(Amazon NL)</a>
 <br>
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
