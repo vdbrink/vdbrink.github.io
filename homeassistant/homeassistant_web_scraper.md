@@ -182,7 +182,7 @@ This is the corresponding YAML code:
 # Dashboard card code
 type: markdown
 content: |
-  {{ states('sensor.nu_nl_headline') }} [>>](http://nu.nl)
+  {{ states('sensor.nu_nl_headline') }} [>>](http://www.nu.nl)
 {% endraw %}
 ```
 
@@ -192,18 +192,20 @@ content: |
 Just some other pages and settings with data that can be scraped.
 It can be used for news, weather, prices, etc.
 
-| Site                     | URL                                                             | Selector                                        | Index |
-|--------------------------|-----------------------------------------------------------------|-------------------------------------------------|-------|
-| Latest formula 1 news    | https://www.f1news.nl/                                          | `div.uplp-post-title`                           | 0     |
-| KNMI Dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | `div.alert__heading` and `a.alert__description` | 0     |
-| nu.nl news headline      | https://www.nu.nl                                               | `h1.title.fluid`                                | 0     |
+| Site                     | URL                                                             | Selector                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Index |
+|--------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
+| Latest formula 1 news EN | https://www.f1news.nl/                                          | `#uplp-list-25356 > ul > li:nth-child(1) > div.uplp-post-title > a`                                                                                                                                                                                                                                                                                                                                                                                                                      | 0     |
+| Latest formula 1 news NL | https://www.f1news.nl/                                          | `uplp-list-25359 > ul > li:nth-child(1) > div.uplp-post-title > a`                                                                                                                                                                                                                                                                                                                                                                                                                       | 0     |
+| KNMI Dutch weather alarm | https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel | `div.alert__heading` and `a.alert__description`                                                                                                                                                                                                                                                                                                                                                                                                                                          | 0     |
+| nu.nl news headline      | https://www.nu.nl                                               | `h1.title.fluid`                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 0     |
+| CNN News                 | https://edition.cnn.com                                         | `body > div.layout__content-wrapper.layout-homepage__content-wrapper > section.layout__wrapper.layout-homepage__wrapper > section > div > section > div > div > div > div.zone.zone--t-light.zone-2-observer > div > div.zone__items.layout--wide-center > div:nth-child(2) > div > div.stack__items > div.container.container_spotlight-package > div.container__title.container_spotlight-package__title.container__title--emphatic.hover.container__title--emphatic-size-l1 > a > h2` | 0     |
 
 <br>
 Happy scraping!
 
 <br>
 <br>
-Let me <a href="#remarks-or-suggestions">know</a> if you have some usefull scraped data!
+Let me know via a comment if you have some usefull scraped data!
 
 ---
 > **_NOTE:_** In the old YAML [Scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!
