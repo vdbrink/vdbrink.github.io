@@ -41,9 +41,9 @@ I created dashboards with all kinds of elements on it:
 * [Recipe manager Mealie](homeassistant_dashboard_mealie) (With meal weekplanner)
 * [Control an Orcon ventilation system](../esphome/orcon_mechanic_ventilation)
 * [Hardware monitor](homeassistant_hardware_monitor)
-* [Random examples](homeassistant_dashboard_examples) (The latest news)
 * [Web scraper](homeassistant_web_scraper) (Show website data on your dashboard)
 * [Pientere Tuinen](homeassistant_dashboard_pientere_tuinen) (Dutch garden and soil project)
+* [Show the latest news](homeassistant_dashboard_latest_news) (example nu.nl)
 
 ---
 

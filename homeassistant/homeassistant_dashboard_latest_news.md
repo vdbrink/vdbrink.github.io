@@ -1,15 +1,14 @@
 ---
-title: "Home Assistant dashboard: Examples"
+title: "Home Assistant dashboard: Latest news"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace]
+tags: [Home Assistant, dashboard, news, scrape]
 ---
 
-# Home Assistant dashboard: Examples
+# Home Assistant dashboard: Latest news
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;padding-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-Here you find some random Home Assistant (lovelace) dashboard examples which you can easily add to your own dashboards.
-
+Here you find an Home Assistant dashboard example how you can scrape and show the latest news on your dashboard.
 <br>
 <br>
 
@@ -67,34 +66,6 @@ Use a Markdown card to present the news on the dashboard.
  - type: markdown
         content: |
           {{ states('sensor.nu_nl_headline') }} [>>](http://nu.nl)
-{% endraw %}
-```
-
----
-## Create a new custom sensor: chair occupancy
-
-By default, the contact status is inverted as preferred.
-With this addition to configuration.yaml you can create a new sensor that shows the correct status in your dashboard.
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# configuration.yaml
-binary_sensor:
-  - platform: template
-    sensors:
-      chair:
-        friendly_name: "chair"
-        value_template: >-
-          {% if is_state('binary_sensor.contact1_contact', 'off') %}
-             on
-          {% else %}
-             off
-          {% endif %}
-
-homeassistant:
-  customize: 
-    binary_sensor.chair:
-      icon: mdi:chair-rolling
 {% endraw %}
 ```
 
