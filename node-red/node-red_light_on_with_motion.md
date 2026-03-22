@@ -1,29 +1,18 @@
 ---
-title: "Node-RED Light flows"
+title: "Node-RED - Lights on by motion"
+description: "Node-RED - Turn the lights on by motion and keep it on as long as motion is detected"
 category: Node-RED
-tags: [Node-RED Light flows]
+tags: [Node-RED, light, flow, motion, trigger, node]
 ---
 
-{% capture imgHeight %}50{% endcapture %}
-
-# Node-RED Light flows
-
+# Node-RED - Lights on by motion
+*Keep it on as long as motion is detected*
 
 <img style="float: right;" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
 
-Node-RED example flows related to light.
+Node-RED example flow: to turn a light on when motion is detected and keep it on as long as motion is detected.
 
 ---
-
-## Table of Contents
-
-<!-- TOC -->
-
-
-<!-- TOC -->
-
----
-
 ## Light on based on motion
 
 Keep the lights on while there is motion detected.
@@ -48,6 +37,15 @@ This flow turns on the light if someone enters the room and turn it off when nob
 * This get node is part of the additional nodes set, named **node-red-contrib-zigbee2mqtt**. You must install this first to used it. Via the menu > Manage Palette > Palette
 
 **Additions to this flow:**
+
+---
+## Hardware
+
+Motion / presence sensors:
+
+
+Lights:
+ 
 
 ---
 [Table of Content ^](#table-of-contents)

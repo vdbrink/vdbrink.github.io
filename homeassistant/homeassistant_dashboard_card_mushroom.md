@@ -11,6 +11,8 @@ image: /homeassistant/images_mushroom/mushroom_examples.png
 
 Here you find Home Assistant (lovelace) dashboard examples related to the **mushroom** cards which you can easily add to your own dashboards.
 
+Since Home Assistant version 2024.8 it has a similar functionality build in by itself, it's called [Badges](https://www.home-assistant.io/dashboards/badges/).
+
 Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add a small widget on your dashboard.
 
 <img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples" /> 
