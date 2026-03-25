@@ -751,9 +751,19 @@ cards:
         min: 20
         needle: true
         name: buiten temperatuur
+{% endraw %}
+```
+
+### Flexible Horseshoe card
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
 
 {% endraw %}
 ```
+
+---
 
 See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
 

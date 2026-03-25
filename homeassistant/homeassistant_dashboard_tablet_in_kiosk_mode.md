@@ -32,6 +32,13 @@ If you want to show only the content of a single dashboard, then you need to def
     * [Fullscreen browser](#fullscreen-browser)
     * [Android tablet](#android-tablet)
     * [iOS iPad tablet](#ios-ipad-tablet)
+  * [Configure Fully Kiosk Browser](#configure-fully-kiosk-browser)
+    * [Enable remote admin](#enable-remote-admin)
+    * [Auto screen on](#auto-screen-on)
+    * [Auto screen off](#auto-screen-off)
+    * [Only charge when needed](#only-charge-when-needed)
+  * [Create a tablet dashboard](#create-a-tablet-dashboard)
+    * [What's on my dashboard](#whats-on-my-dashboard)
 <!-- TOC -->
 
 ---
@@ -125,13 +132,14 @@ In Chrome, open the page you want to convert to a single app.
 Go to the menu, select `Cast, save and share`, then select `Install page as app...`.
 
 <a href="images_tablet_in_kiosk_mode/chrome_create_app_from_url.png">
-<img src="images_tablet_in_kiosk_mode/chrome_create_app_from_url.png" alt="create an app from a page" height="200px" />
+<img src="images_tablet_in_kiosk_mode/chrome_create_app_from_url.png" alt="create an app from a page" height="300px" />
 </a>
 
 <em>How to create in Chrome an app from a single page.</em>
 
 Now, you only have a small topbar. 
 And even this can be removed by choosing the `Full screen` option.
+
 <a href="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png">
 <img src="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png" alt="hide sidebar in Home Assistant" height="200px" />
 </a>
@@ -142,22 +150,23 @@ This app can also be cast to a TV!
 
 ### Android tablet
 
-For an Android tablet, the android app for this purpose which popup everywhere is [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main).
+For an Android tablet, 
+the android app for this purpose which popup everywhere is [Fully Kiosk Browser](#configure-fully-kiosk-browser).
 
 There is a free version with a watermark and has limited functionality.
 For [&euro; 7,90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single pc license.
 
 It's full of features, I use these:
-* Define a url to load on startup
+* Define a url to load on startup:
   * Automatically load the latest state of the page on start up.
-* Light detection via the camera
+* Light detection via the camera:
   * Disable the screen if the room is completely dark.
-* Nearby detection
+* Nearby detection:
   * Enable the screen when someone is nearby.
-* Remote screen on/off via an API call
+* Remote screen on/off via an API call:
   * Enable the screen when someone enters the room.
   * Disable the screen at a certain time or without presence.
-* Monitor the battery level
+* Monitor the battery level:
   * Control a smart socket to load only the battery from 20 to 80%.
 
 [See here the full list of features.](https://www.fully-kiosk.com/en/#configuration)
@@ -170,5 +179,139 @@ can be used to define a page as a single page to run in kiosk mode.
 Do you have better ways for iOS? Please let me know!
 
 ---
+## Configure Fully Kiosk Browser
 
-[<< See also my other Home Assistant tips and tricks](index)
+The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can be used to control the tablet from remote.
+
+
+
+<a href="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png">
+<img src="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png" alt="Fully Kiosk Browser trigger commands" height="200px" />
+</a>
+
+<a href="images_tablet_in_kiosk_mode/fully_remote_admin_settings.png">
+<img src="images_tablet_in_kiosk_mode/fully_remote_admin_settings.png" alt="Fully Kiosk Browser change settings" height="200px" />
+</a>
+
+### Enable remote admin
+
+<a href="images_tablet_in_kiosk_mode/fully_remote_admin.png">
+<img src="images_tablet_in_kiosk_mode/fully_remote_admin.png" alt="Fully Kiosk Browser remote admin" height="200px" />
+</a>
+
+http://192.168.1.168:2323/home
+
+### Auto screen on
+
+
+
+### Auto screen off
+
+### Only charge when needed
+
+---
+## Create a tablet dashboard
+
+
+* Horizontal or vertical?
+* Two or three columns?
+* Which data do you want to show?
+ * Date and time 
+ * Weather: current, forecast, alarms, temperatures, air pressure
+ * Important house states: open doors, windows, CO2 levels, temperatures
+ * Camera views
+ * Calendar: Trash, birthdays, appointments
+ * Latest news
+
+Check [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements) or 
+[here](/homeassistant/homeassistant_dashboard_examples_overview) 
+for copy-paste examples in these categories.
+
+---
+### What's on my dashboard
+
+This screenshot is an interactive, clickable image of my dashboard.
+You can select a dashboard element and you get redirected to the card details.
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+<script>
+$(function() {
+    $('.maparea').maphilight();
+});
+</script>
+<map name="my-dashboard">
+  <area
+    shape="rect"
+    coords="40,0,200,40"
+    href="/homeassistant/homeassistant_dashboard_date_time#time-and-date"
+    alt="time" />
+  <area
+    shape="rect"
+    coords="30,45,200,75"
+    href="/homeassistant/homeassistant_dashboard_date_time#time-and-date"
+    alt="date" />
+ <area
+    shape="rect"
+    coords="0,75,230,95"
+    href="/homeassistant/homeassistant_dashboard_card_mushroom"
+    alt="mushrooms" />
+<area
+    shape="rect"
+    coords="0,95,230,200"
+    href="/homeassistant/homeassistant_dashboard_latest_news#news-headline-nunl"
+    alt="news headline" />
+<area
+    shape="rect"
+    coords="0,200,230,240"
+    href="/homeassistant/homeassistant_dashboard_hacs#birthday-reminder-card"
+    alt="upcoming birthdays" />
+<area
+    shape="rect"
+    coords="0,240,230,310"
+    href="/homeassistant/homeassistant_hacs_afvalbeheer"
+    alt="bin days countdown" />
+<!-- second column -->
+<area
+    shape="rect"
+    coords="230,0,460,110"
+    href="/homeassistant/homeassistant_dashboard_stretch_layout#flexible-horseshoe-card"
+    alt="outside temperature" />
+<area
+    shape="rect"
+    coords="230,110,460,210"
+    href="/homeassistant/homeassistant_dashboard_stretch_layout#room-temperature"
+    alt="air pressure" />
+<area
+    shape="rect"
+    coords="230,210,350,320"
+     href="/homeassistant/homeassistant_dashboard_stretch_layout#flexible-horseshoe-card"
+    alt="temp inside" />
+<area
+    shape="rect"
+    coords="350,210,460,320"
+    href="/homeassistant/homeassistant_dashboard_stretch_layout#room-temperature"
+    alt="CO2" />
+<area
+    shape="rect"
+    coords="230,320,460,400"
+    href="/homeassistant/homeassistant_dashboard_card_mushroom#welcome-text-and-weather-forecast-for-today-dutch"
+    alt="textual weather" />
+<!-- third column -->
+<area
+    shape="rect"
+    coords="460,0,700,140"
+    href="/homeassistant/homeassistant_dashboard_weather_nl#weeronline"
+    alt="weather forecast" />
+<area
+    shape="rect"
+    coords="460,140,700,310"
+    href="/homeassistant/homeassistant_dashboard_weather_nl#rain-radar-animated"
+    alt="buienradar" />
+</map>
+<img usemap="#my-dashboard" src="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Home Assistant dashboard in kiosk mode" width="100%" class="maparea" />
+<em>Clickable dashboard: each element is linked to the corresponding code</em>
+
+---
+
+See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
