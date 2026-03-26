@@ -18,12 +18,12 @@ This prevents seeing a lot of advertisements when your browsing but underwater i
 These tracking sites use your visited websites to make a profile from your browse behavior.
 
 This is my dashboard, and as you can see in the third yellow box, more than 50% of the requested website urls are blocked!
-And in total, one million domains are blocked. 
-You probably think I can't browse anymore because everything is blocked now, 
+And in total, one million domains are blocked.
+You probably think I can't browse anymore because everything is blocked now,
 but I almost never bump to a website that isn't loaded.
 If this happened and I want to visit it, you can whitelist is forever or disable the blocking functionality for an X amount of time to visit the site.
 
-The advantage of blocking these websites is also that the scripts and images from those websites are not downloaded 
+The advantage of blocking these websites is also that the scripts and images from those websites are not downloaded
 which result in faster loading of the websites.
 
 <a href="images/stats.png">
@@ -36,13 +36,19 @@ Website: https://pi-hole.net/
 
 ## Installation
 
+Pi-hole is an application which can be installed on the most basic Raspberry Pi (Zero), but you can also install it direct on other Linux distros and as docker image.
+
 ### Via docker
 
 Check the [docker-compose](https://github.com/pi-hole/docker-pi-hole/?tab=readme-ov-file#quick-start) file on the Pi-hole website with an example.
 
-### Via Home Assistant
+---
 
-Use the Home Assistant [**Pi-hole** integration](https://www.home-assistant.io/integrations/pi_hole/) for this.
+## Integration
+
+### Home Assistant
+
+Home Assistant has a [**Pi-hole** integration](https://www.home-assistant.io/integrations/pi_hole/) to receive stats from pi-hole.
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=pi_home)
 
