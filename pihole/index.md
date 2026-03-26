@@ -84,3 +84,13 @@ To **update** the list and apply them:
 * Select **Update Gravity**;
 * Click on the big button **Update** to download the latest versions;
 
+---
+
+## FAQ
+
+Q: What isn't blocked?\
+A: YouTube and social media ads. These ads are provided just via the same websites as the normal content is.
+
+Q: How will this block ads on my phone?
+A: You define the IP-address of the pi-hole in your internal network router as DNS resolver. 
+Now automatically your phone gets an IP-address from pi-hole and all request urls are now validated first by pi-hole to check if it should allow or block the request.
