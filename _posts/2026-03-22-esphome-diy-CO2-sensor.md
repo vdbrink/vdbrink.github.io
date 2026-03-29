@@ -16,7 +16,7 @@ image: /esphome/images_scd40/hardware.jpg
 My favorite sensors is the Co2 sensor!
 
 When the level is too high you can feel tired, your start yawning and it can give you a headache. 
-Also your consentration drops immediately.
+Also your concentration drops immediately.
 
 With active alerts to open a window you keep healthy and fresh! 
 After I installed them in my home office and living room I'm aware of it now.

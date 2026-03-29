@@ -39,6 +39,9 @@ If you want to show only the content of a single dashboard, then you need to def
     * [Only charge when needed](#only-charge-when-needed)
   * [Create a tablet dashboard](#create-a-tablet-dashboard)
     * [What's on my dashboard](#whats-on-my-dashboard)
+      * [Basic elements](#basic-elements)
+      * [Optional elements](#optional-elements)
+        * [YAML how to make elements conditional](#yaml-how-to-make-elements-conditional)
 <!-- TOC -->
 
 ---
@@ -230,6 +233,8 @@ for copy-paste examples in these categories.
 ---
 ### What's on my dashboard
 
+#### Basic elements
+
 This screenshot is an interactive, clickable image of my dashboard.
 You can select a dashboard element and you get redirected to the card details.
 
@@ -240,6 +245,7 @@ $(function() {
     $('.maparea').maphilight();
 });
 </script>
+
 <map name="my-dashboard">
   <area
     shape="rect"
@@ -312,6 +318,121 @@ $(function() {
 <img usemap="#my-dashboard" src="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Home Assistant dashboard in kiosk mode" width="100%" class="maparea" />
 <em>Clickable dashboard: each element is linked to the corresponding code</em>
 
+#### Optional elements
+
+On my dashboard I also have elements which are by default hidden and only visible when it's relevant.
+
+Optional elements are:
+* [Bigger trash can Mushroom icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if today is bin day
+* Rain prediction graph, only if rain is expected the upcoming hours
+* Weather alert text, only if there is an alert
+* Camera stream, only if some is detected
+
+<br>
+
+<map name="my-dashboard-conditional">
+  <area
+    shape="rect"
+    coords="40,0,200,55"
+    href="/homeassistant/homeassistant_dashboard_date_time#time-and-date"
+    alt="time" />
+  <area
+    shape="rect"
+    coords="30,50,200,90"
+    href="/homeassistant/homeassistant_dashboard_date_time#time-and-date"
+    alt="date" />
+ <area
+    shape="rect"
+    coords="35,85,85,145"
+    href="/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon"
+    alt="mushrooms" />
+<area
+    shape="rect"
+    coords="0,145,230,300"
+    href="/homeassistant/"
+    alt="rain expected" />
+<area
+    shape="rect"
+    coords="0,300,230,460"
+    href="/homeassistant/homeassistant_dashboard_latest_news#news-headline-nunl"
+    alt="news headline" />
+<!-- second column -->
+<area
+    shape="rect"
+    coords="230,5,460,115"
+    href="/homeassistant/homeassistant_dashboard_stretch_layout#flexible-horseshoe-card"
+    alt="outside temperature" />
+<area
+    shape="rect"
+    coords="230,115,460,220"
+    href="/homeassistant/homeassistant_dashboard_stretch_layout#room-temperature"
+    alt="air pressure" />
+<area
+    shape="rect"
+    coords="230,220,350,330"
+     href="/homeassistant/homeassistant_dashboard_stretch_layout#flexible-horseshoe-card"
+    alt="temp inside" />
+<area
+    shape="rect"
+    coords="350,220,460,330"
+    href="/homeassistant/homeassistant_dashboard_stretch_layout#room-temperature"
+    alt="CO2" />
+<area
+    shape="rect"
+    coords="230,330,460,410"
+    href="/homeassistant/homeassistant_dashboard_card_mushroom#welcome-text-and-weather-forecast-for-today-dutch"
+    alt="textual weather" />
+<!-- third column -->
+<area
+    shape="rect"
+    coords="460,0,700,140"
+    href="/homeassistant/homeassistant_dashboard_weather_nl#weeronline"
+    alt="weather forecast" />
+<area
+    shape="rect"
+    coords="460,140,700,310"
+    href="/homeassistant/homeassistant_dashboard_weather_nl#rain-radar-animated"
+    alt="buienradar" />
+</map>
+<img usemap="#my-dashboard-conditional" src="images_tablet_in_kiosk_mode/ha_on_tablet_optional_elements.jpg" alt="Home Assistant dashboard in kiosk mode" width="100%" class="maparea" />
+<em>Clickable dashboard: each element is linked to the corresponding code</em>
+
+##### YAML how to make elements conditional
+
+This is how you can define a conditional **Mushroom** element.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: custom:mushroom-chips-card
+  chips:
+    - type: conditional
+      conditions:
+        - entity: sensor.waste_tomorrow
+          state: "true"
+     chip:
+       type: template
+       entity: sensor.cyclus_gft
+       icon: mdi:trash-can-outline
+       content: ""
+{% endraw %}
+```
+
+This is how you can define a conditional **camera stream** element.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: conditional
+  conditions:
+      - condition: state
+        entity: input_boolean.frontdoor_detection_mode
+        state: "on"
+  card:
+    type: custom:webrtc-camera
+    url: rtsp://....
+{% endraw %}
+```
 ---
 
 See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).

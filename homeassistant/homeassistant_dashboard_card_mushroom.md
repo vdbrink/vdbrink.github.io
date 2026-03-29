@@ -250,11 +250,9 @@ chips:
 
 &nbsp; Show the mushroom icon in a mush bigger size with the `card_mod` HACS integration, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a> for more info.
 
-<br>
 
 Install `card_mod` via this button\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
-
 
 ```yaml
 {% raw %}
@@ -262,28 +260,34 @@ Install `card_mod` via this button\
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
-  - chip:
-    type: template
-    icon: mdi:weather-lightning-rainy
-    icon_color: |-
-      {% if is_state('sensor.knmi_weercode', 'Code groen') %}
-         green
-      {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
-         yellow
-      {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-         red
-      {% else %}
-         1C1C1C
-      {% endif %}
-    entity: sensor.knmi_weercode
-    content: ""
-    card_mod:
-      style: |
-        ha-card {
-          --chip-icon-size: 80px;
-          width: 100px !important;
-          height: 100px !important
-        }
+    chip:
+      type: template
+      entity: sensor.cyclus_gft
+      icon: mdi:trash-can-outline
+      content: ""
+      card_mod:
+        style: |
+          ha-card {
+            --chip-icon-size: 100px;
+            width: 100px !important;
+            height: 100px !important;
+          }
+          :host {
+            --card-mod-icon-color: 
+            {% if is_state('sensor.gft_waste_pickup_countdown', 'unavailable') %}
+             #1C1C1C
+            {% elif states('sensor.gft_waste_pickup_countdown')|int == 1 %}
+             green
+            {% elif states('sensor.paper_waste_pickup_countdown')|int == 1 %}
+             blue
+            {% elif states('sensor.plastic_waste_pickup_countdown')|int == 1 %}
+             orange
+            {% elif states('sensor.rest_waste_pickup_countdown')|int == 1 %}
+             grey
+            {% else %}
+             #1C1C1C
+            {% endif %}
+          }
 {% endraw %}
 ```
 
