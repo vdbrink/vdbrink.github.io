@@ -117,10 +117,9 @@ I use [Node-RED](/node-red/node-red_home-assistant) to set the Home Assistant in
 
 I use the MQTT topic `frigate/camera_1/person/snapshot` where Frigate publishes the last snapshot of a person detection.
 
-Then use the Home Assistant Api Node.
-Path: `states/input_boolean.frontdoor_detection_mode` is an input boolean in Home Assistant that you can use to enable or disable the frontdoor detection mode.
+Then use the Home Assistant Api Node.\
+Path: `states/input_boolean.frontdoor_detection_mode` is an input boolean in Home Assistant that you can use to enable or disable the frontdoor detection mode.\
 Data: `{"state":"on"}`
-
 
 ---
 

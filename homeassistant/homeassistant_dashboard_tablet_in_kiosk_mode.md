@@ -186,8 +186,6 @@ Do you have better ways for iOS? Please let me know!
 
 The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can be used to control the tablet from remote.
 
-
-
 <a href="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png">
 <img src="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png" alt="Fully Kiosk Browser trigger commands" height="200px" />
 </a>
@@ -431,6 +429,7 @@ You need the boolean sensor [waste_tomorrow](/homeassistant/homeassistant_templa
         content: ""
 {% endraw %}
 ```
+<br>
 
 This is how you can define a conditional **camera stream** element.
 
