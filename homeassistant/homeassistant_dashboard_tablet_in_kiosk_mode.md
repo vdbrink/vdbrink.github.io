@@ -323,12 +323,11 @@ $(function() {
 On my dashboard I also have elements which are by default hidden and only visible when it's relevant.
 
 Optional elements are:
-* [Bigger trash can Mushroom icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [today is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
 * [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) the upcoming hours
-* [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
-* [Camera stream](/homeassistant/homeassistant_frigate#show-live-rtsp-streams), only if [some is detected](homeassistant/homeassistant_frigate#front-door-detection-mode) at the front door
+* [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
+* [Camera stream](/homeassistant/homeassistant_dashboard_frigate#show-live-rtsp-streams), only if [someone is detected](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) at the front door
 * Mushrooms:
-    * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if today is bin day
+    * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [tomorrow is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
     * CO2 incorrect
     * Rain amount fallen
     * Nice to sit outside

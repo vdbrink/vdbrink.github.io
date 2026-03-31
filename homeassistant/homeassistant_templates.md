@@ -556,7 +556,7 @@ template:
             is_state('sensor.plastic_waste_pickup_countdown', '1') or
             is_state('sensor.rest_waste_pickup_countdown', '1')
           }}
-{endraw}
+{% endraw %}
 ```
 
 ---
