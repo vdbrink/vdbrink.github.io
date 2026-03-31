@@ -68,7 +68,7 @@ You can Install this integration via this button in your own HA instance\
 ## Introduction
 
 The mushroom card has a whole set of different card types.
-In my examples here, I only use two of them. If you want to know more about them all, check this page https://github.com/piitaya/lovelace-mushroom#cards
+In my examples here, I only use two of them. If you want to know more about them all, check this page [https://github.com/piitaya/lovelace-mushroom#cards](https://github.com/piitaya/lovelace-mushroom#cards)
 
 <img src="images_mushroom/mushroom_card_types.png" alt="mushroom card types" width="150px" />
 
