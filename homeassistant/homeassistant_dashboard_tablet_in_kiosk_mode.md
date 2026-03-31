@@ -200,8 +200,6 @@ The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can 
 <img src="images_tablet_in_kiosk_mode/fully_remote_admin.png" alt="Fully Kiosk Browser remote admin" height="200px" />
 </a>
 
-http://192.168.1.168:2323/home
-
 ### Auto screen on
 
 
