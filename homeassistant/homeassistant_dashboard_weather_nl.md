@@ -28,7 +28,8 @@ We can use that data also to show direct on our Home Assistant dashboards.
     * [Weeronline](#weeronline)
   * [Weather alarm map](#weather-alarm-map)
   * [Weather alarm](#weather-alarm)
-    * [Conditional weather alarm](#conditional-weather-alarm)
+    * [Conditional weather alarm 1](#conditional-weather-alarm-1)
+    * [Conditional weather alarm 2](#conditional-weather-alarm-2)
   * [Pollen](#pollen)
     * [image](#image)
     * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
@@ -62,7 +63,7 @@ entities:
 
 <!--
 Based on the Buienalarm data, I created [multiple sensors](/homeassistant/homeassistant_templates#rain-conditions)
-to indicate when: 
+to indicate when:
 * [It starts with light/medium/heavy rain](/homeassistant/homeassistant_templates#time-when-heavy-rain-is-expected)
 * [At what time it will be dry again](/homeassistant/homeassistant_templates#time-when-it-becomes-dry-again)
 * [Expected rain amount](/homeassistant/homeassistant_templates#expected-rain-amount)
@@ -121,7 +122,7 @@ forecast_rows: 12
 ---
 ## Weather predictions
 
-Nice overview of the current weather predictions. 
+Nice overview of the current weather predictions.
 
 <img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
 
@@ -192,8 +193,8 @@ Or direct go to all entities [![Open your Home Assistant instance and show the e
 
 Now all preparations are done, the dashboard card can be created.
 
-Add a new card to your dashboard (or edit your existing) with this content 
-and change the `top` and `left` properties to position the marker to your residence. 
+Add a new card to your dashboard (or edit your existing) with this content
+and change the `top` and `left` properties to position the marker to your residence.
 And use `scale` to change the size of the image.
 
 The marker looks like this: ![marker_home.svg](images_weather/marker_home.svg)\
@@ -233,11 +234,11 @@ Add a Generic camera integration:
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=generic)
 
 Use the url https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
-It's this marker 
+It's this marker
 ![marker_home.svg](images_weather/marker_home.svg)
 
 Rename the sensor to `camera.marker_home`
- 
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -355,10 +356,9 @@ First, you need to define a scraper to scrape every 10 minutes the latest alarm 
 ```
 This is the corresponding code for the screenshot.
 
-The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) 
+The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
-
 
 ```yaml
 {% raw %}
@@ -395,7 +395,7 @@ state_color: true
 
 Check the [styling](homeassistant_dashboard_styling) page for more ways to give elements the color of the weather alarm.
 
-### Conditional weather alarm
+### Conditional weather alarm 1
 
 You can add this data also to your `Important data panel` and only show this information when it's not code green.
 The text is also clickable to open the corresponding site with more info.
@@ -413,7 +413,7 @@ The text is also clickable to open the corresponding site with more info.
     tap_action:
       action: url
       url_path: >-
-        https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel  
+        https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
 - type: conditional
   conditions:
     - entity: sensor.knmi_weercode
@@ -424,6 +424,45 @@ The text is also clickable to open the corresponding site with more info.
       action: url
       url_path: >-
         https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
+{% endraw %}
+```
+
+---
+### Conditional weather alarm 2
+
+<img src="images_weather/weather_alarm_knmi_colored_background.png" alt="optional Weather alarm" width="400px">
+
+```yaml
+{% raw %}
+type: conditional
+conditions:
+  - entity: sensor.knmi_weercode
+    state_not: unavailable
+card:
+  type: custom:mushroom-title-card
+  title: |
+    {{states('sensor.knmi_weer_waarschuwing')}}
+  card_mod:
+    style: |
+      ha-card {
+        background:
+        {% if is_state('sensor.knmi_weercode', 'Code groen') %}
+         #008000 !important;
+        {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
+         #ff4500 !important;
+        {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
+         #ffd700 !important;
+        {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
+         #ff4d00 !important;
+        {% else %}
+         #44739e !important;
+        {% endif %}
+        --title-color: #000 !important;
+        padding-top: 10px !important;
+        h1 {
+          font-size: 30px !important;
+        }
+       }
 {% endraw %}
 ```
 

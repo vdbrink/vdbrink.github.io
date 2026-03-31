@@ -24,6 +24,7 @@ Website: https://frigate.video/
   * [Show MP4 video clips](#show-mp4-video-clips)
   * [Show Frigate MQTT last event captured snapshots](#show-frigate-mqtt-last-event-captured-snapshots)
   * [Frigate iframe](#frigate-iframe)
+  * [Front door detection mode](#front-door-detection-mode)
 <!-- TOC -->
 
 ---
@@ -53,7 +54,7 @@ Frigate provides for each event a MP4 movie via the api.
 
 &nbsp;
 
-With some HTML you can include the video on your dashboard. 
+With some HTML you can include the video on your dashboard.
 This doesn't work with the default Markdown integration, but it works with the custom HACS integration `Lovelace HTML card`.
 
 Repo: https://github.com/PiotrMachowski/lovelace-html-card
@@ -66,7 +67,7 @@ Install this integration via this button in your own HA instance
 type: custom:html-card
 content: >
   <center>
-   <video width="450" height="260" controls class="video-js" data-setup="{}"> 
+   <video width="450" height="260" controls class="video-js" data-setup="{}">
     <source src="http://<ip-address:port>/api/camera_1/person/clip.mp4" type="video/mp4">
    </video>
   </center>
@@ -108,6 +109,18 @@ type: iframe
 aspect_ratio: 100%
 url: http://x.x.x.x:5000
 ```
+
+---
+## Front door detection mode
+
+I use [Node-RED](/node-red/node-red_home-assistant) to set the Home Assistant input boolean `input_boolean.frontdoor_detection_mode` to `true` when Frigate detects a person at the front door.
+
+I use the MQTT topic `frigate/camera_1/person/snapshot` where Frigate publishes the last snapshot of a person detection.
+
+Then use the Home Assistant Api Node.
+Path: `states/input_boolean.frontdoor_detection_mode` is an input boolean in Home Assistant that you can use to enable or disable the frontdoor detection mode.
+Data: `{"state":"on"}`
+
 
 ---
 

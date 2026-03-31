@@ -52,7 +52,7 @@ A kiosk is a standalone computer with a touchscreen (also like a tablet) which r
 It has only limited functionality.
 
 An example of a kiosk is to order a meal in a fast-food restaurant.\
-This is in the background just a website or application with payment functionality attached to it. 
+This is in the background just a website or application with payment functionality attached to it.
 When it's in a public place, it's also restricted, without access to the rest of the computer or browser.
 
 In the scope of Home Assistant, we want to have access to a single overview dashboard without menu items.
@@ -64,12 +64,12 @@ By default, you only want to show a single page on the tablet without the defaul
 
 ### Hide side toolbar
 
-It's a setting for the user to hide the side menu by default. 
+It's a setting for the user to hide the side menu by default.
 Select in the side toolbar the last item, the current logged-in user.
 This shows a list of settings and one of them is `Always hide the sidebar`.
 
 The best way is to create a custom user for your tablet and enable the feature to hide the sidebar.
-Use on your desktop and phone a different user to still show here all the default menu items. 
+Use on your desktop and phone a different user to still show here all the default menu items.
 
 <img src="images_tablet_in_kiosk_mode/hide_sidebar.png" alt="hide sidebar in Home Assistant" height="200px" />
 
@@ -86,7 +86,7 @@ Install the **kiosk-mode** integration via this button\
 
 To set these properties, select the three dots in the top right and select `Raw configuration editor`.
 
-<img src="images_layout_stretch/raw_config_editor.png" alt="Raw configuration editor" height="200px" /> 
+<img src="images_layout_stretch/raw_config_editor.png" alt="Raw configuration editor" height="200px" />
 <img src="images_tablet_in_kiosk_mode/hide_header.png" alt="hide header in Home Assistant" height="200px" />
 
 See all possible configuration parameters at https://github.com/NemesisRE/kiosk-mode
@@ -122,7 +122,7 @@ Install this integration via this button in your own HA instance
 ---
 ## Set a tablet in Kiosk mode
 
-You can just open a browser and go to the Home Assistant dashboard url and have this as dashboard. 
+You can just open a browser and go to the Home Assistant dashboard url and have this as dashboard.
 The downside is that you lose a lot of space on your screen to the OS- and browser controls.
 Better is to show only the content of the page in fullscreen.
 
@@ -140,7 +140,7 @@ Go to the menu, select `Cast, save and share`, then select `Install page as app.
 
 <em>How to create in Chrome an app from a single page.</em>
 
-Now, you only have a small topbar. 
+Now, you only have a small topbar.
 And even this can be removed by choosing the `Full screen` option.
 
 <a href="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png">
@@ -153,7 +153,7 @@ This app can also be cast to a TV!
 
 ### Android tablet
 
-For an Android tablet, 
+For an Android tablet,
 the android app for this purpose which popup everywhere is [Fully Kiosk Browser](#configure-fully-kiosk-browser).
 
 There is a free version with a watermark and has limited functionality.
@@ -219,15 +219,15 @@ http://192.168.1.168:2323/home
 * Horizontal or vertical?
 * Two or three columns?
 * Which data do you want to show?
- * Date and time 
+ * Date and time
  * Weather: current, forecast, alarms, temperatures, air pressure
  * Important house states: open doors, windows, CO2 levels, temperatures
  * Camera views
  * Calendar: Trash, birthdays, appointments
  * Latest news
 
-Check [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements) or 
-[here](/homeassistant/homeassistant_dashboard_examples_overview) 
+Check [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements) or
+[here](/homeassistant/homeassistant_dashboard_examples_overview)
 for copy-paste examples in these categories.
 
 ---
@@ -323,10 +323,10 @@ $(function() {
 On my dashboard I also have elements which are by default hidden and only visible when it's relevant.
 
 Optional elements are:
-* [Bigger trash can Mushroom icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if today is bin day
-* Rain prediction graph, only if rain is expected the upcoming hours
-* Weather alert text, only if there is an alert
-* Camera stream, only if some is detected
+* [Bigger trash can Mushroom icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [today is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
+* [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) the upcoming hours
+* [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
+* [Camera stream](/homeassistant/homeassistant_frigate#show-live-rtsp-streams), only if [some is detected](homeassistant/homeassistant_frigate#front-door-detection-mode) at the front door
 
 <br>
 
@@ -399,7 +399,12 @@ Optional elements are:
 
 ##### YAML how to make elements conditional
 
+For each condition you need a sensor with a boolean state, which is `true` when the element should be visible and `false` when it should be hidden. If this doesn't exist yet, you can create this with a template binary sensor. I have a page with many examples of how to create these sensors: [Home Assistant templates](/homeassistant/homeassistant_templates).
+
 This is how you can define a conditional **Mushroom** element.
+
+You need the boolean sensor [waste_tomorrow](#is-tomorrow-a-rash-bin-day) for this condition.
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -419,6 +424,9 @@ This is how you can define a conditional **Mushroom** element.
 ```
 
 This is how you can define a conditional **camera stream** element.
+
+You need the boolean sensor `frontdoor_detection_mode` for this condition.
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -433,6 +441,27 @@ This is how you can define a conditional **camera stream** element.
     url: rtsp://....
 {% endraw %}
 ```
+
+This is how you can define a conditional **camera stream** element.
+
+You need the boolean sensor `frontdoor_detection_mode` for this condition.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+- type: conditional
+  conditions:
+      - condition: state
+        entity: input_boolean.frontdoor_detection_mode
+        state: "on"
+  card:
+    type: custom:webrtc-camera
+    url: rtsp://....
+{% endraw %}
+```
+
+
 ---
 
 See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).

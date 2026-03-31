@@ -15,12 +15,12 @@ image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
 Afvalbeheer is a Dutch and Belgium integration that works for many waste collectors.
-This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.  
+This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.
 
 Check the git repository to find all the options and if you can use it in your city: https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/
 
-> **_UPDATE 01-08-2025:_**  Since version 6.0.0 YAML configuration is deprecated. 
-> All new installations and configurations should use the Home Assistant UI (Config Flow). 
+> **_UPDATE 01-08-2025:_**  Since version 6.0.0 YAML configuration is deprecated.
+> All new installations and configurations should use the Home Assistant UI (Config Flow).
 > Existing YAML configurations will automatically be imported and should be removed manually from configuration.yaml after the migration.
 
 > For myself: I had enabled the prefix, but it wasn't migrated correct and I had to rename the new sensors from `sensor.papier` to `sensor.<prefix>_papier` manually.
@@ -44,6 +44,7 @@ Check the git repository to find all the options and if you can use it in your c
       * [As row](#as-row)
       * [As list](#as-list-1)
     * [Show conditional, only for the next 5 days](#show-conditional-only-for-the-next-5-days)
+    * [Show conditional, only for tomorrow](#show-conditional-only-for-tomorrow)
     * [Mushroom element](#mushroom-element)
   * [LED strip indicator](#led-strip-indicator)
 <!-- TOC -->
@@ -54,7 +55,7 @@ Check the git repository to find all the options and if you can use it in your c
 
 I want to show the upcoming waste collecting not with a date, like 15-04-2024, as state but with a number of days countdown.
 Also, a presentation that shows only the once that are relevant for the upcoming few days.\
-This is not available by default, but I've made it the way I wanted it. 
+This is not available by default, but I've made it the way I wanted it.
 
 I also add some extra dashboard presentation examples.
 
@@ -119,9 +120,9 @@ This is the default presentation.
 
 <img src="images_afvalbeheer/default.png" alt="default afvalbeheer presentation" width="400px">
 
-The downside is that it isn't ordered by date, you get a colored (distracting and not matching with the default other) icons, 
-and you don't see the numbers of days. Now you need to know the current date and calculate for yourself when it's the right date to put it on the street. 
-So work todo to make it more practical and a cleaner presentation. 
+The downside is that it isn't ordered by date, you get a colored (distracting and not matching with the default other) icons,
+and you don't see the numbers of days. Now you need to know the current date and calculate for yourself when it's the right date to put it on the street.
+So work todo to make it more practical and a cleaner presentation.
 
 This dashboard code belongs to the above presentation screenshot.
 In my case my `wastecollector` is `cyclus` that's why I have that name in my sensor name. Yours can be different.
@@ -285,7 +286,7 @@ sensor:
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
         icon_template: mdi:delete-empty
         unit_of_measurement: "dagen"
-    
+
   - platform: template
     sensors:
       gft_waste_pickup_countdown:
@@ -295,7 +296,7 @@ sensor:
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
         icon_template: mdi:delete-empty
         unit_of_measurement: "dagen"
-    
+
   - platform: template
     sensors:
       rest_waste_pickup_countdown:
@@ -305,7 +306,7 @@ sensor:
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
         icon_template: mdi:delete-empty
         unit_of_measurement: "dagen"
-    
+
   - platform: template
     sensors:
       plastic_waste_pickup_countdown:
@@ -396,16 +397,40 @@ filter:
 ```
 
 ---
+### Show conditional, only for tomorrow
+
+Show an element only when there is a waste pickup for tomorrow.
+This sensor will be `sensor.waste_tomorrow`.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+template:
+  - sensor:
+      waste_tomorrow:
+        friendly_name: tomorrow bin day
+        value_template: >
+          {{
+            is_state('sensor.gft_waste_pickup_countdown', '1') or
+            is_state('sensor.paper_waste_pickup_countdown', '1') or
+            is_state('sensor.plastic_waste_pickup_countdown', '1') or
+            is_state('sensor.rest_waste_pickup_countdown', '1')
+          }}
+{endraw}
+```
+
+---
 ### Mushroom element
 
 On top of my dashboard, I also show a small [Mushroom](homeassistant_dashboard_card_mushroom) icon which trash can must be outside.\
-I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash. 
+I have for each type a different color. Orange for plastic, green for green, blue for paper and gray for the grey container with rest trash.
 These are all the possible visible icon options (only one is visible at the same time).
 
 <img src="images_afvalbeheer/afvalbeheer_mushroom.png" alt="Mushroom conditional and colored" width="200px">
 
 I use here also my extra created countdown helper entities.\
-The condition is: If tomorrow some waste must be placed outside, it shows the corresponding colored trash can, otherwise there is no trashcan visible in the circle. 
+The condition is: If tomorrow some waste must be placed outside, it shows the corresponding colored trash can, otherwise there is no trashcan visible in the circle.
 
 ```yaml
 {% raw %}
@@ -421,7 +446,7 @@ chips:
     card_mod:
       style: |
         :host {
-          --card-mod-icon-color: 
+          --card-mod-icon-color:
           {% if states('sensor.gft_waste_pickup_countdown')|int == 1 %}
            green
           {% elif states('sensor.paper_waste_pickup_countdown')|int == 1 %}
