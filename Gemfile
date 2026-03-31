@@ -1,9 +1,18 @@
-source 'https://rubygems.org' do
-  gem 'wdm', '>= 0.2.0'
-  gem "github-pages", group: :jekyll_plugins
-  gem 'jekyll-commonmark-ghpages'
-  gem 'jekyll-tagging'
-  gem "jekyll-last-modified-at", group: :jekyll_plugins
-end
+source "https://rubygems.org"
 
-gem "webrick", "~> 1.9.1"
+gem "jekyll", "~> 4.3"
+gem "jekyll-sass-converter", "~> 3.0"
+gem "kramdown", "~> 2.4"
+gem "kramdown-parser-gfm"
+gem "webrick"
+gem "csv"
+
+gem "jekyll-tagging", "~> 1.1", :require => "jekyll/tagging"
+gem "jekyll-last-modified-at", "~> 1.3"
+gem "jekyll-remote-theme", "~> 0.4"
+gem "jekyll-github-metadata", "~> 2.16"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"

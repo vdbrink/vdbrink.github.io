@@ -1,42 +1,61 @@
-# Site locale
+# Site settings
 lang: "en"
-
-remote_theme: pages-themes/architect@v0.2.0
-
 title: vd Brink Home Automations
 description: "Home automations: Home Assistant, ESPHome, Node-RED and more."
-url: https://vdbrink.github.io
+url: "https://vdbrink.github.io"
 
-google_analytics: G-WTTK5G664M
+defaults:
+  - scope:
+      path: "" # Alle bestanden in de root en submappen
+    values:
+      layout: "default"
 
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["UNSAFE", "SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
-# Tags
-tag_page_layout: tag_page
-tag_page_dir: tag
+# Layout settings (geen extra spaties vooraan!)
+layouts_dir: _layouts
+remote_theme: pages-themes/architect@v0.2.0
 
-# Use the following plug-ins
+# Markdown & Syntax
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Plugins (Let op de exacte naam van de tagging plugin)
 plugins:
   - jekyll-remote-theme
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll/tagging
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
   - webrick
   - jekyll-github-metadata
-# supported plugins https://pages.github.com/versions/
-#  - jekyll-last-modified-at
 
-# Exclude these files from your production _site
+tagging:
+  layout: default
+  dir: tags
+  permalink: /tag/:name/
+
+# Zorg dat dit blok helemaal aan het begin van een regel staat (0 spaties)
+sass:
+  quiet_deps: true
+  style: compressed
+
+last-modified-at:
+  date-format: 'last modified: %d/%b/%y'
+
+google_analytics: G-WTTK5G664M
+
+# Exclusies
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-
-last-modified-at:
-  date-format: 'last modified: %d/%b/%y'
+  - TODO.md
+  - preview.*
+  - .jekyll-cache
+  - _site
