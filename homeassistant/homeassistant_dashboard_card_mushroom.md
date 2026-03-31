@@ -29,7 +29,7 @@ Click on one of these icons below to go to the corresponding example code:
 <a href="#persons-count-in-a-specific-zone"><img src="images_mushroom/mushroom_zone_count.png" alt="mushroom chips" height="50px"></a>
 <a href="#door-open-custom-picture"><img src="images_mushroom/mushroom_door_open.png" alt="mushroom chips" height="50px"></a>
 
-The git repository of the Mushroom card is https://github.com/piitaya/lovelace-mushroom
+The git repository of the Mushroom card is [https://github.com/piitaya/lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom)
 
 Install the Mushroom card via this button\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
@@ -246,7 +246,7 @@ chips:
 
 #### Bigger icon
 
-<img src="images_mushroom/mushroom_bigger_icon.png" alt="mushroom chips" width="100px" style="float:left">
+<img src="images_mushroom/mushroom_bigger_icon.png" alt="mushroom chips" width="100px" style="float:left;margin-right:10px">
 
 &nbsp; Show the mushroom icon in a mush bigger size with the `card_mod` HACS integration, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a> for more info.
 
@@ -293,7 +293,7 @@ chips:
 
 #### Nice weather (only an icon)
 
-<img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50px" style="float:left">
+<img src="images_mushroom/mushroom_nice_outside.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px">
 
 &nbsp; Show (it only based on a condition) only a green icon, without any text, of a seat when the custom binary sensor `nice_outside` is `on` Otherwise this icon isn't visible.
 
@@ -318,7 +318,7 @@ chips:
 
 #### Temperature (custom icon)
 
-<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show a (outdoor/room/pool/etc) temperature.
+<img src="images_mushroom/mushroom_feels_like.png" alt="mushroom chip" width="100px" style="float:left;margin-right:10px"> &nbsp; Show a (outdoor/room/pool/etc) temperature.
 <br/><br/>
 
 ```yaml
@@ -335,7 +335,7 @@ chips:
 
 #### Temperature (colored icon and text)
 
-<img src="images_mushroom/mushroom_colored.png" alt="mushroom chip" height="50px" style="float:left"> &nbsp; Set the icon and text color based on the entity value.
+<img src="images_mushroom/mushroom_colored.png" alt="mushroom chip" height="50px" style="float:left;margin-right:10px"> &nbsp; Set the icon and text color based on the entity value.
  
 <br>
 
@@ -392,7 +392,7 @@ chips:
 ```
 
 #### Person status
-<img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show this icon only when I'm at home.
+<img src="images_mushroom/mushroom_home.png" alt="mushroom chip" width="100px" style="float:left;margin-right:10px"> &nbsp; Show this icon only when I'm at home.
 <br/><br/>
 
 ```yaml
@@ -417,7 +417,7 @@ chips:
 
 #### Persons count in a specific zone
 
-<img src="images_mushroom/mushroom_zone_count.png" alt="mushroom chip" height="50px" style="float:left"> &nbsp; 
+<img src="images_mushroom/mushroom_zone_count.png" alt="mushroom chip" height="50px" style="float:left;margin-right:10px"> &nbsp; 
 Show the number of persons which are currently this in the zone `home`.
 
 <br/>
@@ -435,7 +435,7 @@ chips:
 
 #### Door open (custom picture)
 
-<img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left"> &nbsp; Show a custom picture when the front door is open. Otherwise hide it.
+<img src="images_mushroom/mushroom_door_open.png" alt="mushroom chip" width="100px" style="float:left;margin-right:10px"> &nbsp; Show a custom picture when the front door is open. Otherwise hide it.
 <br/><br/>
 
 ```yaml
@@ -458,7 +458,7 @@ chips:
 
 ## More examples
 Looking for more examples? Check this link:
-* https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/
+* [https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/](https://smarthomescene.com/guides/mushroom-cards-part-2-room-layout-and-card-combinations/)
 
 ---
 
