@@ -327,6 +327,11 @@ Optional elements are:
 * [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) the upcoming hours
 * [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
 * [Camera stream](/homeassistant/homeassistant_frigate#show-live-rtsp-streams), only if [some is detected](homeassistant/homeassistant_frigate#front-door-detection-mode) at the front door
+* Mushrooms:
+    * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if today is bin day
+    * CO2 incorrect
+    * Rain amount fallen
+    * Nice to sit outside
 
 <br>
 
@@ -385,12 +390,17 @@ Optional elements are:
 <!-- third column -->
 <area
     shape="rect"
-    coords="460,0,700,140"
+    coords="460,0,700,135"
     href="/homeassistant/homeassistant_dashboard_weather_nl#weeronline"
     alt="weather forecast" />
 <area
     shape="rect"
-    coords="460,140,700,310"
+    coords="460,135,700,220"
+    href="/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-2"
+    alt="weather alarm" />
+<area
+    shape="rect"
+    coords="460,220,700,400"
     href="/homeassistant/homeassistant_dashboard_weather_nl#rain-radar-animated"
     alt="buienradar" />
 </map>
@@ -415,11 +425,11 @@ You need the boolean sensor [waste_tomorrow](#is-tomorrow-a-rash-bin-day) for th
       conditions:
         - entity: sensor.waste_tomorrow
           state: "true"
-     chip:
-       type: template
-       entity: sensor.cyclus_gft
-       icon: mdi:trash-can-outline
-       content: ""
+      chip:
+        type: template
+        entity: sensor.cyclus_gft
+        icon: mdi:trash-can-outline
+        content: ""
 {% endraw %}
 ```
 

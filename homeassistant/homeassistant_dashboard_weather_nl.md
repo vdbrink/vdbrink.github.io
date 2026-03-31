@@ -430,8 +430,13 @@ The text is also clickable to open the corresponding site with more info.
 ---
 ### Conditional weather alarm 2
 
+With this element I used a Mushroom card and based on the weather alarm the background color change to yellow, orange or red.
+
+This element is only visible when the weather code is not code green (unavailable).
+
 <img src="images_weather/weather_alarm_knmi_colored_background.png" alt="optional Weather alarm" width="400px">
 
+This is the corresponding code with a bigger font size:
 ```yaml
 {% raw %}
 type: conditional
