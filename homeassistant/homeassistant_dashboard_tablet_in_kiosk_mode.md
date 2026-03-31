@@ -412,7 +412,7 @@ For each condition you need a sensor with a boolean state, which is `true` when 
 
 This is how you can define a conditional **Mushroom** element.
 
-You need the boolean sensor [waste_tomorrow](#is-tomorrow-a-rash-bin-day) for this condition.
+You need the boolean sensor [waste_tomorrow](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day) for this condition.
 
 ```yaml
 {% raw %}
@@ -434,7 +434,7 @@ You need the boolean sensor [waste_tomorrow](#is-tomorrow-a-rash-bin-day) for th
 
 This is how you can define a conditional **camera stream** element.
 
-You need the boolean sensor `frontdoor_detection_mode` for this condition.
+You need the boolean sensor [frontdoor_detection_mode](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) for this condition.
 
 ```yaml
 {% raw %}
@@ -450,26 +450,6 @@ You need the boolean sensor `frontdoor_detection_mode` for this condition.
     url: rtsp://....
 {% endraw %}
 ```
-
-This is how you can define a conditional **camera stream** element.
-
-You need the boolean sensor `frontdoor_detection_mode` for this condition.
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-- type: conditional
-  conditions:
-      - condition: state
-        entity: input_boolean.frontdoor_detection_mode
-        state: "on"
-  card:
-    type: custom:webrtc-camera
-    url: rtsp://....
-{% endraw %}
-```
-
 
 ---
 
