@@ -33,6 +33,8 @@ This makes it easy to capture, store and resend the signal.
 
 Read further how you can create buttons on your **Home Assistant dashboard**, to control your infrared devices.
 
+> **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check [here](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
+
 <img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="400px">
 
 > **_NOTE:_** Also affiliate links are used on this page. You sponsor my work and still pay the original price. 
