@@ -1,4 +1,4 @@
----
+[---
 title: "Home Assistant dashboard: Mealie Recipe Manager"
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner]
@@ -60,7 +60,7 @@ With Mealie, it's possible to add recipes manually, but also import them via an 
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
 
-For more project information, check their website: https://docs.mealie.io/
+For more project information, check their website: [https://docs.mealie.io/](https://docs.mealie.io/)
 
 ---
 
@@ -134,7 +134,7 @@ services:
 
 It can also be installed as Hass.io Add-on direct in Home Assistant.
 
-Check this page for the installation details https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation
+Check this page for the installation details [https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation](https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation)
 
 Smart Home Junkie created a step-by-step video about the installation in HA.
 
