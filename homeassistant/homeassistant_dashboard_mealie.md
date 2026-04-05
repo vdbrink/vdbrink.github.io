@@ -1,9 +1,9 @@
-[---
+---
 title: "Home Assistant dashboard: Mealie Recipe Manager"
-category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner]
-date: 28-09-2025
 description: "How to install and integrate the recipe and meal planner Mealie into Home Assistant"
+category: Home Assistant
+date: 28-09-2025
+tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planner]
 image: /homeassistant/images_mealie/mealie1_ha_integration.png
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
