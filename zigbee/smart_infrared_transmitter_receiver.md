@@ -85,9 +85,16 @@ see my dedicated page about my [automated Christmas lights and decorations](/pro
 ### Learning mode
 
 There are multiple ways to set the device in learning mode to receive the IR codes: via the Zigbee2MQTT frontend, for example.\
-This device is also [compatible with ZHA](https://zigbee.blakadder.com/Moes_UFO-R11.html) then you can set it also via a messages on a MQTT topic to learning mode.
 
-#### Option 1: via Zigbee2MQTT
+#### Option 1: via ZHA
+
+This device is also [compatible with ZHA](https://zigbee.blakadder.com/Moes_UFO-R11.html).
+
+In this YouTube video is explained how to integrate the UFO-R11 with ZHA.
+
+[![IR blaster (UFO-R11) integration to Home Assistant with ZHA](http://img.youtube.com/vi/d1kkJpolE1w/0.jpg)](https://www.youtube.com/watch?v=d1kkJpolE1w "IR blaster (UFO-R11) integration to Home Assistant with ZHA")
+
+#### Option 2: via Zigbee2MQTT
 
 If the device is paired with Zigbee2MQTT, you can go to the frontend and in the `Exposes` tab you can enable the learning mode.\
 When you point the original remote to the device, and press a single button, the code will be visible in the second row.\
@@ -97,7 +104,7 @@ You can test the code by copy it to the input field and press the `Enter` key, t
 <img src="images_infrared/z2m_animation.gif" alt="learn IR codes in Z2M" width="400px" />
 </a>
 
-#### Option 2: via MQTT
+#### Option 3: via MQTT
 It's also possible via MQTT.
 
 To learn a new signal, set the device in learning mode by sending this payload to the MQTT topic of the device `zigbee2mqtt/irremote/set`
@@ -205,11 +212,11 @@ As mentioned in the introduction, there are a lot of devices that can be control
 Here are some links to products which all work via infrared, and can be controlled via the above-mentioned infrared transmitter / receiver.
 
 LEDS
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
 <a href="https://amzn.to/4fE8qsa#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/47x8F6s#ad" target="_blank">(Amazon DE)</a>
 
-  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="led light with remote control" width="200px" class="buy-link"/>
   </a>
 
@@ -244,11 +251,11 @@ Candles
     <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
   <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
   <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
 
-  <a href="https://s.click.aliexpress.com/e/_olyQMeH" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">
     <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
@@ -265,7 +272,6 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
 
 **Physical stores**
 
-* [The Dutch Action sells them also in their shops](https://www.action.com/nl-nl/p/3206761/ledkaarsenset/)
 * [The Dutch Hema sells 4 rechargeable tea lights with a remote](https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html)
   
   <a href="https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html">
