@@ -339,9 +339,9 @@ With this project, all these lights can now be automated as well!
 
 Wireless, battery-powered colored LED lights.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
 
-  <a href="https://s.click.aliexpress.com/e/_EIwZk97" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
   </a>
 

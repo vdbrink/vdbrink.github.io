@@ -17,7 +17,6 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Table of Contents](#table-of-contents)
   * [Time and date](#time-and-date)
   * [Inline time and date (Dutch format)](#inline-time-and-date-dutch-format)
   * [Date in Dutch format](#date-in-dutch-format)
@@ -35,9 +34,11 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 
 ## Time and date
 
+![time_date.png](images_date_time/time_date.png)
+
 Hugh time notation and a full date notation.
 
-![time_date.png](images_date_time/time_date.png)
+For the date a template is used, [sensor.date_only_formatted](#date-in-dutch-format)
 
 ```yaml
 {% raw %}
@@ -67,7 +68,9 @@ cards:
 ---
 ## Inline time and date (Dutch format)
 
-![Current date and time](images_date_time/date_time.png)
+![Current time and full date in Dutch](images_date_time/date_time.png)
+
+the current time and full date in Dutch notation.
 
 ```yaml
 {% raw %}
@@ -75,25 +78,26 @@ cards:
 # configuration.yaml
 - platform: template
   sensors:
-    time_formatted:
-      friendly_name: "Datum en tijd"
+    time_date_formatted:
+      friendly_name: "Tijd en datum"
       value_template: >-
         {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
         {% set day = days[now().weekday()] %}
         {% set day_short = day[0:2] %}
         {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
         {% set month = months[now().month - 1] %}
-        {{ now().strftime('%H:%M') + ', ' + day_short + ' ' + now().strftime('%d') + ' ' + month + ' ' + now().strftime('%Y') }}
+        {{ now().strftime('%H:%M') ~ ', ' ~ day_short ~ ' ' ~ now().day ~ ' ' ~ month ~ ' ' ~ now().strftime('%Y') }}
       icon_template: mdi:calendar-clock
 {% endraw %}
 ```
-
+<br>
+Now on the dashboard, this sensor can be use with this code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
 - type: entity
-  entity: sensor.time_formatted
+  entity: sensor.time_date_formatted
   name: ' '
 {% endraw %}
 ```
@@ -101,9 +105,9 @@ cards:
 ---
 ## Date in Dutch format
 
-The date formatted like this: `zo 04 januari 2026`.
+The date formatted like this: `zo 4 januari 2026`.
 
-If you replace `day_short` in the last template line for `day` the value will be `zondag 04 januari 2026`.
+>NOTE: If you replace `day_short` in the last template line for `day` the value will be `zondag 4 januari 2026`.
 
 ```yaml
 {% raw %}
@@ -119,7 +123,7 @@ If you replace `day_short` in the last template line for `day` the value will be
         {% set day_short = day[0:2] %}
         {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
         {% set month = months[now().month - 1] %}
-        {{ day_short + ' ' + now().strftime('%d') + ' ' + month + ' ' + now().strftime('%Y') + ' ' }}
+        {{ day_short ~ ' ' ~ now().day ~ ' ' ~ month ~ ' ' ~ now().strftime('%Y') }}
       icon_template: mdi:calendar-clock
 {% endraw %}
 ```
@@ -128,6 +132,8 @@ If you replace `day_short` in the last template line for `day` the value will be
 ## Current day of the week (Dutch format)
 
 <img src="images_date_time/day_of_the_week.png" alt="Day of the week" width="400px">
+
+Current day of the week in Dutch.
 
 ```yaml
 {% raw %}
@@ -143,24 +149,17 @@ If you replace `day_short` in the last template line for `day` the value will be
         {{ day }}
 {% endraw %}
 ```
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-- type: entity
-  entity: sensor.time_formatted
-  name: ' '
-{% endraw %}
-```
 
 ---
 ## Days count down
 
 <img src="images_date_time/days_countdown.png" alt="Days countdown" width="400px">
 
+Create a new countdown sensor based on an existing date sensor.
+
 ### Twente Milieu: format `YYYY-MM-DD`
-Countdown for the number of days until they pick up the paper waste. 
-The `Twente Milieu` integration creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD` 
+Countdown for the number of days until they pick up the paper waste.\
+For example, the `Twente Milieu` integration creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD` 
 
 With this template it gives the amount of days from now. 
 
@@ -318,7 +317,7 @@ The value 11.3 will round to 11 and also 11.6 will round to 11 hours.
 
 <img src="images_date_time/hours_countdown_secondary.png" alt="Last changed indication as secondary info" width="400px">
 
-The value on the right is the actual sensor value.
+Show the time when a sensor was triggered the last time and, the value on the right is the actual sensor value.
 
 ```yaml
 {% raw %}

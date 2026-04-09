@@ -13,12 +13,14 @@ Home Assistant has multiple ways to show you the dashboard.
 It has an Android native app which can be used on an Android tablet or phone, or you can browse to the frontend on any device with a browser.
 In all these scenarios, you see all Home Assistant side and top menu items, you can edit all screens and see the browser with its url.
 
-If you want to show only the content of a single dashboard, then you need to define this page in [Kiosk mode](#what-is-kiosk-mode).
+If you want to show only the content of a single dashboard in fullscreen, then you need to define this page in Kiosk mode.
+
+Here you can read how to configure this.
 
 <a href="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png">
 <img src="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Home Assistant dashboard in kiosk mode" width="100%">
 </a>
-<em>Example of a Home Assistant dashboard on a tablet.</em>
+<em>Example of a Home Assistant dashboard presented on a tablet.</em>
 
 ---
 ## Table of Contents
@@ -76,20 +78,21 @@ Use on your desktop and phone a different user to still show here all the defaul
 ### Hide top toolbar
 
 We want to hide this top menu by default.
+This can be achieved with the integration **kiosk-mode**.
 
 <img src="images_layout_stretch/hide_top_menu.png" alt="hide top menu" width="400px" />
-
-<br>
 
 Install the **kiosk-mode** integration via this button\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=NemesisRE&repository=kiosk-mode&category=integration)
 
-To set these properties, select the three dots in the top right and select `Raw configuration editor`.
+Once's installed some dashboard properties has to be set in the raw dashboard editor.
+
+To set these properties, select the three dots in the top right corner of the dashboard in edit-mode and select `Raw configuration editor`.
 
 <img src="images_layout_stretch/raw_config_editor.png" alt="Raw configuration editor" height="200px" />
 <img src="images_tablet_in_kiosk_mode/hide_header.png" alt="hide header in Home Assistant" height="200px" />
 
-See all possible configuration parameters at https://github.com/NemesisRE/kiosk-mode
+See all possible configuration parameters at [https://github.com/NemesisRE/kiosk-mode](https://github.com/NemesisRE/kiosk-mode)
 
 To hide the top bar, only define `hide_header: true` is enough.
 
@@ -106,7 +109,7 @@ views:
 
 <br>
 
-To show the top toolbar again to go to the edit mode, add `?disable_km=` to the url.
+To show the top toolbar again, add `?disable_km=` to the url.
 
 #### Swipe to other dashboard view
 
@@ -114,7 +117,7 @@ It's possible if you still want to swipe left/right to go to other defined views
 
 With the HACS integration `Swipe Navigation`
 
-Repo: https://github.com/zanna-37/hass-swipe-navigation
+Repo: [https://github.com/zanna-37/hass-swipe-navigation](https://github.com/zanna-37/hass-swipe-navigation)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
@@ -122,13 +125,13 @@ Install this integration via this button in your own HA instance
 ---
 ## Set a tablet in Kiosk mode
 
-You can just open a browser and go to the Home Assistant dashboard url and have this as dashboard.
+To show a dashboard on a tablet, you can open a browser and go to the Home Assistant dashboard url and have this as dashboard.
 The downside is that you lose a lot of space on your screen to the OS- and browser controls.
 Better is to show only the content of the page in fullscreen.
 
 ### Fullscreen browser
 
-Browser does also support kiosk mode by them self.
+Browsers does also support kiosk mode by them self.
 From a single website, you can create a (Progressive Web) App from every website which hides the browser menus and url.
 
 In Chrome, open the page you want to convert to a single app.
@@ -153,8 +156,8 @@ This app can also be cast to a TV!
 
 ### Android tablet
 
-For an Android tablet,
-the android app for this purpose which popup everywhere is [Fully Kiosk Browser](#configure-fully-kiosk-browser).
+If you want to show a page in fullscreen on an Android tablet,
+the app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can do this (and much more usefull things).
 
 There is a free version with a watermark and has limited functionality.
 For [&euro; 7,90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single pc license.
@@ -172,6 +175,8 @@ It's full of features, I use these:
 * Monitor the battery level:
   * Control a smart socket to load only the battery from 20 to 80%.
 
+<br>
+It has tons of more features! 
 [See here the full list of features.](https://www.fully-kiosk.com/en/#configuration)
 
 ### iOS iPad tablet
@@ -186,12 +191,11 @@ Do you have better ways for iOS? Please let me know!
 
 The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can be used to control the tablet from remote.
 
-<a href="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png">
-<img src="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png" alt="Fully Kiosk Browser trigger commands" height="200px" />
-</a>
-
 <a href="images_tablet_in_kiosk_mode/fully_remote_admin_settings.png">
 <img src="images_tablet_in_kiosk_mode/fully_remote_admin_settings.png" alt="Fully Kiosk Browser change settings" height="200px" />
+</a> &nbsp;
+<a href="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png">
+<img src="images_tablet_in_kiosk_mode/fully_remote_admin_commands.png" alt="Fully Kiosk Browser trigger commands" height="200px" style="text-align:left"/>
 </a>
 
 ### Enable remote admin
@@ -202,29 +206,45 @@ The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can 
 
 ### Auto screen on
 
-
+With the API GET call `http://192.168.1.x:2323/?cmd=screenOn&password=<password>`
+is it possible to turn the screen on.
 
 ### Auto screen off
 
-### Only charge when needed
+With the API GET call `http://192.168.1.x:2323/?cmd=screenOff&password=<password>`
+is it possible to turn the screen off.
+
+### Only charge tablet battery when needed
+
+I have a smart plug connected to my tablet.
+To avoid damaging the battery I only charge it when needed.
+If the battery level becomes lower than 15%, it will charge it until it's at least 80% and then turn the power off again.
+Now it's always charged with enough power, but not all day long charging.
+
+Fully Kiosk can push tablet and other Kiosk state data to the MQTT topic `fully/deviceInfo/<hash>` 
+one of those properties is `batteryLevel`, based on this value I trigger an automation to control the smart socket to charge the tablet.
 
 ---
 ## Create a tablet dashboard
 
+Before you start with your dashboard ask yourself the next questions:
 
 * Horizontal or vertical?
+* How many data do you want to show, what resolution do you need/have?
 * Two or three columns?
+* Do you want to show data conditional?
 * Which data do you want to show?
- * Date and time
- * Weather: current, forecast, alarms, temperatures, air pressure
- * Important house states: open doors, windows, CO2 levels, temperatures
- * Camera views
- * Calendar: Trash, birthdays, appointments
- * Latest news
-
-Check [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements) or
-[here](/homeassistant/homeassistant_dashboard_examples_overview)
+  * Date and time
+  * Weather: current, forecast, alarms, temperatures, air pressure
+  * Important house states: open doors, windows, CO2 levels, temperatures
+  * Camera views
+  * Calendar: Trash, birthdays, appointments
+  * Latest news
+<br>
+Check [here](/homeassistant/homeassistant_dashboard_examples_overview) or [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements)
 for copy-paste examples in these categories.
+
+Or continue to see also more examples.
 
 ---
 ### What's on my dashboard
@@ -232,15 +252,10 @@ for copy-paste examples in these categories.
 #### Basic elements
 
 This screenshot is an interactive, clickable image of my dashboard.
-You can select a dashboard element and you get redirected to the card details.
+You can click on a dashboard element and you get redirected to the card details.
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
-<script>
-$(function() {
-    $('.maparea').maphilight();
-});
-</script>
 
 <map name="my-dashboard">
   <area
@@ -451,3 +466,9 @@ You need the boolean sensor [frontdoor_detection_mode](/homeassistant/homeassist
 ---
 
 See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
+
+<script>
+$(function() {
+    $('.maparea').maphilight();
+});
+</script>

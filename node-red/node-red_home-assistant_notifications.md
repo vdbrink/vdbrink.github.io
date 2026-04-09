@@ -67,7 +67,7 @@ Good luck!
 ---
 
 ## References
-* https://developers.home-assistant.io/docs/api/native-app-integration/notifications
+* [https://developers.home-assistant.io/docs/api/native-app-integration/notifications](https://developers.home-assistant.io/docs/api/native-app-integration/notifications)
 
 ---
 

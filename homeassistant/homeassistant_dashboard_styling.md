@@ -103,7 +103,7 @@ entities:
 
 <img src="images_hacs/hacs_template-entity-row.png" alt="template-entity-row" width="400px">
 
-Repo: https://github.com/thomasloven/lovelace-template-entity-row
+Repo: [https://github.com/thomasloven/lovelace-template-entity-row](https://github.com/thomasloven/lovelace-template-entity-row)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)

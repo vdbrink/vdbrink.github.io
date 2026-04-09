@@ -273,7 +273,7 @@ tap_action:
 {% endraw %}
 ```
 
-See also https://www.home-assistant.io/dashboards/actions/ for all info.
+See also [https://www.home-assistant.io/dashboards/actions/](https://www.home-assistant.io/dashboards/actions/) for all info.
 
 ---
 ### Rotations

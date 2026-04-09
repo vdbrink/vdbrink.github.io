@@ -30,7 +30,7 @@ which result in faster loading of the websites.
 <img src="images/stats.png" alt="blocked items" width="100%" />
 </a>
 
-Website: https://pi-hole.net/
+Website: [https://pi-hole.net/](https://pi-hole.net/)
 
 ---
 

@@ -299,7 +299,7 @@ If you want to read all about the remote possibilities, I placed a link to the D
   * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network, but if it has the same name, he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
   <img src="orcon_images/flash_esphome_with_ip.jpg" alt="IP failed" height="300px"/>
 * Make sure you see a "SUCCESS" message in the SUMMARY after flashing and not any red error messages.
-  * Maybe the indenting is not correct. YAML is strict with a correct indenting. You can try https://www.yamllint.com/ to validate. 
+  * Maybe the indenting is not correct. YAML is strict with a correct indenting. You can try [https://www.yamllint.com](https://www.yamllint.com) to validate. 
 
 ---
 ## Register the remote to the ventilation system

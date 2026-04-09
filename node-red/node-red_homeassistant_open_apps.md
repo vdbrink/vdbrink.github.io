@@ -133,9 +133,9 @@ This is the prefix `homeassistant://navigate/` and the rest of the command is th
 
 ## References
 
-* https://companion.home-assistant.io/docs/integrations/app-events/
-* https://zachowj.github.io/node-red-contrib-home-assistant-websocket/guide/
-* https://zachowj.github.io/node-red-contrib-home-assistant-websocket/cookbook/actionable-notifications-subflow-for-android.html
+* [https://companion.home-assistant.io/docs/integrations/app-events/](https://companion.home-assistant.io/docs/integrations/app-events/)
+* [https://zachowj.github.io/node-red-contrib-home-assistant-websocket/guide/](https://zachowj.github.io/node-red-contrib-home-assistant-websocket/guide/)
+* [https://zachowj.github.io/node-red-contrib-home-assistant-websocket/cookbook/actionable-notifications-subflow-for-android.html](https://zachowj.github.io/node-red-contrib-home-assistant-websocket/cookbook/actionable-notifications-subflow-for-android.html)
 
 Enjoy automations!
 

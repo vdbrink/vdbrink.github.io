@@ -683,7 +683,7 @@ I found some alternative package boxes:
 * [Logixbox Multibox-S](https://www.logixbox.nl/pakjes-brievenbus-multibox-s.html)
 
 Do you have another interesting package box [share it with me](#remarks-or-suggestions)
-or share it public on the Dutch Tweakers forum in this thread https://gathering.tweakers.net/forum/list_messages/1663741
+or share it public on the Dutch Tweakers forum in this thread [https://gathering.tweakers.net/forum/list_messages/1663741](https://gathering.tweakers.net/forum/list_messages/1663741)
 
 ---
 

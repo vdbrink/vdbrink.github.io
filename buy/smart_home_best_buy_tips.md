@@ -1057,7 +1057,7 @@ Very useful for closets or stairs where no power is available.
 <a href="https://amzn.to/42zFj4t#ad" target="_blank">(Amazon US)</a>
 
 <br>
-
+<!--
 ### Automatic soap dispenser 
 
 With this automatic soap dispenser, you can wash your hands much quicker and without touching the soap dispenser! 
@@ -1078,7 +1078,7 @@ I have multiple once around the house in use.
 <a href="https://amzn.to/46IqsFS#ad" target="_blank">(Amazon US)</a>
 
 <br>
-
+-->
 ---
 
 <br><br>

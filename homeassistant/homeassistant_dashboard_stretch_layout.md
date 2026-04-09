@@ -756,12 +756,9 @@ cards:
 
 ### Flexible Horseshoe card
 
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
+This card need extended settings.
 
-{% endraw %}
-```
+See the repo page [https://github.com/AmoebeLabs/flex-horseshoe-card](https://github.com/AmoebeLabs/flex-horseshoe-card?tab=readme-ov-file#a-basic-example) for all possible details.
 
 ---
 

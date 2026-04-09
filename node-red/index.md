@@ -24,7 +24,7 @@ I use it for all my automations.
 
 I use this tool for a few years and created 100+ automations from all different types and there is no automation I couldn't create with it!
 
-For more information, check the website: https://nodered.org
+For more information, check the website: [https://nodered.org](https://nodered.org)
 
 ---
 

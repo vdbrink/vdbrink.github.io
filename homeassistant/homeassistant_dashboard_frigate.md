@@ -15,7 +15,7 @@ It can detect and store a snapshot and a video clip when it detects presence.
 
 On this page, you can find how to add this data on your dashboard.
 
-Website: https://frigate.video/
+Website: [https://frigate.video/](https://frigate.video/)
 
 ---
 ## Table of Contents
@@ -33,7 +33,7 @@ Website: https://frigate.video/
 
 You can add a direct livestream based on the rtsp url with the custom HACS integration WebRTC.
 
-Repo: https://github.com/AlexxIT/WebRTC \
+Repo: [https://github.com/AlexxIT/WebRTC](https://github.com/AlexxIT/WebRTC) \
 There are a lot of possible settings possible, check this site for them.
 
 Install this integration via this button in your own HA instance
@@ -57,7 +57,7 @@ Frigate provides for each event a MP4 movie via the api.
 With some HTML you can include the video on your dashboard.
 This doesn't work with the default Markdown integration, but it works with the custom HACS integration `Lovelace HTML card`.
 
-Repo: https://github.com/PiotrMachowski/lovelace-html-card
+Repo: [https://github.com/PiotrMachowski/lovelace-html-card](https://github.com/PiotrMachowski/lovelace-html-card)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PiotrMachowski&repository=lovelace-html-card&category=integration)

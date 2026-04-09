@@ -11,7 +11,7 @@ image: /homeassistant/images/system_monitor.png
 
 Here you find a Home Assistant (lovelace) dashboard to monitor your server hardware.
 
-Git repository: https://github.com/Sennevds/system_sensors
+Git repository: [https://github.com/Sennevds/system_sensors](https://github.com/Sennevds/system_sensors)
 
 ---
 

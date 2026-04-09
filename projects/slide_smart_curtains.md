@@ -25,9 +25,7 @@ After a few months after buying the product, unfortunately, the company (Innovat
 
 Luckily, another company, Robb Shop, took over the production, website and support and continues with this great product! Hopefully they can keep this product alive.
 
-It's now in [pre-order available](https://www.robbshop.nl/pre-order-slide-slim-gordijnsysteem-wifi) Delivery will be probably in June because a new batch needs to be made.
-
-The product website: https://slide.store
+The product website: [https://slide.store](https://slide.store)
 
 > **_NOTE:_** No affiliate links to this product, I'm just a happy user!
 
@@ -61,8 +59,7 @@ The Slide Pro has the following functionalities:
 
 <br>
 
-See for all specifications the Dutch pre-order site: https://www.robbshop.nl/pre-order-slide-slim-gordijnsysteem-wifi
-The current orders are delivered around June.
+See for all specifications the Dutch order site: [https://www.robbshop.nl/pre-order-slide-slim-gordijnsysteem-wifi](https://www.robbshop.nl/pre-order-slide-slim-gordijnsysteem-wifi)
 
 ---
 
@@ -135,7 +132,7 @@ You can toggle the type on the bottom of the popup.
 <a href="images_slide_curtain/slide_controls_2.png"><img src="images_slide_curtain/slide_controls_2.png" alt="button control" height="350px" ></a>
 
 
-The HA integration page: https://www.home-assistant.io/integrations/slide_local/
+The HA integration page: [https://www.home-assistant.io/integrations/slide_local/](https://www.home-assistant.io/integrations/slide_local/)
 
 ---
 

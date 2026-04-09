@@ -44,7 +44,7 @@ Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
 
 ![Neerslag App](https://github.com/aex351/home-assistant-neerslag-app/raw/main/documentation/example.png)
 
-Repo: https://github.com/aex351/home-assistant-neerslag-app
+Repo: [https://github.com/aex351/home-assistant-neerslag-app](https://github.com/aex351/home-assistant-neerslag-app)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
@@ -233,7 +233,7 @@ Add a Generic camera integration:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=generic)
 
-Use the url https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
+Use the url [https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg](https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg)
 It's this marker
 ![marker_home.svg](images_weather/marker_home.svg)
 
@@ -261,7 +261,7 @@ elements:
 ##### Via a local image
 
 You can also use the image as a local image.\
-Download the file https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg
+Download the file [https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg](https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg)
 and place if in your local Home Assistant `/www/` directory.\
 And use this script:
 
@@ -430,7 +430,7 @@ The text is also clickable to open the corresponding site with more info.
 ---
 ### Conditional weather alarm 2
 
-With this element I used a Mushroom card and based on the weather alarm the background color change to yellow, orange or red.
+With this element I used a [Mushroom card](/homeassistant/homeassistant_dashboard_card_mushroom#title-card), [card_mod](/homeassistant/homeassistant_dashboard_hacs#card-mod-3-lovelace-card-mod) and based on the weather alarm the background color set to green, yellow, orange or red.
 
 This element is only visible when the weather code is not code green (unavailable).
 

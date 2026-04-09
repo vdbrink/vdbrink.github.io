@@ -20,7 +20,7 @@ This *Scrape* integration is by default available in Home Assistant.
 
 <img src="images_web_scraper/ha_webscraper.png" alt="Home Assistant webscraper" width="400px">
 
-The official info page: https://www.home-assistant.io/integrations/scrape/
+The official info page: [https://www.home-assistant.io/integrations/scrape/](https://www.home-assistant.io/integrations/scrape/)
 
 On this page I use, as example, the actual dynamic gas price (from a specific provider) and show this on my dashboard.
 
