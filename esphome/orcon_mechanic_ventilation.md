@@ -19,7 +19,7 @@ I know there are many more people like me struggling to get this automated.
 
 On this page, you can read all about how you can set it up yourself.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see all compatible Orcon systems >></b></summary>
 
 Because the Orcon remote 15RF is compatible with a lot of Orcon ventilation models, this solution will work if you have one of these models: 
@@ -173,7 +173,7 @@ Install ESPHome and compile the configuration code after you configured your own
 
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the ESPHome configuration file >></b></summary>
 
 ```yaml
@@ -456,7 +456,7 @@ After that, go to: Home Assistant -> Dashboard -> Edit -> Add Card -> Entities
 To act on a button press, I created for each mode a script which triggers the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 
 I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise, this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding scripts.yaml code >></b></summary>
 
 ```yaml
@@ -544,7 +544,7 @@ This design uses the six created helper toggles which operate as buttons, and th
 
 ![Home Assistant buttons](orcon_images/home_assistant_orcon_remote_d1.jpg)
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the service scripts YAML >></b></summary>
 
 ```yaml
@@ -623,7 +623,7 @@ This black panel design is created with a `picture-element` with a black backgro
 ![Black panel](orcon_images/home_assistant_orcon_remote_d2.jpg)
 
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
 
 You have to place the [background image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
@@ -733,7 +733,7 @@ In this design, you can't see the current mode.
 To use this image on your dashboard, you have to place the [remote panel photo](orcon_files/orcon_15rf_remote.jpg) and a [black square image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 The black square is a placeholder to define an area to click.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
 
 ```yaml
@@ -854,7 +854,7 @@ elements:
 <img src="orcon_images/gauges.jpg" alt="Temperatures and humidity gauges" width="250px">
 
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard gauge YAML >></b></summary>
 
 ```yaml

@@ -268,7 +268,7 @@ I also send a notification to the phones and speaker in the living room when a p
 This is how my Node-RED flow looks like.
 <img src="images_allux-600/node-red_allux_600.png" alt="Node-RED package box automation flows"/>
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding Node-RED flow code >></b></summary>
 
 ```json

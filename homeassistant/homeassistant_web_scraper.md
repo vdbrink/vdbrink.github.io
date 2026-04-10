@@ -79,7 +79,7 @@ To test if the scraper works in Home Assistant we use the evaluation page <a hre
 
 It is possible you get an `errors`, then try the manual option.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the manual option</b></summary>
 
 * Go with your browser to the website, in this case https://callmepower.be/nl/energie/gids/tarief/prijs-gas

@@ -24,7 +24,7 @@ And still works with Mealie `3.13.1` and Home Assistant `2026.3.3` (March 2026).
 ---
 ## Table of Contents
 <!-- TOC -->
-  * [Intro](#introduction)
+  * [Introduction](#introduction)
   * [Functionalities](#functionalities)
   * [Installation](#installation)
     * [Docker](#docker)
@@ -43,6 +43,7 @@ And still works with Mealie `3.13.1` and Home Assistant `2026.3.3` (March 2026).
       * [Markdown element](#markdown-element)
   * [Out of the freezer the evening before](#out-of-the-freezer-the-evening-before)
   * [Bookmark for direct import](#bookmark-for-direct-import)
+  * [Ollama integration](#ollama-integration)
   * [FAQ](#faq)
 <!-- TOC -->
 
@@ -428,8 +429,8 @@ card_mod:
         }
 {% endraw %}
 ```
-
-<details>
+<br>
+<details markdown="1">
   <summary><b>> Click here to open the extended Markdown version with clickable text to go to your Mealie page >></b></summary>
 <br>
 This extended version makes it possible to click on the menu text and go to the Mealie page.
@@ -559,7 +560,7 @@ Go to a recipe web page and click on the Bookmarklet, now this recipe will be im
 
 ---
 
-## Ollama integration  
+## Ollama integration
 
 With the OpenAI/Ollama integration, you can activate the feature to upload recipe image and extract the data into a new recipe.
 

@@ -112,7 +112,7 @@ Before I automated it, there were a lot of manual actions I had to deal with.
 I, as a home automation geek, I was (previous year) looking for solutions and found them for all my decorations and lights!
 Read along how I did that.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to read the situation before I automated it >></b></summary>
 
 For example, my biggest **Christmas tree** lights have two light strings, and each has a power socket with a button which controls seven different flash modes. 

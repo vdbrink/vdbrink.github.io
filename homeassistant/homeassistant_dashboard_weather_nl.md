@@ -224,7 +224,7 @@ elements:
 
 Instead of an online file, it's also possible to use a camera entity or download the file locally.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the other examples with: camera entity / local file >></b></summary>
 
 ##### Via a camera image

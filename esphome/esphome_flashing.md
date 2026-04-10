@@ -21,7 +21,7 @@ The sensor also automatically registers itself to Home Assistant (or sends its d
 
 
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see an example how an ESPHome config file looks like: >></b></summary>
 
 ```yaml

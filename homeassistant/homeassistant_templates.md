@@ -559,6 +559,8 @@ template:
 {% endraw %}
 ```
 
+See [here](#trash-bin-day-countdown) how to create the `*_waste_pickup_countdown` sensors.
+
 ---
 ### Minutes since mail is delivered
 

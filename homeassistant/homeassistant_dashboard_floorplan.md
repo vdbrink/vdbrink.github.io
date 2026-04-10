@@ -354,7 +354,7 @@ The `tap_action` is here disabled.
 You can also choose to control the switch by clicking on the icon.
 
 Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X.
-<details>
+<details markdown="1">
   <summary><b>> Click here to see an example of a binary helper sensor >></b></summary>
 
 ```yaml

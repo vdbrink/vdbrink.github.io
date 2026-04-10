@@ -50,7 +50,7 @@ Example: Show all temperature entities, sorted on temperature, round on no decim
 
 <img src="images_autoentities/temp_round_sorted_color-autoentities.png" alt="Temperatures rounded, sorted and colored" width="400px">
 
-Repo: https://github.com/thomasloven/lovelace-auto-entities
+Repo: [https://github.com/thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
@@ -107,7 +107,7 @@ Examples:
 <img src="images_mushroom/mushroom_co2.png" height="50px"  alt="mushroom examples"/> 
 <img src="images_mushroom/mushroom_home.png" height="50px"  alt="mushroom examples"/> 
 
-Repo: https://github.com/piitaya/lovelace-mushroom
+Repo: [https://github.com/piitaya/lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
@@ -127,7 +127,7 @@ Example: Colored icon based on entity state.
 
 I have a [styling page](homeassistant_dashboard_styling) with multiple examples based on this custom element.
 
-Repo: https://github.com/thomasloven/lovelace-card-mod
+Repo: [https://github.com/thomasloven/lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
@@ -169,7 +169,7 @@ entities:
 Add a slider for brightness, volume, cover position, speed, number, etc.
 
 ![slider-entity-row](images_hacs/hacs_slider-entity-row.png)
-Repo: https://github.com/thomasloven/lovelace-slider-entity-row
+Repo: [https://github.com/thomasloven/lovelace-slider-entity-row](https://github.com/thomasloven/lovelace-slider-entity-row)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
@@ -191,7 +191,7 @@ Place multiple entities compact together on a single row.
 
 ![multiple-entity-row](https://raw.githubusercontent.com/benct/lovelace-multiple-entity-row/master/example.png)
 
-Repo: https://github.com/benct/lovelace-multiple-entity-row
+Repo: [https://github.com/benct/lovelace-multiple-entity-row](https://github.com/benct/lovelace-multiple-entity-row)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
@@ -205,7 +205,7 @@ In this example, a rounded temperature with a colored, based on the temperature,
 
 <img src="images_hacs/hacs_template-entity-row.png" alt="template-entity-row" width="400px">
 
-Repo: https://github.com/thomasloven/lovelace-template-entity-row
+Repo: [https://github.com/thomasloven/lovelace-template-entity-row](https://github.com/thomasloven/lovelace-template-entity-row)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-template-entity-row&category=integration)
@@ -249,7 +249,7 @@ A Google calendar overview.
 
 <img src="images_hacs/hacs_atomic-calendar-revive.png" alt="Atomic Calendar Revive" width="400px">
 
-Repo: https://github.com/totaldebug/atomic-calendar-revive#about-the-project
+Repo: [https://github.com/totaldebug/atomic-calendar-revive#about-the-project](https://github.com/totaldebug/atomic-calendar-revive#about-the-project)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=totaldebug&repository=atomic-calendar-revive&category=integration)
@@ -261,7 +261,7 @@ A birthday and wedding day overview.
 
 <img src="https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card/raw/master/birthday-card.png" alt="birthday-reminder-card" width="400px">
 
-Repo: https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card
+Repo: [https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card](https://github.com/erlsta/homeassistant-lovelace-birthday-reminder-card)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=vdbrink&repository=homeassistant-lovelace-birthday-reminder-card&category=Plugin)
@@ -286,7 +286,7 @@ A clock and weather forecast in one card.
 
 <img src="images_hacs/clock-weather-card.gif" alt="Clock Weather Card" width="400px">
 
-Repo: https://github.com/pkissling/clock-weather-card
+Repo: [https://github.com/pkissling/clock-weather-card](https://github.com/pkissling/clock-weather-card)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
@@ -322,7 +322,7 @@ Current weather conditions and the predictions for the coming days.
 
 ![Lovelace animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
 
-Repo: https://github.com/bramkragten/weather-card
+Repo: [https://github.com/bramkragten/weather-card](https://github.com/bramkragten/weather-card)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
@@ -348,7 +348,7 @@ Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
 
 ![Neerslag App](https://github.com/aex351/home-assistant-neerslag-app/raw/main/documentation/example.png)
 
-Repo: https://github.com/aex351/home-assistant-neerslag-app
+Repo: [https://github.com/aex351/home-assistant-neerslag-app](https://github.com/aex351/home-assistant-neerslag-app)
 
 Install this integration via this button in your own HA instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)

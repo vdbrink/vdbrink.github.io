@@ -194,7 +194,7 @@ Install the integration via this button:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
@@ -314,7 +314,7 @@ Install this integration via this button in your own HA instance:
 
 #### Dashboard code
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
@@ -396,7 +396,7 @@ Show a clickable link to the Kleenex website, the entities with matching colors 
 <img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex advanced presentation" width="400px">
 </a>
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
@@ -547,7 +547,7 @@ I filtered from the tree attributes the values from the `Hazelaar` (Hazel) and `
 <img src="images_kleenex/attribute_tree_data_tile.jpg" alt="subtype data" width="400px">
 </a>
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
@@ -652,7 +652,7 @@ Click this button to install the ApexCharts Card:
 <img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="kleenex advanced presentation" width="400px">
 </a>
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml
@@ -752,7 +752,7 @@ I created a table, based on a Markdown Card, with all tree data for today.
 <img src="images_kleenex/attribute_tree_data_table.jpg" alt="kleenex table presentation" width="400px">
 </a>
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
 
 ```yaml

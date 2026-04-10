@@ -231,7 +231,7 @@ Before you start with your dashboard ask yourself the next questions:
 
 * Horizontal or vertical?
 * How many data do you want to show, what resolution do you need/have?
-* Two or three columns?
+* Two, three, more columns?
 * Do you want to show data conditional?
 * Which data do you want to show?
   * Date and time
@@ -243,7 +243,7 @@ Before you start with your dashboard ask yourself the next questions:
 <br>
 Check [here](/homeassistant/homeassistant_dashboard_examples_overview) or [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements)
 for copy-paste examples in these categories.
-
+<br>
 Or continue to see also more examples.
 
 ---
@@ -335,13 +335,16 @@ On my dashboard I also have elements which are by default hidden and only visibl
 
 Optional elements are:
 * [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) the upcoming hours
+* [Countdown for trash can days](/homeassistant/homeassistant_hacs_afvalbeheer)
 * [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
 * [Camera stream](/homeassistant/homeassistant_dashboard_frigate#show-live-rtsp-streams), only if [someone is detected](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) at the front door
+* [Upcoming birthdays](/homeassistant/homeassistant_dashboard_hacs#birthday-reminder-card), only if some has it's birthday with in X days
 * Mushrooms:
     * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [tomorrow is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
-    * CO2 incorrect
-    * Rain amount fallen
-    * Nice to sit outside
+    * [CO2 level](/esphome/co2_scd40#dashboard-graphic-with-levels), if it's too high
+    * Rain amount fallen, if there is any rain fallen today
+    * Is it nice to sit outside?, based on many [outdoor weather station sensor values](/buy/zigbee_outdoor#weather-stations) (temperature, humidity, wind, UV index)
+    * Text if there must be meat or fish out of the fridge for the dish of tomorrow, based on the [meal planner](), only show after 21.00
 
 <br>
 
@@ -419,11 +422,13 @@ Optional elements are:
 
 ##### YAML how to make elements conditional
 
-For each condition you need a sensor with a boolean state, which is `true` when the element should be visible and `false` when it should be hidden. If this doesn't exist yet, you can create this with a template binary sensor. I have a page with many examples of how to create these sensors: [Home Assistant templates](/homeassistant/homeassistant_templates).
+For each condition you need a sensor with a state you can toggle on when the element should be visible. 
+If this doesn't exist yet, you can create this with a template sensor. 
+I have a page with many examples of how to create these sensors: [Home Assistant templates](/homeassistant/homeassistant_templates).
 
-This is how you can define a conditional **Mushroom** element.
+This is how you can define a conditional **Mushroom** element to show only the large bin icon when tomorrow is a bin day.
 
-You need the boolean sensor [waste_tomorrow](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day) for this condition.
+You need to have the boolean sensor [waste_tomorrow](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day) created for this condition.
 
 ```yaml
 {% raw %}
@@ -444,9 +449,10 @@ You need the boolean sensor [waste_tomorrow](/homeassistant/homeassistant_templa
 ```
 <br>
 
-This is how you can define a conditional **camera stream** element.
+This is how you can define a conditional **camera stream** element to show only the live stream feed if an extra helper sensor is set to state "on".
+This can be set manually with a toggle on the dashboard (to activate if you expect someone) or activate when someone is detected on the camera.
 
-You need the boolean sensor [frontdoor_detection_mode](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) for this condition.
+You need the boolean helper sensor [frontdoor_detection_mode](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) for this condition.
 
 ```yaml
 {% raw %}
@@ -463,9 +469,12 @@ You need the boolean sensor [frontdoor_detection_mode](/homeassistant/homeassist
 {% endraw %}
 ```
 
+See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
+
 ---
 
-See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
+I hope these elements also useful for you!
+Any tips or suggestions are always welcome.
 
 <script>
 $(function() {

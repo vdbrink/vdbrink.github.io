@@ -136,7 +136,7 @@ Install this integration via this button in your own HA instance
 This is all the YAML code you need in your horizontal stack card.\
 It contains the layout and the four cards.
 
-<details>
+<details markdown="1">
   <summary><b>> Click here to see all the required YAML code >></b></summary>
 
 ```yaml
