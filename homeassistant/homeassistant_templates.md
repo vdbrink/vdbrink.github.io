@@ -30,6 +30,7 @@ This new sensor can have a textual output or a boolean value true/false.
   * [Template examples](#template-examples)
     * [Is it a specific day in the year?](#is-it-a-specific-day-in-the-year)
     * [Count the number of lights on](#count-the-number-of-lights-on)
+    * [Count the number of open windows](#count-the-number-of-open-windows)
     * [Calculate temperature differences](#calculate-temperature-differences)
     * [Unavailable devices](#unavailable-devices)
     * [Low battery](#low-battery)
@@ -246,6 +247,26 @@ template:
         unit_of_measurement: "lights"
         state: >
           {{ states.light | rejectattr('attributes.entity_id', 'defined') | selectattr('state', 'eq', 'on') | list | count }}
+{% endraw %}
+```
+
+---
+### Count the number of open windows
+
+Similar to the previous one, count the number of still open windows.
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+template:
+  - sensor:
+      - name: "# open windows"
+        unique_id: count_windows_open
+        icon: "{{ 'mdi:window-open-variant' }}"
+        unit_of_measurement: "windows"
+        state: >
+          {{ states.binary_sensor | selectattr('attributes.device_class', 'eq', 'window') | selectattr('state', 'eq', 'on') | list | count }}
 {% endraw %}
 ```
 

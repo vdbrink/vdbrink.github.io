@@ -342,9 +342,11 @@ Optional elements are:
 * Mushrooms:
     * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [tomorrow is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
     * [CO2 level](/esphome/co2_scd40#dashboard-graphic-with-levels), if it's too high
+    * [Amount of open windows](/homeassistant/homeassistant_templates#count-the-number-of-open-windows)
+    * [water/leak detected!](/homeassistant/homeassistant_templates#diy-sink-leak-status)
     * Rain amount fallen, if there is any rain fallen today
     * Is it nice to sit outside?, based on many [outdoor weather station sensor values](/buy/zigbee_outdoor#weather-stations) (temperature, humidity, wind, UV index)
-    * Text if there must be meat or fish out of the fridge for the dish of tomorrow, based on the [meal planner](), only show after 21.00
+    * Text if there must be meat or fish out of the freezer for the dish of tomorrow, based on the [meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before), only show after 21.00
 
 <br>
 
