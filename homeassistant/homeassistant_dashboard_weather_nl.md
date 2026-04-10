@@ -288,6 +288,27 @@ elements:
 
 ### Weeronline
 
+Via the link [https://www.weeronline.nl/widgets](https://www.weeronline.nl/widgets) you can select multiple widgets and the corresponding city.
+These widgets can be include via an iframe on your dashboard.
+
+#### 3 days weather predictions
+
+Three days weather predictions.
+
+<img src="images_weather/weeronline_3days.png" alt="Weeronline 3 days weather" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: iframe
+url: https://www.weeronline.nl/widget/weather?id=4058458
+aspect_ratio: "1.7"
+{% endraw %}
+```
+
+#### Rain Radar
+
 An animated image of 2 hours prediction of the rain in steps of 5 minutes.
 
 <img src="images_weather/rain_radar_animated.png" alt="Rain radar animated" width="400px">
@@ -301,6 +322,7 @@ url: https://www.weeronline.nl/widget/radar?id=135
 aspect_ratio: '1.06'
 {% endraw %}
 ```
+
 ---
 
 ## Weather alarm map
