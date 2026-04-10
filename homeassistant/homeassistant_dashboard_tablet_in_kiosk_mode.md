@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: on a tablet in Kiosk mode"
 description: "Guide how to show your Home Assistant dashboard on a tablet in kiosk mode with Fully Kiosk Browser"
 category: Home Assistant
 tags: [Home Assistant, dashboard, tablet, fullscreen, app, kiosk, Fully Kiosk Browser]
+image: /homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png
 ---
 
 # Home Assistant dashboard:<br>on a tablet in Kiosk mode
