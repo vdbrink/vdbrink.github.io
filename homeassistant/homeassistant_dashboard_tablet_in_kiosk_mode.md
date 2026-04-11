@@ -344,6 +344,8 @@ Optional elements are:
     * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [tomorrow is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
     * [CO2 level](/esphome/co2_scd40#dashboard-graphic-with-levels), if it's too high
     * [Amount of open windows](/homeassistant/homeassistant_templates#count-the-number-of-open-windows)
+    * [Package delivered](/projects/packages-mailbox-allux-600) in my package box
+    * [Mail delivered](/projects/smart_mailbox), in the [last 30 minutes](/homeassistant/homeassistant_templates#mail-delivered-in-the-last-30-minutes)
     * [water/leak detected!](/homeassistant/homeassistant_templates#diy-sink-leak-status)
     * Rain amount fallen, if there is any rain fallen today
     * Is it nice to sit outside?, based on many [outdoor weather station sensor values](/buy/zigbee_outdoor#weather-stations) (temperature, humidity, wind, UV index)

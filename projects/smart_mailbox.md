@@ -304,7 +304,7 @@ The custom sensor template:
 {% endraw %}
 ```
 
-The dashboard condition:
+The dashboard condition [binary_sensor.mailbox_recently_changed](/homeassistant/homeassistant_templates#mail-delivered-in-the-last-30-minutes):
 ```yaml
 {% raw %}
 type: entities

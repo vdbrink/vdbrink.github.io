@@ -42,6 +42,7 @@ This new sensor can have a textual output or a boolean value true/false.
       * [Trash bin day countdown](#trash-bin-day-countdown)
       * [Is tomorrow a trash bin day](#is-tomorrow-a-trash-bin-day)
     * [Minutes since mail is delivered](#minutes-since-mail-is-delivered)
+    * [Mail delivered in the last 30 minutes](#mail-delivered-in-the-last-30-minutes)
     * [What to wear outside](#what-to-wear-outside)
     * [Calculate daylight brightness percentage](#calculate-daylight-brightness-percentage)
     * [Daylight brightness to opacity](#daylight-brightness-to-opacity)
@@ -595,13 +596,34 @@ Minutes since the snail mail is delivered.
 # configuration.yaml
 template:
   - sensor:
-      - name: "Mail Delivered"
+      - name: "Mail delivered"
         unique_id: sensor_mail_delivered
         state: >
           {% set mailbox_datetime = states.binary_sensor.contact2_contact.last_changed %}
           {{ (now() - mailbox_datetime).total_seconds() // 60  }}
         icon: mdi:mailbox
         unit_of_measurement: minutes
+{% endraw %}
+```
+
+---
+### Mail delivered in the last 30 minutes
+
+Boolean sensor `binary_sensor.mailbox_recently_changed` to indicate in the last 30 minutes mail was delivered.
+
+Used for my [snail mail detection](/projects/smart_mailbox)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# configuration.yaml
+template:
+  - sensor:
+      mailbox_recently_changed:
+        friendly_name: "Mail delivered last 30 minutes"
+        icon_template: mdi:radar
+        value_template: >
+          {{ (now() - states.binary_sensor.contact2_contact.last_changed).total_seconds() < 1800 }}
 {% endraw %}
 ```
 
