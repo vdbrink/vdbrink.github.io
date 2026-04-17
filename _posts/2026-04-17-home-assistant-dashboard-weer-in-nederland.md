@@ -6,7 +6,7 @@ tags: [weather, Dutch, dashboard, Netherlands, Home Assistant]
 permalink: /home-assistant-dashboard-weer-in-nederland
 ---
 
-# Home Assistant dashboard - Weer in Nederland
+# Feed: Home Assistant dashboard - Weer in Nederland
 
 *As exception this post is in Dutch.*
 
