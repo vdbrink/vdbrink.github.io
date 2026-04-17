@@ -12,11 +12,11 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 
 *As exception this post is in Dutch.*
 
-Nederlanders praten graag over het weer!
-Heb je Home Assistant draaien dan wil je natuurlijk ook alles over het weer op je dashboard tonen.
+Nederlanders praten graag over het weer! 
+Dan moet je ook op de hoogte zijn van alle weer verwachtingen.
+Er is online heel veel weer data beschikbaar, dit kun je vervolgens ook allemaal tonen op je Home Assistant dashboard.
 
-Er is online heel veel weer data beschikbaar wat je allemaal kunt tonen.
-Hier heb ik wat voorbeelden waarvan de voorbeeld YAML en de bijbehorende HACS-integratie beschreven staan
+Hier heb ik wat voorbeelden waarvan ik de YAML en de bijbehorende HACS-integratie beschreven heb staan hier op mijn site.
 
 > Klik op een screenshot om naar de desbetreffende beschrijving van deze weergave te gaan.
 
