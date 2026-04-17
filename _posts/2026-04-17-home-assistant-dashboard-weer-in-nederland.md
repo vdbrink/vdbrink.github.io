@@ -13,7 +13,7 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 *As exception this post is in Dutch.*
 
 Nederlanders praten graag over het weer! 
-Dan moet je ook op de hoogte zijn van alle weer verwachtingen.
+Dan moet je ook op de hoogte zijn van alle weersverwachtingen.
 Er is online heel veel weer data beschikbaar, dit kun je vervolgens ook allemaal tonen op je Home Assistant dashboard.
 
 Hier heb ik wat voorbeelden waarvan ik de YAML en de bijbehorende HACS-integratie beschreven heb staan hier op mijn site.
