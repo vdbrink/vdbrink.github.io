@@ -9,4 +9,4 @@ permalink: /rss-feed-available
 
 From now on, you can follow my latest home automation project updates via the RSS feed [https://vdbrink.github.io/feed.xml](https://vdbrink.github.io/feed.xml)
 
-[RSS feed posts grouped by tag](feed_sitemap.html)
+There is an overview page based on all [RSS feed posts grouped by tag](feed_sitemap.html).
