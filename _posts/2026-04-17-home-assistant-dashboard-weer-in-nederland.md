@@ -2,6 +2,7 @@
 layout: default
 title: "Feed: Home Assistant dashboard - Weer in Nederland"
 date: 2026-04-17
+locale: nl
 tags: [weather, Dutch, dashboard, Netherlands, Home Assistant]
 permalink: /home-assistant-dashboard-weer-in-nederland
 image: /homeassistant/images_weather/pollennieuws.png
