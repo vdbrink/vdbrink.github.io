@@ -15,8 +15,8 @@ image: /homeassistant/images_weather/pollennieuws.png
 Nederlanders praten graag over het weer!
 Heb je Home Assistant draaien dan wil je natuurlijk ook alles over het weer op je dashboard tonen.
 
-Er is heel veel data beschikbaar wat je allemaal kunt tonen.
-Hier zijn wat voorbeelden waarvan ik ook de voorbeeld YAML en de bijbehorende HACS-integratie heb besproken hier op mijn site (dat is wel allemaal in het Engels).
+Er is online heel veel weer data beschikbaar wat je allemaal kunt tonen.
+Hier heb ik wat voorbeelden waarvan de voorbeeld YAML en de bijbehorende HACS-integratie beschreven staan
 
 > Klik op een screenshot om naar de desbetreffende beschrijving van deze weergave te gaan.
 
