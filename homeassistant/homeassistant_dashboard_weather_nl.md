@@ -124,10 +124,14 @@ forecast_rows: 12
 
 Nice overview of the current weather predictions.
 
-<img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
-
-Install the HACS [**weather-chart-card**](https://community.home-assistant.io/t/lovelace-weather-chart-card/638917) integration via this button
+Install the HACS [**weather-chart-card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
+
+### Example 1
+
+With current weather conditions.
+
+<img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
 
 ```yaml
 {% raw %}
@@ -137,6 +141,29 @@ type: custom:weather-chart-card
 entity: weather.home
 {% endraw %}
 ```
+
+### Example 2
+
+Only with forecast data and alternative style 2.
+
+<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:weather-chart-card
+entity: weather.forecast_home
+forecast:
+  style: style2
+  round_temp: true
+  condition_icons: false
+  show_wind_forecast: false
+show_main: false
+show_attributes: false
+{% endraw %}
+```
+
 ---
 ## Rain expected value
 
