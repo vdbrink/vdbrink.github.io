@@ -5,7 +5,7 @@ date: 2026-04-17
 locale: nl
 tags: [weather, Dutch, dashboard, Netherlands, Home Assistant]
 permalink: /home-assistant-dashboard-weer-in-nederland
-image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
+image: /homeassistant/images_weather/buienradar.png
 ---
 
 # Feed: Home Assistant dashboard - Weer in Nederland
