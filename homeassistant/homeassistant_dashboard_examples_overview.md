@@ -94,7 +94,7 @@ Forecast for rain intensity over time.
 
 Animated rain forecast over The Netherlands. With marker for your home town.
 
-<a href="homeassistant_dashboard_weather_nl#weeronline">
+<a href="homeassistant_dashboard_weather_nl#rain-radar">
     <img width="450px" src="images_weather/rain_radar_animated.png" alt="Weeronline" />
 </a>
 

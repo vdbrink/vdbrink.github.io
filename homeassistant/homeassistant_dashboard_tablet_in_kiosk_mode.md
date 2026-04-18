@@ -334,9 +334,9 @@ You can click on a dashboard element and you get redirected to the card details.
 
 On my dashboard I also have elements which are by default hidden and only visible when it's relevant.
 
-Optional elements are:
+My optional elements are:
 * [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) the upcoming hours
-* [Countdown for trash can days](/homeassistant/homeassistant_hacs_afvalbeheer)
+* [Trash can reminder, if it's tomorrow pickup day](/homeassistant/homeassistant_hacs_afvalbeheer)
 * [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
 * [Camera stream](/homeassistant/homeassistant_dashboard_frigate#show-live-rtsp-streams), only if [someone is detected](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) at the front door
 * [Upcoming birthdays](/homeassistant/homeassistant_dashboard_hacs#birthday-reminder-card), only if some has it's birthday with in X days
