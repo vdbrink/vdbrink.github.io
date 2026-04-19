@@ -32,7 +32,6 @@ Find here a set of preselected devices which you can buy for in your garden or g
     * [TS0601](#ts0601)
   * [Weather stations](#weather-stations)
     * [Ecowitt Wittboy 7-in-1](#ecowitt-wittboy-7-in-1)
-  * [Garden lights](#garden-lights)
     * [Spotlight](#spotlight)
     * [Floodlight](#floodlight)
   * [LED strip](#led-strip)
@@ -82,7 +81,7 @@ It contains a build-in battery that charges via a small solar panel.
 
 ### NAS-STH02B2
 
-<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">
 <img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This sensor measures the soil temperature and humidity.\
@@ -90,7 +89,7 @@ It can be used for plants inside and outside.\
 It contains a build-in battery that charges via a solar panel on top of it.
 
 {{imgBasket}}Zigbee soil sensor 
-<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this sensor.
@@ -147,27 +146,6 @@ Video with the Ecowitt Wittboy review:
 [![Ecowitt Weather Station](http://img.youtube.com/vi/lz2TipTphbc/0.jpg)](https://www.youtube.com/watch?v=lz2TipTphbc&t=201s "Ecowitt Weather Station")
 
 ---
-
-## Garden lights
-
-<!--
-### Lawn light
-
-<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">
-<img src="images_outdoor/zigbee_outdoor_pole_light.avif" alt="Outdoor Zigbee lawn light" height="150px" style="margin-left:15px;float:right"/>
-</a>
-A 9W / 24V DC light with 16 million colors.
-The brightness and color temperature are adjustable, and it's (of course) water-resistant.
-
-Also, possible to control them with a remote (2.4 GHz).
-
-{{imgBasket}}Outdoor Zigbee garden light pole - MiBoxer 
-<a href="https://s.click.aliexpress.com/e/_onKCyQ1" target="_blank">(AliExpress)</a>
-
-model: LA5-09S-ZL
-
----
--->
 
 ### Spotlight
 

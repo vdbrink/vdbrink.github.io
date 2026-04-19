@@ -133,13 +133,13 @@ The monitor is a Philips 49" curved screen with a resolution of 5120 x 1440.
 With an aspect ratio of 32:9 and curving of 1800R.
 It's the size of two 27" next to each other.
 
+This is one of my best purchases ever! I still love it every day.
+The big advanced compare to two separated 27" screens is that you can split your application windows as you like for the current moment.
+Sometimes this into three equal app windows, or one big window in the middle and small on the sides.
+
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="450px" />
 </a>
-
-This is one of my best purchases ever! I still love it every day.
-The big advanced compare to two separated 27" screens is that you can split your application windows as you like for the current moment. 
-Sometimes this into three equal app windows, or one big window in the middle and small on the sides.
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021). 
 It's now replaced with even better screens with the same sizes. 
@@ -183,6 +183,15 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 * {{imgBasket}}[monitor arm ACT AC8340 - Tweakers NL - Dutch price compare site](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
 
 ---
+### Monitor light
+
+<a href="images/monitor_light.avif">
+<img src="images/monitor_light.avif" alt="monitor light" width="250px" />
+</a>
+
+* {{imgBasket}}[Xiaomi Mijia monitor light Desk bar - AliExpress](https://s.click.aliexpress.com/e/_c3JdA7BX)
+
+---
 ## Keyboard
 
 For a keyboard, I want a wireless, silent, smooth typing, with big shift and return button, volume buttons and a numpad.
@@ -217,8 +226,6 @@ Works with a single AA battery.
 <a href="images/mouse.avif">
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
 </a>
-
-* {{imgBasket}}[Basic soft-click mouse - AliExpress](https://s.click.aliexpress.com/e/_c3BUrspD)
 
 ## Desk pad
 
@@ -324,7 +331,7 @@ A basic plastic headphone stand.
 * {{imgBasket}}[Headphone stand - AliExpress](https://s.click.aliexpress.com/e/_c2JOMKeL)
 
 Alternative:
-* {{imgBasket}}[Walnut stand - AliExpress](https://s.click.aliexpress.com/e/_c3OrIwYj)
+* {{imgBasket}}[Walnut stand - AliExpress](https://s.click.aliexpress.com/e/_c4S9Q9hf)
 
 ---
 ## Accessories

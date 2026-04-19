@@ -68,7 +68,7 @@ For my project, I use option 1, but there are a lot of displays available on the
 
 #### Option 1
 
-<a href="https://s.click.aliexpress.com/e/_DEfuj8B" target="_blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_c2I1kyWN" target="_blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
 * 8.8 Inch 
 * Resolution 1920 * 480
 * NO touchscreen
@@ -117,12 +117,12 @@ The big round heavy feet make it stand stable.
 ### Device with a web browser
 
 A small device with an OS which can run a web browser on it.\
-I had a <a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="_blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="_blank">case</a> (AliExpress) for it.\
+I had a <a href="https://s.click.aliexpress.com/e/_oDWgdri" target="_blank">Raspberry 3B</a> (AliExpress) lying around which I could use. I bought a black <a href="https://s.click.aliexpress.com/e/_c3XdiZGV" target="_blank">case</a> (AliExpress) for it.\
 You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="_blank">Raspberry Pi Zero W</a> (AliExpress), a faster <a href="https://s.click.aliexpress.com/e/_DBzV3yf" target="_blank">Raspberry Pi Zero 2 W</a> (AliExpress) or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.
 
-<a href="https://s.click.aliexpress.com/e/_DeRuI2X" target="_blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="_blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi zerro" height="180px"/></a>
-<a href="https://s.click.aliexpress.com/e/_Dmj5kZp" target="_blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_oDWgdri" target="_blank"><img src="images_stretch_display/raspberry_3b.webp" alt="Raspberry 3B" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="_blank"><img src="images_stretch_display/raspberry_pi_zero_w.jpg" alt="Raspberry Pi Zero" height="180px"/></a>
+<a href="https://s.click.aliexpress.com/e/_c3XdiZGV" target="_blank"><img src="images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" height="180px"/></a>
 <img src="images_stretch_display/old_phone.jpg" alt="Old phone" height="180px"/>
 
 #### Micro SD-card
@@ -141,9 +141,9 @@ To also power the display, I use <a href="https://s.click.aliexpress.com/e/_DEeG
 <a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">
 <img src="../buy/images_diy/usb_power_charger.png" alt="5V USB EU power adapter" width="180px"/></a>
 
-An <a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.
+An <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.
 
-<a href="https://s.click.aliexpress.com/e/_DEOs79d" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
 <img src="../buy/images_diy/micro_usb_cable.avif" alt="Micro USB cable" width="180px"/></a>
 
 ---

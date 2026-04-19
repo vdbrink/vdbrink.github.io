@@ -130,8 +130,8 @@ Dht11 is a commonly used temperature and humidity sensor.
 
 AGS10 TVOC air quality gas sensor.
 
-<a href="https://s.click.aliexpress.com/e/_DmsmcGJ" target="_blank">
-<img src="images_diy/ags10.webp" height="180px" alt="dht11 temperature and humidity sensor" /></a>
+<a href="https://s.click.aliexpress.com/e/_c3GYJ8st" target="_blank">
+<img src="images_diy/ags10.webp" height="180px" alt="DHT 11 temperature and humidity sensor" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3uGSNpV" target="_blank">AGS10 (AliExpress)</a>
 
@@ -426,10 +426,10 @@ This helping hand can be used to hold the ESP board and sensor while soldering.
 
 This receiver can be used to receive or sniff signals send by device which uses the 433 or 868 MHz bandwidth.
 
-<a href="https://s.click.aliexpress.com/e/_okkC81o" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3LAfXap" target="_blank">
 <img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_okkC81o" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3LAfXap" target="_blank">link (AliExpress)</a>
 
 ---
 

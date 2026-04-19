@@ -92,11 +92,11 @@ And how you can replace a CR2032 battery for two AAs for a much longer battery l
 
 #### Rechargeable
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">Rechargeable AA batteries - Eneloop Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4BpDd1J" target="_blank">Rechargeable AA batteries - Eneloop Panasonic (AliExpress)</a>
 <a href="https://amzn.to/4hGVMsM#ad" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/493a0ke#ad" target="_blank">(AmazonNL)</a>
 
-<a href="https://s.click.aliexpress.com/e/_DEejMZ5" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4BpDd1J" target="_blank">
 <img src="/buy/images_batteries/eneloop.avif" alt="battery Eneloop AA and AAA" height="150px"/>
 </a>
 
@@ -120,7 +120,7 @@ Charger for AA and AAA batteries
 
 #### Rechargeable
 
-<a href="https://s.click.aliexpress.com/e/_DkcYcJt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">
 <img src="/buy/images_batteries/battery_aa_aaa.jpg" alt="battery AA and AAA" height="150px" style="margin-left:15px;float:right"/></a>
 
 The advantage of these is that they are everywhere available to buy, also in your local supermarket.
@@ -158,27 +158,26 @@ This CR2032 is the most commonly used battery. It's small, but still has enough 
 <a href="https://amzn.to/4hRObaI#ad" target="_blank">(AmazonUS)</a>
 <a href="https://amzn.to/3V4sHye#ad" target="_blank">(AmazonNL)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3Sf4Li9" target="_blank">CR2032 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3wjgKV3" target="_blank">CR2032 (AliExpress)</a>
 <a href="https://amzn.to/4i2rCAE#ad" target="_blank">(AmazonNL)</a>
 
 #### Rechargeable
 
 The CR2032 rechargeable version is the **LIR2032**.
 
-<a href="https://s.click.aliexpress.com/e/_Dl3y9qT" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c35tUXMz" target="_blank">
 <img src="/buy/images_batteries/cr2032_rechargeable.webp" alt="LIR2032" width="100px" style="margin-left:15px;float:right"/></a>
 Instead of buying batteries for only a single use it's also possible to buy the rechargeable variant of the CR2032, called LIR2032.
 
 They are not very famous and more expensive, but environment friendlier, and it reduces waste.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oERl3Vn" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3cfSxdn" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_olLhl1p" target="_blank">5x LIR2032 rechargeable batteries (AliExpress)</a>
 <a href="https://amzn.to/4fCK0i9#ad" target="_blank">(Amazon)</a>
 
 #### Charger
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdlNfZD" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included) (AliExpress)</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3FrupkH" target="_blank">LIR2032 rechargeable adapter with USB-C (batteries not included) (AliExpress)</a>\
 <img src="/buy/images_batteries/cr2032_rechargeable_adapter.webp" alt="LIR2032 adapter" height="150px"/>
 
 Lights green when it's full.
@@ -230,10 +229,7 @@ This CR1632 battery is a bit smaller than the CR2032.
 The CR1632 rechargeable version is the **LIR1632**.
 
 <img src="/buy/images_batteries/lir1632.avif" alt="LIR1632" width="100px" style="margin-left:15px;float:right"/>
-
-Not available right now.
-
-[//]: # ({{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEp8zbk" target="_blank">Rechargeable LIR1632 &#40;AliExpress&#41;</a>)
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3qgKppP" target="_blank">Rechargeable LIR1632 (AliExpress)</a>
 
 #### Charger
 

@@ -65,7 +65,7 @@ These are the specifications for this sensor:
 <img src="images_soil_sensor/bottom.avif" alt="Zigbee soil sensor" height="150px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">Zigbee soil sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">Zigbee soil sensor (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 ---
@@ -149,7 +149,7 @@ These settings can be changed.
 
 Are you also excited about this sensor? Here you can buy it yourself.
 
-<a href="https://s.click.aliexpress.com/e/_opMcYj3" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">
 <img src="images_soil_sensor/side.avif" alt="Zigbee soil sensor" height="150px"/>
 
 {{imgBasket}}Zigbee soil sensor (AliExpress)</a>
@@ -169,12 +169,6 @@ See [here](/buy/zigbee_outdoor) for more outdoor Zigbee devices!
 Other Zigbee sensors to track your plant health!
 
 * {{imgBasket}}[Tiny indoor plant senors (AliExpress)](https://s.click.aliexpress.com/e/_onIII5b)
-
-* {{imgBasket}}[Cheaper version on 3 AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_okhmDa9)
-
-* {{imgBasket}}[Green soil sensor measure also lux (AliExpress)](https://s.click.aliexpress.com/e/_oBMB8Vf)
-
-* {{imgBasket}}[Other outdoor soil sensor (AliExpress)](https://s.click.aliexpress.com/e/_oFFXYet)
 
 * {{imgBasket}}[Indoor soil sensor - MOES (AliExpress)](https://s.click.aliexpress.com/e/_oC6bebb)
 

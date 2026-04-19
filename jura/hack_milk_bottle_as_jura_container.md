@@ -229,7 +229,7 @@ To clean the hose, use the milk cleaning program on the machine to remove the le
 
 The adapter and tube inside the bottle are not part of the cleaning program of the machine itself, you need to clean it manually.
 I clean the tube and lid every week when I also clean the rest of the machine.
-I use a small and long [brush](https://s.click.aliexpress.com/e/_c3FYnYW9) to also clean the inside of the tube to avoid milk bottle residues.
+I use a small and long [brush](https://s.click.aliexpress.com/e/_c3FdjUJX) to also clean the inside of the tube to avoid milk bottle residues.
 
 <a href="images_bottle_hack/straw_brush.jpg">
 <img src="images_bottle_hack/straw_brush.jpg" alt="cleaning brush" width="150px" />

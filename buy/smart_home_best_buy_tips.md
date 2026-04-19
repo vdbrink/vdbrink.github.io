@@ -26,7 +26,7 @@ On this page, you find my personal favorite sensors, actuator and other (Zigbee)
 
 If you need some home automation inspiration, check my [home automation ideas](../ideas/home_automation_ideas) section!
 
-Most devices are for sale by the online shop [AliExpress](https://s.click.aliexpress.com/e/_omcoItX).
+Most devices are for sale by the online shop [AliExpress](https://www.aliexpress.com/).
 I order 90% of my home automation devices on this site for years already. 
 You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!\
 If the product is also available at Amazon, I also placed a link to it also.
@@ -202,7 +202,7 @@ Small and cheaper.
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee Contact sensor 2xAAA powered - Tuya 
-<a href="https://s.click.aliexpress.com/e/_olDzemw" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3PaIIKN" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3H6NUDI#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3GJdFKq#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" title="ZD06">{{imgZ2M}}ZD06</a>
@@ -230,7 +230,7 @@ It can also detect persons who sit still or laying in bed.
 
 <br>
 
-<a href="https://s.click.aliexpress.com/e/_okFlU1n" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals. 
@@ -241,12 +241,12 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 **Best option:**\
 {{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara
-<a href="https://s.click.aliexpress.com/e/_okFlU1n" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3GT5efA#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4mK01ph#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM / P1</a>
 
-<a href="https://s.click.aliexpress.com/e/_okFlU1n" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
 <br>
@@ -259,11 +259,11 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 **All direction option:**\
 {{imgBasket}}Zigbee motion sensor all directions - Tuya
-<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c2R8wwNb" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3G0RcYq#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/IH012-RT01.html" target="_blank" title="IH012-RT01">{{imgZ2M}}IH012-RT01</a> <!-- or 809WZT -->
 
-<a href="https://s.click.aliexpress.com/e/_Dn2fzd5" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
+<a href="https://s.click.aliexpress.com/e/_c2R8wwNb" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" height="100px"></a>
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered - Tuya
@@ -837,7 +837,7 @@ Cheaper solution than four single smart sockets!
 <br>
 <br>
 
-<a href="https://s.click.aliexpress.com/e/_c2vgFrkP" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3B3MqrB" target="_blank">
 <img src="/buy/images_zigbee/powerstrip2.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 An other Zigbee power strip with 4x outlets (max. 16A 4000W) and 2x USB-A (5V 3A) fast charging.
 <br><br>
@@ -855,37 +855,10 @@ Cheaper solution than four single smart sockets!
 <br>
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Lellki 
-<a href="https://s.click.aliexpress.com/e/_c2vgFrkP" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3B3MqrB" target="_blank">(AliExpress)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
 
-<br>
-
-<!--
-<br>
-<br>
-
-<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">
-<img src="/buy/images_zigbee/powerstrip_4xusb.jpg" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
-Other version, also Zigbee EU power strip with 4x outlets (max. 16A) and 3x USB-A and 1x USB-C fast charge. 
-<br><br>
-Each outlet and the four USB ports can be controlled independently.
-Cheaper solution than four single smart sockets!
-
-* Suitable for EU
-* With overload protection switch
-* Max. 3520 W
-* 1x USB-C PD20W fast charge port
-* 2x USB-A charge port
-* 1x USB-A QC3.0 18W charge port
-* Manual master switch
-* LED indicate for each socket
-
-{{imgBasket}}Zigbee power strip with 4 outlets and 4 USB ports - UseeLink 
-<a href="https://s.click.aliexpress.com/e/_oE9K7K1" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3PFr86N#ad" target="_blank">(Amazon NL)</a>
-<a href="https://www.zigbee2mqtt.io/devices/SM-O301-AZ.html" target="_blank" title="SM-O301-AZ">{{imgZ2M}}SM-O301-AZ</a>
--->
 <br>
 
 ---
