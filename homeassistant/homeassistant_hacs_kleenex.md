@@ -743,6 +743,80 @@ apex_config:
 ```
 </details>
 
+#### ApexCharts 2: Berk tree forecast
+
+I created a bar graph with only the Berk tree data for today and the upcoming days.
+This is the tree which cause the most irritations for me.
+That's why I use this specific one.
+You can easily change it another available tree, grass or weed which you prefer.
+
+The days are converted to shorten weekdays in Dutch as example.
+
+I used for this presentation the HACS [ApexCharts Card](https://github.com/RomRider/apexcharts-card) integration.
+Click this button to install the ApexCharts Card:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=RomRider&repository=apexcharts-card&category=module)
+
+<a href="images_kleenex/kleenex_berk_forecast.png">
+<img src="images_kleenex/kleenex_berk_forecast.png" alt="kleenex Berk tree pollen forecast" width="400px">
+</a>
+
+<details markdown="1">
+  <summary><b>> Click here to see the corresponding dashboard YAML code >></b></summary>
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Card Configuration
+type: custom:apexcharts-card
+header:
+  show: true
+  title: Pollen voor de Berk voor de komende dagen
+graph_span: 4d
+span:
+  start: day
+series:
+  - name: Berk
+    entity: sensor.kleenex_pollen_radar_huis_trees
+    type: column
+    color: green
+    data_generator: >
+      const today = new Date(); today.setHours(0, 0, 0, 0); const todayValue =
+      entity.attributes.details
+        ? entity.attributes.details.find(t => t.name === "Berk")?.value ?? null
+        : null;
+      const todayPoint = todayValue !== null ? [[today.getTime(), todayValue]] :
+      []; const forecastPoints = entity.attributes.forecast.map(d => [
+        new Date(d.date).getTime(),
+        d.details.find(t => t.name === "Berk").value
+      ]); return [...todayPoint, ...forecastPoints];
+apex_config:
+  chart:
+    type: bar
+    defaultLocale: nl
+    locales:
+      - name: nl
+        options:
+          shortDays:
+            - zo
+            - ma
+            - di
+            - wo
+            - do
+            - vr
+            - za
+    height: 200
+  xaxis:
+    type: datetime
+    labels:
+      datetimeFormatter:
+        day: ddd
+  tooltip:
+    enabled: true
+{% endraw %}
+```
+</details>
+
 ---
 #### Markdown table
 
