@@ -9,6 +9,8 @@ image: /homeassistant/images/home_assistant_logo.png
 
 # Feed: Home Assistant - Many dashboard examples
 
+<img src="/homeassistant/images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px">
+
 On my site I have placed all kinds of Home Assistant dashboard examples which you can use direct on your own dashboard:
 
 * Interesting HACS integrations
@@ -18,7 +20,8 @@ On my site I have placed all kinds of Home Assistant dashboard examples which yo
 * Many examples
 
 <br>
+<img src="/homeassistant/images/ha_banner.png" alt="banner" width="100%" />
 
 And much more...
 
-Find out more at [https://vdbrink.github.io/homeassistant/](https://vdbrink.github.io/homeassistant/)
+Find out more at [https://vdbrink.github.io/homeassistant/](/homeassistant/)

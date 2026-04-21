@@ -29,7 +29,7 @@ I created dashboards with all kinds of elements on it:
 * [HACS custom elements](homeassistant_dashboard_hacs) (Overview of some very useful custom HACS elements)
   * [Auto entities](homeassistant_dashboard_card_auto-entities)
   * [Mushroom](homeassistant_dashboard_card_mushroom)
-  * [Pollen Radar](homeassistant_hacs_kleenex.md)
+  * [Pollen Radar](homeassistant_hacs_kleenex)
   * [Afvalbeheer](homeassistant_hacs_afvalbeheer)
 * [Grafana](homeassistant_dashboard_grafana) (Grafana graph integration)
 * [Frigate](homeassistant_dashboard_frigate) (Frigate integration)

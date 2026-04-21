@@ -314,4 +314,4 @@ I have a [dedicated page](/projects/automate_christmas_decorations#battery-power
 
 See [ESPHome DIY sensors - Best Buy Tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.
 
-Or [Zigbee - Best Buy Tips](smart_home_best_buy_tips.md) for all kinds of Zigbee devices buy tips.
+Or [Zigbee - Best Buy Tips](smart_home_best_buy_tips) for all kinds of Zigbee devices buy tips.

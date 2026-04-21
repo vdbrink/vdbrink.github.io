@@ -25,9 +25,13 @@ I found out when the CO2 was too high and/or the temperature is above 23 degrees
 
 A small stretched display, next to my monitor, where I can see my office climate data in a Home Assistant dashboard, controlled by a Raspberry pi.
 
-<img src="images_stretch_display/office_display_next2monitor.jpg" alt="stretch display in action" height="400px">
+<a href="images_stretch_display/office_display_next2monitor.jpg">
+<img src="images_stretch_display/office_display_next2monitor.jpg" alt="stretch display in action" height="400px" style="float:left;margin-right:15px">
+</a>
 
+<a href="images_stretch_display/office_display_closeup.jpg">
 <img src="images_stretch_display/office_display_closeup.jpg" alt="stretch display close-up" height="400px">
+</a>
 
 I created two Home Assistant dashboards: one for my office climate and the other as my weather data display.
 
@@ -106,11 +110,17 @@ Which gives it a smooth design.
 The stand itself can also adjust in height and angle to position the display in the right position. 
 The big round heavy feet make it stand stable.
   
-<img src="images_stretch_display/holder.webp" alt="Display holder" height="200px"/>
+<a href="images_stretch_display/holder.webp">
+<img src="images_stretch_display/holder.webp" alt="Display holder" height="250px" style="float:left;margin-right:15px"/>
+</a>
 
-<img src="images_stretch_display/holder_side.jpg" alt="" height="250px">
+<a href="images_stretch_display/holder_side.jpg">
+<img src="images_stretch_display/holder_side.jpg" alt="" height="250px" style="float:left;margin-right:15px">
+</a>
 
+<a href="images_stretch_display/holder_cables.jpg">
 <img src="images_stretch_display/holder_cables.jpg" alt="" height="250px">
+</a>
 
 ---
 
@@ -204,14 +214,15 @@ I created an auto-boot script to load the Home Assistant dashboard in Kiosk-mode
 
 ## Display PC configuration
 
+<a href="images_stretch_display/setup_wip2.jpg">
 <img src="images_stretch_display/setup_wip2.jpg" alt="" height="250px">
+</a>
 
+<a href="images_stretch_display/setup_wip1.jpg">
 <img src="images_stretch_display/setup_wip1.jpg" alt="" height="250px">
-
+</a>
 
 ### Install Raspberry OS Desktop
-
-
 
 ### Auto load browser in kiosk mode on boot
 
