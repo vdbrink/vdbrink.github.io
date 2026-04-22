@@ -1,5 +1,5 @@
 ---
-title: "All posts ordered by date"
+title: "All my posts"
 ---
 
 <h1>All my posts</h1>
@@ -12,7 +12,7 @@ title: "All posts ordered by date"
     {% assign sorted_posts = site.posts | sort: "date" | reverse %}
     {% for post in sorted_posts %}
     <div class="post-entry">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
         <b>
             <i>{{ post.date | date: date_format }}</i>
             &ndash;
