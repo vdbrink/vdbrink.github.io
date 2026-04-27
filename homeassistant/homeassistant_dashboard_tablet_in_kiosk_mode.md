@@ -23,6 +23,8 @@ Here you can read how to configure this.
 </a>
 <em>Example of a Home Assistant dashboard presented on a tablet.</em>
 
+[Here](#create-a-tablet-dashboard) you can go directly to the Home Assistant dashboard section on this page.
+
 ---
 ## Table of Contents
 <!-- TOC -->
