@@ -13,13 +13,14 @@ Frigate is a tool to analyze your video camera streams.
 
 It can detect and store a snapshot and a video clip when it detects presence.
 
-On this page, you can find how to add this data on your dashboard.
+On this page, you can find how to add videostreams on your dashboard.
 
 Website: [https://frigate.video/](https://frigate.video/)
 
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Frigate configuration](#frigate-configuration)
   * [Show live RTSP streams](#show-live-rtsp-streams)
   * [Show MP4 video clips](#show-mp4-video-clips)
   * [Show Frigate MQTT last event captured snapshots](#show-frigate-mqtt-last-event-captured-snapshots)
@@ -28,6 +29,66 @@ Website: [https://frigate.video/](https://frigate.video/)
 <!-- TOC -->
 
 ---
+
+## Frigate configuration
+
+This is the `camera` section from my Frigate configuration.
+
+Based on a Reolink camera.
+A mini pc with Intel Arc Graphics GPU.
+
+* 5 days non-stop recordings
+* Person detection active
+* Send an MQTT event when a person is detected
+
+```yaml
+{% raw %}
+...
+cameras:
+  camera_1:
+    ffmpeg:
+      hwaccel_args:
+        - -c:v:1
+        - h264_v4l2m2m
+      inputs:
+        - path:
+            rtsp://username:password@192.168.x.x:554/h264Preview_01_main
+          roles:
+            - record
+            - detect
+    detect:
+      width: 1280
+      height: 720
+    snapshots:
+      enabled: true
+    record:
+      enabled: true
+      continuous:
+        days: 5
+      motion:
+        days: 0
+    mqtt:
+      timestamp: true
+      quality: 100
+      bounding_box: false
+    motion:
+      mask:
+        - 0.497,0.598,0.428,0,1,0,0,0,0,1,0.181,1,0.832,1,0.791,0,1,0,1,1,1,1,0.117,1,0.386,0.664
+        - 0.016,0.314,0.405,0.283,0.418,0.433,0.01,0.503
+    objects:
+      track:
+        - person
+      filters:
+        person:
+          min_area: 5000
+          max_area: 1000000
+          threshold: 0.80
+          min_score: 0.8
+          mask:
+            0.671,0,0.631,0,1,0,0,0,0,1,0.181,1,0.832,1,0.666,0,1,0,1,1,1,1,0.318,1,0.457,0.514,0.529,0.136
+...
+{% endraw %}
+```
 
 ## Show live RTSP streams
 
