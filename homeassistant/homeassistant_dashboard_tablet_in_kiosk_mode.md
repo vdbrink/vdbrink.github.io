@@ -41,12 +41,13 @@ Here you can read how to configure this.
     * [Enable remote admin](#enable-remote-admin)
     * [Auto screen on](#auto-screen-on)
     * [Auto screen off](#auto-screen-off)
-    * [Only charge when needed](#only-charge-when-needed)
+    * [Only charge tablet battery when needed](#only-charge-tablet-battery-when-needed)
   * [Create a tablet dashboard](#create-a-tablet-dashboard)
     * [What's on my dashboard](#whats-on-my-dashboard)
       * [Basic elements](#basic-elements)
       * [Optional elements](#optional-elements)
         * [YAML how to make elements conditional](#yaml-how-to-make-elements-conditional)
+      * [Fullscreen camera stream](#fullscreen-camera-stream)
 <!-- TOC -->
 
 ---
@@ -475,6 +476,14 @@ You need the boolean helper sensor [frontdoor_detection_mode](/homeassistant/hom
     url: rtsp://....
 {% endraw %}
 ```
+
+#### Fullscreen camera stream
+
+If you want to show a fullscreen overlay popup when a person is detected on a camera.
+Take a look at the page
+[Home Assistant dashboard: Fullscreen camera stream](/homeassistant/homeassistant_dashboard_fullscreen_camera_stream) how to set this up.
+
+---
 
 See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
 
