@@ -15,7 +15,8 @@ I wanted to show a full screen live stream of my frontdoor when someone is detec
 
 I have already [Frigate](/homeassistant/homeassistant_dashboard_frigate) installed to recognize a person and not get triggered when a cat walks by in my front yard.
 
-<img src="images_camera_stream/ha_popup.png" alt="Home Assistant dashboard popup camera stream" width="400px">
+<img src="images_camera_stream/ha_camera_popup.gif" alt="Home Assistant dashboard popup camera stream" width="100%">
+<em>Opening the fullscreen popup camera stream in action.</em>
 
 ---
 ## Table of Contents
