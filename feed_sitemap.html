@@ -1,10 +1,15 @@
 ---
-title: "Posts grouped per tag"
+title: "Posts ordered by tag"
 ---
 
-<h1>Posts grouped by tag</h1>
+<h1>Posts ordered by tag</h1>
 
-All the posts, grouped by tag.
+<p>
+All the posts with project updates, ordered by tag.
+</p>
+<p>
+See <a href="/feed.html">here</a> all posts ordered by date.
+</p>
 
 <div id="tags-list">
     {% for tag in site.tags %}
@@ -20,7 +25,7 @@ All the posts, grouped by tag.
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <b>
                     <a href="{{ post.url | relative_url }}">
-                        {{ post.title | escape }}
+                        {{ post.title | | remove_first: "Feed: " | escape }}
                     </a>
                 </b> - <i>{{ post.date | date: date_format }}</i>
             </li>

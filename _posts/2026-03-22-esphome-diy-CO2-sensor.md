@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: ESPHome - DIY CO2 sensor"
 date: 2026-03-22
-tags: [ESPHome, diy, soldering, CO2, health, office, ESP32, ESP8266, SCD40]
+tags: [ESPHome, diy, soldering, CO2, health, office, ESP, sensor]
 permalink: /esphome-DIY-CO2-sensor
 image: /esphome/images_scd40/hardware.jpg
 ---

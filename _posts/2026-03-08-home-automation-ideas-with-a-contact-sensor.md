@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Home automation ideas with a contact sensor"
 date: 2026-03-08
-tags: [Home automation, Zigbee, contact sensor, idea] 
+tags: [automation, Zigbee, sensor, idea] 
 permalink: /home-automation-ideas-with-a-contact-sensor
 ---
 
