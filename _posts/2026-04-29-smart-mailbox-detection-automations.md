@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Smart traditional mail- and package box"
 date: 2026-04-29
 tags: [Zigbee, idea, sensor, inspiration, automation, dashboard, Home Assistant]
-image: /ideas/images/video.png
+image: /projects/images_mailbox/mailbox_contact_sensor.jpg
 permalink: /smart-traditional-mail-and-package-box
 ---
 
