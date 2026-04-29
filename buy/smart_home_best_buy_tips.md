@@ -235,7 +235,8 @@ It can also detect persons who sit still or laying in bed.
 </a>
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals. 
 
-I like the Aqara motion sensor myself a lot. It's fast, reliable. With the stand you can point it in a specific direction, so it doesn't 'see' the whole room.
+I like the Aqara motion sensor myself a lot. It's fast, reliable. 
+With the stand you can point it in a specific direction, so it doesn't 'see' the whole room.
 
 If I want to cover a whole room, I use a different type PIR sensor which you can stick in the center of the ceiling and look around in all directions.
 
@@ -293,6 +294,7 @@ Ideal for the living room, bedrooms and home office.
 <img src="images_zigbee/aqara_fp300.avif" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
 The Aqara FP300 is a new battery powered motion sensor with PIR and mmWave radar sensor.
 It can detect up to 6 meters it also measures light, temperature and humidity.
+It can be configured with multiple zones where you can detect persons in.
 
 {{imgBasket}} Zigbee or Thread (Matter) - Aqara FP300
 <a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon NL)</a>
@@ -394,7 +396,7 @@ Very reliable, very long battery life, quick response on small light changes, mo
 {{imgBasket}}Zigbee lux sensor - Moes 
 <a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a>
--->
+
 
 **Cheaper option 2:**\
 {{imgBasket}}Zigbee lux sensor - Tuya 
@@ -404,7 +406,7 @@ Very reliable, very long battery life, quick response on small light changes, mo
 
 <a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">
 <img src="images_zigbee/zigbee_lux_sensor.avif" alt="Light intensity / lux sensor" height="150px" /></a>
-
+-->
 <br>
 
 ---
