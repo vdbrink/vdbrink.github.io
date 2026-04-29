@@ -417,7 +417,7 @@ Each leak sensor has two metal contacts, when these contacts get in contact with
 The sensor sends a signal "water detected"!
 Water conducts the current and air doesn't.
 
-<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 The Aqara leak sensor has two metal screw contacts on the back of the sensor that measures if there is water.
@@ -429,12 +429,12 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 **Best option:**\
 {{imgBasket}}Leak sensor - Aqara 
-<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3GGM3ph#ad" target="_blank">(Amazon NL)</a>
 <a href="https://amzn.to/3ZneX2Z#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank" title="SJCGQ11LM">{{imgZ2M}}SJCGQ11LM</a>
 
-<a href="https://s.click.aliexpress.com/e/_oE7l1ns" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" /></a>
 
 **Cheaper option:**\
