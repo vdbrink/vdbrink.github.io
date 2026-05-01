@@ -109,8 +109,11 @@ Bron: KNMI
     <img width="450px" src="/homeassistant/images_weather/weather_alarm_map_knmi.jpg" alt="weer alarm kaart" />
 </a>
 
+Weer alarm tekst.\
+Bron: KNMI
+
 <a href="/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-2">
-    <img src="images_weather/weather_alarm_knmi_colored_background.png" alt="weer alarm" width="400px">
+    <img src="/homeassistant/images_weather/weather_alarm_knmi_colored_background.png" alt="weer alarm" width="400px">
 </a>
 
 ---

@@ -415,10 +415,11 @@ Install this integration via this button in your own HA instance\
 
 ### Weather alarm with colored icon
 
+Weather alarm block with a colored icon in the color of the alarm.
+
 <img src="images_weather/weather_alarm_text_color.png" alt="Weather alarm text with icon colored" width="400px">
 
 Corresponding YAML code:
-
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
