@@ -43,14 +43,12 @@ I added a link to a video how to implement it this solution if you want to try i
 
 To use the **browser_mod** solution, the extra HACS module [browser_mod 2](https://github.com/thomasloven/hass-browser_mod#browser_mod-2) is required.
 
-Install this integration, via this button, into your own HA instance
-
+Install this integration, via this button, into your own HA instance\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration)
 
 Also, the HACS module [WebRTC](https://github.com/AlexxIT/WebRTC) is required to show the camera stream in the popup, this module supports RTSP streams and converts them to WebRTC streams which can be shown in the popup.
 
-Install this **WebRTC** integration, via this button, into your own HA instance
-
+Install this **WebRTC** integration, via this button, into your own HA instance\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexxIT&repository=WebRTC&category=integration)
 
 You also need to create **two automations**, one to **show the popup** when a person is detected and one to **hide the popup** when no person is detected anymore.
@@ -141,8 +139,7 @@ A: You can use many parameters for `browser_mod.popup`, take a look at the docum
 
 There is also an alternative solution to show a fullscreen popup with the HACS [Bubble Card](https://github.com/Clooos/Bubble-Card#bubble-card).
 
-Install this integration, via this button, into your own HA instance
-
+Install this integration, via this button, into your own HA instance\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Clooos&repository=Bubble-Card&category=integration)
 
 In this video you can see how to implement the fullscreen popup with the Bubble Card.

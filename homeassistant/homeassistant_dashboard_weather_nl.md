@@ -26,8 +26,11 @@ We can use that data also to show direct on our Home Assistant dashboards.
   * [Rain radar animated](#rain-radar-animated)
     * [Buienradar with residence marker](#buienradar-with-residence-marker)
     * [Weeronline](#weeronline)
+      * [3 days weather predictions](#3-days-weather-predictions)
+      * [Rain Radar](#rain-radar)
   * [Weather alarm map](#weather-alarm-map)
   * [Weather alarm](#weather-alarm)
+    * [Weather alarm with colored icon](#weather-alarm-with-colored-icon)
     * [Conditional weather alarm 1](#conditional-weather-alarm-1)
     * [Conditional weather alarm 2](#conditional-weather-alarm-2)
   * [Pollen](#pollen)
@@ -46,7 +49,7 @@ Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
 
 Repo: [https://github.com/aex351/home-assistant-neerslag-app](https://github.com/aex351/home-assistant-neerslag-app)
 
-Install this integration via this button in your own HA instance
+Install this integration via this button in your own HA instance\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
 
 ```yaml
@@ -380,11 +383,11 @@ elements:
 
 Source: KNMI
 
-Read the weather alarm code and description from the KNMI.nl site.
+Show the weather alarm code and description from the [KNMI.nl site](https://www.knmi.nl/nederland-nu/weer/waarschuwingen/) direct on your dashboard like this:
 
 <img src="images_weather/weather_alarm_knmi.png" alt="Weather alarm" width="400px">
 
-First, you need to define a scraper to scrape every 10 minutes the latest alarm code and text.
+First, you need to define a scraper to scrape every 10 minutes the latest alarm code and description.
 
 ```yaml
 {% raw %}
@@ -403,11 +406,18 @@ First, you need to define a scraper to scrape every 10 minutes the latest alarm 
   scan_interval: 600
 {% endraw %}
 ```
-This is the corresponding code for the screenshot.
+
+<br>
 
 The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod)
-Install this integration via this button in your own HA instance
+Install this integration via this button in your own HA instance\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
+
+### Weather alarm with colored icon
+
+<img src="images_weather/weather_alarm_text_color.png" alt="Weather alarm text with icon colored" width="400px">
+
+Corresponding YAML code:
 
 ```yaml
 {% raw %}
@@ -420,7 +430,7 @@ entities:
       name: KNMI Weercode
       icon: mdi:bell-ring
       card_mod:
-          style: |
+        style: |
           :host {
               --card-mod-icon-color:
               {% if is_state('sensor.knmi_weercode', 'Code groen') %}
@@ -446,42 +456,50 @@ Check the [styling](homeassistant_dashboard_styling) page for more ways to give 
 
 ### Conditional weather alarm 1
 
-You can add this data also to your `Important data panel` and only show this information when it's not code green.
-The text is also clickable to open the corresponding site with more info.
+You can add this data also to a section on your dashboard with `Important data` and only show this information when it's not code green.
+The text is also clickable to open the corresponding site with more details.
+
+<img src="images_weather/weather_alarm_text.png" alt="Weather alarm text" width="400px">
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- type: conditional
-  conditions:
-    - entity: sensor.knmi_weercode
-      state_not: Code groen
-  row:
-    entity: sensor.knmi_weercode
-    tap_action:
-      action: url
-      url_path: >-
-        https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
-- type: conditional
-  conditions:
-    - entity: sensor.knmi_weercode
-      state_not: Code groen
-  row:
-    entity: sensor.knmi_weer_waarschuwing
-    tap_action:
-      action: url
-      url_path: >-
-        https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
+- type: entities
+  entities:
+    - type: conditional
+      conditions:
+        - entity: sensor.knmi_weercode
+          state_not: Code groen
+      row:
+        entity: sensor.knmi_weercode
+        tap_action:
+          action: url
+          url_path: >-
+            https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
+    - type: conditional
+      conditions:
+        - entity: sensor.knmi_weercode
+          state_not: Code groen
+      row:
+        entity: sensor.knmi_weer_waarschuwing
+        tap_action:
+          action: url
+          url_path: >-
+            https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
 {% endraw %}
 ```
 
 ---
 ### Conditional weather alarm 2
 
-With this element I used a [Mushroom card](/homeassistant/homeassistant_dashboard_card_mushroom#title-card), [card_mod](/homeassistant/homeassistant_dashboard_hacs#card-mod-3-lovelace-card-mod) and based on the weather alarm the background color set to green, yellow, orange or red.
+Based on the [KNMI weather alarm website data](#weather-alarm) is this another presentation.
+It shows the weather alarm text in a large size with the background card color the same as the weather alarm level, green, yellow, orange or red.
 
-This element is only visible when the weather code is not code green (unavailable).
+For this card I used the extra HACS integrations [Mushroom card](/homeassistant/homeassistant_dashboard_card_mushroom) and [card_mod](/homeassistant/homeassistant_dashboard_hacs#card-mod-3-lovelace-card-mod) to add the custom color styling.
+
+This YAML codes show the card only when the weather code is not code green (unavailable).
+To show the alarm also when there is no alarm, just remove the `type: conditional` block and only use the YAML code starting from `type: custom:mushroom-title-card`.
 
 <img src="images_weather/weather_alarm_knmi_colored_background.png" alt="optional Weather alarm" width="400px">
 

@@ -214,7 +214,7 @@ chips:
 
 Show a green icon, when the value is `Code groen`, yellow for `Code geel` and red for `Code rood`.
 
-The use entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).\
+The used entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).\
 You can decide what happens when you click on it, in this example you redirect to the website of the KNMI where you can see all the details about the current weather alarm status.
 
 ```yaml

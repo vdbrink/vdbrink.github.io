@@ -521,7 +521,7 @@ card_mod:
 <img src="images_layout_stretch/.png" alt="temperature too high" width="450px" />
 </a>
 
-The use entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
+The used entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
 
 ```yaml
 {% raw %}
