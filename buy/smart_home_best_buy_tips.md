@@ -375,23 +375,28 @@ Battery: CR2477
 
 ### Light intensity sensor
 
-<a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3oHoBsX" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A light intensity sensor (lux sensor) measures the amount of light brightness.\
 Usefull to enable the lights when it becomes dark outside.
 
 **Best option:**\
-{{imgBasket}}Zigbee lux sensor - Aqara
-<a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">(AliExpress)</a>
-
-<a href="https://www.zigbee2mqtt.io/devices/GZCGQ01LM.html" target="_blank" title="GZCGQ01LM">{{imgZ2M}}GZCGQ01LM</a>
+{{imgBasket}}Zigbee lux sensor - Aqara T1
+<a href="https://s.click.aliexpress.com/e/_c3oHoBsX" target="_blank">(AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/GZCGQ11LM.html" target="_blank" title="GZCGQ11LM">{{imgZ2M}}GZCGQ11LM</a>
 Very reliable, very long battery life, quick response on small light changes, more expensive.
+
+<!--
+Xiaomi has almost the same device, with the same looks and works the same as the Aqara.
+
+{{imgBasket}}Zigbee lux sensor - Xiaomi Mi light sensor
+<a href="https://s.click.aliexpress.com/e/" target="_blank">(AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/GZCGQ01LM.html" target="_blank" title="GZCGQ01LM">{{imgZ2M}}GZCGQ01LM</a>
 
 <a href="https://s.click.aliexpress.com/e/_oBxc9XP" target="_blank">
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" /></a>
 
-<!--
 **Cheaper option 1:**\
 {{imgBasket}}Zigbee lux sensor - Moes 
 <a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">(AliExpress)</a>
