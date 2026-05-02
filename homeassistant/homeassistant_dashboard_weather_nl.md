@@ -389,6 +389,10 @@ Show the weather alarm code and description from the [KNMI.nl site](https://www.
 
 First, you need to define a scraper to scrape every 10 minutes the latest alarm code and description.
 
+You can accomplish this by adding the YAML to the `configuration.yaml` file or by configure it via the Home Assistant frontend **Scrape** integration.
+Install this integration via this button in your own HA instance\
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
