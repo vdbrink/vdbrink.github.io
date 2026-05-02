@@ -123,7 +123,7 @@ With the HACS integration `Swipe Navigation`
 
 Repo: [https://github.com/zanna-37/hass-swipe-navigation](https://github.com/zanna-37/hass-swipe-navigation)
 
-Install this integration via this button in your own HA instance\
+Install this integration via this button in your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
