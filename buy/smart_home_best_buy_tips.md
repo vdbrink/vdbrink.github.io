@@ -31,7 +31,7 @@ I order 90% of my home automation devices on this site for years already.
 You pay a good price, and they have fast shipping, sometimes you have the order already delivered within one week!\
 If the product is also available at Amazon, I also placed a link to it also.
 
-The products I advise and bought myself are now also bundle on these
+The products I advise and bought myself are now also bundled on these
 [Amazon US](https://amzn.to/4d6vXkN) and [Amazon NL](https://amzn.to/4cO48ip) pages.
 
 [> Go direct to the sensor section on this page.](#zigbee-sensors-and-actuators)

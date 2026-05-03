@@ -8,9 +8,10 @@ image: /images/banner.jpg
 
 ![Banner](images/banner.jpg)
 
-Welcome to my blog about Home Automations.
+Welcome to my blog about Home Automations and other tech projects.
 
-You find here examples from my automations, which you can use in your own projects.
+You find here project where I work on. 
+Projects related to Home Assistant, ESP, electronics, Zigbee.
 
 ---
 
