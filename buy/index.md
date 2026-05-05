@@ -6,7 +6,8 @@ tags: [best, buy, tips, home automation]
 ---
 # Best Buy Tips
 
-Here you find links to hardware you can buy where I'm very happy with and what I would advise others as well.
+Building a smart home starts with picking the right hardware.
+These are the devices I actually use, tested in my own home.
 
 <a href="/buy/smart_home_best_buy_tips">
 <img src="images_zigbee/zigbee_banner.png" width="500px">
