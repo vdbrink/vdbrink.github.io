@@ -47,13 +47,12 @@ These Amazon products are also bundled on these
     * [Motion sensor](#motion-sensor)
     * [Presence detection sensor](#presence-detection-sensor)
     * [Temperature sensor](#temperature-sensor)
-      * [Water-resistant option:](#water-resistant-option)
     * [Light intensity sensor](#light-intensity-sensor)
     * [Leak sensor](#leak-sensor)
     * [Pressure sensor](#pressure-sensor)
     * [Lights](#lights)
       * [Bulb](#bulb)
-    * [Bulb socket](#bulb-socket)
+      * [Bulb socket](#bulb-socket)
       * [LED strip](#led-strip)
     * [Buttons](#buttons)
       * [Wall switch](#wall-switch)
@@ -64,6 +63,7 @@ These Amazon products are also bundled on these
     * [Plant soil sensor](#plant-soil-sensor)
     * [Outdoor sensors](#outdoor-sensors)
     * [Air quality sensor](#air-quality-sensor)
+    * [Smoke detector](#smoke-detector)
     * [Infrared remote control](#infrared-remote-control)
     * [Radiator Thermostat](#radiator-thermostat)
     * [Smart socket](#smart-socket)
@@ -81,6 +81,7 @@ These Amazon products are also bundled on these
     * [Adapters](#adapters)
   * [Battery powered with PIR](#battery-powered-with-pir)
     * [Lights](#lights-1)
+    * [Automatic soap dispenser](#automatic-soap-dispenser)
 <!-- TOC -->
 
 ---
@@ -501,7 +502,7 @@ With a colored version, you can use it to inform yourself with a color for diffe
 &nbsp;
 <br>
 
-### Bulb socket
+#### Bulb socket
 
 <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="images_zigbee/bulb_socket.avif" alt="smart bulb socket" height="150px" style="margin-left:15px;float:right"/></a>
 An easy solution, screw it between the original socket and the lamp to make it controllable.
@@ -702,7 +703,7 @@ But for the other parameters, it is a good overall air quality sensor to detect 
 
 ---
 
-## Smoke detector
+### Smoke detector
 
 <a href="https://s.click.aliexpress.com/e/_c4TV3E8L" target="_blank">
 <img src="images_zigbee/smoke_detector.avif" alt="smoke detector" height="150px" style="margin-left:15px;float:right"/></a>
@@ -1039,7 +1040,7 @@ Very useful for closets or stairs where no power is available.
 <a href="https://amzn.to/42zFj4t#ad" target="_blank">(Amazon US)</a>
 
 <br>
-<!--
+
 ### Automatic soap dispenser
 
 With this automatic soap dispenser, you can wash your hands much quicker and without touching the soap dispenser!
@@ -1059,8 +1060,10 @@ I have multiple once around the house in use.
 <a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/46IqsFS#ad" target="_blank">(Amazon US)</a>
 
+Make sure you select the foam version and not the normal liquid one!
+
 <br>
--->
+
 ---
 
 <br><br>
