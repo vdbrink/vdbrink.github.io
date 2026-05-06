@@ -43,7 +43,7 @@ Inside a CO2 sensor and an ESP mini.
 
 ![final box](images_co2/holes_in_case.jpg)
 
-When you prefer a ready-to-go CO2 sensor, you can also choose for the Netatmo Healthy Home Coach.
+> **_NOTE:_** When you prefer a ready-to-go CO2 sensor, you can also choose for the Netatmo Healthy Home Coach.
 It's an all-in-one solution with a CO2 and also decibel, temperature and humidity sensor in it.
 You can find it:
 [Amazon NL](https://amzn.to/44wKKCE#ad),
@@ -78,44 +78,65 @@ The links go to an overall page with all different kinds of DIY components with 
 
 Also affiliate links are used here. Same price, but you also sponsor this blog.
 
+All the required products are also bundled on these
+[Amazon US](https://amzn.to/4ndsHIZ) and
+[Amazon NL](https://amzn.to/4u15WKY#ad) pages.
+
 These hardware components did I use for this project:
 
 * {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
-<a href="https://amzn.to/3ShAiry#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3PtwJk1#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4neifkk#ad" target="_blank">(Amazon NL)</a>
   * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
-* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3SOIvDC#ad">(Amazon US)</a>
+* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/4wfabEe#ad">(Amazon US)</a>
+<a href="https://amzn.to/4nhZkFx#ad">(Amazon NL)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43HvzFU#ad">(Amazon US)</a>
+* {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/4wfc4Re#ad">(Amazon US)</a>
+<a href="https://amzn.to/4dr5pMq#ad">(Amazon NL)</a>
   * If you order these, you can better order all three types at ones, also for any further projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
-* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. 
+* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. 
+This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. 
 
-  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43FwAya#ad">(Amazon US)</a>
+  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/42WMJOs#ad">(Amazon US)</a>
+<a href="https://amzn.to/4ncjPU9#ad">(Amazon NL)</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a> <a href="https://amzn.to/43mVuBq#ad">(Amazon US)</a>
+* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/49rY9xl#ad">(Amazon US)</a>
+<a href="https://amzn.to/4cV7cZZ#ad">(Amazon NL)</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* {{imgBasket}}5V USB EU power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqIem#ad" target="_blank">(Amazon US)</a>
+* {{imgBasket}}5V USB wall power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/4tR2PFn#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4ndTMvH#ad" target="_blank">(Amazon NL)</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
-* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/4dvqwf8#ad" target="_blank">(Amazon US)</a>. I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/42lWIgd#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4uvdwNA#ad" target="_blank">(Amazon NL)</a>. 
+I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
-* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> <a href="https://amzn.to/3Zt4Zha#ad" target="_blank">(Amazon US)</a>
+* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> 
+<a href="https://amzn.to/4cWTy8U#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4nfzylk#ad" target="_blank">(Amazon NL)</a>
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 
