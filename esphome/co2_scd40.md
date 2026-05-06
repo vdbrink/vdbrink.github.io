@@ -95,7 +95,7 @@ These hardware components do I use for this project.
 
 > **_NOTE:_** Also affiliate links are used here. Same price, and you sponsor this blog.
 
-All the required products are also bundled on these
+All the (with soldering solution) required products are also bundled on these
 [Amazon US](https://amzn.to/4eQqLEn#ad) and
 [Amazon NL](https://amzn.to/48GaTQU#ad) pages.
 
