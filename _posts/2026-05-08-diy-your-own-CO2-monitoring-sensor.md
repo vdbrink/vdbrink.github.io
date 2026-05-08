@@ -37,10 +37,13 @@ The project page includes:
 * Home Assistant dashboards
 * Automation examples
 
+<br>
 It’s a great example of creating your own affordable smart-home air quality monitoring.\
 Total locally without cloud dependency.
 
 Read more here: [ESPHome CO2 sensor project page](/esphome/co2_senseair_s8_sensor)
 
+<a href="/esphome/co2_senseair_s8_sensor">
 <img src="/esphome/images_co2/case_fit_co2_sensor.jpg" alt="perfect fit in case" height="250px" />
 <img src="/esphome/images_co2/holes_in_case.jpg" alt="holes in case" height="250px">
+</a>

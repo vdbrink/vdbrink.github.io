@@ -30,7 +30,7 @@ Besides **CO2**, this sensor also measures the **temperature** and **humidity**.
 
 CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
-If your in a room with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
+If you are in a room with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
 For your, and your family health, it's important to act when these values are too high.\
 The value rice gradual, so you don't notice it directly. 
 That's why it's important to get notified about it.

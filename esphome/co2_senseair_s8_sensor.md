@@ -18,7 +18,7 @@ image: /esphome/images_co2/case_fit_co2_sensor.jpg
 There are not so many affordable out-of-the-box CO2 sensors available, but it's easy to create one yourself.
 With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
 
-If your in a space with a too high ppm level, you can feel tired, your start yawning, 
+If you are in a space with a too high ppm level, you can feel tired, your start yawning, 
 get red cheeks and can get a headache.
 Without knowing, this happens because it goes very gradually.
 To prevent this, use your smart home automations and take action if the levels are too high.\
