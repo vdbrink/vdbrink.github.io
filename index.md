@@ -16,6 +16,22 @@ Projects related to Home Assistant, ESP, electronics, Zigbee.
 ---
 
 ## Updates
+My latest 5 posts:
+<div id="posts-list">
+    {% assign sorted_posts = site.posts | sort: "date" | reverse %}
+    {% for post in sorted_posts limit:5 %}
+    <div class="post-entry">
+        {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
+        <b>
+            <i>{{ post.date | date: date_format }}</i>
+            &ndash;
+            <a href="{{ post.url | relative_url }}">{{ post.title | remove_first: "Feed: " | escape }}</a>
+        </b>
+    </div>
+    {% endfor %}
+</div>
+
+---
 
 My latest biggest updates on this blog:
 * [Home Assistant dashboard - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
