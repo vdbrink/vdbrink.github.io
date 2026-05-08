@@ -229,6 +229,10 @@ For the current room temperature, I used my own [DIY ESPHome CO2, temperature, h
 <img src="images_layout_stretch/temperature_graph.png" alt="temperature graph" width="450px" />
 </a>
 
+This card requires the HACS integration `mini-graph-card`,
+install this integration via this button\
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kalkih&repository=mini-graph-card&category=integration)
+
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io

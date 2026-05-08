@@ -13,7 +13,7 @@ image: /esphome/images_co2/case_fit_co2_sensor.jpg
 
 ## Introduction
 
-<img src="images_co2/senseair_s8.jpg" alt="Zigbee" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_co2/senseair_s8.jpg" alt=" SenseAir S8 Co2 sensor" height="150px" style="margin-left:15px;float:right"/>
 
 There are not so many affordable out-of-the-box CO2 sensors available, but it's easy to create one yourself.
 With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
@@ -53,21 +53,22 @@ You can find it:
 
 ## Table of Contents
 <!-- TOC -->
-* [Introduction](#introduction)
-* [My final result](#my-final-result)
-* [Required hardware](#required-hardware)
-* [Required software](#required-software)
-* [Connect the hardware](#connect-the-hardware)
-  * [Connect the SenseAir S8 to the ESP](#connect-the-senseair-s8-to-the-esp)
-* [ESPHome](#esphome)
-  * [Flash the ESP](#flash-the-esp)
-* [Home Assistant](#home-assistant)
-  * [Dashboard Gauge](#dashboard-gauge)
-  * [Dashboard Line Graphic](#dashboard-line-graphic)
-  * [Dashboard History Graphic](#dashboard-history-graphic)
-  * [Dashboard condition text](#dashboard-condition-text)
-  * [Dashboard Mushroom entity](#dashboard-mushroom-entity)
-* [Automations](#automations)
+  * [Introduction](#introduction)
+  * [My final result](#my-final-result)
+  * [Required hardware](#required-hardware)
+  * [Required software](#required-software)
+  * [Connect the hardware](#connect-the-hardware)
+    * [Connect the SenseAir S8 to the ESP](#connect-the-senseair-s8-to-the-esp)
+  * [ESPHome](#esphome)
+    * [Flash the ESP](#flash-the-esp)
+  * [Home Assistant](#home-assistant)
+    * [Dashboard Gauge](#dashboard-gauge)
+    * [Dashboard Line Graphic](#dashboard-line-graphic)
+    * [Dashboard Mini Graph Card](#dashboard-mini-graph-card)
+    * [Dashboard History Graphic](#dashboard-history-graphic)
+    * [Dashboard condition text](#dashboard-condition-text)
+    * [Dashboard Mushroom entity](#dashboard-mushroom-entity)
+  * [Automations](#automations)
 <!-- TOC -->
 
 ---
@@ -273,7 +274,8 @@ name: Room CO2 sensor
 
 ### Dashboard Line Graphic
 
-To show the history of the last X hours, you can use the card.
+To show the history of the last X hours, you can use the line card.
+It's a default presentation available in Home Assistant.
 
 <img src="images_co2/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
 
@@ -285,6 +287,46 @@ graph: line
 entity: sensor.senseair_co2_value
 name: Room CO2 sensor
 hours_to_show: 6
+```
+
+### Dashboard Mini Graph Card
+
+With a Mini Graph Card you can create a color gradient graph line with the history value of the CO2 value.
+
+With a fixed `sensor.co2_value_800` sensor I defined a visual [threshold](#threshold) line for myself.
+
+This card requires the HACS integration `mini-graph-card`,
+install this integration via this button\
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kalkih&repository=mini-graph-card&category=integration)
+
+<img src="images_co2/home_assistant_co2_dashboard_mini-graph-card.png" alt="Home Assistant mini-graph-card CO2" width="500px" />
+
+```yaml
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:mini-graph-card
+entities:
+  - entity: sensor.senseair_co2_value
+  - entity: sensor.co2_value_800
+    show_fill: false
+    color: "#999999"
+    show_legend: false
+show:
+  labels: true
+hours_to_show: 12
+points_per_hour: 24
+height: 150
+color_thresholds:
+  - value: 400
+    color: "#008000"
+  - value: 800
+    color: "#0000FF"
+  - value: 1000
+    color: "#c0392b"
+  - value: 1200
+    color: "#d35400"
+  - value: 2000
+    color: "#c0392b"
 ```
 
 ### Dashboard History Graphic
@@ -308,7 +350,7 @@ hours_to_show: 24
 ```
 
 This is how you create three custom lines in the graph to see the threshold values.
-
+<a name="threshold"></a>
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io

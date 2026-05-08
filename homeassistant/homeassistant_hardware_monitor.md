@@ -115,7 +115,15 @@ This is an example of the payload:
 On the GitHub page, there is an example card to present the data nicely.
 
 I modified it a bit, and mine look like this.\
-It's using the HACS cards `vertical-stack-in-card`, `mini-graph-card` and `bar-card`.
+It's using the HACS cards:
+*  `vertical-stack-in-card`,
+   install this integration via this button\
+   [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=ofekashery&repository=vertical-stack-in-card&category=integration)
+* `mini-graph-card`,
+   install this integration via this button\
+   [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kalkih&repository=mini-graph-card&category=integration)
+* `bar-card`,
+  install this integration via [this way](https://github.com/custom-cards/bar-card#installation) (no easy button installation possible)
 
 <img src="images/system_monitor.png" alt="System monitor" width="500px">
 
