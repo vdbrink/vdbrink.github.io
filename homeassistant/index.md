@@ -24,7 +24,7 @@ I created dashboards with all kinds of elements on it:
   * [Template examples](homeassistant_templates) creating, debugger, practical examples 
   * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
-  * [External sites](homeassistant_dashboard_weather) (Thunderstorm)
+  * [Forecast temperatures](homeassistant_dashboard_weather) (Temperature, Forecast, Thunderstorm)
   * [The Netherlands](homeassistant_dashboard_weather_nl) (Buienradar, weeralarm, pollen)
   * [Aurora integration](homeassistant_aurora) Aurora Borealis alert
 * [HACS custom elements](homeassistant_dashboard_hacs) (Overview of some very useful custom HACS elements)
