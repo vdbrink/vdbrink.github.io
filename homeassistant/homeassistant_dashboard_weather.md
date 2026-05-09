@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Weather"
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, weather, thunder, lightning]
-image: /homeassistant/images/thunderstorm.jpg
+image: /homeassistant/images_hacs/hacs_weather-chart-card.png
 ---
 
 # Home Assistant dashboard: Weather
@@ -17,7 +17,7 @@ Most of the cards are highly configurable, check the source site for all possibl
 ## Table of Contents
 <!-- TOC -->
   * [Weather Chart Card](#weather-chart-card)
-  * [Lovelace animated weather card](#lovelace-animated-weather-card)
+  * [Animated weather card](#animated-weather-card)
   * [Clock weather card](#clock-weather-card)
   * [Windy.com compact forecast](#windycom-compact-forecast)
   * [Hourly Weather Card](#hourly-weather-card)
@@ -38,29 +38,32 @@ With current weather conditions and forecast for the upcoming hours.
 Install this HACS [**Weather Chart Card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
 
-{% endraw %}
+With no extra parameters defined you get a full card with available data.
+
 ```yaml
-  {% raw %}
-  # Sourcecode by vdbrink.github.io
-  # Dashboard card code
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: custom:weather-chart-card
 entity: weather.home
+{% endraw %}
 ```
 
 ### Example 2
 
-Only with forecast data and alternative presentation style 2.
+If you want to customize the presentation it can get a complete different look, and you can (de)active elements.
+
+E.g. only with forecast data and an alternative presentation style.
 
 <img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
 
 Install this HACS [**Weather Chart Card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
 
-{% endraw %}
 ```yaml
-  {% raw %}
-  # Sourcecode by vdbrink.github.io
-  # Dashboard card code
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
 type: custom:weather-chart-card
 entity: weather.forecast_home
 forecast:
@@ -70,14 +73,15 @@ forecast:
   show_wind_forecast: false
 show_main: false
 show_attributes: false
+{% endraw %}
 ```
 
 ---
-## Lovelace animated weather card
+## Animated Weather Card
 
-This Lovelace animated weather card comes with current weather conditions and the predictions for the coming days.
+This Animated Weather Card comes with current weather conditions and the predictions for the coming days.
 
-![Lovelace animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
+![Animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
 
 Install the HACS [**Animated Weather Card**](https://github.com/bramkragten/weather-card) integration via this button.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
@@ -97,7 +101,7 @@ number_of_forecasts: 5
 ```
 
 ---
-## Clock weather card
+## Clock Weather Card
 
 Animated weather icon, with current weather and a temperature forecast with min/max temperature bars for the upcoming days.
 
@@ -172,7 +176,7 @@ aspect_ratio: 44%
 
 The forecast in a bar and with the temperature per hour.
 
-<img src="images_weather/hourly-weather.png" alt="hourly-weather Home Assistant card" width="400px">
+<img src="images_weather/hourly-weather.png" alt="Hourly Weather Card Home Assistant card" width="400px">
 
 Install the HACS [**Hourly Weather Card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=decompil3d&repository=lovelace-hourly-weather&category=integration)
@@ -241,6 +245,6 @@ A template that indicates good or bad based on a threshold value.
 
 ---
 
-[Dutch weather elements >>](homeassistant_dashboard_weather)
+[Dutch focused weather cards >>](homeassistant_dashboard_weather)
 
 [<< See also my other Home Assistant tips and tricks](index)
