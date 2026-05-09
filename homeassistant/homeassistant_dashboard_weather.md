@@ -16,7 +16,10 @@ Here you can find weather related examples for your own dashboard.
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Weather Chart Card](#weather-chart-card)
+  * [Lovelace animated weather card](#lovelace-animated-weather-card)
   * [HACS Clock weather card](#hacs-clock-weather-card)
+  * [Windy.com compact forecast](#windycom-compact-forecast)
   * [Hourly Weather Card](#hourly-weather-card)
   * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
   * [Lightning and thunderstorm](#lightning-and-thunderstorm)
@@ -24,8 +27,78 @@ Here you can find weather related examples for your own dashboard.
 <!-- TOC -->
 
 ---
+## Weather Chart Card
 
+Install this HACS [**weather-chart-card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
+
+### Example 1
+
+With current weather conditions and forecast for the upcoming hours.
+
+<img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:weather-chart-card
+entity: weather.home
+{% endraw %}
+```
+
+### Example 2
+
+Only with forecast data and alternative presentation style 2.
+
+<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:weather-chart-card
+entity: weather.forecast_home
+forecast:
+  style: style2
+  round_temp: true
+  condition_icons: false
+  show_wind_forecast: false
+show_main: false
+show_attributes: false
+{% endraw %}
+```
+
+---
+## Lovelace animated weather card
+
+Current weather conditions and the predictions for the coming days.
+
+![Lovelace animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
+
+Repo: [https://github.com/bramkragten/weather-card](https://github.com/bramkragten/weather-card)
+
+Install this integration via this button in your own HA instance.\
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:weather-card
+entity: weather.yourweatherentity
+current: true
+details: false
+forecast: true
+hourly_forecast: false
+number_of_forecasts: 5
+{% endraw %}
+```
+
+---
 ## HACS Clock weather card
+
+Animated weather icon, with current weather and a temperature forecast with min/max temperature bars for the upcoming days.
 
 <img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
 
@@ -75,7 +148,26 @@ forecast_rows: 12
 ```
 
 ---
+## Windy.com compact forecast
 
+Show an iframe with a very compact presentation but with much information for the upcoming hours.
+Clouds/sunny, position of the sun, temperature, rain, wind force, wind gust, wind direction, 
+
+<img src="images_weather/home-assistant-windy-com.png" alt="Home Assistant Windy.com" width="400px">
+
+Replace in this YAML code the longitude and latitude values (2x) for the weather at your location.
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: iframe
+url: >-
+https://embed.windy.com/embed2.html?lat=52.000&lon=4.000&detailLat=52.000&detailLon=4.000&width=650&height=180&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=bft&metricTemp=%C2%B0C&radarRange=-1
+aspect_ratio: 44%
+{% endraw %}
+```
+
+---
 ## Hourly Weather Card
 
 The forecast in a bar and with the temperature per hour.
@@ -99,15 +191,16 @@ name: " "
 ```
 
 ---
-
 ## Kleenex pollen radar Integration
+
+Pollen integration with intensity for weeds, grasses and trees for today.
 
 <img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
 
-Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration.
+Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration for more cards with multi day forecast.
+And graphs with details different types of pollen per type of trees.
 
 ---
-
 ## Lightning and thunderstorm
 
 Show an iframe with the realtime lightning and thunderstorm activities from blitzortung.org.
@@ -125,6 +218,7 @@ aspect_ratio: '1:0.6'
 {% endraw %}
 ```
 
+---
 ## Outside pressure, good vs bad
 
 A template that indicates good or bad based on a threshold value.
