@@ -9,16 +9,16 @@ image: /homeassistant/images/thunderstorm.jpg
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find weather related examples for your own dashboard.
+Here you can find different examples of weather forecast dashboard cards with copy-paste YAML code.
 
-[Here](homeassistant_dashboard_weather_nl) you can also find Dutch specific weather elements.
+Most of the cards are highly configurable, check the source site for all possible parameters which fits your needs the best.
 
 ---
 ## Table of Contents
 <!-- TOC -->
   * [Weather Chart Card](#weather-chart-card)
   * [Lovelace animated weather card](#lovelace-animated-weather-card)
-  * [HACS Clock weather card](#hacs-clock-weather-card)
+  * [Clock weather card](#clock-weather-card)
   * [Windy.com compact forecast](#windycom-compact-forecast)
   * [Hourly Weather Card](#hourly-weather-card)
   * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
@@ -29,22 +29,22 @@ Here you can find weather related examples for your own dashboard.
 ---
 ## Weather Chart Card
 
-Install this HACS [**weather-chart-card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
-[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
-
 ### Example 1
 
 With current weather conditions and forecast for the upcoming hours.
 
 <img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
 
+Install this HACS [**Weather Chart Card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
+
+{% endraw %}
 ```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
+  {% raw %}
+  # Sourcecode by vdbrink.github.io
+  # Dashboard card code
 type: custom:weather-chart-card
 entity: weather.home
-{% endraw %}
 ```
 
 ### Example 2
@@ -53,10 +53,14 @@ Only with forecast data and alternative presentation style 2.
 
 <img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
 
+Install this HACS [**Weather Chart Card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
+
+{% endraw %}
 ```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
+  {% raw %}
+  # Sourcecode by vdbrink.github.io
+  # Dashboard card code
 type: custom:weather-chart-card
 entity: weather.forecast_home
 forecast:
@@ -66,19 +70,16 @@ forecast:
   show_wind_forecast: false
 show_main: false
 show_attributes: false
-{% endraw %}
 ```
 
 ---
 ## Lovelace animated weather card
 
-Current weather conditions and the predictions for the coming days.
+This Lovelace animated weather card comes with current weather conditions and the predictions for the coming days.
 
 ![Lovelace animated weather card](https://raw.githubusercontent.com/bramkragten/custom-ui/master/weather-card/weather-card.gif)
 
-Repo: [https://github.com/bramkragten/weather-card](https://github.com/bramkragten/weather-card)
-
-Install this integration via this button in your own HA instance.\
+Install the HACS [**Animated Weather Card**](https://github.com/bramkragten/weather-card) integration via this button.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bramkragten&repository=weather-card&category=integration)
 
 ```yaml
@@ -96,13 +97,13 @@ number_of_forecasts: 5
 ```
 
 ---
-## HACS Clock weather card
+## Clock weather card
 
 Animated weather icon, with current weather and a temperature forecast with min/max temperature bars for the upcoming days.
 
 <img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
 
-Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
+Install the HACS [**Clock Weather Card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
 
 ```yaml
@@ -161,8 +162,7 @@ Replace in this YAML code the longitude and latitude values (2x) for the weather
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
 type: iframe
-url: >-
-https://embed.windy.com/embed2.html?lat=52.000&lon=4.000&detailLat=52.000&detailLon=4.000&width=650&height=180&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=bft&metricTemp=%C2%B0C&radarRange=-1
+url: https://embed.windy.com/embed2.html?lat=52.000&lon=4.000&detailLat=52.000&detailLon=4.000&width=650&height=180&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=bft&metricTemp=%C2%B0C&radarRange=-1
 aspect_ratio: 44%
 {% endraw %}
 ```
@@ -212,8 +212,7 @@ Show an iframe with the realtime lightning and thunderstorm activities from blit
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
 type: iframe
-url: >-
-https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=1&ScaleControl=1&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=0&MapStyleRangeValue=0&Advertisment=#10/52.100676/5.168668
+url: https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=1&ScaleControl=1&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=0&MapStyleRangeValue=0&Advertisment=#10/52.100676/5.168668
 aspect_ratio: '1:0.6'
 {% endraw %}
 ```
