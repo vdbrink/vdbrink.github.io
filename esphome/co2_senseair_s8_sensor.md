@@ -15,10 +15,10 @@ image: /esphome/images_co2/case_fit_co2_sensor.jpg
 
 <img src="images_co2/senseair_s8.jpg" alt=" SenseAir S8 Co2 sensor" height="150px" style="margin-left:15px;float:right"/>
 
-There are not so many affordable out-of-the-box CO2 sensors available, but it's easy to create one yourself.
+There are not many affordable out-of-the-box CO2 sensors available, but it's easy to create one yourself.
 With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
 
-If you are in a space with a too high ppm level, you can feel tired, your start yawning, 
+If you are in a space with a too high ppm level, you can feel tired, you start yawning, 
 get red cheeks and can get a headache.
 Without knowing, this happens because it goes very gradually.
 To prevent this, use your smart home automations and take action if the levels are too high.\
@@ -26,7 +26,7 @@ This keeps you and your family healthy!
 
 CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
-The average value outside is around 400 ppm, which is a base value.
+The average value outside is around 400 ppm, which is the baseline value.
 That's also why you need to open a window when the value is too high, get some fresh air from outside.
 
 | ppm        | condition | action                              |
@@ -38,14 +38,14 @@ That's also why you need to open a window when the value is too high, get some f
 ---
 ## My final result
 
-A small box with a tail.  
-Inside a CO2 sensor and an ESP mini.
+The finished sensor is compact, practical, and easy to place anywhere in the room.  
+Everything fits inside a small case: the SenseAir S8 sensor, an ESP mini.
 
 ![final box](images_co2/holes_in_case.jpg)
 
-> **_NOTE:_** When you prefer a ready-to-go CO2 sensor, you can also choose for the Netatmo Healthy Home Coach.
-It's an all-in-one solution with a CO2 and also decibel, temperature and humidity sensor in it.
-You can find it:
+> **_NOTE:_** If you prefer a ready-to-go CO2 sensor, you can also choose the Netatmo Healthy Home Coach.
+> It is an all-in-one solution with CO2, decibel, temperature, and humidity sensors.
+> You can find it here:
 [Amazon NL](https://amzn.to/44wKKCE#ad),
 [Amazon DE](https://amzn.to/42nXN80#ad)
 
@@ -83,13 +83,13 @@ All the required products are also bundled on these
 [Amazon US](https://amzn.to/4ndsHIZ) and
 [Amazon NL](https://amzn.to/4u15WKY#ad) pages.
 
-These hardware components did I use for this project:
+These are the hardware components I used for this project:
 
 * {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
 <a href="https://amzn.to/3OXb03U#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4neifkk#ad" target="_blank">(Amazon NL)</a>
-  * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
+  * <a href="https://senseair.com/product/s8/">Manufacturer product page</a> 
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
@@ -100,15 +100,15 @@ These hardware components did I use for this project:
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> 
+* {{imgBasket}}Dupont male-to-male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/4wfc4Re#ad">(Amazon US)</a>
 <a href="https://amzn.to/4dgoMqj#ad">(Amazon NL)</a>
-  * If you order these, you can better order all three types at ones, also for any further projects
+  * If you order these, it's better to order all three types at once, also for any future projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
-* Plastic DIY Case, I used a box with the sizes 70 x 45 x 30 mm. 
-This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. 
+* Plastic DIY case, I used a box with dimensions 70 x 45 x 30 mm. 
+This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with dimensions of this size or larger. 
 
   * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/4ts9gxB#ad">(Amazon US)</a>
@@ -131,7 +131,7 @@ This one is not available anymore, but you can order a similar one (it's in <a h
 * {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/42lWIgd#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4uvdwNA#ad" target="_blank">(Amazon NL)</a>. 
-I suggest this based on the reviews. I already had one. Please let me know if you advise this one or not?
+I suggest this based on the reviews. I already had one. Please let me know whether you recommend this one.
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
@@ -141,7 +141,7 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>
 
-Also affiliate links are used here, so you sponsor my blog also with it, without paying extra for it.
+Also affiliate links are used here, so you also support my blog without paying extra for it.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
 
@@ -163,9 +163,9 @@ Read [here](esphome_flashing) how to upload it.
 
 ## Connect the hardware
 
-I've made a scheme how to connect the SenseAir S8 to the ESP.
+I've made a diagram showing how to connect the SenseAir S8 to the ESP.
 
-The ESP and sensor don't come with pins, so you need to solder a bit to connect the male-to-male dupont cables between the sensor and the ESP.
+The ESP and sensor don't come with pins, so you need to solder on some pins to connect the male-to-male dupont cables between the sensor and the ESP.
 
 ### Connect the SenseAir S8 to the ESP
 
@@ -187,7 +187,7 @@ This table shows how the ESP is connected with the SenseAir.
 &ast; The `GPIO Wemos pin` is the port which is used in the ESPHome yaml.
 
 
-If you place the sensor on top of the ESP mini, it fits perfect in the DIY box.
+If you place the sensor on top of the ESP mini, it fits perfectly in the DIY box.
 
 You need to drill a hole in the edge of the box so the USB power cable can go through it.
 ![perfect fit in case](images_co2/case_fit_co2_sensor.jpg)
@@ -207,7 +207,7 @@ I drilled some holes in the case. Now the air can reach the CO2 sensor inside th
 
 Connect the ESP via USB to the computer.
 
-Install ESPHome and compile the configuration code after you configured your own wifi. And configure (or remove) the MQTT section. This is not needed if you integrate it direct in Home Assistant.
+Install ESPHome and compile the configuration code after you've configured your own wifi. And configure (or remove) the MQTT section. This is not needed if you integrate it directly in Home Assistant.
 
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
@@ -274,7 +274,7 @@ name: Room CO2 sensor
 
 ### Dashboard Line Graphic
 
-To show the history of the last X hours, you can use the line card.
+To show the history of the last X hours, you can use the line graph card.
 It's a default presentation available in Home Assistant.
 
 <img src="images_co2/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
@@ -291,7 +291,7 @@ hours_to_show: 6
 
 ### Dashboard Mini Graph Card
 
-With a Mini Graph Card you can create a color gradient graph line with the history value of the CO2 value.
+With a Mini Graph Card you can create a color gradient graph line with the history of the CO2 readings.
 
 With a fixed `sensor.co2_value_800` sensor I defined a visual [threshold](#threshold) line for myself.
 
@@ -363,7 +363,7 @@ This is how you create three custom lines in the graph to see the threshold valu
           value_template: 800
           unit_of_measurement: 'ppm'
         co2_value_1200:
-          friendly_name: "avarage"
+          friendly_name: "average"
           value_template: 1200
           unit_of_measurement: 'ppm'
         co2_value_1500:
@@ -377,7 +377,7 @@ This is how you create three custom lines in the graph to see the threshold valu
 
 <img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional CO2 text" width="500px" />
 
-This creates a new sensor that shows a textual presentation of the current condition.
+This creates a new sensor that shows a text representation of the current condition.
 
 ```yaml
 {% raw %}
@@ -398,7 +398,7 @@ This creates a new sensor that shows a textual presentation of the current condi
 {% endraw %}
 ```
 
-In my dashboard, I have a section with important messages. Only when there is an action required, you see that here.
+In my dashboard, I have a section with important messages. Only when action is required do you see that here.
 There is also a message when the CO2 value is not good. This section can be achieved by using conditional entities. 
 
 ```yaml
@@ -419,7 +419,7 @@ entities:
 ### Dashboard Mushroom entity
 
 <img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"> 
- Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
+ Show a green icon, without any text, if the level is less than 800 ppm, less than 1200 ppm yellow, and less than 1500 ppm red.
 
 
 ```yaml
@@ -454,6 +454,8 @@ chips:
 
 When the CO2 value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
 Or use a colored light or [LED-strip](/projects/bin_day_led_strip_reminder) to indicate the condition.
+
+It's now easy to present on a [wall panel dashboard](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) in your living room.
 
 <br><br>
 Keep your home healthy, measuring is knowing!
