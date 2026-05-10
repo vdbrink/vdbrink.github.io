@@ -10,15 +10,15 @@ image: /homeassistant/images_layout/ha_layout_banner.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="margin-left:20px;float: right" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant dashboard layout tips.
+Here you will find Home Assistant dashboard layout tips.
 
 I like compact layouts.\
-Over the years I found different ways to group a lot of entity state information together in a nice and compact way.\
-And I only show entities which are relevant for the time of day, year or what else...
+Over the years I found different ways to group a lot of entity state information together in a compact and readable way.\
+I only show entities that are relevant for the time of day, the season, or whatever else matters at that moment.
 
-I hope you can use my examples for your dashboard!
+I hope you can use these examples for your own dashboard.
 
-> **_NOTE:_** For some of the examples here, you need to install first an extra HACS integration.
+> **_NOTE:_** Some of the examples require an extra HACS integration. If possible I added a link which makes it possible to directly install in on your own Home Assistance instance.
 
 ---
 ## Table of Contents
@@ -40,11 +40,11 @@ I hope you can use my examples for your dashboard!
 
 ## Horizontal stack
 
-With a horizontal-stack you can place multiple entities next to each other in one row.
+With a horizontal-stack, you can place multiple entities next to each other in one row.
 
 <img src="images_layout/layout_horizontal-stack.png" alt="horizontal stack" width="400px">
 
-You see here two gauges next to each other instead of the "normal" double sized cards under each other.
+Here you see two gauges next to each other instead of the usual double-sized cards stacked under one another.
 
 ```yaml
 {% raw %}
@@ -77,14 +77,14 @@ cards:
 
 ## Vertical stack
 
-With a vertical-stack card you can group cards together underneath each other. Reordering of the cards will have no effect on them.
+With a vertical-stack card, you can group cards underneath each other. Reordering the cards will not change their layout.
 
-In this example, you see a button panel build with a vertical stack with 3 rows.\
-And each row has a horizontal stack. This way all buttons keeps always in the same size and position.
+In this example, you see a button panel built with a vertical stack of 3 rows.\
+Each row has a horizontal stack. That keeps all buttons the same size and position.
 
 <img src="images_layout/layout_stacks.png" alt="stacks" width="400px">
 
-In this YAML, the content of the button entities is removed, it shows the idea and format of the corresponding code.
+In this YAML, the button content is removed so it only shows the idea and structure of the code.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -128,12 +128,12 @@ cards:
 
 ## Data in a row
 
-Different types of (weather) data, with [rounded](homeassistant_dashboard_formatting#rounded-temperature-sensors) states, next to each other in a single row. This saves a lot of space compared to normal entity states in a list!
+Different types of (weather) data, with [rounded](homeassistant_dashboard_formatting#rounded-temperature-sensors) states, can sit next to each other in a single row. This saves a lot of space compared to a normal entity list.
 
 <img src="images_layout/layout_weather.png" alt="machines" width="400px">
 
 The custom HACS integration [multiple-entity-row](homeassistant_dashboard_hacs#multiple-entity-row) is used here.
-Install this integration via this button in your own HA instance.\
+Install this integration in your own Home Assistant instance via this button.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=benct&repository=lovelace-multiple-entity-row&category=integration)
 
 
@@ -217,8 +217,8 @@ Present [rounded temperatures](homeassistant_dashboard_formatting#rounded-temper
 ---
 ## Six in a row
 
-Show (machine) status next to each other.\
-The color indicates the state. No textual state text is needed this way.
+Show machine status next to each other.\
+The color indicates the state, so no text label is needed.
 
 <img src="images_layout/layout_machines.png" alt="machines six in a row" width="400px">
 
@@ -250,7 +250,7 @@ Use the slider to dim the light.
 <img src="images_layout/layout_lamp_slider.png" alt="lamp sliders" width="400px">
 
 The custom HACS integration [slider-entity-row](homeassistant_dashboard_hacs#slider-entity-row) is also used here. 
-Install this integration via this button in your own HA instance.\
+Install this integration in your own Home Assistant instance via this button.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-slider-entity-row&category=integration)
 
 ```yaml
@@ -270,8 +270,8 @@ cards:
 
 ## Only the sensor state
 
-Show only the sensor state and use the whole width of the card for the text.
-There is also a link added here for more information.
+Show only the sensor state and use the full width of the card for the text.
+There is also a link for more information.
 
 <img src="images/news_headline.png" alt="news nu.nl" width="400px">
 
@@ -284,15 +284,15 @@ There is also a link added here for more information.
 {% endraw %}
 ```
 
-See the [webscraper](homeassistant_web_scraper) page how to add this text as sensor.
+See the [webscraper](homeassistant_web_scraper) page for how to add this text as a sensor.
 
 ---
 
 ## Conditional visible
 
 Sometimes you only want to show an entity if it has a specific state.\
-Like when there is no rain expected, I don't need this graph to be visible on my dashboard. Especially in periods with no rain expected, it's useless space consuming.\
-This functionality makes your dashboard more dynamic, compact and shows only actual useful information.
+For example, if no rain is expected, there is no reason to keep that graph visible on the dashboard. It only wastes space.\
+This approach makes your dashboard more dynamic and compact, and it keeps the focus on useful information.
 
 <img src="images_layout/layout_optional.png" alt="conditional visible" width="400px">
 
@@ -336,21 +336,21 @@ This functionality makes your dashboard more dynamic, compact and shows only act
 {% endraw %}
 ```
 
-The used weather alarm entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
+The weather alarm entity used here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
 
-> **_NOTE:_** The `rain_expected` sensor here is a personal custom sensor, provided by a Node-RED script which checks the data from `sensor.neerslag_buienalarm_regen_data` and `sensor.neerslag_buienradar_regen_data` if any rain is expected. 
+> **_NOTE:_** The `rain_expected` sensor here is a personal custom sensor, provided by a Node-RED script that checks `sensor.neerslag_buienalarm_regen_data` and `sensor.neerslag_buienradar_regen_data` to decide whether rain is expected. 
 
 ---
 ## Entities sorted by state
 
-Show all entities with match with a wildcard `*` selection. In this case `sensor.*waste_pickup_countdown` and sort it on the `state` by its `numeric` state. The value behind the number is defined as attribute `unit_of_measurement` and not part of the state otherwise the sort won't work.
+Show all entities that match a wildcard `*` selection. In this case, `sensor.*waste_pickup_countdown` is sorted by its numeric state. The value behind the number is stored in the `unit_of_measurement` attribute and is not part of the state itself, otherwise the sort will not work.
 
-See the [afvalbeheer](homeassistant_hacs_afvalbeheer#days-count-down) page how to create these countdown custom sensor days instead of showing a date.
+See the [afvalbeheer](homeassistant_hacs_afvalbeheer#days-count-down) page for how to create these countdown sensors instead of showing a date.
 
 <img src="images_afvalbeheer/days_countdown.png" alt="ordered by date" width="400px">
 
 The custom HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) is used here.
-Install this integration via this button in your own HA instance.\
+Install this integration via this button in your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 ```yaml
@@ -376,16 +376,15 @@ Install this integration via this button in your own HA instance.\
 
 ## Card per room
 
-There are different ways to group entities per subject together. One way is, for example, to create for each room a separated card. Here is one example:
+There are different ways to group entities by subject. One option is to create a separate card for each room. Here is one example:
 
 <img src="images_layout/layout_per_room.png" alt="data per room" width="400px">
 
-This card is not by default available, but as custom HACS integration [room-card](https://github.com/marcokreeft87/room-card?tab=readme-ov-file#room-card).
-Install it
+This card is not available by default, but you can install it as the custom HACS integration [room-card](https://github.com/marcokreeft87/room-card?tab=readme-ov-file#room-card).
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=marcokreeft87&repository=room-card&category=integration)
 
-Check here all the possible options for this card https://github.com/marcokreeft87/room-card/wiki/Configuration
+Check the [configuration page](https://github.com/marcokreeft87/room-card/wiki/Configuration) for all available options.
 
 This is the corresponding YAML for the screenshot.
 
@@ -424,12 +423,12 @@ entities:
 
 ## Embed Grafana graph
 
-There is a dedicated [Home Assistant dashboard: Grafana integration](/homeassistant/homeassistant_dashboard_grafana) page how to integrate Grafana graphs in your Home Assistant dashboard.
+There is a dedicated [Home Assistant dashboard: Grafana integration](/homeassistant/homeassistant_dashboard_grafana) page that shows how to integrate Grafana graphs into your Home Assistant dashboard.
 
 <img src="images_layout/layout_grafana.png" alt="ordered by date" width="400px">
 
-You need to activate the iframe allowed functionality in Grafana, and then you can include a graph via an iframe/web card in Home Assistant.\
-Read all about in on the dedicated page.
+You need to enable iframe access in Grafana, and then you can include a graph via an iframe or web card in Home Assistant.\
+Read all about it on the dedicated page.
 
 ---
 

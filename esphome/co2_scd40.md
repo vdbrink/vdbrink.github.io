@@ -16,13 +16,13 @@ image: /esphome/images_scd40/hardware.jpg
 
 <img src="images_scd40/SCD40_co2_with_cable.webp" alt="SCD40" height="150px" style="margin-left:15px;float:right"/>
 
-There are CO2 sensors available, most of them are expensive, but 
-you can also create one yourself with just a single sensor and an ESP board. 
-It's easy (and fun) to create one yourself.\
-You can even create this one **WITHOUT SOLDERING!!**
+Affordable CO2 sensors do exist, but many of them are expensive. 
+You can also build one yourself with just a single sensor and an ESP board. 
+It is easy, practical, and a nice project to do yourself.\
+You can even build this one **without soldering**.
 
-> **_NOTE:_** The SCD41 can also be used here, the pins are the same. The difference between these two models is in their range and power consumption.
-> The SCD41 can reach up to 5000 (compared to 2000) ppm, and the lower power consumption is reached by a periodic measurement every 5 minutes compared to do it always realtime.
+> **_NOTE:_** The SCD41 can also be used here; the pins are the same. The difference between these two models is their range and power consumption.
+> The SCD41 can reach up to 5000 ppm, compared to 2000 ppm for the SCD40, and it uses less power when you measure periodically every 5 minutes instead of continuously.
 
 Besides **CO2**, this sensor also measures the **temperature** and **humidity**.
 
@@ -30,14 +30,14 @@ Besides **CO2**, this sensor also measures the **temperature** and **humidity**.
 
 CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 
-If you are in a room with a too high ppm level, you can feel tired, your start yawning and can give you a headache.
-For your, and your family health, it's important to act when these values are too high.\
-The value rice gradual, so you don't notice it directly. 
+If you are in a room with a too high ppm level, you can feel tired, start yawning, and get a headache.
+For your health and your family's health, it is important to act when these values are too high.\
+The value rises gradually, so you do not notice it directly. 
 That's why it's important to get notified about it.
 
-The base value is what you measure outside and is around 400 ppm.
+The baseline value is what you measure outside and is around 400 ppm.
 
-This table shows for which value, which action is required.
+This table shows which action is required for each value.
 
 | ppm        | condition | action                              |
 |------------|-----------|-------------------------------------|
@@ -47,25 +47,25 @@ This table shows for which value, which action is required.
 
 <br>
 
-In Home Assistant, you can visualize how the CO2 value changed over time.
-And with an automation, you can get notified when the value is too high. 
-Send this notification to your phone or make an announcement via a smart speaker.
+In Home Assistant, you can visualize how the CO2 value changes over time.
+With an automation, you can get notified when the value is too high. 
+Send the notification to your phone or make an announcement via a smart speaker.
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="SCD40" height="250px"/>
 
-Read along how you create this sensor yourself...
+Read on to see how you can build this sensor yourself.
 
-When you prefer a ready-to-go CO2 sensor, you can also choose for the Netatmo Healthy Home Coach.
-It's an all-in-one solution with a CO2 and also decibel, temperature and humidity sensor in it.
-You can find it:
+If you prefer a ready-to-go CO2 sensor, you can also choose the Netatmo Healthy Home Coach.
+It is an all-in-one solution with CO2, decibel, temperature, and humidity sensors.
+You can find it here:
 {{imgBasket}}[Amazon NL](https://amzn.to/44wKKCE#ad)
 
 ---
 
 ## My solution
 
-This sensor is the easiest way to start with ESPHome.\
-No soldering is required here.\
+This is one of the easiest ways to get started with ESPHome.\
+No soldering is required.\
 You only need to connect the wires to the ESP and flash the correct configuration.
 
 <a href="images_scd40/hardware.jpg">
@@ -91,21 +91,21 @@ Click on the photo to open it fullscreen.
 
 ## Required hardware
 
-These hardware components do I use for this project.
+These are the hardware components I used for this project.
 
-> **_NOTE:_** Also affiliate links are used here. Same price, and you sponsor this blog.
+> **_NOTE:_** Affiliate links are used here. Same price, and you support this blog.
 
-All the (with soldering solution) required products are also bundled on these
+The required products, including the soldering version, are also bundled on these
 [Amazon US](https://amzn.to/4eQqLEn#ad) and
 [Amazon NL](https://amzn.to/48GaTQU#ad) pages.
 
 ### SCD40 CO2 sensor
 
-This small gas sensor measures **CO2** (in a range 400-2000 ppm) and also **temperature** (-10-60 degrees) and **humidity** (0-100 percent).\
-The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) for all the details specs from this sensor.
+This small gas sensor measures **CO2** (in a range of 400-2000 ppm), **temperature** (-10-60 degrees), and **humidity** (0-100 percent).\
+The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) has all the technical details for this sensor.
 
 <a href="https://s.click.aliexpress.com/e/_c4mXziGn" target="_blank">
-{{imgBasket}}This sensor with i2c interface is useful if you don't want to solder (AliExpress)
+{{imgBasket}}This sensor with an I2C interface is useful if you do not want to solder (AliExpress)
 </a> 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">Alternative (AliExpress)</a>
 <br>
@@ -114,7 +114,7 @@ The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD
 </a>
 
 <br>
-{{imgBasket}}Otherwise you can also buy this cheaper version where you need to solder the pins 
+{{imgBasket}}Otherwise, you can also buy this cheaper version where you need to solder the pins 
 <a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4ss4zEb#ad" target="_blank"> (Amazon US)</a>
 <a href="https://amzn.to/3XUVXsB#ad" target="_blank"> (Amazon NL)</a>
@@ -122,9 +122,9 @@ The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD
 ### ESP board
 
 You can use any ESP board: {{imgBasket}}[ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../buy/esphome_diy#esp-d1-mini), 
-but on this page I use a ESP8266.
+but on this page I use an ESP8266.
 
-{{imgBasket}}ESP8266 NodeMCU v3 (Ch340) with pre soldered pins
+{{imgBasket}}ESP8266 NodeMCU v3 (CH340) with pre-soldered pins
 <a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">Alternative (AliExpress)</a>
 <a href="https://amzn.to/4sTpEao#ad" target="_blank">(Amazon US)</a>
@@ -139,12 +139,12 @@ but on this page I use a ESP8266.
 
 ### Case
 
-You can use any object with holes in it, which has a minimum length of 7 cm, width of 3 cm, and a height of 3 cm.\
-The only requirement is that there could be enough air reach the sensor to measure the values in the air.\
+You can use almost any object with holes in it, as long as it has a minimum length of 7 cm, a width of 3 cm, and a height of 3 cm.\
+The only requirement is that enough air can reach the sensor so it can measure the values in the room.\
 
-It can also be a plastic box from a local shop and drill some holes in it.
+A plastic box from a local shop works well too, as long as you drill some holes in it.
 
-Also, a decorative small statuette can be used as long as it is porous or with holes.
+Even a small decorative statuette can work, provided it is porous or has enough openings.
 
 {{imgBasket}}On AliExpress, they also sell 
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
@@ -161,7 +161,7 @@ Plastic DIY Cases (AliExpress)
 A cable to power the ESP.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
-Micro USB cable to USB A to power the ESP (AliExpress)</a>
+Micro USB cable to USB-A to power the ESP (AliExpress)</a>
 <a href="https://amzn.to/4lqcvCK#ad" target="_blank">(Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
@@ -190,9 +190,9 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ## Connect the hardware
 
-I've made a scheme how to connect the GY SCD40 to the ESP.\
-This sensor uses an i2c bus interface to connect to the ESP. 
-This makes it possible to connect multiple sensors to this bus.\
+I have made a diagram showing how to connect the GY SCD40 to the ESP.\
+This sensor uses an I2C bus interface to connect to the ESP. 
+That also makes it possible to connect multiple sensors to the same bus.\
 The ESP has predefined pins for SDA (data) and SDL (clock).
 
 | ESP pin | GPIO esp8266 pin | SCD40 pin   | color  |
@@ -204,7 +204,7 @@ The ESP has predefined pins for SDA (data) and SDL (clock).
 
 ### Connect the SCD40 to the ESP
 
-Connect the four wires direct to the ESP8266 NodeMCU like this.
+Connect the four wires directly to the ESP8266 NodeMCU like this.
 
 <a href="images_scd40/hardware.jpg">
 <img src="images_scd40/hardware.jpg" alt="hardware connected" height="400px"/>
@@ -226,21 +226,21 @@ Click on the photos to open them in fullscreen.
 
 The only software you need is <a href="https://esphome.io/" target="_blank">ESPHome</a>.
 
-This software is used to flash the config file to the ESP board.
+This software is used to flash the configuration file to the ESP board.
 
-Their website contains a lot of information about how-to config and calibrate all kinds of sensors.\
-Also, the one we used here:
+Their website contains a lot of information about how to configure and calibrate all kinds of sensors.\
+The relevant pages for this project are:
 * [ESPHome SCD4X page](https://esphome.io/components/sensor/scd4x.html)
 * [ESPHome I2C page](https://esphome.io/components/i2c.html)
 
 ### Flash the script
 
-There are a lot of ways to flash the config file with ESPHome to the board.\
+There are many ways to flash the configuration file with ESPHome to the board.\
 Read [here](esphome_flashing) how to upload it.
 
 Connect the ESP via USB to the computer.
 
-One possible way is to run Python in command line:
+One easy way is to run it from the command line:
 > esphome "co2_scd40.yaml" run
 
 <img src="images_scd40/python_flash.png" alt="Python Flash output" width="400px">
@@ -294,28 +294,28 @@ sensor:
 ---
 ## Test if it works
 
-Now the data is flashed, check if the sensor pushes the CO2, temperature and humidity data correctly.
+Now that the data is flashed, check whether the sensor pushes the CO2, temperature, and humidity data correctly.
 
 ### Via console
-If you flash the ESP via the console and enabled logging, 
-you see the readings in the console direct after the ESP is flashed.
+If you flash the ESP via the console and enable logging, 
+you will see the readings in the console immediately after the ESP is flashed.
 
 <img src="images_scd40/logging_esphome_cmd.png" alt="Logging cmd output" width="400px">
 
 ### Via Home Assistant
 
-Once the ESP is online it automatically registers itself by Home Assistant if you installed ESPHome.
+Once the ESP is online, it automatically registers itself in Home Assistant if you installed ESPHome.
 
-You will see a new device with three entities, CO2 , temperature and humidity.
+You will see a new device with three entities: CO2, temperature, and humidity.
 
 <img src="images_scd40/ha_esphome_entities.png" alt="New ESPHome device" width="250px">
 
 <img src="images_scd40/ha_esphome_device.png" alt="ESPHome device sensors" width="250px">
 
 ### Via MQTT
-One way is to test, if the ESP works now, check for incoming MQTT messages (if you enabled it in the config).  
-On Windows you can use the application MQTT Explorer. 
-The sensor sends it data to the topics `/homeassistant/sensor/espscd40` and `/espscd40`
+If you enabled MQTT in the config, you can also check for incoming messages.  
+On Windows, you can use the MQTT Explorer application. 
+The sensor sends its data to the topics `/homeassistant/sensor/espscd40` and `/espscd40`.
 
 <img src="images_scd40/mqtt_explorer_csd40.png" alt="MQTT data" width="400px">
 
@@ -323,12 +323,12 @@ The sensor sends it data to the topics `/homeassistant/sensor/espscd40` and `/es
 
 ## Home Assistant Dashboards
 
-Now the data is available in Home Assistant we can create dashboard elements to visual it.
+Now that the data is available in Home Assistant, we can create dashboard elements to visualize it.
 
 ### Dashboard Gauge
 
-In a Gauge, you can directly see if the current CO2 value is correct.
-I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction).
+In a gauge, you can immediately see whether the current CO2 value is in a healthy range.
+I used different colors to show how serious the condition is, based on the values in the [Introduction](#introduction).
 
 <img src="images_co2/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
 
@@ -347,11 +347,11 @@ name: Room CO2 sensor
 ```
 ### Dashboard Graphic
 
-To show the history of the last 6 hours, you can use the history-graph-card (or a line-card for a rawer version).
+To show the history of the last 6 hours, you can use the history graph card, or a line card for a simpler version.
 
 <img src="images_co2/home_assistant_co2_history_graph_base.png" alt="CO2 value for the last 6 hours" width="500px"/>
 
-The corresponding dashboard yaml code.
+The corresponding dashboard YAML code:
 ```yaml
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
@@ -365,8 +365,8 @@ hours_to_show: 6
 
 <img src="images_co2/home_assistant_co2_history_graph.png" alt="Home Assistant History Graph" width="500px" />
 
-You can also show baseline values in the graph by creating some extra custom sensors with a fixed value.\
-This shows direct if the value is still correct.
+You can also show baseline values in the graph by creating a few extra custom sensors with fixed values.\
+This makes it easy to see at a glance whether the current value is still in range.
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -380,8 +380,8 @@ entities:
 hours_to_show: 24
 ```
 
-This is how you create three custom lines in the graph to see the threshold values.
-Add this section to your `configuration.yaml` to create the three static helper sensors.
+This is how you create three custom lines in the graph to show the threshold values.
+Add this section to your `configuration.yaml` to create the three static helper sensors:
 
 ```yaml
 {% raw %}
@@ -409,7 +409,7 @@ sensor:
 
 <img src="../homeassistant/images/conditional_co2.png" alt="Home Assistant conditional CO2 text" width="500px" />
 
-This creates a new sensor that shows a textual presentation of the current condition.
+This creates a new sensor that shows a text representation of the current condition.
 
 ```yaml
 {% raw %}
@@ -419,7 +419,7 @@ This creates a new sensor that shows a textual presentation of the current condi
   sensors:
     scd40_co2_value_text:
         icon_template: "mdi:molecule-co2"
-        friendly_name: "roomname CO2"
+        friendly_name: "room CO2"
         value_template: >-
           {% set state = states('sensor.scd40_co2_value') | int %}
           {% if state < 800 %}good
@@ -432,8 +432,8 @@ This creates a new sensor that shows a textual presentation of the current condi
 
 ### Dashboard bad condition text
 
-In my dashboard, I have a section with important messages. Only when there is an action required, you see that here.
-There is also a message when the CO2 value is not good. This section can be achieved by using conditional entities.
+In my dashboard, I have a section for important messages. You only see it when action is needed.
+There is also a message when the CO2 value is not good. You can build this section with conditional entities.
 
 ```yaml
 {% raw %}
@@ -453,7 +453,7 @@ entities:
 ### Dashboard Mushroom entity
 
 <img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"/> 
- Show a green icon, without any text, if the level is less the 800 ppm, less than 1200 ppm yellow, less than 1500 ppm red.
+ Show a green icon, without any text, if the level is less than 800 ppm, yellow below 1200 ppm, and red below 1500 ppm.
 
 
 ```yaml
@@ -486,13 +486,13 @@ chips:
 
 ## Automations
 
-When the CO2/temperature/humidity value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
-Or use a colored light or [LED-strip](/projects/bin_day_led_strip_reminder) to indicate the condition.
+When the CO2, temperature, or humidity value is too high, you can send a [notification](../node-red/node-red_home-assistant_notifications) to your phone or smart speaker.\
+Or use a colored light or [LED strip](/projects/bin_day_led_strip_reminder) to indicate the condition and make it visible at a glance.
 
 <br><br>
 
-That's it!
+That is it.
 
 ---
 
-Check also my other [ESPHome projects](/esphome/index#articles)!
+Also check my other [ESPHome projects](/esphome/index#articles)!
