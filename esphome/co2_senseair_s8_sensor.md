@@ -87,7 +87,7 @@ These hardware components did I use for this project:
 
 * {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
-<a href="https://amzn.to/3PtwJk1#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3OXb03U#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4neifkk#ad" target="_blank">(Amazon NL)</a>
   * <a href="https://senseair.com/product/s8/">Manufacture product page</a> 
 
@@ -95,14 +95,14 @@ These hardware components did I use for this project:
 
 * {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/4wfabEe#ad">(Amazon US)</a>
-<a href="https://amzn.to/4nhZkFx#ad">(Amazon NL)</a>
+<a href="https://amzn.to/48QLNPl#ad">(Amazon NL)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
 * {{imgBasket}}Dupont male to male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> 
 <a href="https://amzn.to/4wfc4Re#ad">(Amazon US)</a>
-<a href="https://amzn.to/4dr5pMq#ad">(Amazon NL)</a>
+<a href="https://amzn.to/4dgoMqj#ad">(Amazon NL)</a>
   * If you order these, you can better order all three types at ones, also for any further projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
@@ -111,19 +111,19 @@ These hardware components did I use for this project:
 This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with a minimal of these sizes. 
 
   * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> 
-<a href="https://amzn.to/42WMJOs#ad">(Amazon US)</a>
+<a href="https://amzn.to/4ts9gxB#ad">(Amazon US)</a>
 <a href="https://amzn.to/4ncjPU9#ad">(Amazon NL)</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
 * {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a> 
-<a href="https://amzn.to/49rY9xl#ad">(Amazon US)</a>
+<a href="https://amzn.to/4eITR8B#ad">(Amazon US)</a>
 <a href="https://amzn.to/4cV7cZZ#ad">(Amazon NL)</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
-* {{imgBasket}}5V USB wall power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a> 
-<a href="https://amzn.to/4tR2PFn#ad" target="_blank">(Amazon US)</a>
+* {{imgBasket}}5V USB wall power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4ndTMvH#ad" target="_blank">(Amazon NL)</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
