@@ -39,7 +39,7 @@ The project page includes:
 
 <br>
 It’s a great example of creating your own affordable smart-home air quality monitoring.\
-Total locally without cloud dependency.
+Completely local, without any cloud dependency.
 
 Read more here: [ESPHome CO2 sensor project page](/esphome/co2_senseair_s8_sensor)
 

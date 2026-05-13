@@ -10,8 +10,8 @@ image: /images/banner.jpg
 
 Welcome to my blog about Home Automations and other tech projects.
 
-You find here project where I work on. 
-Projects related to Home Assistant, ESP, electronics, Zigbee.
+Here you can find projects I worked on,
+related to Home Assistant, ESP, electronics and Zigbee.
 
 ---
 
@@ -65,7 +65,7 @@ My latest biggest updates on this blog:
 
 Topics you can find here:
 
-|                                                                                                                                          | Subjects                                                                                                                                                                                                                                                                                            | 
+|                                                                                                                                          | Subjects                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <a href="homeassistant/index"><img src="homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo" height="100px"></a>      | [Home Assistant](homeassistant/index) related information, examples, integrations etc...                                                                                                                                                                                                            |
 | <a href="zigbee/index"><img src="zigbee/images/zigbee.jpg" alt="Zigbee logo" height="50px"></a>                                          | [Zigbee: Why choose it?<br>Create your own Zigbee sensors](zigbee/index)                                                                                                                                                                                                                            |
@@ -97,15 +97,14 @@ Hi, since I was a little kid, I was always interested in home automation and yea
 automate my home!
 
 With the introduction of the ESP boards, with wifi support, it all became easier to create your own sensors.
-Manufactures started to create products which are now more affordable and easier to connect to each other.
-Software projects, Like Zigbee2MQTT, Home Assistant and Node-RED, popped up, and more users adopted these projects and so did I.
+Manufacturers started to create products that are now more affordable and easier to connect to each other.
+Software projects like Zigbee2MQTT, Home Assistant and Node-RED popped up, more users adopted these projects and so did I.
 With this as your base, you can connect hardware devices together and let them work together via software, the
 possibilities are endless.
 
 LET THE FUN BEGIN!
 
-It started with activate the light based on the darkness, get notifications when you got (snail)mail or the washing
-machine is ready.
+It started with activating the lights based on darkness, getting notifications when you received (snail) mail or the washing machine was done.
 For most projects, it starts with an idea of something I want to automate.\
 Then I start to look for similar projects on all kinds of sources, search the internet, follow forums and groups.
 I also get inspired by others with new ideas which I can use for my own setup.

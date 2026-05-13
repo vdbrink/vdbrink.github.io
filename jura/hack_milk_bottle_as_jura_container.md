@@ -18,8 +18,8 @@ image: /jura/images_bottle_hack/new_diy_bottle_top.jpg
 ---
 ## Introduction
 
-My name is Ronald, and I like to simplify life with life hack and digital automations. 
-There is this blog about.
+My name is Ronald, and I like to simplify life with life hacks and digital automations. 
+That's what this blog is about.
 Sometimes with some simple combinations of materials, you can make your life easier.
 On this page, you can read how I converted a supermarket milk bottle to a Jura compatible container which I can directly attach to my new Jura Z10 machine.
 
@@ -95,8 +95,8 @@ That was my new mission to see if this is possible to accomplish!
 <img src="images_bottle_hack/z10_cleaning_hose_connection.jpg" alt="Z10 cleaning milk hose" height="100px" style="float:right;margin-left:15px">
 </a>
 I want to use an original milk bottle from the supermarket as a milk supply for my Jura machine.
-Based on the same principal of the original Jura hose and how the original Jura milk container works.
-this way I still can use the original hose to clean the milk system.
+Based on the same principle of the original Jura hose and how the original Jura milk container works.
+this way I can still use the original hose to clean the milk system.
 And easily attach and detach the milk bottle.
 
 I want to screw a normal milk bottle top with a compatible Jura milk connector.
@@ -144,7 +144,7 @@ The carafe uses a 6 mm wide and X cm long stainless steel tube.
 But my milk bottle is much deeper than the carafe container, so I need a similar tube but a longer version of it.
 I found it on AliExpress, a 6 mm {{imgBasket}} [stainless steel tube](https://s.click.aliexpress.com/e/_ombnM7I) with a length of 215 mm.
 
-The adapter fits perfect on a 6 mm but also on an 8 mm tube.
+The adapter fits perfectly on a 6 mm but also on an 8 mm tube.
 
 Now I need to test if this setup also works as intended.
 If it still can suck the milk through the extra long tube and no air comes in.
@@ -191,7 +191,7 @@ With a bit longer tube, I could reach the complete bottom of the bottle.
 I searched and found an even longer version, and replaced it with a longer one.
 This [stainless steel tube](https://s.click.aliexpress.com/e/_oFz0a1i) is 8 mm width and 300 mm long (0,24 inch width x 7,78 inch long).
 A bit too long, but I could cut it to the right maximum length, now it reaches the complete bottom of the bottle.
-This tube is also 2 mm wider but also fits perfect in the milk adapter.
+This tube is also 2 mm wider but also fits perfectly in the milk adapter.
 
 <a href="images_bottle_hack/saws_tube.jpg">
 <img src="images_bottle_hack/saws_tube.jpg" alt="saw tube" height="250px" />
@@ -218,9 +218,9 @@ I'm an even happier person with my Jura and now also with this hack!
 ### Cheaper version
 
 If you don't want to spend too much money on the Jura Carafe, 
-you can buy a [long hoses](https://amzn.to/4rce8XW) and put this direct in an open milk bottle.
+you can buy a [long hose](https://amzn.to/4rce8XW) and put this directly in an open milk bottle.
 The downside is that milk "sticks" to the outside of the hose when you get it out of the bottle, 
-and you need to clean it direct to avoid dripping.
+and you need to clean it immediately to avoid dripping.
 
 ---
 ## Cleaning

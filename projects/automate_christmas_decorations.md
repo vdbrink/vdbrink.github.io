@@ -1,6 +1,6 @@
 ---
 title: "Automate Christmas decorations"
-description: "How I automated all mine Christmas lights and other powered decorations."
+description: "How I automated all my Christmas lights and other powered decorations."
 category: Projects
 tags: [battery, Christmas, smart home, socket, lights, usb hub, decorations, Halloween]
 image: /projects/images_christmas_decorations/banner_christmas.png
@@ -21,7 +21,7 @@ During the Christmas season, I have a lot of extra lights and other powered deco
 **Christmas trees**, **battery powered decorations** and **outside lights** to cheer up the dark days.
 
 It's a lot of work to control them manually every day.\
-It's also a waste of energy when no one sees it or it a clear day.\
+It's also a waste of energy when no one sees it or it's a clear day.\
 I've made my life easier by automating them all!
 
 Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
@@ -109,7 +109,7 @@ Home Alone with a smart home is like:
 
 Before I automated it, there were a lot of manual actions I had to deal with.
 
-I, as a home automation geek, I was (previous year) looking for solutions and found them for all my decorations and lights!
+I, as a home automation geek, was (the previous year) looking for solutions and found them for all my decorations and lights!
 Read along how I did that.
 
 <details markdown="1">
@@ -250,7 +250,7 @@ As you could read, there are multiple combinations possible to control battery p
 It really depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
 
 * {{imgBasket}}[Battery to USB / battery eliminator](../buy/batteries#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries. 
-Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use a electronic wire to connect the ends.
+Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use an electronic wire to connect the ends.
    
    <a href="../buy/batteries#battery-eliminators" target="_blank">
         <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" class="buy-link"/>
@@ -275,7 +275,7 @@ In combination with the socket, you can automate them.
         <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px" class="buy-link"/>
     </a>
 
-* {{imgBasket}}[Zigbee USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individual. You can choose for an adapter with 1, 2 or 3 ports.
+* {{imgBasket}}[Zigbee USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individually. You can choose for an adapter with 1, 2 or 3 ports.
 
     <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
     <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" class="buy-link"/></a>
@@ -285,7 +285,7 @@ In combination with the socket, you can automate them.
 ### Infrared lights
 
 <img style="float:right;height:100px; margin-left:15px;" src="images_christmas_decorations/infrared_remote.jpg" alt="infrared remote" />
-There are these different kinds of infrared controlled device available like LEDs, fake candles or fake tea lights.
+There are these different kinds of infrared controlled devices available like LEDs, fake candles or fake tea lights.
 
 I had before Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
@@ -326,7 +326,7 @@ With this project, all these lights can now be automated as well!
 
 ##### Infrared signal transmitter
 
-{{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An programmable infrared remote</a>
+{{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">A programmable infrared remote</a>
   It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
 
   <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
@@ -347,7 +347,7 @@ Wireless, battery-powered colored LED lights.
 
 ##### Tea lights
 
-I created a [Dedicate page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
+I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
 <a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
@@ -420,7 +420,7 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 If you also have a plug with a button, you can always try to find a similar plug without a button.\
 Please, let me know if you use another one which fits for your light string.
 
-Or if your familiar with soldering and electronics, you can modify the current button and make it always on, but only advised for professionals!!
+Or if you're familiar with soldering and electronics, you can modify the current button and make it always on, but only advised for professionals!!
 
 ---
 
@@ -451,7 +451,7 @@ In the front yard I put the light string wire through the mailbox to plug it ins
 The number of these socket models are limited. 
 If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
-* An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individual, and it has power consumption measurements.
+* An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.
  
   {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon NL).
 

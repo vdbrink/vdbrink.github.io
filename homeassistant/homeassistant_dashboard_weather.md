@@ -11,7 +11,7 @@ image: /homeassistant/images_hacs/hacs_weather-chart-card.png
 
 Here you can find different examples of weather forecast dashboard cards with copy-paste YAML code.
 
-Most of the cards are highly configurable, check the source site for all possible parameters which fits your needs the best.
+Most of the cards are highly configurable, check the source site for all possible parameters that fit your needs the best.
 
 ---
 ## Table of Contents
@@ -51,7 +51,7 @@ entity: weather.home
 
 ### Example 2
 
-If you want to customize the presentation it can get a complete different look, and you can (de)active elements.
+If you want to customize the presentation it can get a completely different look, and you can activate or deactivate elements.
 
 E.g. only with forecast data and an alternative presentation style.
 
@@ -202,7 +202,7 @@ Pollen integration with intensity for weeds, grasses and trees for today.
 <img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
 
 Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration for more cards with multi day forecast.
-And graphs with details different types of pollen per type of trees.
+And graphs with details on different types of pollen per type of tree.
 
 ---
 ## Lightning and thunderstorm

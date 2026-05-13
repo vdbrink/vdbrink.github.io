@@ -11,7 +11,7 @@ tags: [Home Assistant, dashboard, tablet, fullscreen, camera]
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 I have a [tablet dashboard](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) in my living room where I show weather, news and actual home data.
 
-I wanted to show a full screen live stream of my frontdoor when someone is detected entering my frontdoor.
+I wanted to show a full screen live stream of my front door when someone is detected entering my front door.
 
 I have already [Frigate](/homeassistant/homeassistant_dashboard_frigate) installed to recognize a person and not get triggered when a cat walks by in my front yard.
 
@@ -37,7 +37,7 @@ There are multiple solutions to achieve this.
 I will explain the one I use myself via the extra HACS module **browser_mod**.
 
 Another popular solution is via the extra HACS card **Bubble Card**, this supports also a fullscreen popup feature.
-I added a link to a video how to implement it this solution if you want to try it this alternative solution.
+I added a link to a video on how to implement this alternative solution if you want to try it.
 
 ### Fullscreen popup with browser_mod
 

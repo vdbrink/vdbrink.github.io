@@ -15,7 +15,7 @@ image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Afvalbeheer** which you can easily use on your own dashboards.
 
 Afvalbeheer is a Dutch and Belgium integration that works for many waste collectors.
-This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL call it "otto") get picked up.
+This integration adds sensors to Home Assistant to show when a specific trash bin a.k.a. "kliko" (or for people in the east of NL who call it "otto") gets picked up.
 
 Check the git repository to find all the options and if you can use it in your city: [https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/)
 
@@ -54,12 +54,12 @@ Check the git repository to find all the options and if you can use it in your c
 ## Introduction
 
 I want to show the upcoming waste collecting not with a date, like 15-04-2024, as state but with a number of days countdown.
-Also, a presentation that shows only the once that are relevant for the upcoming few days.\
+Also, a presentation that shows only the ones that are relevant for the upcoming few days.\
 This is not available by default, but I've made it the way I wanted it.
 
 I also add some extra dashboard presentation examples.
 
-With this data, I also automated a LED strip to indicate which bin has to put outside for tomorrow.
+With this data, I also automated a LED strip to indicate which bin has to be put outside the day before pickup.
 
 <a href="../projects/bin_day_led_strip_reminder">
 <img src="../projects/images_bin_day/bin_day_ledstrip_reminder_banner.png" alt="Bin day - LED strip reminder" height="150px">
@@ -105,7 +105,7 @@ afvalbeheer:
 ### Auto-entities integration
 
 I used here the HACS integration [auto-entities](homeassistant_dashboard_card_auto-entities) it is very useful and makes it possible to show only the (countdown) entities and sort them by date.
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 
@@ -122,7 +122,7 @@ This is the default presentation.
 
 The downside is that it isn't ordered by date, you get a colored (distracting and not matching with the default other) icons,
 and you don't see the numbers of days. Now you need to know the current date and calculate for yourself when it's the right date to put it on the street.
-So work todo to make it more practical and a cleaner presentation.
+So there is work to do to make it more practical and a cleaner presentation.
 
 This dashboard code belongs to the above presentation screenshot.
 In my case my `wastecollector` is `cyclus` that's why I have that name in my sensor name. Yours can be different.
@@ -465,7 +465,7 @@ chips:
 ---
 ## LED strip indicator
 
-I created a [separated page](../projects/bin_day_led_strip_reminder) how I setup a LED strip under my dresser to light up the evening before trash bin day.
+I created a [separate page](../projects/bin_day_led_strip_reminder) showing how I set up a LED strip under my dresser to light up the evening before trash bin day.
 
 <a href="../projects/bin_day_led_strip_reminder">
 <img src="../projects/images_bin_day/bin_day_ledstrip_animation.gif" alt="Bin day - LED strip reminder animation">

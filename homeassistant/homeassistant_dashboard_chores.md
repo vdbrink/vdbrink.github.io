@@ -49,7 +49,7 @@ My chore list must contain the next functionalities:
 * I want to have a list of chores for every weekend and periodic chores.
 * I want to see which chores I still have to do and which I already have done.
 * I want to undo chores from closed to open.
-* I want to have a separated list with all periodic chores, but in my dashboard I only want to see the chores I want to do this weekend.
+* I want to have a separate list with all periodic chores, but in my dashboard I only want to see the chores I want to do this weekend.
 
 ---
 
@@ -59,7 +59,7 @@ This is the final result, and what I describe here is how I achieved it.<br>
 In the left column you see the weekly weekend chores and in the right column the periodic chores
 I want to do this weekend.
 
-If you have specific recurring chores separated per person, you can create for each person a separated column.
+If you have specific recurring chores separated per person, you can create for each person a separate column.
 
 <img src="images_chores/chores_final_result.png" alt="Chores final result" width="600px">
 
@@ -77,7 +77,7 @@ To create the chores I create for each chore a new helper entity.
 <img src="images_chores/chores_create_helper.png" alt="Create a toggle helper" width="400px">
 
 * Enter a name for the chore and click on create.
-* Search for the new created chore by the given name and open it.
+* Search for the newly created chore by the given name and open it.
 * Add a reference text to the entity ID, then you can later group the weekly chores together. I use `chore_r_` as my reference. So I have to change the Entity ID from `input_boolean.kattenbak` to `input_boolean.chore_r_kattenbak`.
 <img src="images_chores/chores_edit_chore.png" alt="Create a toggle helper" width="400px">
 
@@ -119,7 +119,7 @@ Below you find all the code together, but this is how it is configured.
 This uses the filter which contains entity ID `chore_r_` and have state `off`.
 * The bottom left card show the icons and text for the completed chores in a compact presentation. When you click on one of them, they move back to the open chores list.
 
-The periodic chores work a bit different. I only show the chores that have been changed in the last two days. Before the weekend starts, you must toggle the chores you want to do. Now only these will show up in the list and the rest is still hidden.  
+The periodic chores work a bit different. I only show the chores that have been changed in the last two days. Before the weekend starts, you must toggle the chores you want to do. Now only these will show up in the list and the rest is still hidden.
 
 * The top right card show the open **periodic** chores with their toggle to mark them as completed.\
   This uses the filter which contains entity ID `chore_x_` and have state `off` AND changed in the last 2 days.
@@ -130,7 +130,7 @@ The periodic chores work a bit different. I only show the chores that have been 
 
 > You also need to install the [auto-entities](https://github.com/thomasloven/lovelace-auto-entities) dashboard custom element via HACS to create this dashboard.
 
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 This is all the YAML code you need in your horizontal stack card.\
@@ -235,7 +235,7 @@ cards:
 ---
 
 ## Reset the chores
-After the weekend, I reset automatic all the chores to the status open again.
+After the weekend, I automatically reset all the chores to the status open again.
 
 To reset them, I first created an [old style group](https://www.home-assistant.io/integrations/group/#old-style-groups) in the groups.yaml file with all the chores defined in it.
 
@@ -256,7 +256,7 @@ chores:
     ...etc
 {% endraw %}
 ```
-Then I created an automation (in automation.yaml or in the Home Assistant itself) which get triggered at 00:00 on Tuesday and toggle all the chores, defined in the `group.chores`, to the status off. 
+Then I created an automation (in automation.yaml or in the Home Assistant itself) which gets triggered at 00:00 on Tuesday and toggle all the chores, defined in the `group.chores`, to the status off.
 
 ```yaml
 {% raw %}
@@ -293,7 +293,7 @@ automation: !include automations.yaml
 ---
 
 ## Maintenance dashboard
-I have a separated view where I can pick the periodic chores which I want to do this weekend.
+I have a separate view where I can pick the periodic chores which I want to do this weekend.
 
 Before the weekend, I can open this view and toggle the chores to off which I want to show up in my periodic list. Now they will be visible for two days in my chores dashboard.
 

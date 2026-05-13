@@ -9,21 +9,21 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 # Home Assistant -<br>HACS Kleenex Pollen Radar
 
 <a href="images_kleenex/kleenex_advanced_presentation.png">
-<img src="images_kleenex/kleenex_advanced_presentation.png" width="50%" alt="advanced Kleenx pollen">
+<img src="images_kleenex/kleenex_advanced_presentation.png" width="50%" alt="advanced Kleenex pollen presentation">
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar** which you can easily add to your own dashboard.
+Here you can find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar**, which you can easily add to your own dashboard.
 
-This integration shows Pollen information for grass, trees and weeds.
+This integration shows pollen information for grass, trees and weeds.
 
 It's available for the countries: The Netherlands, France, Italy, the United Kingdom and the United States of America.\
 Check the git repository to find out all options: [https://github.com/MarcoGos/kleenex_pollenradar](https://github.com/MarcoGos/kleenex_pollenradar)
 
 **Alternative integration**
 
-If your country isn't in the list, 
-or you want to try another data provider, 
+If your country isn't in the list,
+or you want to try another data provider,
 you can also look at the [Google Pollen](https://github.com/svenove/home-assistant-google-pollen#home-assistant-google-pollen) integration.
 
 **Compatibility**
@@ -37,7 +37,7 @@ In the past, due to updates in HA and the integration, the presentations were br
 > **_UPDATE 2 -  24 March 2025:_** Since Home Assistant version 2025.3.0 the colored background with the level indicator circle is broken.
 > If you rollback to version 2025.2.2 it works as expected.
 > If you see the screenshot the `<div class="icon-container" ..>` is removed now.
-a href="images_kleenex/ha_broken_update.png"> 
+a href="images_kleenex/ha_broken_update.png">
 <img src="images_kleenex/ha_broken_update.png" alt="broken upgrade HA" width="450px">
 </a>
 
@@ -66,14 +66,14 @@ a href="images_kleenex/ha_broken_update.png">
 Here are the steps to install this HACS `Kleenex Pollen Radar` integration.
 
 * Use this button to add the [Kleenex pollen radar / Scottex](https://github.com/MarcoGos/kleenex_pollenradar) integration:
- 
+
   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=MarcoGos&repository=kleenex_pollenradar&category=Integration)
 * Click `Add integration`\
   Now you get one search result.
 * Select the Kleenex integration
 * Click on the detail page, in the right bottom corner on `Download`
 
-Now is the integration added, but not yet installed. 
+Now the integration is added, but not yet installed.
 * Click this button to install the integration:
 
   [![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=kleenex_pollenradar)
@@ -93,7 +93,7 @@ Now you have these five new sensors.
 
 ### Subtypes in attributes
 
-Each sensor contains also in it's `attribute` value extra information about different subtypes and a forecast for the upcoming days.\
+Each sensor also contains in its `attribute` value extra information about different subtypes and a forecast for the upcoming days.\
 These subtypes are possible:
 
 * Trees
@@ -114,12 +114,12 @@ These subtypes are possible:
   * Ambrosia (NL), Ambrosia (EN)
   * Brandnetel (NL), Nettle (EN)
 
-To see this subtype and forecast data use this button to go to the `Developer tools` and filter the entities on with the keyword `kleenex`.
+To see this subtype and forecast data, use this button to go to the `Developer tools` and filter the entities with the keyword `kleenex`.
 <br>
 
 [![Open your Home Assistant instance and show your state developer tools.](https://my.home-assistant.io/badges/developer_states.svg)](https://my.home-assistant.io/redirect/developer_states/)
 
-Click on the image to see all the forecast and subtype details which are stored in the `attribute` data. 
+Click on the image to see all the forecast and subtype details which are stored in the `attribute` data.
 
 <a href="images_kleenex/kleenex_forecast.png">
 <img src="images_kleenex/kleenex_forecast.png" alt="Kleenex forecast" width=250px">
@@ -308,7 +308,7 @@ The entities are clickable which show you the values over time:
 <a name="lovelace-card-mod"/>
 
 This presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
-Install this integration via this button in your own HA instance:
+Install this integration, via this button, into your own HA instance:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
@@ -335,7 +335,7 @@ cards:
           {% set level = states('sensor.kleenex_pollen_radar_huis_weeds_level') %}
           {% set color = {'low':'green','moderate':'orange','high':'red','very-high':'maroon'} %}
           {% set level_color = color.get(level,'gray') %}
-          {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}        
+          {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}
           {% set percentage = circle.get(level,'25') %}
           border-radius: 24px;
           background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
@@ -355,7 +355,7 @@ cards:
           {% set level = states('sensor.kleenex_pollen_radar_huis_grass_level') %}
           {% set color = {'low':'green','moderate':'orange','high':'red','very-high':'maroon'} %}
           {% set level_color = color.get(level,'gray') %}
-          {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}        
+          {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}
           {% set percentage = circle.get(level,'25') %}
           border-radius: 24px;
           background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
@@ -375,7 +375,7 @@ cards:
           {% set level = states('sensor.kleenex_pollen_radar_huis_trees_level') %}
           {% set color = {'low':'green','moderate':'orange','high':'red','very-high':'maroon'} %}
           {% set level_color = color.get(level,'gray') %}
-          {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}        
+          {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}
           {% set percentage = circle.get(level,'25') %}
           border-radius: 24px;
           background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
@@ -427,7 +427,7 @@ cards:
               {% set level = states('sensor.kleenex_pollen_radar_huis_weeds_level') %}
               {% set color = {'low':'green','moderate':'orange','high':'red','very-high':'maroon'} %}
               {% set level_color = color.get(level,'gray') %}
-              {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}        
+              {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}
               {% set percentage = circle.get(level,'25') %}
               border-radius: 24px;
               background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
@@ -447,7 +447,7 @@ cards:
               {% set level = states('sensor.kleenex_pollen_radar_huis_grass_level') %}
               {% set color = {'low':'green','moderate':'orange','high':'red','very-high':'maroon'} %}
               {% set level_color = color.get(level,'gray') %}
-              {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}        
+              {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}
               {% set percentage = circle.get(level,'25') %}
               border-radius: 24px;
               background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
@@ -467,7 +467,7 @@ cards:
               {% set level = states('sensor.kleenex_pollen_radar_huis_trees_level') %}
               {% set color = {'low':'green','moderate':'orange','high':'red','very-high':'maroon'} %}
               {% set level_color = color.get(level,'gray') %}
-              {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}        
+              {% set circle = {'low':'25','moderate':'50','high':'75','very-high':'100'} %}
               {% set percentage = circle.get(level,'25') %}
               border-radius: 24px;
               background: radial-gradient(var(--card-background-color) 60%,transparent calc(60% + 1px)),
@@ -566,11 +566,11 @@ cards:
     card_mod:
       style:
         ha-tile-icon: >
-          {% set input_name = 'Hazelaar' %} 
-          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %} 
-          {% set item = details | selectattr('name', 'eq', input_name) | first() %} 
-          {% set level = item.level | default('N/A') %}  
-          {% set color_map = {'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %} 
+          {% set input_name = 'Hazelaar' %}
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %}
+          {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+          {% set level = item.level | default('N/A') %}
+          {% set color_map = {'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %}
           {% set level_color = color_map.get(level, 'gray') %}
 
           ha-state-icon {
@@ -581,8 +581,8 @@ cards:
              --tile-color: {{level_color}};
           }
         ha-tile-info$: >
-          {% set input_name = 'Hazelaar' %}  
-          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %} 
+          {% set input_name = 'Hazelaar' %}
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %}
           {% set item = details | selectattr('name', 'eq', input_name) | first() %}
 
           .secondary state-display {
@@ -604,11 +604,11 @@ cards:
     card_mod:
       style:
         ha-tile-icon: >
-          {% set input_name = 'Berk' %} 
-          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %} 
-          {% set item = details | selectattr('name', 'eq', input_name) | first() %} 
-          {% set level = item.level | default('N/A') %}  
-          {% set color_map = {'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %} 
+          {% set input_name = 'Berk' %}
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %}
+          {% set item = details | selectattr('name', 'eq', input_name) | first() %}
+          {% set level = item.level | default('N/A') %}
+          {% set color_map = {'low': 'green', 'moderate': 'orange', 'high': 'red', 'very high': 'maroon'} %}
           {% set level_color = color_map.get(level, 'gray') %}
 
           ha-state-icon {
@@ -619,8 +619,8 @@ cards:
              --tile-color: {{level_color}};
           }
         ha-tile-info$: >
-          {% set input_name = 'Berk' %}  
-          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %} 
+          {% set input_name = 'Berk' %}
+          {% set details = state_attr('sensor.kleenex_pollen_radar_huis_trees', 'details') %}
           {% set item = details | selectattr('name', 'eq', input_name) | first() %}
 
           .secondary state-display {
@@ -746,9 +746,9 @@ apex_config:
 #### ApexCharts 2: Berk tree forecast
 
 I created a bar graph with only the Berk tree data for today and the upcoming days.
-This is the tree which cause the most irritations for me.
+This is the tree that causes the most irritations for me.
 That's why I use this specific one.
-You can easily change it another available tree, grass or weed which you prefer.
+You can easily change it to another available tree, grass or weed which you prefer.
 
 The days are converted to shorten weekdays in Dutch as example.
 
@@ -873,7 +873,7 @@ card_mod:
 Good luck with the integration!
 
 Any questions or suggestions?\
-Please let me know then I can improve this page for the next reader.
+Please let me know so I can improve this page for the next reader.
 
 ---
 

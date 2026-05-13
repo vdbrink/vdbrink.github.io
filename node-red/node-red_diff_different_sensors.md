@@ -16,7 +16,7 @@ You can download this flow [here](flows/compare_two_temperatures.json).
 
 **Scenario:**
 
-* Open a window open if, in the summer, the outside temperature is lower than the inside temperature.
+* Open a window if, in the summer, the outside temperature is lower than the inside temperature.
 
 <br>
 
@@ -60,7 +60,7 @@ You can download this flow [here](flows/compare_two_temperatures.json).
    ```
 * **[debug node]** This can be replaced with an output node of your choice. Like Telegram/Whatsapp/speaker/etc
 
-\* This get node is part of the additional nodes set, named **node-red-contrib-zigbee2mqtt**. You must install this first to used it. Via the menu > Manage Palette > Palette
+\* This get node is part of the additional nodes set, named **node-red-contrib-zigbee2mqtt**. You must install this first to use it. Via the menu > Manage Palette > Palette
 
 **Suggestions for related flows:**
 

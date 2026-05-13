@@ -13,8 +13,8 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 
 A-choo! Bless you!
 
-With the Home Assistant Pollen radar integration you can see how much pollen are in the air for trees, grass and weeds.
+With the Home Assistant Pollen radar integration you can see how much pollen is in the air for trees, grass and weeds.
 
-I create a blog post how to install this integration and I added a few dashboard YAML code examples to show this data in different ways on your dashboard.
+I created a blog post on how to install this integration and I added a few dashboard YAML code examples to show this data in different ways on your dashboard.
 
 See [Home Assistant - HACS Kleenex Pollen Radar](/homeassistant/homeassistant_hacs_kleenex) for a full description.

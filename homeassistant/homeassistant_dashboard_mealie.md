@@ -11,7 +11,7 @@ image: /homeassistant/images_mealie/mealie1_ha_integration.png
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 <img style="float: right;margin-left:10px" src="images_mealie/mealie.svg" height="100px" alt="Mealie logo">
 
-Here you find how I seamlessly integrate the recipe manager [**Mealie**](https://docs.mealie.io/) into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
+Here you can find how I seamlessly integrated the recipe manager [**Mealie**](https://docs.mealie.io/) into my HA dashboard to organize my **recipes** and show a meal **day-** and **weekplanning**.
 
 This documentation is based on Mealie version `3.3.0` (september 2025)\
 And still works with Mealie `3.13.1` and Home Assistant `2026.3.3` (March 2026).
@@ -19,7 +19,7 @@ And still works with Mealie `3.13.1` and Home Assistant `2026.3.3` (March 2026).
 <img src="images_mealie/mealie1_ha_integration.png" alt="meal planner" width="400px">
 
 > **_UPDATE 07-2024:_** There is now also a [Mealie integration](https://www.home-assistant.io/integrations/mealie/) in Home Assistant.\
-> This page was already created before this exists, here I describe also other functionalities than you get with this integration.
+> This page was already created before this existed; here I also describe other functionalities beyond what you get with this integration.
 
 ---
 ## Table of Contents
@@ -51,13 +51,15 @@ And still works with Mealie `3.13.1` and Home Assistant `2026.3.3` (March 2026).
 
 ## Introduction
 
-How do you manage your recipes? Via bookmarks in your browser? And end up with dead links to great recipes? Or as printed version with notes with your own improvements?
+How do you manage your recipes? Via bookmarks in your browser, only to end up with dead links to great recipes? Or as printed versions with notes of your own improvements?
 
-As a Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use it while preparing the meals.
-Also show my day- and week meal planning on the HA kitchen dashboard.\
+As a Home Assistant enthusiast, I wanted to store my recipes locally on my home server to use while preparing meals,
+and also show my day- and week meal planning on the HA kitchen dashboard.\
 I searched for a self-hosting solution and found Mealie most suitable for this purpose.
 
-With Mealie, it's possible to add recipes manually, but also import them via an online url direct into the Mealie structure. If you have a YouTube video, you can add this in the description as a reference to your current online recipe. This way I have all my recipes now centralized at one place!
+With Mealie, it's possible to add recipes manually, but also import them via an online URL directly into the Mealie structure.
+If you have a YouTube video, you can add it in the description as a reference to your online recipe.
+This way I have all my recipes centralized in one place!
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="800px">
 
@@ -67,7 +69,7 @@ For more project information, check their website: [https://docs.mealie.io/](htt
 
 ## Functionalities
 
-The program I was looking for must contain the next functionality:
+The program I was looking for had to contain the following functionality:
 * Organize my recipes
 * Create a meal week planning
 * Show a photo of today's meal
@@ -112,11 +114,11 @@ The website and API (available under /docs) will be available on the server via 
 # Sourcecode by vdbrink.github.io
 # docker-compose.yaml
 services:
- 
+
   mealie-recipes:
     container_name: mealie-recipes
     # This documentation is based on version 3.3.0 (september 2025)
-    image: ghcr.io/mealie-recipes/mealie:latest 
+    image: ghcr.io/mealie-recipes/mealie:latest
     restart: always
     volumes:
       - ./volumes/mealie-recipes:/app/data/
@@ -126,14 +128,14 @@ services:
       PUID: 1000
       PGID: 1000
       TZ: Europe/Amsterdam
-  
+
       TOKEN_TIME: 87600 # 10 years
 {% endraw %}
 ```
 
 ### Hass.io Add-on
 
-It can also be installed as Hass.io Add-on direct in Home Assistant.
+It can also be installed as a Hass.io Add-on directly in Home Assistant.
 
 Check this page for the installation details [https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation](https://github.com/alexbelgium/hassio-addons/tree/master/mealie#installation)
 
@@ -144,11 +146,11 @@ Smart Home Junkie created a step-by-step video about the installation in HA.
 ---
 ## Add recipes
 
-When you access your local Mealie website, you're in read-only modus. 
-Click in the right top corner to login with the default credentials changeme@email.com / MyPassword
+When you access your local Mealie website, you're in read-only mode.
+Click in the top right corner to log in with the default credentials changeme@email.com / MyPassword
 
-Click on the left menu on the plus button to add meals manually or import them from a website. 
-Not all recipe websites provide their data in a correct way so Mealie can import the complete online recipe in the Mealie template style, then you need to copy-paste it yourself.
+Click the plus button in the left menu to add meals manually or import them from a website.
+Not all recipe websites provide their data in a way that Mealie can fully import, so sometimes you need to copy-paste the recipe yourself.
 
 ---
 ## Dashboard integration
@@ -169,7 +171,7 @@ On the dashboard, add only an iframe card and use these settings:
 
 <br>
 
-This is how it will look like, integrated in Home Assistant.
+This is how it looks, integrated in Home Assistant.
 
 <img src="images_mealie/mealie1_overview.png" alt="Result" width="600px">
 
@@ -199,7 +201,7 @@ panel_iframe:
 
 To use the functionality to show a day- and week planning, integrated in HA, you need to create first a meal plan.
 
-In the side menu choose for the Meal planner option, use the top Edit menu item to start editing the planning.
+In the side menu, choose the Meal planner option and use the top Edit menu item to start editing the planning.
 Use the + icon to select a meal for each day.
 
 <img src="images_mealie/mealie1_create_weekmenu.png" alt="Create week plan" width="600px">
@@ -207,12 +209,12 @@ Use the + icon to select a meal for each day.
 ---
 ### Today's meal
 
-Now a week planning is made we can use this data.
+Now that a week planning is made, we can use this data.
 
 All data inside Mealie is also accessible through API calls.\
 Go to http://< ip-adress >:9925/docs to see all the available API's.
 
-To show it like this, the data must be stored in HA and then presented in a nice way. 
+To show it like this, the data must be stored in HA and then presented in a nice way.
 
 <img src="images_mealie/dashboard_day_meal.png" alt="meal planner" width="400px">
 
@@ -256,7 +258,7 @@ To combine the dynamic meal ID with the URL we use a Helper template image.
 To create this helper sensor:\
 Go to Home Assistant -> Devices & services -> Helpers -> Create Helper -> Template -> Image
 
-Give it the name `Mealie today meal` and fill in is the `URL`.
+Give it the name `Mealie today meal` and fill in the `URL`.
 You can use the internal docker link:
 ```yaml
 {% raw %}
@@ -277,7 +279,7 @@ When you click on `submit`, you have a new sensor called, `image.mealie_today_me
 
 #### Card element
 
-Now we have stored the name of the meal for today and the corresponding image we can use it to add it to our HA as card, like this:
+Now that we have stored the name of today's meal and the corresponding image, we can add it to our HA as a card, like this:
 
 <img src="images_mealie/dashboard_day_meal.png" alt="day meal on the dashboard" width="400px">
 
@@ -306,7 +308,7 @@ Add a Picture element to the dashboard with this code:
 {% endraw %}
 ```
 
-I use the `tap_action` also here, when you click on the card you navigate direct to the Mealie integration iframe.
+I use the `tap_action` here too; when you click on the card you navigate directly to the Mealie integration iframe.
 
 ---
 ### Meal planning for this week as a list
@@ -388,7 +390,7 @@ rest:
 
 #### Markdown element
 
-Now we have stored the names of all the meals for the upcoming days we can use it to add it to our HA as card, like this. During the week, the list will be shorter until you plan new meals for the next upcoming days.
+Now that we have stored the names of all the meals for the upcoming days, we can add them to our HA as a card, like this. During the week, the list will get shorter until you plan new meals for the upcoming days.
 
 <img src="images_mealie/mealie1_ha_weekmenu.png" alt="Week menu" width="400px">
 
@@ -408,11 +410,11 @@ content: >-
   {% set index = i|string %}
   {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
   {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
-  {% if meal_date != 'unknown' %} 
+  {% if meal_date != 'unknown' %}
   <tr>
-  <td>{{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }} 
+  <td>{{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }}
    <td>&nbsp; &nbsp;</td>
-  </td> 
+  </td>
   <td>{{ meal_name }} </td>
   </tr>
   {% endif %}
@@ -422,8 +424,8 @@ card_mod:
   style:
     ha-markdown:
       $: |
-        a { 
-          all:unset; 
+        a {
+          all:unset;
           color:white ! important;
           cursor: pointer ! important;
         }
@@ -434,9 +436,9 @@ card_mod:
   <summary><b>> Click here to open the extended Markdown version with clickable text to go to your Mealie page >></b></summary>
 <br>
 This extended version makes it possible to click on the menu text and go to the Mealie page.
-Without the card_mod extension, which add some CSS, you see all the text in blue underlined.
+Without the card_mod extension, which adds some CSS, you see all the text in blue and underlined.
 Here is another HACS integration needed, `card-mod`, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a>
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ```yaml
@@ -447,12 +449,12 @@ type: markdown
 title: week menu
 content: >-
   <a href="/lovelace-dashboard/mealie">
-   <table> 
+   <table>
   {% for i in range(8) %}
     {% set index = i|string %}
     {% set meal_date = states("sensor.mealie_day" + index + "_date") %}
     {% set meal_name = states("sensor.mealie_day" + index + "_name") %}
-    {% if meal_date != 'unknown' %} 
+    {% if meal_date != 'unknown' %}
     <tr>
       <td>
         {{ ['ma','di','wo','do','vr','za','zo'][strptime(meal_date, "%Y-%m-%d").weekday()] }}
@@ -467,8 +469,8 @@ card_mod:
   style:
     ha-markdown:
       $: |
-        a { 
-          all:unset; 
+        a {
+          all:unset;
           color:white ! important;
           cursor: pointer ! important;
         }
@@ -480,7 +482,7 @@ card_mod:
 
 ## Out of the freezer the evening before
 
-I created a Node-RED automation which reminds me in the evening if I need to get meat/fish/anything else out of the freezer and move it to the refrigerator to let it slowly defrost it already for the dinner of tomorrow.
+I created a Node-RED automation that reminds me in the evening if I need to take meat/fish/anything else out of the freezer and move it to the refrigerator to slowly defrost overnight for tomorrow's dinner.
 This is based on the ingredient list, for the meal of tomorrow, if there is one of the ingredients which has the text `[freezer]` in it, I show the names of these ingredients in the notification.
 
 ### Notification
@@ -509,10 +511,10 @@ Only ingredients with the text `[freezer]` are used in the notification.
 {% endraw %}
 ```
 
-> **_NOTE:_** If have/can convert it into a Home Assistant automation let me know, then I can add it here also.
+> **_NOTE:_** If you have or can convert this into a Home Assistant automation, let me know and I can add it here too.
 
 #### The flow explanation
-* Call the Mealie API to get all the recipes after today 
+* Call the Mealie API to get all the recipes after today
   * Endpoint `http://mealie-recipes:9000/api/households/mealplans?orderBy=date&orderDirection=asc&perPage=1&start_date={{{start_date}}}`
 * Get the first recipe ID
 * If there is no recipe found:
@@ -527,7 +529,7 @@ Only ingredients with the text `[freezer]` are used in the notification.
 
 #### Setup
 * Define your own host and port number in the endpoints.
-* This flow required a [Bearer token](#FAQ) to call the Mealie API. Add the token to the two `get ..` API nodes.
+* This flow requires a [Bearer token](#FAQ) to call the Mealie API. Add the token to the two `get ..` API nodes.
 * Link the last node to your own notification flow. I explained [here](../node-red/node-red_home-assistant_notifications) how to use the Companion App to send messages to.
 
 #### Possible additions
@@ -542,15 +544,15 @@ I hope you also enjoy using Mealie!
 ---
 ## Bookmark for direct import
 
-With a Boomarklet you can click on a bookmark in your browser, and this page is automatically imported to your Mealie instance.\
-It's a piece of javascript in the bookmarks which makes this possible.
+With a Bookmarklet you can click on a bookmark in your browser, and the current page is automatically imported into your Mealie instance.\
+It's a piece of JavaScript in the bookmark that makes this possible.
 
-Go make this work:
+To make this work:
 * Go to https://docs.mealie.io/documentation/community-guide/import-recipe-bookmarklet/ and copy the code
 * Go to a [bookmarklet generator site](https://caiorss.github.io/bookmarklet-maker/)
 * Paste the code
 * Change the url to your own URL
-* Click on `Generate Boomarklet`
+* Click on `Generate Bookmarklet`
 * Copy the code from the `Output` field
 * Go to your browser
 * Go to your mealie page and bookmark it in your browser
@@ -590,9 +592,9 @@ Password: MyPassword
 **Q: How to set a different locale?**\
 A: In the side menu go to settings, here you can change the locale.
 
-**Q: How can to create a Bearer token?**\
+**Q: How can I create a Bearer token?**\
 A: Go to your local Meal website url `/user/profile/api-tokens`\
-Create a new token and 
+Create a new token and
 save this private value in the [secrets.yaml](https://www.home-assistant.io/docs/configuration/secrets/) file.
 ````yaml
 # Sourcecode by vdbrink.github.io
@@ -609,11 +611,11 @@ A: Yes, you can with this code block in the description.
 ```
 
 **Q: Can I disable the required login?**\
-A: No, but you can increase the hours your login token is valid. The default value is `48` hours. 
+A: No, but you can increase the hours your login token is valid. The default value is `48` hours.
 Use the environment variable `TOKEN_TIME` to increase this time to something like `87600` (10 years).
 
-**Q: Where can I find more info about Mealie**\
-A: Checkout the [website](https://hay-kot.github.io/mealie/) or via [Discord](https://discord.gg/QuStdQGSGK)
+**Q: Where can I find more info about Mealie?**\
+A: Check out the [website](https://hay-kot.github.io/mealie/) or [Discord](https://discord.gg/QuStdQGSGK)
 
 ---
 

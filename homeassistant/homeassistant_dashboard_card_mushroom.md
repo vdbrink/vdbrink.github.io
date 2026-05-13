@@ -11,11 +11,11 @@ image: /homeassistant/images_mushroom/mushroom_examples.png
 
 Here you find Home Assistant (lovelace) dashboard examples related to the **mushroom** cards which you can easily add to your own dashboards.
 
-Since Home Assistant version 2024.8 it has a similar functionality build in by itself, it's called [Badges](https://www.home-assistant.io/dashboards/badges/).
+Since Home Assistant version 2024.8 it has similar functionality built in natively, it's called [Badges](https://www.home-assistant.io/dashboards/badges/).
 
 Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add a small widget on your dashboard.
 
-<img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples" /> 
+<img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples" />
 
 Click on one of these icons below to go to the corresponding example code:
 
@@ -36,9 +36,9 @@ Install the Mushroom card via this button\
 
 **Custom styling**
 
-For some examples, some custom CSS styling is applied which isn't possible by default. 
-You need the extra HACS integration `card_mod`. 
-You can Install this integration via this button in your own HA instance.\
+For some examples, some custom CSS styling is applied which isn't possible by default.
+You need the extra HACS integration `card_mod`.
+You can Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
@@ -116,9 +116,9 @@ type: custom:mushroom-title-card
 title: >2
   {%- if now().hour < 12 -%}Goeiemorgen
   {%- elif now().hour < 18 -%}Goeiemiddag
-  {%- else -%}Goeieavond{%- endif -%}, {{user}}. 
+  {%- else -%}Goeieavond{%- endif -%}, {{user}}.
   Vandaag is het tussen de {{states('sensor.meteoserver_d0tmin')}} en de
-  {{ states('sensor.meteoserver_d0tmax') }} °C  
+  {{ states('sensor.meteoserver_d0tmax') }} °C
   met {{ states('sensor.meteoserver_verw').lower() }}.
 {% endraw %}
 ```
@@ -185,7 +185,7 @@ Chips cards are a small icon that indicates a status.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
-# Dashboard card code 
+# Dashboard card code
 type: custom:mushroom-chips-card
 chips:
   - chip:
@@ -248,7 +248,7 @@ chips:
 
 <img src="images_mushroom/mushroom_bigger_icon.png" alt="mushroom chips" width="100px" style="float:left;margin-right:10px">
 
-&nbsp; Show the mushroom icon in a mush bigger size with the `card_mod` HACS integration, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a> for more info.
+&nbsp; Show the mushroom icon in a much bigger size with the `card_mod` HACS integration, see <a href="https://github.com/thomasloven/lovelace-card-mod" target="_blank">https://github.com/thomasloven/lovelace-card-mod</a> for more info.
 
 
 Install `card_mod` via this button\
@@ -273,7 +273,7 @@ chips:
             height: 100px !important;
           }
           :host {
-            --card-mod-icon-color: 
+            --card-mod-icon-color:
             {% if is_state('sensor.gft_waste_pickup_countdown', 'unavailable') %}
              #1C1C1C
             {% elif states('sensor.gft_waste_pickup_countdown')|int == 1 %}
@@ -336,11 +336,11 @@ chips:
 #### Temperature (colored icon and text)
 
 <img src="images_mushroom/mushroom_colored.png" alt="mushroom chip" height="50px" style="float:left;margin-right:10px"> &nbsp; Set the icon and text color based on the entity value.
- 
+
 <br>
 
-To override the colors, you need the extra HACS integration `card_mod`. 
-You can Install this integration via this button in your own HA instance.\
+To override the colors, you need the extra HACS integration `card_mod`.
+You can Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 ```yaml
@@ -417,8 +417,8 @@ chips:
 
 #### Persons count in a specific zone
 
-<img src="images_mushroom/mushroom_zone_count.png" alt="mushroom chip" height="50px" style="float:left;margin-right:10px"> &nbsp; 
-Show the number of persons which are currently this in the zone `home`.
+<img src="images_mushroom/mushroom_zone_count.png" alt="mushroom chip" height="50px" style="float:left;margin-right:10px"> &nbsp;
+Show the number of persons who are currently in the zone `home`.
 
 <br/>
 

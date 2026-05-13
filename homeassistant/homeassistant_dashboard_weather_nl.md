@@ -11,8 +11,8 @@ image: /homeassistant/images/rain_radar_animated.png
 
 Here you can find dashboard related to the weather in the Netherlands.
 
-There are a lot of weather sites who service weather data on the web or in apps.
-We can use that data also to show direct on our Home Assistant dashboards.
+There are a lot of weather sites that provide weather data on the web or in apps.
+We can also use that data to show directly on our Home Assistant dashboards.
 
 <a href="index"><img src="images_weather/overview_weather_elements.png" alt="weather elements" height="1200px"></a>
 
@@ -390,7 +390,7 @@ Show the weather alarm code and description from the [KNMI.nl site](https://www.
 First, you need to define a scraper to scrape every 10 minutes the latest alarm code and description.
 
 You can accomplish this by adding the YAML to the `configuration.yaml` file or by configure it via the Home Assistant frontend **Scrape** integration.\
-I also have a [dedicate page](homeassistant_web_scraper) about this integration, how it can be used to integrate almost any website data direct into your dashboard.\
+I also have a [dedicated page](homeassistant_web_scraper) about this integration, how it can be used to integrate almost any website data direct into your dashboard.\
 Install this integration via this button in your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
 
@@ -548,7 +548,7 @@ card:
 ### image
 Source: Pollennieuws
 
-Show the actual pollen intensity image.
+Show the current pollen intensity image.
 
 <img src="images_weather/pollennieuws.png" alt="Pollen nieuws" width="400px">
 

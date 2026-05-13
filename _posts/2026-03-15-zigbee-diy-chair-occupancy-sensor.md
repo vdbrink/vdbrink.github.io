@@ -17,9 +17,9 @@ With a car-seat-pressure sensor and a Zigbee or WiFi contact sensor, you can cre
 
 With this solution you can detect if:
 * Someone sits on a chair
-* Your pet is laying on his pillow
+* Your pet is lying on its pillow
 * Someone stands on a mat
 
 <br>
 
-Check out [this blog page](/zigbee/zigbee_chair_occupancy_sensor) how you can make it very easily yourself.
+Check out [this blog page](/zigbee/zigbee_chair_occupancy_sensor) to see how you can make it yourself very easily.

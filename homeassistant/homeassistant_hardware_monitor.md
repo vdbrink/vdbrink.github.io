@@ -33,7 +33,7 @@ I want to monitor how my server is doing in use of resources.
 
 How does adding a new specific docker container impact the load on my server?
 
-I was looking for a script that monitors temperature, cpu, disk, memory and push that to MQTT. 
+I was looking for a script that monitors temperature, CPU, disk, memory and pushes that to MQTT.
 
 From MQTT, it's easy to load it into Home Assistant to create a presentation of it and with Node-RED to create alerts when it reaches a maximum value.
 

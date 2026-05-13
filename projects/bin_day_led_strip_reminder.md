@@ -12,7 +12,7 @@ image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 
 <img style="float: right;margin-left:20px" src="../homeassistant/images_afvalbeheer/kliko.jpg" height="150px" alt="Kliko">
 
-I was looking for a way to reminder me about the waste collection schedule.
+I was looking for a way to remind me about the waste collection schedule.
 We have four trash bins and every bin has different recurring schedules. With bank holidays it also changes to another day. 
 A single notification was not enough, it can easily be swiped away. So I was looking for another nice subtle automation.
 
@@ -39,7 +39,7 @@ An animation with the four different bin type colors.
 
 ## Hardware requirements
 
-I already have a running home server with a Zigbee network, that's why I choose for a Zigbee LED strip. This will also
+I already have a running home server with a Zigbee network, that's why I chose a Zigbee LED strip. This will also
 work for a WiFi/bluetooth/other network type, but then the control will also be different.
 
 Also affiliate links are used here. Same price, and you sponsor this blog.
@@ -84,7 +84,7 @@ I live in The Netherlands and we have a HACS integration called `Afvalbeheer`.\
 This integration downloads the waste collection schedule from most of the collection companies, in the Netherlands, and
 generates entities in Home Assistant with the next pick-up date for each type of bin.
 
-I created a [separated blog post page](../homeassistant/homeassistant_hacs_afvalbeheer) about this integration and how I
+I created a [separate blog post page](../homeassistant/homeassistant_hacs_afvalbeheer) about this integration and how I
 implemented it. 
 Also with extra missing functionality for me, I have the number of days and sorted by the pickup date with the help of custom countdown helper entities.
 
@@ -104,7 +104,7 @@ Choose which way of integration you want to use, and set the correct entity name
 
 **Custom helper entities for days countdown**
 
-I created [customer helper entities](../homeassistant/homeassistant_hacs_afvalbeheer#custom-helper-entities-days-countdown) in Home Assistant to show on my dashboard the amount of days for the bin day.
+I created [custom helper entities](../homeassistant/homeassistant_hacs_afvalbeheer#custom-helper-entities-days-countdown) in Home Assistant to show on my dashboard the amount of days for the bin day.
 These entities are also used here to check if tomorrow is bin day.
 
 **Test the light**
@@ -137,7 +137,7 @@ For example, in my case when the garden gate is opened, after a specific time, i
 
 #### RGB LED strip colors
 
-I have four bin types, and each bin has his own color.\
+I have four bin types, and each bin has its own color.\
 I tried to use the same color to light up.
 
 These are my bin types and the RGB and HEX color codes I used in this flow. See the animation how this looks like.
@@ -153,7 +153,7 @@ These are my bin types and the RGB and HEX color codes I used in this flow. See 
 
 ### FAQ
 
-Q: What if two bin has to put outside on the same day?\
+Q: What if two bins have to be put outside on the same day?\
 A: For me this was never the case yet. In the current situation one color overrules the other one. 
 If you implemented also a notification to your phone you get both messages. 
 Or if you present the [days countdown](../homeassistant/homeassistant_hacs_afvalbeheer) on your dashboard you know already you have to put multiple outside. 

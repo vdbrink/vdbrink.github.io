@@ -8,9 +8,9 @@ tags: [Home Assistant, dashboard, lovelace, Mealie, recipe manager, meal, planne
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find how you can create a dashboard to manage your **recipes** and create a **meal weekplanner** with **Mealie**. 
+Here you can find how you can create a dashboard to manage your **recipes** and create a **meal weekplanner** with **Mealie**.
 
-I also show you how data from Mealie can be integrated, via the REST integration seamless, in Home Assistant cards to show the meal planner data.
+I also show you how data from Mealie can be integrated seamlessly, via the REST integration, in Home Assistant cards to show the meal planner data.
 
 <img src="images_mealie0/mealie_overview.png" alt="Result" width="800px">
 
@@ -59,7 +59,7 @@ services:
         PUID: 1000
         PGID: 1000
         TZ: Europe/Amsterdam
-    
+
         # Default Recipe Settings
         RECIPE_PUBLIC: 'true'
         RECIPE_SHOW_NUTRITION: 'false'
@@ -73,9 +73,9 @@ services:
 ---
 ## Add recipes
 
-When you access your local Mealie website you're in read modus. Click in the right top corner to login with the default credentials changeme@email.com / MyPassword
+When you access your local Mealie website you're in read mode. Click in the top right corner to log in with the default credentials changeme@email.com / MyPassword
 
-Now you can click on the bottom right plus icon to add all your meals one by one manually or import them from a website. 
+Now you can click on the bottom right plus icon to add all your meals one by one manually or import them from a website.
 
 ---
 ## Dashboard integration
@@ -101,9 +101,11 @@ This is how it will look like, integrated in Home Assistant.
 
 To use the functionality to show a week planner you need to create a meal plan.
 
-First you have to go to the user profile page and create and select a category for meals. Add this category also to each meal. This is needed so recipes like desserts will not show up in the meal planner.
+First you have to go to the user profile page and create and select a category for meals. Add this category to each meal as well.
+This is needed so recipes like desserts will not show up in the meal planner.
 
-Go to the top right login icon and choose for Planner, give a start and end date and choose for each day what you're planned to eat. It doesn't matter on which day of the week you start or end.
+Go to the top right login icon and choose Planner, give a start and end date and choose for each day what you plan to eat.
+It doesn't matter on which day of the week you start or end.
 
 <img src="images_mealie0/mealie_create_weekmenu.png" alt="Create week plan" width="600">
 
@@ -121,7 +123,7 @@ We can use this to get the meal for today and present that on a dashboard in a c
 
 #### Store in a sensor
 First a scraper is needed to get the data from the Mealie API and store it as sensor in Home Assistant.
-This code creates a sensor `maaltijd_voor_vandaag` with the state `Gevulde paprika's`. Another API call returns the corresponding photo. 
+This code creates a sensor `maaltijd_voor_vandaag` with the state `Gevulde paprika's`. Another API call returns the corresponding photo.
 
 To call the API you need a secret Bearer token. Check the [FAQ](#faq) how to create one.
 
@@ -175,7 +177,7 @@ style: |
 
 #### Small card element
 
-Because the square image take a lot of space it's also possible to only use the center part of the photo to get the same impression but which use less space.
+Because the square image takes a lot of space, it's also possible to use only the center part of the photo to get the same impression but using less space.
 
 <img src="images_mealie0/picture_element_meal_tonight_small.png" alt="Result" width="400px">
 
@@ -229,7 +231,7 @@ sensor:
 {% endraw %}
 ```
 In your dashboard add a Markdown card with this code.
-The day of the week will be automatic set correct in the list. (Translate it if you're not Dutch)
+The day of the week will be set automatically and correctly in the list. (Translate it if you're not Dutch)
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -237,13 +239,13 @@ The day of the week will be automatic set correct in the list. (Translate it if 
 - type: markdown
   title: week menu
   content: >-
-    <table> 
-    {% for task in state_attr('sensor.meal_this_week','planDays') %} 
+    <table>
+    {% for task in state_attr('sensor.meal_this_week','planDays') %}
     <tr>
       <td>{{ ['ma','di','wo','do','vr','za','zo'][strptime( task.date,"%Y-%m-%d").weekday()] }} &nbsp;&nbsp;</td>
       <td>{{ task.meals[0].name }}</td>
-    </tr> 
-    {% endfor %} 
+    </tr>
+    {% endfor %}
     </table>
 {% endraw %}
 ```

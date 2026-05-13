@@ -12,9 +12,9 @@ image: /jura/images/jura_logo.png
 
 ## Introduction
 
-<img style="float:right;height:150px; margin-left:15px;" src="images/jura_z10.jpg" alt="Jura logo">
+<img style="float:right;height:150px; margin-left:15px;" src="images/jura_z10.jpg" alt="Jura Z10">
 
-After I bought a Jura Z10 espresso machine, I had a lot of questions while using it. 
+After I bought a Jura Z10 espresso machine, I had a lot of questions while using it.
 Questions about cleaning, maintenance, possibilities, accessory, hacks, app, etc!
 I watched many instruction videos and joined social media groups to learn more and get the most out of my machine.
 
@@ -34,9 +34,9 @@ If you have tips or other suggestions for this page, please let me know.
 
 Manuals how to [clean and maintain](jura_cleaning_maintenance) your Jura coffee machine.
 
-Answers to: 
+Answers to:
 * Which maintenance does it need
-* Which cleaning programs are there (for the Z10) 
+* Which cleaning programs are there (for the Z10)
 * Which cleaning products do you need?
 
 <br>

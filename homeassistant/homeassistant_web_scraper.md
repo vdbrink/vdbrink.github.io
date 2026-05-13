@@ -10,9 +10,9 @@ image: /homeassistant/images_web_scraper/ha_webscraper.png
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
 Here you find how you can scrape (text) elements from a webpage and create a Home Assistant sensor which contains this text.
-It also works with data from API calls. For each scraper you can define the update time to always get the most actual data. 
+It also works with data from API calls. For each scraper you can define the update time to always get the most up-to-date data.
 
-You can use this data to present on your own dashboard or make automations based on it. 
+You can use this data to present on your own dashboard or make automations based on it.
 Like run the washing machine based on low dynamic energy prices.
 Show the latest (formula 1) news or show the current weather alarm messages.
 
@@ -22,7 +22,7 @@ This *Scrape* integration is by default available in Home Assistant.
 
 The official info page: [https://www.home-assistant.io/integrations/scrape/](https://www.home-assistant.io/integrations/scrape/)
 
-On this page I use, as example, the actual dynamic gas price (from a specific provider) and show this on my dashboard.
+On this page I use, as an example, the current dynamic gas price (from a specific provider) and show this on my dashboard.
 
 <img src="images_web_scraper/eneco_flex_gas_price_dashboard.png" alt="Eneco Flex gas price on your dashboard" width="400px">
 
@@ -44,8 +44,8 @@ On this page I use, as example, the actual dynamic gas price (from a specific pr
 ---
 ## How it works
 
-The web scraper integration uses underwater the library **Beautiful Soup** to read first the whole website and then with the, so-called, **CSS Selector** it grabs the correct HTML element type (like an A, P, LI, TD or DIV element). 
-This selector is normally used to style these elements on a pages with CSS. 
+The web scraper integration uses under the hood the library **Beautiful Soup** to read the whole website first, and then with the, so-called, **CSS Selector** it grabs the correct HTML element type (like an A, P, LI, TD or DIV element).
+This selector is normally used to style these elements on a page with CSS.
 Then find the corresponding **index** which contains the element you want to scrape/extract.\
 In the scrape integration, you can define some extra templating to format and fine-tune the value.
 
@@ -77,7 +77,7 @@ To test if the scraper works in Home Assistant we use the evaluation page <a hre
 * Fill in the url https://callmepower.be/nl/energie/gids/tarief/prijs-gas 
 * Click on the button **Fetch**. Now the whole page source is loaded
 
-It is possible you get an `errors`, then try the manual option.
+It is possible you get an error, then try the manual option.
 
 <details markdown="1">
   <summary><b>> Click here to see the manual option</b></summary>
@@ -108,7 +108,7 @@ It is possible you get an `errors`, then try the manual option.
 * A numbered list that matches all the third columns values from the table as TD HTML elements, is visible.
 * The fifth row contains the data. This is index **4** (start counting by 0)
 <br>
-Now all the required input data is available for the scraper. It's time to setup the scraper in Home Assistant.
+Now all the required input data is available for the scraper. It's time to set up the scraper in Home Assistant.
 
 ---
 ## Configure the scraper in Home Assistant
@@ -205,7 +205,7 @@ Happy scraping!
 
 <br>
 <br>
-Let me know via a comment if you have some usefull scraped data!
+Let me know via a comment if you have some useful scraped data!
 
 ---
 > **_NOTE:_** In the old YAML [Scrape integration](https://www.home-assistant.io/integrations/scrape/) you can set a `scan_interval` how often you want to scrape the site. I don't see this variable in the graphical version. Do you know how to set this? Please let me know!

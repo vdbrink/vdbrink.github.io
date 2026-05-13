@@ -67,7 +67,7 @@ My wishlist for my new desk was clear:
 It took some time to find the perfect desk.
 There are so many companies who sell such desks.
 
-I was eventually choosing between:
+I eventually chose between:
 * The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) this one has good reviews but didn't have the full 200 cm width desk top.
 * The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all criteria but less reviews.
 
@@ -117,8 +117,8 @@ Alternative solutions:
 
 ## Laptop case
 
-To avoid outside light reflections and distractions from the silver laptop on my desk I put a black case around my laptop. 
-I choose to have all items below my monitor and on my desk to be black.
+To avoid outside light reflections and distractions from the silver laptop on my desk I put a black case around my laptop.
+I chose to have all items below my monitor and on my desk in black.
 
 <a href="images/macbook_case.jpg">
 <img src="images/macbook_case.jpg" alt="Macbook 16' case" width="450px" />
@@ -134,8 +134,8 @@ With an aspect ratio of 32:9 and curving of 1800R.
 It's the size of two 27" next to each other.
 
 This is one of my best purchases ever! I still love it every day.
-The big advanced compare to two separated 27" screens is that you can split your application windows as you like for the current moment.
-Sometimes this into three equal app windows, or one big window in the middle and small on the sides.
+The big advantage compared to two separate 27" screens is that you can split your application windows however you like at any given moment.
+Sometimes into three equal app windows, or one big window in the middle and smaller ones on the sides.
 
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="450px" />
@@ -166,11 +166,11 @@ To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a single Display
 ---
 ### Monitor arm
 
-To make a clean desk, I was looking for a monitor arm which should hold the screen stable, 
-not wobbly and is attached to the desk. Now the monitor "float" above the desk.
-It should also hold easily the weight of the 12 kg 49" screen.
-Hide the wires and doesn't stick out on the back, otherwise I had to set the desk away from the wall and loose space. 
-I can easily pull and push the screen back- and forward.
+To keep a clean desk, I was looking for a monitor arm that holds the screen stable,
+not wobbly, and is attached to the desk. Now the monitor "floats" above the desk.
+It should also easily hold the weight of the 12 kg 49" screen.
+It hides the wires and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
+I can easily pull and push the screen back and forward.
 
 I end up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340)
 It's made of strong metal and can hold up to 20 kg, match all my requirements and cost not too much.
@@ -231,7 +231,7 @@ Works with a single AA battery.
 
 I use a very large mouse pad underneath my keyboard and mouse.
 The top material is soft with a smooth surface for the perfect sliding with the mouse.
-The bottom material is made of rubber to keep it on its place.
+The bottom material is made of rubber to keep it in place.
 
 I use a full black one without any art distractions on it.
 
@@ -250,11 +250,11 @@ Alternative:
 
 ## Camera
 
-I choose a basic camera (years back) for the features:
+I chose a basic camera (years ago) for the features:
 * HD USB camera with a lens cover
 * 30 fps
 * Light correction
-* Good sound and microphone quality (now I use a separated microphone)
+* Good sound and microphone quality (now I use a separate microphone)
 * A mount with contra weight to place on top of a monitor
 
 <a href="images/logitech_c920_webcam.jpg">
@@ -268,7 +268,7 @@ But it can be upgraded to a newer one with a 4K resolution with auto follow feat
 
 ## Microphone
 
-For an affordable basic microphone, I've chosen for the Razer Seiren Mini black - USB condensator microphone.
+For an affordable basic microphone, I've chosen the Razer Seiren Mini black - USB condenser microphone.
 
 * {{imgBasket}}[Razer Seiren Mini black - Amazon NL](https://amzn.to/4cwPg84)
 
@@ -302,7 +302,7 @@ In the past I had already good experience with the QCY in-earbuds for on-the-go.
  
 * Dual device connect - possibility to connect at the same time to two devices (laptop and phone)
 * Soft top - no hard plastic pressure on your head
-* QCY app - to set custom sound settings and the level of noice cancellation
+* QCY app - to set custom sound settings and the level of noise cancellation
 * Bluetooth 6 - long battery life
 * Physic buttons - to control ANC/sound/calls
 * 5 modes Adaptive ANC Noise cancellation (Adaptive/Crowded/Commute/Indoor/Anti-Wind)
@@ -404,7 +404,7 @@ But when you need it, you don't want to dive under the table to connect one.
 A nice solution is retractable USB charging cables. 
 You can pull them out when you need it, and it automatically rolls in when you're done.
 
-I found these and the fit almost perfect with my other wood elements.
+I found these and they fit almost perfectly with my other wood elements.
 But I don't like the orange color (I can paint it black, of course).
 And the shipping price makes it very expensive.
 
@@ -420,7 +420,7 @@ Alternative:
 ----
 ## Camera
 
-An newer 4K camera with auto zoom and auto follow feature should be a nice upgrade.
+A newer 4K camera with auto zoom and auto follow feature would be a nice upgrade.
 Then everybody can see me sharp and sparkly!
 
 ---

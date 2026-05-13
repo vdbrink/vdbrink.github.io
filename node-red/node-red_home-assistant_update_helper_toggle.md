@@ -20,7 +20,7 @@ See [initial setup](node-red_home-assistant#initial-setup) for the required addi
 
 ## Update a Home Assistant helper entity toggle from Node-RED
 
-Let's say you have a customer helper toggle with the name `input_boolean.toggle` and with Node-RED you want to set it to `off`.
+Let's say you have a custom helper toggle with the name `input_boolean.toggle` and with Node-RED you want to set it to `off`.
 Create your flow and add the Home Assistant API node.
 ```
 Server     Home Assistant

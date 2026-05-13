@@ -41,9 +41,9 @@ Here I summarize some of these products.
 ## Beans
 
 There are many brands with all kinds of flavors for coffee beans. 
-All with its own strength and additional tastes.
+Each with its own strength and additional tastes.
 
-The most important thing to pay attention is to choose for beans which are not oily. 
+The most important thing to pay attention to is to choose beans which are not oily. 
 The oil can clog grinders and pipes, leading to reduced performance and costly repairs.
 
 One of my favorite tastes is this medium strength [Lavazza, Rossa Beans](https://amzn.to/46nuIMk):
@@ -182,7 +182,7 @@ Is your coffee always too fast cold?
 With a preheated cup, the coffee will be much warmer than when you use a cold cup.
 It holds the cups at a constant temperature of 55 degrees (131 Fahrenheit).
 
-Jura provides a cup warmer with two draws. 
+Jura provides a cup warmer with two drawers. 
 It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø 57 mm), 4 coffee cups (Ø 66 mm).
 
 <a href="/jura/images_products/jura_cup_warmer_closed.webp">

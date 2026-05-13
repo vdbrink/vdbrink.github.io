@@ -36,7 +36,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to date and t
 
 ![time_date.png](images_date_time/time_date.png)
 
-Hugh time notation and a full date notation.
+Huge time notation and a full date notation.
 
 For the date a template is used, [sensor.date_only_formatted](#date-in-dutch-format)
 
@@ -70,7 +70,7 @@ cards:
 
 ![Current time and full date in Dutch](images_date_time/date_time.png)
 
-the current time and full date in Dutch notation.
+The current time and full date in Dutch notation.
 
 ```yaml
 {% raw %}
@@ -91,7 +91,7 @@ the current time and full date in Dutch notation.
 {% endraw %}
 ```
 <br>
-Now on the dashboard, this sensor can be use with this code:
+Now on the dashboard, this sensor can be used with this code:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -159,15 +159,15 @@ Create a new countdown sensor based on an existing date sensor.
 
 ### Twente Milieu: format `YYYY-MM-DD`
 Countdown for the number of days until they pick up the paper waste.\
-For example, the `Twente Milieu` integration creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD` 
+For example, the `Twente Milieu` integration creates the sensor `paper_waste_pickup` in the format `YYYY-MM-DD`
 
-With this template it gives the amount of days from now. 
+With this template it gives the number of days from now.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template      
+- platform: template
   sensors:
     paper_waste_pickup_countdown:
       friendly_name: "papier ophalen"
@@ -177,21 +177,21 @@ With this template it gives the amount of days from now.
          {% set days = ((paper_timestamp - now_timestamp) / (24 * 60 * 60)) | round(0, 'ceil')  %}
          {{ days }}
       icon_template: mdi:delete-empty
-      unit_of_measurement: "dagen"  
+      unit_of_measurement: "dagen"
 {% endraw %}
 ```
 
 ### HACS: Afvalbeheer: attribute and format `YYYYMMDD`
 Countdown for the number of days until they pick up the paper waste.
-The [HACS: Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer) integration creates the sensor `wastecollector_papier` the default value can be `Morgen, 05-02-2024` or `06-02-2024`. But the attributes field `Sort_date` has a default `YYYYMMDD` that's why I use this value
+The [HACS: Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer) integration creates the sensor `wastecollector_papier` — the default value can be `Morgen, 05-02-2024` or `06-02-2024`. But the attributes field `Sort_date` has a default `YYYYMMDD`, that's why I use this value.
 
-With this template it gives the amount of days from now.
+With this template it gives the number of days from now.
 
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template      
+- platform: template
   sensors:
     paper_waste_pickup_countdown:
       friendly_name: "papier ophalen"
@@ -199,14 +199,14 @@ With this template it gives the amount of days from now.
         {% set datex = state_attr('sensor.wastecollector_papier','Sort_date') | string %}
         {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
       icon_template: mdi:delete-empty
-      unit_of_measurement: "dagen"  
+      unit_of_measurement: "dagen"
 {% endraw %}
 ```
 
 ### Show only on the last 4 days
 
 To show only the message when it's less than 4 days before the pick-up I used the [HACS: auto-entities](https://github.com/thomasloven/lovelace-auto-entities) custom element.
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 ```yaml
 {% raw %}
@@ -234,7 +234,7 @@ Install this integration via this button in your own HA instance.\
 Show in human-readable text how long an entity, like a washing machine, is active.
 
 I used a custom HACS module mushroom.
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
 
 ```yaml
@@ -246,7 +246,7 @@ Install this integration via this button in your own HA instance.\
   {{ 'De wasmachine is ' }}
   {%- set entity_id = 'binary_sensor.wasmachine' -%}
   {%- if is_state(entity_id, 'on') -%}
-  
+
       {%- set runningsince = (now()) - ((states[entity_id].last_changed)) -%}
       {%- set runningsinceseconds = runningsince.total_seconds()|round -%}
       {%- set runningsincedays = (runningsinceseconds / 86400)|int|string -%}
@@ -254,31 +254,31 @@ Install this integration via this button in your own HA instance.\
       {%- if runningsincedays|int == 1 -%}
         {%- set runningsincedaystext = 'dag' -%}
       {%- endif -%}
-  
+
       {%- set runningsincehours = (runningsinceseconds % 86400 / 3600)|int|string -%}
       {%- set runningsincehourstext = 'uren' -%}
       {%- if runningsincehours|int == 1 -%}
         {%- set runningsincehourstext = 'uur' -%}
-      {%- endif -%} 
-      
-      {%- set runningsinceminutes = (runningsinceseconds % 3600 / 60)|int|string -%} 
+      {%- endif -%}
+
+      {%- set runningsinceminutes = (runningsinceseconds % 3600 / 60)|int|string -%}
       {%- set runningsinceminutestext = 'minuten' -%}
-      {%- if runningsinceminutes|int == 1 -%} 
+      {%- if runningsinceminutes|int == 1 -%}
         {%- set runningsinceminutestext = 'minuut' -%}
-      {%- endif -%} 
-  
-      {%- if runningsincedays|int > 0 -%} 
+      {%- endif -%}
+
+      {%- if runningsincedays|int > 0 -%}
       # Running more then 1 day
-        {{ runningsincedays + ' ' + runningsincedaystext + ', ' + runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }} 
+        {{ runningsincedays + ' ' + runningsincedaystext + ', ' + runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }}
       {%- elif runningsincehours|int > 0 -%}
       # Running more then 1 hour
-        {{ runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }} 
+        {{ runningsincehours + ' ' + runningsincehourstext + ' en ' + runningsinceminutes + ' ' + runningsinceminutestext }}
       {%- else -%}
       # Running for minutes
         {{ runningsinceminutes + ' ' + runningsinceminutestext }}
       {%- endif -%}
-      {%- if is_state(entity_id, 'on') -%} 
-        {{ ' bezig'}} 
+      {%- if is_state(entity_id, 'on') -%}
+        {{ ' bezig'}}
       {%- endif -%}
   {%- else -%}
   # State is off
@@ -334,7 +334,7 @@ Show the time when a sensor was triggered the last time and, the value on the ri
 ## Last changed indication
 
 A custom sensor that shows the time since the last change.\
-Also useful to show on a floor map. 
+Also useful to show on a floor map.
 
 ```yaml
 {% raw %}
@@ -351,7 +351,7 @@ mailbox_timer:
 ---
 ## Triggered today
 
-Test if the robot vacuum already runs today.
+Test if the robot vacuum has already run today.
 
 ```yaml
 {% raw %}
@@ -370,7 +370,7 @@ binary_sensor:
 ## Time selector on the dashboard
 
 I have a LED strip and want users to define the ON/OFF time by themselves, via the dashboard.
-IF and WHEN he must be triggered ON and OFF.
+If and when it should be triggered ON and OFF.
 
 <img src="images_wake-up/wake-up-dashboard.png" alt="Time selector on the dashboard" width="400px">
 <br>

@@ -16,13 +16,13 @@ image: /homeassistant/images_wake-up/wake-up-dashboard.png
 In Home Assistant on your dashboard you can change the time the alarm should be triggered.
 
 This alarm can be connected to all kinds of automations.
-In my example I connect a LED strip to it, but you can also use it make your coffee, 
-read out loud the latest news or the weather forcast for today.
+In my example I connect a LED strip to it, but you can also use it to make your coffee, 
+read out loud the latest news or the weather forecast for today.
 Or start a radio channel stream over the speakers.
 Or all of this!
 
 You can trigger anything, as long as you've automated it.
 
 Do you like this and do you also want this on your dashboard?
-Check the [Home Automation dashboard: Wake-up alarm light page](/homeassistant/homeassistant_dashboard_wake-up-alarm-light) for all details how I automated a LED strip.
+Check the [Home Automation dashboard: Wake-up alarm light page](/homeassistant/homeassistant_dashboard_wake-up-alarm-light) for all the details on how I automated a LED strip.
 Or check all other [Home Assistant](/homeassistant/) related pages.

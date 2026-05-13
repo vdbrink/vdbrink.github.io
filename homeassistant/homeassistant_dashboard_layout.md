@@ -18,7 +18,7 @@ I only show entities that are relevant for the time of day, the season, or whate
 
 I hope you can use these examples for your own dashboard.
 
-> **_NOTE:_** Some of the examples require an extra HACS integration. If possible I added a link which makes it possible to directly install in on your own Home Assistance instance.
+> **_NOTE:_** Some of the examples require an extra HACS integration. If possible, I added a link which makes it possible to directly install it on your own Home Assistant instance.
 
 ---
 ## Table of Contents
@@ -44,7 +44,7 @@ With a horizontal-stack, you can place multiple entities next to each other in o
 
 <img src="images_layout/layout_horizontal-stack.png" alt="horizontal stack" width="400px">
 
-Here you see two gauges next to each other instead of the usual double-sized cards stacked under one another.
+Here you see two gauges next to each other instead of the usual double-sized cards stacked below one another.
 
 ```yaml
 {% raw %}

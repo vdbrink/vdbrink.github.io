@@ -13,7 +13,7 @@ Frigate is a tool to analyze your video camera streams.
 
 It can detect and store a snapshot and a video clip when it detects presence.
 
-On this page, you can find how to add videostreams on your dashboard.
+On this page, you can find how to add video streams on your dashboard.
 
 Website: [https://frigate.video/](https://frigate.video/)
 
@@ -95,9 +95,9 @@ cameras:
 You can add a direct livestream based on the rtsp url with the custom HACS integration WebRTC.
 
 Repo: [https://github.com/AlexxIT/WebRTC](https://github.com/AlexxIT/WebRTC) \
-There are a lot of possible settings possible, check this site for them.
+There are a lot of possible settings, check this site for them.
 
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexxIT&repository=WebRTC&category=integration)
 
 ```yaml
@@ -109,7 +109,7 @@ url: rtsp://username:password@<ip-address:port>/h264Preview_01_main
 ---
 ## Show MP4 video clips
 
-Frigate provides for each event a MP4 movie via the api.
+Frigate provides for each event an MP4 movie via the api.
 * Api format: http://<ip-address:port>/api/<camera-name>/<detection-object>/clip.mp4
 * Api example: http://192.168.1.2:5000/api/camera_1/person/clip.mp4
 
@@ -120,7 +120,7 @@ This doesn't work with the default Markdown integration, but it works with the c
 
 Repo: [https://github.com/PiotrMachowski/lovelace-html-card](https://github.com/PiotrMachowski/lovelace-html-card)
 
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PiotrMachowski&repository=lovelace-html-card&category=integration)
 
 ```yaml

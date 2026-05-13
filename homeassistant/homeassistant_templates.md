@@ -12,7 +12,7 @@ image: /homeassistant/images_templates/ha_templates_banner.png
 <br><br>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find some Home Assistant helper template examples.\
+Here you can find some Home Assistant helper template examples.\
 With these helper templates, you can create new custom sensors (conditions) based on other sensor values to use on the dashboard or in automations.
 This new sensor can have a textual output or a boolean value true/false.
 <br>
@@ -66,7 +66,7 @@ This new sensor can have a textual output or a boolean value true/false.
 
 ### What is the difference between a binary and normal sensor?
 
-A normal sensor can have any output, text, number or a boolean also and a binary sensor can only have a boolean value as output.
+A normal sensor can have any output, text, number or a boolean, and a binary sensor can only have a boolean value as output.
 It can only have the state `true` or `false`.
 This sensor can be used in automations to check if a condition matches.
 
@@ -78,7 +78,7 @@ There are two ways to add a template to your Home Assistant:
 
 One way to add a new template is by adding the code to the `configuration.yaml` file.
 In 2022, the configuration for template entities changed.
-Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section a new `template` section was introduced.
+Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section, a new `template` section was introduced.
 Using the modern template format has a couple of advantages.
 You can use a `trigger` and `action` (like in automations) which gives more control over when the entity should be updated, and it allows to set a `state_class` so the state of the entity will also be stored in Long Term Statistics. It also allows to create `button`, `image`, `number` and `select` entities which is not possible using the legacy platform.
 
@@ -110,7 +110,7 @@ That file can look like this:
 {% endraw %}
 ```
 
-You can also create a directory and place multiple files in it, for each different subjects an own file.
+You can also create a directory and place multiple files in it, one for each different subject.
 This makes it very clear and maintainable.
 Create a directory, for example called `sensors`, in the Home Assistant root.
 Now create the different .yaml-files in it.
@@ -163,7 +163,7 @@ Now you're here:
 
 <img src="images_templates/test_template.png" alt="Template debug tool" width="100%">
 
-In the **Template editor** the code can be placed and edit, and on the right you see direct the output.
+In the **Template editor** the code can be placed and edited, and on the right you immediately see the output.
 
 Home Assistant uses [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates/?sfnsn=wa) as a template engine to combine static text with variables.
 
@@ -174,7 +174,7 @@ Use the below examples, search the internet, use the Home Assistant Community fo
 
 [The Home Assistant website contains also a lot of examples!](https://www.home-assistant.io/docs/configuration/templating/)
 
-ChatGPT is really useful and fast with helping you to create a new template and improve it to fine-tune it.
+ChatGPT is really useful and fast at helping you create a new template and fine-tune it.
 
 <img src="images_templates/chatgpt_resource.png" alt="chatGPT as source" width="100%">
 
@@ -495,7 +495,7 @@ image: >-
 
 **Alternative presentation**
 
-I also created a slightly different presentation for the countdown with a some CSS modifications to the Picture Entity Card.
+I also created a slightly different presentation for the countdown with some CSS modifications to the Picture Entity Card.
 * No transparent background,
 * black text color and,
 * bigger font.
@@ -560,7 +560,7 @@ Based on today's date the diff in days is calculated.\
 
 #### Is tomorrow a trash bin day
 
-Check if tomorrow is a any waste pickup day.
+Check if tomorrow is any waste pickup day.
 This sensor will be named `sensor.waste_tomorrow`.
 
 ```yaml
@@ -630,7 +630,7 @@ template:
 ---
 ### What to wear outside
 
-Based on the outside temperature defined what to wear when you go outside.
+Based on the outside temperature, determine what to wear when you go outside.
 
 <img src="images_templates/what_to_wear.png" alt="What to wear outside" width="100px" />
 
@@ -779,7 +779,7 @@ template:
 
 In The Netherlands, there are two main data providers for expected rain, Buienalarm and Buienradar.\
 I created for now some example conditions based on the Buienalarm data.\
-Someday, I'll create the same conditions also for Buienradar (and both combined) if there is interest for.
+Someday, I'll create the same conditions also for Buienradar (and both combined) if there is interest.
 
 First, you need to get the expected rain data as a sensor in Home Assistant.
 Install the [Neerslag App integration](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app)
@@ -1067,7 +1067,7 @@ template:
 ### DIY Sink leak status
 
 I created a custom [leak sensor](/zigbee/zigbee_water_leak_sensor) based on a contact sensor.
-The used sensor stores the value if it detects a leak in an attribute value `contact`.
+The sensor stores whether it detects a leak in an attribute value `contact`.
 This attribute is now used to create a boolean value.
 
 <img src="images_templates/leak_sink.png" alt="sink leak" width="450px" />
@@ -1091,9 +1091,9 @@ template:
 ### DIY Chair occupancy status
 
 I created a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
-If you sit on it the contact sensor return `off`.\
+If you sit on it, the contact sensor returns `off`.\
 The normal value of the contact sensor needs to be inverted.\
-That's what happened here.
+That's what is done here.
 
 <img src="../zigbee/images_chair/pillow_with_sensor.jpg" width="450px" />
 

@@ -52,7 +52,7 @@ To activate this, you need to plug a Bluetooth or WiFi module into the machine a
 ---
 ## Connectivity issues?
 
-If your phone has problems to find and keep connection to the coffee machine, this can be caused by your Wifi router settings.
+If your phone has trouble finding and keeping a connection to the coffee machine, this can be caused by your Wifi router settings.
 If you've set your network SSID to hidden, the Jura app will not easily be able to find your coffee machine.
 
 The machine only uses the 2.4 GHz band to connect to your router over Wifi. 

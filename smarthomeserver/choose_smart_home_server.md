@@ -8,7 +8,7 @@ tags: [Zigbee, wifi, Home Assistant, server, Node-RED, hardware, mini pc, home l
 
 ## Introduction
 
-In this article, I highlight some different smart home hardware servers solutions and what the difference purposes are.
+In this article, I highlight some different smart home server solutions and what the difference purposes are.
 Everybody has different knowledge levels, budget, and functionality wishes. There is no single best solution for everyone. Compare it to buying a car, there is no single car that fits everybody's needs.
 
 ---
@@ -19,18 +19,18 @@ Everybody has different knowledge levels, budget, and functionality wishes. Ther
   * [Remarks](#remarks)
 <!-- TOC -->
 
-
 ---
 ## What is a smart home server?
 
-I read all kinds of different namings for a server which runs your smart home software.\
+I see all kinds of different names for a server which runs your smart home software.\
 The names I see mostly are: smart home server, homelab.\
 How do you call it? I call it here a "smart home server".
 
 I see it as a full (small) computer with:
 * A harddisk, memory, and a processor
 * A full operating system
-* A local protocol to communicate with your smart home devices
+* Support for a local protocol to communicate with smart home devices
+* Less power consumption
 
 | <div style="width:400px">**Smart home server Pros** </div>                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ I see it as a full (small) computer with:
 
 | <div style="width:400px">**Smart home server Cons** </div>                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
-| * You need to make your own backups<br/>* You need to update the software yourself<br/>* Technical knowledge about hardware and software maintenence |
+| * You need to make your own backups<br/>* You need to update the software yourself<br/>* Technical knowledge about hardware and software maintenance |
 
 ---
 ## What is the difference with a smart hub?
@@ -68,4 +68,4 @@ Examples of smart home hubs are:
 
 ## Remarks
 Do you have any remarks? Suggestions? Spell errors?\
-Please let me know, you can reach me in one of mine social media posts or send me a direct message.
+Please let me know, you can reach me in one of my social media posts or send me a direct message.

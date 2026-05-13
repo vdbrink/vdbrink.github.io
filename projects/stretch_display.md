@@ -13,10 +13,10 @@ image: /projects/images_stretch_display/office_display_next2monitor.jpg
 ## Introduction
 
 <a href="index"><img src="images_stretch_display/basic_weather_station.jpg" style="float: right;margin-left:15px" alt="Old weather station" height="150px"></a>
-I had for years a basic weather station with a radio receiver to see the in- and outside weather data (temperature, humidity and pressure). Now with Home Assistant, and my local weather station, I have so much more weather data available that I want to replace my old weather station display for something new, based on the data in Home assistant.
+I had for years a basic weather station with a radio receiver to see the indoor and outdoor weather data (temperature, humidity and pressure). Now with Home Assistant and my local weather station, I have so much more weather data available that I want to replace my old weather station display with something new, based on the data in Home Assistant.
 
 I was also looking for a small display to show the actual CO2 and temperature data in my home office.
-I found out when the CO2 was too high and/or the temperature is above 23 degrees, the concentration drops.
+I found that when the CO2 is too high and/or the temperature is above 23 degrees, my concentration drops.
 
 > This page is still under construction, I fill in all chapters one by one how I set it up. So you can create exactly the same, or use it as a reference for your own display project.
 
@@ -138,7 +138,7 @@ You can also buy a cheaper <a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" t
 #### Micro SD-card
 
 <a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank">SD card</a> to install the OS on, such as Raspberry Pi OS desktop.
-A minimal of 8 GB version is already enough, but larger one are just a little bit more expensive.
+A minimum of 8 GB is already enough, but larger ones are just a little bit more expensive.
 Speed is not an issue for this card, it only boots and then doesn't need to read and write once it's booted.
 
 <a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank"><img src="images_stretch_display/sdcard.webp" alt="SD card" height="100px"/></a>
@@ -239,8 +239,8 @@ https://github.com/NemesisRE/kiosk-mode
 
 ## Home Assistant dashboard
 
-See [this separated page](/homeassistant/homeassistant_dashboard_stretch_layout) where I describe the different elements on the dashboard.
-I created a new theme and needed to increase font sizes to make it good readable also from a distance.
+See [this separate page](/homeassistant/homeassistant_dashboard_stretch_layout) where I describe the different elements on the dashboard.
+I created a new theme and increased font sizes to make it easily readable from a distance.
 
 ### Weather station stretch display
 

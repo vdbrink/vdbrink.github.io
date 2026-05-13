@@ -18,7 +18,7 @@ tags: [Node-RED, humidity, shower, diff, temperature]
 Get a trigger when the temperature or humidity is changed in a certain time window.
 
 Purposes where this flow can be used:
-* Detect when someone taking a shower and activate you [ventilation system](/esphome/orcon_mechanic_ventilation)
+* Detect when someone is taking a shower and activate your [ventilation system](/esphome/orcon_mechanic_ventilation)
 * Check if somewhere a door or window is open/broken, because it becomes suddenly much colder/warmer
 * Check if in a room a thermostate is on while there is nobody inside
 * Check if someone is [cooking](/ideas/home_automation_ideas#stove)

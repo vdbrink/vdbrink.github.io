@@ -30,7 +30,7 @@ The **downside** is that you don’t get all the advanced smart features, only s
 In most cases, this is not a reason to upgrade the appliance, and in the meanwhile, this is good enough (for me at least).
 
 What matters most for a smart device really depends on individual preferences: 
-is it it's features, privacy, price, or durability?
+is it its features, privacy, price, or durability?
 
 For me, it’s privacy (running everything locally) and durability.
 
@@ -106,14 +106,14 @@ Automations which you **can't** make this way:
 
 ## Oven
 
-An oven can be made smarter with automations that notify you when it's on it set temperature.
+An oven can be made smarter with automations that notify you when it has reached its set temperature.
 
 <img src="images_kitchen_appliances/oven.webp" alt="smart oven" width="200px" {{margin}}>
 
 **Sensors and automations**
 
 * With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: 
-when the power consumption drops, it reached his preset temperature.\
+when the power consumption drops, it has reached its preset temperature.\
  First check the manual of your oven to see if the wattage is below the maximum of the smart socket.
   <a href="images_kitchen_appliances/oven_power.png" target="_blank">
   <img src="images_kitchen_appliances/oven_power.png" alt="oven power measurement" width="350px"/>
@@ -127,7 +127,7 @@ when the power consumption drops, it reached his preset temperature.\
 
 With these automations you can make the next notifications and/or announcements when the oven ...
 
-* reaches his preset temperature.
+* reaches its preset temperature.
 <img src="/ideas/images/notification.jpg" alt="notification" height="100px"/>
 
 <br>
@@ -180,7 +180,7 @@ A stove can be made smarter with automations that can activate the ventilation o
 
 * With a [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside the extractor hood: you can monitor the temperature and humidity of steam from the cooked meals.
 * With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can monitor if the extraction fan is activated.
-* With a gas sensor: you can detect is the gas is still open while you're not cooking anymore.
+* With a gas sensor: you can detect if the gas is still on while you're not cooking anymore.
 
 <br>
 
@@ -189,7 +189,7 @@ A stove can be made smarter with automations that can activate the ventilation o
 With these automations you can make the next notifications and/or announcements when the stove ...
 
 * detects if someone is cooking.
-* know that the extraction fan must be activated based on the temperature/humidity.
+* know when the extraction fan must be activated based on the temperature/humidity.
 * detect too much gas in the air.
 
 <br>
@@ -289,7 +289,7 @@ With these automations you can make the next notifications and/or announcements 
 
 ## Conclusion
 
-As you can read with just an addition of a few sensors to your current dumb kitchen appliances, you can make them must smarter!
+As you can read, with just a few extra sensors added to your current dumb kitchen appliances, you can make them much smarter!
 
 ---
 

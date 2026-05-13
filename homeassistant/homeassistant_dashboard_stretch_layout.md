@@ -13,12 +13,12 @@ tags: [Home Assistant, dashboard, lovelace, layout, stretch, display, long, larg
 <a href="index"><img src="images/home_assistant_logo.png" style="margin-left:20px;float: right" alt="Home Assistant logo" height="100px"></a>
 I bought a long-stretched small 8.8" display to show directly my room and important house status on it.
 
-The default Home Assistant dashboard elements show the text not big enough if you look at it from a distance. 
+The default Home Assistant dashboard elements show the text not big enough if you look at it from a distance.
 That's why I created **two custom themes** (to test which looks better) for more contrast and less element borders.
 I also modified several dashboard elements to show the text bigger.
 
-On this page, I describe how I created the different elements with the corresponding YAML code. 
-You can copy-paste is you want to reuse it for yourself.
+On this page, I describe how I created the different elements with the corresponding YAML code.
+You can copy-paste if you want to reuse it for yourself.
 
 This is how the dashboard looks like on the display:
 
@@ -29,7 +29,7 @@ This is how the dashboard looks like on the display:
 <br>
 <br>
 
-Check [here for the hardware section](/projects/stretch_display) where I describe how I setup the hardware.
+Check [here for the hardware section](/projects/stretch_display) where I describe how I set up the hardware.
 
 ---
 ## Table of Contents
@@ -52,14 +52,14 @@ Check [here for the hardware section](/projects/stretch_display) where I describ
 
 ## Introduction
 
- <img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched charamel theme" height="600px" style="float:right;margin-left:15px;"/> 
-I wanted a display to show the current room healthy information and other live data around the house. 
+ <img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched charamel theme" height="600px" style="float:right;margin-left:15px;"/>
+I wanted a display to show the current room healthy information and other live data around the house.
 
-Now I show the next data on it: 
+Now I show the next data on it:
 * Room temperature (+graph), CO2 (+graph), humidity, room heater status, chair occupancy time,
 * Time & date, news headline.
 * Outside temperature, rain is expected.
-* I also have many **Conditional elements**. 
+* I also have many **Conditional elements**.
   By default, not visible only when they have a noticeable state they will be visible.
   * Camera stream if someone is at the front door.
   * CO2 value too high.
@@ -71,7 +71,7 @@ Now I show the next data on it:
 <!--
 And a display to show the current and expected weather conditions.
 
-With one look at the screen, I wanted to directly see the state. 
+With one look at the screen, I wanted to directly see the state.
 By default, the font size of the default theme is too small, the contrast is too low, and the card borders are too distracting.
 -->
 I created and tested two different themes to see which one works best.
@@ -91,7 +91,7 @@ Install the **kiosk-mode** integration via this button\
 
 To set these properties, select the three dots in the top right and select `Raw configuration editor`.
 
-<img src="images_layout_stretch/raw_config_editor.png" alt="Raw configuration editor" height="200px" /> 
+<img src="images_layout_stretch/raw_config_editor.png" alt="Raw configuration editor" height="200px" />
 <img src="images_layout_stretch/kiosk_mode.png" alt="kiosk mode" height="200px" />
 
 See all possible configuration parameters at https://github.com/NemesisRE/kiosk-mode
@@ -118,7 +118,7 @@ To show the top toolbar again, add `?disable_km=` to the url.
 I created two custom themes for this project to see which has the best contrast and best looks.
 
 * Stretch Charamel: This theme uses black and charamel color as contrast colors.
-* Stretch Dark: This theme uses all black and other contrast colors with the same card background as normal background. 
+* Stretch Dark: This theme uses all black and other contrast colors with the same card background as normal background.
   Only subtle lines to split elements from each other.
 
 <br>
@@ -229,7 +229,7 @@ For the current room temperature, I used my own [DIY ESPHome CO2, temperature, h
 <img src="images_layout_stretch/temperature_graph.png" alt="temperature graph" width="450px" />
 </a>
 
-This card requires the HACS integration `mini-graph-card`,
+This card required the HACS integration `mini-graph-card`,
 install this integration via this button\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kalkih&repository=mini-graph-card&category=integration)
 
@@ -760,7 +760,7 @@ cards:
 
 ### Flexible Horseshoe card
 
-This card need extended settings.
+This card needs extended settings.
 
 See the repo page [https://github.com/AmoebeLabs/flex-horseshoe-card](https://github.com/AmoebeLabs/flex-horseshoe-card?tab=readme-ov-file#a-basic-example) for all possible details.
 
@@ -768,7 +768,7 @@ See the repo page [https://github.com/AmoebeLabs/flex-horseshoe-card](https://gi
 
 See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
 
-I have also a page with more details about how to setup [kiosk mode](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) on a tablet.
+I also have a page with more details about how to set up [kiosk mode](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) on a tablet.
 
 ---
 

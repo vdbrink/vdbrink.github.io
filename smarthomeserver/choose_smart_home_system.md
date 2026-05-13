@@ -14,7 +14,7 @@ You have no idea what they mean!
 I can completely understand this scares you.
 
 I have a technical background and know already a lot about computers, networks, and software.
-All my live I have been interested, did studies and worked in all kinds of different technical sectors.
+All my life I have been interested, did studies and worked in all kinds of different technical sectors.
 
 On this page, I try to clear things up by comparing the different smart home solutions and explain terminology with some extra background information.
 
@@ -107,7 +107,7 @@ Here you can search for a comparable problem and otherwise ask for help from peo
 You can also use mixed solutions, like Home Assistant,
 which can be installed on your own hardware
 where you use a local protocol to communicate with most of your smart home devices. 
-And also use use for some devices their cloud solution integration,
+And also use for some devices their cloud solution integration,
 like for your electric car, dishwasher or robot vacuum cleaner. 
 Then you can decide for each new device
 you add to your setup
@@ -155,7 +155,7 @@ To support a protocol, you need for each a specific USB adapter that 'talks' tha
 
 ## What is a smart home system?
 
-I read all kinds of different namings for a system which runs your smart home software.\
+I see all kinds of different names for a system which runs your smart home software.\
 The names I see mostly are: smart home system, homelab.\
 How do you call it? I call it here a "smart home system".
 
@@ -239,7 +239,7 @@ Key Features:
 
 ## Terminology
 
-here is a list of abbreviations and terms that frequently come up in discussions on this topic.
+Here is a list of abbreviations and terms that frequently come up in discussions on this topic.
 
 <div class="align-left">
 
@@ -265,7 +265,7 @@ here is a list of abbreviations and terms that frequently come up in discussions
 ## Need help?
 
 If you need help, DON'T contact me personally, but use the social media communities or fora.
-There are also a lot other smart people who can help you further.
+There are also a lot of other smart people who can help you further.
 
 * [Home Assistant forum](https://community.home-assistant.io/)
 * [Reddit - Home Assistant](https://www.reddit.com/r/homeassistant/)
@@ -277,11 +277,11 @@ There are also a lot other smart people who can help you further.
 ---
 
 ## Remarks
-I hope this pages clear things up for you!
+I hope this page clears things up for you!
 
 Are there still terms, hardware or anything else you miss here?
 Or do you have any other remarks, suggestions, spell errors found after reading this page?\
-Please let me know, you can reach me in one of mine social media posts or create a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
+Please let me know, you can reach me in one of my social media posts or create a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
 
 ---
 

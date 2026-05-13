@@ -91,7 +91,7 @@ These Amazon products are also bundled on these
 
 > **_NOTE 2:_** I advise these products based on my personal experience.\
 > I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT.\
-> It can be with other hardware combinations it doesn't run with the same experience.
+> With other hardware combinations it may not run with the same experience.
 
 ---
 
@@ -103,23 +103,23 @@ On the market, there are different types of protocols to create a smart home net
 Like Zigbee, Thread, WiFi, Bluetooth, Z-Wave and Matter.
 All with their pros and cons.
 You can use different protocols next to each other.
-I chose for one protocol: Zigbee.
+I chose one protocol: Zigbee.
 
 <img src="images_zigbee/zigbee.jpg" alt="zigbee" height="60px" style="margin-left:15px;float:right"/>
 
-This is why I choose for Zigbee:
+This is why I chose Zigbee:
 * There is a wide range of sensor and actuator types available;
-* Every Zigbee device, independent of a manufacturer, it works in your network;
+* Every Zigbee device, independent of manufacturer, works in your network;
 * The prices are low;
 * It works locally, no internet is required;
-* You can even link buttons direct to (a group) lamps without the need of a hub;
-* Not dependent on the manufacture app, cloud or other software. When manufacture gets bankrupt, you still can use your devices.
+* You can even link buttons directly to (a group of) lamps without the need of a hub;
+* Not dependent on the manufacturer's app, cloud or other software. When a manufacturer goes bankrupt, you can still use your devices.
 * It works as a mesh network, you can reach devices far away from the coordinator as long as there are enough active hops in between;
-* The standard is an open protocol, you don't pay for a license fees (for Z-Wave you do) to use it;
+* The standard is an open protocol, you don't pay license fees (for Z-Wave you do) to use it;
 * No compatibility issues with hardware with older or newer Zigbee versions;
 * Active development on the software Zigbee2MQTT with every release a set of new supported Zigbee devices;
 
-A reason why not to choose for Zigbee? I don't know :)
+A reason not to choose Zigbee? I don't know :)
 
 ---
 
@@ -156,7 +156,7 @@ You can use a {{imgBasket}}USB A extension cord <a href="https://s.click.aliexpr
 
 ## Home server
 
-If you're looking for (upgrade) hardware where you can run Home Assistant and other service on
+If you're looking for (upgrade) hardware where you can run Home Assistant and other services on,
 then you can take a look at this page:
 [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)\
 I explain which options are available and make common used terms clear.
@@ -236,12 +236,12 @@ It can also detect persons who sit still or laying in bed.
 <a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
-The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects which sending heat, like humans and animals.
+The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects that emit heat, like humans and animals.
 
-I like the Aqara motion sensor myself a lot. It's fast, reliable.
+I like the Aqara motion sensor a lot. It's fast and reliable.
 With the stand you can point it in a specific direction, so it doesn't 'see' the whole room.
 
-If I want to cover a whole room, I use a different type PIR sensor which you can stick in the center of the ceiling and look around in all directions.
+If I want to cover a whole room, I use a different type of PIR sensor which you can stick in the center of the ceiling and it looks in all directions.
 
 **Best option:**\
 {{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara
@@ -285,17 +285,17 @@ If I want to cover a whole room, I use a different type PIR sensor which you can
 
 ### Presence detection sensor
 
-A presence sensor has no need to direct sight.
+A presence sensor has no need for a direct line of sight.
 It uses radar to detect people (and pets).
-You can also hide it in a closet and still it detects.
-It can even detect a person when he isn't moving, for example, when he sits on a couch or chair.\
+You can also hide it in a closet and it still detects.
+It can even detect a person who isn't moving, for example, sitting on a couch or chair.\
 Ideal for the living room, bedrooms and home office.
 
 **Best option:**\
 <a href="https://amzn.to/48qWsyY#ad" target="_blank">
 <img src="images_zigbee/aqara_fp300.avif" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
 The Aqara FP300 is a new battery powered motion sensor with PIR and mmWave radar sensor.
-It can detect up to 6 meters it also measures light, temperature and humidity.
+It can detect up to 6 meters and also measures light, temperature and humidity.
 It can be configured with multiple zones where you can detect persons in.
 
 {{imgBasket}} Zigbee or Thread (Matter) - Aqara FP300
@@ -323,9 +323,9 @@ It can be configured with multiple zones where you can detect persons in.
 <a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank">
 <img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
-A temperature sensor is a simple sensor that measures, next to the temperature also, the humidity in a room.
-This sensor is useful to make automations like take action if someone is in the shower.
-Or in the summer when it becomes outside colder than inside.
+A temperature sensor is a simple sensor that measures, besides the temperature, also the humidity in a room.
+This sensor is useful to create automations, like taking action if someone is in the shower,
+or in the summer when it becomes colder outside than inside.
 
 **Best option:**\
 {{imgBasket}}Zigbee temperature and humidity sensor - Aqara
@@ -382,7 +382,7 @@ Battery: CR2477
 <img src="../ideas/images/lux_sensor.jpg" alt="Light intensity / lux sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A light intensity sensor (lux sensor) measures the amount of light brightness.\
-Usefull to enable the lights when it becomes dark outside.
+Useful to enable the lights when it becomes dark outside.
 
 **Best option:**\
 {{imgBasket}}Zigbee lux sensor - Aqara T1
@@ -467,7 +467,7 @@ This one runs on two common AAA batteries that make the sensor pretty big but ch
 <a href="https://s.click.aliexpress.com/e/_c4Fg3X1t" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A small strip with pressure sensors in it.\
-I got a separated page how I created my own [Zigbee chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
+I have a separate page on how I created my own [Zigbee chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 Suitable for chairs/carpets/beds/sofas/carpets:
 * Compact and convenient, multiple pressure control point sensors
@@ -491,7 +491,7 @@ gBasket}}Alternative: larger Zigbee pressure mat sensor  - Tuya
 
 <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
 
-You can replace a normal E27 bulb with Zigbee variant.
+You can replace a normal E27 bulb with a Zigbee variant.
 With a colored version, you can use it to inform yourself with a color for different states.
 
 {{imgBasket}}Zigbee light bulb dimmable colored
@@ -628,7 +628,7 @@ This sensor can measure vibrations and rotations in the X, Y and Z direction.
 <a href="https://s.click.aliexpress.com/e/_c38UUilJ" target="_blank">
 <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" style="margin-left:15px;float:right"/></a>
 
-This actuator can toggle the power state of each USB port individual.\
+This actuator can toggle the power state of each USB port individually.\
 The first port can also be used to switch on/off data access via USB, the other two only for USB power.
 
 {{imgBasket}}Zigbee / WiFi USB adapter switch - Tuya
@@ -668,7 +668,7 @@ Make sure you select the Zigbee version:\
 There are also outdoor sensors and actuators available,
 like water-resistant sockets, LED strips, rain sensors, etc...
 
-There is a separated page where you can find them [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
+There is a separate page where you can find them: [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
 
 <br>
 
@@ -689,9 +689,9 @@ This 6-in-1 sensor can detect six kinds of environmental parameters:
 
 All these values can affect a healthy environment at home.
 
-Normally you get single sensors for each parameter!
+Normally you would need single sensors for each parameter!
 
-Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensor doesn't work that good as a dedicated sensor.
+Because the price is low, there are some downsides in sensor precision, the formaldehyde and CO2 sensors don't work as well as dedicated sensors.
 But for the other parameters, it is a good overall air quality sensor to detect how your air quality is and if you need some fresh air inside.
 
 {{imgBasket}}Zigbee / WiFi Air quality sensor - Tuya
@@ -757,7 +757,7 @@ Controlled by Home Assistant.
 <img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="WiFi IR + RF + 433 + 315 remote control" height="150px" style="margin-left:15px;float:right"/></a>
 
 This WiFi device supports a wide range of different wireless protocols, like Infrared + RF + 433MHz + 315MHz.
-It can learn from the original remote control it signals and send them again via Zigbee.\
+It can learn signals from the original remote control and retransmit them via Zigbee.\
 This way you can create automations for air conditioners, fans, lights, etc.
 
 {{imgBasket}}WiFi IR + RF + 433 + 315 remote control - Moes
@@ -796,7 +796,7 @@ You can also schedule complete weeks in it what the temperature should be.
 <a href="https://s.click.aliexpress.com/e/_c4majdPD" target="_blank">
 <img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
 
-Smart sockets are useful to make traditional "dump" devices smart. Like a traditional standing lamp with a plug.
+Smart sockets are useful to make traditional "dumb" devices smart. Like a traditional standing lamp with a plug.
 
 Sockets are always connected to power, this makes this sensor also a hub in the Zigbee network which extends the range and coverage of your network.
 You can also plug a smart socket somewhere strategic with bad coverage to improve this.
@@ -849,10 +849,10 @@ Cheaper solution than four single smart sockets!
 
 <a href="https://s.click.aliexpress.com/e/_c3B3MqrB" target="_blank">
 <img src="/buy/images_zigbee/powerstrip2.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
-An other Zigbee power strip with 4x outlets (max. 16A 4000W) and 2x USB-A (5V 3A) fast charging.
+Another Zigbee power strip with 4x outlets (max. 16A 4000W) and 2x USB-A (5V 3A) fast charging.
 <br><br>
 Each outlet can be controlled independently with light indicator.
-The two USB ports controlled together.
+The two USB ports are controlled together.
 Cheaper solution than four single smart sockets!
 
 * Physical button for each socket
@@ -917,10 +917,10 @@ These are common types of batteries used by the above-mentioned sensors:
 <a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">
 <img src="/buy/images_diy/battery_eliminator.png" height="150px" alt="battery eliminator" style="margin-left:15px;float:right" /></a>
 
-Battery eliminator (aka battery replacements) is, as the name already says, a replacement for battery power device to connect them to the main power.
+A battery eliminator (aka battery replacement) is, as the name says, a replacement for battery-powered devices to connect them to mains power.
 This saves you from buying new batteries.
-The big advantage is also that you now can control them with your home automations by adding a smart plugin between the plug and the wall outlet.
-Now you also don't have to worry that you forgot them to put them off again.
+The big advantage is also that you can now control them with your home automations by adding a smart plug between the device and the wall outlet.
+Now you also don't have to worry about forgetting to turn them off again.
 There are different variants of them.
 Replacements for AA or AAA batteries and with a plug or USB connector.
 The advantage of a USB connector is that you can plug multiple to an active powered USB-hub to control multiple ones.
@@ -1051,7 +1051,7 @@ The amount can be defined in four levels.
 The dispenser contains the soap already mixed with water so foam is coming out of it.
 You don't need to create the foam yourself which saves water, time and soap.
 
-I have multiple once around the house in use.
+I have multiple ones in use around the house.
 
 <a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">
 <img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px"/></a>
@@ -1069,4 +1069,4 @@ Make sure you select the foam version and not the normal liquid one!
 <br><br>
 That's it for the indoor sensors, see also my [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
 
-Or checkout [ESPHome DIY sensors buy tips](esphome_diy) for all kinds or hardware buy tips to create your own sensors.
+Or check out [ESPHome DIY sensors buy tips](esphome_diy) for all kinds of hardware buy tips to create your own sensors.

@@ -108,13 +108,13 @@ Over the years, I converted several mailboxes into a smart mailbox.
 
 ### Mailbox
 
-I had a metal mailbox, even it was made of (thin) metal, the Zigbee signal could go through it.
-There was no Faraday-case effect that blocks the signal. I was afraid that should be the case.
+I had a metal mailbox; even though it was made of (thin) metal, the Zigbee signal could go through it.
+There was no Faraday-cage effect blocking the signal, which I was afraid might be the case.
 
 I added a contact sensor on the inside of the mailbox and a magnet on the flap.
 Instead of the default magnet provided by the sensor, I glued two strong normal magnets to the flap.
 Those are also in the same color and the flap almost close as normal.
-So those are not noticeable when you stand for it or when you open it.
+So those are not noticeable when you stand in front of it or when you open it.
 When the flap was closed, the magnets are strong enough to trigger the reed sensor on the inside of the mailbox.
 
 <a href="/ideas/images/mailbox.jpg"><img src="/ideas/images/mailbox.jpg" alt="mailbox" height="200px"/></a>
@@ -146,7 +146,7 @@ You need to use a custom template to define the mailbox is closed (and it doesn'
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 Or solder wires to a contact sensor yourself to only have those two wires inside your mailbox.
-I have a [separated page](/zigbee/zigbee_water_leak_sensor) how I did this for a DIY leak sensor based on a contact sensor.
+I have a [separate page](/zigbee/zigbee_water_leak_sensor) on how I did this for a DIY leak sensor based on a contact sensor.
 
 <a href="/zigbee/zigbee_water_leak_sensor" target="_blank">
 <img src="/zigbee/images_leak/leak_sensor_assemblage.jpg" alt="leak sensor" height="150px" /></a>
@@ -158,7 +158,7 @@ I have a [separated page](/zigbee/zigbee_water_leak_sensor) how I did this for a
 For bigger packages, I also have a package box next to my front door.
 You can read a large blog post how I installed it [here](/projects/packages-mailbox-allux-600).
 
-By default, it wasn't smart at all, but by adding two contact sensors it's now much smarter now.
+By default, it wasn't smart at all, but by adding two contact sensors it's now much smarter.
 It knows when a package is delivered, and it knows when the door is opened to remove the packages out of it.
 I assume now no package is still there after this door was opened and closed. 
 I show this state on my dashboard.
@@ -170,9 +170,9 @@ I added an extra sticker on top of it to get some extra attention from delivery 
 <img src="./images_allux-600/final-result.jpg" height="350px" alt="smart package box"/>
 </a>
 
-When you open the top lid, another metal plate on the inside comes up to avoid people can steal package from it, 
-and this will be part where the package will lie on.\
-I placed the contact sensor here, inside where it's also dry, in the middle of the package box a contact sensor. 
+When you open the top lid, another metal plate on the inside comes up to prevent people from stealing packages,
+and this is the part where the package will lie.\
+I placed a contact sensor here, inside where it's also dry, in the middle of the package box.
 This gets triggered when the lid is opened.
 
 <a href="images_allux-600/lid_open_contact_sensor.jpg">
@@ -211,7 +211,7 @@ This can be attached to a flap which opens when mail is delivered.
 ### Long range protocols
 
 <img src="/images/z-wave_logo.svg" alt="Z Wave" height="60px" style="margin-left:15px;float: right;"/>
-In some cases, Zigbee doesn't have the range to reach for your mailbox because you life on a high floor in an apartment of you have a very long driveway.
+In some cases, Zigbee doesn't have the range to reach your mailbox because you live on a high floor in an apartment or have a very long driveway.
 
 Then you can use these protocols which support longer ranges:
 * [Z-Wave Long Range](https://z-wavealliance.org/z-wave-long-range-technology/), up to 2.4 km (1.5 mi)

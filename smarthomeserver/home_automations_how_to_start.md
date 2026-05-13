@@ -37,10 +37,10 @@ Maybe some tips are open doors but are important to enjoy the journey.
 ## My golden rules
 
 ### 1. Iterate in small steps
-The say goes: "Rome wasn't built in one day".\
+The saying goes: "Rome wasn't built in one day".\
 This also applies to your smart home automations.\
 Start with a small project, get it working, and then expand. 
-And don't forget to setup first rule 2!
+And don't forget to set up rule 2 first!
 
 A personal example:
 > I had the idea to control the lights in the living room based on occupancy and light from outside.
@@ -50,8 +50,8 @@ These are the steps I took to get there:
 * My first project was a simple automation to turn on the lights in the living room when the sun goes down.
 * Then I added a presence sensor to turn on the lights only when someone is really in the room.
 * Then I added a light sensor to turn on the lights only when it's dark outside.
-* Then I increased the light level inside based on the light level outside. Now the light brightness inside increase gradually when it's getting darker outside. You don't notice it now that the lights goes on due to a constant brightness of light in the room. 
-* Then I extended the automation when it's dark for a certain time, to avoid the lights turning on and off when a dark cloud pass by.
+* Then I increased the light level inside based on the light level outside. Now the light brightness inside increases gradually when it's getting darker outside. You don't notice the lights coming on due to the constant brightness of light in the room. 
+* Then I extended the automation when it's dark for a certain time, to avoid the lights turning on and off when a dark cloud passes by.
 
 ### 2. Make automatic backups
 You don't want to lose your settings, automations, and integrations where you spend so many hours on to get it to the state where it is now. 
@@ -71,7 +71,7 @@ I use this in case of a hardware failure of my original hard disk.
 I can swap the hard disk and restore the latest snapshot data backup and I'm up and running again in no-time!
 
 ### 3. Note improvements
-You don't always have the time to improve your automations direct.
+You don't always have the time to improve your automations directly.
 When I have an automation which doesn't work perfectly as expected, I note it down somewhere.
 But when I have time to improve my automations, I take this list and start with the items on it.
 When I have improved it, I mark it as resolved, test it for a few days, and when it works as expected, I remove it from the list.

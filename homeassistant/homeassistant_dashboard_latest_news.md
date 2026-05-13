@@ -8,7 +8,7 @@ tags: [Home Assistant, dashboard, news, scrape]
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;padding-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-Here you find an Home Assistant dashboard example how you can scrape and show the latest news on your dashboard.
+Here you find a Home Assistant dashboard example showing how you can scrape and show the latest news on your dashboard.
 <br>
 <br>
 
@@ -20,7 +20,7 @@ With clickable arrows to open the news site.
 
 ![News nu.nl](images/news_headline.png)
 
-Get every 15 minutes the latest news headline from the new site nu.nl.\
+Get every 15 minutes the latest news headline from the news site nu.nl.\
 For other sites, check my [Web Scraper](homeassistant_web_scraper) page how to show website content (like news) inside your dashboard.
 
 Add the news site scraper with the [internal Home Assistant Scrape](https://www.home-assistant.io/integrations/scrape/) integration 

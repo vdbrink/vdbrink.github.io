@@ -16,9 +16,9 @@ image: /esphome/images_co2/case_fit_co2_sensor.jpg
 <img src="images_co2/senseair_s8.jpg" alt=" SenseAir S8 Co2 sensor" height="150px" style="margin-left:15px;float:right"/>
 
 There are not many affordable out-of-the-box CO2 sensors available, but it's easy to create one yourself.
-With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits! 
+With only an ESP, a CO2 sensor, power cable and box, it's a small and easy project with a lot of benefits!
 
-If you are in a space with a too high ppm level, you can feel tired, you start yawning, 
+If you are in a space with a too high ppm level, you can feel tired, you start yawning,
 get red cheeks and can get a headache.
 Without knowing, this happens because it goes very gradually.
 To prevent this, use your smart home automations and take action if the levels are too high.\
@@ -38,7 +38,7 @@ That's also why you need to open a window when the value is too high, get some f
 ---
 ## My final result
 
-The finished sensor is compact, practical, and easy to place anywhere in the room.  
+The finished sensor is compact, practical, and easy to place anywhere in the room.
 Everything fits inside a small case: the SenseAir S8 sensor, an ESP mini.
 
 ![final box](images_co2/holes_in_case.jpg)
@@ -89,34 +89,34 @@ These are the hardware components I used for this project:
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
 <a href="https://amzn.to/3OXb03U#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4neifkk#ad" target="_blank">(Amazon NL)</a>
-  * <a href="https://senseair.com/product/s8/">Manufacturer product page</a> 
+  * <a href="https://senseair.com/product/s8/">Manufacturer product page</a>
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
-* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a> 
+* {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4wfabEe#ad">(Amazon US)</a>
 <a href="https://amzn.to/48QLNPl#ad">(Amazon NL)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
-* {{imgBasket}}Dupont male-to-male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a> 
+* {{imgBasket}}Dupont male-to-male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4wfc4Re#ad">(Amazon US)</a>
 <a href="https://amzn.to/4dgoMqj#ad">(Amazon NL)</a>
   * If you order these, it's better to order all three types at once, also for any future projects
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
-* Plastic DIY case, I used a box with dimensions 70 x 45 x 30 mm. 
-This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with dimensions of this size or larger. 
+* Plastic DIY case, I used a box with dimensions 70 x 45 x 30 mm.
+This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with dimensions of this size or larger.
 
-  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a> 
+  * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4ts9gxB#ad">(Amazon US)</a>
 <a href="https://amzn.to/4ncjPU9#ad">(Amazon NL)</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
-* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a> 
+* {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4eITR8B#ad">(Amazon US)</a>
 <a href="https://amzn.to/4cV7cZZ#ad">(Amazon NL)</a>
 
@@ -128,14 +128,14 @@ This one is not available anymore, but you can order a similar one (it's in <a h
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
-* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> 
+* {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42lWIgd#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4uvdwNA#ad" target="_blank">(Amazon NL)</a>. 
+<a href="https://amzn.to/4uvdwNA#ad" target="_blank">(Amazon NL)</a>.
 I suggest this based on the reviews. I already had one. Please let me know whether you recommend this one.
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
-* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a> 
+* {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cWTy8U#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4nfzylk#ad" target="_blank">(Amazon NL)</a>
 
@@ -225,18 +225,18 @@ wifi:
   ssid: "xxx"
   password: "xxx"
   fast_connect: true # only needed for hidden SSID
-  
+
 mqtt:
   broker: xxx.xxx.xxx.xxx
   port: 1883
   username: "xxx"
   password: "xxx"
-  
+
 uart:
   rx_pin: GPIO13
   tx_pin: GPIO15
   baud_rate: 9600
-  
+
 sensor:
   - platform: senseair
     co2:
@@ -254,7 +254,7 @@ Once the sensor pushes the data, you can use and present the data on your dashbo
 ### Dashboard Gauge
 
 In a Gauge, you can directly see if the current CO2 value is correct.
-I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction). 
+I used different colors to indicate how bad the condition is. I used the values from the table mentioned in the [Introduction](#introduction).
 
 <img src="images_co2/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
 
@@ -295,7 +295,7 @@ With a Mini Graph Card you can create a color gradient graph line with the histo
 
 With a fixed `sensor.co2_value_800` sensor I defined a visual [threshold](#threshold) line for myself.
 
-This card requires the HACS integration `mini-graph-card`,
+This card required the HACS integration `mini-graph-card`,
 install this integration via this button\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kalkih&repository=mini-graph-card&category=integration)
 
@@ -399,7 +399,7 @@ This creates a new sensor that shows a text representation of the current condit
 ```
 
 In my dashboard, I have a section with important messages. Only when action is required do you see that here.
-There is also a message when the CO2 value is not good. This section can be achieved by using conditional entities. 
+There is also a message when the CO2 value is not good. This section can be achieved by using conditional entities.
 
 ```yaml
 {% raw %}
@@ -418,7 +418,7 @@ entities:
 
 ### Dashboard Mushroom entity
 
-<img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px"> 
+<img src="../homeassistant/images_mushroom/mushroom_co2_ok.png" alt="mushroom chips" width="50px" style="float:left;margin-right:10px">
  Show a green icon, without any text, if the level is less than 800 ppm, less than 1200 ppm yellow, and less than 1500 ppm red.
 
 

@@ -41,7 +41,7 @@ Send events from Node-RED to your Android phone, via the Home Assistant companio
 <!-- TOC -->
 * [How it works](#how-it-works)
 * [Flow explanation](#flow-explanation)
-* [Usefull scenario's](#usefull-scenarios)
+* [Useful scenarios](#useful-scenarios)
 * [Android Intents](#android-intents)
   * [Open any app](#open-any-app)
   * [Spotify](#spotify)
@@ -70,7 +70,7 @@ With this flow you can open any app on your android phone.
 
 ---
 
-## Usefull scenario's
+## Useful scenarios
 
 * Open the camera app when a camera detects something
 * Open a specific app based on a HA defined location:
@@ -85,7 +85,7 @@ With this flow you can open any app on your android phone.
 ## Android Intents
 
 To open an app you need Android Intents, it's some internals to open an app. 
-If you direct want to do an action in an app the app must support this custom Intent.
+If you directly want to do an action in an app the app must support this custom Intent.
 
 ### Open any app
 

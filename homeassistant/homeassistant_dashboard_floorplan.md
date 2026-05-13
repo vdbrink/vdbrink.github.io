@@ -15,7 +15,7 @@ This page explains how to create your own interactive floor plan for Home Assist
 
 The main advantage of a floor plan dashboard is the ability to view multiple statuses in a single, comprehensive overview.
 
-You can use a background image of your floor plan and overlay it with icons and sensor values, such as room temperatures, light controls, or motion detection indicators. 
+You can use a background image of your floor plan and overlay it with icons and sensor values, such as room temperatures, light controls, or motion detection indicators.
 Clicking on an entity allows you to define specific follow-up actions based on your preferences.
 
 ---
@@ -63,7 +63,7 @@ You can also choose to use fewer colors.
 <a href="images_floorplan/plan_with_less_colors.png">
 <img src="images_floorplan/plan_with_less_colors.png" alt="floor plan example black/white" width="300px"></a>
 
-Or only use the room walls and don't add furniture in the floor plan.
+Or only use the room walls and don't add furniture to the floor plan.
 
 <a href="images_floorplan/plan_no_furniture.png">
 <img src="images_floorplan/plan_no_furniture.png" alt="floor plan example no furniture" width="300px"></a>
@@ -75,7 +75,7 @@ It's all up to you what you prefer!
 
 ---
 ## Get inspired
-Before you begin, explore examples of floor plans created by others to find inspiration. 
+Before you begin, explore examples of floor plans created by others to find inspiration.
 Choose one that you like and use it as a reference for your own design.
 
 Here are some sites where you can find such examples:
@@ -87,7 +87,7 @@ Here are some sites where you can find such examples:
 ## Applications
 If you already have a digital version of your floor plans, you can use those (initially).
 
-If you don't have it there are two commonly used applications to create a floor plan.
+If you don't have one, there are two commonly used applications to create a floor plan.
 
 ### Floorplanner.com
 
@@ -104,12 +104,12 @@ This is also the tool I used for my floor plan.
 
 <img src="images_floorplan/sweethome3d.png" alt="Sweet Home 3D" height="100%">
 
-[Sweet Home 3D](https://www.sweethome3d.com/) is an application you need to install on your pc. It's available for all desktop platforms.
+[Sweet Home 3D](https://www.sweethome3d.com/) is an application you need to install on your PC. It's available for all desktop platforms.
 
 * You have your own data locally
 * It has realistic light effects which you can use as overlay
 
-With this [Home Assistant Floor Plan Generator Plugin](https://github.com/shmuelzon/home-assistant-floor-plan/) you can export images direct in a format which you can directly use in Home Assistant.
+With this [Home Assistant Floor Plan Generator Plugin](https://github.com/shmuelzon/home-assistant-floor-plan/) you can export images directly in a format you can use in Home Assistant.
 
 ---
 ## Creating your floor plan
@@ -117,11 +117,11 @@ When you've chosen an application, you can start.\
 The first step is to create a raw digital map of your house. This can be done by drawing the walls, doors and windows. You can already start using this in your interactive floor plan.
 
 It's always possible to create a fancier floor plan with the actual wall colors, floor types and furniture in it.
-But this takes a lot of time, but it's worth it. 
-Once you did it your can be proud of yourself and love it every time you use it!
+It takes a lot of time, but it's worth it.
+Once you've done it, you can be proud of yourself and love it every time you use it!
 
 Steps to take:
-* Get online inspiration what you want it to look like.  
+* Get online inspiration for what you want it to look like.
 * The best way to start is to get all the official sizes of each room.
 * Then draw all the walls and place the doors and windows in it.
 * Then add the furniture to each room.
@@ -133,7 +133,7 @@ Steps to take:
 ---
 ## Make it interactive
 
-Your floor plan will be a layered model with the raw floor plan as base, then a layer with entities and on top of it overlays. 
+Your floor plan will be a layered model with the raw floor plan as base, then a layer with entities and on top of it overlays.
 
 ### Floor plan images
 
@@ -159,7 +159,7 @@ elements:
 ### Entity icons
 
 Entity icons (`state-icon`) show the icon of an entity.\
-By default, when you click on it is toggles, or you see the details.
+By default, when you click on it, it toggles or shows the details.
 
 <img src="images_floorplan/entity_icons.png" alt="Entity icons" height="150px">
 
@@ -204,10 +204,10 @@ To format a temperature, see [here](homeassistant_dashboard_formatting#rounded-t
 #### Open different view on click
 
 I use rounded temperature values on my map, but when I click on it, I want to see the normal temperature value with decimals.
-You need for this the extra HACS module [hass-browser_mod
+For this you need the extra HACS module [hass-browser_mod
 ](https://github.com/thomasloven/hass-browser_mod).
 
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration)
 
 ```yaml
@@ -228,7 +228,10 @@ Install this integration via this button in your own HA instance.\
 ---
 ### Click, Double-click and Long-press actions
 
-With click actions (`tap_action`), double-click (`double_tap_action`) and long-press (`hold_action`), or you can ignore it (`none`), toggle (`toggle`) the status, navigate to another card (`navigate`), show more info in a popup (`more-info`) or call a script (`call-service`).
+With click actions (`tap_action`), double-click (`double_tap_action`)
+and long-press (`hold_action`), you can ignore it (`none`),
+toggle (`toggle`) the status, navigate to another card (`navigate`),
+show more info in a popup (`more-info`) or call a script (`call-service`).
 
 #### Click: No action
 ```yaml
@@ -245,7 +248,7 @@ tap_action:
   action: toggle
 {% endraw %}
 ```
-  
+
 #### Click: Navigate to another card
 ```yaml
 {% raw %}
@@ -338,7 +341,7 @@ You can override the default icon for each entity.
 
 With overlays, you can darken a room to indicate no one is there, or no lights are on.
 
-<img src="images_floorplan/entities.png" alt="overlay on" height="150px"> 
+<img src="images_floorplan/entities.png" alt="overlay on" height="150px">
 &nbsp; &nbsp;
 <img src="images_floorplan/entity_icons.png" alt="overlay off" height="150px">
 
@@ -349,7 +352,7 @@ In this example, I have a smart plug as entity for the overlay.
 When the plug has the state `on` it's full transparent and `off` it's 75% transparent.
 Then you still see all the elements but with a dark layer over the room.
 
-The `tap_action` is here disabled. 
+The `tap_action` is here disabled.
 You can also choose to control the switch by clicking on the icon.
 
 Sometimes you need to create a binary helper sensor to indicate when the layer must be active. When the lux value is higher than value X.

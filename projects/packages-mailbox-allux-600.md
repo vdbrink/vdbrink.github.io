@@ -7,7 +7,7 @@ image: /projects/images_allux-600/allux_result.jpg
 
 # Packages mailbox - Allux 600
 
-I was looking for a packages-mailbox where 80% of my ordered packages should fit in, so I don't have to wait at home for the delivery guy to arrive, but still I can receive my package.
+I was looking for a package mailbox where 80% of my ordered packages would fit, so I don't have to wait at home for the delivery person to arrive, but I can still receive my package.
 
 <p>
 <img src="images_allux-600/pieter_post.jpg" height="350px" alt="Delivery guy" style="float:right"/>
@@ -47,7 +47,7 @@ I was looking for a packages-mailbox where 80% of my ordered packages should fit
 
 ## My requirements
 
-I was looking for a package mailbox with the next specifications:
+I was looking for a package mailbox with the following specifications:
 * All weatherproof;
 * A shoebox-package-size should fit in it (so it covers 80% of my package sizes);
 * It could contain multiple packages;
@@ -56,21 +56,22 @@ I was looking for a package mailbox with the next specifications:
 * A maximum price of &euro; 200,- ;
   * I found &euro; 200,- already a lot of money for such a box, but in my search I found out this was at the bottom prices in the market. Those boxes, for what I was looking for, reach to prices like &euro; 500,-!
 <br>
-In my search I found the Allux 600 box, which match almost all my criteria, but only the price at that moment was &euro; 250,-.
-It's made for outside usage. I's made of coated steel, it has a 10-year guarantee against rust. That's also why the price is so high.
+In my search I found the Allux 600 box, which matches almost all my criteria, but the price at that moment was &euro; 250,-.
+It's made for outdoor use, made of coated steel, and has a 10-year guarantee against rust. That's also why the price is so high.
 
 A shoebox can fit in it.
 And multiple packages can be dropped in it, but it isn't possible to grab one out of it afterward.\
-The design is a tight mat black box that doesn't attract too much attention when you see it from the street. 
+The design is a tight mat black box that doesn't attract too much attention when you see it from the street.
 
-Because the price was a bit high, and I didn't need it direct, I decided to put it on my wishlist and created a rule in my [Node-RED daily-check-for-good-offers list](../node-red/node-red_pricewatch), next to the laundry detergents and wait if it will be cheaper at a later moment.\
-I forgot about it until on Black Friday I received a notification it was now on sale for &euro; 189,-, so now it matches all my criteria and I ordered it! Also, in the meanwhile, I didn't find any other box one with better specs.
+Because the price was a bit high, and I didn't need it right away, I decided to put it on my wishlist and created a rule in my [Node-RED daily-check-for-good-offers list](../node-red/node-red_pricewatch), alongside the laundry detergents, to wait for a price drop.\
+I forgot about it until Black Friday, when I received a notification that it was on sale for &euro; 189,-. Now it matched all my criteria and I ordered it! In the meantime, I hadn't found any other box with better specs.
 
 ---
 
 ## Product specs
 
-The box is made of coated steel, so it's strong and won't rust because they give 10-year guaranty against rust. It should stand for years outside in all weather conditions. 
+The box is made of coated steel, so it's strong and won't rust, they give a 10-year guarantee against rust.
+It should stand for years outside in all weather conditions.
 
 <img src="images_allux-600/allux-600.jpg" height="250px" alt="Allux 600 anthracite" style="float:right"/>
 
@@ -101,7 +102,7 @@ In front there is a locked door to get the packages out of the box.
 
 <img src="images_allux-600/allux_get_package_out_of_it.jpg" height="250px" alt="Get the packages out of it"/>
 
-This is how the systems works to prevent picking previous delivered package out of the box.
+This is how the system works to prevent taking a previously delivered package out of the box.
 
 <img src="images_allux-600/allux_anti-theft.png" height="250px" alt="Anti theft system"/>
 
@@ -116,12 +117,12 @@ Click on the above image to see the video.
 ## Mounting to the ground
 
 The regular Allux 600 is without any mounting materials.
-The only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame. 
+The only provided solution to mount the box on the ground is a ~&euro; 90,- steel frame.
 In my opinion, way too expensive, and it should also be possible to solve this for way less, but that needs a creative solution.
 
 <img src="images_allux-600/allux_default_mount.webp" height="250px" alt="default mount"/>
 
-The Allux has already in the bottom, in each corner and in the center, pre-drilled holes. If you have tiles, you can also drill holes in it and mount it direct to it.
+The Allux already has pre-drilled holes in the bottom, in each corner and in the center. If you have tiles, you can also drill holes in them and mount it directly.
 
 
 <img src="images_allux-600/allux-600_bottom.jpg" height="250px" alt="default holes"/>
@@ -129,10 +130,10 @@ The Allux has already in the bottom, in each corner and in the center, pre-drill
 ### Used parts for my DIY ground mount
 
 I came up with a DIY solution that would work for me.\
-My box is placed on soil. So I decided to dig a hole under the box, and place something heavy in the ground, and this should be mounted to the box. 
-So you can't pick it up and walk away with it.
+My box is placed on soil. So I decided to dig a hole under the box, place something heavy in the ground, and mount that to the box,
+so you can't pick it up and walk away with it.
 
-This was my shopping list for my DIY ground mount: 
+This was my shopping list for my DIY ground mount:
 
 * A heavy flower box, it was in the sales at the local garden shop [&euro; 7,-]
   * The flower box already had a hole in the middle.
@@ -159,20 +160,20 @@ I screw a bolt and plate on each side of the hole in the flower box so the pipe 
 
 <img src="images_allux-600/pin_bolt.jpg" height="250px" alt="screw the plates"/>
 
-I grave a hole under the place where the box will stand and which match the size of the flower box, put it in the ground and fill it again with sand and stones for extra weight. 
+I dug a hole under the spot where the box will stand, matching the size of the flower box, put it in the ground and filled it back with sand and stones for extra weight.
 
 <img src="images_allux-600/flowerbox_in_the_ground_with_pin.jpg" height="250px" alt="mount on the ground"/>
 
 Now only the pipe is above the ground.\
-I screw the bold on the pipe, almost to the ground and add a plate above it.
+I screw the bolt on the pipe, almost to the ground, and add a plate above it.
 
-Now I placed the box over the pipe and see if the plate touches the bottom of the box when the corners of the package box touch the ground.
-Now add the plate inside the box over the pipe and screw the bold also from inside. Now the bolts and plates are strong together to each other on each side of the bottom of the box. 
+I placed the box over the pipe and check if the plate touches the bottom of the box when the corners of the package box touch the ground.
+Then I add the plate inside the box over the pipe and screw the bolt from the inside too. Now the bolts and plates are firmly clamped together on each side of the bottom of the box.
 
 <img src="images_allux-600/pin_inside_allux.jpg" height="250px" alt="screw the bold also inside the allux"/>
 
 Now the box isn't easy to move anymore!
-And it isn't visible at all how it's mount on the ground.
+And it isn't visible at all how it's mounted to the ground.
 
 <img src="images_allux-600/allux_result.jpg" height="250px" alt="Final result"/>
 
@@ -180,7 +181,7 @@ And it isn't visible at all how it's mount on the ground.
 
 ## Stickers
 
-Because the box has a discrete design it's maybe not direct clear for a delivery guy that this is meant for his packages.
+Because the box has a discreet design, it may not be immediately clear to a delivery person that it's meant for packages.
 
 On the Dutch forum Tweakers.net I found <a href="https://gathering.tweakers.net/forum/list_message/72034534#72034534" target="_blank">this</a> thread about these kind of package boxes and someone had good experience with making and ordering outdoor stickers from [stickermaster.nl](https://stickermaster.nl/stickers-maken/stickers-eigen-ontwerp.html).
 This sticker is one which is also used on cars, so it's weatherproof. Exactly what I need!
@@ -191,12 +192,12 @@ So I designed two stickers:
   * I gathered some delivery company logo's, created an image and placed the text that this is a package mailbox, my name and street name with house number on it (blurred on the photo).
 
      <a href="images_allux-600/pakketbrievenbussticker_template.pdn">Download here the Paint.net PDN file of this sticker.</a> Download <a href="https://www.getpaint.net" target="_blank">Paint.net</a>
-    
+
      <a href="images_allux-600/pakketbrievenbussticker_template.psd">Download here the Photoshop PSD file of this sticker.</a>
       <br>
       <br>
     These are my ordered sticker specs, you can also make the sticker a bit bigger that it will cover the complete top.
-    
+
     | Specs     | Value      |
     |-----------|------------|
     | Width     | 30 cm      |
@@ -204,18 +205,18 @@ So I designed two stickers:
     | Shape     | Square     |
     | Material  | Bubblefree |
     | Finishing | Mat        |
-    
+
      <img src="images_allux-600/sticker_package_box.jpg" height="250px" alt="Package box lid sticker"/>
 
   * And I placed the other one direct under the doorbell with a reference there is also a package box.
 
     <a href="images_allux-600/belsticker.pdn">Download here the Paint.net PDN file of this sticker.</a>
-    
+
     <a href="images_allux-600/belsticker.png">Download here the generated PNG file of this sticker.</a>
     <br>
     <br>
     These are my ordered sticker specs, you can also make the sticker a bit bigger that it will cover the complete top.
-  
+
       | Specs     | Value      |
       |-----------|------------|
       | Width     | 4 cm       |
@@ -231,14 +232,14 @@ So I designed two stickers:
 ## Automations
 
 This package box is not smart by itself, but it was easy to make it smart.\
-I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box. 
+I have already a Zigbee network up and running, so I added two contact sensors (you can use any brand) inside the box.
 I created automations for notifications and added the status to my Home Assistant dashboard.
 
 ### Notification when a package is delivered
 
-* The first [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is mounted under the inner metal plate where the packages are place on when the lid is opened. 
-When the lid is opened, the contact breaks and a trigger is sent. 
-This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions. 
+* The first [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is mounted under the inner metal plate where the packages are place on when the lid is opened.
+When the lid is opened, the contact breaks and a trigger is sent.
+This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions.
 The signal is strong enough to get through the steel.
 I have at 1.5m, inside the house, a [smart socket](../buy/smart_home_best_buy_tips#smart-socket) installed to receive the Zigbee signals.
 
@@ -248,22 +249,22 @@ I have at 1.5m, inside the house, a [smart socket](../buy/smart_home_best_buy_ti
 
   <img src="images_allux-600/front_door_contact_sensor.jpg" height="250px" alt="package box emptied" />
 
-Is this full-proof? No, everybody who opens the lid triggers that there is a package inside. 
-It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo. 
-But for me, this is now good enough. 
+Is this full-proof? No, everybody who opens the lid triggers that there is a package inside.
+It can be improved by adding a camera inside the box, make a photo when a new package arrived and compare it with the previous photo.
+But for me, this is now good enough.
 
 ### Node-RED flow
 
-For creating all my automations around the house, 
+For creating all my automations around the house,
 I have a home server running and use the software [Node-RED](../node-red) to make automations based on all my sensors input.
 
 In Node-RED, I defined a custom [MQTT topic](#how-mqtt-works) to indicate if there is a package in the box.
 I named it `homeassistant/packagebox`.
-If the lid Zigbee contact sensor sent a message to my server, the contact value is `false` (open), this flow sets the value of my custom topic to `true`. 
-When the package box front door is opened, the door sensor sent then `false`, then the custom topic is set to `false`. 
+If the lid Zigbee contact sensor sent a message to my server, the contact value is `false` (open), this flow sets the value of my custom topic to `true`.
+When the package box front door is opened, the door sensor sent then `false`, then the custom topic is set to `false`.
 This topic now indicates if there is a package inside.
 
-I also send a notification to the phones and speaker in the living room when a package is arrived.
+I also send a notification to the phones and speaker in the living room when a package has arrived.
 
 This is how my Node-RED flow looks like.
 <img src="images_allux-600/node-red_allux_600.png" alt="Node-RED package box automation flows"/>
@@ -526,30 +527,30 @@ This is how my Node-RED flow looks like.
 
 ### Notification on my phone
 
-I have already a separated Node-RED flow to [send messages to my phone](../node-red/node-red_home-assistant_notifications). 
-I use a `link out node` (most right bottom block in the screenshot) to connect to that flow. 
+I already have a separate Node-RED flow to [send messages to my phone](../node-red/node-red_home-assistant_notifications).
+I use a `link out node` (most right bottom block in the screenshot) to connect to that flow.
 And every message it received will be sent to my phone to notify me there is a package.
 
-You can use your own preferred notification app here, like the Home Assistant Companion app, Whatsapp, Xabber, Telegram, Pushbullet, etc  
+You can use your own preferred notification app here, like the Home Assistant Companion app, Whatsapp, Xabber, Telegram, Pushbullet, etc
 
   <img src="images_allux-600/automation_notification.jpg" height="150px" alt="Notification there is a package"/>
 
 
 ### Home Assistant
 
-#### How MQTT works 
+#### How MQTT works
 
-The advantage of MQTT is that multiple applications can send and received messages on a topic. 
-A topic is some kind of channel. 
-The messages are in standard JSON format. 
-So in my case Node-RED updates the status of topic `homeassistant/packagebox` and Home Assistant also listen to it and use it for its own automations and dashboard. 
+The advantage of MQTT is that multiple applications can send and receive messages on a topic.
+A topic is a kind of channel.
+The messages are in standard JSON format.
+In my case, Node-RED updates the status of topic `homeassistant/packagebox` and Home Assistant also listens to it and uses it for its own automations and dashboard.
 Check online tutorials for all ins and outs about MQTT.
 
 #### MQTT entity
 
-In Home Assistant, I added YAML code in configuration.yaml. 
-I defined a sensor for a MQTT topic to listen to. 
-It becomes a binary sensor in Home Assistant. 
+In Home Assistant, I added YAML code in configuration.yaml.
+I defined a sensor for a MQTT topic to listen to.
+It becomes a binary sensor in Home Assistant.
 When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor sets the status to `ON` and with topic value `false` the state will be `OFF`.
 ```yaml
 {% raw %}
@@ -663,7 +664,7 @@ Here are some links where you can find actual prices for the Allux 600.
 
 ### Firework protection
 
-You can also buy a small additional metal plate you can block the lid from opening to prevent throwing firework in the box at the end of the year.
+You can also buy a small additional metal plate to block the lid from opening, to prevent fireworks being thrown into the box at the end of the year.
 
 [![Firework protection metal](images_allux-600/fireworks_protection.jpg)](http://www.youtube.com/watch?v=gc52z0xg0Og "Firework protection metal")
 
@@ -682,7 +683,7 @@ I found some alternative package boxes:
 * [PostNL advertise with a GePro Box](https://www.postnl.nl/campagnes/pakketkluis/)
 * [Logixbox Multibox-S](https://www.logixbox.nl/pakjes-brievenbus-multibox-s.html)
 
-Do you have another interesting package box [share it with me](#remarks-or-suggestions)
+Do you have another interesting package box? [Share it with me](#remarks-or-suggestions)
 or share it public on the Dutch Tweakers forum in this thread [https://gathering.tweakers.net/forum/list_messages/1663741](https://gathering.tweakers.net/forum/list_messages/1663741)
 
 ---

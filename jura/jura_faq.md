@@ -17,7 +17,7 @@ image: /jura/images/jura_logo.png
 
 When you buy and use a Jura coffee machine, you have a lot of questions.
 
-I have a separated page about [maintenance](jura_cleaning_maintenance) look here if your answer is maybe here.
+I have a separate page about [maintenance](jura_cleaning_maintenance) look here if your answer is maybe here.
 
 If your question is not answered here, 
 please use Jura social media groups like [Facebook - JURA COFFEE MACHINE OWNERS GROUP](https://www.facebook.com/groups/526724898563529) 

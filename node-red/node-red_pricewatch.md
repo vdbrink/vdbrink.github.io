@@ -10,7 +10,7 @@ tags: [Node-RED, price, watch, monitor, sales]
 <a name="top"></a>
 <img style="float: right;margin-left:20px" src="images/node-red_logo.png" height="100px" alt="Node-RED logo">
 
-Let Node-RED check on a daily basis the actual product prices on different websites for you and only send a notification when it meets your desired price.
+Let Node-RED check on a daily basis the current product prices on different websites for you and only send a notification when it meets your desired price.
 
 <img src="images_pricewatch/sales_price_example.png" height="100px" alt="sales price">
 
@@ -27,7 +27,7 @@ Let Node-RED check on a daily basis the actual product prices on different websi
     * [Bol.com](#bolcom)
     * [iBood.com](#iboodcom)
     * [Kruidvat.nl](#kruidvatnl)
-  * [Create your own prize checker](#create-your-own-prize-checker)
+  * [Create your own price checker](#create-your-own-price-checker)
   * [Price Formatter examples](#price-formatter-examples)
     * [With new lines](#with-new-lines)
     * [Other format?](#other-format)
@@ -48,7 +48,7 @@ Now you only need to click on the link and order it!
 ---
 ## Flow explanation
 
-With this flow, you can check a website for the actual price of a product.
+With this flow, you can check a website for the current price of a product.
 
 ![Node-RED flow](images_pricewatch/node-red_flow_pricewatch.png)
 
@@ -211,7 +211,7 @@ Price formatter: $number(payload[0])
 
 ---
 
-## Create your own prize checker
+## Create your own price checker
 
 -- does the page work with the http request node?
 

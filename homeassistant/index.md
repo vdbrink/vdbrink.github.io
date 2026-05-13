@@ -21,7 +21,7 @@ I created dashboards with all kinds of elements on it:
 * [Global HA Tips & Tricks](homeassistant_tips_tricks)
 * [Layout](homeassistant_dashboard_layout) (Stacks, grid, rows, compact presentations)
 * Templates:
-  * [Template examples](homeassistant_templates) creating, debugger, practical examples 
+  * [Template examples](homeassistant_templates) creating, debugger, practical examples
   * [Dutch examples](homeassistant_dashboard_templates_nl) (NL: welkomst tekst, weer, kleding advies)
 * Weather:
   * [Forecast temperatures](homeassistant_dashboard_weather) (Temperature, Forecast, Thunderstorm)
@@ -51,8 +51,8 @@ I created dashboards with all kinds of elements on it:
 ## Hardware to run HA on
 
 I compare the most popular hardware options, both new and refurbished.
-This page will help you to compare the different options you have: 
-like a NUC mini PC, N100, Raspberry Pi or a refurbished thin client, desktop or laptop. 
+This page will help you to compare the different options you have:
+like a NUC mini PC, N100, Raspberry Pi or a refurbished thin client, desktop or laptop.
 
 * [Which hardware to run Home Assistant on?](homeassistant_hardware)
 
@@ -72,12 +72,12 @@ Here you find flows to interact between Home Assistant and Node-RED.
 ---
 ## How I use Home Assistant
 
-I started my home automation without Home Assistant on a tiny Raspberry zero (in 2019). 
-In those days, I used an app ([Mqtt Dashboard](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard)) where I could see and control all my devices. 
-For my smart flows, I used Node-RED.  
+I started my home automation without Home Assistant on a tiny Raspberry zero (in 2019).
+In those days, I used an app ([Mqtt Dashboard](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard)) where I could see and control all my devices.
+For my smart flows, I used Node-RED.
 After I got more and more sensors, I couldn't get a clear overview of the status of all my sensors anymore.
-Then I found the solutions for this where people created floor plans of their house and add their sensor statuses and controls as layers on top of it. 
-This was possible with the application Home Assistant (not-so-famous yet in 2020) and so I began with it. 
+Then I found a solution where people created floor plans of their house and added their sensor statuses and controls as layers on top of it.
+This was possible with the application Home Assistant (not-so-famous yet in 2020) and so I began with it.
 I created the [floor plans](homeassistant_dashboard_floorplan) I wanted, and I also really liked the dashboards with their endless possibilities.
 
 I use Home Assistant pure as a presentation layer. That's why you don't find Home Assistant flows here, but only Node-RED flows.

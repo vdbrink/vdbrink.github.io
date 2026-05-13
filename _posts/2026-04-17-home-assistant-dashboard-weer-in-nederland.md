@@ -10,7 +10,7 @@ image: /homeassistant/images_weather/buienradar.png
 
 # Feed: Home Assistant dashboard - Weer in Nederland
 
-*As exception this post is in Dutch.*
+*As an exception this post is in Dutch.*
 
 Nederlanders praten graag over het weer! 
 Dan moet je ook op de hoogte zijn van alle weersverwachtingen.

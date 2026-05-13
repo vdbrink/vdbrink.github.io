@@ -11,7 +11,7 @@ image: /homeassistant/images/home_assistant_logo.png
 
 <img src="/homeassistant/images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px">
 
-On my site I have placed all kinds of Home Assistant dashboard examples which you can use direct on your own dashboard:
+On my site I have placed all kinds of Home Assistant dashboard examples which you can use directly on your own dashboard:
 
 * Interesting HACS integrations
 * Templates

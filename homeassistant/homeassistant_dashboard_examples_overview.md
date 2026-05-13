@@ -145,7 +145,7 @@ Pollen levels for weed, grass and trees.
 ---
 ## Afvalbeheer Integration
 
-Different kind of presentations to show the upcoming trash can pick up days, based on the Afvalbekeer integration.
+Different kinds of presentations to show the upcoming trash can pick-up days, based on the Afvalbeheer integration.
 
   <a href="homeassistant_hacs_afvalbeheer#default-presentation">
     <img width="450px" src="images_afvalbeheer/default.png" alt="Default Afvalbeheer presentation">
@@ -199,7 +199,7 @@ Show only the pickup days within the upcoming 5 days.
     <img width="450px" src="images_afvalbeheer/afvalbeheer_mushroom.png" alt="Mushroom conditional and colored">
   </a>
 
-Mushroom icon with matching color which trash can must be handled tomorrow/today.
+Mushroom icon with matching color indicating which trash can must be handled today or tomorrow.
 
 ---
 

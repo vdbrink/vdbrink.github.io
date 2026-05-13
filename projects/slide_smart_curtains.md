@@ -93,7 +93,7 @@ Go to integrations and search for `Slide Local`
 
 <img src="images_slide_curtain/add_slide_integration.png" width="300px" alt="find Slide Local integration">
 
-or use this link to install it direct in your own Home Assistant:
+or use this link to install it directly in your own Home Assistant:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=slide_local)
 
@@ -124,7 +124,7 @@ When it's completely opened, you see this icon:
 
 When you click on the name of the curtain, you get a pop-up with two types of controls.\
 The first type is a slider where you can open it a specific percentage.\
-And the order one are with three buttons, open, stop and close.\
+And the other one has three buttons, open, stop and close.\
 You can toggle the type on the bottom of the popup.
 
 <a href="images_slide_curtain/slide_controls_1.png"><img src="images_slide_curtain/slide_controls_1.png" alt="percentage control" height="350px" style="float:left"></a>

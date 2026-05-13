@@ -19,7 +19,7 @@ For example, with only a contact sensor, you can create the next automations to 
 
 These are just a few examples.
 
-On my blog, I wrote down a list with more example automations like these which I implemented and collected over the years. 
+On my blog, I wrote down a list of more example automations like these which I implemented and collected over the years. 
 
 I hope there are some new ideas which you can use in your home!
 

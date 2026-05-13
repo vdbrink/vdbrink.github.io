@@ -17,7 +17,7 @@ Auto-entities is a very powerful addon card that can let you make dynamic entity
 
 The git repository with also all options and some examples can be found at [https://github.com/thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities)
 
-Install this integration via this button in your own HA instance.\
+Install this integration, via this button, into your own HA instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
 ---
@@ -71,7 +71,7 @@ filter:
              {% elif level >= 25 %} orange
              {% elif level < 10 %} blue
              {% else %} var(--primary-text-color)
-             {% endif %} 
+             {% endif %}
              ;
            }
 show_empty: false
@@ -85,7 +85,7 @@ sort:
 ---
 ## Humidity (rounded, sorted and colored)
 
-Show all humidity sensors in order of their humidity from high to low 
+Show all humidity sensors in order of their humidity from high to low
 and only when the value is higher or equal than 65%.\
 Hide sensor `temp12` and with value `unavailable`.\
 Show the rounded humidity to a real number and for humidity higher than 70% red,
@@ -115,7 +115,7 @@ filter:
              {% elif level >= 60 %} orange
              {% elif level >= 55 %} white
              {% else %} var(--primary-text-color)
-             {% endif %} 
+             {% endif %}
              ;
            }
   exclude:
@@ -126,7 +126,7 @@ show_empty: false
 sort:
   method: state
   reverse: true
-  numeric: true  
+  numeric: true
 {% endraw %}
 ```
 
@@ -428,7 +428,7 @@ Mushroom cards can also be shown conditionally, see my [conditional mushroom car
 
 ---
 ## Chores
-I created a [separated page](homeassistant_dashboard_chores) about this subject where I use multiple auto entities lists to show which chores must be done and which are already done.
+I created a [separate page](homeassistant_dashboard_chores) about this subject where I use multiple auto entities lists to show which chores must be done and which are already done.
 
 ---
 

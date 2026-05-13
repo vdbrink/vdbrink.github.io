@@ -12,7 +12,7 @@ image: /homeassistant/images_pientere_tuinen/pt-logo.webp
 <img src="images_pientere_tuinen/pt-logo.webp" alt="Pientere tuinen banner" height="100px">
 
 Here you can find my dashboard elements for the Dutch project "[Pientere tuinen](https://pienteretuinen.nl/)".
-A project to monitor the diversity in gardens around the country and make people aware of changes they can make to improve your garden for a better water management, temperature and bio-diversity. 
+A project to monitor the diversity in gardens around the country and make people aware of changes they can make to improve their garden for better water management, temperature and bio-diversity. 
 
 All this data will be used by different parties to see what the current status in each corner of the country and how to act on the current climate changes.
 
@@ -22,7 +22,7 @@ Garden owners who live in a municipality who work together with the project can 
 
 During the project more and more environmental data will be added for each garden to get a better overview of what has an impact on your garden experience.
 
-The sensor works with on a lora network. There is no need for a local setup. You get an account for an online dashboard to see your data.
+The sensor works on a LoRa network. There is no need for a local setup. You get an account for an online dashboard to see your data.
 
 For advanced users, like us, they also provide an api which you can use to integrate it on your own dashboard.
 
@@ -82,7 +82,7 @@ With this data in Home Assistant I created my own dashboard.
 ---
 ### Used dashboard elements
 
-These three basic Home Assistant elements did I use.
+These are the three basic Home Assistant elements I used.
 
 | name                | link                                                     |
 |---------------------|----------------------------------------------------------|
@@ -209,7 +209,7 @@ See this [private project link](https://help.wecity.nl/bodemvocht-en-grondsoort)
 
 ## Soil type and water levels
 
-In this graph, you can see that each type of soil has his own levels when it's good for plants to live on.
+In this graph, you can see that each type of soil has its own levels when it's good for plants to live on.
 
 <img src="images_pientere_tuinen/range-of-optimum-soil-moisture.jpg" alt="" width="400px">
 

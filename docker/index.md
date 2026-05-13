@@ -1,27 +1,37 @@
+---
+title: Docker compose examples
+category: Docker
+tags: [docker, applications, portainer, node-red, influxdb, grafana, mosquitto, zigbee2mqtt, zigbee2mqtt assistant, rhasspy, pihole, dsmr reader, home assistant, room assistant]
+---
+
 # Docker compose examples
 
-The advantage of running applications using Docker is that it's easy to setup. 
+The advantage of running applications using Docker is that it's easy to set up.
 Just with a few lines, you can have an application up and running.
-Also, update or rollback a version is possible with a single command.
-For backup, it's not needed to backup the application itself, 
+Also, updating or rolling back a version is possible with a single command.
+For backup, it's not needed to backup the application itself,
 only the data(base) and configuration files are enough.
 
+---
 
 ## Table of Contents
-- [Docker commands](#)
-- [Docker compose file explanation](#docker-compose-file-explanation)
-- [Portainer](#portainer)
-- [Node-RED](#node-red)
-- [InfluxDB](#influxdb)
-- [Grafana](#grafana)
-- [Mosquitto](#mosquitto)
-- [Zigbee2MQTT](#zigbee2mqtt)
-- [Zigbee2MQTT Assistant](#zigbee2mqtt-assistant)
-- [Rhasspy](#rhasspy)
-- [Pi-hole](#pihole)
-- [DSMR Reader](#dsmr-reader)
-- [Home Assistant](#home-assistant)
-- [Room Assistant](#room-assistant)
+<!-- TOC -->
+  * [Docker commands](#docker-commands)
+  * [Docker compose file explanation](#docker-compose-file-explanation)
+  * [Portainer](#portainer)
+  * [Node-RED](#node-red)
+  * [InfluxDB](#influxdb)
+  * [Grafana](#grafana)
+  * [Mosquitto](#mosquitto)
+  * [Zigbee2MQTT](#zigbee2mqtt)
+  * [Zigbee2MQTT Assistant](#zigbee2mqtt-assistant)
+  * [Rhasspy](#rhasspy)
+  * [Pihole](#pihole)
+  * [DSMR Reader](#dsmr-reader)
+  * [Home Assistant](#home-assistant)
+  * [Room Assistant](#room-assistant)
+<!-- TOC -->
+
 ---
 
 ## Docker commands
@@ -36,7 +46,7 @@ Get the latest version of the defined image from dockerhub.
 ```
 docker-compose pull <container_name>
 ```
-**Run container** 
+**Run container**
 
 Start the container on the background.
 ```
@@ -58,10 +68,10 @@ docker-compose restart <container_name>
 docker-compose stop <container_name>
 ```
 
-**Stop all container**
+**Stop all containers**
 
 ```
-docker ps -aq | xargs docker stop 
+docker ps -aq | xargs docker stop
 ```
 
 **Cleanup old local images**
@@ -75,7 +85,7 @@ Show a constant stream of the last 30 log lines.
 ```
 docker logs -f --tail 30 zigbee2mqtt
 ```
-**Show all container**
+**Show all containers**
 
 Show all running containers.
 ```
@@ -94,9 +104,9 @@ All the docker-compose commands can be found on the
 
 ---
 ## Docker compose file explanation
-In the *docker-compose.yml* file you can define a list of applications. 
+In the *docker-compose.yml* file you can define a list of applications.
 For each application you can override the default image container settings and map the internal container
-ports (ports), environment variables (environment), directories (volumes) and hardware (devices) to the hosts. 
+ports (ports), environment variables (environment), directories (volumes) and hardware (devices) to the hosts.
 With this functionality you can easily backup custom data and settings.
 
 *Example docker-compose.yml definition*
@@ -142,7 +152,7 @@ docker stop portainer
 docker pull portainer/helper-reset-password
 docker run --rm -v /home/pi/stack/volumes/portainer/data:/data portainer/helper-reset-password
 ```
-The output show a new password.
+The output shows a new password.
 ```
 {"level":"info","filename":"portainer.db","time":"...","message":"loading PortainerDB"}
 Password successfully updated for user: admin
@@ -158,8 +168,8 @@ You can use sensor data, date/time or other (online) triggers as input and each 
 See my [Node-RED](../node-red/) page for examples.
 
 ![Node-RED](images/nodered.png)
-Het docker-compose definition:
-```  
+The docker-compose definition:
+```
   nodered:
     container_name: nodered
     build: ./services/nodered/.
@@ -178,7 +188,7 @@ Het docker-compose definition:
       - "/dev/vcio:/dev/vcio"
       - "/dev/gpiomem:/dev/gpiomem"
 ```
-The file `services/nodered/Dockerfile` installs node-RED and some usefull modules.
+The file `services/nodered/Dockerfile` installs node-RED and some useful modules.
 ```
 FROM nodered/node-red:latest
 RUN for addonnodes in \
@@ -210,7 +220,7 @@ done;
 ---
 
 ## InfluxDB
-InfluxDB is a timebase database. 
+InfluxDB is a time-series database.
 Works seamless with Grafana to present sensor data over time.
 ```
   influxdb:
@@ -272,7 +282,7 @@ GF_SECURITY_ALLOW_EMBEDDING=true
 ## Mosquitto
 
 Mosquitto is a, so-called, message broker for MQTT messages.\
-Sensors can send their messages in JSON format to a MQTT topic, 
+Sensors can send their messages in JSON format to a MQTT topic,
 and other applications can read those messages.
 
 ```
@@ -370,7 +380,7 @@ groups:
 
 ## Zigbee2MQTT Assistant
 
-``` 
+```
   zigbee2mqttassistant:
     container_name: zigbee2mqttassistant
     image: carldebilly/zigbee2mqttassistant
@@ -402,7 +412,7 @@ groups:
     devices:
        - /dev/snd:/dev/snd
        - /dev/bus/usb/001/006:/dev/bus/usb/001/009
-    command: --user-profiles /profiles --profile nl        
+    command: --user-profiles /profiles --profile nl
 ```
 
 ---
@@ -457,9 +467,9 @@ groups:
       - 7779:443
     devices:
       - /dev/ttyUSB0:/dev/ttyUSB0
-      
+
   dsmrdb:
-    container_name: dsmrdb      
+    container_name: dsmrdb
     image: postgres:12-alpine
     restart: always
     volumes:
@@ -501,6 +511,7 @@ groups:
       - /var/run/dbus:/var/run/dbus
       - ./volumes/room-assistant/config:/room-assistant/config
 ```
+
 ---
 [Table of Content >](#table-of-contents)
 

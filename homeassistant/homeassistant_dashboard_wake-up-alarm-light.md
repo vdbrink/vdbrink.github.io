@@ -17,7 +17,7 @@ This way dashboard users can make modifications to the ON and OFF time of an ent
 
 This can be used, for example, as wake-up ceiling LED strip light.
 Any automation can be triggered on this time!
-Start streaming a radio channel, creating a coffee, announce the weather forecast, news, traffic. 
+Start streaming a radio channel, make a coffee, announce the weather forecast, news, or traffic.
 
 <img src="images_wake-up/ledstrip_bedroom.png" alt="LED strip bedroom" width="400px">
 
@@ -39,7 +39,7 @@ Start streaming a radio channel, creating a coffee, announce the weather forecas
 
 <img src="/projects/images_bin_day/zigbee_rgb_led_strip.webp" style="float: right;margin-left:20px" alt="Zigbee RGB LED strip" height="150px">
 
-The hardware I used for this project is a dump LED strip, modified to work direct on power without a switch and controlled by a [smart socket](/buy/smart_home_best_buy_tips#smart-socket).
+The hardware I used for this project is a dumb LED strip, modified to work directly on power without a switch and controlled by a [smart socket](/buy/smart_home_best_buy_tips#smart-socket).
 As alternative a [smart LED strip](/buy/smart_home_best_buy_tips#led-strip) controlled by Zigbee/WiFi can also be used for it.
 
 With a [smart wireless button](/buy/smart_home_best_buy_tips#portable-button) it's possible to manually control the LED strip state.
@@ -80,7 +80,7 @@ show_header_toggle: false
 ---
 ### Entities
 
-The dashboard is build up of four entities:
+The dashboard is built up of four entities:
 
 * An entity to control the LED strip.
   * In this case `switch.blitzsmartplug_led`
@@ -141,27 +141,27 @@ This is my flow:
 <img src="images_wake-up/node-red_wake-up_flow.png" alt="Node-RED wake-up flow" width="100%">
 </a>
 
-The first flow, to control the LED strip manually with a smart button, is build up with these nodes:
+The first flow, to control the LED strip manually with a smart button, is built up with these nodes:
 * In node (this node is part of the module `node-red-contrib-zigbee2mqtt`) which is triggered when the button is pressed.
 * Change node to set the state `toggle` to the payload.
 
-The second flow, to turn ON the LED strip based on the OFF time, is build up with these nodes:
+The second flow, to turn ON the LED strip based on the ON time, is built up with these nodes:
 * HA time node which is triggered at the defined ON time.
 * HA current state node which checks of the flow should continue or stop.
 * Change node to set the state `ON` to the payload.
 * Zigbee2MQTT out node where the smart socket or LED strip is defined.
 
-The third flow, to turn OFF the LED strip based on the OFF time, is build up with these nodes:
+The third flow, to turn OFF the LED strip based on the OFF time, is built up with these nodes:
 * HA time node which is triggered at the defined OFF time.
 * HA current state node which checks of the flow should continue or stop.
 * Change node to set the state `OFF` to the payload.
 * Zigbee2MQTT out node where the smart socket or LED strip is defined.
 
-This is the config of the HA time node which trigger an event when the defined time is reached:
+This is the config of the HA time node which triggers an event when the defined time is reached:
 
 <img src="images_wake-up/node-red_time-node.png" alt="HA time node config" width="400px">
 
-This is the config of the HA current state node which check if the timer should be active:
+This is the config of the HA current state node which checks if the timer should be active:
 
 <img src="images_wake-up/node-red_is-active-node.png" alt="" width="400px">
 

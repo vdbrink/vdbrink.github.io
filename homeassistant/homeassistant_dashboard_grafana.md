@@ -18,7 +18,7 @@ Here you can find how you can integrate Grafana graphs into your Home Assistant 
 </a>
 
 InfluxDB can hold data for a much longer time than the internal Home Assistant database.
-For that reason, you want to compare, for example, data from last year to current year.
+For that reason, you want to compare, for example, data from last year to the current year.
 
 Grafana and InfluxDB have seamless integration with each other.
 
@@ -182,7 +182,7 @@ To load this, take the next steps:
 
 ---
 
-Once in a while, I need to login in Grafana from the Home Assistant dashboard.
+Once in a while, I need to log in to Grafana from the Home Assistant dashboard.
 
 <img src="images_grafana/grafana_ha_login.png" alt="Grafana login" width="300px">
 

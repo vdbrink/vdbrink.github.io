@@ -18,9 +18,9 @@ image: /homeassistant/images_hardware/ha_hardware_banner.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:15px" alt="Home Assistant logo" height="100px"></a>
 
-Maybe you have one or more vendor-locked hubs with its own smart sensors, and each hub has its own app.
-And ALL your data is stored in the big guys cloud.
-And there is no way you can let them work nicely together or combine it in one app.
+Maybe you have one or more vendor-locked hubs with their own smart sensors, and each hub has its own app.
+And ALL your data is stored in the big guys' cloud.
+And there is no way to let them work nicely together or combine them in one app.
 
 "Home automations with Home Assistant" you heard about it, you read about it, and it all sounds as the holy grail!
 You've made the choice to dive into the rabbit hole called "Home Assistant" (aka HA).
@@ -103,12 +103,12 @@ First, I want to explain some terms that are used here, and frequently used in d
 
 ## New hardware
 
-If you always want the best experience with Home Assistant, you better choose for new hardware.
-If you want to run it for the upcoming years without any performance issue and want to try new (machine learning) features,
-then you better choose for a new powerful device.
+If you always want the best experience with Home Assistant, you'd better choose new hardware.
+If you want to run it for the upcoming years without any performance issues and want to try new (machine learning) features,
+then you'd better choose a new powerful device.
 Nothing is so frustrating as automations that react slow.
 
-The current most popular hardware to run Home Assistant on is an all-in-one mini PCs.
+The currently most popular hardware to run Home Assistant on is an all-in-one mini PC.
 
 > Target group: If you want to run Home Assistant (and more) on a brand new and fast device.
 
@@ -124,7 +124,7 @@ They contain all required hardware in it and with many external ports (USB, netw
 After this success, many other manufacturers followed with their own versions of this form factor.
 <br>
 They have enough power to run Home Assistant, together with a lot of other applications.
-Without to worry about latency or any other performance issues for the best experience.
+Without having to worry about latency or any other performance issues for the best experience.
 
 > Target group: More advanced and demanding users
 
@@ -207,8 +207,8 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 #### High end
 
 <img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
-If you want to run heavy processes, like local machine learning functionality on the server, you better can choose for a high-end
-model with more memory, faster CPU, GPU and more cores.
+If you want to run heavy processes, like local machine learning functionality on the server, you'd better choose a high-end
+model with more memory, a faster CPU, GPU and more cores.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
 {% capture hx370_img %}<img alt="Beelink SER9 - HX 370" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
@@ -280,12 +280,12 @@ The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in
 
 <img alt="Raspberry logo" height="100px" src="images_hardware/raspberry_logo.svg" style="float: right"/>
 
-The Raspberry Pi models where for a long time very popular to run Home Assistant on.
-Because of the all-in-one board, with low energy consumption and it was cost-efficient.
+The Raspberry Pi models were for a long time very popular to run Home Assistant on,
+because of the all-in-one board, low energy consumption and cost-efficiency.
 
 Currently, they are nowadays less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the **N100** which
 are in the same price range.
-They are more powerful (check the CPU benchmark stats!) and have all required components (like memory and storage) already build in.
+They are more powerful (check the CPU benchmark stats!) and have all required components (like memory and storage) already built in.
 
 See this Facebook poll how popular the mini pcs are.
 Click on the image to go to the original post:
@@ -369,7 +369,7 @@ A spare laptop can also be used as a server to run Home Assistant on.
 
 The advantage is it's energy-effective and compact.
 
-The disadvantage can be the battery constant on the power or charge daily.
+The disadvantage can be the battery being constantly on power or needing to charge daily.
 Some laptops also run without a battery, which is the best solution.
 
 ### Thin client
@@ -380,7 +380,7 @@ A Thin client is compact, energy effective, silent and not expensive.
 HP has the T630 or T620 which are often mentioned as good hardware.
 Dell has also Thin clients: the Wyse 5060 or 7020.
 
-They used in offices and now widely available on second hand sites like Ebay.
+They were used in offices and are now widely available on second-hand sites like eBay.
 Even with HA already installed on it.
 
 ### NAS
@@ -411,8 +411,8 @@ There are also many other people who can help you further.
 
 ## Remarks
 
-I hope this pages helps you to make a choice in the best hardware for you to run Home Assistant on.
+I hope this page helps you to choose the best hardware for you to run Home Assistant on.
 
 Do you have any other remarks, suggestions, spell errors found after reading this page?
-Please let me know, you can reach me in one of mine social media posts or create
+Please let me know, you can reach me in one of my social media posts or create
 a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
