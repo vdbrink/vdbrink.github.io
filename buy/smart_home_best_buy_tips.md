@@ -51,6 +51,7 @@ These Amazon products are also bundled on these
     * [Leak sensor](#leak-sensor)
     * [Pressure sensor](#pressure-sensor)
     * [Lights](#lights)
+      * [GU10](#gu10)
       * [Bulb](#bulb)
       * [Bulb socket](#bulb-socket)
       * [LED strip](#led-strip)
@@ -487,9 +488,21 @@ gBasket}}Alternative: larger Zigbee pressure mat sensor  - Tuya
 
 ### Lights
 
+#### GU10
+
+<a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">
+<img src="/buy/images_zigbee/gu10_fullcolor.jpg" alt="Zigbee smart gu10 light" height="150px" style="margin-left:15px;float:right"/>
+</a>
+
+{{imgBasket}}Zigbee GU10 full color light with RGB, 5W and a E14 fitting.
+<a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">(AliExpress)</a>
+<a href="https://amzn.to/3PLzxcm#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4nyvcWC#ad" target="_blank">(Amazon NL)</a>
+<a href="https://www.zigbee2mqtt.io/devices/CK-BL702-AL-01.html" target="_blank" title="">{{imgZ2M}}</a>
+
 #### Bulb
 
-<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
+<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="../ideas/images/smart_bulb.webp" alt="Zigbee smart bulb" height="150px" style="margin-left:15px;float:right"/></a>
 
 You can replace a normal E27 bulb with a Zigbee variant.
 With a colored version, you can use it to inform yourself with a color for different states.
@@ -1052,15 +1065,17 @@ The dispenser contains the soap already mixed with water so foam is coming out o
 You don't need to create the foam yourself which saves water, time and soap.
 
 I have multiple ones in use around the house.
+In the kitchen, bathroom and toilet.
 
 <a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">
 <img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px"/></a>
+
+Make sure you select the foam version and not the normal liquid one!
 
 {{imgBasket}}Battery powered automatic soap dispenser
 <a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/46IqsFS#ad" target="_blank">(Amazon US)</a>
 
-Make sure you select the foam version and not the normal liquid one!
 
 <br>
 

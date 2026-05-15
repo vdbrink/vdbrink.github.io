@@ -34,6 +34,7 @@ My latest 5 posts:
 ---
 
 My latest biggest updates on this blog:
+* [Smart and stylish notification light](/projects/smart_notification_light)
 * [Home Assistant dashboard - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
 * [RSS feed posts - grouped by tag](feed_sitemap.html)
 * [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode)

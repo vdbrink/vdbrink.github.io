@@ -9,6 +9,7 @@ Here you find bigger projects I've done.
 
 <img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" width="400px">
 
+* [Smart and stylish notification light](smart_notification_light)
 * [Retrofit kitchen appliances to make them smarter](retrofit_kitchen_appliances)
 * [DIY chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor)
 * [Stretch display with Home Assistant dashboard](/projects/stretch_display)

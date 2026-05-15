@@ -59,6 +59,13 @@ It's also possible to use an E27 bulb lamp to create the same light effects.\
     <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
     <img src="../ideas/images/smart_bulb.webp" height="250px" alt="E27 colored Zigbee bulb"></a>
 
+<br>
+
+Or create with a GU10/E14 smart light a notifier like I described at my [Smart and stylish notification light](/projects/smart_notification_light) page.
+
+  <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
+    <img src="/buy/images_zigbee/gu10_fullcolor.jpg" height="200px" alt="E14 GU10 full color Zigbee"></a>
+
 ---
 
 ## Software requirements
