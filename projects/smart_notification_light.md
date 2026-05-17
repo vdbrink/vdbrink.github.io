@@ -12,7 +12,7 @@ image: /project/images_noti_light/banner_noti_light.png
 
 ## Introduction
 
-I wanted an indicator for my [new office](/home_office_desk/) when the CO2 level is too high, and a warning system that doesn't look like an ugly plastic box or a normal lamp.
+I wanted an indicator for my new office when the CO2 level is too high, and a warning system that doesn't look like an ugly plastic box or a normal lamp.
 I wanted a more stylish item on my desk, something that blends in perfectly with the rest of it.
 In normal mode, when the light is turned off, it shouldn't draw attention to itself.
 
