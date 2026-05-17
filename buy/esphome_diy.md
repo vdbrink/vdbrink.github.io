@@ -324,10 +324,10 @@ Dupont are cables to connect the ESP pins with sensors pins. The dupont cables a
 
 Connect two wires without soldering.
 
-<a href="https://s.click.aliexpress.com/e/_c3mMEF2f" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">
 <img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" height="180px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3mMEF2f" target="_blank">Cable connectors - option 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">Cable connectors - option 1 (AliExpress)</a>
 
 
 <a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">
