@@ -2,7 +2,7 @@
 title: "Smart and stylish notification light"
 category: Home Assistant
 tags: [automations, Zigbee, office, CO2, waste collect]
-image: /project/images_noti_light/banner_noti_light.png
+image: /projects/images_noti_light/banner_noti_light.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
