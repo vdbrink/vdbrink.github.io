@@ -49,10 +49,10 @@ Because the light can be set to any color, you can use it for different indicato
 Examples of light notifications are:
 * CO2 level too high, from a little too high (orange) to way too high (red).
   * Create your own CO2 sensor with [DIY CO2 sensor - based on ESPHome with a SCD40 sensor](/esphome/co2_scd40)
-  
+
 * Is trash can day tomorrow? Match the color of the bin.
   * [Bin day - LED strip reminder](/projects/bin_day_led_strip_reminder)
-  
+
 * Mail is delivered.
   * [Smart traditional mailbox](/projects/smart_mailbox)
 
@@ -61,7 +61,7 @@ Examples of light notifications are:
 * Indicate that a calendar meeting will start in a few minutes.
 
 <p></p>
- 
+
 _Do you have any other ideas for a light notification? Let me know!_
 
 ---
@@ -94,6 +94,8 @@ I already have a Zigbee network, so I chose Zigbee, but this can also be replace
 <a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3PLzxcm#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4nyvcWC#ad" target="_blank">(Amazon NL)</a>
+<a href="https://www.gamma.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">(Gamma NL)</a>
+<a href="https://www.karwei.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">(Karwei NL)</a>
 
 ### GU10 fitting
 
@@ -109,6 +111,8 @@ This makes it possible to hide this lamp in something small.
 <a href="https://s.click.aliexpress.com/e/_c3E9CGrt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4eQsae0#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4uiccy6#ad" target="_blank">(Amazon NL)</a>
+<a href="https://www.gamma.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">(Gamma NL)</a>
+<a href="https://www.karwei.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">(Karwei NL)</a>
 
 ### Power cable
 
@@ -123,6 +127,8 @@ If you have a spare 230V cable, you can use that as well.\
 <a href="https://s.click.aliexpress.com/e/_c3bMDrSL" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4tyCTgJ#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4wEZjQn#ad" target="_blank">(Amazon NL)</a>
+<a href="https://www.gamma.nl/assortiment/handson-aansluitsnoer-zwart-2-5-meter/p/B186276" target="_blank">(Gamma NL)</a>
+<a href="https://www.karwei.nl/assortiment/handson-aansluitsnoer-met-eurostekker-zwart-1-8-m/p/B122782" target="_blank">(Karwei NL)</a>
 
 ### Cable connector
 
@@ -135,6 +141,8 @@ If you don't want to solder the power cable directly to the GU10 fitting, you ca
 <a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/49RB6w8#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/#ad" target="_blank">(Amazon NL)</a>
+<a href="https://www.gamma.nl/assortiment/handson-kroonstrip-2-5-mm2-6d-4-stuks/p/B213691" target="_blank">(Gamma NL)</a>
+<a href="https://www.karwei.nl/assortiment/handson-kroonstrip-6-mm2-12d-5-stuks/p/B122981" target="_blank">(Karwei NL)</a>
 
 ### Stylish element to hide the lamp in
 
