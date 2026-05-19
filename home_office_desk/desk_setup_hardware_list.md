@@ -59,7 +59,7 @@ My wishlist for my new desk was clear:
 * 180 - 200 cm wide
 * 80 cm deep
 * Electric standing/sit desk
-* 2 programmable preset heights
+* Minimal 2 programmable preset heights
 * Black legs
 * Minimal wires visible
 
@@ -84,7 +84,7 @@ If you're looking for more info about desk choices, you can take a look also at 
 
 The laptop I use is a powerful MacBook M4 Pro 16 inch.
 
-* {{imgBasket}}[MacBook Pro M4 16" - Amazon US](https://amzn.to/4t2gNUj) 
+* {{imgBasket}}[MacBook Pro M4 16" - Amazon US](https://amzn.to/4t2gNUj)
 
 ---
 ## Laptop charger
@@ -108,6 +108,7 @@ This way I can also easily detach it and replace it with my personal laptop.
 </a>
 
 * {{imgBasket}}[Vertical laptop stand black - AliExpress](https://s.click.aliexpress.com/e/_c3YOP0VH)
+* {{imgBasket}}[Vertical laptop stand for two laptops black - AliExpress](https://s.click.aliexpress.com/e/_EHCUwya)
 
 Alternative solutions:
 
@@ -141,8 +142,8 @@ Sometimes into three equal app windows, or one big window in the middle and smal
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="450px" />
 </a>
 
-The model I have is the Philips P Line 498P9Z/00 (model from 2021). 
-It's now replaced with even better screens with the same sizes. 
+The model I have is the Philips P Line 498P9Z/00 (model from 2021).
+It's now replaced with even better screens with the same sizes.
 
 <a href="images/philips_49inch_screen.webp">
 <img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="450px" />
@@ -239,7 +240,7 @@ I use a full black one without any art distractions on it.
 <img src="images/deskmat.avif" alt="Desk pad" width="250px" />
 </a>
 
-The size of my pad is 400 x 900 x 3 mm. 
+The size of my pad is 400 x 900 x 3 mm.
 They are available in many different sizes and with different border colors.
 I have the all-black version.
 
@@ -276,8 +277,8 @@ For an affordable basic microphone, I've chosen the Razer Seiren Mini black - US
 
 For my new office I looked for a newer and improved over ear headset.
 The development of ANC is improving every year and my daily used three-year-old headset could get an upgrade.
-I want to go for the overall best option, the Sony WH, but the price is very high for a headset. 
-This keeps me looking further. 
+I want to go for the overall best option, the Sony WH, but the price is very high for a headset.
+This keeps me looking further.
 I heard and read good stories about the QCY H3 and when I found out the improved 2026 version H3S was released, I went for this one!
 In the past I had already good experience with the QCY in-earbuds for on-the-go.
 
@@ -299,7 +300,7 @@ In the past I had already good experience with the QCY in-earbuds for on-the-go.
 </a>
 
 </div>
- 
+
 * Dual device connect - possibility to connect at the same time to two devices (laptop and phone)
 * Soft top - no hard plastic pressure on your head
 * QCY app - to set custom sound settings and the level of noise cancellation
@@ -401,7 +402,7 @@ Sometimes you need a charging cable to charge a headphone or keyboard.
 Most of the time you don't need such cable and keep it out of sight.
 But when you need it, you don't want to dive under the table to connect one.
 
-A nice solution is retractable USB charging cables. 
+A nice solution is retractable USB charging cables.
 You can pull them out when you need it, and it automatically rolls in when you're done.
 
 I found these and they fit almost perfectly with my other wood elements.
@@ -416,6 +417,20 @@ And the shipping price makes it very expensive.
 
 Alternative:
 * {{imgBasket}}[Black dual USB-C power hub - AliExpress](https://s.click.aliexpress.com/e/_c4oe4KB1)
+
+----
+## Docking station
+
+I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals with a single cable.
+
+Requirements:
+* Main Monitor 5K @ 180Hz
+* Second monitor 4K @ 60Hz
+* Power 60W+
+* Network connection
+* USB peripherals
+
+If you have good suggestions for a docking station, please share it with me!
 
 ----
 ## Camera
