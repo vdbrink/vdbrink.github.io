@@ -19,6 +19,7 @@ On this page you can read which hardware I use now.
 
 ## Table of Contents
 <!-- TOC -->
+  * [Amazon shop list](#amazon-shop-list)
   * [Desk](#desk)
   * [Laptop](#laptop)
   * [Laptop charger](#laptop-charger)
@@ -27,6 +28,7 @@ On this page you can read which hardware I use now.
   * [Monitor](#monitor)
     * [Monitor cable](#monitor-cable)
     * [Monitor arm](#monitor-arm)
+    * [Monitor light](#monitor-light)
   * [Keyboard](#keyboard)
   * [Chair](#chair)
   * [Mouse](#mouse)
@@ -36,6 +38,8 @@ On this page you can read which hardware I use now.
   * [ANC over ear headset](#anc-over-ear-headset)
     * [Headphone stand](#headphone-stand)
   * [Accessories](#accessories)
+    * [Feet rest](#feet-rest)
+    * [Feet heater](#feet-heater)
     * [Moss terrarium](#moss-terrarium)
     * [Mug coaster](#mug-coaster)
     * [Wireless phone charger](#wireless-phone-charger)
@@ -44,8 +48,11 @@ On this page you can read which hardware I use now.
 * [Future improvements](#future-improvements)
   * [Clock](#clock)
   * [Retractable USB charger](#retractable-usb-charger)
+  * [Docking station](#docking-station)
   * [Camera](#camera-1)
 <!-- TOC -->
+
+> **_NOTE:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
 
 ---
 ## Desk
@@ -84,7 +91,7 @@ If you're looking for more info about desk choices, you can take a look also at 
 
 The laptop I use is a powerful MacBook M4 Pro 16 inch.
 
-* {{imgBasket}}[MacBook Pro M4 16" - Amazon US](https://amzn.to/4t2gNUj)
+* {{imgBasket}}MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv) [(Amazon NL)](https://amzn.to/4w3F12q)
 
 ---
 ## Laptop charger
@@ -95,7 +102,7 @@ I use a Xiaomi 120W USB-c charger to charge my laptop.
 <img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" width="250px" />
 </a>
 
-* {{imgBasket}}[Xiaomi 120W USB-c - AliExpress](https://s.click.aliexpress.com/e/_c34kENKH)
+* {{imgBasket}}Xiaomi 120W USB-c [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/434cVal) [(Amazon NL)](https://amzn.to/4tInyuZ)
 
 ---
 ## Laptop stand
@@ -104,17 +111,17 @@ To make the desk clean, I have my laptop upright with a black vertical laptop st
 This way I can also easily detach it and replace it with my personal laptop.
 
 <a href="images/vertical_laptop_stand.avif">
-<img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="450px" />
+<img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
 </a>
 
-* {{imgBasket}}[Vertical laptop stand black - AliExpress](https://s.click.aliexpress.com/e/_c3YOP0VH)
-* {{imgBasket}}[Vertical laptop stand for two laptops black - AliExpress](https://s.click.aliexpress.com/e/_EHCUwya)
+* {{imgBasket}}Vertical laptop stand black [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4nCJ9CX)
+* {{imgBasket}}Vertical laptop stand for two laptops black [(AliExpress)](https://s.click.aliexpress.com/e/_EHCUwya) [(Amazon US)](https://amzn.to/4uZOXJ7) [(Amazon NL)](https://amzn.to/3OEi9pF)
 
 Alternative solutions:
 
-* {{imgBasket}}[Walnut stand upright - AliExpress](https://s.click.aliexpress.com/e/_c4KppAtd)
-* {{imgBasket}}[Laptop mount under desk - AliExpress](https://s.click.aliexpress.com/e/_c3Kc8qzt)
-* {{imgBasket}}[Laptop side desk mount - AliExpress](https://s.click.aliexpress.com/e/_c4EqTSqf)
+* {{imgBasket}}Walnut stand upright [(AliExpress)](https://s.click.aliexpress.com/e/_c4KppAtd) [(Amazon US)](https://amzn.to/4nEvBXz)
+* {{imgBasket}}Laptop mount under desk [(AliExpress)](https://s.click.aliexpress.com/e/_c3Kc8qzt) [(Amazon US)](https://amzn.to/4tPqkOn)
+* {{imgBasket}}Laptop side desk mount [(AliExpress)](https://s.click.aliexpress.com/e/_c4EqTSqf) [(Amazon US)](https://amzn.to/4tNoFca)
 
 ## Laptop case
 
@@ -125,7 +132,7 @@ I chose to have all items below my monitor and on my desk in black.
 <img src="images/macbook_case.jpg" alt="Macbook 16' case" width="450px" />
 </a>
 
-* {{imgBasket}}[Macbook Pro 16" cover - AliExpress](https://s.click.aliexpress.com/e/_c4syE4fB)
+* {{imgBasket}}MacBook Pro 16" cover [(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) [(Amazon US)](https://amzn.to/42K2pos)
 
 ---
 ## Monitor
@@ -151,8 +158,8 @@ It's now replaced with even better screens with the same sizes.
 
 Alternative:
 
-* {{imgBasket}}[Philips 49" curved monitor - 49B2U5900C - Amazon NL](https://amzn.to/4afMEdn)
-* {{imgBasket}}[Philips 49" curved monitor - 49B2U5900C - Amazon US](https://amzn.to/4afMEdn)
+* {{imgBasket}}Philips 49" curved monitor - 49B2U5900C [(Amazon NL)](https://amzn.to/4afMEdn)
+* {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon US)](https://amzn.to/4v3Z53D)
 
 ---
 ### Monitor cable
@@ -161,8 +168,8 @@ The Philips monitor has a single DisplayPort 1.4 and 3x HDMI 2.0 ports.
 
 To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a single DisplayPort cable.
 
-* {{imgBasket}}[USB C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K - Amazon NL](https://amzn.to/3MSMgsm)
-* {{imgBasket}}[Similar cable from Ugreen - AliExpress](https://s.click.aliexpress.com/e/_c3P8oBaL)
+* {{imgBasket}}USB C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i) [(Amazon NL)](https://amzn.to/3MSMgsm)
+* {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq)
 
 ---
 ### Monitor arm
@@ -180,8 +187,7 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 <img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
 </a>
 
-* {{imgBasket}}[monitor arm ACT AC8340 - Amazon NL](https://amzn.to/4qFwvD8)
-* {{imgBasket}}[monitor arm ACT AC8340 - Tweakers NL - Dutch price compare site](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
+* {{imgBasket}}Monitor arm - ACT AC8340 Amazon US N/A [(Amazon NL)](https://amzn.to/4qFwvD8) [(Tweakers NL - Dutch price compare site)](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
 
 ---
 ### Monitor light
@@ -190,7 +196,7 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 <img src="images/monitor_light.avif" alt="monitor light" width="250px" />
 </a>
 
-* {{imgBasket}}[Xiaomi Mijia monitor light Desk bar - AliExpress](https://s.click.aliexpress.com/e/_c3JdA7BX)
+* {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c3JdA7BX) [(Amazon US)](https://amzn.to/4wFMGEo) [(Amazon NL)](https://amzn.to/4eXV5N2)
 
 ---
 ## Keyboard
@@ -208,16 +214,17 @@ It can easily switch between three devices, it lights up when you come closer, c
 <br>
 <em>YouTube product video about the Logitech MX Keys</em>
 
-* {{imgBasket}}[Amazon NL](https://amzn.to/4bXiCML)
-* {{imgBasket}}[Amazon US](https://amzn.to/4kFN3cE)
+* {{imgBasket}}Logitech MX Keys [(Amazon US)](https://amzn.to/4nFt3IK) [(Amazon NL)](https://amzn.to/4dBkb2a)
 
+---
 ## Chair
 
 The chair I use is an old model from Ikea but still sits pretty comfortable.
 
 Alternative:
-* {{imgBasket}}[MILLBERGET - Ikea NL](https://www.ikea.com/nl/nl/p/millberget-bureaustoel-murum-zwart-70489394/#content)
+* {{imgBasket}}MILLBERGET [(Ikea NL)](https://www.ikea.com/nl/nl/p/millberget-bureaustoel-murum-zwart-70489394/#content)
 
+---
 ## Mouse
 
 The mouse I use is a basic wireless soft-click and scroll one.
@@ -228,6 +235,7 @@ Works with a single AA battery.
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
 </a>
 
+---
 ## Desk pad
 
 I use a very large mouse pad underneath my keyboard and mouse.
@@ -244,11 +252,13 @@ The size of my pad is 400 x 900 x 3 mm.
 They are available in many different sizes and with different border colors.
 I have the all-black version.
 
-* {{imgBasket}}[Large anti-slip mouse pad - AliExpress](https://s.click.aliexpress.com/e/_c4lkc8mT)
-
+* {{imgBasket}}Large anti-slip mouse pad [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
+[Amazon US](https://amzn.to/49ZQjeG)
+<p></p>
 Alternative:
-* {{imgBasket}}[Other all black big pad - AliExpress](https://s.click.aliexpress.com/e/_c4TG8ihV)
+* {{imgBasket}}Other all black big pad [(AliExpress)](https://s.click.aliexpress.com/e/_c4TG8ihV)
 
+---
 ## Camera
 
 I chose a basic camera (years ago) for the features:
@@ -265,14 +275,16 @@ I chose a basic camera (years ago) for the features:
 Back in the days, the Logitech C920 HD Pro Webcam was a perfect match for me, and it still works fine.
 But it can be upgraded to a newer one with a 4K resolution with auto follow feature. I'm open for any good suggestions!
 
-* {{imgBasket}}[Logitech C920 HD Pro Webcam - Amazon NL](https://amzn.to/4kLNBO6)
+* {{imgBasket}}Logitech C920 HD Pro Webcam [Amazon US](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
 
+---
 ## Microphone
 
 For an affordable basic microphone, I've chosen the Razer Seiren Mini black - USB condenser microphone.
 
-* {{imgBasket}}[Razer Seiren Mini black - Amazon NL](https://amzn.to/4cwPg84)
+* {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8) [(Amazon NL)](https://amzn.to/4cwPg84)
 
+---
 ## ANC over ear headset
 
 For my new office I looked for a newer and improved over ear headset.
@@ -313,14 +325,15 @@ In the past I had already good experience with the QCY in-earbuds for on-the-go.
 Just read the reviews!
 
 Available in Black/White/Gray:
-* {{imgBasket}}[ANC over ear headset QCY H3S - AliExpress](https://s.click.aliexpress.com/e/_c4rmILlH)
+* {{imgBasket}}ANC over ear headset QCY H3S [(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) [(Amazon US)](https://amzn.to/4tJjCsW)
 
 <br>
 Alternative:\
 I'm also a fan of the Sony WH range, but the price is 10x the price of the QCY, but it isn't 10x better.
 For now, I stick to the QCY.
-* {{imgBasket}}[Sony WH-1000XM6 - Amazon NL](https://amzn.to/3QxCUDG)
+* {{imgBasket}}Sony WH-1000XM6 [(Amazon US)](https://amzn.to/3POvXhK) [(Amazon NL)](https://amzn.to/3QxCUDG)
 
+---
 ### Headphone stand
 
 A basic plastic headphone stand.
@@ -329,58 +342,19 @@ A basic plastic headphone stand.
 <img src="images/headset_stand.avif" alt="headphone stand" width="150px" />
 </a>
 
-* {{imgBasket}}[Headphone stand - AliExpress](https://s.click.aliexpress.com/e/_c2JOMKeL)
+* {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) [(Amazon US)](https://amzn.to/4wG3POj) [(Amazon NL)](https://amzn.to/4d2Gfm7)
 
 Alternative:
-* {{imgBasket}}[Walnut stand - AliExpress](https://s.click.aliexpress.com/e/_c4S9Q9hf)
+* {{imgBasket}}Walnut stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) [(Amazon US)](https://amzn.to/3Rl26xR)
 
 ---
 ## Accessories
 
-### Moss terrarium
-
-<a href="images/mossarium.jpg">
-<img src="images/mossarium.jpg" alt="mossarium" width="150px" />
-</a>
-
-* {{imgBasket}}[Moss terrarium - AliExpress](https://s.click.aliexpress.com/e/_c3MlDAd1)
-
-### Mug coaster
-
-<a href="images/coasters.jpg">
-<img src="images/coasters.jpg" alt="coasters" width="150px" />
-</a>
-
-* {{imgBasket}}[Mug coasters - AliExpress](https://s.click.aliexpress.com/e/_c3uKT7xt)
-
-### Wireless phone charger
-
-<a href="images/phone_stand_charger.jpg">
-<img src="images/phone_stand_charger.jpg" alt="phone charger" width="150px" />
-</a>
-
-* {{imgBasket}}[Wireless phone charger - AliExpress](https://s.click.aliexpress.com/e/_c3qTRe0B)
-
-### Walnut Phone stand
-
-<a href="images/phone_stand_charger.jpg">
-<img src="images/phone_stand_charger.jpg" alt="Walnut phone stand" width="150px" />
-</a>
-
-* {{imgBasket}}[Walnut Phone stand - AliExpress](https://s.click.aliexpress.com/e/_c4UBgQzZ)
-
-### Cat tower
-
-<a href="images/cat_tower.jpg">
-<img src="images/cat_tower.jpg" alt="cat tower" width="150px" />
-</a>
-
-It's available in three colors: Black/Beige/Gray
-* {{imgBasket}}[Cat tower Diogenes L - Bitiba.nl](https://www.bitiba.nl/shop/katten/krabpaal_krabmeubels/krabtonnen/554883?activeVariant=554883.1)
 
 ---
 # Future improvements
 
+---
 ## Clock
 
 I'm still looking for a matching wall clock.
@@ -391,7 +365,7 @@ This is the kind of clock I want, very minimalistic, without numbers or gold and
 </a>
 
 Alternative:
-* {{imgBasket}}[Wall clock - Amazon.nl](https://amzn.to/3O178xU)
+* {{imgBasket}}Wall clock [(Amazon.nl)](https://amzn.to/3O178xU)
 
 ---
 ## Retractable USB charger
@@ -413,10 +387,10 @@ And the shipping price makes it very expensive.
 <img src="images/retractable_usb_charger.png" alt="Retractable USB charger" width="150px" />
 </a>
 
-* {{imgBasket}}[Walnut cable organizer - AliExpress](https://s.click.aliexpress.com/e/_c2ud4CQX)
-
+* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)
+<p></p>
 Alternative:
-* {{imgBasket}}[Black dual USB-C power hub - AliExpress](https://s.click.aliexpress.com/e/_c4oe4KB1)
+* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
 
 ----
 ## Docking station
