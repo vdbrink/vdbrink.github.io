@@ -9,11 +9,20 @@ image: /home_office_desk/images/youp02_desk.jpg
 
 # Home office desk<br>setup hardware list
 
-On this page you can read which hardware I use now.
+On this page you can read which hardware products I use on a daily basis in my home office.
+These products make my life easier and makes me happy to work with!
+
+<!--
+There are also other office desk pages about:
+* [Room redesign with AI](room_design_with_ai)
+* [My personal home office room decoration](office_room_decoration)
+* [My personal home office automations](office_automations)
+-->
 
 <a href="images/home_office_desk_result2.jpg">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
-</a>
+</a>\
+<em>Final desk setup.</em>
 
 ---
 
@@ -29,25 +38,20 @@ On this page you can read which hardware I use now.
     * [Monitor cable](#monitor-cable)
     * [Monitor arm](#monitor-arm)
     * [Monitor light](#monitor-light)
+    * [Stretch display](#stretch-display)
   * [Keyboard](#keyboard)
   * [Chair](#chair)
+  * [Floor protection mat](#floor-protection-mat)
+  * [Floor heated mat](#floor-heated-mat)
   * [Mouse](#mouse)
   * [Desk pad](#desk-pad)
   * [Camera](#camera)
   * [Microphone](#microphone)
   * [ANC over ear headset](#anc-over-ear-headset)
     * [Headphone stand](#headphone-stand)
-  * [Accessories](#accessories)
-    * [Feet rest](#feet-rest)
-    * [Feet heater](#feet-heater)
-    * [Moss terrarium](#moss-terrarium)
-    * [Mug coaster](#mug-coaster)
-    * [Wireless phone charger](#wireless-phone-charger)
-    * [Walnut Phone stand](#walnut-phone-stand)
-    * [Cat tower](#cat-tower)
+  * [Retractable USB charger](#retractable-usb-charger)
 * [Future improvements](#future-improvements)
   * [Clock](#clock)
-  * [Retractable USB charger](#retractable-usb-charger)
   * [Docking station](#docking-station)
   * [Camera](#camera-1)
 <!-- TOC -->
@@ -56,6 +60,9 @@ On this page you can read which hardware I use now.
 
 ---
 ## Desk
+
+I had a fixed desk made of wood plates. 
+Now I want a standing desk, so I don't sit all day long.
 
 <a href="images/youp02_desk.jpg">
 <img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" style="margin-left:15px;float:right" width="350px" />
@@ -89,9 +96,14 @@ If you're looking for more info about desk choices, you can take a look also at 
 ---
 ## Laptop
 
-The laptop I use is a powerful MacBook M4 Pro 16 inch.
+The laptop I use is a powerful Apple MacBook M4 Pro 16 inch for high performance daily tasks and perfect for on-the-go.
+MacBooks are more powerful and have much longer battery life compare to Windows laptops.
 
-* {{imgBasket}}MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv) [(Amazon NL)](https://amzn.to/4w3F12q)
+<a href="images/macbook.jpg">
+<img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
+</a>
+
+* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv) [(Amazon NL)](https://amzn.to/4w3F12q)
 
 ---
 ## Laptop charger
@@ -146,7 +158,7 @@ The big advantage compared to two separate 27" screens is that you can split you
 Sometimes into three equal app windows, or one big window in the middle and smaller ones on the sides.
 
 <a href="images/monitor.jpg">
-<img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="450px" />
+<img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="100%" />
 </a>
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
@@ -199,6 +211,19 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 * {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c3JdA7BX) [(Amazon US)](https://amzn.to/4wFMGEo) [(Amazon NL)](https://amzn.to/4eXV5N2)
 
 ---
+### Stretch display
+
+Next to my normal monitor I have another small stretch display where I have room and house
+
+
+
+<a href="images/strech_display.jpg">
+<img src="images/strech_display.jpg" alt="stretch display" width="250px" />
+</a>
+
+[Stretch display](/projects/stretch_display)
+
+---
 ## Keyboard
 
 For a keyboard, I want a wireless, silent, smooth typing, with big shift and return button, volume buttons and a numpad.
@@ -223,6 +248,23 @@ The chair I use is an old model from Ikea but still sits pretty comfortable.
 
 Alternative:
 * {{imgBasket}}MILLBERGET [(Ikea NL)](https://www.ikea.com/nl/nl/p/millberget-bureaustoel-murum-zwart-70489394/#content)
+
+---
+## Floor protection mat
+
+To protect the floor for scratches and reduce sound from the wheels of the chair. 
+I placed a rubber protection mat underneath my chair.
+
+* {{imgBasket}}Floor protection mat
+[(Amazon US)](https://amzn.to/) 
+[(Amazon NL)](https://amzn.to/)
+
+---
+## Floor heated mat
+
+* {{imgBasket}}Floor heated mat
+[(Amazon US)](https://amzn.to/)
+[(Amazon NL)](https://amzn.to/)
 
 ---
 ## Mouse
@@ -281,6 +323,10 @@ But it can be upgraded to a newer one with a 4K resolution with auto follow feat
 ## Microphone
 
 For an affordable basic microphone, I've chosen the Razer Seiren Mini black - USB condenser microphone.
+
+<a href="images/razer_seiren.jpg">
+<img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" width="100px" />
+</a>
 
 * {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8) [(Amazon NL)](https://amzn.to/4cwPg84)
 
@@ -342,30 +388,14 @@ A basic plastic headphone stand.
 <img src="images/headset_stand.avif" alt="headphone stand" width="150px" />
 </a>
 
+<a href="images/qcy_h3s_default.jpg">
+<img src="images/qcy_h3s_default.jpg" alt="QCY H3S over ear headset on stand" width="150px" />
+</a>
+
 * {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) [(Amazon US)](https://amzn.to/4wG3POj) [(Amazon NL)](https://amzn.to/4d2Gfm7)
 
 Alternative:
 * {{imgBasket}}Walnut stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) [(Amazon US)](https://amzn.to/3Rl26xR)
-
----
-## Accessories
-
-
----
-# Future improvements
-
----
-## Clock
-
-I'm still looking for a matching wall clock.
-This is the kind of clock I want, very minimalistic, without numbers or gold and in the walnut color.
-
-<a href="images/wall_clock.jpg">
-<img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
-</a>
-
-Alternative:
-* {{imgBasket}}Wall clock [(Amazon.nl)](https://amzn.to/3O178xU)
 
 ---
 ## Retractable USB charger
@@ -392,19 +422,115 @@ And the shipping price makes it very expensive.
 Alternative:
 * {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
 
+<!--
+---
+## Accessories
+
+---
+### Feet rest
+
+---
+### Feet heater
+
+---
+### Moss terrarium
+
+<a href="images/mossarium.jpg">
+<img src="images/mossarium.jpg" alt="mossarium" width="150px" />
+</a>
+
+* {{imgBasket}}Moss terrarium [(AliExpress)](https://s.click.aliexpress.com/e/_c3MlDAd1) [(Amazon NL)](https://amzn.to/4w7dfCj)
+
+---
+### Mug coaster
+
+<a href="images/coasters.jpg">
+<img src="images/coasters.jpg" alt="coasters" width="150px" />
+</a>
+
+* {{imgBasket}}Mug coasters [(AliExpress)](https://s.click.aliexpress.com/e/_c3uKT7xt)
+
+---
+### Wireless phone charger
+
+<a href="images/phone_stand_charger.jpg">
+<img src="images/phone_stand_charger.jpg" alt="phone charger" width="150px" />
+</a>
+
+* {{imgBasket}}Wireless phone charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3qTRe0B) [(Amazon NL)](https://amzn.to/42HesCL)
+
+---
+### Walnut Phone stand
+
+<a href="images/phone_stand_charger.jpg">
+<img src="images/phone_stand_charger.jpg" alt="Walnut phone stand" width="150px" />
+</a>
+
+* {{imgBasket}}Walnut Phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ)
+
+---
+### Cat tower
+
+<a href="images/desk_collage_cats.png">
+<img src="images/desk_collage_cats.png" alt="cat tower" width="150px" />
+</a>
+<a href="images/cat_tower.jpg">
+<img src="images/cat_tower.jpg" alt="cat tower" width="150px" />
+</a>
+
+It's available in three colors: Black/Beige/Gray
+* {{imgBasket}}Cat tower Diogenes L [(Bitiba.nl)](https://www.bitiba.nl/shop/katten/krabpaal_krabmeubels/krabtonnen/554883?activeVariant=554883.1)
+<p></p>
+Alternative:
+* 20.5-Inch Cat Condo [Amazon US](https://amzn.to/4tV4zgc)
+-->
+
+---
+# Future improvements
+
+There are always things to improve.
+Sometimes it take some time until you find the perfect product which meets all your wishes, or at least most of them.
+I have also some of them on my list.
+
+If you know where I can get one of below products, please let me know!
+
+## Clock
+
+I'm still looking for a matching wall clock.
+This is the kind of clock I want, very minimalistic, without numbers or gold and in the walnut color.
+
+<a href="images/wall_clock.jpg">
+<img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
+</a>
+
+Alternative:
+* {{imgBasket}}Wall clock with acoustic panel look [(Amazon.nl)](https://amzn.to/3O178xU)
+
 ----
 ## Docking station
 
-I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals with a single cable.
+I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals as well with a single cable.
 
-Requirements:
-* Main Monitor 5K @ 180Hz
-* Second monitor 4K @ 60Hz
+It must also match minimal these requirements:
+* Main Monitor 49" 5K @ 180Hz
+* Future Second monitor 4K @ 60Hz
 * Power 60W+
 * Network connection
 * USB peripherals
+* Wake up MacBook
 
-If you have good suggestions for a docking station, please share it with me!
+<p></p>
+I found the ultimate one, the CalDigit TS5, it's only very expensive.
+
+<a href="images/caldigit_ts5_docking_station.jpg">
+<img src="images/caldigit_ts5_docking_station.jpg" alt="CalDigit TS5 docking station" width="150px" />
+</a>
+
+* {{imgBasket}} CalDigit TS5 docking station
+  [(Amazon US)](https://amzn.to/4un6YRH)
+  [(Amazon NL)](https://amzn.to/3PGaJCH)
+
+If you have good suggestions for a docking station which match my requirements, please share it with me!
 
 ----
 ## Camera
@@ -414,4 +540,4 @@ Then everybody can see me sharp and sparkly!
 
 ---
 
-Do you have good suggestions for my office desk? Please create an issue or share it as comment on my posts.
+Do you have good upgrade suggestions for my office? Please share it as comment on my posts.
