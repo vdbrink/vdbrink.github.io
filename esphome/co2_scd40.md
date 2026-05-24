@@ -104,9 +104,8 @@ The required products, including the soldering version, are also bundled on thes
 This small gas sensor measures **CO2** (in a range of 400-2000 ppm), **temperature** (-10-60 degrees), and **humidity** (0-100 percent).\
 The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) has all the technical details for this sensor.
 
-<a href="https://s.click.aliexpress.com/e/_c4mXziGn" target="_blank">
-{{imgBasket}}This sensor with an I2C interface is useful if you do not want to solder (AliExpress)
-</a> 
+{{imgBasket}}This sensor with an I2C interface is useful if you do not want to solder 
+<a href="https://s.click.aliexpress.com/e/_c4mXziGn" target="_blank">(AliExpress)</a> 
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">Alternative (AliExpress)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
@@ -117,7 +116,7 @@ The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD
 {{imgBasket}}Otherwise, you can also buy this cheaper version where you need to solder the pins 
 <a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4ss4zEb#ad" target="_blank"> (Amazon US)</a>
-<a href="https://amzn.to/3XUVXsB#ad" target="_blank"> (Amazon NL)</a>
+<a href="https://amzn.to/4dJXI30#ad" target="_blank"> (Amazon NL)</a>
 
 ### ESP board
 
@@ -146,9 +145,9 @@ A plastic box from a local shop works well too, as long as you drill some holes 
 
 Even a small decorative statuette can work, provided it is porous or has enough openings.
 
-{{imgBasket}}On AliExpress, they also sell 
-<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-Plastic DIY Cases (AliExpress)
+{{imgBasket}}On AliExpress, they also sell
+Plastic DIY Cases <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
+(AliExpress)</a>
 <a href="https://amzn.to/3G3EhVB#ad" target="_blank">(Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
@@ -160,8 +159,8 @@ Plastic DIY Cases (AliExpress)
 
 A cable to power the ESP.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
-Micro USB cable to USB-A to power the ESP (AliExpress)</a>
+{{imgBasket}}Micro USB cable to USB-A to power the ESP 
+<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4lqcvCK#ad" target="_blank">(Amazon US)</a>
 <br>
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">

@@ -89,14 +89,14 @@ These are the hardware components I used for this project:
 
 * {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
-<a href="https://amzn.to/3OXb03U#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4utKoa1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4neifkk#ad" target="_blank">(Amazon NL)</a>
   * <a href="https://senseair.com/product/s8/">Manufacturer product page</a>
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
 * {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4wfabEe#ad">(Amazon US)</a>
+<a href="https://amzn.to/4v8N8cV#ad">(Amazon US)</a>
 <a href="https://amzn.to/48QLNPl#ad">(Amazon NL)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
