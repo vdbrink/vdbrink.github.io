@@ -1,13 +1,13 @@
 ---
-title: Home office desk setup hardware list
-description: "My home office desk setup hardware list"
+title: "Home office: Desk setup hardware"
+description: "Home office desk setup hardware"
 category: Office
 tags: [Home office, desk, setup, hardware]
 image: /home_office_desk/images/youp02_desk.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# Home office desk<br>setup hardware list
+# Home office: Desk setup hardware
 
 On this page you can read which hardware products I use on a daily basis in my home office.
 These products make my life easier and makes me happy to work with!
@@ -24,6 +24,15 @@ There are also other office desk pages about:
 </a>\
 <em>Final desk setup.</em>
 
+
+---
+[Overview](index) |
+[Mood board](office_mood_board) |
+[Virtual design with AI](office_virtual_design_with_ai) |
+[Room decoration](office_room_decoration) |
+Desk setup hardware |
+[Accessories](office_accessories)
+
 ---
 
 ## Table of Contents
@@ -38,18 +47,14 @@ There are also other office desk pages about:
     * [Monitor cable](#monitor-cable)
     * [Monitor arm](#monitor-arm)
     * [Monitor light](#monitor-light)
-    * [Stretch display](#stretch-display)
   * [Keyboard](#keyboard)
   * [Chair](#chair)
-  * [Floor protection mat](#floor-protection-mat)
-  * [Floor heated mat](#floor-heated-mat)
   * [Mouse](#mouse)
   * [Desk pad](#desk-pad)
   * [Camera](#camera)
   * [Microphone](#microphone)
   * [ANC over ear headset](#anc-over-ear-headset)
     * [Headphone stand](#headphone-stand)
-  * [Retractable USB charger](#retractable-usb-charger)
 * [Future improvements](#future-improvements)
   * [Clock](#clock)
   * [Docking station](#docking-station)
@@ -57,6 +62,15 @@ There are also other office desk pages about:
 <!-- TOC -->
 
 > **_NOTE:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
+
+---
+## Amazon shop list
+
+The products on this page which are also for sale on Amazon are listed on 
+[Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).\
+Not all products are also available on Amazon, and excluded from the lists, like:
+* Desk
+* Laptop case
 
 ---
 ## Desk
@@ -211,19 +225,6 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 * {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c3JdA7BX) [(Amazon US)](https://amzn.to/4wFMGEo) [(Amazon NL)](https://amzn.to/4eXV5N2)
 
 ---
-### Stretch display
-
-Next to my normal monitor I have another small stretch display where I have room and house
-
-
-
-<a href="images/strech_display.jpg">
-<img src="images/strech_display.jpg" alt="stretch display" width="250px" />
-</a>
-
-[Stretch display](/projects/stretch_display)
-
----
 ## Keyboard
 
 For a keyboard, I want a wireless, silent, smooth typing, with big shift and return button, volume buttons and a numpad.
@@ -248,23 +249,6 @@ The chair I use is an old model from Ikea but still sits pretty comfortable.
 
 Alternative:
 * {{imgBasket}}MILLBERGET [(Ikea NL)](https://www.ikea.com/nl/nl/p/millberget-bureaustoel-murum-zwart-70489394/#content)
-
----
-## Floor protection mat
-
-To protect the floor for scratches and reduce sound from the wheels of the chair. 
-I placed a rubber protection mat underneath my chair.
-
-* {{imgBasket}}Floor protection mat
-[(Amazon US)](https://amzn.to/) 
-[(Amazon NL)](https://amzn.to/)
-
----
-## Floor heated mat
-
-* {{imgBasket}}Floor heated mat
-[(Amazon US)](https://amzn.to/)
-[(Amazon NL)](https://amzn.to/)
 
 ---
 ## Mouse
@@ -398,92 +382,9 @@ Alternative:
 * {{imgBasket}}Walnut stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) [(Amazon US)](https://amzn.to/3Rl26xR)
 
 ---
-## Retractable USB charger
+# Accessories
 
-I'm also still looking for a clean solution for USB charging cables.
-Not everything can be charged wireless.
-Sometimes you need a charging cable to charge a headphone or keyboard.
-Most of the time you don't need such cable and keep it out of sight.
-But when you need it, you don't want to dive under the table to connect one.
-
-A nice solution is retractable USB charging cables.
-You can pull them out when you need it, and it automatically rolls in when you're done.
-
-I found these and they fit almost perfectly with my other wood elements.
-But I don't like the orange color (I can paint it black, of course).
-And the shipping price makes it very expensive.
-
-<a href="images/retractable_usb_charger.png">
-<img src="images/retractable_usb_charger.png" alt="Retractable USB charger" width="150px" />
-</a>
-
-* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)
-<p></p>
-Alternative:
-* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
-
-<!--
----
-## Accessories
-
----
-### Feet rest
-
----
-### Feet heater
-
----
-### Moss terrarium
-
-<a href="images/mossarium.jpg">
-<img src="images/mossarium.jpg" alt="mossarium" width="150px" />
-</a>
-
-* {{imgBasket}}Moss terrarium [(AliExpress)](https://s.click.aliexpress.com/e/_c3MlDAd1) [(Amazon NL)](https://amzn.to/4w7dfCj)
-
----
-### Mug coaster
-
-<a href="images/coasters.jpg">
-<img src="images/coasters.jpg" alt="coasters" width="150px" />
-</a>
-
-* {{imgBasket}}Mug coasters [(AliExpress)](https://s.click.aliexpress.com/e/_c3uKT7xt)
-
----
-### Wireless phone charger
-
-<a href="images/phone_stand_charger.jpg">
-<img src="images/phone_stand_charger.jpg" alt="phone charger" width="150px" />
-</a>
-
-* {{imgBasket}}Wireless phone charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3qTRe0B) [(Amazon NL)](https://amzn.to/42HesCL)
-
----
-### Walnut Phone stand
-
-<a href="images/phone_stand_charger.jpg">
-<img src="images/phone_stand_charger.jpg" alt="Walnut phone stand" width="150px" />
-</a>
-
-* {{imgBasket}}Walnut Phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ)
-
----
-### Cat tower
-
-<a href="images/desk_collage_cats.png">
-<img src="images/desk_collage_cats.png" alt="cat tower" width="150px" />
-</a>
-<a href="images/cat_tower.jpg">
-<img src="images/cat_tower.jpg" alt="cat tower" width="150px" />
-</a>
-
-It's available in three colors: Black/Beige/Gray
-* {{imgBasket}}Cat tower Diogenes L [(Bitiba.nl)](https://www.bitiba.nl/shop/katten/krabpaal_krabmeubels/krabtonnen/554883?activeVariant=554883.1)
-<p></p>
-Alternative:
-* 20.5-Inch Cat Condo [Amazon US](https://amzn.to/4tV4zgc)
--->
+Check this page for all [accessories](office_accessories).
 
 ---
 # Future improvements
@@ -541,3 +442,11 @@ Then everybody can see me sharp and sparkly!
 ---
 
 Do you have good upgrade suggestions for my office? Please share it as comment on my posts.
+
+---
+[Overview](index) |
+[Mood board](office_mood_board) |
+[Virtual design with AI](office_virtual_design_with_ai) |
+[Room decoration](office_room_decoration) |
+Desk setup hardware |
+[Accessories](office_accessories)
