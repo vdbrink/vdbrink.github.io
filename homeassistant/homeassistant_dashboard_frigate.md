@@ -97,7 +97,7 @@ You can add a direct livestream based on the rtsp url with the custom HACS integ
 Repo: [https://github.com/AlexxIT/WebRTC](https://github.com/AlexxIT/WebRTC) \
 There are a lot of possible settings, check this site for them.
 
-Install this integration, via this button, into your own HA instance.\
+Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexxIT&repository=WebRTC&category=integration)
 
 ```yaml
@@ -120,7 +120,7 @@ This doesn't work with the default Markdown integration, but it works with the c
 
 Repo: [https://github.com/PiotrMachowski/lovelace-html-card](https://github.com/PiotrMachowski/lovelace-html-card)
 
-Install this integration, via this button, into your own HA instance.\
+Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=PiotrMachowski&repository=lovelace-html-card&category=integration)
 
 ```yaml

@@ -140,9 +140,9 @@ Without having to worry about latency or any other performance issues for the be
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c42WiLOp){% endcapture %}
 {% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3RWz1fn){% endcapture %}
 
-{% capture n95_beelink %}[Beelink sold out](https://www.bee-link.com/products/beelink-mini-s12-n95){% endcapture %}
+{% capture n95_beelink %} n/a {% endcapture %}
 {% capture n97_beelink %} n/a {% endcapture %}
-{% capture n100_beelink %}[Beelink sold out](https://www.bee-link.com/products/beelink-mini-s12-pro-n100?variant=46167095771378){% endcapture %}
+{% capture n100_beelink %} n/a {% endcapture %}
 {% capture n150_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eq14-n150?variant=46285631291634){% endcapture %}
 {% capture 12650h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12-intel%C2%AE-core-1220p-12450h-12650h?variant=47617869545714){% endcapture %}
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
@@ -158,7 +158,7 @@ Without having to worry about latency or any other performance issues for the be
 
 {% capture n95_nl %}[Amazon NL](https://amzn.to/45BtFHY#ad){% endcapture %}
 {% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
-{% capture n100_nl %}[Amazon NL](https://amzn.to/4iclwgD#ad){% endcapture %}
+{% capture n100_nl %}[Amazon NL](https://amzn.to/4f157x6#ad){% endcapture %}
 {% capture n150_nl %}[Amazon NL](https://amzn.to/4p3vIes#ad){% endcapture %}
 {% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv#ad){% endcapture %}
 {% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc#ad){% endcapture %}

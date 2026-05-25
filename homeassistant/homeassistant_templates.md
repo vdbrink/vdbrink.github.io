@@ -12,7 +12,7 @@ image: /homeassistant/images_templates/ha_templates_banner.png
 <br><br>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find some Home Assistant helper template examples.\
+Here you will find some Home Assistant helper template examples.\
 With these helper templates, you can create new custom sensors (conditions) based on other sensor values to use on the dashboard or in automations.
 This new sensor can have a textual output or a boolean value true/false.
 <br>
@@ -68,7 +68,7 @@ This new sensor can have a textual output or a boolean value true/false.
 
 A normal sensor can have any output, text, number or a boolean, and a binary sensor can only have a boolean value as output.
 It can only have the state `true` or `false`.
-This sensor can be used in automations to check if a condition matches.
+Binary sensors are useful in automations when you want to check whether a condition matches.
 
 ### How to add a template
 
@@ -78,9 +78,9 @@ There are two ways to add a template to your Home Assistant:
 
 One way to add a new template is by adding the code to the `configuration.yaml` file.
 In 2022, the configuration for template entities changed.
-Where previously the configuration was placed under the `sensor:` or `binary_sensor:` section, a new `template` section was introduced.
-Using the modern template format has a couple of advantages.
-You can use a `trigger` and `action` (like in automations) which gives more control over when the entity should be updated, and it allows to set a `state_class` so the state of the entity will also be stored in Long Term Statistics. It also allows to create `button`, `image`, `number` and `select` entities which is not possible using the legacy platform.
+Where the configuration previously lived under the `sensor:` or `binary_sensor:` section, a new `template` section was introduced.
+The modern template format has several advantages.
+You can use a `trigger` and `action` like in automations, which gives more control over when the entity updates, and it allows you to set a `state_class` so the state of the entity is stored in Long Term Statistics. It also allows you to create `button`, `image`, `number`, and `select` entities, which is not possible with the legacy platform.
 
 For more information, also see the [Home Assistant documentation](<https://www.home-assistant.io/integrations/template/>). The legacy format is still documented all the way at the bottom.
 
@@ -89,8 +89,8 @@ All template entities should be created under the same `template:` key.
 
 ##### Example directory structure
 
-In the `configuration.yaml` you can add a line to link to a file with your templates, for example a file only for binary sensors.
-In the configuration file add the line `binary_sensors: !include binary_sensor.yaml`.
+In the `configuration.yaml`, you can add a line that links to a file with your templates, for example a file only for binary sensors.
+Add the line `binary_sensors: !include binary_sensor.yaml` to the configuration file.
 Place the file `binary_sensor.yaml` in the root next to the configuration file.
 That file can look like this:
 ```yaml
@@ -113,9 +113,9 @@ That file can look like this:
 You can also create a directory and place multiple files in it, one for each different subject.
 This makes it very clear and maintainable.
 Create a directory, for example called `sensors`, in the Home Assistant root.
-Now create the different .yaml-files in it.
-This way, you don't have to specify each single filename in the configuration file, all files in this directory will be included.
-Use the next definition in `configuration.yaml` to accomplish this:
+Now create the different `.yaml` files in it.
+This way, you do not have to specify each filename in the configuration file, and all files in this directory will be included.
+Use the following definition in `configuration.yaml` to accomplish this:
 
 ```yaml
 {% raw %}
@@ -129,37 +129,37 @@ binary_sensor: !include binary_sensor.yaml
 
 #### Via the frontend
 
-The other way is via the frontend, you can create a new template via the **Settings** menu item,
+The other way is via the frontend. You can create a new template via the **Settings** menu item,
 then go to **Devices and Services** and select **Helpers** in the top bar.\
-This button directly opens the **Helpers** page in your Home Assistant:
+This button opens the **Helpers** page directly in your Home Assistant:
 
 [![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
 
 Select the bottom-right button `+ Create Helper`,
-select **Template** then one of the two options **Template a sensor** or **Template a binary sensor**.
+then choose **Template** and one of the two options: **Template a sensor** or **Template a binary sensor**.
 
-Copy the `value_template` part from the below examples and add it in the visual editor under **State template***.
+Copy the `value_template` part from the examples below and add it in the visual editor under **State template***.
 
 In this example animation, a (binary) template is created to check if the current month is August.
 
 <img src="images_templates/create_helper_template.gif" alt="" width="450px">
 
-The template helpers are more user-friendly to create, but lack some of the options the YAML configuration does, like templating the icon of the sensor, and working with triggers.
-It also doesn't have the option to provide a template for `availablity` of the entity.
+Template helpers are easier to create, but they lack some of the options available in the YAML configuration, such as templating the sensor icon and working with triggers.
+They also do not support a template for the entity `availability`.
 
 ---
 
 ### How to debug a template
 
-Via the Home Assistant frontend you can create and test a Template.\
+Via the Home Assistant frontend you can create and test a template.\
 Go to the **Developer tools** menu item,
-then go to **Template** tab.
+then open the **Template** tab.
 
 Or use this button to open the Helpers in your Home Assistant:
 
 [![Open your Home Assistant instance and show your template developer tools.](https://my.home-assistant.io/badges/developer_template.svg)](https://my.home-assistant.io/redirect/developer_template/)
 
-Now you're here:
+Now you are here:
 
 <img src="images_templates/test_template.png" alt="Template debug tool" width="100%">
 
@@ -170,11 +170,11 @@ Home Assistant uses [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates
 ---
 ### Where to get help
 
-Use the below examples, search the internet, use the Home Assistant Community forum, the HA Facebook groups, Reddit or ChatGPT to help you to create your own new templates.
+Use the examples below, search the internet, and check the Home Assistant Community forum, HA Facebook groups, Reddit, or ChatGPT to help you create your own templates.
 
-[The Home Assistant website contains also a lot of examples!](https://www.home-assistant.io/docs/configuration/templating/)
+[The Home Assistant website also contains many examples.](https://www.home-assistant.io/docs/configuration/templating/)
 
-ChatGPT is really useful and fast at helping you create a new template and fine-tune it.
+ChatGPT is useful and fast when you want help creating a new template or refining an existing one.
 
 <img src="images_templates/chatgpt_resource.png" alt="chatGPT as source" width="100%">
 
@@ -183,15 +183,15 @@ ChatGPT is really useful and fast at helping you create a new template and fine-
 ## Template examples
 
 Here are all kinds of different template examples.
-Note that every entity has a `unique_id`. This does not define the entity_id, the entity_id is defined by the name (so `name: "Lights On"` will generate `sensor.lights_on`).
-By providing a `unique_id` you will be able to change `name`, `icon`, `entity_id` and based on the type of entity also the `device_class` in the frontend.
-It also ensures you don't get suffixes like `_2` after changing your configuration and reloading the template entities.
+Note that every entity has a `unique_id`. This does not define the `entity_id`; the `entity_id` is defined by the name, so `name: "Lights On"` will generate `sensor.lights_on`.
+By providing a `unique_id`, you can change the `name`, `icon`, and `entity_id`, and depending on the entity type, also the `device_class` in the frontend.
+It also prevents suffixes like `_2` after you change the configuration and reload the template entities.
 
 ### Is it a specific day in the year?
 
-A boolean sensor to test if it is a specific month, season, day (like Christmas or April Fools' Day etc.)?
-This will create `binary_sensor` entities which will be `on` when the template returns `true` and otherwise they will be `off`
-You can optionally refine the entities even more by providing a template for the `icon`
+A binary sensor can test whether it is a specific month, season, or day, such as Christmas or April Fools' Day.
+This will create `binary_sensor` entities that are `on` when the template returns `true` and `off` otherwise.
+You can optionally refine the entities even more by providing a template for the `icon`.
 
 ```yaml
 {% raw %}
@@ -230,9 +230,9 @@ template:
 ### Count the number of lights on
 
 Count the number of lights with the status `on`.
-By checking if the `entity_id` attribute exists on the light entities it will exclude the light groups created in Home Assistant.
-Otherwise, it would count both the group, and the members as light, which will give a higher number than expected.
-The icon is changed dynamically based on the state of the sensor itself, and self references the state using `this.state`.
+By checking whether the `entity_id` attribute exists on the light entities, it excludes the light groups created in Home Assistant.
+Otherwise, it would count both the group and the members as lights, which would give a higher number than expected.
+The icon changes dynamically based on the state of the sensor itself and references the state using `this.state`.
 
 <img src="images_templates/nr_lights_on.png" alt="Number of lights on" width="450px">
 
@@ -254,7 +254,7 @@ template:
 ---
 ### Count the number of open windows
 
-Similar to the previous one, count the number of still open windows.
+Similar to the previous example, count the number of open windows.
 
 ```yaml
 {% raw %}
@@ -274,8 +274,8 @@ template:
 ---
 ### Calculate temperature differences
 
-Calculate the temperature difference between an inside room temperature and the outside temperature, and round by two decimals.
-This sensor introduces an `availability` template, which will ensure the template sensor will only be available when both source sensors are working properly.
+Calculate the temperature difference between an inside room temperature and the outside temperature, and round it to two decimals.
+This sensor introduces an `availability` template, which ensures the template sensor is only available when both source sensors are working properly.
 If not, the template sensor will show as unavailable.
 
 <img src="images_templates/temp_diff.png" alt="Temperature difference with outside" width="450px">
@@ -302,9 +302,9 @@ template:
 ### Unavailable devices
 
 Get all devices by name that have the state unavailable in a sorted list.
-As states are limited to 255 characters, the list is stored in an attribute, the state of the entity will be a count of the unavailable devices.
-The device is considered unavailable when ALL entities belonging to that device are unavailable, as it could happen that only one entity is unavailable for specific reasons.\
-The icon is changed dynamically and will show the number of devices as well (9+ in case it's over 9).
+As states are limited to 255 characters, the list is stored in an attribute, and the state of the entity will be a count of the unavailable devices.
+The device is considered unavailable when all entities belonging to that device are unavailable, because it can happen that only one entity is unavailable for specific reasons.\
+The icon changes dynamically and will also show the number of devices, using `9+` when the count is over 9.
 
 ```yaml
 {% raw %}
@@ -340,12 +340,12 @@ template:
 ---
 ### Low battery
 
-Get all devices by name that have the battery level with less than 10% in a sorted list.
-It is not possible to simply filter on the state, as all states in Home Assistant are a string, and if you compare the string `"6"` with the string `"10"` you get unwanted results (`"6" < "10"` returns `false`).\
-Therefore, it is needed to convert the strings to a number first.\
-As we also still want to access the other properties, this requires a for-loop.
-To access the data created in the for loop outside the for loop, a namespace has to be used.
-Just like in the previous example, the names are listed in an attribute, because otherwise the character limit of 255 characters for an entity state can become an issue.
+Get all devices by name that have a battery level below 10 percent in a sorted list.
+It is not possible to simply filter on the state, because all states in Home Assistant are strings, and comparing `"6"` with `"10"` gives unwanted results (`"6" < "10"` returns `false`).\
+Therefore, the strings need to be converted to numbers first.\
+Because we also want to access the other properties, this requires a for-loop.
+To access the data created in the for-loop outside the loop, a namespace has to be used.
+Just like in the previous example, the names are listed in an attribute, because otherwise the 255 character limit for an entity state can become an issue.
 
 <img src="images_templates/low_battery_devices.png" alt="low battery devices" width="150px">
 
@@ -376,8 +376,8 @@ template:
 ---
 ### Floor activity
 
-Check if there is any activity on a specific floor or section based on multiple sensors.\
-One minute after the last trigger the state goes back to `off`.
+Check whether there is any activity on a specific floor or section based on multiple sensors.\
+One minute after the last trigger, the state goes back to `off`.
 
 <img src="images_templates/floor_activity.png" alt="floor activity" width="450px">
 
@@ -403,7 +403,7 @@ template:
 ### Day of the week translation
 
 By default, the day of the week is in English.\
-With this template, it translates the day to a non-English language (like here to Dutch).
+With this template, it translates the day to a non-English language, in this case Dutch.
 
 <img src="images_templates/day_of_the_week.png" alt="Day of the week translated" width="450px">
 
@@ -425,33 +425,33 @@ template:
 ### Day countdown
 
 This day countdown can be used to show the days until a special day,
-like a wedding, birth of a child, birthday, Christmas, or in this example, the Home Assistant Community Day!
+such as a wedding, the birth of a child, a birthday, Christmas, or, in this example, Home Assistant Community Day.
 
 <img src="images_templates/community_day_countdown_basic.png" alt="day countdown for the Home Assistant community day" width="450px">
 
 #### Create date sensor
 
 First, you need to create two helpers:
-* One to define the date itself, this can be done with a `Date and/or time` helper;
-* The other one to calculate the difference between THE date and today, this can be done with a `template a sensor` helper.
+* One to define the date itself, which can be done with a `Date and/or time` helper;
+* The other to calculate the difference between the date and today, which can be done with a `template a sensor` helper.
 <br>
 
 [Check here (also on this page) how to create these two helpers via the frontend.](#via-the-frontend)
 
-The first sensor is a `Date and/or time` helper.\
+The first helper is a `Date and/or time` helper.\
 Give it a name, in this case `Community Day`.\
-Select for the input type a `Date`.
+Select `Date` as the input type.
 
 <img src="images_templates/helper_date.png" alt="create date helper" width="450px">
 
-Once the helper `input_datetime.community_day` is created, click on it and set the correct date.
-Now this helper is ready.
+Once the helper `input_datetime.community_day` is created, click it and set the correct date.
+Now the helper is ready.
 
 <img src="images_templates/helper_date_define.png" alt="" width="450px">
 
 Now we need to create another sensor,
-from the type `template a sensor` to calculate the days until the defined date.\
-The value of the `State template must be:`
+of the type `template a sensor`, to calculate the days until the defined date.\
+The `State template` must be:
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -459,12 +459,12 @@ The value of the `State template must be:`
 {{ (com_date.date() - now().date()).days }}
 {% endraw %}
 ```
-And in the `Unit of measurement` field you can fill in `days` as unit.\
+In the `Unit of measurement` field, you can enter `days` as the unit.\
 The other fields are not required.
 
 <img src="images_templates/helper_date_template.png" alt="template helper" width="450px">
 
-Now you have created the two required sensors!
+Now you have created the two required helpers.
 
 <img src="images_templates/helper_date_helpers.png" alt="two created helpers" width="450px">
 
@@ -472,8 +472,8 @@ Now we can create a presentation with this data.
 
 #### Community day countdown
 
-To present the number of days before the Home Assistant Community day, I used a Picture Entity card,
-so I could use a corresponding background image.
+To present the number of days before Home Assistant Community Day, I used a Picture Entity card,
+so I could use a matching background image.
 This is what I added to my own dashboard:
 
 <img src="images_templates/community_day_countdown_basic.png" alt="day countdown for the Home Assistant community day" width="450px">
@@ -495,13 +495,13 @@ image: >-
 
 **Alternative presentation**
 
-I also created a slightly different presentation for the countdown with some CSS modifications to the Picture Entity Card.
-* No transparent background,
-* black text color and,
-* bigger font.
+I also created a slightly different presentation for the countdown with some CSS modifications to the Picture Entity card.
+* No transparent background
+* black text color
+* bigger font
 
-For the Picture Entity card with the help of the `card_mod` integration.
-You can Install this integration via this button in your own HA instance.\
+For the Picture Entity card, I used the `card_mod` integration.
+You can install this integration via this button in your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 <img src="images_templates/community_day_countdown_cardmod.png" alt="day countdown for the Home Assistant community day with card_mod" width="450px">
@@ -527,11 +527,11 @@ card_mod:
 {% endraw %}
 ```
 
-You can also use this higher alternative image: https://www.home-assistant.io/images/blog/2025-04-community-day/art.png
+You can also use this taller alternative image: https://www.home-assistant.io/images/blog/2025-04-community-day/art.png
 
 #### Trash bin day countdown
 
-Count the days before the paper bin will be picked up.
+Count the days until the paper bin is picked up.
 
 <img src="images_templates/paper_waste_countdown.png" alt="day countdown" width="450px">
 
@@ -552,9 +552,9 @@ template:
 {% endraw %}
 ```
 
-The sensor `sensor.cyclus_papier` has an attribute `Sort_date` which holds the date for the bin pickup day in the format "YYYYMMDD".\
-Based on today's date the diff in days is calculated.\
-(The sensor value is not always accurate, that's why I use the attribute value.)
+The sensor `sensor.cyclus_papier` has an attribute `Sort_date` that holds the date for the bin pickup day in the format `YYYYMMDD`.\
+Based on today's date, the difference in days is calculated.\
+(The sensor value is not always accurate, which is why I use the attribute value.)
 
 <img src="images_templates/attribute_date_countdown.png" alt="date attribute" width="450px">
 
@@ -581,12 +581,12 @@ template:
 {% endraw %}
 ```
 
-See [here](#trash-bin-day-countdown) how to create the `*_waste_pickup_countdown` sensors.
+See [here](#trash-bin-day-countdown) for how to create the `*_waste_pickup_countdown` sensors.
 
 ---
 ### Minutes since mail is delivered
 
-Minutes since the snail mail is delivered.
+Minutes since the snail mail was delivered.
 
 <img src="images_templates/mail_delivered_in_minutes.png" alt="minutes since mail is delivered" width="450px" />
 
@@ -609,9 +609,9 @@ template:
 ---
 ### Mail delivered in the last 30 minutes
 
-Boolean sensor `binary_sensor.mailbox_recently_changed` to indicate in the last 30 minutes mail was delivered.
+Boolean sensor `binary_sensor.mailbox_recently_changed` to indicate that mail was delivered in the last 30 minutes.
 
-Used for my [snail mail detection](/projects/smart_mailbox)
+Used in my [snail mail detection](/projects/smart_mailbox).
 
 ```yaml
 {% raw %}
@@ -657,7 +657,7 @@ template:
         availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}
 {% endraw %}
 ```
-This is the code for the mushroom card, as shown on the image, based on this template.
+This is the code for the Mushroom card shown in the image, based on this template.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -672,8 +672,8 @@ chips:
 ---
 ### Calculate daylight brightness percentage
 
-Based on the sun sensor elevation and the cloud coverage, calculate the daylight brightness percentage.
-Which can be used to control the lights, the window blinds or on a floor map as overlay image.
+Based on the sun sensor elevation and cloud coverage, calculate the daylight brightness percentage.
+This can be used to control the lights, the window blinds, or a floor map overlay image.
 
 ```yaml
 {% raw %}
@@ -705,7 +705,7 @@ template:
 ---
 ### Daylight brightness to opacity
 
-Daylight brightness, from the previous template, converted to opacity for CSS to use as overlay on a floor map.
+Daylight brightness, from the previous template, converted to opacity for CSS to use as an overlay on a floor map.
 
 ```yaml
 {% raw %}
@@ -724,8 +724,8 @@ template:
 ---
 ### Is it morning
 
-Boolean state if it is morning based on the current time.
-Is it before 12.00.
+Boolean state for whether it is morning based on the current time.
+It is `on` before 12:00.
 
 ```yaml
 {% raw %}
@@ -741,8 +741,8 @@ template:
 
 ### Is it afternoon
 
-Boolean state if it is afternoon based on the current time.
-Is it after 12.00 and before 18.00.
+Boolean state for whether it is afternoon based on the current time.
+It is `on` after 12:00 and before 18:00.
 
 ```yaml
 {% raw %}
@@ -777,21 +777,21 @@ template:
 ---
 ### Rain conditions
 
-In The Netherlands, there are two main data providers for expected rain, Buienalarm and Buienradar.\
-I created for now some example conditions based on the Buienalarm data.\
-Someday, I'll create the same conditions also for Buienradar (and both combined) if there is interest.
+In the Netherlands, there are two main data providers for expected rain: Buienalarm and Buienradar.\
+For now, I created a few example conditions based on the Buienalarm data.\
+If there is interest, I will add the same conditions for Buienradar and for both combined.
 
 First, you need to get the expected rain data as a sensor in Home Assistant.
-Install the [Neerslag App integration](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app)
-This generates the required sensors and contains a dashboard graph.
+Install the [Neerslag App integration](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app).
+This generates the required sensors and includes a dashboard graph.
 
 <!--
 
 ---
 #### Buienalarm data
 
-The data is store in the attribute of the sensor `sensor.neerslag_buienalarm_regen_data`.\
-Some background what data is available in the sensor:
+The data is stored in the attribute of the sensor `sensor.neerslag_buienalarm_regen_data`.\
+Here is some background on the data available in the sensor:
 * `data.precip`: An array where every item in the list is the amount of expected mm rain in the next 5 minutes.
  The total forecast data is 2 hours (24 * 5 min).
   * `[0, 0, 0, 0.2, 0.4, 0, 1.0, 0, 3.0, 0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]`
@@ -810,8 +810,8 @@ Some background what data is available in the sensor:
       heavy: 2.5
     ```
 
-I created and tested several conditions via the Developers Tools > Template.
-This is how I did it with first with `testdata` instead of (missing) real data.
+I created and tested several conditions via Developer Tools > Template.
+This is how I first tested them with `testdata` instead of the missing real data.
 
 ```yaml
 {% raw %}
@@ -903,7 +903,7 @@ Heavy rain expected at: {{ heavy_rain_epoch | timestamp_custom("%H:%M") }}
 
 ##### Any rain expected
 
-Check if any rain is expected in the next 2 hours based on the [Buienalarm](homeassistant_dashboard_weather_nl#neerslag-app) data.
+Check whether any rain is expected in the next 2 hours based on the [Buienalarm](homeassistant_dashboard_weather_nl#neerslag-app) data.
 
 This can be used as a conditional helper sensor.
 
@@ -982,14 +982,14 @@ And the data looks like:
 ```
 data: 000|11:00 000|11:05 000|11:10 000|11:15 000|11:20 000|11:25 000|11:30 000|11:35 000|11:40 000|11:45 000|11:50 000|11:55 000|12:00 000|12:05 000|12:10 000|12:15 000|12:20 000|12:25 000|12:30 000|12:35 000|12:40 000|12:45 000|12:50 000|12:55
 ```
-> NOTE: later more examples with this data if people request for it.
+> NOTE: Later, I may add more examples with this data if people ask for them.
 
 ---
 ### CO2 threshold values
 
-Create three static value sensors with the threshold values: 800, 1200 and 1500.
-As the entity_id is based on the `name` field, this template sensor uses a trick to give it the right name to base the entity_id on when the entity is created.
-After that, the name will indicate the threshold name.
+Create three static value sensors with the threshold values 800, 1200, and 1500.
+Because the `entity_id` is based on the `name` field, this template sensor uses a trick to give it the right name when the entity is created.
+After that, the name will indicate the threshold.
 
 <img src="images_templates/base_values_sensors.jpg" alt="C02 base values" width="450px" />
 
@@ -1014,9 +1014,9 @@ template:
 {% endraw %}
 ```
 
-It's also possible to use a Number helper for this.
-This generates an `input_number.800` entity which can also be used in graphs.
-It's important to set here also the right unit of measurement.
+It is also possible to use a Number helper for this.
+This generates an `input_number.800` entity, which can also be used in graphs.
+It is important to set the correct unit of measurement here as well.
 
 <img src="images_templates/input_number_static_value.png" alt="static helper" width="450px" />
 
@@ -1043,7 +1043,7 @@ template:
 ### Moon image based on state
 
 The default moon component in Home Assistant gives the moon phase as a text value.
-With an image corresponding to each phase, you can show the moon phase as an image.
+With an image for each phase, you can show the moon phase as an image.
 
 <img src="images_templates/moon_phase.png" alt="moon phase" width="100px" />
 
@@ -1067,8 +1067,8 @@ template:
 ### DIY Sink leak status
 
 I created a custom [leak sensor](/zigbee/zigbee_water_leak_sensor) based on a contact sensor.
-The sensor stores whether it detects a leak in an attribute value `contact`.
-This attribute is now used to create a boolean value.
+The sensor stores the value in the `contact` attribute when it detects a leak.
+This attribute is then used to create a boolean value.
 
 <img src="images_templates/leak_sink.png" alt="sink leak" width="450px" />
 
@@ -1093,7 +1093,7 @@ template:
 I created a custom [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor) based on a contact sensor.
 If you sit on it, the contact sensor returns `off`.\
 The normal value of the contact sensor needs to be inverted.\
-That's what is done here.
+That is what happens here.
 
 <img src="../zigbee/images_chair/pillow_with_sensor.jpg" width="450px" />
 
@@ -1113,7 +1113,7 @@ template:
 
 ---
 
-That's it; I hope you can use some of these templates in your own setup.
+That is it. I hope you can use some of these templates in your own setup.
 
 Let me know which cool templates you use!
 

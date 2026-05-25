@@ -49,7 +49,7 @@ Show expected rain from the possible Dutch sources Buienalarm and Buienradar.
 
 Repo: [https://github.com/aex351/home-assistant-neerslag-app](https://github.com/aex351/home-assistant-neerslag-app)
 
-Install this integration via this button in your own HA instance.\
+Install this integration via this button in your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aex351&repository=home-assistant-neerslag-app&category=integration)
 
 ```yaml
@@ -391,7 +391,7 @@ First, you need to define a scraper to scrape every 10 minutes the latest alarm 
 
 You can accomplish this by adding the YAML to the `configuration.yaml` file or by configure it via the Home Assistant frontend **Scrape** integration.\
 I also have a [dedicated page](homeassistant_web_scraper) about this integration, how it can be used to integrate almost any website data direct into your dashboard.\
-Install this integration via this button in your own HA instance.\
+Install this integration via this button in your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
 
 ```yaml
@@ -419,7 +419,7 @@ Weather alarm block with a colored icon in the color of the alarm.
 <img src="images_weather/weather_alarm_text_color.png" alt="Weather alarm text with icon colored" width="400px">
 
 The custom CSS color styling is done with the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod).\
-Install this integration via this button in your own HA instance.\
+Install this integration via this button in your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 Corresponding YAML code:

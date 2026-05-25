@@ -145,17 +145,18 @@ I have different examples of how to present this data on your dashboard:
   <a href="#subtypes-values"><img src="images_kleenex/attribute_tree_data_tile.jpg" alt="subtypes" width="300px"></a>
 * [Sub types forecast graph](#specific-subtypes-forecast) - trees forecast.\
   <a href="#specific-subtypes-forecast"><img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="forecast trees" width="300px"></a>
+
 ---
 ### Alternative icons
 
 If you want an alternative icon for weeds you can also use `mdi:sprout` or `mdi:flower-pollen`.
 
 <a href="images_kleenex/sprout_icon.jpg">
-<img src="images_kleenex/sprout_icon.jpg" alt="alternative icon mdi:sprout" width="150px">
+<img src="images_kleenex/sprout_icon.jpg" alt="alternative icon mdi:sprout" height="150px" style="float: left">
 </a>
-
+&nbsp;
 <a href="images_kleenex/flower-pollen_icon.jpg">
-<img src="images_kleenex/flower-pollen_icon.jpg" alt="alternative icon mdi:flower-pollen" width="150px">
+<img src="images_kleenex/flower-pollen_icon.jpg" alt="alternative icon mdi:flower-pollen" height="150px">
 </a>
 
 ---
@@ -308,7 +309,7 @@ The entities are clickable which show you the values over time:
 <a name="lovelace-card-mod"/>
 
 This presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
-Install this integration, via this button, into your own HA instance:
+Install this integration, via this button, into your own Home Assistant instance:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
