@@ -60,6 +60,10 @@ Examples of light notifications are:
 
 * Indicate that a calendar meeting will start in a few minutes.
 
+* Focus time is active.
+
+* Linked to a reminder.
+
 <p></p>
 
 _Do you have any other ideas for a light notification? Let me know!_
