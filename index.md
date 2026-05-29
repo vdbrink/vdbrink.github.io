@@ -33,28 +33,19 @@ My latest 5 posts:
 
 ---
 
-My latest biggest updates on this blog:
+My latest blog highlights:
 * [Smart and stylish notification light](/projects/smart_notification_light)
 * [Home Assistant dashboard - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
-* [RSS feed posts - grouped by tag](feed_sitemap.html)
 * [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode)
-* [RSS feed](feed.xml) to get the latest updates
 * [Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
-* [Home Assistant dashboard: Mealie Recipe Manager](/homeassistant/homeassistant_dashboard_mealie)
 * [Smart traditional mailbox](/projects/smart_mailbox)
 * [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
 * [Home Assistant - Floor plan](/homeassistant/homeassistant_dashboard_floorplan)
-* [Home Assistant - Tips: Dashboard edit dialog enlarger](/homeassistant/homeassistant_tips_tricks)
 * [Home Assistant - Pollen Radar](homeassistant/homeassistant_hacs_kleenex)
 * [Home Assistant - Automate infrared-controlled devices](zigbee/smart_infrared_transmitter_receiver)
-* [Batteries - Best Buy Tips](/buy/batteries) for all kinds of batteries to power your sensors.
-* I started to share my projects on <a href="https://www.facebook.com/brinkhomeautomations"><img src="/images/facebook.png" class="fb-logo" height="20px">/brinkhomeautomations</a>
-
 
 * [Home Automation - Ideas](ideas/home_automation_ideas)
-* [Zigbee - DIY chair occupancy sensor](zigbee/zigbee_chair_occupancy_sensor)
 * [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
-
 
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
