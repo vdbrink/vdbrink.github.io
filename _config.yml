@@ -1,7 +1,7 @@
 # Site settings
 lang: "en"
 title: vd Brink Home Automations
-description: "Home automations: Home Assistant, ESPHome, Node-RED and more."
+description: "Home automations with Home Assistant, ESPHome, Node-RED and more tech"
 url: "https://vdbrink.github.io"
 
 defaults:
