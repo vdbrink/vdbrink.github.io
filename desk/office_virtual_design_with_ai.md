@@ -1,11 +1,20 @@
 ---
 title: "Home office: Virtual design with AI"
-description: "How I designed my new office with the help of AI"
+description: "How I designed my new home office desk setup with the help of AI"
 category: Office
 tags: [Home office, decoration, AI]
 ---
 
-# Home office: Virtual design with AI
+# Home office: Virtual room design with AI
+
+After I created a Pinterest [mood board](office_mood_board) with examples of office (elements) and desk setup I like 
+it was time to combine those elements and look how these thing looks in MY office.
+
+<a href="images/mood_board_pinterest.png">
+<img src="images/mood_board_pinterest.png" alt="Pinterest mood board" width="300px" />
+</a>
+
+<em>Pinterest mood board.</em>
 
 To make my idea more realistic, I created a virtual design by used [Gemini AI](https://gemini.google.com/)
 to convert a photo of the old room situation to how this room could look like based on my mood board.
