@@ -1,0 +1,44 @@
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  a,
+  a:visited {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  header,
+  #sidebar,
+  .button,
+  nav,
+  footer {
+    display: none !important;
+  }
+
+  #content-wrapper,
+  .inner,
+  #main-content {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  pre,
+  code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}

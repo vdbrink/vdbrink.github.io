@@ -13,7 +13,6 @@ defaults:
 
 # Layout settings (geen extra spaties vooraan!)
 layouts_dir: _layouts
-remote_theme: pages-themes/architect@v0.2.0
 
 # Markdown & Syntax
 markdown: kramdown
@@ -25,7 +24,6 @@ kramdown:
 
 # Plugins (Let op de exacte naam van de tagging plugin)
 plugins:
-  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-feed
   - jekyll/tagging
