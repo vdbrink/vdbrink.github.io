@@ -12,13 +12,6 @@ image: /home_office_desk/images/youp02_desk.jpg
 On this page you can read which hardware products I use on a daily basis in my home office.
 These products make my life easier and makes me happy to work with!
 
-<!--
-There are also other office desk pages about:
-* [Room redesign with AI](room_design_with_ai)
-* [My personal home office room decoration](office_room_decoration)
-* [My personal home office automations](office_automations)
--->
-
 <a href="images/home_office_desk_result2.jpg">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
 </a>\
@@ -55,6 +48,7 @@ Desk setup hardware |
   * [Microphone](#microphone)
   * [ANC over ear headset](#anc-over-ear-headset)
     * [Headphone stand](#headphone-stand)
+* [Accessories](#accessories)
 * [Future improvements](#future-improvements)
   * [Clock](#clock)
   * [Docking station](#docking-station)
@@ -66,7 +60,7 @@ Desk setup hardware |
 ---
 ## Amazon shop list
 
-The products on this page which are also for sale on Amazon are listed on 
+The products on this page which are also for sale on Amazon are listed on
 [Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).\
 Not all products are also available on Amazon, and excluded from the lists, like:
 * Desk
@@ -75,7 +69,7 @@ Not all products are also available on Amazon, and excluded from the lists, like
 ---
 ## Desk
 
-I had a fixed desk made of wood plates. 
+I had a fixed desk made of wood plates.
 Now I want a standing desk, so I don't sit all day long.
 
 <a href="images/youp02_desk.jpg">
@@ -123,6 +117,7 @@ MacBooks are more powerful and have much longer battery life compare to Windows 
 ## Laptop charger
 
 I use a Xiaomi 120W USB-c charger to charge my laptop.
+It's a powerful USB-c charger with enough power to fast charge any new laptop.
 
 <a href="images/120w_laptop_charger.avif">
 <img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" width="250px" />
@@ -134,7 +129,7 @@ I use a Xiaomi 120W USB-c charger to charge my laptop.
 ## Laptop stand
 
 To make the desk clean, I have my laptop upright with a black vertical laptop stand.
-This way I can also easily detach it and replace it with my personal laptop.
+This way it takes less space from my desk surface and I can easily detach it and replace it with my personal laptop.
 
 <a href="images/vertical_laptop_stand.avif">
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
@@ -151,8 +146,8 @@ Alternative solutions:
 
 ## Laptop case
 
-To avoid outside light reflections and distractions from the silver laptop on my desk I put a black case around my laptop.
-I chose to have all items below my monitor and on my desk in black.
+To avoid outside light reflections from the close window and distractions from the silver laptop on my desk I put a black case around my laptop.
+I chose to have all items below my monitor and on my desk in walnut or black to make it look peaceful.
 
 <a href="images/macbook_case.jpg">
 <img src="images/macbook_case.jpg" alt="Macbook 16' case" width="450px" />
@@ -169,14 +164,15 @@ It's the size of two 27" next to each other.
 
 This is one of my best purchases ever! I still love it every day.
 The big advantage compared to two separate 27" screens is that you can split your application windows however you like at any given moment.
-Sometimes into three equal app windows, or one big window in the middle and smaller ones on the sides.
+Sometimes you want three equal application windows, or one big window in the middle and smaller ones on the sides.
+It's all possible with a big single screen, and you don't have to worry about the bezels in between two separate screens.
 
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="100%" />
 </a>
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
-It's now replaced with even better screens with the same sizes.
+Newer version of this one are now available, with even better screens with the same dimensions.
 
 <a href="images/philips_49inch_screen.webp">
 <img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="450px" />
@@ -191,20 +187,21 @@ Alternative:
 ### Monitor cable
 
 The Philips monitor has a single DisplayPort 1.4 and 3x HDMI 2.0 ports.
+The MacBook M4 Pro has Thunderbolt 4 ports (USB-C) with DisplayPort 2.1.
+To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort cable.
 
-To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a single DisplayPort cable.
-
-* {{imgBasket}}USB C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i) [(Amazon NL)](https://amzn.to/3MSMgsm)
+* {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i) [(Amazon NL)](https://amzn.to/3MSMgsm)
 * {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq)
 
 ---
 ### Monitor arm
 
-To keep a clean desk, I was looking for a monitor arm that holds the screen stable,
-not wobbly, and is attached to the desk. Now the monitor "floats" above the desk.
-It should also easily hold the weight of the 12 kg 49" screen.
-It hides the wires and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
-I can easily pull and push the screen back and forward.
+To keep a clean desk, I was looking for:
+* A monitor arm that holds the screen stable, and is attached to the desk.
+* I prefer not a monitor arm in the middle of the desk for the floating monitor effect.
+* It should also easily hold the weight of the 12 kg 49" screen.
+* It hides the wires and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
+* I can easily pull and push the screen back and forward.
 
 I end up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340)
 It's made of strong metal and can hold up to 20 kg, match all my requirements and cost not too much.
@@ -218,6 +215,9 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 ---
 ### Monitor light
 
+To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and doesn't reflect in my eyes.
+The Xiaomi Mijia monitor light desk bar is a good option, it has a remote to dim the light, and it can easily be attached to the monitor, with it contra weights.
+
 <a href="images/monitor_light.avif">
 <img src="images/monitor_light.avif" alt="monitor light" width="250px" />
 </a>
@@ -228,6 +228,7 @@ It's made of strong metal and can hold up to 20 kg, match all my requirements an
 ## Keyboard
 
 For a keyboard, I want a wireless, silent, smooth typing, with big shift and return button, volume buttons and a numpad.
+Kind of similar as the Apple Magic Keyboard but with a numpad and more function keys to control music and brightness.
 
 The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was a logical choice, it's much more than what's on my wishlist.
 It can easily switch between three devices, it lights up when you come closer, charging via USB-C.
@@ -256,6 +257,7 @@ Alternative:
 The mouse I use is a basic wireless soft-click and scroll one.
 Simple but perfect for years!
 Works with a single AA battery.
+This will be upgraded in the future with one from the Logitech MX Master serie.
 
 <a href="images/mouse.avif">
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
@@ -367,6 +369,7 @@ For now, I stick to the QCY.
 ### Headphone stand
 
 A basic plastic headphone stand.
+It just does it job, hold the headphone!
 
 <a href="images/headset_stand.avif">
 <img src="images/headset_stand.avif" alt="headphone stand" width="150px" />
@@ -384,7 +387,7 @@ Alternative:
 ---
 # Accessories
 
-Check this page for all [accessories](office_accessories).
+Check this page for all my [accessories](office_accessories).
 
 ---
 # Future improvements
@@ -398,7 +401,7 @@ If you know where I can get one of below products, please let me know!
 ## Clock
 
 I'm still looking for a matching wall clock.
-This is the kind of clock I want, very minimalistic, without numbers or gold and in the walnut color.
+This is the kind of clock I want, very minimalistic, without numbers or gold and in the same walnut color as my wall or desk.
 
 <a href="images/wall_clock.jpg">
 <img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
@@ -410,7 +413,7 @@ Alternative:
 ----
 ## Docking station
 
-I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals as well with a single cable.
+I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals with a single cable.
 
 It must also match minimal these requirements:
 * Main Monitor 49" 5K @ 180Hz
@@ -427,7 +430,7 @@ I found the ultimate one, the CalDigit TS5, it's only very expensive.
 <img src="images/caldigit_ts5_docking_station.jpg" alt="CalDigit TS5 docking station" width="150px" />
 </a>
 
-* {{imgBasket}} CalDigit TS5 docking station
+* {{imgBasket}}CalDigit TS5 docking station
   [(Amazon US)](https://amzn.to/4un6YRH)
   [(Amazon NL)](https://amzn.to/3PGaJCH)
 

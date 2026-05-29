@@ -20,10 +20,11 @@ Accessories
 ---
 ## Table of Contents
 <!-- TOC -->
-* [Home office: Accessories](#home-office-accessories)
-  * [Table of Contents](#table-of-contents)
+  * [Stretch display](#stretch-display)
+  * [Retractable USB charger](#retractable-usb-charger)
   * [Feet rest](#feet-rest)
-  * [Feet heater](#feet-heater)
+  * [Floor protection mat](#floor-protection-mat)
+  * [Floor heated mat](#floor-heated-mat)
   * [Moss terrarium](#moss-terrarium)
   * [Mug coaster](#mug-coaster)
   * [Wireless phone charger](#wireless-phone-charger)
@@ -34,18 +35,19 @@ Accessories
 ---
 ## Stretch display
 
-Next to my normal monitor I have another small stretch display where I have room and house
+Next to my normal monitor I have another small stretched display where I show major office room- and house alerts.
+It's connected to a separated Raspberry Pi and serves a Home Assistant page. It boots together with the monitor.
+Visual data on it are: office temperature, CO2 values and graphs for the last hours. If someone is at my frontdoor.
 
-<a href="images/strech_display.jpg">
-<img src="images/strech_display.jpg" alt="stretch display" width="250px" />
+<a href="/projects/images_stretch_display/office_display_closeup.jpg">
+<img src="/projects/images_stretch_display/office_display_closeup.jpg" alt="stretch display" width="250px" />
 </a>
 
-[Stretch display](/projects/stretch_display)
+Read more about this project on [Stretch display](/projects/stretch_display).
 
 ---
 ## Retractable USB charger
 
-I'm also still looking for a clean solution for USB charging cables.
 Not everything can be charged wireless.
 Sometimes you need a charging cable to charge a headphone or keyboard.
 Most of the time you don't need such cable and keep it out of sight.
@@ -54,18 +56,21 @@ But when you need it, you don't want to dive under the table to connect one.
 A nice solution is retractable USB charging cables.
 You can pull them out when you need it, and it automatically rolls in when you're done.
 
-I found these and they fit almost perfectly with my other wood elements.
-But I don't like the orange color (I can paint it black, of course).
-And the shipping price makes it very expensive.
+I found these and they fit almost perfectly
 
-<a href="images/retractable_usb_charger.png">
-<img src="images/retractable_usb_charger.png" alt="Retractable USB charger" width="150px" />
+<a href="images/retractable_usb_charger.avif">
+<img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" width="150px" />
 </a>
 
-* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)
+* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
+
 <p></p>
 Alternative:
-* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
+* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)
+
+<a href="images/retractable_usb_charger_walnut.png">
+<img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />
+</a>
 
 ---
 ## Feet rest
