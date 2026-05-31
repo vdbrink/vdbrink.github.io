@@ -64,6 +64,8 @@ Examples of light notifications are:
 
 * Linked to a reminder.
 
+* Indicate that an Ai client, like Claude Code, need user input.
+
 <p></p>
 
 _Do you have any other ideas for a light notification? Let me know!_

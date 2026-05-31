@@ -35,6 +35,15 @@ All the Amazon products are also bundled on these
 
 [> Go direct to the sensor section on this page.](#zigbee-sensors-and-actuators)
 
+<a href="#zigbee-sensors-and-actuators">
+<img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="150px" />
+<img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_zigbee/aqara_fp300.avif" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/>
+<img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara temperature and humidity sensor" height="150px" style="margin-left:15px;float:right"/>
+</a>
+
+<br>
+
 ---
 
 ## Table of Contents
@@ -166,6 +175,8 @@ I hope this gives you more information to make a good choice.
 
 ## Zigbee sensors and actuators
 
+This section contains sensors which I advise, mostly based on my personal experience with them.
+
 ### Contact sensor
 
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
@@ -188,8 +199,6 @@ They are small and have a long battery life.
 <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
 
-<br>
-
 **Cheaper option:**\
 {{imgBasket}}Zigbee Contact sensor - Tuya
 <a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">(AliExpress)</a>
@@ -200,8 +209,6 @@ Small and cheaper.
 
 <a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="Tuya contact sensor" height="100px" /></a>
-
-<br>
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee Contact sensor 2xAAA powered - Tuya
@@ -230,8 +237,6 @@ It can also detect people who are sitting still or lying in bed.
 <a href="https://amzn.to/42aE8HW#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/46H1JBL#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
-
-<br>
 
 <a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
@@ -302,8 +307,6 @@ It can be configured with multiple zones where you can detect people.
 <a href="https://amzn.to/48qWsyY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/PS-S04D.html" target="_blank" title="Aqara FP300">{{imgZ2M}}FP300</a>
 
-<br>
-
 **Cheaper option:**\
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">
 <img src="images_zigbee/mmwave_motion_sensor.jpg" alt="human Presence detection sensor" height="150px" style="margin-left:15px;float:right"/></a>
@@ -313,6 +316,7 @@ It can be configured with multiple zones where you can detect people.
 <a href="https://amzn.to/3Zi5pay#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank" title="ZY-M100-24G">{{imgZ2M}}ZY-M100-24G</a>
 
+<br>
 <br>
 <br>
 
@@ -405,7 +409,6 @@ Xiaomi has almost the same device, with the same looks and works the same as the
 <a href="https://s.click.aliexpress.com/e/_DlwYz45" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0222_light.html" target="_blank" title="TS0222_light">{{imgZ2M}}TS0222_light</a>
 
-
 **Cheaper option 2:**\
 {{imgBasket}}Zigbee lux sensor - Tuya
 <a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">(AliExpress)</a>
@@ -415,7 +418,7 @@ Xiaomi has almost the same device, with the same looks and works the same as the
 <a href="https://s.click.aliexpress.com/e/_DC8WRhJ" target="_blank">
 <img src="images_zigbee/zigbee_lux_sensor.avif" alt="Light intensity / lux sensor" height="150px" /></a>
 -->
-<br>
+<br>    
 
 ---
 
@@ -425,9 +428,6 @@ Each leak sensor has two metal contacts.
 When these contacts come into contact with water, current flows from one contact to the other and the circuit closes.
 The sensor sends a signal "water detected"!
 Water conducts the current and air doesn't.
-
-<a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">
-<img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 The Aqara leak sensor has two metal screw contacts on the back of the sensor that measure whether there is water.
 This sensor is completely water-resistant.
@@ -447,6 +447,8 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 <a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">
 <img src="images_zigbee/aqara_leak_sensor.webp" alt="Aqara leak sensor" height="150px" /></a>
 
+<a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">
+<img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" style="float:right;margin-left:15px"/></a>
 **Cheaper option:**\
 Another leak sensor is the one with a wire, this sensor itself isn't water-resistant, only the other end of the cable may become wet.
 This one runs on two common AAA batteries, which make the sensor fairly big but cheaper to buy.
@@ -457,8 +459,6 @@ This one runs on two common AAA batteries, which make the sensor fairly big but 
 <a href="https://amzn.to/45cjJTY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
-<a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">
-<img src="images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 <br>
 
@@ -500,6 +500,8 @@ Suitable for chairs, carpets, beds, and sofas:
 <a href="https://amzn.to/3PLzxcm#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4nyvcWC#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/CK-BL702-AL-01.html" target="_blank" title="">{{imgZ2M}}</a>
+
+<br>
 
 #### Bulb
 
@@ -1056,6 +1058,8 @@ Very useful for closets or stairs where no power is available.
 
 ### Automatic soap dispenser
 
+<a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">
+<img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px" style="float:right;margin-left:15px"/></a>
 With this automatic soap dispenser, you can wash your hands much faster without touching the dispenser.
 It has been a must-have in my kitchen since the first time I used one.
 It contains a PIR sensor to detect when your hand is nearby, and then it dispenses a small amount of foam soap.
@@ -1067,8 +1071,6 @@ You don't need to create the foam yourself, which saves water, time, and soap.
 I use several of them around the house.
 In the kitchen, bathroom, and toilet.
 
-<a href="https://s.click.aliexpress.com/e/_c4c4gh1d" target="_blank">
-<img src="images_kitchen/soap_dispenser2.avif" alt="Battery powered automatic soap dispenser" width="200px"/></a>
 
 Make sure you select the foam version and not the normal liquid one!
 
