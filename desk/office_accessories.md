@@ -63,15 +63,15 @@ I found these, and they fit almost perfectly.
 <img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" width="150px" />
 </a>
 
-* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
+* {{imgBasket}}Retractable USB-C power cable [(AliExpress)](https://s.click.aliexpress.com/e/_c4EmqPR3)
 
 <p></p>
 Alternative:
-* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)
-
-<a href="images/retractable_usb_charger_walnut.png">
-<img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />
-</a>
+* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
+* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)\
+  <a href="images/retractable_usb_charger_walnut.png">
+  <img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />
+  </a>
 
 ---
 ## Footrest
@@ -159,7 +159,7 @@ At first, I used a spare chair, but it took too much space, and we could not see
 I found a compact tower where they can lie inside or on top of it.
 
 <a href="images/desk_collage_cats.png">
-<img src="images/desk_collage_cats.png" alt="cat tower" width="150px" />
+<img src="images/desk_collage_cats.png" alt="cat tower" width="250px" />
 </a>
 <a href="images/cat_tower.jpg">
 <img src="images/cat_tower.jpg" alt="cat tower" width="150px" />
