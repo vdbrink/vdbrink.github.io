@@ -43,7 +43,7 @@ Desk setup hardware |
   * [Keyboard](#keyboard)
   * [Chair](#chair)
   * [Mouse](#mouse)
-  * [Desk pad](#desk-pad)
+  * [Desk mat](#desk-mat)
   * [Camera](#camera)
   * [Microphone](#microphone)
   * [ANC over ear headset](#anc-over-ear-headset)
@@ -264,27 +264,27 @@ This will be upgraded in the future with one from the Logitech MX Master serie.
 </a>
 
 ---
-## Desk pad
+## Desk mat
 
-I use a very large mouse pad underneath my keyboard and mouse.
+I use a very large mouse mat underneath my keyboard and mouse.
 The top material is soft with a smooth surface for the perfect sliding with the mouse.
 The bottom material is made of rubber to keep it in place.
 
 I use a full black one without any art distractions on it.
 
 <a href="images/deskmat.avif">
-<img src="images/deskmat.avif" alt="Desk pad" width="250px" />
+<img src="images/deskmat.avif" alt="Desk mat" width="250px" />
 </a>
 
-The size of my pad is 400 x 900 x 3 mm.
+The size of my mat is 400 x 900 x 3 mm.
 They are available in many different sizes and with different border colors.
 I have the all-black version.
 
-* {{imgBasket}}Large anti-slip mouse pad [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
+* {{imgBasket}}Large anti-slip mouse mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
 [Amazon US](https://amzn.to/49ZQjeG)
 <p></p>
 Alternative:
-* {{imgBasket}}Other all black big pad [(AliExpress)](https://s.click.aliexpress.com/e/_c4TG8ihV)
+* {{imgBasket}}Other all black big mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4TG8ihV)
 
 ---
 ## Camera

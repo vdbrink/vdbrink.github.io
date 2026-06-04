@@ -29,10 +29,10 @@ This isn't 1-on-1 possible because you depend on which products are available on
 
 <img src="images/laminate.jpg" alt="walnut color" style="margin-left:15px;float:right" width="150px">
 If you want to use different products but made from one kind of wood, in my case walnut, they must match colors as much as possible.
-An online product photo can really mislead how it looks in real life. 
-A small difference in light color can change the look already. 
+An online product photo can really mislead how it looks in real life.
+A small difference in light color can change the look already.
 For this reason, I wanted to buy as much product in a physical store, so I can compare the colors myself.
-The first and one big thing I bought online was my desk top. 
+The first and one big thing I bought online was my desk top.
 Based on the color of it, I went shopping for the other big parts like the floor and acoustic panels.
 
 I bought also already a small wooden drink coaster which match exactly the color and motif of my desk.
@@ -156,7 +156,7 @@ With straight plain white doors.
 It's a basic clean looking closet.
 When I'm in a video call, the background is clean white without any distractions.
 
-With the online [Ikea Pax closet planner](https://www.ikea.com/addon-app/storageone/pax/web/latest/nl/nl/#/planner) you can design your closet, 
+With the online [Ikea Pax closet planner](https://www.ikea.com/addon-app/storageone/pax/web/latest/nl/nl/#/planner) you can design your closet,
 store it for later and order it. It automatically select all the right elements in your basket which you need.
 
 * [Ikea - Pax closet](https://www.ikea.com/nl/nl/search/?q=pax)
@@ -176,8 +176,8 @@ I found mine at the local Action store. The quality is not the best, but fine fo
 <br>
 
 Alternatives:
-* [Ikea - MOSSLANDA](https://www.ikea.com/nl/nl/p/mosslanda-schilderijenplank-walnootpatroon-70586936/)
-* [AliExpress](https://s.click.aliexpress.com/e/_c3HEC7eX)
+* MOSSLANDA [(Ikea)](https://www.ikea.com/nl/nl/p/mosslanda-schilderijenplank-walnootpatroon-70586936/)
+* Wall shelf [(AliExpress)](https://s.click.aliexpress.com/e/_c3HEC7eX)
 
 That's it for the room basic materials and elements which I used in my home office room.
 

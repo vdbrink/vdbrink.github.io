@@ -12,12 +12,12 @@ tags: [Best, Buy, tips, ESPHome, sensors, soldering]
 ## Introduction
 
 <img src="../esphome/images_co2/case_fit_co2_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
-If you want to create your own sensors with ESPHome you need an ESP development board where you can load the software to read the sensors and send this data over the network to your home server. 
+If you want to create your own sensors with ESPHome you need an ESP development board where you can load the software to read the sensors and send this data over the network to your home server.
 
-If you're afraid to solder some pins or connect the ESP to the sensor, look for some tutorials and give it a try. 
+If you're afraid to solder some pins or connect the ESP to the sensor, look for some tutorials and give it a try.
 You can also look for ESPs and sensors with already pins, then with dupont cables you don't need to soldering at all.
 
-Here you find some useful links where you can buy ESPs, 
+Here you find some useful links where you can buy ESPs,
 sensors and other tooling which can be useful for making your own DIY sensors.
 
 I have a [page](../esphome/index) where I added manuals to create your own sensors.
@@ -65,7 +65,7 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
 
 ## ESP board
 
-The brains of your own sensor. 
+The brains of your own sensor.
 It contains the processor to run the program on, and with the WiFi module on it which can make contact with your own network.
 
 ### ESP32
@@ -90,7 +90,7 @@ A really tiny ESP32 with bluetooth.
 
 ### ESP8266
 
-The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and is most cases fast enough to handle the sensor data. 
+The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and is most cases fast enough to handle the sensor data.
 
 <a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
 <img src="../esphome/images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 NodeMCU v3" />
@@ -100,7 +100,7 @@ The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and i
 
 ### ESP D1 mini
 
-This ESP D1 mini is also an ESP8266 variant (don't use the pro or V3) 
+This ESP D1 mini is also an ESP8266 variant (don't use the pro or V3)
   * You can use any ESP chip, but I like this one because of its small size
   * The pins are not soldered on the board yet (with some practice even you can do it for sure!)
 
@@ -138,7 +138,7 @@ AGS10 TVOC air quality gas sensor.
 
 ### CO2 sensor
 
-CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm). 
+CO2 stands for `Carbon dioxide` and is measured in `Parts per million` (ppm).
 If the amount of ppms is too high for a long time, it's not good for you're healthy.
 
 #### SenseAir S8
@@ -156,7 +156,7 @@ Check [this page](/esphome/co2_senseair_s8_sensor) how to create this.
 
 #### SCD41
 
-SCD40 or SCD41 CO2 sensor are compact CO2, humidity and temperature sensors. 
+SCD40 or SCD41 CO2 sensor are compact CO2, humidity and temperature sensors.
 Both are quite similar, but the 41 has some higher accuracy and can measure a bit higher ppm values (2000 vs 5000).
 
 Check [this page](/esphome/co2_scd40) how to make your own CO2 sensor with this sensor.
@@ -173,9 +173,9 @@ Check [this page](/esphome/co2_scd40) how to make your own CO2 sensor with this 
 
 ### Pressure sensor
 
-This car seat sensor measures if there is pressure on a chair or seat. 
-The output is just an open or a closed circuit. 
-You can directly attach it to a contact-/water leak sensor. 
+This car seat sensor measures if there is pressure on a chair or seat.
+The output is just an open or a closed circuit.
+You can directly attach it to a contact-/water leak sensor.
 
 <a href="https://s.click.aliexpress.com/e/_c3kA8isr" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_even_bigger.avif" height="180px" alt="pressure sensor biggest" /></a>
@@ -185,7 +185,7 @@ You can directly attach it to a contact-/water leak sensor.
 <a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">large version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">large version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor smal" /></a>
@@ -453,4 +453,4 @@ Links to other sections of this blog:
 
 * [Zigbee Smart home - Best Buy Tips](smart_home_best_buy_tips) for all kinds or Zigbee hardware buy tips.
 
-* [All my Best Buy Tip pages](index) 
+* [All my Best Buy Tip pages](index)
