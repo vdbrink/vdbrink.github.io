@@ -31,6 +31,7 @@ Accessories
   * [Laptop stand](#laptop-stand)
   * [Laptop case](#laptop-case)
   * [Headphone stand](#headphone-stand)
+  * [Desk clock](#desk-clock)
   * [Stretch display](#stretch-display)
   * [Retractable USB charger](#retractable-usb-charger)
   * [Footrest](#footrest)
@@ -229,6 +230,16 @@ Also, a basic wooden digital clock which doesn't attract more attention than nee
 
 * {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)](https://amzn.to/) [(Amazon NL)](https://amzn.to/)
 
+<br>
+
+Alternatives:
+
+* Also wood colord but with other shapes, other colors or with addition temperature and humidity presented [(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9)
+* Wood version with a triangle shaped [(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP)
+* Version with wireless charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt)\
+  <a href="https://s.click.aliexpress.com/e/_c3swbZQt">
+  <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" width="150px" />
+  </a>
 
 ---
 ## Stretch display
@@ -283,9 +294,11 @@ To support my posture and stretch my legs while sitting, I use a footrest under 
 
 To protect the floor from scratches and reduce chair-wheel noise, I placed a rubber protection mat underneath my chair.
 
-* {{imgBasket}}Floor protection mat
-  [(Amazon US)](https://amzn.to/)
-  [(Amazon NL)](https://amzn.to/)
+[//]: # (* {{imgBasket}}Floor protection mat)
+
+[//]: # (  [&#40;Amazon US&#41;]&#40;https://amzn.to/&#41;)
+
+[//]: # (  [&#40;Amazon NL&#41;]&#40;https://amzn.to/&#41;)
 
 ---
 ## Floor heated mat
@@ -300,8 +313,6 @@ This way, I do not need to heat the whole room, and I avoid cold feet from the f
 </a>
 
 * {{imgBasket}}Floor heated mat: VH Etna 40x60 cm [(Bol.com)](https://www.bol.com/nl/nl/p/vh-regelbare-warme-voeten-mat-etna-40-x-60-cm-lcd-controller-met-4-standen-timerfunctie-plug-heat-zuinig-in-gebruik/9300000017178095/)
-  [(Amazon US)](https://amzn.to/)
-  [(Amazon NL)](https://amzn.to/)
 
 ---
 ## Moss terrarium
