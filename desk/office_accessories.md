@@ -9,6 +9,8 @@ image: /home_office_desk/images/desk_collage3.png
 
 # Home office: Accessories
 
+<img src="images/desk_collage1.png" alt="Final result" width="100%" />
+
 ---
 [Overview](index) |
 [Mood board](office_mood_board) |
@@ -20,6 +22,15 @@ Accessories
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Monitor light](#monitor-light)
+  * [Desk mat](#desk-mat)
+  * [Camera](#camera)
+  * [Microphone](#microphone)
+  * [ANC over ear headset](#anc-over-ear-headset)
+  * [Laptop charger](#laptop-charger)
+  * [Laptop stand](#laptop-stand)
+  * [Laptop case](#laptop-case)
+  * [Headphone stand](#headphone-stand)
   * [Stretch display](#stretch-display)
   * [Retractable USB charger](#retractable-usb-charger)
   * [Footrest](#footrest)
@@ -31,6 +42,193 @@ Accessories
   * [Walnut phone stand](#walnut-phone-stand)
   * [Cat tower](#cat-tower)
 <!-- TOC -->
+
+---
+## Monitor light
+
+To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and doesn't reflect in my eyes.
+The Xiaomi Mijia monitor light desk bar is a good option, it has a remote to dim the light, and it can easily be attached to the monitor, with it contra weights.
+
+<a href="images/monitor_light.avif">
+<img src="images/monitor_light.avif" alt="monitor light" width="250px" />
+</a>
+
+* {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c3JdA7BX) [(Amazon US)](https://amzn.to/4wFMGEo) [(Amazon NL)](https://amzn.to/4eXV5N2)
+
+---
+## Desk mat
+
+I use a very large mouse mat underneath my keyboard and mouse.
+The top material is soft with a smooth surface for the perfect sliding with the mouse.
+The bottom material is made of rubber to keep it in place.
+
+I use a full black one without any art distractions on it.
+
+<a href="images/deskmat.avif">
+<img src="images/deskmat.avif" alt="Desk mat" width="250px" />
+</a>
+
+The size of my mat is 400 x 900 x 3 mm.
+They are available in many different sizes and with different border colors.
+I have the all-black version.
+
+* {{imgBasket}}Large anti-slip mouse mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
+  [Amazon US](https://amzn.to/49ZQjeG)
+<p></p>
+Alternative:
+* {{imgBasket}}Other all black big mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4TG8ihV)
+
+---
+## Camera
+
+I chose a basic camera (years ago) for the features:
+* HD USB camera with a lens cover
+* 30 fps
+* Light correction
+* Good sound and microphone quality (now I use a separate microphone)
+* A mount with contra weight to place on top of a monitor
+
+<a href="images/logitech_c920_webcam.jpg">
+<img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" width="150px" />
+</a>
+
+Back in the days, the Logitech C920 HD Pro Webcam was a perfect match for me, and it still works fine.
+But it can be upgraded to a newer one with a 4K resolution with auto follow feature. I'm open for any good suggestions!
+
+* {{imgBasket}}Logitech C920 HD Pro Webcam [Amazon US](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
+
+---
+## Microphone
+
+For an affordable basic microphone, I've chosen the Razer Seiren Mini black - USB condenser microphone.
+
+<a href="images/razer_seiren.jpg">
+<img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" width="100px" />
+</a>
+
+* {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8) [(Amazon NL)](https://amzn.to/4cwPg84)
+
+---
+## ANC over ear headset
+
+For my new office I looked for a newer and improved over ear headset.
+The development of ANC is improving every year and my daily used three-year-old headset could get an upgrade.
+I want to go for the overall best option, the Sony WH, but the price is very high for a headset.
+This keeps me looking further.
+I heard and read good stories about the QCY H3 and when I found out the improved 2026 version H3S was released, I went for this one!
+In the past I had already good experience with the QCY in-earbuds for on-the-go.
+
+<div style="width:100%">
+<a href="images/qcy_h3s_default.jpg">
+<img src="images/qcy_h3s_default.jpg" alt="QCY H3S over ear headset" width="150px" />
+</a>
+
+&nbsp;
+
+<a href="images/qcy_h3s_buttons.jpg">
+<img src="images/qcy_h3s_buttons.jpg" alt="QCY H3S physic buttons" width="150px" />
+</a>
+
+&nbsp;
+
+<a href="images/qcy_h3s_case.jpg">
+<img src="images/qcy_h3s_case.jpg" alt="QCY H3S foldable with case" width="150px" />
+</a>
+
+</div>
+
+* Dual device connect - possibility to connect at the same time to two devices (laptop and phone)
+* Soft top - no hard plastic pressure on your head
+* QCY app - to set custom sound settings and the level of noise cancellation
+* Bluetooth 6 - long battery life
+* Physic buttons - to control ANC/sound/calls
+* 5 modes Adaptive ANC Noise cancellation (Adaptive/Crowded/Commute/Indoor/Anti-Wind)
+* Foldable headset with a hard case for traveling
+
+<br>
+Just read the reviews!
+
+Available in Black/White/Gray:
+* {{imgBasket}}ANC over ear headset QCY H3S [(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) [(Amazon US)](https://amzn.to/4tJjCsW)
+
+<br>
+Alternative:\
+I'm also a fan of the Sony WH range, but the price is 10x the price of the QCY, but it isn't 10x better.
+For now, I stick to the QCY.
+* {{imgBasket}}Sony WH-1000XM6 [(Amazon US)](https://amzn.to/3POvXhK) [(Amazon NL)](https://amzn.to/3QxCUDG)
+
+---
+## Laptop charger
+
+I use a Xiaomi 120W USB-C charger to charge my laptop.
+It's a powerful USB-C charger with enough power to fast charge any new laptop.
+
+<a href="images/120w_laptop_charger.avif">
+<img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" width="250px" />
+</a>
+
+* {{imgBasket}}Xiaomi 120W USB-c [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/434cVal) [(Amazon NL)](https://amzn.to/4tInyuZ)
+
+---
+## Laptop stand
+
+To make the desk clean, I have my laptop upright with a black vertical laptop stand.
+This way it takes less space from my desk surface and I can easily detach it and replace it with my personal laptop.
+
+<a href="images/vertical_laptop_stand.avif">
+<img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
+</a>
+
+* {{imgBasket}}Vertical laptop stand black [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4nCJ9CX)
+* {{imgBasket}}Vertical laptop stand for two laptops black [(AliExpress)](https://s.click.aliexpress.com/e/_EHCUwya) [(Amazon US)](https://amzn.to/4uZOXJ7) [(Amazon NL)](https://amzn.to/3OEi9pF)
+
+Alternative solutions:
+
+* {{imgBasket}}Walnut stand upright [(AliExpress)](https://s.click.aliexpress.com/e/_c4KppAtd) [(Amazon US)](https://amzn.to/4nEvBXz)
+* {{imgBasket}}Laptop mount under desk [(AliExpress)](https://s.click.aliexpress.com/e/_c3Kc8qzt) [(Amazon US)](https://amzn.to/4tPqkOn)
+* {{imgBasket}}Laptop side desk mount [(AliExpress)](https://s.click.aliexpress.com/e/_c4EqTSqf) [(Amazon US)](https://amzn.to/4tNoFca)
+
+## Laptop case
+
+To avoid outside light reflections from the close window and distractions from the silver laptop on my desk I put a black case around my laptop.
+I chose to have all items below my monitor and on my desk in walnut or black to make it look peaceful.
+
+<a href="images/macbook_case.jpg">
+<img src="images/macbook_case.jpg" alt="Macbook 16' case" width="450px" />
+</a>
+
+* {{imgBasket}}MacBook Pro 16" cover [(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) [(Amazon US)](https://amzn.to/42K2pos)
+
+---
+## Headphone stand
+
+A basic plastic headphone stand.
+It just does it job, hold the headphone!
+
+<a href="images/headset_stand.avif">
+<img src="images/headset_stand.avif" alt="headphone stand" width="150px" />
+</a>
+
+<a href="images/qcy_h3s_default.jpg">
+<img src="images/qcy_h3s_default.jpg" alt="QCY H3S over ear headset on stand" width="150px" />
+</a>
+
+* {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) [(Amazon US)](https://amzn.to/4wG3POj) [(Amazon NL)](https://amzn.to/4d2Gfm7)
+
+Alternative:
+* {{imgBasket}}Walnut stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) [(Amazon US)](https://amzn.to/3Rl26xR)
+
+---
+## Desk clock
+
+Also, a basic wooden digital clock which doesn't attract more attention than needed.
+
+<a href="images/clock.avif">
+<img src="images/clock.avif" alt="wooden clock" width="250px" />
+</a>
+
+* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)](https://amzn.to/) [(Amazon NL)](https://amzn.to/)
+
 
 ---
 ## Stretch display
@@ -95,7 +293,13 @@ To protect the floor from scratches and reduce chair-wheel noise, I placed a rub
 To keep my feet warm during winter, I placed a heated floor mat under my desk where I stand.
 This way, I do not need to heat the whole room, and I avoid cold feet from the floor while standing at my desk.
 
-* {{imgBasket}}Floor heated mat
+110 watt, 4 heights
+
+<a href="images/floor_mat.jpg">
+<img src="images/floor_mat.jpg" alt="floor mat" width="150px" />
+</a>
+
+* {{imgBasket}}Floor heated mat: VH Etna 40x60 cm [(Bol.com)](https://www.bol.com/nl/nl/p/vh-regelbare-warme-voeten-mat-etna-40-x-60-cm-lcd-controller-met-4-standen-timerfunctie-plug-heat-zuinig-in-gebruik/9300000017178095/)
   [(Amazon US)](https://amzn.to/)
   [(Amazon NL)](https://amzn.to/)
 
@@ -159,7 +363,7 @@ At first, I used a spare chair, but it took too much space, and we could not see
 I found a compact tower where they can lie inside or on top of it.
 
 <a href="images/desk_collage_cats.png">
-<img src="images/desk_collage_cats.png" alt="cat tower" width="250px" />
+<img src="images/desk_collage_cats.png" alt="cat tower" width="350px" />
 </a>
 <a href="images/cat_tower.jpg">
 <img src="images/cat_tower.jpg" alt="cat tower" width="150px" />
