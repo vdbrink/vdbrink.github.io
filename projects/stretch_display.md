@@ -72,17 +72,17 @@ For my project, I use option 1, but there are a lot of displays available on the
 
 #### Option 1
 
-<a href="https://s.click.aliexpress.com/e/_c2I1kyWN" target="_blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_c430nNIt" target="_blank">Stretch Display 1</a> ~ &euro; 50,- (AliExpress)
 * 8.8 Inch 
 * Resolution 1920 * 480
 * NO touchscreen
 * Comes with power and HDMI cable
 
-  <a href="https://s.click.aliexpress.com/e/_DeEXehl" target="_blank"><img src="images_stretch_display/stretch_display.webp" alt="Stretch display with touchscreen" width="30%"/></a>
+  <a href="https://s.click.aliexpress.com/e/_c430nNIt" target="_blank"><img src="images_stretch_display/stretch_display.webp" alt="Stretch display with touchscreen" width="30%"/></a>
 
 #### Option 2
 
-<a href="https://s.click.aliexpress.com/e/_okiVQVv" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 90,- (AliExpress)
+<a href="https://s.click.aliexpress.com/e/_c3zvVPFL" target="_blank">Stretch Display 2 (select the touch variant)</a> ~ &euro; 90,- (AliExpress)
 * Same size and resolution but a better version as above
 * WITH IPS touchscreen
 * Brighter colors
