@@ -1,6 +1,6 @@
 ---
 title: "Home Assistant dashboard: on a tablet in Kiosk mode"
-description: "Guide how to show your Home Assistant dashboard on a tablet in kiosk mode with Fully Kiosk Browser"
+description: "Guide on how to show your Home Assistant dashboard on a tablet in kiosk mode with Fully Kiosk Browser"
 category: Home Assistant
 tags: [Home Assistant, dashboard, tablet, fullscreen, app, kiosk, Fully Kiosk Browser]
 image: /homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png
@@ -12,11 +12,11 @@ image: /homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.pn
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 Home Assistant has multiple ways to show you the dashboard.
 It has an Android native app which can be used on an Android tablet or phone, or you can browse to the frontend on any device with a browser.
-In all these scenarios, you see all Home Assistant side and top menu items, you can edit all screens and see the browser with its url.
+In all these scenarios, you see all Home Assistant side and top menu items, can edit all screens, and can see the browser with its URL.
 
-If you want to show only the content of a single dashboard in fullscreen, then you need to define this page in Kiosk mode.
+If you want to show only the content of a single dashboard in fullscreen, you need to define this page in kiosk mode.
 
-Here you can read how to configure this.
+Here you can read how to configure it.
 
 <a href="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png">
 <img src="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Home Assistant dashboard in kiosk mode" width="100%">
@@ -57,11 +57,11 @@ Here you can read how to configure this.
 A kiosk is a standalone computer with a touchscreen (also like a tablet) which runs a single website.
 It has only limited functionality.
 
-An example of a kiosk is to order a meal in a fast-food restaurant.\
-This is in the background just a website or application with payment functionality attached to it.
-When it's in a public place, it's also restricted, without access to the rest of the computer or browser.
+An example of a kiosk is a terminal used to order a meal in a fast-food restaurant.\
+In the background, this is just a website or application with payment functionality attached to it.
+When it is in a public place, it is also restricted, without access to the rest of the computer or browser.
 
-In the scope of Home Assistant, we want to have access to a single overview dashboard without menu items.
+In the context of Home Assistant, we want access to a single overview dashboard without menu items.
 
 ---
 ## Set Home Assistant in Kiosk mode
@@ -70,12 +70,12 @@ By default, you only want to show a single page on the tablet without the defaul
 
 ### Hide side toolbar
 
-It's a setting for the user to hide the side menu by default.
-Select in the side toolbar the last item, the current logged-in user.
-This shows a list of settings and one of them is `Always hide the sidebar`.
+There is a setting for the user to hide the side menu by default.
+In the side toolbar, select the last item: the currently logged-in user.
+This shows a list of settings, one of which is `Always hide the sidebar`.
 
 The best way is to create a custom user for your tablet and enable the feature to hide the sidebar.
-Use on your desktop and phone a different user to still show here all the default menu items.
+Use a different user on your desktop and phone so the default menu items still show there.
 
 <img src="images_tablet_in_kiosk_mode/hide_sidebar.png" alt="hide sidebar in Home Assistant" height="200px" />
 
@@ -91,14 +91,14 @@ Install the **kiosk-mode** integration via this button\
 
 Once installed, some dashboard properties have to be set in the raw dashboard editor.
 
-To set these properties, select the three dots in the top right corner of the dashboard in edit-mode and select `Raw configuration editor`.
+To set these properties, select the three dots in the top-right corner of the dashboard in edit mode, and select `Raw configuration editor`.
 
 <img src="images_layout_stretch/raw_config_editor.png" alt="Raw configuration editor" height="200px" />
 <img src="images_tablet_in_kiosk_mode/hide_header.png" alt="hide header in Home Assistant" height="200px" />
 
 See all possible configuration parameters at [https://github.com/NemesisRE/kiosk-mode](https://github.com/NemesisRE/kiosk-mode)
 
-To hide the top bar, only define `hide_header: true` is enough.
+To hide the top bar, it is enough to define `hide_header: true`.
 
 ```yaml
 {% raw %}
@@ -113,11 +113,11 @@ views:
 
 <br>
 
-To show the top toolbar again, add `?disable_km=` to the url.
+To show the top toolbar again, add `?disable_km=` to the URL.
 
 #### Swipe to other dashboard view
 
-It's possible if you still want to swipe left/right to go to other defined views on the same dashboard without using the extra top toolbar.
+You can still swipe left/right to go to other defined views on the same dashboard without using the extra top toolbar.
 
 With the HACS integration `Swipe Navigation`
 
@@ -129,46 +129,46 @@ Install this integration, via this button, into your own Home Assistant instance
 ---
 ## Set a tablet in Kiosk mode
 
-To show a dashboard on a tablet, you can open a browser and go to the Home Assistant dashboard url and have this as dashboard.
-The downside is that you lose a lot of space on your screen to the OS- and browser controls.
-Better is to show only the content of the page in fullscreen.
+To show a dashboard on a tablet, you can open a browser and go to the Home Assistant dashboard URL and use that as the dashboard.
+The downside is that you lose a lot of screen space to the OS and browser controls.
+Better is to show only the page content in fullscreen.
 
 ### Fullscreen browser
 
-Browsers also support kiosk mode by themselves.
-From a single website, you can create a (Progressive Web) App from every website which hides the browser menus and url.
+Browsers also support kiosk mode on their own.
+From a single website, you can create a Progressive Web App that hides the browser menus and URL.
 
-In Chrome, open the page you want to convert to a single app.
+In Chrome, open the page you want to convert into a single app.
 Go to the menu, select `Cast, save and share`, then select `Install page as app...`.
 
 <a href="images_tablet_in_kiosk_mode/chrome_create_app_from_url.png">
 <img src="images_tablet_in_kiosk_mode/chrome_create_app_from_url.png" alt="create an app from a page" height="300px" />
 </a>
 
-<em>How to create in Chrome an app from a single page.</em>
+<em>How to create an app in Chrome from a single page.</em>
 
-Now, you only have a small topbar.
-And even this can be removed by choosing the `Full screen` option.
+Now you only have a small top bar.
+Even this can be removed by choosing the `Full screen` option.
 
 <a href="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png">
 <img src="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png" alt="hide sidebar in Home Assistant" height="200px" />
 </a>
 
-<em>Page as app in fullscreen</em>
+<em>Page as an app in fullscreen</em>
 
 This app can also be cast to a TV!
 
 ### Android tablet
 
 If you want to show a page in fullscreen on an Android tablet,
-the app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can do this (and much more useful things).
+the app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can do this and much more.
 
-There is a free version with a watermark and has limited functionality.
+There is a free version with a watermark and limited functionality.
 For [&euro; 7,90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single pc license.
 
-It's full of features, I use these:
-* Define a url to load on startup:
-  * Automatically load the latest state of the page on start up.
+It has many features; I use these:
+* Define a URL to load on startup:
+  * Automatically load the latest state of the page on startup.
 * Light detection via the camera:
   * Disable the screen if the room is completely dark.
 * Nearby detection:
@@ -177,23 +177,31 @@ It's full of features, I use these:
   * Enable the screen when someone enters the room.
   * Disable the screen at a certain time or without presence.
 * Monitor the battery level:
-  * Control a smart socket to load only the battery from 20 to 80%.
+  * Control a smart socket to charge the tablet only between 20% and 80%.
 
 <br>
-It has tons of more features!
+It has many more features!
 [See here the full list of features.](https://www.fully-kiosk.com/en/#configuration)
+
+#### Tablet as wall panel
+
+I use myself a Samsung 10" tablet as display with Home Assistant.\
+If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets:
+
+* {{imgBasket}}Samsung Galaxy Tab A9+ - 11" with a resolution of 1920x1200 [(Amazon US)](https://amzn.to/4g7b101) [(Amazon NL)](https://amzn.to/4xgkqsp)
+* {{imgBasket}}Lenovo Tab M11 - 11" with a resolution of 1920x1200 [(Amazon US)](https://amzn.to/4fqXqAy) [(Amazon NL)](https://amzn.to/43kPQ3g)
 
 ### iOS iPad tablet
 
 For the iPad, the app [Kiosker: Fullscreen Web Kiosk](https://apps.apple.com/nl/app/kiosker-fullscreen-web-kiosk/id1481691530)
-can be used to define a page as a single page to run in kiosk mode.
+can be used to define a page that runs in kiosk mode.
 
-Do you have better ways for iOS? Please let me know!
+Do you know better options for iOS? Please let me know!
 
 ---
 ## Configure Fully Kiosk Browser
 
-The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can be used to control the tablet from remote.
+The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can be used to control the tablet remotely.
 
 <a href="images_tablet_in_kiosk_mode/fully_remote_admin_settings.png">
 <img src="images_tablet_in_kiosk_mode/fully_remote_admin_settings.png" alt="Fully Kiosk Browser change settings" height="200px" />
@@ -210,23 +218,23 @@ The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can 
 
 ### Auto screen on
 
-With the API GET call `http://192.168.1.x:2323/?cmd=screenOn&password=<password>`
-it is possible to turn the screen on.
+Using the API GET call `http://192.168.1.x:2323/?cmd=screenOn&password=<password>`
+you can turn the screen on.
 
 ### Auto screen off
 
-With the API GET call `http://192.168.1.x:2323/?cmd=screenOff&password=<password>`
-it is possible to turn the screen off.
+Using the API GET call `http://192.168.1.x:2323/?cmd=screenOff&password=<password>`
+you can turn the screen off.
 
 ### Only charge tablet battery when needed
 
 I have a smart plug connected to my tablet.
-To avoid damaging the battery I only charge it when needed.
-If the battery level becomes lower than 15%, it will charge it until it's at least 80% and then turn the power off again.
-Now it's always charged with enough power, but not all day long charging.
+To avoid damaging the battery, I only charge it when needed.
+If the battery level drops below 15%, I charge it until it reaches at least 80%, and then turn the power off again.
+That way, it always has enough charge without charging all day.
 
-Fully Kiosk can push tablet and other Kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`
-one of those properties is `batteryLevel`, based on this value I trigger an automation to control the smart socket to charge the tablet.
+Fully Kiosk can push tablet and other kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`.
+One of those properties is `batteryLevel`; based on this value, I trigger an automation to control the smart socket to charge the tablet.
 
 ---
 ## Create a tablet dashboard
@@ -335,17 +343,17 @@ You can click on a dashboard element and you get redirected to the card details.
 
 #### Optional elements
 
-On my dashboard I also have elements which are by default hidden and only visible when it's relevant.
+On my dashboard, I also have elements that are hidden by default and only visible when it is relevant.
 
 My optional elements are:
-* [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) the upcoming hours
-* [Trash can reminder, if it's tomorrow pickup day](/homeassistant/homeassistant_hacs_afvalbeheer)
+* [Rain prediction graph](/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app), only if [rain is expected](/homeassistant/homeassistant_templates#any-rain-expected) in the upcoming hours
+* [Trash can reminder, if tomorrow is pickup day](/homeassistant/homeassistant_hacs_afvalbeheer)
 * [Weather alert text](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1), only if [there is a weather alarm](/homeassistant/homeassistant_dashboard_weather_nl#conditional-weather-alarm-1)
 * [Camera stream](/homeassistant/homeassistant_dashboard_frigate#show-live-rtsp-streams), only if [someone is detected](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) at the front door
 * [Upcoming birthdays](/homeassistant/homeassistant_dashboard_hacs#birthday-reminder-card), only if someone has their birthday within X days
 * Mushrooms:
     * [Bigger trash can icon](/homeassistant/homeassistant_dashboard_card_mushroom#bigger-icon), if [tomorrow is bin day](/homeassistant/homeassistant_templates#is-tomorrow-a-trash-bin-day)
-    * [CO2 level](/esphome/co2_scd40#dashboard-graphic-with-levels), if it's too high
+    * [CO2 level](/esphome/co2_scd40#dashboard-graphic-with-levels), if it is too high
     * [Amount of open windows](/homeassistant/homeassistant_templates#count-the-number-of-open-windows)
     * [Package delivered](/projects/packages-mailbox-allux-600) in my package box
     * [Mail delivered](/projects/smart_mailbox), in the [last 30 minutes](/homeassistant/homeassistant_templates#mail-delivered-in-the-last-30-minutes)
@@ -458,7 +466,7 @@ You need to have the boolean sensor [waste_tomorrow](/homeassistant/homeassistan
 <br>
 
 This is how you can define a conditional **camera stream** element to show only the live stream feed if an extra helper sensor is set to state "on".
-This can be set manually with a toggle on the dashboard (to activate if you expect someone) or activate when someone is detected on the camera.
+This can be set manually with a toggle on the dashboard (to activate it if you expect someone) or automatically when someone is detected on the camera.
 
 You need the boolean helper sensor [frontdoor_detection_mode](/homeassistant/homeassistant_dashboard_frigate#front-door-detection-mode) for this condition.
 
@@ -479,9 +487,8 @@ You need the boolean helper sensor [frontdoor_detection_mode](/homeassistant/hom
 
 #### Fullscreen camera stream
 
-If you want to show a fullscreen overlay popup when a person is detected on a camera.
-Take a look at the page
-[Home Assistant dashboard: Fullscreen camera stream](/homeassistant/homeassistant_dashboard_fullscreen_camera_stream) how to set this up.
+If you want to show a fullscreen overlay popup when a person is detected by a camera, take a look at the page
+[Home Assistant dashboard: Fullscreen camera stream](/homeassistant/homeassistant_dashboard_fullscreen_camera_stream) for how to set this up.
 
 ---
 
