@@ -47,10 +47,7 @@ and if I compare it to my mood board, I see it's eventually really similar!
 <img src="images/home_office_desk_result3.jpg" alt="Home office desk result" width="100%" /><br>
 <em>Home office desk result</em>
 
-If you like element or products which I use for my setup, I listed them on the pages where you can get them yourself.
-
-> **_NOTE:_** Links on this site are hardware I also bought myself.
-> Links can be affiliate links, you pay the normal price AND support my blog.
+If you like element or products which I use for my setup, I listed them on the [desk setup page](desk_setup_hardware) and [accessories](office_accessories) where you can get them yourself.
 
 ---
 

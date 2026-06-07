@@ -10,12 +10,12 @@ image: /home_office_desk/images/youp02_desk.jpg
 # Home office: Desk setup hardware
 
 On this page you can read which hardware products I use on a daily basis in my home office.
-These products make my life easier and makes me happy to work with!
+These products make my life easier and make me happy to work with!
 
 <a href="images/home_office_desk_result2.jpg">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
 </a>\
-<em>Final desk setup in standing modus.</em>
+<em>Final desk setup in standing mode.</em>
 
 ---
 
@@ -40,38 +40,38 @@ These products make my life easier and makes me happy to work with!
 The products on this page which are also for sale on Amazon are listed on
 [Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
 Not every product I have is also available on Amazon, and the exact same product I use is excluded from the lists, like the
-desk, monitor, chair because they are replace by a newer model or bought from another store. 
-If there is a newer version I placed that one in the list.
+desk, monitor, and chair, because they are replaced by a newer model or bought from another store.
+If there is a newer version, I place that one in the list.
 
 ---
 ## Desk
 
-I had a fixed desk made of wood plates.
+I had a fixed desk made of wood panels.
 Now I want a standing desk, so I don't sit all day long.
 
-In the end I bought the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
-It has a dual motor, 4 programmable heights, I choose as top the 200x80 cm walnut desk top made out of one piece (they sell it in different sizes from 120x80 up to 200x100 cm!)
+In the end, I bought the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
+It has a dual motor, four programmable heights, and I chose the 200x80 cm walnut desktop made from one piece (they sell it in different sizes from 120x80 up to 200x100 cm!)
 
 <a href="images/desk_low2.jpg">
 <img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
 </a>
 
-My wishlist for my new desk was clear:
+My wish list for my new desk was clear:
 * Walnut top
 * 180 - 200 cm wide
 * 80 cm deep
 * Electric standing/sit desk
-* Minimal 2 programmable preset heights
+* At least 2 programmable preset heights
 * Black legs
 * Minimal wires visible
 
 <br>
 It took some time to find the perfect desk.
-There are so many companies who sell such desks.
+There are so many companies that sell such desks.
 
-After filtering I had to choose between these once's:
-* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) this one has good reviews but didn't have the full 200 cm width top.
-* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) very good reviews, but the walnut color was a bit too light, it has rounded corners and a cable hole which I all didn't like that much.
+After filtering, I had to choose between these ones:
+* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it didn't have the full 200 cm wide top.
+* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It has rounded corners and a cable hole, which I did not like that much.
 * The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all criteria but doesn't have many reviews.
 <p></p>
 
@@ -80,14 +80,14 @@ After filtering I had to choose between these once's:
 </a>
 <em>YOUP02 Cognac Walnut</em>
 
-If you're looking for more info about desk choices, you can take a look at [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/) to discus about standing desks.
+If you're looking for more information about desk choices, you can take a look at [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/) to discuss standing desks.
 
 ---
 ## Monitor
 
 The monitor is a Philips 49" curved screen with a resolution of 5120 x 1440.
-With an aspect ratio of 32:9 and curving of 1800R.
-It's the size of two 27" next to each other.
+It has an aspect ratio of 32:9 and a curvature of 1800R.
+It's the size of two 27" screens next to each other.
 
 This is one of my best purchases ever! I still love it every day.
 The big advantage compared to two separate 27" screens is that you can split your application windows however you like at any given moment.
@@ -99,7 +99,7 @@ It's all possible with a big single screen, and you don't have to worry about th
 </a>
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
-Newer version of this one are now available, with even better screens with the same dimensions.
+Newer versions of this one are now available, with even better screens and the same dimensions.
 
 <a href="images/philips_49inch_screen.webp">
 <img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="450px" />
@@ -115,7 +115,7 @@ Alternative:
 
 The Philips monitor has a single DisplayPort 1.4 and 3x HDMI 2.0 ports.
 The MacBook M4 Pro has Thunderbolt 4 ports (USB-C) with DisplayPort 2.1.
-To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort cable to get the best result out of my monitor.
+To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort cable to get the best result from my monitor.
 
 <a href="images/monitor_cable.jpg">
 <img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" width="150px" />
@@ -129,14 +129,15 @@ To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort ca
 
 To keep a clean desk, I was looking for:
 * A monitor arm that holds the screen **stable**, and is attached to the desk.
-* I prefer not a monitor arm in the middle of the desk for the **floating** monitor effect.
+* I prefer not to have a monitor arm in the middle of the desk for the **floating** monitor effect.
 * It should also easily hold the **weight** of the 12 kg 49" screen.
 * It hides the **wires** and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
-* I can easily **pull and push** the screen back and forward without unscrew bolts.
+* I can easily **pull and push** the screen back and forth without unscrewing bolts.
 
 <br>
-I end up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).\
-It's made of strong metal and can hold up to 20 kg, it match all my requirements and cost not too much.
+I ended up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).\
+It's made of strong metal and can hold up to 20 kg. 
+It matches all my requirements and does not cost too much.
 
 <a href="images/act_ac8340.avif">
 <img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
@@ -151,8 +152,8 @@ Alternative, similar design:
 ---
 ## Laptop
 
-The laptop I use is a powerful Apple MacBook M4 Pro 16 inch for high performance daily tasks and perfect for on-the-go.
-MacBooks are more powerful and have much longer battery life compare to Windows laptops.
+The laptop I use is a powerful Apple MacBook M4 Pro 16-inch laptop for high-performance daily tasks and is perfect for on the go.
+MacBooks are more powerful and have much longer battery life compared to Windows laptops.
 
 <a href="images/macbook.jpg">
 <img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
@@ -183,11 +184,12 @@ MacBooks are more powerful and have much longer battery life compare to Windows 
 ---
 ## Keyboard
 
-For a keyboard, I want a wireless, silent, smooth typing, with big shift and return button, volume buttons and a numpad.
-Kind of similar as the Apple Magic Keyboard but with a numpad and more function keys to control music and brightness.
+For a keyboard, I want wireless, silent, smooth typing, with a large Shift and Enter key, volume buttons, and a numpad.
+Kind of similar to the Apple Magic Keyboard, but with a numpad and more function keys to control music and brightness.
 
-The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was a logical choice, it's much more than what's on my wishlist.
-It can easily switch between three devices, it lights up when you come closer, charging via USB-C.
+The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was a logical choice. 
+It offers much more than what is on my wish list.
+It can easily switch between three devices, lights up when you come closer, and charges via USB-C.
 
 <a href="images/mx-keys-s-top-view-graphite-us-intl.webp">
 <img src="images/mx-keys-s-top-view-graphite-us-intl.webp" alt="Logitech MX Keys S" width="450px" />
@@ -202,10 +204,10 @@ It can easily switch between three devices, it lights up when you come closer, c
 ---
 ## Chair
 
-The chair I use is an Ikea Millberget and sits pretty comfortable but doesn't have very much adjustable features.\
-Since I have my standing desk I have some weeks I stand all day long for multiple days. 
-That makes a good chair not the main priority. 
-I'm still looking for a full adjustable black leather (look) new chair for the future.
+The chair I use is an Ikea Millberget and sits pretty comfortably, but it doesn't have many adjustable features.\
+Since I have my standing desk, there are some weeks when I stand all day for multiple days.
+That makes a good chair not the main priority.
+I am still looking for a fully adjustable black leather-look chair for the future.
 
 <a href="images/chair_ikea_millberget.avif">
 <img src="images/chair_ikea_millberget.avif" alt="Ikea Millberget office chair" width="250px" />
@@ -216,7 +218,7 @@ I'm still looking for a full adjustable black leather (look) new chair for the f
 ---
 ## Mouse
 
-The mouse I use is a basic wireless one with soft-click and scroll feature.
+The mouse I use is a basic wireless one with soft-click and scroll features.
 Simple but perfect for years!\
 Works with a single AA battery.\
 I'll upgrade it in the future with one from the Logitech MX Master series.
@@ -229,9 +231,10 @@ I'll upgrade it in the future with one from the Logitech MX Master series.
 
 <br>
 
-Alternative/Future version:
+Alternative/Future versions:
 
-* Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
+* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
+* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
 
 ---
 ## Accessories
@@ -268,15 +271,15 @@ I have these items:\
 ## Future improvements
 
 There are always things to improve.
-Sometimes it take some time until you find the perfect product which meets all your wishes, or at least most of them.
-I have also some of them on my list.
+Sometimes it takes some time until you find the perfect product that meets all your wishes, or at least most of them.
+I also have some of them on my wish list.
 
-If you know where I can get one of below products, please let me know!
+If you know where I can get one of the products below, please let me know!
 
 ### Clock
 
-I'm still looking for a matching wall clock.
-This is the kind of clock I want, very minimalistic, without numbers or gold and in the same walnut color as my wall or desk.
+I'm still looking for a matching walnut wall clock.
+This is the kind of clock I want: very minimalist, without numbers or gold, and in the same walnut color as my wall or desk.
 
 <a href="images/wall_clock.jpg">
 <img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
@@ -290,16 +293,17 @@ Alternative:
 
 I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals with a single cable.
 
-It must also match minimal these requirements:
+It must also meet at least these requirements:
 * Main Monitor 49" 5K @ 180Hz
 * Future Second monitor 4K @ 60Hz
 * Power supply of 60W+ to charge the laptop
 * Cabled network connection
 * Connect USB peripherals
-* Wake up MacBook
+* Wake up the MacBook
 
 <p></p>
-I found the ultimate one, the CalDigit TS5, it's only very expensive.
+I found the ultimate one, the CalDigit TS5, but it's very expensive.
+Is it worth it?
 
 <a href="images/caldigit_ts5_docking_station.jpg">
 <img src="images/caldigit_ts5_docking_station.jpg" alt="CalDigit TS5 docking station" width="150px" />
@@ -311,24 +315,36 @@ I found the ultimate one, the CalDigit TS5, it's only very expensive.
 
 <br>
 
-Please let me know if you know good alternative docking station which match my requirements!
+Please let me know if you know a good alternative docking station that matches my requirements!
 
 ----
 ### Camera
 
-A newer 4K camera with auto zoom and auto follow feature would be a nice upgrade.
-Then everybody can see me sharp and sparkly in a next video call!
+A newer 4K camera with auto-zoom and auto-follow features would be a nice upgrade.
+Then everybody can see me sharp and clearly in the next video call!
 
 ---
 ### Chair
 
+There are so many brands that make good chairs.\
+It is very hard to choose a good one. For now, I found these two.\
+Any other good suggestions?
+
 * {{imgBasket}} [Haworth Fern](https://www.haworth.com/eu/en/products/executive-chairs/fern.html)
 * {{imgBasket}} [Noblechairs gaming leather chair](https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart)
+
+---
+### Mouse
+
+When I replace my mouse, it will be a Logitech MX Master 3S or 4.
+
+* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
+* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
 
 <br>
 
 ---
-Do you have any good upgrade suggestions for my home office? Please share it as comment on my posts.
+Do you have any other good upgrade suggestions for my home office? Please share them as a comment on my posts.
 
 ---
 
