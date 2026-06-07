@@ -43,6 +43,7 @@ For AI, it's sometimes hard to scale elements, on the generated photo, to the ri
 It's good to measure yourself also if they fit correct and match reality.
 
 ---
+Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
 Virtual design with AI |

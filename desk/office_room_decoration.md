@@ -13,6 +13,7 @@ I redecorated my new office room.
 I added an acoustic sound panel wall, painted all other walls and the ceiling for a new fresh look!
 
 ---
+Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
 [Virtual design with AI](office_virtual_design_with_ai) |
@@ -182,6 +183,7 @@ Alternatives:
 That's it for the room basic materials and elements which I used in my home office room.
 
 ---
+Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
 [Virtual design with AI](office_virtual_design_with_ai) |

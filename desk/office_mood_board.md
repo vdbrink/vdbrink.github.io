@@ -20,6 +20,7 @@ Dark (walnut), with dark green and acoustic panels was the common factor.
 <br>
 
 ---
+Home office:\
 [Overview](index) |
 Mood board |
 [Virtual design with AI](office_virtual_design_with_ai) |

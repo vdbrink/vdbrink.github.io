@@ -15,7 +15,7 @@ These products make my life easier and makes me happy to work with!
 <a href="images/home_office_desk_result2.jpg">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
 </a>\
-<em>Final desk setup.</em>
+<em>Final desk setup in standing modus.</em>
 
 ---
 
@@ -23,18 +23,13 @@ These products make my life easier and makes me happy to work with!
 <!-- TOC -->
   * [Amazon shop list](#amazon-shop-list)
   * [Desk](#desk)
-  * [Laptop](#laptop)
   * [Monitor](#monitor)
-    * [Monitor cable](#monitor-cable)
-    * [Monitor arm](#monitor-arm)
+  * [Laptop](#laptop)
   * [Keyboard](#keyboard)
   * [Chair](#chair)
   * [Mouse](#mouse)
-* [Accessories](#accessories)
-* [Future improvements](#future-improvements)
-  * [Clock](#clock)
-  * [Docking station](#docking-station)
-  * [Camera](#camera)
+  * [Accessories](#accessories)
+  * [Future improvements](#future-improvements)
 <!-- TOC -->
 
 > **_NOTE:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
@@ -43,10 +38,10 @@ These products make my life easier and makes me happy to work with!
 ## Amazon shop list
 
 The products on this page which are also for sale on Amazon are listed on
-[Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).\
-Not all products are also available on Amazon, and excluded from the lists, like:
-* Desk
-* Laptop case
+[Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
+Not every product I have is also available on Amazon, and the exact same product I use is excluded from the lists, like the
+desk, monitor, chair because they are replace by a newer model or bought from another store. 
+If there is a newer version I placed that one in the list.
 
 ---
 ## Desk
@@ -54,8 +49,11 @@ Not all products are also available on Amazon, and excluded from the lists, like
 I had a fixed desk made of wood plates.
 Now I want a standing desk, so I don't sit all day long.
 
-<a href="images/youp02_desk.jpg">
-<img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" style="margin-left:15px;float:right" width="350px" />
+In the end I bought the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
+It has a dual motor, 4 programmable heights, I choose as top the 200x80 cm walnut desk top made out of one piece (they sell it in different sizes from 120x80 up to 200x100 cm!)
+
+<a href="images/desk_low2.jpg">
+<img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
 </a>
 
 My wishlist for my new desk was clear:
@@ -71,52 +69,18 @@ My wishlist for my new desk was clear:
 It took some time to find the perfect desk.
 There are so many companies who sell such desks.
 
-I eventually chose between:
-* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) this one has good reviews but didn't have the full 200 cm width desk top.
-* The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all criteria but less reviews.
-
-I eventually bought the YOUP02 from [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl):
+After filtering I had to choose between these once's:
+* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) this one has good reviews but didn't have the full 200 cm width top.
+* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) very good reviews, but the walnut color was a bit too light, it has rounded corners and a cable hole which I all didn't like that much.
+* The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all criteria but doesn't have many reviews.
+<p></p>
 
 <a href="images/youp02_desk.jpg">
-<img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" width="450px" />
+<img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" width="350px" />
 </a>
+<em>YOUP02 Cognac Walnut</em>
 
-If you're looking for more info about desk choices, you can take a look also at [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/).
-
----
-## Laptop
-
-The laptop I use is a powerful Apple MacBook M4 Pro 16 inch for high performance daily tasks and perfect for on-the-go.
-MacBooks are more powerful and have much longer battery life compare to Windows laptops.
-
-<a href="images/macbook.jpg">
-<img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
-</a>
-
-* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv) [(Amazon NL)](https://amzn.to/4w3F12q)
-
-<br>
-
-I use these accessories for my laptop:
-
-[Powerful 120W universal USB-C charger -> read more at the accessories page.](office_accessories#laptop-charger)\
-<a href="office_accessories#laptop-charger">
-<img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" width="250px" />
-</a>
-
-<br>
-
-[Universal vertical laptop stand -> read more at the accessories page.](office_accessories#laptop-stand)\
-<a href="office_accessories#laptop-stand"> 
-<img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
-</a>
-
-<br>
-
-[MacBook Pro 16" black cover case -> read more at the accessories page.](office_accessories#laptop-case)\
-<a href="office_accessories#laptop-case">
-<img src="images/macbook_case.jpg" alt="Macbook 16' case" width="250px" />
-</a>
+If you're looking for more info about desk choices, you can take a look at [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/) to discus about standing desks.
 
 ---
 ## Monitor
@@ -151,7 +115,11 @@ Alternative:
 
 The Philips monitor has a single DisplayPort 1.4 and 3x HDMI 2.0 ports.
 The MacBook M4 Pro has Thunderbolt 4 ports (USB-C) with DisplayPort 2.1.
-To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort cable.
+To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort cable to get the best result out of my monitor.
+
+<a href="images/monitor_cable.jpg">
+<img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" width="150px" />
+</a>
 
 * {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i) [(Amazon NL)](https://amzn.to/3MSMgsm)
 * {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq)
@@ -160,20 +128,57 @@ To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort ca
 ### Monitor arm
 
 To keep a clean desk, I was looking for:
-* A monitor arm that holds the screen stable, and is attached to the desk.
-* I prefer not a monitor arm in the middle of the desk for the floating monitor effect.
-* It should also easily hold the weight of the 12 kg 49" screen.
-* It hides the wires and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
-* I can easily pull and push the screen back and forward.
+* A monitor arm that holds the screen **stable**, and is attached to the desk.
+* I prefer not a monitor arm in the middle of the desk for the **floating** monitor effect.
+* It should also easily hold the **weight** of the 12 kg 49" screen.
+* It hides the **wires** and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
+* I can easily **pull and push** the screen back and forward without unscrew bolts.
 
-I end up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340)
-It's made of strong metal and can hold up to 20 kg, match all my requirements and cost not too much.
+<br>
+I end up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).\
+It's made of strong metal and can hold up to 20 kg, it match all my requirements and cost not too much.
 
 <a href="images/act_ac8340.avif">
 <img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
 </a>
 
-* {{imgBasket}}Monitor arm - ACT AC8340 Amazon US N/A [(Amazon NL)](https://amzn.to/4qFwvD8) [(Tweakers NL - Dutch price compare site)](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
+* {{imgBasket}}Monitor arm - ACT AC8340 (Amazon US N/A)  [(Amazon NL)](https://amzn.to/4qFwvD8) [(Tweakers NL - Dutch price compare site)](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
+
+<br>
+Alternative, similar design:
+* {{imgBasket}}Monitor arm - VIVO Heavy Duty for max 49" monitors [(Amazon US)](https://amzn.to/4eqbiKm) [(Amazon NL)](https://amzn.to/4uNRFBI)
+
+---
+## Laptop
+
+The laptop I use is a powerful Apple MacBook M4 Pro 16 inch for high performance daily tasks and perfect for on-the-go.
+MacBooks are more powerful and have much longer battery life compare to Windows laptops.
+
+<a href="images/macbook.jpg">
+<img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
+</a>
+
+* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv) [(Amazon NL)](https://amzn.to/4w3F12q)
+
+<br>
+
+<table>
+  <thead>
+  <tr>
+    <th colspan="3">I use these accessories for my laptop</th>
+  </tr>
+</thead>
+  <tr>
+    <td>120W universal USB-C charger</td>
+    <td>Vertical laptop stand</td>
+    <td>MacBook Pro 16" black cover case</td>
+  </tr>
+  <tr>
+    <td><a href="office_accessories#laptop-charger"><img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" height="150px" /></a> </td>
+    <td><a href="office_accessories#laptop-stand"><img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" height="150px" /></a> </td>
+    <td><a href="office_accessories#laptop-case"><img src="images/macbook_case.jpg" alt="Macbook 16' case" height="150px" /></a></td>
+  </tr>
+</table>
 
 ---
 ## Keyboard
@@ -197,34 +202,47 @@ It can easily switch between three devices, it lights up when you come closer, c
 ---
 ## Chair
 
-The chair I use is an old model from Ikea but still sits pretty comfortable.
+The chair I use is an Ikea Millberget and sits pretty comfortable but doesn't have very much adjustable features.\
+Since I have my standing desk I have some weeks I stand all day long for multiple days. 
+That makes a good chair not the main priority. 
+I'm still looking for a full adjustable black leather (look) new chair for the future.
 
-Alternative:
-* {{imgBasket}}MILLBERGET [(Ikea NL)](https://www.ikea.com/nl/nl/p/millberget-bureaustoel-murum-zwart-70489394/#content)
+<a href="images/chair_ikea_millberget.avif">
+<img src="images/chair_ikea_millberget.avif" alt="Ikea Millberget office chair" width="250px" />
+</a>
+
+* {{imgBasket}}Millberget [(Ikea NL)](https://www.ikea.com/nl/en/p/millberget-swivel-chair-murum-beige-70489389/#content)
 
 ---
 ## Mouse
 
-The mouse I use is a basic wireless soft-click and scroll one.
-Simple but perfect for years!
-Works with a single AA battery.
-This will be upgraded in the future with one from the Logitech MX Master serie.
+The mouse I use is a basic wireless one with soft-click and scroll feature.
+Simple but perfect for years!\
+Works with a single AA battery.\
+I'll upgrade it in the future with one from the Logitech MX Master series.
 
 <a href="images/mouse.avif">
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
 </a>
 
+* {{imgBasket}}Silent wireless mouse [(AliExpress)](https://s.click.aliexpress.com/e/_EjJUyom)
+
+<br>
+
+Alternative/Future version:
+
+* Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
+
 ---
-# Accessories
+## Accessories
 
 Check also my [accessories](office_accessories) page for the other used hardware and decorations I have on my desk and in my office.
-
-There you can find these items:\
+I have these items:\
  [Monitor light](office_accessories#monitor-light),
  [Desk mat](office_accessories#desk-mat),
  [Camera](office_accessories#camera),
  [Microphone](office_accessories#microphone),
- [ANC over ear headset](office_accessories#anc-over-ear-headset),
+ [Headset](office_accessories#headset),
  [Laptop charger](office_accessories#laptop-charger),
  [Laptop stand](office_accessories#laptop-stand),
  [Laptop case](office_accessories#laptop-case),
@@ -239,7 +257,7 @@ There you can find these items:\
  [Mug coaster](office_accessories#mug-coaster),
  [Wireless phone charger](office_accessories#wireless-phone-charger),
  [Walnut phone stand](office_accessories#walnut-phone-stand),
- [Cat tower](office_accessories#cat-tower)
+ [Cat tower](office_accessories#cat-tower).
 
 
 <a href="office_accessories">
@@ -247,7 +265,7 @@ There you can find these items:\
 </a>
 
 ---
-# Future improvements
+## Future improvements
 
 There are always things to improve.
 Sometimes it take some time until you find the perfect product which meets all your wishes, or at least most of them.
@@ -255,7 +273,7 @@ I have also some of them on my list.
 
 If you know where I can get one of below products, please let me know!
 
-## Clock
+### Clock
 
 I'm still looking for a matching wall clock.
 This is the kind of clock I want, very minimalistic, without numbers or gold and in the same walnut color as my wall or desk.
@@ -268,16 +286,16 @@ Alternative:
 * {{imgBasket}}Wall clock with acoustic panel look [(Amazon.nl)](https://amzn.to/3O178xU)
 
 ----
-## Docking station
+### Docking station
 
 I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals with a single cable.
 
 It must also match minimal these requirements:
 * Main Monitor 49" 5K @ 180Hz
 * Future Second monitor 4K @ 60Hz
-* Power 60W+
-* Network connection
-* USB peripherals
+* Power supply of 60W+ to charge the laptop
+* Cabled network connection
+* Connect USB peripherals
 * Wake up MacBook
 
 <p></p>
@@ -291,22 +309,37 @@ I found the ultimate one, the CalDigit TS5, it's only very expensive.
   [(Amazon US)](https://amzn.to/4un6YRH)
   [(Amazon NL)](https://amzn.to/3PGaJCH)
 
-If you have good suggestions for a docking station which match my requirements, please share it with me!
+<br>
+
+Please let me know if you know good alternative docking station which match my requirements!
 
 ----
-## Camera
+### Camera
 
 A newer 4K camera with auto zoom and auto follow feature would be a nice upgrade.
-Then everybody can see me sharp and sparkly!
+Then everybody can see me sharp and sparkly in a next video call!
+
+---
+### Chair
+
+* {{imgBasket}} [Haworth Fern](https://www.haworth.com/eu/en/products/executive-chairs/fern.html)
+* {{imgBasket}} [Noblechairs gaming leather chair](https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart)
+
+<br>
+
+---
+Do you have any good upgrade suggestions for my home office? Please share it as comment on my posts.
 
 ---
 
-Do you have good upgrade suggestions for my office? Please share it as comment on my posts.
+<br>
 
----
+Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
 [Virtual design with AI](office_virtual_design_with_ai) |
 [Room decoration](office_room_decoration) |
 Desk setup hardware |
 [Accessories](office_accessories)
+
+<br>

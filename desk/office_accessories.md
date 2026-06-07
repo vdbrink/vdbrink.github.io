@@ -9,6 +9,8 @@ image: /home_office_desk/images/desk_collage3.png
 
 # Home office: Accessories
 
+On this page you can read which accessories I use to decorate and make working in my office a joy!
+
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
 
 ---
@@ -26,7 +28,7 @@ Accessories
   * [Desk mat](#desk-mat)
   * [Camera](#camera)
   * [Microphone](#microphone)
-  * [ANC over ear headset](#anc-over-ear-headset)
+  * [Headset](#headset)
   * [Laptop charger](#laptop-charger)
   * [Laptop stand](#laptop-stand)
   * [Laptop case](#laptop-case)
@@ -110,7 +112,7 @@ For an affordable basic microphone, I've chosen the Razer Seiren Mini black - US
 * {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8) [(Amazon NL)](https://amzn.to/4cwPg84)
 
 ---
-## ANC over ear headset
+## Headset
 
 For my new office I looked for a newer and improved over ear headset.
 The development of ANC is improving every year and my daily used three-year-old headset could get an upgrade.
@@ -294,11 +296,11 @@ To support my posture and stretch my legs while sitting, I use a footrest under 
 
 To protect the floor from scratches and reduce chair-wheel noise, I placed a rubber protection mat underneath my chair.
 
-[//]: # (* {{imgBasket}}Floor protection mat)
+* {{imgBasket}}Floor protection mat
 
-[//]: # (  [&#40;Amazon US&#41;]&#40;https://amzn.to/&#41;)
+  [(Amazon US)](https://amzn.to/4odC4sM)
 
-[//]: # (  [&#40;Amazon NL&#41;]&#40;https://amzn.to/&#41;)
+  [(Amazon NL)](https://amzn.to/4dUne72)
 
 ---
 ## Floor heated mat
@@ -306,7 +308,9 @@ To protect the floor from scratches and reduce chair-wheel noise, I placed a rub
 To keep my feet warm during winter, I placed a heated floor mat under my desk where I stand.
 This way, I do not need to heat the whole room, and I avoid cold feet from the floor while standing at my desk.
 
-110 watt, 4 heights
+It has a power of 110 watt, controllable via a remote in the wire with 4 levels. 
+Most of the time the 4th level is already too hot.
+With the timer in timer it automatically shuts of.
 
 <a href="images/floor_mat.jpg">
 <img src="images/floor_mat.jpg" alt="floor mat" width="150px" />
@@ -360,8 +364,8 @@ Just place your phone on the charger and it starts charging, with no cable neede
 
 I found a simple walnut-colored stand for my other phone, which is also walnut colored, so it fits perfectly with the rest of the accessories on my desk.
 
-<a href="images/phone_stand_charger.jpg">
-<img src="images/phone_stand_charger.jpg" alt="Walnut phone stand" width="150px" />
+<a href="images/walnut_phone_stand.jpg">
+<img src="images/walnut_phone_stand.jpg" alt="Walnut phone stand" width="150px" />
 </a>
 
 * {{imgBasket}}Walnut phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ)
@@ -387,6 +391,12 @@ Alternative:
 * {{imgBasket}}20.5-Inch Cat Condo [(Amazon US)](https://amzn.to/4tV4zgc)
 
 ---
+## Vacuum cleaner
+
+With this small vacuum clean for your desk you can quickly remove small trash without scratching anything.
+
+---
+Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
 [Virtual design with AI](office_virtual_design_with_ai) |

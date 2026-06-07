@@ -1,6 +1,6 @@
 ---
-title: "Home office: Desk setup room redesign with AI"
-description: "Home office Desk setup room redesign with the help of AI"
+title: "Home office: Desk setup room design with AI"
+description: "Home office Desk setup room design with the help of AI"
 category: Office
 tags: [Home office, desk, setup, AI, standing desk]
 image: /home_office_desk/images/home_office_desk_result3.jpg
@@ -8,8 +8,7 @@ image: /home_office_desk/images/home_office_desk_result3.jpg
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# Home office: Desk setup room redesign with AI
-*Overview page*
+# Home office:<br>Desk setup room design with AI
 
 I designed my new home office from scratch.
 On this page you can read how I started with an idea, create a virtual AI version of the room how it could be like
@@ -55,6 +54,7 @@ If you like element or products which I use for my setup, I listed them on the p
 
 ---
 
+Home office:\
 Overview |
 [Mood board](office_mood_board) |
 [Virtual design with AI](office_virtual_design_with_ai) |
