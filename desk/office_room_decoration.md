@@ -25,30 +25,28 @@ Room decoration |
 
 ## Collecting the materials
 
-With my [created virtual room design](desk_setup_hardware#virtual-room-design), I went looking for matching real life products and materials to realize the photo idea to reality.
-This isn't 1-on-1 possible because you depend on which products are available on the market.
+With my [virtual room design](desk_setup_hardware#virtual-room-design) in hand, I went looking for real products and materials that matched the concept.
+A 1-to-1 match isn't always possible since you're limited to what's actually available on the market.
 
 <img src="images/laminate.jpg" alt="walnut color" style="margin-left:15px;float:right" width="150px">
-If you want to use different products but made from one kind of wood, in my case walnut, they must match colors as much as possible.
-An online product photo can really mislead how it looks in real life.
-A small difference in light color can change the look already.
-For this reason, I wanted to buy as much product in a physical store, so I can compare the colors myself.
-The first and one big thing I bought online was my desk top.
-Based on the color of it, I went shopping for the other big parts like the floor and acoustic panels.
+When combining different products in the same wood tone, walnut, in my case, the colors need to match as closely as possible.
+Online product photos can be misleading; even a slight difference in tone can change the entire look in real life.
+For that reason, I wanted to buy as many items as possible from a physical store so I could compare colors directly.
+The first big item I ordered online was the desk surface.
+Using its color as a reference, I then went shopping for the other major pieces, like the floor and acoustic panels.
 
-I bought also already a small wooden drink coaster which match exactly the color and motif of my desk.
-This was more manageable to take to the store to use as reference instead of taking the complete desk top with me :)
+I had already bought online a small wooden drink coaster that luckily matched the desk's color and grain pattern exactly.
+It was much easier to bring that to stores as a color reference than lugging the entire desk top around.
 
-For the floor, I visited a few local stores and compared my coaster to different floors.
-When I hold it at different angles, the color looks already different, so this was a good choice to take some material to compare.
-At one store I found a perfect match, and there they had also skirting boards in the matching color.
+For the floor, I visited a few local stores and compared the coaster against different laminate options.
+Holding it at different angles showed how much the color can shift, which confirmed that having a physical sample was the right call.
+At one store I found a perfect match, and they also sell skirting boards in the same color.
 
-The stores I was visiting they had only a few basic light and dark wood wall panels.
-They didn't match exactly, but one was good enough.
+The wall panels were more difficult to find, the stores I visited only sold a few basic light and dark wood options.
+None matched exactly, but one was close enough.
 
-Also, for the dark green paint, it was hard to choose, how it will look like for real.
-I found online a color I liked, and on that site they had many <a href="https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews" target="_blank">customers photos</a> who used that same paint.
-Which gives a good impression how it will look like.
+Choosing the dark green paint was also challenging since it's hard to judge how a color will truly look on a wall.
+I found a shade I liked online, and the product page had many <a href="https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews" target="_blank">customer photos</a> showing that exact paint in real rooms, which gave a much better sense of the final result.
 
 ---
 
@@ -60,12 +58,12 @@ I added an acoustic sound panel wall, painted all other walls and the ceiling fo
 ### Green wall
 
 <img src="images/histor_green_mat_still_searching.webp" alt="Histor Perfect Finish muurverf mat Still Searching" style="margin-left:15px;float:right" width="150px">
-The green wall had to be a dark moss-like green.
-I end up for the wall behind the desk, with `Histor Perfect Finish muurverf mat Still Searching`.
+The accent wall behind the desk had to be a dark, moss-like green.
+I ended up going with `Histor Perfect Finish muurverf mat Still Searching`.
 
-At this site I found a set with
-<a href="https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews" target="_blank">customers photos</a>.
-This gives a good impression of how the color could look like.
+On the product page I found a gallery of
+<a href="https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews" target="_blank">customer photos</a>
+that gave a great impression of how the color looks in a real room.
 
 This color is available at different Dutch hardware stores:
 * [Praxis NL](https://www.praxis.nl/verf-behang-wandbekleding/verf/binnenverf/muurverf/histor-perfect-finish-muurverf-mat-still-searching-2-5l/10049477)
@@ -82,26 +80,23 @@ It's also available at the earlier mentioned hardware stores.
 <img src="images/acoustic_panel_walnut.jpg" alt="3D Akoestisch paneel walnut" style="margin-left:15px;float:right" width="150px">
 </a>
 
-The advantage of these panels is that the wall doesn't need to be perfectly smooth.
-You saw them with a jigsaw to the right height, for each panel you need a single tube special panel glue.
-Press them to the wall, and then you're ready to place the next one.
-The only tricky parts are if you need to cut out a part for the power outlet or a lamp switch.
+One advantage of these panels is that the wall doesn't need to be perfectly smooth underneath.
+Cut the panels to height with a jigsaw, apply a tube of special panel adhesive per panel, press them to the wall, and move on to the next.
+The only fiddly parts are cutting around power outlets or light switches.
 
-The panels really absorb sound due to the felt background.
+The panels does a great job of absorbing the sound.
 
-Most of the wood bars are not fully made of solid wood but are pressed wood with a thin layer of veneer.
-This makes it cheaper to create, but also it's easy to damage this thin layer.
-I don't advise to drill a hole in this wood.
+Most of the wood slats are not solid wood but pressed wood with a thin veneer layer, which keeps costs down but makes the surface easy to damage.
+Drilling into them is not recommended.
 
-
-I end up with the `3D Akoestisch paneel walnut` from Hornbach.
-The size of a single panel is: 2600 x 560 x 18 mm
+I ended up with the `3D Akoestisch paneel walnut` from Hornbach.
+Single panel size: 2600 x 560 x 18 mm.
 
 * [Hornbach NL - walnut](https://www.hornbach.nl/p/3d-akoestisch-paneel-walnut-2600x560x18-mm/12085623/)
 
 <br>
 
-There was also an even darker version available `smoked oak` but for me too dark.
+There was also a darker `smoked oak` version available, but it was too dark for my taste.
 * [Hornbach NL - smoked oak](https://www.hornbach.nl/p/3d-akoestisch-paneel-smoked-oak-2600x560x18-mm/12085631/)
 
 ---
@@ -114,8 +109,8 @@ It looks like a wooden floor, it's strong and easy to install.
 <img src="images/laminate.jpg" alt="Valley warm bruin eiken met V-groef" style="margin-left:15px;float:right" width="150px">
 </a>
 
-The most matching floor with my desk was the `Valley warm bruin eiken met V-groef` aka Valley warm brown oak with V-groove from the Dutch hardware store Karwei NL.
-You can feel the structure on the laminate planks.
+The best match for my desk was the `Valley warm bruin eiken met V-groef` (Valley warm brown oak with V-groove) from the Dutch hardware store Karwei.
+The laminate planks have a tactile surface texture you can feel underfoot.
 
 * [Karwei NL](https://www.karwei.nl/assortiment/laminaat-valley-warm-bruin-eiken-met-v-groef/p/B242244)
 
@@ -126,39 +121,35 @@ I bought there also the matching skirting boards.
 
 <br>
 
-Under this floor, I add an isolation layer to reduce the sound to the floor below and avoid losing heath.
+Under the laminate, I added an insulation layer to reduce sound transmission to the floor below and to minimize heat loss.
 
 ---
 ### Ceiling lights
 
 <img src="/ideas/images/smart_bulb.webp" alt="smart bulb" style="margin-left:15px;float:right" height="150px" />
 
-As I automated my home, I did it also for this room.
+Since I've automated the rest of my home, I did the same for this room.
 
-I keep the original ceiling lights but replaced the lamps with [colored Zigbee bulbs](/buy/smart_home_best_buy_tips#bulb).
-With these bulbs, I can automate them based on occupancy of the room, the part of the day and the amount of light from outside.
-Based on these conditions, I can automatically set the light strength and change the color.
+I kept the original ceiling fixtures but swapped the bulbs for [colored Zigbee bulbs](/buy/smart_home_best_buy_tips#bulb).
+These can be automated based on room occupancy, time of day, and the amount of natural light coming in, automatically adjusting both brightness and color temperature.
 
 ---
 ### Curtains
 
-The curtains are custom-made of thick velours material with an extra isolation layer to keep the cold/warm/sound outside.
-At the [Leen Bakker NL](https://www.leenbakker.nl/gordijnen-en-raamdeco/gordijnen/gordijnen-op-maat) they can make curtains in any size, material, type of pleat, add extra isolation/darken layer, add automation to it etc.
+The curtains are custom-made from thick velour fabric with an added insulation layer to block cold, heat, and sound.
+[Leen Bakker NL](https://www.leenbakker.nl/gordijnen-en-raamdeco/gordijnen/gordijnen-op-maat) offers made-to-measure curtains in any size, fabric, pleat style, with optional blackout or insulation lining, and even motorized options.
 
-The Velours with extra dark layer curtains I have are not available anymore.
+The specific velour curtains with the blackout lining I ordered are no longer available.
 
 ---
 ### Closet
 
 <img src="images/ikea_pax_closet.avif" alt="Ikea Pax closet" style="margin-left:15px;float:right" width="150px" />
 
-For a basic closet, I bought two Ikea Pax closets.
-With straight plain white doors.
-It's a basic clean looking closet.
-When I'm in a video call, the background is clean white without any distractions.
+For storage, I bought two IKEA PAX wardrobes with plain white doors.
+They have a clean, minimal look, and when I'm on a video call the background is a neat white wall with no distractions.
 
-With the online [Ikea Pax closet planner](https://www.ikea.com/addon-app/storageone/pax/web/latest/nl/nl/#/planner) you can design your closet,
-store it for later and order it. It automatically select all the right elements in your basket which you need.
+The [IKEA PAX planner](https://www.ikea.com/addon-app/storageone/pax/web/latest/nl/nl/#/planner) lets you design your configuration online, save it, and order, it automatically adds all the right components to your cart.
 
 * [Ikea - Pax closet](https://www.ikea.com/nl/nl/search/?q=pax)
 
@@ -169,9 +160,9 @@ store it for later and order it. It automatically select all the right elements 
 <img src="images/action_wall_shelf.avif" alt="Action wall planks" style="margin-left:15px;float:right" width="150px" />
 </a>
 
-I have three floating wall shelf in walnut to put some small decorations on to keep my desk clean.
+I have three floating walnut wall shelves for small decorations, which helps keep the desk itself clear.
 
-I found mine at the local Action store. The quality is not the best, but fine for now.
+I found mine at a local Action store. The quality isn't premium, but it works well enough.
 * [Action NL](https://www.action.com/nl-nl/p/2581270/zwevende-wandplank/)
 
 <br>
@@ -180,7 +171,9 @@ Alternatives:
 * MOSSLANDA [(Ikea)](https://www.ikea.com/nl/nl/p/mosslanda-schilderijenplank-walnootpatroon-70586936/)
 * Wall shelf [(AliExpress)](https://s.click.aliexpress.com/e/_c3HEC7eX)
 
-That's it for the room basic materials and elements which I used in my home office room.
+<br>
+
+That covers all the materials and elements I used to decorate the room.
 
 ---
 Home office:\

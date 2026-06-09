@@ -8,9 +8,9 @@ image: /home_office_desk/images/home_office_desk_result3.jpg
 
 # Home office: Mood board
 
-The idea started with a digital *mood-board*, a Pinterest board where I first stored photos of offices and office accessories which looked cool to me.
-After a few months filling this board, I could see a pattern of colors and materials of what I wanted.
-Dark (walnut), with dark green and acoustic panels was the common factor.
+The idea started with a digital *mood board*, a Pinterest board where I saved photos of offices and accessories that caught my eye.
+After a few months of collecting images from Pinterest, social media, and Google Images, a clear pattern of colors and materials emerged.
+Dark walnut tones, dark green accents, and acoustic panels were the common thread running through most of the photos.
 
 <a href="images/mood_board_pinterest.png">
 <img src="images/mood_board_pinterest.png" alt="Pinterest mood board" width="100%" />

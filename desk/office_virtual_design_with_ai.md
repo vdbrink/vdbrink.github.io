@@ -7,8 +7,8 @@ tags: [Home office, decoration, AI]
 
 # Home office: Virtual room design with AI
 
-After I created a Pinterest [mood board](office_mood_board) with examples of office (elements) and desk setup I like 
-it was time to combine those elements and look how these thing looks in MY office.
+After building a Pinterest [mood board](office_mood_board) with office inspiration and desk setups I liked,
+it was time to combine those elements and see how they would actually look in MY room.
 
 <a href="images/mood_board_pinterest.png">
 <img src="images/mood_board_pinterest.png" alt="Pinterest mood board" width="300px" />
@@ -16,9 +16,8 @@ it was time to combine those elements and look how these thing looks in MY offic
 
 <em>Pinterest mood board.</em>
 
-To make my idea more realistic, I created a virtual design by used [Gemini AI](https://gemini.google.com/)
-to convert a photo of the old room situation to how this room could look like based on my mood board.
-I uploaded the photo and entered prompts like this:
+To make the idea more realistic, I used [Gemini AI](https://gemini.google.com/) to transform a photo of the existing room into what it could look like based on my mood board.
+I uploaded the photo and entered prompts like these:
 * "Remove all the items from the room"
 * "Add a walnut floor"
 * "Make the back wall dark green"
@@ -27,20 +26,19 @@ I uploaded the photo and entered prompts like this:
 * "Add two floating planks to the back wall and put small plants on it"
 
 <br>
-It generated a photo how it could like:
+This is what it generated:
 
 <a href="images/ai_home_office_design_idea.png">
-<img src="images/ai_home_office_design_idea.png" alt="AI generate room design" width="100%" />
+<img src="images/ai_home_office_design_idea.png" alt="AI generated room design" width="100%" />
 </a>
 <br>
-<em>Use AI to convert a real room photo to how it could look like. That's a big difference!</em>
+<em>AI-transformed room photo based on the mood board prompts. Quite a difference!</em>
 
-You can fine tune your prompt by switching wall design or ask to add more details.
-Or upload photos from your mood board and ask to apply elements from these photos to your photo.
-Or ask for a few alternative designs to get more examples of how it could look like when you realize your idea.
+From there you can keep refining, swap out wall designs, ask for more detail, or upload photos from your mood board and have AI apply those specific elements to your room photo.
+You can also request a few alternative designs to explore different directions before committing to one.
 
-For AI, it's sometimes hard to scale elements, on the generated photo, to the right sizes.
-It's good to measure yourself also if they fit correct and match reality.
+One thing to watch out for: AI often struggles with scale.
+Elements in the generated image may not be sized realistically, so always measure things yourself to verify they would actually fit.
 
 ---
 Home office:\

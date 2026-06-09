@@ -9,8 +9,8 @@ image: /home_office_desk/images/youp02_desk.jpg
 
 # Home office: Desk setup hardware
 
-On this page you can read which hardware products I use on a daily basis in my home office.
-These products make my life easier and make me happy to work with!
+On this page you can find all the hardware products I use daily in my home office.
+These are the items that genuinely make my work life easier and more enjoyable.
 
 <a href="images/home_office_desk_result2.jpg">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
@@ -37,20 +37,19 @@ These products make my life easier and make me happy to work with!
 ---
 ## Amazon shop list
 
-The products on this page which are also for sale on Amazon are listed on
+Products from this page that are available on Amazon are listed on
 [Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
-Not every product I have is also available on Amazon, and the exact same product I use is excluded from the lists, like the
-desk, monitor, and chair, because they are replaced by a newer model or bought from another store.
-If there is a newer version, I place that one in the list.
+Not everything I own is on Amazon, some items like the desk, monitor, and chair are excluded because they've been replaced by newer models or were purchased elsewhere.
+Where a newer version exists, I link to that instead.
 
 ---
 ## Desk
 
-I had a fixed desk made of wood panels.
-Now I want a standing desk, so I don't sit all day long.
+My old desk was a fixed setup made from wood panels.
+I wanted to switch to a standing desk to avoid sitting all day.
 
-In the end, I bought the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
-It has a dual motor, four programmable heights, and I chose the 200x80 cm walnut desktop made from one piece (they sell it in different sizes from 120x80 up to 200x100 cm!)
+I ended up buying the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
+It has a dual motor, four programmable height presets, and I chose the 200×80 cm walnut surface, a single solid piece (available in sizes from 120×80 up to 200×100 cm).
 
 <a href="images/desk_low2.jpg">
 <img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
@@ -66,8 +65,7 @@ My wish list for my new desk was clear:
 * Minimal wires visible
 
 <br>
-It took some time to find the perfect desk.
-There are so many companies that sell such desks.
+Finding the right desk took a while, there are a lot of companies selling standing desks.
 
 After filtering, I had to choose between these ones:
 * The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it didn't have the full 200 cm wide top.
@@ -80,7 +78,7 @@ After filtering, I had to choose between these ones:
 </a>
 <em>YOUP02 Cognac Walnut</em>
 
-If you're looking for more information about desk choices, you can take a look at [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/) to discuss standing desks.
+For more discussion and desk comparisons, check out [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/).
 
 ---
 ## Monitor
@@ -89,17 +87,17 @@ The monitor is a Philips 49" curved screen with a resolution of 5120 x 1440.
 It has an aspect ratio of 32:9 and a curvature of 1800R.
 It's the size of two 27" screens next to each other.
 
-This is one of my best purchases ever! I still love it every day.
-The big advantage compared to two separate 27" screens is that you can split your application windows however you like at any given moment.
-Sometimes you want three equal application windows, or one big window in the middle and smaller ones on the sides.
-It's all possible with a big single screen, and you don't have to worry about the bezels in between two separate screens.
+Genuinely one of the best purchases I've ever made, I still love it every day I work with it over the past few years!
+The big advantage over two separate 27" screens is the flexibility to split your windows however you want at any moment.
+Three equal panels, or one large window in the center with smaller ones on the sides.
+This is all possible with this single large display, and no bezels to break up the view.
 
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="100%" />
 </a>
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
-Newer versions of this one are now available, with even better screens and the same dimensions.
+Newer versions are now available with improved specs but the same dimensions and advantages.
 
 <a href="images/philips_49inch_screen.webp">
 <img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="450px" />
@@ -115,7 +113,7 @@ Alternative:
 
 The Philips monitor has a single DisplayPort 1.4 and 3x HDMI 2.0 ports.
 The MacBook M4 Pro has Thunderbolt 4 ports (USB-C) with DisplayPort 2.1.
-To get the maximum resolution of 5120 x 1440 with 165 Hz, I use a DisplayPort cable to get the best result from my monitor.
+To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for the best possible signal quality.
 
 <a href="images/monitor_cable.jpg">
 <img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" width="150px" />
@@ -136,8 +134,7 @@ To keep a clean desk, I was looking for:
 
 <br>
 I ended up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).\
-It's made of strong metal and can hold up to 20 kg. 
-It matches all my requirements and does not cost too much.
+It's built from solid metal, holds up to 20 kg, meets all my requirements, and is reasonably priced.
 
 <a href="images/act_ac8340.avif">
 <img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
@@ -152,8 +149,8 @@ Alternative, similar design:
 ---
 ## Laptop
 
-The laptop I use is a powerful Apple MacBook M4 Pro 16-inch laptop for high-performance daily tasks and is perfect for on the go.
-MacBooks are more powerful and have much longer battery life compared to Windows laptops.
+My daily driver is an Apple MacBook M4 Pro 16-inch, powerful enough for demanding tasks and great to take on the go.
+MacBooks consistently outperform Windows laptops on both performance and battery life.
 
 <a href="images/macbook.jpg">
 <img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
@@ -184,12 +181,11 @@ MacBooks are more powerful and have much longer battery life compared to Windows
 ---
 ## Keyboard
 
-For a keyboard, I want wireless, silent, smooth typing, with a large Shift and Enter key, volume buttons, and a numpad.
-Kind of similar to the Apple Magic Keyboard, but with a numpad and more function keys to control music and brightness.
+My keyboard requirements were: wireless, silent, smooth typing, large Shift and Enter keys, volume controls, and a numpad.
+Think Apple Magic Keyboard, but with a numpad and media and brightness function keys.
 
-The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was a logical choice. 
-It offers much more than what is on my wish list.
-It can easily switch between three devices, lights up when you come closer, and charges via USB-C.
+The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was the obvious choice.
+It exceeds my wish list, switches between three devices, lights up when your hands approach, and charges via USB-C.
 
 <a href="images/mx-keys-s-top-view-graphite-us-intl.webp">
 <img src="images/mx-keys-s-top-view-graphite-us-intl.webp" alt="Logitech MX Keys S" width="450px" />
@@ -204,10 +200,9 @@ It can easily switch between three devices, lights up when you come closer, and 
 ---
 ## Chair
 
-The chair I use is an Ikea Millberget and sits pretty comfortably, but it doesn't have many adjustable features.\
-Since I have my standing desk, there are some weeks when I stand all day for multiple days.
-That makes a good chair not the main priority.
-I am still looking for a fully adjustable black leather-look chair for the future.
+My current chair is the IKEA Millberget, comfortable enough, but with limited adjustability.\
+Since getting the standing desk, there are weeks where I stand for most of the day, which takes some pressure off finding the perfect chair.
+That said, I'm still on the lookout for a fully adjustable black leather-look chair.
 
 <a href="images/chair_ikea_millberget.avif">
 <img src="images/chair_ikea_millberget.avif" alt="Ikea Millberget office chair" width="250px" />
@@ -218,10 +213,9 @@ I am still looking for a fully adjustable black leather-look chair for the futur
 ---
 ## Mouse
 
-The mouse I use is a basic wireless one with soft-click and scroll features.
-Simple but perfect for years!\
-Works with a single AA battery.\
-I'll upgrade it in the future with one from the Logitech MX Master series.
+My mouse is a basic wireless model with silent clicks and a scroll wheel, simple, but it's served me well for years.\
+It runs on a single AA battery.\
+At some point I'll upgrade to a Logitech MX Master.
 
 <a href="images/mouse.avif">
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
@@ -239,7 +233,7 @@ Alternative/Future versions:
 ---
 ## Accessories
 
-Check also my [accessories](office_accessories) page for the other used hardware and decorations I have on my desk and in my office.
+Check out the [accessories](office_accessories) page for the other hardware and decorations I have on and around my desk.
 I have these items:\
  [Monitor light](office_accessories#monitor-light),
  [Desk mat](office_accessories#desk-mat),
@@ -270,16 +264,16 @@ I have these items:\
 ---
 ## Future improvements
 
-There are always things to improve.
-Sometimes it takes some time until you find the perfect product that meets all your wishes, or at least most of them.
-I also have some of them on my wish list.
+There's always something to improve.
+Sometimes it takes a while to find the right product that ticks most of the boxes, or even all of them.
+The items below are still on my wish list.
 
-If you know where I can get one of the products below, please let me know!
+If you know a good source for any of them, let me know!
 
 ### Clock
 
-I'm still looking for a matching walnut wall clock.
-This is the kind of clock I want: very minimalist, without numbers or gold, and in the same walnut color as my wall or desk.
+Still searching for a walnut wall clock that fits the room.
+The ideal would be very minimalist, no numbers, no gold, and matching the walnut tone of the desk and acoustic panels.
 
 <a href="images/wall_clock.jpg">
 <img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
@@ -291,18 +285,18 @@ Alternative:
 ----
 ### Docking station
 
-I'm looking for a docking station that can connect my (work/private) laptop to the monitor and other peripherals with a single cable.
+I'm looking for a docking station that connects my work or personal laptop to the monitor and all peripherals with a single cable.
 
-It must also meet at least these requirements:
-* Main Monitor 49" 5K @ 180Hz
-* Future Second monitor 4K @ 60Hz
+Minimum requirements:
+* Main monitor output 49" at 5K @ 165Hz
+* Future second monitor at least 4K @ 60Hz
 * Power supply of 60W+ to charge the laptop
 * Cabled network connection
-* Connect USB peripherals
+* Connect multiple USB peripherals
 * Wake up the MacBook
 
 <p></p>
-I found the ultimate one, the CalDigit TS5, but it's very expensive.
+The CalDigit TS5 looks like the ideal option, but the price is steep.
 Is it worth it?
 
 <a href="images/caldigit_ts5_docking_station.jpg">
@@ -315,20 +309,17 @@ Is it worth it?
 
 <br>
 
-Please let me know if you know a good alternative docking station that matches my requirements!
+Know a good alternative that meets those requirements? Let me know!
 
 ----
 ### Camera
 
-A newer 4K camera with auto-zoom and auto-follow features would be a nice upgrade.
-Then everybody can see me sharp and clearly in the next video call!
+A 4K camera with auto-zoom and auto-follow would be a solid upgrade, sharp and clear for video calls.
 
 ---
 ### Chair
 
-There are so many brands that make good chairs.\
-It is very hard to choose a good one. For now, I found these two.\
-Any other good suggestions?
+There are a lot of good chair brands, which makes choosing difficult. These two are my current top picks, open to other suggestions.
 
 * {{imgBasket}} [Haworth Fern](https://www.haworth.com/eu/en/products/executive-chairs/fern.html)
 * {{imgBasket}} [Noblechairs gaming leather chair](https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart)
@@ -344,7 +335,7 @@ When I replace my mouse, it will be a Logitech MX Master 3S or 4.
 <br>
 
 ---
-Do you have any other good upgrade suggestions for my home office? Please share them as a comment on my posts.
+Have other upgrade suggestions for my home office? Share them in the comments!
 
 ---
 
