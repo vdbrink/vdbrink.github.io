@@ -7,10 +7,9 @@ tags: [Home office, decoration]
 
 # Home office: Room decoration
 
-## Introduction
+<br>
 
-I redecorated my new office room.
-I added an acoustic sound panel wall, painted all other walls and the ceiling for a new fresh look!
+I decorated my new office room with acoustic sound panel wall, painted all other walls and the ceiling for a new fresh look!
 
 ---
 Home office:\
@@ -176,6 +175,9 @@ Alternatives:
 That covers all the materials and elements I used to decorate the room.
 
 ---
+
+<br>
+
 Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
@@ -183,3 +185,5 @@ Home office:\
 Room decoration |
 [Desk setup hardware](desk_setup_hardware) |
 [Accessories](office_accessories)
+
+<br>

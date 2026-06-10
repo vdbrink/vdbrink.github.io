@@ -9,13 +9,15 @@ image: /home_office_desk/images/youp02_desk.jpg
 
 # Home office: Desk setup hardware
 
+<br>
+
 On this page you can find all the hardware products I use daily in my home office.
 These are the items that genuinely make my work life easier and more enjoyable.
 
 <a href="images/home_office_desk_result2.jpg">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
 </a>\
-<em>Final desk setup in standing mode.</em>
+<em style="display:block; text-align:center">Final desk setup in standing mode</em>
 
 ---
 
@@ -76,7 +78,7 @@ After filtering, I had to choose between these ones:
 <a href="images/youp02_desk.jpg">
 <img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" width="350px" />
 </a>
-<em>YOUP02 Cognac Walnut</em>
+<em style="display:block; text-align:center">YOUP02 Cognac Walnut</em>
 
 For more discussion and desk comparisons, check out [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/).
 
@@ -193,7 +195,7 @@ It exceeds my wish list, switches between three devices, lights up when your han
 
 [![MX Keys S](http://img.youtube.com/vi/JAaat5n8WOA/0.jpg)](https://www.youtube.com/watch?v=JAaat5n8WOA "MX Keys S Combo Master Your Flow")
 <br>
-<em>YouTube product video about the Logitech MX Keys</em>
+<em style="display:block; text-align:center">YouTube product video about the Logitech MX Keys</em>
 
 * {{imgBasket}}Logitech MX Keys [(Amazon US)](https://amzn.to/4nFt3IK) [(Amazon NL)](https://amzn.to/4dBkb2a)
 

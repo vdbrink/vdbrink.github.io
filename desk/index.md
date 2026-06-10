@@ -10,8 +10,10 @@ image: /home_office_desk/images/home_office_desk_result3.jpg
 
 # Home office:<br>Desk setup room design with AI
 
+<br>
+
 On this page you can read the steps of how I started by gathering inspiration, then created a virtual AI mockup of my new home office,
-and finally brought it all to life with real products.
+and finally brought it to life with real products.
 
 Are you looking for inspiration for your own home office desk setup?\
 Or maybe you want to see how AI can help with interior design?\
@@ -20,41 +22,46 @@ Then this is the place for you!
 <a href="images/desk_collage1.png">
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
 </a>
-
 <em style="display:block; text-align:center;">The final result</em>
 
 I used to have a basic home office desk made of large planks on fixed legs.
 It worked fine for years, but I wanted the option to stand while working and something that looked more professional.
 My old desk was cluttered, and I wanted to start fresh with a clean workspace I could also use for hobby projects, like building my own sensors.
+
 Since I had a spare bedroom, I decided to convert it into a dedicated home office.
-That gave me the opportunity to start from scratch, redoing the walls and everything else to create my dream home office!
+That gave me the opportunity to start from scratch, redoing the walls, ceiling, and floor to create my dream home office!
 
 <a href="images/ai_home_office_design_idea.png">
 <img src="images/ai_home_office_design_idea.png" alt="AI generated room design" width="100%" />
 </a>
+<em style="display:block; text-align:center">The old room situation, virtual design, new situation</em>
 
-This project is split into separate sections, each on its own page, read whichever topics interest you.
+This project is split into separate sections, each on its own page. Read whichever topics interest you.
 
 * I started with a [mood board](office_mood_board) of example offices and materials that inspired me.
 * Then I created a [virtual design with the help of AI](office_virtual_design_with_ai).
 * Next, I found the best matching materials for the [room decoration](office_room_decoration).
 * Then I picked the [desk setup hardware](desk_setup_hardware).
 * Finally, I added [accessories](office_accessories) for the finishing touch.
-* There is always room for [future improvements](desk_setup_hardware#future_improvements).
+* There is always room for [future improvements](desk_setup_hardware#future-improvements).
 
 ---
 
 ## The result
 
-A desk setup is never truly finished, there are always improvements to make or accessories to swap out.
+A desk setup is never truly finished; there are always improvements to make or accessories to swap out.
 But the main build is done, and comparing it to my original [mood board](office_mood_board), the end result is surprisingly close!
 
-<img src="images/home_office_desk_result3.jpg" alt="Home office desk result" width="100%" /><br>
-<em>Home office desk result</em>
+<a href="images/home_office_desk_result3.jpg">
+<img src="images/home_office_desk_result3.jpg" alt="Home office desk result" width="100%" />
+</a>
+<em style="display:block; text-align:center">Home office desk result</em>
 
-If you like any of the products you see on the photos, I've listed most of them on the [desk setup page](desk_setup_hardware) and [accessories](office_accessories) pages so you can get them yourself as well.
+If you like any of the products you see in the photos, I've listed most of them on the [desk setup page](desk_setup_hardware) and [accessories](office_accessories) pages so you can get them yourself as well.
 
 ---
+
+<br>
 
 Home office:\
 Overview |
@@ -63,3 +70,5 @@ Overview |
 [Room decoration](office_room_decoration) |
 [Desk setup hardware](desk_setup_hardware) |
 [Accessories](office_accessories)
+
+<br>

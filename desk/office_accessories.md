@@ -9,6 +9,8 @@ image: /home_office_desk/images/desk_collage3.png
 
 # Home office: Accessories
 
+<br>
+
 On this page you can read which accessories I use to decorate and make working in my office a joy!
 
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
@@ -396,6 +398,9 @@ Alternative:
 With this small vacuum clean for your desk you can quickly remove small trash without scratching anything.
 
 ---
+
+<br>
+
 Home office:\
 [Overview](index) |
 [Mood board](office_mood_board) |
@@ -403,3 +408,5 @@ Home office:\
 [Room decoration](office_room_decoration) |
 [Desk setup hardware](desk_setup_hardware) |
 Accessories
+
+<br>
