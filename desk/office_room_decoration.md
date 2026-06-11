@@ -9,68 +9,72 @@ tags: [Home office, decoration]
 
 <br>
 
-I decorated my new office room with acoustic sound panel wall, painted all other walls and the ceiling for a new fresh look!
+I completely redecorated my new office with an acoustic panel wall, fresh paint on the other walls and ceiling, and a new floor.
+Dare to use color! You can always repaint it if you eventually decide you do not like it.
+At least you tried it!
 
----
-Home office:\
-[Overview](index) |
-[Mood board](office_mood_board) |
-[Virtual design with AI](office_virtual_design_with_ai) |
-Room decoration |
-[Desk setup hardware](desk_setup_hardware) |
-[Accessories](office_accessories)
+<a href="images/room_decoration.jpg" style="display:block; text-align:center">
+<img src="images/room_decoration.jpg" alt="room decoration" width="50%" />
+</a>
+<br>
+<em style="display:block; text-align:center">The new office space with a new acoustic panel wall, freshly painted walls, and a new floor</em>
 
 ---
 
 ## Collecting the materials
 
-With my [virtual room design](desk_setup_hardware#virtual-room-design) in hand, I went looking for real products and materials that matched the concept.
+With my [virtual room design](desk_setup_hardware#virtual-room-design) as a guide, I started looking for real products and materials that matched the concept.
 A 1-to-1 match isn't always possible since you're limited to what's actually available on the market.
 
 <img src="images/laminate.jpg" alt="walnut color" style="margin-left:15px;float:right" width="150px">
-When combining different products in the same wood tone, walnut, in my case, the colors need to match as closely as possible.
+When combining different products in the same wood tone, walnut in my case, the colors need to match as closely as possible.
 Online product photos can be misleading; even a slight difference in tone can change the entire look in real life.
 For that reason, I wanted to buy as many items as possible from a physical store so I could compare colors directly.
-The first big item I ordered online was the desk surface.
-Using its color as a reference, I then went shopping for the other major pieces, like the floor and acoustic panels.
 
-I had already bought online a small wooden drink coaster that luckily matched the desk's color and grain pattern exactly.
-It was much easier to bring that to stores as a color reference than lugging the entire desk top around.
+The first big item I ordered online was the desk, including the matching **desktop surface**.
+I used that color as a reference when shopping for the other major pieces, such as the floor and acoustic panels.
+I had already bought a small wooden drink coaster online that luckily matched the color and grain pattern of the desktop exactly.
+It was much easier to bring that to stores as a color reference than to carry the entire desktop around.
 
-For the floor, I visited a few local stores and compared the coaster against different laminate options.
+For the **floor**, I visited a few local stores and compared the coaster against different laminate models.
 Holding it at different angles showed how much the color can shift, which confirmed that having a physical sample was the right call.
 At one store I found a perfect match, and they also sell skirting boards in the same color.
 
-The wall panels were more difficult to find, the stores I visited only sold a few basic light and dark wood options.
+The **wall panels** were more difficult to find. 
+The stores I visited only sold a few basic light and dark wood models.
 None matched exactly, but one was close enough.
 
-Choosing the dark green paint was also challenging since it's hard to judge how a color will truly look on a wall.
+Choosing the dark **green paint** was also challenging since it's hard to judge how a color will truly look on a wall.
 I found a shade I liked online, and the product page had many <a href="https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews" target="_blank">customer photos</a> showing that exact paint in real rooms, which gave a much better sense of the final result.
 
 ---
 
 ## Room design
 
-I have taken care of the entire room.
-I added an acoustic sound panel wall, painted all other walls and the ceiling for a new fresh look!
+I took care of the entire room myself.
+Here I highlight the products I ended up using to decorate it.
 
 ### Green wall
 
 <img src="images/histor_green_mat_still_searching.webp" alt="Histor Perfect Finish muurverf mat Still Searching" style="margin-left:15px;float:right" width="150px">
 The accent wall behind the desk had to be a dark, moss-like green.
-I ended up going with `Histor Perfect Finish muurverf mat Still Searching`.
+I ended up choosing `Histor Perfect Finish muurverf mat Still Searching`.
 
-On the product page I found a gallery of
+On the product page of a local store, I found a gallery of
 <a href="https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews" target="_blank">customer photos</a>
 that gave a great impression of how the color looks in a real room.
 
 This color is available at different Dutch hardware stores:
 * [Praxis NL](https://www.praxis.nl/verf-behang-wandbekleding/verf/binnenverf/muurverf/histor-perfect-finish-muurverf-mat-still-searching-2-5l/10049477)
-* [Karwei NL](https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557#reviews)
+* [Karwei NL](https://www.karwei.nl/assortiment/histor-perfect-finish-muurverf-mat-still-searching-2-5-liter/p/B155557)
 * [Hubo NL](https://www.hubo.nl/products/histor-perfect-finish-muurverf?_pos=1&_sid=d26b8686f&_ss=r&variant=48564289372412)
+<p></p>
+For the white color on the other walls and the ceiling, I used `Histor Monodek muurverf RAL 9010 gebroken wit`.
+It is also available at the hardware stores mentioned above.
 
-The white color I used for the other walls and the ceiling is `Histor Monodek muurverf RAL 9010 gebroken wit`
-It's also available at the earlier mentioned hardware stores.
+* [Praxis NL](https://www.praxis.nl/verf-behang-wandbekleding/verf/binnenverf/muurverf/histor-monodek-muurverf-mat-ral-9010-12-5l/5026512)
+* [Karwei NL](https://www.karwei.nl/assortiment/histor-monodek-muurverf-ral-9010-gebroken-wit-10-liter-25-gratis/p/B517336)
+* [Hubo NL](https://www.hubo.nl/products/histor-monodek-muurverf-mat-ral9010-gebroken-wit-10l?_pos=12&_sid=389d0926e&_ss=r)
 
 ---
 ### Acoustic sound panels
@@ -79,21 +83,21 @@ It's also available at the earlier mentioned hardware stores.
 <img src="images/acoustic_panel_walnut.jpg" alt="3D Akoestisch paneel walnut" style="margin-left:15px;float:right" width="150px">
 </a>
 
-One advantage of these panels is that the wall doesn't need to be perfectly smooth underneath.
-Cut the panels to height with a jigsaw, apply a tube of special panel adhesive per panel, press them to the wall, and move on to the next.
+These panels look nice, and one advantage is that the wall underneath does not need to be perfectly smooth.
+Cut the panels to the correct height with a jigsaw, apply a tube of special panel adhesive per panel, press them to the wall, and move on to the next one.
 The only fiddly parts are cutting around power outlets or light switches.
 
-The panels does a great job of absorbing the sound.
+The panels do a great job of absorbing sound.
 
-Most of the wood slats are not solid wood but pressed wood with a thin veneer layer, which keeps costs down but makes the surface easy to damage.
-Drilling into them is not recommended.
+Most of the wood panels are made with slats that are not solid wood but pressed wood with a thin veneer layer, which keeps costs down but makes the surface easy to damage.
+Drilling holes into them is not recommended.
 
-I ended up with the `3D Akoestisch paneel walnut` from Hornbach.
-Single panel size: 2600 x 560 x 18 mm.
+I ended up with the `3D Akoestisch paneel walnut` from Hornbach.\
+A single panel size is: 2600 x 560 x 18 mm.
 
 * [Hornbach NL - walnut](https://www.hornbach.nl/p/3d-akoestisch-paneel-walnut-2600x560x18-mm/12085623/)
 
-<br>
+<p></p>
 
 There was also a darker `smoked oak` version available, but it was too dark for my taste.
 * [Hornbach NL - smoked oak](https://www.hornbach.nl/p/3d-akoestisch-paneel-smoked-oak-2600x560x18-mm/12085631/)
@@ -101,8 +105,8 @@ There was also a darker `smoked oak` version available, but it was too dark for 
 ---
 ### Floor
 
-On the floor, I used laminate.
-It looks like a wooden floor, it's strong and easy to install.
+For the floor, I used laminate.
+It looks like a wooden floor, is strong, and is easy to install.
 
 <a href="images/laminate.jpg">
 <img src="images/laminate.jpg" alt="Valley warm bruin eiken met V-groef" style="margin-left:15px;float:right" width="150px">
@@ -113,12 +117,12 @@ The laminate planks have a tactile surface texture you can feel underfoot.
 
 * [Karwei NL](https://www.karwei.nl/assortiment/laminaat-valley-warm-bruin-eiken-met-v-groef/p/B242244)
 
-<br>
+<p></p>
 
-I bought there also the matching skirting boards.
+I also bought the matching skirting boards there.
 * [Karwei NL](https://www.karwei.nl/assortiment/plakplint-nr-655-bruingrijs/p/B113803)
 
-<br>
+<p></p>
 
 Under the laminate, I added an insulation layer to reduce sound transmission to the floor below and to minimize heat loss.
 
@@ -145,10 +149,10 @@ The specific velour curtains with the blackout lining I ordered are no longer av
 
 <img src="images/ikea_pax_closet.avif" alt="Ikea Pax closet" style="margin-left:15px;float:right" width="150px" />
 
-For storage, I bought two IKEA PAX wardrobes with plain white doors.
-They have a clean, minimal look, and when I'm on a video call the background is a neat white wall with no distractions.
+For storage, I bought IKEA PAX wardrobes with plain white doors.
+They have a clean, minimal look, and when I'm in a video call, the background is a neat white wall with no distractions.
 
-The [IKEA PAX planner](https://www.ikea.com/addon-app/storageone/pax/web/latest/nl/nl/#/planner) lets you design your configuration online, save it, and order, it automatically adds all the right components to your cart.
+The [IKEA PAX planner](https://www.ikea.com/addon-app/storageone/pax/web/latest/nl/nl/#/planner) lets you design your configuration online, save it, and then order it. It automatically adds all the right components to your cart.
 
 * [Ikea - Pax closet](https://www.ikea.com/nl/nl/search/?q=pax)
 
@@ -164,7 +168,7 @@ I have three floating walnut wall shelves for small decorations, which helps kee
 I found mine at a local Action store. The quality isn't premium, but it works well enough.
 * [Action NL](https://www.action.com/nl-nl/p/2581270/zwevende-wandplank/)
 
-<br>
+<p></p>
 
 Alternatives:
 * MOSSLANDA [(Ikea)](https://www.ikea.com/nl/nl/p/mosslanda-schilderijenplank-walnootpatroon-70586936/)
@@ -172,7 +176,9 @@ Alternatives:
 
 <br>
 
-That covers all the materials and elements I used to decorate the room.
+That covered all the materials and elements I used to decorate the room.
+
+The next part is to fill the room with the [desk and peripherals](desk_setup_hardware).
 
 ---
 

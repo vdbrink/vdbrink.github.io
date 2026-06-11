@@ -11,10 +11,10 @@ image: /home_office_desk/images/youp02_desk.jpg
 
 <br>
 
-On this page you can find all the hardware products I use daily in my home office.
+On this page you can find all the basic hardware products I use daily in my home office.
 These are the items that genuinely make my work life easier and more enjoyable.
 
-<a href="images/home_office_desk_result2.jpg">
+<a href="images/home_office_desk_result2.jpg" style="display:block; text-align:center">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
 </a>\
 <em style="display:block; text-align:center">Final desk setup in standing mode</em>
@@ -41,7 +41,8 @@ These are the items that genuinely make my work life easier and more enjoyable.
 
 Products from this page that are available on Amazon are listed on
 [Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
-Not everything I own is on Amazon, some items like the desk, monitor, and chair are excluded because they've been replaced by newer models or were purchased elsewhere.
+Not everything I own is on Amazon. 
+Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased elsewhere.
 Where a newer version exists, I link to that instead.
 
 ---
@@ -51,7 +52,8 @@ My old desk was a fixed setup made from wood panels.
 I wanted to switch to a standing desk to avoid sitting all day.
 
 I ended up buying the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
-It has a dual motor, four programmable height presets, and I chose the 200×80 cm walnut surface, a single solid piece (available in sizes from 120×80 up to 200×100 cm).
+It has dual motors and four programmable height presets. 
+I chose the 200×80 cm walnut surface, a single solid piece that is also available in sizes from 120×80 up to 200×100 cm.
 
 <a href="images/desk_low2.jpg">
 <img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
@@ -67,11 +69,11 @@ My wish list for my new desk was clear:
 * Minimal wires visible
 
 <br>
-Finding the right desk took a while, there are a lot of companies selling standing desks.
+Finding the right desk took a while because there are many companies selling standing desks.
 
-After filtering, I had to choose between these ones:
+After filtering the options, I had to choose between these:
 * The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it didn't have the full 200 cm wide top.
-* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It has rounded corners and a cable hole, which I did not like that much.
+* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really like.
 * The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all criteria but doesn't have many reviews.
 <p></p>
 
@@ -89,17 +91,17 @@ The monitor is a Philips 49" curved screen with a resolution of 5120 x 1440.
 It has an aspect ratio of 32:9 and a curvature of 1800R.
 It's the size of two 27" screens next to each other.
 
-Genuinely one of the best purchases I've ever made, I still love it every day I work with it over the past few years!
+This is genuinely one of the best purchases I've ever made, and I still love using it every workday.
 The big advantage over two separate 27" screens is the flexibility to split your windows however you want at any moment.
-Three equal panels, or one large window in the center with smaller ones on the sides.
-This is all possible with this single large display, and no bezels to break up the view.
+You can use three equal windows, or one large window in the center with smaller ones on the sides.
+This is all possible with one large display, without bezels to break up the view.
 
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="100%" />
 </a>
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
-Newer versions are now available with improved specs but the same dimensions and advantages.
+Newer versions are now available with improved specs, while keeping the same dimensions and advantages.
 
 <a href="images/philips_49inch_screen.webp">
 <img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="450px" />
@@ -129,9 +131,10 @@ To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for
 
 To keep a clean desk, I was looking for:
 * A monitor arm that holds the screen **stable**, and is attached to the desk.
-* I prefer not to have a monitor arm in the middle of the desk for the **floating** monitor effect.
+* I prefer not to have a monitor arm in the middle of the desk, so the monitor has a **floating** effect.
 * It should also easily hold the **weight** of the 12 kg 49" screen.
-* It hides the **wires** and doesn't stick out on the back, otherwise I would have to move the desk away from the wall and lose space.
+* It hides the **wires** and doesn't stick out at the back. 
+Otherwise, I would have to move the desk away from the wall and lose space.
 * I can easily **pull and push** the screen back and forth without unscrewing bolts.
 
 <br>
@@ -151,7 +154,8 @@ Alternative, similar design:
 ---
 ## Laptop
 
-My daily driver is an Apple MacBook M4 Pro 16-inch, powerful enough for demanding tasks and great to take on the go.
+My daily driver is an Apple MacBook M4 Pro 16-inch. 
+It is powerful enough for demanding tasks and great to take on the go.
 MacBooks consistently outperform Windows laptops on both performance and battery life.
 
 <a href="images/macbook.jpg">
@@ -184,7 +188,7 @@ MacBooks consistently outperform Windows laptops on both performance and battery
 ## Keyboard
 
 My keyboard requirements were: wireless, silent, smooth typing, large Shift and Enter keys, volume controls, and a numpad.
-Think Apple Magic Keyboard, but with a numpad and media and brightness function keys.
+Think Apple Magic Keyboard, but with a numpad plus media and brightness function keys.
 
 The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was the obvious choice.
 It exceeds my wish list, switches between three devices, lights up when your hands approach, and charges via USB-C.
@@ -202,7 +206,8 @@ It exceeds my wish list, switches between three devices, lights up when your han
 ---
 ## Chair
 
-My current chair is the IKEA Millberget, comfortable enough, but with limited adjustability.\
+My current chair is the IKEA Millberget. 
+It is comfortable enough, but has limited adjustability.\
 Since getting the standing desk, there are weeks where I stand for most of the day, which takes some pressure off finding the perfect chair.
 That said, I'm still on the lookout for a fully adjustable black leather-look chair.
 
@@ -215,7 +220,8 @@ That said, I'm still on the lookout for a fully adjustable black leather-look ch
 ---
 ## Mouse
 
-My mouse is a basic wireless model with silent clicks and a scroll wheel, simple, but it's served me well for years.\
+My mouse is a basic wireless model with silent clicks and a scroll wheel. 
+It is simple, but it has served me well for years.\
 It runs on a single AA battery.\
 At some point I'll upgrade to a Logitech MX Master.
 
@@ -267,7 +273,7 @@ I have these items:\
 ## Future improvements
 
 There's always something to improve.
-Sometimes it takes a while to find the right product that ticks most of the boxes, or even all of them.
+Sometimes it takes a while to find the right product that ticks most of the boxes, or ideally all of them.
 The items below are still on my wish list.
 
 If you know a good source for any of them, let me know!
@@ -275,7 +281,7 @@ If you know a good source for any of them, let me know!
 ### Clock
 
 Still searching for a walnut wall clock that fits the room.
-The ideal would be very minimalist, no numbers, no gold, and matching the walnut tone of the desk and acoustic panels.
+The ideal one would be very minimalist: no numbers, no gold, and a walnut tone that matches the desk and acoustic panels.
 
 <a href="images/wall_clock.jpg">
 <img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
@@ -316,12 +322,12 @@ Know a good alternative that meets those requirements? Let me know!
 ----
 ### Camera
 
-A 4K camera with auto-zoom and auto-follow would be a solid upgrade, sharp and clear for video calls.
+A 4K camera with auto-zoom and auto-follow would be a solid upgrade: sharp and clear for video calls.
 
 ---
 ### Chair
 
-There are a lot of good chair brands, which makes choosing difficult. These two are my current top picks, open to other suggestions.
+There are a lot of good chair brands, which makes choosing difficult. These two are my current top picks, but I'm open to other suggestions.
 
 * {{imgBasket}} [Haworth Fern](https://www.haworth.com/eu/en/products/executive-chairs/fern.html)
 * {{imgBasket}} [Noblechairs gaming leather chair](https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart)

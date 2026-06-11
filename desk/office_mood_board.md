@@ -10,9 +10,9 @@ image: /home_office_desk/images/home_office_desk_result3.jpg
 
 <br>
 
-The idea how it must look like was started with a digital *mood board*, a Pinterest board where I saved photos of offices and accessories that caught my eye.
-After a few months of collecting images from Pinterest, social media, and Google Images, a clear pattern of colors and materials emerged.
-Dark walnut tones, dark green accents, green plants, and acoustic panels were the common thread running through most of the photos.
+My idea for how the office should look started with a digital *mood board*: a Pinterest board where I saved photos of offices and accessories that caught my eye.
+After a few months of collecting images from Pinterest, social media, and Google Images, a clear pattern of colors and materials started to emerge.
+Dark walnut tones, dark green accents, green plants, and acoustic panels became the common thread running through most of the photos.
 
 <a href="images/mood_board_pinterest.png">
 <img src="images/mood_board_pinterest.png" alt="Pinterest mood board" width="100%" />
@@ -20,9 +20,10 @@ Dark walnut tones, dark green accents, green plants, and acoustic panels were th
 <em style="display:block; text-align:center">Pinterest mood board</em>
 <br>
 
-I'm a fan of hexagon shelves and panels, but you also have to see which products are available on the market and match together.
-The moss terrarium made it in the final version!
-The clock is an AI created image but is exactly what I'm looking for, I still hope it will be in the future a real product.
+I'm a fan of hexagon shelves and panels, but you also have to work with products that are actually available and fit well together.
+The moss terrarium made it into the final version!
+The clock is an AI-created image, but it is exactly what I'm looking for. 
+I still hope it will become a real product in the future.
 
 <a href="images/moodboard_didnt_made_it.png">
 <img src="images/moodboard_didnt_made_it.png" alt="mood board" width="100%" />
@@ -30,6 +31,8 @@ The clock is an AI created image but is exactly what I'm looking for, I still ho
 <em style="display:block; text-align:center">Not everything made it to the final version</em>
 <br>
 
+Once I had collected enough ideas, I could start designing a virtual version of what my new office might look like. 
+[Continue reading here...](office_virtual_design_with_ai)
 
 ---
 

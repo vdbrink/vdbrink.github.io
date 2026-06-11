@@ -59,6 +59,8 @@ But the main build is done, and comparing it to my original [mood board](office_
 
 If you like any of the products you see in the photos, I've listed most of them on the [desk setup page](desk_setup_hardware) and [accessories](office_accessories) pages so you can get them yourself as well.
 
+I started with creating a mood board, [continue reading here..](office_mood_board)
+
 ---
 
 <br>
