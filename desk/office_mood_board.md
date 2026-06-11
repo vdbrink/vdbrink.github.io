@@ -21,7 +21,7 @@ Dark walnut tones, dark green accents, green plants, and acoustic panels became 
 <br>
 
 I'm a fan of hexagon shelves and panels, but you also have to work with products that are actually available and fit well together.
-The moss terrarium made it into the final version!
+The [moss terrarium](office_accessories#moss-terrarium) made it into the final version!
 The clock is an AI-created image, but it is exactly what I'm looking for. 
 I still hope it will become a real product in the future.
 

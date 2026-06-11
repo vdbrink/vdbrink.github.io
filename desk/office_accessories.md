@@ -16,14 +16,6 @@ On this page you can read which accessories I use to decorate and make working i
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
 
 ---
-[Overview](index) |
-[Mood board](office_mood_board) |
-[Virtual design with AI](office_virtual_design_with_ai) |
-[Room decoration](office_room_decoration) |
-[Desk setup hardware](desk_setup_hardware) |
-Accessories
-
----
 ## Table of Contents
 <!-- TOC -->
   * [Monitor light](#monitor-light)
@@ -78,7 +70,7 @@ They are available in many different sizes and with different border colors.
 I have the all-black version.
 
 * {{imgBasket}}Large anti-slip mouse mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
-  [Amazon US](https://amzn.to/49ZQjeG)
+  [(Amazon US)](https://amzn.to/49ZQjeG)
 <p></p>
 Alternative:
 * {{imgBasket}}Other all black big mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4TG8ihV)
@@ -93,6 +85,7 @@ I chose a basic camera (years ago) for the features:
 * Good sound and microphone quality (now I use a separate microphone)
 * A mount with contra weight to place on top of a monitor
 
+<p></p>
 <a href="images/logitech_c920_webcam.jpg">
 <img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" width="150px" />
 </a>
@@ -100,7 +93,7 @@ I chose a basic camera (years ago) for the features:
 Back in the days, the Logitech C920 HD Pro Webcam was a perfect match for me, and it still works fine.
 But it can be upgraded to a newer one with a 4K resolution with auto follow feature. I'm open for any good suggestions!
 
-* {{imgBasket}}Logitech C920 HD Pro Webcam [Amazon US](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
+* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
 
 ---
 ## Microphone
@@ -186,7 +179,7 @@ This way it takes less space from my desk surface and I can easily detach it and
 
 * {{imgBasket}}Vertical laptop stand black [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4nCJ9CX)
 * {{imgBasket}}Vertical laptop stand for two laptops black [(AliExpress)](https://s.click.aliexpress.com/e/_EHCUwya) [(Amazon US)](https://amzn.to/4uZOXJ7) [(Amazon NL)](https://amzn.to/3OEi9pF)
-
+<p></p>
 Alternative solutions:
 
 * {{imgBasket}}Walnut stand upright [(AliExpress)](https://s.click.aliexpress.com/e/_c4KppAtd) [(Amazon US)](https://amzn.to/4nEvBXz)
@@ -210,16 +203,18 @@ I chose to have all items below my monitor and on my desk in walnut or black to 
 A basic plastic headphone stand.
 It just does it job, hold the headphone!
 
+<div>
 <a href="images/headset_stand.avif">
-<img src="images/headset_stand.avif" alt="headphone stand" width="150px" />
+<img src="images/headset_stand.avif" alt="headphone stand" height="150px" />
 </a>
-
+ &nbsp;
 <a href="images/qcy_h3s_default.jpg">
-<img src="images/qcy_h3s_default.jpg" alt="QCY H3S over ear headset on stand" width="150px" />
+<img src="images/qcy_h3s_default.jpg" alt="QCY H3S over ear headset on stand" height="150px" />
 </a>
+</div>
 
 * {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) [(Amazon US)](https://amzn.to/4wG3POj) [(Amazon NL)](https://amzn.to/4d2Gfm7)
-
+<p></p>
 Alternative:
 * {{imgBasket}}Walnut stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) [(Amazon US)](https://amzn.to/3Rl26xR)
 
@@ -234,7 +229,7 @@ Also, a basic wooden digital clock which doesn't attract more attention than nee
 
 * {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)](https://amzn.to/) [(Amazon NL)](https://amzn.to/)
 
-<br>
+<p></p>
 
 Alternatives:
 
@@ -279,7 +274,7 @@ I found these, and they fit almost perfectly.
 * {{imgBasket}}Retractable USB-C power cable [(AliExpress)](https://s.click.aliexpress.com/e/_c4EmqPR3)
 
 <p></p>
-Alternative:
+Alternatives:
 * {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
 * {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)\
   <a href="images/retractable_usb_charger_walnut.png">
@@ -298,11 +293,7 @@ To support my posture and stretch my legs while sitting, I use a footrest under 
 
 To protect the floor from scratches and reduce chair-wheel noise, I placed a rubber protection mat underneath my chair.
 
-* {{imgBasket}}Floor protection mat
-
-  [(Amazon US)](https://amzn.to/4odC4sM)
-
-  [(Amazon NL)](https://amzn.to/4dUne72)
+* {{imgBasket}}Floor protection mat [(Amazon US)](https://amzn.to/4odC4sM) [(Amazon NL)](https://amzn.to/4dUne72)
 
 ---
 ## Floor heated mat
@@ -334,7 +325,7 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 
 * {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c3MlDAd1) [(Amazon NL)](https://amzn.to/4w7dfCj)
 * {{imgBasket}}DIY moss and plants kit [(Woonhero.nl)](https://woonhero.nl/collections/terrarium-start-en-navulpakketten)
-* {{imgBasket}}Light on it [(AliExpress)](https://s.click.aliexpress.com/e/_EyHPnbm)
+* {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_EyHPnbm)
 
 ---
 ## Mug coaster

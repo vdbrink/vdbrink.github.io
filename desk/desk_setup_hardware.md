@@ -40,7 +40,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[Amazon US](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
+[(Amazon US)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
 Not everything I own is on Amazon. 
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased elsewhere.
 Where a newer version exists, I link to that instead.
@@ -344,6 +344,8 @@ When I replace my mouse, it will be a Logitech MX Master 3S or 4.
 
 ---
 Have other upgrade suggestions for my home office? Share them in the comments!
+
+The next part are the [accessories](office_accessories) for the finishing touch.
 
 ---
 
