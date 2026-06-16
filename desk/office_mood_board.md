@@ -20,6 +20,12 @@ Dark walnut tones, dark green accents, green plants, and acoustic panels became 
 <em style="display:block; text-align:center">Pinterest mood board</em>
 <br>
 
+Some social media groups to get inspired:
+* [Reddit/desksetup](https://www.reddit.com/r/desksetup/)
+* [Facebook/workspacesetupaddicts](https://www.facebook.com/groups/workspacesetupaddicts/)
+
+<p></p>
+
 I'm a fan of hexagon shelves and panels, but you also have to work with products that are actually available and fit well together.
 The [moss terrarium](office_accessories#moss-terrarium) made it into the final version!
 The clock is an AI-created image, but it is exactly what I'm looking for. 

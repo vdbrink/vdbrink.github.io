@@ -11,12 +11,12 @@ image: /home_office_desk/images/youp02_desk.jpg
 
 <br>
 
-On this page you can find all the basic hardware products I use daily in my home office.
+On this page, you can find the main hardware products I use daily in my home office.
 These are the items that genuinely make my work life easier and more enjoyable.
 
 <a href="images/home_office_desk_result2.jpg" style="display:block; text-align:center">
 <img src="images/home_office_desk_result2.jpg" alt="Final result" width="350px" />
-</a>\
+</a>
 <em style="display:block; text-align:center">Final desk setup in standing mode</em>
 
 ---
@@ -34,26 +34,26 @@ These are the items that genuinely make my work life easier and more enjoyable.
   * [Future improvements](#future-improvements)
 <!-- TOC -->
 
-> **_NOTE:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
+> **_NOTE:_** Links on this page can be affiliate links. You pay the same price and support my blog.
 
 ---
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
 [(Amazon US)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
-Not everything I own is on Amazon. 
-Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased elsewhere.
+Not everything on this page is available through Amazon.
+Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
 
 ---
 ## Desk
 
-My old desk was a fixed setup made from wood panels.
-I wanted to switch to a standing desk to avoid sitting all day.
+My old desk was a fixed setup built from wood panels.
+I wanted to switch to a large standing desk to avoid sitting all day.
 
 I ended up buying the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
-It has dual motors and four programmable height presets. 
-I chose the 200×80 cm walnut surface, a single solid piece that is also available in sizes from 120×80 up to 200×100 cm.
+It has dual motors and four programmable height presets.
+I chose the 200×80 cm walnut surface, which is a single solid piece. It is also available in sizes from 120×80 up to 200×100 cm.
 
 <a href="images/desk_low2.jpg">
 <img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
@@ -61,20 +61,20 @@ I chose the 200×80 cm walnut surface, a single solid piece that is also availab
 
 My wish list for my new desk was clear:
 * Walnut top
-* 180 - 200 cm wide
+* 180-200 cm wide
 * 80 cm deep
 * Electric standing/sit desk
-* At least 2 programmable preset heights
+* At least two programmable height presets
 * Black legs
-* Minimal wires visible
+* Minimal visible wires
 
 <br>
 Finding the right desk took a while because there are many companies selling standing desks.
 
 After filtering the options, I had to choose between these:
-* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it didn't have the full 200 cm wide top.
-* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really like.
-* The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all criteria but doesn't have many reviews.
+* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it did not offer a full 200 cm wide top.
+* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.
+* The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all my criteria, but it does not have many reviews.
 <p></p>
 
 <a href="images/youp02_desk.jpg">
@@ -87,27 +87,27 @@ For more discussion and desk comparisons, check out [Reddit - StandingDesk](http
 ---
 ## Monitor
 
-The monitor is a Philips 49" curved screen with a resolution of 5120 x 1440.
+The monitor is a Philips 49" curved screen with a 5120 x 1440 resolution.
 It has an aspect ratio of 32:9 and a curvature of 1800R.
 It's the size of two 27" screens next to each other.
 
-This is genuinely one of the best purchases I've ever made, and I still love using it every workday.
-The big advantage over two separate 27" screens is the flexibility to split your windows however you want at any moment.
+This is by far one of the best purchases I've ever made, and I still love using it every minute I use it.
+The big advantage over two separate 27" screens is the flexibility to split your windows however you want.
 You can use three equal windows, or one large window in the center with smaller ones on the sides.
-This is all possible with one large display, without bezels to break up the view.
+You get all of this on one large display, without bezels breaking up the view.
 
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="100%" />
 </a>
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
-Newer versions are now available with improved specs, while keeping the same dimensions and advantages.
+Newer versions are now available with improved specs while keeping the same dimensions and advantages.
 
 <a href="images/philips_49inch_screen.webp">
-<img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="450px" />
+<img src="images/philips_49inch_screen.webp" alt="Philips 49 inch curved monitor" width="100%" />
 </a>
 
-Alternative:
+Same monitor but newer models:
 
 * {{imgBasket}}Philips 49" curved monitor - 49B2U5900C [(Amazon NL)](https://amzn.to/4afMEdn)
 * {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon US)](https://amzn.to/4v3Z53D)
@@ -115,7 +115,7 @@ Alternative:
 ---
 ### Monitor cable
 
-The Philips monitor has a single DisplayPort 1.4 and 3x HDMI 2.0 ports.
+The Philips monitor has one DisplayPort 1.4 port and three HDMI 2.0 ports.
 The MacBook M4 Pro has Thunderbolt 4 ports (USB-C) with DisplayPort 2.1.
 To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for the best possible signal quality.
 
@@ -130,16 +130,15 @@ To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for
 ### Monitor arm
 
 To keep a clean desk, I was looking for:
-* A monitor arm that holds the screen **stable**, and is attached to the desk.
-* I prefer not to have a monitor arm in the middle of the desk, so the monitor has a **floating** effect.
-* It should also easily hold the **weight** of the 12 kg 49" screen.
-* It hides the **wires** and doesn't stick out at the back. 
-Otherwise, I would have to move the desk away from the wall and lose space.
-* I can easily **pull and push** the screen back and forth without unscrewing bolts.
+* A monitor arm that holds the screen **steadily** and attaches to the desk.
+* No monitor arm in the middle of the desk, so the monitor keeps a **floating** effect.
+* Enough strength to hold the **weight** of the 12 kg 49" screen.
+* Good **cable** management and no bulky parts sticking out at the back. Otherwise, I would have to move the desk away from the wall and lose space.
+* Easy **pull and push** adjustment without unscrewing bolts.
 
 <br>
 I ended up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).\
-It's built from solid metal, holds up to 20 kg, meets all my requirements, and is reasonably priced.
+It is built from solid metal, holds up to 20 kg, meets all my requirements, and is reasonably priced.
 
 <a href="images/act_ac8340.avif">
 <img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
@@ -154,8 +153,8 @@ Alternative, similar design:
 ---
 ## Laptop
 
-My daily driver is an Apple MacBook M4 Pro 16-inch. 
-It is powerful enough for demanding tasks and great to take on the go.
+My daily driver is an Apple MacBook M4 Pro 16-inch.
+It is powerful enough for demanding tasks and still great to take on the go.
 MacBooks consistently outperform Windows laptops on both performance and battery life.
 
 <a href="images/macbook.jpg">
@@ -187,10 +186,10 @@ MacBooks consistently outperform Windows laptops on both performance and battery
 ---
 ## Keyboard
 
-My keyboard requirements were: wireless, silent, smooth typing, large Shift and Enter keys, volume controls, and a numpad.
+My keyboard requirements were clear: wireless, silent, smooth typing, large Shift and Enter keys, volume controls, and a numpad.
 Think Apple Magic Keyboard, but with a numpad plus media and brightness function keys.
 
-The [Logitech MX Keys S (Qwerty)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was the obvious choice.
+The [Logitech MX Keys S (QWERTY)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was the obvious choice.
 It exceeds my wish list, switches between three devices, lights up when your hands approach, and charges via USB-C.
 
 <a href="images/mx-keys-s-top-view-graphite-us-intl.webp">
@@ -206,8 +205,8 @@ It exceeds my wish list, switches between three devices, lights up when your han
 ---
 ## Chair
 
-My current chair is the IKEA Millberget. 
-It is comfortable enough, but has limited adjustability.\
+My current chair is the IKEA Millberget.
+It is comfortable enough, but it has limited adjustability.\
 Since getting the standing desk, there are weeks where I stand for most of the day, which takes some pressure off finding the perfect chair.
 That said, I'm still on the lookout for a fully adjustable black leather-look chair.
 
@@ -220,10 +219,8 @@ That said, I'm still on the lookout for a fully adjustable black leather-look ch
 ---
 ## Mouse
 
-My mouse is a basic wireless model with silent clicks and a scroll wheel. 
-It is simple, but it has served me well for years.\
-It runs on a single AA battery.\
-At some point I'll upgrade to a Logitech MX Master.
+My mouse is a basic wireless model with silent clicks and a scroll wheel.
+It is simple, but it has worked well for years.
 
 <a href="images/mouse.avif">
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
@@ -233,7 +230,7 @@ At some point I'll upgrade to a Logitech MX Master.
 
 <br>
 
-Alternative/Future versions:
+Alternatives/future replacements:
 
 * {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
 * {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
@@ -242,7 +239,7 @@ Alternative/Future versions:
 ## Accessories
 
 Check out the [accessories](office_accessories) page for the other hardware and decorations I have on and around my desk.
-I have these items:\
+That page includes:\
  [Monitor light](office_accessories#monitor-light),
  [Desk mat](office_accessories#desk-mat),
  [Camera](office_accessories#camera),
@@ -293,15 +290,15 @@ Alternative:
 ----
 ### Docking station
 
-I'm looking for a docking station that connects my work or personal laptop to the monitor and all peripherals with a single cable.
+I'm looking for a docking station that connects either my work laptop or my personal laptop to the monitor and all peripherals with a single cable.
 
 Minimum requirements:
-* Main monitor output 49" at 5K @ 165Hz
-* Future second monitor at least 4K @ 60Hz
-* Power supply of 60W+ to charge the laptop
-* Cabled network connection
-* Connect multiple USB peripherals
-* Wake up the MacBook
+* Main monitor output: 49" at 5K @ 165Hz
+* Future second monitor output: at least 4K @ 60Hz
+* 60W+ power delivery to charge the laptop
+* Wired network connection
+* Support for multiple USB peripherals
+* Ability to wake up the MacBook
 
 <p></p>
 The CalDigit TS5 looks like the ideal option, but the price is steep.
@@ -327,7 +324,7 @@ A 4K camera with auto-zoom and auto-follow would be a solid upgrade: sharp and c
 ---
 ### Chair
 
-There are a lot of good chair brands, which makes choosing difficult. These two are my current top picks, but I'm open to other suggestions.
+There are many good chair brands, which makes choosing difficult. These two are my current top picks, but I'm open to other suggestions.
 
 * {{imgBasket}} [Haworth Fern](https://www.haworth.com/eu/en/products/executive-chairs/fern.html)
 * {{imgBasket}} [Noblechairs gaming leather chair](https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart)
@@ -335,17 +332,29 @@ There are a lot of good chair brands, which makes choosing difficult. These two 
 ---
 ### Mouse
 
-When I replace my mouse, it will be a Logitech MX Master 3S or 4.
+When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
 
 * {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
 * {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
+
+<a href="images/logitech_mx_master.jpg">
+<img src="images/logitech_mx_master.jpg" alt="Logitech MX Master mouse" width="150px" />
+</a>
+
+---
+### E-ink frame
+
+I'm looking for a full-color e-ink display with a minimum size of 13" to rotate photos every few hours.
+Devices with a Spectra 6 screen already come close to very good photo quality.
+
+Do you have experience with a good product like this? I would like to hear from you!
 
 <br>
 
 ---
 Have other upgrade suggestions for my home office? Share them in the comments!
 
-The next part are the [accessories](office_accessories) for the finishing touch.
+The next part covers the [accessories](office_accessories) that add the finishing touch.
 
 ---
 

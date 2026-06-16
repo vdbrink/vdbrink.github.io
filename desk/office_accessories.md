@@ -260,12 +260,10 @@ Read more about this project on [Stretch display](/projects/stretch_display).
 Not everything can be charged wirelessly.
 Sometimes you need a cable to charge headphones or a keyboard.
 Most of the time, you do not need that cable and want to keep it out of sight.
-But when you do need it, you do not want to dive under the desk to connect one.
+But when you do need it, you do not want to dive under the desk or loose hanging cables to connect one.
 
 A nice solution is a retractable USB charging cable.
 You can pull it out when you need it, and it automatically rolls back in when you are done.
-
-I found these, and they fit almost perfectly.
 
 <a href="images/retractable_usb_charger.avif">
 <img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" width="150px" />
@@ -326,6 +324,9 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 * {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c3MlDAd1) [(Amazon NL)](https://amzn.to/4w7dfCj)
 * {{imgBasket}}DIY moss and plants kit [(Woonhero.nl)](https://woonhero.nl/collections/terrarium-start-en-navulpakketten)
 * {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_EyHPnbm)
+* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qX4v5j)
+* {{imgBasket}}Deco doors [(AliExpress)](https://s.click.aliexpress.com/e/_c3B6o2wZ)
+* {{imgBasket}}Stainless Steel Tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
 
 ---
 ## Mug coaster
@@ -371,10 +372,10 @@ At first, I used a spare chair, but it took too much space, and we could not see
 I found a compact tower where they can lie inside or on top of it.
 
 <a href="images/desk_collage_cats.png">
-<img src="images/desk_collage_cats.png" alt="cat tower" width="350px" />
+<img src="images/desk_collage_cats.png" alt="cat tower" height="350px" />
 </a>
 <a href="images/cat_tower.jpg">
-<img src="images/cat_tower.jpg" alt="cat tower" width="150px" />
+<img src="images/cat_tower.jpg" alt="cat tower" height="350px" />
 </a>
 
 It is available in three colors: black, beige, and gray.
