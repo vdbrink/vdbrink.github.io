@@ -5,6 +5,7 @@ category: Buy
 tags: [batteries, CR2032, long life, AA, battery eliminator, Eneloop, rechargeable]
 image: /buy/images_batteries/cr2032_to_aa_banner.jpg
 ---
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 ## CR2032 coin cell to two AA batteries adapter
 *18.5x longer life span*
@@ -17,6 +18,12 @@ image: /buy/images_batteries/cr2032_to_aa_banner.jpg
 
 Due to the small size of the CR2032, they don't contain as much power as AA batteries.\
 There is a way to replace a small CR2032 battery with two high capacity AA batteries for a much longer (18.5x) life span for your sensors.
+
+> **_NOTE:_** Now, it's also available as product.\
+<a href="/buy/images_batteries/aa_to_cr2032.avif">
+<img src="/buy/images_batteries/aa_to_cr2032.avif" alt="CR2032" width="150px" />
+</a>\
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c35RN0nr" target="_blank">AA to CR2032 adapter (AliExpress)</a>
 
 ---
 ### How it works

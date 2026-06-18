@@ -211,6 +211,14 @@ Replace a CR2032 with two AA to get 18.5x longer life span!
 
 See my [dedicated page](cr2032_to_aa_batteries) about this "hack".
 
+Now, it's also available as product.
+
+<a href="/buy/images_batteries/aa_to_cr2032.avif">
+<img src="/buy/images_batteries/aa_to_cr2032.avif" alt="CR2032" width="150px" />
+</a>
+
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c35RN0nr" target="_blank">AA to CR2032 adapter (AliExpress)</a>
+
 ---
 ### CR1632
 
