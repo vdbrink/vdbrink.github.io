@@ -387,7 +387,14 @@ Alternative:
 ---
 ## Vacuum cleaner
 
-With this small vacuum clean for your desk you can quickly remove small trash without scratching anything.
+With this small but strong vacuum clean for your desk (and keyboard) you can quickly remove small trash without scratching anything.\
+It can be charged with a USB-C cable.
+
+<a href="images/desk_mini_vacuum_cleaner.avif">
+<img src="images/desk_mini_vacuum_cleaner.avif" alt="mini desk vacuum cleaner" width="150px" />
+</a>
+
+* {{imgBasket}}Mini desk vacuum cleaner [(AliExpress)](https://s.click.aliexpress.com/e/_c4KLKg8v)
 
 ---
 
