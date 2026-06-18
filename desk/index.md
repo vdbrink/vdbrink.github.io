@@ -1,5 +1,5 @@
 ---
-title: "Home office: Desk setup room design with AI"
+title: "Home office: Desk setup and room design with AI"
 description: "I designed my home office with the help of AI"
 category: Office
 tags: [Home office, desk, setup, AI, standing desk]
@@ -8,7 +8,7 @@ image: /home_office_desk/images/home_office_desk_result3.jpg
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# Home office:<br>Desk setup room design with AI
+# Home office:<br>Desk setup and room design with AI
 
 <br>
 

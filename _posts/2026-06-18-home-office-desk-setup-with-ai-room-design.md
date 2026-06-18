@@ -48,7 +48,7 @@ For the finishing touch, I added [accessories](/desk/office_accessories) to comp
 Because it is still a smart home office, I also listed my [office automations](/desk/office_automations).
 These include turning on the monitor and lights when I enter the room, lighting based on presence and daylight, heating based on chair occupancy, an on-air light for calls, CO2 notifications, temperature alerts, and air conditioning control.
 
-You can start reading the full story here: [Home office desk setup room design with AI](/desk/)
+You can start reading the full story here: [Home office desk setup and room design with AI](/desk/)
 
 Or jump directly to one of the topics:
 
