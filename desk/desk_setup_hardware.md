@@ -51,18 +51,21 @@ Where a newer version exists, I link to that instead.
 My old desk was a fixed setup built from wood panels.
 I wanted to switch to a large standing desk to avoid sitting all day.
 
-I ended up buying the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl).\
+I ended up buying the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572).\
 It has dual motors and four programmable height presets.
-I chose the 200×80 cm walnut surface, which is a single solid piece. It is also available in sizes from 120×80 up to 200×100 cm.
+I chose the 200×80 cm walnut surface, which is a single solid piece. 
+It's rectangle size without any holes or rounded corners.
+They have it available in the sizes from 120×80 up to 200×100 cm and different colors, black, white, oak. 
 
 <a href="images/desk_low2.jpg">
 <img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
 </a>
+<em style="display:block; text-align:center">standing desk: one piece walnut top, size 200x80 cm, programmable heights</em>
 
 My wish list for my new desk was clear:
 * Walnut top
-* 180-200 cm wide
-* 80 cm deep
+* 180-200 cm (71-78") wide
+* 80 cm (31") deep
 * Electric standing/sit desk
 * At least two programmable height presets
 * Black legs
@@ -77,7 +80,7 @@ After filtering the options, I had to choose between these:
 * The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all my criteria, but it does not have many reviews.
 <p></p>
 
-<a href="images/youp02_desk.jpg">
+<a href="images/youp02_desk.jpg" style="display:block; text-align:center">
 <img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" width="350px" />
 </a>
 <em style="display:block; text-align:center">YOUP02 Cognac Walnut</em>
@@ -99,6 +102,8 @@ You get all of this on one large display, without bezels breaking up the view.
 <a href="images/monitor.jpg">
 <img src="images/monitor.jpg" alt="Philips 49 inch monitor" width="100%" />
 </a>
+<em style="display:block; text-align:center">Philips 49" screen</em>
+
 
 The model I have is the Philips P Line 498P9Z/00 (model from 2021).
 Newer versions are now available with improved specs while keeping the same dimensions and advantages.
@@ -177,7 +182,7 @@ MacBooks consistently outperform Windows laptops on both performance and battery
     <td>MacBook Pro 16" black cover case</td>
   </tr>
   <tr>
-    <td><a href="office_accessories#laptop-charger"><img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" height="150px" /></a> </td>
+    <td><a href="office_accessories#laptop-charger"><img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" height="150px" /></a> </td>
     <td><a href="office_accessories#laptop-stand"><img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" height="150px" /></a> </td>
     <td><a href="office_accessories#laptop-case"><img src="images/macbook_case.jpg" alt="Macbook 16' case" height="150px" /></a></td>
   </tr>
@@ -263,8 +268,9 @@ That page includes:\
 
 
 <a href="office_accessories">
-<img src="images/desk_collage1.png" alt="Final result" width="100%" />
+<img src="images/desk_collage1.png" alt="office accessories" width="100%" />
 </a>
+<em style="display:block; text-align:center">Office accessories</em>
 
 ---
 ## Future improvements

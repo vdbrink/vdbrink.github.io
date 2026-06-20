@@ -165,10 +165,10 @@ I use a Xiaomi 120W USB-C charger to charge my laptop.
 It's a powerful USB-C charger with enough power to fast charge any new laptop.
 
 <a href="images/120w_laptop_charger.avif">
-<img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-c charger" width="250px" />
+<img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" width="250px" />
 </a>
 
-* {{imgBasket}}Xiaomi 120W USB-c [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/434cVal) [(Amazon NL)](https://amzn.to/4tInyuZ)
+* {{imgBasket}}Xiaomi 120W USB-C [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/434cVal) [(Amazon NL)](https://amzn.to/4tInyuZ)
 
 ---
 ## Laptop stand
@@ -180,8 +180,8 @@ This way, it takes up less space on my desk surface, and I can easily detach it 
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
 </a>
 
-* {{imgBasket}}Vertical laptop stand black [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4nCJ9CX) [(Amazon NL)](https://amzn.to/3OEi9pF)
-* {{imgBasket}}Vertical laptop stand for two laptops black [(AliExpress)](https://s.click.aliexpress.com/e/_c4SxczDR) [(Amazon US)](https://amzn.to/4uZOXJ7) [(Amazon NL)](https://amzn.to/4vjM7iv)
+* {{imgBasket}}Vertical laptop stand [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4nCJ9CX) [(Amazon NL)](https://amzn.to/3OEi9pF)
+* {{imgBasket}}Vertical laptop stand for two laptops [(AliExpress)](https://s.click.aliexpress.com/e/_c4SxczDR) [(Amazon US)](https://amzn.to/4uZOXJ7) [(Amazon NL)](https://amzn.to/4vjM7iv)
 <p></p>
 Alternative solutions:
 
@@ -198,7 +198,7 @@ I chose walnut or black for all items below my monitor and on my desk to make it
 <img src="images/macbook_case.jpg" alt="Macbook 16' case" width="450px" />
 </a>
 
-* {{imgBasket}}Black MacBook Pro 16" cover [(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) [(Amazon US)](https://amzn.to/42K2pos) [(Amazon NL)](https://amzn.to/4xyesn3)
+* {{imgBasket}}Black MacBook cover [(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) [(Amazon US)](https://amzn.to/42K2pos) [(Amazon NL)](https://amzn.to/4xyesn3)
 
 ---
 ## Headphone stand
@@ -310,8 +310,8 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 
 <p></p>
 Alternatives:
-* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1)
-* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX)\
+* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) [(Amazon US)]() [(Amazon NL)](https://amzn.to/4enp1Sm)
+* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX) (high shipping costs)\
   <a href="images/retractable_usb_charger_walnut.png">
   <img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />
   </a>
@@ -326,7 +326,7 @@ It can be change in different angles.
 <img src="images/footrest.jpg" alt="Footrest" width="150px" />
 </a>
 
-* {{imgBasket}}Footrest [(AliExpress)](https://s.click.aliexpress.com/e/_c2QayhIv) [(Amazon US)](https://amzn.to/) [(Amazon NL)](https://amzn.to/)
+* {{imgBasket}}Footrest [(AliExpress)](https://s.click.aliexpress.com/e/_c2QayhIv) [(Amazon US)](https://amzn.to/) [(Amazon NL)](https://amzn.to/4aeh67k)
 
 ---
 ## Floor protection mat
@@ -349,12 +349,17 @@ This way, I do not need to heat the whole room, and I avoid cold feet from the f
 It has a power output of 110 watts and can be controlled via an inline remote with 4 levels.
 Most of the time, the 4th level is already too hot.
 With the built-in timer, it automatically shuts off.
+With a three-meter power cable.
 
 <a href="images/floor_mat.jpg">
 <img src="images/floor_mat.jpg" alt="floor mat" width="150px" />
 </a>
 
 * {{imgBasket}}Floor heated mat: VH Etna 40x60 cm [(Bol.com)](https://www.bol.com/nl/nl/p/vh-regelbare-warme-voeten-mat-etna-40-x-60-cm-lcd-controller-met-4-standen-timerfunctie-plug-heat-zuinig-in-gebruik/9300000017178095/)
+
+Alternative:
+
+* {{imgBasket}}Björn & Schiller, similar size (but less power and shorter power cable) [(Amazon NL)](https://amzn.to/4vW4R7D)
 
 ---
 ## Moss terrarium
@@ -364,13 +369,21 @@ While creating my [Pinterest mood board](office_mood_board), I found a lot of in
 Buying a fully decorated one was quite expensive, but I found a nice DIY kit that let me create my own moss terrarium for a reasonable price.\
 Later, my local garden center also started selling moss terrariums, so it is worth checking there too.
 
-<a href="images/mossarium.jpg">
-<img src="images/mossarium.jpg" alt="mossarium glass" width="150px" />
+<div class="align-left">
+<a href="images/mossarium_creation.jpg">
+<img src="images/mossarium_creation.jpg" alt="Mossarium creation" height="200px" />
 </a>
+<a href="images/mossarium.jpg">
+<img src="images/mossarium.jpg" alt="Mossarium plants" width="150px" />
+</a>
+<a href="images/mossarium2.jpg">
+<img src="images/mossarium2.jpg" alt="Mossarium glass" width="150px" />
+</a>
+</div>
 
-* {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c3MlDAd1) [(Amazon NL)](https://amzn.to/4w7dfCj)
+* {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c4OC8zP7) [(Amazon NL)](https://amzn.to/4w7dfCj)
 * {{imgBasket}}DIY moss and plants kit [(Woonhero.nl)](https://woonhero.nl/collections/terrarium-start-en-navulpakketten)
-* {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_EyHPnbm)
+* {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_c4e9lqvj)
 * {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qX4v5j)
 * {{imgBasket}}Deco doors [(AliExpress)](https://s.click.aliexpress.com/e/_c3B6o2wZ)
 * {{imgBasket}}Stainless steel tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
@@ -422,6 +435,10 @@ It can be charged with a USB-C cable.
 </a>
 
 * {{imgBasket}}Mini desk vacuum cleaner [(AliExpress)](https://s.click.aliexpress.com/e/_c4KLKg8v)
+
+<br>
+
+That it, thanks for your interrest. Have a nice day!
 
 ---
 
