@@ -20,17 +20,21 @@ for both myself and my cats, who like to keep me company during the day!
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Cable management](#cable-management)
   * [Monitor light](#monitor-light)
   * [Desk mat](#desk-mat)
-  * [Camera](#camera)
-  * [Microphone](#microphone)
   * [Headset](#headset)
   * [Laptop charger](#laptop-charger)
   * [Laptop stand](#laptop-stand)
   * [Laptop case](#laptop-case)
   * [Headphone stand](#headphone-stand)
   * [Desk clock](#desk-clock)
+  * [Mug coaster](#mug-coaster)
+  * [Wireless phone charger](#wireless-phone-charger)
+  * [Walnut phone stand](#walnut-phone-stand)
   * [Cat tower](#cat-tower)
+  * [Camera](#camera)
+  * [Microphone](#microphone)
   * [Smart notification light](#smart-notification-light)
   * [Stretch display](#stretch-display)
   * [Retractable USB charger](#retractable-usb-charger)
@@ -38,24 +42,57 @@ for both myself and my cats, who like to keep me company during the day!
   * [Floor protection mat](#floor-protection-mat)
   * [Floor heated mat](#floor-heated-mat)
   * [Moss terrarium](#moss-terrarium)
-  * [Mug coaster](#mug-coaster)
-  * [Wireless phone charger](#wireless-phone-charger)
-  * [Walnut phone stand](#walnut-phone-stand)
   * [Vacuum cleaner](#vacuum-cleaner)
 <!-- TOC -->
+
+> **_NOTE:_** Links on this page can be affiliate links. You pay the same price and support my blog.
+
+---
+## Amazon shop list
+
+Products from this page that are available on Amazon are listed on
+[(Amazon US)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
+Not everything on this page is available through Amazon.
+Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
+Where a newer version exists, I link to that instead.
+
+---
+## Cable management
+
+For a clean desk cable needs to be hidden as much as possible.
+Cable management is the solution to hide and guide the required cables under and behind the desk.
+
+I use these types of guides to accomplish this. 
+
+<div>
+<a href="images/cable_wire_management1.jpg">
+<img src="images/cable_wire_management1.jpg" alt="multiple cable guide" height="200px" />
+</a>
+&nbsp;
+<a href="images/cable_wire_management2.jpg">
+<img src="images/cable_wire_management2.jpg" alt="single cable clip holder" height="200px" />
+</a>
+</div>
+
+* {{imgBasket}}Multiple cable guide [(AliExpress)](https://s.click.aliexpress.com/e/_c3mdNNA9) [(Amazon US)](https://amzn.to/4enAaCv) [(Amazon NL)](https://amzn.to/4vvsWmg)
+* {{imgBasket}}Single cable clip holder [(AliExpress)](https://s.click.aliexpress.com/e/_c3kfMbFX)
+
+Alternative:
+
+* {{imgBasket}}Single cable clip holder [(Amazon US)](https://amzn.to/4uQMxfr) 
 
 ---
 ## Monitor light
 
-To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and doesn't reflect in my eyes.
+To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and keyboard and doesn't reflect in my eyes.
 The Xiaomi Mijia monitor light desk bar is a good option. 
-It has a remote to dim the light, and it can easily be attached to the monitor, with it contra weights.
+It has a bright light, it has a remote knot to dim the light, and it can easily be attached to the monitor, with it contra weights.
 
 <a href="images/monitor_light.avif">
 <img src="images/monitor_light.avif" alt="monitor light" width="250px" />
 </a>
 
-* {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c39rwqId) [(Amazon US)](https://amzn.to/4wFMGEo) [(Amazon NL)](https://amzn.to/4xBYwjl)
+* {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c39rwqId) [(Amazon US)](https://amzn.to/4gy6P9O) [(Amazon NL)](https://amzn.to/4xBYwjl)
 
 ---
 ## Desk mat
@@ -70,44 +107,12 @@ I use a fully black one without any distracting artwork on it.
 <img src="images/deskmat.avif" alt="Desk mat" width="250px" />
 </a>
 
-The size of my mat is 400 x 900 x 3 mm.
+The size of my mat is 90 x 40 x 0.3 cm (31.5" x 15.7").
 They are available in many different sizes and with different border colors.
 I have the all-black version.
 
 * {{imgBasket}}Large anti-slip mouse mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
-  [(Amazon US)](https://amzn.to/49ZQjeG)
-
----
-## Camera
-
-I chose a basic camera years ago because of these features:
-* HD USB camera with a lens cover
-* 30 fps
-* Light correction
-* Good sound and microphone quality (now I use a separate microphone)
-* A mount with contra weight to place on top of a monitor
-
-<p></p>
-<a href="images/logitech_c920_webcam.jpg">
-<img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" width="150px" />
-</a>
-
-Back in the day, the Logitech C920 HD Pro Webcam was a perfect match for me, and it still works fine.
-But it could be upgraded to a newer one with 4K resolution and an auto-follow feature. 
-I'm open to any good suggestions!
-
-* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
-
----
-## Microphone
-
-For an affordable basic microphone, I've chosen the Razer Seiren Mini black - USB condenser microphone.
-
-<a href="images/razer_seiren.jpg">
-<img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" width="100px" />
-</a>
-
-* {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8) [(Amazon NL)](https://amzn.to/4cwPg84)
+  [(Amazon US)](https://amzn.to/3QbZkeg)
 
 ---
 ## Headset
@@ -150,13 +155,14 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 Just read the reviews!
 
 Available in black/white/gray:
-* {{imgBasket}}ANC over-ear headset QCY H3S [(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) [(Amazon US)](https://amzn.to/4tJjCsW)
+* {{imgBasket}}ANC over-ear headset QCY H3S [(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) [(Amazon US)](https://amzn.to/3QdUDR9) [(Amazon NL)](https://amzn.to/3Snv4h5)
 
 <br>
 Alternative:\
 I'm also a fan of the Sony WH range, but the price is 10x the price of the QCY, and it isn't 10x better.
 For now, I stick to the QCY.
-* {{imgBasket}}Sony WH-1000XM6 [(Amazon US)](https://amzn.to/3POvXhK) [(Amazon NL)](https://amzn.to/3QxCUDG)
+
+* {{imgBasket}}Sony WH-1000XM6 [(Amazon US)](https://amzn.to/4vvtad6) [(Amazon NL)](https://amzn.to/3QxCUDG)
 
 ---
 ## Laptop charger
@@ -168,7 +174,7 @@ It's a powerful USB-C charger with enough power to fast charge any new laptop.
 <img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" width="250px" />
 </a>
 
-* {{imgBasket}}Xiaomi 120W USB-C [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/434cVal) [(Amazon NL)](https://amzn.to/4tInyuZ)
+* {{imgBasket}}Xiaomi 120W USB-C [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/44r6Hla) [(Amazon NL)](https://amzn.to/4tInyuZ)
 
 ---
 ## Laptop stand
@@ -180,7 +186,7 @@ This way, it takes up less space on my desk surface, and I can easily detach it 
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
 </a>
 
-* {{imgBasket}}Vertical laptop stand [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4nCJ9CX) [(Amazon NL)](https://amzn.to/3OEi9pF)
+* {{imgBasket}}Vertical laptop stand [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4eVsZSd) [(Amazon NL)](https://amzn.to/3OEi9pF)
 * {{imgBasket}}Vertical laptop stand for two laptops [(AliExpress)](https://s.click.aliexpress.com/e/_c4SxczDR) [(Amazon US)](https://amzn.to/4uZOXJ7) [(Amazon NL)](https://amzn.to/4vjM7iv)
 <p></p>
 Alternative solutions:
@@ -237,12 +243,48 @@ A basic wooden digital clock that doesn't attract more attention than needed.
 
 Alternatives:
 
-* Also wood-colored, with other shapes, other colors, or additional temperature and humidity display [(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9)
-* Wood version with a triangle shape [(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP)
-* Version with wireless charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt)\
+* Also, wood-colored, with other shapes, other colors, or additional temperature and humidity display [(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9) [(Amazon US)](https://amzn.to/4w6O1Ds)
+* Wood version with a triangle shape [(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP) [(Amazon US)](https://amzn.to/44lvrv9)
+* Version with wireless charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt) [(Amazon US)](https://amzn.to/43JGezd) \
   <a href="https://s.click.aliexpress.com/e/_c3swbZQt">
   <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" width="150px" />
   </a>
+
+---
+## Mug coaster
+
+A personalized mug coaster that nobody else has is both fun and practical, and it protects your desk from spills and stains.
+This coaster has a walnut look.
+If you upload your own image, you can create a personalized mug coaster with your own design.
+
+<a href="images/coasters.jpg">
+<img src="images/coasters.jpg" alt="personalized mug coasters" width="150px" />
+</a>
+
+* {{imgBasket}}Personalized mug coasters [(AliExpress)](https://s.click.aliexpress.com/e/_c3uKT7xt)
+
+---
+## Wireless phone charger stand
+
+Fewer wires on a desk make it look cleaner and more organized, and wireless phone charger stands are a nice solution for that.
+Just place your phone on the charger and it starts charging, with no cable needed.
+
+<a href="images/phone_stand_charger.jpg">
+<img src="images/phone_stand_charger.jpg" alt="wireless phone charger stand" width="150px" />
+</a>
+
+* {{imgBasket}}Wireless phone charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3qTRe0B) [(Amazon US)](https://amzn.to/4gy78Bu) [(Amazon NL)](https://amzn.to/42HesCL)
+
+---
+## Walnut phone stand
+
+I found a simple walnut-colored stand for my other phone, which is also walnut colored, so it fits perfectly with the rest of the accessories on my desk.
+
+<a href="images/walnut_phone_stand.jpg">
+<img src="images/walnut_phone_stand.jpg" alt="Walnut phone stand" width="150px" />
+</a>
+
+* {{imgBasket}}Walnut phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ) [(Amazon US)](https://amzn.to/4fYOLFO)
 
 ---
 ## Cat tower
@@ -263,6 +305,38 @@ It is available in three colors: black, beige, and gray.
 <p></p>
 Alternative:
 * {{imgBasket}}20.5-Inch Cat Condo [(Amazon US)](https://amzn.to/4tV4zgc)
+
+---
+## Camera
+
+I chose a basic camera years ago because of these features:
+* HD USB camera with a lens cover
+* 30 fps
+* Light correction
+* Good sound and microphone quality (now I use a separate microphone)
+* A mount with contra weight to place on top of a monitor
+
+<p></p>
+<a href="images/logitech_c920_webcam.jpg">
+<img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" width="150px" />
+</a>
+
+Back in the day, the Logitech C920 HD Pro Webcam was a perfect match for me, and it still works fine.
+But it could be upgraded to a newer one with 4K resolution and an auto-follow feature.
+I'm open to any good suggestions!
+
+* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
+
+---
+## Microphone
+
+For an affordable basic microphone, I've chosen the Razer Seiren Mini black - USB condenser microphone.
+
+<a href="images/razer_seiren.jpg">
+<img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" width="100px" />
+</a>
+
+* {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8) [(Amazon NL)](https://amzn.to/4cwPg84)
 
 ---
 ## Smart notification light
@@ -310,7 +384,8 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 
 <p></p>
 Alternatives:
-* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) [(Amazon US)]() [(Amazon NL)](https://amzn.to/4enp1Sm)
+
+* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) [(Amazon US)](https://amzn.to/3SSHu0u) [(Amazon NL)](https://amzn.to/4enp1Sm)
 * {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX) (high shipping costs)\
   <a href="images/retractable_usb_charger_walnut.png">
   <img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />
@@ -384,45 +459,7 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 * {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c4OC8zP7) [(Amazon NL)](https://amzn.to/4w7dfCj)
 * {{imgBasket}}DIY moss and plants kit [(Woonhero.nl)](https://woonhero.nl/collections/terrarium-start-en-navulpakketten)
 * {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_c4e9lqvj)
-* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qX4v5j)
-* {{imgBasket}}Deco doors [(AliExpress)](https://s.click.aliexpress.com/e/_c3B6o2wZ)
-* {{imgBasket}}Stainless steel tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
-
----
-## Mug coaster
-
-A personalized mug coaster that nobody else has is both fun and practical, and it protects your desk from spills and stains.
-This coaster has a walnut look.
-If you upload your own image, you can create a personalized mug coaster with your own design.
-
-<a href="images/coasters.jpg">
-<img src="images/coasters.jpg" alt="personalized mug coasters" width="150px" />
-</a>
-
-* {{imgBasket}}Personalized mug coasters [(AliExpress)](https://s.click.aliexpress.com/e/_c3uKT7xt)
-
----
-## Wireless phone charger
-
-Fewer wires on a desk make it look cleaner and more organized, and wireless phone chargers are a nice solution for that.
-Just place your phone on the charger and it starts charging, with no cable needed.
-
-<a href="images/phone_stand_charger.jpg">
-<img src="images/phone_stand_charger.jpg" alt="phone charger" width="150px" />
-</a>
-
-* {{imgBasket}}Wireless phone charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3qTRe0B) [(Amazon NL)](https://amzn.to/42HesCL)
-
----
-## Walnut phone stand
-
-I found a simple walnut-colored stand for my other phone, which is also walnut colored, so it fits perfectly with the rest of the accessories on my desk.
-
-<a href="images/walnut_phone_stand.jpg">
-<img src="images/walnut_phone_stand.jpg" alt="Walnut phone stand" width="150px" />
-</a>
-
-* {{imgBasket}}Walnut phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ)
+* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qXtes
 
 ---
 ## Vacuum cleaner
