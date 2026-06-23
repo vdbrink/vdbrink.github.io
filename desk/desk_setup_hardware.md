@@ -108,7 +108,7 @@ You get all of this on one large display, without bezels breaking up the view.
 <em style="display:block; text-align:center">Philips 49" screen</em>
 
 
-The model I have is the Philips P Line [498P9Z/00](https://www.usa.philips.com/c-p/499P9H_27/brilliance-329-superwide-curved-lcd-display) (model from 2021).
+The model I have is the Philips P Line [498P9Z/00](https://www.usa.philips.com/c-p/498P9Z_27/brilliance-329-superwide-curved-lcd-display) (model from 2021).
 Newer versions are now available with improved specs while keeping the same dimensions and advantages.
 
 <a href="images/philips_49inch_screen.webp">
