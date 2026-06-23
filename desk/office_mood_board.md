@@ -3,7 +3,7 @@ title: "Home office: Mood board"
 description: "Home office desk setup mood board"
 category: Office
 tags: [Home office, desk, setup, mood board, Pinterest]
-image: /home_office_desk/images/home_office_desk_result3.jpg
+image: /desk/images/home_office_desk_result3.jpg
 ---
 
 # Home office: Mood board

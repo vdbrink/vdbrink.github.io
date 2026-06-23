@@ -3,7 +3,6 @@ title: "Home office: Accessories"
 description: "Home office desk accessories"
 category: Office
 tags: [Home office, desk, setup, hardware, accessories]
-image: /home_office_desk/images/desk_collage3.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -20,6 +19,7 @@ for both myself and my cats, who like to keep me company during the day!
 ---
 ## Table of Contents
 <!-- TOC -->
+  * [Amazon shop list](#amazon-shop-list)
   * [Cable management](#cable-management)
   * [Monitor light](#monitor-light)
   * [Desk mat](#desk-mat)
@@ -30,7 +30,7 @@ for both myself and my cats, who like to keep me company during the day!
   * [Headphone stand](#headphone-stand)
   * [Desk clock](#desk-clock)
   * [Mug coaster](#mug-coaster)
-  * [Wireless phone charger](#wireless-phone-charger)
+  * [Wireless phone charger stand](#wireless-phone-charger-stand)
   * [Walnut phone stand](#walnut-phone-stand)
   * [Cat tower](#cat-tower)
   * [Camera](#camera)
@@ -239,7 +239,7 @@ A basic wooden digital clock that doesn't attract more attention than needed.
 <img src="images/clock.avif" alt="wooden clock" width="250px" />
 </a>
 
-* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)]() [(Amazon NL)](https://amzn.to/3Qq2eMw)
+* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)](https://amzn.to/4oO0Yj2) [(Amazon NL)](https://amzn.to/3Qq2eMw)
 
 <p></p>
 
@@ -269,7 +269,8 @@ If you upload your own image, you can create a personalized mug coaster with you
 ## Wireless phone charger stand
 
 Fewer wires on a desk make it look cleaner and more organized, and wireless phone charger stands are a nice solution for that.
-Just place your phone on the charger and it starts charging, with no cable needed.
+If your phone supports it, just place your phone on the charger and it starts charging, with no cable needed. 
+Very useful to have theses on other places in your home as well, like the bedroom, kitchen, living.
 
 <a href="images/phone_stand_charger.jpg">
 <img src="images/phone_stand_charger.jpg" alt="wireless phone charger stand" width="150px" />
@@ -405,7 +406,7 @@ It can be change in different angles.
 <img src="images/footrest.jpg" alt="Footrest" width="150px" />
 </a>
 
-* {{imgBasket}}Footrest [(AliExpress)](https://s.click.aliexpress.com/e/_c2QayhIv) [(Amazon US)](https://amzn.to/) [(Amazon NL)](https://amzn.to/4aeh67k)
+* {{imgBasket}}Footrest [(AliExpress)](https://s.click.aliexpress.com/e/_c2QayhIv) [(Amazon US)](https://amzn.to/4w1Zm7p) [(Amazon NL)](https://amzn.to/4aeh67k)
 
 ---
 ## Floor protection mat
@@ -463,7 +464,8 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 * {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c4OC8zP7) [(Amazon NL)](https://amzn.to/4w7dfCj)
 * {{imgBasket}}DIY moss and plants kit [(Woonhero.nl)](https://woonhero.nl/collections/terrarium-start-en-navulpakketten)
 * {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_c4e9lqvj)
-* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qXtes
+* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qXtes)
+* {{imgBasket}}Stainless steel tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
 
 ---
 ## Vacuum cleaner

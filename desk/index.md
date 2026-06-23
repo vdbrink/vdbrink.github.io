@@ -3,7 +3,7 @@ title: "Home office: Desk setup and room design with AI"
 description: "I designed my home office with the help of AI"
 category: Office
 tags: [Home office, desk, setup, AI, standing desk, WFH, minimalistic, interior design]
-image: /home_office_desk/images/home_office_desk_result3.jpg
+image: /desk/images/home_office_desk_result3.jpg
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
