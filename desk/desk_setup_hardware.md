@@ -60,8 +60,8 @@ You can combine on this site different tops with different "feets".
 They have tops available in different sizes from 120×80 cm up to 200×100 cm and different colors, black, white, oak.
 
 
-<a href="images/desk_low2.jpg">
-<img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
+<a href="images/desk_t1.jpg">
+<img src="images/desk_t1.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
 </a>
 <em style="display:block; text-align:center">standing desk: one piece walnut top, size 200×80 cm, programmable heights</em>
 
