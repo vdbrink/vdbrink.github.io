@@ -2,7 +2,7 @@
 title: "Home office: Desk setup and room design with AI"
 description: "I designed my home office with the help of AI"
 category: Office
-tags: [Home office, desk, setup, AI, standing desk]
+tags: [Home office, desk, setup, AI, standing desk, WFH, minimalistic, interior design]
 image: /home_office_desk/images/home_office_desk_result3.jpg
 ---
 
@@ -12,24 +12,21 @@ image: /home_office_desk/images/home_office_desk_result3.jpg
 
 <br>
 
-On this page you can read the steps of how I started by gathering inspiration, then created a virtual AI mockup of my new home office,
-and finally brought it to life with real products.
+On this page, I walk through each step: from gathering inspiration, to creating a virtual AI mockup of my new home office, to bringing it to life with real products.
 
 Are you looking for inspiration for your own home office desk setup?\
 Or maybe you want to see how AI can help with interior design?\
-Then this is the place for you!
+Then this is the right place for you!
+
+For this setup I use very large 200×80 cm (78.4×31.5") [walnut standing desk](desk_setup_hardware#desk) with a [49" Philips monitor](desk_setup_hardware#monitor), what do you need more?
 
 <a href="images/desk_collage1.png">
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
 </a>
 <em style="display:block; text-align:center;">The final result</em>
 
-I used to have a basic home office desk made of large planks on fixed legs.
-It worked fine for years, but I wanted the option to stand while working and something that looked more professional.
-My old desk was cluttered, and I wanted to start fresh with a clean workspace I could also use for hobby projects, like building my own sensors.
-
-Since I had a spare bedroom, I decided to convert it into a dedicated home office.
-That gave me the opportunity to start from scratch, redoing the walls, ceiling, and floor to create my dream home office!
+When a spare bedroom became available, it gave me the opportunity to use this room and convert it my dream home office.
+Start from scratch, redoing the walls, ceiling, and floor and choose matching accessories!
 
 <a href="images/ai_home_office_design_idea.png">
 <img src="images/ai_home_office_design_idea.png" alt="AI generated room design" width="100%" />

@@ -62,7 +62,7 @@ Where a newer version exists, I link to that instead.
 For a clean desk cable needs to be hidden as much as possible.
 Cable management is the solution to hide and guide the required cables under and behind the desk.
 
-I use these types of guides to accomplish this. 
+I use these types of guides to accomplish this.
 
 <div>
 <a href="images/cable_wire_management1.jpg">
@@ -79,13 +79,13 @@ I use these types of guides to accomplish this.
 
 Alternative:
 
-* {{imgBasket}}Single cable clip holder [(Amazon US)](https://amzn.to/4uQMxfr) 
+* {{imgBasket}}Single cable clip holder [(Amazon US)](https://amzn.to/4uQMxfr)
 
 ---
 ## Monitor light
 
 To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and keyboard and doesn't reflect in my eyes.
-The Xiaomi Mijia monitor light desk bar is a good option. 
+The Xiaomi Mijia monitor light desk bar is a good option.
 It has a bright light, it has a remote knot to dim the light, and it can easily be attached to the monitor, with it contra weights.
 
 <a href="images/monitor_light.avif">
@@ -175,6 +175,8 @@ It's a powerful USB-C charger with enough power to fast charge any new laptop.
 </a>
 
 * {{imgBasket}}Xiaomi 120W USB-C [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/44r6Hla) [(Amazon NL)](https://amzn.to/4tInyuZ)
+
+I'm looking for a single-cable-solution with a [docking station](desk_setup_hardware#docking-station), suggestions are welcome!
 
 ---
 ## Laptop stand
@@ -326,6 +328,8 @@ But it could be upgraded to a newer one with 4K resolution and an auto-follow fe
 I'm open to any good suggestions!
 
 * {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/3Rh4ZzL) [(Amazon NL)](https://amzn.to/4kLNBO6)
+
+I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestions are welcome!
 
 ---
 ## Microphone

@@ -48,24 +48,27 @@ Where a newer version exists, I link to that instead.
 ---
 ## Desk
 
-My old desk was a fixed setup built from wood panels.
 I wanted to switch to a large standing desk to avoid sitting all day.
+This replaces my old desk which was a fixed setup built from wood panels.
 
 I ended up buying the YOUP02 from the Dutch shop [www.goedkoopinrichten.nl](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572).\
-It has dual motors and four programmable height presets.
-I chose the 200×80 cm walnut surface, which is a single solid piece. 
+I chose the 200×80 cm (78.4×31.5") walnut surface, which is a single solid piece.
 It's rectangle size without any holes or rounded corners.
-They have it available in the sizes from 120×80 up to 200×100 cm and different colors, black, white, oak. 
+It has dual motors and four programmable height presets.
+
+You can combine on this site different tops with different "feets".
+They have tops available in different sizes from 120×80 cm up to 200×100 cm and different colors, black, white, oak.
+
 
 <a href="images/desk_low2.jpg">
 <img src="images/desk_low2.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
 </a>
-<em style="display:block; text-align:center">standing desk: one piece walnut top, size 200x80 cm, programmable heights</em>
+<em style="display:block; text-align:center">standing desk: one piece walnut top, size 200×80 cm, programmable heights</em>
 
 My wish list for my new desk was clear:
 * Walnut top
-* 180-200 cm (71-78") wide
-* 80 cm (31") deep
+* 180-200 cm (71-78.4") wide
+* 80 cm (31.5") deep
 * Electric standing/sit desk
 * At least two programmable height presets
 * Black legs
@@ -76,7 +79,7 @@ Finding the right desk took a while because there are many companies selling sta
 
 After filtering the options, I had to choose between these:
 * The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it did not offer a full 200 cm wide top.
-* The [Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.
+* The {{imgBasket}}[Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.
 * The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all my criteria, but it does not have many reviews.
 <p></p>
 
@@ -94,7 +97,7 @@ The monitor is a Philips 49" curved screen with a 5120 x 1440 resolution.
 It has an aspect ratio of 32:9 and a curvature of 1800R.
 It's the size of two 27" screens next to each other.
 
-This is by far one of the best purchases I've ever made, and I still love using it every minute I use it.
+This is by far one of the best purchases I've ever made already a few years back, and I still love using it every minute.
 The big advantage over two separate 27" screens is the flexibility to split your windows however you want.
 You can use three equal windows, or one large window in the center with smaller ones on the sides.
 You get all of this on one large display, without bezels breaking up the view.
@@ -134,15 +137,16 @@ To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for
 ---
 ### Monitor arm
 
-To keep a clean desk, I was looking for:
-* A monitor arm that holds the screen **steadily** and attaches to the desk.
-* No monitor arm in the middle of the desk, so the monitor keeps a **floating** effect.
-* Enough strength to hold the **weight** of the 12 kg 49" screen.
-* Good **cable** management and no bulky parts sticking out at the back. Otherwise, I would have to move the desk away from the wall and lose space.
-* Easy **pull and push** adjustment without unscrewing bolts.
+To keep a clean desk, I was looking for a monitor arm that:
+* holds the screen **steadily** and attaches to the desk.
+* doesn't have a pole in the middle of the desk, so the monitor keeps a **floating** effect.
+* enough strength to hold the **weight** of the 12 kg 49" screen.
+* good **cable** management and no bulky parts sticking out at the back. Otherwise, I would have to move the desk away from the wall and lose space.
+* easy **pull and push** adjustment without unscrewing bolts.
 
 <br>
-I ended up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).\
+
+I ended up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).
 It is built from solid metal, holds up to 20 kg, meets all my requirements, and is reasonably priced.
 
 <a href="images/act_ac8340.avif">
@@ -220,6 +224,8 @@ That said, I'm still on the lookout for a fully adjustable black leather-look ch
 </a>
 
 * {{imgBasket}}Millberget [(Ikea NL)](https://www.ikea.com/nl/en/p/millberget-swivel-chair-murum-beige-70489389/#content)
+
+I'm looking for a replacement [chair](#chair-1), suggestions are welcome!
 
 ---
 ## Mouse
@@ -342,7 +348,7 @@ When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the 
 
 * {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
 * {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
-
+<p></p>
 <a href="images/logitech_mx_master.jpg">
 <img src="images/logitech_mx_master.jpg" alt="Logitech MX Master mouse" width="150px" />
 </a>
