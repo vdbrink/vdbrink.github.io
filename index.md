@@ -1,6 +1,6 @@
 ---
 title: vd Brink Home Automations
-categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee]
+categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 image: /images/banner.jpg
 ---
 
@@ -14,6 +14,9 @@ Here you can find projects I worked on,
 related to Home Assistant, ESP, electronics and Zigbee.
 
 ---
+
+<a href="desk/index"><img src="desk/images/desk_banner.jpg" alt="Desk banner" width="100%"></a>
+<em style="display:block; text-align:center">Project: Home office: Desk setup and room design with AI</em>
 
 ## Updates
 My latest 5 posts:

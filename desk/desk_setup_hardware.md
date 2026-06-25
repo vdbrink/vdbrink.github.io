@@ -59,11 +59,21 @@ It has dual motors and four programmable height presets.
 You can combine on this site different tops with different "feets".
 They have tops available in different sizes from 120×80 cm up to 200×100 cm and different colors, black, white, oak.
 
-
 <a href="images/desk_t1.jpg">
 <img src="images/desk_t1.jpg" alt="YOUP02 Cognac Walnut" width="100%" />
 </a>
 <em style="display:block; text-align:center">standing desk: one piece walnut top, size 200×80 cm, programmable heights</em>
+
+Do you want this wallpaper? 
+Click on the images to open the full size version (NOT right-click and download).
+A widescreen 32:9 and 5:4 version. Created with Ai.\
+<a href="/desk/wallpapers/t1_beach_widescreen.png">
+<img src="/desk/wallpapers/t1_beach_widescreen_small.png" alt="T1 beach wallpaper widescreen 32:9" width="60%" />
+</a>
+
+<a href="/desk/wallpapers/t1_beach_normalscreen.png">
+<img src="/desk/wallpapers/t1_beach_normalscreen.png" alt="T1 beach wallpaper 5:3" width="40%" />
+</a>
 
 My wish list for my new desk was clear:
 * Walnut top
