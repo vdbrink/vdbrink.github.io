@@ -48,7 +48,7 @@ entities:
           {% if is_state('sensor.knmi_weercode', 'Code groen') %}
            #008000;
           {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-           #ff4500;
+           #CC0000;
           {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
            #ffd700;
           {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
@@ -87,7 +87,7 @@ entities:
             {% if is_state('sensor.knmi_weercode', 'Code groen') %}
              #008000;
             {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-             #ff4500;
+             #CC0000;
             {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
              #ffd700;
             {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
@@ -170,7 +170,7 @@ entities:
             {% if is_state('sensor.knmi_weercode', 'Code groen') %}
              #008000;
             {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-             #ff4500;
+             #CC0000;
             {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
              #ffd700;
             {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}

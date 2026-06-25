@@ -20,8 +20,6 @@ We can also use that data to show directly on our Home Assistant dashboards.
 ## Table of Contents
 <!-- TOC -->
   * [Neerslag App](#neerslag-app)
-  * [Animated weather predictions](#animated-weather-predictions)
-  * [Weather predictions](#weather-predictions)
   * [Rain expected value](#rain-expected-value)
   * [Rain radar animated](#rain-radar-animated)
     * [Buienradar with residence marker](#buienradar-with-residence-marker)
@@ -38,6 +36,10 @@ We can also use that data to show directly on our Home Assistant dashboards.
     * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
   * [Precipitation surplus (neerslagoverschot)](#precipitation-surplus-neerslagoverschot)
   * [Bike/BBQ/Terrace weather score upcoming days](#bikebbqterrace-weather-score-upcoming-days)
+  * [Animated weather predictions](#animated-weather-predictions)
+  * [Weather predictions](#weather-predictions)
+    * [Example 1](#example-1)
+    * [Example 2](#example-2)
 <!-- TOC -->
 
 ---
@@ -73,99 +75,6 @@ to indicate when:
 
 Take also a look at these templates.
 -->
-
----
-## Animated weather predictions
-
-<img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
-
-Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
-[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-type: custom:clock-weather-card
-entity: weather.home
-forecast_days: 3
-locale: nl
-time_format: 24
-date_pattern: P
-hide_today_section: false
-hide_forecast_section: false
-{% endraw %}
-```
-
-This card is highly customizable.
-To show more days, no clock and also the expected weather per weather hour.
-
-<img src="images_weather/weather_per_hour.jpg" alt="clock-weather-card per hour" width="400px">
-
-This is the corresponding code:
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-type: custom:clock-weather-card
-entity: weather.forecast_home
-forecast_days: 5
-locale: nl
-time_format: 24
-hide_clock: true
-date_pattern: ""
-hide_today_section: true
-hide_forecast_section: false
-hourly_forecast: true
-forecast_rows: 12
-{% endraw %}
-```
-
----
-## Weather predictions
-
-Nice overview of the current weather predictions.
-
-Install the HACS [**weather-chart-card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
-[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
-
-### Example 1
-
-With current weather conditions.
-
-<img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-type: custom:weather-chart-card
-entity: weather.home
-{% endraw %}
-```
-
-### Example 2
-
-Only with forecast data and alternative style 2.
-
-<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-# Dashboard card code
-type: custom:weather-chart-card
-entity: weather.forecast_home
-forecast:
-  style: style2
-  round_temp: true
-  condition_icons: false
-  show_wind_forecast: false
-show_main: false
-show_attributes: false
-{% endraw %}
-```
 
 ---
 ## Rain expected value
@@ -444,7 +353,7 @@ entities:
               {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
                 #ffa500;
               {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-                #ff4500;
+                #CC0000;
               {% else %}
                 #44739e
               {% endif %}
@@ -525,7 +434,7 @@ card:
         {% if is_state('sensor.knmi_weercode', 'Code groen') %}
          #008000 !important;
         {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-         #ff4500 !important;
+         #CC0000 !important;
         {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
          #ffd700 !important;
         {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
@@ -642,6 +551,101 @@ aspect_ratio: 60%
 title: fietsweer
 {% endraw %}
 ```
+
+
+---
+## Animated weather predictions
+
+<img src="images_hacs/hacs_clock-weather-card.png" alt="Animated weather predictions with clock-weather-card" width="400px">
+
+Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-weather-card#readme) integration via this button
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pkissling&repository=clock-weather-card&category=integration)
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:clock-weather-card
+entity: weather.home
+forecast_days: 3
+locale: nl
+time_format: 24
+date_pattern: P
+hide_today_section: false
+hide_forecast_section: false
+{% endraw %}
+```
+
+This card is highly customizable.
+To show more days, no clock and also the expected weather per weather hour.
+
+<img src="images_weather/weather_per_hour.jpg" alt="clock-weather-card per hour" width="400px">
+
+This is the corresponding code:
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:clock-weather-card
+entity: weather.forecast_home
+forecast_days: 5
+locale: nl
+time_format: 24
+hide_clock: true
+date_pattern: ""
+hide_today_section: true
+hide_forecast_section: false
+hourly_forecast: true
+forecast_rows: 12
+{% endraw %}
+```
+
+---
+## Weather predictions
+
+Nice overview of the current weather predictions.
+
+Install the HACS [**weather-chart-card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
+
+### Example 1
+
+With current weather conditions.
+
+<img src="images_hacs/hacs_weather-chart-card.png" alt="Weather predictions with weather-chart-card" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:weather-chart-card
+entity: weather.home
+{% endraw %}
+```
+
+### Example 2
+
+Only with forecast data and alternative style 2.
+
+<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
+
+```yaml
+{% raw %}
+# Sourcecode by vdbrink.github.io
+# Dashboard card code
+type: custom:weather-chart-card
+entity: weather.forecast_home
+forecast:
+  style: style2
+  round_temp: true
+  condition_icons: false
+  show_wind_forecast: false
+show_main: false
+show_attributes: false
+{% endraw %}
+```
+
 
 ---
 
