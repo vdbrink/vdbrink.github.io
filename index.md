@@ -10,13 +10,12 @@ image: /images/banner.jpg
 
 Welcome to my blog about Home Automations and other tech projects.
 
-Here you can find projects I worked on,
-related to Home Assistant, ESP, electronics and Zigbee.
+Here you can find projects I worked on related to Home Assistant, ESP, electronics, Zigbee and my home office.
 
 ---
 
 <a href="desk/index"><img src="desk/images/desk_banner.jpg" alt="Desk banner" width="100%"></a>
-<em style="display:block; text-align:center">Project: Home office: Desk setup and room design with AI</em>
+<em style="display:block; text-align:center">Recent project: Home office: Desk setup and room design with AI</em>
 
 ## Updates
 My latest 5 posts:
