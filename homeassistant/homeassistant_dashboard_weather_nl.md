@@ -426,7 +426,7 @@ conditions:
 card:
   type: custom:mushroom-title-card
   title: |
-    {{states('sensor.knmi_weer_waarschuwing')}}
+    {{ states('sensor.knmi_weer_waarschuwing') | replace('.', '.\n') }}
   card_mod:
     style: |
       ha-card {
@@ -438,14 +438,16 @@ card:
         {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
          #ffd700 !important;
         {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
-         #ff4d00 !important;
+         #ff6f00 !important;
         {% else %}
          #44739e !important;
         {% endif %}
         --title-color: #000 !important;
         padding-top: 10px !important;
         h1 {
-          font-size: 30px !important;
+           font-size: 45px !important;
+           line-height: 45px !important;
+           font-weight: bold !important;
         }
        }
 {% endraw %}
