@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Stretch Display Layout"
 description: "A Home Assistant dashboard for a stretched display"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, layout, stretch, display, long, large]
+tags: [stretch, display, Home Assistant, dashboard, layout]
 #image: /homeassistant/images_layout_stretch/ha_layout_stretch_banner.png
 ---
 
@@ -55,7 +55,7 @@ Check [here for the hardware section](/projects/stretch_display) where I describ
  <img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched charamel theme" height="600px" style="float:right;margin-left:15px;"/>
 I wanted a display to show the current room healthy information and other live data around the house.
 
-Now I show the next data on it:
+Now I show the next data on this stretched display:
 * Room temperature (+graph), CO2 (+graph), humidity, room heater status, chair occupancy time,
 * Time & date, news headline.
 * Outside temperature, rain is expected.
@@ -159,7 +159,7 @@ tap_action:
 ---
 ## Dashboard elements
 
-Here I describe how I realize the different elements.
+Here I describe how I realize the different elements that are visible on this stretched display.
 
 I add some custom CSS to the dashboard elements if I couldn't get it correct via the theme.
 
