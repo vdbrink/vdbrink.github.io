@@ -22,7 +22,7 @@ This solution works for all these types of sensors:
 <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="100px" style="margin-left:15px;float:left"/></a>
 
-<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3xcbfC7" target="_blank">
 <img src="/buy/images_zigbee/zigbee_motion_pir.jpg" alt="motion sensor" height="100px" style="margin-left:15px;float:left"></a>
 
 <a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank">
@@ -132,7 +132,7 @@ This project only requires these devices: A battery powered sensor and a battery
 ### Combination 4: motion sensor with AAA battery replacement
 
 1. It also works with other sensors like this motion sensor with two AAA batteries.\
-   <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
+   <a href="https://s.click.aliexpress.com/e/_c3xcbfC7" target="_blank">
    <img src="/buy/images_zigbee/zigbee_motion_pir.jpg" alt="motion sensor" height="100px" style="margin-left:15px"></a>
 
 2. A <a href="/buy/batteries#battery-eliminators">AAA battery replacement/eliminator to USB adapter</a>\

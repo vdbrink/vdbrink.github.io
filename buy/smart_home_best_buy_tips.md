@@ -60,9 +60,7 @@ All the Amazon products are also bundled on these
     * [Leak sensor](#leak-sensor)
     * [Pressure sensor](#pressure-sensor)
     * [Lights](#lights)
-      * [GU10](#gu10)
       * [Bulb](#bulb)
-      * [Bulb socket](#bulb-socket)
       * [LED strip](#led-strip)
     * [Buttons](#buttons)
       * [Wall switch](#wall-switch)
@@ -79,19 +77,10 @@ All the Amazon products are also bundled on these
     * [Smart socket](#smart-socket)
     * [Power strip](#power-strip)
   * [Smart Curtains](#smart-curtains)
-  * [Google Coral USB](#google-coral-usb)
   * [Batteries](#batteries)
-    * [Battery eliminators](#battery-eliminators)
   * [Cables](#cables)
-    * [Micro USB power cable](#micro-usb-power-cable)
-    * [USB-C power cable](#usb-c-power-cable)
-    * [USB-C to USB-C](#usb-c-to-usb-c)
-    * [USB-A extension cable](#usb-a-extension-cable)
   * [Power](#power)
-    * [Adapters](#adapters)
   * [Battery powered with PIR](#battery-powered-with-pir)
-    * [Lights](#lights-1)
-    * [Automatic soap dispenser](#automatic-soap-dispenser)
 <!-- TOC -->
 
 ---
@@ -275,11 +264,11 @@ If I want to cover a whole room, I use a different type of PIR sensor which you 
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered - Tuya
-<a href="https://s.click.aliexpress.com/e/x_EwELbwt" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/x_c3xcbfC7" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4dhkbFv#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
-<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank"><img src="/buy/images_zigbee/zigbee_motion_pir.jpg" height="100px"></a>
+<a href="https://s.click.aliexpress.com/e/_c3xcbfC7" target="_blank"><img src="/buy/images_zigbee/zigbee_motion_pir.jpg" height="100px"></a>
 
 [//]: # ({{imgBasket}}<a href="https://amzn.to/4i18dQH#ad" target="_blank">Zigbee motion sensor all directions - LIGHTEU &#40;Amazon&#41;</a>)
 [//]: # (<a href="https://www.zigbee2mqtt.io/devices/PIR1-ZB.html" target="_blank" title="ZP01">{{imgZ2M}}PIR1-ZB</a>)
@@ -892,22 +881,6 @@ A cheaper solution than four single smart sockets.
 ## Smart Curtains
 
 If you're looking for a U-rail solution, you can look at [Slide - Smart Curtains](/projects/slide_smart_curtains).
-
-<br>
-
----
-
-## Google Coral USB
-
-<a href="https://s.click.aliexpress.com/e/_c2JpmDMj" target="_blank">
-<img src="images_zigbee/google_coral.webp" alt="Google Coral" width="150px" style="margin-left:15px;float:right"/></a>
-
-USB accelerator to handle heavy image-processing tasks, like human detection with Frigate.
-
-{{imgBasket}}Coral USB - Google
-<a href="https://s.click.aliexpress.com/e/_c2JpmDMj" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3QYltwo#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4594MC0#ad" target="_blank">(Amazon NL)</a>
 
 <br>
 
