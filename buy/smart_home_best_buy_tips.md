@@ -179,7 +179,7 @@ This section contains sensors which I advise, mostly based on my personal experi
 
 ### Contact sensor
 
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 A contact sensor can be placed to check whether doors and windows are open or closed. The sensor only knows those two states.
@@ -190,13 +190,13 @@ With this behavior, you can also create a [seat occupancy sensor](/zigbee/zigbee
 
 **Best option:**\
 {{imgBasket}}Zigbee Contact sensor - Aqara
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3R03iGC#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3Dnl1kK#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank" title="MCCGQ11LM">{{imgZ2M}}MCCGQ11LM</a> aka T1.
 They are small and have a long battery life.
 
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara contact sensor" height="100px" /></a>
 
 **Cheaper option:**\
@@ -275,7 +275,7 @@ If I want to cover a whole room, I use a different type of PIR sensor which you 
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered - Tuya
-<a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/x_EwELbwt" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4dhkbFv#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 

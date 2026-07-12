@@ -94,13 +94,13 @@ The Aqara Zigbee leak sensor has two metal screw contacts on the back of the sen
 
 <br>
 
-1b. Or use any <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">Zigbee Contact sensor</a> (or WiFi version). 
+1b. Or use any <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">Zigbee Contact sensor</a> (or WiFi version). 
 Soldering is required if you use this way.\
 A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.
 
-On this page I describe how it works with this <a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">contact sensor</a>.
+On this page I describe how it works with this <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">contact sensor</a>.
 
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 

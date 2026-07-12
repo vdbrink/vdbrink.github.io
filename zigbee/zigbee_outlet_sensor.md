@@ -19,7 +19,7 @@ Sometimes you just want a solution which always works, without the need to repla
  
 This solution works for all these types of sensors:
 <div>
-<a href="https://s.click.aliexpress.com/e/_EumfxFt" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" height="100px" style="margin-left:15px;float:left"/></a>
 
 <a href="https://s.click.aliexpress.com/e/_EwELbwt" target="_blank">
