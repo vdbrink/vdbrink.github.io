@@ -36,29 +36,26 @@ My latest 5 posts:
 ---
 
 My latest blog highlights:
-* [Home office: Desk setup and room design with AI](/desk)
-* [Smart and stylish notification light](/projects/smart_notification_light)
-* [Home Assistant dashboard - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
+* [ESPHome - DIY CO2 (model SCD40) sensor](esphome/co2_scd40)
+* [Home office - Desk setup and room design with AI](/desk)
+* [Projects - Smart and stylish notification light](/projects/smart_notification_light)
+* [Home Assistant - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
 * [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode)
-* [Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
-* [Smart traditional mailbox](/projects/smart_mailbox)
-* [Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
+* [Home Assistant - Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
+* [Projects - Smart traditional mailbox](/projects/smart_mailbox)
+* [Home Assistant - Which hardware to run Home Assistant on?](/homeassistant/homeassistant_hardware)
 * [Home Assistant - Floor plan](/homeassistant/homeassistant_dashboard_floorplan)
 * [Home Assistant - Pollen Radar](homeassistant/homeassistant_hacs_kleenex)
 * [Home Assistant - Automate infrared-controlled devices](zigbee/smart_infrared_transmitter_receiver)
-
-* [Home Automation - Ideas](ideas/home_automation_ideas)
-* [ESPHome - DIY CO2 sensor](esphome/co2_scd40)
-
 * [Home Assistant - Templates](homeassistant/homeassistant_templates)
 * [Home Assistant - Useful HACS custom elements](homeassistant/homeassistant_dashboard_hacs)
-* [Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)
+* [Buy - Smart Home Best Buy Tips](buy/smart_home_best_buy_tips)
 
 ---
 
 ## Topics
 
-Topics you can find here:
+Topics on this site are:
 
 |                                                                                                                                          | Subjects                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

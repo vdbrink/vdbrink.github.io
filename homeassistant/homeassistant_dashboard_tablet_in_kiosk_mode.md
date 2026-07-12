@@ -186,10 +186,10 @@ It has many more features!
 #### Tablet as wall panel
 
 I use myself a Samsung 10" tablet as display with Home Assistant.\
-If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets:
+If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets with a higher resolution:
 
-* {{imgBasket}}Samsung Galaxy Tab A9+ - 11" with a resolution of 1920x1200 [(Amazon US)](https://amzn.to/4g7b101) [(Amazon NL)](https://amzn.to/4xgkqsp)
-* {{imgBasket}}Lenovo Tab M11 - 11" with a resolution of 1920x1200 [(Amazon US)](https://amzn.to/4fqXqAy) [(Amazon NL)](https://amzn.to/43kPQ3g)
+* {{imgBasket}}**Lenovo Tab M11** - 11" with a resolution of 1920x1200 [(AliExpress)](https://s.click.aliexpress.com/e/_c4kxCMn9) [(Amazon US)](https://amzn.to/4fqXqAy) [(Amazon NL)](https://amzn.to/43kPQ3g)
+* {{imgBasket}}**Samsung Galaxy Tab A9+** - 11" with a resolution of 1920x1200 [(Amazon US)](https://amzn.to/4g7b101) [(Amazon NL)](https://amzn.to/4xgkqsp)
 
 ### iOS iPad tablet
 
