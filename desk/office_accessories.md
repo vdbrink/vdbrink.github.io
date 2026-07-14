@@ -42,6 +42,7 @@ for both myself and my cats, who like to keep me company during the day!
   * [Floor protection mat](#floor-protection-mat)
   * [Floor heated mat](#floor-heated-mat)
   * [Moss terrarium](#moss-terrarium)
+  * [Shortcut keyboard](#shortcut-keyboard)
   * [Vacuum cleaner](#vacuum-cleaner)
 <!-- TOC -->
 
@@ -269,7 +270,7 @@ If you upload your own image, you can create a personalized mug coaster with you
 ## Wireless phone charger stand
 
 Fewer wires on a desk make it look cleaner and more organized, and wireless phone charger stands are a nice solution for that.
-If your phone supports it, just place your phone on the charger and it starts charging, with no cable needed. 
+If your phone supports it, just place your phone on the charger and it starts charging, with no cable needed.
 Very useful to have theses on other places in your home as well, like the bedroom, kitchen, living.
 
 <a href="images/phone_stand_charger.jpg">
@@ -466,6 +467,18 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 * {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_c4e9lqvj)
 * {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4qXtes)
 * {{imgBasket}}Stainless steel tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
+
+---
+## Shortcut keyboard
+
+I have a macro keypad with 32 buttons to trigger all kind of commands, scripts, apps, automations and other actions just with a single button click.
+You can search for custom icons from a library or upload your own, and a button can also be used as small display to show status updates, like current temperature or open issues.
+
+<a href="images/elgato_stream_deck_xl.jpg">
+<img src="images/elgato_stream_deck_xl.jpg" alt="Elgato Stream Deck XL" width="150px" />
+</a>
+
+* {{imgBasket}}Elgato Stream Deck XL [(Amazon US)](https://amzn.to/4ycYcIe) [(Amazon NL)](https://amzn.to/4bqBe6F)
 
 ---
 ## Vacuum cleaner
