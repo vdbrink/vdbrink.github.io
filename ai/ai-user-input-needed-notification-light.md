@@ -5,21 +5,24 @@ tags: [Claude Code, Codex, AI, MQTT, Node-RED, Home Assistant, notification ligh
 image: /projects/images_noti_light/banner_noti_light.png
 ---
 
-# Ai user input notification light
+# AI user input notification light
 
 <img src="/projects/images_noti_light/banner_noti_light.png" alt="Smart and stylish notification light" width="50%">
 
 ## Introduction
 
-When Claude Code or Codex is running for a while, it sometimes needs user input before it can continue.
-That can be easy to miss when the terminal is not in front of you.
+When an AI client like Claude Code or Codex runs for a while, it sometimes needs user input before it can continue.
+That is easy to miss when the terminal is not in front of you, or when you run multiple clients at once.
 
-This setup sends a small MQTT message from a Claude Code or Codex hook.
-Node-RED receives that message and triggers my smart notification light.
-In my home automation setup, the lamp turns blue for 5 seconds when an AI coding agent needs attention.
+I first solved this with a sound and a popup notification on my screen.
+Since I already had a smart notification light on my desk, I extended the setup to alert me with a visual trigger as well.
 
-The light itself is the smart desk light from my [Smart and stylish notification light](/projects/smart_notification_light) project.
-That article explains how to build the physical light with a GU10 smart bulb in a stylish pencil holder.
+The light itself is an earlier project, described on the [Smart and stylish notification light](/projects/smart_notification_light) page.
+That page explains how to build it with a GU10 smart bulb in a stylish pencil holder.
+
+An automation to trigger the light was already in place, so this is only a small update.
+The missing link was sending an MQTT message to a specific topic from the AI client through a hook whenever it needs user input.
+Node-RED listens to that topic and turns the smart notification light blue for 5 seconds when an AI client needs attention.
 
 <img src="/projects/images_noti_light/smart_noti_light_ani.gif" alt="Smart notification light changing colors" width="50%">\
 <em>The same smart notification light can be reused for Claude Code and Codex alerts.</em>
@@ -42,7 +45,7 @@ That article explains how to build the physical light with a GU10 smart bulb in 
 
 ## What it does
 
-Claude Code and Codex support hooks that can run commands when something happens.
+Claude Code and Codex support hooks that run commands when certain events happen.
 This example uses those hooks to publish a small MQTT message.
 
 The flow is:
@@ -68,8 +71,7 @@ This is useful for:
 
 For this setup you need:
 
-* Claude Code installed on your computer.
-* Codex installed on your computer, if you also want Codex notifications.
+* Claude Code or Codex installed on your computer.
 * An MQTT broker, for example the MQTT broker used by Home Assistant.
 * `mosquitto_pub` installed on the computer where Claude Code or Codex runs.
 * Node-RED connected to the same MQTT broker.
@@ -89,13 +91,13 @@ If you still need to build the light, first follow this project:
 
 Install Mosquitto so the hook script can publish MQTT messages.
 
-On macOS:
+On macOS, install it with Homebrew:
 
 ```bash
 brew install mosquitto
 ```
 
-After installing it, test if `mosquitto_pub` is available:
+After installing, check that `mosquitto_pub` is available:
 
 ```bash
 mosquitto_pub --help
@@ -143,7 +145,7 @@ You can test it manually:
 This should publish this MQTT message:
 
 ```json
-{ 
+{
   "hook": "permission"
 }
 ```
@@ -185,14 +187,14 @@ Add these hooks:
 ```
 
 The most useful one for me is `PermissionRequest`.
-When Claude Code asks for approval, the light flashes blue so I know it is waiting.
+When Claude Code asks for approval, the light flashes blue so I know it is waiting for me.
 
 ---
 
 ### Codex hooks
 
 Codex can also run lifecycle hooks.
-Use this if you want the same notification light for Codex approval requests or when a Codex turn finishes.
+Use these if you want the same notification light for Codex approval requests, or for when a Codex turn finishes.
 
 Create or edit this file:
 
@@ -231,8 +233,8 @@ Add these hooks:
 }
 ```
 
-The `PermissionRequest` hook is the useful one when Codex asks before running a command or tool.
-The `Stop` hook runs when the Codex turn stops, which can also be useful if you want a light signal when Codex is done and waiting for the next prompt.
+The `PermissionRequest` hook is the useful one: it triggers when Codex asks before running a command or tool.
+The `Stop` hook runs when a Codex turn stops, which is handy if you want a signal when Codex is done and waiting for the next prompt.
 
 After adding or changing Codex hooks, open Codex and run:
 
@@ -241,7 +243,7 @@ After adding or changing Codex hooks, open Codex and run:
 ```
 
 Review and trust the new hook.
-Codex skips non-managed command hooks until they are trusted.
+Codex skips unmanaged command hooks until they are trusted.
 
 If you prefer to define hooks in `~/.codex/config.toml`, the same setup can also be written inline:
 
@@ -261,8 +263,8 @@ command = "~/mqtt_ai_agent.sh codex-stop"
 statusMessage = "Sending Codex stop notification"
 ```
 
-Use either `~/.codex/hooks.json` or inline hooks in `~/.codex/config.toml`.
-Using both in the same config layer works, but Codex will warn about it.
+Use either `~/.codex/hooks.json` or inline hooks in `~/.codex/config.toml`, not both.
+Defining both in the same config layer works, but Codex will warn about it.
 
 ---
 
@@ -321,8 +323,8 @@ Run the script manually:
 
 If everything is connected correctly, Node-RED receives the MQTT message and the smart notification light turns blue for 5 seconds.
 
-After that, use Claude Code normally.
-When it asks for permission or needs user input, the same light notification will trigger automatically.
+After that, use Claude Code as normal.
+When it asks for permission or needs user input, the light notification triggers automatically.
 
 For Codex, run:
 
@@ -331,10 +333,10 @@ For Codex, run:
 ```
 
 If that works, start Codex and trust the hook with `/hooks`.
-The notification will trigger when Codex asks for permission, and optionally when a turn stops if you kept the `Stop` hook.
+The notification then triggers when Codex asks for permission, and optionally when a turn stops if you kept the `Stop` hook.
 
 ---
 
-The smart light can be used for more than Claude Code and Codex.
-I also use it for other Home Assistant automations, like CO2 warnings.
-You can find the full build here: [Smart and stylish notification light](/projects/smart_notification_light).
+The smart light can do more than signal Claude Code and Codex.
+I also use it for other Home Assistant automations, such as CO2 warnings.
+The full build is here: [Smart and stylish notification light](/projects/smart_notification_light).

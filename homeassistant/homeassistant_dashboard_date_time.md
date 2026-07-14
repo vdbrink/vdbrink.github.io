@@ -183,7 +183,7 @@ With this template it gives the number of days from now.
 
 ### HACS: Afvalbeheer: attribute and format `YYYYMMDD`
 Countdown for the number of days until they pick up the paper waste.
-The [HACS: Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer) integration creates the sensor `wastecollector_papier` — the default value can be `Morgen, 05-02-2024` or `06-02-2024`. But the attributes field `Sort_date` has a default `YYYYMMDD`, that's why I use this value.
+The [HACS: Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer) integration creates the sensor `wastecollector_papier`, the default value can be `Morgen, 05-02-2024` or `06-02-2024`. But the attributes field `Sort_date` has a default `YYYYMMDD`, that's why I use this value.
 
 With this template it gives the number of days from now.
 
