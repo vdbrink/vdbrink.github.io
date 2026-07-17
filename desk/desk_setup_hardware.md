@@ -11,6 +11,15 @@ image: /desk/images/youp02_desk.jpg
 
 <br>
 
+[Overview](index) |
+[Mood board](office_mood_board) |
+[Virtual design with AI](office_virtual_design_with_ai) |
+[Room decoration](office_room_decoration) |
+Desk setup hardware |
+[Accessories](office_accessories)
+
+<br>
+
 On this page, you can find the main hardware products I use daily in my home office.
 These are the items that genuinely make my work life easier and more enjoyable.
 

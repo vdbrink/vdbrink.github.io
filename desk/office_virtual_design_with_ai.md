@@ -7,6 +7,16 @@ tags: [Home office, decoration, AI, mood board, virtual design]
 
 # Home office: Virtual room design with AI
 
+
+<br>
+
+[Overview](index) |
+[Mood board](office_mood_board) |
+Virtual design with AI |
+[Room decoration](office_room_decoration) |
+[Desk setup hardware](desk_setup_hardware) |
+[Accessories](office_accessories)
+
 <br>
 
 After building a Pinterest [mood board](office_mood_board) with many photos of offices and desk setups I liked, it was time to look for the common elements.

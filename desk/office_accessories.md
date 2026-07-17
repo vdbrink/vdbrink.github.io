@@ -10,6 +10,15 @@ tags: [Home office, desk, setup, hardware, accessories]
 
 <br>
 
+[Overview](index) |
+[Mood board](office_mood_board) |
+[Virtual design with AI](office_virtual_design_with_ai) |
+[Room decoration](office_room_decoration) |
+[Desk setup hardware](desk_setup_hardware) |
+Accessories
+
+<br>
+
 On this page, you can read about the accessories I use to decorate my office and make working there a joy
 for both myself and my cats, who like to keep me company during the day!
 

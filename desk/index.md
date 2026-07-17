@@ -12,26 +12,40 @@ image: /desk/images/home_office_desk_result3.jpg
 
 <br>
 
+Overview |
+[Mood board](office_mood_board) |
+[Virtual design with AI](office_virtual_design_with_ai) |
+[Room decoration](office_room_decoration) |
+[Desk setup hardware](desk_setup_hardware) |
+[Accessories](office_accessories)
+
+<br>
+
 On this page, I walk through each step: from gathering inspiration, to creating a virtual AI mockup of my new home office, to bringing it to life with real products.
 
 Are you looking for inspiration for your own home office desk setup?\
 Or maybe you want to see how AI can help with interior design?\
 Then this is the right place for you!
 
-For this setup I use very large 200×80 cm (78.4×31.5") [walnut standing desk](desk_setup_hardware#desk) with a [49" Philips monitor](desk_setup_hardware#monitor), what do you need more?
+For this setup I used large 200×80 cm (78.4×31.5") [walnut standing desk](desk_setup_hardware#desk) with a [49" Philips monitor](desk_setup_hardware#monitor), what do you need more?
 
 <a href="images/desk_collage1.png">
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
 </a>
 <em style="display:block; text-align:center;">The final result</em>
 
-When a spare bedroom became available, it gave me the opportunity to use this room and convert it my dream home office.
+## The steps from idea to final result
+
+When a spare bedroom became available again in my home, it gave me the opportunity to use this room and convert it my dream home office.
 Start from scratch, redoing the walls, ceiling, and floor and choose matching accessories!
+
+But where to start? What materials does look good in my room?
+I needed first answer on these questions, so I started a new project.
 
 <a href="images/ai_home_office_design_idea.png">
 <img src="images/ai_home_office_design_idea.png" alt="AI generated room design" width="100%" />
 </a>
-<em style="display:block; text-align:center">The old room situation, virtual design, new situation</em>
+<em style="display:block; text-align:center">The old room situation, virtual AI design, to final result</em>
 
 This project is split into separate sections, each on its own page. Read whichever topics interest you.
 

@@ -10,6 +10,15 @@ image: /desk/images/home_office_desk_result3.jpg
 
 <br>
 
+[Overview](index) |
+Mood board |
+[Virtual design with AI](office_virtual_design_with_ai) |
+[Room decoration](office_room_decoration) |
+[Desk setup hardware](desk_setup_hardware) |
+[Accessories](office_accessories)
+
+<br>
+
 My idea for how the office should look started with a digital *mood board*: a Pinterest board where I saved photos of offices and accessories that caught my eye.
 After a few months of collecting images from Pinterest, social media, and Google Images, a clear pattern of colors and materials started to emerge.
 Dark walnut tones, dark green accents, green plants, and acoustic panels became the common thread running through most of the photos.

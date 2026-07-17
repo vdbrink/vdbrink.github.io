@@ -7,6 +7,16 @@ tags: [Home office, decoration]
 
 # Home office: Room decoration
 
+
+<br>
+
+[Overview](index) |
+[Mood board](office_mood_board) |
+[Virtual design with AI](office_virtual_design_with_ai) |
+Room decoration |
+[Desk setup hardware](desk_setup_hardware) |
+[Accessories](office_accessories)
+
 <br>
 
 I completely redecorated my new office with an acoustic panel wall, fresh paint on the other walls and ceiling, and a new floor.
