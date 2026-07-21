@@ -298,13 +298,13 @@ Click on the image to go to the original post:
 {% capture rpi4_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3ucQGT7){% endcapture %}
 {% capture rpi5_global %}[AliExpress](https://s.click.aliexpress.com/e/_oCaXY9K){% endcapture %}
 
-{% capture rpi3_us %}[Amazon US](https://amzn.to/4d0606a){% endcapture %}
-{% capture rpi4_us %}[Amazon US](https://amzn.to/41vT9Ez){% endcapture %}
-{% capture rpi5_us %}[Amazon US](https://amzn.to/4hg55Pz){% endcapture %}
+{% capture rpi3_us %}[Amazon US](https://amzn.to/4d0606a#ad){% endcapture %}
+{% capture rpi4_us %}[Amazon US](https://amzn.to/41vT9Ez#ad){% endcapture %}
+{% capture rpi5_us %}[Amazon US](https://amzn.to/4hg55Pz#ad){% endcapture %}
 
-{% capture rpi3_nl %}[Amazon NL](https://amzn.to/3EU3Mbq){% endcapture %}
-{% capture rpi4_nl %}[Amazon NL](https://amzn.to/3DaETHT){% endcapture %}
-{% capture rpi5_nl %}[Amazon NL](https://amzn.to/4kcHm5j){% endcapture %}
+{% capture rpi3_nl %}[Amazon NL](https://amzn.to/3EU3Mbq#ad){% endcapture %}
+{% capture rpi4_nl %}[Amazon NL](https://amzn.to/3DaETHT#ad){% endcapture %}
+{% capture rpi5_nl %}[Amazon NL](https://amzn.to/4kcHm5j#ad){% endcapture %}
 
 {% capture rpi3_performance %}[739](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A53+8+Core+1512+MHz&id=4150){% endcapture %}
 {% capture rpi4_performance %}[1.071](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A72+6+Core+1416+MHz&id=4487){% endcapture %}

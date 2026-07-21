@@ -49,7 +49,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon US)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
+[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -98,7 +98,7 @@ Finding the right desk took a while because there are many companies selling sta
 
 After filtering the options, I had to choose between these:
 * The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it did not offer a full 200 cm wide top.
-* The {{imgBasket}}[Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.
+* The {{imgBasket}}[Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU#ad) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.
 * The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all my criteria, but it does not have many reviews.
 <p></p>
 
@@ -136,8 +136,8 @@ Newer versions are now available with improved specs while keeping the same dime
 
 Same monitor but newer models:
 
-* {{imgBasket}}Philips 49" curved monitor - 49B2U5900C [(Amazon NL)](https://amzn.to/4afMEdn)
-* {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon US)](https://amzn.to/4v3Z53D)
+* {{imgBasket}}Philips 49" curved monitor - 49B2U5900C [(Amazon NL)](https://amzn.to/4afMEdn#ad)
+* {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon US)](https://amzn.to/4v3Z53D#ad)
 
 ---
 ### Monitor cable
@@ -150,8 +150,8 @@ To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for
 <img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" width="150px" />
 </a>
 
-* {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i) [(Amazon NL)](https://amzn.to/3MSMgsm)
-* {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq)
+* {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i#ad) [(Amazon NL)](https://amzn.to/3MSMgsm#ad)
+* {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq#ad)
 
 ---
 ### Monitor arm
@@ -172,11 +172,11 @@ It is built from solid metal, holds up to 20 kg, meets all my requirements, and 
 <img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
 </a>
 
-* {{imgBasket}}Monitor arm - ACT AC8340 (Amazon US N/A)  [(Amazon NL)](https://amzn.to/4qFwvD8) [(Tweakers NL - Dutch price compare site)](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
+* {{imgBasket}}Monitor arm - ACT AC8340 (Amazon US N/A)  [(Amazon NL)](https://amzn.to/4qFwvD8#ad) [(Tweakers NL - Dutch price compare site)](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
 
 <br>
 Alternative, similar design:
-* {{imgBasket}}Monitor arm - VIVO Heavy Duty for max 49" monitors [(Amazon US)](https://amzn.to/4eqbiKm) [(Amazon NL)](https://amzn.to/4uNRFBI)
+* {{imgBasket}}Monitor arm - VIVO Heavy Duty for max 49" monitors [(Amazon US)](https://amzn.to/4eqbiKm#ad) [(Amazon NL)](https://amzn.to/4uNRFBI#ad)
 
 ---
 ## Laptop
@@ -189,7 +189,7 @@ MacBooks consistently outperform Windows laptops on both performance and battery
 <img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
 </a>
 
-* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv) [(Amazon NL)](https://amzn.to/4w3F12q)
+* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv#ad) [(Amazon NL)](https://amzn.to/4w3F12q#ad)
 
 <br>
 
@@ -228,7 +228,7 @@ It exceeds my wish list, switches between three devices, lights up when your han
 <br>
 <em style="display:block; text-align:center">YouTube product video about the Logitech MX Keys</em>
 
-* {{imgBasket}}Logitech MX Keys [(Amazon US)](https://amzn.to/4nFt3IK) [(Amazon NL)](https://amzn.to/4dBkb2a)
+* {{imgBasket}}Logitech MX Keys [(Amazon US)](https://amzn.to/4nFt3IK#ad) [(Amazon NL)](https://amzn.to/4dBkb2a#ad)
 
 ---
 ## Chair
@@ -262,8 +262,8 @@ It is simple, but it has worked well for years.
 
 Alternatives/future replacements:
 
-* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
-* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
+* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
+* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 
 ---
 ## Accessories
@@ -316,7 +316,7 @@ The ideal one would be very minimalist: no numbers, no gold, and a walnut tone t
 </a>
 
 Alternative:
-* {{imgBasket}}Wall clock with acoustic panel look [(Amazon.nl)](https://amzn.to/3O178xU)
+* {{imgBasket}}Wall clock with acoustic panel look [(Amazon.nl)](https://amzn.to/3O178xU#ad)
 
 ----
 ### Docking station
@@ -340,8 +340,8 @@ Is it worth it?
 </a>
 
 * {{imgBasket}}CalDigit TS5 docking station
-  [(Amazon US)](https://amzn.to/4un6YRH)
-  [(Amazon NL)](https://amzn.to/3PGaJCH)
+  [(Amazon US)](https://amzn.to/4un6YRH#ad)
+  [(Amazon NL)](https://amzn.to/3PGaJCH#ad)
 
 <br>
 
@@ -365,8 +365,8 @@ There are many good chair brands, which makes choosing difficult. These two are 
 
 When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
 
-* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn) [(Amazon NL)](https://amzn.to/4oe81RM)
-* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx) [(Amazon NL)](https://amzn.to/4fwGmJo)
+* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
+* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 <p></p>
 <a href="images/logitech_mx_master.jpg">
 <img src="images/logitech_mx_master.jpg" alt="Logitech MX Master mouse" width="150px" />

@@ -56,7 +56,7 @@ but when you use it for already hidden (temperature/contact/..) [sensors](/buy/s
 ### To create this
 
 You need these **three items**, plug them together, and you're done:
-* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(AmazonUS)](https://amzn.to/4hDezp1)
+* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(AmazonUS)](https://amzn.to/4hDezp1#ad)
 
   <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
   <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" />

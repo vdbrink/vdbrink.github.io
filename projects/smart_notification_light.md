@@ -86,7 +86,7 @@ For this project, I used these products:
 > **_NOTE:_** Links on this page can be affiliate links.
 
 <p></p>
-All these products are also available on Amazon and bundled on these [Amazon US](https://amzn.to/4drcBqy) and [Amazon NL](https://amzn.to/4uWTsUR) pages.
+All these products are also available on Amazon and bundled on these [Amazon US](https://amzn.to/4drcBqy#ad) and [Amazon NL](https://amzn.to/4uWTsUR#ad) pages.
 
 ### GU10 Zigbee full color smart light
 

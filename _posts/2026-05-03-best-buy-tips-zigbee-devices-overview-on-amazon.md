@@ -21,8 +21,8 @@ Amazon has the feature to create a "storefront" where you can create lists with 
 Now I started to create such lists also based on my personal favorite (Zigbee) sensors.\
 I'll create more Amazon storefront lists for other projects you find on this blog site.
 
-For my American visitors, you can use this page to find my recommended products on [Amazon US](https://amzn.to/4d6vXkN).
+For my American visitors, you can use this page to find my recommended products on [Amazon US](https://amzn.to/4d6vXkN#ad).
 
-For my Dutch visitors, you can use this page to find my recommended products on [Amazon NL](https://amzn.to/4cO48ip).
+For my Dutch visitors, you can use this page to find my recommended products on [Amazon NL](https://amzn.to/4cO48ip#ad).
 
 If you prefer buying the sensors from AliExpress you can still use those links [my own overview](/buy/smart_home_best_buy_tips).

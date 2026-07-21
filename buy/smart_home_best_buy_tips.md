@@ -31,7 +31,7 @@ good prices, reliable products that last for years, fast shipping (sometimes und
 
 When a product is also available on Amazon, I also added a link to it.\
 All the Amazon products are also bundled on these
-[Amazon US](https://amzn.to/4d6vXkN) and [Amazon NL](https://amzn.to/4cO48ip) pages.
+[Amazon US](https://amzn.to/4d6vXkN#ad) and [Amazon NL](https://amzn.to/4cO48ip#ad) pages.
 
 [> Go direct to the sensor section on this page.](#zigbee-sensors-and-actuators)
 
@@ -918,7 +918,7 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 {{imgBasket}}AA battery replacement with USB
 <a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4lv9H7M#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/3AIfXqb#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/44KY45l#ad" target="_blank">(Amazon NL)</a>
 
 {{imgBasket}}AAA battery replacement with USB
 <a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">(AliExpress)</a>

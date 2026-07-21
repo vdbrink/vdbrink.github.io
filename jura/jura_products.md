@@ -46,13 +46,13 @@ Each with its own strength and additional tastes.
 The most important thing to pay attention to is to choose beans which are not oily. 
 The oil can clog grinders and pipes, leading to reduced performance and costly repairs.
 
-One of my favorite tastes is this medium strength [Lavazza, Rossa Beans](https://amzn.to/46nuIMk):
+One of my favorite tastes is this medium strength [Lavazza, Rossa Beans](https://amzn.to/46nuIMk#ad):
 
 <a href="images_products/lavazza_rossa_beans.jpg">
 <img src="images_products/lavazza_rossa_beans.jpg" height="150px" alt="Lavazza coffee beans"/>
 </a>
 
-[Amazon NL](https://amzn.to/46nuIMk)
+[Amazon NL](https://amzn.to/46nuIMk#ad)
 
 <!--
 ---
@@ -72,7 +72,7 @@ With these products, you keep it as new and with the best taste and avoid molt.
 </a>
 
 [Amazon NL](),
-[Amazon US](https://amzn.to/4lbqr34)
+[Amazon US](https://amzn.to/4lbqr34#ad)
 
 *Alternative*
 

@@ -30,9 +30,6 @@ Where to buy:
 
 > It's a very popular product and sold out on many sites. Or only available for a high price or with high shipping costs.
 
-* option 1: [Global version Xiaomi Mi smart clock](https://a.aliexpress.com/_ExRYDZF) (Aliexpress)
-* option 2: [Global version Xiaomi Mi smart clock](https://s.click.aliexpress.com/e/_DBHjC6H) (Aliexpress)
-
   <img src="images_mi_smart_clock/mi_smart_clock.png" alt="Xiaomi Mi smart clock" width="200px"/>
 
 Do you know a good site to buy one, please let me known.

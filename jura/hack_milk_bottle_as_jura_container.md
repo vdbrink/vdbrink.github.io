@@ -218,7 +218,7 @@ I'm an even happier person with my Jura and now also with this hack!
 ### Cheaper version
 
 If you don't want to spend too much money on the Jura Carafe, 
-you can buy a [long hose](https://amzn.to/4rce8XW) and put this directly in an open milk bottle.
+you can buy a [long hose](https://amzn.to/4rce8XW#ad) and put this directly in an open milk bottle.
 The downside is that milk "sticks" to the outside of the hose when you get it out of the bottle, 
 and you need to clean it immediately to avoid dripping.
 

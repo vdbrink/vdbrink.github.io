@@ -82,7 +82,7 @@ Also affiliate links are used here. Same price, but you also sponsor this blog.
 > **_NOTE:_** The price of this sensor increased a lot, an alternative is the cheaper [SCD40 CO2 sensor](/esphome/co2_scd40).
 
 All the required products are also bundled on these
-[Amazon US](https://amzn.to/4ndsHIZ) and
+[Amazon US](https://amzn.to/4ndsHIZ#ad) and
 [Amazon NL](https://amzn.to/4u15WKY#ad) pages.
 
 These are the hardware components I used for this project:
