@@ -63,7 +63,10 @@ With this small black box, powered on batteries, you can control any infrared de
 An infrared sender needs to be in a direct line with the receiver. 
 If you have more devices you want to control, it can be that you need multiple smart devices to control them all.
 
-> There are also similar [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz) [(Amazon US)](https://amzn.to/3UzxCGU#ad) [(Amazon NL)](https://amzn.to/41b3nJU#ad)  available of this device.
+> There are also similar 
+[WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz) 
+[(Amazon US)](https://amzn.to/3UzxCGU#ad) 
+[(Amazon NL)](https://amzn.to/41b3nJU#ad)  available of this device.
 
 > Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
 <a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
@@ -214,7 +217,6 @@ Here are some links to products which all work via infrared, and can be controll
 LEDS
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
 <a href="https://amzn.to/4fE8qsa#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/47x8F6s#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="led light with remote control" width="200px" class="buy-link"/>
@@ -225,7 +227,6 @@ Light curtains
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains (AliExpress)</a>
 <a href="https://amzn.to/3JkKUVi#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4ptf1JO#ad" target="_blank">(Amazon NL)</a>
-<a href="https://amzn.to/45GQ9pR#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">
   <img src="images_infrared/light_string.avif" alt="light curtains" width="200px" class="buy-link"/>
@@ -245,7 +246,6 @@ Tea lights
 Candles
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/45GxlXO#ad" target="_blank">(Amazon DE)</a>
 
   <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
     <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>

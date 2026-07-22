@@ -115,7 +115,7 @@ This project only requires these devices: A battery powered sensor and a battery
 
 1. It also works with other sensors like this leak sensor with two AAA batteries.
   <a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">Zigbee leak sensor (AliExpress)</a> 
-  <a href="https://amzn.to/3Zj7va8#ad" target="_blank">(Amazon)</a>
+  <a href="https://amzn.to/44ELc0F#ad" target="_blank">(Amazon)</a>
   <a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">
   <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px"/></a>
 

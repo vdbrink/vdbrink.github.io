@@ -129,7 +129,6 @@ It's dishwasher proof.
 </a>
 
 [Amazon NL](https://amzn.to/3K6s1pA#ad),
-[Amazon DE](https://amzn.to/4oTbaFT#ad),
 [Amazon US](https://amzn.to/4plL1PT#ad)
 
 #### Carafe

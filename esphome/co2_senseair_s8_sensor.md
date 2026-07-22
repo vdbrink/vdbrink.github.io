@@ -47,7 +47,6 @@ Everything fits inside a small case: the SenseAir S8 sensor, an ESP mini.
 > It is an all-in-one solution with CO2, decibel, temperature, and humidity sensors.
 > You can find it here:
 [Amazon NL](https://amzn.to/44wKKCE#ad),
-[Amazon DE](https://amzn.to/42nXN80#ad)
 
 ---
 

@@ -61,7 +61,7 @@ for both myself and my cats, who like to keep me company during the day!
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
+[(Amazon US)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -165,7 +165,10 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 Just read the reviews!
 
 Available in black/white/gray:
-* {{imgBasket}}ANC over-ear headset QCY H3S [(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) [(Amazon US)](https://amzn.to/3QdUDR9#ad) [(Amazon NL)](https://amzn.to/3Snv4h5#ad)
+* {{imgBasket}}ANC over-ear headset QCY H3S 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) 
+[(Amazon US)](https://amzn.to/3QdUDR9#ad) 
+[(Amazon NL)](https://amzn.to/3R7soEb#ad)
 
 <br>
 Alternative:\
@@ -203,9 +206,18 @@ This way, it takes up less space on my desk surface, and I can easily detach it 
 <p></p>
 Alternative solutions:
 
-* {{imgBasket}}Walnut stand upright [(AliExpress)](https://s.click.aliexpress.com/e/_c4KppAtd) [(Amazon US)](https://amzn.to/4nEvBXz#ad) [(Amazon NL)](https://amzn.to/44eR5RQ#ad)
-* {{imgBasket}}Laptop mount for under the desk [(AliExpress)](https://s.click.aliexpress.com/e/_c3Kc8qzt) [(Amazon US)](https://amzn.to/4tPqkOn#ad) [(Amazon NL)](https://amzn.to/4xBiFWT#ad)
-* {{imgBasket}}Laptop side desk mount [(AliExpress)](https://s.click.aliexpress.com/e/_c4EqTSqf) [(Amazon US)](https://amzn.to/4tNoFca#ad) [(Amazon NL)](https://amzn.to/3Sh8k2d#ad)
+* {{imgBasket}}Walnut stand upright 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4KppAtd) 
+[(Amazon US)](https://amzn.to/4nEvBXz#ad) 
+[(Amazon NL)](https://amzn.to/44eR5RQ#ad)
+* {{imgBasket}}Laptop mount for under the desk 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c3Kc8qzt) 
+[(Amazon US)](https://amzn.to/4tPqkOn#ad) 
+[(Amazon NL)](https://amzn.to/4xBiFWT#ad)
+* {{imgBasket}}Laptop side desk mount 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4EqTSqf) 
+[(Amazon US)](https://amzn.to/4tNoFca#ad) 
+[(Amazon NL)](https://amzn.to/3Sh8k2d#ad)
 
 ## Laptop case
 
@@ -216,7 +228,10 @@ I chose walnut or black for all items below my monitor and on my desk to make it
 <img src="images/macbook_case.jpg" alt="Macbook 16' case" width="450px" />
 </a>
 
-* {{imgBasket}}Black MacBook cover [(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) [(Amazon US)](https://amzn.to/42K2pos#ad) [(Amazon NL)](https://amzn.to/4xyesn3#ad)
+* {{imgBasket}}Black MacBook cover 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) 
+[(Amazon US)](https://amzn.to/42K2pos#ad) 
+[(Amazon NL)](https://amzn.to/4xyesn3#ad)
 
 ---
 ## Headphone stand
@@ -234,11 +249,16 @@ It just does its job: holding the headphones!
 </a>
 </div>
 
-* {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) [(Amazon US)](https://amzn.to/4wG3POj#ad) [(Amazon NL)](https://amzn.to/4d2Gfm7#ad)
+* {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) 
+[(Amazon US)](https://amzn.to/4wG3POj#ad) 
+[(Amazon NL)](https://amzn.to/4d2Gfm7#ad)
 <p></p>
 Alternative:
 
-* {{imgBasket}}Walnut stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) [(Amazon US)](https://amzn.to/3Rl26xR#ad) [(Amazon NL)](https://amzn.to/4eh9lzY#ad)
+* {{imgBasket}}Walnut stand 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) 
+[(Amazon US)](https://amzn.to/3Rl26xR#ad) 
+[(Amazon NL)](https://amzn.to/4eh9lzY#ad)
 
 ---
 ## Desk clock
@@ -255,9 +275,15 @@ A basic wooden digital clock that doesn't attract more attention than needed.
 
 Alternatives:
 
-* Also, wood-colored, with other shapes, other colors, or additional temperature and humidity display [(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9) [(Amazon US)](https://amzn.to/4w6O1Ds#ad)
-* Wood version with a triangle shape [(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP) [(Amazon US)](https://amzn.to/44lvrv9#ad)
-* Version with wireless charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt) [(Amazon US)](https://amzn.to/43JGezd#ad) \
+* Also, wood-colored, with other shapes, other colors, or additional temperature and humidity display 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9) 
+[(Amazon US)](https://amzn.to/4w6O1Ds#ad)
+* Wood version with a triangle shape 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP) 
+[(Amazon US)](https://amzn.to/44lvrv9#ad)
+* Version with wireless charger 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt) 
+[(Amazon US)](https://amzn.to/43JGezd#ad) \
   <a href="https://s.click.aliexpress.com/e/_c3swbZQt">
   <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" width="150px" />
   </a>
@@ -338,8 +364,8 @@ Back in the day, the Logitech C920 HD Pro Webcam was a perfect match for me, and
 But it could be upgraded to a newer one with 4K resolution and an auto-follow feature.
 I'm open to any good suggestions!
 
-* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/3Rh4ZzL#ad) [(Amazon NL)](https://amzn.to/4kLNBO6#ad)
-
+* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/4hqFaIj#ad) [(Amazon NL)](https://amzn.to/4kLNBO6#ad)
+  https://amzn.to/4hqFaIj
 I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestions are welcome!
 
 ---
@@ -400,7 +426,10 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 <p></p>
 Alternatives:
 
-* {{imgBasket}}Black dual USB-C power hub [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) [(Amazon US)](https://amzn.to/3SSHu0u#ad) [(Amazon NL)](https://amzn.to/4enp1Sm#ad)
+* {{imgBasket}}Black dual USB-C power hub 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) 
+[(Amazon US)](https://amzn.to/3SSHu0u#ad) 
+[(Amazon NL)](https://amzn.to/4enp1Sm#ad)
 * {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX) (high shipping costs)\
   <a href="images/retractable_usb_charger_walnut.png">
   <img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />

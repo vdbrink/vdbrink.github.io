@@ -445,7 +445,7 @@ This one runs on two common AAA batteries, which make the sensor fairly big but 
 {{imgBasket}}Zigbee leak sensor
 <a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">(AliExpress)</a>
 (Not available on Amazon US)
-<a href="https://amzn.to/45cjJTY#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4whRnDQ#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank" title="TS0207_water_leak_detector_1">{{imgZ2M}}TS0207</a>
 
 

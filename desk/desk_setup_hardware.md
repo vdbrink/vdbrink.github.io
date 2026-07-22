@@ -49,7 +49,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
+[(Amazon US)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -262,8 +262,12 @@ It is simple, but it has worked well for years.
 
 Alternatives/future replacements:
 
-* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
-* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
+* {{imgBasket}}Logitech MX Master 3S 
+[(Amazon US)](https://amzn.to/4vxITYn#ad) 
+[(Amazon NL)](https://amzn.to/4oe81RM#ad)
+* {{imgBasket}}Logitech MX Master 4 
+[(Amazon US)](https://amzn.to/43maxvx#ad) 
+[(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 
 ---
 ## Accessories
