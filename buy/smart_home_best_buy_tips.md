@@ -227,7 +227,7 @@ It can also detect people who are sitting still or lying in bed.
 <a href="https://amzn.to/46H1JBL#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
 
-<a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3HeAYAF" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects that emit heat, like humans and animals.
@@ -239,12 +239,12 @@ If I want to cover a whole room, I use a different type of PIR sensor which you 
 
 **Best option:**\
 {{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara
-<a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3HeAYAF" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4tcin5k#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4mK01ph#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM / P1</a>
 
-<a href="https://s.click.aliexpress.com/e/_c2QfVR4H" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3HeAYAF" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
 <br>
@@ -852,7 +852,7 @@ A cheaper solution than four single smart sockets.
 <br>
 <br>
 
-<a href="https://s.click.aliexpress.com/e/_c3B3MqrB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3Owohyj" target="_blank">
 <img src="/buy/images_zigbee/powerstrip2.avif" alt="Zigbee power strip" height="150px" style="margin-left:15px;float:right"/></a>
 Another Zigbee power strip with 4x outlets (max. 16A 4000W) and 2x USB-A (5V 3A) fast charging.
 <br><br>
@@ -870,7 +870,7 @@ A cheaper solution than four single smart sockets.
 <br>
 
 {{imgBasket}}Zigbee power strip with 4 outlets and 2 USB ports - Lellki
-<a href="https://s.click.aliexpress.com/e/_c3B3MqrB" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3Owohyj" target="_blank">(AliExpress)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/E220-KR4N0Z0-HA.html" target="_blank" title="E220-KR4N0Z0-HA">{{imgZ2M}}E220-KR4N0Z0-HA (WP33)</a>
 

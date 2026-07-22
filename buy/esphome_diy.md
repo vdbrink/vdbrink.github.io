@@ -177,10 +177,10 @@ This car seat sensor measures if there is pressure on a chair or seat.
 The output is just an open or a closed circuit.
 You can directly attach it to a contact-/water leak sensor.
 
-<a href="https://s.click.aliexpress.com/e/_c3kA8isr" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4FL7beB" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_even_bigger.avif" height="180px" alt="pressure sensor biggest" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3kA8isr" target="_blank">largest version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4FL7beB" target="_blank">largest version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
@@ -426,10 +426,10 @@ This helping hand can be used to hold the ESP board and sensor while soldering.
 
 This receiver can be used to receive or sniff signals send by device which uses the 433 or 868 MHz bandwidth.
 
-<a href="https://s.click.aliexpress.com/e/_c3LAfXap" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3oWSraJ" target="_blank">
 <img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3LAfXap" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3oWSraJ" target="_blank">link (AliExpress)</a>
 
 ---
 

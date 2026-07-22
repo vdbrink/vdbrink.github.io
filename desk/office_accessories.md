@@ -273,7 +273,7 @@ If you upload your own image, you can create a personalized mug coaster with you
 <img src="images/coasters.jpg" alt="personalized mug coasters" width="150px" />
 </a>
 
-* {{imgBasket}}Personalized mug coasters [(AliExpress)](https://s.click.aliexpress.com/e/_c3uKT7xt)
+* {{imgBasket}}Personalized mug coasters [(AliExpress)](https://s.click.aliexpress.com/e/_c3xqCsX9)
 
 ---
 ## Wireless phone charger stand

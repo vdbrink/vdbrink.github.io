@@ -114,7 +114,7 @@ This makes it possible to hide this lamp in something small.
 </a>
 
 {{imgBasket}}Ceramic lamp fitting for GU10
-<a href="https://s.click.aliexpress.com/e/_c3E9CGrt" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3IcnoiL" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4eQsae0#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4uiccy6#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.gamma.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">(Gamma NL)</a>

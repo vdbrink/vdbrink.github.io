@@ -130,15 +130,15 @@ Without having to worry about latency or any other performance issues for the be
 
 {% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
-{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3HomUfP)*{% endcapture %}
-{% capture n97_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3Y6rDrn){% endcapture %}
+{% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_c38kv8Ib)*{% endcapture %}
+{% capture n97_global %}-{% endcapture %}
 {% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c3J4pYtL){% endcapture %}
 {% capture n100_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4cybVgl){% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4tEONir){% endcapture %}
 {% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c2IMmsxn)*{% endcapture %}
 {% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c4avWxyl){% endcapture %}
 {% capture 185h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c42WiLOp){% endcapture %}
-{% capture hx370_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3RWz1fn){% endcapture %}
+{% capture hx370_global %}-{% endcapture %}
 
 {% capture n95_beelink %} n/a {% endcapture %}
 {% capture n97_beelink %} n/a {% endcapture %}

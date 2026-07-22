@@ -171,7 +171,7 @@ Instead of buying batteries for only a single use it's also possible to buy the 
 
 They are not very famous and more expensive, but environment friendlier, and it reduces waste.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3cfSxdn" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3od1Vyx" target="_blank">2x LIR2032 rechargeable batteries (AliExpress)</a>
 
 <a href="https://amzn.to/4fCK0i9#ad" target="_blank">(Amazon)</a>
 
