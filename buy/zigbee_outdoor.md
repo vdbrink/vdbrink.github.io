@@ -46,7 +46,7 @@ Find here a set of preselected devices which you can buy for in your garden or g
 ---
 ## Rain sensor
 
-<a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3gPaSSF" target="_blank">
 <img src="images_outdoor/rain_sensor.avif" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This other outdoor sensor detects also raindrops.\
@@ -54,7 +54,7 @@ It runs on two AAA batteries.
 It's already triggered with a single drop.
 
 {{imgBasket}}Zigbee raindrop sensor
-<a href="https://s.click.aliexpress.com/e/_oCwblMa" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3gPaSSF" target="_blank">(AliExpress)</a>
 <a href="https://banggood.onelink.me/zMT7/8iw565j9#ad" target="_blank">(BangGood)</a>
 (Amazon US - not available)
 <a href="https://amzn.to/3JuOP1K#ad" target="_blank">(Amazon NL)</a>
@@ -149,7 +149,7 @@ Video with the Ecowitt Wittboy review:
 
 ### Spotlight
 
-<a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3x13p15" target="_blank">
 <img src="images_outdoor/zigbee_spotlight.avif" alt="Outdoor Zigbee spotlight" height="150px" style="margin-left:15px;float:right"/>
 </a>
 A 7W / 24V DC spotlight with 16 million colors.
@@ -158,7 +158,7 @@ The brightness and color temperature are adjustable, and it's water-resistant.
 Support 2.4G RF remote control directly.
 
 {{imgBasket}}Zigbee Spotlight - Gledopto 
-<a href="https://s.click.aliexpress.com/e/_oDH1T7P" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3x13p15" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GL-G-003P.html" target="_blank" title="GL-G-003P">{{imgZ2M}}GL-G-003P</a>
 
 You can chain multiple lights together to power them.

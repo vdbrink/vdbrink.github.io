@@ -146,9 +146,9 @@ Speed is not an issue for this card, it only boots and then doesn't need to read
 #### Power
 
 To power the Raspberry 3B it requires at least 5V with 3A, otherwise you get the message "Low voltage warning" in Raspberry OS.
-To also power the display, I use <a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">this adapter</a>.
+To also power the display, I use <a href="https://s.click.aliexpress.com/e/_c4UpVcht" target="_blank">this adapter</a>.
 
-<a href="https://s.click.aliexpress.com/e/_DEeGxaf" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4UpVcht" target="_blank">
 <img src="../buy/images_diy/usb_power_charger.png" alt="5V USB EU power adapter" width="180px"/></a>
 
 An <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">USB cable</a> type A to micro USB to power the RPI 3.

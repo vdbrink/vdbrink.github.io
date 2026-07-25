@@ -234,11 +234,11 @@ Light curtains
 
 Tea lights
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
 <a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
 
-  <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">
     <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="tea lights" width="200px" class="buy-link"/>
   </a>
 

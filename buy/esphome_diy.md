@@ -92,11 +92,11 @@ A really tiny ESP32 with bluetooth.
 
 The ESP8266 NodeMCU v3 (or comparable) is the original ESP developer board and is most cases fast enough to handle the sensor data.
 
-<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">
 <img src="../esphome/images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 NodeMCU v3" />
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">ESP8266 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">ESP8266 (AliExpress)</a>
 
 ### ESP D1 mini
 
@@ -187,10 +187,10 @@ You can directly attach it to a contact-/water leak sensor.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">large version (AliExpress)</a>
 
-<a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3phM4ij" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor smal" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oEjqY1V" target="_blank">smaller version (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3phM4ij" target="_blank">smaller version (AliExpress)</a>
 
 ### Weight sensor
 

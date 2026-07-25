@@ -513,7 +513,7 @@ With the colored version, you can use the light color to indicate different stat
 An easy solution: screw it between the original socket and the lamp to make the lamp controllable.
 
 {{imgBasket}}WiFi / Zigbee smart light bulb socket
-<a href="https://s.click.aliexpress.com/e/_c3yd93IX" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3IjR2O7" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/3RhV9xi#ad" target="_blank">(Amazon US)</a>
 
 &nbsp;
@@ -1020,11 +1020,11 @@ Not connected, but still smart because it has a PIR sensor in it.
 
 Very useful for closets or stairs where no power is available.
 
-<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4rMbI23" target="_blank">
 <img src="images_diy/battery_powered_pir_lights.avif" alt="Battery powered PIR lights" width="200px"/></a>
 
 {{imgBasket}}Battery powered PIR lights
-<a href="https://s.click.aliexpress.com/e/_DC7Ac3r" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4rMbI23" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42zFj4t#ad" target="_blank">(Amazon US)</a>
 
 <br>

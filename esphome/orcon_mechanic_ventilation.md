@@ -75,7 +75,7 @@ These hardware components do I use for this project:
 * Original Orcon 15RF remote control [link 1](https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/)
 
 ![Orcon 15RF remote](orcon_images/orcon_15rf_remote.jpg "Orcon 15RF remote")
-* ESP8266 NodeMCU v3 (or comparable) [link 1](https://s.click.aliexpress.com/e/_c30mVk0B) [link 2](https://s.click.aliexpress.com/e/_EIwdbqH)
+* ESP8266 NodeMCU v3 (or comparable) [link 1](https://s.click.aliexpress.com/e/_c30mVk0B) [link 2](https://s.click.aliexpress.com/e/_c3YHyskJ)
 
 ![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg "ESP8266 nodeMCU v3")
 

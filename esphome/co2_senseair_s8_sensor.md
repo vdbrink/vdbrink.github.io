@@ -108,8 +108,9 @@ These are the hardware components I used for this project:
 
 <img src="images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/>
 
-* Plastic DIY case, I used a box with dimensions 70 x 45 x 30 mm.
-This one is not available anymore, but you can order a similar one (it's in <a href="https://s.click.aliexpress.com/e/_oEnMVdm" target="_blank">white still available</a>) or at least one with dimensions of this size or larger.
+* Plastic DIY case, I used a box with dimensions 70 x 45 x 30 mm. 
+<a href="https://s.click.aliexpress.com/e/_c3mTQROf" target="_blank">black version (AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4t3bBiR" target="_blank">white version (AliExpress)</a>
 
   * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4ts9gxB#ad">(Amazon US)</a>

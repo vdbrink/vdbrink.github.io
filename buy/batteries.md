@@ -263,7 +263,7 @@ This CR2450 battery is a bit thicker than the other ones.
 
 The CR2450 rechargeable version is the **LIR2450**.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4bdd8o9" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4D3aisr" target="_blank">Rechargeable LIR2450 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DntctnV" target="_blank">Rechargeable LIR2450 + charger (AliExpress)</a>
 

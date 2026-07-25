@@ -349,11 +349,11 @@ Wireless, battery-powered colored LED lights.
 
 I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">Tea lights controlled by an infrared remote</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">Tea lights controlled by an infrared remote</a>
 <a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
 
-  <a href="https://s.click.aliexpress.com/e/_DFWJ9gH" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">
     <img src="images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 
@@ -392,9 +392,8 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 
 ##### Paper stars
 
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">A Christmas paper star - example 1 (AliExpress)</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 2 (AliExpress)</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 3 (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 1 (AliExpress)</a>
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 2 (AliExpress)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">
     <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>

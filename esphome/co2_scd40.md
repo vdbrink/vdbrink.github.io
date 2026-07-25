@@ -125,14 +125,14 @@ but on this page I use an ESP8266.
 
 {{imgBasket}}ESP8266 NodeMCU v3 (CH340) with pre-soldered pins
 <a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">(AliExpress)</a>
-<a href="https://s.click.aliexpress.com/e/_EIwdbqH" target="_blank">Alternative (AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">Alternative (AliExpress)</a>
 <a href="https://amzn.to/4sTpEao#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4qirq3i#ad" target="_blank">(Amazon NL)</a>
 <br>
 
 <img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
 <br>
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4U2UgOD" target="_blank">Alternative link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">Alternative link (AliExpress)</a>
 <a href="https://amzn.to/44uRwXM#ad" target="_blank"> (Amazon US)</a>
 <br>
 
