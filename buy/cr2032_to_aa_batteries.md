@@ -61,9 +61,11 @@ You need these **three items**, plug them together, and you're done:
   <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
   <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" />
   </a>
-* [A USB battery case for **TWO** AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_oprvgmC) [(AliExpress)](https://s.click.aliexpress.com/e/_oCLThYk) or [(AmazonUS)](https://amzn.to/4gMd1re#ad)
+* [A USB battery case for **TWO** AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_c4Evv559) 
+[(AliExpress)](https://s.click.aliexpress.com/e/_oCLThYk) or 
+[(AmazonUS)](https://amzn.to/4gMd1re#ad)
 
-  <a href="https://s.click.aliexpress.com/e/_oprvgmC" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c4Evv559" target="_blank">
   <img src="/buy/images_batteries/aa_case.avif" alt="2x AA battery case" height="150px" />
   </a>
 * [(At least) two (Eneloop) AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_ooEc2QU) 

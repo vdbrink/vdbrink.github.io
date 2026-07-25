@@ -370,12 +370,12 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 
 <br>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">Other candle lights controlled by an infrared remote (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">Other candle lights controlled by an infrared remote (AliExpress)</a>
 <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
 
 
-  <a href="https://s.click.aliexpress.com/e/_ooQUAjv" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">
     <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
   </a>
 

@@ -96,7 +96,7 @@ See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this senso
 
 ### TS0601
 
-<a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3cc9P3h" target="_blank">
 <img src="images_zigbee/TS0601_soil_3.png" alt="Zigbee soil sensor" height="200px" style="margin-left:15px;float:right"/></a>
 Do your plants have enough water?
 You stick this sensor in the soil with the plant, and it detects if the soil is not too dry or the temperature too high.
@@ -105,7 +105,7 @@ Powered by two AAA batteries.
 
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya
-<a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3cc9P3h" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
 <br>

@@ -211,7 +211,7 @@ Battery powered, bigger, cheaper.
 
 ### Motion sensor
 
-<a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3bRl3AB" target="_blank">
 <img src="images_zigbee/human_presence_sensor.avif" alt="pir + mmWave human motion and presence sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 A human presence sensor.<br>
@@ -222,7 +222,7 @@ This helps avoid detecting animals.
 It can also detect people who are sitting still or lying in bed.
 
 {{imgBasket}}Zigbee Human motion + presence + lux sensor - Hoazee
-<a href="https://s.click.aliexpress.com/e/_oEy7q2V" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3bRl3AB" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42aE8HW#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/46H1JBL#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
@@ -264,7 +264,7 @@ If I want to cover a whole room, I use a different type of PIR sensor which you 
 
 **2xAAA battery option:**\
 {{imgBasket}}Zigbee / WiFi motion sensor PIR, AAA powered - Tuya
-<a href="https://s.click.aliexpress.com/e/x_c3xcbfC7" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3GftxMT" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4dhkbFv#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZP01.html" target="_blank" title="ZP01">{{imgZ2M}}ZP01</a>
 
@@ -652,7 +652,7 @@ Check also the [dedicated page](/zigbee/usb_adapter_switch) about this device.
 ---
 ### Plant soil sensor
 
-<a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3cc9P3h" target="_blank">
 <img src="images_zigbee/TS0601_soil_3.png" alt="Zigbee soil sensor" height="200px" style="margin-left:15px;float:right"/></a>
 Do your plants have enough water?
 You place this sensor in the soil near the plant, and it detects whether the soil is too dry or the temperature is too high.
@@ -661,7 +661,7 @@ Powered by two AAA batteries.
 
 Make sure you select the Zigbee version:\
 {{imgBasket}}Zigbee soil humidity sensor - Tuya
-<a href="https://s.click.aliexpress.com/e/_onIII5b" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3cc9P3h" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_soil_3.html" target="_blank" title="TS0601_soil_3">{{imgZ2M}}TS0601_soil_3</a>
 
 {{imgBasket}}Alternative: Zigbee soil humidity sensor - Tuya
@@ -777,14 +777,14 @@ Model: RF-R1 / UFO-R2-RF
 
 ### Radiator Thermostat
 
-<a href="https://s.click.aliexpress.com/e/_ongwmtx" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3jO77RD" target="_blank">
 <img src="/buy/images_zigbee/thermostat.avif" alt="Zigbee radiator thermostat" height="150px" style="margin-left:15px;float:right"/></a>
 
 With this radiator thermostat valve, it is possible to open and close the radiator in steps.\
 You can also schedule a full week of target temperatures.
 
 {{imgBasket}}Zigbee smart radiator thermostat - Moes / Tuya
-<a href="https://s.click.aliexpress.com/e/_ongwmtx" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3jO77RD" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4hX8D9A#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html" target="_blank" alt="TV02">{{imgZ2M}}TV02</a>
 <br>
