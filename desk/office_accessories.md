@@ -250,7 +250,7 @@ It just does its job: holding the headphones!
 </div>
 
 * {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) 
-[(Amazon US)](https://amzn.to/4wG3POj#ad) 
+[(Amazon US)](https://amzn.to/44L9m9N#ad) 
 [(Amazon NL)](https://amzn.to/4d2Gfm7#ad)
 <p></p>
 Alternative:

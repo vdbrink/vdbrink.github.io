@@ -620,7 +620,7 @@ This sensor can measure vibrations and rotations in the X, Y, and Z directions.
 
 {{imgBasket}}Zigbee vibration sensor - Aqara
 <a href="https://s.click.aliexpress.com/e/_c3JdAlpD" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4w5S57F#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/45nmTEz#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/3OiAAvY#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/DJT11LM.html" target="_blank" title="DJT11LM">{{imgZ2M}}DJT11LM</a>
 
@@ -740,7 +740,7 @@ Controlled by Home Assistant.
 
 {{imgBasket}}Zigbee IR remote control - Moes
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4w2CplD#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4wzymgc#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 

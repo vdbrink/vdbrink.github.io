@@ -263,7 +263,7 @@ It is simple, but it has worked well for years.
 Alternatives/future replacements:
 
 * {{imgBasket}}Logitech MX Master 3S 
-[(Amazon US)](https://amzn.to/4vxITYn#ad) 
+[(Amazon US)](https://amzn.to/44L0iSl#ad) 
 [(Amazon NL)](https://amzn.to/4oe81RM#ad)
 * {{imgBasket}}Logitech MX Master 4 
 [(Amazon US)](https://amzn.to/43maxvx#ad) 
@@ -369,7 +369,7 @@ There are many good chair brands, which makes choosing difficult. These two are 
 
 When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
 
-* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/4vxITYn#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
+* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/44L0iSl#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
 * {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/43maxvx#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 <p></p>
 <a href="images/logitech_mx_master.jpg">
