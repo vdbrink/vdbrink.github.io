@@ -350,7 +350,7 @@ Wireless, battery-powered colored LED lights.
 I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">Tea lights controlled by an infrared remote</a>
-<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon)</a>
 <a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">
@@ -360,7 +360,7 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 ##### Candle lights
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon)</a>
 <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
 
 
@@ -371,7 +371,7 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 <br>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">Other candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon)</a>
 <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
 
 
@@ -382,7 +382,7 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 ##### Long candle lights
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon)</a>
 <a href="https://amzn.to/44mdDk4#ad" target="_blank">(Amazon NL)</a>
 
 

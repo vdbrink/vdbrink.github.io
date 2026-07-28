@@ -35,7 +35,7 @@ Instead, using a damp microfiber cloth, you can wash easily the outside of the m
 * {{imgBasket}}microfiber cloths (choose your favorite color)
 <a href="https://s.click.aliexpress.com/e/_oo2dg9f" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/45rarU7#ad" target="_blank">(Amazon NL)</a>
-  <a href="https://amzn.to/45mH2dO#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/45mH2dO#ad" target="_blank">(Amazon)</a>
 
 ---
 ## Waste water collection
@@ -63,11 +63,11 @@ The Jura Z10 has a milk system cleaning program that you can choose manually to 
 * {{imgBasket}}Urnex Rinza 1.1L (32 oz) milk system cleaner
 [Urnex Rinza instructions](https://urnex.com/blog/milk-system-cleaning-guide)
 <a href="https://amzn.to/4f2ZfkY#ad" target="_blank">(Amazon NL)</a>
-  <a href="https://amzn.to/3H2MBFQ#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/3H2MBFQ#ad" target="_blank">(Amazon)</a>
 
 * {{imgBasket}}Jura milk system cleaner mini tabs 180gr (for ~60 cleanings)
 <a href="https://amzn.to/46o0qJw#ad" target="_blank">(Amazon NL)</a>
-  <a href="https://amzn.to/4kTkI18#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/4kTkI18#ad" target="_blank">(Amazon)</a>
 
 Check out this video how to clean the milk system.
 
@@ -89,13 +89,13 @@ Check out this video how to run the brewing unit cleaning program with cleaning 
 There are different cleaning tablets brands available for Jura machines:
 * {{imgBasket}}Urnex Cafiza 100 cleaning tablets, [Urnex Cafiza instructions](https://urnex.com/blog/brew-group-cleaning-guide)
 <a href="https://amzn.to/3IHtXUM#ad" target="_blank">(Amazon NL)</a>
-  <a href="https://amzn.to/4f5Cc9h#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/4f5Cc9h#ad" target="_blank">(Amazon)</a>
 
 * {{imgBasket}}Jura 3-phase 25 cleaning tablets
 <a href="https://amzn.to/40rDVzC#ad" target="_blank">(Amazon NL)</a>
 
 * {{imgBasket}}Jura 2-in-1 6 cleaning tablets
-<a href="https://amzn.to/4mb1ViT#ad" target="_blank">(Amazon US)</a>
+<a href="https://amzn.to/4mb1ViT#ad" target="_blank">(Amazon)</a>
 
 ---
 ## Water container
@@ -122,12 +122,12 @@ There are all kinds of descaling products available which can be used for kettle
 
 * Buy it at any supermarket or drugstore
 * {{imgBasket}}Jura mini tablets (for 30 cleanings, 90 grams)
-  <a href="https://amzn.to/4mgI9CW#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/4mgI9CW#ad" target="_blank">(Amazon)</a>
 * {{imgBasket}}Jura 9 descaling tablets
-  <a href="https://amzn.to/45O47Hq#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/45O47Hq#ad" target="_blank">(Amazon)</a>
   <a href="https://amzn.to/4fCGFjV#ad" target="_blank">(Amazon NL)</a>
 * {{imgBasket}}Urnex liquid descaler
-  <a href="https://amzn.to/#ad" target="_blank">(Amazon US)</a>
+  <a href="https://amzn.to/#ad" target="_blank">(Amazon)</a>
 
 ---
 

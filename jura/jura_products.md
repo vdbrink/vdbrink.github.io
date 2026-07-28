@@ -72,7 +72,7 @@ With these products, you keep it as new and with the best taste and avoid molt.
 </a>
 
 [Amazon NL](),
-[Amazon US](https://amzn.to/4lbqr34#ad)
+[Amazon](https://amzn.to/4lbqr34#ad)
 
 *Alternative*
 
@@ -84,7 +84,7 @@ With these products, you keep it as new and with the best taste and avoid molt.
 <img src="" height="150px" alt=""/>
 
 [Amazon NL](),
-[Amazon US](),
+[Amazon](),
 
 *Alternative*
 -->
@@ -104,8 +104,8 @@ There are different multipacks with 3, 4, 6 pieces.
 </a>
 
 [4x Amazon NL](https://amzn.to/4oOa9iH#ad),
-[3x Amazon US](https://amzn.to/47W25pV#ad),
-[6x Amazon US](https://amzn.to/4p2qEb0#ad),
+[3x Amazon](https://amzn.to/47W25pV#ad),
+[6x Amazon](https://amzn.to/4p2qEb0#ad),
 
 [//]: # (*Alternative*)
 
@@ -129,7 +129,7 @@ It's dishwasher proof.
 </a>
 
 [Amazon NL](https://amzn.to/3K6s1pA#ad),
-[Amazon US](https://amzn.to/4plL1PT#ad)
+[Amazon](https://amzn.to/4plL1PT#ad)
 
 #### Carafe
 
@@ -145,7 +145,7 @@ AND this one has a removable adapter to make your own [plastic milk bottle conta
 They don't sell it everywhere yet.\
 <a href="https://amzn.to/4lHspJ1#ad" target="_blank">Amazon NL</a>,
 <a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/9300000226693397/" target="_blank">Bol NL</a>,
-<a href="https://amzn.to/46WKoX3#ad" target="_blank">Amazon US</a>,
+<a href="https://amzn.to/46WKoX3#ad" target="_blank">Amazon</a>,
 <a href="https://www.google.com/search?q=jura.com+carafe" target="_blank">Google search</a>
 
 ### Active cooled
@@ -160,7 +160,7 @@ This version can contain 1 liter (34 oz) milk.
 </a>
 
 [Amazon NL](https://amzn.to/44coyN1#ad),
-[Amazon US](https://amzn.to/4ilB8je#ad)
+[Amazon](https://amzn.to/4ilB8je#ad)
 
 #### Active cooler 2.5L
 
@@ -171,7 +171,7 @@ This is a bigger version which can contain up to 2.5 liters (85 oz).
 </a>
 
 [Amazon NL](https://amzn.to/3XnyNut#ad),
-[Amazon US](https://amzn.to/4oaUjNS#ad)
+[Amazon](https://amzn.to/4oaUjNS#ad)
 
 ---
 
@@ -192,7 +192,7 @@ It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø
 </a>
 
 [Amazon NL](https://amzn.to/4r83UHT#ad),
-[Amazon US](https://amzn.to/4ofkBON#ad)
+[Amazon](https://amzn.to/4ofkBON#ad)
 
 ---
 

@@ -148,13 +148,13 @@ Without having to worry about latency or any other performance issues for the be
 {% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
-{% capture n95_us %}[Amazon US](https://amzn.to/3L0WiGV#ad){% endcapture %}
-{% capture n97_us %}[Amazon US](https://amzn.to/3MHeAgO#ad){% endcapture %}
-{% capture n100_us %}[Amazon US](https://amzn.to/48Cc9F4#ad){% endcapture %}
-{% capture n150_us %}[Amazon US](https://amzn.to/44mUajl#ad){% endcapture %}
-{% capture 12650h_us %}[Amazon US](https://amzn.to/4rLZ6Iu#ad){% endcapture %}
-{% capture 185h_us %}[Amazon US](https://amzn.to/4rTAUUJ#ad){% endcapture %}
-{% capture hx370_us %}[Amazon US](https://amzn.to/44p9Qm6#ad){% endcapture %}
+{% capture n95_us %}[Amazon](https://amzn.to/3L0WiGV#ad){% endcapture %}
+{% capture n97_us %}[Amazon](https://amzn.to/3MHeAgO#ad){% endcapture %}
+{% capture n100_us %}[Amazon](https://amzn.to/48Cc9F4#ad){% endcapture %}
+{% capture n150_us %}[Amazon](https://amzn.to/44mUajl#ad){% endcapture %}
+{% capture 12650h_us %}[Amazon](https://amzn.to/4rLZ6Iu#ad){% endcapture %}
+{% capture 185h_us %}[Amazon](https://amzn.to/4rTAUUJ#ad){% endcapture %}
+{% capture hx370_us %}[Amazon](https://amzn.to/44p9Qm6#ad){% endcapture %}
 
 {% capture n95_nl %}[Amazon NL](https://amzn.to/45BtFHY#ad){% endcapture %}
 {% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
@@ -196,7 +196,7 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 | **Cores / Threads**  | 4 / 4                              | 4 / 4                          | 4 / 4                         | 4 / 4                         |
 | **Price indication** | &euro; 170 - 500                   | &euro; 300 - 450               | &euro; 500                    | &euro; 200                    |
 | **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}}                | {{n97_global}}                | N/A                           |
-| **Amazon US**        | {{n150_us}}                        | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |
+| **Amazon**        | {{n150_us}}                        | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |
 | **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |
 | **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}               | {{n97_beelink}}               | {{n95_beelink}}               |
 
@@ -230,7 +230,7 @@ model with more memory, a faster CPU, GPU and more cores.
 | **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                |
 | **Price indication** | &euro; 1200 - 2700       | &euro; 900 - 2000           | &euro; 500 - 800       |
 | **AliExpress**       | {{hx370_global}}         | N/A                         | N/A                    |
-| **Amazon US**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          |
+| **Amazon**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          |
 | **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          |
 | **Beelink**          | {{hx370_beelink}}        | {{185h_beelink}}            | {{12650h_beelink}}     |
 
@@ -298,9 +298,9 @@ Click on the image to go to the original post:
 {% capture rpi4_global %}[AliExpress](https://s.click.aliexpress.com/e/_c3ucQGT7){% endcapture %}
 {% capture rpi5_global %}[AliExpress](https://s.click.aliexpress.com/e/_oCaXY9K){% endcapture %}
 
-{% capture rpi3_us %}[Amazon US](https://amzn.to/4d0606a#ad){% endcapture %}
-{% capture rpi4_us %}[Amazon US](https://amzn.to/41vT9Ez#ad){% endcapture %}
-{% capture rpi5_us %}[Amazon US](https://amzn.to/4hg55Pz#ad){% endcapture %}
+{% capture rpi3_us %}[Amazon](https://amzn.to/4d0606a#ad){% endcapture %}
+{% capture rpi4_us %}[Amazon](https://amzn.to/41vT9Ez#ad){% endcapture %}
+{% capture rpi5_us %}[Amazon](https://amzn.to/4hg55Pz#ad){% endcapture %}
 
 {% capture rpi3_nl %}[Amazon NL](https://amzn.to/3EU3Mbq#ad){% endcapture %}
 {% capture rpi4_nl %}[Amazon NL](https://amzn.to/3DaETHT#ad){% endcapture %}
@@ -334,7 +334,7 @@ Be aware that the price here is without a hard disk, power supply and a case!
 | **Power consumption idle / load** | 3 W / 6 W                               | 3 W / 6 W                           | 2 W / 5 W                     |
 | **Price range**                   | &euro; 60 - 110                         | &euro; 90                           | &euro; 45                     |
 | **AliExpress**                    | {{rpi5_global}}                         | {{rpi4_global}}                     | {{rpi3_global}}               |
-| **Amazon US**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
+| **Amazon**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
 | **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
 
 ---
