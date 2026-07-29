@@ -49,7 +49,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
+[(Amazon)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -266,7 +266,7 @@ Alternatives/future replacements:
 [(Amazon)](https://amzn.to/44L0iSl#ad) 
 [(Amazon NL)](https://amzn.to/4oe81RM#ad)
 * {{imgBasket}}Logitech MX Master 4 
-[(Amazon)](https://amzn.to/43maxvx#ad) 
+[(Amazon)](https://amzn.to/4fIo4U8#ad) 
 [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 
 ---
@@ -370,7 +370,7 @@ There are many good chair brands, which makes choosing difficult. These two are 
 When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
 
 * {{imgBasket}}Logitech MX Master 3S [(Amazon)](https://amzn.to/44L0iSl#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
-* {{imgBasket}}Logitech MX Master 4 [(Amazon)](https://amzn.to/43maxvx#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
+* {{imgBasket}}Logitech MX Master 4 [(Amazon)](https://amzn.to/4fIo4U8#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 <p></p>
 <a href="images/logitech_mx_master.jpg">
 <img src="images/logitech_mx_master.jpg" alt="Logitech MX Master mouse" width="150px" />

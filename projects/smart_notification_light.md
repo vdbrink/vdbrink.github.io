@@ -146,7 +146,7 @@ If you don't want to solder the power cable directly to the GU10 fitting, you ca
 {{imgBasket}}Cable connector
 <a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/49RB6w8#ad" target="_blank">(Amazon)</a>
-<a href="https://amzn.to/#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4g0MCJ4#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.gamma.nl/assortiment/handson-kroonstrip-2-5-mm2-6d-4-stuks/p/B213691" target="_blank">(Gamma NL)</a>
 <a href="https://www.karwei.nl/assortiment/handson-kroonstrip-6-mm2-12d-5-stuks/p/B122981" target="_blank">(Karwei NL)</a>
 

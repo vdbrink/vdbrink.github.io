@@ -71,7 +71,7 @@ It contains a build-in battery that charges via a small solar panel.
 
 {{imgBasket}}Zigbee raindrop + lux sensor 
 <a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3HMbs11#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4gYGF0m#ad" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
 <br><br>

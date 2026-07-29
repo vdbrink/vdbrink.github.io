@@ -61,7 +61,7 @@ for both myself and my cats, who like to keep me company during the day!
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon)](https://amzn.to/4ukI1pQ) and [Amazon NL](https://amzn.to/3OYGFBK).
+[(Amazon)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -365,7 +365,6 @@ But it could be upgraded to a newer one with 4K resolution and an auto-follow fe
 I'm open to any good suggestions!
 
 * {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon)](https://amzn.to/4hqFaIj#ad) [(Amazon NL)](https://amzn.to/4kLNBO6#ad)
-  https://amzn.to/4hqFaIj
 I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestions are welcome!
 
 ---

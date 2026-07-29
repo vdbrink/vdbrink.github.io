@@ -127,7 +127,7 @@ There are all kinds of descaling products available which can be used for kettle
   <a href="https://amzn.to/45O47Hq#ad" target="_blank">(Amazon)</a>
   <a href="https://amzn.to/4fCGFjV#ad" target="_blank">(Amazon NL)</a>
 * {{imgBasket}}Urnex liquid descaler
-  <a href="https://amzn.to/#ad" target="_blank">(Amazon)</a>
+  <a href="https://amzn.to/4x8D5p9#ad" target="_blank">(Amazon)</a>
 
 ---
 

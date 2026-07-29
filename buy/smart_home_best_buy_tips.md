@@ -717,7 +717,7 @@ The device can detect smoke and has an 85 dB alarm.
 
 {{imgBasket}}Zigbee smoke detector - Heiman
 <a href="https://s.click.aliexpress.com/e/_c4TV3E8L" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4n6jJNv" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4n6jJNv#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/HS1SA.html" target="_blank" title="HS1SA Heiman smoke detector">{{imgZ2M}}HS1SA</a>
 
 Battery: CR123A
