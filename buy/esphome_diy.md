@@ -59,7 +59,7 @@ I have a [page](../esphome/index) where I added manuals to create your own senso
 ---
 
 > **_NOTE 1:_** Most links on this page are hardware I also bought myself.
-> Most of the links are affiliate links, you pay the same price AND support my blog by buying it from here.
+> Most of the links are affiliate links, You pay the normal price and also support my blog by buying it from here.
 
 ---
 

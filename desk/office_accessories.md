@@ -55,7 +55,7 @@ for both myself and my cats, who like to keep me company during the day!
   * [Vacuum cleaner](#vacuum-cleaner)
 <!-- TOC -->
 
-> **_NOTE:_** Links on this page can be affiliate links. You pay the same price and support my blog.
+> **_NOTE:_** Links on this page can be affiliate links. You pay the normal price and also support my blog.
 
 ---
 ## Amazon shop list

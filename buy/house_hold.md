@@ -18,7 +18,7 @@ tags: [Best, Buy, tips]
 <!-- TOC -->
 
 > **_NOTE 1:_** Links on this page are hardware I also bought myself.
-> Most of the links are affiliate links, so you pay the same price AND support my blog also by buying it from here.
+> Most of the links are affiliate links, so You pay the normal price and also support my blog also by buying it from here.
 
 ---
 

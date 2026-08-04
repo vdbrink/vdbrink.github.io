@@ -41,7 +41,7 @@ Find here a set of preselected devices which you can buy for in your garden or g
 
 ---
 
-> **_NOTE:_** Most of the links are affiliate links, you pay the same price AND support my blog a bit.
+> **_NOTE:_** Most of the links are affiliate links, You pay the normal price and also support my blog a bit.
 
 ---
 ## Rain sensor

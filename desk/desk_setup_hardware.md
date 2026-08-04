@@ -43,7 +43,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
   * [Future improvements](#future-improvements)
 <!-- TOC -->
 
-> **_NOTE:_** Links on this page can be affiliate links. You pay the same price and support my blog.
+> **_NOTE:_** Links on this page can be affiliate links. You pay the normal price and also support my blog.
 
 ---
 ## Amazon shop list

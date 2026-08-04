@@ -86,7 +86,7 @@ All the Amazon products are also bundled on these
 ---
 
 > **_NOTE 1:_** Almost all hardware links on this page are devices I also use myself.\
-> Most of the links are affiliate links, you pay the same price AND support my blog a bit.
+> Most of the links are affiliate links, You pay the normal price and also support my blog a bit.
 
 > **_NOTE 2:_** I advise these products based on my personal experience.\
 > I run my network with a CC2652 Zigbee adapter and Zigbee2MQTT.\

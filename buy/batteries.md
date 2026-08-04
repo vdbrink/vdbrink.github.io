@@ -78,7 +78,7 @@ And how you can replace a CR2032 battery for two AAs for a much longer battery l
 * [Battery powered Christmas decorations](#battery-powered-christmas-decorations)
 <!-- TOC -->
 
-> **_NOTE 1:_** Links on this page can be affiliate links. You pay the same price AND support my blog.
+> **_NOTE 1:_** Links on this page can be affiliate links. You pay the normal price and also support my blog.
 
 ---
 ### AA
