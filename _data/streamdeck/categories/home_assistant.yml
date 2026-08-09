@@ -1,4 +1,5 @@
 title: Home Assistant
+key: home_assistant
 
 dependencies:
   - plugin: home-assistant

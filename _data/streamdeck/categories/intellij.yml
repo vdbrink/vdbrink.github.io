@@ -1,4 +1,5 @@
 title: IntelliJ Idea
+key: intellij
 
 dependencies:
   - plugin: jetbrains

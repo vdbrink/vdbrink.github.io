@@ -1,4 +1,5 @@
 title: Google Mail
+key: google_mail
 
 dependencies:
   - plugin: none

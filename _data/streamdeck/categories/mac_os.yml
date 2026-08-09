@@ -1,4 +1,5 @@
 title: MacOS
+key: mac_os
 
 dependencies:
   - plugin: none

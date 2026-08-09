@@ -1,4 +1,5 @@
 title: GitLab
+key: gitlab
 
 dependencies:
   - plugin: gitlab-dashboard

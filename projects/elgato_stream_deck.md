@@ -36,7 +36,7 @@ Read on this page to see how I use it and whether it is something you did not kn
     * [Browser](#browser)
     * [Google Meet](#google-meet)
     * [Google Mail](#google-mail)
-    * [IntelliJ Idea](#intellij-idea)
+    * [IntelliJ Idea](#intellij)
     * [Claude Code](#claude-code)
     * [GitLab](#gitlab)
     * [Spotify](#spotify)

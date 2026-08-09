@@ -1,6 +1,23 @@
+<div class="sd-virtual-deck">
+<div class="sd-hint">A virtual Stream Deck &mdash; click a key to jump to that category</div>
+<div class="sd-grid">
 {% for item in site.data.streamdeck.categories %}
 {% assign category = item[1] %}
-<h3>{{ category.title }}</h3>
+{% assign anchor = category.key | replace: '_', '-' %}
+<a class="sd-key" href="#{{ anchor }}">
+    <span class="sd-key-face"><img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}"></span>
+    <span class="sd-key-label">{{ category.title }}</span>
+</a>
+{% endfor %}
+</div>
+</div>
+
+{% for item in site.data.streamdeck.categories %}
+{% assign category = item[1] %}
+{% assign anchor = category.key | replace: '_', '-' %}
+<div class="clearfix">
+<h3 id="{{ anchor }}">{{ category.title }}</h3>
+<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="100px" style="margin-left:15px;float:right"/>
 {% for dependency in category.dependencies %}
 <ul>
     {% for action in dependency.actions %}
@@ -32,5 +49,6 @@
 </p>
 {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
+</div>
 {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
