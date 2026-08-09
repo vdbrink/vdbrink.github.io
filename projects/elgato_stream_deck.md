@@ -64,6 +64,20 @@ to play with.
 I liked the new scissor keys on the [new MK.2 15-button version](#stream-deck-comparison), but the 32-button version
 gave me more direct controls without switching between pages, so I ordered it!
 
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+<div>
+<a href="/projects/images_stream_deck/stream_deck_mk2.jpg">
+<img src="/projects/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:200px; width:auto;">
+</a>
+<em style="display:block; text-align:center">Stream Deck MK.2, 15 buttons</em>
+</div>
+<div>
+<a href="/projects/images_stream_deck/stream_deck_xl.jpg">
+<img src="/projects/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:200px; width:auto;">
+</a>
+<em style="display:block; text-align:center">Stream Deck XL, 32 buttons</em>
+</div>
+</div>
 
 ## What is a Stream Deck?
 
