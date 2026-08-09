@@ -5,33 +5,40 @@ next-meeting-countdown:
   name: Next Meeting Countdown
   url: https://marketplace.elgato.com/product/next-meeting-countdown-31a397e9-e987-46cf-8885-d8e47368e98e
   price: Free
+  os: "Mac"
 
 meeting-controls:
   name: Meeting Controls for Stream Deck
   url: https://marketplace.elgato.com/product/meeting-controls-for-stream-deck-401cf6eb-4db3-4d55-8a37-db3719898cfa
   price: Free
+  os: "Mac, Windows"
 
 jetbrains:
   name: JetBrains
   url: https://marketplace.elgato.com/product/jetbrains-ide-f20a34c4-8965-4e21-8c6a-2454786d748b
   price: Free
+  os: "Mac, Windows"
 
 jetstream:
   name: Jetstream
   url: https://github.com/pimmesz/jetstream
   price: Free
+  os: "Mac"
 
 gitlab-dashboard:
   name: GitLab Dashboard
   url: https://marketplace.elgato.com/product/gitlab-dashboard-9b464d90-8c12-41be-b9c8-ce288eefc5f5
-  price: "Free | OS: Mac, Windows"
+  price: Free
+  os: "Mac, Windows"
 
 home-assistant:
   name: Home Assistant
   url: https://marketplace.elgato.com/product/home-assistant-884c8c3e-8477-4ecb-99e0-f3101bbfa0aa
   price: Free
+  os: "Mac, Windows"
 
 final-countdown:
   name: Final Countdown
   url: https://github.com/vdbrink/stream-deck-plugin-final-countdown
   price: Free
+  os: "Mac"

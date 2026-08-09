@@ -4,7 +4,7 @@ dependencies:
   - plugin: none
     actions:
       - name: Start Claude
-        download: claude.streamDeckAction
+        download: claude_code_start_macos-vdbrink.streamDeckAction
 
   - plugin: jetstream
     actions:

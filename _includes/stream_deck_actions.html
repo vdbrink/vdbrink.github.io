@@ -25,6 +25,10 @@
     {% if plugin.price %}
     | Price: {{ plugin.price }}
     {% endif %}
+
+    {% if plugin.os %}
+    | OS: {{ plugin.os }}
+    {% endif %}
 </p>
 {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
