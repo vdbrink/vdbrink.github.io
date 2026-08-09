@@ -1,0 +1,7 @@
+title: Home Assistant
+
+dependencies:
+  - plugin: home-assistant
+    actions:
+      - name: Control lights
+      - name: Control smart plugs

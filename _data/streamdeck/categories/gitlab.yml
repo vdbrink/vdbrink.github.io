@@ -1,0 +1,8 @@
+title: GitLab
+
+dependencies:
+  - plugin: gitlab-dashboard
+    actions:
+      - name: Open MR count
+      - name: My MR count
+      - name: Open TODO count

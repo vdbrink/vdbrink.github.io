@@ -1,0 +1,10 @@
+title: Spotify
+
+dependencies:
+  - plugin: none
+    actions:
+      - name: Play/Stop/Next
+      - name: Volume control
+      - name: Show current played number
+      - name: Show cover
+      - name: Play specific playlist

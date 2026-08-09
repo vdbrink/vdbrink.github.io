@@ -1,0 +1,7 @@
+title: Google Mail
+
+dependencies:
+  - plugin: none
+    actions:
+      - name: Filter on unread mails
+      - name: Filter on specific map

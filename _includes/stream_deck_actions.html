@@ -1,0 +1,32 @@
+{% for item in site.data.streamdeck.categories %}
+{% assign category = item[1] %}
+<h3>{{ category.title }}</h3>
+{% for dependency in category.dependencies %}
+<ul>
+    {% for action in dependency.actions %}
+    <li>
+        {{ action.name }}
+        {% if action.download %}
+        <a href="files_stream_deck/{{ action.download }}">{{ action.download }}</a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+{% assign plugin = site.data.streamdeck.plugins[dependency.plugin] %}
+<p>
+    Plugin:
+    {% if plugin.url %}
+    <a href="{{ plugin.url }}">{{ plugin.name }}</a>
+    {% else %}
+    {{ plugin.name }}
+    {% endif %}
+
+    {% if plugin.price %}
+    | Price: {{ plugin.price }}
+    {% endif %}
+</p>
+{% if forloop.last == false %}<hr>{% endif %}
+{% endfor %}
+{% if forloop.last == false %}<hr>{% endif %}
+{% endfor %}

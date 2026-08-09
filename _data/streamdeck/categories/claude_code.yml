@@ -1,0 +1,13 @@
+title: Claude Code
+
+dependencies:
+  - plugin: none
+    actions:
+      - name: Start Claude
+        download: claude.streamDeckAction
+
+  - plugin: jetstream
+    actions:
+      - name: Run Skills
+      - name: User input needed, visualisation per project
+      - name: Still running visualisation per project

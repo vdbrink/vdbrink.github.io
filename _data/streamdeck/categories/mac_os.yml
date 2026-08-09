@@ -1,0 +1,7 @@
+title: MacOS
+
+dependencies:
+  - plugin: none
+    actions:
+      - name: Lock PC
+      - name: Take a screenshot

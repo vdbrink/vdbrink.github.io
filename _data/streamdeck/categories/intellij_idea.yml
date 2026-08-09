@@ -1,0 +1,8 @@
+title: IntelliJ Idea
+
+dependencies:
+  - plugin: jetbrains
+    actions:
+      - name: Debug
+      - name: Run
+      - name: Direct open a specific project

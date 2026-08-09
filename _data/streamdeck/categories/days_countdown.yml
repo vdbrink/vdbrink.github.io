@@ -1,0 +1,6 @@
+title: Days countdown
+
+dependencies:
+  - plugin: final-countdown
+    actions:
+      - name: Days countdown to ... birthday, holiday, product launch, marriage, etc

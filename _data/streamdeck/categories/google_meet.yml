@@ -1,0 +1,14 @@
+title: Google Meet
+
+dependencies:
+  - plugin: next-meeting-countdown
+    actions:
+      - name: Time to next meeting
+      - name: Time left in current meeting
+
+  - plugin: meeting-controls
+    actions:
+      - name: (Un)Mute
+      - name: Hang up
+      - name: Raise hand
+      - name: Leave meeting
