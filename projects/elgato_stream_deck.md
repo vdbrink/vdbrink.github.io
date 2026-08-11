@@ -52,14 +52,15 @@ Read on this page to see how I use it and whether it is something you did not kn
 
 ## My introduction with a Stream Deck
 
-Recently, I looked at the keypads available on the market for triggering frequently used scripts. They connect via
-Bluetooth or USB and have between 3 and 32 buttons. Some devices have an additional touch display or dial knobs. I also
-found the wide range of Elgato Stream Deck devices. They are mainly used by streamers to quickly switch scenes and
-trigger actions during live streams, but they also work well for other computer users, like me. The big advantage of
-these devices is that each button has its own display, which can be completely customised. You do not have to remember
-what each button does. You can also browse different action pages, multiplying the actions you can trigger with the same
-number of buttons. I found many integrations and SDK features for building your own actions. This makes it a cool gadget
-to play with.
+Recently, I looked at the keypads available on the market for triggering frequently used scripts.
+They connect via Bluetooth or USB and have between 3 and 32 buttons.
+Some devices have an additional touch display or dial knobs.
+I also found the wide range of Elgato Stream Deck devices. They are mainly used by streamers to quickly switch scenes and trigger actions during live streams, but they also work well for other computer users, like me.
+The big advantage of these devices is that each button has its own display, which can be completely customised.
+You do not have to remember what each button does.
+You can also browse different action pages, multiplying the actions you can trigger with the same number of buttons.
+I found many integrations and SDK features for building your own actions.
+This makes it a cool gadget to play with.
 
 I liked the new scissor keys on the [new MK.2 15-button version](#stream-deck-comparison), but the 32-button version
 gave me more direct controls without switching between pages, so I ordered it!
@@ -107,19 +108,47 @@ In this chapter I describe different examples of how you can use the Stream Deck
 software developer.
 
 This section will constantly be updated with new plugins and integrations. \
-I already place some placeholders of features I have already running and will describe here to upcoming months. Bookmark
-this page and come back after a while for extra possibilities.
+I already place some placeholders of features I have already running and will describe them here to upcoming months. Bookmark this page and come back after a while for extra possibilities.
 
-If you can't wait to know more about a specific integration let me know then I can see if I can give creating that
-description more prio.
+If you can't wait to know more about a specific integration let me know then I can see if I can give creating that description more prio.
 
-If you know cool and usefull actions, I'm always looking for new once, please let me know via an GitHub issue or comment
-on my socials.
+If you know cool and usefully actions, I'm always looking for new once, please let me know via an GitHub issue or comment on my socials.
 
 > **_NOTE:_** All actions on this page are specific for macOS.
 > The same solutions are probably also possible on Windows, but with different plugins.
 
+---
+### Installation
+
+you can use the download button by clicking on the link or key definition.
+This file contains the action and icon. You can use the ["Import Action..."](#import-action) feature to load it direct on your own Stream Deck.
+
+If you like to use your own icon and set it up yourself I added as well the used field values.
+
 {% include stream_deck_actions.html %}
+
+---
+
+## Export and Import data
+
+There are multiple ways and levels to import and export settings and share the actions and profiles between different Stream Decks.
+You can download here my examples and direct load it into yours!
+
+### Drag and Drop
+
+If you have the macOS Application folder open in Finder, next to the Elgato Stream Deck app you can drag apps direct on a button position.
+This also works for (bash) scripts.
+
+### Export all data
+
+`.streamDeckProfilesBackup` file
+
+### Export Profile
+
+### Export Action
+
+### Import Action
+
 
 ---
 
@@ -142,7 +171,7 @@ This table provides an overview of the different models.
 | **Size (D × W × H)** | 84 × 60 × 58 mm                                                                                                                               | 107 × 78 × 26 mm                                                                                                                           | 118 × 84 × 25 mm (without stand)                                                                                                            | 118 × 84 × 25 mm (without stand)                                                                                                                                 | 140 × 138 × 110 mm                                                                                                                         | 34 × 182 × 112 mm (without stand)                                                                                                       | 205 × 147 × 175 mm                                                                                                                                  | Your phone                                                                                                                                                         | Depends on the enclosure                                                                                                                            |
 | **Purpose**          | Cheapest entry model, for a handful of fixed actions                                                                                          | Budget mid-range with a built-in stand, page switching via the two touch points                                                            | The classic all-rounder with the original clicky keys                                                                                       | Same board as the MK.2 but with low-travel scissor keys: quieter and softer to press                                                                             | Best choice when you need analog control: volume, brightness, EQ, timeline scrubbing, light dimming                                        | Maximum direct controls without switching pages, my choice for development shortcuts                                                    | The 2026 flagship, "pro control surface" for broadcast studios and editing bays, 1085 g                                                             | Subscription app for iOS/Android, handy to try out the software before buying hardware                                                                             | OEM/DIY boards to build the keypad into your own desk or panel                                                                                      |
 | **Product page**     | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-mini)                                                                                     | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-neo)                                                                                   | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-mk2-black)                                                                              | [Elgato]([https://www.elgato.com/ww/en/p/stream-deck-mk2-scissor-keys-black](https://www.elgato.com/ww/en/p/stream-deck-scissor-keys))                           | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-plus-black)                                                                            | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-xl)                                                                                 | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-plus-xl)                                                                                        | [Elgato](https://www.elgato.com/ww/en/s/stream-deck-mobile)                                                                                                        | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-module-15-keys)                                                                                 |
-| **Buy** \*           | [Amazon](https://amzn.to/4xlUk6F#ad)                                                                                                          | [Amazon](https://amzn.to/4fOxVrA#ad)                                                                                                       | [Amazon](https://amzn.to/4xAME0z#ad)                                                                                                        | [Amazon](https://amzn.to/4h5Q3iM#ad)                                                                                                                             | [Amazon](https://amzn.to/3RrBEmN#ad)                                                                                                       | [Amazon](https://amzn.to/4ySoxvD#ad)                                                                                                    | [Amazon](https://amzn.to/4fV0q70#ad)                                                                                                                | [Android](https://play.google.com/store/apps/details?id=com.corsair.android.streamdeck) / [iOS](https://apps.apple.com/app/elgato-stream-deck-mobile/id1440014184) | [Amazon](https://amzn.to/TODO-module-us#ad)                                                                                                         |
+| **Buy**\*            | [Amazon](https://amzn.to/4xlUk6F#ad)                                                                                                          | [Amazon](https://amzn.to/4fOxVrA#ad)                                                                                                       | [Amazon](https://amzn.to/4xAME0z#ad)                                                                                                        | [Amazon](https://amzn.to/4h5Q3iM#ad)                                                                                                                             | [Amazon](https://amzn.to/3RrBEmN#ad)                                                                                                       | [Amazon](https://amzn.to/4ySoxvD#ad)                                                                                                    | [Amazon](https://amzn.to/4fV0q70#ad)                                                                                                                | [Android](https://play.google.com/store/apps/details?id=com.corsair.android.streamdeck) / [iOS](https://apps.apple.com/app/elgato-stream-deck-mobile/id1440014184) | [Amazon](https://amzn.to/TODO-module-us#ad)                                                                                                         |
 
 See all these models together on this [Amazon](https://amzn.to/4wESUUS)* page.
 

@@ -905,3 +905,51 @@ footer a:hover {
         content: none
     }
 }
+
+/* Wide comparison tables: equal columns, always visible horizontal scrollbar */
+.wide-table {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+    scrollbar-color: #999 #eee
+}
+
+.wide-table::-webkit-scrollbar {
+    height: 10px;
+    -webkit-appearance: none
+}
+
+.wide-table::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 5px
+}
+
+.wide-table::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 5px
+}
+
+.wide-table::-webkit-scrollbar-thumb:hover {
+    background: #666
+}
+
+.wide-table table {
+    table-layout: fixed;
+    width: 100%;
+    min-width: 1000px
+}
+
+.wide-table th, .wide-table td {
+    vertical-align: top;
+    word-wrap: break-word;
+    font-size: 0.85em
+}
+
+.wide-table th:first-child, .wide-table td:first-child {
+    width: 110px
+}
+
+.wide-table img {
+    display: block
+}
