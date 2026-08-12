@@ -1,6 +1,24 @@
 title: Chat
 key: chat
-description:
+description: You can create a Stream Deck Profile linked to the chat apps which contains default text and icon you often use 
+  in chat apps like WhatsApp, Instagram, Slack, etc.
 
 dependencies:
   - plugin: none
+    actions:
+      - name: LOL emoji
+        icon: 1
+        download: chat_lol_emoji-vdbrink.streamDeckAction
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: 😂
+      - name: Have a nice day
+        icon: 1
+        download: chat_have_a_nice_day-vdbrink.streamDeckAction
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: Have a nice day
