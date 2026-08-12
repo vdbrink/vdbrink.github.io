@@ -1,0 +1,8 @@
+title: Calendar
+key: calendar
+
+dependencies:
+  - plugin: next-meeting-countdown
+    actions:
+      - name: Time to next meeting
+      - name: Time left in current meeting

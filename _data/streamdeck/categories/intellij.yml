@@ -2,7 +2,7 @@ title: IntelliJ Idea
 key: intellij
 
 dependencies:
-  - plugin: jetbrains
+  - plugin: none
     actions:
       - name: Clear console
         icon: 1
@@ -37,6 +37,7 @@ dependencies:
           - key: Hotkey
             value: ⌃ ⌥ ⇧ ↓
       - name: Optimize imports
+        icon: 1
         download: intellij_optimize_imports_macos-vdbrink.streamDeckAction
         fields:
           - key: Title

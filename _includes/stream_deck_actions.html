@@ -1,5 +1,5 @@
 <div class="sd-virtual-deck">
-<div class="sd-hint">A virtual Stream Deck &mdash; click a key to jump to that category</div>
+<div class="sd-hint">Virtual Stream Deck: click a key to jump to that category</div>
 <div class="sd-grid">
 {% for item in site.data.streamdeck.categories %}
 {% assign category = item[1] %}
@@ -12,12 +12,11 @@
 </div>
 </div>
 
-
 {% for item in site.data.streamdeck.categories %}
 {% assign category = item[1] %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <div class="clearfix">
-<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="100px" style="margin-left:15px;float:right"/>
+<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="70px" style="margin-left:15px;float:right"/>
 <h3 id="{{ anchor }}">{{ category.title }}</h3>
 {{ category.description }}
 {% for dependency in category.dependencies %}

@@ -2,11 +2,6 @@ title: Google Meet
 key: google_meet
 
 dependencies:
-  - plugin: next-meeting-countdown
-    actions:
-      - name: Time to next meeting
-      - name: Time left in current meeting
-
   - plugin: meeting-controls
     actions:
       - name: (Un)Mute

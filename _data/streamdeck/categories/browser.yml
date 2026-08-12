@@ -5,6 +5,5 @@ dependencies:
   - plugin: none
     actions:
       - name: Open translate webpage with selected text
-        download: translate.streamDeckProfile
 
       - name: Go direct to a specific customer page
