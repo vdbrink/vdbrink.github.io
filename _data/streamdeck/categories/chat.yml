@@ -1,0 +1,6 @@
+title: Chat
+key: chat
+description:
+
+dependencies:
+  - plugin: none

@@ -4,6 +4,50 @@ key: intellij
 dependencies:
   - plugin: jetbrains
     actions:
-      - name: Debug
-      - name: Run
-      - name: Direct open a specific project
+      - name: Clear console
+        icon: 1
+        download: intellij_clear_console_macos-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: clr console
+          - key: Hotkey
+            value: ⌘ K
+      - name: Next change
+        icon: 1
+        download: intellij_diff_next_change_macos-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: IDE next
+          - key: Hotkey
+            value: F7
+      - name: Next file
+        icon: 1
+        download: intellij_diff_next_file_macos-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: next file
+          - key: Hotkey
+            value: ⌃ ⇧ →
+      - name: Next diff
+        icon: 1
+        download: intellij_diff_next_macos-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: next code
+          - key: Hotkey
+            value: ⌃ ⌥ ⇧ ↓
+      - name: Optimize imports
+        download: intellij_optimize_imports_macos-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: opti import
+          - key: Hotkey
+            value: ⌥ ⌘ L
+      - name: Previous difference
+        icon: 1
+        download: intellij_prev_difference_macos-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: prev code
+          - key: Hotkey
+            value: ⌃ ⌥ ⇧ ↑

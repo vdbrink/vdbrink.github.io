@@ -9,8 +9,15 @@ dependencies:
         icon: 1
         download: mac_os_lock_screen-vdbrink.streamDeckAction
         fields:
-          - key: Action
-            value: Preset Actions
+          - key: Title
+            value: lock
           - key: Hotkey
-            value: CTRL + CMD + Q
+            value: ⌃ ⌘ Q
       - name: Take a screenshot
+        icon: 1
+        download: mac_os_screen_shot-vdbrink.streamDeckAction
+        fields:
+          - key: Title
+            value: shot
+          - key: Hotkey
+            value: ⇧ ⌘ 4

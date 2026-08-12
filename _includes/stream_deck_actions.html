@@ -17,9 +17,9 @@
 {% assign category = item[1] %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <div class="clearfix">
+<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="100px" style="margin-left:15px;float:right"/>
 <h3 id="{{ anchor }}">{{ category.title }}</h3>
 {{ category.description }}
-<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="100px" style="margin-left:15px;float:right"/>
 {% for dependency in category.dependencies %}
 <ul>
     {% for action in dependency.actions %}
