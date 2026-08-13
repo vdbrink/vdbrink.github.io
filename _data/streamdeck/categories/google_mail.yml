@@ -1,6 +1,6 @@
 title: Google Mail
 key: google_mail
-
+description:
 dependencies:
   - plugin: none
     actions:

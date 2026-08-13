@@ -1,6 +1,6 @@
 title: Home Assistant
 key: home_assistant
-
+description:
 dependencies:
   - plugin: home-assistant
     actions:

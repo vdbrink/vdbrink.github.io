@@ -1,6 +1,7 @@
 title: Browser
 key: browser
-
+description: Open different links in a browser can easily be managed with bookmarks. You don't need a Stream Deck for it.
+  The power comes here when you want to combine selected text, asked for input or use clipboard data in your search.
 dependencies:
   - plugin: none
     actions:

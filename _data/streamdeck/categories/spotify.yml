@@ -1,8 +1,8 @@
 title: Spotify
 key: spotify
-
+description:
 dependencies:
-  - plugin: none
+  - plugin: spotify
     actions:
       - name: Play/Stop/Next
       - name: Volume control

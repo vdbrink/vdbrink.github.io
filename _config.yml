@@ -57,3 +57,4 @@ exclude:
   - preview.*
   - .jekyll-cache
   - _site
+  - schemas

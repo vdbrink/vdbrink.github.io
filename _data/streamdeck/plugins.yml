@@ -42,3 +42,15 @@ final-countdown:
   url: https://github.com/vdbrink/stream-deck-plugin-final-countdown
   price: Free
   os: "Mac"
+
+spotify:
+  name: Spotify
+  url: https://marketplace.elgato.com/product/spotify-17f49e8b-09a0-4209-95ed-6dee2469f97b
+  price: Free
+  os: "Mac, Windows"
+
+emoji-keys:
+  name: Emoji Keys
+  url: https://marketplace.elgato.com/product/emoji-keys-9009cce8-683c-44e5-b75a-33dcb2a2d085
+  price: Free
+  os: "Mac"

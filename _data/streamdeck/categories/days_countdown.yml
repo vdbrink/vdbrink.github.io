@@ -1,6 +1,6 @@
 title: Days countdown
 key: days_countdown
-
+description:
 dependencies:
   - plugin: final-countdown
     actions:

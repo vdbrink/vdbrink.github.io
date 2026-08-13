@@ -1,14 +1,21 @@
 title: Claude Code
 key: claude_code
-
+description:
 dependencies:
   - plugin: none
     actions:
       - name: Start Claude
+        icon: 1
         download: claude_code_start_macos-vdbrink.streamDeckAction
+        type: (System) Text
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: claude
+      - name: Run a Skill
 
   - plugin: jetstream
     actions:
-      - name: Run Skills
       - name: User input needed, visualisation per project
       - name: Still running visualisation per project

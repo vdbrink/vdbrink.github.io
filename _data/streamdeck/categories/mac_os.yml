@@ -1,13 +1,13 @@
 title: MacOS
 key: mac_os
 description: The button actions here trigger basic macOS features.
-
 dependencies:
   - plugin: none
     actions:
       - name: Lock PC
         icon: 1
         download: mac_os_lock_screen-vdbrink.streamDeckAction
+        type: (System) Activate a Key Command
         fields:
           - key: Title
             value: lock
@@ -16,6 +16,7 @@ dependencies:
       - name: Take a screenshot
         icon: 1
         download: mac_os_screen_shot-vdbrink.streamDeckAction
+        type: (System) Activate a Key Command
         fields:
           - key: Title
             value: shot

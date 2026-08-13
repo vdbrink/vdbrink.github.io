@@ -1,6 +1,6 @@
 title: GitLab
 key: gitlab
-
+description:
 dependencies:
   - plugin: gitlab-dashboard
     actions:

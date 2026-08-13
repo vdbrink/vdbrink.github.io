@@ -1,0 +1,10 @@
+title: My personal wishlist
+key: wishlist
+description: I always look for more useful additions, especially these listed ones.
+dependencies:
+  - plugin: none
+    actions:
+      - name: button pres to open an emoij keyboard where you can direct type to search for the icon you're looking for.
+      - name: Gitlab - Count based on specific branch names.
+      - name: Google Meet - Toggle blurred background.
+footnote: If you know how I can add these button actions to my Stream Deck, please let me know!

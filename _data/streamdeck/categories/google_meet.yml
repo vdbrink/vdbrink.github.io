@@ -1,6 +1,6 @@
 title: Google Meet
 key: google_meet
-
+description:
 dependencies:
   - plugin: meeting-controls
     actions:
@@ -8,3 +8,5 @@ dependencies:
       - name: Hang up
       - name: Raise hand
       - name: Leave meeting
+      - name: Icon
+      - name: Toggle blurred background (Not possible yet)

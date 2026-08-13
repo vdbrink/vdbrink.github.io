@@ -18,45 +18,8 @@
 <div class="clearfix">
 <img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="70px" style="margin-left:15px;float:right"/>
 <h3 id="{{ anchor }}">{{ category.title }}</h3>
-{{ category.description }}
+<p>{{ category.description }}</p>
 {% for dependency in category.dependencies %}
-<ul>
-    {% for action in dependency.actions %}
-    <li>
-        {% if action.download %}
-        <a href="/projects/actions_stream_deck/{{ action.download }}">
-          {{ action.name }}
-        </a>
-        {% else %}
-        {{ action.name }}
-        {% endif %}
-        {% if action.fields %}
-        <br>
-        <a href="/projects/actions_stream_deck/{{ action.download }}">
-        <div class="sd-action-detail">
-            {% if action.icon %}
-            {% if action.download %}
-            {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
-            {% else %}
-            {% assign icon_slug = action.name | downcase | replace: ' ', '_' %}
-            {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: '/projects/images_stream_deck/icons/' | append: '.png' %}
-            {% endif %}
-            <img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
-            {% endif %}
-            <dl class="sd-fields">
-                {% for field in action.fields %}
-                <dt>{{ field.key }}</dt>
-                <dd>{{ field.value }}</dd>
-                {% endfor %}
-            </dl>
-        </div>
-        </a>
-        {% endif %}
-    </li>
-    {% endfor %}
-</ul>
-
-<p></p>
 
 {% assign plugin = site.data.streamdeck.plugins[dependency.plugin] %}
 <p>
@@ -75,8 +38,60 @@
     | OS: {{ plugin.os }}
     {% endif %}
 </p>
+
+<ul>
+    {% for action in dependency.actions %}
+    <li>
+        {% if action.download %}
+        <a href="/projects/actions_stream_deck/{{ action.download }}">
+          {{ action.name }}
+        </a>
+        {% else %}
+        {{ action.name }}
+        {% endif %}
+        {% if action.fields %}
+        <br>
+        <a href="/projects/actions_stream_deck/{{ action.download }}">
+        <div class="sd-action-detail">
+            {% if action.icon == 1 %}
+            {% if action.download %}
+            {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+            {% else %}
+            {% assign icon_slug = action.name | downcase | replace: ' ', '_' %}
+            {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: '/projects/images_stream_deck/icons/' | append: '.png' %}
+            {% endif %}
+            <img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
+            {% elsif action.icon == 2 %}
+            {% assign icon_text = "" %}
+            {% for field in action.fields %}
+                {% if field.key == "pasted Text" %}
+                {% assign icon_text = field.value %}
+                {% endif %}
+            {% endfor %}
+            <div class="sd-action-icon-text">{{ icon_text }}</div>
+            {% endif %}
+            <div class="sd-action-body">
+            {% if action.type %}
+            <div class="sd-action-type">{{ action.type }}</div>
+            {% endif %}
+            <dl class="sd-fields">
+                {% for field in action.fields %}
+                <dt>{{ field.key }}</dt>
+                <dd>{{ field.value }}</dd>
+                {% endfor %}
+            </dl>
+            </div>
+        </div>
+        </a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
 {% if forloop.last == false %}<hr>{% endif %}
-{% endfor %}
+    {% endfor %}
 </div>
+<br>
+{{ category.footnote }}
+
 {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
