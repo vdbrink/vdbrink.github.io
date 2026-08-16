@@ -7,7 +7,7 @@ dependencies:
       - name: Clear console
         icon: 1
         download: intellij_clear_console_macos-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: clr conso
@@ -16,7 +16,7 @@ dependencies:
       - name: Next change
         icon: 1
         download: intellij_diff_next_change_macos-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: IDE next
@@ -25,7 +25,7 @@ dependencies:
       - name: Next file
         icon: 1
         download: intellij_diff_next_file_macos-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: next file
@@ -34,7 +34,7 @@ dependencies:
       - name: Next diff
         icon: 1
         download: intellij_diff_next_macos-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: next code
@@ -43,7 +43,7 @@ dependencies:
       - name: Optimize imports
         icon: 1
         download: intellij_optimize_imports_macos-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: opti import
@@ -52,7 +52,7 @@ dependencies:
       - name: Previous difference
         icon: 1
         download: intellij_prev_difference_macos-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: prev code

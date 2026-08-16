@@ -5,4 +5,29 @@ dependencies:
   - plugin: none
     actions:
       - name: Filter on unread mails
-      - name: Filter on specific map
+        icon: google_mail
+        download: google_mail_label_unread-vdbrink.streamDeckAction
+        type: (System) Text
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: "label:unread"
+      - name: Filter on a specific label (`gitlab` in this example)
+        icon: google_mail
+        download: google_mail_label_any-vdbrink.streamDeckAction
+        type: (System) Text
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: "label:gitlab"
+      - name: Filter on spam mails
+        icon: google_mail
+        download: google_mail_in_spam-vdbrink.streamdeckaction
+        type: (System) Text
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: "in:spam"

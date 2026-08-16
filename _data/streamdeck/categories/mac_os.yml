@@ -7,7 +7,7 @@ dependencies:
       - name: Lock PC
         icon: 1
         download: mac_os_lock_screen-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
             value: lock
@@ -16,9 +16,9 @@ dependencies:
       - name: Take a screenshot
         icon: 1
         download: mac_os_screen_shot-vdbrink.streamDeckAction
-        type: (System) Activate a Key Command
+        type: (System) Hotkey
         fields:
           - key: Title
-            value: shot
+            value: screenshot
           - key: Hotkey
             value: ⇧ ⌘ 4

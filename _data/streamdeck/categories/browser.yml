@@ -1,10 +1,20 @@
 title: Browser
 key: browser
-description: Open different links in a browser can easily be managed with bookmarks. You don't need a Stream Deck for it.
-  The power comes here when you want to combine selected text, asked for input or use clipboard data in your search.
+description: Open favorite links in a browser can easily be managed with bookmarks, you don't need a Stream Deck for it.
+  The power comes here when you want to combine it with selected text or use clipboard data in your search query.
 dependencies:
   - plugin: none
     actions:
-      - name: Open translate webpage with selected text
-
+      - name: Open Google translate webpage with selected text
+        icon: 1
+        download: browser_translate_selected_text-vdbrink.streamdeckaction
+        type: (System) Open Application
+        fields:
+          - key: Application
+            value: Translate NL->EN
+        requirements:
+          - application: Apple Shortcut
+            name: Translate NL->EN
+            description: This Shortcut paste the selected text in the Google translate page.
+            file: projects/actions_stream_deck/browser_translate_selected_text-vdbrink.streamdeckaction
       - name: Go direct to a specific customer page
