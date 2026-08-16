@@ -6,6 +6,24 @@ description: Here are just a few example keyboard shortcuts for IntelliJ on macO
 dependencies:
   - plugin: none
     actions:
+      - name: Open project
+        icon: 1
+        download: intellij_open_project_macos-vdbrink.streamdeckaction
+        type: (System) Open
+        fields:
+          - key: Action
+            value: Open project
+          - key: path
+            value: open -a "IntelliJ IDEA" /Users/me/my_project
+      - name: Open terminal
+        icon: 1
+        download: intellij_open_terminal-vdbrink.streamDeckAction
+        type: (System) Hotkey
+        fields:
+          - key: Title
+            value: terminal
+          - key: Hotkey
+            value: F12
       - name: Clear console
         icon: 1
         download: intellij_clear_console_macos-vdbrink.streamDeckAction

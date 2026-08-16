@@ -69,7 +69,7 @@
                 {% assign icon_text = field.value %}
                 {% endif %}
             {% endfor %}
-            <div class="sd-action-icon-text">{{ icon_text }}</div>
+            <div class="sd-action-icon-text{% if icon_text.size == 1 %} sd-action-icon-text--single{% endif %}">{{ icon_text }}</div>
             {% elsif action.icon %}
             {% assign icon_src = action.icon | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
             <img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
