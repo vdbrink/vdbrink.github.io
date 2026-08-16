@@ -11,7 +11,7 @@ dependencies:
         fields:
           - key: Action
             value: Text
-          - key: pasted Text
+          - key: Text
             value: "label:unread"
       - name: Filter on a specific label (`gitlab` in this example)
         icon: google_mail
@@ -20,7 +20,7 @@ dependencies:
         fields:
           - key: Action
             value: Text
-          - key: pasted Text
+          - key: Text
             value: "label:gitlab"
       - name: Filter on spam mails
         icon: google_mail
@@ -29,5 +29,5 @@ dependencies:
         fields:
           - key: Action
             value: Text
-          - key: pasted Text
+          - key: Text
             value: "in:spam"

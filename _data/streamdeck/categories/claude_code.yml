@@ -11,7 +11,7 @@ dependencies:
         fields:
           - key: Action
             value: Text
-          - key: pasted Text
+          - key: Text
             value: claude
       - name: Run a Skill
 

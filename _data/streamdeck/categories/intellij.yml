@@ -1,6 +1,8 @@
 title: IntelliJ Idea
 key: intellij
-description:
+description: Here are just a few example keyboard shortcuts for IntelliJ on macOS.<br>
+  You can define any keyboard shortcut combination as key on your Stream Deck,
+  for your own preferred IDE (VS Code, Eclipse, NetBeans, VIM, etc...)
 dependencies:
   - plugin: none
     actions:
@@ -10,7 +12,7 @@ dependencies:
         type: (System) Hotkey
         fields:
           - key: Title
-            value: clr conso
+            value: clear console
           - key: Hotkey
             value: ⌘ K
       - name: Next change
@@ -19,7 +21,7 @@ dependencies:
         type: (System) Hotkey
         fields:
           - key: Title
-            value: IDE next
+            value: next change
           - key: Hotkey
             value: F7
       - name: Next file
@@ -46,7 +48,7 @@ dependencies:
         type: (System) Hotkey
         fields:
           - key: Title
-            value: opti import
+            value: optimize import
           - key: Hotkey
             value: ⌥ ⌘ L
       - name: Previous difference
@@ -58,3 +60,4 @@ dependencies:
             value: prev code
           - key: Hotkey
             value: ⌃ ⌥ ⇧ ↑
+footnote: Check here for all <a href="https://www.jetbrains.com/help/idea/reference-keymap-mac-default.html">IntelliJ IDEA's keyboard shortcuts</a>.

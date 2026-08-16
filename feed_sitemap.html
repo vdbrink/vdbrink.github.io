@@ -25,7 +25,7 @@ See <a href="/feed.html">here</a> all posts ordered by date.
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <b>
                     <a href="{{ post.url | relative_url }}">
-                        {{ post.title | | remove_first: "Feed: " | escape }}
+                        {{ post.title | remove_first: "Feed: " | escape }}
                     </a>
                 </b> - <i>{{ post.date | date: date_format }}</i>
             </li>

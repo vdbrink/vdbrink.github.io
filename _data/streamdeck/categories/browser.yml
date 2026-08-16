@@ -16,5 +16,5 @@ dependencies:
           - application: Apple Shortcut
             name: Translate NL->EN
             description: This Shortcut paste the selected text in the Google translate page.
-            file: projects/actions_stream_deck/browser_translate_selected_text-vdbrink.streamdeckaction
+            file: projects/shortcut_files/Translate NL-EN.shortcut
       - name: Go direct to a specific customer page

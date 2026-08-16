@@ -16,7 +16,7 @@
 {% assign category = item[1] %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <div class="clearfix">
-<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}" height="70px" style="margin-left:15px;float:right"/>
+<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }} logo" height="70px" style="margin-left:15px;float:right"/>
 <h3 id="{{ anchor }}">{{ category.title }}</h3>
 <p>{{ category.description }}</p>
 {% for dependency in category.dependencies %}
@@ -53,6 +53,7 @@
         <br>
         <a href="/projects/actions_stream_deck/{{ action.download }}">
         <div class="sd-action-detail">
+            <svg class="sd-action-download-icon" aria-label="download icon" viewBox="0 0 24 24" fill="#fff"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
             {% if action.icon == 1 %}
             {% if action.download %}
             {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
@@ -64,7 +65,7 @@
             {% elsif action.icon == 2 %}
             {% assign icon_text = "" %}
             {% for field in action.fields %}
-                {% if field.key == "pasted Text" %}
+                {% if field.key == "Text" %}
                 {% assign icon_text = field.value %}
                 {% endif %}
             {% endfor %}

@@ -12,7 +12,7 @@ dependencies:
         fields:
           - key: Action
             value: Text
-          - key: pasted Text
+          - key: Text
             value: 😂
       - name: Have a nice day
         icon: 2
@@ -21,7 +21,7 @@ dependencies:
         fields:
           - key: Action
             value: Text
-          - key: pasted Text
+          - key: Text
             value: Have a nice day
   - plugin: emoji-keys
     actions:
@@ -29,6 +29,6 @@ dependencies:
         icon: 2
         type: (Emoji Keys) Emoji
         fields:
-          - key: pasted Text
+          - key: Text
             value: 😂
 footnote: Download these and fill your own profile/page with your own text and emojis!
