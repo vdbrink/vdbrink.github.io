@@ -5,9 +5,11 @@ description: Use the Stream Deck to go fast to all your different project sectio
 dependencies:
   - plugin: gitlab-dashboard
     actions:
-      - name: Open MR count
-      - name: My MR count
+      - name: Open merge requests count
+      - name: My merge request count
       - name: Open TODO count
+    wishes:
+      - name: Count based on specific branch names.
   - plugin: none
     actions:
       - name: Open project X

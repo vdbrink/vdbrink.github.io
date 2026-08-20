@@ -1,9 +1,12 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTTK5G664M"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WTTK5G664M');
+    if (window.location.href.startsWith('http') && !window.location.href.includes('localhost') && !window.location.href.includes('127.0.0.1')) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-WTTK5G664M');
+    }
 </script>

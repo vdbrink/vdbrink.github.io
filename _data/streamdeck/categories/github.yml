@@ -1,7 +1,7 @@
 title: GitHub
-key: gitHub
+key: github
 priority: 50
-description: Open source repositories for software projects.
+description: Stream Deck + GitHub opens direct your open source software repositories.
 dependencies:
   - plugin: none
     actions:

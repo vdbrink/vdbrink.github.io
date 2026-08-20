@@ -24,6 +24,8 @@ dependencies:
             value: Text
           - key: Text
             value: Have a nice day
+    wishes:
+      - name: Button press to open an emoji keyboard where you can direct type to search for the icon you're looking for.
   - plugin: emoji-keys
     actions:
       - name: Select any emoji from a big list and use that for a button.

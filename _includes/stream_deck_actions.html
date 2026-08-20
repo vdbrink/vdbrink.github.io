@@ -54,11 +54,15 @@
         {{ action.name }}
         {% endif %}
         </b>
-        {% if action.fields %}
+        {% if action.fields or action.icon %}
         <br>
+        {% if action.download %}
         <a href="/projects/actions_stream_deck/{{ action.download }}">
+        {% endif %}
         <div class="sd-action-detail">
+            {% if action.download %}
             <svg class="sd-action-download-icon" aria-label="download icon" viewBox="0 0 24 24" fill="#fff"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            {% endif %}
             {% if action.icon == 1 %}
             {% if action.download %}
             {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
@@ -83,19 +87,25 @@
             {% if action.type %}
             <div class="sd-action-type">{{ action.type }}</div>
             {% endif %}
+            {% if action.remark %}
+            <p class="sd-action-remark">{{ action.remark }}</p>
+            {% elsif action.fields %}
             <dl class="sd-fields">
                 {% for field in action.fields %}
                 <dt>{{ field.key }}</dt>
                 <dd>{{ field.value }}</dd>
                 {% endfor %}
             </dl>
+            {% endif %}
             </div>
         </div>
+        {% if action.download %}
         </a>
+        {% endif %}
         {% endif %}
         {% if action.requirements %}
         <div class="sd-action-requirements">
-            Requires:
+            Requires/Remarks:
             <ul>
             {% for req in action.requirements %}
                 <li>
@@ -104,7 +114,13 @@
                 {% else %}
                 {{ req.name }}
                 {% endif %}
-                ({{ req.application }}){% if req.description %}: {{ req.description }}{% endif %}
+                {% if req.application %}({{ req.application }}){% endif %}{% if req.description %}: {{ req.description }}{% endif %}
+                {% if req.image %}
+                <br>
+                <a href="/projects/images_stream_deck/{{ req.image }}.png">
+                <img class="sd-action-requirement-image" src="/projects/images_stream_deck/{{ req.image }}.png" alt="{{ req.name }}"/>
+                </a>
+                {% endif %}
                 </li>
             {% endfor %}
             </ul>
@@ -114,9 +130,8 @@
     {% endfor %}
 </ul>
 
-<br>
-
 {% if dependency.wishes %}
+<br>
 <p>Features I'm still looking for:</p>
 <ul class="sd-wish-list">
     {% for wish in dependency.wishes %}
@@ -132,3 +147,21 @@
 
 {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
+
+<hr>
+<div class="clearfix">
+<img src="/projects/images_stream_deck/category/wishlist_logo.png" alt="Wishlist logo" height="70px" style="margin-left:15px;float:right"/>
+<h3 id="wishlist">Wishlist</h3>
+<p>I always look for more useful additions, especially these listed ones.</p>
+<ul class="sd-wish-list">
+{% for category in sorted_categories %}
+{% for dependency in category.dependencies %}
+{% for wish in dependency.wishes %}
+    <li>{{ category.title }} - {{ wish.name }}</li>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</ul>
+</div>
+<br>
+If you know how I can add these button actions to my Stream Deck, please let me know!

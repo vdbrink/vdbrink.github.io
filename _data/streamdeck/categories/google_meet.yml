@@ -1,7 +1,6 @@
 title: Google Meet
 key: google_meet
 priority: 80
-description:
 dependencies:
   - plugin: meeting-controls
     actions:
@@ -10,5 +9,5 @@ dependencies:
       - name: Raise hand
       - name: Leave meeting
       - name: Icon
-    whishes:
+    wishes:
       - name: Toggle blurred background

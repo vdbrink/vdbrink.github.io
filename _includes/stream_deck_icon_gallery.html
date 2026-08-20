@@ -1,0 +1,35 @@
+{% assign sorted_categories = "" | split: "" %}
+{% for item in site.data.streamdeck.categories %}
+{% assign sorted_categories = sorted_categories | push: item[1] %}
+{% endfor %}
+{% assign sorted_categories = sorted_categories | sort: "priority" %}
+
+{% assign seen_icons = "" | split: "" %}
+
+<div class="sd-icon-gallery">
+{% for category in sorted_categories %}
+{% for dependency in category.dependencies %}
+{% for action in dependency.actions %}
+{% if action.icon and action.icon != 2 %}
+    {% if action.icon == 1 and action.download %}
+    {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+    {% elsif action.icon != 1 %}
+    {% assign icon_src = action.icon | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+    {% endif %}
+    {% if icon_src and seen_icons contains icon_src %}
+    {% assign icon_src = nil %}
+    {% endif %}
+    {% if icon_src %}
+    {% assign seen_icons = seen_icons | push: icon_src %}
+    {% assign icon_alt = icon_src | split: '/' | last | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' %}
+    <div class="sd-icon-gallery-item">
+        <a href="{{ icon_src }}">
+        <img class="sd-action-icon" src="{{ icon_src }}" alt="{{ icon_alt }}"/>
+        </a>
+    </div>
+    {% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</div>
