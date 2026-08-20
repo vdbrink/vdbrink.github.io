@@ -1,5 +1,6 @@
 title: Days countdown
 key: days_countdown
+priority: 40
 description:
 dependencies:
   - plugin: final-countdown

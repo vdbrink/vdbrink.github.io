@@ -1,6 +1,8 @@
-title: Claude Code
-key: claude_code
-description:
+title: Claude ai agent
+key: claude_ai_agent
+priority: 0
+description: With the Stream Deck + Claude you can run direct Skills 
+  and with the Jetstream plugin you can see for which project you run an active session and which one need attention
 dependencies:
   - plugin: none
     actions:
@@ -14,6 +16,14 @@ dependencies:
           - key: Text
             value: claude
       - name: Run a Skill
+        icon: 1
+        download: claude_run_skill.streamDeckAction
+        type: (System) Text
+        fields:
+          - key: Action
+            value: Text
+          - key: pasted Text
+            value: /my-skill
 
   - plugin: jetstream
     actions:

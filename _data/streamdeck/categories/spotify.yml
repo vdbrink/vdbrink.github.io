@@ -1,6 +1,8 @@
 title: Spotify
 key: spotify
-description:
+priority: 120
+description: With Spotify and Stream Deck you can create the regular audio controls on your Deck. 
+  An image of the cover of the current played song and extra shortcuts to predefined playlist.
 dependencies:
   - plugin: spotify
     actions:

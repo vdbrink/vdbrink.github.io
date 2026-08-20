@@ -1,0 +1,35 @@
+title: GitHub
+key: gitHub
+priority: 50
+description: Open source repositories for software projects.
+dependencies:
+  - plugin: none
+    actions:
+      - name: Notifications
+        icon: 1
+        download: github_notifications-vdbrink.streamdeckaction
+        type: (System) Website
+        fields:
+          - key: Action
+            value: Website
+          - key: path
+            value: "https://github.com/notifications"
+      - name: Pull requests
+        icon: 1
+        download: github_pull_requests-vdbrink.streamdeckaction
+        type: (System) Website
+        fields:
+          - key: Action
+            value: Website
+          - key: path
+            value: "https://github.com/pulls/inbox"
+      - name: Issues
+        icon: 1
+        download: github_issues-vdbrink.streamdeckaction
+        type: (System) Website
+        fields:
+          - key: Action
+            value: Website
+          - key: path
+            value: "https://github.com/issues/assigned"
+footnote: Which pages do you use often yourself as well on GitHub?

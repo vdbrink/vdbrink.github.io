@@ -1,5 +1,6 @@
 title: Home Assistant
 key: home_assistant
+priority: 90
 description:
 dependencies:
   - plugin: home-assistant

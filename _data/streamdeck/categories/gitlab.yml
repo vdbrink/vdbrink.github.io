@@ -1,9 +1,23 @@
 title: GitLab
 key: gitlab
-description:
+priority: 60
+description: Use the Stream Deck to go fast to all your different project sections for your GitHub projects.
 dependencies:
   - plugin: gitlab-dashboard
     actions:
       - name: Open MR count
       - name: My MR count
       - name: Open TODO count
+  - plugin: none
+    actions:
+      - name: Open project X
+        icon: 1
+        download: gitlab_open_project-vdbrink.streamDeckAction
+        type: (System) Website
+        fields:
+          - key: Action
+            value: Website
+          - key: path
+            value: "https://gitlab.com/company/development/team/project/frontend"
+    wishes:
+      - name: Failed personal pipelines count

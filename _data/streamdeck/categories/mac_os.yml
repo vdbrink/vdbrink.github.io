@@ -1,5 +1,6 @@
 title: MacOS
 key: mac_os
+priority: 110
 description: The button actions here trigger basic macOS features.
 dependencies:
   - plugin: none

@@ -1,5 +1,6 @@
 title: Chat
 key: chat
+priority: 30
 description: You can create a Stream Deck Profile linked to the chat apps which contains often used text and icons 
   in your chat apps like WhatsApp, Instagram, Slack, etc.
 dependencies:

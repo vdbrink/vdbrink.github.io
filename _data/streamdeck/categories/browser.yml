@@ -1,5 +1,6 @@
 title: Browser
 key: browser
+priority: 10
 description: Open favorite links in a browser can easily be managed with bookmarks, you don't need a Stream Deck for it.
   The power comes here when you want to combine it with selected text or use clipboard data in your search query.
 dependencies:
