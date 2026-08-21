@@ -1,7 +1,20 @@
 title: Days countdown
 key: days_countdown
 priority: 40
+description: Display the days countdown until a special day.
 dependencies:
   - plugin: final-countdown
     actions:
       - name: Days countdown to ... birthday, holiday, product launch, marriage, etc
+        icon: final-countdown_holiday
+        remark: Colors and font is also configurable.
+        type: (Final Countdown) Final Countdown
+        fields:
+          - key: Event Name
+            value: Holiday
+          - key: Target Date
+            value: 2026-08-31
+        requirements:
+          - name: Final Countdown Plugin
+            application: Stream Deck
+            description: My days countdown plugin. Double-click 'io.github.vdbrink.finalcountdown.streamDeckPlugin' in Finder to install the plugin in the Stream Deck app.

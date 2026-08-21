@@ -70,7 +70,7 @@
             {% assign icon_slug = action.name | downcase | replace: ' ', '_' %}
             {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: '/projects/images_stream_deck/icons/' | append: '.png' %}
             {% endif %}
-            <img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
+            <span class="sd-action-icon-frame"><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
             {% elsif action.icon == 2 %}
             {% assign icon_text = "" %}
             {% for field in action.fields %}
@@ -81,7 +81,7 @@
             <div class="sd-action-icon-text{% if icon_text.size == 1 %} sd-action-icon-text--single{% endif %}">{{ icon_text }}</div>
             {% elsif action.icon %}
             {% assign icon_src = action.icon | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
-            <img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
+            <span class="sd-action-icon-frame"><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
             {% endif %}
             <div class="sd-action-body">
             {% if action.type %}
@@ -89,7 +89,8 @@
             {% endif %}
             {% if action.remark %}
             <p class="sd-action-remark">{{ action.remark }}</p>
-            {% elsif action.fields %}
+            {% endif %}
+            {% if action.fields %}
             <dl class="sd-fields">
                 {% for field in action.fields %}
                 <dt>{{ field.key }}</dt>

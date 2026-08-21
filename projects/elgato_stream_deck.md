@@ -66,8 +66,8 @@ You can also browse different action pages, multiplying the actions you can trig
 I found many integrations and SDK features for building your own actions.
 This makes it a cool gadget to play with.
 
-I liked the new scissor keys on the [new MK.2 15-button version](#stream-deck-comparison), but the 32-button version
-gave me more direct controls without switching between pages, so I ordered it!
+I liked the new scissor keys on the [new MK.2 15-button version](#stream-deck-comparison), 
+but the [32-button version](#stream-deck-comparison) gave me more direct controls without switching between pages, so I ordered it!
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div>
