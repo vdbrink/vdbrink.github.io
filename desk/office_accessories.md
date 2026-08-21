@@ -61,7 +61,7 @@ for both myself and my cats, who like to keep me company during the day!
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
+[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -84,12 +84,12 @@ I use these types of guides to accomplish this.
 </a>
 </div>
 
-* {{imgBasket}}Multiple cable guide [(AliExpress)](https://s.click.aliexpress.com/e/_c3mdNNA9) [(Amazon)](https://amzn.to/4enAaCv#ad) [(Amazon NL)](https://amzn.to/4vvsWmg#ad)
+* {{imgBasket}}Multiple cable guide [(AliExpress)](https://s.click.aliexpress.com/e/_c3mdNNA9) [(Amazon US)](https://amzn.to/4enAaCv#ad) [(Amazon NL)](https://amzn.to/4vvsWmg#ad)
 * {{imgBasket}}Single cable clip holder [(AliExpress)](https://s.click.aliexpress.com/e/_c3kfMbFX)
 
 Alternative:
 
-* {{imgBasket}}Single cable clip holder [(Amazon)](https://amzn.to/4uQMxfr#ad)
+* {{imgBasket}}Single cable clip holder [(Amazon US)](https://amzn.to/4uQMxfr#ad)
 
 ---
 ## Monitor light
@@ -102,7 +102,7 @@ It has a bright light, it has a remote knot to dim the light, and it can easily 
 <img src="images/monitor_light.avif" alt="monitor light" width="250px" />
 </a>
 
-* {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c39rwqId) [(Amazon)](https://amzn.to/4gy6P9O#ad) [(Amazon NL)](https://amzn.to/4xBYwjl#ad)
+* {{imgBasket}}Xiaomi Mijia monitor light desk bar [(AliExpress)](https://s.click.aliexpress.com/e/_c39rwqId) [(Amazon US)](https://amzn.to/4gy6P9O#ad) [(Amazon NL)](https://amzn.to/4xBYwjl#ad)
 
 ---
 ## Desk mat
@@ -122,7 +122,7 @@ They are available in many different sizes and with different border colors.
 I have the all-black version.
 
 * {{imgBasket}}Large anti-slip mouse mat [(AliExpress)](https://s.click.aliexpress.com/e/_c4lkc8mT)
-  [(Amazon)](https://amzn.to/3QbZkeg#ad)
+  [(Amazon US)](https://amzn.to/3QbZkeg#ad)
 
 ---
 ## Headset
@@ -167,7 +167,7 @@ Just read the reviews!
 Available in black/white/gray:
 * {{imgBasket}}ANC over-ear headset QCY H3S 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4rmILlH) 
-[(Amazon)](https://amzn.to/3QdUDR9#ad) 
+[(Amazon US)](https://amzn.to/3QdUDR9#ad) 
 [(Amazon NL)](https://amzn.to/3R7soEb#ad)
 
 <br>
@@ -175,7 +175,7 @@ Alternative:\
 I'm also a fan of the Sony WH range, but the price is 10x the price of the QCY, and it isn't 10x better.
 For now, I stick to the QCY.
 
-* {{imgBasket}}Sony WH-1000XM6 [(Amazon)](https://amzn.to/4vvtad6#ad) [(Amazon NL)](https://amzn.to/3QxCUDG#ad)
+* {{imgBasket}}Sony WH-1000XM6 [(Amazon US)](https://amzn.to/4vvtad6#ad) [(Amazon NL)](https://amzn.to/3QxCUDG#ad)
 
 ---
 ## Laptop charger
@@ -187,7 +187,7 @@ It's a powerful USB-C charger with enough power to fast charge any new laptop.
 <img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" width="250px" />
 </a>
 
-* {{imgBasket}}Xiaomi 120W USB-C [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon)](https://amzn.to/44r6Hla#ad) [(Amazon NL)](https://amzn.to/4tInyuZ#ad)
+* {{imgBasket}}Xiaomi 120W USB-C [(AliExpress)](https://s.click.aliexpress.com/e/_c34kENKH) [(Amazon US)](https://amzn.to/44r6Hla#ad) [(Amazon NL)](https://amzn.to/4tInyuZ#ad)
 
 I'm looking for a single-cable-solution with a [docking station](desk_setup_hardware#docking-station), suggestions are welcome!
 
@@ -201,22 +201,22 @@ This way, it takes up less space on my desk surface, and I can easily detach it 
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" width="250px" />
 </a>
 
-* {{imgBasket}}Vertical laptop stand [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon)](https://amzn.to/4eVsZSd#ad) [(Amazon NL)](https://amzn.to/3OEi9pF#ad)
-* {{imgBasket}}Vertical laptop stand for two laptops [(AliExpress)](https://s.click.aliexpress.com/e/_c4SxczDR) [(Amazon)](https://amzn.to/4uZOXJ7#ad) [(Amazon NL)](https://amzn.to/4vjM7iv#ad)
+* {{imgBasket}}Vertical laptop stand [(AliExpress)](https://s.click.aliexpress.com/e/_c3YOP0VH) [(Amazon US)](https://amzn.to/4eVsZSd#ad) [(Amazon NL)](https://amzn.to/3OEi9pF#ad)
+* {{imgBasket}}Vertical laptop stand for two laptops [(AliExpress)](https://s.click.aliexpress.com/e/_c4SxczDR) [(Amazon US)](https://amzn.to/4uZOXJ7#ad) [(Amazon NL)](https://amzn.to/4vjM7iv#ad)
 <p></p>
 Alternative solutions:
 
 * {{imgBasket}}Walnut stand upright 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4KppAtd) 
-[(Amazon)](https://amzn.to/4nEvBXz#ad) 
+[(Amazon US)](https://amzn.to/4nEvBXz#ad) 
 [(Amazon NL)](https://amzn.to/44eR5RQ#ad)
 * {{imgBasket}}Laptop mount for under the desk 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c3Kc8qzt) 
-[(Amazon)](https://amzn.to/4tPqkOn#ad) 
+[(Amazon US)](https://amzn.to/4tPqkOn#ad) 
 [(Amazon NL)](https://amzn.to/4xBiFWT#ad)
 * {{imgBasket}}Laptop side desk mount 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4EqTSqf) 
-[(Amazon)](https://amzn.to/4tNoFca#ad) 
+[(Amazon US)](https://amzn.to/4tNoFca#ad) 
 [(Amazon NL)](https://amzn.to/3Sh8k2d#ad)
 
 ## Laptop case
@@ -230,7 +230,7 @@ I chose walnut or black for all items below my monitor and on my desk to make it
 
 * {{imgBasket}}Black MacBook cover 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4syE4fB) 
-[(Amazon)](https://amzn.to/42K2pos#ad) 
+[(Amazon US)](https://amzn.to/42K2pos#ad) 
 [(Amazon NL)](https://amzn.to/4xyesn3#ad)
 
 ---
@@ -250,14 +250,14 @@ It just does its job: holding the headphones!
 </div>
 
 * {{imgBasket}}Headphone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c2JOMKeL) 
-[(Amazon)](https://amzn.to/44L9m9N#ad) 
+[(Amazon US)](https://amzn.to/44L9m9N#ad) 
 [(Amazon NL)](https://amzn.to/4d2Gfm7#ad)
 <p></p>
 Alternative:
 
 * {{imgBasket}}Walnut stand 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4S9Q9hf) 
-[(Amazon)](https://amzn.to/3Rl26xR#ad) 
+[(Amazon US)](https://amzn.to/3Rl26xR#ad) 
 [(Amazon NL)](https://amzn.to/4eh9lzY#ad)
 
 ---
@@ -269,7 +269,7 @@ A basic wooden digital clock that doesn't attract more attention than needed.
 <img src="images/clock.avif" alt="wooden clock" width="250px" />
 </a>
 
-* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon)](https://amzn.to/4oO0Yj2#ad) [(Amazon NL)](https://amzn.to/3Qq2eMw#ad)
+* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)](https://amzn.to/4oO0Yj2#ad) [(Amazon NL)](https://amzn.to/3Qq2eMw#ad)
 
 <p></p>
 
@@ -277,13 +277,13 @@ Alternatives:
 
 * Also, wood-colored, with other shapes, other colors, or additional temperature and humidity display 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9) 
-[(Amazon)](https://amzn.to/4w6O1Ds#ad)
+[(Amazon US)](https://amzn.to/4w6O1Ds#ad)
 * Wood version with a triangle shape 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP) 
-[(Amazon)](https://amzn.to/44lvrv9#ad)
+[(Amazon US)](https://amzn.to/44lvrv9#ad)
 * Version with wireless charger 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt) 
-[(Amazon)](https://amzn.to/43JGezd#ad) \
+[(Amazon US)](https://amzn.to/43JGezd#ad) \
   <a href="https://s.click.aliexpress.com/e/_c3swbZQt">
   <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" width="150px" />
   </a>
@@ -312,7 +312,7 @@ Very useful to have theses on other places in your home as well, like the bedroo
 <img src="images/phone_stand_charger.jpg" alt="wireless phone charger stand" width="150px" />
 </a>
 
-* {{imgBasket}}Wireless phone charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3qTRe0B) [(Amazon)](https://amzn.to/4gy78Bu#ad) [(Amazon NL)](https://amzn.to/42HesCL#ad)
+* {{imgBasket}}Wireless phone charger [(AliExpress)](https://s.click.aliexpress.com/e/_c3qTRe0B) [(Amazon US)](https://amzn.to/4gy78Bu#ad) [(Amazon NL)](https://amzn.to/42HesCL#ad)
 
 ---
 ## Walnut phone stand
@@ -323,7 +323,7 @@ I found a simple walnut-colored stand for my other phone, which is also walnut c
 <img src="images/walnut_phone_stand.jpg" alt="Walnut phone stand" width="150px" />
 </a>
 
-* {{imgBasket}}Walnut phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ) [(Amazon)](https://amzn.to/4fYOLFO#ad)
+* {{imgBasket}}Walnut phone stand [(AliExpress)](https://s.click.aliexpress.com/e/_c4UBgQzZ) [(Amazon US)](https://amzn.to/4fYOLFO#ad)
 
 ---
 ## Cat tower
@@ -343,7 +343,7 @@ It is available in three colors: black, beige, and gray.
 * {{imgBasket}}Cat tower Diogenes L [(Bitiba.nl)](https://www.bitiba.nl/shop/katten/krabpaal_krabmeubels/krabtonnen/554883?activeVariant=554883.1)
 <p></p>
 Alternative:
-* {{imgBasket}}20.5-Inch Cat Condo [(Amazon)](https://amzn.to/4tV4zgc#ad)
+* {{imgBasket}}20.5-Inch Cat Condo [(Amazon US)](https://amzn.to/4tV4zgc#ad)
 
 ---
 ## Camera
@@ -364,7 +364,7 @@ Back in the day, the Logitech C920 HD Pro Webcam was a perfect match for me, and
 But it could be upgraded to a newer one with 4K resolution and an auto-follow feature.
 I'm open to any good suggestions!
 
-* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon)](https://amzn.to/4hqFaIj#ad) [(Amazon NL)](https://amzn.to/4kLNBO6#ad)
+* {{imgBasket}}Logitech C920 HD Pro Webcam [(Amazon US)](https://amzn.to/4hqFaIj#ad) [(Amazon NL)](https://amzn.to/4kLNBO6#ad)
 I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestions are welcome!
 
 ---
@@ -376,7 +376,7 @@ For an affordable basic microphone, I've chosen the Razer Seiren Mini black - US
 <img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" width="100px" />
 </a>
 
-* {{imgBasket}}Razer Seiren Mini black [(Amazon)](https://amzn.to/4nLZVQ8#ad) [(Amazon NL)](https://amzn.to/4cwPg84#ad)
+* {{imgBasket}}Razer Seiren Mini black [(Amazon US)](https://amzn.to/4nLZVQ8#ad) [(Amazon NL)](https://amzn.to/4cwPg84#ad)
 
 ---
 ## Smart notification light
@@ -427,7 +427,7 @@ Alternatives:
 
 * {{imgBasket}}Black dual USB-C power hub 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) 
-[(Amazon)](https://amzn.to/3SSHu0u#ad) 
+[(Amazon US)](https://amzn.to/3SSHu0u#ad) 
 [(Amazon NL)](https://amzn.to/4enp1Sm#ad)
 * {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX) (high shipping costs)\
   <a href="images/retractable_usb_charger_walnut.png">
@@ -444,7 +444,7 @@ It can be change in different angles.
 <img src="images/footrest.jpg" alt="Footrest" width="150px" />
 </a>
 
-* {{imgBasket}}Footrest [(AliExpress)](https://s.click.aliexpress.com/e/_c2QayhIv) [(Amazon)](https://amzn.to/4w1Zm7p#ad) [(Amazon NL)](https://amzn.to/4aeh67k#ad)
+* {{imgBasket}}Footrest [(AliExpress)](https://s.click.aliexpress.com/e/_c2QayhIv) [(Amazon US)](https://amzn.to/4w1Zm7p#ad) [(Amazon NL)](https://amzn.to/4aeh67k#ad)
 
 ---
 ## Floor protection mat
@@ -456,7 +456,7 @@ A carpet version also works perfect.
 <img src="images/floor-protection-mat.webp" alt="floor protection mat" width="150px" />
 </a>
 
-* {{imgBasket}}Floor protection mat [(Amazon)](https://amzn.to/4odC4sM#ad) [(Amazon NL)](https://amzn.to/4dUne72#ad)
+* {{imgBasket}}Floor protection mat [(Amazon US)](https://amzn.to/4odC4sM#ad) [(Amazon NL)](https://amzn.to/4dUne72#ad)
 
 ---
 ## Floor heated mat
@@ -515,7 +515,7 @@ You can search for custom icons from a library or upload your own, and a button 
 <img src="images/elgato_stream_deck_xl.jpg" alt="Elgato Stream Deck XL" width="150px" />
 </a>
 
-* {{imgBasket}}Elgato Stream Deck XL [(Amazon)](https://amzn.to/4ycYcIe#ad) [(Amazon NL)](https://amzn.to/4bqBe6F#ad)
+* {{imgBasket}}Elgato Stream Deck XL [(Amazon US)](https://amzn.to/4ycYcIe#ad) [(Amazon NL)](https://amzn.to/4bqBe6F#ad)
 
 ---
 ## Vacuum cleaner

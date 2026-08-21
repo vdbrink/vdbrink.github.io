@@ -88,21 +88,21 @@ These are the hardware components I used for this project:
 
 * {{imgBasket}}SenseAir S8 CO2 sensor <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">(AliExpress)</a>
 <a href="https://s.click.aliexpress.com/e/_oFib9fC">(AliExpress alternative link)</a>
-<a href="https://amzn.to/4utKoa1#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4utKoa1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4neifkk#ad" target="_blank">(Amazon NL)</a>
   * <a href="https://senseair.com/product/s8/">Manufacturer product page</a>
 
 <img src="images_co2/senseair_s8.jpg" height="180px" alt="SenseAir S8 CO2 sensor" />
 
 * {{imgBasket}}ESP 12S Wemos D1 mini (no pro or V3) <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4v8N8cV#ad">(Amazon)</a>
+<a href="https://amzn.to/4v8N8cV#ad">(Amazon US)</a>
 <a href="https://amzn.to/48QLNPl#ad">(Amazon NL)</a>
   * You can use any ESP chip, but I like this one because of its small size
 
 <img src="images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" />
 
 * {{imgBasket}}Dupont male-to-male wires <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4wfc4Re#ad">(Amazon)</a>
+<a href="https://amzn.to/4wfc4Re#ad">(Amazon US)</a>
 <a href="https://amzn.to/4dgoMqj#ad">(Amazon NL)</a>
   * If you order these, it's better to order all three types at once, also for any future projects
 
@@ -113,32 +113,32 @@ These are the hardware components I used for this project:
 <a href="https://s.click.aliexpress.com/e/_c4t3bBiR" target="_blank">white version (AliExpress)</a>
 
   * {{imgBasket}}A lot of boxes with all kinds of sizes <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4ts9gxB#ad">(Amazon)</a>
+<a href="https://amzn.to/4ts9gxB#ad">(Amazon US)</a>
 <a href="https://amzn.to/4ncjPU9#ad">(Amazon NL)</a>
 
 <img src="images/diy_cases.png" height="180px" alt="DIY cases" />
 
 * {{imgBasket}}Micro USB cable to power the ESP board <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4eITR8B#ad">(Amazon)</a>
+<a href="https://amzn.to/4eITR8B#ad">(Amazon US)</a>
 <a href="https://amzn.to/4cV7cZZ#ad">(Amazon NL)</a>
 
 ![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
 
 * {{imgBasket}}5V USB wall power adapter to power the ESP <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4ndTMvH#ad" target="_blank">(Amazon NL)</a>
 
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
 * {{imgBasket}}Soldering iron <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/42lWIgd#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/42lWIgd#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4uvdwNA#ad" target="_blank">(Amazon NL)</a>.
 I suggest this based on the reviews. I already had one. Please let me know whether you recommend this one.
 
 <img src="images/soldering_iron.webp" alt="soldering iron" width="200px"/>
 
 * {{imgBasket}}Soldering tin wire <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4cWTy8U#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4cWTy8U#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4nfzylk#ad" target="_blank">(Amazon NL)</a>
 
 <img src="images/soldering_tin_wire.png" alt="soldering tin wire" width="200px"/>

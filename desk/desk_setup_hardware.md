@@ -49,7 +49,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
+[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -137,7 +137,7 @@ Newer versions are now available with improved specs while keeping the same dime
 Same monitor but newer models:
 
 * {{imgBasket}}Philips 49" curved monitor - 49B2U5900C [(Amazon NL)](https://amzn.to/4afMEdn#ad)
-* {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon)](https://amzn.to/4v3Z53D#ad)
+* {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon US)](https://amzn.to/4v3Z53D#ad)
 
 ---
 ### Monitor cable
@@ -150,8 +150,8 @@ To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for
 <img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" width="150px" />
 </a>
 
-* {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon)](https://amzn.to/4dUhV7i#ad) [(Amazon NL)](https://amzn.to/3MSMgsm#ad)
-* {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon)](https://amzn.to/4tUWeJq#ad)
+* {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i#ad) [(Amazon NL)](https://amzn.to/3MSMgsm#ad)
+* {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq#ad)
 
 ---
 ### Monitor arm
@@ -176,7 +176,7 @@ It is built from solid metal, holds up to 20 kg, meets all my requirements, and 
 
 <br>
 Alternative, similar design:
-* {{imgBasket}}Monitor arm - VIVO Heavy Duty for max 49" monitors [(Amazon)](https://amzn.to/4eqbiKm#ad) [(Amazon NL)](https://amzn.to/4uNRFBI#ad)
+* {{imgBasket}}Monitor arm - VIVO Heavy Duty for max 49" monitors [(Amazon US)](https://amzn.to/4eqbiKm#ad) [(Amazon NL)](https://amzn.to/4uNRFBI#ad)
 
 ---
 ## Laptop
@@ -189,7 +189,7 @@ MacBooks consistently outperform Windows laptops on both performance and battery
 <img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
 </a>
 
-* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon)](https://amzn.to/4dE3rHv#ad) [(Amazon NL)](https://amzn.to/4w3F12q#ad)
+* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv#ad) [(Amazon NL)](https://amzn.to/4w3F12q#ad)
 
 <br>
 
@@ -228,7 +228,7 @@ It exceeds my wish list, switches between three devices, lights up when your han
 <br>
 <em style="display:block; text-align:center">YouTube product video about the Logitech MX Keys</em>
 
-* {{imgBasket}}Logitech MX Keys [(Amazon)](https://amzn.to/4nFt3IK#ad) [(Amazon NL)](https://amzn.to/4dBkb2a#ad)
+* {{imgBasket}}Logitech MX Keys [(Amazon US)](https://amzn.to/4nFt3IK#ad) [(Amazon NL)](https://amzn.to/4dBkb2a#ad)
 
 ---
 ## Chair
@@ -263,10 +263,10 @@ It is simple, but it has worked well for years.
 Alternatives/future replacements:
 
 * {{imgBasket}}Logitech MX Master 3S 
-[(Amazon)](https://amzn.to/44L0iSl#ad) 
+[(Amazon US)](https://amzn.to/44L0iSl#ad) 
 [(Amazon NL)](https://amzn.to/4oe81RM#ad)
 * {{imgBasket}}Logitech MX Master 4 
-[(Amazon)](https://amzn.to/4fIo4U8#ad) 
+[(Amazon US)](https://amzn.to/4fIo4U8#ad) 
 [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 
 ---
@@ -344,7 +344,7 @@ Is it worth it?
 </a>
 
 * {{imgBasket}}CalDigit TS5 docking station
-  [(Amazon)](https://amzn.to/4un6YRH#ad)
+  [(Amazon US)](https://amzn.to/4un6YRH#ad)
   [(Amazon NL)](https://amzn.to/3PGaJCH#ad)
 
 <br>
@@ -369,8 +369,8 @@ There are many good chair brands, which makes choosing difficult. These two are 
 
 When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
 
-* {{imgBasket}}Logitech MX Master 3S [(Amazon)](https://amzn.to/44L0iSl#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
-* {{imgBasket}}Logitech MX Master 4 [(Amazon)](https://amzn.to/4fIo4U8#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
+* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/44L0iSl#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
+* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/4fIo4U8#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
 <p></p>
 <a href="images/logitech_mx_master.jpg">
 <img src="images/logitech_mx_master.jpg" alt="Logitech MX Master mouse" width="150px" />

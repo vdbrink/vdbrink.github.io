@@ -98,7 +98,7 @@ I already have a Zigbee network, so I chose Zigbee, but this can also be replace
 
 {{imgBasket}}Zigbee GU10 full-color light with RGB and an E14 fitting
 <a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/3PLzxcm#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3PLzxcm#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4nyvcWC#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.gamma.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">(Gamma NL)</a>
 <a href="https://www.karwei.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">(Karwei NL)</a>
@@ -115,7 +115,7 @@ This makes it possible to hide this lamp in something small.
 
 {{imgBasket}}Ceramic lamp fitting for GU10
 <a href="https://s.click.aliexpress.com/e/_c3IcnoiL" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4eQsae0#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4eQsae0#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4uiccy6#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.gamma.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">(Gamma NL)</a>
 <a href="https://www.karwei.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">(Karwei NL)</a>
@@ -131,7 +131,7 @@ A GU10 light uses the EU 230V from the wall outlet, so there is no need to lower
 If you have a spare 230V cable, you can use that as well.\
 {{imgBasket}}EU 230V power cable
 <a href="https://s.click.aliexpress.com/e/_c3bMDrSL" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4tyCTgJ#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4tyCTgJ#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4wEZjQn#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.gamma.nl/assortiment/handson-aansluitsnoer-zwart-2-5-meter/p/B186276" target="_blank">(Gamma NL)</a>
 <a href="https://www.karwei.nl/assortiment/handson-aansluitsnoer-met-eurostekker-zwart-1-8-m/p/B122782" target="_blank">(Karwei NL)</a>
@@ -145,7 +145,7 @@ If you don't want to solder the power cable directly to the GU10 fitting, you ca
 
 {{imgBasket}}Cable connector
 <a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/49RB6w8#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/49RB6w8#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4g0MCJ4#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.gamma.nl/assortiment/handson-kroonstrip-2-5-mm2-6d-4-stuks/p/B213691" target="_blank">(Gamma NL)</a>
 <a href="https://www.karwei.nl/assortiment/handson-kroonstrip-6-mm2-12d-5-stuks/p/B122981" target="_blank">(Karwei NL)</a>
@@ -170,7 +170,7 @@ Because my desk is made of walnut wood and is decorated only with black items, I
 
 {{imgBasket}}Walnut pencil holder
 <a href="https://s.click.aliexpress.com/e/_c3X7srbV" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/43hjVAp#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/43hjVAp#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4wxXbJW#ad" target="_blank">(Amazon NL)</a>
 
 ---

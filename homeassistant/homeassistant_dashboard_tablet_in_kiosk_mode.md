@@ -190,10 +190,10 @@ If I had to buy a new display today for my Home Assistant screen, it would be on
 
 * {{imgBasket}}**Lenovo Tab M11** - 11" with a resolution of 1920x1200 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4MtqRiJ) 
-[(Amazon)](https://amzn.to/4fqXqAy#ad) 
+[(Amazon US)](https://amzn.to/4fqXqAy#ad) 
 [(Amazon NL)](https://amzn.to/43kPQ3g#ad)
 * {{imgBasket}}**Samsung Galaxy Tab A9+** - 11" with a resolution of 1920x1200 
-[(Amazon)](https://amzn.to/4g7b101#ad) 
+[(Amazon US)](https://amzn.to/4g7b101#ad) 
 [(Amazon NL)](https://amzn.to/4xgkqsp#ad)
 
 ### iOS iPad tablet

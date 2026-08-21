@@ -55,7 +55,7 @@ I can control the lights via the original remote and also from my Home Assistant
 
 <a href="/buy/images_zigbee/zigbee_ir_remote.webp"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" style="margin-left:15px;float:right" /></a>
 I used for this project the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
-<a href="https://amzn.to/4rm0u4v#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4rm0u4v#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a> 
 With this small black box, powered on batteries, you can control any infrared device.
@@ -65,12 +65,12 @@ If you have more devices you want to control, it can be that you need multiple s
 
 > There are also similar 
 [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz) 
-[(Amazon)](https://amzn.to/3UzxCGU#ad) 
+[(Amazon US)](https://amzn.to/3UzxCGU#ad) 
 [(Amazon NL)](https://amzn.to/41b3nJU#ad)  available of this device.
 
 > Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
 <a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4p2FC0q#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4p2FC0q#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 
 <a href="images_infrared/purposes_ir.png" target="_blank">
@@ -216,7 +216,7 @@ Here are some links to products which all work via infrared, and can be controll
 
 LEDS
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
-<a href="https://amzn.to/4fE8qsa#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/4fE8qsa#ad" target="_blank">(Amazon US)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">
     <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="led light with remote control" width="200px" class="buy-link"/>
@@ -225,7 +225,7 @@ LEDS
 Light curtains
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains (AliExpress)</a>
-<a href="https://amzn.to/3JkKUVi#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3JkKUVi#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4ptf1JO#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">
@@ -235,7 +235,7 @@ Light curtains
 Tea lights
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon)</a>
+<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">
@@ -252,7 +252,7 @@ Candles
   </a>
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
-  <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon)</a>
+  <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
   <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">
@@ -260,7 +260,7 @@ Candles
   </a>
 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
-  <a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon)</a>
+  <a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
   <a href="https://amzn.to/44mdDk4#ad" target="_blank">(Amazon NL)</a>
 
   <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
