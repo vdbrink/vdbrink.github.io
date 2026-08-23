@@ -9,10 +9,12 @@ dependencies:
     actions:
       - name: Time left in current meeting
         icon: 1
+        icon_border: false
         type: (Next Meeting Countdown) Current Meeting
         remark: See the action button itself for all the settings
       - name: Time to next meeting
         icon: 1
+        icon_border: false
         type: (Next Meeting Countdown) Next Meeting
         remark: See the action button itself for all the settings
         requirements:

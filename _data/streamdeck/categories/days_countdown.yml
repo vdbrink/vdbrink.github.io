@@ -1,20 +1,45 @@
 title: Days countdown
 key: days_countdown
 priority: 40
-description: Display the days countdown until a special day.
+description: Display the days countdown until a special day. It's fully customizable in colors and fonts.
 dependencies:
   - plugin: final-countdown
     actions:
       - name: Days countdown to ... birthday, holiday, product launch, marriage, etc
-        icon: final-countdown_holiday
+        icon: final_countdown_holiday
+        icon_border: false
         remark: Colors and font is also configurable.
         type: (Final Countdown) Final Countdown
         fields:
           - key: Event Name
             value: Holiday
           - key: Target Date
-            value: 2026-08-31
-        requirements:
-          - name: Final Countdown Plugin
-            application: Stream Deck
-            description: My days countdown plugin. Double-click 'io.github.vdbrink.finalcountdown.streamDeckPlugin' in Finder to install the plugin in the Stream Deck app.
+            value: "2026-08-31"
+      - name: GTA VI - launch day with all possible parameters
+        icon: final_countdown_gta6
+        icon_border: false
+        download: days_countdown_gta6-vdbrink.streamDeckAction
+        type: (Final Countdown) Final Countdown
+        fields:
+          - key: Event Name
+            value: GTA VI
+          - key: Target Date
+            value: "2026-11-19"
+          - key: Banner Background Color
+            value: "#5852A0"
+          - key: Banner Text Color
+            value: "#EF46D1"
+          - key: Banner Font
+            value: Impact
+          - key: Banner Font Size
+            value: "24"
+          - key: Background Color
+            value: "#FCD3AA"
+          - key: Text Color
+            value: "#8165A5"
+          - key: Number Font
+            value: Impact
+          - key: Number Font Size
+            value: "48"
+          - key: Label Font Size
+            value: "20"

@@ -8,6 +8,7 @@ dependencies:
     actions:
       - name: Open Google translate webpage with selected text
         icon: 1
+        icon_border: false
         download: browser_translate_selected_text-vdbrink.streamdeckaction
         type: (System) Open Application
         fields:
