@@ -42,6 +42,7 @@ final-countdown:
   url: https://github.com/vdbrink/stream-deck-plugin-final-countdown/raw/refs/heads/main/dist/io.github.vdbrink.finalcountdown.streamDeckPlugin
   price: Free
   os: "Mac"
+  source: local
   description: "Manual install: Double-click 'io.github.vdbrink.finalcountdown.streamDeckPlugin' in Finder to install the plugin in your Stream Deck app."
 
 spotify:

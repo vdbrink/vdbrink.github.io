@@ -34,6 +34,11 @@
     {{ plugin.name }}
     {% endif %}
 
+    {% unless dependency.plugin == "none" %}
+    {% assign plugin_source = plugin.source | default: "market" %}
+    | Source: {{ plugin_source | capitalize }}
+    {% endunless %}
+
     {% if plugin.price %}
     | Price: {{ plugin.price }}
     {% endif %}
