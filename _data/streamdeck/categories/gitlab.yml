@@ -17,8 +17,8 @@ dependencies:
         download: gitlab_open_project-vdbrink.streamDeckAction
         type: (System) Website
         fields:
-          - key: Action
-            value: Website
+          - key: Title
+            value: Project X
           - key: path
             value: "https://gitlab.com/company/development/team/project/frontend"
     wishes:

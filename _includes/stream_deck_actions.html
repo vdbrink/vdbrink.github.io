@@ -26,21 +26,22 @@
 {% for dependency in category.dependencies %}
 
 {% assign plugin = site.data.streamdeck.plugins[dependency.plugin] %}
-<p>
-    Stream Deck Plugin:
+<h4>
+    {% if dependency.plugin == "none" %}
+    Built-in Stream Deck action, no plugin required
+    {% else %}
+    {% assign plugin_source = plugin.source | default: "market" %}
+    Stream Deck {{ plugin_source | capitalize }} Plugin:
     {% if plugin.url %}
     <a href="{{ plugin.url }}">{{ plugin.name }}</a>
     {% else %}
     {{ plugin.name }}
     {% endif %}
-
-    {% unless dependency.plugin == "none" %}
-    {% assign plugin_source = plugin.source | default: "market" %}
-    | Source: {{ plugin_source | capitalize }}
-    {% endunless %}
-
+    {% endif %}
+</h4>
+<p>
     {% if plugin.price %}
-    | Price: {{ plugin.price }}
+    Price: {{ plugin.price }}
     {% endif %}
 
     {% if plugin.os %}
@@ -73,6 +74,12 @@
             {% if action.download %}
             <svg class="sd-action-download-icon" aria-label="download icon" viewBox="0 0 24 24" fill="#fff"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
             {% endif %}
+            {% if action.type %}
+            {% assign type_parts = action.type | remove: '(' | split: ') ' %}
+            <div class="sd-action-type"><b>{{ type_parts[0] }}:</b> {{ type_parts[1] }}</div>
+            <hr class="sd-action-type-rule">
+            {% endif %}
+            <div class="sd-action-detail-row">
             {% if action.icon == 1 %}
             {% if action.download %}
             {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
@@ -102,9 +109,6 @@
             {% endif %}
             {% endif %}
             <div class="sd-action-body">
-            {% if action.type %}
-            <div class="sd-action-type">{{ action.type }}</div>
-            {% endif %}
             {% if action.remark %}
             <p class="sd-action-remark">{{ action.remark }}</p>
             {% endif %}
@@ -117,6 +121,7 @@
             </dl>
             {% endif %}
             </div>
+            </div>
         </div>
         {% if action.download %}
         </a>
@@ -124,7 +129,8 @@
         {% endif %}
         {% if action.requirements %}
         <div class="sd-action-requirements">
-            Requires/Remarks:
+        <details class="sd-details">
+          <summary class="sd-details-summary"><span class="sd-details-icon"></span><b>Requires/Remarks:</b> <span class="sd-details-hint">click here to expand and see more details about these buttons.</span></summary>
             <ul>
             {% for req in action.requirements %}
                 <li>
@@ -135,14 +141,20 @@
                 {% endif %}
                 {% if req.application %}({{ req.application }}){% endif %}{% if req.description %}: {{ req.description }}{% endif %}
                 {% if req.image %}
+                {% if req.image contains '.' %}
+                {% assign req_image_path = req.image %}
+                {% else %}
+                {% assign req_image_path = req.image | append: '.png' %}
+                {% endif %}
                 <br>
-                <a href="/projects/images_stream_deck/{{ req.image }}.png">
-                <img class="sd-action-requirement-image" src="/projects/images_stream_deck/{{ req.image }}.png" alt="{{ req.name }}"/>
+                <a href="/projects/images_stream_deck/{{ req_image_path }}">
+                <img class="sd-action-requirement-image" src="/projects/images_stream_deck/{{ req_image_path }}" alt="{{ req.name }}"{% if req.width %} style="width: {{ req.width }}px; max-width: none;"{% endif %}/>
                 </a>
                 {% endif %}
                 </li>
             {% endfor %}
             </ul>
+        </details>
         </div>
         {% endif %}
     </li>
@@ -161,8 +173,12 @@
 {% if forloop.last == false %}<hr>{% endif %}
     {% endfor %}
 </div>
+{% if category.footnote %}
 <br>
 {{ category.footnote }}
+{% endif %}
+
+<p class="sd-back-to-top"><a href="#installation"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> all categories</a></p>
 
 {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}

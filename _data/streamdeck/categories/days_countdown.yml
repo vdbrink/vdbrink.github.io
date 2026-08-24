@@ -8,7 +8,6 @@ dependencies:
       - name: Days countdown to ... birthday, holiday, product launch, marriage, etc
         icon: final_countdown_holiday
         icon_border: false
-        remark: Colors and font is also configurable.
         type: (Final Countdown) Final Countdown
         fields:
           - key: Event Name

@@ -10,8 +10,8 @@ dependencies:
         download: github_notifications-vdbrink.streamdeckaction
         type: (System) Website
         fields:
-          - key: Action
-            value: Website
+          - key: Title
+            value: Notifications
           - key: path
             value: "https://github.com/notifications"
       - name: Pull requests
@@ -19,8 +19,8 @@ dependencies:
         download: github_pull_requests-vdbrink.streamdeckaction
         type: (System) Website
         fields:
-          - key: Action
-            value: Website
+          - key: Title
+            value: Pull requests
           - key: path
             value: "https://github.com/pulls/inbox"
       - name: Issues
@@ -28,8 +28,8 @@ dependencies:
         download: github_issues-vdbrink.streamdeckaction
         type: (System) Website
         fields:
-          - key: Action
-            value: Website
+          - key: Title
+            value: Issues
           - key: path
             value: "https://github.com/issues/assigned"
 footnote: Which pages do you use often yourself as well on GitHub?

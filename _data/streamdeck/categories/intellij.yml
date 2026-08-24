@@ -12,7 +12,7 @@ dependencies:
         download: intellij_open_project_macos-vdbrink.streamdeckaction
         type: (System) Open
         fields:
-          - key: Action
+          - key: Title
             value: Open project
           - key: path
             value: open -a "IntelliJ IDEA" /Users/me/my_project

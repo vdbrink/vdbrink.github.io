@@ -11,8 +11,8 @@ dependencies:
         download: claude_code_start_macos-vdbrink.streamDeckAction
         type: (System) Text
         fields:
-          - key: Action
-            value: Text
+          - key: Title
+            value: claude
           - key: Text
             value: claude
       - name: Past any prompt
@@ -20,8 +20,8 @@ dependencies:
         download: claude_code_prompt-vdbrink.streamdeckaction
         type: (System) Text
         fields:
-          - key: Action
-            value: Text
+          - key: Title
+            value: Any prompt
           - key: pasted Text
             value: Any prompt
       - name: Run a skill
@@ -29,8 +29,8 @@ dependencies:
         download: claude_run_skill.streamDeckAction
         type: (System) Text
         fields:
-          - key: Action
-            value: Text
+          - key: Title
+            value: /my-skill
           - key: pasted Text
             value: /my-skill
 

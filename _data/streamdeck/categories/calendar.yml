@@ -11,12 +11,12 @@ dependencies:
         icon: 1
         icon_border: false
         type: (Next Meeting Countdown) Current Meeting
-        remark: See the action button itself for all the settings
+        remark: Color change to amber and red closer to the end
       - name: Time to next meeting
         icon: 1
         icon_border: false
         type: (Next Meeting Countdown) Next Meeting
-        remark: See the action button itself for all the settings
+        remark: Color change to amber and red closer to the start
         requirements:
           - name: Grant calendar access
             application: macOS
@@ -25,11 +25,13 @@ dependencies:
           - name: Both buttons together
             description: "\"Now\" and \"Next\" side by side in the Stream Deck app matching the MacOS calendar events."
             image: next_meetings_calendar_buttons
-          - name: Color settings
-            description: These settings are available.
+          - name: Button settings
             image: next_meeting_color_settings
           - name: No upcoming meeting
             description: How the button looks when there is no next meeting.
             image: next_meeting_no_more_meetings
+          - name: On the Stream Deck
+            image: next_meeting_on_sd.jpg
+            width: 500
     wishes:
       - name: Time since last meeting. So you can see how many time past since the end of the meeting.
