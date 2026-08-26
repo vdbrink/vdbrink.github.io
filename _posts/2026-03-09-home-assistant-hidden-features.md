@@ -4,6 +4,7 @@ title: "Feed: Home Assistant - Hidden features"
 date: 2026-03-09
 tags: [Home Assistant, YAML, dashboard]
 permalink: /home-assistant-hidden-features
+image: /homeassistant/images_tips/enlarge_dialog.gif
 ---
 
 # Feed: Home Assistant - Hidden features

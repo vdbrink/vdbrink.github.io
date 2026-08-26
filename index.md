@@ -14,32 +14,28 @@ Here you can find projects I worked on related to Home Assistant, ESP, electroni
 
 ---
 
-<a href="desk/index"><img src="desk/images/desk_banner.jpg" alt="Desk banner" width="100%"></a>
-<em style="display:block; text-align:center">Recent project: Home office: Desk setup and room design with AI</em>
-
 ## Updates
 My latest 5 posts:
-<div id="posts-list">
+<div id="posts-list" class="post-cards">
     {% assign sorted_posts = site.posts | sort: "date" | reverse %}
     {% for post in sorted_posts limit:5 %}
-    <div class="post-entry">
-        {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
-        <b>
-            <i>{{ post.date | date: date_format }}</i>
-            &ndash;
-            <a href="{{ post.url | relative_url }}">{{ post.title | remove_first: "Feed: " | escape }}</a>
-        </b>
-    </div>
+    <a class="post-card" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | default: '/images/logo.png' | relative_url }}" alt="{{ post.title | remove_first: 'Feed: ' | escape }}">
+        <span>
+            {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
+            <i class="post-card-date">{{ post.date | date: date_format }}</i>
+            <span class="post-card-title">{{ post.title | remove_first: "Feed: " | escape }}</span>
+        </span>
+    </a>
     {% endfor %}
 </div>
+See <a href="/feed.html">here</a> all posts.
 
 ---
 
-My latest blog highlights:
+My blog highlights:
 * [ESPHome - DIY CO2 (model SCD40) sensor](esphome/co2_scd40)
 * [Home office - Desk setup and room design with AI](/desk)
-* [Projects - Smart and stylish notification light](/projects/smart_notification_light)
-* [Home Assistant - Wake-up alarm light](/homeassistant/homeassistant_dashboard_wake-up-alarm-light)
 * [Home Assistant - Dashboard on a tablet in kiosk mode](homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode)
 * [Home Assistant - Examples overview](homeassistant/homeassistant_dashboard_examples_overview) (Visual element examples overview page)
 * [Projects - Smart traditional mailbox](/projects/smart_mailbox)

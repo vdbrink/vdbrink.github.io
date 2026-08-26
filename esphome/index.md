@@ -31,10 +31,29 @@ The sensor registers itself automatically to Home Assistant (or sends its data t
 
 I wrote multiple articles about creating your own wireless WiFi sensors and actuators based on the ESP chip with ESPHome:
 
-* [Motion and Presence sensor based on the RCWL-0516 sensor](microwave_radar_sensor_rcwl-0516)
-* [CO2 sensor based on a SCD40 sensor](co2_scd40)
-* [CO2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
-* [Control an Orcon mechanic ventilation system](orcon_mechanic_ventilation)
+<div class="project-links">
+
+<a class="project-card" href="microwave_radar_sensor_rcwl-0516">
+<img src="images_rcwl-0516/rcwl_0516_wired.jpg" alt="Motion and Presence sensor based on the RCWL-0516 sensor">
+<span>Motion and Presence sensor based on the RCWL-0516 sensor</span>
+</a>
+
+<a class="project-card" href="co2_scd40">
+<img src="images_scd40/hardware.jpg" alt="CO2 sensor based on a SCD40 sensor">
+<span>CO2 sensor based on a SCD40 sensor</span>
+</a>
+
+<a class="project-card" href="co2_senseair_s8_sensor">
+<img src="images_co2/case_fit_co2_sensor.jpg" alt="CO2 sensor based on a SenseAir S8 sensor">
+<span>CO2 sensor based on a SenseAir S8 sensor</span>
+</a>
+
+<a class="project-card" href="orcon_mechanic_ventilation">
+<img src="orcon_images/wires_connected.jpg" alt="Control an Orcon mechanic ventilation system">
+<span>Control an Orcon mechanic ventilation system</span>
+</a>
+
+</div>
 
 <img src="images/esp_d1_mini.jpg" width="200px" />
 
@@ -43,7 +62,15 @@ ESP8266 D1 mini
 ---
 
 ## How to flash with ESPHome
-* [How to flash the config to the ESP board](esphome_flashing)
+
+<div class="project-links">
+
+<a class="project-card" href="esphome_flashing">
+<img src="images/esphome_logo.png" alt="How to flash the config to the ESP board">
+<span>How to flash the config to the ESP board</span>
+</a>
+
+</div>
 
 ---
 

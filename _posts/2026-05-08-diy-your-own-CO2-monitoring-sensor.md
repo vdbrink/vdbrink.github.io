@@ -5,7 +5,7 @@ description: "Feed: DIY your own CO2 monitoring sensor, based on a SenseAir S8 C
 date: 2026-05-08
 tags: [ESPHome, diy, soldering, CO2, health, office, ESP, sensor]
 permalink: /diy-your-own-senseair-s8-co2-monitoring-sensor
-image: /esphome/images_co2/home_assistant_co2_dashboard_mini-graph-card.png
+image: /esphome/images_co2/senseair_s8.jpg
 ---
 
 # Feed: DIY your own CO2 monitoring sensor

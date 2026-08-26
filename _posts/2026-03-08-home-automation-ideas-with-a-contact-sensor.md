@@ -4,6 +4,7 @@ title: "Feed: Home automation ideas with a contact sensor"
 date: 2026-03-08
 tags: [automation, Zigbee, sensor, idea] 
 permalink: /home-automation-ideas-with-a-contact-sensor
+image: /ideas/images/idea.png
 ---
 
 # Feed: Home automation ideas with a contact sensor

@@ -136,40 +136,40 @@ Without having to worry about latency or any other performance issues for the be
 {% capture n100_global %}-{% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c2QtyRt5){% endcapture %}
 {% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c2IMmsxn)*{% endcapture %}
-{% capture 12650h_global %}[AliExpress](https://s.click.aliexpress.com/e/_c2u1IZWJ){% endcapture %}
-{% capture 185h_global %}-{% endcapture %}
+{% capture h12650_global %}[AliExpress](https://s.click.aliexpress.com/e/_c2u1IZWJ){% endcapture %}
+{% capture h185_global %}-{% endcapture %}
 {% capture hx370_global %}-{% endcapture %}
 
 {% capture n95_beelink %} n/a {% endcapture %}
 {% capture n97_beelink %} n/a {% endcapture %}
 {% capture n100_beelink %} n/a {% endcapture %}
 {% capture n150_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eq14-n150?variant=46285631291634){% endcapture %}
-{% capture 12650h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12-intel%C2%AE-core-1220p-12450h-12650h?variant=47617869545714){% endcapture %}
-{% capture 185h_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
+{% capture h12650_beelink %}[Beelink](https://www.bee-link.com/products/beelink-eqi12-intel%C2%AE-core-1220p-12450h-12650h?variant=47617869545714){% endcapture %}
+{% capture h185_beelink %}[Beelink](https://www.bee-link.com/products/beelink-sei14-ultra9-185h?variant=47143958085874){% endcapture %}
 {% capture hx370_beelink %}[Beelink](https://www.bee-link.com/products/beelink-ser9-ai-9-hx-370?variant=46822393512178){% endcapture %}
 
 {% capture n95_us %}[Amazon](https://amzn.to/3L0WiGV#ad){% endcapture %}
 {% capture n97_us %}[Amazon](https://amzn.to/3MHeAgO#ad){% endcapture %}
 {% capture n100_us %}[Amazon](https://amzn.to/48Cc9F4#ad){% endcapture %}
 {% capture n150_us %}[Amazon](https://amzn.to/44mUajl#ad){% endcapture %}
-{% capture 12650h_us %}[Amazon](https://amzn.to/4rLZ6Iu#ad){% endcapture %}
-{% capture 185h_us %}[Amazon](https://amzn.to/4rTAUUJ#ad){% endcapture %}
+{% capture h12650_us %}[Amazon](https://amzn.to/4rLZ6Iu#ad){% endcapture %}
+{% capture h185_us %}[Amazon](https://amzn.to/4rTAUUJ#ad){% endcapture %}
 {% capture hx370_us %}[Amazon](https://amzn.to/44p9Qm6#ad){% endcapture %}
 
 {% capture n95_nl %}[Amazon NL](https://amzn.to/45BtFHY#ad){% endcapture %}
 {% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
 {% capture n100_nl %}[Amazon NL](https://amzn.to/4f157x6#ad){% endcapture %}
 {% capture n150_nl %}[Amazon NL](https://amzn.to/4p3vIes#ad){% endcapture %}
-{% capture 12650h_nl %}[Amazon NL](https://amzn.to/41pTFnv#ad){% endcapture %}
-{% capture 185h_nl %}[Amazon NL](https://amzn.to/4kcvyAc#ad){% endcapture %}
+{% capture h12650_nl %}[Amazon NL](https://amzn.to/41pTFnv#ad){% endcapture %}
+{% capture h185_nl %}[Amazon NL](https://amzn.to/4kcvyAc#ad){% endcapture %}
 {% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ#ad){% endcapture %}
 
 {% capture n95_performance %}[5.358](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N95&id=5206){% endcapture %}
 {% capture n97_performance %}[5.643](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N97&id=5337){% endcapture %}
 {% capture n100_performance %}[5.407](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N100&id=5157){% endcapture %}
 {% capture n150_performance %}[5.542](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N150&id=6304){% endcapture %}
-{% capture 12650h_performance %}[22.161](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12650H&id=4771){% endcapture %}
-{% capture 185h_performance %}[29.430](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+9+185H&id=5815){% endcapture %}
+{% capture h12650_performance %}[22.161](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12650H&id=4771){% endcapture %}
+{% capture h185_performance %}[29.430](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Ultra+9+185H&id=5815){% endcapture %}
 {% capture hx370_performance %}[35.215](https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+AI+9+HX+370&id=6143){% endcapture %}
 
 #### Basic
@@ -212,17 +212,17 @@ model with more memory, a faster CPU, GPU and more cores.
 
 {% capture high_end_css %}max-width: 150px; height: auto; display: block; margin: auto;padding:15px{% endcapture %}
 {% capture hx370_img %}<img alt="Beelink SER9 - HX 370" height="150px" src="images_hardware/ser9.jpg" style="{{high_end_css}}"/>{% endcapture %}
-{% capture 185h_img %}<img alt="Beelink GTi14 - 185H" height="150px" src="images_hardware/185h.jpg" style="{{high_end_css}}"/>{% endcapture %}
-{% capture 12650h_img %}<img alt="Beelink EQi12 - 12650H" height="150px" src="images_hardware/12650h.jpg" style="{{high_end_css}}"/>{% endcapture %}
+{% capture h185_img %}<img alt="Beelink GTi14 - 185H" height="150px" src="images_hardware/185h.jpg" style="{{high_end_css}}"/>{% endcapture %}
+{% capture h12650_img %}<img alt="Beelink EQi12 - 12650H" height="150px" src="images_hardware/12650h.jpg" style="{{high_end_css}}"/>{% endcapture %}
 
 
 | Model                | SER9                     | 185H                        | 12650H                 |
 |:---------------------|--------------------------|-----------------------------|------------------------|
-| **Photo**            | {{hx370_img}}            | {{185h_img}}                | {{12650h_img}}         |
+| **Photo**            | {{hx370_img}}            | {{h185_img}}                | {{h12650_img}}         |
 | **Model**            | **SER9 Pro AI**          | **GTi14 AI**                | **EQi12**              |
 | **Brand**            | Beelink                  | Beelink                     | Beelink                |
 | **Processor**        | AMD Ryzen 9 HX 370       | Intel Core Ultra 9 185H     | Intel Core i7-12650H   |
-| **CPU benchmark**    | {{hx370_performance}}    | {{185h_performance}}        | {{12650h_performance}} |
+| **CPU benchmark**    | {{hx370_performance}}    | {{h185_performance}}        | {{h12650_performance}} |
 | **CPU**              | 5.1 GHz                  | 5.1 GHz                     | 4.7 GHz                |
 | **GPU**              | AMD Radeon 890M          | Intel Arc graphics 2.35GHz  | Intel UHD Graphics     |
 | **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  |
@@ -230,9 +230,9 @@ model with more memory, a faster CPU, GPU and more cores.
 | **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                |
 | **Price indication** | &euro; 1200 - 2700       | &euro; 900 - 2000           | &euro; 500 - 800       |
 | **AliExpress**       | {{hx370_global}}         | N/A                         | N/A                    |
-| **Amazon**        | {{hx370_us}}             | {{185h_us}}                 | {{12650h_us}}          |
-| **Amazon NL**        | {{hx370_nl}}             | {{185h_nl}}                 | {{12650h_nl}}          |
-| **Beelink**          | {{hx370_beelink}}        | {{185h_beelink}}            | {{12650h_beelink}}     |
+| **Amazon**        | {{hx370_us}}             | {{h185_us}}                 | {{h12650_us}}          |
+| **Amazon NL**        | {{hx370_nl}}             | {{h185_nl}}                 | {{h12650_nl}}          |
+| **Beelink**          | {{hx370_beelink}}        | {{h185_beelink}}            | {{h12650_beelink}}     |
 
 <!--
 latency

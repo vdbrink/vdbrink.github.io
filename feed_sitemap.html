@@ -19,18 +19,18 @@ See <a href="/feed.html">here</a> all posts ordered by date.
         <div id="#{{ tag_name | slugize }}"></div>
         <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
         <a id="{{ tag_name | slugize }}"></a>
-        <ul class="post-list post-list-narrow">
+        <div class="post-cards">
             {% for post in site.tags[tag_name] %}
-            <li>
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <b>
-                    <a href="{{ post.url | relative_url }}">
-                        {{ post.title | remove_first: "Feed: " | escape }}
-                    </a>
-                </b> - <i>{{ post.date | date: date_format }}</i>
-            </li>
+            <a class="post-card" href="{{ post.url | relative_url }}">
+                <img src="{{ post.image | default: '/images/logo.png' | relative_url }}" alt="{{ post.title | remove_first: 'Feed: ' | escape }}">
+                <span>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <i class="post-card-date">{{ post.date | date: date_format }}</i>
+                    <span class="post-card-title">{{ post.title | remove_first: "Feed: " | escape }}</span>
+                </span>
+            </a>
             {% endfor %}
-        </ul>
+        </div>
     </div>
     {% endfor %}
 </div>

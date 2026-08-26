@@ -515,12 +515,12 @@ Only ingredients with the text `[freezer]` are used in the notification.
 
 #### The flow explanation
 * Call the Mealie API to get all the recipes after today
-  * Endpoint `http://mealie-recipes:9000/api/households/mealplans?orderBy=date&orderDirection=asc&perPage=1&start_date={{{start_date}}}`
+  * Endpoint `http://mealie-recipes:9000/api/households/mealplans?orderBy=date&orderDirection=asc&perPage=1&start_date={% raw %}{{{start_date}}}{% endraw %}`
 * Get the first recipe ID
 * If there is no recipe found:
   * Send a message `For tomorrow no recipe found`
 * Otherwise, call the Mealie API to get the recipe data with the ingredients
-  * * Endpoint `http://mealie-recipes:9000/api/recipes/{{{recipeId}}}`
+  * * Endpoint `http://mealie-recipes:9000/api/recipes/{% raw %}{{{recipeId}}}{% endraw %}`
 * Filter all ingredients and find in one of them contains the text `[freezer]`
 * If this isn't found:
   * Send a message `For tomorrow nothing need out of the freezer for {recipe_name}`

@@ -36,15 +36,24 @@ On this page you find products, information and projects related to Zigbee.
 
 I created some detailed pages about specific Zigbee devices:
 
-* [USB adapter switch](usb_adapter_switch) to control USB devices.
+<div class="project-links">
 
-* [Soil sensor](zigbee_soil_sensor) to detect the soil humidity and temperature.
+<a class="project-card" href="usb_adapter_switch">
+<img src="images_usb_switch/zigbee_usb_switch_three_ports.png" alt="USB adapter switch">
+<span>USB adapter switch<br><br><em>to control USB devices</em></span>
+</a>
 
-  <a href="zigbee_soil_sensor"><img src="images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="100px"/></a>
+<a class="project-card" href="zigbee_soil_sensor">
+<img src="images_soil_sensor/NAS-STH02B2.png" alt="soil sensor">
+<span>Soil sensor<br><br><em>to detect the soil humidity and temperature</em></span>
+</a>
 
-* [Automate infrared devices in Home Assistant](smart_infrared_transmitter_receiver)
+<a class="project-card" href="smart_infrared_transmitter_receiver">
+<img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared control via Zigbee and Home Assistant">
+<span>Automate infrared devices in Home Assistant</span>
+</a>
 
-  <a href="smart_infrared_transmitter_receiver"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared control via Zigbee and Home Assistant" height="100px"/></a>
+</div>
 
 
 ---
@@ -53,17 +62,24 @@ I created some detailed pages about specific Zigbee devices:
 
 How to create custom Zigbee sensors:
 
-* [DIY Zigbee chair occupancy sensor](zigbee_chair_occupancy_sensor)
+<div class="project-links">
 
-  <a href="zigbee_chair_occupancy_sensor"><img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="DIY Zigbee chair occupancy sensor" height="100px"/></a>
+<a class="project-card" href="zigbee_chair_occupancy_sensor">
+<img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="DIY Zigbee chair occupancy sensor">
+<span>DIY Zigbee chair occupancy sensor</span>
+</a>
 
-* [DIY Zigbee outlet (temperature, leak, motion) sensor](zigbee_outlet_sensor)
+<a class="project-card" href="zigbee_outlet_sensor">
+<img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor">
+<span>DIY Zigbee outlet (temperature, leak, motion) sensor</span>
+</a>
 
-  <a href="zigbee_outlet_sensor"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee outlet temperature sensor" height="100px"/></a>
+<a class="project-card" href="zigbee_water_leak_sensor">
+<img src="images_leak/leak_sensor_assemblage.jpg" alt="DIY Zigbee leak sensor assemblage">
+<span>DIY Zigbee leak detector</span>
+</a>
 
-* [DIY Zigbee leak detector](zigbee_water_leak_sensor)
-  
-  <a href="zigbee_water_leak_sensor"><img src="images_leak/leak_sensor_assemblage.jpg" alt="DIY Zigbee leak sensor assemblage" height="100px"/></a>
+</div>
 
 ---
 
