@@ -207,6 +207,15 @@ Small and cheaper.
 <a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank" title="ZD06">{{imgZ2M}}ZD06</a>
 Battery powered, bigger, cheaper.
 
+**IP65 waterproof option:**\
+{{imgBasket}}Zigbee Waterproof IP65 Contact sensor 2xAAA powered - Tuya
+<a href="https://s.click.aliexpress.com/e/_c2QboG2R" target="_blank">(AliExpress)</a>
+
+<a href="https://s.click.aliexpress.com/e/_c2QboG2R" target="_blank">
+<img src="images_outdoor/zigbee_contact_sensor_waterproof.png" alt="waterproof contact sensor" height="100px" /></a>
+
+For integration ideas look at the [Home Automation Ideas](../ideas/home_automation_ideas) page.
+
 ---
 
 ### Motion sensor
@@ -364,6 +373,18 @@ Battery: CR2477
 <a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
 
 <a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
+
+<br>
+
+#### Waterproof outdoor option:
+{{imgBasket}}Zigbee waterproof temperature and humidity sensor for outdoor use.
+<a href="https://s.click.aliexpress.com/e/_c3nLEH8P" target="_blank">(AliExpress)</a>
+
+Useful to measure the garden climate, to protect plants/pomps against frost,
+or to control an outdoor heater/pool.
+
+<a href="https://s.click.aliexpress.com/e/_c3nLEH8P" target="_blank">
+<img src="images_outdoor/zigbee_temperature_humidity_sensor_waterproof.png" alt="waterproof temperature sensor" height="150px" /></a>
 
 <br>
 
@@ -1059,5 +1080,7 @@ Make sure you select the foam version and not the normal liquid one!
 <br><br>
 That's it for the indoor sensors. 
 See also my [Outdoor sensors - Best Buy Tips](zigbee_outdoor)
+
+For integration ideas look at the [Home Automation Ideas](../ideas/home_automation_ideas#outside) page.
 
 You can also check out [ESPHome DIY sensors buy tips](esphome_diy) for hardware tips to create your own sensors.

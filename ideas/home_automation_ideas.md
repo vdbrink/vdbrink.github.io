@@ -261,10 +261,17 @@ See also my dedicated page about [smart kitchen appliances](/projects/retrofit_k
 * Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + API weather forecast/weather station)
 * Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Close the sunscreen if it's too windy. (outdoor temperature and wind speed from a weather station)
-* Notification when the gate is opened. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
+* Frost warning for the plants, so you can cover them or move them inside. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor#waterproof-temperature-and-humidity-sensor))
+* Notification when it's cooler outside than inside, so you can open the windows to cool down the house. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor#waterproof-temperature-and-humidity-sensor) + [inside temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
+* Log the outside garden temperature and humidity instead of relying on a weather API of a station kilometers away. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor#waterproof-temperature-and-humidity-sensor))
 * Turn the lights on when going outside, by opening the door, in the evening/night. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
 * Put out the sunscreen when it heats the home too much.
 * Close the curtains when it cools/heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
+
+#### Gate
+* Notification when the gate is opened. ([waterproof contact sensor](../buy/zigbee_outdoor#waterproof-contact-sensor), which survives rain and frost)
+* Notification when the garden gate stays open longer than X minutes. ([waterproof contact sensor](../buy/zigbee_outdoor#waterproof-contact-sensor))
+* Notification when the shed or garden room door is left open. ([waterproof contact sensor](../buy/zigbee_outdoor#waterproof-contact-sensor))
 
 #### Front yard
 

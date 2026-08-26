@@ -23,8 +23,8 @@ Find here a set of preselected devices which you can buy for in your garden or g
 
 ## Table of Contents
 <!-- TOC -->
-* [Zigbee Outdoor - Best Buy Tips](#zigbee-outdoor---best-buy-tips)
-  * [Table of Contents](#table-of-contents)
+  * [Waterproof contact sensor](#waterproof-contact-sensor)
+  * [Waterproof temperature sensor](#waterproof-temperature-sensor)
   * [Rain sensor](#rain-sensor)
     * [Rain + lux](#rain--lux)
   * [Soil sensor](#soil-sensor)
@@ -42,6 +42,37 @@ Find here a set of preselected devices which you can buy for in your garden or g
 ---
 
 > **_NOTE:_** Most of the links are affiliate links, You pay the normal price and also support my blog a bit.
+
+
+---
+## Waterproof contact sensor
+
+<a href="https://s.click.aliexpress.com/e/_c2QboG2R" target="_blank">
+<img src="images_outdoor/zigbee_contact_sensor_waterproof.png" alt="waterproof contact sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+An IP65 waterproof contact sensor can be used outdoors, for example on a shed door, a gate,
+a garden room window or a mailbox.\
+It's powered by two AAA batteries.
+
+{{imgBasket}}Zigbee Waterproof IP65 Contact sensor 2xAAA powered - Tuya
+<a href="https://s.click.aliexpress.com/e/_c2QboG2R" target="_blank">(AliExpress)</a>
+
+<br>
+
+---
+## Waterproof temperature sensor
+
+<a href="https://s.click.aliexpress.com/e/_c3nLEH8P" target="_blank">
+<img src="images_outdoor/zigbee_temperature_humidity_sensor_waterproof.png" alt="waterproof temperature sensor" height="150px" style="margin-left:15px;float:right"/></a>
+
+A waterproof Zigbee temperature and humidity sensor measures the outdoor climate.\
+Useful to track the outside temperature, to protect plants against frost,
+or to control an outdoor heater or a pump.
+
+{{imgBasket}}Zigbee waterproof temperature and humidity sensor
+<a href="https://s.click.aliexpress.com/e/_c3nLEH8P" target="_blank">(AliExpress)</a>
+
+<br>
 
 ---
 ## Rain sensor
@@ -74,7 +105,7 @@ It contains a build-in battery that charges via a small solar panel.
 <a href="https://amzn.to/4gYGF0m#ad" target="_blank">(Amazon US)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
 
-<br><br>
+<br> <br>
 
 ---
 ## Soil sensor
@@ -275,4 +306,5 @@ This can create a drip irrigation system due to its built-in water flow recorder
 
 ---
 
-See also my [Indoor sensors - Best Buy Tips](smart_home_best_buy_tips)
+See for all kind of indoor sensors on my [Indoor sensors - Best Buy Tips](smart_home_best_buy_tips). 
+For integration ideas look at the [Home Automation Ideas](../ideas/home_automation_ideas#outside) page.
