@@ -1020,12 +1020,16 @@ This is the corresponding flow in Node-RED.
 There are other projects who use other ways to control the Orcon ventilation system.
 
 ### Clone the remote signals
-The Orcon remote uses a CC1101 RF module which does the RF wireless communication over 868,3 MHz. I tried to catch the remote signals with an [RTL-SDR dongle](/buy/esphome_diy#rtl-sdr-radio-sniffer-for-433-and-868-mhz) and resend it. This didn't work and around the same time I found out it uses a two-way communication system called "Honeywell Ramses II".
-At that time, there was no open implementation of it. Now there are. This approach stopped here for me.
+The Orcon remote uses a CC1101 RF module which does the RF wireless communication over 868,3 MHz. 
+I tried to catch the remote signals with an [RTL-SDR dongle](/buy/esphome_diy#rtl-sdr-radio-sniffer-for-433-and-868-mhz) and resend it. 
+This didn't work and around the same time I found out it uses a two-way communication system called "Honeywell Ramses II".
+At that time, there was no open implementation of it. 
+Now there are. This approach stopped here for me.
 
 ### Directly control the motor
 Other projects use a 0 - 10V PWM dimmer to overrule the voltage direct on the motor.
 
+[OrconWifiController by Hubert-Jan Hickinson](https://github.com/hubertjanhickinson/OrconWifiController)
 
 ---
 ## References
@@ -1040,6 +1044,8 @@ More information about this subject.
 
 [Orcon remote 15RF manual Dutch](https://orcon.nl/download/3933/?tmstv=1681999960)
 
+[Same project by Elvin Luff](https://elvinhome.io/blog/articles-3/hacking-my-rental-apartment-s-ventilation-to-be-smart-orcon-15rf-remote-23) 
+He soldered direct the ESP to the remote to make it more compact. 
 
 ---
 ## Credits
