@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Best Buy Tips Zigbee devices overview on Amazon"
 date: 2026-05-03
 tags: [Zigbee, automation, sensor]
-image: /buy/images_zigbee/zigbee_banner.png
+image: /images/amazon.png
 permalink: /best-buy-tips-zigbee-devices-overview-on-amazon
 ---
 

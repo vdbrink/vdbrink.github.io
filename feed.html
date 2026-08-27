@@ -11,16 +11,13 @@ title: "All my posts"
 See <a href="/feed_sitemap.html">here</a> all posts ordered by tags.
 </p>
 
-<div id="posts-list" class="post-cards">
+<div id="posts-list" class="project-links full-width">
     {% assign sorted_posts = site.posts | sort: "date" | reverse %}
     {% for post in sorted_posts %}
-    <a class="post-card" href="{{ post.url | relative_url }}">
+    <a class="project-card" href="{{ post.url | relative_url }}">
         <img src="{{ post.image | default: '/images/logo.png' | relative_url }}" alt="{{ post.title | remove_first: 'Feed: ' | escape }}">
-        <span>
-            {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
-            <i class="post-card-date">{{ post.date | date: date_format }}</i>
-            <span class="post-card-title">{{ post.title | remove_first: "Feed: " | escape }}</span>
-        </span>
+        {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
+        <span>{{ post.title | remove_first: "Feed: " | escape }}<br><em>{{ post.date | date: date_format }}</em></span>
     </a>
     {% endfor %}
 </div>
