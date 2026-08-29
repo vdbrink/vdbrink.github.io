@@ -26,12 +26,12 @@ My latest 5 posts:
     </a>
     {% endfor %}
 </div>
-See <a href="/feed.html">here</a> all posts.
+See <a href="/feed.html">here</a> all previous posts.
 
 ---
 
 ## Highlights
-My most visited and/or interrested pages:
+My most visited and interrested pages on this site:
 <div class="project-links">
     <a class="project-card" href="homeassistant/homeassistant_dashboard_weather_nl">
         <img src="homeassistant/images_weather/rain_radar_animated.png" alt="Home Assistant dashboard: Weather in The Netherlands">
@@ -91,7 +91,7 @@ My most visited and/or interrested pages:
 
 ## Topics
 
-Topics on this site are:
+Topics on this site per category:
 
 |                                                                                                                                          | Subjects                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Topics on this site are:
 <br>
 <div width="100%" style="text-align: center;">
     <a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank">
-        Computer quotes T-shirts, Hoodies, Mugs, Stickers, etc..
+        🛒 Check out this Shop: Nerdy famous quotes on T-shirts, Hoodies, Mugs, Stickers &amp; more!
         <br>
         <img src="/shop/images/banner3.png" alt="Computer says no" height="150px" />
     </a>
