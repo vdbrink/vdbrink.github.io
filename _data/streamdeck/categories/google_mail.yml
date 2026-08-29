@@ -1,7 +1,7 @@
 title: Google Mail
 key: google_mail
 priority: 70
-description: The Stream Deck can be used for Google Mail to fast filter on specific labels.
+description: The Stream Deck can be used with Google Mail to quickly filter on specific labels.
 dependencies:
   - plugin: none
     actions:
@@ -33,5 +33,5 @@ dependencies:
           - key: Text
             value: "in:spam"
     wishes:
-      - name: Show the number new inbox mails
+      - name: Show the number of new inbox mails
       - name: Show the number of mails for a specific label

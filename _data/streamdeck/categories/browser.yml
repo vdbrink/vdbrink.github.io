@@ -1,8 +1,8 @@
 title: Browser
 key: browser
 priority: 10
-description: Open favorite links in a browser can easily be managed with bookmarks, you don't need a Stream Deck for it.
-  The power comes here when you want to combine it with selected text or use clipboard data in your search query.
+description: Opening favorite links in a browser can easily be managed with bookmarks, you don't need a Stream Deck for it.
+  The extra power comes when you want to combine it with selected text or use clipboard data in your search query.
 dependencies:
   - plugin: none
     actions:
@@ -17,6 +17,6 @@ dependencies:
         requirements:
           - application: Apple Shortcut
             name: Translate NL->EN
-            description: This Shortcut paste the selected text in the Google translate page.
+            description: This Shortcut pastes the selected text into the Google Translate page.
             file: projects/shortcut_files/Translate NL-EN.shortcut
-      - name: Go direct to a specific customer page
+      - name: Go directly to a specific customer page

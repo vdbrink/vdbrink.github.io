@@ -1,9 +1,9 @@
 title: Calendar
 key: calendar
 priority: 75
-description: Stream Deck button can be used as small display. This can show you quick the minutes before or still left in a meeting.
-  The extra power with this plugin is that on button press it directs opens the meeting link!
-  Like <a href="#google-meet">Google Meet</a>, see for their specific controls.
+description: A Stream Deck button can be used as a small display, it quickly showing the minutes until your next meeting or the minutes left in the current one.
+  The extra power of this plugin is that pressing the button directly opens the meeting link!
+  See <a href="#google-meet">Google Meet</a> for its specific controls.
 dependencies:
   - plugin: next-meeting-countdown
     actions:
@@ -23,7 +23,7 @@ dependencies:
             description: Allow Stream Deck access to your calendars in System Settings > Privacy & Security > Calendars
             image: next_meeting_grant_calendar
           - name: Both buttons together
-            description: "\"Now\" and \"Next\" side by side in the Stream Deck app matching the MacOS calendar events."
+            description: "\"Now\" and \"Next\" side by side in the Stream Deck app matching the macOS calendar events."
             image: next_meetings_calendar_buttons
           - name: Button settings
             image: next_meeting_color_settings
@@ -34,4 +34,4 @@ dependencies:
             image: next_meeting_on_sd.jpg
             width: 500
     wishes:
-      - name: Time since last meeting. So you can see how many time past since the end of the meeting.
+      - name: Time since last meeting, so you can see how much time has passed since it ended

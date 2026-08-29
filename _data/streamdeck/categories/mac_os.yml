@@ -1,4 +1,4 @@
-title: MacOS
+title: macOS
 key: mac_os
 priority: 110
 description: The button actions here trigger basic macOS features.
@@ -25,4 +25,4 @@ dependencies:
             value: ⇧ ⌘ 4
     wishes:
       - name: RSS reader
-footnote: Check here for all <a href="https://support.apple.com/en-us/102650">Mac keyboard shortcuts</a>
+footnote: Check here for all <a href="https://support.apple.com/en-us/102650">Mac keyboard shortcuts</a> to create other button actions.

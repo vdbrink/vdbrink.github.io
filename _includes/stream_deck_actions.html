@@ -161,15 +161,6 @@
     {% endfor %}
 </ul>
 
-{% if dependency.wishes %}
-<br>
-<p>Features I'm still looking for:</p>
-<ul class="sd-wish-list">
-    {% for wish in dependency.wishes %}
-    <li>{{ wish.name }}</li>
-    {% endfor %}
-</ul>
-{% endif %}
 {% if forloop.last == false %}<hr>{% endif %}
     {% endfor %}
 </div>
@@ -186,7 +177,7 @@
 <hr>
 <div class="clearfix">
 <img src="/projects/images_stream_deck/category/wishlist_logo.png" alt="Wishlist logo" height="70px" style="margin-left:15px;float:right"/>
-<h3 id="wishlist">Wishlist</h3>
+<h3 id="wishlist">My wishlist</h3>
 <p>I always look for more useful additions, especially these listed ones.</p>
 <ul class="sd-wish-list">
 {% for category in sorted_categories %}

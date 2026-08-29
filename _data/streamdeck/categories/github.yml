@@ -1,7 +1,7 @@
 title: GitHub
 key: github
 priority: 50
-description: Stream Deck + GitHub opens direct your open source software repositories.
+description: Stream Deck + GitHub opens your open-source repositories directly.
 dependencies:
   - plugin: none
     actions:
@@ -32,4 +32,4 @@ dependencies:
             value: Issues
           - key: path
             value: "https://github.com/issues/assigned"
-footnote: Which pages do you use often yourself as well on GitHub?
+footnote: Which pages on GitHub do you often use yourself?

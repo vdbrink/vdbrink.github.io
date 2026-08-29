@@ -1,8 +1,8 @@
 title: Chat
 key: chat
 priority: 30
-description: You can create a Stream Deck Profile linked to the chat apps which contains your often used text and icons 
-  in your chat apps like WhatsApp, Instagram, Slack, etc.
+description: You can create a Stream Deck profile linked to your chat apps, containing your frequently used text and icons
+  for apps like WhatsApp, Instagram, Slack, etc.
 dependencies:
   - plugin: none
     actions:
@@ -34,7 +34,7 @@ dependencies:
           - key: Text
             value: 😂
     wishes:
-      - name: Button press to open an emoji keyboard where you can direct type to search for the icon you're looking for.
+      - name: Button press to open an emoji keyboard where you can directly type to search for the icon you're looking for
   - plugin: emoji-keys
     actions:
       - name: Select any emoji from a big list and use that for a button.

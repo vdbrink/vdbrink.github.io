@@ -1,7 +1,7 @@
 title: GitLab
 key: gitlab
 priority: 60
-description: Use the Stream Deck to go fast to all your different project sections for your GitHub projects.
+description: Use the Stream Deck to quickly navigate to different sections of your GitLab projects.
 dependencies:
   - plugin: gitlab-dashboard
     actions:
@@ -9,7 +9,7 @@ dependencies:
       - name: My merge request count
       - name: Open TODO count
     wishes:
-      - name: Count based on specific branch names.
+      - name: Count based on specific branch names
   - plugin: none
     actions:
       - name: Open project X

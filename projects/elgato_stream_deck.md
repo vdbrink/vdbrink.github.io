@@ -17,7 +17,7 @@ For all my years as a developer, a nice keyboard was good enough for my daily wo
 I've always enjoyed creating scripts to automate tasks on my PC, phone, and at home, so this device is a small step for
 me. I don't know why it took me so long to find it!
 
-Read on this page to see how I use it and whether it is something you did not know you wanted too.
+Read on this page to see how I use it and whether it is something you did not know you wanted.
 
 <a href="/projects/images_stream_deck/my_sd_xl.png">
 <img src="/projects/images_stream_deck/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
@@ -43,7 +43,7 @@ Read on this page to see how I use it and whether it is something you did not kn
     * [Google Meet](#google-meet)
     * [Home Assistant](#home-assistant)
     * [IntelliJ Idea](#intellij)
-    * [MacOS](#mac-os)
+    * [macOS](#mac-os)
     * [Spotify](#spotify)
     * [Wishlist](#wishlist)
 * [Stream Deck models comparison](#stream-deck-models-comparison)
@@ -60,7 +60,7 @@ Recently, I looked at the keypads available on the market for triggering frequen
 They connect via Bluetooth or USB and have between 3 and 32 buttons.
 Some devices have an additional touch display or dial knobs.
 I also found the wide range of Elgato Stream Deck devices. They are mainly used by streamers to quickly switch scenes and trigger actions during live streams, but they also work well for other computer users, like me.
-The big advantage of these devices is that each button has its own display, which can be completely customised.
+The big advantage of these devices is that each button has its own display, which can be completely customized.
 You do not have to remember what each button does.
 You can also browse different action pages, multiplying the actions you can trigger with the same number of buttons.
 I found many integrations and SDK features for building your own actions.
@@ -108,15 +108,16 @@ panel depending on what you're working in.
 
 ## Button actions
 
-In this chapter I describe different examples of how you can use the Stream Deck to automate task in your daily work as
-software developer.
+In this chapter I describe different examples of how you can use the Stream Deck to automate tasks in your daily work as
+a software developer.
 
 This section will constantly be updated with new plugins and integrations. \
-I already place some placeholders of features I have already running and will describe them here to upcoming months. Bookmark this page and come back after a while for extra possibilities.
+I've already added placeholders for features I already have running and will describe them here over the upcoming months. Bookmark this page and come back after a while for extra possibilities.
 
-If you can't wait to know more about a specific integration let me know then I can see if I can give creating that description more prio.
+If you can't wait to know more about a specific integration, let me know and I'll try to prioritize writing that description.
 
-If you know cool and usefully actions, I'm always looking for new once, please let me know via an GitHub issue or comment on my socials.
+If you know cool and useful actions, I'm always looking for new ones. 
+Please let me know via a GitHub issue or a comment on my socials.
 
 > **_NOTE:_** All actions on this page are specific for macOS.
 > The same solutions are probably also possible on Windows, but with different plugins.
@@ -124,8 +125,8 @@ If you know cool and usefully actions, I'm always looking for new once, please l
 ---
 ### Installation
 
-you can use the download button by clicking on the link or key definition.
-This file contains the action and icon. You can use the ["Import Action..."](#import-action) feature to load it direct on your own Stream Deck.
+You can use the download button by clicking on the link or key definition.
+This file contains the action and icon. You can use the ["Import Action..."](#import-action) feature to load it directly on your own Stream Deck.
 
 If you like to use your own icon and set it up yourself I added as well the used field values.
 
@@ -136,11 +137,11 @@ If you like to use your own icon and set it up yourself I added as well the used
 ## Export and Import data
 
 There are multiple ways and levels to import and export settings and share the actions and profiles between different Stream Decks.
-You can download here my examples and direct load it into yours!
+You can download my examples here and load them directly into yours!
 
 ### Drag and Drop
 
-If you have the macOS Application folder open in Finder, next to the Elgato Stream Deck app you can drag apps direct on a button position.
+If you have the macOS Application folder open in Finder, next to the Elgato Stream Deck app you can drag apps directly onto a button position.
 This also works for (bash) scripts.
 
 ### Export all data

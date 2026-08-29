@@ -1,7 +1,7 @@
 title: Claude ai agent
 key: claude_ai_agent
 priority: 0
-description: With the Stream Deck + Claude you can start Claude, past predefined prompts and run diferent skills, with one single click.
+description: With the Stream Deck + Claude you can start Claude, paste predefined prompts, and run different skills, all with a single click.
   With the Jetstream plugin you can see for which project you run an active session and which one need attention.
 dependencies:
   - plugin: none
