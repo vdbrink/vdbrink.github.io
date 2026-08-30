@@ -28,25 +28,17 @@ Read on this page to see how I use it and whether it is something you did not kn
 ## Table of Contents
 
 <!-- TOC -->
-
-* [My introduction with a Stream Deck](#my-introduction-with-a-stream-deck)
-* [What is a Stream Deck?](#what-is-a-stream-deck)
-* [Button actions](#button-actions)
-    * [Browser](#browser)
-    * [Calendar](#calendar)
-    * [Chat](#chat)
-    * [Claude ai agent](#claude-ai-agent)
-    * [Days countdown](#days-countdown)
-    * [GitHub](#github)
-    * [GitLab](#gitlab)
-    * [Google Mail](#google-mail)
-    * [Google Meet](#google-meet)
-    * [Home Assistant](#home-assistant)
-    * [IntelliJ Idea](#intellij)
-    * [macOS](#mac-os)
-    * [Spotify](#spotify)
-    * [Wishlist](#wishlist)
-* [Stream Deck models comparison](#stream-deck-models-comparison)
+  * [My introduction with a Stream Deck](#my-introduction-with-a-stream-deck)
+  * [What is a Stream Deck?](#what-is-a-stream-deck)
+  * [Button actions](#button-actions)
+    * [Installation](#installation)
+  * [Export and Import data](#export-and-import-data)
+    * [Drag and Drop](#drag-and-drop)
+    * [Export all data](#export-all-data)
+    * [Export Profile](#export-profile)
+    * [Export Action](#export-action)
+    * [Import Action](#import-action)
+  * [Stream Deck models comparison](#stream-deck-models-comparison)
     * [My advice for a software developer](#my-advice-for-a-software-developer)
     * [My personal ideal model](#my-personal-ideal-model)
 
@@ -103,6 +95,52 @@ shortcut at all but a small chore: open this dashboard, run that script, join th
 Because each button shows what it does, you don't have to remember anything, you just look and press. And with pages and
 profiles you can give every application its own set of buttons, so the same hardware turns into a different control
 panel depending on what you're working in.
+
+<div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
+
+<div>
+<a href="#stream-deck-models-comparison">
+<img src="/projects/images_stream_deck/stream_deck_mini.jpg" alt="Stream Deck Mini" style="max-height:80px; width:auto;">
+</a>
+<em style="display:block; text-align:center">Mini</em>
+</div>
+
+<div>
+<a href="#stream-deck-models-comparison">
+<img src="/projects/images_stream_deck/stream_deck_neo.jpg" alt="Stream Deck Neo" style="max-height:80px; width:auto;">
+</a>
+<em style="display:block; text-align:center">Neo</em>
+</div>
+
+<div>
+<a href="#stream-deck-models-comparison">
+<img src="/projects/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:80px; width:auto;">
+</a>
+<em style="display:block; text-align:center">MK.2</em>
+</div>
+
+<div>
+<a href="#stream-deck-models-comparison">
+<img src="/projects/images_stream_deck/stream_deck_plus.jpg" alt="Stream Deck +" style="max-height:80px; width:auto;">
+</a>
+<em style="display:block; text-align:center">+</em>
+</div>
+
+<div>
+<a href="#stream-deck-models-comparison">
+<img src="/projects/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:80px; width:auto;">
+</a>
+<em style="display:block; text-align:center">XL</em>
+</div>
+
+<div>
+<a href="#stream-deck-models-comparison">
+<img src="/projects/images_stream_deck/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" style="max-height:80px; width:auto;">
+</a>
+<em style="display:block; text-align:center">+ XL</em>
+</div>
+
+</div>
 
 ---
 
