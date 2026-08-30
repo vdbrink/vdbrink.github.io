@@ -33,7 +33,7 @@ dependencies:
             value: /my-skill
           - key: Text
             value: /my-skill
-      - name: Auto mode - or any other default build-in command
+      - name: Auto mode
         icon: 1
         download: claude_code_auto_mode-vdbrink.streamdeckaction
         type: (System) Text
@@ -42,7 +42,15 @@ dependencies:
             value: /auto
           - key: Text
             value: /auto
-    footnote: Check here for all <a href="https://code.claude.com/docs/en/commands">Claude code commands</a>.
+      - name: New session
+        icon: claude_code_prompt-vdbrink
+        type: (System) Text
+        fields:
+          - key: Title
+            value: /clear
+          - key: Text
+            value: /clear
+    footnote: The above actions are examples how to configure them. Check here for all possible <a href="https://code.claude.com/docs/en/commands">Claude code commands</a>.
 
   - plugin: jetstream
     actions:
