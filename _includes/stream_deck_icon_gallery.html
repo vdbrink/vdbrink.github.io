@@ -12,9 +12,9 @@
 {% for action in dependency.actions %}
 {% if action.icon and action.icon != 2 %}
     {% if action.icon == 1 and action.download %}
-    {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+    {% assign icon_src = action.download | split: '.' | first | prepend: '/elgato_stream_deck/actions_stream_deck/' | append: '.png' %}
     {% elsif action.icon != 1 %}
-    {% assign icon_src = action.icon | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+    {% assign icon_src = action.icon | prepend: '/elgato_stream_deck/actions_stream_deck/' | append: '.png' %}
     {% endif %}
     {% if icon_src and seen_icons contains icon_src %}
     {% assign icon_src = nil %}

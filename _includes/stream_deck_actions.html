@@ -10,7 +10,7 @@
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <a class="sd-key" href="#{{ anchor }}">
-    <span class="sd-key-face"><img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}"></span>
+    <span class="sd-key-face"><img src="/elgato_stream_deck/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }}"></span>
     <span class="sd-key-label">{{ category.title }}</span>
 </a>
 {% endfor %}
@@ -20,7 +20,7 @@
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <div class="clearfix">
-<img src="/projects/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }} logo" height="70px" style="margin-left:15px;float:right"/>
+<img src="/elgato_stream_deck/images_stream_deck/category/{{ category.key }}_logo.png" alt="{{ category.title }} logo" height="70px" style="margin-left:15px;float:right"/>
 <h3 id="{{ anchor }}">{{ category.title }}</h3>
 <p>{{ category.description }}</p>
 {% for dependency in category.dependencies %}
@@ -58,7 +58,7 @@
     {% for action in dependency.actions %}
     <li><b>
         {% if action.download %}
-        <a href="/projects/actions_stream_deck/{{ action.download }}">
+        <a href="/elgato_stream_deck/actions_stream_deck/{{ action.download }}">
           {{ action.name }}
         </a>
         {% else %}
@@ -68,7 +68,7 @@
         {% if action.fields or action.icon %}
         <br>
         {% if action.download %}
-        <a href="/projects/actions_stream_deck/{{ action.download }}">
+        <a href="/elgato_stream_deck/actions_stream_deck/{{ action.download }}">
         {% endif %}
         <div class="sd-action-detail">
             {% if action.download %}
@@ -82,10 +82,10 @@
             <div class="sd-action-detail-row">
             {% if action.icon == 1 %}
             {% if action.download %}
-            {% assign icon_src = action.download | split: '.' | first | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+            {% assign icon_src = action.download | split: '.' | first | prepend: '/elgato_stream_deck/actions_stream_deck/' | append: '.png' %}
             {% else %}
             {% assign icon_slug = action.name | downcase | replace: ' ', '_' %}
-            {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: '/projects/images_stream_deck/icons/' | append: '.png' %}
+            {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: '/elgato_stream_deck/images_stream_deck/icons/' | append: '.png' %}
             {% endif %}
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
@@ -101,7 +101,7 @@
             {% endfor %}
             <div class="sd-action-icon-text{% if icon_text.size == 1 %} sd-action-icon-text--single{% endif %}">{{ icon_text }}</div>
             {% elsif action.icon %}
-            {% assign icon_src = action.icon | prepend: '/projects/actions_stream_deck/' | append: '.png' %}
+            {% assign icon_src = action.icon | prepend: '/elgato_stream_deck/actions_stream_deck/' | append: '.png' %}
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
             {% else %}
@@ -147,8 +147,8 @@
                 {% assign req_image_path = req.image | append: '.png' %}
                 {% endif %}
                 <br>
-                <a href="/projects/images_stream_deck/{{ req_image_path }}">
-                <img class="sd-action-requirement-image" src="/projects/images_stream_deck/{{ req_image_path }}" alt="{{ req.name }}"{% if req.width %} style="width: {{ req.width }}px; max-width: none;"{% endif %}/>
+                <a href="/elgato_stream_deck/images_stream_deck/{{ req_image_path }}">
+                <img class="sd-action-requirement-image" src="/elgato_stream_deck/images_stream_deck/{{ req_image_path }}" alt="{{ req.name }}"{% if req.width %} style="width: {{ req.width }}px; max-width: none;"{% endif %}/>
                 </a>
                 {% endif %}
                 </li>
@@ -181,7 +181,7 @@
 
 <hr>
 <div class="clearfix">
-<img src="/projects/images_stream_deck/category/wishlist_logo.png" alt="Wishlist logo" height="70px" style="margin-left:15px;float:right"/>
+<img src="/elgato_stream_deck/images_stream_deck/category/wishlist_logo.png" alt="Wishlist logo" height="70px" style="margin-left:15px;float:right"/>
 <h3 id="wishlist">My wishlist</h3>
 <p>I always look for more useful additions, especially these listed ones.</p>
 <ul class="sd-wish-list">

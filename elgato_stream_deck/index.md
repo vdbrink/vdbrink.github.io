@@ -19,8 +19,8 @@ me. I don't know why it took me so long to find it!
 
 Read on this page to see how I use it and whether it is something you did not know you wanted.
 
-<a href="/projects/images_stream_deck/my_sd_xl.png">
-<img src="/projects/images_stream_deck/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
+<a href="/elgato_stream_deck/images_stream_deck/my_sd_xl.png">
+<img src="/elgato_stream_deck/images_stream_deck/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
 </a>
 
 ---
@@ -63,14 +63,14 @@ but the [32-button version](#stream-deck-comparison) gave me more direct control
 
 <div style="display:flex; justify-content:center; gap:10%; flex-wrap:wrap;">
 <div>
-<a href="/projects/images_stream_deck/stream_deck_mk2.jpg">
-<img src="/projects/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:200px; width:auto;">
+<a href="/elgato_stream_deck/images_stream_deck/stream_deck_mk2.jpg">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:200px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Stream Deck MK.2, 15 buttons</em>
 </div>
 <div>
-<a href="/projects/images_stream_deck/stream_deck_xl.jpg">
-<img src="/projects/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:200px; width:auto;">
+<a href="/elgato_stream_deck/images_stream_deck/stream_deck_xl.jpg">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:200px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Stream Deck XL, 32 buttons</em>
 </div>
@@ -100,42 +100,42 @@ panel depending on what you're working in.
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/projects/images_stream_deck/stream_deck_mini.jpg" alt="Stream Deck Mini" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_mini.jpg" alt="Stream Deck Mini" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Mini</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/projects/images_stream_deck/stream_deck_neo.jpg" alt="Stream Deck Neo" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_neo.jpg" alt="Stream Deck Neo" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Neo</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/projects/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">MK.2</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/projects/images_stream_deck/stream_deck_plus.jpg" alt="Stream Deck +" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_plus.jpg" alt="Stream Deck +" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">+</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/projects/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">XL</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/projects/images_stream_deck/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images_stream_deck/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">+ XL</em>
 </div>
