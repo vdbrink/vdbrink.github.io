@@ -161,6 +161,11 @@
     {% endfor %}
 </ul>
 
+{% if dependency.footnote %}
+<br>
+{{ dependency.footnote }}
+{% endif %}
+
 {% if forloop.last == false %}<hr>{% endif %}
     {% endfor %}
 </div>

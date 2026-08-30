@@ -22,7 +22,7 @@ dependencies:
         fields:
           - key: Title
             value: Any prompt
-          - key: pasted Text
+          - key: Text
             value: Any prompt
       - name: Run a skill
         icon: 1
@@ -31,8 +31,18 @@ dependencies:
         fields:
           - key: Title
             value: /my-skill
-          - key: pasted Text
+          - key: Text
             value: /my-skill
+      - name: Auto mode - or any other default build-in command
+        icon: 1
+        download: claude_code_auto_mode-vdbrink.streamdeckaction
+        type: (System) Text
+        fields:
+          - key: Title
+            value: /auto
+          - key: Text
+            value: /auto
+    footnote: Check here for all <a href="https://code.claude.com/docs/en/commands">Claude code commands</a>.
 
   - plugin: jetstream
     actions:
