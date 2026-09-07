@@ -262,7 +262,7 @@ Those extra dummy batteries are only needed to make contact between the ends of 
         <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200" class="buy-link"/>
     </a>
 
-* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [WiFi / Zigbee socket](https://s.click.aliexpress.com/e/_c3h3FWZ3) for your country to automate the devices.
+* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [WiFi / Zigbee socket](https://s.click.aliexpress.com/e/_c3zNtQs5) for your country to automate the devices.
 
     <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
         <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
@@ -395,7 +395,7 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 1 (AliExpress)</a>
 * {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 2 (AliExpress)</a>
 
-  <a href="https://s.click.aliexpress.com/e/_c3yOiSxD" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">
     <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
   </a>
 
@@ -405,12 +405,12 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 
 My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
-<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">
   <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
   <img src="images_christmas_decorations/tree_power_top.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">Christmas light string plug 31V/3.6W (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">Christmas light string plug 31V/3.6W (AliExpress)</a>
 
 <a href="images_christmas_decorations/christmas_tree.jpg">
   <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />

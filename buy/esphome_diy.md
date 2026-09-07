@@ -274,7 +274,7 @@ USB-A to USB-C cable to power the ESP32.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">link 1 (AliExpress)</a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3uacEZt" target="_blank">link 2 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank">link 2 (AliExpress)</a>
 
 5V USB EU power adapter to power multiple usb devices, with fast charging and 3.1A.
 
@@ -287,10 +287,10 @@ USB-A to USB-C cable to power the ESP32.
 
 A 2 pins adapter without a button to select a mode, just on, for Christmas lights, 31V and 3.6W.
 
-<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">
 <img src="../projects/images_christmas_decorations/christmas_light_adapter.webp" alt="christmas light adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3g7JOzv" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">link (AliExpress)</a>
 
 ---
 
@@ -426,10 +426,10 @@ This helping hand can be used to hold the ESP board and sensor while soldering.
 
 This receiver can be used to receive or sniff signals send by device which uses the 433 or 868 MHz bandwidth.
 
-<a href="https://s.click.aliexpress.com/e/_c3oWSraJ" target="_blank">
-<img src="images_diy/sdr-rtl2832u.webp" alt="breadboard" width="200px"/></a>
+<a href="https://s.click.aliexpress.com/e/_c3JK73A9" target="_blank">
+<img src="images_diy/sdr-rtl2832u.webp" alt="SDR RTL radio sniffer 433 and 868 HMz" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3oWSraJ" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3JK73A9" target="_blank">link (AliExpress)</a>
 
 ---
 

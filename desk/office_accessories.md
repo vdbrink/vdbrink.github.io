@@ -282,9 +282,9 @@ Alternatives:
 [(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP) 
 [(Amazon US)](https://amzn.to/44lvrv9#ad)
 * Version with wireless charger 
-[(AliExpress)](https://s.click.aliexpress.com/e/_c3swbZQt) 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4MB2Tlj) 
 [(Amazon US)](https://amzn.to/43JGezd#ad) \
-  <a href="https://s.click.aliexpress.com/e/_c3swbZQt">
+  <a href="https://s.click.aliexpress.com/e/_c4MB2Tlj">
   <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" width="150px" />
   </a>
 

@@ -220,7 +220,7 @@ For integration ideas look at the [Home Automation Ideas](../ideas/home_automati
 
 ### Motion sensor
 
-<a href="https://s.click.aliexpress.com/e/_c3bRl3AB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3fNxtbf" target="_blank">
 <img src="images_zigbee/human_presence_sensor.avif" alt="pir + mmWave human motion and presence sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 A human presence sensor.<br>
@@ -231,7 +231,7 @@ This helps avoid detecting animals.
 It can also detect people who are sitting still or lying in bed.
 
 {{imgBasket}}Zigbee Human motion + presence + lux sensor - Hoazee
-<a href="https://s.click.aliexpress.com/e/_c3bRl3AB" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3fNxtbf" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42aE8HW#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/46H1JBL#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
@@ -1018,7 +1018,7 @@ Useful for moving your Zigbee stick away from your server for better range and l
 
 {{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a>
 
-{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3uacEZt" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank">(AliExpress)</a>
 
 5V EU USB power adapter to power multiple USB devices, with fast charging and 3.1A.
 

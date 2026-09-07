@@ -228,7 +228,7 @@ This CR1632 battery is a bit smaller than the CR2032.
 
 #### Disposable
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3aGiwhf" target="_blank">CR1632 - Panasonic (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3CYb57R" target="_blank">CR1632 - Panasonic (AliExpress)</a>
 <a href="https://amzn.to/3ECCUg3#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/490qqKe#ad" target="_blank">(Amazon NL)</a>
 
