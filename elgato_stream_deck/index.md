@@ -2,7 +2,7 @@
 title: "Elgato Stream Deck for a software developer"
 description: "How to use an Elgato Stream Deck as a software developer"
 category: Projects
-tags: [ Elgato, Stream Deck, software, developer, shortcuts, actions, scripts, keypad ]
+tags: [ Elgato, Stream Deck, software, developer, actions, scripts, keypad]
 #image:
 ---
 
@@ -19,8 +19,8 @@ me. I don't know why it took me so long to find it!
 
 Read on this page to see how I use it and whether it is something you did not know you wanted.
 
-<a href="/elgato_stream_deck/images_stream_deck/my_sd_xl.png">
-<img src="/elgato_stream_deck/images_stream_deck/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
+<a href="/elgato_stream_deck/images/my_sd_xl.png">
+<img src="/elgato_stream_deck/images/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
 </a>
 
 ---
@@ -31,17 +31,10 @@ Read on this page to see how I use it and whether it is something you did not kn
   * [My introduction with a Stream Deck](#my-introduction-with-a-stream-deck)
   * [What is a Stream Deck?](#what-is-a-stream-deck)
   * [Button actions](#button-actions)
-    * [Installation](#installation)
-  * [Export and Import data](#export-and-import-data)
-    * [Drag and Drop](#drag-and-drop)
-    * [Export all data](#export-all-data)
-    * [Export Profile](#export-profile)
-    * [Export Action](#export-action)
-    * [Import Action](#import-action)
+  * [Import and Export data](#import-and-export-data)
   * [Stream Deck models comparison](#stream-deck-models-comparison)
-    * [My advice for a software developer](#my-advice-for-a-software-developer)
+    * [My adviced model for a software developer](#my-adviced-model-for-a-software-developer)
     * [My personal ideal model](#my-personal-ideal-model)
-
 <!-- TOC -->
 
 ---
@@ -63,14 +56,14 @@ but the [32-button version](#stream-deck-comparison) gave me more direct control
 
 <div style="display:flex; justify-content:center; gap:10%; flex-wrap:wrap;">
 <div>
-<a href="/elgato_stream_deck/images_stream_deck/stream_deck_mk2.jpg">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:200px; width:auto;">
+<a href="/elgato_stream_deck/images/products/stream_deck_mk2.jpg">
+<img src="/elgato_stream_deck/images/products/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:200px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Stream Deck MK.2, 15 buttons</em>
 </div>
 <div>
-<a href="/elgato_stream_deck/images_stream_deck/stream_deck_xl.jpg">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:200px; width:auto;">
+<a href="/elgato_stream_deck/images/products/stream_deck_xl.jpg">
+<img src="/elgato_stream_deck/images/products/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:200px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Stream Deck XL, 32 buttons</em>
 </div>
@@ -100,42 +93,42 @@ panel depending on what you're working in.
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_mini.jpg" alt="Stream Deck Mini" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_mini.jpg" alt="Stream Deck Mini" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Mini</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_neo.jpg" alt="Stream Deck Neo" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_neo.jpg" alt="Stream Deck Neo" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Neo</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_mk2.jpg" alt="Stream Deck MK.2" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">MK.2</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_plus.jpg" alt="Stream Deck +" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_plus.jpg" alt="Stream Deck +" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">+</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_xl.jpg" alt="Stream Deck XL" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">XL</em>
 </div>
 
 <div>
 <a href="#stream-deck-models-comparison">
-<img src="/elgato_stream_deck/images_stream_deck/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">+ XL</em>
 </div>
@@ -146,56 +139,18 @@ panel depending on what you're working in.
 
 ## Button actions
 
-In this chapter I describe different examples of how you can use the Stream Deck to automate tasks in your daily work as
-a software developer.
-
-This section will constantly be updated with new plugins and integrations. \
-I've already added placeholders for features I already have running and will describe them here over the upcoming months. Bookmark this page and come back after a while for extra possibilities.
-
-If you can't wait to know more about a specific integration, let me know and I'll try to prioritize writing that description.
-
-If you know cool and useful actions, I'm always looking for new ones. 
-Please let me know via a GitHub issue or a comment on my socials.
-
-> **_NOTE:_** All actions on this page are specific for macOS.
-> The same solutions are probably also possible on Windows, but with different plugins.
-
----
-### Installation
-
-You can use the download button by clicking on the link or key definition.
-This file contains the action and icon. You can use the ["Import Action..."](#import-action) feature to load it directly on your own Stream Deck.
-
-If you like to use your own icon and set it up yourself I added as well the used field values.
-
-An example of how a page could look like, click on it to go the the example page for action which you can use for different applications.
+An example of how a Stream Deck button page could look like.
 
 <a href="stream_deck_button_actions">
-<img src="images_stream_deck/actions_sd_app.png" alt="Stream Deck config application" style="width:100%">
+Click here to go the  page with many developers related button action examples.
+<img src="images/actions_sd_app.png" alt="Stream Deck config application" style="width:100%">
 </a>
 
 ---
 
-## Export and Import data
+## Import and Export data
 
-There are multiple ways and levels to import and export settings and share the actions and profiles between different Stream Decks.
-You can download my examples here and load them directly into yours!
-
-### Drag and Drop
-
-If you have the macOS Application folder open in Finder, next to the Elgato Stream Deck app you can drag apps directly onto a button position.
-This also works for (bash) scripts.
-
-### Export all data
-
-`.streamDeckProfilesBackup` file
-
-### Export Profile
-
-### Export Action
-
-### Import Action
-
+See the separated [import and export page](stream_deck_import_export) for actions, profiles, icons etc to share, load and backup your actions.
 
 ---
 
@@ -208,17 +163,17 @@ This table provides an overview of the different models, scroll to the right to 
 
 <div id="stream-deck-comparison" class="wide-table" markdown="1">
 
-| Stream Deck          | Mini                                                                                                                                          | Neo                                                                                                                                        | MK.2                                                                                                                                        | MK.2 Scissor Keys                                                                                                                                                | +                                                                                                                                          | XL                                                                                                                                      | + XL                                                                                                                                                | Mobile                                                                                                                                                             | Modules                                                                                                                                             |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Image**            | <a href="images_stream_deck/stream_deck_mini.jpg"><img src="images_stream_deck/stream_deck_mini.jpg" alt="Stream Deck Mini" width="100%"></a> | <a href="images_stream_deck/stream_deck_neo.jpg"><img src="images_stream_deck/stream_deck_neo.jpg" alt="Stream Deck Neo" width="100%"></a> | <a href="images_stream_deck/stream_deck_mk2.jpg"><img src="images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2" width="100%"></a> | <a href="images_stream_deck/stream_deck_mk2_scissor.jpg"><img src="images_stream_deck/stream_deck_mk2.jpg" alt="Stream Deck MK.2 Scissor Keys" width="100%"></a> | <a href="images_stream_deck/stream_deck_plus.jpg"><img src="images_stream_deck/stream_deck_plus.jpg" alt="Stream Deck +" width="100%"></a> | <a href="images_stream_deck/stream_deck_xl.jpg"><img src="images_stream_deck/stream_deck_xl.jpg" alt="Stream Deck XL" width="100%"></a> | <a href="images_stream_deck/stream_deck_plus_xl.jpg"><img src="images_stream_deck/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" width="100%"></a> | <a href="images_stream_deck/stream_deck_mobile.jpg"><img src="images_stream_deck/stream_deck_mobile.jpg" alt="Stream Deck Mobile" width="100%"></a>                | <a href="images_stream_deck/stream_deck_module.jpg"><img src="images_stream_deck/stream_deck_module.jpg" alt="Stream Deck Module" width="100%"></a> |
-| **Buttons**          | 6                                                                                                                                             | 8 + 2 touch points                                                                                                                         | 15                                                                                                                                          | 15                                                                                                                                                               | 8                                                                                                                                          | 32                                                                                                                                      | 36                                                                                                                                                  | 15 or 32 (virtual)                                                                                                                                                 | 6 or 15                                                                                                                                             |
-| **Extra display**    | No                                                                                                                                            | Yes, "info bar"                                                                                                                            | No                                                                                                                                          | No                                                                                                                                                               | Yes, LCD Infobar touch strip                                                                                                               | No                                                                                                                                      | Yes, LCD Infobar touch strip                                                                                                                        | n/a                                                                                                                                                                | No                                                                                                                                                  |
-| **Dials**            | 0                                                                                                                                             | 0                                                                                                                                          | 0                                                                                                                                           | 0                                                                                                                                                                | 4 (rotate + push)                                                                                                                          | 0                                                                                                                                       | 6 (rotate + push)                                                                                                                                   | 0                                                                                                                                                                  | 0                                                                                                                                                   |
-| **Size (D × W × H)** | 84 × 60 × 58 mm                                                                                                                               | 107 × 78 × 26 mm                                                                                                                           | 118 × 84 × 25 mm (without stand)                                                                                                            | 118 × 84 × 25 mm (without stand)                                                                                                                                 | 140 × 138 × 110 mm                                                                                                                         | 34 × 182 × 112 mm (without stand)                                                                                                       | 205 × 147 × 175 mm                                                                                                                                  | Your phone                                                                                                                                                         | Depends on the enclosure                                                                                                                            |
-| **Purpose**          | Cheapest entry model, for a handful of fixed actions                                                                                          | Budget mid-range with a built-in stand, page switching via the two touch points                                                            | The classic all-rounder with the original clicky keys                                                                                       | Same board as the MK.2 but with low-travel scissor keys: quieter and softer to press                                                                             | Best choice when you need analog control: volume, brightness, EQ, timeline scrubbing, light dimming                                        | Maximum direct controls without switching pages, my choice for development shortcuts                                                    | The 2026 flagship, "pro control surface" for broadcast studios and editing bays                                                                     | Subscription app for iOS/Android, handy to try out the software before buying hardware                                                                             | OEM/DIY boards to build the keypad into your own desk or panel                                                                                      |
-| **Product page**     | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-mini)                                                                                     | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-neo)                                                                                   | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-mk2-black)                                                                              | [Elgato]([https://www.elgato.com/ww/en/p/stream-deck-mk2-scissor-keys-black](https://www.elgato.com/ww/en/p/stream-deck-scissor-keys))                           | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-plus-black)                                                                            | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-xl)                                                                                 | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-plus-xl)                                                                                        | [Elgato](https://www.elgato.com/ww/en/s/stream-deck-mobile)                                                                                                        | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-module-15-keys)                                                                                 |
-| **Buy US**\*         | [Amazon US](https://amzn.to/4xlUk6F#ad)                                                                                                       | [Amazon US](https://amzn.to/4fOxVrA#ad)                                                                                                    | [Amazon US](https://amzn.to/4xAME0z#ad)                                                                                                     | [Amazon US](https://amzn.to/4h5Q3iM#ad)                                                                                                                          | [Amazon US](https://amzn.to/3RrBEmN#ad)                                                                                                    | [Amazon US](https://amzn.to/4ySoxvD#ad)                                                                                                 | [Amazon US](https://amzn.to/4fV0q70#ad)                                                                                                             | [Android](https://play.google.com/store/apps/details?id=com.corsair.android.streamdeck) / [iOS](https://apps.apple.com/app/elgato-stream-deck-mobile/id1440014184) |                                                                                                                                                     |
-| **Buy NL**\*         | [Amazon NL](https://amzn.to/4xzqr3k#ad)                                                                                                       | [Amazon NL](https://amzn.to/4zRWxsG#ad)                                                                                                    | [Amazon NL](https://amzn.to/4qUl1NF#ad)                                                                                                     | [Amazon NL](https://amzn.to/4y5fR3K#ad)                                                                                                                          | [Amazon NL](https://amzn.to/4gEnp6i#ad)                                                                                                    | [Amazon NL](https://amzn.to/4gJorhG#ad)                                                                                                 | [Amazon NL](https://amzn.to/3T5kzj4#ad)                                                                                                             | [Android](https://play.google.com/store/apps/details?id=com.corsair.android.streamdeck) / [iOS](https://apps.apple.com/app/elgato-stream-deck-mobile/id1440014184) |                                                                                                                                                     |
+| Stream Deck          | Mini                                                                                                                                    | Neo                                                                                                                                  | MK.2                                                                                                                                  | MK.2 Scissor Keys                                                                                                                                 | +                                                                                                                                    | XL                                                                                                                                | + XL                                                                                                                                          | Mobile                                                                                                                                                             | Modules                                                                                                                                       |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Image**            | <a href="images/products/stream_deck_mini.jpg"><img src="images/products/stream_deck_mini.jpg" alt="Stream Deck Mini" width="100%"></a> | <a href="images/products/stream_deck_neo.jpg"><img src="images/products/stream_deck_neo.jpg" alt="Stream Deck Neo" width="100%"></a> | <a href="images/products/stream_deck_mk2.jpg"><img src="images/products/stream_deck_mk2.jpg" alt="Stream Deck MK.2" width="100%"></a> | <a href="images/stream_deck_mk2_scissor.jpg"><img src="images/products/stream_deck_mk2.jpg" alt="Stream Deck MK.2 Scissor Keys" width="100%"></a> | <a href="images/products/stream_deck_plus.jpg"><img src="images/products/stream_deck_plus.jpg" alt="Stream Deck +" width="100%"></a> | <a href="images/products/stream_deck_xl.jpg"><img src="images/products/stream_deck_xl.jpg" alt="Stream Deck XL" width="100%"></a> | <a href="images/products/stream_deck_plus_xl.jpg"><img src="images/products/stream_deck_plus_xl.jpg" alt="Stream Deck + XL" width="100%"></a> | <a href="images/products/stream_deck_mobile.jpg"><img src="images/products/stream_deck_mobile.jpg" alt="Stream Deck Mobile" width="100%"></a>                      | <a href="images/products/stream_deck_module.jpg"><img src="images/products/stream_deck_module.jpg" alt="Stream Deck Module" width="100%"></a> |
+| **Buttons**          | 6                                                                                                                                       | 8 + 2 touch points                                                                                                                   | 15                                                                                                                                    | 15                                                                                                                                                | 8                                                                                                                                    | 32                                                                                                                                | 36                                                                                                                                            | 15 or 32 (virtual)                                                                                                                                                 | 6 or 15                                                                                                                                       |
+| **Extra display**    | No                                                                                                                                      | Yes, "info bar"                                                                                                                      | No                                                                                                                                    | No                                                                                                                                                | Yes, LCD Infobar touch strip                                                                                                         | No                                                                                                                                | Yes, LCD Infobar touch strip                                                                                                                  | n/a                                                                                                                                                                | No                                                                                                                                            |
+| **Dials**            | 0                                                                                                                                       | 0                                                                                                                                    | 0                                                                                                                                     | 0                                                                                                                                                 | 4 (rotate + push)                                                                                                                    | 0                                                                                                                                 | 6 (rotate + push)                                                                                                                             | 0                                                                                                                                                                  | 0                                                                                                                                             |
+| **Size (D × W × H)** | 84 × 60 × 58 mm                                                                                                                         | 107 × 78 × 26 mm                                                                                                                     | 118 × 84 × 25 mm (without stand)                                                                                                      | 118 × 84 × 25 mm (without stand)                                                                                                                  | 140 × 138 × 110 mm                                                                                                                   | 34 × 182 × 112 mm (without stand)                                                                                                 | 205 × 147 × 175 mm                                                                                                                            | Your phone                                                                                                                                                         | Depends on the enclosure                                                                                                                      |
+| **Purpose**          | Cheapest entry model, for a handful of fixed actions                                                                                    | Budget mid-range with a built-in stand, page switching via the two touch points                                                      | The classic all-rounder with the original clicky keys                                                                                 | Same board as the MK.2 but with low-travel scissor keys: quieter and softer to press                                                              | Best choice when you need analog control: volume, brightness, EQ, timeline scrubbing, light dimming                                  | Maximum direct controls without switching pages, my choice for development shortcuts                                              | The 2026 flagship, "pro control surface" for broadcast studios and editing bays                                                               | Subscription app for iOS/Android, handy to try out the software before buying hardware                                                                             | OEM/DIY boards to build the keypad into your own desk or panel                                                                                |
+| **Product page**     | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-mini)                                                                               | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-neo)                                                                             | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-mk2-black)                                                                        | [Elgato]([https://www.elgato.com/ww/en/p/stream-deck-mk2-scissor-keys-black](https://www.elgato.com/ww/en/p/stream-deck-scissor-keys))            | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-plus-black)                                                                      | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-xl)                                                                           | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-plus-xl)                                                                                  | [Elgato](https://www.elgato.com/ww/en/s/stream-deck-mobile)                                                                                                        | [Elgato](https://www.elgato.com/ww/en/p/stream-deck-module-15-keys)                                                                           |
+| **Buy US**\*         | [Amazon US](https://amzn.to/4xlUk6F#ad)                                                                                                 | [Amazon US](https://amzn.to/4fOxVrA#ad)                                                                                              | [Amazon US](https://amzn.to/4xAME0z#ad)                                                                                               | [Amazon US](https://amzn.to/4h5Q3iM#ad)                                                                                                           | [Amazon US](https://amzn.to/3RrBEmN#ad)                                                                                              | [Amazon US](https://amzn.to/4ySoxvD#ad)                                                                                           | [Amazon US](https://amzn.to/4fV0q70#ad)                                                                                                       | [Android](https://play.google.com/store/apps/details?id=com.corsair.android.streamdeck) / [iOS](https://apps.apple.com/app/elgato-stream-deck-mobile/id1440014184) |                                                                                                                                               |
+| **Buy NL**\*         | [Amazon NL](https://amzn.to/4xzqr3k#ad)                                                                                                 | [Amazon NL](https://amzn.to/4zRWxsG#ad)                                                                                              | [Amazon NL](https://amzn.to/4qUl1NF#ad)                                                                                               | [Amazon NL](https://amzn.to/4y5fR3K#ad)                                                                                                           | [Amazon NL](https://amzn.to/4gEnp6i#ad)                                                                                              | [Amazon NL](https://amzn.to/4gJorhG#ad)                                                                                           | [Amazon NL](https://amzn.to/3T5kzj4#ad)                                                                                                       | [Android](https://play.google.com/store/apps/details?id=com.corsair.android.streamdeck) / [iOS](https://apps.apple.com/app/elgato-stream-deck-mobile/id1440014184) |                                                                                                                                               |
 
 </div>
 
@@ -226,7 +181,7 @@ See all these models together on this [Amazon US](https://amzn.to/4wESUUS)* or [
 
 \* Links on this page may be affiliate links. You pay the normal price while supporting my blog.
 
-### My advice for a software developer
+### My adviced model for a software developer
 
 The 15-button MK.2 and the 32-button XL are the most interesting models for a software developer: 
 they have many buttons for a full set of shortcuts without switching pages to reach buttons for all kinds of apps. 
