@@ -211,7 +211,7 @@ Alternative solutions:
 [(Amazon US)](https://amzn.to/4nEvBXz#ad) 
 [(Amazon NL)](https://amzn.to/44eR5RQ#ad)
 * {{imgBasket}}Laptop mount for under the desk 
-[(AliExpress)](https://s.click.aliexpress.com/e/_c3Kc8qzt) 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c4q2MMM9) 
 [(Amazon US)](https://amzn.to/4tPqkOn#ad) 
 [(Amazon NL)](https://amzn.to/4xBiFWT#ad)
 * {{imgBasket}}Laptop side desk mount 
@@ -279,7 +279,7 @@ Alternatives:
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4aiBLM9) 
 [(Amazon US)](https://amzn.to/4w6O1Ds#ad)
 * Wood version with a triangle shape 
-[(AliExpress)](https://s.click.aliexpress.com/e/_c3OvVDhP) 
+[(AliExpress)](https://s.click.aliexpress.com/e/_c3JDrUNr) 
 [(Amazon US)](https://amzn.to/44lvrv9#ad)
 * Version with wireless charger 
 [(AliExpress)](https://s.click.aliexpress.com/e/_c4MB2Tlj) 

@@ -190,13 +190,13 @@ They are small and have a long battery life.
 
 **Cheaper option:**\
 {{imgBasket}}Zigbee Contact sensor - Tuya
-<a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4ara5aH" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4eokjEj#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4swcmAw#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank" title="ZD08">{{imgZ2M}}ZD08</a>
 Small and cheaper.
 
-<a href="https://s.click.aliexpress.com/e/_c3SEjOhh" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4ara5aH" target="_blank">
 <img src="images_zigbee/zigbee_contact_sensor.webp" alt="Tuya contact sensor" height="100px" /></a>
 
 **2xAAA battery option:**\
@@ -236,7 +236,7 @@ It can also detect people who are sitting still or lying in bed.
 <a href="https://amzn.to/46H1JBL#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank" title="ZG-204ZM">{{imgZ2M}}ZG-204ZM</a>
 
-<a href="https://s.click.aliexpress.com/e/_c3HeAYAF" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3tkjvQ5" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="pir motion sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
 The traditional motion sensors work with PIR, which stands for Passive InfraRed. This sensor detects objects that emit heat, like humans and animals.
@@ -248,12 +248,12 @@ If I want to cover a whole room, I use a different type of PIR sensor which you 
 
 **Best option:**\
 {{imgBasket}}Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara
-<a href="https://s.click.aliexpress.com/e/_c3HeAYAF" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3tkjvQ5" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4tcin5k#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4mK01ph#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank" title="RTCGQ11LM">{{imgZ2M}}RTCGQ11LM / P1</a>
 
-<a href="https://s.click.aliexpress.com/e/_c3HeAYAF" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3tkjvQ5" target="_blank">
 <img src="../ideas/images/motion_sensor.png" alt="motion sensor" height="100px" /></a>
 
 <br>
@@ -1016,7 +1016,7 @@ Useful for moving your Zigbee stick away from your server for better range and l
 
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
 
-{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a>
+{{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">(AliExpress)</a>
 
 {{imgBasket}}5V 2A EU USB power adapter <a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank">(AliExpress)</a>
 

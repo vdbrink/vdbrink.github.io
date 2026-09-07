@@ -173,10 +173,10 @@ A cable to power the ESP.
 A power adapter to power the ESP.
 
 {{imgBasket}}5V USB EU power adapter 
-<a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon US)</a>
 <br>
-<a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">
 <img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px" />
 </a>
 

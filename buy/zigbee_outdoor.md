@@ -112,7 +112,7 @@ It contains a build-in battery that charges via a small solar panel.
 
 ### NAS-STH02B2
 
-<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">
 <img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="soil sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This sensor measures the soil temperature and humidity.\
@@ -120,7 +120,7 @@ It can be used for plants inside and outside.\
 It contains a build-in battery that charges via a solar panel on top of it.
 
 {{imgBasket}}Zigbee soil sensor 
-<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 See [this page](/zigbee/zigbee_soil_sensor) for a detailed page about this sensor.

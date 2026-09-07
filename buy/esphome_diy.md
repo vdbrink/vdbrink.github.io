@@ -205,10 +205,10 @@ The HX711 Module comes with four pressure sensors which you can place under your
 
 Can be used, together with a contact sensor, to create your own rain gauge sensor.
 
-<a href="https://s.click.aliexpress.com/e/_c3JUzisP" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3JUzisP" target="_blank">Rain gauge, link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">Rain gauge, link (AliExpress)</a>
 
 ### Waterproof temperature sensor
 
@@ -269,10 +269,10 @@ USB-A to USB-C cable to power the ESP32.
 
 5V USB EU power adapter to power the ESP.
 
-<a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3BEg2xd" target="_blank">link 1 (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">link 1 (AliExpress)</a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank">link 2 (AliExpress)</a>
 

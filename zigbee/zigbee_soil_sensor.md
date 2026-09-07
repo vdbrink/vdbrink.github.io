@@ -65,7 +65,7 @@ These are the specifications for this sensor:
 <img src="images_soil_sensor/bottom.avif" alt="Zigbee soil sensor" height="150px"/>
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">Zigbee soil sensor (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">Zigbee soil sensor (AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/NAS-STH02B2.html" target="_blank" title="NAS-STH02B2">{{imgZ2M}}NAS-STH02B2</a>
 
 ---
@@ -149,7 +149,7 @@ These settings can be changed.
 
 Are you also excited about this sensor? Here you can buy it yourself.
 
-<a href="https://s.click.aliexpress.com/e/_c3K5DWLB" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">
 <img src="images_soil_sensor/side.avif" alt="Zigbee soil sensor" height="150px"/>
 
 {{imgBasket}}Zigbee soil sensor (AliExpress)</a>

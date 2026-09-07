@@ -135,7 +135,7 @@ Without having to worry about latency or any other performance issues for the be
 {% capture n97_global2 %}[2](https://s.click.aliexpress.com/e/_c3J4pYtL){% endcapture %}
 {% capture n100_global %}-{% endcapture %}
 {% capture n150_global %}[AliExpress](https://s.click.aliexpress.com/e/_c2QtyRt5){% endcapture %}
-{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c2IMmsxn)*{% endcapture %}
+{% capture n150_global2 %}[2](https://s.click.aliexpress.com/e/_c4Exn27L)*{% endcapture %}
 {% capture h12650_global %}[AliExpress](https://s.click.aliexpress.com/e/_c2u1IZWJ){% endcapture %}
 {% capture h185_global %}-{% endcapture %}
 {% capture hx370_global %}-{% endcapture %}
