@@ -93,8 +93,7 @@ This is what one of my pages looks like:
 ## Read more
 
 * [What is a Stream Deck?](/elgato_stream_deck/#what-is-a-stream-deck)
-* [My introduction with a Stream Deck](/elgato_stream_deck/#my-introduction-with-a-stream-deck)
+* [Alternatives: Stream Deck, Logitech MX, Codex Creator](/elgato_stream_deck/#alternative-solutions)
 * [Stream Deck models comparison](/elgato_stream_deck/#stream-deck-models-comparison)
-* [Alternatives: Logitech MX Keypad and MX Creative Console](/elgato_stream_deck/#alternative-solutions)
-* [My advised model for a software developer](/elgato_stream_deck/#my-advised-model-for-a-software-developer)
 * [Many example button actions to download](/elgato_stream_deck/stream_deck_button_actions)
+* [My introduction to a Stream Deck](/elgato_stream_deck/#my-introduction-with-a-stream-deck)

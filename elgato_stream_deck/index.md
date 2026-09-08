@@ -254,7 +254,7 @@ It contains 13x Mechanical switches, 1x Touch sensor, 1x Rotary encoder, 1x joys
 ---
 ### My advised model for a software developer
 
-The 15-button MK.2 and the 32-button XL are the most interesting models for a software developer:
+The 15-button MK.2 and the 32-button XL are the most interesting models for me as a software developer:
 they have many buttons for a full set of shortcuts without switching pages to reach buttons for all kinds of apps.
 
 ### My personal ideal model
@@ -267,6 +267,7 @@ modifications:
 * A brighter backlit screen: images can look a little pale.
 * A walnut-look surround for the buttons to match my other [desk accessories](/desk/office_accessories).
 
+<br>
 <a href="stream_deck_button_actions">
 <img src="images/my_ideal_stream_deck.png" alt="My ideal Stream Deck" style="width:100%">
 </a>
@@ -275,4 +276,5 @@ modifications:
 ---
 
 I hope you get inspired and maybe you now also this as a product you didn't know you needed.
-Or do you have all the actions and information also direct available with your normal keyboard and on your screen?
+Or do you have all the actions and information also direct available with your normal keyboard and on your screen?\
+See [here](stream_deck_button_actions) which button actions I use on my Stream Deck.
