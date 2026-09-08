@@ -3,8 +3,9 @@ title: "Elgato Stream Deck for a software developer"
 description: "How to use an Elgato Stream Deck as a software developer"
 category: Projects
 tags: [ Elgato, Stream Deck, software, developer, actions, scripts, keypad]
-#image:
+image: images/actions_sd_app.png
 ---
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # Elgato Stream Deck
 
@@ -19,11 +20,16 @@ I don't know why it took me so long to find it!
 
 Read on this page to see how I use it and whether it is something you did not know you wanted as well!
 
+You can use it to control AI agent controls, videocalls, IDEs, meetings, GitHub, GitLab, Home Assistant etc...
+
 Here you find sections about:
 * [What is a Stream Deck?](#what-is-a-stream-deck)
 * [All available Elgato models](#stream-deck-comparison)
 * [Many example button actions](#button-actions)
-* [How to import and export actions](#import-and-export-data)
+
+[//]: # (* [How to import and export actions]&#40;#import-and-export-data&#41;)
+
+<p></p>
 
 <a href="/elgato_stream_deck/images/my_sd_xl.png">
 <img src="/elgato_stream_deck/images/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
@@ -38,9 +44,12 @@ Here you find sections about:
   * [What is a Stream Deck?](#what-is-a-stream-deck)
   * [My introduction with a Stream Deck](#my-introduction-with-a-stream-deck)
   * [Button actions](#button-actions)
-  * [Import and Export data](#import-and-export-data)
   * [Stream Deck models comparison](#stream-deck-models-comparison)
-    * [My adviced model for a software developer](#my-adviced-model-for-a-software-developer)
+    * [Alternative solutions](#alternative-solutions)
+      * [Logitech MX Creative Console](#logitech-mx-creative-console)
+      * [Logitech MX Keypad](#logitech-mx-keypad)
+      * [Codex Creator Micro](#codex-creator-micro)
+    * [My advised model for a software developer](#my-advised-model-for-a-software-developer)
     * [My personal ideal model](#my-personal-ideal-model)
 <!-- TOC -->
 
@@ -124,8 +133,8 @@ Technically a Stream Deck is one big LCD screen split into different regions for
 Each button is transparant so you can see what's displayed behind it.
 Here is a YouTube video of a tear down of a Stream Deck.
 
-[![Slide Hardware installation](http://img.youtube.com/vi/rOQu9_t2zOY/0.jpg)](http://www.youtube.com/watch?v=rOQu9_t2zOY "Tear down of a Stream Deck")
-<em style="display:block; text-align:center">Tear down of a Stream Deck</em>
+[![Tear down of a Stream Deck](http://img.youtube.com/vi/rOQu9_t2zOY/0.jpg)](http://www.youtube.com/watch?v=rOQu9_t2zOY "Tear down of a Stream Deck")
+<em style="display:block;">Tear down of a Stream Deck</em>
 
 ---
 ## My introduction with a Stream Deck
@@ -174,10 +183,12 @@ Click here to go my page with many (developers) button action examples.
 </a>
 <em style="display:block; text-align:center">An example of how a Stream Deck button page could look like.</em>
 
----
-## Import and Export data
+[//]: # (---)
 
-See the separated [import and export page](stream_deck_import_export) how to import and export actions, profiles, icons etc to share, load and backup your actions.
+[//]: # (## Import and Export data)
+
+[//]: # ()
+[//]: # (See the separated [import and export page]&#40;stream_deck_import_export&#41; how to import and export actions, profiles, icons etc to share, load and backup your actions.)
 
 ---
 ## Stream Deck models comparison
@@ -207,6 +218,40 @@ See all these models together on this [Amazon US](https://amzn.to/4wESUUS)* or [
 
 \* Links on this page may be affiliate links. You pay the normal price while supporting my blog.
 
+---
+### Alternative solutions
+
+
+#### Logitech MX Creative Console
+
+Logitech has the MX Creative Console with a 9-button keypad and a dail. 
+As target group designers.
+
+<a href="images/products/logi_mx_creative_console.webp">
+<img src="images/products/logi_mx_creative_console.webp" alt="Logitech MX Creative Console" style="width:30%">
+</a>
+
+{{imgBasket}}Logitech MX Creative Console on [Amazon](https://amzn.to/3SYOLfE#ad)
+
+#### Logitech MX Keypad
+
+Logitech introduced recently a small 9 button keypad also for software developers as target group.
+You get a 3-month free GitHub Copilot Pro+ subscription with it.
+
+<a href="images/products/logi_mx_keypad.webp">
+<img src="images/products/logi_mx_keypad.webp" alt="Logitech MX Creative Console" style="width:30%">
+</a>
+
+{{imgBasket}}Logitech MX Keypad on [Logitech.com](https://www.logitech.com/shop/p/mx-keypad)
+
+#### Codex Creator Micro
+
+A keypad created by OpenAI from ChatGPT focussed on the Codex AI agent.
+It contains 13x Mechanical switches, 1x Touch sensor, 1x Rotary encoder, 1x joystick and light up keys to indicate the state of the different AI agents.
+
+{{imgBasket}}Codex Creator Micro on [Open AI](https://openai.com/supply/co-lab/work-louder/) [out of stock]
+
+---
 ### My advised model for a software developer
 
 The 15-button MK.2 and the 32-button XL are the most interesting models for a software developer:
@@ -225,7 +270,7 @@ modifications:
 <a href="stream_deck_button_actions">
 <img src="images/my_ideal_stream_deck.png" alt="My ideal Stream Deck" style="width:100%">
 </a>
-<em style="display:block; text-align:center">How my ideal Stream Deck model should look like.</em>
+<em style="display:block; text-align:center">AI generated how my ideal Stream Deck model should look like.</em>
 
 ---
 
