@@ -77,9 +77,10 @@ These are actions I actually run from my own deck:
 * **IntelliJ** - Keyboard shortcuts: open project, open terminal, clear console, next change, next file, next diff, optimize imports.
 * **GitHub and GitLab** - jump straight to your notifications, your pull requests or your assigned issues.
 * **Video calls** - mute/unmute, raise hand, hang up, and a calendar key counting down the minutes to your next meeting (pressing it opens the meeting link).
-* **macOS** - lock the screen, take a screenshot.
+* **macOS** - lock the screen, take a screenshot, pair headset.
 * **Browser** - open Google Translate with the text you just selected.
 * **Home Assistant** - control lights and smart plugs from your desk.
+* **Days countdown** - How many days until the GTA release?
 
 This is what one of my pages looks like:
 
@@ -95,5 +96,5 @@ This is what one of my pages looks like:
 * [What is a Stream Deck?](/elgato_stream_deck/#what-is-a-stream-deck)
 * [Alternatives: Stream Deck, Logitech MX, Codex Creator](/elgato_stream_deck/#alternative-solutions)
 * [Stream Deck models comparison](/elgato_stream_deck/#stream-deck-models-comparison)
-* [Many example button actions to download](/elgato_stream_deck/stream_deck_button_actions)
+* [Many example Stream Deck button actions to download](/elgato_stream_deck/stream_deck_button_actions)
 * [My introduction to a Stream Deck](/elgato_stream_deck/#my-introduction-with-a-stream-deck)
