@@ -69,7 +69,7 @@ If you have more devices you want to control, it can be that you need multiple s
 [(Amazon NL)](https://amzn.to/41b3nJU#ad)  available of this device.
 
 > Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
-<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4p2FC0q#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 

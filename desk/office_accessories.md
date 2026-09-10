@@ -269,7 +269,7 @@ A basic wooden digital clock that doesn't attract more attention than needed.
 <img src="images/clock.avif" alt="wooden clock" width="250px" />
 </a>
 
-* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c4L5ZfxT) [(Amazon US)](https://amzn.to/4oO0Yj2#ad) [(Amazon NL)](https://amzn.to/3Qq2eMw#ad)
+* {{imgBasket}}Wooden clock [(AliExpress)](https://s.click.aliexpress.com/e/_c3Uoskcv) [(Amazon US)](https://amzn.to/4oO0Yj2#ad) [(Amazon NL)](https://amzn.to/3Qq2eMw#ad)
 
 <p></p>
 
@@ -420,7 +420,7 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 <img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" width="150px" />
 </a>
 
-* {{imgBasket}}Retractable USB-C power cable [(AliExpress)](https://s.click.aliexpress.com/e/_c4EmqPR3)
+* {{imgBasket}}Retractable USB-C power cable [(AliExpress)](https://s.click.aliexpress.com/e/_c4092nFx)
 
 <p></p>
 Alternatives:
@@ -502,7 +502,7 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 * {{imgBasket}}Moss terrarium glass [(AliExpress)](https://s.click.aliexpress.com/e/_c4OC8zP7) [(Amazon NL)](https://amzn.to/4w7dfCj#ad)
 * {{imgBasket}}DIY moss and plants kit [(Woonhero.nl)](https://woonhero.nl/collections/terrarium-start-en-navulpakketten)
 * {{imgBasket}}Top light [(AliExpress)](https://s.click.aliexpress.com/e/_c4e9lqvj)
-* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c4FjY1Pv)
+* {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c3Whopf7)
 * {{imgBasket}}Stainless steel tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
 
 ---

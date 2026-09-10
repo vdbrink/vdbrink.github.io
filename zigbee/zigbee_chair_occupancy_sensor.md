@@ -28,7 +28,7 @@ Also, when I walk away from my desk, it's automatically detected, then my heater
 and if I'm after X minutes not returned, everything shuts down automatically.
 
 > UPDATE 2025-07: Now there are of-the-shelf Zigbee pressure mat sensors available!
-> ([AliExpress](https://s.click.aliexpress.com/e/_c4Fg3X1t))\
+> ([AliExpress](https://s.click.aliexpress.com/e/_c4bqlnbj))\
 > I didn't test it myself yet, I like to hear your experience with it.
 
 ---
@@ -119,7 +119,7 @@ See 3a how to connect the wires from the leak- and pressure sensor with each oth
 <a href="https://s.click.aliexpress.com/e/_c4FL7beB" target="_blank">
 <img src="images_chair/pressure_mat_even_bigger.avif" width="200px" alt="pressure sensor" /></a>
 <a href="https://s.click.aliexpress.com/e/_c3phM4ij" target="_blank"><img src="/buy/images_diy/pressure_sensor.webp" width="200px" alt="pressure sensor" /></a>
-<a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank"><img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
+<a href="https://s.click.aliexpress.com/e/_c3uYUMaV" target="_blank"><img src="images_chair/pressure_mat_bigger.avif" width="200px" alt="pressure sensor" />
 </a>
 
 ---

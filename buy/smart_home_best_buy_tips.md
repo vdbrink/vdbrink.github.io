@@ -339,7 +339,7 @@ or in summer when it becomes cooler outside than inside.
 
 **Cheaper option:**\
 {{imgBasket}}Zigbee temperature and humidity sensor - Tuya / Thirdreality
-<a href="https://s.click.aliexpress.com/e/_EuScxuN" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3i0b829" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/427r9Xp#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4cuvcBp#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RSH-HS06.html" target="_blank" title="RSH-HS06">{{imgZ2M}}RSH-HS06</a>
@@ -476,7 +476,9 @@ This one runs on two common AAA batteries, which make the sensor fairly big but 
 
 ### Pressure sensor
 
-<a href="https://s.click.aliexpress.com/e/_c4Fg3X1t" target="_blank"><img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/></a>
+<a href="https://s.click.aliexpress.com/e/_c4bqlnbj" target="_blank">
+<img src="images_zigbee/pressure_sensor.avif" alt="zigbee pressure sensor" height="150px" style="margin-left:15px;float:right"/>
+</a>
 
 A strip with pressure sensors in it.\
 I have a separate page explaining how I created my own [Zigbee chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
@@ -489,7 +491,7 @@ Suitable for chairs, carpets, beds, and sofas:
 <br>
 
 {{imgBasket}}Zigbee pressure sensor - Tuya
-<a href="https://s.click.aliexpress.com/e/_c4Fg3X1t" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c4bqlnbj" target="_blank">(AliExpress)</a>
 
 {{imgBasket}}Alternative: larger Zigbee pressure mat sensor - Tuya
 <a href="https://s.click.aliexpress.com/e/_c3k6qjLH" target="_blank">(AliExpress)</a>
@@ -579,7 +581,7 @@ This one supports over 100 dynamic effects. These are controllable via the WLED 
 <img src="images_zigbee/zigbee_moes_wall_switch.webp" alt="Zigbee Moes wall switch" height="150px" style="margin-left:15px;float:right"/></a>
 
 {{imgBasket}}Zigbee wall switch - Aqara
-<a href="https://s.click.aliexpress.com/e/_DBfTCOj" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3RiOyRP" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cgAL6f#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/QBKG41LM.html" target="_blank" title="QBKG41LM">{{imgZ2M}}QBKG41LM</a>
 
@@ -702,7 +704,7 @@ There is a separate page where you can find them: [Outdoor sensors - Best Buy Ti
 
 ### Air quality sensor
 
-<a href="https://s.click.aliexpress.com/e/_c4pjXZtH" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c38xKwLf" target="_blank">
 <img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" height="150px" style="margin-left:15px;float:right"/></a>
 
 This 6-in-1 sensor can detect six environmental parameters:
@@ -721,7 +723,7 @@ Because the price is low, there are some downsides in sensor precision: the form
 For the other parameters, it is a good overall air quality sensor to show whether you need some fresh air indoors.
 
 {{imgBasket}}Zigbee / WiFi Air quality sensor - Tuya
-<a href="https://s.click.aliexpress.com/e/_c4pjXZtH" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c38xKwLf" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/40Y4IEB#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank" title="TS0601_air_quality_sensor">{{imgZ2M}}TS0601</a>
 
@@ -731,13 +733,13 @@ For the other parameters, it is a good overall air quality sensor to show whethe
 
 ### Smoke detector
 
-<a href="https://s.click.aliexpress.com/e/_c4TV3E8L" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3ko1ro9" target="_blank">
 <img src="images_zigbee/smoke_detector.avif" alt="smoke detector" height="150px" style="margin-left:15px;float:right"/></a>
 
 The device can detect smoke and has an 85 dB alarm.
 
 {{imgBasket}}Zigbee smoke detector - Heiman
-<a href="https://s.click.aliexpress.com/e/_c4TV3E8L" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3ko1ro9" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4n6jJNv#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/HS1SA.html" target="_blank" title="HS1SA Heiman smoke detector">{{imgZ2M}}HS1SA</a>
 
@@ -749,7 +751,7 @@ Battery: CR123A
 
 ### Infrared remote control
 
-<a href="https://s.click.aliexpress.com/e/_EyhV6lj" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4qifs41" target="_blank">
 <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Zigbee IR remote control" height="150px" style="margin-left:15px;float:right"/></a>
 
 These devices can learn infrared remote-control signals and send them again via Zigbee.
@@ -767,7 +769,7 @@ Controlled by Home Assistant.
 
 **WiFi option:**
 {{imgBasket}}WiFi IR remote control RM4 Mini - Broadlink
-<a href="https://s.click.aliexpress.com/e/_Dna8hgH" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4tvsH8Z#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
 
@@ -819,7 +821,8 @@ You can also schedule a full week of target temperatures.
 
 
 ### Smart socket
-<a href="https://s.click.aliexpress.com/e/_c4majdPD" target="_blank">
+
+<a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">
 <img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf SHP-15 smart socket" height="150px" style="margin-left:15px;float:right"/></a>
 
 Smart sockets are useful for making traditional "dumb" devices smart, like a standing lamp with a plug.
@@ -836,7 +839,6 @@ It took me a while to find the right smart socket for this purpose, but the ones
 
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15
 <a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">(Banggood)</a>
-<a href="https://s.click.aliexpress.com/e/_c4majdPD" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank" alt="TS011F">{{imgZ2M}}TS011F_plug_3</a>
 
 {{imgBasket}}Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13
@@ -946,9 +948,6 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 <a href="https://amzn.to/4cqCQwo#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4jnFDZB#ad" target="_blank">(Amazon NL)</a>
 
-{{imgBasket}}AA battery replacement with power socket EU
-<a href="https://s.click.aliexpress.com/e/_c3oFkUUl" target="_blank">(AliExpress)</a>
-
 {{imgBasket}}AAA battery replacement with power socket EU
 <a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank">(AliExpress)</a>
 
@@ -981,7 +980,7 @@ USB-A to micro USB cable to power the ESP.
 
 USB-A to USB-C cable to power the ESP.
 
-<a href="https://s.click.aliexpress.com/e/_oB1SfVP" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4egHUiz" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
 {{imgBasket}}USB-A to USB-C cable (AliExpress)</a>
 <a href="https://amzn.to/3RdjocW#ad" target="_blank">(Amazon US)</a>
@@ -1022,11 +1021,11 @@ Useful for moving your Zigbee stick away from your server for better range and l
 
 5V EU USB power adapter to power multiple USB devices, with fast charging and 3.1A.
 
-<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3hipKZb" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V EU USB power adapter" width="200px"/></a>
 
 {{imgBasket}}5V USB EU power adapter
-<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3hipKZb" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4cvtLCK#ad" target="_blank">(Amazon US)</a>
 
 <br>
@@ -1041,11 +1040,11 @@ Not connected, but still smart because it has a PIR sensor in it.
 
 Very useful for closets or stairs where no power is available.
 
-<a href="https://s.click.aliexpress.com/e/_c4rMbI23" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3600dTj" target="_blank">
 <img src="images_diy/battery_powered_pir_lights.avif" alt="Battery powered PIR lights" width="200px"/></a>
 
 {{imgBasket}}Battery powered PIR lights
-<a href="https://s.click.aliexpress.com/e/_c4rMbI23" target="_blank">(AliExpress)</a>
+<a href="https://s.click.aliexpress.com/e/_c3600dTj" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/42zFj4t#ad" target="_blank">(Amazon US)</a>
 
 <br>

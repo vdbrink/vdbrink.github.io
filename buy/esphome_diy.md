@@ -182,10 +182,8 @@ You can directly attach it to a contact-/water leak sensor.
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4FL7beB" target="_blank">largest version (AliExpress)</a>
 
-<a href="https://s.click.aliexpress.com/e/_oFdjPzD" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3uYUMaV" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/" target="_blank">large version (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_c3phM4ij" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor smal" /></a>
@@ -257,7 +255,7 @@ USB-A to micro USB cable to power the ESP8266.
 
 USB-A to USB-C cable to power the ESP32.
 
-<a href="https://s.click.aliexpress.com/e/_oB1SfVP" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c4egHUiz" target="_blank">
 <img src="images_zigbee/usb_c_cable.jpg" height="150px" alt="USB C cable" /><br>
 {{imgBasket}}USB-C cable (AliExpress)</a>
 
@@ -278,10 +276,10 @@ USB-A to USB-C cable to power the ESP32.
 
 5V USB EU power adapter to power multiple usb devices, with fast charging and 3.1A.
 
-<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3hipKZb" target="_blank">
 <img src="images_diy/usb_power_charger.png" alt="5V USB EU power adapter" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ol8RIG1" target="_blank">link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3hipKZb" target="_blank">link (AliExpress)</a>
 
 ### Christmas light adapter
 
@@ -379,10 +377,10 @@ I suggest this based on the reviews. I already had one. Please let me know if yo
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (AliExpress)</a>
 
 ### Soldering kit
-<a href="https://s.click.aliexpress.com/e/_oFMlFjT" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c3rLAGBn" target="_blank">
 <img src="images_diy/soldering_kit.avif" alt="soldering kit" width="200px"/></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFMlFjT" target="_blank">Soldering kit (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3rLAGBn" target="_blank">Soldering kit (AliExpress)</a>
 
 ### Soldering tin wire
 

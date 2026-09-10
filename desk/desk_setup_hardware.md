@@ -256,7 +256,7 @@ It is simple, but it has worked well for years.
 <img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
 </a>
 
-* {{imgBasket}}Silent wireless mouse [(AliExpress)](https://s.click.aliexpress.com/e/_EjJUyom)
+* {{imgBasket}}Silent wireless mouse [(AliExpress)](https://s.click.aliexpress.com/e/_c4SRZDZB)
 
 <br>
 

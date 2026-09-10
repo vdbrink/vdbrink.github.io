@@ -93,20 +93,6 @@ It's already triggered with a single drop.
 
 <br>
 
-### Rain + lux
-<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">
-<img src="images_zigbee/sunflower_rain_sensor.webp" alt="rain sensor" height="150px" style="margin-left:15px;float:right"/></a>
-
-This outdoor sensor detects raindrops and measures the light intensity (lux).\
-It contains a build-in battery that charges via a small solar panel.
-
-{{imgBasket}}Zigbee raindrop + lux sensor 
-<a href="https://s.click.aliexpress.com/e/_EIt99cD" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4gYGF0m#ad" target="_blank">(Amazon US)</a>
-<a href="https://www.zigbee2mqtt.io/devices/RB-SRAIN01.html" target="_blank" title="RB-SRAIN01">{{imgZ2M}}RB-SRAIN01</a>
-
-<br> <br>
-
 ---
 ## Soil sensor
 
@@ -202,7 +188,7 @@ You can chain multiple lights together to power them.
 
 ### Floodlight
 
-<a href="https://s.click.aliexpress.com/e/_okk5Oi1" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c33cMABX" target="_blank">
 <img src="images_outdoor/zigbee_floodlight.avif" alt="Outdoor Zigbee floodlight" height="150px" style="margin-left:15px;float:right"/>
 </a>
 A 10W / 12V DC LED floodlight with 16 million colors.
@@ -210,8 +196,8 @@ The brightness and color temperature are adjustable, and it's (of course) water-
 
 Support 2.4G RF remote control directly.
 
-{{imgBasket}}Zigbee Floodlight - Gledopto 
-<a href="https://s.click.aliexpress.com/e/_okk5Oi1" target="_blank">(AliExpress)</a>
+{{imgBasket}}Zigbee Floodlight - Gledopto
+<a href="https://s.click.aliexpress.com/e/_c33cMABX" target="_blank">(AliExpress)</a>
 <a href="https://www.zigbee2mqtt.io/devices/GL-FL-001P.html" target="_blank" title="GL-FL-001P">{{imgZ2M}}GL-FL-001P</a>
 
 <br>

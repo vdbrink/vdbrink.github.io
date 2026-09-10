@@ -92,7 +92,6 @@ which is cheaper per piece if you plan to create multiple sensors to use around 
 <img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" />
 </a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFRE3dx" target="_blank">link 2, per 5 pieces (AliExpress)</a>\
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">link 3, per 10 pieces (AliExpress)</a>
 
 
@@ -103,7 +102,6 @@ You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini.
 * The pins are not soldered on the board yet (with some practice even you can do it for sure!)
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1, choose the "D1 mini" (AliExpress)</a>\
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DmlkMXv" target="_blank">link 2,  (AliExpress)</a>
 
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
 <img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
