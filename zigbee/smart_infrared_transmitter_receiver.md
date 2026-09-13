@@ -21,29 +21,28 @@ Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights and elect
 The signal of an infrared remote has no encryption and is always the same. 
 This makes it easy to capture, store and resend the signal.
 
- <img src="images_infrared/ceiling_fan_remote.webp" alt="ceiling fan with remote" height="100px" />
-
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+<img src="images_infrared/ceiling_fan_remote.webp" alt="ceiling fan with remote" height="100px" />
 <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
-
- <img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
-
- <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" height="100px" />
-
+<img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
+<img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" height="100px" />
 <img src="images_infrared/light_string.avif" alt="light curtains" height="100px" />
+</div>
+<br>
 
 Read further how you can create buttons on your **Home Assistant dashboard**, to control your infrared devices.
 
-> **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check [here](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
+<img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="100%">
 
-<img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="400px">
+> **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check [here](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
 
 > **_NOTE:_** Also affiliate links are used on this page. You sponsor my work and still pay the original price. 
 
 ---
 ### Video
 
-In this video, you see the device in action.
-I can control the lights via the original remote and also from my Home Assistant dashboard.
+In this video, you see the infrared receiver/transmitter in action.\
+Now I can control the lights via the original remote and also from my Home Assistant dashboard.
 
 <video controls height="400px">
     <source src="images_infrared/ir_reel_720p.mp4" type="video/mp4">
@@ -63,12 +62,12 @@ With this small black box, powered on batteries, you can control any infrared de
 An infrared sender needs to be in a direct line with the receiver. 
 If you have more devices you want to control, it can be that you need multiple smart devices to control them all.
 
-> There are also similar 
+There are also similar 
 [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz) 
 [(Amazon US)](https://amzn.to/3UzxCGU#ad) 
 [(Amazon NL)](https://amzn.to/41b3nJU#ad)  available of this device.
 
-> Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
+Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
 <a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4p2FC0q#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
@@ -87,7 +86,7 @@ see my dedicated page about my [automated Christmas lights and decorations](/pro
 ---
 ### Learning mode
 
-There are multiple ways to set the device in learning mode to receive the IR codes: via the Zigbee2MQTT frontend, for example.\
+There are multiple ways to set the device in learning mode to receive the IR codes: via the Zigbee2MQTT frontend, for example.
 
 #### Option 1: via ZHA
 
