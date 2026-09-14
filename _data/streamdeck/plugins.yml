@@ -34,6 +34,7 @@ gitlab-dashboard:
 home-assistant:
   name: Home Assistant
   url: https://marketplace.elgato.com/product/home-assistant-884c8c3e-8477-4ecb-99e0-f3101bbfa0aa
+  website: "https://github.com/cgiesche/streamdeck-homeassistant"
   price: Free
   os: "Mac, Windows"
 

@@ -6,3 +6,6 @@ dependencies:
     actions:
       - name: Control lights
       - name: Control smart plugs
+      - name: Control airco
+      - name: Show entity states like temperature
+footnote: See more info on my <a href="/elgato_stream_deck/stream_deck_home_assistant">dedicated page</a> about this integration.

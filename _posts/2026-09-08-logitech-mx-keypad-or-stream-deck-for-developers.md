@@ -89,12 +89,11 @@ This is what one of my pages looks like:
 </a>
 <em style="display:block; text-align:center">One of the pages on my own deck: not only buttons, but also live information displayed on them.</em>
 
-
-
 ## Read more
 
 * [What is a Stream Deck?](/elgato_stream_deck/#what-is-a-stream-deck)
 * [Alternatives: Stream Deck, Logitech MX, Codex Creator](/elgato_stream_deck/#alternative-solutions)
 * [Stream Deck models comparison](/elgato_stream_deck/#stream-deck-models-comparison)
+* [Home Assistant integration](/elgato_stream_deck/stream_deck_home_assistant)
 * [Many example Stream Deck button actions to download](/elgato_stream_deck/stream_deck_button_actions)
 * [My introduction to a Stream Deck](/elgato_stream_deck/#my-introduction-with-a-stream-deck)

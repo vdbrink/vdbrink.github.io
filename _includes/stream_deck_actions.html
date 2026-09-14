@@ -48,6 +48,10 @@
     | OS: {{ plugin.os }}
     {% endif %}
 
+    {% if plugin.website %}
+    | <a href="{{ plugin.website }}">Website</a>
+    {% endif %}
+
     {% if plugin.description %}
     <br>
     {{ plugin.description }}
