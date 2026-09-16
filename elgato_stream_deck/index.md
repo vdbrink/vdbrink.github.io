@@ -26,6 +26,7 @@ Here you find sections about:
 * [What is a Stream Deck?](#what-is-a-stream-deck)
 * [All available Elgato models](#stream-deck-comparison)
 * [Many example button actions](#button-actions)
+* [Home Assistant integration](stream_deck_home_assistant)
 
 [//]: # (* [How to import and export actions]&#40;#import-and-export-data&#41;)
 

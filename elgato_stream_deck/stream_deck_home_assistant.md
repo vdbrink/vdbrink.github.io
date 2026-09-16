@@ -15,16 +15,17 @@ Don't you know what a Stream Deck is? Check [here first](/elgato_stream_deck).
 <img src="images/home_assistant/home-assistant_stream_deck_integration.gif" alt="Home Assistant integration" width="100%" />
 <em style="display:block; text-align:center">HA dashboard next to the Stream Deck app, fast and interactive integration</em>
 
-Control and visualize your Home Assistant entities direct with your Elgator Stream Deck!
+Control and visualize your Home Assistant entities direct with your Elgato Stream Deck!
 This is possible with
 the [Stream Deck Home Assistant plugin](/elgato_stream_deck/stream_deck_button_actions#home-assistant).
 
-What you can show and control on the Stream Deck:
+What you can control and show on the Stream Deck:
 
 - [Toggle lights, with the live on/off state and light color on the key](#lights-control)
 - [Switch smart sockets on or off and see which devices are still powered](#smart-socket-control)
 - [Show live sensor values, like the current office temperature, humidity, CO2](#show-current-states-like-temperature-humidity-co2)
 - [Turn a non-smart airco on or off via an IR transmitter](#ac-control-via-ir)
+- [Open your camera stream dashboard with a single key press](#direct-open-camera-streams)
 
 ---
 
@@ -109,3 +110,11 @@ This is a diagram of how it technically works:
 <img src="images/home_assistant/ir_flow_diagram.png" alt="Stream Deck to Airco flow diagram" width="100%" />
 </a>
 <em style="display:block; text-align:center">Stream Deck -> Home Assistant -> Zigbee2MQTT -> Zigbee IR transmitter -> Airco</em>
+
+## Direct open camera streams
+
+With a single button click you can open your Home Assistant dashboard where your camera stream are visible.
+
+---
+
+Read more about the [Stream Deck](/elgato_stream_deck).
