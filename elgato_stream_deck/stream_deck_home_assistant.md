@@ -34,14 +34,14 @@ What you can control and show on the Stream Deck:
 Toggle a Home Assistant `light` entity with a single key press.
 The key icon follows the live state of the lamp: a bright, colored bulb when the lamp is on and a pale bulb when it's
 off.
-The bulb color also reflects the current light color, like my AI user input required lamp on my desk, check [here](/ai/ai-user-input-needed-notification-light) this project.
+The bulb color also reflects the current light color, like my AI user input required lamp which lights ups on my desk to trigger me, check [here](/ai/ai-user-input-needed-notification-light) for all details about this project.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
-<a href="images/home_assistant/ha_light_ai_action.png">
+<a href="/ai/ai-user-input-needed-notification-light">
 <img src="images/home_assistant/ha_light_ai_action.png" alt="Stream Deck key AI action lamp" style="max-height:80px; width:auto;">
 </a>
-<em style="display:block; text-align:center">AI action required lamp</em>
+<em style="display:block; text-align:center">AI action required light</em>
 </div>
 </div>
 
@@ -53,15 +53,11 @@ So you can see at a glance which devices are still powered, without opening the 
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
-<a href="images/home_assistant/ha_power_switch_phone_charger.png">
 <img src="images/home_assistant/ha_power_switch_phone_charger.png" alt="Stream Deck key phone charger off" style="max-height:80px; width:auto;">
-</a>
 <em style="display:block; text-align:center">phone charger (off)</em>
 </div>
 <div style="text-align:center">
-<a href="images/home_assistant/ha_power_switch_battery_charger.png">
 <img src="images/home_assistant/ha_power_switch_battery_charger.png" alt="Stream Deck key battery charger on" style="max-height:80px; width:auto;">
-</a>
 <em style="display:block; text-align:center">battery charger (on)</em>
 </div>
 </div>
@@ -73,9 +69,7 @@ These keys shows the current value of a CO2, humidity and temperature `sensor` e
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
-<a href="images/home_assistant/ha_states.png">
 <img src="images/home_assistant/ha_states.png" alt="room values visible on your Stream Deck" style="max-height:80px; width:auto;">
-</a>
 <em style="display:block; text-align:center">live room values visible on your Stream Deck</em>
 </div>
 </div>
@@ -89,14 +83,14 @@ Now I can control my airco direct from Home Assistant with automations or manual
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
-<a href="images/home_assistant/ha_ac_ir.png">
+<a href="/zigbee/smart_infrared_transmitter_receiver">
 <img src="images/home_assistant/ha_ac_ir.png" alt="control IR airco on/off via my Stream Deck" style="max-height:80px; width:auto;">
 </a>
-<em style="display:block; text-align:center">control IR airco on/off via my Stream Deck</em>
+<em style="display:block; text-align:center">control IR airco on/off via a Stream Deck</em>
 </div>
 
 <div style="text-align:center">
-<a href="/zigbee/images_infrared/airco_remote.webp">
+<a href="/zigbee/smart_infrared_transmitter_receiver">
 <img src="/zigbee/images_infrared/airco_remote.webp" alt="airco with remote" style="max-height:80px; width:auto;" />
 </a>
 </div>
@@ -117,4 +111,4 @@ With a single button click you can open your Home Assistant dashboard where your
 
 ---
 
-Read more about the [Stream Deck](/elgato_stream_deck).
+Read more about the [Stream Deck](/elgato_stream_deck) or how to [make dump infrared devices smart](/zigbee/smart_infrared_transmitter_receiver).

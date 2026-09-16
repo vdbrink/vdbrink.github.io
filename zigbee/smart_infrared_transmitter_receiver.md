@@ -33,11 +33,19 @@ This makes it easy to capture, store and resend the signal.
 
 Read further how you can create a switch helper or via buttons on your **Home Assistant dashboard**, to control your infrared devices!
 
-Now I can control my dump infrared controlled airco via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) as well with the Home Assistant integration!
+Now I also can control my dump infrared controlled airco via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) as well with the Home Assistant integration!
 
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+<div style="text-align:center">
 <a href="/elgato_stream_deck/stream_deck_home_assistant">
-<img src="/elgato_stream_deck/images/home_assistant/ha_ac_ir.png" alt="control IR airco on/off via my Stream Deck" style="max-height:80px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_mk2.jpg" alt="control IR airco on/off via my Stream Deck" style="max-height:180px; width:auto;">
 </a>
+<em style="display:block; text-align:center">Stream Deck keypad to control dump infrared device next to your computer</em>
+</div>
+</div>
+
+<br>
+<br>
 
 > **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check the [Home Assistants own blog site](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
 
@@ -87,6 +95,8 @@ You can save a lot of signals on this box, each button on a remote and that for 
 
 > I used this solution also for my Christmas paper star, 
 see my dedicated page about my [automated Christmas lights and decorations](/projects/automate_christmas_decorations#infrared-lights).
+
+> I used this solution also for my airco.
 
 ---
 ### Learning mode
