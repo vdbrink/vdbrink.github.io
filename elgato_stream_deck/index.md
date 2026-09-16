@@ -15,12 +15,12 @@ image: /elgato_stream_deck/images/actions_sd_app.png
 
 For all my years as a developer, a nice keyboard was good enough for my daily work.
 
-I've always enjoyed creating scripts to automate tasks on my PC, phone, and at home, so this device is a small step for me.
-I don't know why it took me so long to find it!
+I've always enjoyed creating scripts to automate tasks on my PC, phone, and at home, so this button shortcut keypad device is normally a small step for me.
+I don't know why it took me so long to find and use it myself!
 
-Read on this page to see how I use it and whether it is something you did not know you wanted as well!
+For example: you can use it to **control your OS, Spotify, AI agents, videocalls, IDE shortcuts, meetings, GitHub, GitLab, Home Assistant etc...**
 
-You can use it to control AI agent controls, videocalls, IDEs, meetings, GitHub, GitLab, Home Assistant etc...
+Read on this page to see how I use this keypad and whether it is something you did not know you wanted as well!
 
 Here you find sections about:
 * [What is a Stream Deck?](#what-is-a-stream-deck)

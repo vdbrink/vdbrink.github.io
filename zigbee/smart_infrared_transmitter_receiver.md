@@ -22,6 +22,7 @@ The signal of an infrared remote has no encryption and is always the same.
 This makes it easy to capture, store and resend the signal.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+<img src="images_infrared/airco_remote.webp" alt="airco with remote" height="100px" />
 <img src="images_infrared/ceiling_fan_remote.webp" alt="ceiling fan with remote" height="100px" />
 <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
 <img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
@@ -30,19 +31,23 @@ This makes it easy to capture, store and resend the signal.
 </div>
 <br>
 
-Read further how you can create buttons on your **Home Assistant dashboard**, to control your infrared devices.
+Read further how you can create a switch helper or via buttons on your **Home Assistant dashboard**, to control your infrared devices!
 
-<img src="images_infrared/ha_card.png" alt="Home Assistant button card" width="100%">
+Now I can control my dump infrared controlled airco via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) as well with the Home Assistant integration!
 
-> **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check [here](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
+<a href="/elgato_stream_deck/stream_deck_home_assistant">
+<img src="/elgato_stream_deck/images/home_assistant/ha_ac_ir.png" alt="control IR airco on/off via my Stream Deck" style="max-height:80px; width:auto;">
+</a>
 
-> **_NOTE:_** Also affiliate links are used on this page. You sponsor my work and still pay the original price. 
+> **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check the [Home Assistants own blog site](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
+
+> **_NOTE:_** Affiliate links are used on this page. You sponsor my work and still pay the original price. 
 
 ---
-### Video
+### Video control tea light via Home Assistant
 
 In this video, you see the infrared receiver/transmitter in action.\
-Now I can control the lights via the original remote and also from my Home Assistant dashboard.
+Now I can control the tea lights via the original remote and also from my Home Assistant dashboard.
 
 <video controls height="400px">
     <source src="images_infrared/ir_reel_720p.mp4" type="video/mp4">
@@ -163,7 +168,53 @@ Enjoy home automation!
 ---
 ### Home Assistant
 
-From Home Assistant, you can create buttons on your dashboard and send a MQTT events with a specific copied IR signal to the IR device topic.
+In Home Assistant are different methods to send the infrared signal over MQTT to the Zigbee IR transmitter.
+This can be done by creating a helper on/off switch sensor, or with a button card. 
+
+#### Via a helper switch
+
+<a href="images_infrared/airco_control_switch.png">
+<img src="images_infrared/airco_control_switch.png" alt="helper switch to control the IR airco" width="400px" />
+</a>
+
+You can define a helper in the [graphical interface](/homeassistant/homeassistant_templates#via-the-frontend), then you only need to define the turn on and turn off mqtt.publish action with the topic and payload.
+See this `configuration.yaml` definition how it also can be defined in code.
+In the graphical interface are the fields `value_template` and `assumed_state` not possible to define.
+
+```yaml
+{ % raw % }
+# Sourcecode by vdbrink.github.io
+# Dashboard button card code
+switch:
+  - platform: template
+    switches:
+      ac_ir:
+        friendly_name: "AC"
+        icon_template: mdi:air-conditioner
+        turn_on:
+          action: mqtt.publish
+          data:
+            topic: zigbee2mqtt/irremote/set
+            payload: '{"ir_code_to_send":"<ON_CODE_HERE>"}'
+        turn_off:
+          action: mqtt.publish
+          data:
+            topic: zigbee2mqtt/irremote/set
+            payload: '{"ir_code_to_send":"<OFF_CODE_HERE>"}'
+        value_template: "{{ is_state('input_boolean.ac_state', 'on') }}"
+        assumed_state: true
+  { % endraw % }
+```
+<em style="display:block; text-align:center">helper switch defined in configuration.yaml in HA</em>
+<div style="text-align:center">
+<a href="images_infrared/helper_switch_config.png">
+<img src="images_infrared/helper_switch_config.png" alt="helper switch frontend configuration in HA" width="400px" />
+</a>
+</div>
+<em style="display:block; text-align:center">helper switch frontend configuration in HA</em>
+
+#### Via Button Card
+From Home Assistant, you can create buttons on your dashboard and send a MQTT events with a specific copied infrared signal to the infrared device topic.
 
 <img src="images_infrared/ha_mqtt_button.png" alt="Home Assistant button send MQTT event" width="400px">
 
