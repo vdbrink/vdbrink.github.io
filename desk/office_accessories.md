@@ -423,16 +423,31 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 * {{imgBasket}}Retractable USB-C power cable [(AliExpress)](https://s.click.aliexpress.com/e/_c4092nFx)
 
 <p></p>
-Alternatives:
 
-* {{imgBasket}}Black dual USB-C power hub 
-[(AliExpress)](https://s.click.aliexpress.com/e/_c4oe4KB1) 
-[(Amazon US)](https://amzn.to/3SSHu0u#ad) 
-[(Amazon NL)](https://amzn.to/4enp1Sm#ad)
-* {{imgBasket}}Walnut cable organizer [(AliExpress)](https://s.click.aliexpress.com/e/_c2ud4CQX) (high shipping costs)\
-  <a href="images/retractable_usb_charger_walnut.png">
-  <img src="images/retractable_usb_charger_walnut.png" alt="Retractable USB charger" width="150px" />
-  </a>
+<table>
+  <thead>
+  <tr>
+    <th colspan="3">Alternatives</th>
+  </tr>
+</thead>
+  <tr>
+    <td>Advanced and powerful retractable power supply hub</td>
+    <td>Black dual USB-C power hub</td>
+    <td>Walnut cable organizer</td>
+  </tr>
+  <tr>
+    <td><a href="images/retractable_usb_charger.png"><img src="images/retractable_usb_charger.png" alt="Retractable USB charger" height="150px" /></a></td>
+    <td><a href="images/retractable_usb_cable_hub.png"><img src="images/retractable_usb_cable_hub.png" alt="Black dual USB-C power hub" height="150px" /></a></td>
+    <td><a href="images/retractable_usb_charger_walnut.png"><img src="images/retractable_usb_charger_walnut.png" alt="Walnut cable organizer" height="150px" /></a></td>
+  </tr>
+  <tr>
+    <td>{{imgBasket}}<a href="https://amzn.to/4jifDC2#ad">(Amazon US)</a></td>
+    <td>{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4oe4KB1">(AliExpress)</a>
+        <a href="https://amzn.to/3SSHu0u#ad">(Amazon US)</a>
+        <a href="https://amzn.to/4enp1Sm#ad">(Amazon NL)</a></td>
+    <td>{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c2ud4CQX">(AliExpress)</a><br>(high shipping costs)</td>
+  </tr>
+</table>
 
 ---
 ## Footrest
