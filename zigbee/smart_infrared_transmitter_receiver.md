@@ -22,7 +22,7 @@ The signal of an infrared remote has no encryption and is always the same.
 This makes it easy to capture, store and resend the signal.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-<img src="images_infrared/airco_remote.webp" alt="airco with remote" height="100px" />
+<img src="images_infrared/airco_remote.webp" alt="air conditioner with remote" height="100px" />
 <img src="images_infrared/ceiling_fan_remote.webp" alt="ceiling fan with remote" height="100px" />
 <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" height="100px" />
 <img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
@@ -33,12 +33,12 @@ This makes it easy to capture, store and resend the signal.
 
 Read further how you can create a switch helper or via buttons on your **Home Assistant dashboard**, to control your infrared devices!
 
-Now I also can control my dump infrared controlled airco via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) as well with the Home Assistant integration!
+Now I can also control my dumb infrared-controlled air conditioner via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) as well with the Home Assistant integration!
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
 <a href="/elgato_stream_deck/stream_deck_home_assistant">
-<img src="/elgato_stream_deck/images/products/stream_deck_mk2.jpg" alt="control IR airco on/off via my Stream Deck" style="max-height:180px; width:auto;">
+<img src="/elgato_stream_deck/images/products/stream_deck_mk2.jpg" alt="control IR air conditioner on/off via my Stream Deck" style="max-height:180px; width:auto;">
 </a>
 <em style="display:block; text-align:center">Stream Deck keypad to control dump infrared device next to your computer</em>
 </div>
@@ -96,7 +96,7 @@ You can save a lot of signals on this box, each button on a remote and that for 
 > I used this solution also for my Christmas paper star, 
 see my dedicated page about my [automated Christmas lights and decorations](/projects/automate_christmas_decorations#infrared-lights).
 
-> I used this solution also for my airco.
+> I used this solution also for my air conditioner.
 
 ---
 ### Learning mode
@@ -184,7 +184,7 @@ This can be done by creating a helper on/off switch sensor, or with a button car
 #### Via a helper switch
 
 <a href="images_infrared/airco_control_switch.png">
-<img src="images_infrared/airco_control_switch.png" alt="helper switch to control the IR airco" width="400px" />
+<img src="images_infrared/airco_control_switch.png" alt="helper switch to control the IR air conditioner" width="400px" />
 </a>
 
 You can define a helper in the [graphical interface](/homeassistant/homeassistant_templates#via-the-frontend), then you only need to define the turn on and turn off mqtt.publish action with the topic and payload.

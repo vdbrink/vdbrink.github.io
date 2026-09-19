@@ -417,7 +417,7 @@ A nice solution is a retractable USB charging cable.
 You can pull it out when you need it, and it automatically rolls back in when you are done.
 
 <a href="images/retractable_usb_charger.avif">
-<img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" width="150px" />
+<img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" width="250px" />
 </a>
 
 * {{imgBasket}}Retractable USB-C power cable [(AliExpress)](https://s.click.aliexpress.com/e/_c4092nFx)

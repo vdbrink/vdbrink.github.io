@@ -2,7 +2,7 @@ title: Claude ai agent
 key: claude_ai_agent
 priority: 0
 description: With the Stream Deck + Claude you can start Claude, paste predefined prompts, and run different skills, all with a single click.
-  With the Jetstream plugin you can see for which project you run an active session and which one need attention.
+  With the Jetstream plugin you can see for which project you run an active session and which ones need attention.
 dependencies:
   - plugin: none
     actions:
@@ -15,7 +15,7 @@ dependencies:
             value: claude
           - key: Text
             value: claude
-      - name: Past any prompt
+      - name: Paste any prompt
         icon: 1
         download: claude_code_prompt-vdbrink.streamdeckaction
         type: (System) Text
@@ -50,9 +50,16 @@ dependencies:
             value: /clear
           - key: Text
             value: /clear
-    footnote: The above actions are examples how to configure them. Check here for all possible <a href="https://code.claude.com/docs/en/commands">Claude code commands</a>.
+    footnote: The above actions are examples of how to configure them. Check here for all possible <a href="https://code.claude.com/docs/en/commands">Claude Code commands</a>.
 
   - plugin: jetstream
+    image: jetstream_button_states.png
+    image_caption: Jetstream keys showing the state of every Claude Code session on my Stream Deck
     actions:
-      - name: User input needed, visualisation per project
-      - name: Still running visualisation per project
+      - name: User input needed, visualization per project
+      - name: Still running, visualization per project
+      - name: Session done, with the time since it finished
+      - name: Approve the open question (AskUserQuestion)
+      - name: Deny the open question (AskUserQuestion)
+      - name: Usage gauge - 5h and 7d used, plus time until the limit resets
+      - name: Stop all running sessions at once

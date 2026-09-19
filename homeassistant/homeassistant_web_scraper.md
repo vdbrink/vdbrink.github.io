@@ -147,7 +147,7 @@ Hopefully everything went well. Let's check the result!
 
 * Go in Home Assistant to the menu item **Developers Tools**
 * Go to the **State** tab
-* Filter on `eneco_flex_gas_price`
+* Filter by `eneco_flex_gas_price`
 
 Now the just created scrape sensor is available, and looks like this:
 

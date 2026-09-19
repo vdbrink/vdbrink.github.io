@@ -6,30 +6,37 @@ next-meeting-countdown:
   url: https://marketplace.elgato.com/product/next-meeting-countdown-31a397e9-e987-46cf-8885-d8e47368e98e
   price: Free
   os: "Mac"
+  description: "Counts down to your next calendar meeting on a key. It can also show the time left in the current meeting."
 
 meeting-controls:
   name: Meeting Controls for Stream Deck
   url: https://marketplace.elgato.com/product/meeting-controls-for-stream-deck-401cf6eb-4db3-4d55-8a37-db3719898cfa
   price: Free
   os: "Mac, Windows"
+  description: "Controls a running video meeting with your Stream Deck keys: (un)mute, raise your hand and hang up."
 
 jetbrains:
   name: JetBrains
   url: https://marketplace.elgato.com/product/jetbrains-ide-f20a34c4-8965-4e21-8c6a-2454786d748b
   price: Free
   os: "Mac, Windows"
+  description: "Triggers shortcuts and actions inside JetBrains IDEs."
 
 jetstream:
   name: Jetstream
   url: https://github.com/pimmesz/jetstream
   price: Free
   os: "Mac"
+  source: local
+  description: "Shows the live state of every Claude Code session/project on your keys: which project needs your input, which one is still working and which one is done, your 5h/7d usage, and keys to approve or deny an open question or stop all sessions at once."
+  installation: "Manual install: run <code>npm i -g @pimmesz/jetstream</code> and then <code>jetstream install</code>, which hands the packed plugin to your Stream Deck app."
 
 gitlab-dashboard:
   name: GitLab Dashboard
   url: https://marketplace.elgato.com/product/gitlab-dashboard-9b464d90-8c12-41be-b9c8-ce288eefc5f5
   price: Free
   os: "Mac, Windows"
+  description: "Shows live GitLab counters on your keys: the number of open merge requests, your own merge requests and open TODOs."
 
 home-assistant:
   name: Home Assistant
@@ -37,6 +44,7 @@ home-assistant:
   website: "https://github.com/cgiesche/streamdeck-homeassistant"
   price: Free
   os: "Mac, Windows"
+  description: "Controls and visualizes your Home Assistant entities: switch lights, smart plugs and control an air conditioner for example. Show live states like the room temperature or CO2 value."
 
 final-countdown:
   name: Final Countdown
@@ -44,16 +52,19 @@ final-countdown:
   price: Free
   os: "Mac"
   source: local
-  description: "Manual install: Double-click 'io.github.vdbrink.finalcountdown.streamDeckPlugin' in Finder to install the plugin in your Stream Deck app."
+  installation: "Manual install: Double-click 'io.github.vdbrink.finalcountdown.streamDeckPlugin' in Finder to install the plugin in your Stream Deck app."
+  description: "Counts down the days to a special date for you."
 
 spotify:
   name: Spotify
   url: https://marketplace.elgato.com/product/spotify-17f49e8b-09a0-4209-95ed-6dee2469f97b
   price: Free
   os: "Mac, Windows"
+  description: "Controls Spotify from your keys: play/stop/next, volume, start a specific playlist, and show the track that is playing with its cover."
 
 emoji-keys:
   name: Emoji Keys
   url: https://marketplace.elgato.com/product/emoji-keys-9009cce8-683c-44e5-b75a-33dcb2a2d085
   price: Free
   os: "Mac"
+  description: "Put ANY emoji on a key, so you can paste it with a single press."

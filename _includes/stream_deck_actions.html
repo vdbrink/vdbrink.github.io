@@ -26,7 +26,13 @@
 {% for dependency in category.dependencies %}
 
 {% assign plugin = site.data.streamdeck.plugins[dependency.plugin] %}
-<h4>
+{% if dependency.plugin == "none" %}
+{% assign plugin_anchor = anchor | append: '-builtin' %}
+{% else %}
+{% assign plugin_anchor = dependency.plugin %}
+{% if plugin_anchor == anchor %}{% assign plugin_anchor = plugin_anchor | append: '-plugin' %}{% endif %}
+{% endif %}
+<h4 id="{{ plugin_anchor }}">
     {% if dependency.plugin == "none" %}
     Built-in Stream Deck action, no plugin required
     {% else %}
@@ -39,23 +45,25 @@
     {% endif %}
     {% endif %}
 </h4>
-<p>
+{% if plugin.description %}
+<p class="sd-plugin-description">{{ plugin.description }}</p>
+{% endif %}
+
+<p class="sd-plugin-meta">
     {% if plugin.price %}
     Price: {{ plugin.price }}
     {% endif %}
-
     {% if plugin.os %}
     | OS: {{ plugin.os }}
     {% endif %}
-
     {% if plugin.website %}
     | <a href="{{ plugin.website }}">Website</a>
-    {% endif %}
+{% endif %}
 
-    {% if plugin.description %}
-    <br>
-    {{ plugin.description }}
-    {% endif %}
+    {% if plugin.installation %}
+<br>
+    {{ plugin.installation }}
+{% endif %}
 </p>
 
 <ul class="sd-action-list">

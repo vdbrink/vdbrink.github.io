@@ -126,7 +126,7 @@ See how to do this:
 
 <img src="images_weather/buienradar_camera_activate.gif" alt="Enable camera.buienradar entity" width="400px">
 
-Or direct go to all entities [![Open your Home Assistant instance and show the entities.](https://my.home-assistant.io/badges/entities.svg)](https://my.home-assistant.io/redirect/entities) and filter on `camera.buienradar`.
+Or direct go to all entities [![Open your Home Assistant instance and show the entities.](https://my.home-assistant.io/badges/entities.svg)](https://my.home-assistant.io/redirect/entities) and filter by `camera.buienradar`.
 
 #### Create the dashboard card
 

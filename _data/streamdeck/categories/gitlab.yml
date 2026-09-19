@@ -6,7 +6,7 @@ dependencies:
   - plugin: gitlab-dashboard
     actions:
       - name: Open merge requests count
-      - name: My merge request count
+      - name: My merge requests count
       - name: Open TODO count
     wishes:
       - name: Count based on specific branch names
@@ -20,6 +20,6 @@ dependencies:
           - key: Title
             value: Project X
           - key: path
-            value: "https://gitlab.com/company/development/team/project/frontend"
+            value: "https://gitlab.com/company/dev/team/project/frontend"
     wishes:
       - name: Failed personal pipelines count

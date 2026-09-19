@@ -5,7 +5,7 @@ description: Display the days countdown until a special day. It's fully customiz
 dependencies:
   - plugin: final-countdown
     actions:
-      - name: Days countdown to ... birthday, holiday, product launch, marriage, etc
+      - name: Days countdown to ... a birthday, holiday, product launch, marriage, etc.
         icon: final_countdown_holiday
         icon_border: false
         type: (Final Countdown) Final Countdown

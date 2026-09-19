@@ -1,11 +1,11 @@
 title: Google Mail
 key: google_mail
 priority: 70
-description: The Stream Deck can be used with Google Mail to quickly filter on specific labels.
+description: The Stream Deck can be used with Google Mail to quickly filter by specific labels.
 dependencies:
   - plugin: none
     actions:
-      - name: Filter on unread mails
+      - name: Filter by unread email
         icon: google_mail
         download: google_mail_label_unread-vdbrink.streamDeckAction
         type: (System) Text
@@ -14,7 +14,7 @@ dependencies:
             value: "label:unread"
           - key: Text
             value: "label:unread"
-      - name: Filter on a specific label (`gitlab` in this example)
+      - name: Filter by a specific label ('gitlab' here)
         icon: google_mail
         download: google_mail_label_any-vdbrink.streamDeckAction
         type: (System) Text
@@ -23,7 +23,7 @@ dependencies:
             value: "label:gitlab"
           - key: Text
             value: "label:gitlab"
-      - name: Filter on spam mails
+      - name: Filter by spam email
         icon: google_mail
         download: google_mail_in_spam-vdbrink.streamdeckaction
         type: (System) Text
@@ -33,5 +33,5 @@ dependencies:
           - key: Text
             value: "in:spam"
     wishes:
-      - name: Show the number of new inbox mails
-      - name: Show the number of mails for a specific label
+      - name: Show the number of new inbox emails
+      - name: Show the number of emails for a specific label

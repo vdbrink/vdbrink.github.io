@@ -2,8 +2,8 @@ title: IntelliJ Idea
 key: intellij
 priority: 100
 description: Here are just a few example keyboard shortcuts for IntelliJ on macOS.<br>
-  You can define any keyboard shortcut combination as key on your Stream Deck,
-  for your own preferred IDE (VS Code, Eclipse, NetBeans, VIM, etc...)
+  You can define any keyboard shortcut combination as a key on your Stream Deck,
+  for your own preferred IDE (VS Code, Eclipse, NetBeans, VIM, etc.)
 dependencies:
   - plugin: none
     actions:

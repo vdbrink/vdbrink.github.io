@@ -341,7 +341,7 @@ template:
 ### Low battery
 
 Get all devices by name that have a battery level below 10 percent in a sorted list.
-It is not possible to simply filter on the state, because all states in Home Assistant are strings, and comparing `"6"` with `"10"` gives unwanted results (`"6" < "10"` returns `false`).\
+It is not possible to simply filter by the state, because all states in Home Assistant are strings, and comparing `"6"` with `"10"` gives unwanted results (`"6" < "10"` returns `false`).\
 Therefore, the strings need to be converted to numbers first.\
 Because we also want to access the other properties, this requires a for-loop.
 To access the data created in the for-loop outside the loop, a namespace has to be used.

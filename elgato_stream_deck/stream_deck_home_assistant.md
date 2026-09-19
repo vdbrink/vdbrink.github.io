@@ -24,7 +24,7 @@ What you can control and show on the Stream Deck:
 - [Toggle lights, with the live on/off state and light color on the key](#lights-control)
 - [Switch smart sockets on or off and see which devices are still powered](#smart-socket-control)
 - [Show live sensor values, like the current office temperature, humidity, CO2](#show-current-states-like-temperature-humidity-co2)
-- [Turn a non-smart airco on or off via an IR transmitter](#ac-control-via-ir)
+- [Turn a non-smart air conditioner on or off via an IR transmitter](#ac-control-via-ir)
 - [Open your camera stream dashboard with a single key press](#direct-open-camera-streams)
 
 ---
@@ -76,22 +76,22 @@ These keys shows the current value of a CO2, humidity and temperature `sensor` e
 
 ## AC control via IR
 
-My airco has no smart connection, only an infrared remote.
-With a [Zigbee IR transmitter](/zigbee/smart_infrared_transmitter_receiver) controlled by Home Assistant I can send the same IR codes as the original airco remote.\
-This key toggles a template switch in Home Assistant which sends the IR on/off code via Zigbee2MQTT to the airco.
-Now I can control my airco direct from Home Assistant with automations or manually from my Stream Deck.
+My air conditioner has no smart connection, only an infrared remote.
+With a [Zigbee IR transmitter](/zigbee/smart_infrared_transmitter_receiver) controlled by Home Assistant I can send the same IR codes as the original air conditioner remote.\
+This key toggles a template switch in Home Assistant which sends the IR on/off code via Zigbee2MQTT to the air conditioner.
+Now I can control my air conditioner directly from Home Assistant with automations or manually from my Stream Deck.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
 <a href="/zigbee/smart_infrared_transmitter_receiver">
-<img src="images/home_assistant/ha_ac_ir.png" alt="control IR airco on/off via my Stream Deck" style="max-height:80px; width:auto;">
+<img src="images/home_assistant/ha_ac_ir.png" alt="control IR air conditioner on/off via my Stream Deck" style="max-height:80px; width:auto;">
 </a>
-<em style="display:block; text-align:center">control IR airco on/off via a Stream Deck</em>
+<em style="display:block; text-align:center">control IR air conditioner on/off via a Stream Deck</em>
 </div>
 
 <div style="text-align:center">
 <a href="/zigbee/smart_infrared_transmitter_receiver">
-<img src="/zigbee/images_infrared/airco_remote.webp" alt="airco with remote" style="max-height:80px; width:auto;" />
+<img src="/zigbee/images_infrared/airco_remote.webp" alt="air conditioner with remote" style="max-height:80px; width:auto;" />
 </a>
 </div>
 </div>
@@ -101,9 +101,9 @@ Now I can control my airco direct from Home Assistant with automations or manual
 This is a diagram of how it technically works:
 
 <a href="images/home_assistant/ir_flow_diagram.png">
-<img src="images/home_assistant/ir_flow_diagram.png" alt="Stream Deck to Airco flow diagram" width="100%" />
+<img src="images/home_assistant/ir_flow_diagram.png" alt="Stream Deck to air conditioner flow diagram" width="100%" />
 </a>
-<em style="display:block; text-align:center">Stream Deck -> Home Assistant -> Zigbee2MQTT -> Zigbee IR transmitter -> Airco</em>
+<em style="display:block; text-align:center">Stream Deck -> Home Assistant -> Zigbee2MQTT -> Zigbee IR transmitter -> AC</em>
 
 ## Direct open camera streams
 
