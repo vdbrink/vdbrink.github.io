@@ -3,6 +3,8 @@ none:
 
 next-meeting-countdown:
   name: Next Meeting Countdown
+  author: "6-Love"
+  icon: next-meeting-countdown.png
   url: https://marketplace.elgato.com/product/next-meeting-countdown-31a397e9-e987-46cf-8885-d8e47368e98e
   price: Free
   os: "Mac"
@@ -10,13 +12,17 @@ next-meeting-countdown:
 
 meeting-controls:
   name: Meeting Controls for Stream Deck
+  author: "Kolaborate"
+  icon: meeting-controls.png
   url: https://marketplace.elgato.com/product/meeting-controls-for-stream-deck-401cf6eb-4db3-4d55-8a37-db3719898cfa
   price: Free
   os: "Mac, Windows"
   description: "Controls a running video meeting with your Stream Deck keys: (un)mute, raise your hand and hang up."
 
 jetbrains:
-  name: JetBrains
+  name: JetBrains IDE
+  author: "JetBrains"
+  icon: jetbrains.png
   url: https://marketplace.elgato.com/product/jetbrains-ide-f20a34c4-8965-4e21-8c6a-2454786d748b
   price: Free
   os: "Mac, Windows"
@@ -24,6 +30,8 @@ jetbrains:
 
 jetstream:
   name: Jetstream
+  author: "pimmesz"
+  icon: jetstream.png
   url: https://github.com/pimmesz/jetstream
   price: Free
   os: "Mac"
@@ -33,6 +41,8 @@ jetstream:
 
 gitlab-dashboard:
   name: GitLab Dashboard
+  author: "Wei-Meng Lee"
+  icon: gitlab-dashboard.png
   url: https://marketplace.elgato.com/product/gitlab-dashboard-9b464d90-8c12-41be-b9c8-ce288eefc5f5
   price: Free
   os: "Mac, Windows"
@@ -40,6 +50,8 @@ gitlab-dashboard:
 
 home-assistant:
   name: Home Assistant
+  author: "Christoph Giesche"
+  icon: home-assistant.png
   url: https://marketplace.elgato.com/product/home-assistant-884c8c3e-8477-4ecb-99e0-f3101bbfa0aa
   website: "https://github.com/cgiesche/streamdeck-homeassistant"
   price: Free
@@ -48,6 +60,8 @@ home-assistant:
 
 final-countdown:
   name: Final Countdown
+  author: "vdbrink"
+  icon: final-countdown.png
   url: https://github.com/vdbrink/stream-deck-plugin-final-countdown/raw/refs/heads/main/dist/io.github.vdbrink.finalcountdown.streamDeckPlugin
   price: Free
   os: "Mac"
@@ -57,6 +71,8 @@ final-countdown:
 
 spotify:
   name: Spotify
+  author: "Elgato"
+  icon: spotify.png
   url: https://marketplace.elgato.com/product/spotify-17f49e8b-09a0-4209-95ed-6dee2469f97b
   price: Free
   os: "Mac, Windows"
@@ -64,6 +80,8 @@ spotify:
 
 emoji-keys:
   name: Emoji Keys
+  author: "Max"
+  icon: emoji-keys.png
   url: https://marketplace.elgato.com/product/emoji-keys-9009cce8-683c-44e5-b75a-33dcb2a2d085
   price: Free
   os: "Mac"

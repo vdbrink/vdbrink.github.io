@@ -36,8 +36,13 @@
     {% if dependency.plugin == "none" %}
     Built-in Stream Deck action, no plugin required
     {% else %}
-    {% assign plugin_source = plugin.source | default: "market" %}
+    {% assign plugin_source = plugin.source | default: "marketplace" %}
     Stream Deck {{ plugin_source | capitalize }} Plugin:
+    {% if plugin.icon %}
+    {% if plugin.url %}<a href="{{ plugin.url }}">{% endif %}
+    <img class="sd-plugin-icon" src="/elgato_stream_deck/images/plugins/{{ plugin.icon }}" alt="{{ plugin.name }} icon"/>
+    {% if plugin.url %}</a>{% endif %}
+    {% endif %}
     {% if plugin.url %}
     <a href="{{ plugin.url }}">{{ plugin.name }}</a>
     {% else %}
@@ -50,6 +55,9 @@
 {% endif %}
 
 <p class="sd-plugin-meta">
+    {% if plugin.author %}
+    By {{ plugin.author }} |
+    {% endif %}
     {% if plugin.price %}
     Price: {{ plugin.price }}
     {% endif %}
@@ -65,6 +73,17 @@
     {{ plugin.installation }}
 {% endif %}
 </p>
+
+{% if dependency.image %}
+<div class="sd-dependency-figure">
+<a href="/elgato_stream_deck/images/{{ dependency.image }}">
+<img class="sd-dependency-image" src="/elgato_stream_deck/images/{{ dependency.image }}" alt="{{ dependency.image_caption | default: plugin.name }}"/>
+</a>
+{% if dependency.image_caption %}
+<em class="sd-dependency-caption">{{ dependency.image_caption }}</em>
+{% endif %}
+</div>
+{% endif %}
 
 <ul class="sd-action-list">
     {% for action in dependency.actions %}

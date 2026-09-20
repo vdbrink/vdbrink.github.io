@@ -4,8 +4,12 @@ priority: 110
 description: The button actions here trigger basic macOS features.
 dependencies:
   - plugin: none
+    image: macos/hotkey_default_actions.png
+    image_caption: "The default System > Hotkey key contains some default OS actions, like editing, lock screen and log out,
+      screenshots and Mission Control actions. These actions trigger the keyboard key combination.
+      <br>This key can also be used to trigger any other key combination."
     actions:
-      - name: Lock PC
+      - name: Lock the Screen
         icon: 1
         download: mac_os_lock_screen-vdbrink.streamDeckAction
         type: (System) Hotkey
@@ -14,7 +18,7 @@ dependencies:
             value: lock
           - key: Hotkey
             value: ⌃ ⌘ Q
-      - name: Take a screenshot
+      - name: Take a screenshot for a selected area and save as file
         icon: 1
         download: mac_os_screen_shot-vdbrink.streamDeckAction
         type: (System) Hotkey
@@ -23,6 +27,14 @@ dependencies:
             value: screenshot
           - key: Hotkey
             value: ⇧ ⌘ 4
+      - name: Any keyboard shortcut
+        icon: 1
+        type: (System) Hotkey
+        fields:
+          - key: Title
+            value: any key combination
+          - key: Hotkey
+            value: Observing keystrokes...
     wishes:
       - name: RSS reader
 footnote: Check here for all <a href="https://support.apple.com/en-us/102650">Mac keyboard shortcuts</a> to create other button actions.

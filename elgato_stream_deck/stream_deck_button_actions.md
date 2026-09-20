@@ -11,28 +11,43 @@ tags: [Elgato, Stream Deck, software, developer, actions]
 
 <img src="/elgato_stream_deck/images/my_sd_xl.png" alt="My Stream Deck XL page" width="100%" />
 
-On this page I share and explain buttons I use on my Stream Deck 
-and how YOU can use them on your Stream Deck to trigger tasks in your daily work as well.
+On this page I share and explain the buttons I use on my Stream Deck,
+and how YOU can use them on your own Stream Deck to trigger tasks in your daily work as well.
 
----
-Where do you use it for?\
-To control your AI agents (Claude Code, Codex, Copilot), IDEs (IntelliJ, VS Code), videocalls (Meet, Teams, Zoom)?
-
-If you know cool and useful actions for macOS software developers yourself, I'm always looking for new ones.
-Please let me know via a GitHub issue or a comment on one of my socials posts.
+What do you want to use it for?
+To control your AI agents (Claude Code, Codex, Copilot), your IDE (IntelliJ, VS Code) or your video calls (Meet, Teams, Zoom)? What more?
 
 ---
 
-> **_NOTE:_** All actions on this page are specific for macOS.
-> The same solutions are probably also possible on Windows, but with different plugins.
+## How to use this page
 
-You can directly download most of the action direct from here and import them into your own Stream Deck. Or just use them as examples for all kinds of similar button actions!
+* The buttons are grouped per category.
+* Most actions can be downloaded directly from here and imported into your own Stream Deck.
+* Or use them as examples for all kinds of similar button actions.
 
-I grouped the buttons per category.
-Some work out-of-the-box, others need a plugin from the Elgato store, and others need to be installed manually or need extra programs or scripts as well to work correctly.
+<br>
 
-> **_NOTE:_** This page will constantly be updated with new plugins and integrations. \
-I've already added placeholders for features I already have running and I will describe them in the upcoming months. 
-Bookmark this page and come back after a while for extra possibilities.
+Not every button works the same way:
+
+* Some work out of the box with the predefined built-in actions in the Stream Deck app.
+* Some need a plugin from the Elgato Marketplace plugin.
+* Some need a plugin that is installed manually.
+* Some need an extra program or script to work correctly.
+
+<br>
+
+All actions on this page are specific for macOS.
+The same solutions are probably also possible on Windows, but sometimes you need a different plugins for it.
+
+> **_NOTE:_** This page is constantly updated with new plugins and integrations.\
+> I've added placeholders for features I already have running and will describe in the upcoming months.
+> Bookmark this page and come back after a while for extra possibilities.
+
+Do you know cool and useful Stream Deck actions for macOS software developers yourself?
+I'm always looking for new ones, let me know via a GitHub issue or a comment on one of my social posts.
+
+---
+
+## Example buttons
 
 {% include stream_deck_actions.html %}
