@@ -185,10 +185,12 @@ You can directly attach it to a contact-/water leak sensor.
 <a href="https://s.click.aliexpress.com/e/_c3uYUMaV" target="_blank">
 <img src="/zigbee/images_chair/pressure_mat_bigger.avif" height="180px" alt="pressure sensor big" /></a>
 
+
 <a href="https://s.click.aliexpress.com/e/_c3phM4ij" target="_blank">
 <img src="images_diy/pressure_sensor.webp" height="180px" alt="pressure sensor smal" /></a>
 
 {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3phM4ij" target="_blank">smaller version (AliExpress)</a>
+<a href="https://amzn.to/4jdyoXl" target="_blank">(Amazon)</a>
 
 ### Weight sensor
 
@@ -203,10 +205,10 @@ The HX711 Module comes with four pressure sensors which you can place under your
 
 Can be used, together with a contact sensor, to create your own rain gauge sensor.
 
-<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">
+<a href="https://s.click.aliexpress.com/e/_c2vzJch7" target="_blank">
 <img src="images_diy/rain_sensor_gauge.webp" height="180px" alt="rain gauge sensor" /></a>
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3FbSP1F" target="_blank">Rain gauge, link (AliExpress)</a>
+{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c2vzJch7" target="_blank">Rain gauge, link (AliExpress)</a>
 
 ### Waterproof temperature sensor
 

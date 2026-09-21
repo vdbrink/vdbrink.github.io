@@ -192,7 +192,7 @@ See this `configuration.yaml` definition how it also can be defined in code.
 In the graphical interface are the fields `value_template` and `assumed_state` not possible to define.
 
 ```yaml
-{ % raw % }
+{% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard button card code
 switch:
@@ -213,7 +213,7 @@ switch:
             payload: '{"ir_code_to_send":"<OFF_CODE_HERE>"}'
         value_template: "{{ is_state('input_boolean.ac_state', 'on') }}"
         assumed_state: true
-  { % endraw % }
+{% endraw %}
 ```
 <em style="display:block; text-align:center">helper switch defined in configuration.yaml in HA</em>
 <div style="text-align:center">
