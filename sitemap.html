@@ -1,0 +1,51 @@
+---
+title: "Sitemap"
+description: "Overview of all pages on this site, grouped per topic."
+---
+
+<h1>Sitemap</h1>
+
+<p class="hp-lead">All pages on this site, grouped per topic. For the posts, see the <a href="/feed.html">posts overview</a>.</p>
+
+{%- assign all_pages = site.html_pages | sort: "dir" -%}
+{%- assign groups = all_pages | group_by: "dir" -%}
+
+<div class="sitemap-nav">
+{%- for group in groups -%}
+{%- if group.name contains "/tag/" or group.name contains "_drafts" or group.name contains "/assets/" -%}{%- continue -%}{%- endif -%}
+{%- assign index_page = group.items | where: "name", "index.md" | first -%}
+{%- if group.name == "/" -%}{%- assign group_title = "General" -%}{%- elsif index_page -%}{%- assign group_title = index_page.title -%}{%- else -%}{%- assign group_title = group.name | remove_first: "/" | split: "/" | first | replace: "_", " " | replace: "-", " " | capitalize -%}{%- if group_title.size <= 2 -%}{%- assign group_title = group_title | upcase -%}{%- endif -%}{%- endif -%}
+<a href="#{{ group.name | slugify | default: 'general' }}">{{ group_title | split: ":" | first }}</a>
+{%- endfor -%}
+<a href="#posts">Posts</a>
+</div>
+
+{%- for group in groups -%}
+{%- if group.name contains "/tag/" or group.name contains "_drafts" or group.name contains "/assets/" -%}{%- continue -%}{%- endif -%}
+{%- assign index_page = group.items | where: "name", "index.md" | first -%}
+{%- if group.name == "/" -%}{%- assign group_title = "General" -%}{%- elsif index_page -%}{%- assign group_title = index_page.title -%}{%- else -%}{%- assign group_title = group.name | remove_first: "/" | split: "/" | first | replace: "_", " " | replace: "-", " " | capitalize -%}{%- if group_title.size <= 2 -%}{%- assign group_title = group_title | upcase -%}{%- endif -%}{%- endif -%}
+<div class="sitemap-group">
+<h2 id="{{ group.name | slugify | default: 'general' }}">
+{%- if index_page and group.name != "/" -%}<a href="{{ index_page.url | relative_url }}">{{ group_title }}</a>{%- else -%}{{ group_title }}{%- endif -%}
+</h2>
+<ul class="sitemap-list">
+{%- assign sub_pages = group.items | sort: "title" -%}
+{%- for p in sub_pages -%}
+{%- if p.sitemap == false -%}{%- continue -%}{%- endif -%}
+{%- if p.name == "index.md" and group.name != "/" -%}{%- continue -%}{%- endif -%}
+{%- assign fallback_title = p.name | split: "." | first | replace: "_", " " | replace: "-", " " | capitalize -%}
+<li><a href="{{ p.url | relative_url }}">{{ p.title | default: fallback_title | escape }}</a></li>
+{%- endfor -%}
+</ul>
+</div>
+{%- endfor -%}
+
+<div class="sitemap-group">
+<h2 id="posts"><a href="/feed.html">Posts</a></h2>
+<ul class="sitemap-list">
+{%- assign sorted_posts = site.posts | sort: "date" | reverse -%}
+{%- for post in sorted_posts -%}
+<li><a href="{{ post.url | relative_url }}">{{ post.title | remove_first: "Feed: " | escape }}</a> <span class="hp-date">{{ post.date | date: "%b %d, %Y" }}</span></li>
+{%- endfor -%}
+</ul>
+</div>
