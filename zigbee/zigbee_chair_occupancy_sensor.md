@@ -4,6 +4,7 @@ category: Zigbee
 tags: [Zigbee, occupancy, diy, zigbee, WiFi, contact, sensor, Aqara, chair, office, cat, bed, mat, pressure, car]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
 # DIY chair occupancy sensor
 *Based on a leak or contact sensor and a car seat pressure sensor*
@@ -85,7 +86,7 @@ This can be achieved with two different types of sensors.
 A water leak sensor or a contact sensor. 
 Both work with a boolean (true of false) state.
 
-1a. <a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">Aqara Zigbee water leak sensor (AliExpress)</a>
+1a. {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">Aqara Zigbee water leak sensor (AliExpress)</a>
 [(Amazon)](https://amzn.to/4AkIkVn#ads)
 
 (No soldering required)\
@@ -97,19 +98,19 @@ The Aqara Zigbee leak sensor has two metal screw contacts on the back of the sen
 
 <br>
 
-1b. Or use any <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">Zigbee Contact sensor (AliExpress)</a> 
+1b. Or use any {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">Zigbee Contact sensor (AliExpress)</a> 
 [(Amazon)](https://amzn.to/4xWyGWB#ads)
 (or WiFi version). 
 Soldering is required if you use this way.\
 A contact sensor is (mostly) cheaper than the water leak, but it requires soldering.
 
-On this page I describe how it works with this <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">contact sensor (AliExpress)</a> [(Amazon)](https://amzn.to/4xWyGWB#ads).
+On this page I describe how it works with this {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">contact sensor (AliExpress)</a> [(Amazon)](https://amzn.to/4xWyGWB#ads).
 
 <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">
 <img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="contact sensor" width="200px">
 </a>
 
-1c. Or use an alternative <a href="https://s.click.aliexpress.com/e/_omkbvFz" target="_blank">(Zigbee/WiFi) leak sensor (AliExpress)</a> [(Amazon)](https://amzn.to/46ACEJe#ads) (No soldering required)\
+1c. Or use an alternative {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_omkbvFz" target="_blank">(Zigbee/WiFi) leak sensor (AliExpress)</a> [(Amazon)](https://amzn.to/46ACEJe#ads) (No soldering required)\
 This alternative leak sensor has external contact point, really easy to connect to the two seat sensor wires. 
 See 3a how to connect the wires from the leak- and pressure sensor with each other.
 
@@ -138,8 +139,8 @@ See 3a how to connect the wires from the leak- and pressure sensor with each oth
 </a>
 
 3b. To connect it to the contact sensor, you need soldering tools:
-* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (AliExpress)</a> [(Amazon)](https://amzn.to/3TcfCFq#ads)
-* <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron tin (AliExpress)</a> [(Amazon)](https://amzn.to/4hjQhBc#ads)
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron (AliExpress)</a> [(Amazon)](https://amzn.to/3TcfCFq#ads)
+* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">Soldering iron tin (AliExpress)</a> [(Amazon)](https://amzn.to/4hjQhBc#ads)
 
 <br>
 3c. Or use hot glue. That can also be possible as long as the metals make contact!

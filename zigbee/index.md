@@ -215,7 +215,7 @@ You can use a {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oFCMjGU" t
 
 ## Zigbee2MQTT
 
-<img src="images/zigbee2mqtt.png" alt="Zigbee2MQTT" height="150px" style="margin-left:15px;float:right"/></a>
+<img src="images/zigbee2mqtt.png" alt="Zigbee2MQTT" height="150px" style="margin-left:15px;float:right"/>
 [Zigbee2MQTT](https://www.zigbee2mqtt.io/) is the application which retrieves the sensor data via the coordinator, and convert the data to a JSON format and push that data to the MQTT topics.
 
 You can also send data to sensors and actuators on their topic to define settings, like activate a socket or set a light to a specific color and brightness.
