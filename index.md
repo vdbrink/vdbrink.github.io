@@ -61,6 +61,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <h2>Popular pages</h2>
 <p class="hp-lead">The most visited pages by other home automation enthusiasts.</p>
 </div>
+<a href="/sitemap.html">All pages &rarr;</a>
 </div>
 <div class="hp-tiles">
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_weather_nl">
@@ -110,6 +111,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <h2>All topics</h2>
 <p class="hp-lead">Browse the site by subject. Click a topic to see all its articles, or jump straight to one of the highlighted pages listed below it.</p>
 </div>
+<a href="/sitemap.html">All pages &rarr;</a>
 </div>
 <div class="hp-topic-grid">
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'homeassistant/'" | size -%}
