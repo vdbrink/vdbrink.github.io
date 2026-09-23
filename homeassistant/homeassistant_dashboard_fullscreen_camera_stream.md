@@ -112,8 +112,9 @@ actions:
 A: Yes, that's also possible with the property `timeout` under the `data` tag, you can set a timeout in milliseconds after which the popup will automatically close.
 
 **Q: Can I restrict the popup to only show on a specific dashboard/browser?**\
-A: Yes, you can add the property `deviceID:` under the `data` tag to define a single browser to show the popup on, instead of all browsers.
-The `deviceID` can be found in the browser_mod integration page.
+A: Yes, you can add the property `browser_id:` under the `data` tag to define a single browser to show the popup on, instead of all browsers.
+In Browser Mod 2.x this property is called `browser_id`; the older Browser Mod v1 used `deviceID` instead, which no longer works in 2.x.
+The `browser_id` can be found in the browser_mod integration page.
 
 Click on this button to open your Browser mod integration page
 
@@ -123,7 +124,7 @@ Click on this button to open your Browser mod integration page
 ...
 actions:
   - data:
-      deviceID:
+      browser_id:
           - browser_mod_0c68c302_d198f995
       size: fullscreen
       ...

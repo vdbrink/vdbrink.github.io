@@ -126,12 +126,27 @@ Install this integration, via this button, into your own Home Assistant instance
 ```yaml
 # Dashboard card code
 type: custom:html-card
-content: >
+content: |
   <center>
-   <video width="450" height="260" controls class="video-js" data-setup="{}">
+   <video width="450" height="260" autoplay loop muted playsinline controls> class="video-js" data-setup="{}"> 
     <source src="http://<ip-address:port>/api/camera_1/person/clip.mp4" type="video/mp4">
    </video>
   </center>
+```
+
+Or show only a snapshot image from Frigate.
+
+```yaml
+action: browser_mod.popup
+data:
+  size: fullscreen
+  title: Camera
+  content:
+    type: picture-entity
+    entity: camera.camera_name
+    camera_view: live
+    show_state: false
+    show_name: false
 ```
 
 ---
