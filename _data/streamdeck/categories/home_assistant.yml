@@ -6,7 +6,15 @@ dependencies:
     image: home_assistant/home-assistant_stream_deck_integration.gif
     actions:
       - name: Control lights
+        icon: /elgato_stream_deck/images/home_assistant/ha_light_ai_action.png
+        type: (Home Assistant) Entity (generic)
       - name: Control smart plugs
+        icon: /elgato_stream_deck/images/home_assistant/ha_power_switch_phone_charger.png
+        type: (Home Assistant) Entity (generic)
       - name: Control the AC
+        icon: /elgato_stream_deck/images/home_assistant/ha_ac_ir.png
+        type: (Home Assistant) Entity (generic)
       - name: Show entity states like temperature
-footnote: See more info on my <a href="/elgato_stream_deck/stream_deck_home_assistant">dedicated page</a> about this integration.
+        icon: /elgato_stream_deck/images/home_assistant/ha_states.png
+        type: (Home Assistant) Entity (generic)
+footnote: See more info on my <a href="/elgato_stream_deck/stream_deck_home_assistant">dedicated page</a> about this integration. Use the plugin to define these buttons.

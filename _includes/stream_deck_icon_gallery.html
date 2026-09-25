@@ -14,7 +14,12 @@
     {% if action.icon == 1 and action.download %}
     {% assign icon_src = action.download | split: '.' | first | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
     {% elsif action.icon != 1 %}
+    {% assign icon_first = action.icon | slice: 0 %}
+    {% if icon_first == '/' %}
+    {% assign icon_src = action.icon %}
+    {% else %}
     {% assign icon_src = action.icon | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
+    {% endif %}
     {% endif %}
     {% if icon_src and seen_icons contains icon_src %}
     {% assign icon_src = nil %}

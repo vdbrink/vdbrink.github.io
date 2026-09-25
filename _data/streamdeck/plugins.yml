@@ -56,7 +56,7 @@ home-assistant:
   website: "https://github.com/cgiesche/streamdeck-homeassistant"
   price: Free
   os: "Mac, Windows"
-  description: "Controls and visualizes your Home Assistant entities: switch lights, smart plugs and control an air conditioner for example. Show live states like the room temperature or CO2 value."
+  description: "Controls and visualizes your Home Assistant entities, for example light switches, smart plugs or an air conditioner. It can also show live states like the room temperature or CO2 value."
 
 final-countdown:
   name: Final Countdown
@@ -67,7 +67,7 @@ final-countdown:
   os: "Mac"
   source: local
   installation: "Download the plugin, then double-click <code>io.github.vdbrink.finalcountdown.streamDeckPlugin</code> in Finder to install the plugin in your Stream Deck app."
-  description: "Counts down the days to a special date for you, this can be a birthday, holiday, product launch, marriage, etc."
+  description: "Counts down the days to a special date for you, such as a birthday, holiday, product launch or wedding."
 
 spotify:
   name: Spotify
@@ -85,4 +85,4 @@ emoji-keys:
   url: https://marketplace.elgato.com/product/emoji-keys-9009cce8-683c-44e5-b75a-33dcb2a2d085
   price: Free
   os: "Mac"
-  description: "Choose from over >5000 emojis to use as shortcut key, so you can paste it with a single button press."
+  description: "Choose from over 5000 emojis to use as a shortcut key, so you can paste one with a single button press."

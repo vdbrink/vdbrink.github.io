@@ -94,8 +94,10 @@
         {% if action.download %}
         <a href="/elgato_stream_deck/actions/{{ action.download }}">
         {% endif %}
-        <div class="sd-action-detail">
-            {% if action.download %}
+        {% assign has_detail = false %}
+        {% if action.fields or action.remark or action.type %}{% assign has_detail = true %}{% endif %}
+        <div class="{% if has_detail %}sd-action-detail{% else %}sd-action-icon-only{% endif %}">
+            {% if action.download and has_detail %}
             <svg class="sd-action-download-icon" aria-label="download icon" viewBox="0 0 24 24" fill="#fff"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
             {% endif %}
             {% if action.type %}
@@ -125,7 +127,12 @@
             {% endfor %}
             <div class="sd-action-icon-text{% if icon_text.size == 1 %} sd-action-icon-text--single{% endif %}">{{ icon_text }}</div>
             {% elsif action.icon %}
+            {% assign icon_first = action.icon | slice: 0 %}
+            {% if icon_first == '/' %}
+            {% assign icon_src = action.icon %}
+            {% else %}
             {% assign icon_src = action.icon | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
+            {% endif %}
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
             {% else %}
