@@ -37,7 +37,7 @@ jetstream:
   os: "Mac"
   source: local
   description: "Shows the live state of every Claude Code session/project on your keys: which project needs your input, which one is still working and which one is done, your 5h/7d usage, and keys to approve or deny an open question or stop all sessions at once."
-  installation: "Manual install: run <code>npm i -g @pimmesz/jetstream</code> and then <code>jetstream install</code>, which hands the packed plugin to your Stream Deck app."
+  installation: "Run <code>npm i -g @pimmesz/jetstream</code> and then <code>jetstream install</code>, which hands the packed plugin to your Stream Deck app."
 
 gitlab-dashboard:
   name: GitLab Dashboard
@@ -60,14 +60,14 @@ home-assistant:
 
 final-countdown:
   name: Final Countdown
-  author: "vdbrink"
+  author: "vdbrink (myself)"
   icon: final-countdown.png
   url: https://github.com/vdbrink/stream-deck-plugin-final-countdown/raw/refs/heads/main/dist/io.github.vdbrink.finalcountdown.streamDeckPlugin
   price: Free
   os: "Mac"
   source: local
-  installation: "Manual install: Double-click 'io.github.vdbrink.finalcountdown.streamDeckPlugin' in Finder to install the plugin in your Stream Deck app."
-  description: "Counts down the days to a special date for you."
+  installation: "Download the plugin, then double-click <code>io.github.vdbrink.finalcountdown.streamDeckPlugin</code> in Finder to install the plugin in your Stream Deck app."
+  description: "Counts down the days to a special date for you, this can be a birthday, holiday, product launch, marriage, etc."
 
 spotify:
   name: Spotify
@@ -85,4 +85,4 @@ emoji-keys:
   url: https://marketplace.elgato.com/product/emoji-keys-9009cce8-683c-44e5-b75a-33dcb2a2d085
   price: Free
   os: "Mac"
-  description: "Put ANY emoji on a key, so you can paste it with a single press."
+  description: "Choose from over >5000 emojis to use as shortcut key, so you can paste it with a single button press."

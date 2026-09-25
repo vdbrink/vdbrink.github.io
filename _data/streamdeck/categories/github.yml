@@ -1,7 +1,7 @@
 title: GitHub
 key: github
 priority: 50
-description: Stream Deck + GitHub opens your open-source repositories directly.
+description: Stream Deck + GitHub open your open-source repositories sections on GitHub with a single button click.
 dependencies:
   - plugin: none
     actions:

@@ -14,8 +14,8 @@ tags: [Elgato, Stream Deck, software, developer, actions]
 On this page I share and explain the buttons I use on my Stream Deck,
 and how YOU can use them on your own Stream Deck to trigger tasks in your daily work as well.
 
-What do you want to use it for?
-To control your AI agents (Claude Code, Codex, Copilot), your IDE (IntelliJ, VS Code) or your video calls (Meet, Teams, Zoom)? What more?
+What do you want to use it for?\
+Also like me to control your AI agents (Claude Code, Codex, Copilot), your IDE (IntelliJ, VS Code) and your video calls (Meet, Teams, Zoom)? What more?
 
 ---
 
@@ -49,5 +49,8 @@ I'm always looking for new ones, let me know via a GitHub issue or a comment on 
 ---
 
 ## Example buttons
+
+For these applications do I have buttons on my Stream Deck.
+Click on them to see and download the corresponding actions and load them direct on your own Stream Deck.
 
 {% include stream_deck_actions.html %}

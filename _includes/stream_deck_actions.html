@@ -54,25 +54,18 @@
 <p class="sd-plugin-description">{{ plugin.description }}</p>
 {% endif %}
 
-<p class="sd-plugin-meta">
-    {% if plugin.author %}
-    By {{ plugin.author }} |
-    {% endif %}
-    {% if plugin.price %}
-    Price: {{ plugin.price }}
-    {% endif %}
-    {% if plugin.os %}
-    | OS: {{ plugin.os }}
-    {% endif %}
-    {% if plugin.website %}
-    | <a href="{{ plugin.website }}">Website</a>
+<div class="sd-plugin-meta">
+    {% if plugin.author %}<span class="sd-meta-pill"><span class="sd-meta-label">Developed by</span> {{ plugin.author }}</span>{% endif %}
+    {% if plugin.price %}<span class="sd-meta-pill{% if plugin.price == 'Free' %} sd-meta-free{% endif %}"><span class="sd-meta-label">Price</span> {{ plugin.price }}</span>{% endif %}
+    {% if plugin.os %}<span class="sd-meta-pill"><span class="sd-meta-label">OS</span> {{ plugin.os }}</span>{% endif %}
+    {% if plugin.website %}<a class="sd-meta-pill" href="{{ plugin.website }}">Website &rarr;</a>{% endif %}
+</div>
+{% if plugin.installation %}
+<div class="sd-plugin-install">
+    <span class="sd-plugin-install-label">Manual install</span>
+    <span>{{ plugin.installation }}</span>
+</div>
 {% endif %}
-
-    {% if plugin.installation %}
-<br>
-    {{ plugin.installation }}
-{% endif %}
-</p>
 
 {% if dependency.image %}
 <div class="sd-dependency-figure">

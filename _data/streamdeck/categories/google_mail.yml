@@ -1,7 +1,9 @@
 title: Google Mail
 key: google_mail
 priority: 70
-description: The Stream Deck can be used with Google Mail to quickly filter by specific labels.
+description: The Stream Deck can be used with Google Mail to quickly filter by specific labels.<br>
+  With Gmail's <a href="https://support.google.com/mail/answer/6594?sjid=1880908167833626818-EU">keyboard shortcuts enabled</a>, a single key press can also search, compose a new email,
+  go to your inbox or drafts, or open a label.
 dependencies:
   - plugin: none
     actions:
@@ -32,6 +34,47 @@ dependencies:
             value: "in:spam"
           - key: Text
             value: "in:spam"
+      - name: Search mail
+        icon: google_mail
+        type: (System) Hotkey
+        fields:
+          - key: Title
+            value: search
+          - key: Hotkey
+            value: /
+      - name: Compose a new email
+        icon: google_mail
+        type: (System) Hotkey
+        fields:
+          - key: Title
+            value: compose
+          - key: Hotkey
+            value: C
+      - name: Go to Inbox (types the shortcut sequence g, i)
+        icon: google_mail
+        type: (System) Text
+        fields:
+          - key: Title
+            value: inbox
+          - key: Text
+            value: gi
+      - name: Go to Drafts (types the shortcut sequence g, d)
+        icon: google_mail
+        type: (System) Text
+        fields:
+          - key: Title
+            value: drafts
+          - key: Text
+            value: gd
+      - name: Open a label (types the shortcut sequence g, l, then type the label name)
+        icon: google_mail
+        type: (System) Text
+        fields:
+          - key: Title
+            value: label
+          - key: Text
+            value: gl
     wishes:
       - name: Show the number of new inbox emails
       - name: Show the number of emails for a specific label
+footnote: When keyboard shortcuts is enabled, then check this big list of <a href="https://support.google.com/mail/answer/6594?hl=en">Gmail keyboard shortcuts</a> you can map to your Stream Deck keys.

@@ -33,14 +33,28 @@ dependencies:
             value: 😂
           - key: Text
             value: 😂
+      - name: Thank you emoji
+        icon: 2
+        type: (System) Text
+        fields:
+          - key: Title
+            value: 🙏
+          - key: Text
+            value: 🙏
     wishes:
       - name: Button press to open an emoji keyboard where you can directly type to search for the icon you're looking for
+    footnote: Download these and create your own profile/page with your own often used text and emojis!
   - plugin: emoji-keys
     actions:
-      - name: Select any emoji from a big list and use that for a button.
+      - name: Select an emoji from a big list and use that for a button.
         icon: 2
         type: (Emoji Keys) Emoji
         fields:
           - key: Text
             value: 😂
-footnote: Download these and fill your own profile/page with your own text and emojis!
+      - name: Select an emoji from a big list and use that for a button.
+        icon: 2
+        type: (Emoji Keys) Emoji
+        fields:
+          - key: Text
+            value: 👍

@@ -12,7 +12,7 @@ dependencies:
       - name: Count based on specific branch names
   - plugin: none
     actions:
-      - name: Open project X
+      - name: Open project X on the GitLab website
         icon: 1
         download: gitlab_open_project-vdbrink.streamDeckAction
         type: (System) Website

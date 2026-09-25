@@ -54,12 +54,23 @@ dependencies:
 
   - plugin: jetstream
     image: jetstream_button_states.png
-    image_caption: Jetstream keys showing the state of every Claude Code session on my Stream Deck
+    image_caption: Jetstream keys showing the state of every Claude Code session. It also shows your 5h and week usage, it show if user input is required or of it's finished.
     actions:
       - name: User input needed, visualization per project
+        icon: jetstream_user_input
       - name: Still running, visualization per project
+        icon: jetstream_running
       - name: Session done, with the time since it finished
+        icon: jetstream_done
+      - name: Idle, project without an active session
+        icon: jetstream_idle
       - name: Approve the open question (AskUserQuestion)
+        icon: jetstream_approve
       - name: Deny the open question (AskUserQuestion)
+        icon: jetstream_deny
       - name: Usage gauge - 5h and 7d used, plus time until the limit resets
+        icon: jetstream_usage
       - name: Stop all running sessions at once
+        icon: jetstream_stop_all
+    wishes:
+      - name: Show as running when there is still a background task in a shell is running.
