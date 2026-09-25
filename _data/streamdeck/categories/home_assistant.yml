@@ -3,6 +3,7 @@ key: home_assistant
 priority: 90
 dependencies:
   - plugin: home-assistant
+    image: home_assistant/home-assistant_stream_deck_integration.gif
     actions:
       - name: Control lights
       - name: Control smart plugs
