@@ -209,13 +209,10 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <h2 id="merchandise">Merchandise</h2>
 <p class="hp-lead">Looking for a birthday present for a fellow nerd, a mug for on your desk or a cool T-shirt? Just take a look around the shop, maybe there's something for you.</p>
 <br>
-<div style="text-align:center;">
-<a href="https://quote-shirt-shop.myspreadshop.net/" target="_blank">
-<img src="/buy/images/basket.png" alt="" style="height:1.1em; width:auto; vertical-align:middle; margin-right:5px;">
-Shop here for tech T-shirts, hoodies, mugs, stickers &amp; more!<br>
+<a class="hp-card hp-merch" href="https://quote-shirt-shop.myspreadshop.net/" target="_blank">
+<span class="hp-merch-title"><img src="/buy/images/basket.png" alt="" style="height:1.1em; width:auto; vertical-align:middle; margin-right:5px;">Shop here for tech T-shirts, hoodies, mugs, stickers &amp; more!</span>
 <img src="/shop/images/banner3.png" alt="Computer says no" height="150px" />
 </a>
-</div>
 
 <hr class="hp-divider">
 
