@@ -344,7 +344,7 @@ or in summer when it becomes cooler outside than inside.
 <a href="https://amzn.to/4cuvcBp#ad" target="_blank">(Amazon NL)</a>
 <a href="https://www.zigbee2mqtt.io/devices/RSH-HS06.html" target="_blank" title="RSH-HS06">{{imgZ2M}}RSH-HS06</a>
 
-**2xAAA battery option:**\
+**2xAAA battery option:**\`
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya
 <a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4t87Isj#ad" target="_blank">(Amazon US)</a>
@@ -355,12 +355,20 @@ This sensor can be converted into an [outlet sensor](/zigbee/zigbee_outlet_senso
 
 **With display option:**\
 {{imgBasket}}Zigbee / WiFi temperature and humidity sensor 2xAAA powered with display.
-The width is 7 cm and the height is 2,6 cm.\
+The width is 7 cm and the height is 2,6 cm.
+
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank">(AliExpress)</a>
-(Not available on Amazon)
 Model: ZY-TH01Pro
+
 <!--<a href="https://www.zigbee2mqtt.io/devices/ZY-TH01Pro.html" target="_blank" title="ZY-TH01Pro">{{imgZ2M}}ZY-TH01Pro</a>-->
 <a href="https://s.click.aliexpress.com/e/_oBX1DMr" target="_blank"><img src="images_zigbee/display_temp_hum.avif" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
+
+**With e-ink display option:**\
+{{imgBasket}}Zigbee temperature and humidity sensor with a bright e-ink display.
+<a href="https://s.click.aliexpress.com/e/_c43N021R" target="_blank">(AliExpress)</a>
+<a href="https://www.zigbee2mqtt.io/devices/SNZB-02UL.html" target="_blank" title="SNZB-02UL">{{imgZ2M}}SNZB-02UL</a>
+
+<a href="https://s.click.aliexpress.com/e/_c43N021R" target="_blank"><img src="images_zigbee/temperature_humidity_sensor_eink_display.avif" alt="Temperature and humidity sensor with e-ink display" height="150px" /></a>
 
 #### Water-resistant option:
 {{imgBasket}}Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display.
@@ -368,9 +376,8 @@ Model: ZY-TH01Pro
 <a href="https://amzn.to/4utmSd1#ad" target="_blank">(Amazon US)</a>
 <a href="https://amzn.to/44Unhd2#ad" target="_blank">(Amazon NL)</a>
 
-Model: SNZB-02LD
+Model: <a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
 Battery: CR2477
-<a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank" title="SNZB-02LD">{{imgZ2M}}SNZB-02LD</a>
 
 <a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank"><img src="images_zigbee/zigbee_water_temp.webp" alt="Battery powered temperature and humidity sensor with display" height="150px" /></a>
 
