@@ -3,7 +3,7 @@ title: "Elgato Stream Deck - Home Assistant integration"
 description: "Elgato Stream Deck integration with Home Assistant"
 category: Projects
 tags: [ Elgato, Stream Deck, Home Assistant, sensors ]
-image: /elgato_stream_deck/images/home_assistant/home-assistant_stream_deck_integration.png
+image: /elgato_stream_deck/home_assistant/actions/home-assistant_stream_deck_integration.png
 ---
 
 # Elgato Stream Deck - Home Assistant integration
@@ -12,7 +12,7 @@ image: /elgato_stream_deck/images/home_assistant/home-assistant_stream_deck_inte
 
 Don't you know what a Stream Deck is? Check [here first](/elgato_stream_deck).
 
-<img src="images/home_assistant/home-assistant_stream_deck_integration.gif" alt="Home Assistant integration" width="100%" />
+<img src="home_assistant/actions/home-assistant_stream_deck_integration.gif" alt="Home Assistant integration" width="100%" />
 <em style="display:block; text-align:center">HA dashboard next to the Stream Deck app, fast and interactive integration</em>
 
 Control and visualize your Home Assistant entities direct with your Elgato Stream Deck!
@@ -39,7 +39,7 @@ The bulb color also reflects the current light color, like my AI user input requ
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
 <a href="/ai/ai-user-input-needed-notification-light">
-<img src="images/home_assistant/ha_light_ai_action.png" alt="Stream Deck key AI action lamp" style="max-height:80px; width:auto;">
+<img src="home_assistant/actions/ha_light_ai_action.png" alt="Stream Deck key AI action lamp" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">AI action required light</em>
 </div>
@@ -53,11 +53,11 @@ So you can see at a glance which devices are still powered, without opening the 
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
-<img src="images/home_assistant/ha_power_switch_phone_charger.png" alt="Stream Deck key phone charger off" style="max-height:80px; width:auto;">
+<img src="home_assistant/actions/ha_power_switch_phone_charger.png" alt="Stream Deck key phone charger off" style="max-height:80px; width:auto;">
 <em style="display:block; text-align:center">phone charger (off)</em>
 </div>
 <div style="text-align:center">
-<img src="images/home_assistant/ha_power_switch_battery_charger.png" alt="Stream Deck key battery charger on" style="max-height:80px; width:auto;">
+<img src="home_assistant/actions/ha_power_switch_battery_charger.png" alt="Stream Deck key battery charger on" style="max-height:80px; width:auto;">
 <em style="display:block; text-align:center">battery charger (on)</em>
 </div>
 </div>
@@ -69,7 +69,7 @@ These keys shows the current value of a CO2, humidity and temperature `sensor` e
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
-<img src="images/home_assistant/ha_states.png" alt="room values visible on your Stream Deck" style="max-height:80px; width:auto;">
+<img src="home_assistant/actions/ha_states.png" alt="room values visible on your Stream Deck" style="max-height:80px; width:auto;">
 <em style="display:block; text-align:center">live room values visible on your Stream Deck</em>
 </div>
 </div>
@@ -84,7 +84,7 @@ Now I can control my air conditioner directly from Home Assistant with automatio
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
 <a href="/zigbee/smart_infrared_transmitter_receiver">
-<img src="images/home_assistant/ha_ac_ir.png" alt="control IR air conditioner on/off via my Stream Deck" style="max-height:80px; width:auto;">
+<img src="home_assistant/actions/ha_ac_ir.png" alt="control IR air conditioner on/off via my Stream Deck" style="max-height:80px; width:auto;">
 </a>
 <em style="display:block; text-align:center">control IR air conditioner on/off via a Stream Deck</em>
 </div>
@@ -100,8 +100,8 @@ Now I can control my air conditioner directly from Home Assistant with automatio
 
 This is a diagram of how it technically works:
 
-<a href="images/home_assistant/ir_flow_diagram.png">
-<img src="images/home_assistant/ir_flow_diagram.png" alt="Stream Deck to air conditioner flow diagram" width="100%" />
+<a href="home_assistant/actions/ir_flow_diagram.png">
+<img src="home_assistant/actions/ir_flow_diagram.png" alt="Stream Deck to air conditioner flow diagram" width="100%" />
 </a>
 <em style="display:block; text-align:center">Stream Deck -> Home Assistant -> Zigbee2MQTT -> Zigbee IR transmitter -> AC</em>
 

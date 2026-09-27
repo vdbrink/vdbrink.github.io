@@ -54,3 +54,5 @@ For these applications do I have buttons on my Stream Deck.
 Click on them to see and download the corresponding actions and load them direct on your own Stream Deck.
 
 {% include stream_deck_actions.html %}
+
+Read more about the [Stream Deck](/elgato_stream_deck)

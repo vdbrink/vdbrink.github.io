@@ -10,7 +10,7 @@
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <a class="sd-key" href="#{{ anchor }}">
-    <span class="sd-key-face"><img src="/elgato_stream_deck/images/category/{{ category.key }}_logo.png" alt="{{ category.title }}"></span>
+    <span class="sd-key-face"><img src="/elgato_stream_deck/{{ category.key }}/images/{{ category.key }}_logo.png" alt="{{ category.title }}"></span>
     <span class="sd-key-label">{{ category.title }}</span>
 </a>
 {% endfor %}
@@ -20,7 +20,7 @@
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
 <div class="clearfix">
-<img src="/elgato_stream_deck/images/category/{{ category.key }}_logo.png" alt="{{ category.title }} logo" height="70px" style="margin-left:15px;float:right"/>
+<img src="/elgato_stream_deck/{{ category.key }}/images/{{ category.key }}_logo.png" alt="{{ category.title }} logo" height="70px" style="margin-left:15px;float:right"/>
 <h3 id="{{ anchor }}">{{ category.title }}</h3>
 <p>{{ category.description }}</p>
 {% for dependency in category.dependencies %}
@@ -40,7 +40,7 @@
     Stream Deck {{ plugin_source | capitalize }} Plugin:
     {% if plugin.icon %}
     {% if plugin.url %}<a href="{{ plugin.url }}">{% endif %}
-    <img class="sd-plugin-icon" src="/elgato_stream_deck/images/plugins/{{ plugin.icon }}" alt="{{ plugin.name }} icon"/>
+    <img class="sd-plugin-icon" src="/elgato_stream_deck/{{ category.key }}/images/{{ plugin.icon }}" alt="{{ plugin.name }} icon"/>
     {% if plugin.url %}</a>{% endif %}
     {% endif %}
     {% if plugin.url %}
@@ -69,8 +69,8 @@
 
 {% if dependency.image %}
 <div class="sd-dependency-figure">
-<a href="/elgato_stream_deck/images/{{ dependency.image }}">
-<img class="sd-dependency-image" src="/elgato_stream_deck/images/{{ dependency.image }}" alt="{{ dependency.image_caption | default: plugin.name }}"/>
+<a href="/elgato_stream_deck/{{ category.key }}/images/{{ dependency.image }}">
+<img class="sd-dependency-image" src="/elgato_stream_deck/{{ category.key }}/images/{{ dependency.image }}" alt="{{ dependency.image_caption | default: plugin.name }}"/>
 </a>
 {% if dependency.image_caption %}
 <em class="sd-dependency-caption">{{ dependency.image_caption }}</em>
@@ -82,7 +82,7 @@
     {% for action in dependency.actions %}
     <li{% if action.fields.size > 3 %} class="sd-action-wide"{% endif %}><b>
         {% if action.download %}
-        <a href="/elgato_stream_deck/actions/{{ action.download }}">
+        <a href="/elgato_stream_deck/{{ category.key }}/actions/{{ action.download }}">
           {{ action.name }}
         </a>
         {% else %}
@@ -92,7 +92,7 @@
         {% if action.fields or action.icon %}
         <br>
         {% if action.download %}
-        <a href="/elgato_stream_deck/actions/{{ action.download }}">
+        <a href="/elgato_stream_deck/{{ category.key }}/actions/{{ action.download }}">
         {% endif %}
         {% assign has_detail = false %}
         {% if action.fields or action.remark or action.type %}{% assign has_detail = true %}{% endif %}
@@ -107,11 +107,13 @@
             {% endif %}
             <div class="sd-action-detail-row">
             {% if action.icon == 1 %}
+            {% assign action_dir = '/elgato_stream_deck/' | append: category.key | append: '/actions/' %}
             {% if action.download %}
-            {% assign icon_src = action.download | split: '.' | first | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
+            {% assign icon_basename = action.download | split: '.' | first %}
+            {% assign icon_src = icon_basename | prepend: action_dir | append: '.png' %}
             {% else %}
             {% assign icon_slug = action.name | downcase | replace: ' ', '_' %}
-            {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: '/elgato_stream_deck/images/icons/' | append: '.png' %}
+            {% assign icon_src = category.key | append: '_' | append: icon_slug | prepend: action_dir | append: '.png' %}
             {% endif %}
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
@@ -131,7 +133,8 @@
             {% if icon_first == '/' %}
             {% assign icon_src = action.icon %}
             {% else %}
-            {% assign icon_src = action.icon | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
+            {% assign action_dir = '/elgato_stream_deck/' | append: category.key | append: '/actions/' %}
+            {% assign icon_src = action.icon | prepend: action_dir | append: '.png' %}
             {% endif %}
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
@@ -178,8 +181,8 @@
                 {% assign req_image_path = req.image | append: '.png' %}
                 {% endif %}
                 <br>
-                <a href="/elgato_stream_deck/images/{{ req_image_path }}">
-                <img class="sd-action-requirement-image" src="/elgato_stream_deck/images/{{ req_image_path }}" alt="{{ req.name }}"{% if req.width %} style="width: {{ req.width }}px; max-width: none;"{% endif %}/>
+                <a href="/elgato_stream_deck/{{ category.key }}/images/{{ req_image_path }}">
+                <img class="sd-action-requirement-image" src="/elgato_stream_deck/{{ category.key }}/images/{{ req_image_path }}" alt="{{ req.name }}"{% if req.width %} style="width: {{ req.width }}px; max-width: none;"{% endif %}/>
                 </a>
                 {% endif %}
                 </li>

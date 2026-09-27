@@ -4,7 +4,7 @@ priority: 110
 description: The button actions here trigger basic macOS features.
 dependencies:
   - plugin: none
-    image: macos/hotkey_default_actions.png
+    image: hotkey_default_actions.png
     image_caption: "The default System > Hotkey key contains some default OS actions, like editing, lock screen and log out,
       screenshots and Mission Control actions. These actions trigger the keyboard key combination.
       <br>This key can also be used to trigger any other key combination."

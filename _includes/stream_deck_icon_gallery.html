@@ -11,14 +11,16 @@
 {% for dependency in category.dependencies %}
 {% for action in dependency.actions %}
 {% if action.icon and action.icon != 2 %}
+    {% assign action_dir = '/elgato_stream_deck/' | append: category.key | append: '/actions/' %}
     {% if action.icon == 1 and action.download %}
-    {% assign icon_src = action.download | split: '.' | first | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
+    {% assign icon_basename = action.download | split: '.' | first %}
+    {% assign icon_src = icon_basename | prepend: action_dir | append: '.png' %}
     {% elsif action.icon != 1 %}
     {% assign icon_first = action.icon | slice: 0 %}
     {% if icon_first == '/' %}
     {% assign icon_src = action.icon %}
     {% else %}
-    {% assign icon_src = action.icon | prepend: '/elgato_stream_deck/actions/' | append: '.png' %}
+    {% assign icon_src = action.icon | prepend: action_dir | append: '.png' %}
     {% endif %}
     {% endif %}
     {% if icon_src and seen_icons contains icon_src %}
