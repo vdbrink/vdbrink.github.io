@@ -5,9 +5,10 @@ image: /images/banner.jpg
 categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 ---
 
+<p class="hp-lead" style="margin:24px 0 44px;">Welcome to my blog about smart home automations and other tech projects like Home Assistant, ESPHome, Zigbee and my home office.</p>
+
 <div class="hp-hero" style="background-image:url('/images/banner.jpg');">
 <div class="hp-hero-body">
-<h1>vd Brink Home Automations</h1>
 <div class="hp-hero-actions">
 <a class="hp-btn ghost" href="#latest">Latest posts</a>
 <a class="hp-btn ghost" href="#popular">Popular pages</a>
@@ -17,8 +18,6 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 </div>
 </div>
 </div>
-
-<p class="hp-lead" style="margin:24px 0 44px;">Welcome to my blog about smart home automations and other tech projects like Home Assistant, ESPHome, Zigbee and my home office.</p>
 
 <div class="hp-section" id="latest">
 <div class="hp-section-head">
@@ -93,7 +92,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Smart traditional mailbox</strong><p>Get a notification when the postman has been.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_floorplan">
-<img src="/homeassistant/images_floorplan/banner.png" alt="Floor plan" loading="lazy">
+<img src="/homeassistant/images_floorplan/entity_icons.png" alt="Floor plan" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Interactive floor plan</strong><p>See your whole home at a glance.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/zigbee/smart_infrared_transmitter_receiver">

@@ -5,7 +5,8 @@ description: "My Home Automation LED strip reminds me which trash bin needs to b
 date: 2026-07-30
 tags: [Home Assistant, Afvalbeheer, bin day, trash, LED strip, Node-RED, Zigbee]
 permalink: /home-assistant-bin-day-led-strip-reminder
-image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
+image: /projects/images_bin_day/bin_day_ledstrip_animation.gif
+#image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
 ---
 
 # Feed: My Home Automation bin-day LED strip reminder
