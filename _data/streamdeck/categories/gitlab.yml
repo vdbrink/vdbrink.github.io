@@ -4,10 +4,44 @@ priority: 60
 description: Use the Stream Deck to quickly navigate to different sections of your GitLab projects.
 dependencies:
   - plugin: gitlab-dashboard
+    image: gitlab.png
+    image_caption: Show direct on the buttons the number of actions! Open issues, (own) merge requests.
     actions:
-      - name: Open merge requests count
-      - name: My merge requests count
-      - name: Open TODO count
+      - name: Assigned Issues Count
+        icon: 1
+        download: gitlab_assigned_issues_count-vdbrink.streamDeckAction
+        type: (GitLab Dashboard) Assigned Issues Count
+        fields:
+          - key: Action
+            value: GitLab Dashboard
+      - name: Combined Merge Requests Count
+        icon: 1
+        download: gitlab_combined_merge_requests_count-vdbrink.streamDeckAction
+        type: (GitLab Dashboard) Combined Merge Requests Count
+        fields:
+          - key: Action
+            value: GitLab Dashboard
+      - name: Assigned Merge Requests Count
+        icon: 1
+        download: gitlab_assigned_merge_requests_count-vdbrink.streamDeckAction
+        type: (GitLab Dashboard) Assigned Merge Requests Count
+        fields:
+          - key: Action
+            value: GitLab Dashboard
+      - name: Merge Request Review Requested Count
+        icon: 1
+        download: gitlab_review_requested_merge_requests_count-vdbrink.streamDeckAction
+        type: (GitLab Dashboard) Merge Request Review Requested Count
+        fields:
+          - key: Action
+            value: GitLab Dashboard
+      - name: Pending Todos Count
+        icon: 1
+        download: gitlab_pending_todos_count-vdbrink.streamDeckAction
+        type: (GitLab Dashboard) Pending Todos Count
+        fields:
+          - key: Action
+            value: GitLab Dashboard
     wishes:
       - name: Count based on specific branch names
   - plugin: none

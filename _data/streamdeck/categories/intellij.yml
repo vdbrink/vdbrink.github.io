@@ -79,4 +79,8 @@ dependencies:
             value: prev code
           - key: Hotkey
             value: ⌃ ⌥ ⇧ ↑
+  - plugin: jetbrains
+    image: jetbrains.png
+    actions:
+      - name: Trigger actions and shortcuts inside your JetBrains IDE
 footnote: Check here for all <a href="https://www.jetbrains.com/help/idea/reference-keymap-mac-default.html">IntelliJ IDEA's keyboard shortcuts</a>.

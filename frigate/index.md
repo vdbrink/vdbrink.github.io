@@ -1,4 +1,11 @@
-Frigate
+--- 
+title: "Frigate"
+description: "Frigate"
+category: Frigate
+tags: [frigate]
+---
+
+# Frigate
 
 ## Proxmox settings
 
@@ -12,3 +19,16 @@ The LXC configuration will likely also need `features: fuse=1,nesting=1`.
 This allows running a Docker container in an LXC container (nesting) and prevents duplicated files and wasted storage (fuse).
 
 https://deploy-preview-16390--frigate-docs.netlify.app/frigate/installation#proxmox
+
+
+## Avoid to detect stationary cars
+
+````
+detect:
+    stationary:
+        interval: 50
+        threshold: 50
+````
+
+
+frigate/tracked_object_update

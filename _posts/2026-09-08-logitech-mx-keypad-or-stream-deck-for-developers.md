@@ -63,7 +63,7 @@ The MX Keypad has 9 keys. Elgato's family covers the same idea in many different
 
 Logitech also has the [MX Creative Console](/elgato_stream_deck/#alternative-solutions), the same 9-key pad plus a dial, with designers as target group.
 
-I went for the Stream Deck 32-key XL, and created a [page](/elgato_stream_deck/stream_deck_button_actions) 
+I went for the Stream Deck 32-key XL, and created a [page](/elgato_stream_deck/stream_deck_button_actions)
 where I share my button actions I use on my Stream Deck as software developer.
 I couldn't find many pages with examples for developers, that's why I started one myself.
 Now you see more and more keypads available with as target group developers.
@@ -95,5 +95,5 @@ This is what one of my pages looks like:
 * [Alternatives: Stream Deck, Logitech MX, Codex Creator](/elgato_stream_deck/#alternative-solutions)
 * [Stream Deck models comparison](/elgato_stream_deck/#stream-deck-models-comparison)
 * [Home Assistant integration](/elgato_stream_deck/stream_deck_home_assistant)
-* [Many example Stream Deck button actions to download](/elgato_stream_deck/stream_deck_button_actions)
+* [Many example Stream Deck button actions to download like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..](/elgato_stream_deck/stream_deck_button_actions)
 * [My introduction to a Stream Deck](/elgato_stream_deck/#my-introduction-with-a-stream-deck)

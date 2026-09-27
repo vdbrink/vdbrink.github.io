@@ -1,12 +1,11 @@
 title: Spotify
 key: spotify
 priority: 120
-description: "With Spotify and Stream Deck you can create the regular audio controls on your Deck like play, next, volume control.
-  It show the cover of the song that is currently playing, save the current song to your Liked Songs list.
-  You can add extra shortcuts to start directly play one of your playlists."
+description: With Spotify and Stream Deck you get your music controls on physical keys, so you don't need to switch to the Spotify app.
 dependencies:
   - plugin: spotify
     image: spotify.png
+    image_caption: Media player controls.
     actions:
       - name: Show the song that is playing
       - name: Volume control +/-

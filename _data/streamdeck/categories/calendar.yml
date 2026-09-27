@@ -1,9 +1,8 @@
 title: Calendar
 key: calendar
 priority: 75
-description: A Stream Deck button can be used as a small display, quickly showing the minutes until your next meeting or the minutes left in the current one.
-  The extra power of this plugin is that pressing the button directly opens the meeting link!
-  See <a href="#google-meet">Google Meet</a> for its specific controls.
+description: A Stream Deck key can work as a small calendar display, so you always know when your next meeting starts.
+  See <a href="#google-meet">Google Meet</a> for the controls of the meeting itself.
 dependencies:
   - plugin: next-meeting-countdown
     actions:

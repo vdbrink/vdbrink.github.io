@@ -25,7 +25,7 @@ Read on this page to see how I use this keypad and whether it is something you d
 Here you find sections about:
 * [What is a Stream Deck?](#what-is-a-stream-deck)
 * [All available Elgato models](#stream-deck-comparison)
-* [Many example button actions](#button-actions)
+* [Example button actions like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..](#button-actions)
 * [Home Assistant integration](stream_deck_home_assistant)
 
 [//]: # (* [How to import and export actions]&#40;#import-and-export-data&#41;)
@@ -179,7 +179,7 @@ I created a separated page with downloadable button for all kinds of actions and
 Actions for Claude, video calls, calendar items, website shortcuts, GitHub, Gmail, Home Assistant, event countdowns, etc...
 
 <a href="stream_deck_button_actions">
-Click here to go my page with many (developers) button action examples.
+Click here to go my page with many (developers) button action examples like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc...
 <img src="images/actions_sd_app.png" alt="Stream Deck config application" style="width:100%">
 </a>
 <em style="display:block; text-align:center">An example of how a Stream Deck button page could look like.</em>
@@ -225,7 +225,7 @@ See all these models together on this [Amazon US](https://amzn.to/4wESUUS)* or [
 
 #### Logitech MX Creative Console
 
-Logitech has the MX Creative Console with a 9-button keypad and a dail. 
+Logitech has the MX Creative Console with a 9-button keypad and a dail.
 As target group designers.
 
 <a href="images/products/logi_mx_creative_console.webp">
@@ -278,4 +278,4 @@ modifications:
 
 I hope you get inspired and maybe you now also this as a product you didn't know you needed.
 Or do you have all the actions and information also direct available with your normal keyboard and on your screen?\
-See [here](stream_deck_button_actions) which button actions I use on my Stream Deck.
+See [here](stream_deck_button_actions) which button actions I use on my Stream Deck like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..
