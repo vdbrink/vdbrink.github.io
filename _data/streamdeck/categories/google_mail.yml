@@ -50,30 +50,35 @@ dependencies:
             value: compose
           - key: Hotkey
             value: C
-      - name: Go to Inbox (types the shortcut sequence g, i)
-        icon: google_mail
-        type: (System) Text
+      - name: "Go to Inbox (shortcut: g,i)"
+        icon: 1
+        download: gmail_to_inbox-vdbrink.streamDeckAction
+        type: (Elgato) Multi Action
         fields:
-          - key: Title
-            value: inbox
-          - key: Text
-            value: gi
-      - name: Go to Drafts (types the shortcut sequence g, d)
-        icon: google_mail
-        type: (System) Text
+          - key: Step 1
+            value: G
+          - key: Step 2
+            value: I
+      - name: Go to Drafts
+        icon: 1
+        download: google_mail_draft-vdbrink.streamdeckaction
+        type: (Elgato) Multi Action
         fields:
-          - key: Title
-            value: drafts
-          - key: Text
-            value: gd
-      - name: Open a label (types the shortcut sequence g, l, then type the label name)
-        icon: google_mail
-        type: (System) Text
+          - key: Step 1
+            value: G
+          - key: Step 2
+            value: D
+      - name: "Open a label ('gitlab' here)"
+        icon: 1
+        download: google_mail_label_gitlab-vdbrink.streamDeckAction
+        type: (Elgato) Multi Action
         fields:
-          - key: Title
-            value: label
-          - key: Text
-            value: gl
+          - key: Step 1
+            value: G
+          - key: Step 2
+            value: L
+          - key: Step 3
+            value: gitlab
     wishes:
       - name: Show the number of new inbox emails
       - name: Show the number of emails for a specific label
