@@ -5,13 +5,13 @@ description: With Spotify and Stream Deck you get your music controls on physica
 dependencies:
   - plugin: spotify
     image: spotify.png
-    image_caption: Media player controls.
+    image_caption: Physical media player controls on your Stream Deck.
     actions:
       - name: Show the song that is playing
       - name: Volume control +/-
-      - name: Previous
-      - name: Next
+      - name: Previous song
+      - name: Next song
       - name: Save to your Liked Songs
       - name: Play a specific playlist
-      - name: Toggle repeat state
+      - name: Toggle repeat mode
 footnote: Use the plugin to define these buttons.

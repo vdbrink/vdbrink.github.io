@@ -11,3 +11,4 @@ dependencies:
       - name: Icon
     wishes:
       - name: Toggle blurred background
+      - name: confetti

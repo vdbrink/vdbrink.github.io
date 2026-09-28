@@ -5,10 +5,11 @@ description: Use the Stream Deck to quickly navigate to different sections of yo
 dependencies:
   - plugin: gitlab-dashboard
     image: gitlab.png
-    image_caption: Show direct on the buttons the number of actions! Open issues, (own) merge requests.
+    image_caption: "See direct on the buttons the number of actions: Open issues, (own) merge requests."
     actions:
       - name: Assigned Issues Count
         icon: 1
+        icon_bg: "#AD4A3B"
         download: gitlab_assigned_issues_count-vdbrink.streamDeckAction
         type: (GitLab Dashboard) Assigned Issues Count
         fields:
@@ -16,6 +17,7 @@ dependencies:
             value: GitLab Dashboard
       - name: Combined Merge Requests Count
         icon: 1
+        icon_bg: "#AD4A3B"
         download: gitlab_combined_merge_requests_count-vdbrink.streamDeckAction
         type: (GitLab Dashboard) Combined Merge Requests Count
         fields:
@@ -23,6 +25,7 @@ dependencies:
             value: GitLab Dashboard
       - name: Assigned Merge Requests Count
         icon: 1
+        icon_bg: "#AD4A3B"
         download: gitlab_assigned_merge_requests_count-vdbrink.streamDeckAction
         type: (GitLab Dashboard) Assigned Merge Requests Count
         fields:
@@ -30,6 +33,7 @@ dependencies:
             value: GitLab Dashboard
       - name: Merge Request Review Requested Count
         icon: 1
+        icon_bg: "#AD4A3B"
         download: gitlab_review_requested_merge_requests_count-vdbrink.streamDeckAction
         type: (GitLab Dashboard) Merge Request Review Requested Count
         fields:
@@ -37,13 +41,15 @@ dependencies:
             value: GitLab Dashboard
       - name: Pending Todos Count
         icon: 1
+        icon_bg: "#AD4A3B"
         download: gitlab_pending_todos_count-vdbrink.streamDeckAction
         type: (GitLab Dashboard) Pending Todos Count
         fields:
           - key: Action
             value: GitLab Dashboard
     wishes:
-      - name: Count based on specific branch names
+      - name: Count based on specific branch names (bugfix, renovate, major)
+      - name: Count based on specific project
   - plugin: none
     actions:
       - name: Open project X on the GitLab website
@@ -56,4 +62,4 @@ dependencies:
           - key: path
             value: "https://gitlab.com/company/dev/team/project/frontend"
     wishes:
-      - name: Failed personal pipelines count
+      - name: Failed pipelines count

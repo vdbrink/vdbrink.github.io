@@ -8,32 +8,27 @@ dependencies:
   - plugin: none
     actions:
       - name: Filter by unread email
-        icon: google_mail
-        download: google_mail_label_unread-vdbrink.streamDeckAction
-        type: (System) Text
+        icon: 1
+        download: google_mail_unread_messages-vdbrink.streamDeckAction
+        type: (Elgato) Multi Action
         fields:
-          - key: Title
-            value: "label:unread"
-          - key: Text
-            value: "label:unread"
-      - name: Filter by a specific label ('gitlab' here)
-        icon: google_mail
-        download: google_mail_label_any-vdbrink.streamDeckAction
-        type: (System) Text
-        fields:
-          - key: Title
-            value: "label:gitlab"
-          - key: Text
-            value: "label:gitlab"
+          - key: Step 1
+            value: G
+          - key: Step 2
+            value: L
+          - key: Step 3
+            value: unread
       - name: Filter by spam email
-        icon: google_mail
+        icon: 1
         download: google_mail_in_spam-vdbrink.streamdeckaction
-        type: (System) Text
+        type: (Elgato) Multi Action
         fields:
-          - key: Title
-            value: "in:spam"
-          - key: Text
-            value: "in:spam"
+          - key: Step 1
+            value: G
+          - key: Step 2
+            value: L
+          - key: Step 3
+            value: Spam
       - name: Search mail
         icon: google_mail
         type: (System) Hotkey
@@ -50,7 +45,7 @@ dependencies:
             value: compose
           - key: Hotkey
             value: C
-      - name: "Go to Inbox (shortcut: g,i)"
+      - name: "Go to Inbox"
         icon: 1
         download: gmail_to_inbox-vdbrink.streamDeckAction
         type: (Elgato) Multi Action
@@ -68,7 +63,16 @@ dependencies:
             value: G
           - key: Step 2
             value: D
-      - name: "Open a label ('gitlab' here)"
+      - name: Go to Sent mails
+        icon: 1
+        download: google_mail_sent-vdbrink.streamdeckaction
+        type: (Elgato) Multi Action
+        fields:
+          - key: Step 1
+            value: G
+          - key: Step 2
+            value: T
+      - name: "Open any label ('gitlab' as example)"
         icon: 1
         download: google_mail_label_gitlab-vdbrink.streamDeckAction
         type: (Elgato) Multi Action

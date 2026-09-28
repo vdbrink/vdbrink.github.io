@@ -118,7 +118,7 @@
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
             {% else %}
-            <span class="sd-action-icon-frame"><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
+            <span class="sd-action-icon-frame"{% if action.icon_bg %} style="background: {{ action.icon_bg }};"{% endif %}><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
             {% endif %}
             {% elsif action.icon == 2 %}
             {% assign icon_text = "" %}
@@ -139,7 +139,7 @@
             {% if action.icon_border == false %}
             <img class="sd-action-icon sd-action-icon--no-frame" src="{{ icon_src }}" alt="{{ action.name }} icon"/>
             {% else %}
-            <span class="sd-action-icon-frame"><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
+            <span class="sd-action-icon-frame"{% if action.icon_bg %} style="background: {{ action.icon_bg }};"{% endif %}><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
             {% endif %}
             {% endif %}
             <div class="sd-action-body">

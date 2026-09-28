@@ -33,14 +33,14 @@ dependencies:
             value: 😂
           - key: Text
             value: 😂
-      - name: Thank you emoji
-        icon: 2
+      - name: "+1"
+        icon: plus1
         type: (System) Text
         fields:
           - key: Title
-            value: 🙏
+            value: "+1"
           - key: Text
-            value: 🙏
+            value: "+1"
     wishes:
       - name: Button press to open an emoji keyboard where you can directly type to search for the icon you're looking for
     footnote: Download these and create your own profile/page with your own often used text and emojis!
