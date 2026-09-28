@@ -4,7 +4,7 @@
 {% endfor %}
 {% assign sorted_categories = sorted_categories | sort: "priority" %}
 
-<div class="sd-virtual-deck">
+<div class="sd-virtual-deck" id="all-categories">
 <div class="sd-hint">Click a key to jump to that category</div>
 <div class="sd-grid">
 {% for category in sorted_categories %}
@@ -19,10 +19,14 @@
 
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
-<div class="clearfix">
-<img src="/elgato_stream_deck/{{ category.key }}/images/{{ category.key }}_logo.png" alt="{{ category.title }} logo" height="70px" style="margin-left:15px;float:right"/>
-<h3 id="{{ anchor }}">{{ category.title }}</h3>
-<p>{{ category.description }}</p>
+<section class="sd-category" id="{{ anchor }}">
+<div class="sd-category-head">
+<img class="sd-category-logo" src="/elgato_stream_deck/{{ category.key }}/images/{{ category.key }}_logo.png" alt="{{ category.title }} logo"/>
+<div class="sd-category-head-text">
+<h3>{{ category.title }}</h3>
+{% if category.description %}<p class="sd-category-desc">{{ category.description }}</p>{% endif %}
+</div>
+</div>
 {% for dependency in category.dependencies %}
 
 {% assign plugin = site.data.streamdeck.plugins[dependency.plugin] %}
@@ -32,6 +36,7 @@
 {% assign plugin_anchor = dependency.plugin %}
 {% if plugin_anchor == anchor %}{% assign plugin_anchor = plugin_anchor | append: '-plugin' %}{% endif %}
 {% endif %}
+<div class="sd-dependency">
 <h4 id="{{ plugin_anchor }}">
     {% if dependency.plugin == "none" %}
     Built-in Stream Deck action, no plugin required
@@ -54,12 +59,14 @@
 <p class="sd-plugin-description">{{ plugin.description }}</p>
 {% endif %}
 
+{% if dependency.plugin != "none" %}
 <div class="sd-plugin-meta">
     {% if plugin.author %}<span class="sd-meta-pill"><span class="sd-meta-label">Developed by</span> {{ plugin.author }}</span>{% endif %}
     {% if plugin.price %}<span class="sd-meta-pill{% if plugin.price == 'Free' %} sd-meta-free{% endif %}"><span class="sd-meta-label">Price</span> {{ plugin.price }}</span>{% endif %}
     {% if plugin.os %}<span class="sd-meta-pill"><span class="sd-meta-label">OS</span> {{ plugin.os }}</span>{% endif %}
     {% if plugin.website %}<a class="sd-meta-pill" href="{{ plugin.website }}">Website &rarr;</a>{% endif %}
 </div>
+{% endif %}
 {% if plugin.installation %}
 <div class="sd-plugin-install">
     <span class="sd-plugin-install-label">Installation</span>
@@ -80,31 +87,20 @@
 
 <ul class="sd-action-list">
     {% for action in dependency.actions %}
-    <li{% if action.fields.size > 3 %} class="sd-action-wide"{% endif %}><b>
-        {% if action.download %}
-        <a href="/elgato_stream_deck/{{ category.key }}/actions/{{ action.download }}">
-          {{ action.name }}
-        </a>
-        {% else %}
-        {{ action.name }}
-        {% endif %}
-        </b>
-        {% if action.fields or action.icon %}
-        <br>
-        {% if action.download %}
-        <a href="/elgato_stream_deck/{{ category.key }}/actions/{{ action.download }}">
-        {% endif %}
-        {% assign has_detail = false %}
-        {% if action.fields or action.remark or action.type %}{% assign has_detail = true %}{% endif %}
+    {% assign has_detail = false %}
+    {% if action.fields or action.remark or action.type %}{% assign has_detail = true %}{% endif %}
+    <li{% if action.fields.size > 3 %} class="sd-action-wide"{% endif %}>
+        {% if action.download %}<a class="sd-action-card-link" href="/elgato_stream_deck/{{ category.key }}/actions/{{ action.download }}">{% endif %}
         <div class="{% if has_detail %}sd-action-detail{% else %}sd-action-icon-only{% endif %}">
             {% if action.download and has_detail %}
             <svg class="sd-action-download-icon" aria-label="download icon" viewBox="0 0 24 24" fill="#fff"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
             {% endif %}
+            <div class="sd-action-name">{{ action.name }}</div>
             {% if action.type %}
             {% assign type_parts = action.type | remove: '(' | split: ') ' %}
             <div class="sd-action-type"><b>{{ type_parts[0] }}:</b> {{ type_parts[1] }}</div>
-            <hr class="sd-action-type-rule">
             {% endif %}
+            {% if has_detail %}<hr class="sd-action-type-rule">{% endif %}
             <div class="sd-action-detail-row">
             {% if action.icon == 1 %}
             {% assign action_dir = '/elgato_stream_deck/' | append: category.key | append: '/actions/' %}
@@ -142,6 +138,7 @@
             <span class="sd-action-icon-frame"{% if action.icon_bg %} style="background: {{ action.icon_bg }};"{% endif %}><img class="sd-action-icon" src="{{ icon_src }}" alt="{{ action.name }} icon"/></span>
             {% endif %}
             {% endif %}
+            {% if has_detail %}
             <div class="sd-action-body">
             {% if action.remark %}
             <p class="sd-action-remark">{{ action.remark }}</p>
@@ -155,12 +152,10 @@
             </dl>
             {% endif %}
             </div>
+            {% endif %}
             </div>
         </div>
-        {% if action.download %}
-        </a>
-        {% endif %}
-        {% endif %}
+        {% if action.download %}</a>{% endif %}
         {% if action.requirements %}
         <div class="sd-action-requirements">
         <details class="sd-details">
@@ -196,28 +191,26 @@
 </ul>
 
 {% if dependency.footnote %}
-<br>
-{{ dependency.footnote }}
+<p class="sd-dependency-footnote">{{ dependency.footnote }}</p>
 {% endif %}
-
-{% if forloop.last == false %}<hr>{% endif %}
-    {% endfor %}
 </div>
+    {% endfor %}
 {% if category.footnote %}
-<br>
-{{ category.footnote }}
+<p class="sd-category-footnote">{{ category.footnote }}</p>
 {% endif %}
 
-<p class="sd-back-to-top"><a href="#installation"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> all categories</a></p>
-
-{% if forloop.last == false %}<hr>{% endif %}
+<p class="sd-back-to-top"><a href="#all-categories"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> all categories</a></p>
+</section>
 {% endfor %}
 
-<hr>
-<div class="clearfix">
-<img src="/elgato_stream_deck/images/category/wishlist_logo.png" alt="Wishlist logo" height="70px" style="margin-left:15px;float:right"/>
-<h3 id="wishlist">My wishlist</h3>
-<p>I always look for more useful additions, especially these listed ones.</p>
+<section class="sd-category sd-wishlist-section" id="wishlist">
+<div class="sd-category-head">
+<img class="sd-category-logo" src="/elgato_stream_deck/images/category/wishlist_logo.png" alt="Wishlist logo"/>
+<div class="sd-category-head-text">
+<h3>My wishlist</h3>
+<p class="sd-category-desc">I always look for more useful additions, especially these listed ones.</p>
+</div>
+</div>
 <ul class="sd-wish-list">
 {% for category in sorted_categories %}
 {% for dependency in category.dependencies %}
@@ -227,6 +220,5 @@
 {% endfor %}
 {% endfor %}
 </ul>
-</div>
-<br>
-If you know how I can add these button actions to my Stream Deck, please let me know!
+<p class="sd-category-footnote">If you know how I can add these button actions to my Stream Deck, please let me know!</p>
+</section>

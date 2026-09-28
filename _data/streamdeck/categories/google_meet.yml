@@ -1,6 +1,6 @@
 title: Google Meet
 key: google_meet
-priority: 80
+priority: 48
 dependencies:
   - plugin: meeting-controls
     actions:
