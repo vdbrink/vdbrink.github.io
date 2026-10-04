@@ -25,14 +25,7 @@ A standard 5V USB adapter does the job for most of them.
 <a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V 2A EU USB power adapter" loading="lazy"></a>
 <div class="hp-tile-body"><strong>5V 2A EU USB power adapter</strong>
 <p>To power your USB devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V 2A EU USB power adapter" loading="lazy"></a>
-<div class="hp-tile-body"><strong>5V 2A EU USB power adapter</strong>
-<p>To power your USB devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank">AliExpress</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a> | <a href="https://s.click.aliexpress.com/e/_c4O9TuSp" target="_blank">AliExpress 2</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
@@ -49,19 +42,11 @@ A standard 5V USB adapter does the job for most of them.
 <div class="hp-tiles hp-options">
 <a class="hp-card hp-tile" href="/zigbee/zigbee_outlet_sensor">
 <img src="/zigbee/images_temp_no_battery/outlet_socket.webp" alt="DIY Zigbee outlet sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Create a non-battery Zigbee sensor</p></div>
-</a>
-<a class="hp-card hp-tile" href="/esphome/people_counter_tof_VL53L1X">
-<img src="/esphome/tof_images/pololu_vl53l1x.jpg" alt="ESPHome People counter with a Time-of-Flight sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>ESPHome People counter with a Time-of-Flight sensor</strong><p>ESPHome People counter with a Time-of-Flight sensor</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Convert a battery to a non-battery powered Zigbee sensor.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>How I automated all my Christmas lights and other powered decorations.</p></div>
-</a>
-<a class="hp-card hp-tile" href="/rhasspy/rhasspy_satellite_esp32_m5stack_atom_echo">
-<img src="/rhasspy/images/atom_echo_front_back.webp" alt="Rhasspy: Satellite ESP32 M5Stack Atom Echo" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Article</span><strong>Rhasspy: Satellite ESP32 M5Stack Atom Echo</strong><p>Rhasspy: Satellite based on ESP32 M5Stack Atom Echo</p></div>
 </a>
 <a class="hp-card hp-tile" href="/esphome/co2_scd40">
 <img src="/esphome/images_scd40/hardware.jpg" alt="ESPHome SCD40 CO2 sensor" loading="lazy">

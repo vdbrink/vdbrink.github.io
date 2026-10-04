@@ -165,7 +165,7 @@ Both work with a boolean (true or false) state.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oBrUAsr" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank"><img src="/buy/images_diy/soldering_kit.avif" alt="Soldering iron and tin" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank"><img src="/buy/images_diy/soldering_kit_clean.webp" alt="Soldering iron and tin" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">3b. Soldering required</span><strong>Soldering iron and tin</strong>
 <p>To connect the contact sensor you need soldering tools.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Iron: <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">AliExpress</a> | <a href="https://amzn.to/3TcfCFq#ads" target="_blank">Amazon</a></p>

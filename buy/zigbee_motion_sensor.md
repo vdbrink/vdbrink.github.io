@@ -102,7 +102,7 @@ A cheaper PIR motion sensor which runs on two AAA batteries, also available with
 </a>
 <a class="hp-card hp-tile" href="/zigbee/zigbee_outlet_sensor">
 <img src="/zigbee/images_temp_no_battery/outlet_socket.webp" alt="DIY Zigbee outlet sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Create a non-battery Zigbee sensor</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Convert a battery to a non-battery powered Zigbee sensor.</p></div>
 </a>
 </div>
 

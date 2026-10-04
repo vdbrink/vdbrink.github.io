@@ -73,7 +73,7 @@ With this behavior, you can also create a [seat occupancy sensor](/zigbee/zigbee
 </a>
 <a class="hp-card hp-tile" href="/zigbee/zigbee_outlet_sensor">
 <img src="/zigbee/images_temp_no_battery/outlet_socket.webp" alt="DIY Zigbee outlet sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Create a non-battery Zigbee sensor</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Convert a battery to a non-battery powered Zigbee sensor.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/zigbee/zigbee_waterproof_contact_sensor">
 <img src="/zigbee/images_waterproof_contact/contact_sensor_closeup.jpg" alt="Zigbee waterproof contact sensor" loading="lazy">

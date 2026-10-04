@@ -20,7 +20,7 @@ A cheaper solution than four single smart sockets: each outlet can be controlled
 <a href="https://s.click.aliexpress.com/e/_c3sqLPWf" target="_blank"><img src="/buy/images_zigbee/powerstrip.avif" alt="Zigbee power strip with 4 outlets and 2 USB ports - BORUIDAPLS / LELLKI" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee power strip with 4 outlets and 2 USB ports - BORUIDAPLS / LELLKI</strong>
 <p>4x outlets (max. 16A) and 2x USB-A (5V 2.1A), the two USB ports can also be controlled independently. Suitable for EU/US/JP, with overload protection switch, 1.5m extension cable, manual master switch and an LED indicator for each socket.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3sqLPWf" target="_blank">AliExpress</a> | <a href="https://s.click.aliexpress.com/e/_c4WMorsL" target="_blank">AliExpress</a> | <a href="https://amzn.to/46nuiFT#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3sqLPWf" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_omZ0ZpF" target="_blank">AliExpress 2</a> | <a href="https://s.click.aliexpress.com/e/_c4WMorsL" target="_blank">AliExpress 3</a> | <a href="https://amzn.to/46nuiFT#ad" target="_blank">Amazon NL</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SM-0306E-2W.html" target="_blank">SM-0306E-2W</a></p>
 </div>
 </div>

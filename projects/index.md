@@ -31,6 +31,11 @@ Here you find bigger projects I've done, like this smart mailbox.
 <span>Stretch display with Home Assistant dashboard</span>
 </a>
 
+<a class="project-card" href="/projects/mossarium">
+<img src="/desk/images/mossarium.jpg" alt="Mossarium on my desk">
+<span>Mossarium: a small living ecosystem on my desk</span>
+</a>
+
 <a class="project-card" href="/projects/smart_mailbox">
 <img src="/projects/images_mailbox/traditional_mailbox.png" alt="Smart traditional mailbox">
 <span>Smart traditional mailbox</span>

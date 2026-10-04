@@ -71,6 +71,10 @@ The advantage of a USB connector is that you can plug several into a powered USB
 ## Related articles
 
 <div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/zigbee/zigbee_outlet_sensor">
+<img src="/zigbee/images_temp_no_battery/outlet_socket.webp" alt="DIY Zigbee outlet sensor" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>DIY Zigbee outlet sensor</strong><p>Convert a battery to a non-battery powered Zigbee sensor.</p></div>
+</a>
 <a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>How I automated all my Christmas lights and other powered decorations.</p></div>

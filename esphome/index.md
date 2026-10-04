@@ -31,49 +31,43 @@ The sensor registers itself automatically to Home Assistant (or sends its data t
 
 I wrote multiple articles about creating your own wireless WiFi sensors and actuators based on the ESP chip with ESPHome:
 
-<div class="project-links">
-
-<a class="project-card" href="microwave_radar_sensor_rcwl-0516">
-<img src="images_rcwl-0516/rcwl_0516_wired.jpg" alt="Motion and Presence sensor based on the RCWL-0516 sensor">
-<span>Motion and Presence sensor based on the RCWL-0516 sensor</span>
+<div class="hp-tiles hp-options">
+<a class="hp-card hp-tile" href="orcon_mechanic_ventilation">
+<img src="/esphome/orcon_images/wires_connected.jpg" alt="Control an Orcon mechanic ventilation system" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Ventilation control</span><strong>Control an Orcon mechanic ventilation system</strong><p>Make an Orcon mechanical ventilation smart with an ESP board.</p></div>
 </a>
-
-<a class="project-card" href="co2_scd40">
-<img src="images_scd40/hardware.jpg" alt="CO2 sensor based on a SCD40 sensor">
-<span>CO2 sensor based on a SCD40 sensor</span>
+<a class="hp-card hp-tile" href="co2_scd40">
+<img src="/esphome/images_scd40/hardware.jpg" alt="CO2 sensor based on a SCD40 sensor" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">CO2 sensor</span><strong>CO2 sensor based on a SCD40 sensor</strong><p>Create your own ESPHome CO2 sensor based on the SCD40 sensor for Home Assistant.</p></div>
 </a>
-
-<a class="project-card" href="co2_senseair_s8_sensor">
-<img src="images_co2/case_fit_co2_sensor.jpg" alt="CO2 sensor based on a SenseAir S8 sensor">
-<span>CO2 sensor based on a SenseAir S8 sensor</span>
+<a class="hp-card hp-tile" href="co2_senseair_s8_sensor">
+<img src="/esphome/images_co2/case_fit_co2_sensor.jpg" alt="CO2 sensor based on a SenseAir S8 sensor" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">CO2 sensor</span><strong>CO2 sensor based on a SenseAir S8 sensor</strong><p>Create your own ESPHome CO2 sensor based on the SenseAir S8 sensor for Home Assistant.</p></div>
 </a>
-
-<a class="project-card" href="orcon_mechanic_ventilation">
-<img src="orcon_images/wires_connected.jpg" alt="Control an Orcon mechanic ventilation system">
-<span>Control an Orcon mechanic ventilation system</span>
+<a class="hp-card hp-tile" href="microwave_radar_sensor_rcwl-0516">
+<img src="/esphome/images_rcwl-0516/rcwl_0516_wired.jpg" alt="Motion and Presence sensor based on the RCWL-0516 sensor" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Motion and Presence sensor</span><strong>Motion and Presence sensor based on the RCWL-0516 sensor</strong><p>Create your own ESPHome motion and presence sensor for Home Assistant.</p></div>
 </a>
-
 </div>
-
-<img src="images/esp_d1_mini.jpg" width="200px" />
-
-ESP8266 D1 mini
 
 ---
 
 ## How to flash with ESPHome
 
-<div class="project-links">
-
-<a class="project-card" href="esphome_flashing">
-<img src="images/esphome_logo.png" alt="How to flash the config to the ESP board">
-<span>How to flash the config to the ESP board</span>
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="esphome_flashing">
+<img src="/esphome/images/esphome_logo.png" alt="How to flash the config to the ESP board" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">How to</span><strong>How to flash the config to the ESP board</strong><p>Install the ESPHome config on your ESP board, the first time and via the air afterwards.</p></div>
 </a>
-
 </div>
 
 ---
 
 ## DIY Best Buy Tips
 
-See {{imgBasket}}[ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy) for all kinds or hardware buy tips to create your own sensors.
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="../buy/esphome_diy">
+<img src="/esphome/images/esp32.webp" alt="ESPHome DIY sensors - Best Buy Tips" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>ESPHome DIY sensors</strong><p>All kinds of hardware buy tips to create your own sensors: ESP boards, sensors, cables and tools.</p><span class="hp-more">To the buy tips &rarr;</span></div>
+</a>
+</div>

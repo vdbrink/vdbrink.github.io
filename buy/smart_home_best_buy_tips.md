@@ -260,6 +260,22 @@ Most Zigbee devices run on batteries for years, but sometimes you need other way
 
 ---
 
-That's it! Other buy tips: [Outdoor sensors](#outdoor-sensors), [ESPHome DIY sensors](esphome_diy) for hardware tips to create your own sensors and [Batteries](batteries).
+## ESPHome DIY sensors
 
-For integration ideas look at the [Home Automation Ideas](../ideas/home_automation_ideas#outside) page.
+<div class="hp-tiles hp-options">
+<a class="hp-card hp-tile" href="esphome_diy">
+<img src="/esphome/images/esp32.webp" alt="ESPHome DIY sensors - Best Buy Tips" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>ESPHome DIY sensors</strong><p>Hardware tips to create your own sensors with ESPHome for Home Assistant.</p></div>
+</a>
+</div>
+
+---
+
+## Related articles
+
+<div class="hp-tiles hp-options">
+<a class="hp-card hp-tile" href="../ideas/home_automation_ideas#outside">
+<img src="/ideas/images/idea.png" alt="Home Automation Ideas" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Ideas</strong><p>For integration ideas, get inspired to make your home smart.</p></div>
+</a>
+</div>

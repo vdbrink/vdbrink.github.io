@@ -23,7 +23,7 @@ Controlled by Home Assistant.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank"><img src="/buy/images_zigbee/z2m/UFO-R11.jpg" alt="Zigbee IR remote control - Moes" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee IR remote control - Moes</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">AliExpress</a> | <a href="https://amzn.to/4wzymgc#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/495yrxA#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c4qifs41" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4wzymgc#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/495yrxA#ad" target="_blank">Amazon NL</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank">UFO-R11</a></p>
 </div>
 </div>

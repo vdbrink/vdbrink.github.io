@@ -520,6 +520,13 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 * {{imgBasket}}Deco frogs [(AliExpress)](https://s.click.aliexpress.com/e/_c3Whopf7)
 * {{imgBasket}}Stainless steel tweezers [(AliExpress)](https://s.click.aliexpress.com/e/_c34YFrOH)
 
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/projects/mossarium">
+<img src="/desk/images/mossarium.jpg" alt="Mossarium" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Mossarium: a small living ecosystem on my desk</strong><p>How a moss terrarium works, where to buy one, how to make your own and how to take care of it.</p><span class="hp-more">Read the article &rarr;</span></div>
+</a>
+</div>
+
 ---
 ## Shortcut keyboard
 
@@ -531,6 +538,13 @@ You can search for custom icons from a library or upload your own, and a button 
 </a>
 
 * {{imgBasket}}Elgato Stream Deck XL [(Amazon US)](https://amzn.to/4ycYcIe#ad) [(Amazon NL)](https://amzn.to/4bqBe6F#ad)
+
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/elgato_stream_deck/">
+<img src="/elgato_stream_deck/images/actions_sd_app.png" alt="Elgato Stream Deck for a software developer" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>Elgato Stream Deck for a software developer</strong><p>How I use an Elgato Stream Deck as a software developer, with actions and scripts to download.</p><span class="hp-more">Read the article &rarr;</span></div>
+</a>
+</div>
 
 ---
 ## Vacuum cleaner

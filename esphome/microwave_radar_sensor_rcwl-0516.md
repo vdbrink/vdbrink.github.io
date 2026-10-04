@@ -117,7 +117,7 @@ which is cheaper per piece if you plan to create multiple sensors to use around 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="/buy/esphome_diy#tools" target="_blank"><img src="/buy/images_diy/soldering_kit.avif" alt="Soldering tools" loading="lazy"></a>
+<a href="/buy/esphome_diy#tools" target="_blank"><img src="/buy/images_diy/soldering_kit_clean.webp" alt="Soldering tools" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Soldering</span><strong>Soldering tools</strong>
 <p>This project requires some soldering. If you don't have a soldering iron and tin wire yet, check the buy tips.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/esphome_diy#tools" target="_blank">Buy tips</a></p></div>
