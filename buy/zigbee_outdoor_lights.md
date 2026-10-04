@@ -22,6 +22,7 @@ A 7W / 24V DC spotlight with 16 million colors.
 The brightness and color temperature are adjustable, and it's water-resistant.
 
 Support 2.4G RF remote control directly.
+You can chain multiple lights together to power them.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
@@ -33,11 +34,6 @@ Support 2.4G RF remote control directly.
 </div>
 </div>
 
-You can chain multiple lights together to power them.
-
-<a href="images_outdoor/zigbee_spotlight_linking.avif">
-<img src="images_outdoor/zigbee_spotlight_linking.avif" alt="Outdoor Zigbee spotlight" height="150px" />
-</a>
 
 ---
 
@@ -90,12 +86,13 @@ This LED strip is available in different versions:
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_outdoor_socket"><strong>Outdoor socket</strong><span>Water-resistant smart sockets with power measurement.</span></a>
 <a class="hp-card hp-mini" href="zigbee_lights"><strong>Lights</strong><span>Bulbs, GU10 spots and LED strips.</span></a>
 <a class="hp-card hp-mini" href="zigbee_weather_station"><strong>Weather stations</strong><span>Full-blown weather stations with Home Assistant integration.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_soil_sensor"><strong>Soil sensor</strong><span>Know if your garden plants have enough water.</span></a>
-<a class="hp-card hp-mini" href="zigbee_water_flow_controller"><strong>Water flow controller</strong><span>Create a drip irrigation system.</span></a>
+<a class="hp-card hp-mini" href="zigbee_light_sensor"><strong>Light intensity sensor</strong><span>Measure daylight to switch lights at the right moment.</span></a>
+<a class="hp-card hp-mini" href="zigbee_smart_socket"><strong>Smart socket</strong><span>Switch any plugged-in device and measure its power.</span></a>
 </div>

@@ -114,7 +114,7 @@ or in summer when it becomes cooler outside than inside.
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#3-sensors-and-actuators"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#3-sensors-and-actuators"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_air_quality_sensor"><strong>Air quality sensor</strong><span>Measure CO2, VOC and other air quality values.</span></a>

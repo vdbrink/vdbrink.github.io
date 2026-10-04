@@ -35,8 +35,6 @@ You also don't have to worry about forgetting to turn them off again.
 There are different variants, including replacements for AA or AAA batteries and versions with a plug or USB connector.
 The advantage of a USB connector is that you can plug several into a powered USB hub to control multiple devices.
 
-I use these a lot for all kinds of [Christmas decorations](/projects/automate_christmas_decorations).
-
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AA battery replacement with USB" loading="lazy"></a>
@@ -83,13 +81,13 @@ I use these a lot for all kinds of [Christmas decorations](/projects/automate_ch
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="smart_home_power"><strong>Power adapters</strong><span>5V USB power adapters for your devices.</span></a>
 <a class="hp-card hp-mini" href="zigbee_usb_adapter_switch"><strong>USB adapter switch</strong><span>Switch USB powered devices on and off.</span></a>
 <a class="hp-card hp-mini" href="zigbee_temperature_sensor"><strong>Temperature sensor</strong><span>Temperature and humidity for every room.</span></a>
-<a class="hp-card hp-mini" href="zigbee_water_flow_controller"><strong>Water flow controller</strong><span>Create a drip irrigation system.</span></a>
+<a class="hp-card hp-mini" href="zigbee_contact_sensor"><strong>Contact sensor</strong><span>Detect open and closed doors, windows and drawers.</span></a>
 <a class="hp-card hp-mini" href="smart_home_cables"><strong>Cables</strong><span>USB cables and extension cables for your ESP and Zigbee stick.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_socket"><strong>Outdoor socket</strong><span>Water-resistant smart sockets with power measurement.</span></a>
 </div>

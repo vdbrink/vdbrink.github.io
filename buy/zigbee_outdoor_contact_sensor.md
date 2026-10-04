@@ -37,17 +37,13 @@ It's powered by two AAA batteries.
 <img src="/zigbee/images_waterproof_contact/contact_sensor_closeup.jpg" alt="Garden gate with waterproof contact sensor" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Blog post</span><strong>Garden gate with waterproof contact sensor</strong><p>I installed an IP65 waterproof contact sensor on my garden gate to track when it opens and closes.</p></div>
 </a>
-<a class="hp-card hp-tile" href="/zigbee/zigbee_waterproof_contact_sensor">
-<img src="/zigbee/images_waterproof_contact/contact_sensor_closeup.jpg" alt="Zigbee waterproof contact sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee waterproof contact sensor</strong><p>IP65 waterproof Zigbee contact sensor for outdoor use</p></div>
-</a>
 </div>
 
 <hr class="hp-divider">
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_outdoor_temperature_sensor"><strong>Waterproof temperature sensor</strong><span>Measure the outdoor temperature and humidity.</span></a>
@@ -55,4 +51,5 @@ It's powered by two AAA batteries.
 <a class="hp-card hp-mini" href="zigbee_radiator_thermostat"><strong>Radiator thermostat</strong><span>Heat only the rooms and moments that need it.</span></a>
 <a class="hp-card hp-mini" href="zigbee_infrared_remote"><strong>Infrared remote control</strong><span>Control infrared devices, like an AC or TV, from automations.</span></a>
 <a class="hp-card hp-mini" href="zigbee_usb_adapter_switch"><strong>USB adapter switch</strong><span>Switch USB powered devices on and off.</span></a>
+<a class="hp-card hp-mini" href="zigbee_rain_sensor"><strong>Rain sensor</strong><span>Detect raindrops, already triggered by a single drop.</span></a>
 </div>

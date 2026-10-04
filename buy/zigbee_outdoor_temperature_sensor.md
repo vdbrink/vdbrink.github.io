@@ -39,7 +39,7 @@ or to control an outdoor heater or a pump.
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_outdoor_soil_sensor"><strong>Soil sensor</strong><span>Know if your garden plants have enough water.</span></a>
@@ -47,4 +47,5 @@ or to control an outdoor heater or a pump.
 <a class="hp-card hp-mini" href="zigbee_outdoor_contact_sensor"><strong>Waterproof contact sensor</strong><span>Detect a gate, shed door or mailbox, also in the rain.</span></a>
 <a class="hp-card hp-mini" href="zigbee_radiator_thermostat"><strong>Radiator thermostat</strong><span>Heat only the rooms and moments that need it.</span></a>
 <a class="hp-card hp-mini" href="zigbee_infrared_remote"><strong>Infrared remote control</strong><span>Control infrared devices, like an AC or TV, from automations.</span></a>
+<a class="hp-card hp-mini" href="zigbee_rain_sensor"><strong>Rain sensor</strong><span>Detect raindrops, already triggered by a single drop.</span></a>
 </div>

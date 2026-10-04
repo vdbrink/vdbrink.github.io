@@ -71,12 +71,12 @@ This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an I
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_outdoor_lights"><strong>Outdoor lights</strong><span>Spotlights, floodlights and LED strips for your garden.</span></a>
 <a class="hp-card hp-mini" href="zigbee_smart_socket"><strong>Smart socket</strong><span>Switch any plugged-in device and measure its power.</span></a>
-<a class="hp-card hp-mini" href="zigbee_water_flow_controller"><strong>Water flow controller</strong><span>Create a drip irrigation system.</span></a>
+<a class="hp-card hp-mini" href="zigbee_power_strip"><strong>Power strip</strong><span>Several smart sockets in one strip.</span></a>
 <a class="hp-card hp-mini" href="zigbee_weather_station"><strong>Weather stations</strong><span>Full-blown weather stations with Home Assistant integration.</span></a>
 <a class="hp-card hp-mini" href="smart_home_batteries"><strong>Batteries</strong><span>Common battery types and battery eliminators.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_soil_sensor"><strong>Soil sensor</strong><span>Know if your garden plants have enough water.</span></a>

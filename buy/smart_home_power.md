@@ -81,7 +81,7 @@ A standard 5V USB adapter does the job for most of them.
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="smart_home_cables"><strong>Cables</strong><span>USB cables and extension cables for your ESP and Zigbee stick.</span></a>

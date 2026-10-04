@@ -59,12 +59,13 @@ Video with the Ecowitt Wittboy review:
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_outdoor_temperature_sensor"><strong>Waterproof temperature sensor</strong><span>Measure the outdoor temperature and humidity.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_lights"><strong>Outdoor lights</strong><span>Spotlights, floodlights and LED strips for your garden.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_soil_sensor"><strong>Soil sensor</strong><span>Know if your garden plants have enough water.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_socket"><strong>Outdoor socket</strong><span>Water-resistant smart sockets with power measurement.</span></a>
-<a class="hp-card hp-mini" href="zigbee_water_flow_controller"><strong>Water flow controller</strong><span>Create a drip irrigation system.</span></a>
+<a class="hp-card hp-mini" href="zigbee_air_quality_sensor"><strong>Air quality sensor</strong><span>Measure CO2, VOC and other air quality values.</span></a>
+<a class="hp-card hp-mini" href="zigbee_light_sensor"><strong>Light intensity sensor</strong><span>Measure daylight to switch lights at the right moment.</span></a>
 </div>

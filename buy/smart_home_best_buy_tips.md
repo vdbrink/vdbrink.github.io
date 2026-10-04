@@ -229,10 +229,6 @@ There are also outdoor sensors and actuators available, like water-resistant soc
 <img src="/buy/images_zigbee/ledvance_outdoor_plug.jpg" alt="Outdoor socket" loading="lazy">
 <div class="hp-tile-body"><strong>Outdoor socket</strong><p>Water-resistant smart sockets with power measurement.</p></div>
 </a>
-<a class="hp-card hp-tile" href="zigbee_water_flow_controller">
-<img src="/buy/images_outdoor/water_flow_controller.avif" alt="Water flow controller" loading="lazy">
-<div class="hp-tile-body"><strong>Water flow controller</strong><p>Create a drip irrigation system.</p></div>
-</a>
 </div>
 
 <p class="hp-flow-arrow">&darr;</p>

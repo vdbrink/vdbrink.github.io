@@ -54,14 +54,6 @@ Make sure you select the foam version and not the normal liquid one!
 
 ---
 
-That's it for the indoor sensors. 
-
-<div class="hp-related hp-related-full">
-<a class="hp-card hp-mini" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>Outdoor sensors</strong><span>Water-resistant sensors and actuators for outside.</span></a>
-<a class="hp-card hp-mini" href="../ideas/home_automation_ideas#outside"><strong>Home automation ideas</strong><span>Get inspired for integrations.</span></a>
-<a class="hp-card hp-mini" href="esphome_diy"><strong>ESPHome DIY sensors</strong><span>Hardware tips to create your own sensors.</span></a>
-</div>
-
 ## Related articles
 
 <div class="hp-tiles hp-options">
@@ -79,7 +71,7 @@ That's it for the indoor sensors.
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_motion_sensor"><strong>Motion sensor</strong><span>Trigger lights and alerts when someone moves.</span></a>

@@ -109,13 +109,13 @@ Useful for moving your Zigbee stick away from your server for better range and l
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#4-power-and-accessories"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="smart_home_power"><strong>Power adapters</strong><span>5V USB power adapters for your devices.</span></a>
 <a class="hp-card hp-mini" href="zigbee_usb_adapter_switch"><strong>USB adapter switch</strong><span>Switch USB powered devices on and off.</span></a>
 <a class="hp-card hp-mini" href="smart_home_batteries"><strong>Batteries</strong><span>Common battery types and battery eliminators.</span></a>
-<a class="hp-card hp-mini" href="zigbee_water_flow_controller"><strong>Water flow controller</strong><span>Create a drip irrigation system.</span></a>
+<a class="hp-card hp-mini" href="zigbee_smart_socket"><strong>Smart socket</strong><span>Switch any plugged-in device and measure its power.</span></a>
 <a class="hp-card hp-mini" href="smart_home_battery_powered_pir"><strong>Battery powered with PIR</strong><span>Not connected, but still smart with a built-in PIR sensor.</span></a>
 <a class="hp-card hp-mini" href="zigbee_contact_sensor"><strong>Contact sensor</strong><span>Detect open and closed doors, windows and drawers.</span></a>
 </div>

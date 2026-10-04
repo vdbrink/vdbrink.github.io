@@ -31,13 +31,13 @@ It's already triggered with a single drop.
 
 ## More buy tips
 
-<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>Overview of all layers and hardware</span></a>
+<a class="hp-card hp-mini hp-mini-index hp-mini-wide" href="smart_home_best_buy_tips#outdoor-sensors"><strong>&larr; Best Buy Tips</strong><span>To the Best Buy Tips overview page</span></a>
 
 <div class="hp-related">
 <a class="hp-card hp-mini" href="zigbee_outdoor_temperature_sensor"><strong>Waterproof temperature sensor</strong><span>Measure the outdoor temperature and humidity.</span></a>
 <a class="hp-card hp-mini" href="zigbee_weather_station"><strong>Weather stations</strong><span>Full-blown weather stations with Home Assistant integration.</span></a>
-<a class="hp-card hp-mini" href="zigbee_water_flow_controller"><strong>Water flow controller</strong><span>Create a drip irrigation system.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_soil_sensor"><strong>Soil sensor</strong><span>Know if your garden plants have enough water.</span></a>
 <a class="hp-card hp-mini" href="zigbee_outdoor_contact_sensor"><strong>Waterproof contact sensor</strong><span>Detect a gate, shed door or mailbox, also in the rain.</span></a>
 <a class="hp-card hp-mini" href="zigbee_radiator_thermostat"><strong>Radiator thermostat</strong><span>Heat only the rooms and moments that need it.</span></a>
+<a class="hp-card hp-mini" href="zigbee_outdoor_socket"><strong>Outdoor socket</strong><span>Water-resistant smart sockets with power measurement.</span></a>
 </div>
