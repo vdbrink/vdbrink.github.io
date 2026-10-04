@@ -247,11 +247,11 @@ I created automations for notifications and added the status to my Home Assistan
 
 ### Notification when a package is delivered
 
-* The first [Zigbee contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) is mounted under the inner metal plate where the packages are place on when the lid is opened.
+* The first [Zigbee contact sensor](../buy/zigbee_contact_sensor) is mounted under the inner metal plate where the packages are place on when the lid is opened.
 When the lid is opened, the contact breaks and a trigger is sent.
 This location is also nice because the sensor isn't visible from outside and don't get in contact with weather conditions.
 The signal is strong enough to get through the steel.
-I have at 1.5m, inside the house, a [smart socket](../buy/smart_home_best_buy_tips#smart-socket) installed to receive the Zigbee signals.
+I have at 1.5m, inside the house, a [smart socket](../buy/zigbee_smart_socket) installed to receive the Zigbee signals.
 
   <img src="images_allux-600/lid_open_contact_sensor.jpg" height="250px" alt="Lid opened" />
 

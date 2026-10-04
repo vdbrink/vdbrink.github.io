@@ -39,10 +39,10 @@ Start streaming a radio channel, make a coffee, announce the weather forecast, n
 
 <img src="/projects/images_bin_day/zigbee_rgb_led_strip.webp" style="float: right;margin-left:20px" alt="Zigbee RGB LED strip" height="150px">
 
-The hardware I used for this project is a dumb LED strip, modified to work directly on power without a switch and controlled by a [smart socket](/buy/smart_home_best_buy_tips#smart-socket).
-As alternative a [smart LED strip](/buy/smart_home_best_buy_tips#led-strip) controlled by Zigbee/WiFi can also be used for it.
+The hardware I used for this project is a dumb LED strip, modified to work directly on power without a switch and controlled by a [smart socket](/buy/zigbee_smart_socket).
+As alternative a [smart LED strip](/buy/zigbee_lights#led-strip) controlled by Zigbee/WiFi can also be used for it.
 
-With a [smart wireless button](/buy/smart_home_best_buy_tips#portable-button) it's possible to manually control the LED strip state.
+With a [smart wireless button](/buy/zigbee_buttons#portable-button) it's possible to manually control the LED strip state.
 
 ---
 

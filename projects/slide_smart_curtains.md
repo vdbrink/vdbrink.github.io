@@ -145,7 +145,7 @@ I have some examples of automations which you can apply.
 **Close it when...**
  
 * it becomes dark after 16:00
-  * I use for this automation a [lux sensor](/buy/smart_home_best_buy_tips#light-intensity-sensor) which detects the light intensity outside (from behind the window). Calculated dusk/dawn can also be used.
+  * I use for this automation a [lux sensor](/buy/zigbee_light_sensor) which detects the light intensity outside (from behind the window). Calculated dusk/dawn can also be used.
 * the TV turns on to avoid reflection light from outside
 * keep it closed to block the heat during a warm summer day
 * keep it closed if nobody at home to keep the warm inside during the winter

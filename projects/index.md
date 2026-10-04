@@ -5,7 +5,7 @@ tags: [projects, home automation]
 ---
 # Projects
 
-Here you find bigger projects I've done.
+Here you find bigger projects I've done, like this smart mailbox.
 
 <img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Package mailbox" width="400px">
 

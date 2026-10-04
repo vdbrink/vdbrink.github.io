@@ -181,11 +181,11 @@ This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each
 <img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/>
 </a>
  &nbsp;
-<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
+<a href="../buy/zigbee_usb_adapter_switch" target="_blank">
 <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" />
 </a>
 &nbsp;
-<a href="../buy/smart_home_best_buy_tips#power" target="_blank">
+<a href="../buy/smart_home_power" target="_blank">
 <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" height="150px"/>
 </a>
 
@@ -216,7 +216,7 @@ Place the dummy batteries in the original battery case and connect the power ada
 <img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug" height="150px"/>
 </a>
 &nbsp;
-<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
+<a href="../buy/zigbee_smart_socket" target="_blank">
 <img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" />
 </a>
 <br>
@@ -236,7 +236,7 @@ This hub can be powered with a smart socket to control all the connected devices
 <img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub" height="300px" class="buy-link" />
 </a>
 &nbsp;
-<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
+<a href="../buy/zigbee_smart_socket" target="_blank">
 <img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" class="buy-link" />
 </a>
 
@@ -257,16 +257,16 @@ It really depends on how many devices you want to control at once and how close 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="../buy/smart_home_best_buy_tips#power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V EU USB power adapter" loading="lazy"></a>
+<a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V EU USB power adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V EU USB power adapter</strong>
 <p>To power the USB battery eliminators.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#power" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="../buy/esphome_diy#usb-hub" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
@@ -275,10 +275,10 @@ It really depends on how many devices you want to control at once and how close 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/esphome_diy#usb-hub" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
+<a href="../buy/zigbee_usb_adapter_switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter</strong>
 <p>To control and power maximal 3 USB devices individually. You can choose for an adapter with 1, 2 or 3 ports.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_usb_adapter_switch" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -312,7 +312,7 @@ I can control the lights via the original remote and also from my Home Assistant
 
 #### The programmable infrared remote
 
-I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [WiFi models](../buy/smart_home_best_buy_tips#infrared-remote-control)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
+I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [WiFi models](../buy/zigbee_infrared_remote)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
 Also, the original remote can be used to control them!
 
@@ -328,10 +328,10 @@ With this project, all these lights can now be automated as well!
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
+<a href="/buy/zigbee_infrared_remote" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Transmitter</span><strong>Programmable infrared remote</strong>
 <p>It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/zigbee_infrared_remote" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank"><img src="/buy/images_diy/led_lamp_with_remote.avif" alt="Colored LED lights (1 - 6)" loading="lazy"></a>
@@ -401,10 +401,10 @@ Or if you're familiar with soldering and electronics, you can modify the current
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or look for a smart socket that fits your country.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 

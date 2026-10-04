@@ -363,7 +363,7 @@ My optional elements are:
     * [Mail delivered](/projects/smart_mailbox), in the [last 30 minutes](/homeassistant/homeassistant_templates#mail-delivered-in-the-last-30-minutes)
     * [water/leak detected!](/homeassistant/homeassistant_templates#diy-sink-leak-status)
     * Rain amount fallen, if there is any rain fallen today
-    * Is it nice to sit outside?, based on many [outdoor weather station sensor values](/buy/zigbee_outdoor#weather-stations) (temperature, humidity, wind, UV index)
+    * Is it nice to sit outside?, based on many [outdoor weather station sensor values](/buy/zigbee_weather_station) (temperature, humidity, wind, UV index)
     * Text if there must be meat or fish out of the freezer for the dish of tomorrow, based on the [meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before), only show after 21.00
 
 <br>

@@ -119,7 +119,7 @@ These hardware components do I use for this project:
 <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket with power measurement" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Optional</span><strong>Smart power socket with power measurement</strong>
 <p>I use the Zigbee EU BlitzWolf SHP.</p>
-<p class="hp-store-links"><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy link</a></p></div>
+<p class="hp-store-links"><a href="../buy/zigbee_smart_socket" target="_blank">Buy link</a></p></div>
 </div>
 </div>
 
@@ -364,7 +364,7 @@ To get feedback of the current active mode, you also need to read the power cons
 
 ### Background
 
-To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this will not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
+To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this will not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf EU SHP-15](../buy/zigbee_smart_socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
 Based on the used power, I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
@@ -963,12 +963,12 @@ cards:
 The system can automatically be controlled by different type of sensors and actuators:
 - The original 15RF remote.
 - A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 CO2 sensor](co2_senseair_s8_sensor).
-- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/smart_home_best_buy_tips#temperature-sensor) in the cooker hood above the stove.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/zigbee_temperature_sensor) in the cooker hood above the stove.
 - A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500px" />
   
-- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/smart_home_best_buy_tips#temperature-sensor) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/zigbee_temperature_sensor) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
 - I also have a reference sensor outside the bathroom as reference data.
 
 <img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500px" />
@@ -1030,7 +1030,7 @@ This is the corresponding flow in Node-RED.
 ## Possible improvements
 - Power the remote from the ESP
 - Register the remote to the system via the ESP
-- Activate the system based on toilet usage via a [VOC sensor](/buy/smart_home_best_buy_tips#air-quality-sensor)
+- Activate the system based on toilet usage via a [VOC sensor](/buy/zigbee_air_quality_sensor)
 - Show the current mode in design 3
 
 ---

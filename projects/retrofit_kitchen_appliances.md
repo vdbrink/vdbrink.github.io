@@ -76,13 +76,13 @@ remind you to empty it, or track usage.
 
 **Sensors and automations**
 
-* With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can track if it (still) running.
-* With a [contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) on the door: you can check if the door is opened (and probably emptied).
-* With a [lux sensor](/buy/smart_home_best_buy_tips#lux-sensor) next to the light underneath it: you can also check if it indicates it's still running.
+* With a [smart plug](/buy/zigbee_smart_socket) with energy consumption monitoring: you can track if it (still) running.
+* With a [contact sensor](/buy/zigbee_contact_sensor) on the door: you can check if the door is opened (and probably emptied).
+* With a [lux sensor](/buy/zigbee_light_sensor) next to the light underneath it: you can also check if it indicates it's still running.
 
 <br>
 
-<a href="/buy/smart_home_best_buy_tips#contact-sensor">
+<a href="/buy/zigbee_contact_sensor">
 <img src="/ideas/images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/>
 </a>
 
@@ -112,14 +112,14 @@ An oven can be made smarter with automations that notify you when it has reached
 
 **Sensors and automations**
 
-* With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: 
+* With a [smart plug](/buy/zigbee_smart_socket) with energy consumption monitoring: 
 when the power consumption drops, it has reached its preset temperature.\
  First check the manual of your oven to see if the wattage is below the maximum of the smart socket.
   <a href="images_kitchen_appliances/oven_power.png" target="_blank">
   <img src="images_kitchen_appliances/oven_power.png" alt="oven power measurement" width="350px"/>
   </a>
 
-* With a [contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) on the door: you can check if the door is opened and start a timer on a dashboard.
+* With a [contact sensor](/buy/zigbee_contact_sensor) on the door: you can check if the door is opened and start a timer on a dashboard.
 
 <br>
 
@@ -151,8 +151,8 @@ A refrigerator can be made smarter with automations that notify you when it's to
 
 **Sensors and automations**
 
-* With a [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside the refrigerator and freezer: you can monitor the temperature.
-* With a door [contact sensor](/buy/smart_home_best_buy_tips#contact-sensor) attached to the doors: you can monitor if the doors are opened or closed (in a certain time range).
+* With a [temperature sensor](../buy/zigbee_temperature_sensor) inside the refrigerator and freezer: you can monitor the temperature.
+* With a door [contact sensor](/buy/zigbee_contact_sensor) attached to the doors: you can monitor if the doors are opened or closed (in a certain time range).
 
 <br>
 
@@ -178,8 +178,8 @@ A stove can be made smarter with automations that can activate the ventilation o
 
 **Sensors and automations**
 
-* With a [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside the extractor hood: you can monitor the temperature and humidity of steam from the cooked meals.
-* With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can monitor if the extraction fan is activated.
+* With a [temperature sensor](../buy/zigbee_temperature_sensor) inside the extractor hood: you can monitor the temperature and humidity of steam from the cooked meals.
+* With a [smart plug](/buy/zigbee_smart_socket) with energy consumption monitoring: you can monitor if the extraction fan is activated.
 * With a gas sensor: you can detect if the gas is still on while you're not cooking anymore.
 
 <br>
@@ -225,16 +225,16 @@ Check out my [dedicated page](/esphome/orcon_mechanic_ventilation) about this pr
 
 * With a [CO2 sensor](/esphome/co2_senseair_s8_sensor) you can: monitor the air quality.\
 You can create one [yourself](/esphome/co2_senseair_s8_sensor) with a ESP board and CO2 sensor, see the project page for all info. 
-* With a [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) in the cooker hood above the stove: you can detect if someone is cooking.
+* With a [temperature and humidity sensor](/buy/zigbee_temperature_sensor) in the cooker hood above the stove: you can detect if someone is cooking.
 <br>
 
 It depends on where your ventilation system is used for. 
 In my case for the stove, shower, and kitchen.
 I have these automations also in place:
 
-* With a [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) in the ventilation tube above the shower: you can detect if someone is showering.
+* With a [temperature and humidity sensor](/buy/zigbee_temperature_sensor) in the ventilation tube above the shower: you can detect if someone is showering.
 
-* With an extra [temperature and humidity sensor](/buy/smart_home_best_buy_tips#temperature-sensor) also somewhere else in the kitchen, you can compare if the kitchen air is too humid or high and decide to activate the ventilation system.
+* With an extra [temperature and humidity sensor](/buy/zigbee_temperature_sensor) also somewhere else in the kitchen, you can compare if the kitchen air is too humid or high and decide to activate the ventilation system.
 I use this extra sensor as a reference to the humidity in the stove. 
 The humidity in the summer can be very low, but in autumn very high for the whole day. 
 In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
@@ -249,8 +249,8 @@ A sink can be made smarter with automations like a notification when there is a 
 
 **Sensors and automations**
 
-* With a [leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) (or a modified [contact sensor](/zigbee/zigbee_water_leak_sensor)) under the sink: you can detect leaks.
-* With a [automatic and handsfree soap dispenser](/buy/smart_home_best_buy_tips#automatic-soap-dispenser): you can wash your hands quicker (the soap is already foam) and without touching the dispenser.
+* With a [leak sensor](/buy/zigbee_leak_sensor) (or a modified [contact sensor](/zigbee/zigbee_water_leak_sensor)) under the sink: you can detect leaks.
+* With a [automatic and handsfree soap dispenser](/buy/smart_home_battery_powered_pir#automatic-soap-dispenser): you can wash your hands quicker (the soap is already foam) and without touching the dispenser.
 
 <br>
 
@@ -273,8 +273,8 @@ A coffee machine can be made a bit smarter and notify you when it's time to orde
 
 **Sensors and automations**
 
-* With a [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) attached to the machine: you can detect when the coffee machine is used.
-* With a [smart plug](/buy/smart_home_best_buy_tips#smart-socket) with energy consumption monitoring: you can also detect when the coffee machine is used.
+* With a [vibration sensor](/buy/zigbee_vibration_sensor) attached to the machine: you can detect when the coffee machine is used.
+* With a [smart plug](/buy/zigbee_smart_socket) with energy consumption monitoring: you can also detect when the coffee machine is used.
 
 <br>
 

@@ -261,10 +261,10 @@ These hardware devices are examples of what you need and can use in your own inf
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
+<a href="/buy/zigbee_infrared_remote" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Transmitter</span><strong>Programmable infrared remote</strong>
 <p>Some examples of Zigbee and WiFi devices which act as programmable infrared remotes. They can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal via an automation. There are also devices that support RF signals as well. I use in these examples the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee Moes UFO-R11</a>.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Moes UFO-R11</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/zigbee_infrared_remote" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Moes UFO-R11</a></p></div>
 </div>
 </div>
 
@@ -329,7 +329,7 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
 
 **Online models**
 
-[Here](/buy/smart_home_best_buy_tips#infrared-remote-control) you find a list of different infrared remote control devices.
+[Here](/buy/zigbee_infrared_remote) you find a list of different infrared remote control devices.
 
 ---
 

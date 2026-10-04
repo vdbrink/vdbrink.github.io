@@ -38,7 +38,7 @@ The downside is that the cover of the sensor doesn't close correct anymore,
 because of the two wires to the USB connector.
 You have now a huge battery block attached to this sensor.
 That's why it isn't a solution for each CR2032 powered device.
-I use this solution myself for [temperature sensors](/buy/smart_home_best_buy_tips#temperature-sensor) 
+I use this solution myself for [temperature sensors](/buy/zigbee_temperature_sensor) 
 which lay on top of some bedroom closets where you don't see them and not easy to reach. 
 For these cases, the longer battery (and use of regular AA batteries) life is more important than the small and compact look.
 

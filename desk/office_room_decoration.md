@@ -143,7 +143,7 @@ Under the laminate, I added an insulation layer to reduce sound transmission to 
 
 Since I've automated the rest of my home, I did the same for this room.
 
-I kept the original ceiling fixtures but swapped the bulbs for [colored Zigbee bulbs](/buy/smart_home_best_buy_tips#bulb).
+I kept the original ceiling fixtures but swapped the bulbs for [colored Zigbee bulbs](/buy/zigbee_lights#bulb).
 These can be automated based on room occupancy, time of day, and the amount of natural light coming in, automatically adjusting both brightness and color temperature.
 
 ---

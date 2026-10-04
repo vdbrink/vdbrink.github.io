@@ -93,10 +93,10 @@ A compact setup for sensors that run on a single CR2032 coin cell, like the Aqar
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara WSDCGQ11LM" loading="lazy"></a>
+<a href="/buy/zigbee_temperature_sensor" target="_blank"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara WSDCGQ11LM" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">1. Sensor</span><strong>Aqara WSDCGQ11LM</strong>
 <p>A CR2032 battery powered temperature sensor.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/zigbee_temperature_sensor" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="/buy/batteries#cr2032-usb-battery-replacements" target="_blank"><img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 battery to USB adapter" loading="lazy"></a>
@@ -105,10 +105,10 @@ A compact setup for sensors that run on a single CR2032 coin cell, like the Aqar
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/batteries#cr2032-usb-battery-replacements" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
+<a href="/buy/smart_home_power#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">3. Power</span><strong>USB to outlet adapter</strong>
 <p>To power the battery replacement from the wall outlet.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#adapters" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_power#adapters" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -120,10 +120,10 @@ The same idea for a temperature and humidity sensor that runs on AAA batteries. 
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank"><img src="/buy/images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Tuya WSD500A temperature and humidity sensor" loading="lazy"></a>
+<a href="/buy/zigbee_temperature_sensor" target="_blank"><img src="/buy/images_zigbee/temperature_sensor_tuya_aaa.avif" alt="Tuya WSD500A temperature and humidity sensor" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">1. Sensor</span><strong>Tuya WSD500A temperature and humidity sensor</strong>
 <p>An AAA battery powered temperature and humidity sensor.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/zigbee_temperature_sensor" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="/buy/batteries#battery-eliminators" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement (eliminator) to USB adapter" loading="lazy"></a>
@@ -132,10 +132,10 @@ The same idea for a temperature and humidity sensor that runs on AAA batteries. 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
+<a href="/buy/smart_home_power#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">3. Power</span><strong>USB to outlet adapter</strong>
 <p>To power the battery replacement from the wall outlet.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#adapters" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_power#adapters" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -159,10 +159,10 @@ This also works for other sensor types. This leak sensor runs on two AAA batteri
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
+<a href="/buy/smart_home_power#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">3. Power</span><strong>USB to outlet adapter</strong>
 <p>To power the battery replacement from the wall outlet.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#adapters" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_power#adapters" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -186,10 +186,10 @@ A motion sensor on two AAA batteries can be powered the same way. A sensor that 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
+<a href="/buy/smart_home_power#adapters" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="USB to outlet adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">3. Power</span><strong>USB to outlet adapter</strong>
 <p>To power the battery replacement from the wall outlet.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#adapters" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_power#adapters" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 

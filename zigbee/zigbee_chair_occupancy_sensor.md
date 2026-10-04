@@ -80,7 +80,7 @@ That makes it a reliable trigger, and you can combine it with other sensors, a t
 * Show or announce today's calendar events at the start of the day. 
 
 * Control the room temperature because it's occupied.
-* Send notifications with incorrect office health state values only when you're there ([CO2](/esphome/co2_scd40), [temperature](buy/smart_home_best_buy_tips#temperature-sensor), [humidity](buy/smart_home_best_buy_tips#temperature-sensor), [PM2.5](/buy/smart_home_best_buy_tips#air-quality-sensor), [VOC](/buy/smart_home_best_buy_tips#air-quality-sensor), or [Formaldehyde](/buy/smart_home_best_buy_tips#air-quality-sensor)).
+* Send notifications with incorrect office health state values only when you're there ([CO2](/esphome/co2_scd40), [temperature](/buy/zigbee_temperature_sensor), [humidity](/buy/zigbee_temperature_sensor), [PM2.5](/buy/zigbee_air_quality_sensor), [VOC](/buy/zigbee_air_quality_sensor), or [Formaldehyde](/buy/zigbee_air_quality_sensor)).
 
 <hr class="hp-divider">
 

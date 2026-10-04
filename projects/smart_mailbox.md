@@ -98,7 +98,7 @@ I only use reed contact sensors, this is how they work:\
 By default, the magnet is placed close by the sensor so the two metals touch each other in the reed-contact and the circuit is closed.
 When the mail man opens the flap, the magnet gets too far away and the reed-contact state changes to open, which triggers the change to the contact sensor.
 
-For all mailboxes, I used the Zigbee [Aqara contact sensor](/buy/smart_home_best_buy_tips#contact-sensor), they have a good range,
+For all mailboxes, I used the Zigbee [Aqara contact sensor](/buy/zigbee_contact_sensor), they have a good range,
 long battery life and compact size.
 
 ---
@@ -137,12 +137,12 @@ When your mailbox flap opens to the inside you can use the contact sensor like t
 <a href="images_mailbox/mailbox_open_inside.jpg" target="_blank">
 <img src="images_mailbox/mailbox_open_inside.jpg" alt="mailbox open to inside" height="100px" /></a>
 
-As another alternative, you can also (ab)use a [leak sensor with a probe](/buy/smart_home_best_buy_tips#leak-sensor) if you don't want the sensor to block a part of the opening.
+As another alternative, you can also (ab)use a [leak sensor with a probe](/buy/zigbee_leak_sensor) if you don't want the sensor to block a part of the opening.
 Now you place the sensor inside your house and only the wire is required to be inside the opening, 
 and when the flap is closed they need to be make contact to a metal plate (magnet is also metal) to let the circuit make a closed connection so the sensor knows the flap is closed.
 You need to use a custom template to define the mailbox is closed (and it doesn't show as "leak detected").
 
-<a href="/buy/smart_home_best_buy_tips#leak-sensor" target="_blank">
+<a href="/buy/zigbee_leak_sensor" target="_blank">
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 Or solder wires to a contact sensor yourself to only have those two wires inside your mailbox.
@@ -197,15 +197,15 @@ I use Zigbee contact sensors, but there are more solutions to detect if there is
 
 ### Leak sensor
 
-A [leak sensor](/buy/smart_home_best_buy_tips#leak-sensor) with a probe, you can place and hide it a bit further away from the flap opening.
+A [leak sensor](/buy/zigbee_leak_sensor) with a probe, you can place and hide it a bit further away from the flap opening.
 As long as the contacts make contact to a metal plate when the mailbox flap is closed.
 
-<a href="/buy/smart_home_best_buy_tips#leak-sensor" target="_blank">
+<a href="/buy/zigbee_leak_sensor" target="_blank">
 <img src="/buy/images_zigbee/leak_sensor.webp" alt="leak sensor" height="150px" /></a>
 
 ### Vibration sensor
 
-A [vibration sensor](/buy/smart_home_best_buy_tips#vibration-sensor) can detect changes in x/y/z directions.
+A [vibration sensor](/buy/zigbee_vibration_sensor) can detect changes in x/y/z directions.
 This can be attached to a flap which opens when mail is delivered.
 
 ### Long range protocols

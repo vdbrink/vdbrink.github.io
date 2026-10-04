@@ -11,13 +11,13 @@ tags: [Elgato, Stream Deck, software, developer, actions]
 
 <img src="/elgato_stream_deck/images/my_sd_xl.png" alt="My Stream Deck XL page" width="100%" />
 
-On this page I share and explain the buttons I use on my Stream Deck,
-and how YOU can use them on your own Stream Deck to trigger tasks in your daily work as well.
+<p class="hp-lead">On this page I share and explain the buttons I use on my Stream Deck,
+and how YOU can use them on your own Stream Deck to trigger tasks in your daily work as well.</p>
 
-What do you want to use it for?\
-Also like me to control your AI agents (Claude Code, Codex, Copilot), your IDE (IntelliJ, VS Code) and your video calls (Meet, Teams, Zoom)? What more?
+<p class="hp-lead">What do you want to use it for?<br>
+Also like me to control your AI agents (Claude Code, Codex, Copilot), your IDE (IntelliJ, VS Code) and your video calls (Meet, Teams, Zoom)? What more?</p>
 
----
+<hr class="hp-divider">
 
 ## How to use this page
 
@@ -46,12 +46,12 @@ The same solutions are probably also possible on Windows, but sometimes you need
 Do you know cool and useful Stream Deck actions for macOS software developers yourself?
 I'm always looking for new ones, let me know via a GitHub issue or a comment on one of my social posts.
 
----
+<hr class="hp-divider">
 
 ## Example buttons
 
-For these applications do I have buttons on my Stream Deck.
-Click on them to see and download the corresponding actions and load them direct on your own Stream Deck.
+<p class="hp-lead">For these applications do I have buttons on my Stream Deck.
+Click on them to see and download the corresponding actions and load them direct on your own Stream Deck.</p>
 
 {% include stream_deck_actions.html %}
 

@@ -196,7 +196,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 </div>
 <div class="hp-buy-strip">
 <a class="hp-card" href="/buy/smart_home_best_buy_tips"><span>🏠</span>Smart Home hardware</a>
-<a class="hp-card" href="/buy/zigbee_outdoor"><span>🌳</span>Zigbee Outdoor</a>
+<a class="hp-card" href="/buy/smart_home_best_buy_tips#outdoor-sensors"><span>🌳</span>Zigbee Outdoor</a>
 <a class="hp-card" href="/homeassistant/homeassistant_hardware"><span>🖥️</span>Home server machines</a>
 <a class="hp-card" href="/buy/esphome_diy"><span><img src="/esphome/images/esp32.webp" alt="" style="height:1.1em; width:auto; vertical-align:middle;"></span>ESP DIY sensors</a>
 <a class="hp-card" href="/buy/batteries"><span>🔋</span>Batteries</a>

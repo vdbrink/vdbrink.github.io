@@ -69,9 +69,9 @@ Criteria for my own automations are:
 ## Devices and locations to be automated
 
 ### Mailbox
-* Notification when mail is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)\
+* Notification when mail is delivered. ([contact sensor](../buy/zigbee_contact_sensor) with a separate magnet on the flap)\
   <img src="\projects\images_mailbox\youve_got_mail_notification.jpg" width="350px" />
-* Notification if mail is sticking out of the mailbox. (if the [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) doesn't make contact anymore, and not closed again after 1 minute)
+* Notification if mail is sticking out of the mailbox. (if the [contact sensor](../buy/zigbee_contact_sensor) doesn't make contact anymore, and not closed again after 1 minute)
 * Send a picture of the mailbox after something is delivered. (Raspberry Pi Zero W with camera)
 <br>
 <img src="images/mailbox.jpg" alt="mailbox" height="200px"/> &nbsp;
@@ -82,7 +82,7 @@ See my [dedicated](/projects/smart_mailbox) page about how I made my mailboxes s
 ---
 
 ### Package box
-* Notification when a package is delivered. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) with a separate magnet on the flap)
+* Notification when a package is delivered. ([contact sensor](../buy/zigbee_contact_sensor) with a separate magnet on the flap)
 
   See my [dedicated](/projects/packages-mailbox-allux-600) page about how I made this package box smart!
 <br>
@@ -93,26 +93,26 @@ See my [dedicated](/projects/smart_mailbox) page about how I made my mailboxes s
 ---
 
 ### Washing machine / dryer
-* Notification when the washing machine/dryer is finished. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
-* Measure how long the machine is running. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
-* Measure what the costs are. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
-* Notification when the machine is not emptied yet after X time. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the door)
+* Notification when the washing machine/dryer is finished. (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter)
+* Measure how long the machine is running. (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter)
+* Measure what the costs are. (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter)
+* Notification when the machine is not emptied yet after X time. ([contact sensor](../buy/zigbee_contact_sensor) on the door)
 <br>
 <img src="images/washing_machine_grafana.png" alt="energy consumption" height="350px"/>
 
 ---
 
 ### Living room
-* Close the curtains in the evening. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor))
-* Open the curtains in the morning. (smart curtains, [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor))
+* Close the curtains in the evening. (smart curtains, [lux sensor](../buy/zigbee_light_sensor))
+* Open the curtains in the morning. (smart curtains, [lux sensor](../buy/zigbee_light_sensor))
   * See my [dedicated](/projects/slide_smart_curtains) page about the Slide Pro curtains.
 
-* Lights fading in and out, according to twilight. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor) to detect brightness from inside and outside)
-* Lights automatically turning off at bedtime. ([smart lights](../buy/smart_home_best_buy_tips#lights) + [button](../buy/smart_home_best_buy_tips#portable-button) near the bed)
-* Lights are automatically turned off when no one is in the living anymore. ([presence detection with mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor))
+* Lights fading in and out, according to twilight. ([smart lights](../buy/zigbee_lights) + [lux sensor](../buy/zigbee_light_sensor) to detect brightness from inside and outside)
+* Lights automatically turning off at bedtime. ([smart lights](../buy/zigbee_lights) + [button](../buy/zigbee_buttons#portable-button) near the bed)
+* Lights are automatically turned off when no one is in the living anymore. ([presence detection with mmWave sensor](../buy/zigbee_presence_sensor))
 * Dimming lights after a few minutes when the movie player is on. 
-Brightness increases again when someone is detected in the kitchen. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [motion sensor](../buy/smart_home_best_buy_tips#motion-sensor))
- <br><a href="../buy/smart_home_best_buy_tips#motion-sensor"><img src="images/motion_sensor.png" alt="motion sensor" height="150px" /></a>
+Brightness increases again when someone is detected in the kitchen. ([smart plug](../buy/zigbee_smart_socket) + [motion sensor](../buy/zigbee_motion_sensor))
+ <br><a href="../buy/zigbee_motion_sensor"><img src="images/motion_sensor.png" alt="motion sensor" height="150px" /></a>
 
 ---
 
@@ -120,8 +120,8 @@ Brightness increases again when someone is detected in the kitchen. ([smart plug
 
 I have a [dedicated page](/projects/automate_christmas_decorations) about how I automated my Christmas decorations.
 
-* Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/batteries#battery-eliminators) and multiple connected to a [USB adapter switch](../buy/smart_home_best_buy_tips#usb-adapter-switch), powered by a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) for automation)
-* Christmas tree lights. (replace the default [power socket with always on mode switch](/buy/esphome_diy#christmas-light-adapter) and add a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) to control it)
+* Connecting battery-operated Christmas decorations to the power outlet. (equipped with [battery eliminators](../buy/batteries#battery-eliminators) and multiple connected to a [USB adapter switch](../buy/zigbee_usb_adapter_switch), powered by a [smart plug](../buy/zigbee_smart_socket) for automation)
+* Christmas tree lights. (replace the default [power socket with always on mode switch](/buy/esphome_diy#christmas-light-adapter) and add a [smart plug](../buy/zigbee_smart_socket) to control it)
 <br/><br/>
 <a href="/projects/automate_christmas_decorations">
 <img src="/projects/images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas decoration lights battery powered" height="350px" />
@@ -137,7 +137,7 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 * Depends on which area's the ventilation system is connected to.
   In my case, my bathroom humidity/temperature, kitchen humidity/temperature,
   kitchen/bathroom temperature/humidity difference, duration of a toilet visit.
-  ([lux](../buy/smart_home_best_buy_tips#light-intensity-sensor) value above threshold x for time Y,  [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor), 
+  ([lux](../buy/zigbee_light_sensor) value above threshold x for time Y,  [temperature sensor](../buy/zigbee_temperature_sensor), 
 [MV control via an additional remote linked to an ESP](../esphome/orcon_mechanic_ventilation))
 <br>
 <img src="images/ventilation_socket.jpg" alt="ventilation" height="350px" />
@@ -145,30 +145,30 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 ---
 
 ### Laundry room
-* Lights on/off when entering/leaving. ([door contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + [smart light](../buy/smart_home_best_buy_tips#lights))
-* Dehumidifier on based on humidity. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + dehumidifier also turned on with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
-* Notification if the water tank of the dehumidifier is full. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) in the dehumidifier)
+* Lights on/off when entering/leaving. ([door contact sensor](../buy/zigbee_contact_sensor) + [smart light](../buy/zigbee_lights))
+* Dehumidifier on based on humidity. ([humidity sensor](../buy/zigbee_temperature_sensor) + dehumidifier also turned on with a [smart plug](../buy/zigbee_smart_socket))
+* Notification if the water tank of the dehumidifier is full. ([leak sensor](../buy/zigbee_leak_sensor) in the dehumidifier)
 
 ---
 
 ### (Bed)rooms
-* Light on when entering (and no one is already in bed). ([door contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + [smart light](../buy/smart_home_best_buy_tips#lights))
-* LED strip just a few percentage on when going out of bed during the night. ([LED strip](../buy/smart_home_best_buy_tips#led-strip))
-* Dehumidifier on in the evening if the humidity is too high. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + dehumidifier also turned on with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket))
-* Notification if windows can be opened in summer when it's cooler outside than inside. (indoor + outdoor [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
+* Light on when entering (and no one is already in bed). ([door contact sensor](../buy/zigbee_contact_sensor) + [smart light](../buy/zigbee_lights))
+* LED strip just a few percentage on when going out of bed during the night. ([LED strip](../buy/zigbee_lights#led-strip))
+* Dehumidifier on in the evening if the humidity is too high. ([humidity sensor](../buy/zigbee_temperature_sensor) + dehumidifier also turned on with a [smart plug](../buy/zigbee_smart_socket))
+* Notification if windows can be opened in summer when it's cooler outside than inside. (indoor + outdoor [temperature sensor](../buy/zigbee_temperature_sensor))
 * Notification to open a window if the CO2 level is too high [ESP CO2 sensor](../esphome/co2_senseair_s8_sensor)
-* Notification to open a window if the humidity is inside too high compared to the value outside. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the window)
-* Notification to close a window if heavy rain is expected within 10 minutes. (API weather forecast + [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the window)
+* Notification to open a window if the humidity is inside too high compared to the value outside. ([humidity sensor](../buy/zigbee_temperature_sensor) + [contact sensor](../buy/zigbee_contact_sensor) on the window)
+* Notification to close a window if heavy rain is expected within 10 minutes. (API weather forecast + [contact sensor](../buy/zigbee_contact_sensor) on the window)
 
 ---
 
 ### Bathroom
-* Notification when someone takes a shower. ([humidity sensor](../buy/smart_home_best_buy_tips#temperature-sensor) or water usage measuring)
+* Notification when someone takes a shower. ([humidity sensor](../buy/zigbee_temperature_sensor) or water usage measuring)
   * ... Detect afterward the door is opened again. Now the next one can take a shower! 
-* Detect if someone is in the bathroom. ([presence detection with mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor))
+* Detect if someone is in the bathroom. ([presence detection with mmWave sensor](../buy/zigbee_presence_sensor))
 * Water consumption. (Water meter reader)
 * Dimmed light during night visits.
-* Change light color when someone is too long in the shower. (Water consumption, [presence](../buy/smart_home_best_buy_tips#presence-detection-sensor), [LED strip](../buy/smart_home_best_buy_tips#led-strip))
+* Change light color when someone is too long in the shower. (Water consumption, [presence](../buy/zigbee_presence_sensor), [LED strip](../buy/zigbee_lights#led-strip))
 
 ---
 
@@ -180,69 +180,69 @@ Sometimes by adding a sensor outside the device.
 See also my dedicated page about [smart kitchen appliances](/projects/retrofit_kitchen_appliances).
 
 #### Lights
-* Lights on, based on presence + light intensity. ([motion sensor](../buy/smart_home_best_buy_tips#motion-sensor) + [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor) + normal LED strip with a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) or smart [LED strip](../buy/smart_home_best_buy_tips#led-strip))
+* Lights on, based on presence + light intensity. ([motion sensor](../buy/zigbee_motion_sensor) + [lux sensor](../buy/zigbee_light_sensor) + normal LED strip with a [smart plug](../buy/zigbee_smart_socket) or smart [LED strip](../buy/zigbee_lights#led-strip))
  <br>
  <img src="images/kitchen_lights.jpg" alt="kitchen light" height="200px">
 
 #### Dishwasher
-* Notification when the dishwasher is finished. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
-* Notification when dishwasher is not emptied yet after X time. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) on the door)
+* Notification when the dishwasher is finished. (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter)
+* Notification when dishwasher is not emptied yet after X time. ([contact sensor](../buy/zigbee_contact_sensor) on the door)
   <br>
-* Notification when the dishwasher didn't start its cycle at X o'clock. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter to detect if it runs)
+* Notification when the dishwasher didn't start its cycle at X o'clock. (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter to detect if it runs)
 
-<a href="../buy/smart_home_best_buy_tips#contact-sensor"><img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/></a>
+<a href="../buy/zigbee_contact_sensor"><img src="images/dishwasher_doorsensor.jpg" alt="dishwasher door sensor" height="200px"/></a>
 
 #### Oven
-* Notification when the oven reaches his preset temperature. (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter. The power consumption drops when he reaches his temperature)
+* Notification when the oven reaches his preset temperature. (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter. The power consumption drops when he reaches his temperature)
   <br>
   <img src="images/notification.jpg" alt="notification" height="100px"/>
 
 #### Refrigerator
-* Detect if the door is opened too long. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) inside or door [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
-* Detect when the freezer door isn't opened before go to bed and there must get some meat/fish out it to defrost already for tomorrow's diner ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) and [Mealie meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before))
+* Detect if the door is opened too long. ([temperature sensor](../buy/zigbee_temperature_sensor) inside or door [contact sensor](../buy/zigbee_contact_sensor))
+* Detect when the freezer door isn't opened before go to bed and there must get some meat/fish out it to defrost already for tomorrow's diner ([contact sensor](../buy/zigbee_contact_sensor) and [Mealie meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before))
 
 #### Stove
-* Detect if someone is cooking. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
-* Exhaust fan on based on temperature/humidity. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) in the cooker hood)
+* Detect if someone is cooking. ([temperature sensor](../buy/zigbee_temperature_sensor))
+* Exhaust fan on based on temperature/humidity. ([temperature sensor](../buy/zigbee_temperature_sensor) in the cooker hood)
 <br>
 <img src="/esphome/orcon_images/stove.jpg" alt="stove temperature sensor" height="200px">
 
 #### Sink
-* Leak detector under the sink. ([leak sensor](../buy/smart_home_best_buy_tips#leak-sensor) or a modified [contact sensor](/zigbee/zigbee_water_leak_sensor))
+* Leak detector under the sink. ([leak sensor](../buy/zigbee_leak_sensor) or a modified [contact sensor](/zigbee/zigbee_water_leak_sensor))
 <br>
 <img src="images/water_leak.jpg" alt="water leak" height="200px">
 
 #### Coffee machine
-* Count the brewed coffees to order new cups. ([vibration sensor](../buy/smart_home_best_buy_tips#vibration-sensor))
+* Count the brewed coffees to order new cups. ([vibration sensor](../buy/zigbee_vibration_sensor))
 
 ---
 
 ### Home office
 * Computer screen + lights + phone charger on when you sit in the office chair. ([car seat pressure sensor in the chair](/zigbee/zigbee_chair_occupancy_sensor))
-* Computer screen + lights + phone charger on when you enter the office. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the door)
-* Office lights only on when it's dark and someone is in the room. ([smart light](../buy/smart_home_best_buy_tips#lights), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [mmWave sensor](../buy/smart_home_best_buy_tips#presence-detection-sensor) to detect a person who sits still)
-* Extra heater on, based on temperature and presence. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor) + [chair occupancy](/zigbee/zigbee_chair_occupancy_sensor))
-* On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/smart_home_best_buy_tips#lights))
-* Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
+* Computer screen + lights + phone charger on when you enter the office. ([contact sensor](../buy/zigbee_contact_sensor) at the door)
+* Office lights only on when it's dark and someone is in the room. ([smart light](../buy/zigbee_lights), [lux sensor](../buy/zigbee_light_sensor), [mmWave sensor](../buy/zigbee_presence_sensor) to detect a person who sits still)
+* Extra heater on, based on temperature and presence. ([temperature sensor](../buy/zigbee_temperature_sensor) + [chair occupancy](/zigbee/zigbee_chair_occupancy_sensor))
+* On air light so people at home know you're in a call. (calendar integration + [smart light](../buy/zigbee_lights))
+* Notification to open a window if the inside temperature is too high compared to the outside temperature. ([temperature sensor](../buy/zigbee_temperature_sensor))
 * Notification to open a window if the CO2 value is too high. ([CO2 sensor](../esphome/co2_senseair_s8_sensor))
-* Air conditioning on when it's too hot in- and outside. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket) + [temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
+* Air conditioning on when it's too hot in- and outside. ([smart plug](../buy/zigbee_smart_socket) + [temperature sensor](../buy/zigbee_temperature_sensor))
 
 ---
 
 ### Closet / pantry / storage / stairs
-* Lights on when you open a closet door. ([battery-powered LED light with a PIR sensor](/buy/smart_home_best_buy_tips#battery-powered-pir-lights). Not connected, but smart/convenient!)
+* Lights on when you open a closet door. ([battery-powered LED light with a PIR sensor](/buy/smart_home_battery_powered_pir). Not connected, but smart/convenient!)
 
 ---
 
 ### Drawer
-* Notify when the drawer is opened. (Attach a [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) behind the drawer to the closet and the magnet to the drawer itself, so when you open it, the contact gets broken and a signal is triggered)
-* Notify when drawer is not yet opened today at a specific time. For example, if you have medicines in a drawer, you need to take every day. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor))
+* Notify when the drawer is opened. (Attach a [contact sensor](../buy/zigbee_contact_sensor) behind the drawer to the closet and the magnet to the drawer itself, so when you open it, the contact gets broken and a signal is triggered)
+* Notify when drawer is not yet opened today at a specific time. For example, if you have medicines in a drawer, you need to take every day. ([contact sensor](../buy/zigbee_contact_sensor))
 
 ---
 
 ### Aquarium
-* Automatic turn the lights on and off. ([smart plug](../buy/smart_home_best_buy_tips#smart-socket))
-* Turn the lights on when they got fed. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) at the lid of the aquarium).
+* Automatic turn the lights on and off. ([smart plug](../buy/zigbee_smart_socket))
+* Turn the lights on when they got fed. ([contact sensor](../buy/zigbee_contact_sensor) at the lid of the aquarium).
 * Automatic feeder.
 * Water quality check PH-level.
 * Temperature warning if water is too hot/cold. (ESP with waterproof temperature sensor)
@@ -252,26 +252,26 @@ See also my dedicated page about [smart kitchen appliances](/projects/retrofit_k
 ---
 
 ### Garage
-* Notification when the e-bike charger is not activated at X o'clock. Did I forgot to connect it to the charger? (based on a [smart plug](../buy/smart_home_best_buy_tips#smart-socket) with energy meter)
+* Notification when the e-bike charger is not activated at X o'clock. Did I forgot to connect it to the charger? (based on a [smart plug](../buy/zigbee_smart_socket) with energy meter)
 
 ---
 
 ### Outside
-* Notification when it's nice weather to sit outside. (based on temperature, [humidity](../buy/smart_home_best_buy_tips#temperature-sensor), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), sun strength from a weather station)
-* Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window [contact sensor](../buy/smart_home_best_buy_tips#contact-sensor) + API weather forecast/weather station)
+* Notification when it's nice weather to sit outside. (based on temperature, [humidity](../buy/zigbee_temperature_sensor), [lux sensor](../buy/zigbee_light_sensor), sun strength from a weather station)
+* Notification to close skylight or other window if it's open and rain is expected within fifteen minutes. (skylight/window [contact sensor](../buy/zigbee_contact_sensor) + API weather forecast/weather station)
 * Notification to retract parasols if it's too windy. (outdoor temperature and wind speed from a weather station)
 * Close the sunscreen if it's too windy. (outdoor temperature and wind speed from a weather station)
-* Frost warning for the plants, so you can cover them or move them inside. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor#waterproof-temperature-and-humidity-sensor))
-* Notification when it's cooler outside than inside, so you can open the windows to cool down the house. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor#waterproof-temperature-and-humidity-sensor) + [inside temperature sensor](../buy/smart_home_best_buy_tips#temperature-sensor))
-* Log the outside garden temperature and humidity instead of relying on a weather API of a station kilometers away. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor#waterproof-temperature-and-humidity-sensor))
-* Turn the lights on when going outside, by opening the door, in the evening/night. ([contact sensor](../buy/smart_home_best_buy_tips#contact-sensor), [lux sensor](../buy/smart_home_best_buy_tips#light-intensity-sensor), [smart light](../buy/smart_home_best_buy_tips#lights))
+* Frost warning for the plants, so you can cover them or move them inside. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor_temperature_sensor))
+* Notification when it's cooler outside than inside, so you can open the windows to cool down the house. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor_temperature_sensor) + [inside temperature sensor](../buy/zigbee_temperature_sensor))
+* Log the outside garden temperature and humidity instead of relying on a weather API of a station kilometers away. ([waterproof temperature and humidity sensor](../buy/zigbee_outdoor_temperature_sensor))
+* Turn the lights on when going outside, by opening the door, in the evening/night. ([contact sensor](../buy/zigbee_contact_sensor), [lux sensor](../buy/zigbee_light_sensor), [smart light](../buy/zigbee_lights))
 * Put out the sunscreen when it heats the home too much.
-* Close the curtains when it cools/heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/smart_home_best_buy_tips#temperature-sensor))
+* Close the curtains when it cools/heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/zigbee_temperature_sensor))
 
 #### Gate
-* Notification when the gate is opened. ([waterproof contact sensor](../buy/zigbee_outdoor#waterproof-contact-sensor), which survives rain and frost)
-* Notification when the garden gate stays open longer than X minutes. ([waterproof contact sensor](../buy/zigbee_outdoor#waterproof-contact-sensor))
-* Notification when the shed or garden room door is left open. ([waterproof contact sensor](../buy/zigbee_outdoor#waterproof-contact-sensor))
+* Notification when the gate is opened. ([waterproof contact sensor](../buy/zigbee_outdoor_contact_sensor), which survives rain and frost)
+* Notification when the garden gate stays open longer than X minutes. ([waterproof contact sensor](../buy/zigbee_outdoor_contact_sensor))
+* Notification when the shed or garden room door is left open. ([waterproof contact sensor](../buy/zigbee_outdoor_contact_sensor))
 
 #### Front yard
 
@@ -293,7 +293,7 @@ I have a [dedicated page](/projects/automate_christmas_decorations#outdoor-light
 I have a [dedicated page](/projects/bin_day_led_strip_reminder) about how I automated my bin day reminders.
 
 * Notification when paper/green/plastic/residual waste bin needs to be put on the street to be emptied tomorrow. (waste calendar integration)
-* [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration + [LED strip](../buy/smart_home_best_buy_tips#led-strip))
+* [Light up a LED strip](../projects/bin_day_led_strip_reminder) in the color of the waste bin which must be put on the street the next day. (waste calendar integration + [LED strip](../buy/zigbee_lights#led-strip))
 
 #### Battery powered devices powered by an outlet
 

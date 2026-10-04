@@ -164,10 +164,10 @@ A small device with an OS which can run a web browser on it.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank"><img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU plug" loading="lazy"></a>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU plug" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Zigbee smart EU plug</strong>
 <p>To only run the PC and display when someone is nearby, otherwise it can automatically be turned off to save energy.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3TpPCQV" target="_blank"><img src="/projects/images_stretch_display/usb_keyboard.webp" alt="USB keyboard" loading="lazy"></a>
@@ -182,10 +182,10 @@ A small device with an OS which can run a web browser on it.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/esphome/co2_scd40" target="_blank">Project page</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Temperature sensor" loading="lazy"></a>
+<a href="/buy/zigbee_temperature_sensor" target="_blank"><img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Temperature sensor" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Sensor</span><strong>Temperature sensor</strong>
 <p>An example of a temperature sensor is this Aqara Zigbee sensor.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#temperature-sensor" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/zigbee_temperature_sensor" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
