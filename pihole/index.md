@@ -71,6 +71,10 @@ You can combine multiple lists.
 These are the list I use:
 
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+* https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+* https://v.firebog.net/hosts/AdguardDNS.txt
+* https://big.oisd.nl/domainswild
+* https://small.oisd.nl/domainswild
 * https://gist.githubusercontent.com/anudeepND/adac7982307fec6ee23605e281a57f1a/raw/5b8582b906a9497624c3f3187a49ebc23a9cf2fb/Test.txt
 * https://github.com/justdomains/blocklists/raw/master/lists/adguarddns-justdomains.txt
 * https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
