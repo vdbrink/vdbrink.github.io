@@ -135,22 +135,32 @@ so you can't pick it up and walk away with it.
 
 This was my shopping list for my DIY ground mount:
 
-* A heavy flower box, it was in the sales at the local garden shop [&euro; 7,-]
-  * The flower box already had a hole in the middle.
-
-  <img src="images_allux-600/flowerbox.jpg" height="150px" alt="mount on the ground"/>
-
-* [1x Stainless Steel Threaded End Pipes 12mm x 100 cm](https://www.gamma.nl/assortiment/gamma-draadeind-rvs-m12-x-1000-mm/p/B451457) [&euro; 13,79 at Gamma]
-
-  <img src="images_allux-600/rvs_m12_1000_threaded_end.jpg" height="150px" alt="1x Stainless Steel Threaded End Pipes 12mm x 100 cm"/>
-
-* [A box with 4x galvanized metal plate 40x40mm](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 5,59 at Gamma]
-
-  <img src="images_allux-600/ring.jpg" height="150px" alt="4x galvanized metal plate 40x40mm"/>
-
-* [A box with 4x galvanized 12mm bolts](https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313) [&euro; 2,59 at Gamma]
-
-  <img src="images_allux-600/bolt.jpg" height="150px" alt="4x galvanized 12mm bolt"/>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<img src="/projects/images_allux-600/flowerbox.jpg" alt="Heavy flower box" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">&euro; 7,-</span><strong>Heavy flower box</strong>
+<p>It was in the sales at the local garden shop. The flower box already had a hole in the middle.</p>
+<p class="hp-store-links">Local garden shop</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://www.gamma.nl/assortiment/gamma-draadeind-rvs-m12-x-1000-mm/p/B451457" target="_blank"><img src="/projects/images_allux-600/rvs_m12_1000_threaded_end.jpg" alt="Stainless steel threaded end pipe" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">&euro; 13,79</span><strong>Stainless steel threaded end pipe</strong>
+<p>1x Stainless Steel Threaded End Pipes 12mm x 100 cm.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.gamma.nl/assortiment/gamma-draadeind-rvs-m12-x-1000-mm/p/B451457" target="_blank">Gamma</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313" target="_blank"><img src="/projects/images_allux-600/ring.jpg" alt="Galvanized metal plates" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">&euro; 5,59</span><strong>Galvanized metal plates</strong>
+<p>A box with 4x galvanized metal plate 40x40mm.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313" target="_blank">Gamma</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313" target="_blank"><img src="/projects/images_allux-600/bolt.jpg" alt="Galvanized bolts" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">&euro; 2,59</span><strong>Galvanized bolts</strong>
+<p>A box with 4x galvanized 12mm bolts.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.gamma.nl/assortiment/gamma-zeskantmoer-m12-verzinkt-4-stuks/p/B458313" target="_blank">Gamma</a></p></div>
+</div>
+</div>
 
 Which make the total costs for my DIY ground mount &euro; 28,97. This saves me ~&euro; 60,-
 

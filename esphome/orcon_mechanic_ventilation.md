@@ -72,46 +72,64 @@ A schematic presentation of how my solution works and which protocols are used.
 
 These hardware components do I use for this project:
 
-* Original Orcon 15RF remote control [link 1](https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/)
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<img src="/esphome/orcon_images/orcon_15rf_remote.jpg" alt="Original Orcon 15RF remote control" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Remote</span><strong>Original Orcon 15RF remote control</strong>
+<p>The original RF remote that is connected to the ESP.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/" target="_blank">Ventilatieshop</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/images/esp8266_nodemcu.jpg" alt="ESP8266 NodeMCU v3" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Controller</span><strong>ESP8266 NodeMCU v3</strong>
+<p>Or a comparable ESP board.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c30mVk0B" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">AliExpress 2</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/images/dupont_female_to_female.jpg" alt="Dupont female to female wires" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Wires</span><strong>Dupont female to female wires</strong>
+<p>To connect the adapter to the ESP.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_mtwCZyA" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">AliExpress 2</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/orcon_images/adapter_8pins_1mm.jpg" alt="Adapter 8 pins, 1 mm pitch" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Adapter</span><strong>Adapter 8 pins, 1 mm pitch</strong>
+<p>Make sure you select the correct product: 8P, 1 mm pitch (NOT the 0.5 mm), with pin head.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2zKW7Sn" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c4bdMgV1" target="_blank">AliExpress 2</a> | <a href="https://s.click.aliexpress.com/e/_c3yKO21h" target="_blank">AliExpress 3</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/orcon_images/flat_cable_8pins_1mm.jpg" alt="Flat cable 8 pins, 1 mm pitch" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Cable</span><strong>Flat cable 8 pins, 1 mm pitch</strong>
+<p>Also 1 mm pitch (NOT the 0.5 mm). The length and if the connectors are on the same side is up to you.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEsQVNl" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c30XX6Kb" target="_blank">AliExpress 2</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/images/micro_usb_cable.jpg" alt="Micro USB cable" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>Micro USB cable</strong>
+<p>To power the ESP.</p>
+<p class="hp-store-links"><a href="../buy/esphome_diy#micro-usb-power-cable" target="_blank">Buy link</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB EU power adapter</strong>
+<p>To power the ESP.</p>
+<p class="hp-store-links"><a href="../buy/esphome_diy#v-usb-adapter" target="_blank">Buy link</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket with power measurement" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Optional</span><strong>Smart power socket with power measurement</strong>
+<p>I use the Zigbee EU BlitzWolf SHP.</p>
+<p class="hp-store-links"><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy link</a></p></div>
+</div>
+</div>
 
-![Orcon 15RF remote](orcon_images/orcon_15rf_remote.jpg "Orcon 15RF remote")
-* ESP8266 NodeMCU v3 (or comparable) [link 1](https://s.click.aliexpress.com/e/_c30mVk0B) [link 2](https://s.click.aliexpress.com/e/_c3YHyskJ)
-
-![ESP8266 NodeMCU v3](images/esp8266_nodemcu.jpg "ESP8266 nodeMCU v3")
-
-* Dupont female to female wires [link 1](https://s.click.aliexpress.com/e/_mtwCZyA) [link 2](https://s.click.aliexpress.com/e/_EIjrYwZ)
-
-![Dupont female to female wires](images/dupont_female_to_female.jpg "Dupont female to female wires")
-
-* Adapter 8 pins, make sure you select the correct product. The 8P, 1 mm pitch (NOT the 0.5 mm), with pin head [link 1](https://s.click.aliexpress.com/e/_c2zKW7Sn) [link 2](https://s.click.aliexpress.com/e/_c4bdMgV1) [link 3](https://s.click.aliexpress.com/e/_c3yKO21h)
-
-![Dupont female to female wires](orcon_images/adapter_8pins_1mm.jpg "Dupont female to female wires")
-
-* Flat cable 8 pins, 1 mm pitch (NOT the 0.5 mm) [link 1](https://s.click.aliexpress.com/e/_DEsQVNl) [link 2](https://s.click.aliexpress.com/e/_c30XX6Kb)
-  * The length and if the connectors are on the same side is up to you
-
-![Dupont female to female wires](orcon_images/flat_cable_8pins_1mm.jpg "Dupont female to female wires")
-
-* [Micro USB cable](../buy/esphome_diy#micro-usb-power-cable) to power the ESP.
-
-![Micro USB cable](images/micro_usb_cable.jpg "Micro USB cable")
-
-* [5V USB EU power adapter](../buy/esphome_diy#v-usb-adapter) to power the ESP.
-
-![5V USB EU power adapter](images/5v_power_adapter.jpg "5V USB EU power adapter")
-
-* (optional) Smart power socket with power measurement. 
-* I use the [Zigbee EU BlitzWolf SHP](../buy/smart_home_best_buy_tips#smart-socket)
-
-![BlitzWolf EU SHP-13](orcon_images/blitzwolf_shp-15_zigbee_socket.jpg "BlitzWolf SHP-13")
-
-Also affiliate links are used here.
+Affiliate links are used here.
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) 
 
 
-See [ESPHome DIY sensors Best Buy Tips](/buy/esphome_diy) for more DIY hardware buy tips.\
-See [Zigbee Best Buy Tips](/buy/smart_home_best_buy_tips) for more Zigbee sensors buy tips.
+See [ESPHome DIY sensors Best Buy links](/buy/esphome_diy) for more DIY hardware Buy links.\
+See [Zigbee Best Buy links](/buy/smart_home_best_buy_tips) for more Zigbee sensors Buy links.
 
 ---
 
@@ -1065,4 +1083,4 @@ My other ESPHome projects:
 * [CO2 sensor based on a SCD40 sensor](co2_scd40)
 * [CO2 sensor based on a SenseAir S8 sensor](co2_senseair_s8_sensor)
 
-[ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy)
+[ESPHome DIY sensors - Best Buy links](../buy/esphome_diy)

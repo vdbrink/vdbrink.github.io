@@ -249,36 +249,38 @@ This hub can be powered with a smart socket to control all the connected devices
 As you could read, there are multiple combinations possible to control battery powered devices.\
 It really depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
 
-* {{imgBasket}}[Battery to USB / battery eliminator](../buy/batteries#battery-eliminators) They are available for AA and AAA batteries and with multiple "dummy" batteries. 
-Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use an electronic wire to connect the ends.
-   
-   <a href="../buy/batteries#battery-eliminators" target="_blank">
-        <img src="images_christmas_decorations/battery_eliminator.webp" width="300px" alt="battery eliminator" class="buy-link"/>
-   </a>
-
-* {{imgBasket}}[5V EU USB power adapter](../buy/smart_home_best_buy_tips#power) to power the USB battery eliminators.
-
-    <a href="../buy/smart_home_best_buy_tips#power" target="_blank">
-        <img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200" class="buy-link"/>
-    </a>
-
-* {{imgBasket}}[EU Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or any other [WiFi / Zigbee socket](https://s.click.aliexpress.com/e/_c3zNtQs5) for your country to automate the devices.
-
-    <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
-        <img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="BlitzWolf EU SHP-15" width="200px" class="buy-link"/>
-    </a>
-
-* {{imgBasket}}[Active USB hub](../buy/esphome_diy#usb-hub) to power multiple USB battery eliminators at once. 
-In combination with the socket, you can automate them.
-
-    <a href="../buy/esphome_diy#usb-hub" target="_blank">
-        <img src="/buy/images_diy/usbhub.webp" alt="USB hub" width="200px" class="buy-link"/>
-    </a>
-
-* {{imgBasket}}[Zigbee USB adapter](../buy/smart_home_best_buy_tips#usb-adapter-switch) to control and power maximal 3 USB devices individually. You can choose for an adapter with 1, 2 or 3 ports.
-
-    <a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">
-    <img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" class="buy-link"/></a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="../buy/batteries#battery-eliminators" target="_blank"><img src="/projects/images_christmas_decorations/battery_eliminator.webp" alt="Battery to USB (battery eliminator)" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Battery</span><strong>Battery to USB (battery eliminator)</strong>
+<p>Available for AA and AAA batteries and with multiple "dummy" batteries. Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use an electronic wire to connect the ends.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="../buy/smart_home_best_buy_tips#power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V EU USB power adapter" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V EU USB power adapter</strong>
+<p>To power the USB battery eliminators.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#power" target="_blank">Buy tips</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
+<p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="../buy/esphome_diy#usb-hub" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">USB</span><strong>Active USB hub</strong>
+<p>To power multiple USB battery eliminators at once. In combination with the socket, you can automate them.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/esphome_diy#usb-hub" target="_blank">Buy tips</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter</strong>
+<p>To control and power maximal 3 USB devices individually. You can choose for an adapter with 1, 2 or 3 ports.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#usb-adapter-switch" target="_blank">Buy tips</a></p></div>
+</div>
+</div>
 
 ---
 
@@ -324,80 +326,50 @@ Now you can automate these devices also!
 There are all kinds of battery-powered lights available which can be controlled via infrared.
 With this project, all these lights can now be automated as well!
 
-##### Infrared signal transmitter
-
-{{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">A programmable infrared remote</a>
-  It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
-
-  <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
-    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
-  </a>
-
-<br>
-
-##### LED lights
-
-Wireless, battery-powered colored LED lights.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote</a>
-
-  <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">
-    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="smart socket" width="200px" class="buy-link"/>
-  </a>
-
-##### Tea lights
-
-I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I automate my tea lights from Home Assistant.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">Tea lights controlled by an infrared remote</a>
-<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">
-    <img src="images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
-  </a>
-
-##### Candle lights
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
-
-
-  <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
-    <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
-  </a>
-
-<br>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">Other candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
-
-
-  <a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">
-    <img src="images_christmas_decorations/candles_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
-  </a>
-
-##### Long candle lights
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/44mdDk4#ad" target="_blank">(Amazon NL)</a>
-
-
-  <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
-    <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
-  </a>
-
-##### Paper stars
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">A Christmas paper star - example 1 (AliExpress)</a>
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">A Christmas paper star - example 2 (AliExpress)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">
-    <img src="images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" width="200px" class="buy-link"/>
-  </a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Transmitter</span><strong>Programmable infrared remote</strong>
+<p>It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">Buy tips</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank"><img src="/buy/images_diy/led_lamp_with_remote.avif" alt="Colored LED lights (1 - 6)" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">LED lights</span><strong>Colored LED lights (1 - 6)</strong>
+<p>Wireless, battery-powered LED lights with different colors and brightness, controlled by a remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Tea lights</span><strong>Tea lights with infrared remote</strong>
+<p>I created a <a href="/zigbee/smart_infrared_transmitter_receiver">dedicated page</a> how I automate my tea lights from Home Assistant.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank"><img src="/projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="Candle lights with infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Candle lights</span><strong>Candle lights with infrared remote</strong>
+<p>Candle lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank"><img src="/projects/images_christmas_decorations/candles_with_ir_remote.avif" alt="Other candle lights with infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Candle lights</span><strong>Other candle lights with infrared remote</strong>
+<p>Other candle lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank"><img src="/projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="Long candle lights with infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Candle lights</span><strong>Long candle lights with infrared remote</strong>
+<p>Long candle lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">AliExpress</a> | <a href="https://amzn.to/41M9fJR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44mdDk4#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank"><img src="/projects/images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Paper stars</span><strong>Christmas paper star</strong>
+<p>Two examples of a Christmas paper star.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4KlgroP" target="_blank">Example 1</a> | <a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank">Example 2</a></p></div>
+</div>
+</div>
 
 ---
 
@@ -405,12 +377,14 @@ I created a [dedicated page](/zigbee/smart_infrared_transmitter_receiver) how I 
 
 My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
-<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">
-  <img src="images_christmas_decorations/tree_light_plug_no_button.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
-  <img src="images_christmas_decorations/tree_power_top.avif" alt="christmas light adapter" height="200px" class="buy-link"/>
-</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">Christmas light string plug 31V/3.6W (AliExpress)</a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas light string plug 31V/3.6W" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Tree lights</span><strong>Christmas light string plug 31V/3.6W</strong>
+<p>The same plug as my original one, but without a power button and without disco modes, just always on.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">AliExpress</a></p></div>
+</div>
+</div>
 
 <a href="images_christmas_decorations/christmas_tree.jpg">
   <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
@@ -425,11 +399,14 @@ Or if you're familiar with soldering and electronics, you can modify the current
 
 ### Decorations powered with a power plug
 
-* {{imgBasket}}[Smart power socket. I use the Zigbee BlitzWolf EU SHP-15](../buy/smart_home_best_buy_tips#smart-socket) or look for a smart socket that fits your country.
-
-  <a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">
-    <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="smart socket" width="200px" class="buy-link"/>
-    </a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
+<p>I use the Zigbee BlitzWolf EU SHP-15, or look for a smart socket that fits your country.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_best_buy_tips#smart-socket" target="_blank">Buy tips</a></p></div>
+</div>
+</div>
 
 ---
 
@@ -450,20 +427,20 @@ In the front yard I put the light string wire through the mailbox to plug it ins
 The number of these socket models are limited. 
 If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
-* An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.
- 
-  {{imgBasket}}<a href="https://amzn.to/40SVJoc#ad" target="_blank">Zigbee dual port power outdoor socket with power measurement - Nous (Amazon NL).
-
-  <img src="../buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous A4Z ZigBee Outdoor Smart Socket" height="150px" /></a>
-
-<br>
-
-* Innr Zigbee power socket can handle 2300 W and has an IP44 rating, without power measurement.
-
-  {{imgBasket}}<a href="https://amzn.to/3Vt83Ip#ad" target="_blank">Zigbee outdoor power socket - Innr (Dual Pack) (Amazon US)</a>
-
-  <a href="https://amzn.to/3Vt83Ip#ad" target="_blank">
-   <img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr ZigBee Outdoor Smart Socket" height="150px" /></a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://amzn.to/40SVJoc#ad" target="_blank"><img src="/buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous Zigbee dual port outdoor socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Outdoor socket</span><strong>Nous Zigbee dual port outdoor socket</strong>
+<p>An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://amzn.to/3Vt83Ip#ad" target="_blank"><img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr Zigbee outdoor socket (dual pack)" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Outdoor socket</span><strong>Innr Zigbee outdoor socket (dual pack)</strong>
+<p>Can handle 2300 W and has an IP44 rating, without power measurement.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/3Vt83Ip#ad" target="_blank">Amazon US</a></p></div>
+</div>
+</div>
 
 ---
 

@@ -259,84 +259,73 @@ These hardware devices are examples of what you need and can use in your own inf
 
 #### Infrared transmitter / receiver
 
-* {{imgBasket}}<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">An few examples of Zigbee and WiFi devices which act as programmable infrared remotes</a>.
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Transmitter</span><strong>Programmable infrared remote</strong>
+<p>Some examples of Zigbee and WiFi devices which act as programmable infrared remotes. They can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal via an automation. There are also devices that support RF signals as well. I use in these examples the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee Moes UFO-R11</a>.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Moes UFO-R11</a></p></div>
+</div>
+</div>
 
-  They can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.
-  There are also devices that support RF signals as well.\
-  I use in these examples the [Zigbee Moes UFO-R11](https://s.click.aliexpress.com/e/_DEUWZ73).
-
-  <a href="/buy/smart_home_best_buy_tips#infrared-remote-control" target="_blank">
-    <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" class="buy-link"/>
-  </a>
-  
 #### Infrared controlled devices
 
 As mentioned in the introduction, there are a lot of devices that can be controlled via infrared. 
 Here are some links to products which all work via infrared, and can be controlled via the above-mentioned infrared transmitter / receiver.
 
-LEDS
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">(1 - 6) LED lights, with different colors and brightness, controlled by a remote (AliExpress)</a>
-<a href="https://amzn.to/4fE8qsa#ad" target="_blank">(Amazon US)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">
-    <img src="/buy/images_diy/led_lamp_with_remote.avif" alt="led light with remote control" width="200px" class="buy-link"/>
-  </a>
-
-Light curtains
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">Light curtains (AliExpress)</a>
-<a href="https://amzn.to/3JkKUVi#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4ptf1JO#ad" target="_blank">(Amazon NL)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">
-  <img src="images_infrared/light_string.avif" alt="light curtains" width="200px" class="buy-link"/>
-  </a>
-
-Tea lights
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">Tea lights controlled by an infrared remote (AliExpress)</a>
-<a href="https://amzn.to/3JfJxY1#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4rlFN8z#ad" target="_blank">(Amazon NL)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">
-    <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="tea lights" width="200px" class="buy-link"/>
-  </a>
-
-
-Candles
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">
-    <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
-  </a>
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">Candle lights controlled by an infrared remote (AliExpress)</a>
-  <a href="https://amzn.to/3V76EX7#ad" target="_blank">(Amazon US)</a>
-  <a href="https://amzn.to/4p5iu1u#ad" target="_blank">(Amazon NL)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">
-    <img src="../projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="candles" width="200px" class="buy-link"/>
-  </a>
-
-* {{imgBasket}}<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">Long candle lights controlled by an infrared remote (AliExpress)</a>
-  <a href="https://amzn.to/41M9fJR#ad" target="_blank">(Amazon US)</a>
-  <a href="https://amzn.to/44mdDk4#ad" target="_blank">(Amazon NL)</a>
-
-  <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">
-    <img src="../projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="long candles" width="200px" class="buy-link"/>
-  </a>
-
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank"><img src="/buy/images_diy/led_lamp_with_remote.avif" alt="Colored LED lights (1 - 6)" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">LEDs</span><strong>Colored LED lights (1 - 6)</strong>
+<p>LED lights with different colors and brightness, controlled by a remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">AliExpress</a> | <a href="https://amzn.to/4fE8qsa#ad" target="_blank">Amazon US</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank"><img src="/zigbee/images_infrared/light_string.avif" alt="Light curtains" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Light curtains</span><strong>Light curtains</strong>
+<p>Light curtains controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JkKUVi#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ptf1JO#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Tea lights</span><strong>Tea lights</strong>
+<p>Tea lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank"><img src="/projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="Candle lights" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Candles</span><strong>Candle lights</strong>
+<p>Candle lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank"><img src="/projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="Other candle lights" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Candles</span><strong>Other candle lights</strong>
+<p>Candle lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank"><img src="/projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="Long candle lights" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Candles</span><strong>Long candle lights</strong>
+<p>Long candle lights controlled by an infrared remote.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">AliExpress</a> | <a href="https://amzn.to/41M9fJR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44mdDk4#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+</div>
+<br>
 Also, some Christmas decorations have an infrared remote, see my [dedicated page](/projects/automate_christmas_decorations#infrared-lights) how I used this project for it.
 
 
 **Physical stores**
 
-* [The Dutch Hema sells 4 rechargeable tea lights with a remote](https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html)
-  
-  <a href="https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html">
-  <img src="images_infrared/hema_ir_tealights.webp" alt="Hema IR tea lights" width="200px" class="buy-link"/>
-  </a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html" target="_blank"><img src="/zigbee/images_infrared/hema_ir_tealights.webp" alt="Hema rechargeable tea lights" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Physical store</span><strong>Hema rechargeable tea lights</strong>
+<p>The Dutch Hema sells 4 rechargeable tea lights with a remote.</p>
+<p class="hp-store-links"><a href="https://www.hema.nl/wonen-slapen/wonen/kaarsen/led-kaarsen/oplaadbare-theelichtjes---4-stuks-13550076.html" target="_blank">Hema</a></p></div>
+</div>
+</div>
+<br>
 
 **Online models**
 

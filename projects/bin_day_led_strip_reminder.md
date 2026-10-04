@@ -44,27 +44,26 @@ work for a WiFi/bluetooth/other network type, but then the control will also be 
 
 Also affiliate links are used here. Same price, and you sponsor this blog.
 
-[Zigbee RGB 5m LED strip](https://s.click.aliexpress.com/e/_ookcWte) it's available in different versions:
-  * Indoor no waterproof (IP20) / Outdoor waterproof (IP65)
-  * 5 / 10 meter
-  * RGB White or RGB Warm White
-
-    <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">
-    <img src="images_bin_day/zigbee_rgb_led_strip.webp" height="250px" alt="LED strip"></a>
-
-It's also possible to use an E27 bulb lamp to create the same light effects.\
-[Zigbee dimmable colored LED E27 bulb](https://s.click.aliexpress.com/e/_oFxRuUw)
-  * 15/18 Watt version
-
-    <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
-    <img src="../ideas/images/smart_bulb.webp" height="250px" alt="E27 colored Zigbee bulb"></a>
-
-<br>
-
-Or create with a GU10/E14 smart light a notifier like I described at my [Smart and stylish notification light](/projects/smart_notification_light) page.
-
-  <a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">
-    <img src="/buy/images_zigbee/gu10_fullcolor.jpg" height="200px" alt="E14 GU10 full color Zigbee"></a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank"><img src="/projects/images_bin_day/zigbee_rgb_led_strip.webp" alt="Zigbee RGB 5m LED strip" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">LED strip</span><strong>Zigbee RGB 5m LED strip</strong>
+<p>Available in different versions: indoor no waterproof (IP20) or outdoor waterproof (IP65), 5 or 10 meter, and RGB White or RGB Warm White.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank"><img src="/ideas/images/smart_bulb.webp" alt="Zigbee dimmable colored LED E27 bulb" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Zigbee dimmable colored LED E27 bulb</strong>
+<p>It's also possible to use an E27 bulb lamp to create the same light effects. 15/18 Watt version.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oFxRuUw" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="/projects/smart_notification_light" target="_blank"><img src="/buy/images_zigbee/gu10_fullcolor.jpg" alt="GU10/E14 full color Zigbee light" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>GU10/E14 full color Zigbee light</strong>
+<p>Create a notifier with a GU10/E14 smart light like I described on my Smart and stylish notification light page.</p>
+<p class="hp-store-links"><a href="/projects/smart_notification_light">Notification light project</a></p></div>
+</div>
+</div>
 
 ---
 

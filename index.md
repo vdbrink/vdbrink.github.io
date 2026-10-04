@@ -73,7 +73,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 </a>
 <a class="hp-card hp-tile" href="/zigbee/zigbee_chair_occupancy_sensor">
 <img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="Chair occupancy sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">DIY Zigbee</span><strong>Chair occupancy sensor</strong><p>Detect when someone sits down, built from a Zigbee sensor.</p></div>
+<div class="hp-tile-body"><span class="hp-chip">DIY Zigbee</span><strong>Chair occupancy sensor</strong><p>Detect when someone sits (stil) on a chair, built from a Zigbee sensor.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/esphome/co2_scd40">
 <img src="/esphome/images_scd40/hardware.jpg" alt="SCD40 CO2 sensor" loading="lazy">
@@ -87,16 +87,16 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <img src="/desk/images/desk_collage1.png" alt="Home office desk setup" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Desk setup and room design with AI</strong><p>How I designed my home office with the help of AI.</p></div>
 </a>
-<a class="hp-card hp-tile" href="/projects/smart_mailbox">
-<img src="/projects/images_mailbox/traditional_mailbox.png" alt="Smart mailbox" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Smart traditional mailbox</strong><p>Get a notification when the postman has been.</p></div>
+<a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
+<img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your Christmas lights and other powered decorations automatically.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_floorplan">
 <img src="/homeassistant/images_floorplan/entity_icons.png" alt="Floor plan" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Interactive floor plan</strong><p>See your whole home at a glance.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/zigbee/smart_infrared_transmitter_receiver">
-<img src="/zigbee/images_infrared/ceiling_fan_remote.webp" alt="Infrared devices" loading="lazy">
+<img src="/zigbee/images_infrared/airco_remote.webp" alt="Infrared devices" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Automate infrared devices</strong><p>Control fans, TVs and AC units with a smart IR controller.</p></div>
 </a>
 </div>

@@ -104,83 +104,50 @@ The required products, including the soldering version, are also bundled on thes
 This small gas sensor measures **CO2** (in a range of 400-2000 ppm), **temperature** (-10-60 degrees), and **humidity** (0-100 percent).\
 The [SCD40 datasheet](https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf) has all the technical details for this sensor.
 
-{{imgBasket}}This sensor with an I2C interface is useful if you do not want to solder 
-<a href="https://s.click.aliexpress.com/e/_c4mXziGn" target="_blank">(AliExpress)</a> 
-<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">Alternative (AliExpress)</a>
-<br>
-<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">
-<img src="images_scd40/SCD40_co2_with_cable.webp" height="180px" alt="GY-SCD40 CO2 sensor without soldering" />
-</a>
+CO2 sensors with or without soldering:
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank"><img src="/esphome/images_scd40/SCD40_co2_with_cable.webp" alt="GY-SCD40 CO2 sensor with cable" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">SCD40 · No soldering</span><strong>GY-SCD40 CO2 sensor with cable</strong>
+<p>This sensor with an I2C interface is useful if you do not want to solder.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4mXziGn" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_DB01je7" target="_blank">AliExpress 2</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank"><img src="/esphome/images_scd40/csd40_with_pins.jpg" alt="SCD40 CO2 sensor with pins" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">SCD40 · Soldering required</span><strong>SCD40 CO2 sensor with pins</strong>
+<p>The cheaper version where you need to solder the pins.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ss4zEb#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dJXI30#ad" target="_blank">Amazon NL</a></p></div>
+</div>
+</div>
 
-<br>
-{{imgBasket}}Otherwise, you can also buy this cheaper version where you need to solder the pins 
-<a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4ss4zEb#ad" target="_blank"> (Amazon US)</a>
-<a href="https://amzn.to/4dJXI30#ad" target="_blank"> (Amazon NL)</a>
 
-### ESP board
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank"><img src="/esphome/images/esp8266_nodemcu.jpg" alt="ESP8266 NodeMCU v3 (CH340)" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">ESP board</span><strong>ESP8266 NodeMCU v3 (CH340)</strong>
+<p>With pre-soldered pins. You can use any ESP board, like an <a href="../buy/esphome_diy#esp32">ESP32</a> or <a href="../buy/esphome_diy#esp-d1-mini">ESP D1 mini</a>, but on this page I use an ESP8266.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4sTpEao#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4qirq3i#ad" target="_blank">Amazon NL</a> | <a href="https://amzn.to/44uRwXM#ad" target="_blank">Amazon US (alt.)</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank"><img src="/esphome/images/diy_cases.png" alt="Plastic DIY case" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Case</span><strong>Plastic DIY case</strong>
+<p>Almost any object with holes works, minimum 7 cm long, 3 cm wide and 3 cm high, as long as enough air can reach the sensor. A plastic box with drilled holes or a porous decorative statuette works too.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a> | <a href="https://amzn.to/3G3EhVB#ad" target="_blank">Amazon US</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="/esphome/images/micro_usb_cable.jpg" alt="Micro USB to USB-A cable" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>Micro USB to USB-A cable</strong>
+<p>A cable to power the ESP.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lqcvCK#ad" target="_blank">Amazon US</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB EU power adapter</strong>
+<p>A power adapter to power the ESP.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a> | <a href="https://amzn.to/4j2wDcC#ad" target="_blank">Amazon US</a></p></div>
+</div>
+</div>
 
-You can use any ESP board: {{imgBasket}}[ESP32](../buy/esphome_diy#esp32), [ESP D1 mini](../buy/esphome_diy#esp-d1-mini), 
-but on this page I use an ESP8266.
-
-{{imgBasket}}ESP8266 NodeMCU v3 (CH340) with pre-soldered pins
-<a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">(AliExpress)</a>
-<a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">Alternative (AliExpress)</a>
-<a href="https://amzn.to/4sTpEao#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4qirq3i#ad" target="_blank">(Amazon NL)</a>
-<br>
-
-<img src="images/esp8266_nodemcu.jpg" height="180px" alt="ESP8266 Node MCU" />
-<br>
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">Alternative link (AliExpress)</a>
-<a href="https://amzn.to/44uRwXM#ad" target="_blank"> (Amazon US)</a>
-<br>
-
-### Case
-
-You can use almost any object with holes in it, as long as it has a minimum length of 7 cm, a width of 3 cm, and a height of 3 cm.\
-The only requirement is that enough air can reach the sensor so it can measure the values in the room.\
-
-A plastic box from a local shop works well too, as long as you drill some holes in it.
-
-Even a small decorative statuette can work, provided it is porous or has enough openings.
-
-{{imgBasket}}On AliExpress, they also sell
-Plastic DIY Cases <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-(AliExpress)</a>
-<a href="https://amzn.to/3G3EhVB#ad" target="_blank">(Amazon US)</a>
-<br>
-<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-<img src="images/diy_cases.png" height="180px" alt="DIY cases" />
-</a>
-<br>
-
-### USB power cable
-
-A cable to power the ESP.
-
-{{imgBasket}}Micro USB cable to USB-A to power the ESP 
-<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4lqcvCK#ad" target="_blank">(Amazon US)</a>
-<br>
-<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
-<img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
-</a>
-<br>
-
-### 5V USB power adapter
-
-A power adapter to power the ESP.
-
-{{imgBasket}}5V USB EU power adapter 
-<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">(AliExpress)</a>
-<a href="https://amzn.to/4j2wDcC#ad" target="_blank">(Amazon US)</a>
-<br>
-<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">
-<img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px" />
-</a>
-
-<br>
 <br>
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy) for alternative links.

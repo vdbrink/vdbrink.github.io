@@ -58,14 +58,6 @@ No extra hub needed, the protocol is over WiFi.
 
 > Also affiliate links are used here. Same price as normal, but now you also sponsor this blog with a few cents.
 
-* [RCWL-0516 microwave sensor](#rcwl-0516-microwave-sensor)
-* [ESP board](#esp-board)
-* [Dupont cables](#dupont-cables)
-* [Case](#case)
-* [USB power cable](#usb-power-cable)
-* [5V USB power adapter](#5v-usb-power-adapter)
-* [Soldering tools if you don't have them yet](#soldering-tools)
-  
 ### RCWL-0516 microwave sensor
 
 This radar sensor detects human motion and presence via doppler radar signals.\
@@ -87,84 +79,50 @@ Click to zoom:
 You can buy a single sensor for around &euro; 0,45 or buy 5 or 10 in bulk,
 which is cheaper per piece if you plan to create multiple sensors to use around the house.
 
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">link 1, single piece (AliExpress)
-<br>
-<img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="180px" alt="RCWL-0516 presence sensor" />
-</a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">link 3, per 10 pieces (AliExpress)</a>
-
-
-### ESP board
-
-You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini.
-
-* The pins are not soldered on the board yet (with some practice even you can do it for sure!)
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">link 1, choose the "D1 mini" (AliExpress)</a>\
-
-<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">
-<img src="../esphome/images/esp_d1_mini.jpg" height="180px" alt="ESP D1 mini" /></a>
-
-### Dupont cables
-
-Dupont are cables to connect the ESP pins with sensors pins.
-The dupont cables are in different variants: male-to-male, female-to-male and male-to-female.
-You can also cut one end to just solder it direct to the connector.
-
-I used for this project female-to-female because I soldered the pin heads on the ESP and sensor.
-
-<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">
-<img src="../esphome/images/dupont_cable_mix.webp" alt="Dupont male to male wires" width="200px"/></a>
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">link 1 (AliExpress)</a>\
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">link 2 (AliExpress)</a>
-
-* I advise: If you order these, you can better order all three types at ones, also for any further projects.
-
-### Case
-
-Any case with a minimum length of 7 cm, width of 3 cm, and a height of 3 cm can be used.\
-
-It can also be a plastic box from a local shop.
-
-Also, a decorative small statuette can be used.
-
-On AliExpress they also sell
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">
-Plastic DIY Cases (AliExpress)
-<br>
-<img src="images/diy_cases.png" height="180px" alt="DIY cases" />
-</a>
-<br>
-
-### USB power cable
-
-A cable to power the ESP.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">
-Micro USB cable to USB A to power the ESP (AliExpress)
-<br>
-<img src="images/micro_usb_cable.jpg" height="180px" alt="Micro USB cable" />
-</a>
-<br>
-
-### 5V USB power adapter
-
-A power adapter to power the ESP and sensor.
-
-{{imgBasket}}<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">
-5V USB EU power adapter (AliExpress)
-<br>
-<img src="images/5v_power_adapter.jpg" alt="5V USB EU power adapter" width="200px"/>
-</a>
-
-### Soldering tools
-
-This project requires some soldering, If you don't have a soldering iron and tin wire yet check this link where to buy it.\
-{{imgBasket}}<a href="/buy/esphome_diy#tools" target="_blank">soldering hardware</a>
-
-<br>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank"><img src="/esphome/images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" alt="RCWL-0516 microwave sensor" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Sensor</span><strong>RCWL-0516 microwave sensor</strong>
+<p>Buy a single piece, or in bulk if you plan to create multiple sensors.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">Single piece</a> | <a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">Per 10 pieces</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank"><img src="/esphome/images/esp_d1_mini.jpg" alt="ESP8266 D1 mini" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">ESP board</span><strong>ESP8266 D1 mini</strong>
+<p>You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini. The pins are not soldered on the board yet (with some practice even you can do it for sure!). Choose the "D1 mini".</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank"><img src="/esphome/images/dupont_cable_mix.webp" alt="Dupont cables" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Wires</span><strong>Dupont cables</strong>
+<p>To connect the ESP pins with the sensor pins. I used female-to-female because I soldered the pin heads on the ESP and sensor. Better order all three types at once, also for any further projects.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">AliExpress 2</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank"><img src="/esphome/images/diy_cases.png" alt="Plastic DIY case" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Case</span><strong>Plastic DIY case</strong>
+<p>Any case with a minimum length of 7 cm, width of 3 cm and height of 3 cm can be used. A plastic box from a local shop or a small decorative statuette works too.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="/esphome/images/micro_usb_cable.jpg" alt="Micro USB to USB-A cable" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>Micro USB to USB-A cable</strong>
+<p>A cable to power the ESP.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB EU power adapter</strong>
+<p>A power adapter to power the ESP and sensor.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="/buy/esphome_diy#tools" target="_blank"><img src="/buy/images_diy/soldering_kit.avif" alt="Soldering tools" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Soldering</span><strong>Soldering tools</strong>
+<p>This project requires some soldering. If you don't have a soldering iron and tin wire yet, check the buy tips.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/esphome_diy#tools" target="_blank">Buy tips</a></p></div>
+</div>
+</div>
 
 Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues) or look at [ESPHome DIY sensors - Best Buy Tips](../buy/esphome_diy) for alternative links.
 
