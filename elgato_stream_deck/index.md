@@ -11,6 +11,11 @@ image: /elgato_stream_deck/images/actions_sd_app.png
 
 *For a software developer*
 
+<a href="/elgato_stream_deck/images/my_sd_xl.png">
+<img src="/elgato_stream_deck/images/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
+</a>
+<em style="display:block; text-align:center">It's not only programmable shortcut buttons but also information displayed on it.</em>
+
 ## Introduction
 
 For all my years as a developer, a nice keyboard was good enough for my daily work.
@@ -18,24 +23,17 @@ For all my years as a developer, a nice keyboard was good enough for my daily wo
 I've always enjoyed creating scripts to automate tasks on my PC, phone, and at home, so this button shortcut keypad device is normally a small step for me.
 I don't know why it took me so long to find and use it myself!
 
-For example: you can use it to **control your OS, Spotify, AI agents, videocalls, IDE shortcuts, meetings, GitHub, GitLab, Home Assistant etc...**
+For example: you can use it to **control and visualize your OS, mail, Spotify, AI agents, videocalls, IDE, calendar, GitHub, GitLab, Home Assistant and many, many more...**
 
 Read on this page to see how I use this keypad and whether it is something you did not know you wanted as well!
 
-Here you find sections about:
+Direct go to the sections about:
 * [What is a Stream Deck?](#what-is-a-stream-deck)
 * [All available Elgato models](#stream-deck-comparison)
-* [Example button actions like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..](#button-actions)
+* [Downloadable example button actions like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..](#button-actions)
 * [Home Assistant integration](stream_deck_home_assistant)
 
 [//]: # (* [How to import and export actions]&#40;#import-and-export-data&#41;)
-
-<p></p>
-
-<a href="/elgato_stream_deck/images/my_sd_xl.png">
-<img src="/elgato_stream_deck/images/my_sd_xl.png" alt="Elgato Stream Deck XL" width="100%">
-</a>
-<em style="display:block; text-align:center">One of the pages on my Stream Deck. It's not only buttons but also information displayed on it.</em>
 
 ---
 
@@ -46,12 +44,12 @@ Here you find sections about:
   * [My introduction with a Stream Deck](#my-introduction-with-a-stream-deck)
   * [Button actions](#button-actions)
   * [Stream Deck models comparison](#stream-deck-models-comparison)
-    * [Alternative solutions](#alternative-solutions)
-      * [Logitech MX Creative Console](#logitech-mx-creative-console)
-      * [Logitech MX Keypad](#logitech-mx-keypad)
-      * [Codex Creator Micro](#codex-creator-micro)
-    * [My advised model for a software developer](#my-advised-model-for-a-software-developer)
-    * [My personal ideal model](#my-personal-ideal-model)
+  * [Alternative solutions](#alternative-solutions)
+    * [Logitech MX Creative Console](#logitech-mx-creative-console)
+    * [Logitech MX Keypad](#logitech-mx-keypad)
+    * [Codex Creator Micro](#codex-creator-micro)
+  * [My advised model for a software developer](#my-advised-model-for-a-software-developer)
+  * [My personal ideal model](#my-personal-ideal-model)
 <!-- TOC -->
 
 ---
@@ -61,8 +59,8 @@ A Stream Deck is a kind of keyboard where you can program each button yourself. 
 The special part is that every button has its own little LCD screen behind it, so instead of a blank key or with a static icon, you see an icon, a label, a color or even a live value.
 One press runs whatever you linked to that button: a keyboard shortcut, a script, multiple steps, an API call or an action from one of the many plugins.
 
-<a href="images/next_meeting_on_sd.jpg">
-<img src="images/next_meeting_on_sd.jpg" alt="Stream Deck buttons with live data" width="50%">
+<a href="/elgato_stream_deck/calendar/images/next_meeting_on_sd.jpg">
+<img src="/elgato_stream_deck/calendar/images/next_meeting_on_sd.jpg" alt="Stream Deck buttons with live data" width="50%">
 </a><br>
 <em>Buttons with live data: how long your current meeting takes and when the next one is.</em>
 
@@ -220,10 +218,10 @@ See all these models together on this [Amazon US](https://amzn.to/4wESUUS)* or [
 \* Links on this page may be affiliate links. You pay the normal price while supporting my blog.
 
 ---
-### Alternative solutions
+## Alternative solutions
 
 
-#### Logitech MX Creative Console
+### Logitech MX Creative Console
 
 Logitech has the MX Creative Console with a 9-button keypad and a dail.
 As target group designers.
@@ -234,7 +232,7 @@ As target group designers.
 
 {{imgBasket}}Logitech MX Creative Console on [Amazon](https://amzn.to/3SYOLfE#ad)
 
-#### Logitech MX Keypad
+### Logitech MX Keypad
 
 Logitech introduced recently a small 9 button keypad also for software developers as target group.
 You get a 3-month free GitHub Copilot Pro+ subscription with it.
@@ -245,7 +243,7 @@ You get a 3-month free GitHub Copilot Pro+ subscription with it.
 
 {{imgBasket}}Logitech MX Keypad on [Logitech.com](https://www.logitech.com/shop/p/mx-keypad)
 
-#### Codex Creator Micro
+### Codex Creator Micro
 
 A keypad created by OpenAI from ChatGPT focussed on the Codex AI agent.
 It contains 13x Mechanical switches, 1x Touch sensor, 1x Rotary encoder, 1x joystick and light up keys to indicate the state of the different AI agents.
@@ -253,12 +251,12 @@ It contains 13x Mechanical switches, 1x Touch sensor, 1x Rotary encoder, 1x joys
 {{imgBasket}}Codex Creator Micro on [Open AI](https://openai.com/supply/co-lab/work-louder/) [out of stock]
 
 ---
-### My advised model for a software developer
+## My advised model for a software developer
 
 The 15-button MK.2 and the 32-button XL are the most interesting models for me as a software developer:
 they have many buttons for a full set of shortcuts without switching pages to reach buttons for all kinds of apps.
 
-### My personal ideal model
+## My personal ideal model
 
 If I could create my ideal Elgato Stream Deck, it would use the 32-button XL as its base, with the following
 modifications:
