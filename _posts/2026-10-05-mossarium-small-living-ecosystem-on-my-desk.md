@@ -30,12 +30,12 @@ A well-balanced one can stay closed for months, or even years.
 
 On the new page you find:
 
-* How a mossarium works
-* Where to buy one: ready-made, a DIY kit or the products I used
-* How to make one yourself, layer by layer
-* Which container to choose: a bottle, a jar, a vase or a glass house with a door
-* The plants and the different moss types you often see in a mossarium
-* Maintenance: water, trimming the plants and the tools you need
+* How a mossarium works.
+* Where to buy one: ready-made, a DIY kit or the products I used.
+* How to make one yourself, layer by layer.
+* Which container to choose: a bottle, a jar, a vase or a glass house with a door.
+* The plants and the different moss types you often see in a mossarium.
+* Maintenance: water, trimming the plants and the tools you need.
 
 <div class="hp-tiles hp-options hp-full">
 <a class="hp-card hp-tile" href="/projects/mossarium">
