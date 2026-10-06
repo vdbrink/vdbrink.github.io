@@ -48,7 +48,7 @@ I still hope it will become a real product in the future.
 <br>
 
 Once I had collected enough ideas, I could start designing a virtual version of what my new office might look like.
-[Continue reading here...](office_virtual_design_with_ai)
+[Virtual room design with AI >>](office_virtual_design_with_ai)
 
 ---
 

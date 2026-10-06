@@ -22,8 +22,8 @@ Later, my local garden center and online they started selling complete mossarium
 Now it stands on my desk in my home office, next to my monitor. It looks amazing, is compact and it gives a piece or rest to look at during the day.
 
 <div class="align-left">
+<a href="/desk/images/mossarium.jpg"><img src="/desk/images/mossarium.jpg" alt="Mossarium" width="150px" /></a>
 <a href="/desk/images/mossarium_creation.jpg"><img src="/desk/images/mossarium_creation.jpg" alt="Mossarium during creation" height="200px" /></a>
-<a href="/desk/images/mossarium.jpg"><img src="/desk/images/mossarium.jpg" alt="My mossarium" width="150px" /></a>
 <a href="/desk/images/mossarium2.jpg"><img src="/desk/images/mossarium2.jpg" alt="My mossarium glass" width="150px" /></a>
 </div>
 

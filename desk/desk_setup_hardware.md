@@ -389,7 +389,7 @@ Do you have experience with a good product like this? I would like to hear from 
 ---
 Have other upgrade suggestions for my home office? Share them in the comments!
 
-The next part covers the [accessories](office_accessories) that add the finishing touch.
+The next part covers the [accessories >>](office_accessories) that add the finishing touch.
 
 ---
 

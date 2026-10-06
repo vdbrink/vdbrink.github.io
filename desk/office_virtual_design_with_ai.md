@@ -59,7 +59,7 @@ You can also request a few alternative designs to explore different directions b
 > **_NOTE:_** One thing to watch out for: AI often struggles with scale.
 Elements in the generated image may not be sized realistically, so always measure things yourself to verify they would actually fit.
 
-[Continue reading](office_room_decoration) to see the next phase: turning the final idea into a realistic version of the room.
+[Room decoration >>](office_room_decoration) to see the next phase: turning the final idea into a realistic version of the room.
 
 ---
 

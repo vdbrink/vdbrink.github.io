@@ -188,7 +188,7 @@ Alternatives:
 
 That covered all the materials and elements I used to decorate the room.
 
-The next part is to fill the room with the [desk and peripherals](desk_setup_hardware).
+The next part is to fill the room with the [desk and peripherals >>](desk_setup_hardware).
 
 ---
 
