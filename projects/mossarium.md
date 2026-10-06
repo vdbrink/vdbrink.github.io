@@ -359,13 +359,13 @@ Complete mossariums and terrariums are now also sold in a wide range at this Dut
 
 ## Related articles
 
-<div class="hp-tiles hp-options">
+<div class="hp-tiles hp-options hp-full">
 <a class="hp-card hp-tile" href="/desk/office_mood_board">
 <img src="/desk/images/mood_board_pinterest.png" alt="Home office: Mood board" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Home office: Mood board</strong><p>Where I found the inspiration for my mossarium.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/desk/office_accessories">
-<img src="/desk/images/mossarium2.jpg" alt="Home office accessories" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Home office accessories</strong><p>More accessories from my home office, with the products I use.</p></div>
+<img src="/desk/images/desk_collage1.png" alt="Home office: Accessories" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Home office: Accessories</strong><p>More accessories from my home office, with the products I use.</p></div>
 </a>
 </div>

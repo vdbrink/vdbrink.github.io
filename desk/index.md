@@ -23,11 +23,11 @@ Overview |
 
 On this page, I walk through each step: from gathering inspiration, to creating a virtual AI mockup of my new home office, to bringing it to life with real products.
 
-Are you looking for inspiration for your own home office desk setup?\
-Or maybe you want to see how AI can help with interior design?\
+* Are you looking for **inspiration** for your own home office desk setup?\
+* Or maybe you want to see how **AI** can help with interior design?\
 Then this is the right place for you!
 
-For this setup I used large 200×80 cm (78.4×31.5") [walnut standing desk](desk_setup_hardware#desk) with a [49" Philips monitor](desk_setup_hardware#monitor), what do you need more?
+For this setup I used large 200×80 cm (78.4×31.5") [walnut standing desk](desk_setup_hardware#desk) with a [49" Philips monitor](desk_setup_hardware#monitor).
 Also a finishing touch with a [Mossarium](/projects/mossarium)?
 
 <a href="images/desk_collage1.png">
