@@ -19,14 +19,24 @@
 
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
-<section class="sd-category" id="{{ anchor }}">
+<section class="sd-category">
 <div class="sd-category-head">
 <img class="sd-category-logo" src="/elgato_stream_deck/{{ category.key }}/images/{{ category.key }}_logo.png" alt="{{ category.title }} logo"/>
 <div class="sd-category-head-text">
-<h3>{{ category.title }}</h3>
+<h3 id="{{ anchor }}">{{ category.title }}</h3>
 {% if category.description %}<p class="sd-category-desc">{{ category.description }}</p>{% endif %}
 </div>
 </div>
+{% if category.image %}
+<div class="sd-dependency-figure">
+<a href="/elgato_stream_deck/{{ category.key }}/images/{{ category.image }}">
+<img class="sd-dependency-image" src="/elgato_stream_deck/{{ category.key }}/images/{{ category.image }}" alt="{{ category.image_caption | default: category.title }}"/>
+</a>
+{% if category.image_caption %}
+<em class="sd-dependency-caption">{{ category.image_caption }}</em>
+{% endif %}
+</div>
+{% endif %}
 {% for dependency in category.dependencies %}
 
 {% assign plugin = site.data.streamdeck.plugins[dependency.plugin] %}
@@ -119,6 +129,11 @@
             {% elsif action.icon == 2 %}
             {% assign icon_text = "" %}
             {% for field in action.fields %}
+                {% if field.key == "Title" and icon_text == "" %}
+                {% assign icon_text = field.value %}
+                {% endif %}
+            {% endfor %}
+            {% for field in action.fields %}
                 {% if field.key == "Text" %}
                 {% assign icon_text = field.value %}
                 {% endif %}
@@ -203,11 +218,11 @@
 </section>
 {% endfor %}
 
-<section class="sd-category sd-wishlist-section" id="wishlist">
+<section class="sd-category sd-wishlist-section">
 <div class="sd-category-head">
 <img class="sd-category-logo" src="/elgato_stream_deck/images/category/wishlist_logo.png" alt="Wishlist logo"/>
 <div class="sd-category-head-text">
-<h3>My wishlist</h3>
+<h3 id="wishlist">My wishlist</h3>
 <p class="sd-category-desc">I always look for more useful additions, especially these listed ones.</p>
 </div>
 </div>

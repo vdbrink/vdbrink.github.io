@@ -1,14 +1,86 @@
 title: Google Meet
 key: google_meet
+image: my_sd_google_meet.jpg
+image_caption: "My Google Meet buttons on my Stream Deck XL: start/end meeting, camera control, microphone (un)mute, raise hand, share screen, toggle blur and reactions."
 priority: 48
 dependencies:
   - plugin: meeting-controls
     actions:
-      - name: (Un)Mute
+      - name: Microphone (un)mute
+        icon: 1
+        download: google_meet_microphone.streamDeckAction
+        type: (Kolaborate) Meeting Controls for Stream Deck
+        fields:
+          - key: Action
+            value: Microphone
+      - name: Camera (in)active
+        icon: 1
+        download: google_meet_camera.streamDeckAction
+        type: (Kolaborate) Meeting Controls for Stream Deck
+        fields:
+          - key: Action
+            value: Camera
       - name: Hang up
+        icon: 1
+        download: google_meet_leave.streamDeckAction
+        type: (Kolaborate) Meeting Controls for Stream Deck
+        fields:
+          - key: Action
+            value: Leave
       - name: Raise hand
-      - name: Leave meeting
-      - name: Icon
+        icon: 1
+        download: google_meet_hand.streamDeckAction
+        type: (Kolaborate) Meeting Controls for Stream Deck
+        fields:
+          - key: Action
+            value: Hand
+      - name: Reaction / Emoji (thumbs up)
+        icon: 1
+        download: google_meet_reaction.streamDeckAction
+        type: (Kolaborate) Meeting Controls for Stream Deck
+        fields:
+          - key: Action
+            value: Reaction
+          - key: reaction
+            value: thumbsup
+        requirements:
+          - application: Meeting Controls plugin
+            name: Emoji reactions
+            description: In the settings of this key you choose which emoji reaction it sends, like thumbs up, thumbs down, laughing, party popper, etc. Add a key per reaction.
+            image: reactions.png
+  - plugin: none
+    actions:
+      - name: Open Google Meet website
+        icon: 1
+        download: google_meet_open.streamDeckAction
+        type: (System) Website
+        fields:
+          - key: Action
+            value: Website
+          - key: path
+            value: "https://meet.google.com/"
+      - name: Open Share screen window
+        icon: 2
+        download: google_meet_share_screen.streamDeckAction
+        type: (System) Hotkey
+        fields:
+          - key: Title
+            value: "Share screen"
+          - key: Hotkey
+            value: ⌃ ⌘ T
+      - name: Toggle blur (via TamperMonkey)
+        icon: 2
+        download: google_meet_toggle_blur.streamDeckAction
+        type: (System) Hotkey
+        fields:
+          - key: Title
+            value: "Toggle blur"
+          - key: Hotkey
+            value: ⌃ ⌘ B
+        requirements:
+          - application: Tampermonkey userscript
+            name: Google Meet blur background hotkey
+            description: 'Google Meet has no keyboard shortcut for blurring your background, so this key does nothing by default. As a workaround, install the browser extension <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a> and load this script. It only runs on meet.google.com and adds the shortcut ⌃ ⌘ B (Ctrl + Alt + B on Windows and Linux), which clicks the blur buttons in Google Meet for you.'
+            file: elgato_stream_deck/google_meet/files/google_meet_blur_background_hotkey.txt
     wishes:
-      - name: Toggle blurred background
       - name: confetti

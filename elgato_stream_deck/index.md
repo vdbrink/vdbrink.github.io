@@ -30,7 +30,7 @@ Read on this page to see how I use this keypad and whether it is something you d
 Direct go to the sections about:
 * [What is a Stream Deck?](#what-is-a-stream-deck)
 * [All available Elgato models](#stream-deck-comparison)
-* [Downloadable example button actions like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..](#button-actions)
+* [Downloadable button for Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc..](#downloadable-button-actions)
 * [Home Assistant integration](stream_deck_home_assistant)
 
 [//]: # (* [How to import and export actions]&#40;#import-and-export-data&#41;)
@@ -42,7 +42,7 @@ Direct go to the sections about:
 <!-- TOC -->
   * [What is a Stream Deck?](#what-is-a-stream-deck)
   * [My introduction with a Stream Deck](#my-introduction-with-a-stream-deck)
-  * [Button actions](#button-actions)
+  * [Downloadable button actions](#downloadable-button-actions)
   * [Stream Deck models comparison](#stream-deck-models-comparison)
   * [Alternative solutions](#alternative-solutions)
     * [Logitech MX Creative Console](#logitech-mx-creative-console)
@@ -76,6 +76,11 @@ actions all day: video editors, photographers, musicians, people in endless vide
 The problem it solves is that shortcuts don't scale. You can remember five or ten key combinations, but not fifty, and
 half of your tools use a different combination for the same thing. On top of that a lot of daily actions aren't a
 shortcut at all but a small chore: open this dashboard, run that script, join the standup, set the lights for a call.
+
+<a href="images/my_sd_cat.jpg">
+<img src="images/my_sd_cat.jpg" alt="Stream Deck as cat pillow" style="width:60%">
+</a>
+<em style="display:block; text-align:left">A Stream Deck also works perfectly as a pillow, according to my cat.</em>
 
 Because each button shows what it does, you don't have to remember anything, you just look and press. And with pages and
 profiles you can give every application its own set of buttons, so the same hardware turns into a different control panel depending on which app you're working in.
@@ -170,7 +175,7 @@ but the [32-button version](#stream-deck-comparison) gave me more direct control
 Look [here](#stream-deck-comparison) for all available models.
 
 ---
-## Button actions
+## Downloadable button actions
 
 I created a separated page with downloadable button for all kinds of actions and applications.
 
@@ -253,7 +258,7 @@ It contains 13x Mechanical switches, 1x Touch sensor, 1x Rotary encoder, 1x joys
 ---
 ## My advised model for a software developer
 
-The 15-button MK.2 and the 32-button XL are the most interesting models for me as a software developer:
+The 15-button [MK.2](#stream-deck-comparison) and the 32-button [XL](#stream-deck-comparison) are the most interesting models for me as a software developer:
 they have many buttons for a full set of shortcuts without switching pages to reach buttons for all kinds of apps.
 
 ## My personal ideal model
