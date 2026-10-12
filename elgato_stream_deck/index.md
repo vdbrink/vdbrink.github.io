@@ -28,10 +28,28 @@ For example: you can use it to **control and visualize your OS, mail, Spotify, A
 Read on to see how I use this keypad, and whether it is something you didn't know you wanted too!
 
 Go directly to the sections about:
-* [What is a Stream Deck?](#what-is-a-stream-deck)
-* [All available Elgato models](#stream-deck-comparison)
-* [Downloadable button actions for Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc.](#downloadable-button-actions)
-* [Home Assistant integration](stream_deck_home_assistant)
+<div class="hp-tiles">
+<a class="hp-card hp-tile" href="#what-is-a-stream-deck">
+<img src="/elgato_stream_deck/images/my_sd_xl.png" alt="What is a Stream Deck?" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Intro</span><strong>What is a Stream Deck?</strong><p>A keypad with programmable LCD keys to trigger any task with one press.</p></div>
+</a>
+<a class="hp-card hp-tile" href="stream_deck_button_actions">
+<img src="/elgato_stream_deck/images/actions_sd_app.png" alt="Downloadable button actions" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Downloads</span><strong>Downloadable buttons</strong><p>For macOS, Claude, Spotify, GitLab, Google Meet, Home Assistant, Google Mail and more.</p></div>
+</a>
+<a class="hp-card hp-tile" href="stream_deck_home_assistant">
+<img src="/elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.png" alt="Home Assistant integration" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant integration</strong><p>Control and show your lights, devices and see live sensor data on your keys.</p></div>
+</a>
+<a class="hp-card hp-tile" href="#stream-deck-comparison">
+<img src="/elgato_stream_deck/images/products/stream_deck_xl.jpg" alt="All available Elgato models" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Models</span><strong>All available Elgato models</strong><p>Compare the Stream Deck models, from Mini to XL.</p></div>
+</a>
+<a class="hp-card hp-tile" href="#alternative-solutions">
+<img src="/elgato_stream_deck/images/products/logi_mx_creative_console.webp" alt="Alternative solutions" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Alternatives</span><strong>Alternative solutions</strong><p>Other keypads, like the Logitech MX Creative Console and MX Keypad.</p></div>
+</a>
+</div>
 
 [//]: # (* [How to import and export actions]&#40;#import-and-export-data&#41;)
 
@@ -140,6 +158,9 @@ Here is a YouTube video of a tear down of a Stream Deck.
 [![Tear down of a Stream Deck](http://img.youtube.com/vi/rOQu9_t2zOY/0.jpg)](http://www.youtube.com/watch?v=rOQu9_t2zOY "Tear down of a Stream Deck")
 <em style="display:block;">Tear down of a Stream Deck</em>
 
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
+
 ---
 ## My introduction with a Stream Deck
 
@@ -174,6 +195,9 @@ but the [32-button version](#stream-deck-comparison) gave me more direct control
 
 Look [here](#stream-deck-comparison) for all available models.
 
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
+
 ---
 ## Downloadable button actions
 
@@ -193,6 +217,9 @@ Click here to go to my page with many (developers) button action examples like C
 
 [//]: # ()
 [//]: # (See the separated [import and export page]&#40;stream_deck_import_export&#41; how to import and export actions, profiles, icons etc to share, load and backup your actions.)
+
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
 
 ---
 ## Stream Deck models comparison
@@ -221,6 +248,9 @@ This table provides an overview of the different models. Scroll to the right to 
 See all these models together on this [Amazon US](https://amzn.to/4wESUUS)* or [Amazon NL](https://amzn.to/4yasECa)* page.
 
 \* Links on this page may be affiliate links. You pay the normal price while supporting my blog.
+
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
 
 ---
 ## Alternative solutions
@@ -255,11 +285,17 @@ It contains 13 mechanical switches, 1 touch sensor, 1 rotary encoder, 1 joystick
 
 {{imgBasket}}Codex Creator Micro on [Open AI](https://openai.com/supply/co-lab/work-louder/) [out of stock]
 
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
+
 ---
 ## My advised model for a software developer
 
 The 15-button [MK.2](#stream-deck-comparison) and the 32-button [XL](#stream-deck-comparison) are the most interesting models for me as a software developer:
 they have many buttons for a full set of shortcuts without switching pages to reach buttons for all kinds of apps.
+
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
 
 ## My personal ideal model
 
@@ -276,6 +312,9 @@ modifications:
 <img src="images/my_ideal_stream_deck.png" alt="My ideal Stream Deck" style="width:100%">
 </a>
 <em style="display:block; text-align:center">AI-generated image of how my ideal Stream Deck model should look.</em>
+
+<p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
+
 
 ---
 

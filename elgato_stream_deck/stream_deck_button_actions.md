@@ -37,6 +37,9 @@ Not every button works the same way:
 * Some need an extra program or script to work correctly.
 
 <br>
+<img src="images/actions_sd_app.png" alt="Stream Deck config application" style="width:100%">
+<em style="display:block; text-align:center">Buttons to trigger actions or show data for all kinds of applications</em>
+
 
 All actions on this page are specific to macOS.
 The same solutions are probably also possible on Windows, but sometimes you need different plugins for it.
