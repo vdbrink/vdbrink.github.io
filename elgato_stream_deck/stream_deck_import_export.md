@@ -12,7 +12,7 @@ tags: [ Elgato, Stream Deck, software, developer, actions]
 
 ## Import and Export data
 
-There are multiple ways and levels to import and export settings and share the actions and profiles between different Stream Decks.
+There are multiple ways and levels to import and export settings and share the actions and profiles between different [Stream Decks](/elgato_stream_deck).
 You can download my examples here and load them directly into yours!
 
 ### Drag and Drop

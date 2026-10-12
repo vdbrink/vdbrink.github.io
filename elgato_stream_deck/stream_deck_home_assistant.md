@@ -15,7 +15,7 @@ Don't you know what a Stream Deck is? Check [here first](/elgato_stream_deck).
 <img src="home_assistant/actions/home-assistant_stream_deck_integration.gif" alt="Home Assistant integration" width="100%" />
 <em style="display:block; text-align:center">HA dashboard next to the Stream Deck app, fast and interactive integration</em>
 
-Control and visualize your Home Assistant entities direct with your Elgato Stream Deck!
+Control and visualize your Home Assistant entities direct with your [Elgato Stream Deck](/elgato_stream_deck)!
 This is possible with
 the [Stream Deck Home Assistant plugin](/elgato_stream_deck/stream_deck_button_actions#home-assistant).
 

@@ -910,9 +910,14 @@ footer a:hover {
 .wide-table {
     overflow-x: scroll;
     overflow-y: hidden;
-    padding-bottom: 8px;
-    scrollbar-width: thin;
-    scrollbar-color: #999 #eee
+    padding-bottom: 8px
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    .wide-table {
+        scrollbar-width: thin;
+        scrollbar-color: #999 #eee
+    }
 }
 
 .wide-table::-webkit-scrollbar {

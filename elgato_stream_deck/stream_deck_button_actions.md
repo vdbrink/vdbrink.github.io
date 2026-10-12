@@ -11,7 +11,7 @@ tags: [Elgato, Stream Deck, software, developer, actions]
 
 <img src="/elgato_stream_deck/images/my_sd_xl.png" alt="My Stream Deck XL page" width="100%" />
 
-On this page I share and explain the buttons I use on my Stream Deck,
+On this page I share and explain the buttons I use on my [Stream Deck](/elgato_stream_deck),
 and how YOU can use them on your own Stream Deck to trigger tasks in your daily work as well.
 
 <p class="hp-lead">What do you want to use it for?
