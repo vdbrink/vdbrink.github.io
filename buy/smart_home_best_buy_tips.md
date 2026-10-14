@@ -42,10 +42,10 @@ All the Amazon products are also bundled on these
 A smart home is built in layers. Each layer needs its own hardware, and each one builds on the layer above it:
 
 <div class="hp-flow-steps">
-<a class="hp-card" href="#1-server"><span class="hp-flow-num">1</span><strong>Server</strong><span>Where your automations run</span></a>
-<a class="hp-card" href="#2-protocol-and-dongle"><span class="hp-flow-num">2</span><strong>Protocol + dongle</strong><span>How devices talk to the server</span></a>
-<a class="hp-card" href="#3-sensors-and-actuators"><span class="hp-flow-num">3</span><strong>Sensors and actuators</strong><span>The eyes, ears and hands</span></a>
-<a class="hp-card" href="#4-power-and-accessories"><span class="hp-flow-num">4</span><strong>Power and accessories</strong><span>Batteries, cables and adapters</span></a>
+<a class="hp-card" href="#1-server"><strong>Server</strong><span>Where your automations run</span><img src="/homeassistant/images_hardware/beelink_front_back.jpg" alt="" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#2-protocol-and-dongle"><strong>Protocol + dongle</strong><span>How devices talk to the server</span><img src="/buy/images_zigbee/sonoff_zbdongle-e.webp" alt="" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#3-sensors-and-actuators"><strong>Sensors and actuators</strong><span>The eyes, ears and hands</span><img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#4-power-and-accessories"><strong>Power and accessories</strong><span>Batteries, cables and adapters</span><img src="/buy/images_diy/usb_power_charger.png" alt="" loading="lazy" style="margin-top:auto"></a>
 </div>
 
 ---
@@ -103,11 +103,11 @@ In my setup, a Zigbee2MQTT instance on my home server talks via this stick to al
 <p>From Nabu Casa, the makers of Home Assistant. A dongle with Zigbee or Thread support.</p>
 <p class="hp-store-links"><a href="https://www.home-assistant.io/connect/zbt-2/" target="_blank">Home Assistant Connect</a></p></div>
 </div>
-<div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank"><img src="/buy/images_zigbee/usb_a_extension_cable.webp" alt="USB-A extension cable" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Better range</span><strong>USB-A extension cable</strong>
+<div class="project-card" style="grid-column:1/-1">
+<img src="/buy/images_zigbee/usb_a_extension_cable.webp" alt="USB-A extension cable" loading="lazy">
+<div class="hp-tile-body" style="flex:1;min-width:0"><span class="hp-chip" style="font-size:0.72em">Improve range</span><strong>USB-A extension cable</strong>
 <p>To avoid interference with Bluetooth or WiFi, move the stick away from the server. This is recommended for every stick.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cOv6q9#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="" style="width:16px;height:auto"><a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cOv6q9#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">Amazon NL</a></p></div>
 </div>
 </div>
 
@@ -277,5 +277,13 @@ Most Zigbee devices run on batteries for years, but sometimes you need other way
 <a class="hp-card hp-tile" href="../ideas/home_automation_ideas#outside">
 <img src="/ideas/images/idea.png" alt="Home Automation Ideas" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Ideas</strong><p>For integration ideas, get inspired to make your home smart.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/projects/smart_mailbox">
+<img src="/projects/images_mailbox/traditional_mailbox.png" alt="Smart traditional mailbox" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Smart traditional mailbox</strong><p>Make your traditional mailbox smart with a contact sensor and Home Assistant.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/projects">
+<img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Projects" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Projects</span><strong>All my projects</strong><p>Bigger home automation projects I've built, with the hardware I used in each.</p></div>
 </a>
 </div>

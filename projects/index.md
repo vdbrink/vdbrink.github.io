@@ -41,6 +41,11 @@ Here you find bigger projects I've done, like this smart mailbox.
 <span>Smart traditional mailbox</span>
 </a>
 
+<a class="project-card" href="/buy/smart_home_best_buy_tips">
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart home best buy tips">
+<span>Smart home best buy tips</span>
+</a>
+
 <a class="project-card" href="/zigbee/zigbee_outlet_sensor">
 <img src="/zigbee/images_temp_no_battery/outlet_socket.webp" alt="Battery powered devices powered by an outlet">
 <span>Battery powered devices powered by an outlet</span>
