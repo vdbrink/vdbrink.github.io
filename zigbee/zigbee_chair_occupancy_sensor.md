@@ -32,6 +32,11 @@ and if I haven't returned after X minutes, everything shuts down automatically.
 > ([AliExpress](https://s.click.aliexpress.com/e/_c4bqlnbj))\
 > I haven't tested it myself yet; I'd like to hear your experience with it.
 
+<a href="images_chair/cat_occupancy_detection.jpg">
+<img src="images_chair/cat_occupancy_detection.jpg" alt="Zigbee cat basket occupancy sensor" height="250px" />
+</a>
+<em style="display:block;">Place this car seat sensor under the cat basket to detect how long the cat is lying here.</em>
+
 <hr class="hp-divider">
 ## My solution
 
@@ -369,4 +374,12 @@ That's it, a very useful and reliable DIY chair occupancy sensor (for me at leas
 
 <hr class="hp-divider">
 
-[<< See also my other Zigbee related content](index)
+## Related articles
+
+<div class="hp-tiles">
+<div class="hp-card hp-tile hp-preferred" style="grid-column:1/-1">
+<a href="index"><img src="/zigbee/images/zigbee.jpg" alt="Zigbee" loading="lazy" style="display:block; margin:16px auto 0; width:260px; max-width:100%; height:auto; aspect-ratio:auto; object-fit:contain; padding:0; background:none"></a>
+<div class="hp-tile-body"><strong>See also my other Zigbee related content</strong>
+<p class="hp-store-links"><a href="index">Zigbee overview</a></p></div>
+</div>
+</div>

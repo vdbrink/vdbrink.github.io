@@ -103,7 +103,8 @@ In my setup, a Zigbee2MQTT instance on my home server talks via this stick to al
 <p>From Nabu Casa, the makers of Home Assistant. A dongle with Zigbee or Thread support.</p>
 <p class="hp-store-links"><a href="https://www.home-assistant.io/connect/zbt-2/" target="_blank">Home Assistant Connect</a></p></div>
 </div>
-<div class="project-card" style="grid-column:1/-1">
+<div class="project-card" style="grid-column:1/-1; background:#fff; position:relative">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this cable myself." data-tip="I use this cable myself." style="line-height:26px">&#10003;</span>
 <img src="/buy/images_zigbee/usb_a_extension_cable.webp" alt="USB-A extension cable" loading="lazy">
 <div class="hp-tile-body" style="flex:1;min-width:0"><span class="hp-chip" style="font-size:0.72em">Improve range</span><strong>USB-A extension cable</strong>
 <p>To avoid interference with Bluetooth or WiFi, move the stick away from the server. This is recommended for every stick.</p>
