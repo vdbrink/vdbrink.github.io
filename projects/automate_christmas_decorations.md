@@ -34,11 +34,30 @@ Now I also can control all my Christmas decorations from my phone in a Home Assi
 On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
 
 
-Quick links: 
-* [Convert battery powered devices -> main power](#battery-powered-decorations)
-* [Automate infrared LEDs / candles / tea lights](#infrared-lights)
-* [Automate Christmas tree lights -> no activate button anymore](#christmas-tree-lights)
-* [Automate decorations powered with a power plug](#decorations-powered-with-a-power-plug)
+<div class="hp-tiles hp-options hp-quad">
+<div class="hp-card hp-tile">
+<a href="#battery-powered-decorations"><img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="Battery to USB" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Convert battery powered devices to main power</strong>
+<p>Battery powered decorations on a USB adapter or socket.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#infrared-lights"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Automate infrared LEDs, candles and tea lights</strong>
+<p>Control infrared decorations with a programmable remote.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#christmas-tree-lights"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas light string plug" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Automate Christmas tree lights</strong>
+<p>No activate button anymore.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#decorations-powered-with-a-power-plug"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart socket" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Automate decorations powered with a power plug</strong>
+<p>Switch mains powered decorations with a smart socket.</p></div>
+</div>
+</div>
+
+<br>
 
 > **_TIP:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
 
@@ -150,15 +169,33 @@ Like control them more dynamically based on the daylight level or motion and occ
 As mentioned, I have multiple types of Christmas decorations.\
 Which results at the end in five different types of power types to automate:
 
-<a href="images_christmas_decorations/random_plugs.jpg">
-<img src="images_christmas_decorations/random_plugs.jpg" alt="random plugs" width="120px" style="margin-left:15px;float:right" />
-</a>
-
-* [Battery powered decorations](#battery-powered-decorations), 15+ pieces, now controlled with dummy batteries which are connected now to the main power.
-* [Infrared controlled LEDs / candles / tea lights](#infrared-wireless-lights) now automatic controlled now by a programmable infrared remote.
-* [Christmas tree lights](#christmas-tree-lights) now with a replaced adapter, without a switch button which requires a manual to activate it first.
-* [Decoration/lights powered with a power plug](#decorationlights-powered-with-a-power-plug), 10+ pieces, now controlled with a smart socket between it.
-* [Outdoor lights](#outdoor-lights) now controlled with outdoor smart sockets.
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="#battery-powered-decorations"><img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="Battery powered decorations" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Battery powered decorations</strong>
+<p>15+ pieces, now controlled with dummy batteries which are connected now to the main power.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#infrared-lights"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared controlled tea lights" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Infrared controlled LEDs / candles / tea lights</strong>
+<p>Now automatic controlled by a programmable infrared remote.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#christmas-tree-lights"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas tree light plug" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Christmas tree lights</strong>
+<p>Now with a replaced adapter, without a switch button which requires a manual to activate it first.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#decorations-powered-with-a-power-plug"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart socket" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Decoration/lights powered with a power plug</strong>
+<p>10+ pieces, now controlled with a smart socket between it.</p></div>
+</div>
+<div class="hp-card hp-tile">
+<a href="#outdoor-lights"><img src="/projects/images_christmas_decorations/outside_tree_light.jpg" alt="Outdoor tree lights" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Outdoor lights</strong>
+<p>Now controlled with outdoor smart sockets.</p></div>
+</div>
+</div>
 <br>
 
 In the next chapters I'll describe how I automated each type.
@@ -377,6 +414,10 @@ With this project, all these lights can now be automated as well!
 
 My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
+<a href="images_christmas_decorations/christmas_tree.jpg">
+<img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
+</a>
+
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas light string plug 31V/3.6W" loading="lazy"></a>
@@ -386,9 +427,7 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 </div>
 </div>
 
-<a href="images_christmas_decorations/christmas_tree.jpg">
-  <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" height="200px" />
-</a>
+<br>
 
 If you also have a plug with a button, you can always try to find a similar plug without a button.\
 Please, let me know if you use another one which fits for your light string.
