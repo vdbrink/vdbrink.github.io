@@ -315,12 +315,20 @@ If you know a good source for any of them, let me know!
 Still searching for a walnut wall clock that fits the room.
 The ideal one would be very minimalist: no numbers, no gold, and a walnut tone that matches the desk and acoustic panels.
 
-<a href="images/wall_clock.jpg">
-<img src="images/wall_clock.jpg" alt="wall clock" width="150px" />
+<a href="images/wall_clock_no_bg.png">
+<img src="images/wall_clock_no_bg.png" alt="wall clock" width="150px" />
 </a>
 
 Alternative:
-* {{imgBasket}}Wall clock with acoustic panel look [(Amazon.nl)](https://amzn.to/3O178xU#ad)
+
+<div class="hp-tiles hp-options">
+<a class="hp-card hp-tile" href="https://amzn.to/3O178xU#ad" target="_blank">
+<img src="images/wall_clock_acoustic_amazon.jpg" alt="Wall clock with acoustic panel look" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Wall clock with acoustic panel look</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Amazon NL</p>
+</div>
+</a>
+</div>
 
 ----
 ### Docking station
@@ -336,16 +344,28 @@ Minimum requirements:
 * Ability to wake up the MacBook
 
 <p></p>
-The CalDigit TS5 looks like the ideal option, but the price is steep.
-Is it worth it?
+The CalDigit TS5 looks like the ideal option, but the price is steep.\
+The Ugreen Maxidok has less ports but enough for me, it has also Thunderbolt 5 and costs less then half of the price of the CalDigit!
 
-<a href="images/caldigit_ts5_docking_station.jpg">
-<img src="images/caldigit_ts5_docking_station.jpg" alt="CalDigit TS5 docking station" width="150px" />
-</a>
+<div class="hp-tiles hp-options">
 
-* {{imgBasket}}CalDigit TS5 docking station
-  [(Amazon US)](https://amzn.to/4un6YRH#ad)
-  [(Amazon NL)](https://amzn.to/3PGaJCH#ad)
+<div class="hp-card hp-tile">
+<a href="https://amzn.to/4un6YRH#ad" target="_blank"><img src="images/caldigit_ts5_docking_station.jpg" alt="CalDigit TS5 docking station" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Docking station</span><strong>CalDigit TS5 docking station</strong>
+<p>The ideal option, but the price is steep.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4un6YRH#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3PGaJCH#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+
+<div class="hp-card hp-tile">
+<a href="https://amzn.to/4yW5Vuo#ad" target="_blank"><img src="images/ugreen_maxidok.webp" alt="Ugreen Maxidok 10-in-1 Thunderbolt 5 docking station" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Ugreen Maxidok 10-in-1 Thunderbolt 5 docking station</strong>
+<p>Less ports but much cheaper.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4yW5Vuo#ad" target="_blank">Amazon US</a> | <a href="https://link.amazon/B01Fz9YWD#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+
+</div>
 
 <br>
 
@@ -361,20 +381,42 @@ A 4K camera with auto-zoom and auto-follow would be a solid upgrade: sharp and c
 
 There are many good chair brands, which makes choosing difficult. These two are my current top picks, but I'm open to other suggestions.
 
-* {{imgBasket}} [Haworth Fern](https://www.haworth.com/eu/en/products/executive-chairs/fern.html)
-* {{imgBasket}} [Noblechairs gaming leather chair](https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart)
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile hp-tile-stretch">
+<div class="hp-tile-body"><span class="hp-chip">Top pick</span><strong>Haworth Fern</strong>
+<p>Executive chair.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://www.haworth.com/eu/en/products/executive-chairs/fern.html" target="_blank">Product page</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile hp-tile-stretch">
+<div class="hp-tile-body"><span class="hp-chip">Top pick</span><strong>Noblechairs gaming leather chair</strong>
+<p>Gaming chair in PU leather.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://www.noblechairs.com/nl-nl/epic-series/gaming-chair-pu-leather?attribute%5Bcolor%5D=Zwart%20/%20Zwart" target="_blank">Product page</a></p>
+</div>
+</div>
+</div>
 
 ---
 ### Mouse
 
 When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
 
-* {{imgBasket}}Logitech MX Master 3S [(Amazon US)](https://amzn.to/44L0iSl#ad) [(Amazon NL)](https://amzn.to/4oe81RM#ad)
-* {{imgBasket}}Logitech MX Master 4 [(Amazon US)](https://amzn.to/4fIo4U8#ad) [(Amazon NL)](https://amzn.to/4fwGmJo#ad)
-<p></p>
-<a href="images/logitech_mx_master.jpg">
-<img src="images/logitech_mx_master.jpg" alt="Logitech MX Master mouse" width="150px" />
-</a>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile">
+<a href="https://amzn.to/44L0iSl#ad" target="_blank"><img src="images/logitech_mx_master_3s.jpg" alt="Logitech MX Master 3S mouse" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 3S</strong>
+<p>Grip, buttons and scroll features.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/44L0iSl#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4oe81RM#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile">
+<a href="https://amzn.to/4fIo4U8#ad" target="_blank"><img src="images/logitech_mx_master.jpg" alt="Logitech MX Master 4 mouse" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 4</strong>
+<p>Better than the 3S: a third thumb button, an Actions Ring for shortcuts and haptic feedback.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4fIo4U8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fwGmJo#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+</div>
 
 ---
 ### E-ink frame

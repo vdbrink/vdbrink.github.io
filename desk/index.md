@@ -23,7 +23,7 @@ Overview |
 
 On this page, I walk through each step: from gathering inspiration, to creating a virtual AI mockup of my new home office, to bringing it to life with real products.
 
-* Are you looking for **inspiration** for your own home office desk setup?\
+* Are you looking for **inspiration** for your own home office desk setup?
 * Or maybe you want to see how **AI** can help with interior design?\
 Then this is the right place for you!
 
