@@ -23,7 +23,7 @@ Now it stands on my desk in my home office, next to my monitor. It looks amazing
 
 <div class="align-left">
 <a href="/projects/images_mossarium/mossarium.jpg"><img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium" width="150px" /></a>
-<a href="/projects/images_mossarium/mossarium_creation.jpg"><img src="/projects/images_mossarium/mossarium_creation.jpg" alt="Mossarium during creation" height="200px" /></a>
+<a href="/projects/images_mossarium/mossarium_on_desk.png"><img src="/projects/images_mossarium/mossarium_on_desk.png" alt="Mossarium on my desk next to the monitor" height="200px" /></a>
 <a href="/projects/images_mossarium/mossarium2.jpg"><img src="/projects/images_mossarium/mossarium2.jpg" alt="My mossarium glass" width="150px" /></a>
 </div>
 
@@ -38,7 +38,6 @@ Now it stands on my desk in my home office, next to my monitor. It looks amazing
 * [Plants](#plants)
 * [Moss types](#moss-types)
 * [Maintenance](#maintenance)
-* [Photo credits](#photo-credits)
 <!-- TOC -->
 
 ---
@@ -122,14 +121,15 @@ These are the products I used for my desk mossarium:
 
 ## Make one yourself
 
-<div style="float:right; width:220px; margin-left:15px;">
+It is easy to make one yourself. You need a container, a few layers of material, plants and moss.
+
+<div style="clear:both; width:100%;">
 <a href="/projects/images_mossarium/mossarium_creation.jpg">
 <img src="/projects/images_mossarium/mossarium_creation.jpg" alt="Mossarium during creation" width="100%" />
 </a>
 <em style="display:block; text-align:center">my mossarium during creation</em>
 </div>
-
-It is easy to make one yourself. You need a container, a few layers of material, plants and moss.
+<br>
 
 The layers, from bottom to top:
 
