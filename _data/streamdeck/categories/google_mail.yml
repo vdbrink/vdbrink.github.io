@@ -13,24 +13,29 @@ dependencies:
         type: (Elgato) Multi Action
         fields:
           - key: Step 1
-            value: G
+            value: ⇧ G
           - key: Step 2
-            value: L
+            value: ⇧ L
           - key: Step 3
             value: unread
+          - key: Step 4
+            value: Enter
       - name: Filter by spam email
         icon: 1
         download: google_mail_in_spam-vdbrink.streamdeckaction
         type: (Elgato) Multi Action
         fields:
           - key: Step 1
-            value: G
+            value: ⇧ G
           - key: Step 2
-            value: L
+            value: ⇧ L
           - key: Step 3
             value: Spam
+          - key: Step 4
+            value: Enter
       - name: Search mail
         icon: google_mail
+        download: google_mail_search-vdbrink.streamDeckAction
         type: (System) Hotkey
         fields:
           - key: Title
@@ -39,19 +44,20 @@ dependencies:
             value: /
       - name: Compose a new email
         icon: google_mail
+        download: google_mail_compose-vdbrink.streamDeckAction
         type: (System) Hotkey
         fields:
           - key: Title
             value: compose
           - key: Hotkey
-            value: C
+            value: ⇧ C
       - name: "Go to Inbox"
         icon: 1
         download: gmail_to_inbox-vdbrink.streamDeckAction
         type: (Elgato) Multi Action
         fields:
           - key: Step 1
-            value: G
+            value: ⇧ G
           - key: Step 2
             value: I
       - name: Go to Drafts
@@ -60,7 +66,7 @@ dependencies:
         type: (Elgato) Multi Action
         fields:
           - key: Step 1
-            value: G
+            value: ⇧ G
           - key: Step 2
             value: D
       - name: Go to Sent mails
@@ -69,7 +75,7 @@ dependencies:
         type: (Elgato) Multi Action
         fields:
           - key: Step 1
-            value: G
+            value: ⇧ G
           - key: Step 2
             value: T
       - name: "Open any label ('gitlab' as example)"
@@ -78,11 +84,13 @@ dependencies:
         type: (Elgato) Multi Action
         fields:
           - key: Step 1
-            value: G
+            value: ⇧ G
           - key: Step 2
-            value: L
+            value: ⇧ L
           - key: Step 3
             value: gitlab
+          - key: Step 4
+            value: Enter
     wishes:
       - name: Show the number of new inbox emails
       - name: Show the number of emails for a specific label
