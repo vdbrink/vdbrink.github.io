@@ -10,9 +10,13 @@ image: /projects/images_mossarium/post_banner.jpg
 
 # Feed: Mossarium, a small living ecosystem on my desk
 
+<a href="/projects/images_mossarium/mossarium_on_desk.png">
+<img src="/projects/images_mossarium/mossarium_on_desk.png" alt="Mossarium on my desk next to the monitor" height="250px" />
+</a>
 <a href="/projects/images_mossarium/mossarium.jpg">
 <img src="/projects/images_mossarium/mossarium.jpg" alt="My mossarium on my desk" height="250px" />
 </a>
+
 <em style="display:block;">My own mossarium, a small piece of nature next to my monitor</em>
 
 While creating my [Pinterest mood board](/desk/office_mood_board) for my home office, I found a lot of inspiration for **mossariums**: moss terrariums, also called a mini rainforest or a micro landscape.
