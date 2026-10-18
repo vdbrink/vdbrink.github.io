@@ -109,6 +109,21 @@ After filtering the options, I had to choose between these:
 
 For more discussion and desk comparisons, check out [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/).
 
+### Cable management
+
+I hide all cables and power plugs under the desk, so nothing hangs under my desk.
+The cables run through the cable tray (came with the desk) under the desktop, and the power strip sits out of sight with the plugs kept together.
+
+<a href="images/cable_management_1.jpg">
+<img src="images/cable_management_1.jpg" alt="Cable tray under the desk" width="100%" />
+</a>
+<em style="display:block; text-align:center">cable tray under the desktop</em>
+
+<a href="images/cable_management_2.jpg">
+<img src="images/cable_management_2.jpg" alt="All cables hidden under the desk" width="100%" />
+</a>
+<em style="display:block; text-align:center">all cables hidden under the desk</em>
+
 ---
 ## Monitor
 
@@ -244,7 +259,9 @@ That said, I'm still on the lookout for a fully adjustable black leather-look ch
 
 * {{imgBasket}}Millberget [(Ikea NL)](https://www.ikea.com/nl/en/p/millberget-swivel-chair-murum-beige-70489389/#content)
 
-I'm looking for a replacement [chair](#chair-1), suggestions are welcome!
+<br>
+
+> **_SUGGESTION?:_** I'm looking for a replacement [chair](#chair-1), suggestions are welcome!
 
 ---
 ## Mouse
@@ -260,14 +277,7 @@ It is simple, but it has worked well for years.
 
 <br>
 
-Alternatives/future replacements:
-
-* {{imgBasket}}Logitech MX Master 3S 
-[(Amazon US)](https://amzn.to/44L0iSl#ad) 
-[(Amazon NL)](https://amzn.to/4oe81RM#ad)
-* {{imgBasket}}Logitech MX Master 4 
-[(Amazon US)](https://amzn.to/4fIo4U8#ad) 
-[(Amazon NL)](https://amzn.to/4fwGmJo#ad)
+> **_SUGGESTION?:_** I'm looking for a replacement [mouse](#mouse-1), suggestions are welcome!
 
 ---
 ## Accessories
@@ -291,7 +301,7 @@ That page includes:\
  [Floor heated mat](office_accessories#floor-heated-mat),
  [Moss terrarium](office_accessories#moss-terrarium),
  [Mug coaster](office_accessories#mug-coaster),
- [Wireless phone charger](office_accessories#wireless-phone-charger),
+ [Wireless phone charger](office_accessories#wireless-phone-charger-stand),
  [Walnut phone stand](office_accessories#walnut-phone-stand),
  [Cat tower](office_accessories#cat-tower).
 
@@ -369,7 +379,7 @@ The Ugreen Maxidok has less ports but enough for me, it has also Thunderbolt 5 a
 
 <br>
 
-Know a good alternative that meets those requirements? Let me know!
+> **_SUGGESTION?:_** Know a [good alternative](#camera) that meets those requirements? Let me know!
 
 ----
 ### Camera
@@ -423,6 +433,11 @@ When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the 
 
 I'm looking for a full-color e-ink display with a minimum size of 13" to rotate photos every few hours.
 Devices with a Spectra 6 screen already come close to very good photo quality.
+
+<a href="images/eink_frame.png">
+<img src="images/eink_frame.png" alt="E-ink frame" width="250px" />
+</a>
+<em style="display:block;">E-ink frame example</em>
 
 Do you have experience with a good product like this? I would like to hear from you!
 

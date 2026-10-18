@@ -79,6 +79,7 @@ I use these types of guides to accomplish this.
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/cable_wire_management1.jpg" alt="multiple cable guide" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Cable management</span><strong>Multiple cable guide</strong>
+<p>Guide multiple cables to avoid falling behind the desk when not connected.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mdNNA9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4enAaCv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vvsWmg#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -86,6 +87,7 @@ I use these types of guides to accomplish this.
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/cable_wire_management2.jpg" alt="single cable clip holder" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Cable management</span><strong>Single cable clip holder</strong>
+<p>Guide cables to a fixed place.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3kfMbFX" target="_blank">AliExpress</a> | <a href="https://amzn.to/4uQMxfr#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -94,12 +96,14 @@ I use these types of guides to accomplish this.
 ---
 ## Monitor light
 
-<div class="hp-tiles hp-options hp-full">
+<p>To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and keyboard and doesn't reflect in my eyes.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/monitor_light.avif" alt="monitor light" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Monitor light</span><strong>Xiaomi Mijia monitor light desk bar</strong>
-<p>To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and keyboard and doesn't reflect in my eyes. It has a bright light, a remote knob to dim the light, and it attaches easily to the monitor with counterweights.</p>
+<p>This bright light has a remote knob to dim the light, and it attaches easily to the monitor with counterweights.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c39rwqId" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy6P9O#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBYwjl#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -108,12 +112,13 @@ I use these types of guides to accomplish this.
 ---
 ## Desk mat
 
-<div class="hp-tiles hp-options hp-full">
+<p>A very large mouse mat under my keyboard and mouse.</p>
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/deskmat.avif" alt="Desk mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Desk mat</span><strong>Large anti-slip mouse mat</strong>
-<p>A very large mouse mat under my keyboard and mouse. The top material is soft with a smooth surface for sliding the mouse, and the bottom is rubber to keep it in place. I have the fully black version without distracting artwork. Size: 90 x 40 x 0.3 cm (31.5" x 15.7"). Available in many sizes and border colors.</p>
+<p>The top material of this mat is soft with a smooth surface for sliding the mouse, and the bottom is rubber to keep it in place. I have the fully black version without distracting artwork. Size: 90 x 40 x 0.3 cm (31.5" x 15.7"). Available in many sizes and border colors.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4lkc8mT" target="_blank">AliExpress</a> | <a href="https://amzn.to/3QbZkeg#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -148,7 +153,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 
 </div>
 
-<div class="hp-tiles hp-options hp-full">
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/qcy_h3s_no_bg.webp" alt="QCY H3S over-ear headset" loading="lazy">
@@ -159,9 +164,9 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 </div>
 </div>
 </div>
-<div class="hp-tiles hp-options hp-natural">
-<div class="hp-card hp-tile">
-<img src="images/sony_wh1000xm6.jpg" alt="Sony WH-1000XM6 over-ear headset" loading="lazy" style="display:block; margin:0 auto; width:auto; max-width:100%; max-height:200px; height:auto; aspect-ratio:auto; padding:0">
+<div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
+<div class="hp-card hp-tile hp-preferred">
+<img src="images/sony_wh1000xm6.jpg" alt="Sony WH-1000XM6 over-ear headset" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Sony WH-1000XM6</strong>
 <p>I'm also a fan of the Sony WH range, but the price is 10x the price of the QCY, and it isn't 10x better. For now, I stick to the QCY.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4vvtad6#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3QxCUDG#ad" target="_blank">Amazon NL</a></p>
@@ -172,7 +177,9 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 ---
 ## Laptop charger
 
-<div class="hp-tiles hp-options hp-full">
+<p>Keep your laptop charged.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" loading="lazy">
@@ -182,8 +189,6 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 </div>
 </div>
 </div>
-
-I'm looking for a single-cable-solution with a [docking station](desk_setup_hardware#docking-station), suggestions are welcome!
 
 ---
 ## Laptop stand
@@ -195,38 +200,45 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop stand</span><strong>Vertical laptop stand</strong>
+<p>Single vertical laptop holder, the width can be ajusted.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3YOP0VH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eVsZSd#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OEi9pF#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
+
 <div class="hp-card hp-tile hp-preferred">
 <img src="images/vertical_laptop_stand_two.avif" alt="Vertical laptop stand for two laptops" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop stand</span><strong>Vertical laptop stand for two laptops</strong>
+<p>Dual vertical laptop holder, the width can be ajusted.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4SxczDR" target="_blank">AliExpress</a> | <a href="https://amzn.to/4uZOXJ7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vjM7iv#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+
+<div class="hp-card hp-tile">
+<img src="images/laptop_side_desk_mount.avif" alt="Laptop side desk mount" loading="lazy" style="display:block; margin:0 auto; width:auto; max-width:100%; max-height:200px; height:auto; aspect-ratio:auto; padding:0">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Laptop side desk mount</strong>
+<p>Hide your laptop on the side of your desk.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4EqTSqf" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tNoFca#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Sh8k2d#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
 
 <div class="hp-card hp-tile">
 <img src="images/laptop_mount_under_desk_top.webp" alt="Laptop mount for under the desk" loading="lazy" style="display:block; margin:0 auto; width:auto; max-width:100%; max-height:200px; height:auto; aspect-ratio:auto; padding:0">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Laptop mount for under the desk</strong>
+<p>Hide your laptop under your desk.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4q2MMM9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tPqkOn#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBiFWT#ad" target="_blank">Amazon NL</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile">
-<img src="images/laptop_side_desk_mount.avif" alt="Laptop side desk mount" loading="lazy" style="display:block; margin:0 auto; width:auto; max-width:100%; max-height:200px; height:auto; aspect-ratio:auto; padding:0">
-<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Laptop side desk mount</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4EqTSqf" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tNoFca#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Sh8k2d#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
 </div>
 
 ## Laptop case
 
-<div class="hp-tiles hp-options hp-full">
+<p>To avoid reflections from the nearby window and distractions from the silver laptop on my desk I looked for a cover.</p>
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/macbook_case.jpg" alt="Macbook 16' case" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop case</span><strong>Black MacBook cover</strong>
-<p>To avoid reflections from the nearby window and distractions from the silver laptop on my desk, I put a black case around my laptop. I chose walnut or black for all items below my monitor and on my desk to make it look calm.</p>
+<p>I found this black case for around my laptop. I chose walnut or black for all items below my monitor and on my desk to make it look calm.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4syE4fB" target="_blank">AliExpress</a> | <a href="https://amzn.to/42K2pos#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xyesn3#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -234,6 +246,8 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 
 ---
 ## Headphone stand
+
+<p>To hang your headset on while you don't use it.</p>
 
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
@@ -245,7 +259,9 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 </div>
 </div>
 <div class="hp-card hp-tile">
-<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Walnut stand</strong>
+<img src="images/walnut_headphone_stand.png" alt="Walnut headphone stand" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Walnut headphone stand</strong>
+<p>A more stylish wood and metal headphone stand</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4S9Q9hf" target="_blank">AliExpress</a> | <a href="https://amzn.to/3Rl26xR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4eh9lzY#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -253,6 +269,8 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 
 ---
 ## Desk clock
+
+<p>What time is it?</p>
 
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
@@ -273,12 +291,14 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 <div class="hp-card hp-tile">
 <img src="images/wood_clock_triangle.avif" alt="Wood clock with a triangle shape" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Wood clock with a triangle shape</strong>
+<p>Also a wooden clock, but with a triangle shape</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3JDrUNr" target="_blank">AliExpress</a> | <a href="https://amzn.to/44lvrv9#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Wooden clock with wireless charger</strong>
+<p>Also a wooden clock, but with a wireless phone charger</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4MB2Tlj" target="_blank">AliExpress</a> | <a href="https://amzn.to/43JGezd#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -287,12 +307,14 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 ---
 ## Mug coaster
 
-<div class="hp-tiles hp-options hp-full">
+<p>Mug and glas coaster, it protects your desk from spills and stains.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/coasters.jpg" alt="personalized mug coasters" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Mug coaster</span><strong>Personalized mug coasters</strong>
-<p>A personalized mug coaster that nobody else has is both fun and practical, and it protects your desk from spills and stains. This coaster has a walnut look. Upload your own image to create a coaster with your own design.</p>
+<p>A personalized mug coaster (not in the photo due to business logos) that nobody else has is both fun and practical. This coaster has a walnut look. Upload your own image to create a coaster with your own design.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3xqCsX9" target="_blank">AliExpress</a></p>
 </div>
 </div>
@@ -301,12 +323,16 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 ---
 ## Wireless phone charger stand
 
-<div class="hp-tiles hp-options hp-full">
+Fewer wires make a desk look cleaner and more organized. If your phone supports wireless charging, place it on the charger and it starts charging, with no extra loos cable on your desk.<br>
+It's also useful in other rooms, like the bedroom or kitchen.<br>
+If your phone doesn't support wireless charging, consider a [retractable USB charger](#retractable-usb-charger).
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/phone_stand_charger.jpg" alt="wireless phone charger stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Wireless phone charger stand</span><strong>Wireless phone charger</strong>
-<p>Fewer wires make a desk look cleaner and more organized. If your phone supports it, just place it on the charger and it starts charging, with no cable needed. Also useful in other rooms, like the bedroom or kitchen.</p>
+<p>Wireless phone charger, for a clean desk.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3qTRe0B" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy78Bu#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/42HesCL#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -315,12 +341,14 @@ I'm looking for a single-cable-solution with a [docking station](desk_setup_hard
 ---
 ## Walnut phone stand
 
-<div class="hp-tiles hp-options hp-full">
+A basic phone stand in the same style as the desk and for easy view on it and easy to grab when needed.
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/walnut_phone_stand.jpg" alt="Walnut phone stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Walnut phone stand</span><strong>Walnut phone stand</strong>
-<p>A simple walnut-colored stand for my other phone, which is also walnut colored, so it fits perfectly with the rest of the accessories on my desk.</p>
+<p>A basic walnut-colored stand for my work phone, which is also walnut colored, so it fits perfectly with the rest of the accessories on my desk.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4UBgQzZ" target="_blank">AliExpress</a> | <a href="https://amzn.to/4fYOLFO#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -344,9 +372,10 @@ When I am in the office, my cats like to stay nearby.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.bitiba.nl/shop/katten/krabpaal_krabmeubels/krabtonnen/554883?activeVariant=554883.1" target="_blank">Bitiba.nl</a></p>
 </div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-img-margin">
 <img src="images/cat_condo_20_5_inch.jpg" alt="20.5-Inch Cat Condo" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>20.5-Inch Cat Condo</strong>
+<b>Alternative in the same style, available in US.</b>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4tV4zgc#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -355,7 +384,9 @@ When I am in the office, my cats like to stay nearby.
 ---
 ## Camera
 
-<div class="hp-tiles hp-options hp-full">
+<p>Basic peripheral for video calls.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" loading="lazy">
@@ -365,13 +396,16 @@ When I am in the office, my cats like to stay nearby.
 </div>
 </div>
 </div>
+<br>
 
-I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestions are welcome!
+> **_SUGGESTION?:_** I'm looking for a replacement [camera](/desk/desk_setup_hardware#camera), suggestions are welcome!
 
 ---
 ## Microphone
 
-<div class="hp-tiles hp-options hp-full">
+<p>Basic peripheral for video calls.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" loading="lazy">
@@ -385,8 +419,11 @@ I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestion
 ---
 ## Smart notification light
 
-<div class="hp-tiles hp-options hp-full">
-<a class="hp-card hp-tile" href="/projects/smart_notification_light">
+<p>A light indicator to alert you, in the style of the desk.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
+<a class="hp-card hp-tile hp-preferred" href="/projects/smart_notification_light">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="/projects/images_noti_light/smart_noti_light_ani.gif" alt="Smart notification light" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Smart notification light</strong>
 <p>A walnut pencil holder with a GU10 full-color smart light hidden inside. It looks like a random walnut accessory when it is off. I use it as a CO2 warning light in my office, but it can also show focus time, calendar reminders, required AI user input, or anything else that works well as a color signal.</p>
@@ -397,8 +434,11 @@ I'm looking for a replacement [camera](desk_setup_hardware#camera-1), suggestion
 ---
 ## Stretch display
 
-<div class="hp-tiles hp-options hp-full">
-<a class="hp-card hp-tile" href="/projects/stretch_display">
+<p>A separated display with a Home Assistant display with home and room information.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
+<a class="hp-card hp-tile hp-preferred" href="/projects/stretch_display">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="/projects/images_stretch_display/office_display_closeup.jpg" alt="stretch display" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Stretch display</strong>
 <p>A small stretched display next to my main monitor that shows important office and home alerts. It is connected to a separate Raspberry Pi, displays a Home Assistant page, and boots together with the monitor. It visualizes room environment data such as office temperature, CO2 levels, and graphs for the last few hours, plus alerts like when someone is detected around the house.</p>
@@ -414,34 +454,43 @@ Sometimes you need a cable to charge headphones or a keyboard.
 Most of the time, you do not need that cable and want to keep it out of sight.
 But when you do need it, you do not want to dive under the desk or use loose hanging cables to connect one.
 
-A nice solution is a retractable USB charging cable.
-You can pull it out when you need it, and it automatically rolls back in when you are done.
+A nice solution is a retractable USB charging cable.\
+You can pull it out when you need it, then it locks, pull again and it will automatically rolls back in when you are done.
+The length of the cable is mostly 1m, enough range to different devices.
+
+<a href="images/retractable_usb_charger_in_use.jpg">
+<img src="images/retractable_usb_charger_in_use.jpg" alt="Retractable USB charger in use" width="250px" />
+</a>
+<em style="display:block; text-align:center">(Click to enlarge) Retractable USB charger, by default invisible and hidden behind my clock, but still reachable to pull the USB cable when needed to charge my keyboard or headphone.</em>
+
 
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Retractable USB charger</span><strong>Retractable USB-C power cable</strong>
-<p>Pull it out when you need it, and it rolls back in when you are done.</p>
+<p>Pull it out when you need it, it's a 1m cable, and it rolls back in when you are done.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4092nFx" target="_blank">AliExpress</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <img src="images/retractable_usb_charger.png" alt="Advanced and powerful retractable power supply hub" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Advanced and powerful retractable power supply hub</strong>
+<p>Powerful charger.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4jifDC2#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <img src="images/retractable_usb_cable_hub.png" alt="Black dual USB-C power hub" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Black dual USB-C power hub</strong>
+<p>An other powerful charger.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oe4KB1" target="_blank">AliExpress</a> | <a href="https://amzn.to/3SSHu0u#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4enp1Sm#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
-<img src="images/retractable_usb_charger_walnut.png" alt="Walnut cable organizer" loading="lazy">
+<img src="images/retractable_usb_charger_walnut_bottom.png" alt="Walnut cable organizer" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Walnut cable organizer</strong>
-<p>High shipping costs.</p>
+<p>Nice design charger but with high shipping costs.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2ud4CQX" target="_blank">AliExpress</a></p>
 </div>
 </div>
@@ -450,12 +499,14 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 ---
 ## Footrest
 
-<div class="hp-tiles hp-options hp-full">
+<p>To support my posture and stretch my legs while sitting, I use a footrest under my desk. It can be changed to different angles.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/footrest.jpg" alt="Footrest" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Footrest</span><strong>Footrest</strong>
-<p>To support my posture and stretch my legs while sitting, I use a footrest under my desk. It can be changed to different angles.</p>
+<p>Foot support.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2QayhIv" target="_blank">AliExpress</a> | <a href="https://amzn.to/4w1Zm7p#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4aeh67k#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -464,12 +515,14 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 ---
 ## Floor protection mat
 
-<div class="hp-tiles hp-options hp-full">
+<p>To protect the floor from scratches and reduce chair-wheel noise, I placed a rubber protection mat underneath my chair.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/floor-protection-mat.webp" alt="floor protection mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Floor protection mat</span><strong>Floor protection mat</strong>
-<p>To protect the floor from scratches and reduce chair-wheel noise, I placed a rubber protection mat underneath my chair. A carpet version also works perfectly.</p>
+<p>A rubber or carpet version works perfectly against scratches and noises.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4odC4sM#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dUne72#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -478,16 +531,19 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 ---
 ## Floor heated mat
 
+<p>To keep my feet warm during winter, I placed a heated floor mat under my desk where I stand. This way, I do not need to heat the whole room, and I avoid cold feet from the floor while standing at my desk.</p>
+
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<img src="images/floor_mat.jpg" alt="floor mat" loading="lazy">
+<img src="images/floor_mat.jpg" alt="heated floor mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Floor heated mat</span><strong>VH Etna 40x60 cm</strong>
-<p>To keep my feet warm during winter, I placed a heated floor mat under my desk where I stand. This way, I do not need to heat the whole room, and I avoid cold feet from the floor while standing at my desk. It has a power output of 110 watts and an inline remote with 4 levels; most of the time the 4th level is already too hot. The built-in timer shuts it off automatically. It has a three-meter power cable.</p>
+<p>This mat has a power output of 110 watts and an inline remote with 4 levels; most of the time the 4th level is already too hot. The built-in timer shuts it off automatically. It has a three-meter power cable.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.bol.com/nl/nl/p/vh-regelbare-warme-voeten-mat-etna-40-x-60-cm-lcd-controller-met-4-standen-timerfunctie-plug-heat-zuinig-in-gebruik/9300000017178095/" target="_blank">Bol.com</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
+<img src="images/floor_mat.jpg" alt="floor mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Björn & Schiller, similar size</strong>
 <p>Less power and a shorter power cable.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4vW4R7D#ad" target="_blank">Amazon NL</a></p>
@@ -500,56 +556,21 @@ You can pull it out when you need it, and it automatically rolls back in when yo
 
 While creating my [Pinterest mood board](office_mood_board), I found a lot of inspiration for moss terrariums (also known as mossariums), and I also wanted a small living environment like that on my desk.
 
-Buying a fully decorated one was quite expensive, but I found a nice DIY kit that let me create my own moss terrarium for a reasonable price.\
+Buying a fully decorated one was quite expensive, but I bought a glass myself and found a nice DIY plant kit that let me create my own moss terrarium for a reasonable price.\
 Later, my local garden center also started selling moss terrariums, so it is worth checking there too.
 
 <div class="align-left">
 <a href="images/mossarium_creation.jpg">
 <img src="images/mossarium_creation.jpg" alt="Mossarium creation" height="200px" />
 </a>
-<a href="images/mossarium.jpg">
-<img src="images/mossarium.jpg" alt="Mossarium plants" width="150px" />
-</a>
 <a href="images/mossarium2.jpg">
 <img src="images/mossarium2.jpg" alt="Mossarium glass" width="150px" />
 </a>
 </div>
 
-<div class="hp-tiles hp-options hp-natural">
-<div class="hp-card hp-tile hp-preferred">
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
+<a class="hp-card hp-tile hp-preferred" href="/projects/mossarium">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<div class="hp-tile-body"><span class="hp-chip">Mossarium</span><strong>Moss terrarium glass</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4OC8zP7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4w7dfCj#ad" target="_blank">Amazon NL</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile hp-preferred">
-<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<div class="hp-tile-body"><span class="hp-chip">Mossarium</span><strong>DIY moss and plants kit</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://woonhero.nl/collections/terrarium-start-en-navulpakketten" target="_blank">Woonhero.nl</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile hp-preferred">
-<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<div class="hp-tile-body"><span class="hp-chip">Mossarium</span><strong>Top light</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4e9lqvj" target="_blank">AliExpress</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile hp-preferred">
-<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<div class="hp-tile-body"><span class="hp-chip">Mossarium</span><strong>Deco frogs</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3Whopf7" target="_blank">AliExpress</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile hp-preferred">
-<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<div class="hp-tile-body"><span class="hp-chip">Mossarium</span><strong>Stainless steel tweezers</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c34YFrOH" target="_blank">AliExpress</a></p>
-</div>
-</div>
-</div>
-
-<div class="hp-tiles hp-options hp-full">
-<a class="hp-card hp-tile" href="/projects/mossarium">
 <img src="/desk/images/mossarium.jpg" alt="Mossarium" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Mossarium: a small living ecosystem on my desk</strong><p>How a moss terrarium works, where to buy one, how to make your own and how to take care of it.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
@@ -558,7 +579,9 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 ---
 ## Shortcut keyboard
 
-<div class="hp-tiles hp-options hp-full">
+<p>A desk keypad to direct trigger all kinds of actions.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/elgato_stream_deck_xl.jpg" alt="Elgato Stream Deck XL" loading="lazy">
@@ -569,7 +592,7 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 </div>
 </div>
 
-<div class="hp-tiles hp-options hp-full">
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <a class="hp-card hp-tile" href="/elgato_stream_deck/">
 <img src="/elgato_stream_deck/images/actions_sd_app.png" alt="Elgato Stream Deck for a software developer" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>Elgato Stream Deck for a software developer</strong><p>How I use an Elgato Stream Deck as a software developer, with actions and scripts to download.</p><span class="hp-more">Read the article &rarr;</span></div>
@@ -579,12 +602,14 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 ---
 ## Vacuum cleaner
 
-<div class="hp-tiles hp-options hp-full">
+<p>With a portable vacuum cleaner for your desk (and keyboard), you can quickly remove small debris without scratching anything.</p>
+
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/desk_mini_vacuum_cleaner.avif" alt="mini desk vacuum cleaner" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Vacuum cleaner</span><strong>Mini desk vacuum cleaner</strong>
-<p>With this small but strong vacuum cleaner for your desk (and keyboard), you can quickly remove small debris without scratching anything. It can be charged with a USB-C cable.</p>
+<p>This one is strong and it can be charged with a USB-C cable.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4KLKg8v" target="_blank">AliExpress</a></p>
 </div>
 </div>
@@ -592,10 +617,10 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 
 ## Related articles
 
-<div class="hp-tiles hp-options hp-full">
+<div class="hp-tiles hp-options hp-full hp-img-narrow">
 <a class="hp-card hp-tile" href="/desk/desk_setup_hardware#future-improvements">
 <img src="/desk/images/caldigit_ts5_docking_station.jpg" alt="Desk setup hardware: Future improvements" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Desk setup hardware: Future improvements</strong><p>Products still on my wish list for my desk setup.</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Desk setup hardware: Future improvements</strong><p>Products still on my wish list for my desk setup. Do you have good suggestions?</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
 </div>
 
