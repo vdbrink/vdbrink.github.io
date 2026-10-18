@@ -3,7 +3,7 @@ title: "Mossarium: a small living ecosystem on my desk"
 description: "How a moss terrarium works, where to buy one, how to make your own and how to take care of it."
 category: Projects
 tags: [mossarium, moss, terrarium, mini rainforest, micro landscape, miniature ecosystem, moss garden, desk, plants, DIY, home office]
-image: /desk/images/mossarium.jpg
+image: /projects/images_mossarium/mossarium.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
@@ -22,9 +22,9 @@ Later, my local garden center and online they started selling complete mossarium
 Now it stands on my desk in my home office, next to my monitor. It looks amazing, is compact and it gives a piece or rest to look at during the day.
 
 <div class="align-left">
-<a href="/desk/images/mossarium.jpg"><img src="/desk/images/mossarium.jpg" alt="Mossarium" width="150px" /></a>
-<a href="/desk/images/mossarium_creation.jpg"><img src="/desk/images/mossarium_creation.jpg" alt="Mossarium during creation" height="200px" /></a>
-<a href="/desk/images/mossarium2.jpg"><img src="/desk/images/mossarium2.jpg" alt="My mossarium glass" width="150px" /></a>
+<a href="/projects/images_mossarium/mossarium.jpg"><img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium" width="150px" /></a>
+<a href="/projects/images_mossarium/mossarium_creation.jpg"><img src="/projects/images_mossarium/mossarium_creation.jpg" alt="Mossarium during creation" height="200px" /></a>
+<a href="/projects/images_mossarium/mossarium2.jpg"><img src="/projects/images_mossarium/mossarium2.jpg" alt="My mossarium glass" width="150px" /></a>
 </div>
 
 ---
@@ -54,6 +54,11 @@ A mossarium is a small, mostly closed ecosystem. The plants and the moss inside 
 <br>
 Because of this, you need very little water. A well-balanced closed mossarium can stay closed for months, or even years, and only needs a bit of water and cut some grown plants now and then.
 It's a special little ecosystem, which is also why it's so fun to watch it grow.
+
+<a href="/projects/images_mossarium/mossarium_closeup_frogs.jpg" style="display:block; text-align:center">
+<img src="/projects/images_mossarium/mossarium_closeup_frogs.jpg" alt="Close-up of my mossarium with the deco frogs" width="300px" />
+</a>
+<em style="display:block; text-align:center">a close-up of my mossarium with the plants and deco</em>
 
 ---
 
@@ -118,8 +123,8 @@ These are the products I used for my desk mossarium:
 ## Make one yourself
 
 <div style="float:right; width:220px; margin-left:15px;">
-<a href="/desk/images/mossarium_creation.jpg">
-<img src="/desk/images/mossarium_creation.jpg" alt="Mossarium during creation" width="100%" />
+<a href="/projects/images_mossarium/mossarium_creation.jpg">
+<img src="/projects/images_mossarium/mossarium_creation.jpg" alt="Mossarium during creation" width="100%" />
 </a>
 <em style="display:block; text-align:center">my mossarium during creation</em>
 </div>
@@ -140,6 +145,11 @@ The layers, from bottom to top:
 Finish with adding a bit of water, close the lid and place it in bright, indirect light.
 Not in direct sun, because the glass can heat up and burn the plants.
 
+<a href="/projects/images_mossarium/mossarium_glass_house_build.jpg" style="display:block; text-align:center">
+<img src="/projects/images_mossarium/mossarium_glass_house_build.jpg" alt="Glass house mossarium during creation" width="300px" />
+</a>
+<em style="display:block; text-align:center">a glass house mossarium during creation, with wood, plants and moss</em>
+
 ---
 
 ## Choose a container
@@ -147,23 +157,30 @@ Not in direct sun, because the glass can heat up and burn the plants.
 You can use almost any clear glass container, as long as you can reach the bottom to place the plants:
 
 <div class="hp-tiles hp-options">
-<a class="hp-card hp-tile" href="/projects/images_mossarium/container_glass_jar.jpg" target="_blank">
-<img src="/projects/images_mossarium/container_glass_jar.jpg" alt="A bottle or jar" loading="lazy">
-<div class="hp-tile-body"><strong>A bottle or jar</strong>
-<p>A large bottle or a glass jar with a lid is cheap and works well. A narrow neck looks nice, but is harder to build in.</p></div>
-</a>
-<a class="hp-card hp-tile" href="/projects/images_mossarium/container_open_bowl.jpg" target="_blank">
-<img src="/projects/images_mossarium/container_open_bowl.jpg" alt="A glass vase, bowl or dome" loading="lazy">
-<div class="hp-tile-body"><strong>A glass vase, bowl or dome</strong>
-<p>Easy to build in, but it needs a lid or a piece of glass to keep the humidity inside.</p></div>
-</a>
 <a class="hp-card hp-tile" href="/projects/images_mossarium/terrarium_glass.jpg" target="_blank">
 <img src="/projects/images_mossarium/terrarium_glass.jpg" alt="A special glass house with a door" loading="lazy">
 <div class="hp-tile-body"><strong>A special glass house with a door</strong>
 <p>A small glass terrarium house with a door or sliding lid. This is easy to access for placing, trimming and watering, and it looks great on a desk.</p>
 <small>The terrarium glass I use</small></div>
 </a>
+<a class="hp-card hp-tile" href="/projects/images_mossarium/terrariums.jpg" target="_blank">
+<img src="/projects/images_mossarium/terrariums.jpg" alt="A glass vase, bowl or dome" loading="lazy">
+<div class="hp-tile-body"><strong>A glass vase, bowl or dome</strong>
+<p>Easy to build in, but it needs a lid or a piece of glass to keep the humidity inside.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/projects/images_mossarium/container_glass_jar.jpg" target="_blank">
+<img src="/projects/images_mossarium/container_glass_jar.jpg" alt="A bottle or jar" loading="lazy">
+<div class="hp-tile-body"><strong>A bottle or jar</strong>
+<p>A large bottle or a glass jar with a lid is cheap and works well. A narrow neck looks nice, but is harder to build in.</p></div>
+</a>
 </div>
+<br>
+
+<a href="/projects/images_mossarium/mossarium_glass_house_outdoor.jpg" style="display:block; text-align:center">
+<img src="/projects/images_mossarium/mossarium_glass_house_outdoor.jpg" alt="Glass house mossarium outside" width="300px" />
+</a>
+<em style="display:block; text-align:center">my glass house mossarium</em>
+
 <br>
 
 Closed containers keep the humidity inside and need very little watering. For moss, a (mostly) closed container is the best choice.
@@ -176,28 +193,10 @@ These are plants you often see in a mossarium. They all like high humidity, indi
 Keep the selection small, and leave some open space between the plants to give them space to grow.
 
 <div class="hp-tiles hp-options">
-<a class="hp-card hp-tile" href="/projects/images_mossarium/ficus.jpg" target="_blank">
-<img src="/projects/images_mossarium/ficus.jpg" alt="Ficus Ginseng bonsai" loading="lazy">
-<div class="hp-tile-body"><strong>Ficus Ginseng bonsai</strong><em>Ficus microcarpa</em>
-<p>A small bonsai-like tree with a thick, curved root. It gives your mossarium height and a jungle feeling.</p>
-</div>
-</a>
 <a class="hp-card hp-tile" href="/projects/images_mossarium/asparagus.jpg" target="_blank">
 <img src="/projects/images_mossarium/asparagus.jpg" alt="Asparagus fern" loading="lazy">
 <div class="hp-tile-body"><strong>Asparagus fern</strong><em>Asparagus setaceus plumosus</em>
 <p>Soft, feathery leaves that look like a fine green cloud. Gives a light, airy look.</p>
-</div>
-</a>
-<a class="hp-card hp-tile" href="/projects/images_mossarium/calathea_lancifolia.jpg" target="_blank">
-<img src="/projects/images_mossarium/calathea_lancifolia.jpg" alt="Calathea lancifolia" loading="lazy">
-<div class="hp-tile-body"><strong>Calathea lancifolia</strong><em>Rattlesnake plant</em>
-<p>Long leaves with dark green markings and a purple underside. A real eye-catcher.</p>
-</div>
-</a>
-<a class="hp-card hp-tile" href="/projects/images_mossarium/calathea_makoyana.jpg" target="_blank">
-<img src="/projects/images_mossarium/calathea_makoyana.jpg" alt="Calathea makoyana" loading="lazy">
-<div class="hp-tile-body"><strong>Calathea makoyana</strong><em>Peacock plant</em>
-<p>Round leaves with a beautiful feather-like pattern. Loves the humidity of a closed container.</p>
 </div>
 </a>
 <a class="hp-card hp-tile" href="/projects/images_mossarium/fittonia_white_tiger.jpg" target="_blank">
@@ -210,6 +209,24 @@ Keep the selection small, and leave some open space between the plants to give t
 <img src="/projects/images_mossarium/fittonia_ruby_lime.jpg" alt="Fittonia 'Ruby Lime'" loading="lazy">
 <div class="hp-tile-body"><strong>Fittonia 'Ruby Lime'</strong><em>Fittonia albivenis</em>
 <p>Orange-pink and green leaves, for a warm splash of color.</p>
+</div>
+</a>
+<a class="hp-card hp-tile" href="/projects/images_mossarium/ficus.jpg" target="_blank">
+<img src="/projects/images_mossarium/ficus.jpg" alt="Ficus Ginseng bonsai" loading="lazy">
+<div class="hp-tile-body"><strong>Ficus Ginseng bonsai</strong><em>Ficus microcarpa</em>
+<p>A small bonsai-like tree with a thick, curved root. It gives your mossarium height and a jungle feeling.</p>
+</div>
+</a>
+<a class="hp-card hp-tile" href="/projects/images_mossarium/calathea_lancifolia.jpg" target="_blank">
+<img src="/projects/images_mossarium/calathea_lancifolia.jpg" alt="Calathea lancifolia" loading="lazy">
+<div class="hp-tile-body"><strong>Calathea lancifolia</strong><em>Rattlesnake plant</em>
+<p>Long leaves with dark green markings and a purple underside. A real eye-catcher.</p>
+</div>
+</a>
+<a class="hp-card hp-tile" href="/projects/images_mossarium/calathea_makoyana.jpg" target="_blank">
+<img src="/projects/images_mossarium/calathea_makoyana.jpg" alt="Calathea makoyana" loading="lazy">
+<div class="hp-tile-body"><strong>Calathea makoyana</strong><em>Peacock plant</em>
+<p>Round leaves with a beautiful feather-like pattern. Loves the humidity of a closed container.</p>
 </div>
 </a>
 <a class="hp-card hp-tile" href="/projects/images_mossarium/coffee.jpg" target="_blank">
@@ -256,6 +273,13 @@ Keep the selection small, and leave some open space between the plants to give t
 </a>
 </div>
 
+<br>
+
+<a href="/projects/images_mossarium/mossarium_glass_house_angle.jpg" style="display:block; text-align:center">
+<img src="/projects/images_mossarium/mossarium_glass_house_angle.jpg" alt="Glass house mossarium with plants and fittonia" width="300px" />
+</a>
+<em style="display:block; text-align:center">my glass house mossarium with moss, asparagus and fittonia</em>
+
 ---
 
 ## Moss types
@@ -287,7 +311,7 @@ Take only a small piece, and only where it is allowed. Remove loose dirt, insect
 <p>Fine, feathery branches in a layered pattern, that look like tiny ferns. Nice around stones and wood.</p></div>
 </a>
 </div>
-
+<br>
 Avoid placing moss against constantly wet glass. It should be humid, not soaked.
 A DIY kit or a terrarium shop is the easiest way to get moss that is ready to use.
 
@@ -318,6 +342,8 @@ A mossarium needs little care, but there are a few things to watch.
 * A spray bottle for water
 * A soft brush or cloth to clean the glass
 * A small spoon to add soil
+
+<br>
 
 These are the tools I use:
 

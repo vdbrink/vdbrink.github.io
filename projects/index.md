@@ -32,7 +32,7 @@ Here you find bigger projects I've done, like this smart mailbox.
 </a>
 
 <a class="project-card" href="/projects/mossarium">
-<img src="/desk/images/mossarium.jpg" alt="Mossarium on my desk">
+<img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium on my desk">
 <span>Mossarium: a small living ecosystem on my desk</span>
 </a>
 

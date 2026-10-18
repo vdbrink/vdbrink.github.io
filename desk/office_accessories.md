@@ -559,19 +559,10 @@ While creating my [Pinterest mood board](office_mood_board), I found a lot of in
 Buying a fully decorated one was quite expensive, but I bought a glass myself and found a nice DIY plant kit that let me create my own moss terrarium for a reasonable price.\
 Later, my local garden center also started selling moss terrariums, so it is worth checking there too.
 
-<div class="align-left">
-<a href="images/mossarium_creation.jpg">
-<img src="images/mossarium_creation.jpg" alt="Mossarium creation" height="200px" />
-</a>
-<a href="images/mossarium2.jpg">
-<img src="images/mossarium2.jpg" alt="Mossarium glass" width="150px" />
-</a>
-</div>
-
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <a class="hp-card hp-tile hp-preferred" href="/projects/mossarium">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<img src="/desk/images/mossarium.jpg" alt="Mossarium" loading="lazy">
+<img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Mossarium: a small living ecosystem on my desk</strong><p>How a moss terrarium works, where to buy one, how to make your own and how to take care of it.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
 </div>

@@ -10,8 +10,8 @@ image: /projects/images_mossarium/post_banner.jpg
 
 # Feed: Mossarium, a small living ecosystem on my desk
 
-<a href="/desk/images/mossarium.jpg">
-<img src="/desk/images/mossarium.jpg" alt="My mossarium on my desk" height="250px" />
+<a href="/projects/images_mossarium/mossarium.jpg">
+<img src="/projects/images_mossarium/mossarium.jpg" alt="My mossarium on my desk" height="250px" />
 </a>
 <em style="display:block;">My own mossarium, a small piece of nature next to my monitor</em>
 
@@ -39,7 +39,7 @@ On the new page you find:
 
 <div class="hp-tiles hp-options hp-full">
 <a class="hp-card hp-tile" href="/projects/mossarium">
-<img src="/desk/images/mossarium.jpg" alt="Mossarium during creation" loading="lazy">
+<img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium during creation" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Mossarium: a small living ecosystem on my desk</strong><p>How a moss terrarium works, where to buy one, how to make your own and how to take care of it.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
 </div>
