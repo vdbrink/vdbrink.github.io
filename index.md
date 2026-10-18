@@ -23,7 +23,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <div class="hp-section-head">
 <div>
 <h2>Latest posts</h2>
-<p class="hp-lead">My latest 4 posts about my latest projects I work on.</p>
+<p class="hp-lead">My latest 4 posts about my latest projects I worked on.</p>
 </div>
 <a href="/feed.html">All posts &rarr;</a>
 </div>

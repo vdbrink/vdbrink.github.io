@@ -17,9 +17,9 @@ You will also see them called a mini rainforest, a micro landscape, a miniature 
 I wanted a small piece of nature on my desk, but without the care of a normal houseplant.
 
 Buying a fully decorated one was quite expensive, but I found a DIY kit that made it possible to build my own for a reasonable price.
-Later, my local garden center and online they started selling complete mossariums, so it is worth checking there too.
+Later, my local garden center and online shops started selling complete mossariums, so it is worth checking there too.
 
-Now it stands on my desk in my home office, next to my monitor. It looks amazing, is compact and it gives a piece or rest to look at during the day.
+Now it stands on my desk in my home office, next to my monitor. It looks amazing, is compact, and it gives me a moment of rest to look at during the day.
 
 <div class="align-left">
 <a href="/projects/images_mossarium/mossarium.jpg"><img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium" width="150px" /></a>
@@ -51,7 +51,7 @@ A mossarium is a small, mostly closed ecosystem. The plants and the moss inside 
 * **Recycling:** fallen leaves are broken down by tiny organisms in the soil and become nutrients for the plants.
 
 <br>
-Because of this, you need very little water. A well-balanced closed mossarium can stay closed for months, or even years, and only needs a bit of water and cut some grown plants now and then.
+Because of this, you need very little water. A well-balanced closed mossarium can stay closed for months, or even years, and only needs a bit of water and some trimming of grown plants now and then.
 It's a special little ecosystem, which is also why it's so fun to watch it grow.
 
 <a href="/projects/images_mossarium/mossarium_closeup_frogs.jpg" style="display:block; text-align:center">
@@ -143,7 +143,7 @@ The layers, from bottom to top:
 8. **Decoration:** add stones or small figures, like my frogs and deco door. Don't use too much, because the container is small.
 
 Finish with adding a bit of water, close the lid and place it in bright, indirect light.
-Not in direct sun, because the glass can heat up and burn the plants.
+Keep it out of direct sun, because the glass can heat up and burn the plants.
 
 <a href="/projects/images_mossarium/mossarium_glass_house_build.jpg" style="display:block; text-align:center">
 <img src="/projects/images_mossarium/mossarium_glass_house_build.jpg" alt="Glass house mossarium during creation" width="300px" />
@@ -190,7 +190,7 @@ Closed containers keep the humidity inside and need very little watering. For mo
 ## Plants
 
 These are plants you often see in a mossarium. They all like high humidity, indirect light, and they stay small.
-Keep the selection small, and leave some open space between the plants to give them space to grow.
+Keep the selection small, and leave some open space between the plants so they have room to grow.
 
 <div class="hp-tiles hp-options">
 <a class="hp-card hp-tile" href="/projects/images_mossarium/asparagus.jpg" target="_blank">
@@ -308,7 +308,7 @@ Take only a small piece, and only where it is allowed. Remove loose dirt, insect
 <a class="hp-card hp-tile" href="/projects/images_mossarium/fern_moss.jpg" target="_blank">
 <img src="/projects/images_mossarium/fern_moss.jpg" alt="Feather moss" loading="lazy">
 <div class="hp-tile-body"><strong>Feather moss</strong><em>Hylocomium splendens</em>
-<p>Fine, feathery branches in a layered pattern, that look like tiny ferns. Nice around stones and wood.</p></div>
+<p>Fine, feathery branches in a layered pattern that look like tiny ferns. Nice around stones and wood.</p></div>
 </a>
 </div>
 <br>
@@ -333,7 +333,7 @@ A mossarium needs little care, but there are a few things to watch.
 * Trim plants that grow against the glass or over the moss, with a small pair of scissors.
 * Remove dead or brown leaves with tweezers, to avoid mold.
 * Wipe the inside of the glass when the view gets poor.
-* A little mold can appear in a new mossarium. Remove it, and ventilate a few days.
+* A little mold can appear in a new mossarium. Remove it, and ventilate the container for a few days.
 
 ### Required tools
 
