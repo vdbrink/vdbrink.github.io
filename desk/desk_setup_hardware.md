@@ -97,17 +97,35 @@ My wish list for my new desk was clear:
 Finding the right desk took a while because there are many companies selling standing desks.
 
 After filtering the options, I had to choose between these:
-* The {{imgBasket}}[Flexispot E7 Pro](https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html) has good reviews, but it did not offer a full 200 cm wide top.
-* The {{imgBasket}}[Desktronic Desk Sit-Stand](https://amzn.to/4vywnrU#ad) had very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.
-* The {{imgBasket}}[YOUP02-Z-CW-128 Electric desk black Cognac Walnut](https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572) matched all my criteria, but it does not have many reviews.
-<p></p>
 
-<a href="images/youp02_desk.jpg" style="display:block; text-align:center">
-<img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" width="350px" />
-</a>
-<em style="display:block; text-align:center">YOUP02 Cognac Walnut</em>
+<div class="hp-tiles hp-options hp-natural">
 
-For more discussion and desk comparisons, check out [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/).
+<div class="hp-card hp-tile hp-tile-stretch hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/youp02_desk.jpg" alt="YOUP02 Cognac Walnut" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">My desk</span><strong>YOUP02-Z-CW-128 Electric desk black Cognac Walnut</strong>
+<p>Matched all my criteria, but it does not have many reviews.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://www.goedkoopinrichten.nl/product/115/elektrisch-zit-sta-bureau-youp02-zwart-cognac-walnoten?modelId=572" target="_blank">Goedkoopinrichten</a></p>
+</div>
+</div>
+
+<div class="hp-card hp-tile hp-tile-stretch">
+<div class="hp-tile-body"><span class="hp-chip">Considered</span><strong>Flexispot E7 Pro</strong>
+<p>Good reviews, but it did not offer a full 200 cm wide top.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://www.flexispot.nl/elektrisch-zit-sta-bureau-e7-pro.html" target="_blank">Flexispot</a></p>
+</div>
+</div>
+
+<div class="hp-card hp-tile hp-tile-stretch">
+<div class="hp-tile-body"><span class="hp-chip">Considered</span><strong>Desktronic Desk Sit-Stand</strong>
+<p>Very good reviews, but the walnut color was a bit too light. It also has rounded corners and a cable hole, which I did not really want.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4vywnrU#ad" target="_blank">Amazon US</a></p>
+</div>
+</div>
+
+</div>
+
+> TIP: For more discussion and desk comparisons, check out [Reddit - StandingDesk](https://www.reddit.com/r/StandingDesk/).
 
 ### Cable management
 
@@ -117,12 +135,29 @@ The cables run through the cable tray (came with the desk) under the desktop, an
 <a href="images/cable_management_1.jpg">
 <img src="images/cable_management_1.jpg" alt="Cable tray under the desk" width="100%" />
 </a>
-<em style="display:block; text-align:center">cable tray under the desktop</em>
+<em style="display:block; text-align:center">cable tray opened under the desk</em>
 
 <a href="images/cable_management_2.jpg">
 <img src="images/cable_management_2.jpg" alt="All cables hidden under the desk" width="100%" />
 </a>
-<em style="display:block; text-align:center">all cables hidden under the desk</em>
+<em style="display:block; text-align:center">all cables hidden under the desk in the closed tray</em>
+
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/cable_wire_management1.jpg" alt="multiple cable guide" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Cable management</span><strong>Multiple cable guide</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mdNNA9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4enAaCv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vvsWmg#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/cable_wire_management2.jpg" alt="single cable clip holder" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Cable management</span><strong>Single cable clip holder</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3kfMbFX" target="_blank">AliExpress</a> | <a href="https://amzn.to/4uQMxfr#ad" target="_blank">Amazon US</a></p>
+</div>
+</div>
+</div>
 
 ---
 ## Monitor
@@ -151,8 +186,20 @@ Newer versions are now available with improved specs while keeping the same dime
 
 Same monitor but newer models:
 
-* {{imgBasket}}Philips 49" curved monitor - 49B2U5900C [(Amazon NL)](https://amzn.to/4afMEdn#ad)
-* {{imgBasket}}Philips 49" curved monitor - Evnia 49M2C8900L [(Amazon US)](https://amzn.to/4v3Z53D#ad)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-tile-stretch">
+<img src="images/philips_49inch_screen.webp" alt="Philips 49 curved monitor - 49B2U5900C" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Newer model</span><strong>Philips 49" curved monitor - 49B2U5900C</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4afMEdn#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile hp-tile-stretch">
+<img src="images/philips_49inch_screen.webp" alt="Philips 49 curved monitor - Evnia 49M2C8900L" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Newer model</span><strong>Philips 49" curved monitor - Evnia 49M2C8900L</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4v3Z53D#ad" target="_blank">Amazon US</a></p>
+</div>
+</div>
+</div>
 
 ---
 ### Monitor cable
@@ -161,12 +208,21 @@ The Philips monitor has one DisplayPort 1.4 port and three HDMI 2.0 ports.
 The MacBook M4 Pro has Thunderbolt 4 ports (USB-C) with DisplayPort 2.1.
 To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for the best possible signal quality.
 
-<a href="images/monitor_cable.jpg">
-<img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" width="150px" />
-</a>
-
-* {{imgBasket}}USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K [(Amazon US)](https://amzn.to/4dUhV7i#ad) [(Amazon NL)](https://amzn.to/3MSMgsm#ad)
-* {{imgBasket}}Similar cable from Ugreen [(AliExpress)](https://s.click.aliexpress.com/e/_c3P8oBaL) [(Amazon US)](https://amzn.to/4tUWeJq#ad)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Monitor cable</span><strong>USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4dUhV7i#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3MSMgsm#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile">
+<img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Similar cable from Ugreen</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3P8oBaL" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tUWeJq#ad" target="_blank">Amazon US</a></p>
+</div>
+</div>
+</div>
 
 ---
 ### Monitor arm
@@ -183,15 +239,20 @@ To keep a clean desk, I was looking for a monitor arm that:
 I ended up with the [ACT AC8340](https://www.act-connectivity.com/en-us/products/av-mounts/single-monitor-arm-office-premium-gas-spring-ac8340).
 It is built from solid metal, holds up to 20 kg, meets all my requirements, and is reasonably priced.
 
-<a href="images/act_ac8340.avif">
-<img src="images/act_ac8340.avif" alt="ACT AC8340" width="250px" />
-</a>
-
-* {{imgBasket}}Monitor arm - ACT AC8340 (Amazon N/A)  [(Amazon NL)](https://amzn.to/4qFwvD8#ad) [(Tweakers NL - Dutch price compare site)](https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html)
-
-<br>
-Alternative, similar design:
-* {{imgBasket}}Monitor arm - VIVO Heavy Duty for max 49" monitors [(Amazon US)](https://amzn.to/4eqbiKm#ad) [(Amazon NL)](https://amzn.to/4uNRFBI#ad)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/act_ac8340.avif" alt="ACT AC8340" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Monitor arm</span><strong>Monitor arm - ACT AC8340</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4qFwvD8#ad" target="_blank">Amazon NL</a> | <a href="https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html" target="_blank">Tweakers (Dutch price compare)</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Monitor arm - VIVO Heavy Duty for max 49" monitors</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4eqbiKm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uNRFBI#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+</div>
 
 ---
 ## Laptop
@@ -200,31 +261,43 @@ My daily driver is an Apple MacBook M4 Pro 16-inch.
 It is powerful enough for demanding tasks and still great to take on the go.
 MacBooks consistently outperform Windows laptops on both performance and battery life.
 
-<a href="images/macbook.jpg">
-<img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" width="250px" />
-</a>
-
-* {{imgBasket}}Apple MacBook Pro M4 16" [(Amazon US)](https://amzn.to/4dE3rHv#ad) [(Amazon NL)](https://amzn.to/4w3F12q#ad)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Laptop</span><strong>Apple MacBook Pro M4 16"</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4dE3rHv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4w3F12q#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+</div>
 
 <br>
 
-<table>
-  <thead>
-  <tr>
-    <th colspan="3">I use these accessories for my laptop</th>
-  </tr>
-</thead>
-  <tr>
-    <td>120W universal USB-C charger</td>
-    <td>Vertical laptop stand</td>
-    <td>MacBook Pro 16" black cover case</td>
-  </tr>
-  <tr>
-    <td><a href="office_accessories#laptop-charger"><img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" height="150px" /></a> </td>
-    <td><a href="office_accessories#laptop-stand"><img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" height="150px" /></a> </td>
-    <td><a href="office_accessories#laptop-case"><img src="images/macbook_case.jpg" alt="Macbook 16' case" height="150px" /></a></td>
-  </tr>
-</table>
+I use these accessories for my laptop:
+
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-tile-stretch hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Laptop accessory</span><strong>120W universal USB-C charger</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="office_accessories#laptop-charger" target="_blank">Accessories page</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile hp-tile-stretch hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Laptop accessory</span><strong>Vertical laptop stand</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="office_accessories#laptop-stand" target="_blank">Accessories page</a></p>
+</div>
+</div>
+<div class="hp-card hp-tile hp-tile-stretch hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/macbook_case.jpg" alt="Macbook 16' case" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Laptop accessory</span><strong>MacBook Pro 16" black cover case</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="office_accessories#laptop-case" target="_blank">Accessories page</a></p>
+</div>
+</div>
+</div>
 
 ---
 ## Keyboard
@@ -235,15 +308,19 @@ Think Apple Magic Keyboard, but with a numpad plus media and brightness function
 The [Logitech MX Keys S (QWERTY)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was the obvious choice.
 It exceeds my wish list, switches between three devices, lights up when your hands approach, and charges via USB-C.
 
-<a href="images/mx-keys-s-top-view-graphite-us-intl.webp">
-<img src="images/mx-keys-s-top-view-graphite-us-intl.webp" alt="Logitech MX Keys S" width="450px" />
-</a>
-
 [![MX Keys S](http://img.youtube.com/vi/JAaat5n8WOA/0.jpg)](https://www.youtube.com/watch?v=JAaat5n8WOA "MX Keys S Combo Master Your Flow")
 <br>
 <em style="display:block; text-align:center">YouTube product video about the Logitech MX Keys</em>
 
-* {{imgBasket}}Logitech MX Keys [(Amazon US)](https://amzn.to/4nFt3IK#ad) [(Amazon NL)](https://amzn.to/4dBkb2a#ad)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/mx-keys-s-top-view-graphite-us-intl.webp" alt="Logitech MX Keys S" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Keyboard</span><strong>Logitech MX Keys</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4nFt3IK#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dBkb2a#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+</div>
 
 ---
 ## Chair
@@ -253,11 +330,15 @@ It is comfortable enough, but it has limited adjustability.\
 Since getting the standing desk, there are weeks where I stand for most of the day, which takes some pressure off finding the perfect chair.
 That said, I'm still on the lookout for a fully adjustable black leather-look chair.
 
-<a href="images/chair_ikea_millberget.avif">
-<img src="images/chair_ikea_millberget.avif" alt="Ikea Millberget office chair" width="250px" />
-</a>
-
-* {{imgBasket}}Millberget [(Ikea NL)](https://www.ikea.com/nl/en/p/millberget-swivel-chair-murum-beige-70489389/#content)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-tile-stretch hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/chair_ikea_millberget.avif" alt="Ikea Millberget office chair" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Chair</span><strong>Millberget</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://www.ikea.com/nl/en/p/millberget-swivel-chair-murum-beige-70489389/#content" target="_blank">Ikea NL</a></p>
+</div>
+</div>
+</div>
 
 <br>
 
@@ -269,11 +350,15 @@ That said, I'm still on the lookout for a fully adjustable black leather-look ch
 My mouse is a basic wireless model with silent clicks and a scroll wheel.
 It is simple, but it has worked well for years.
 
-<a href="images/mouse.avif">
-<img src="images/mouse.avif" alt="Basic soft-click mouse" width="250px" />
-</a>
-
-* {{imgBasket}}Silent wireless mouse [(AliExpress)](https://s.click.aliexpress.com/e/_c4SRZDZB)
+<div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-tile-stretch hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<img src="images/mouse.avif" alt="Basic soft-click mouse" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Silent wireless mouse</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c4SRZDZB" target="_blank">AliExpress</a></p>
+</div>
+</div>
+</div>
 
 <br>
 
