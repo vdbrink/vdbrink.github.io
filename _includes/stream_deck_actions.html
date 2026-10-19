@@ -114,6 +114,9 @@
             <div class="sd-action-type"><b>{{ type_parts[0] }}:</b> {{ type_parts[1] }}</div>
             {% endif %}
             {% if has_detail %}<hr class="sd-action-type-rule">{% endif %}
+            {% if action.remark %}
+            <div class="sd-action-remark-block"><p class="sd-action-remark">{{ action.remark }}</p></div>
+            {% endif %}
             <div class="sd-action-detail-row">
             {% if action.icon == 1 %}
             {% assign action_dir = '/elgato_stream_deck/' | append: category.key | append: '/actions/' %}
@@ -158,9 +161,6 @@
             {% endif %}
             {% if has_detail %}
             <div class="sd-action-body">
-            {% if action.remark %}
-            <p class="sd-action-remark">{{ action.remark }}</p>
-            {% endif %}
             {% if action.fields %}
             <dl class="sd-fields">
                 {% for field in action.fields %}

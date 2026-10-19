@@ -15,6 +15,16 @@ dependencies:
             value: claude
           - key: Text
             value: claude
+      - name: Switch model
+        icon: 1
+        remark: Use the model ID to switch to another model. Like claude-fable-5-1, claude-opus-5-5, claude-sonnet-5-5 or claude-haiku-5-5
+        download: claude_code_switch_model-vdbrink.streamDeckAction
+        type: (System) Text
+        fields:
+          - key: Title
+            value: Sonnet
+          - key: Text
+            value: /model claude-sonnet-5-5
       - name: Paste any prompt
         icon: 1
         download: claude_code_prompt-vdbrink.streamdeckaction
