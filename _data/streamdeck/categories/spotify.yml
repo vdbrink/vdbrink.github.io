@@ -16,4 +16,5 @@ dependencies:
     Save to your Liked Songs<br>
     Play a specific playlist<br>
     Toggle repeat mode"
+    actions: []
 footnote: Use the plugin to select these buttons.
