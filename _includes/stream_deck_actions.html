@@ -68,6 +68,9 @@
 {% if plugin.description %}
 <p class="sd-plugin-description">{{ plugin.description }}</p>
 {% endif %}
+{% if dependency.description %}
+<p class="sd-plugin-description">{{ dependency.description }}</p>
+{% endif %}
 
 {% if dependency.plugin != "none" %}
 <div class="sd-plugin-meta">

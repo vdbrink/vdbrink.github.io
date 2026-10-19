@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../../../schemas/streamdeck-category.schema.json
 title: Spotify
 key: spotify
 priority: 120
@@ -5,13 +6,14 @@ description: With Spotify and Stream Deck you get your music controls on physica
 dependencies:
   - plugin: spotify
     image: spotify.png
-    image_caption: Physical media player controls on your Stream Deck.
-    actions:
-      - name: Show the song that is playing
-      - name: Volume control +/-
-      - name: Previous song
-      - name: Next song
-      - name: Save to your Liked Songs
-      - name: Play a specific playlist
-      - name: Toggle repeat mode
-footnote: Use the plugin to define these buttons.
+    image_caption: "Physical media player controls on your Stream Deck.<br>
+    <br>
+    Actions:<br>
+    Show the song that is playing<br>
+    Volume control +/-<br>
+    Previous song<br>
+    Next song<br>
+    Save to your Liked Songs<br>
+    Play a specific playlist<br>
+    Toggle repeat mode"
+footnote: Use the plugin to select these buttons.

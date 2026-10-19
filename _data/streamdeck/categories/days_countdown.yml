@@ -1,7 +1,7 @@
+# yaml-language-server: $schema=../../../schemas/streamdeck-category.schema.json
 title: Days countdown
 key: days_countdown
 priority: 150
-description: Keep track on a special day, like a birthday, holiday, product launch or wedding, with a countdown on one of your keys.
 dependencies:
   - plugin: final-countdown
     actions:

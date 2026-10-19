@@ -63,4 +63,11 @@ You can use them as example and change it to the way it works for you.
 
 {% include stream_deck_actions.html %}
 
-Read more about the [Stream Deck](/elgato_stream_deck)
+## Related articles
+
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/elgato_stream_deck">
+<img src="/elgato_stream_deck/images/my_sd_xl.png" alt="My Stream Deck XL" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>Stream Deck</strong><p>Read more about the Stream Deck</p></div>
+</a>
+</div>
