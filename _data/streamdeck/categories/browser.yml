@@ -12,6 +12,7 @@ dependencies:
         icon_border: false
         download: browser_translate_selected_text-vdbrink.streamdeckaction
         type: (System) Open Application
+        wide: true
         fields:
           - key: Application
             value: Translate NL->EN

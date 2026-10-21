@@ -102,7 +102,7 @@
     {% for action in dependency.actions %}
     {% assign has_detail = false %}
     {% if action.fields or action.remark or action.type %}{% assign has_detail = true %}{% endif %}
-    <li{% if action.fields.size > 4 %} class="sd-action-wide"{% endif %}>
+    <li{% if action.wide or action.fields.size > 4 %} class="sd-action-wide"{% endif %}>
         {% if action.download %}<a class="sd-action-card-link" href="/elgato_stream_deck/{{ category.key }}/actions/{{ action.download }}">{% endif %}
         <div class="{% if has_detail %}sd-action-detail{% else %}sd-action-icon-only{% endif %}">
             {% if action.download and has_detail %}

@@ -62,5 +62,6 @@ dependencies:
             value: Project X
           - key: path
             value: "https://gitlab.com/company/dev/team/project/frontend"
+        wide: true
     wishes:
       - name: Failed pipelines count

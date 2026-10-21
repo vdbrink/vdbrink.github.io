@@ -70,4 +70,8 @@ You can use them as example and change it to the way it works for you.
 <img src="/elgato_stream_deck/images/my_sd_xl.png" alt="My Stream Deck XL" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>Stream Deck</strong><p>Read more about the Stream Deck</p></div>
 </a>
+<a class="hp-card hp-tile" href="/elgato_stream_deck/stream_deck_home_assistant">
+<img src="/elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.png" alt="Elgato Stream Deck - Home Assistant integration" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Elgato Stream Deck - Home Assistant integration</strong><p>Control and visualize your Home Assistant entities with the Stream Deck.</p></div>
+</a>
 </div>

@@ -19,4 +19,18 @@ dependencies:
       - name: Show entity states like temperature
         icon: ha_states
         type: (Home Assistant) Entity (generic)
+  - plugin: none
+    description: "Custom actions for Home Assistant."
+    actions:
+      - name: Open camera stream
+        icon: /elgato_stream_deck/google_meet/actions/google_meet_camera.png
+        download: home_assistant_open_camera_stream.streamDeckAction
+        type: (System) Website
+        fields:
+          - key: Action
+            value: Website
+          - key: path
+            value: "http://local.homeassistant:8123/my-camera/0"
+        wide: true
+        remark: "Opens the my-camera/0 dashboard on local.homeassistant:8123. Change the address to your own Home Assistant URL."
 footnote: See more info on my <a href="/elgato_stream_deck/stream_deck_home_assistant">dedicated page</a> about this integration. Use the plugin to define these buttons.

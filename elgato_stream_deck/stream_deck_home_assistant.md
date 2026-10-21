@@ -12,7 +12,7 @@ image: /elgato_stream_deck/home_assistant/actions/home-assistant_stream_deck_int
 
 Don't you know what a Stream Deck is? Check [here first](/elgato_stream_deck).
 
-<img src="home_assistant/actions/home-assistant_stream_deck_integration.gif" alt="Home Assistant integration" width="100%" />
+<img src="/elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.gif" alt="Home Assistant integration" width="100%" />
 <em style="display:block; text-align:center">HA dashboard next to the Stream Deck app, fast and interactive integration</em>
 
 Control and visualize your Home Assistant entities direct with your [Elgato Stream Deck](/elgato_stream_deck)!
@@ -100,8 +100,8 @@ Now I can control my air conditioner directly from Home Assistant with automatio
 
 This is a diagram of how it technically works:
 
-<a href="home_assistant/actions/ir_flow_diagram.png">
-<img src="home_assistant/actions/ir_flow_diagram.png" alt="Stream Deck to air conditioner flow diagram" width="100%" />
+<a href="/elgato_stream_deck/home_assistant/images/ir_flow_diagram.png">
+<img src="/elgato_stream_deck/home_assistant/images/ir_flow_diagram.png" alt="Stream Deck to air conditioner flow diagram" width="100%" />
 </a>
 <em style="display:block; text-align:center">Stream Deck -> Home Assistant -> Zigbee2MQTT -> Zigbee IR transmitter -> AC</em>
 
@@ -109,6 +109,28 @@ This is a diagram of how it technically works:
 
 With a single button click you can open your Home Assistant dashboard where your camera stream are visible.
 
+Create a view on your Home Assistant dasboard and use a button that opens a browser page of that url.
+Download [here](/elgato_stream_deck/stream_deck_button_actions#home-assistant-builtin) this example button.
+
 ---
 
-Read more about the [Stream Deck](/elgato_stream_deck) or how to [make dump infrared devices smart](/zigbee/smart_infrared_transmitter_receiver).
+## Related articles
+
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/elgato_stream_deck">
+<img src="/elgato_stream_deck/images/actions_sd_app.png" alt="Elgato Stream Deck" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>Elgato Stream Deck</strong><p>Read more about the Stream Deck and what it can do.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/zigbee/smart_infrared_transmitter_receiver">
+<img src="/zigbee/images_infrared/ir_buttons_ha.png" alt="Automate infrared devices in Home Assistant" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Automate infrared devices</strong><p>How to make dumb infrared devices smart with a Zigbee IR transmitter.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/index">
+<img src="/homeassistant/images/ha_banner.png" alt="Home Assistant" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant</strong><p>My Home Assistant pages: dashboards, hardware and integrations.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/ai/ai-user-input-needed-notification-light">
+<img src="/projects/images_noti_light/banner_noti_light.png" alt="Claude Code and Codex user input notification light" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">AI</span><strong>Claude Code and Codex user input notification light</strong><p>A lamp on my desk that lights up when Claude Code or Codex needs my input.</p></div>
+</a>
+</div>

@@ -17,6 +17,7 @@ dependencies:
             value: Open project
           - key: path
             value: open -a "IntelliJ IDEA" /Users/me/my_project
+        wide: true
       - name: Open terminal
         icon: 1
         download: intellij_open_terminal-vdbrink.streamDeckAction

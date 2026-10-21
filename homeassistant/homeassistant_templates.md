@@ -18,7 +18,8 @@ This new sensor can have a textual output or a boolean value true/false.
 <br>
 
 ---
-### Table of Contents
+
+## Table of Contents
 <!-- TOC -->
   * [Home Assistant](#home-assistant)
     * [What is the difference between a binary and normal sensor?](#what-is-the-difference-between-a-binary-and-normal-sensor)
@@ -50,9 +51,9 @@ This new sensor can have a textual output or a boolean value true/false.
     * [Is it afternoon](#is-it-afternoon)
     * [Is it night based on the sun](#is-it-night-based-on-the-sun)
     * [Rain conditions](#rain-conditions)
-        * [Any rain expected](#any-rain-expected)
-        * [Expected rain amount](#expected-rain-amount)
-        * [Rain intensity](#rain-intensity)
+      * [Any rain expected](#any-rain-expected)
+      * [Expected rain amount](#expected-rain-amount)
+      * [Rain intensity](#rain-intensity)
       * [Buienradar data](#buienradar-data)
     * [CO2 threshold values](#co2-threshold-values)
     * [Overlay based on lux](#overlay-based-on-lux)
@@ -62,11 +63,12 @@ This new sensor can have a textual output or a boolean value true/false.
 <!-- TOC -->
 
 ---
+
 ## Home Assistant
 
 ### What is the difference between a binary and normal sensor?
 
-A normal sensor can have any output, text, number or a boolean, and a binary sensor can only have a boolean value as output.
+A normal sensor can have any output, text, a number or a boolean, and a binary sensor can only have a boolean value as output.
 It can only have the state `true` or `false`.
 Binary sensors are useful in automations when you want to check whether a condition matches.
 
@@ -82,7 +84,7 @@ Where the configuration previously lived under the `sensor:` or `binary_sensor:`
 The modern template format has several advantages.
 You can use a `trigger` and `action` like in automations, which gives more control over when the entity updates, and it allows you to set a `state_class` so the state of the entity is stored in Long Term Statistics. It also allows you to create `button`, `image`, `number`, and `select` entities, which is not possible with the legacy platform.
 
-For more information, also see the [Home Assistant documentation](<https://www.home-assistant.io/integrations/template/>). The legacy format is still documented all the way at the bottom.
+For more information, see the [Home Assistant documentation](https://www.home-assistant.io/integrations/template/). The legacy format is still documented at the bottom of that page.
 
 All the examples below start with the `template:` key. Be sure to define this only once in your `configuration.yaml`.
 All template entities should be created under the same `template:` key.
@@ -90,12 +92,12 @@ All template entities should be created under the same `template:` key.
 ##### Example directory structure
 
 In the `configuration.yaml`, you can add a line that links to a file with your templates, for example a file only for binary sensors.
-Add the line `binary_sensors: !include binary_sensor.yaml` to the configuration file.
+Add the line `binary_sensor: !include binary_sensor.yaml` to the configuration file.
 Place the file `binary_sensor.yaml` in the root next to the configuration file.
 That file can look like this:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # binary_sensor.yaml
 - platform: template
   sensors:
@@ -119,7 +121,7 @@ Use the following definition in `configuration.yaml` to accomplish this:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 ...
 sensor: !include_dir_merge_list sensors/
@@ -138,11 +140,11 @@ This button opens the **Helpers** page directly in your Home Assistant:
 Select the bottom-right button `+ Create Helper`,
 then choose **Template** and one of the two options: **Template a sensor** or **Template a binary sensor**.
 
-Copy the `value_template` part from the examples below and add it in the visual editor under **State template***.
+Copy the `value_template` part from the examples below and add it in the visual editor under **State template**.
 
 In this example animation, a (binary) template is created to check if the current month is August.
 
-<img src="images_templates/create_helper_template.gif" alt="" width="450px">
+<img src="images_templates/create_helper_template.gif" alt="create a template helper" width="450px">
 
 Template helpers are easier to create, but they lack some of the options available in the YAML configuration, such as templating the sensor icon and working with triggers.
 They also do not support a template for the entity `availability`.
@@ -155,7 +157,7 @@ Via the Home Assistant frontend you can create and test a template.\
 Go to the **Developer tools** menu item,
 then open the **Template** tab.
 
-Or use this button to open the Helpers in your Home Assistant:
+Or use this button to open the template developer tools in your Home Assistant:
 
 [![Open your Home Assistant instance and show your template developer tools.](https://my.home-assistant.io/badges/developer_template.svg)](https://my.home-assistant.io/redirect/developer_template/)
 
@@ -168,6 +170,7 @@ In the **Template editor** the code can be placed and edited, and on the right y
 Home Assistant uses [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates/?sfnsn=wa) as a template engine to combine static text with variables.
 
 ---
+
 ### Where to get help
 
 Use the examples below, search the internet, and check the Home Assistant Community forum, HA Facebook groups, Reddit, or ChatGPT to help you create your own templates.
@@ -176,14 +179,14 @@ Use the examples below, search the internet, and check the Home Assistant Commun
 
 ChatGPT is useful and fast when you want help creating a new template or refining an existing one.
 
-<img src="images_templates/chatgpt_resource.png" alt="chatGPT as source" width="100%">
+<img src="images_templates/chatgpt_resource.png" alt="ChatGPT as source" width="100%">
 
 ---
 
 ## Template examples
 
 Here are all kinds of different template examples.
-Note that every entity has a `unique_id`. This does not define the `entity_id`; the `entity_id` is defined by the name, so `name: "Lights On"` will generate `sensor.lights_on`.
+Note that every entity should have a `unique_id`. This does not define the `entity_id`; the `entity_id` is defined by the name, so `name: "Lights On"` will generate `sensor.lights_on`.
 By providing a `unique_id`, you can change the `name`, `icon`, and `entity_id`, and depending on the entity type, also the `device_class` in the frontend.
 It also prevents suffixes like `_2` after you change the configuration and reload the template entities.
 
@@ -195,7 +198,7 @@ You can optionally refine the entities even more by providing a template for the
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - binary_sensor:
@@ -219,7 +222,7 @@ template:
         unique_id: is_around_christmas
         state: >
           {{ (now().month == 12 and now().day > 10) or (now().month == 1 and now().day < 11) }}
-      - name: "Is new years eve"
+      - name: "Is New Years Eve"
         unique_id: is_new_years_eve
         state: >
           {{ now().month == 12 and now().day == 31 }}
@@ -227,6 +230,7 @@ template:
 ```
 
 ---
+
 ### Count the number of lights on
 
 Count the number of lights with the status `on`.
@@ -238,7 +242,7 @@ The icon changes dynamically based on the state of the sensor itself and referen
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -252,13 +256,14 @@ template:
 ```
 
 ---
+
 ### Count the number of open windows
 
 Similar to the previous example, count the number of open windows.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -272,6 +277,7 @@ template:
 ```
 
 ---
+
 ### Calculate temperature differences
 
 Calculate the temperature difference between an inside room temperature and the outside temperature, and round it to two decimals.
@@ -282,7 +288,7 @@ If not, the template sensor will show as unavailable.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -294,21 +300,22 @@ template:
           {% set temp1 = states('sensor.espscd40_co2_temperature') | float %}
           {% set temp2 = states('sensor.tempest_outside_temperature') | float %}
           {{ (temp1 - temp2) | round(2, 'ceil') }}
-        availabilty: "{{ 'sensor.espscd40_co2_temperature' | has_value and 'sensor.tempest_outside_temperature' | has_value }}"
+        availability: "{{ 'sensor.espscd40_co2_temperature' | has_value and 'sensor.tempest_outside_temperature' | has_value }}"
 {% endraw %}
 ```
 
 ---
+
 ### Unavailable devices
 
 Get all devices by name that have the state unavailable in a sorted list.
 As states are limited to 255 characters, the list is stored in an attribute, and the state of the entity will be a count of the unavailable devices.
-The device is considered unavailable when all entities belonging to that device are unavailable, because it can happen that only one entity is unavailable for specific reasons.\
+The device is considered unavailable when all entities belonging to that device are unavailable, because it can happen that only one entity is unavailable for a specific reason.\
 The icon changes dynamically and will also show the number of devices, using `9+` when the count is over 9.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -338,20 +345,21 @@ template:
 ```
 
 ---
+
 ### Low battery
 
-Get all devices by name that have a battery level below 10 percent in a sorted list.
+Get all devices by name that have a battery level of 10 percent or lower in a sorted list.
 It is not possible to simply filter by the state, because all states in Home Assistant are strings, and comparing `"6"` with `"10"` gives unwanted results (`"6" < "10"` returns `false`).\
 Therefore, the strings need to be converted to numbers first.\
 Because we also want to access the other properties, this requires a for-loop.
 To access the data created in the for-loop outside the loop, a namespace has to be used.
-Just like in the previous example, the names are listed in an attribute, because otherwise the 255 character limit for an entity state can become an issue.
+Just like in the previous example, the names are listed in an attribute, because otherwise the 255-character limit for an entity state can become an issue.
 
-<img src="images_templates/low_battery_devices.png" alt="low battery devices" width="150px">
+<img src="images_templates/low_battery_devices.png" alt="Low battery devices" width="150px">
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -374,6 +382,7 @@ template:
 ```
 
 ---
+
 ### Floor activity
 
 Check whether there is any activity on a specific floor or section based on multiple sensors.\
@@ -383,7 +392,7 @@ One minute after the last trigger, the state goes back to `off`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - binary_sensor:
@@ -400,6 +409,7 @@ template:
 ```
 
 ---
+
 ### Day of the week translation
 
 By default, the day of the week is in English.\
@@ -409,7 +419,7 @@ With this template, it translates the day to a non-English language, in this cas
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -422,6 +432,7 @@ template:
 ```
 
 ---
+
 ### Day countdown
 
 This day countdown can be used to show the days until a special day,
@@ -447,14 +458,14 @@ Select `Date` as the input type.
 Once the helper `input_datetime.community_day` is created, click it and set the correct date.
 Now the helper is ready.
 
-<img src="images_templates/helper_date_define.png" alt="" width="450px">
+<img src="images_templates/helper_date_define.png" alt="set the date of the helper" width="450px">
 
 Now we need to create another sensor,
-of the type `template a sensor`, to calculate the days until the defined date.\
+of the type `Template a sensor`, to calculate the days until the defined date.\
 The `State template` must be:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 {% set com_date = strptime(states('input_datetime.community_day'), '%Y-%m-%d') %}
 {{ (com_date.date() - now().date()).days }}
 {% endraw %}
@@ -481,7 +492,7 @@ This is what I added to my own dashboard:
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 type: picture-entity
 entity: sensor.community_day_countdown
 show_state: true
@@ -497,8 +508,8 @@ image: >-
 
 I also created a slightly different presentation for the countdown with some CSS modifications to the Picture Entity card.
 * No transparent background
-* black text color
-* bigger font
+* Black text color
+* Bigger font
 
 For the Picture Entity card, I used the `card_mod` integration.
 You can install this integration via this button in your own Home Assistant instance.\
@@ -508,7 +519,7 @@ You can install this integration via this button in your own Home Assistant inst
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 type: picture-entity
 entity: sensor.community_day_countdown
 show_state: true
@@ -533,11 +544,11 @@ You can also use this taller alternative image: https://www.home-assistant.io/im
 
 Count the days until the paper bin is picked up.
 
-<img src="images_templates/paper_waste_countdown.png" alt="day countdown" width="450px">
+<img src="images_templates/paper_waste_countdown.png" alt="paper bin day countdown" width="450px">
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -560,12 +571,12 @@ Based on today's date, the difference in days is calculated.\
 
 #### Is tomorrow a trash bin day
 
-Check if tomorrow is any waste pickup day.
+Check if tomorrow is a waste pickup day.
 This sensor will be named `sensor.waste_tomorrow`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -584,6 +595,7 @@ template:
 See [here](#trash-bin-day-countdown) for how to create the `*_waste_pickup_countdown` sensors.
 
 ---
+
 ### Minutes since mail is delivered
 
 Minutes since the snail mail was delivered.
@@ -592,7 +604,7 @@ Minutes since the snail mail was delivered.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -607,6 +619,7 @@ template:
 ```
 
 ---
+
 ### Mail delivered in the last 30 minutes
 
 Boolean sensor `binary_sensor.mailbox_recently_changed` to indicate that mail was delivered in the last 30 minutes.
@@ -615,7 +628,7 @@ Used in my [snail mail detection](/projects/smart_mailbox).
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -628,6 +641,7 @@ template:
 ```
 
 ---
+
 ### What to wear outside
 
 Based on the outside temperature, determine what to wear when you go outside.
@@ -636,7 +650,7 @@ Based on the outside temperature, determine what to wear when you go outside.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -654,13 +668,14 @@ template:
           {% else %}
             T-shirt
           {% endif %}
-        availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}
+        availability: "{{ 'sensor.tempest_temperature_feels_like_rounded' | has_value }}"
 {% endraw %}
 ```
+
 This is the code for the Mushroom card shown in the image, based on this template.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -670,6 +685,7 @@ chips:
 {% endraw %}
 ```
 ---
+
 ### Calculate daylight brightness percentage
 
 Based on the sun sensor elevation and cloud coverage, calculate the daylight brightness percentage.
@@ -677,7 +693,7 @@ This can be used to control the lights, the window blinds, or a floor map overla
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -703,13 +719,14 @@ template:
 ```
 
 ---
+
 ### Daylight brightness to opacity
 
 Daylight brightness, from the previous template, converted to opacity for CSS to use as an overlay on a floor map.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -718,10 +735,11 @@ template:
         state: >
           {%- set sunpct = states('sensor.sunlight_pct') | float %}
           {{ sunpct / 100 | float }}
- {% endraw %}
+{% endraw %}
 ```
 
 ---
+
 ### Is it morning
 
 Boolean state for whether it is morning based on the current time.
@@ -729,12 +747,12 @@ It is `on` before 12:00.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 template:
   - binary_sensor:
       - name: "Is it morning"
         unique_id: binary_sensor_morning_state
-        state: "{{ as_timestamp(now()) | timestamp_custom('%H') | int > 12 }}"
+        state: "{{ as_timestamp(now()) | timestamp_custom('%H') | int < 12 }}"
 
 {% endraw %}
 ```
@@ -746,24 +764,25 @@ It is `on` after 12:00 and before 18:00.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 template:
   - binary_sensor:
-      - name: "Is it morning"
-        unique_id: binary_sensor_morning_state
+      - name: "Is it afternoon"
+        unique_id: binary_sensor_afternoon_state
         state: "{{ 12 <= (as_timestamp(now()) | timestamp_custom('%H') | int) < 18 }}"
 {% endraw %}
 ```
 
 ---
+
 ### Is it night based on the sun
 
-Boolean state if it is night.
+Boolean state for whether it is night.
 Will be `on` when it's night, otherwise it will be `off`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - binary_sensor:
@@ -775,6 +794,7 @@ template:
 ```
 
 ---
+
 ### Rain conditions
 
 In the Netherlands, there are two main data providers for expected rain: Buienalarm and Buienradar.\
@@ -788,6 +808,7 @@ This generates the required sensors and includes a dashboard graph.
 <!--
 
 ---
+
 #### Buienalarm data
 
 The data is stored in the attribute of the sensor `sensor.neerslag_buienalarm_regen_data`.\
@@ -909,13 +930,13 @@ This can be used as a conditional helper sensor.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - binary_sensor:
       - name: "Rain expected binary"
         unique_id: rain_expected_binary
-        state: "{{ state_attr("sensor.neerslag_buienalarm_regen_data","data").precip | sum > 0 }}"
+        state: "{{ state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip | sum > 0 }}"
         availability: "{{ 'sensor.neerslag_buienalarm_regen_data' | has_value }}"
 {% endraw %}
 ```
@@ -928,7 +949,7 @@ Expected rain amount for the coming hours based on the Dutch Buienalarm data.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -942,6 +963,7 @@ template:
 ```
 
 ---
+
 ##### Rain intensity
 
 Rain intensity for the coming hours based on the Dutch Buienalarm data.
@@ -950,7 +972,7 @@ Rain intensity for the coming hours based on the Dutch Buienalarm data.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -974,6 +996,7 @@ template:
 ```
 
 ---
+
 #### Buienradar data
 
 The Buienradar data looks completely different.
@@ -985,17 +1008,18 @@ data: 000|11:00 000|11:05 000|11:10 000|11:15 000|11:20 000|11:25 000|11:30 000|
 > NOTE: Later, I may add more examples with this data if people ask for them.
 
 ---
+
 ### CO2 threshold values
 
 Create three static value sensors with the threshold values 800, 1200, and 1500.
 Because the `entity_id` is based on the `name` field, this template sensor uses a trick to give it the right name when the entity is created.
 After that, the name will indicate the threshold.
 
-<img src="images_templates/base_values_sensors.jpg" alt="C02 base values" width="450px" />
+<img src="images_templates/base_values_sensors.jpg" alt="CO2 base values" width="450px" />
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -1028,7 +1052,7 @@ When you have a floor plan and want to show a dark overlay when the lux is low, 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - binary_sensor:
@@ -1040,6 +1064,7 @@ template:
 ```
 
 ---
+
 ### Moon image based on state
 
 The default moon component in Home Assistant gives the moon phase as a text value.
@@ -1047,11 +1072,11 @@ With an image for each phase, you can show the moon phase as an image.
 
 <img src="images_templates/moon_phase.png" alt="moon phase" width="100px" />
 
-[Download here the moon images.](https://community.home-assistant.io/t/moon-platform-with-moon-phases-pictures/86646/7)
+[Download the moon images here.](https://community.home-assistant.io/t/moon-platform-with-moon-phases-pictures/86646/7)
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 # the template for the moon phase pictures using the original moon component
 template:
@@ -1064,6 +1089,7 @@ template:
 ```
 
 ---
+
 ### DIY Sink leak status
 
 I created a custom [leak sensor](/zigbee/zigbee_water_leak_sensor) based on a contact sensor.
@@ -1074,7 +1100,7 @@ This attribute is then used to create a boolean value.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - sensor:
@@ -1095,11 +1121,11 @@ If you sit on it, the contact sensor returns `off`.\
 The normal value of the contact sensor needs to be inverted.\
 That is what happens here.
 
-<img src="../zigbee/images_chair/pillow_with_sensor.jpg" width="450px" />
+<img src="../zigbee/images_chair/pillow_with_sensor.jpg" alt="pillow with chair occupancy sensor" width="450px" />
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
 template:
   - binary_sensor:
@@ -1113,17 +1139,25 @@ template:
 
 ---
 
-That is it. I hope you can use some of these templates in your own setup.
+That's it. I hope you can use some of these templates in your own setup.
 
 Let me know which cool templates you use!
 
 ---
 
-[<< See also my other Home Assistant tips and tricks](index)
+## Related articles
 
-[Dashboard: Layout examples >>](homeassistant_dashboard_layout)
-
----
-See also my Smart home Best Buy Tips:
-
-<a href="/buy/smart_home_best_buy_tips"><img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" width="100%"></a>
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="index">
+<img src="/homeassistant/images/ha_banner.png" alt="Home Assistant dashboards" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant dashboards</strong><p>See also my other Home Assistant tips and tricks.</p></div>
+</a>
+<a class="hp-card hp-tile" href="homeassistant_dashboard_layout">
+<img src="/homeassistant/images_layout/ha_layout_banner.png" alt="Home Assistant dashboard: Layout" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Dashboard: Layout examples</strong><p>Examples of how I laid out my Home Assistant dashboards.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/buy/smart_home_best_buy_tips">
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Zigbee Smart home - Best Buy Tips" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Buy tips</span><strong>Zigbee Smart home - Best Buy Tips</strong><p>Useful links to buy Zigbee sensors and other devices for your smart home automation with Home Assistant.</p></div>
+</a>
+</div>
