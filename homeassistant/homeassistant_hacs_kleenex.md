@@ -13,7 +13,7 @@ image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 </a>
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;margin-left:20px" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find Home Assistant (lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar**, which you can easily add to your own dashboard.
+Here you can find Home Assistant (Lovelace) dashboard examples related to the custom HACS integration **Kleenex Pollen Radar**, which you can easily add to your own dashboard.
 
 This integration shows pollen information for grass, trees and weeds.
 
@@ -35,13 +35,13 @@ In the past, due to updates in HA and the integration, the presentations were br
 > **_UPDATE 3 -  30 March 2025:_**  All dashboard presentations YAML and screenshots are updated and now aligned again.
 
 > **_UPDATE 2 -  24 March 2025:_** Since Home Assistant version 2025.3.0 the colored background with the level indicator circle is broken.
-> If you rollback to version 2025.2.2 it works as expected.
-> If you see the screenshot the `<div class="icon-container" ..>` is removed now.
-a href="images_kleenex/ha_broken_update.png">
+> If you roll back to version 2025.2.2 it works as expected.
+> In the screenshot, you can see that the `<div class="icon-container" ..>` is now removed.
+<a href="images_kleenex/ha_broken_update.png">
 <img src="images_kleenex/ha_broken_update.png" alt="broken upgrade HA" width="450px">
 </a>
 
-> **_UPDATE 1 -  23 March 2025:_** Since version [1.1.3 released at 17 March 2025](https://github.com/MarcoGos/kleenex_pollenradar/releases/tag/v1.1.3) the data structure is changed for the integration.
+> **_UPDATE 1 -  23 March 2025:_** Since version [1.1.3 released on 17 March 2025](https://github.com/MarcoGos/kleenex_pollenradar/releases/tag/v1.1.3) the data structure has changed for the integration.
 > I updated this manual, and it's now compatible with version 1.1.6
 
 ---
@@ -71,7 +71,7 @@ Here are the steps to install this HACS `Kleenex Pollen Radar` integration.
 * Click `Add integration`\
   Now you get one search result.
 * Select the Kleenex integration
-* Click on the detail page, in the right bottom corner on `Download`
+* Click on the detail page, in the bottom right corner on `Download`
 
 Now the integration is added, but not yet installed.
 * Click this button to install the integration:
@@ -135,15 +135,15 @@ I created also a [presentation](#) based on these attributes.
 I have different examples of how to present this data on your dashboard:
 * [Default as list entities](#default-presentation) - no extra modules needed.\
   <a href="#default-presentation"><img src="images_kleenex/kleenex_default_presentation.png" alt="default Kleenex presentation" width="300px"></a>
-* [Mushroom template with bigger icons](#mushroom) - extra mushroom modules required.\
-  <a href="#mushroom"><img src="images_kleenex//kleenex_mushroom_presentation.png" alt="mushroom Kleenex presentation" width="300px"></a>
-* [Tile card with level indicator](#tile-card-with-progress-indicator) - extra helpers needed to create. With default Dutch text.\
-  <a href="#tile-card-with-progress-indicator"><img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="300px"></a>
+* [Mushroom template with bigger icons](#mushroom) - extra Mushroom modules required.\
+  <a href="#mushroom"><img src="images_kleenex//kleenex_mushroom_presentation.png" alt="Mushroom Kleenex presentation" width="300px"></a>
+* [Tile card with level indicator](#tile-card-with-progress-indicator) - extra helpers need to be created. With default Dutch text.\
+  <a href="#tile-card-with-progress-indicator"><img src="images_kleenex/kleenex_colored_presentation.png" alt="Kleenex presentation with colors" width="300px"></a>
   * [Same as previous but with extra clickable link to Kleenex website and labels](#tile-card-with-an-extra-clickable-link-and-labels)\
-    <a href="#tile-card-with-an-extra-clickable-link-and-labels"><img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex presentation with colors" width="300px"></a>
-* [Sub types](#subtypes-values) - two tree subtype examples.\
+    <a href="#tile-card-with-an-extra-clickable-link-and-labels"><img src="images_kleenex/kleenex_advanced_presentation.png" alt="Kleenex presentation with colors" width="300px"></a>
+* [Subtypes](#subtypes-values) - two tree subtype examples.\
   <a href="#subtypes-values"><img src="images_kleenex/attribute_tree_data_tile.jpg" alt="subtypes" width="300px"></a>
-* [Sub types forecast graph](#specific-subtypes-forecast) - trees forecast.\
+* [Subtypes forecast graph](#specific-subtypes-forecast) - trees forecast.\
   <a href="#specific-subtypes-forecast"><img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="forecast trees" width="300px"></a>
 
 ---
@@ -187,10 +187,10 @@ This presentation uses English levels and has bigger icons.\
 No need to create extra helper sensors.
 
 <a href="images_kleenex/kleenex_mushroom_presentation.png">
-<img src="images_kleenex/kleenex_mushroom_presentation.png" alt="kleenex presentation with mushroom card" width="400px">
+<img src="images_kleenex/kleenex_mushroom_presentation.png" alt="Kleenex presentation with Mushroom card" width="400px">
 </a>
 
-This presentation required the HACS integration [lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom) to create this custom presentation.\
+This presentation requires the HACS integration [lovelace-mushroom](https://github.com/piitaya/lovelace-mushroom) to create this custom presentation.\
 Install the integration via this button:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=piitaya&repository=lovelace-mushroom&category=integration)
@@ -299,16 +299,16 @@ cards:
 This presentation shows the entities with matching colors and a level border color.
 
 <a href="images_kleenex/kleenex_colored_presentation.png">
-<img src="images_kleenex/kleenex_colored_presentation.png" alt="kleenex presentation with colors" width="400px">
+<img src="images_kleenex/kleenex_colored_presentation.png" alt="Kleenex presentation with colors" width="400px">
 </a>
 
-The entities are clickable which show you the values over time:
+The entities are clickable, which shows you the values over time:
 
-<img src="images_kleenex/kleenex_advanced_popup.png" alt="kleenex popup" width="400px">
+<img src="images_kleenex/kleenex_advanced_popup.png" alt="Kleenex popup" width="400px">
 
 <a name="lovelace-card-mod"/>
 
-This presentation required the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
+This presentation requires the HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) to add custom CSS styling like the progress circle.\
 Install this integration, via this button, into your own Home Assistant instance:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
@@ -394,7 +394,7 @@ cards:
 Show a clickable link to the Kleenex website, the entities with matching colors and colored labels, like this:
 
 <a href="images_kleenex/kleenex_advanced_presentation.png">
-<img src="images_kleenex/kleenex_advanced_presentation.png" alt="kleenex advanced presentation" width="400px">
+<img src="images_kleenex/kleenex_advanced_presentation.png" alt="Kleenex advanced presentation" width="400px">
 </a>
 
 <details markdown="1">
@@ -650,7 +650,7 @@ Click this button to install the ApexCharts Card:
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=RomRider&repository=apexcharts-card&category=module)
 
 <a href="images_kleenex/attribute_tree_data_apexcharts.jpg">
-<img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="kleenex advanced presentation" width="400px">
+<img src="images_kleenex/attribute_tree_data_apexcharts.jpg" alt="Kleenex advanced presentation" width="400px">
 </a>
 
 <details markdown="1">
@@ -751,7 +751,7 @@ This is the tree that causes the most irritations for me.
 That's why I use this specific one.
 You can easily change it to another available tree, grass or weed which you prefer.
 
-The days are converted to shorten weekdays in Dutch as example.
+The days are converted to shortened weekdays in Dutch as an example.
 
 I used for this presentation the HACS [ApexCharts Card](https://github.com/RomRider/apexcharts-card) integration.
 Click this button to install the ApexCharts Card:
@@ -759,7 +759,7 @@ Click this button to install the ApexCharts Card:
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=RomRider&repository=apexcharts-card&category=module)
 
 <a href="images_kleenex/kleenex_berk_forecast.png">
-<img src="images_kleenex/kleenex_berk_forecast.png" alt="kleenex Berk tree pollen forecast" width="400px">
+<img src="images_kleenex/kleenex_berk_forecast.png" alt="Kleenex Berk tree pollen forecast" width="400px">
 </a>
 
 <details markdown="1">
@@ -824,7 +824,7 @@ apex_config:
 I created a table, based on a Markdown Card, with all tree data for today.
 
 <a href="images_kleenex/attribute_tree_data_table.jpg">
-<img src="images_kleenex/attribute_tree_data_table.jpg" alt="kleenex table presentation" width="400px">
+<img src="images_kleenex/attribute_tree_data_table.jpg" alt="Kleenex table presentation" width="400px">
 </a>
 
 <details markdown="1">
@@ -882,7 +882,7 @@ Please let me know so I can improve this page for the next reader.
 
 I got some ideas for the presentations from this HA forum:
 [[Help request] Pollen sensor Dutch hooikoortsradar.nl](https://community.home-assistant.io/t/help-request-pollen-sensor-dutch-hooikoortsradar-nl/524633)\
-If you got any questions you can also ask them here.
+If you have any questions, you can also ask them here.
 
 ---
 

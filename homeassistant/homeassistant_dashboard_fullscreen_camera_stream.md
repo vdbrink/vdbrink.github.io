@@ -9,11 +9,11 @@ tags: [Home Assistant, dashboard, tablet, fullscreen, camera]
 *when a person is detected*
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
-I have a [tablet dashboard](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) in my living room where I show weather, news and actual home data.
+I have a [tablet dashboard](/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode) in my living room where I show weather, news and current home data.
 
-I wanted to show a full screen live stream of my front door when someone is detected entering my front door.
+I wanted to show a fullscreen live stream of my front door when someone is detected entering my front door.
 
-I have already [Frigate](/homeassistant/homeassistant_dashboard_frigate) installed to recognize a person and not get triggered when a cat walks by in my front yard.
+I already have [Frigate](/homeassistant/homeassistant_dashboard_frigate) installed to recognize a person and not get triggered when a cat walks by in my front yard.
 
 <img src="images_camera_stream/ha_camera_popup.gif" alt="Home Assistant dashboard popup camera stream" width="100%">
 <em>Opening the fullscreen popup camera stream in action.</em>
@@ -36,7 +36,7 @@ I have already [Frigate](/homeassistant/homeassistant_dashboard_frigate) install
 There are multiple solutions to achieve this.
 I will explain the one I use myself via the extra HACS module **browser_mod**.
 
-Another popular solution is via the extra HACS card **Bubble Card**, this supports also a fullscreen popup feature.
+Another popular solution is via the extra HACS card **Bubble Card**, which also supports a fullscreen popup feature.
 I added a link to a video on how to implement this alternative solution if you want to try it.
 
 ### Fullscreen popup with browser_mod
@@ -46,7 +46,7 @@ To use the **browser_mod** solution, the extra HACS module [browser_mod 2](https
 Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration)
 
-Also, the HACS module [WebRTC](https://github.com/AlexxIT/WebRTC) is required to show the camera stream in the popup, this module supports RTSP streams and converts them to WebRTC streams which can be shown in the popup.
+Also, the HACS module [WebRTC](https://github.com/AlexxIT/WebRTC) is required to show the camera stream in the popup. This module supports RTSP streams and converts them to WebRTC streams which can be shown in the popup.
 
 Install this **WebRTC** integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexxIT&repository=WebRTC&category=integration)
@@ -57,7 +57,7 @@ It will show the popup on all your dashboards.
 #### Automation: Show popup
 
 Create an automation that triggers when a person is detected and shows the popup with the camera stream.
-In my case I have a [Node-RED](/node-red/node-red_home-assistant) automation which set the `input_boolean.frontdoor_detection_mode` to `on` when a person is detected and set to `off` after a delay once no person is detected anymore.
+In my case I have a [Node-RED](/node-red/node-red_home-assistant) automation which sets the `input_boolean.frontdoor_detection_mode` to `on` when a person is detected and sets it to `off` after a delay once no person is detected anymore.
 
 [![Open your Home Assistant instance and show your automations.](https://my.home-assistant.io/badges/automations.svg)](https://my.home-assistant.io/redirect/automations/)
 
@@ -90,7 +90,7 @@ actions:
 #### Automation: Hide popup
 
 Create a second automation to hide the popup when no person is detected anymore.\
-In my case I have an automation (in [Node-RED](/node-red/node-red_home-assistant)) that sets the `input_boolean.frontdoor_detection_mode` to `off` after a delay once a person was detected.
+In my case I have an automation (in [Node-RED](/node-red/node-red_home-assistant)) that sets the `input_boolean.frontdoor_detection_mode` to `off` after a delay once no person is detected anymore.
 
 ```yaml
 {% raw %}
@@ -109,14 +109,14 @@ actions:
 #### FAQ
 
 **Q: Can I also auto hide the popup after a fixed time?**\
-A: Yes, that's also possible with the property `timeout` under the `data` tag, you can set a timeout in milliseconds after which the popup will automatically close.
+A: Yes, that's also possible with the property `timeout` under the `data` tag. You can set a timeout in milliseconds after which the popup will automatically close.
 
 **Q: Can I restrict the popup to only show on a specific dashboard/browser?**\
 A: Yes, you can add the property `browser_id:` under the `data` tag to define a single browser to show the popup on, instead of all browsers.
 In Browser Mod 2.x this property is called `browser_id`; the older Browser Mod v1 used `deviceID` instead, which no longer works in 2.x.
 The `browser_id` can be found in the browser_mod integration page.
 
-Click on this button to open your Browser mod integration page
+Click on this button to open your browser_mod integration page.
 
 [![Open your Home Assistant instance and show an integration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=browser_mod)
 ```yaml

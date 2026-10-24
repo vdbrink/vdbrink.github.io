@@ -11,16 +11,16 @@ tags: [stretch, display, Home Assistant, dashboard, layout]
 <br>
 
 <a href="index"><img src="images/home_assistant_logo.png" style="margin-left:20px;float: right" alt="Home Assistant logo" height="100px"></a>
-I bought a long-stretched small 8.8" display to show directly my room and important house status on it.
+I bought a long-stretched small 8.8" display to directly show my room and important house status on it.
 
-The default Home Assistant dashboard elements show the text not big enough if you look at it from a distance.
-That's why I created **two custom themes** (to test which looks better) for more contrast and less element borders.
+The default Home Assistant dashboard elements show text that is not big enough when you look at it from a distance.
+That's why I created **two custom themes** (to test which looks better) for more contrast and fewer element borders.
 I also modified several dashboard elements to show the text bigger.
 
 On this page, I describe how I created the different elements with the corresponding YAML code.
 You can copy-paste if you want to reuse it for yourself.
 
-This is how the dashboard looks like on the display:
+This is what the dashboard looks like on the display:
 
 <a href="/projects/images_stretch_display/office_display_closeup.jpg">
 <img src="/projects/images_stretch_display/office_display_closeup.jpg" alt="stretch display close-up" height="400px" />
@@ -44,7 +44,6 @@ Check [here for the hardware section](/projects/stretch_display) where I describ
     * [Humidity](#humidity)
     * [News headline](#news-headline)
     * [Conditional elements](#conditional-elements)
-    * [Textual weather](#textual-weather)
     * [Gauge](#gauge)
 <!-- TOC -->
 
@@ -52,15 +51,15 @@ Check [here for the hardware section](/projects/stretch_display) where I describ
 
 ## Introduction
 
- <img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched charamel theme" height="600px" style="float:right;margin-left:15px;"/>
-I wanted a display to show the current room healthy information and other live data around the house.
+ <img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched caramel theme" height="600px" style="float:right;margin-left:15px;"/>
+I wanted a display to show the current room health information and other live data around the house.
 
-Now I show the next data on this stretched display:
+Now I show the following data on this stretched display:
 * Room temperature (+graph), CO2 (+graph), humidity, room heater status, chair occupancy time,
 * Time & date, news headline.
 * Outside temperature, rain is expected.
 * I also have many **Conditional elements**.
-  By default, not visible only when they have a noticeable state they will be visible.
+  By default, they are not visible; they only become visible when they have a noticeable state.
   * Camera stream if someone is at the front door.
   * CO2 value too high.
   * Temperature is too high.
@@ -96,7 +95,7 @@ To set these properties, select the three dots in the top right and select `Raw 
 
 See all possible configuration parameters at https://github.com/NemesisRE/kiosk-mode
 
-Only define `hide_header` is enough.
+Defining only `hide_header` is enough.
 
 ```yaml
 {% raw %}
@@ -109,7 +108,7 @@ views:
 {% endraw %}
 ```
 
-To show the top toolbar again, add `?disable_km=` to the url.
+To show the top toolbar again, add `?disable_km=` to the URL.
 
 ---
 
@@ -117,18 +116,16 @@ To show the top toolbar again, add `?disable_km=` to the url.
 
 I created two custom themes for this project to see which has the best contrast and best looks.
 
-* Stretch Charamel: This theme uses black and charamel color as contrast colors.
+* Stretch Caramel: This theme uses black and caramel color as contrast colors.
 * Stretch Dark: This theme uses all black and other contrast colors with the same card background as normal background.
   Only subtle lines to split elements from each other.
 
 <br>
 
-| Stretch Charamel                                                                                                  | Stretch Dark                                                                                              |
+| Stretch Caramel                                                                                                   | Stretch Dark                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| <br><img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched charamel theme" height="600px" /> | <br><img src="images_layout_stretch/office_display_dark.jpg" alt="stretched dark theme" height="600px" /> |
+| <br><img src="images_layout_stretch/office_display_charamel.jpg" alt="stretched caramel theme" height="600px" /> | <br><img src="images_layout_stretch/office_display_dark.jpg" alt="stretched dark theme" height="600px" /> |
 | [download stretch_charamel.yaml](themes/stretch_charamel.yaml)                                                    | [download stretch_dark.yaml](themes/stretch_dark.yaml)                                                    |
-
-### Install new theme
 
 ### Reload theme after update
 
@@ -159,9 +156,9 @@ tap_action:
 ---
 ## Dashboard elements
 
-Here I describe how I realize the different elements that are visible on this stretched display.
+Here I describe how I realized the different elements that are visible on this stretched display.
 
-I add some custom CSS to the dashboard elements if I couldn't get it correct via the theme.
+I added some custom CSS to the dashboard elements if I couldn't get it right via the theme.
 
 * [Time and date](#time-and-date)
 * [Room temperature](#room-temperature)
@@ -170,21 +167,18 @@ I add some custom CSS to the dashboard elements if I couldn't get it correct via
 * [News headline](#news-headline)
 * [Conditional elements](#conditional-elements)
     * [Temperature too high](#temperature-too-high)
-    * [CO2 too high](#co2-too-high)
     * [Camera stream](#camera-stream)
-    * [Open doors](#open-doors)
-* [Textual weather](#textual-weather)
 * [Gauge](#gauge)
 * [Flexible Horseshoe card](#flexible-horseshoe-card)
 
 ### Time and date
 
-I want the time and date as large font size visible.
+I want the time and date visible in a large font size.
 
 <img src="images_layout_stretch/clock.png" alt="Clock and date" width="400px" />
 
-For the current time, it doesn't use a sensor just the current time.
-With some extra CSS is the size bigger now.
+For the current time, I don't use a sensor, just the current time.
+With some extra CSS, the size is bigger now.
 
 ```yaml
 {% raw %}
@@ -201,7 +195,7 @@ With some extra CSS is the size bigger now.
 ```
 
 For the current date, I use a [custom sensor](homeassistant_dashboard_date_time#inline-time-and-date-dutch-format) with translated (to Dutch) spelled out day and month as text.
-With some extra CSS is the size bigger now.
+With some extra CSS, the size is bigger now.
 
 ```yaml
 {% raw %}
@@ -229,8 +223,8 @@ For the current room temperature, I used my own [DIY ESPHome CO2, temperature, h
 <img src="images_layout_stretch/temperature_graph.png" alt="temperature graph" width="450px" />
 </a>
 
-This card required the HACS integration `mini-graph-card`,
-install this integration via this button\
+This card requires the HACS integration `mini-graph-card`.
+Install this integration via this button\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=kalkih&repository=mini-graph-card&category=integration)
 
 ```yaml
@@ -514,156 +508,14 @@ card_mod:
       state: "on"
   card:
     type: custom:webrtc-camera
-    url: rtsp://ronald:ggyk4DNSrX4PWJX57FV@192.168.1.174:554//h264Preview_01_main
+    url: rtsp://username:password@192.168.1.174:554//h264Preview_01_main
 
 {% endraw %}
 ```
 
 #### Temperature too high
 
-<a href="images_layout_stretch/.png">
-<img src="images_layout_stretch/.png" alt="temperature too high" width="450px" />
-</a>
-
-The used entity here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-- type: custom:mushroom-chips-card
-    chips:
-        - type: conditional
-          conditions:
-            - entity: sensor.knmi_weercode
-              state_not: Code groen
-          chip:
-            type: template
-            icon: mdi:weather-lightning-rainy
-            icon_color: |-
-              {% if is_state('sensor.knmi_weercode', 'Code groen') %}
-                 green
-              {% elif is_state('sensor.knmi_weercode', 'Code geel') %}
-                 yellow
-              {% elif is_state('sensor.knmi_weercode', 'Code rood') %}
-                 red
-              {% else %}
-                 1C1C1C
-              {% endif %}
-            entity: sensor.knmi_weercode
-            content: ""
-            tap_action:
-              action: url
-              url_path: https://www.knmi.nl/nederland-nu/weer/waarschuwingen/zuid-holland
-            card_mod: null
-          - type: conditional
-            conditions:
-              - entity: binary_sensor.rain_expected_2
-                state: "on"
-                content: ""
-            chip:
-              type: template
-              entity: binary_sensor.rain_expected_2
-              icon: mdi:weather-pouring
-              icon_color: red
-              content: ""
-          - type: conditional
-            conditions:
-              - entity: binary_sensor.rain_expected_2
-                state: "on"
-                content: ""
-            chip:
-              type: entity
-              icon: mdi:clock
-              icon_color: blue
-              entity: sensor.rain_expected_time
-          - type: entity
-            entity: sensor.tempest_temperature_feels_like_rounded
-            icon: mdi:hand-back-right
-            tap_action:
-              action: navigate
-              navigation_path: /lovelace-diverse/test2
-          - type: entity
-            entity: sensor.office_chair_occupancy
-          - type: conditional
-            conditions:
-              - entity: switch.blitzsmartplug23
-                state: "on"
-                content: ""
-            chip:
-              type: entity
-              icon_color: red
-              entity: switch.blitzsmartplug23
-- type: conditional
-  conditions:
-    - condition: numeric_state
-      entity: sensor.scd40_co2
-      above: 800
-  card:
-    type: entities
-    entities:
-      - entity: sensor.scd40_co2
-    card_mod:
-      style: |
-        ha-card {
-           --ha-card-background:
-          {% if states('sensor.scd40_co2') | int > 800 %}
-           #ff4500;
-          {% elif states('sensor.scd40_co2') | int > 1000 %}
-           #ff4500;
-          {% elif states('sensor.scd40_co2') | int > 1200 %}
-           #ffd700;
-          {% else %}
-           #008000;
-          {% endif %}
-          --paper-item-icon-color:black;
-          color: black;
-          font-size: 25px;
-          font-weight: bold;
-         }
-- type: conditional
-  conditions:
-    - condition: numeric_state
-      entity: sensor.espscd40_co2_temperature
-      above: 23
-  card:
-    type: entities
-    entities:
-      - entity: sensor.espscd40_co2_temperature
-    card_mod:
-      style: |
-        ha-card {
-           --ha-card-background:
-          {% if states('sensor.espscd40_co2_temperature') | int > 18 %}
-           #ff4500;
-          {% elif states('sensor.espscd40_co2_temperature') | int > 23 %}
-           #ff4500;
-          {% elif states('sensor.espscd40_co2_temperature') | int > 24 %}
-           #ffd700;
-          {% else %}
-           #008000;
-          {% endif %}
-          --paper-item-icon-color:black;
-          color: black;
-          font-size: 25px;
-          font-weight: bold;
-         }
-- type: conditional
-  conditions:
-    - condition: state
-      entity: input_boolean.frontdoor_detection_mode
-      state: "on"
-  card:
-    type: custom:webrtc-camera
-    url: rtsp://ronald:ggyk4DNSrX4PWJX57FV@192.168.1.174:554//h264Preview_01_main
-
-  {% endraw %}
-```
-
-#### CO2 too high
-
-<a href="images_layout_stretch/.png">
-<img src="images_layout_stretch/.png" alt="CO2 too high" width="450px" />
-</a>
+The entity used here is based on the [KNMI weather alarm scraper](/homeassistant/homeassistant_dashboard_weather_nl#weather-alarm).
 
 ```yaml
 {% raw %}
@@ -671,6 +523,7 @@ The used entity here is based on the [KNMI weather alarm scraper](/homeassistant
 
 {% endraw %}
 ```
+
 #### Camera stream
 
 <a href="images_layout_stretch/camera_stream.png">
@@ -691,38 +544,13 @@ card:
 
 {% endraw %}
 ```
-#### Open doors
-
-<a href="images_layout_stretch/.png">
-<img src="images_layout_stretch/.png" alt="" width="450px" />
-</a>
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-
-{% endraw %}
-```
----
-### Textual weather
-
-<a href="images_layout_stretch/.png">
-<img src="images_layout_stretch/.png" alt="" width="450px" />
-</a>
-
-```yaml
-{% raw %}
-# Sourcecode by vdbrink.github.io
-
-{% endraw %}
-```
 
 ---
 ### Gauge
 
 Two Gauge elements next to each other with the current room- and outside temperatures.
 
-To place them in a horizontal stack, they will be shown smaller.
+When you place them in a horizontal stack, they are shown smaller.
 
 <a href="images_layout_stretch/2gauges.png">
 <img src="images_layout_stretch/2gauges.png" alt="2 gauges" width="450px" />

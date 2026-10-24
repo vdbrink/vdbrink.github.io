@@ -13,17 +13,17 @@ image: /projects/images_stretch_display/office_display_next2monitor.jpg
 ## Introduction
 
 <a href="index"><img src="images_stretch_display/basic_weather_station.jpg" style="float: right;margin-left:15px" alt="Old weather station" height="150px"></a>
-I had for years a basic weather station with a radio receiver to see the indoor and outdoor weather data (temperature, humidity and pressure). Now with Home Assistant and my local weather station, I have so much more weather data available that I want to replace my old weather station display with something new, based on the data in Home Assistant.
+For years I had a basic weather station with a radio receiver to see the indoor and outdoor weather data (temperature, humidity and pressure). Now with Home Assistant and my local weather station, I have so much more weather data available that I want to replace my old weather station display with something new, based on the data in Home Assistant.
 
-I was also looking for a small display to show the actual CO2 and temperature data in my home office.
+I was also looking for a small display to show the current CO2 and temperature data in my home office.
 I found that when the CO2 is too high and/or the temperature is above 23 degrees, my concentration drops.
 
-> This page is still under construction, I fill in all chapters one by one how I set it up. So you can create exactly the same, or use it as a reference for your own display project.
+> This page is still under construction. I fill in all chapters one by one, describing how I set it up, so you can create exactly the same or use it as a reference for your own display project.
 
 ---
 ## My solutions
 
-A small stretched display, next to my monitor, where I can see my office climate data in a Home Assistant dashboard, controlled by a Raspberry pi.
+A small stretched display, next to my monitor, where I can see my office climate data in a Home Assistant dashboard, controlled by a Raspberry Pi.
 
 <a href="images_stretch_display/office_display_next2monitor.jpg">
 <img src="images_stretch_display/office_display_next2monitor.jpg" alt="stretch display in action" height="400px" style="float:left;margin-right:15px">
@@ -62,7 +62,7 @@ I created two Home Assistant dashboards: one for my office climate and the other
 ## Required hardware
 
 It's always good to use parts which you still have lying around, but otherwise you can buy these products as well to create this project yourself.\
-Also affiliate links are used here.
+Affiliate links are also used here.
 
 These hardware components (or alternatives) are required:
 
@@ -102,7 +102,7 @@ For my project, I use option 1, but there are a lot of displays available on the
 </div>
 
 The stand itself can also adjust in height and angle to position the display in the right position. 
-It fits perfect between the claws, and the cables fit also perfectly through the bottom and directly connect to the ports, which gives it a smooth design.
+It fits perfectly between the claws, and the cables also fit perfectly through the bottom and directly connect to the ports, which gives it a smooth design.
 The big round heavy feet make it stand stable.
 
 <a href="images_stretch_display/holder.webp">
@@ -143,19 +143,19 @@ A small device with an OS which can run a web browser on it.
 <div class="hp-card hp-tile">
 <img src="/projects/images_stretch_display/old_phone.jpg" alt="Old mobile phone" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Old mobile phone</strong>
-<p>Or use an old mobile phone. For a mobile phone, I recommend to remove the battery and hack an USB power plug to it.</p>
+<p>Or use an old mobile phone. For a mobile phone, I recommend removing the battery and hacking a USB power plug into it.</p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank"><img src="/projects/images_stretch_display/sdcard.webp" alt="Micro SD card" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Storage</span><strong>Micro SD card</strong>
-<p>To install the OS on, such as Raspberry Pi OS desktop. A minimum of 8 GB is already enough. Speed is not an issue, it only boots and then doesn't need to read and write.</p>
+<p>To install the OS on, such as Raspberry Pi OS desktop. A minimum of 8 GB is already enough. Speed is not an issue; it only boots and then doesn't need to read and write.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="/buy/images_diy/micro_usb_cable.avif" alt="USB A to micro USB cable" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>USB A to micro USB cable</strong>
-<p>To power the Raspberry 3B, it requires at least 5V with 3A, otherwise you get the message "Low voltage warning" in Raspberry OS.</p>
+<p>The Raspberry Pi 3B requires at least 5V with 3A, otherwise you get the message "Low voltage warning" in Raspberry OS.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a></p></div>
 </div>
 </div>
@@ -172,7 +172,7 @@ A small device with an OS which can run a web browser on it.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3TpPCQV" target="_blank"><img src="/projects/images_stretch_display/usb_keyboard.webp" alt="USB keyboard" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Optional</span><strong>USB keyboard</strong>
-<p>To install the Raspberry. They have different versions with different layouts. Once installed, it can be controlled via SSH.</p>
+<p>To set up the Raspberry Pi. They have different versions with different layouts. Once installed, it can be controlled via SSH.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3TpPCQV" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
@@ -199,9 +199,9 @@ Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.
 
 ## Required software
 
-I installed [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) with desktop where a browser runs on.
+I installed [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) with desktop, on which a browser runs.
 
-I created an auto-boot script to load the Home Assistant dashboard in Kiosk-mode on boot.
+I created an auto-boot script to load the Home Assistant dashboard in kiosk mode on boot.
 
 (Later I'll describe and add the example code here)
 
@@ -241,7 +241,7 @@ I created a new theme and increased font sizes to make it easily readable from a
 
 ### Weather station stretch display
 
-This is how my weather overview looks like:
+This is what my weather overview looks like:
 
 <a href="/homeassistant/homeassistant_dashboard_stretch_layout">
 <img src="/homeassistant/images_layout_stretch/weather_display1.png" alt="HA weather display" width="150px">
@@ -251,7 +251,7 @@ This is how my weather overview looks like:
 
 ### Office stretch display
 
-This is how my office overview looks like:
+This is what my office overview looks like:
 
 <a href="/homeassistant/homeassistant_dashboard_stretch_layout">
 <img src="/homeassistant/images_layout_stretch/office_display1.png" alt="HA office display" width="150px">
@@ -337,4 +337,4 @@ This is how my office overview looks like:
 
 Links to other sections of this blog site:
 
-[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node RED](../node-red/index)
+[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node-RED](../node-red/index)

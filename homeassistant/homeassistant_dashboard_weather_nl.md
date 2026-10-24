@@ -9,7 +9,7 @@ image: /homeassistant/images/rain_radar_animated.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you can find dashboard related to the weather in the Netherlands.
+Here you can find dashboards related to the weather in the Netherlands.
 
 There are a lot of weather sites that provide weather data on the web or in apps.
 We can also use that data to show directly on our Home Assistant dashboards.
@@ -79,7 +79,7 @@ Take also a look at these templates.
 ---
 ## Rain expected value
 
-Based on the Buienalarm data: a number how much rain is expected.
+Based on the Buienalarm data: a number showing how much rain is expected.
 
 ```yaml
 {% raw %}
@@ -105,9 +105,9 @@ template:
 
 ### Buienradar with residence marker
 
-Buienradar has a Home Assistant [integration](https://www.home-assistant.io/integrations/buienradar/) which contains, next to weather entities, also an animation of the rain expectation for The Netherlands.
+Buienradar has a Home Assistant [integration](https://www.home-assistant.io/integrations/buienradar/) which contains, next to weather entities, also an animation of the expected rain for the Netherlands.
 
-*I added myself an extra residence marker to it !!!!*
+*I added an extra residence marker to it myself!*
 
 #### Result
 
@@ -120,19 +120,19 @@ You need to install the `Buienradar` integration with this button
 
 #### Enable the radar entity
 
-Enable the Buienradar radar entity `camera.buienradar`, this one is disabled by default.
+Enable the Buienradar radar entity `camera.buienradar`; this one is disabled by default.
 
 See how to do this:
 
 <img src="images_weather/buienradar_camera_activate.gif" alt="Enable camera.buienradar entity" width="400px">
 
-Or direct go to all entities [![Open your Home Assistant instance and show the entities.](https://my.home-assistant.io/badges/entities.svg)](https://my.home-assistant.io/redirect/entities) and filter by `camera.buienradar`.
+Or go directly to all entities [![Open your Home Assistant instance and show the entities.](https://my.home-assistant.io/badges/entities.svg)](https://my.home-assistant.io/redirect/entities) and filter by `camera.buienradar`.
 
 #### Create the dashboard card
 
-Now all preparations are done, the dashboard card can be created.
+Now all preparations are done. The dashboard card can be created.
 
-Add a new card to your dashboard (or edit your existing) with this content
+Add a new card to your dashboard (or edit your existing one) with this content
 and change the `top` and `left` properties to position the marker to your residence.
 And use `scale` to change the size of the image.
 
@@ -172,7 +172,7 @@ Add a Generic camera integration:
 
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=generic)
 
-Use the url [https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg](https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg)
+Use the URL [https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg](https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg)
 It's this marker
 ![marker_home.svg](images_weather/marker_home.svg)
 
@@ -201,7 +201,7 @@ elements:
 
 You can also use the image as a local image.\
 Download the file [https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg](https://raw.githubusercontent.com/vdbrink/vdbrink.github.io/main/homeassistant/images_weather/marker_home.svg)
-and place if in your local Home Assistant `/www/` directory.\
+and place it in your local Home Assistant `/www/` directory.\
 And use this script:
 
 ```yaml
@@ -228,11 +228,11 @@ elements:
 ### Weeronline
 
 Via the link [https://www.weeronline.nl/widgets](https://www.weeronline.nl/widgets) you can select multiple widgets and the corresponding city.
-These widgets can be include via an iframe on your dashboard.
+These widgets can be included via an iframe on your dashboard.
 
 #### 3 days weather predictions
 
-Three days weather predictions.
+Three-day weather predictions.
 
 <img src="images_weather/weeronline_3days.png" alt="Weeronline 3 days weather" width="400px">
 
@@ -248,7 +248,7 @@ aspect_ratio: "1.7"
 
 #### Rain Radar
 
-An animated image of 2 hours prediction of the rain in steps of 5 minutes.
+An animated image of a 2-hour rain prediction in steps of 5 minutes.
 
 <img src="images_weather/rain_radar_animated.png" alt="Rain radar animated" width="400px">
 
@@ -292,14 +292,14 @@ elements:
 
 Source: KNMI
 
-Show the weather alarm code and description from the [KNMI.nl site](https://www.knmi.nl/nederland-nu/weer/waarschuwingen/) direct on your dashboard like this:
+Show the weather alarm code and description from the [KNMI.nl site](https://www.knmi.nl/nederland-nu/weer/waarschuwingen/) directly on your dashboard like this:
 
 <img src="images_weather/weather_alarm_knmi.png" alt="Weather alarm" width="400px">
 
-First, you need to define a scraper to scrape every 10 minutes the latest alarm code and description.
+First, you need to define a scraper to scrape the latest alarm code and description every 10 minutes.
 
-You can accomplish this by adding the YAML to the `configuration.yaml` file or by configure it via the Home Assistant frontend **Scrape** integration.\
-I also have a [dedicated page](homeassistant_web_scraper) about this integration, how it can be used to integrate almost any website data direct into your dashboard.\
+You can accomplish this by adding the YAML to the `configuration.yaml` file or by configuring it via the Home Assistant frontend **Scrape** integration.\
+I also have a [dedicated page](homeassistant_web_scraper) about this integration, how it can be used to integrate almost any website data directly into your dashboard.\
 Install this integration via this button in your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=scrape)
 
@@ -369,7 +369,7 @@ Check the [styling](homeassistant_dashboard_styling) page for more ways to give 
 
 ### Conditional weather alarm 1
 
-You can add this data also to a section on your dashboard with `Important data` and only show this information when it's not code green.
+You can also add this data to a section on your dashboard with `Important data` and only show this information when it's not code green.
 The text is also clickable to open the corresponding site with more details.
 
 <img src="images_weather/weather_alarm_text.png" alt="Weather alarm text" width="400px">
@@ -406,12 +406,12 @@ The text is also clickable to open the corresponding site with more details.
 ---
 ### Conditional weather alarm 2
 
-Based on the [KNMI weather alarm website data](#weather-alarm) is this another presentation.
+This is another presentation, based on the [KNMI weather alarm website data](#weather-alarm).
 It shows the weather alarm text in a large size with the background card color the same as the weather alarm level, green, yellow, orange or red.
 
 For this card I used the extra HACS integrations [Mushroom card](/homeassistant/homeassistant_dashboard_card_mushroom) and [card_mod](/homeassistant/homeassistant_dashboard_hacs#card-mod-3-lovelace-card-mod) to add the custom color styling.
 
-This YAML codes show the card only when the weather code is not code green (unavailable).
+This YAML code shows the card only when the weather code is not code green (unavailable).
 To show the alarm also when there is no alarm, just remove the `type: conditional` block and only use the YAML code starting from `type: custom:mushroom-title-card`.
 
 <img src="images_weather/weather_alarm_knmi_colored_background.png" alt="optional Weather alarm" width="400px">
@@ -461,7 +461,7 @@ Source: Pollennieuws
 
 Show the current pollen intensity image.
 
-<img src="images_weather/pollennieuws.png" alt="Pollen nieuws" width="400px">
+<img src="images_weather/pollennieuws.png" alt="Pollennieuws" width="400px">
 
 This is the basic variant that shows only the image.
 ```yaml
@@ -537,7 +537,7 @@ elements:
 
 Source: Weerplaza
 
-An iframe with a compact presentation of the weather for the next 3 or 5 days and a score for different type of activities.
+An iframe with a compact presentation of the weather for the next 3 or 5 days and a score for different types of activities.
 
 <img src="images_weather/weather_score_weerplaza.png" alt="Weather score" width="400px">
 
@@ -579,7 +579,7 @@ hide_forecast_section: false
 ```
 
 This card is highly customizable.
-To show more days, no clock and also the expected weather per weather hour.
+To show more days, no clock and also the expected weather per hour.
 
 <img src="images_weather/weather_per_hour.jpg" alt="clock-weather-card per hour" width="400px">
 
@@ -630,7 +630,7 @@ entity: weather.home
 
 Only with forecast data and alternative style 2.
 
-<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
+<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card, forecast only" width="400px">
 
 ```yaml
 {% raw %}

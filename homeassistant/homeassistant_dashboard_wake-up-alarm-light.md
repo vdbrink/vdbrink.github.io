@@ -29,7 +29,7 @@ Start streaming a radio channel, make a coffee, announce the weather forecast, n
     * [Dashboard](#dashboard)
     * [Entities](#entities)
       * [Timer helper entities](#timer-helper-entities)
-      * [Boolean helper entity](#boolean-helper-entity-)
+      * [Boolean helper entity](#boolean-helper-entity)
     * [Automation](#automation)
 <!-- TOC -->
 
@@ -40,7 +40,7 @@ Start streaming a radio channel, make a coffee, announce the weather forecast, n
 <img src="/projects/images_bin_day/zigbee_rgb_led_strip.webp" style="float: right;margin-left:20px" alt="Zigbee RGB LED strip" height="150px">
 
 The hardware I used for this project is a dumb LED strip, modified to work directly on power without a switch and controlled by a [smart socket](/buy/zigbee_smart_socket).
-As alternative a [smart LED strip](/buy/zigbee_lights#led-strip) controlled by Zigbee/WiFi can also be used for it.
+As an alternative, a [smart LED strip](/buy/zigbee_lights#led-strip) controlled by Zigbee/WiFi can also be used for it.
 
 With a [smart wireless button](/buy/zigbee_buttons#portable-button) it's possible to manually control the LED strip state.
 
@@ -52,9 +52,9 @@ To define the timer and (de)activate toggle on the dashboard, custom helper enti
 
 ### Dashboard
 
-This is how the final dashboard could look like.
-Manual trigger the LED strip, toggle the timer.
-And set the ON and OFF time.
+This is how the final dashboard could look.
+Manually trigger the LED strip, toggle the timer.
+And set the ON and OFF times.
 
 You can easily add more times if you prefer.
 
@@ -105,14 +105,14 @@ This button directly opens the **Helpers** page in your Home Assistant:
 
 [![Open your Home Assistant instance and show your helper entities.](https://my.home-assistant.io/badges/helpers.svg)](https://my.home-assistant.io/redirect/helpers/)
 
-Select the bottom-right button `+ Create Helper`, select **Date and/or time**.
+Select the bottom-right button `+ Create Helper`, and select **Date and/or time**.
 <img src="images/create_helper.png" alt="Create helper button" width="200px">
 
 <img src="images_wake-up/ha-create-helper.png" alt="" width="400px">
 <br>
 
 Give it a name (this will also automatically be used for the entity name).\
-Optional select an icon, like `mdi:clock`.\
+Optionally select an icon, like `mdi:clock`.\
 Select the input type **Time**.
 
 <img src="images_wake-up/ha-create-helper-on-time.png" alt="" width="400px">
@@ -126,9 +126,9 @@ Follow the same steps to also create the OFF helper entity.
 For the extra helper to skip the ON/OFF timer (on a free day for example).
 
 Create a new helper and this one should be of the type **Boolean**.\
-This entity has two states: `true` for active, `false` for inactive.
+This entity has two states: `on` for active, `off` for inactive.
 
-<img src="images_wake-up/ha-create-helper-active.png" alt="HA create boolean is helper active" width="400px">
+<img src="images_wake-up/ha-create-helper-active.png" alt="HA create boolean helper active" width="400px">
 
 ---
 ### Automation
@@ -147,13 +147,13 @@ The first flow, to control the LED strip manually with a smart button, is built 
 
 The second flow, to turn ON the LED strip based on the ON time, is built up with these nodes:
 * HA time node which is triggered at the defined ON time.
-* HA current state node which checks of the flow should continue or stop.
+* HA current state node which checks if the flow should continue or stop.
 * Change node to set the state `ON` to the payload.
 * Zigbee2MQTT out node where the smart socket or LED strip is defined.
 
 The third flow, to turn OFF the LED strip based on the OFF time, is built up with these nodes:
 * HA time node which is triggered at the defined OFF time.
-* HA current state node which checks of the flow should continue or stop.
+* HA current state node which checks if the flow should continue or stop.
 * Change node to set the state `OFF` to the payload.
 * Zigbee2MQTT out node where the smart socket or LED strip is defined.
 

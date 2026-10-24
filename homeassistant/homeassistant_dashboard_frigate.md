@@ -8,7 +8,7 @@ tags: [Home Assistant, dashboard, lovelace, Frigate, clip, video]
 # Home Assistant dashboard: Frigate
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
-<a href="index"><img src="/images/frigate_logo.svg" style="float: right;" alt="Home Assistant logo" height="100px"></a>
+<a href="index"><img src="/images/frigate_logo.svg" style="float: right;" alt="Frigate logo" height="100px"></a>
 Frigate is a tool to analyze your video camera streams.
 
 It can detect and store a snapshot and a video clip when it detects presence.
@@ -35,9 +35,9 @@ Website: [https://frigate.video/](https://frigate.video/)
 This is the `camera` section from my Frigate configuration.
 
 Based on a Reolink camera.
-A mini pc with Intel Arc Graphics GPU.
+A mini PC with an Intel Arc Graphics GPU.
 
-* 5 days non-stop recordings
+* 5 days of non-stop recordings
 * Person detection active
 * Send an MQTT event when a person is detected
 
@@ -92,7 +92,7 @@ cameras:
 
 ## Show live RTSP streams
 
-You can add a direct livestream based on the rtsp url with the custom HACS integration WebRTC.
+You can add a direct livestream based on the RTSP URL with the custom HACS integration WebRTC.
 
 Repo: [https://github.com/AlexxIT/WebRTC](https://github.com/AlexxIT/WebRTC) \
 There are a lot of possible settings, check this site for them.
@@ -109,9 +109,9 @@ url: rtsp://username:password@<ip-address:port>/h264Preview_01_main
 ---
 ## Show MP4 video clips
 
-Frigate provides for each event an MP4 movie via the api.
-* Api format: http://<ip-address:port>/api/<camera-name>/<detection-object>/clip.mp4
-* Api example: http://192.168.1.2:5000/api/camera_1/person/clip.mp4
+Frigate provides for each event an MP4 movie via the API.
+* API format: `http://<ip-address:port>/api/<camera-name>/<detection-object>/clip.mp4`
+* API example: `http://192.168.1.2:5000/api/camera_1/person/clip.mp4`
 
 &nbsp;
 
@@ -152,9 +152,9 @@ data:
 ---
 ## Show Frigate MQTT last event captured snapshots
 
-When you've added your camera as camera-entity in Home Assistant you can use the Picture Entity to show the last captured snapshot.
+When you've added your camera as a camera entity in Home Assistant, you can use the Picture Entity to show the last captured snapshot.
 
-This example redirects also to the page /my-camera/frigate when you click on it.
+This example also redirects to the page /my-camera/frigate when you click on it.
 
 ```yaml
 # Dashboard card code
@@ -173,13 +173,13 @@ entity: camera.frigate_last_person
 ## Frigate iframe
 
 To show the Frigate dashboard inside Home Assistant.
-Create a new tab with as layout `Panel (single card)` and name it frigate.
+Create a new tab with the layout `Panel (single card)` and name it `frigate`.
 
 <a href="images_frigate/frigate_iframe_settings.png">
-<img src="images_frigate/frigate_iframe_settings.png" alt="frigate HA tab setting" width="300px" />
+<img src="images_frigate/frigate_iframe_settings.png" alt="Frigate HA tab settings" width="300px" />
 </a>
 
-Click on the right bottom button `Add card` and select the Webpage card and paste this content:
+Click on the bottom right button `Add card` and select the Webpage card and paste this content:
 ```yaml
 type: iframe
 aspect_ratio: 100%
@@ -189,12 +189,12 @@ url: http://x.x.x.x:5000
 ---
 ## Front door detection mode
 
-I use [Node-RED](/node-red/node-red_home-assistant) to set the Home Assistant input boolean `input_boolean.frontdoor_detection_mode` to `true` when Frigate detects a person at the front door.
+I use [Node-RED](/node-red/node-red_home-assistant) to set the Home Assistant input boolean `input_boolean.frontdoor_detection_mode` to `on` when Frigate detects a person at the front door.
 
 I use the MQTT topic `frigate/camera_1/person/snapshot` where Frigate publishes the last snapshot of a person detection.
 
-Then use the Home Assistant Api Node.\
-Path: `states/input_boolean.frontdoor_detection_mode` is an input boolean in Home Assistant that you can use to enable or disable the frontdoor detection mode.\
+Then use the Home Assistant API Node.\
+Path: `states/input_boolean.frontdoor_detection_mode` (an input boolean in Home Assistant that you can use to enable or disable the front door detection mode).\
 Data: `{"state":"on"}`
 
 ---

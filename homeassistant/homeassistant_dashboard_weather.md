@@ -11,14 +11,14 @@ image: /homeassistant/images_hacs/hacs_weather-chart-card.png
 
 Here you can find different examples of weather forecast dashboard cards with copy-paste YAML code.
 
-Most of the cards are highly configurable, check the source site for all possible parameters that fit your needs the best.
+Most of the cards are highly configurable; check the source site for all possible parameters that best fit your needs.
 
 ---
 ## Table of Contents
 <!-- TOC -->
   * [Weather Chart Card](#weather-chart-card)
-  * [Animated weather card](#animated-weather-card)
-  * [Clock weather card](#clock-weather-card)
+  * [Animated Weather Card](#animated-weather-card)
+  * [Clock Weather Card](#clock-weather-card)
   * [Windy.com compact forecast](#windycom-compact-forecast)
   * [Hourly Weather Card](#hourly-weather-card)
   * [Kleenex pollen radar Integration](#kleenex-pollen-radar-integration)
@@ -51,11 +51,11 @@ entity: weather.home
 
 ### Example 2
 
-If you want to customize the presentation it can get a completely different look, and you can activate or deactivate elements.
+If you want to customize the presentation, it can get a completely different look, and you can activate or deactivate elements.
 
-E.g. only with forecast data and an alternative presentation style.
+For example, only with forecast data and an alternative presentation style.
 
-<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card" width="400px">
+<img src="images_hacs/hacs_weather-chart-card2.png" alt="Weather predictions with weather-chart-card, forecast only" width="400px">
 
 Install this HACS [**Weather Chart Card**](https://github.com/mlamberts78/weather-chart-card?tab=readme-ov-file#weather-chart-card) integration via this button
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mlamberts78&repository=weather-chart-card&category=integration)
@@ -128,7 +128,7 @@ hide_forecast_section: false
 <a name="clock-weather-card-per-hour"></a>
 
 This card is highly customizable.
-To show more days, no clock and also the expected weather per weather hour.
+To show more days, no clock and also the expected weather per hour.
 
 <img src="images_weather/weather_per_hour.jpg" alt="clock-weather-card per hour" width="400px">
 
@@ -156,7 +156,7 @@ forecast_rows: 12
 ## Windy.com compact forecast
 
 Show an iframe with a very compact presentation but with much information for the upcoming hours.
-Clouds/sunny, position of the sun, temperature, rain, wind force, wind gust, wind direction, 
+Clouds/sun, position of the sun, temperature, rain, wind force, wind gust, wind direction.
 
 <img src="images_weather/home-assistant-windy-com.png" alt="Home Assistant Windy.com" width="400px">
 
@@ -201,13 +201,13 @@ Pollen integration with intensity for weeds, grasses and trees for today.
 
 <img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
 
-Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration for more cards with multi day forecast.
+Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration for more cards with multi-day forecast.
 And graphs with details on different types of pollen per type of tree.
 
 ---
 ## Lightning and thunderstorm
 
-Show an iframe with the realtime lightning and thunderstorm activities from blitzortung.org.
+Show an iframe with the real-time lightning and thunderstorm activities from blitzortung.org.
 
 <img src="images_weather/thunderstorm.jpg" alt="blitzortung lightning and thunderstorm" width="400px">
 
@@ -245,6 +245,6 @@ template:
 
 ---
 
-[Dutch focused weather cards >>](homeassistant_dashboard_weather)
+[Dutch focused weather cards >>](homeassistant_dashboard_weather_nl)
 
 [<< See also my other Home Assistant tips and tricks](index)

@@ -119,7 +119,7 @@ To show the top toolbar again, add `?disable_km=` to the URL.
 
 You can still swipe left/right to go to other defined views on the same dashboard without using the extra top toolbar.
 
-With the HACS integration `Swipe Navigation`
+This is possible with the HACS integration `Swipe Navigation`.
 
 Repo: [https://github.com/zanna-37/hass-swipe-navigation](https://github.com/zanna-37/hass-swipe-navigation)
 
@@ -151,7 +151,7 @@ Now you only have a small top bar.
 Even this can be removed by choosing the `Full screen` option.
 
 <a href="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png">
-<img src="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png" alt="hide sidebar in Home Assistant" height="200px" />
+<img src="images_tablet_in_kiosk_mode/chrome_run_url_as_app.png" alt="page running as an app in Chrome" height="200px" />
 </a>
 
 <em>Page as an app in fullscreen</em>
@@ -164,7 +164,7 @@ If you want to show a page in fullscreen on an Android tablet,
 the app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can do this and much more.
 
 There is a free version with a watermark and limited functionality.
-For [&euro; 7,90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single pc license.
+For [&euro; 7,90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single PC license.
 
 It has many features; I use these:
 * Define a URL to load on startup:
@@ -177,7 +177,7 @@ It has many features; I use these:
   * Enable the screen when someone enters the room.
   * Disable the screen at a certain time or without presence.
 * Monitor the battery level:
-  * Control a smart socket to charge the tablet only between 20% and 80%.
+  * Control a smart socket to charge the tablet only between 15% and 80%.
 
 <br>
 It has many more features!
@@ -185,7 +185,7 @@ It has many more features!
 
 #### Tablet as wall panel
 
-I use myself a Samsung 10" tablet as display with Home Assistant.\
+I myself use a Samsung 10" tablet as a display for Home Assistant.\
 If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets with a higher resolution:
 
 * {{imgBasket}}**Lenovo Tab M11** - 11" with a resolution of 1920x1200 
@@ -243,10 +243,10 @@ One of those properties is `batteryLevel`; based on this value, I trigger an aut
 ---
 ## Create a tablet dashboard
 
-Before you start with your dashboard ask yourself the next questions:
+Before you start with your dashboard ask yourself the following questions:
 
 * Horizontal or vertical?
-* How many data do you want to show, what resolution do you need/have?
+* How much data do you want to show, what resolution do you need/have?
 * Two, three, more columns?
 * Do you want to show data conditional?
 * Which data do you want to show?
@@ -260,7 +260,7 @@ Before you start with your dashboard ask yourself the next questions:
 Check [here](/homeassistant/homeassistant_dashboard_examples_overview) or [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements)
 for copy-paste examples in these categories.
 <br>
-Or continue to see also more examples.
+Or continue reading to see more examples.
 
 ---
 ### What's on my dashboard
@@ -362,9 +362,9 @@ My optional elements are:
     * [Package delivered](/projects/packages-mailbox-allux-600) in my package box
     * [Mail delivered](/projects/smart_mailbox), in the [last 30 minutes](/homeassistant/homeassistant_templates#mail-delivered-in-the-last-30-minutes)
     * [water/leak detected!](/homeassistant/homeassistant_templates#diy-sink-leak-status)
-    * Rain amount fallen, if there is any rain fallen today
-    * Is it nice to sit outside?, based on many [outdoor weather station sensor values](/buy/zigbee_weather_station) (temperature, humidity, wind, UV index)
-    * Text if there must be meat or fish out of the freezer for the dish of tomorrow, based on the [meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before), only show after 21.00
+    * Rain amount, if any rain has fallen today
+    * Is it nice to sit outside? Based on many [outdoor weather station sensor values](/buy/zigbee_weather_station) (temperature, humidity, wind, UV index)
+    * Text if there must be meat or fish out of the freezer for the dish of tomorrow, based on the [meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before), only show after 21:00
 
 <br>
 
@@ -387,7 +387,7 @@ My optional elements are:
 <area
     shape="rect"
     coords="0,145,230,300"
-    href="/homeassistant/"
+    href="/homeassistant/homeassistant_dashboard_weather_nl#neerslag-app"
     alt="rain expected" />
 <area
     shape="rect"
@@ -437,13 +437,13 @@ My optional elements are:
     href="/homeassistant/homeassistant_dashboard_weather_nl#rain-radar-animated"
     alt="buienradar" />
 </map>
-<img usemap="#my-dashboard-conditional" src="images_tablet_in_kiosk_mode/ha_on_tablet_optional_elements.jpg" alt="Home Assistant dashboard in kiosk mode" width="100%" class="maparea" />
+<img usemap="#my-dashboard-conditional" src="images_tablet_in_kiosk_mode/ha_on_tablet_optional_elements.jpg" alt="Home Assistant dashboard in kiosk mode with optional elements" width="100%" class="maparea" />
 <em>Clickable dashboard: each element is linked to the corresponding code</em>
 
 ##### YAML how to make elements conditional
 
 For each condition you need a sensor with a state you can toggle on when the element should be visible.
-If this doesn't exist yet, you can create this with a template sensor.
+If this doesn't exist yet, you can create it with a template sensor.
 I have a page with many examples of how to create these sensors: [Home Assistant templates](/homeassistant/homeassistant_templates).
 
 This is how you can define a conditional **Mushroom** element to show only the large bin icon when tomorrow is a bin day.
