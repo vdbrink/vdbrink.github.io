@@ -355,21 +355,20 @@ This is how you create three custom lines in the graph to see the threshold valu
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- sensor:
-    - platform: template
-      sensors:
-        co2_value_800:
-          friendly_name: "good"
-          value_template: 800
-          unit_of_measurement: 'ppm'
-        co2_value_1200:
-          friendly_name: "average"
-          value_template: 1200
-          unit_of_measurement: 'ppm'
-        co2_value_1500:
-          friendly_name: "bad"
-          value_template: 1500
-          unit_of_measurement: 'ppm'
+template:
+  - sensor:
+      - name: "Co2 value 800"
+        unique_id: co2_value_800
+        state: 800
+        unit_of_measurement: 'ppm'
+      - name: "Co2 value 1200"
+        unique_id: co2_value_1200
+        state: 1200
+        unit_of_measurement: 'ppm'
+      - name: "Co2 value 1500"
+        unique_id: co2_value_1500
+        state: 1500
+        unit_of_measurement: 'ppm'
 {% endraw %}
 ```
 
@@ -383,12 +382,12 @@ This creates a new sensor that shows a text representation of the current condit
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    senseair_co2_value_text:
-        icon_template: "mdi:molecule-co2"
-        friendly_name: "Room CO2 "
-        value_template: >-
+template:
+  - sensor:
+      - name: "Senseair co2 value text"
+        unique_id: senseair_co2_value_text
+        icon: "mdi:molecule-co2"
+        state: >-
           {% set state = states('sensor.senseair_co2_value') | int %}
           {% if state < 800 %}good
           {% elif state > 800 and state <= 1200 %}average

@@ -250,17 +250,12 @@ With this addition in the `configuration.yaml` file, it creates a new sensor tha
 {% raw %}
 # Source code by vdbrink.github.io
 # configuration.yaml
-binary_sensor:
-  - platform: template
-    sensors:
-      chair:
-        friendly_name: "chair"
-        value_template: >-
-          {% if is_state('binary_sensor.contact1_contact', 'off') %}
-             on
-          {% else %}
-             off
-          {% endif %}
+template:
+  - binary_sensor:
+      - name: "Chair"
+        unique_id: chair
+        state: >-
+          {{ is_state('binary_sensor.contact1_contact', 'off') }}
 
 homeassistant:
   customize:

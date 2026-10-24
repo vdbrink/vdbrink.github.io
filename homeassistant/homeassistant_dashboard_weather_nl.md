@@ -85,17 +85,17 @@ Based on the Buienalarm data: a number how much rain is expected.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- platform: template
-  sensors:
-    buienalarm_rain_expected:
-      friendly_name: "rain expected"
-      value_template: >-
-        {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
-        {% set total_precip = 0 %}
-        {% for value in rain %}
-          {% set total_precip = total_precip + (value | int) %}
-        {% endfor %}
-        {{ total_precip }}
+template:
+  - sensor:
+      - name: "Buienalarm rain expected"
+        unique_id: buienalarm_rain_expected
+        state: >-
+          {% set rain = state_attr('sensor.neerslag_buienalarm_regen_data', 'data').precip %}
+          {% set total_precip = 0 %}
+          {% for value in rain %}
+            {% set total_precip = total_precip + (value | int) %}
+          {% endfor %}
+          {{ total_precip }}
 {% endraw %}
 ```
 

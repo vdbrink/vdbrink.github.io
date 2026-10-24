@@ -186,22 +186,21 @@ See this [private project link](https://help.wecity.nl/bodemvocht-en-grondsoort)
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml or the file pientere_tuinen.yaml in the sensor directory
-- sensor:
-  - platform: template
-    sensors:
-      mijn_pientere_tuin_vochtigheid_max:
-        friendly_name: "max / too wet"
-        value_template: 38
+template:
+  - sensor:
+      - name: "Mijn pientere tuin vochtigheid max"
+        unique_id: mijn_pientere_tuin_vochtigheid_max
+        state: 38
         device_class: 'moisture'
         unit_of_measurement: '%'
-      mijn_pientere_tuin_vochtigheid_base:
-        friendly_name: "base / stress"
-        value_template: 23
+      - name: "Mijn pientere tuin vochtigheid base"
+        unique_id: mijn_pientere_tuin_vochtigheid_base
+        state: 23
         device_class: 'moisture'
         unit_of_measurement: '%'
-      mijn_pientere_tuin_vochtigheid_min:
-        friendly_name: "min / too dry"
-        value_template: 16
+      - name: "Mijn pientere tuin vochtigheid min"
+        unique_id: mijn_pientere_tuin_vochtigheid_min
+        state: 16
         device_class: 'moisture'
         unit_of_measurement: '%'
 {% endraw %}

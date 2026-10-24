@@ -19,6 +19,7 @@ You can use a background image of your floor plan and overlay it with icons and 
 Clicking on an entity allows you to define specific follow-up actions based on your preferences.
 
 ---
+
 ## Table of Contents
 <!-- TOC -->
   * [Introduction](#introduction)
@@ -74,7 +75,9 @@ It is up to you what works best for your own dashboard.
 > But it is worth it.
 
 ---
+
 ## Get inspired
+
 Before you begin, explore examples of floor plans created by others to find inspiration.
 Choose one that you like and use it as a reference for your own design.
 
@@ -84,7 +87,9 @@ Here are some sites where you can find such examples:
 * <a href="https://github.com/theone11/HomeAssistantConfig" target="_blank">https://github.com/theone11/HomeAssistantConfig</a>
 
 ---
+
 ## Applications
+
 If you already have a digital version of your floor plan, you can use that as a starting point.
 
 If you don't have one, there are two commonly used applications to create a floor plan.
@@ -112,12 +117,13 @@ This is also the tool I used for my floor plan.
 With this [Home Assistant Floor Plan Generator Plugin](https://github.com/shmuelzon/home-assistant-floor-plan/) you can export images directly in a format you can use in Home Assistant.
 
 ---
+
 ## Creating your floor plan
 Once you have chosen an application, you can start.\
 The first step is to create a basic digital map of your house by drawing the walls, doors, and windows. You can already start using that in your interactive floor plan.
 
 It is always possible to create a fancier floor plan with the actual wall colors, floor types, and furniture.
-That takes a lot of time, but it can be very rewarding. 
+That takes a lot of time, but it can be very rewarding.
 Once you finish it, you can be proud of the result every time you use it.
 
 Steps to take:
@@ -127,10 +133,11 @@ Steps to take:
 * Then add the furniture to each room.
 * Then, as an extra step, you can add floors and wall colors.
 * After that, you can start adding the digital information:
-  * Start with the light icons
-  * Add labels like room temperature
+  * Start with the light icons.
+  * Add labels, such as the room temperature.
 
 ---
+
 ## Make it interactive
 
 Your floor plan will be a layered model with the raw floor plan as the base, then a layer with entities, and on top of that overlays.
@@ -145,7 +152,7 @@ Use the picture card element and upload the image to the `www` directory, also k
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # Dashboard card code
 type: picture-elements
 image: /local/base.png
@@ -176,6 +183,7 @@ By default, when you click on it, it toggles or shows the details.
 ```
 
 ---
+
 ### Entity labels
 
 Entity labels (`state-label`) show the text value of an entity.
@@ -204,8 +212,7 @@ To format a temperature, see [here](homeassistant_dashboard_formatting#rounded-t
 #### Open different view on click
 
 I use rounded temperature values on my map, but when I click on it, I want to see the normal temperature value with decimals.
-For this you need the extra HACS module [hass-browser_mod
-](https://github.com/thomasloven/hass-browser_mod).
+For this you need the extra HACS module [hass-browser_mod](https://github.com/thomasloven/hass-browser_mod).
 
 Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=hass-browser_mod&category=integration)
@@ -214,18 +221,19 @@ Install this integration, via this button, into your own Home Assistant instance
 {% raw %}
 # Dashboard card code
 - type: state-label
-    title: Living temperature
-    entity: sensor.tempX_temperature_rounded
-    tap_action:
-      action: fire-dom-event
-      browser_mod:
-        service: browser_mod.more_info
-        data:
-          entity: sensor.tempX_temperature
+  title: Living temperature
+  entity: sensor.tempX_temperature_rounded
+  tap_action:
+    action: fire-dom-event
+    browser_mod:
+      service: browser_mod.more_info
+      data:
+        entity: sensor.tempX_temperature
 {% endraw %}
 ```
 
 ---
+
 ### Click, Double-click and Long-press actions
 
 With click actions (`tap_action`), double-click (`double_tap_action`), and long-press (`hold_action`), you can ignore the click (`none`),
@@ -277,6 +285,7 @@ tap_action:
 See also [the Home Assistant action documentation](https://www.home-assistant.io/dashboards/actions/) for the full list.
 
 ---
+
 ### Rotations
 
 You can rotate icons at any angle.
@@ -291,7 +300,9 @@ style:
   rotate: degrees(90)
 {% endraw %}
 ```
-or with
+
+Or with
+
 ```yaml
 {% raw %}
 - type: state-icon
@@ -303,9 +314,10 @@ or with
 {% endraw %}
 ```
 
-----
+---
 
 ### Scale icons
+
 You can change the size of an icon by defining the `scale` property under `style`.
 
 <img src="images_floorplan/scale.png" alt="scale" height="50px">
@@ -326,6 +338,7 @@ You can change the size of an icon by defining the `scale` property under `style
 ---
 
 ### Change icons
+
 You can override the default icon for each entity.
 
 ```yaml
@@ -336,6 +349,7 @@ You can override the default icon for each entity.
 ```
 
 ---
+
 ### Overlays
 
 With overlays, you can darken a room to indicate that no one is there or that no lights are on.
@@ -348,7 +362,7 @@ If you use rooms in your floor plan and they all have 90-degree angles, you can 
 With the right settings, you can scale it to any size by changing the `style` and `aspect_ratio` values.
 
 In this example, I use a smart plug as the entity for the overlay.
-When the plug has the state `on`, it is fully transparent, and when it is `off`, it is 75% transparent.
+When the plug has the state `on`, it is fully transparent, and when it is `off`, it is 75% opaque.
 That way, you still see all the elements, but with a dark layer over the room.
 
 The `tap_action` is disabled here.
@@ -356,23 +370,18 @@ You can also choose to control the switch by clicking the icon.
 
 Sometimes you need to create a binary helper sensor to indicate when the layer should be active, for example when the lux value is above a certain threshold.
 <details markdown="1">
-  <summary><b>> Click here to see an example of a binary helper sensor >></b></summary>
+  <summary><b>Click here to see an example of a binary helper sensor</b></summary>
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # configuration.yaml
-binary_sensor:
-  - platform: template
-    sensors:
-      overlay_x:
-        friendly_name: "overlay x"
-        value_template: >-
-          {% if is_state('sensor.motion_illuminance_lux', 1) > 5 %}
-             on
-          {% else %}
-             off
-          {% endif %}
+template:
+  - binary_sensor:
+      - name: "Overlay x"
+        unique_id: overlay_x
+        state: >-
+          {{ is_state('sensor.motion_illuminance_lux', 1) > 5 }}
 {% endraw %}
 ```
 </details>
@@ -380,7 +389,7 @@ binary_sensor:
 Overlay based on a smart plug status.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # Dashboard card code
 - type: image
   entity: binary_sensor.overlay_x
@@ -409,9 +418,16 @@ The higher it is in your YAML file, the higher it is in the layer order.
 
 ---
 
-That is it from my side.
+That's it from my side.
 I hope this information is useful and inspires you to create your own interactive floor plan in Home Assistant.
 
 ---
 
-[<< See also my other Home Assistant tips and tricks](index)
+## Related articles
+
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="index">
+<img src="/homeassistant/images/ha_banner.png" alt="Home Assistant dashboards" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant dashboards</strong><p>See also my other Home Assistant tips and tricks.</p></div>
+</a>
+</div>

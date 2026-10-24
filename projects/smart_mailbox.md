@@ -261,13 +261,13 @@ With this code it will create a new sensor called `sensor.mailbox_timer`.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    mailbox_timer:
-      friendly_name: mailbox
-      icon_template: mdi:clock-outline
-      value_template: >
-        {{ relative_time(states.binary_sensor.contact_mailbox_contact.last_changed) }}
+template:
+  - sensor:
+      - name: "Mailbox timer"
+        unique_id: mailbox_timer
+        icon: mdi:clock-outline
+        state: >
+          {{ relative_time(states.binary_sensor.contact_mailbox_contact.last_changed) }}
 {% endraw %}
 ```
 
@@ -294,13 +294,13 @@ The custom sensor template:
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-     mail_recently_changed:
-          friendly_name: mailbox sensor triggered
-          icon_template: mdi:radar
-          value_template: >
-             {{ (now() - states.binary_sensor.contact_mailbox_contact.last_changed).total_seconds() < 120 }}
+template:
+  - binary_sensor:
+      - name: "Mail recently changed"
+        unique_id: mail_recently_changed
+        icon: mdi:radar
+        state: >
+          {{ (now() - states.binary_sensor.contact_mailbox_contact.last_changed).total_seconds() < 120 }}
 {% endraw %}
 ```
 

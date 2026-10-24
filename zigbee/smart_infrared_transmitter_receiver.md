@@ -222,18 +222,17 @@ This can be done by creating a helper on/off switch, or with a button card.
 
 You can define a helper in the [graphical interface](/homeassistant/homeassistant_templates#via-the-frontend), then you only need to define the turn on and turn off mqtt.publish action with the topic and payload.
 See this `configuration.yaml` definition for how it can also be defined in code.
-The graphical interface does not allow the fields `value_template` and `assumed_state` to be defined.
+The graphical interface does not allow the `state` template and `assumed_state` to be defined.
 
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
 # configuration.yaml
-switch:
-  - platform: template
-    switches:
-      ac_ir:
-        friendly_name: "AC"
-        icon_template: mdi:air-conditioner
+template:
+  - switch:
+      - name: "AC"
+        unique_id: ac_ir
+        icon: mdi:air-conditioner
         turn_on:
           action: mqtt.publish
           data:
@@ -244,7 +243,7 @@ switch:
           data:
             topic: zigbee2mqtt/irremote/set
             payload: '{"ir_code_to_send":"<OFF_CODE_HERE>"}'
-        value_template: "{{ is_state('input_boolean.ac_state', 'on') }}"
+        state: "{{ is_state('input_boolean.ac_state', 'on') }}"
         assumed_state: true
 {% endraw %}
 ```

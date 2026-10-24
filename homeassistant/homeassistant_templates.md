@@ -91,30 +91,26 @@ All template entities should be created under the same `template:` key.
 
 ##### Example directory structure
 
-In the `configuration.yaml`, you can add a line that links to a file with your templates, for example a file only for binary sensors.
-Add the line `binary_sensor: !include binary_sensor.yaml` to the configuration file.
-Place the file `binary_sensor.yaml` in the root next to the configuration file.
+In the `configuration.yaml`, you can add a line that links to a file with your templates, for example a file with binary sensors.
+Add the line `template: !include template.yaml` to the configuration file.
+Place the file `template.yaml` in the root next to the configuration file.
 That file can look like this:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
-# binary_sensor.yaml
-- platform: template
-  sensors:
-    office_chair: # your defined name
-      friendly_name: "office chair"
-      value_template: >-
-        {% if is_state('binary_sensor.contact10_contact', 'off') %}
-           on
-        {% else %}
-           off
-        {% endif %}
+# template.yaml
+template:
+  - binary_sensor:
+      - name: "Office chair"
+        unique_id: office_chair
+        state: >-
+          {{ is_state('binary_sensor.contact10_contact', 'off') }}
 {% endraw %}
 ```
 
 You can also create a directory and place multiple files in it, one for each different subject.
 This makes it very clear and maintainable.
-Create a directory, for example called `sensors`, in the Home Assistant root.
+Create a directory, for example called `templates`, in the Home Assistant root.
 Now create the different `.yaml` files in it.
 This way, you do not have to specify each filename in the configuration file, and all files in this directory will be included.
 Use the following definition in `configuration.yaml` to accomplish this:
@@ -124,8 +120,7 @@ Use the following definition in `configuration.yaml` to accomplish this:
 # Source code by vdbrink.github.io
 # configuration.yaml
 ...
-sensor: !include_dir_merge_list sensors/
-binary_sensor: !include binary_sensor.yaml
+template: !include_dir_merge_list templates/
 {% endraw %}
 ```
 
@@ -140,7 +135,7 @@ This button opens the **Helpers** page directly in your Home Assistant:
 Select the bottom-right button `+ Create Helper`,
 then choose **Template** and one of the two options: **Template a sensor** or **Template a binary sensor**.
 
-Copy the `value_template` part from the examples below and add it in the visual editor under **State template**.
+Copy the `state` part from the examples below and add it in the visual editor under **State template**.
 
 In this example animation, a (binary) template is created to check if the current month is August.
 
@@ -444,7 +439,7 @@ such as a wedding, the birth of a child, a birthday, Christmas, or, in this exam
 
 First, you need to create two helpers:
 * One to define the date itself, which can be done with a `Date and/or time` helper;
-* The other to calculate the difference between the date and today, which can be done with a `template a sensor` helper.
+* The other to calculate the difference between the date and today, which can be done with a `Template a sensor` helper.
 <br>
 
 [Check here (also on this page) how to create these two helpers via the frontend.](#via-the-frontend)
@@ -580,9 +575,9 @@ This sensor will be named `sensor.waste_tomorrow`.
 # configuration.yaml
 template:
   - sensor:
-      waste_tomorrow:
-        friendly_name: tomorrow bin day
-        value_template: >
+      - name: "Waste tomorrow"
+        unique_id: waste_tomorrow
+        state: >
           {{
             is_state('sensor.gft_waste_pickup_countdown', '1') or
             is_state('sensor.paper_waste_pickup_countdown', '1') or
@@ -631,11 +626,11 @@ Used in my [snail mail detection](/projects/smart_mailbox).
 # Source code by vdbrink.github.io
 # configuration.yaml
 template:
-  - sensor:
-      mailbox_recently_changed:
-        friendly_name: "Mail delivered last 30 minutes"
-        icon_template: mdi:radar
-        value_template: >
+  - binary_sensor:
+      - name: "Mailbox recently changed"
+        unique_id: mailbox_recently_changed
+        icon: mdi:radar
+        state: >
           {{ (now() - states.binary_sensor.contact2_contact.last_changed).total_seconds() < 1800 }}
 {% endraw %}
 ```

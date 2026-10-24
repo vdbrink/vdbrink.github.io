@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant dashboard: Grafana integration"
 description: "Integrate Grafana dashboard into Home Assistant"
-categories: [Home Assistant, Grafana]
+category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, Grafana, graphs, influxdb]
 image: /homeassistant/images_grafana/grafana_integration_dashboard.png
 ---
@@ -20,13 +20,14 @@ Here you can find how you can integrate Grafana graphs into your Home Assistant 
 InfluxDB can hold data for a much longer time than the internal Home Assistant database.
 For that reason, you want to compare, for example, data from last year to the current year.
 
-Grafana and InfluxDB have seamless integration with each other.
+Grafana and InfluxDB integrate seamlessly with each other.
 
 It's also possible to include these graphs, via the Home Assistant iframe panel, in your own dashboard.
 
 <img src="images_grafana/grafana_integration_dashboard.png" alt="Grafana integration in Home Assistant" height="400px" />
 
 ---
+
 ## Table of Contents
 <!-- TOC -->
   * [Grafana](#grafana)
@@ -35,10 +36,10 @@ It's also possible to include these graphs, via the Home Assistant iframe panel,
     * [Create a dashboard link](#create-a-dashboard-link)
     * [Link tips](#link-tips)
   * [Home Assistant](#home-assistant)
-    * [Grafana addon installation](#grafana-addon-installation)
+    * [Grafana add-on installation](#grafana-addon-installation)
     * [Include Grafana graph](#include-grafana-graph)
-    * [Conditional Grafana Graph](#conditional-grafana-graph)
-    * [Grafana dashboard as full View dashboard](#grafana-dashboard-as-full-view-dashboard)
+    * [Conditional Grafana graph](#conditional-grafana-graph)
+    * [Grafana dashboard as full view dashboard](#grafana-dashboard-as-full-view-dashboard)
 <!-- TOC -->
 
 ---
@@ -51,27 +52,28 @@ By default, it's not possible to directly include Grafana graphs in Home Assista
 
 First, you need to add an extra environment variable or setting in grafana.ini to allow rendering in an iframe.
 
-**Via HA Grafana addon configuration:**
+**Via HA Grafana add-on configuration:**
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
-# Addon configuration
+# Source code by vdbrink.github.io
+# Add-on configuration
 env_vars:
   - name: GF_SECURITY_ALLOW_EMBEDDING
-  value: "true"
+    value: "true"
 {% endraw %}
 ```
 
 **Or via Docker environment settings:**
 ```yaml
- environment:
-      - GF_SECURITY_ALLOW_EMBEDDING=true 
+environment:
+  - GF_SECURITY_ALLOW_EMBEDDING=true
 ```
 
 **Or via Grafana's own grafana.ini file:**
-````yaml
+```ini
+[security]
 allow_embedding = true
-````
+```
 
 ---
 
@@ -83,9 +85,9 @@ Go to your graph, click on the title, and select `Share`.
 
 <img src="images_grafana/grafana_export_single_graph.png" alt="Grafana Share graph" width="300px">
 
-Disable the `Lock time range` option, and choose a Theme.
+Disable the `Lock time range` option, and choose a theme.
 
-<img src="images_grafana/grafana_share_link.png" alt="Grafana as dashboard card" width="450px">
+<img src="images_grafana/grafana_share_link.png" alt="Grafana share link" width="450px">
 
 Now, you have the graph URL to [include in HA](#include-grafana-graph)!
 
@@ -93,7 +95,7 @@ Now, you have the graph URL to [include in HA](#include-grafana-graph)!
 
 To get a full Grafana dashboard link, go to the dashboard and click on the share icon behind the dashboard title.
 
-Disable the `Lock time range` option, and choose a Theme.
+Disable the `Lock time range` option, and choose a theme.
 
 <img src="images_grafana/grafana_export_dashboard.png" alt="Export Grafana dashboard" width="450px">
 
@@ -101,23 +103,24 @@ Now, you have the dashboard URL to [include in HA](#grafana-dashboard-as-full-vi
 
 ### Link tips
 
-You can add extra parameters to the url to change the way the data is presented.
+You can add extra parameters to the URL to change the way the data is presented.
 
 | Parameter           | Description                    |
 |---------------------|--------------------------------|
 | kiosk               | Hide the option buttons        |
-| from=now-1h&to=now  | Show last hour data            |
-| from=now-24h&to=now | Show last 24 hour data         |
+| from=now-1h&to=now  | Show data from the last hour            |
+| from=now-24h&to=now | Show data from the last 24 hours         |
 | refresh=10s         | Refresh graph every 10 seconds |
+
 ---
 
 ## Home Assistant
 
-### Grafana addon installation
+### Grafana add-on installation
 
-Use this button to install Grafana as addon if you use the Home Assistant OS or Supervised. 
+Use this button to install Grafana as an add-on if you use the Home Assistant OS or Supervised.
 Otherwise, you need to install it manually.
-This is possible via [Docker](/docker/index#grafana)
+This is possible via [Docker](/docker/index#grafana).
 
 <a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana&amp;repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository" rel="nofollow"><img src="https://camo.githubusercontent.com/a54868bd2c4edb2d623ab2fef3d074fe711b45c2c1cdc0fbe4dfd296faa594f8/68747470733a2f2f6d792e686f6d652d617373697374616e742e696f2f6261646765732f73757065727669736f725f6164646f6e2e737667" alt="Open this add-on in your Home Assistant instance." data-canonical-src="https://my.home-assistant.io/badges/supervisor_addon.svg" style="max-width: 100%;"></a>
 
@@ -125,12 +128,12 @@ This is possible via [Docker](/docker/index#grafana)
 
 Add a `Webpage Card` (a.k.a. `iframe`) to your dashboard with the next settings:
 * Without a title
-* Set the URL to http://{grafana-host}:3000/{path}orgId=1&kiosk=tv
+* Set the URL to http://{grafana-host}:3000/{path}?orgId=1&kiosk=tv
 * Set the Aspect ratio to 100%
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # dashboard element code
 type: iframe
 aspect_ratio: 100%
@@ -148,7 +151,7 @@ Now you see the Grafana graph integrated in your Home Assistant dashboard!
 ### Conditional Grafana Graph
 
 If you only want to show the graph when it reaches a threshold, you can use the conditional card.\
-First, set the matching condition which has to match and then what to show. In this case `sensor.value_correct`must have value `0`.\
+First, set the condition that has to match, and then what to show. In this case `sensor.value_correct` must have value `0`.\
 Then it will show the Grafana graph.
 
 ```yaml
@@ -160,7 +163,7 @@ Then it will show the Grafana graph.
   card:
       type: iframe
       url: >-
-      http://{grafana-host}:3000/{path}?orgId=1&refresh=1m&kiosk&viewPanel=11
+        http://{grafana-host}:3000/{path}?orgId=1&refresh=1m&kiosk&viewPanel=11
       aspect_ratio: '4:3'
 ```
 
@@ -169,7 +172,7 @@ Then it will show the Grafana graph.
 ### Grafana dashboard as full View dashboard
 
 When you're already happy with your Grafana dashboard, it's also possible to include this whole page in Home Assistant.\
-To load this, take the next steps:
+To do this, follow these steps:
 * Create a new View in Home Assistant, and set these settings:
   * Give it a title
   * Add an icon, for example: `mdi:chart-bell-curve-cumulative`
@@ -194,4 +197,11 @@ Any questions or still unclear? Please let me know where I can improve it.
 
 ---
 
-[<< See also my other Home Assistant tips and tricks](index)
+## Related articles
+
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="index">
+<img src="/homeassistant/images/ha_banner.png" alt="Home Assistant dashboards" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant dashboards</strong><p>See also my other Home Assistant tips and tricks.</p></div>
+</a>
+</div>

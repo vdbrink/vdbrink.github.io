@@ -33,12 +33,12 @@ The value of 24.3 will round to 24 and 24.6 will round to 25.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    temp1_temperature_rounded:
-      friendly_name: "woonkamer"
-      unit_of_measurement: "°C"
-      value_template: "{{ states('sensor.temp_woonkamer') | round(0) }}"
+template:
+  - sensor:
+      - name: "Temp1 temperature rounded"
+        unique_id: temp1_temperature_rounded
+        unit_of_measurement: "°C"
+        state: "{{ states('sensor.temp_woonkamer') | round(0) }}"
 {% endraw %}
 ```
 

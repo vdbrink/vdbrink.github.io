@@ -76,18 +76,18 @@ The current time and full date in Dutch notation.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    time_date_formatted:
-      friendly_name: "Tijd en datum"
-      value_template: >-
-        {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
-        {% set day = days[now().weekday()] %}
-        {% set day_short = day[0:2] %}
-        {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
-        {% set month = months[now().month - 1] %}
-        {{ now().strftime('%H:%M') ~ ', ' ~ day_short ~ ' ' ~ now().day ~ ' ' ~ month ~ ' ' ~ now().strftime('%Y') }}
-      icon_template: mdi:calendar-clock
+template:
+  - sensor:
+      - name: "Tijd en datum"
+        unique_id: time_date_formatted
+        state: >-
+          {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
+          {% set day = days[now().weekday()] %}
+          {% set day_short = day[0:2] %}
+          {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
+          {% set month = months[now().month - 1] %}
+          {{ now().strftime('%H:%M') ~ ', ' ~ day_short ~ ' ' ~ now().day ~ ' ' ~ month ~ ' ' ~ now().strftime('%Y') }}
+        icon: mdi:calendar-clock
 {% endraw %}
 ```
 <br>
@@ -113,18 +113,18 @@ The date formatted like this: `zo 4 januari 2026`.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    date_only_formatted:
-      friendly_name: "Datum"
-      value_template: >-
-        {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
-        {% set day = days[now().weekday()] %}
-        {% set day_short = day[0:2] %}
-        {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
-        {% set month = months[now().month - 1] %}
-        {{ day_short ~ ' ' ~ now().day ~ ' ' ~ month ~ ' ' ~ now().strftime('%Y') }}
-      icon_template: mdi:calendar-clock
+template:
+  - sensor:
+      - name: "Datum"
+        unique_id: date_only_formatted
+        state: >-
+          {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
+          {% set day = days[now().weekday()] %}
+          {% set day_short = day[0:2] %}
+          {% set months = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"] %}
+          {% set month = months[now().month - 1] %}
+          {{ day_short ~ ' ' ~ now().day ~ ' ' ~ month ~ ' ' ~ now().strftime('%Y') }}
+        icon: mdi:calendar-clock
 {% endraw %}
 ```
 
@@ -139,14 +139,14 @@ Current day of the week in Dutch.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    day_of_the_week_full:
-      friendly_name: "Dag van de week"
-      value_template: >-
-        {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
-        {% set day = days[now().weekday()] %}
-        {{ day }}
+template:
+  - sensor:
+      - name: "Dag van de week"
+        unique_id: day_of_the_week_full
+        state: >-
+          {% set days = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"] %}
+          {% set day = days[now().weekday()] %}
+          {{ day }}
 {% endraw %}
 ```
 
@@ -167,17 +167,17 @@ With this template it gives the number of days from now.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    paper_waste_pickup_countdown:
-      friendly_name: "papier ophalen"
-      value_template: >-
-         {% set now_timestamp = as_timestamp(strptime(states("sensor.date"), "%Y-%m-%d")) %}
-         {% set paper_timestamp = as_timestamp(strptime(states("sensor.paper_waste_pickup"), "%Y-%m-%d")) %}
-         {% set days = ((paper_timestamp - now_timestamp) / (24 * 60 * 60)) | round(0, 'ceil')  %}
-         {{ days }}
-      icon_template: mdi:delete-empty
-      unit_of_measurement: "dagen"
+template:
+  - sensor:
+      - name: "Paper waste pickup countdown"
+        unique_id: paper_waste_pickup_countdown
+        state: >-
+           {% set now_timestamp = as_timestamp(strptime(states("sensor.date"), "%Y-%m-%d")) %}
+           {% set paper_timestamp = as_timestamp(strptime(states("sensor.paper_waste_pickup"), "%Y-%m-%d")) %}
+           {% set days = ((paper_timestamp - now_timestamp) / (24 * 60 * 60)) | round(0, 'ceil')  %}
+           {{ days }}
+        icon: mdi:delete-empty
+        unit_of_measurement: "dagen"
 {% endraw %}
 ```
 
@@ -191,15 +191,15 @@ With this template it gives the number of days from now.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    paper_waste_pickup_countdown:
-      friendly_name: "papier ophalen"
-      value_template: >-
-        {% set datex = state_attr('sensor.wastecollector_papier','Sort_date') | string %}
-        {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-      icon_template: mdi:delete-empty
-      unit_of_measurement: "dagen"
+template:
+  - sensor:
+      - name: "Paper waste pickup countdown"
+        unique_id: paper_waste_pickup_countdown
+        state: >-
+          {% set datex = state_attr('sensor.wastecollector_papier','Sort_date') | string %}
+          {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
+        icon: mdi:delete-empty
+        unit_of_measurement: "dagen"
 {% endraw %}
 ```
 
@@ -300,16 +300,16 @@ The value 11.3 will round to 11 and also 11.6 will round to 11 hours.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-- platform: template
-  sensors:
-    drawer_opened_hours_ago:
-      friendly_name: "la geopend"
-      value_template: >-
-        {% set now_timestamp = as_timestamp(now()) %}
-        {% set drawer_timestamp = as_timestamp(states.binary_sensor.drawer_contact.last_changed) %}
-        {% set hours = ((now_timestamp - drawer_timestamp) / (60 * 60)) | round(0, 'ceil')  %}
-        {{ hours }}
-      unit_of_measurement: "uren"
+template:
+  - sensor:
+      - name: "Drawer opened hours ago"
+        unique_id: drawer_opened_hours_ago
+        state: >-
+          {% set now_timestamp = as_timestamp(now()) %}
+          {% set drawer_timestamp = as_timestamp(states.binary_sensor.drawer_contact.last_changed) %}
+          {% set hours = ((now_timestamp - drawer_timestamp) / (60 * 60)) | round(0, 'ceil')  %}
+          {{ hours }}
+        unit_of_measurement: "uren"
 {% endraw %}
 ```
 ---
@@ -340,11 +340,13 @@ Also useful to show on a floor map.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-mailbox_timer:
-  friendly_name: mailbox
-  icon_template: mdi:clock-outline
-  value_template: >
-    {{ relative_time(states.binary_sensor.mailbox_contact.last_changed) }}
+template:
+  - sensor:
+      - name: "Mailbox timer"
+        unique_id: mailbox_timer
+        icon: mdi:clock-outline
+        state: >
+          {{ relative_time(states.binary_sensor.mailbox_contact.last_changed) }}
 {% endraw %}
 ```
 
@@ -357,12 +359,11 @@ Test if the robot vacuum has already run today.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-binary_sensor:
-  - platform: template
-    sensors:
-       vaccuum_run_today:
-            friendly_name: "runned today"
-            value_template: "{{ as_local(as_datetime(states("sensor.vacuum_last_clean_start"))).date() == now().date() }}"
+template:
+  - binary_sensor:
+      - name: "Vacuum run today"
+        unique_id: vaccuum_run_today
+        state: "{{ as_local(as_datetime(states('sensor.vacuum_last_clean_start'))).date() == now().date() }}"
 {% endraw %}
 ```
 

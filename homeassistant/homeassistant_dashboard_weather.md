@@ -230,16 +230,16 @@ A template that indicates good or bad based on a threshold value.
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # Dashboard card code
-- platform: template
-  sensors:
-    temp_pressure_ok:
-      friendly_name: "temp_pressure_ok"
-      value_template: >-
-        {% if states('sensor.temp_outside_pressure') | int > 1000 %}
-          good
-        {% else %}
-          bad
-        {% endif %}
+template:
+  - sensor:
+      - name: "Temp pressure ok"
+        unique_id: temp_pressure_ok
+        state: >-
+          {% if states('sensor.temp_outside_pressure') | int > 1000 %}
+            good
+          {% else %}
+            bad
+          {% endif %}
 {% endraw %}
 ```
 

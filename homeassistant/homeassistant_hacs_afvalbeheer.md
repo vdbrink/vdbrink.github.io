@@ -276,45 +276,38 @@ Add this to `configuration.yaml` (or add it to `sensor.yaml` without the first `
 {% raw %}
 # Sourcecode by vdbrink.github.io
 # configuration.yaml
-sensor:
-  - platform: template
-    sensors:
-      paper_waste_pickup_countdown:
-        friendly_name: "papier ophalen"
-        value_template: >-
+template:
+  - sensor:
+      - name: "Paper waste pickup countdown"
+        unique_id: paper_waste_pickup_countdown
+        state: >-
           {% set datex = state_attr('sensor.cyclus_papier','Sort_date') | string %}
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-        icon_template: mdi:delete-empty
+        icon: mdi:delete-empty
         unit_of_measurement: "dagen"
 
-  - platform: template
-    sensors:
-      gft_waste_pickup_countdown:
-        friendly_name: "GFT ophalen"
-        value_template: >-
+      - name: "Gft waste pickup countdown"
+        unique_id: gft_waste_pickup_countdown
+        state: >-
           {% set datex = state_attr('sensor.cyclus_gft','Sort_date') | string %}
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-        icon_template: mdi:delete-empty
+        icon: mdi:delete-empty
         unit_of_measurement: "dagen"
 
-  - platform: template
-    sensors:
-      rest_waste_pickup_countdown:
-        friendly_name: "restafval ophalen"
-        value_template: >-
+      - name: "Rest waste pickup countdown"
+        unique_id: rest_waste_pickup_countdown
+        state: >-
           {% set datex = state_attr('sensor.cyclus_restafval','Sort_date') | string %}
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-        icon_template: mdi:delete-empty
+        icon: mdi:delete-empty
         unit_of_measurement: "dagen"
 
-  - platform: template
-    sensors:
-      plastic_waste_pickup_countdown:
-        friendly_name: "plastic ophalen"
-        value_template: >-
+      - name: "Plastic waste pickup countdown"
+        unique_id: plastic_waste_pickup_countdown
+        state: >-
           {% set datex = state_attr('sensor.cyclus_pmd','Sort_date') | string %}
           {{ ((as_timestamp(strptime(datex, '%Y%m%d')) - as_timestamp(now())) / (60 * 60 * 24)) | round(0, 'ceil')  }}
-        icon_template: mdi:delete-empty
+        icon: mdi:delete-empty
         unit_of_measurement: "dagen"
 {% endraw %}
 ```
@@ -408,9 +401,9 @@ This sensor will be `sensor.waste_tomorrow`.
 # configuration.yaml
 template:
   - sensor:
-      waste_tomorrow:
-        friendly_name: tomorrow bin day
-        value_template: >
+      - name: "Waste tomorrow"
+        unique_id: waste_tomorrow
+        state: >
           {{
             is_state('sensor.gft_waste_pickup_countdown', '1') or
             is_state('sensor.paper_waste_pickup_countdown', '1') or
