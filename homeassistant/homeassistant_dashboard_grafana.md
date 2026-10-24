@@ -36,7 +36,7 @@ It's also possible to include these graphs, via the Home Assistant iframe panel,
     * [Create a dashboard link](#create-a-dashboard-link)
     * [Link tips](#link-tips)
   * [Home Assistant](#home-assistant)
-    * [Grafana add-on installation](#grafana-addon-installation)
+    * [Grafana add-on installation](#grafana-add-on-installation)
     * [Include Grafana graph](#include-grafana-graph)
     * [Conditional Grafana graph](#conditional-grafana-graph)
     * [Grafana dashboard as full view dashboard](#grafana-dashboard-as-full-view-dashboard)

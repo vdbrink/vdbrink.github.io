@@ -82,8 +82,8 @@ Before you begin, explore examples of floor plans created by others to find insp
 Choose one that you like and use it as a reference for your own design.
 
 Here are some sites where you can find such examples:
-* <a href="https://www.google.com/search?q=floorplan+home+assistant&source=lnms&tbm=isch" target="_blank">Google: floorplan Home Assistant</a>
-* <a href="https://www.pinterest.com/search/pins/?q=floorplan%20home%20assistant&rs=typed" target="_blank">Pinterest: floorplan Home Assistant</a>
+* <a href="https://www.google.com/search?q=floorplan+home+assistant&source=lnms&tbm=isch" target="_blank">Google: floor plan Home Assistant</a>
+* <a href="https://www.pinterest.com/search/pins/?q=floorplan%20home%20assistant&rs=typed" target="_blank">Pinterest: floor plan Home Assistant</a>
 * <a href="https://github.com/theone11/HomeAssistantConfig" target="_blank">https://github.com/theone11/HomeAssistantConfig</a>
 
 ---
@@ -112,7 +112,7 @@ This is also the tool I used for my floor plan.
 [Sweet Home 3D](https://www.sweethome3d.com/) is an application you need to install on your PC. It is available for all desktop platforms.
 
 * You have your own data locally
-* It has realistic light effects which you can use as overlay
+* It has realistic light effects which you can use as an overlay
 
 With this [Home Assistant Floor Plan Generator Plugin](https://github.com/shmuelzon/home-assistant-floor-plan/) you can export images directly in a format you can use in Home Assistant.
 
@@ -386,7 +386,7 @@ template:
 ```
 </details>
 
-Overlay based on a smart plug status.
+Overlay based on the binary helper sensor.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io

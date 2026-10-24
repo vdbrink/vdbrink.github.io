@@ -8,14 +8,13 @@ image: /homeassistant/images_autoentities/temp_round_sorted_color-autoentities.p
 
 # Home Assistant dashboard custom element: Auto-entities
 
-
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard examples from the custom HACS card element **auto-entities** which you can add to your own dashboards.
+Here you find Home Assistant (Lovelace) dashboard examples from the custom HACS card element **auto-entities** which you can add to your own dashboards.
 
-Auto-entities is a very powerful addon card that can let you make dynamic entity lists based on (multiple) filters, include and exclude entities, different types of sorting and presenting.
+Auto-entities is a very powerful add-on card that can let you make dynamic entity lists based on (multiple) filters, include and exclude entities, different types of sorting and presenting.
 
-The git repository with also all options and some examples can be found at [https://github.com/thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities)
+The git repository, which also has all options and some examples, can be found at [https://github.com/thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities)
 
 Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
@@ -86,10 +85,10 @@ sort:
 ## Humidity (rounded, sorted and colored)
 
 Show all humidity sensors in order of their humidity from high to low
-and only when the value is higher or equal than 65%.\
-Hide sensor `temp12` and with value `unavailable`.\
+and only when the value is higher than 65%.\
+Hide sensor `temp12` and sensors with value `unavailable`.\
 Show the rounded humidity to a real number and for humidity higher than 70% red,
-higher 60% orange, higher than 55% white.
+higher than 60% orange, higher than 55% white.
 
 ```yaml
 {% raw %}
@@ -185,7 +184,7 @@ filter:
 ---
 ## Latest activities (motions and doors)
 
-Show the latest 10 active motion-, presence- and contact door sensors which are changed in the last 30 minutes.
+Show the latest 10 active motion- and contact door sensors that changed in the last 30 minutes.
 
 <img src="images_autoentities/latest-activities-autoentities.png" alt="Latest activities (motions and doors)" width="400px">
 
@@ -225,7 +224,7 @@ Show which windows are open.
 
 <img src="images_autoentities/open-windows.png" alt="open windows" width="400px">
 
-Example 2: based on `device_class`= `window`.
+Example 1: based on `device_class` = `window`.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -281,7 +280,7 @@ show_empty: true
 ## Missing devices
 
 Show devices which didn't trigger an update for the last 24 hours.
-You can fine tune this by including or excluding specific devices.
+You can fine-tune this by including or excluding specific devices.
 
 <img src="images_autoentities/missing-devices-autoentities.png" alt="Missing devices" width="400px">
 
@@ -366,7 +365,7 @@ filter:
 ---
 ## Upcoming week and sort by days
 
-For my waste bin pickups, I show how many days are left until they picked up.
+For my waste bin pickups, I show how many days are left until they are picked up.
 
 <img src="images_autoentities/waste-pickup-autoentities2.png" alt="Waste pickup upcoming days" width="400px">
 
@@ -428,7 +427,7 @@ Mushroom cards can also be shown conditionally, see my [conditional mushroom car
 
 ---
 ## Chores
-I created a [separate page](homeassistant_dashboard_chores) about this subject where I use multiple auto entities lists to show which chores must be done and which are already done.
+I created a [separate page](homeassistant_dashboard_chores) about this subject where I use multiple auto-entities lists to show which chores must be done and which are already done.
 
 ---
 

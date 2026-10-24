@@ -13,7 +13,7 @@ image: /esphome/orcon_images/wires_connected.jpg
 
 ## Introduction
 
-For a few years this project was on top of my automation wishlist. I tried different approaches to get this done, and now it works like a charm I want to share my solution and the knowledge I gathered over the years.  
+For a few years this project was on top of my automation wishlist. I tried different approaches to get this done, and now it works like a charm, I want to share my solution and the knowledge I gathered over the years.  
 
 I know there are many more people like me struggling to get this automated.
 
@@ -23,7 +23,7 @@ On this page, you can read all about how you can set it up yourself.
   <summary><b>> Click here to see all compatible Orcon systems >></b></summary>
 
 Because the Orcon remote 15RF is compatible with a lot of Orcon ventilation models, this solution will work if you have one of these models: 
- Compact-10RHB, MPV-10WRB, MVS-15R, MVS-15RH, MVS-15RHB, MVS-5RHBP, MVS-15RH, HRC-300/400-15BRH, HRC-300/400BRPH-15, HRC-220/225-15BR, HRC-300/400/500, HRC-425/570, HRC-350/450.
+ Compact-10RHB, MPV-10WRB, MVS-15R, MVS-15RH, MVS-15RHB, MVS-5RHBP, HRC-300/400-15BRH, HRC-300/400BRPH-15, HRC-220/225-15BR, HRC-300/400/500, HRC-425/570, HRC-350/450.
 </details>
 
 ## My solution
@@ -37,7 +37,7 @@ I created three different designs to control it to see which one I like the most
 
 <a href="#home-assistant-dashboard-remotes"><img src="orcon_images/home_assistant_orcon_remote_all_types.jpg" alt="Home Assistant dashboard" title="Home Assistant dashboard" width="411px"></a>
 
-I can also automatic trigger it, via MQTT, from Node-RED based on different sensors around the house.
+I can also automatically trigger it, via MQTT, from Node-RED based on different sensors around the house.
 
 ---
 
@@ -70,7 +70,7 @@ A schematic presentation of how my solution works and which protocols are used.
 
 ## Required hardware
 
-These hardware components do I use for this project:
+These are the hardware components I use for this project:
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
@@ -135,19 +135,19 @@ See [Zigbee Best Buy links](/buy/smart_home_best_buy_tips) for more Zigbee senso
 
 ## Connect the hardware
 
-I've made close-up photos and a table how everything is connected.
+I've made close-up photos and a table showing how everything is connected.
 
-### Connect the RF15 remote to the ESP
+### Connect the 15RF remote to the ESP
 
 >  Click on the image to see the full photos of the connected wires.
 
-| Connected pins close up                                                                                           | All connected cables                                                                                                         | Pins on a ESP8266 MCU v3                                                                                                                |
+| Connected pins close up                                                                                           | All connected cables                                                                                                         | Pins on an ESP8266 NodeMCU v3                                                                                                                |
 |:------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="orcon_images/esp_wires.jpg"><img src="orcon_images/esp_wires.jpg" alt="ESP wires" height="300px" /></a>  | <a href="orcon_images/wires_connected.jpg"><img src="orcon_images/wires_connected.jpg" alt="ESP wires" height="300px"/></a>  | <a href="images/pins_esp8266_mcu_v3.jpg"><img src="images/pins_esp8266_mcu_v3.jpg" alt="Pins on a ESP8266 MCU v3" height="300px"/></a>  |
+| <a href="orcon_images/esp_wires.jpg"><img src="orcon_images/esp_wires.jpg" alt="Connected pins close up" height="300px" /></a>  | <a href="orcon_images/wires_connected.jpg"><img src="orcon_images/wires_connected.jpg" alt="All connected cables" height="300px"/></a>  | <a href="images/pins_esp8266_mcu_v3.jpg"><img src="images/pins_esp8266_mcu_v3.jpg" alt="Pins on an ESP8266 NodeMCU v3" height="300px"/></a>  |
 
-This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the dupont cables with the ESP.
+This table shows how the Orcon remote is connected, via the flat cable to the adapter, via the Dupont cables to the ESP.
 
-> UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order or ground is on an other pin (2 vs 3).
+> UPDATE: I heard from implementers that the adapter pin numbering can also be in reverse order or ground is on another pin (2 vs 3).
 Please let me know which one is correct for you via [this issue](https://github.com/vdbrink/vdbrink.github.io/issues/2).
 
 | Flat cable +<br>adapter pin | 15RF remote button | Dupont cable color | ESP pin |
@@ -163,12 +163,12 @@ Please let me know which one is correct for you via [this issue](https://github.
 
 > *I haven't connected the 'timer' and 'away' buttons because I don't use them.
 
-You can also replace the 3V CR 2032 battery from the remote and connect it to the ESP which can also provide the required 3V.
+You can also replace the 3V CR2032 battery from the remote and connect the remote to the ESP, which can also provide the required 3V.
 
 ### Connect the smart socket
 
 Place the smart power socket between the Orcon and the power wall plug.\
-Based on the used power I can determ the current state.
+Based on the used power I can determine the current state.
 
 ---
 
@@ -177,7 +177,7 @@ Based on the used power I can determ the current state.
 
 ### Functionality
 With ESPHome you can flash the ESP8266 with software to trigger the connected remote buttons by using the momentary switch functionality. This puts, for a few moments, a signal on a pin. This simulates a press on the button.
-Because the ESP8266 has wifi access, you can control this from any device in the network.
+Because the ESP8266 has WiFi access, you can control this from any device in the network.
 
 ### Why ESPHome
 ESPHome has seamless integration with Home Assistant and supports MQTT out of the box. This is all I need.
@@ -187,7 +187,7 @@ In the code, there are also these two ways defined to control the ESP. One via t
 
 Connect the ESP via USB to the computer.  
 
-Install ESPHome and compile the configuration code after you configured your own wifi. And configure (or remove) the MQTT section.
+Install ESPHome and compile the configuration code after you have configured your own WiFi, and configure (or remove) the MQTT section.
 
 For more information about installing and flashing your ESP with ESPHome see the [ESPHome website](https://esphome.io/guides/getting_started_command_line.html) or [Peyanski ESPHome Installation Guide](https://peyanski.com/complete-esphome-installation-guide/#How_to_properly_connect_an_ESP_device_for_ESPHome_install).
 
@@ -307,14 +307,14 @@ mqtt:
 ```
 </details>
 
-> The remote has also three timer modes: 15/30/60 minutes.
-If you want to add these also to your script checkout [this message](https://community.home-assistant.io/t/binary-template-sensor-not-woring/224593/23)  
+> The remote also has three timer modes: 15/30/60 minutes.
+If you want to add these also to your script, check out [this message](https://community.home-assistant.io/t/binary-template-sensor-not-woring/224593/23)  
 If you want to read all about the remote possibilities, I placed a link to the Dutch manual in the [References](#references) chapter.
 
 #### Problems with flashing
-* Flash succeeds, but he won't connect to my WiFi network.
+* Flash succeeds, but it won't connect to my WiFi network.
  <img src="orcon_images/error_flash_ip_address.jpg" alt="IP failed" height="300px"/>
-  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network, but if it has the same name, he still tries to. You can test if that's the case by disabling the 5GHz network mode on your router and see if the ESP now gets an IP-address correct.
+  * Make sure you use a different name for your 2.4 GHz network and another name for your 5 GHz network. The ESP can't connect to a 5 GHz network, but if it has the same name, it still tries to. You can test if that's the case by disabling the 5 GHz network mode on your router and see if the ESP now gets an IP-address correctly.
   <img src="orcon_images/flash_esphome_with_ip.jpg" alt="IP failed" height="300px"/>
 * Make sure you see a "SUCCESS" message in the SUMMARY after flashing and not any red error messages.
   * Maybe the indenting is not correct. YAML is strict with a correct indenting. You can try [https://www.yamllint.com](https://www.yamllint.com) to validate. 
@@ -324,18 +324,20 @@ If you want to read all about the remote possibilities, I placed a link to the D
 
 I used the original remote touchpad to pair it with the system.
 
-To register the 15RF Orcon remote as extra remote to the ventilation system, you need to shut down the power and power up again the ventilation system. For 3 minutes it's now in pairing mode. press the `auto` and `1` buttons at the same time. When the LED on the remote starts blinking green and red, it's paired.
+To register the 15RF Orcon remote as an extra remote to the ventilation system, you need to shut down the power and power up the ventilation system again. For 3 minutes it's now in pairing mode. 
+Press the `auto` and `1` buttons at the same time. 
+When the LED on the remote starts blinking green and red, it's paired.
 
-If you have another remote, this is still paired and don't need to pair it again.
+If you have another remote, it is still paired and you don't need to pair it again.
 
-Now you can unplug the data cable from the touchpad and connect it to the flatcable. This has no effect on the paired status.
+Now you can unplug the data cable from the touchpad and connect it to the flat cable. This has no effect on the paired status.
 
-<img src="orcon_images/remote_vs_esp.jpg" alt="ESP wires" height="300px" />
+<img src="orcon_images/remote_vs_esp.jpg" alt="Orcon remote connected to the ESP" height="300px" />
 
 ---
 ## Test if it works
 ### Via MQTT
-One way to test if the ESP now works is to send a MQTT message.  
+One way to test if the ESP now works is to send an MQTT message.  
 On Windows you can use MQTT Explorer. Send an empty body to topic `orcon_mcu/mode_3` and listen if the system spins up.
 
 ### Via Home Assistant
@@ -356,15 +358,15 @@ When you click on the device link, you see the defined buttons from the script.
 
 You can now toggle the switches to test if you can control it now from Home Assistant.
 
-With these controls, it's only a one-way communication, you can only send data to the ESP. 
-To get feedback of the current active mode, you also need to read the power consumption of your system.
+With these controls, it's only one-way communication: you can only send data to the ESP. 
+To get feedback on the currently active mode, you also need to read the power consumption of your system.
 
 ---
 ## Read the current mode
 
 ### Background
 
-To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this will not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf EU SHP-15](../buy/zigbee_smart_socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system use a normal 240V power adapter and not via a Periflex adapter.
+To get the current mode of the ventilation system, you can read the last triggered button from the ESP. The downside is, this will not pick up the signal when another remote is used manually. For that purpose, I use a [BlitzWolf EU SHP-15](../buy/zigbee_smart_socket) Zigbee smart power socket with power measurement for the MVS-15. This will only work if your system uses a normal 240V power adapter and not a Periflex adapter.
 Based on the used power, I can determine the current mode, and present that in Home Assistant via MQTT.
 
 | Mode | Power consumption | 
@@ -382,7 +384,7 @@ This is how the current mode of the system gets into Home Assistant:
 
 Zigbee Smart power socket -> Zigbee2MQTT -> MQTT -> Node-RED -> Home Assistant
 
-I use for my smart flows not Home Assistant but Node-RED.
+For my smart flows, I use Node-RED, not Home Assistant.
 
 #### Node-RED
 
@@ -395,7 +397,7 @@ Explanation of each node:
 * **[mqtt in node]** The incoming power socket measurement via MQTT
 * **[switch node]** Convert the power to a mode. See the corresponding [table](#Background).
 * **[4 change nodes]** Set the value to present in Home Assistant.
-* **[mqtt in node]** Read also direct the pressed button in Home Assistant via the triggered MQTT topic.
+* **[mqtt in node]** Also read the pressed button directly in Home Assistant via the triggered MQTT topic.
 * **[switch node]** Is the current mode different than the current one, continue, otherwise stop. To avoid unneeded message when nothing is changed.
 * **[switch node]** Store the new mode.
 * **[HA API node]** Reset mode 1
@@ -407,14 +409,14 @@ You can download this flow [here](orcon_files/node-red_flow.json).
 
 #### Home Assistant
 
-_If you implemented this flow direct in Home Assistant, please [let me know](https://github.com/vdbrink/vdbrink.github.io/issues), so I can add that code also here._
+_If you implemented this flow directly in Home Assistant, please [let me know](https://github.com/vdbrink/vdbrink.github.io/issues), so I can add that code also here._
 
 ---
 ## Home Assistant dashboard remotes
 
 I created three different designs which can be used on your own Home Assistant dashboard.
 
-When you press a button, it triggers a service script which sets a message on a MQTT topic. (Call direct the Home Assistant entity is also possible, of course.)
+When you press a button, it triggers a service script which sets a message on an MQTT topic. (Calling the Home Assistant entity directly is also possible, of course.)
 
 ### Preparations
 
@@ -436,7 +438,7 @@ I used these icons:
 
 This is what a configured helper switch must look like:
 
-<img src="orcon_images/ha_create_helper_buttons.jpg" alt="New ESPHome integration in Home Assistant" width="200px" />
+<img src="orcon_images/ha_create_helper_buttons.jpg" alt="Configured helper switch" width="200px" />
 
 #### Current state as sensor
 
@@ -451,7 +453,7 @@ Go to Home Assistant -> Devices & services -> Helpers -> Create Helper -> Templa
 In State Template, you can use the following code.
 I was not able to distinguish between SPEED 1, 2 and AWAY.
 
-Only SPEED 3 use more power.
+Only SPEED 3 uses more power.
 
 ```yaml
 {% raw %}
@@ -471,8 +473,8 @@ After that, go to: Home Assistant -> Dashboard -> Edit -> Add Card -> Entities
 
 #### Script to trigger the ESP
 
-To act on a button press, I created for each mode a script which triggers the ESP via MQTT. It also sets direct the selected mode on topic `orcon_mcu/mode`. 
-I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise, this feedback takes a while because then you have to wait until the power usage reach the level of the selected mode.
+To act on a button press, I created for each mode a script which triggers the ESP via MQTT. It also directly sets the selected mode on topic `orcon_mcu/mode`. 
+I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwise, this feedback takes a while because then you have to wait until the power usage reaches the level of the selected mode.
 
 <details markdown="1">
   <summary><b>> Click here to see the corresponding scripts.yaml code >></b></summary>
@@ -642,7 +644,7 @@ This black panel design is created with a `picture-element` with a black backgro
 
 
 <details markdown="1">
-  <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
+  <summary><b>> Click here to see the corresponding dashboard YAML >></b></summary>
 
 You have to place the [background image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 
@@ -752,7 +754,7 @@ To use this image on your dashboard, you have to place the [remote panel photo](
 The black square is a placeholder to define an area to click.
 
 <details markdown="1">
-  <summary><b>> Click here to see the corresponding dasboard YAML >></b></summary>
+  <summary><b>> Click here to see the corresponding dashboard YAML >></b></summary>
 
 ```yaml
 # Sourcecode by vdbrink.github.io
@@ -865,7 +867,7 @@ elements:
 
 ---
 
-### Addition cards
+### Additional cards
 
 #### Temperatures and humidity gauges
 
@@ -933,7 +935,7 @@ cards:
 
 #### Grafana
 
-I run Grafana where I can visualize the power consumption of my ventilation related device as the ventilation system itself, but also the washing machine and dryer.
+I run Grafana where I can visualize the power consumption of my ventilation-related devices, such as the ventilation system itself, but also the washing machine and dryer.
 
 I integrated the exported Grafana dashboard in a vertical stack to stick them together in the dashboard.
 
@@ -960,15 +962,15 @@ cards:
 
 ### Sensors and actuators
 
-The system can automatically be controlled by different type of sensors and actuators:
+The system can automatically be controlled by different types of sensors and actuators:
 - The original 15RF remote.
 - A CO2 sensor (Not used in my setup). You can create one yourself [SenseAir S8 CO2 sensor](co2_senseair_s8_sensor).
-- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/zigbee_temperature_sensor) in the cooker hood above the stove.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/zigbee_temperature_sensor)) in the cooker hood above the stove.
 - A temperature and humidity sensor also somewhere else in the kitchen as reference. The humidity in the summer can be very low, but in autumn very high for the whole day. In my experience, if you use fixed values, to control the system, it can be that it will never drop below the 60%.
 
 <img src="orcon_images/stove.jpg" alt="Temperature above the stove" width="500px" />
   
-- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/zigbee_temperature_sensor) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
+- A temperature and humidity sensor ([Aqara WSDCGQ11LM](/buy/zigbee_temperature_sensor)) in the shower. I placed it in the extraction tube right above the shower. With the hole to measure the data pointed up.
 - I also have a reference sensor outside the bathroom as reference data.
 
 <img src="orcon_images/in_ventilation_shower.jpg" alt="Sensor in the extraction" width="500px" />
@@ -979,23 +981,23 @@ I store my sensor data in an influxDB database which gives me the possibility to
 
 Here you can see, one of my first scripts, the Orcon is automatically activated (yellow line) after the humidity in the shower is more than 70%, and it automatically shuts down when it's lower than 55%. 
 
-<img src="orcon_images/grafana_shower_humidity.jpg" alt="Automatic controlled based on humidity" width="500px" />
+<img src="orcon_images/grafana_shower_humidity.jpg" alt="Automatically controlled based on humidity" width="500px" />
 
 #### Flow description
 
 <img src="../node-red/images/node-red_logo.png" alt="Node-RED logo" width="100px" style="float:right" />
-I created in Node-RED the next flow: 
-If all the criteria are valid a trigger is sent to the Orcon to shut it down. If one of the criteria is not valid, it stops the checks and sets a custom sensor with the reason why the orcon is still active.
+I created the following flow in Node-RED: 
+If all the criteria are valid, a trigger is sent to the Orcon to shut it down. If one of the criteria is not valid, it stops the checks and sets a custom sensor with the reason why the Orcon is still active.
 
 Every 15 minutes this flow is triggered.
 
 **Bathroom checks:**
 * Is the dryer not active? 
-  * The dryer is in the bathroom and produced a lot of heat.
+  * The dryer is in the bathroom and produces a lot of heat.
 * Is the humidity in the bathroom less than 70%?
-  * If someone is in the shower, the humidity reach 100%.
+  * If someone is in the shower, the humidity reaches 100%.
 * Is the difference between the humidity in- and outside the bathroom less than 7%?
-  * You can't work with fixed values it can be that it will never drop below the 60%. Especially in autumn.
+  * You can't work with fixed values; it can be that it will never drop below 60%, especially in autumn.
 * Is the bathroom temperature less than 26 degrees?
   * This can be caused by the dryer or taking a shower.
 
@@ -1007,17 +1009,17 @@ Every 15 minutes this flow is triggered.
 * Is the difference between the humidity in- and outside the cooker hood less than 7%?
   *  When you heat food on the stove, the humidity will drop.
 * Is the cooker hood temperature lower than 26 degrees?
-    * This can be caused by the dryer or taking a shower.
+    * This can be caused by cooking on the stove.
 
 <br/>
 
 **Other checks:**
-* Is the Orcon started (manual) more than 10 minutes ago?
-  * It can be that the orcon is started manually with the normal remote. Then it doesn't match all the previous criteria, but you still want to run it for some other reason.
+* Is the Orcon started (manually) more than 10 minutes ago?
+  * It can be that the Orcon is started manually with the normal remote. Then it doesn't match all the previous criteria, but you still want to run it for some other reason.
 * Is the VOC level in the toilet low enough? (Not in my setup)
 * Is the CO2 level low enough? (Not in my setup)
 * Is the Orcon still activated?
-  * If also the last check match, it can be shut down.
+  * If the last check also matches, it can be shut down.
 
 #### The Node-RED flow
 This is the corresponding flow in Node-RED.
@@ -1035,7 +1037,7 @@ This is the corresponding flow in Node-RED.
 
 ---
 ## Other approaches to control it
-There are other projects who use other ways to control the Orcon ventilation system.
+There are other projects that use other ways to control the Orcon ventilation system.
 
 ### Clone the remote signals
 The Orcon remote uses a CC1101 RF module which does the RF wireless communication over 868,3 MHz. 
@@ -1045,7 +1047,7 @@ At that time, there was no open implementation of it.
 Now there are. This approach stopped here for me.
 
 ### Directly control the motor
-Other projects use a 0 - 10V PWM dimmer to overrule the voltage direct on the motor.
+Other projects use a 0 - 10V PWM dimmer to overrule the voltage directly on the motor.
 
 [OrconWifiController by Hubert-Jan Hickinson](https://github.com/hubertjanhickinson/OrconWifiController)
 
@@ -1063,7 +1065,7 @@ More information about this subject.
 [Orcon remote 15RF manual Dutch](https://orcon.nl/download/3933/?tmstv=1681999960)
 
 [Same project by Elvin Luff](https://elvinhome.io/blog/articles-3/hacking-my-rental-apartment-s-ventilation-to-be-smart-orcon-15rf-remote-23) 
-He soldered direct the ESP to the remote to make it more compact. 
+He soldered the ESP directly to the remote to make it more compact. 
 
 ---
 ## Credits

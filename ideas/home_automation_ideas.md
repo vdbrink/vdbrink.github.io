@@ -157,7 +157,7 @@ I have a [dedicated page](/esphome/orcon_mechanic_ventilation) about how I autom
 * Depends on which areas the ventilation system is connected to.
   In my case, my bathroom humidity/temperature, kitchen humidity/temperature,
   kitchen/bathroom temperature/humidity difference, duration of a toilet visit.
-  ([lux](../buy/zigbee_light_sensor) value above threshold x for time Y,  [temperature sensor](../buy/zigbee_temperature_sensor),
+  ([lux](../buy/zigbee_light_sensor) value above threshold X for time Y, [temperature sensor](../buy/zigbee_temperature_sensor),
 [MV control via an additional remote linked to an ESP](../esphome/orcon_mechanic_ventilation))
 <br>
 <a href="images/ventilation_socket.jpg">
@@ -277,7 +277,7 @@ See also my dedicated page about [smart kitchen appliances](/projects/retrofit_k
 
 ### Aquarium
 * Automatically turn the lights on and off. ([smart plug](../buy/zigbee_smart_socket))
-* Turn the lights on when they are fed. ([contact sensor](../buy/zigbee_contact_sensor) at the lid of the aquarium).
+* Turn the lights on when they are fed. ([contact sensor](../buy/zigbee_contact_sensor) at the lid of the aquarium)
 * Automatic feeder.
 * Water quality check: pH level.
 * Temperature warning if water is too hot/cold. (ESP with waterproof temperature sensor)

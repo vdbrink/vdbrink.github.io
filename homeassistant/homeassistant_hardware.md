@@ -10,7 +10,7 @@ image: /homeassistant/images_hardware/ha_hardware_banner.png
 
 # Which hardware to run Home Assistant on?
 
-*Will it be a N100, Raspberry Pi, HP T630 Thin client, or anything else...*
+*Will it be an N100, Raspberry Pi, HP T630 thin client, or anything else...*
 
 <img src="images_hardware/ha_hardware_banner.png" alt="banner" width="100%">
 
@@ -22,10 +22,10 @@ Maybe you have one or more vendor-locked hubs with their own smart sensors, and 
 And ALL your data is stored in the big guys' cloud.
 And there is no way to let them work nicely together or combine them in one app.
 
-"Home automations with Home Assistant" you heard about it, you read about it, and it all sounds as the holy grail!
+"Home automations with Home Assistant" you heard about it, you read about it, and it all sounds like the holy grail!
 You've made the choice to dive into the rabbit hole called "Home Assistant" (aka HA).
 
-Or if you're already running Home Assistant on a Raspberry, but it will now become a bit slower,
+Or if you're already running Home Assistant on a Raspberry Pi, but it will now become a bit slower,
 and you want to upgrade to something more powerful but don't want to spend a fortune on it.
 Then you're here at the right place to find out which hardware could be the best for you.
 
@@ -36,7 +36,7 @@ Then you're here at the right place to find out which hardware could be the best
 Then comes the question: On which hardware should I run it?
 It can be installed on a whole range of hardware: like a **Mini PC, Home Assistant Green, Home Assistant Yellow,
 Raspberry Pi, old laptop/desktop, thin client, etc...**
-I split it up in two sections: new hardware but you can also run it on refurbished PCs could be powerful enough!
+I split it up into two sections: new hardware, and older hardware, because refurbished PCs can also be powerful enough!
 I explain on this page which one of these systems fits the best for your situation and what the differences between the
 hardware are.
 
@@ -44,7 +44,7 @@ I don't mention ALL possible options here, just in my opinion, the most popular 
 
 In the hardware tables, I added the row **CPU benchmark**.
 This is a raw multi-thread CPU speed indicator that gives you an indication of how it performs compared to other hardware.
-Know that the total performance also depends on the speed of the memory and harddisk etc.!
+Know that the total performance also depends on the speed of the memory and hard disk etc.!
 
 After reading this page, if you still have questions about the choice you need to make, don't contact me personally,
 but use the [social media channels or forums](#need-help).
@@ -61,7 +61,7 @@ There are also a lot of other smart and experienced people who can help you furt
 * [Terminology](#terminology)
 * [New hardware](#new-hardware)
   * [All-in-one mini PCs](#all-in-one-mini-pcs)
-  * [Home Assistant Green vs Yellow](#home-assistant-green-vs-yellow)
+  * [Home Assistant Green](#home-assistant-green)
   * [Raspberry Pi](#raspberry-pi)
 * [Older hardware](#older-hardware)
   * [Desktop](#desktop)
@@ -81,23 +81,23 @@ First, I want to explain some terms that are used here, and frequently used in d
 
 | Term             | Explanation                                                                                                                                                            |
 |:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 12th Gen         | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PC's.                                                   |
+| 12th Gen         | The version of Intel Core **processors**. The name for it is 'Alder Lake' and is used in the popular N100 mini PCs.                                                    |
 | Bare metal       | It refers to a **physical computer** system running without (an operating system or) virtualization layer (like Docker, Proxmox), directly utilizing the hardware.     |
 | Beelink          | It's a brand which makes **Mini PCs**                                                                                                                                  |
-| Docker           | It's is an **application** that let you package a full configured app in a single file and run it direct on a machine with only configure some (optional) parameters.  |
+| Docker           | It is an **application** that lets you package a fully configured app in a single file and run it directly on a machine by only configuring some (optional) parameters. |
 | Form factor      | A common design for a PC group.                                                                                                                                        |
 | HA               | Abbreviation for **Home Assistant**                                                                                                                                    |
 | HAOS             | Abbreviation for **Home Assistant Operating System**                                                                                                                   |
 | Home lab         | It's another name for a PC used as a server in your home, running (home automation) applications 24/7.                                                                 |
-| Mini PC          | This refer to the size of popular **small pc** cases.                                                                                                                  |
-| NAS              | Abbreviation for **Network-Attached Storage** a network computer which can contain multiple hard disk that can be access by all devices in the network.                |
-| NUC              | Abbreviation for **Next Unit of Computing** a small (4"x4") but complete desktop pc series, original from Intel and now take over by Asus.                             |
+| Mini PC          | This refers to the size of popular **small PC** cases.                                                                                                                 |
+| NAS              | Abbreviation for **Network-Attached Storage**, a network computer which can contain multiple hard disks that can be accessed by all devices in the network.                |
+| NUC              | Abbreviation for **Next Unit of Computing**, a small (4"x4") but complete desktop PC series, originally from Intel and now taken over by Asus.                         |
 | N100             | It's a popular, low power consuming, but powerful Intel **processor** number, mostly used in mini PCs. Others N-series processors are N95, N150, N200, N305.           |
 | Proxmox          | Is a Debian Linux **Operating System** where applications can be 'installed' via virtual machines and (Docker) containers.                                             |
 | Synology         | A brand name which makes NAS computers.                                                                                                                                |
-| T630/T620        | A small, compact and energy effective Thin client **PC model** (like a NUC) by HP. A cheap, second hands, opportunity to run HA on.                                    |
-| Thin client      | An energy effective **PC** with just enough power to connect to a central system where the heavy tasks runs.                                                           |
-| Virtual machine  | Also known as VM, is a software-based simulation of a physical computer that runs on top of an other operating system.                                                 |
+| T630/T620        | A small, compact and energy-efficient thin client **PC model** (like a NUC) by HP. A cheap, second-hand opportunity to run HA on.                                      |
+| Thin client      | An energy-efficient **PC** with just enough power to connect to a central system where the heavy tasks run.                                                            |
+| Virtual machine  | Also known as VM, is a software-based simulation of a physical computer that runs on top of another operating system.                                                 |
 
 ---
 
@@ -106,7 +106,7 @@ First, I want to explain some terms that are used here, and frequently used in d
 If you always want the best experience with Home Assistant, you'd better choose new hardware.
 If you want to run it for the upcoming years without any performance issues and want to try new (machine learning) features,
 then you'd better choose a new powerful device.
-Nothing is so frustrating as automations that react slow.
+Nothing is so frustrating as automations that react slowly.
 
 The currently most popular hardware to run Home Assistant on is an all-in-one mini PC.
 
@@ -177,7 +177,7 @@ Without having to worry about latency or any other performance issues for the be
 As of 2025, the most popular entry-level hardware for Home Assistant is a mini PC with an N100 processor.
 This option offers more than enough power to run Home Assistant smoothly, along with several add-ons, making it the best value for your money.
 
-The N95 and N97 models deliver similar performance, while the newer N150 features more cores and threads, providing even greater speed.
+The N95 and N97 models deliver similar performance, while the newer N150 features a higher turbo clock speed, providing even greater speed.
 If you want higher performance, it may be worth spending a bit more on the N150.
 
 Prices for these models can fluctuate based on supply and demand, so I’ve included links to help you compare current offers.
@@ -187,10 +187,10 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 |:---------------------|------------------------------------|--------------------------------|-------------------------------|-------------------------------|
 | **Model**            | **EQ 14**                          | **Mini S12 Pro**               | **G5**                        | **Mini S12**                  |
 | **Brand**            | Beelink                            | Beelink                        | GMKtec                        | Beelink                       |
-| **Processor**        | 14th Gen Twin Lake Intel-N150      | 13th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |
+| **Processor**        | 14th Gen Twin Lake Intel-N150      | 12th Gen Alder Lake Intel-N100 | 12th Gen Intel Alder Lake-N97 | 12th Gen Intel Alder Lake-N95 |
 | **CPU benchmark**    | {{n150_performance}}               | {{n100_performance}}           | {{n97_performance}}           | {{n95_performance}}           |
-| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                        | 3.6 GHz                       | 1.7 GHz                       |
-| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                        | -                             | 3.4 GHz                       |
+| **CPU basic**        | 0.8 GHz                            | 0.7 GHz                        | -                             | 1.7 GHz                       |
+| **CPU Turbo**        | 3.6 GHz                            | 3.4 GHz                        | 3.6 GHz                       | 3.4 GHz                       |
 | **Memory**           | 16 GB                              | 16 GB                          | 12 GB                         | 8 GB                          |
 | **Hard disk**        | 512 GB                             | 500 GB                         | 512 GB                        | 256 GB                        |
 | **Cores / Threads**  | 4 / 4                              | 4 / 4                          | 4 / 4                         | 4 / 4                         |
@@ -202,11 +202,11 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 
 <br>
 
-\* Make sure you select the right product and check the shipping cost, these can be high sometimes to reduce the price of the product!
+\* Make sure you select the right product and check the shipping costs; these can sometimes be high to keep the product price low!
 
 #### High end
 
-<img alt="Beelink EQi12 Core i7-12650H" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
+<img alt="Beelink SER9 Pro AI" height="150px" src="images_hardware/ser9_front.avif" {{style_img_right}}/>
 If you want to run heavy processes, like local machine learning functionality on the server, you'd better choose a high-end
 model with more memory, a faster CPU, GPU and more cores.
 
@@ -224,7 +224,7 @@ model with more memory, a faster CPU, GPU and more cores.
 | **Processor**        | AMD Ryzen 9 HX 370       | Intel Core Ultra 9 185H     | Intel Core i7-12650H   |
 | **CPU benchmark**    | {{hx370_performance}}    | {{h185_performance}}        | {{h12650_performance}} |
 | **CPU**              | 5.1 GHz                  | 5.1 GHz                     | 4.7 GHz                |
-| **GPU**              | AMD Radeon 890M          | Intel Arc graphics 2.35GHz  | Intel UHD Graphics     |
+| **GPU**              | AMD Radeon 890M          | Intel Arc graphics 2.35 GHz | Intel UHD Graphics     |
 | **Memory**           | 32 GB (also with 64 GB)  | 32 GB (also with 64, 96 GB) | 24 GB                  |
 | **Hard disk**        | 1024 GB (also with 2 TB) | 1024 GB (also with 2 TB)    | 512 GB                 |
 | **Cores / Threads**  | 12 / 24                  | 16 / 22                     | 10 / 16                |
@@ -244,11 +244,11 @@ https://www.facebook.com/share/p/VWSek5d4MwHSbFde/
 
 ---
 
-### Home Assistant Green vs Yellow
+### Home Assistant Green
 
 Nabu Casa, the company behind Home Assistant, provides an official hardware device to run Home Assistant on:
-the **Home Assistant Green**
-The green is the all-in-one entry-level device.
+the **Home Assistant Green**.
+The Green is the all-in-one entry-level device.
 
 The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in production anymore.
 
@@ -262,7 +262,7 @@ The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in
 | **Website**                   | [https://www.home-assistant.io/green/](https://www.home-assistant.io/green/)           | 
 | **Brand**                     | Nabu Casa                                                                              | 
 | **Operating system**          | Home Assistant Operating System                                                        | 
-| **Processor**                 | 1.8 Ghz Quad core Rockchip RK3566 Arm Cortex-A55 CPU                                   | 
+| **Processor**                 | 1.8 GHz Quad core Rockchip RK3566 Arm Cortex-A55 CPU                                   | 
 | **CPU benchmark**             | [798](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A55+4+Core+2208+MHz&id=6543) | 
 | **Working memory (RAM)**      | 4 GB                                                                                   | 
 | **Hard disk**                 | 32 GB external flash drive                                                             | 
@@ -283,11 +283,11 @@ The [**Home Assistant Yellow**](https://www.home-assistant.io/yellow/) is not in
 The Raspberry Pi models were for a long time very popular to run Home Assistant on,
 because of the all-in-one board, low energy consumption and cost-efficiency.
 
-Currently, they are nowadays less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the **N100** which
+Nowadays, they are less popular due to new [all-in-one mini PCs](#all-in-one-mini-pcs) like the **N100** which
 are in the same price range.
 They are more powerful (check the CPU benchmark stats!) and have all required components (like memory and storage) already built in.
 
-See this Facebook poll how popular the mini pcs are.
+See this Facebook poll for how popular mini PCs are.
 Click on the image to go to the original post:
 
 <a href="https://www.facebook.com/groups/HomeAssistant/permalink/3935518023386205/">
@@ -314,7 +314,7 @@ Click on the image to go to the original post:
 {% capture rpi4_img %}<img alt="Raspberry Pi 4B" height="150px" src="images_hardware/raspberry-pi-4-top.png"/>{% endcapture %}
 {% capture rpi5_img %}<img alt="Raspberry Pi 5" height="150px" src="images_hardware/raspberry-pi-5-top.png"/>{% endcapture %}
 
-Check the website for even more details about the boards if you want to know more about them.
+Check the [Raspberry Pi website](https://www.raspberrypi.com/products/) for even more details about the boards if you want to know more about them.
 
 Be aware that the price here is without a hard disk, power supply and a case!
 
@@ -325,11 +325,11 @@ Be aware that the price here is without a hard disk, power supply and a case!
 | **Model**                         | Pi 5                                    | Pi 4B                               | Pi 3B+                        |
 | **Releases**                      | 10 - 2023                               | 05 - 2020                           | 03 - 2018                     |
 | **Remarks**                       | Latest model                            | A very good device to run HA        | Multiple upgrades: A+, B, B+  |
-| **Performance remarks**           |                                         | 3x faster then the Pi 3             | Less resources, only 1 GB mem |
+| **Performance remarks**           |                                         | About 1.5x faster than the Pi 3     | Less resources, only 1 GB mem |
 | **Processor**                     | Cortex-A76 ARM quad-core                | Cortex-A72 (ARM v8) quad-core       | Cortex-A53 quad-core          |
 | **CPU benchmark**                 | {{rpi5_performance}}                    | {{rpi4_performance}}                | {{rpi3_performance}}          |
 | **Working memory (RAM)**          | 8 GB<br>(also available in 2, 4, 16 GB) | 8 GB<br>(also available in 2, 4 GB) | 1 GB                          |
-| **CPU**                           | 2.4 GHz                                 | 1.5 GHz                             | 1.4GHz                        |
+| **CPU**                           | 2.4 GHz                                 | 1.5 GHz                             | 1.4 GHz                       |
 | **Cores / Threads**               | 4                                       | 4                                   | 4                             |
 | **Power consumption idle / load** | 3 W / 6 W                               | 3 W / 6 W                           | 2 W / 5 W                     |
 | **Price range**                   | &euro; 60 - 110                         | &euro; 90                           | &euro; 45                     |
@@ -342,12 +342,12 @@ Be aware that the price here is without a hard disk, power supply and a case!
 ## Older hardware
 
 > Target group: If you still have some unused hardware available.
-> Or buy it inexpensive second hand if you want to find out this is something for you.
+> Or buy it inexpensively second-hand if you want to find out whether this is something for you.
 
 Make sure the hardware has at least 8 GB RAM and 64 GB SSD hard disk space to install Home Assistant on and have enough
 space for related applications as well.
 
-Computer stores or online sites, like Ebay, they sell refurbished computers, mostly they get them in bulk from companies.
+Computer stores or online sites, like eBay, sell refurbished computers. Mostly they get them in bulk from companies.
 They clean them, upgrade the memory and/or hard disk and sell them.
 These computers aren’t the newest but have enough power and with the small upgrade can run for another few years without any problem.
 This is an affordable way to buy/upgrade hardware to test HA on.
@@ -367,7 +367,7 @@ The disadvantage is they use more power than a laptop or mini PC.
 <img alt="laptop" width="150px" src="images_hardware/laptop.jpg" {{style_img_right}} />
 A spare laptop can also be used as a server to run Home Assistant on.
 
-The advantage is it's energy-effective and compact.
+The advantage is it's energy-efficient and compact.
 
 The disadvantage can be the battery being constantly on power or needing to charge daily.
 Some laptops also run without a battery, which is the best solution.
@@ -375,10 +375,10 @@ Some laptops also run without a battery, which is the best solution.
 ### Thin client
 
 <img alt="HP 620" width="130px" src="images_hardware/hp_620.webp" {{style_img_right}} />
-A Thin client is compact, energy effective, silent and not expensive.
+A thin client is compact, energy-efficient, silent and not expensive.
 
 HP has the T630 or T620 which are often mentioned as good hardware.
-Dell has also Thin clients: the Wyse 5060 or 7020.
+Dell also has thin clients: the Wyse 5060 or 7020.
 
 They were used in offices and are now widely available on second-hand sites like eBay.
 Even with HA already installed on it.
@@ -389,7 +389,7 @@ Even with HA already installed on it.
 A NAS, is a Network-Attached Storage mostly used as shared network storage,
 but there are models that have enough power to also install your own Docker applications, like Home Assistant, on.
 
-A Synology or QNAP NAS are examples of that.
+A Synology or QNAP NAS is an example of that.
 
 [Install HA on a NAS](https://www.home-assistant.io/installation/alternative/#install-home-assistant-container)
 
@@ -413,6 +413,6 @@ There are also many other people who can help you further.
 
 I hope this page helps you to choose the best hardware for you to run Home Assistant on.
 
-Do you have any other remarks, suggestions, spell errors found after reading this page?
+Do you have any other remarks, suggestions, spelling errors found after reading this page?
 Please let me know, you can reach me in one of my social media posts or create
 a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).

@@ -11,7 +11,7 @@ image: /homeassistant/images_chores/chores_banner.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right" alt="Home Assistant logo" height="100px"></a>
 
-Here you find a Home Assistant (lovelace) dashboard what I've created\
+Here you find a Home Assistant (Lovelace) dashboard that I've created\
 for managing my weekend chores.
 
 <br/>
@@ -21,7 +21,7 @@ for managing my weekend chores.
 
 ## Table of Contents
 <!-- TOC -->
-* [Intro](#introduction)
+* [Introduction](#introduction)
 * [Functionalities](#functionalities)
 * [Final result](#final-result)
 * [Create the chores](#create-the-chores)
@@ -39,13 +39,13 @@ for managing my weekend chores.
 
 ## Introduction
 
-I was looking for a solution to manage the weekend chores, via Home Assistant, for myself and the rest of the family. Where everyone can easily mark when they finished one.
+I was looking for a solution to manage the weekend chores, via Home Assistant, for myself and the rest of the family, where everyone can easily mark when they have finished one.
 
 ---
 
 ## Functionalities
 
-My chore list must contain the next functionalities:
+My chore list must contain the following functionalities:
 * I want to have a list of chores for every weekend and periodic chores.
 * I want to see which chores I still have to do and which I already have done.
 * I want to undo chores from closed to open.
@@ -79,24 +79,24 @@ To create the chores I create for each chore a new helper entity.
 * Enter a name for the chore and click on create.
 * Search for the newly created chore by the given name and open it.
 * Add a reference text to the entity ID, then you can later group the weekly chores together. I use `chore_r_` as my reference. So I have to change the Entity ID from `input_boolean.kattenbak` to `input_boolean.chore_r_kattenbak`.
-<img src="images_chores/chores_edit_chore.png" alt="Create a toggle helper" width="400px">
+<img src="images_chores/chores_edit_chore.png" alt="Edit the chore entity" width="400px">
 
 * Choose a corresponding icon.
 * Click on update to finish the first chore.
 
 Repeat all these steps to create all your weekly chores.
 
-> You can always add new chores, they will automatically add to the dashboard.
+> You can always add new chores; they will be added to the dashboard automatically.
 
 For the periodic chores repeat also these steps, but use `chore_x_` as reference text.
 
-> To hide temporary season chores just change the reference text. Then they don't match on it, and they don't show up in the dashboard.
+> To hide temporary seasonal chores just change the reference text. Then they don't match on it, and they don't show up in the dashboard.
 
 ---
 
 ## Create the dashboard
 
-Create a new view and edit it with the pencil icon to give it a title, icon and url.
+Create a new view and edit it with the pencil icon to give it a title, icon and URL.
 
 Set the `View type` to `Panel (1 card)` to let it use the full width.
 
@@ -110,19 +110,19 @@ To align everything you need to set up a framework for your layout.\
 Below you find all the code together, but this is how it is configured.
 
 * Add as base a horizontal stack (purple).
-* Add two vertical stacks (red) to create two columns. This will result that the cards in that stack stay in the same column, otherwise they jump from left to right.
+* Add two vertical stacks (red) to create two columns. This ensures that the cards in that stack stay in the same column, otherwise they jump from left to right.
 * Add in each column two auto-entities (install via HACS) custom element (green).
 
-<img src="images_chores/chores_frames.png" alt="Chores final result" width="400px">
+<img src="images_chores/chores_frames.png" alt="Chores dashboard layout frames" width="400px">
 
-* The top left card show the open **weekly** chores with their toggle to mark them as completed.\
-This uses the filter which contains entity ID `chore_r_` and have state `off`.
-* The bottom left card show the icons and text for the completed chores in a compact presentation. When you click on one of them, they move back to the open chores list.
+* The top left card shows the open **weekly** chores with their toggle to mark them as completed.\
+This uses the filter which contains entity ID `chore_r_` and has state `off`.
+* The bottom left card shows the icons and text for the completed chores in a compact presentation. When you click on one of them, they move back to the open chores list.
 
-The periodic chores work a bit different. I only show the chores that have been changed in the last two days. Before the weekend starts, you must toggle the chores you want to do. Now only these will show up in the list and the rest is still hidden.
+The periodic chores work a bit differently. I only show the chores that have been changed in the last two days. Before the weekend starts, you must toggle the chores you want to do. Now only these will show up in the list and the rest is still hidden.
 
-* The top right card show the open **periodic** chores with their toggle to mark them as completed.\
-  This uses the filter which contains entity ID `chore_x_` and have state `off` AND changed in the last 2 days.
+* The top right card shows the open **periodic** chores with their toggle to mark them as completed.\
+  This uses the filter which contains entity ID `chore_x_` and has state `off` AND changed in the last 2 days.
 
 ---
 
@@ -256,7 +256,7 @@ chores:
     ...etc
 {% endraw %}
 ```
-Then I created an automation (in automation.yaml or in the Home Assistant itself) which gets triggered at 00:00 on Tuesday and toggle all the chores, defined in the `group.chores`, to the status off.
+Then I created an automation (in automations.yaml or in Home Assistant itself) which gets triggered at 00:00 on Tuesday and toggles all the chores, defined in the `group.chores`, to the status off.
 
 ```yaml
 {% raw %}
@@ -281,7 +281,7 @@ Then I created an automation (in automation.yaml or in the Home Assistant itself
 {% endraw %}
 ```
 
-> If you don't have file groups.yaml or automations.yaml create them in the directory next to configuration.yaml and add these two lines to this file.
+> If you don't have a groups.yaml or automations.yaml file, create them in the directory next to configuration.yaml and add these two lines to this file.
 
 ```yaml
 {% raw %}
@@ -300,7 +300,7 @@ Before the weekend, I can open this view and toggle the chores to off which I wa
 <img src="images_chores/chores_periodic_maintenance.png" alt="Chores Maintenance" width="400px">
 
 Create a new view and add an Entity card on it.\
-Place the next code in it.
+Place the following code in it.
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -326,11 +326,11 @@ filter:
 
 ## Background
 
-I was looking for a solution to manage the weekend chores for use.\
-I did it before with writing down chore, from a list in an app, on the whiteboard.\
-I'm trying to move, as much as possible, from the old-school whiteboard to a digital version with Home Assistant. With these recurring chores, this should be possible. I looked at different solutions how to manage chores in Home Assistant.
+I was looking for a solution to manage the weekend chores for us.\
+I did it before by writing down chores, from a list in an app, on the whiteboard.\
+I'm trying to move, as much as possible, from the old-school whiteboard to a digital version with Home Assistant. With these recurring chores, this should be possible. I looked at different solutions for managing chores in Home Assistant.
 
-I tried the old HA shopping list, but when you mark it is gone and I could only make one list. Then I fixed the Microsoft To-Do integration, then I could maintain it from the app. The downside here was I couldn't undo chores and no good solution for periodic chores.
+I tried the old HA shopping list, but when you mark an item it is gone, and I could only make one list. Then I set up the Microsoft To-Do integration, so I could maintain it from the app. The downside here was that I couldn't undo chores and there was no good solution for periodic chores.
 
 Then I found a solution with Home Assistant helpers. This is what I've worked out and fits all my needs for a while now.
 
@@ -345,7 +345,7 @@ https://smarthomepursuits.com/chore-tracking-with-point-system-in-home-assistant
 
 ## Alternatives
 
-There is also a HACS integration where you also can manage your household tasks, [Chore Helper for Home Assistant](https://github.com/bmcclure/ha-chore-helper?tab=readme-ov-file#chore-helper-for-home-assistant)
+There is also a HACS integration where you can also manage your household tasks, [Chore Helper for Home Assistant](https://github.com/bmcclure/ha-chore-helper?tab=readme-ov-file#chore-helper-for-home-assistant)
 
 ---
 

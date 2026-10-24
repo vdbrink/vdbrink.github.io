@@ -129,6 +129,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <li><a href="/homeassistant/homeassistant_hardware">Which hardware?</a></li>
 <li><a href="/homeassistant/homeassistant_templates">Templates</a></li>
 <li><a href="/homeassistant/homeassistant_dashboard_floorplan">Floor plan</a></li>
+<li><a href="/homeassistant/homeassistant_dashboard_hacs">Useful HACS elements</a></li>
 </ul>
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'esphome/'" | size -%}

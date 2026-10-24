@@ -100,7 +100,7 @@ sort:
 
 ## Mushroom
 
-With the mushroom element, you can add small elements on top of your dashboard.\
+With the Mushroom element, you can add small elements on top of your dashboard.\
 It can be only a colored icon, or also show a state value.\
 You can also show them only for a specific state.
 For example: rain expected, a CO2 level that is too high, a wrong temperature, or nice weather to sit outside.
@@ -110,21 +110,21 @@ Examples:
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div>
 <a href="images_mushroom/mushroom_examples.png">
-<img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples"/>
+<img src="images_mushroom/mushroom_examples.png" width="350px" alt="Mushroom examples"/>
 </a>
 <em style="display:block; text-align:center">Mushroom examples</em>
 </div>
 <div>
 <a href="images_mushroom/mushroom_co2.png">
-<img src="images_mushroom/mushroom_co2.png" height="50px" alt="mushroom CO2 indicator"/>
+<img src="images_mushroom/mushroom_co2.png" height="50px" alt="Mushroom CO2 indicator"/>
 </a>
-<em style="display:block; text-align:center">mushroom CO2 indicator</em>
+<em style="display:block; text-align:center">Mushroom CO2 indicator</em>
 </div>
 <div>
 <a href="images_mushroom/mushroom_home.png">
-<img src="images_mushroom/mushroom_home.png" height="50px" alt="mushroom home indicator"/>
+<img src="images_mushroom/mushroom_home.png" height="50px" alt="Mushroom home indicator"/>
 </a>
-<em style="display:block; text-align:center">mushroom home indicator</em>
+<em style="display:block; text-align:center">Mushroom home indicator</em>
 </div>
 </div>
 
@@ -232,7 +232,7 @@ Install this integration, via this button, into your own Home Assistant instance
 
 Customize a single row for multiple entities.
 
-In this example, a rounded temperature with an icon that is colored based on the temperature.
+In this example, a rounded temperature is shown with an icon that is colored based on the temperature.
 
 <a href="images_hacs/hacs_template-entity-row.png">
 <img src="images_hacs/hacs_template-entity-row.png" alt="template-entity-row" width="400px">
@@ -360,7 +360,7 @@ hide_forecast_section: false
 {% endraw %}
 ```
 
-[See also another presentation with the weather per hour >](/homeassistant/homeassistant_dashboard_weather#clock-weather-card-per-hour)
+[See also another presentation with the weather per hour >](/homeassistant/homeassistant_dashboard_weather#hourly-weather-card)
 
 BeardedTinker made a YouTube video about this card.
 [![Clock Weather Card HA installation](https://img.youtube.com/vi/jHgnO3JryCM/0.jpg)](https://www.youtube.com/watch?v=jHgnO3JryCM "Clock Weather Card HA installation")
