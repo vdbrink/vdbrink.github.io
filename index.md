@@ -64,6 +64,10 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <a href="/sitemap.html">All pages &rarr;</a>
 </div>
 <div class="hp-tiles">
+<a class="hp-card hp-tile" href="/esphome/co2_scd40">
+<img src="/esphome/images_scd40/hardware.jpg" alt="SCD40 CO2 sensor" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>DIY cheap CO2 sensor</strong><p>Build your own ESPHome CO2 sensor for Home Assistant.</p></div>
+</a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_weather_nl">
 <img src="/homeassistant/images_weather/rain_radar_animated.png" alt="Weather in The Netherlands" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Weather in The Netherlands</strong><p>HA Rain radar, forecasts and warnings on your dashboard based on NL data.</p></div>
@@ -72,30 +76,34 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <img src="/esphome/orcon_images/wires_connected.jpg" alt="Orcon ventilation" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>Control an Orcon ventilation system</strong><p>Make an Orcon mechanical ventilation smart with an ESP board.</p></div>
 </a>
+
 <a class="hp-card hp-tile" href="/zigbee/zigbee_chair_occupancy_sensor">
 <img src="/zigbee/images_chair/pillow_with_sensor.jpg" alt="Chair occupancy sensor" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">DIY Zigbee</span><strong>Chair occupancy sensor</strong><p>Detect when someone sits (stil) on a chair, built from a Zigbee sensor and car seat sensor.</p></div>
-</a>
-<a class="hp-card hp-tile" href="/esphome/co2_scd40">
-<img src="/esphome/images_scd40/hardware.jpg" alt="SCD40 CO2 sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>DIY cheap CO2 sensor</strong><p>Build your own ESPHome CO2 sensor for Home Assistant.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/elgato_stream_deck/">
 <img src="/elgato_stream_deck/images/actions_sd_app.png" alt="Elgato Stream Deck for developers" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Stream Deck hardware</span><strong>Stream Deck for developers</strong><p>A hardware shortcuts keypad on your desk.</p></div>
 </a>
-
-<!--
-<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode">
-<img src="/homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Tablet in kiosk mode" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Dashboard on a tablet in kiosk mode</strong><p>How to create a wall tablet.</p></div>
-</a>
--->
-
 <a class="hp-card hp-tile" href="/desk">
 <img src="/desk/images/desk_t1.jpg" alt="Home office desk setup" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Minimalistic desk setup</strong><p>How I designed my home office with the help of AI.</p></div>
 </a>
+
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_templates">
+<img src="/homeassistant/images_templates/ha_templates_banner.png" alt="Home Assistant templates" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant templates</strong><p>Template sensor examples and how to create, debug and use them.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_hacs">
+<img src="/homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png" alt="Useful HACS custom elements" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Useful HACS custom elements</strong><p>Auto-entities, Mushroom, card-mod and more add-ons for your dashboard.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode">
+<img src="/homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Tablet in kiosk mode" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Dashboard on a tablet in kiosk mode</strong><p>How to create a wall tablet.</p></div>
+</a>
+
+
 <a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your Christmas lights and other powered decorations automatically.</p></div>
@@ -145,7 +153,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <div class="hp-card hp-topic">
 <a class="hp-topic-head" href="/zigbee/index"><img src="/zigbee/images/zigbee.jpg" alt=""><strong>Zigbee</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
-<li><a href="/zigbee/index#why-i-chose-zigbee">Why Zigbee as protocol?</a></li>
+<li><a href="/zigbee/index#why-i-chose-zigbee">Why Zigbee?</a></li>
 <li><a href="/zigbee/zigbee_chair_occupancy_sensor">Chair occupancy sensor</a></li>
 <li><a href="/zigbee/smart_infrared_transmitter_receiver">Infrared devices</a></li>
 </ul>
@@ -216,12 +224,14 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <hr class="hp-divider">
 
 <h2 id="merchandise">Merchandise</h2>
-<p class="hp-lead">Looking for a birthday present for a fellow nerd, a mug for on your desk or a cool T-shirt? Just take a look around the shop, maybe there's something for you.</p>
+<p class="hp-lead">Looking for a birthday present for a fellow nerd, a mug for on your desk or a cool T-shirt? Just take a look around at this shop.</p>
 <br>
-<a class="hp-card hp-merch" href="https://quote-shirt-shop.myspreadshop.net/" target="_blank">
+<a class="hp-card hp-merch" href="https://quote-shirt-shop.myspreadshop.net/?utm_source=vdbrink.github.io&amp;utm_medium=homepage&amp;utm_campaign=merchandise" target="_blank" onclick="if (typeof gtag === 'function') { gtag('event', 'merch_click', { placement: 'homepage' }); }">
 <span class="hp-merch-title"><img src="/buy/images/basket.png" alt="" style="height:1.1em; width:auto; vertical-align:middle; margin-right:5px;">Shop here for tech T-shirts, hoodies, mugs, stickers &amp; more!</span>
 <img src="/shop/images/banner3.png" alt="Computer says no" height="150px" />
+<span id="merch-season" style="display:none; margin-top:8px; text-wrap:balance;"></span>
 </a>
+<script src="/assets/scripts/merch-season.js"></script>
 
 <hr class="hp-divider">
 
