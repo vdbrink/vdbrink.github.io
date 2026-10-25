@@ -77,10 +77,10 @@ A Stream Deck is a kind of keyboard where you can program each button yourself. 
 The special part is that every button has its own little LCD screen behind it, so instead of a blank key or a static icon, you see an icon, a label, a color or even a live value.
 One press runs whatever you linked to that button: a keyboard shortcut, a script, multiple steps, an API call or an action from one of the many plugins.
 
-<a href="/elgato_stream_deck/calendar/images/next_meeting_on_sd.jpg">
-<img src="/elgato_stream_deck/calendar/images/next_meeting_on_sd.jpg" alt="Stream Deck buttons with live data" width="50%">
-</a><br>
-<em>Buttons with live data: how long your current meeting takes and when the next one is.</em>
+<a href="images/my_sd_cat.jpg">
+<img src="images/my_sd_cat.jpg" alt="Stream Deck as cat pillow" style="width:70%">
+</a>
+<em style="display:block; text-align:left">A Stream Deck also works perfectly as a pillow, according my cat.</em>
 
 The device itself doesn't contain any OS or application, a Stream Deck application runs on the connected computer. This app does all the handling and control of the buttons.
 Elgato officially supports Windows and macOS, and for Linux there is an open-source solution, OpenDeck.
@@ -95,10 +95,10 @@ The problem it solves is that shortcuts don't scale. You can remember five or te
 half of your tools use a different combination for the same thing. On top of that a lot of daily actions aren't a
 shortcut at all but a small chore: open this dashboard, run that script, join the standup, set the lights for a call.
 
-<a href="images/my_sd_cat.jpg">
-<img src="images/my_sd_cat.jpg" alt="Stream Deck as cat pillow" style="width:60%">
-</a>
-<em style="display:block; text-align:left">A Stream Deck also works perfectly as a pillow, according to my cat.</em>
+<a href="/elgato_stream_deck/calendar/images/next_meeting_on_sd.jpg">
+<img src="/elgato_stream_deck/calendar/images/next_meeting_on_sd.jpg" alt="Stream Deck buttons with live data" width="50%">
+</a><br>
+<em>Buttons with live data: how long your current meeting takes and when the next one is.</em>
 
 Because each button shows what it does, you don't have to remember anything. You just look and press. And with pages and
 profiles you can give every application its own set of buttons, so the same hardware turns into a different control panel depending on which app you're working in.

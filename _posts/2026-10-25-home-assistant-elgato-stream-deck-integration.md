@@ -18,6 +18,8 @@ image: /elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_inte
 Your Home Assistant dashboard needs a screen to see and manually control your home.\
 With the **Stream Deck Home Assistant plugin**, every key of an Elgato Stream Deck can control DIRECT a Home Assistant entity as well.
 
+Don't you know what a Stream Deck is and can do? Check [here](/elgato_stream_deck/#what-is-a-stream-deck) first.
+
 The key is more than a button: its icon can shows the **live state** of entities as well, so you can see what is going on in your home at a glance.
 
 ## What you can do with it

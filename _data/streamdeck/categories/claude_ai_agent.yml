@@ -2,7 +2,7 @@
 title: Claude ai agent
 key: claude_ai_agent
 priority: 0
-description: With the Stream Deck + Claude you can start Claude, paste predefined prompts, and run different skills, all with a single click.
+description: With the Stream Deck + Claude you can for example start Claude, switch models, paste predefined prompts, and run different skills all with a single click.
 dependencies:
   - plugin: none
     actions:
@@ -60,7 +60,7 @@ dependencies:
             value: /clear
           - key: Text
             value: /clear
-    footnote: The above actions are examples of how to configure them. Check here for all possible <a href="https://code.claude.com/docs/en/commands">Claude Code commands</a>.
+    footnote: The above actions are just examples of how to configure them. Check here for all possible <a href="https://code.claude.com/docs/en/commands">Claude Code commands</a>.
 
   - plugin: jetstream
     image: jetstream_button_states.png
