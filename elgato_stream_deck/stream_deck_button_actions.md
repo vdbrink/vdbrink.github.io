@@ -2,7 +2,7 @@
 title: "Elgato Stream Deck - button action examples"
 description: "Elgato Stream Deck button action examples"
 category: Projects
-tags: [Elgato, Stream Deck, software, developer, actions]
+tags: [Elgato, Stream Deck, software, developer, Home Assistant]
 ---
 
 # Elgato Stream Deck - button action examples
@@ -15,7 +15,7 @@ On this page I share and explain the buttons I use on my [Stream Deck](/elgato_s
 and how YOU can use them on your own Stream Deck to trigger tasks in your daily work as well.
 
 <p class="hp-lead">What do you want to use it for?
-Do you also want to control your AI agents (Claude Code, Codex, Copilot), your IDE (IntelliJ, VS Code) and your video calls (Meet, Teams, Zoom), like I do? What else?
+Do you also want to control your AI agents, your IDE and your video calls, like I do? What do YOU use it for? Please let me know!
 I still have some triggers on my [wishlist](#wishlist) myself. Maybe you can help me with them?
 </p>
 
@@ -23,7 +23,7 @@ I still have some triggers on my [wishlist](#wishlist) myself. Maybe you can hel
 
 ## How to use this page
 
-* The buttons are grouped per category.
+* The buttons are grouped per application.
 * Most actions can be downloaded directly from here and imported into your own Stream Deck.
 * Or use them as examples for all kinds of similar button actions.
 
@@ -57,7 +57,7 @@ I'm always looking for new ones. Let me know via a GitHub issue or a comment on 
 
 <p class="hp-lead">I have buttons on my Stream Deck for these applications.
 Click on them to see and download the corresponding actions, and load them directly onto your own Stream Deck.
-You can use them as example and change it to the way it works for you.
+You can use them as examples and change them to fit the way you work.
 </p>
 <br>
 

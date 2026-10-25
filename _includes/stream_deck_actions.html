@@ -5,7 +5,7 @@
 {% assign sorted_categories = sorted_categories | sort: "priority" %}
 
 <div class="sd-virtual-deck" id="all-categories">
-<div class="sd-hint">Click a key to jump to that category</div>
+<div class="sd-hint">Click a key to jump to that application button examples</div>
 <div class="sd-grid">
 {% for category in sorted_categories %}
 {% assign anchor = category.key | replace: '_', '-' %}
@@ -213,11 +213,28 @@
 {% endif %}
 </div>
     {% endfor %}
+{% assign category_has_wishes = false %}
+{% for dependency in category.dependencies %}
+{% if dependency.wishes %}
+{% assign category_has_wishes = true %}
+{% endif %}
+{% endfor %}
+{% if category_has_wishes %}
+<hr>
+<p class="sd-category-wishes-lead">Features I'm still looking for:</p>
+<ul class="sd-wish-list">
+{% for dependency in category.dependencies %}
+{% for wish in dependency.wishes %}
+    <li>{{ wish.name }}</li>
+{% endfor %}
+{% endfor %}
+</ul>
+{% endif %}
 {% if category.footnote %}
 <p class="sd-category-footnote">{{ category.footnote }}</p>
 {% endif %}
 
-<p class="sd-back-to-top"><a href="#all-categories"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> all categories</a></p>
+<p class="sd-back-to-top"><a href="#all-categories"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> all applications</a></p>
 </section>
 {% endfor %}
 
