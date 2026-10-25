@@ -29,13 +29,15 @@ Or if you're already running Home Assistant on a Raspberry Pi, but it will now b
 and you want to upgrade to something more powerful but don't want to spend a fortune on it.
 Then you're here at the right place to find out which hardware could be the best for you.
 
+I started also with a Raspberry 4 and worked for year very well with a large network but if you also want to do more power-consuming processing, like local camera processing, you need something bigger.
+
 <a href="images_hardware/beelink_front_back.jpg">
 <img src="images_hardware/beelink_front_back.jpg" alt="Beelink model mini pc" height="100px" {{style_img_right}} />
 </a>
 
 Then comes the question: On which hardware should I run it?
-It can be installed on a whole range of hardware: like a **Mini PC, Home Assistant Green, Home Assistant Yellow,
-Raspberry Pi, old laptop/desktop, thin client, etc...**
+It can be installed on a whole range of hardware: like a **Mini PC, Home Assistant Green, Raspberry Pi, old laptop/desktop, thin client, etc...**
+
 I split it up into two sections: new hardware, and older hardware, because refurbished PCs can also be powerful enough!
 I explain on this page which one of these systems fits the best for your situation and what the differences between the
 hardware are.
@@ -416,3 +418,21 @@ I hope this page helps you to choose the best hardware for you to run Home Assis
 Do you have any other remarks, suggestions, spelling errors found after reading this page?
 Please let me know, you can reach me in one of my social media posts or create
 a [GitHub issue](https://github.com/vdbrink/vdbrink.github.io/issues).
+
+
+## Related articles
+
+<div class="hp-tiles hp-options">
+<a class="hp-card hp-tile" href="/buy/zigbee_why">
+<img src="/buy/images_zigbee/zigbee.jpg" alt="Zigbee" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>Why I chose Zigbee</strong><p>Why Zigbee is my protocol of choice for a smart home network.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/buy/smart_home_best_buy_tips#zigbee-coordinator">
+<img src="/buy/images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Zigbee dongle (coordinator)" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>Zigbee coordinator</strong><p>The dongle that connects all your Zigbee devices to Home Assistant.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/buy/smart_home_best_buy_tips#3-sensors-and-actuators">
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Zigbee sensors and actuators" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>Sensors and actuators</strong><p>The Zigbee sensors and actuators I use and recommend for your smart home.</p></div>
+</a>
+</div>

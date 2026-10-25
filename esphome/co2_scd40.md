@@ -67,27 +67,29 @@ Send the notification to your phone or make an announcement via a smart speaker.
 
 Read on to see how you can build this sensor yourself.
 
-If you prefer a ready-to-go CO2 sensor, you can also choose the Netatmo Healthy Home Coach.
-It is an all-in-one solution with CO2, decibel, temperature, and humidity sensors.
-You can find it here:
-{{imgBasket}}[(Amazon NL)](https://amzn.to/44wKKCE#ad)
+> **_TIP:_** If you prefer a ready-to-go CO2 sensor, you can also choose the Netatmo Healthy Home Coach.
+ It is an all-in-one solution with CO2, decibel, temperature, and humidity sensors.
+ You can find it here:
+ {{imgBasket}}[(Amazon NL)](https://amzn.to/44wKKCE#ad)
 
 ---
 
 ## My solution
 
-This is one of the easiest ways to get started with ESPHome.\
+This project is one of the easiest ways to get started with ESPHome.\
 No soldering is required.\
-You only need to connect the wires to the ESP and flash the correct configuration.
+You only need to connect the wires to the ESP and flash the configuration to it.
 
 <a href="images_scd40/hardware.jpg">
 <img src="images_scd40/hardware.jpg" alt="hardware connected" height="400px"/>
 </a>
+<em style="display:block; text-align:left">the test setup, sensor connected to the ESP</em>
 
 Click on the photo to open it fullscreen.
 
 These photos show how it works.
-For the finishing touch, **put the sensor in a case with holes**. It looks better, and the holes let enough air reach the CO2 sensor.
+For the finishing touch, put the sensor in a case with holes. 
+It looks better, and the holes let enough air reach the CO2 sensor.
 
 <a href="/esphome/images_co2/holes_in_case.jpg">
 <img src="/esphome/images_co2/holes_in_case.jpg" alt="CO2 sensor in a case with holes" height="400px"/>
@@ -95,7 +97,7 @@ For the finishing touch, **put the sensor in a case with holes**. It looks bette
 <em style="display:block; text-align:center">the finished sensor in a case with holes, so air can reach the sensor</em>
 
 The finished sensor is compact, practical, and easy to place anywhere in the room.
-Everything fits inside a small case: the SCD40 sensor and an ESP board.
+Everything fits inside this small case: the SCD40 sensor and an ESP board.
 
 ---
 

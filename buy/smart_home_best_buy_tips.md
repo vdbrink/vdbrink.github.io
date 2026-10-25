@@ -18,7 +18,8 @@ image: /buy/images_zigbee/zigbee_banner.png
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
-On this page you'll find the sensors, actuators, and other (Zigbee) home automation hardware I use in my own home and that has worked very reliably for me.
+On this page you'll find the sensors, actuators, and other (Zigbee) home automation hardware you need to setup a smart home network.
+I link to products I use in my own home (and other interresting hardware) that has worked very reliably for me.
 
 If you need some home automation inspiration, you can check my [home automation ideas](../ideas/home_automation_ideas) section!
 
@@ -119,7 +120,7 @@ In my setup, a Zigbee2MQTT instance on my home server talks via this stick to al
 ## 3. Sensors and actuators
 
 Now your network is ready, you can add devices. Sensors give your server information, actuators like lights and sockets act on it.
-This is the hardware I advise, mostly based on my personal experience with it. Click on a type to see my favorites.
+This is the hardware I advise, mostly based on my personal experience with it. Grouped per type.
 
 <div class="hp-tiles hp-options">
 <a class="hp-card hp-tile" href="zigbee_contact_sensor">
@@ -275,7 +276,7 @@ Most Zigbee devices run on batteries for years, but sometimes you need other way
 ## Related articles
 
 <div class="hp-tiles hp-options">
-<a class="hp-card hp-tile" href="../ideas/home_automation_ideas#outside">
+<a class="hp-card hp-tile" href="/ideas/home_automation_ideas">
 <img src="/ideas/images/idea.png" alt="Home Automation Ideas" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Ideas</strong><p>For integration ideas, get inspired to make your home smart.</p></div>
 </a>

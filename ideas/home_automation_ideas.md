@@ -285,7 +285,7 @@ See also my dedicated page about [smart kitchen appliances](/projects/retrofit_k
 <a href="images/aquarium.jpg">
 <img src="images/aquarium.jpg" alt="aquarium" height="200px">
 </a>
-<em style="display:block; text-align:center">my aquarium</em>
+<em style="display:block; text-align:left">my aquarium</em>
 
 ---
 
@@ -307,6 +307,9 @@ See also my dedicated page about [smart kitchen appliances](/projects/retrofit_k
 * Close the curtains when it cools or heats the home too much. (controlled curtains, outside temp, [inside temp](/buy/zigbee_temperature_sensor))
 
 #### Gate
+
+I have a [dedicated page](/garden-gate-waterproof-contact-sensor) about how I used a waterproof contact sensor on my garden gate.
+
 * Notification when the gate is opened. ([waterproof contact sensor](../buy/zigbee_outdoor_contact_sensor), which survives rain and frost)
 * Notification when the garden gate stays open longer than X minutes. ([waterproof contact sensor](../buy/zigbee_outdoor_contact_sensor))
 * Notification when the shed or garden room door is left open. ([waterproof contact sensor](../buy/zigbee_outdoor_contact_sensor))
@@ -343,5 +346,18 @@ Check this [dedicated page](/zigbee/zigbee_outlet_sensor) for the examples.
 
 ---
 
-See also my:
-[Home Automation Videos](home_automation_videos) and [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) pages.
+## Related articles
+
+<div class="hp-tiles hp-options">
+
+<a class="hp-card hp-tile" href="/buy/smart_home_best_buy_tips#3-sensors-and-actuators">
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Zigbee sensors and actuators" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>Sensors and actuators</strong><p>The Zigbee sensors and actuators I use and recommend for your smart home.</p></div>
+</a>
+
+<a class="hp-card hp-tile" href="/ideas/home_automation_videos">
+<img src="/ideas/images/video.png" alt="Home automation videos" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Videos</strong><p>Home automation videos for inspiration.</p></div>
+</a>
+
+</div>
