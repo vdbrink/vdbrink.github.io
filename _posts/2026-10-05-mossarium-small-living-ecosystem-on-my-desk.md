@@ -46,4 +46,8 @@ On the new page you find:
 <img src="/projects/images_mossarium/mossarium.jpg" alt="Mossarium during creation" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Mossarium: a small living ecosystem on my desk</strong><p>How a moss terrarium works, where to buy one, how to make your own and how to take care of it.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
+<a class="hp-card hp-tile" href="/desk/office_accessories">
+<img src="/desk/images/desk_collage1.png" alt="Accessories on my desk" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home office</span><strong>Home office: Accessories</strong><p>All the accessories I use on my desk, including this moss terrarium.</p><span class="hp-more">Read the article &rarr;</span></div>
+</a>
 </div>

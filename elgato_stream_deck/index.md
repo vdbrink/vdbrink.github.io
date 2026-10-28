@@ -23,7 +23,8 @@ For all my years as a developer, a nice keyboard was good enough for my daily wo
 I've always enjoyed creating scripts to automate tasks on my PC, phone, and at home, so this button shortcut keypad was a small step for me.
 I don't know why it took me so long to find and use it myself!
 
-For example: you can use it to **control and visualize your OS, mail, Spotify, AI agents, videocalls, IDE, calendar, GitHub, GitLab, Home Assistant and many, many more...**
+For example: you can use it to **control and visualize your OS, mail, Spotify, AI agents, video 
+calls, IDE, calendar, GitHub, GitLab, Home Assistant and many, many more...**
 
 Read on to see how I use this keypad, and whether it is something you didn't know you wanted too!
 

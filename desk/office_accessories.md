@@ -107,6 +107,13 @@ I use these types of guides to accomplish this.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c39rwqId" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy6P9O#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBYwjl#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
+<div class="hp-card hp-tile">
+<img src="images/benq_screenbar_max.jpg" alt="BenQ ScreenBar Max monitor light" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>BenQ ScreenBar Max</strong>
+<p>It's much more expensive but it's a large and wide (85 cm / 33.5") monitor light, to light up your desk and behind your monitor. Advanced lightbar with all kind of brightness, color, auto detection modes.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://link.amazon/B04m2lk8S" target="_blank">Amazon</a></p>
+</div>
+</div>
 </div>
 
 ---
