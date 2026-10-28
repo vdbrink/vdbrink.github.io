@@ -20,10 +20,14 @@ Accessories
 <br>
 
 On this page, you can read about the accessories I use to decorate my office and make working there a joy
-for both myself and my cats, who like to keep me company during the day!
+for both me and my cats, who like to keep me company during the day!
 
+I've chosen to buy black or walnut accessories for my desk and to hide as many cables as possible out of sight, for a serene atmosphere.
+
+<a href="images/desk_collage1.png">
 <img src="images/desk_collage1.png" alt="Final result" width="100%" />
-<em style="display:block; text-align:center">Accessories and my home-company-cat</em>
+</a>
+<em style="display:block; text-align:center">Accessories and my cats, who keep me company</em>
 
 ---
 ## Table of Contents
@@ -69,10 +73,10 @@ Where a newer version exists, I link to that instead.
 ---
 ## Cable management
 
-For a clean desk cable needs to be hidden as much as possible.
+For a clean desk, cables need to be hidden as much as possible.
 Cable management is the solution to hide and guide the required cables under and behind the desk.
 
-I use these types of guides to accomplish this.
+I use these types of guides to accomplish this. For USB charge cable management I use [retractable USB cables](#retractable-usb-charger).
 
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
@@ -96,7 +100,7 @@ I use these types of guides to accomplish this.
 ---
 ## Monitor light
 
-<p>To get enough light on my desk, I use a monitor light bar that shines in front of the screen on the desk and keyboard and doesn't reflect in my eyes.</p>
+<p>Bad light tires your eyes and makes the screen hard to read. A monitor light bar puts light exactly where you work, on the desk and keyboard, without shining into your eyes or reflecting on the screen.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
@@ -107,10 +111,10 @@ I use these types of guides to accomplish this.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c39rwqId" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy6P9O#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBYwjl#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <img src="images/benq_screenbar_max.jpg" alt="BenQ ScreenBar Max monitor light" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>BenQ ScreenBar Max</strong>
-<p>It's much more expensive but it's a large and wide (85 cm / 33.5") monitor light, to light up your desk and behind your monitor. Advanced lightbar with all kind of brightness, color, auto detection modes.</p>
+<p>It is on my wishlist. It is much more expensive, but it is also a very large, wide (85 cm / 33.5") and advanced monitor light that lights up your desk and the area behind your monitor. It has all kinds of smart features, like customizable brightness, color and auto-detection modes.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://link.amazon/B04m2lk8S" target="_blank">Amazon</a></p>
 </div>
 </div>
@@ -119,7 +123,7 @@ I use these types of guides to accomplish this.
 ---
 ## Desk mat
 
-<p>A very large mouse mat under my keyboard and mouse.</p>
+<p>A large mat makes it possible to move the mouse smoothly and precisely. You don't have to keep lifting and repositioning it, and it also protects the desk surface underneath.</p>
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
@@ -184,7 +188,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 ---
 ## Laptop charger
 
-<p>Keep your laptop charged.</p>
+<p>A laptop that is always charged is always ready when you disconnect it and are on-the-go.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
@@ -207,7 +211,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop stand</span><strong>Vertical laptop stand</strong>
-<p>Single vertical laptop holder, the width can be ajusted.</p>
+<p>Single vertical laptop holder, the width can be adjusted.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3YOP0VH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eVsZSd#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OEi9pF#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -215,7 +219,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <div class="hp-card hp-tile hp-preferred">
 <img src="images/vertical_laptop_stand_two.avif" alt="Vertical laptop stand for two laptops" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop stand</span><strong>Vertical laptop stand for two laptops</strong>
-<p>Dual vertical laptop holder, the width can be ajusted.</p>
+<p>Dual vertical laptop holder, the width can be adjusted.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4SxczDR" target="_blank">AliExpress</a> | <a href="https://amzn.to/4uZOXJ7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vjM7iv#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -239,11 +243,11 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 
 ## Laptop case
 
-<p>To avoid reflections from the nearby window and distractions from the silver laptop on my desk I looked for a cover.</p>
+<p>To avoid reflections from the nearby window and distractions from the silver laptop on my desk, I looked for a cover.</p>
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<img src="images/macbook_case.jpg" alt="Macbook 16' case" loading="lazy">
+<img src="images/macbook_case.jpg" alt="MacBook 16-inch case" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop case</span><strong>Black MacBook cover</strong>
 <p>I found this black case for around my laptop. I chose walnut or black for all items below my monitor and on my desk to make it look calm.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4syE4fB" target="_blank">AliExpress</a> | <a href="https://amzn.to/42K2pos#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xyesn3#ad" target="_blank">Amazon NL</a></p>
@@ -254,7 +258,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 ---
 ## Headphone stand
 
-<p>To hang your headset on while you don't use it.</p>
+<p>Hang your headset on a stand instead of leaving it on the desk. It is always easy to find, and your desk stays clear.</p>
 
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
@@ -268,7 +272,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <div class="hp-card hp-tile">
 <img src="images/walnut_headphone_stand.png" alt="Walnut headphone stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Walnut headphone stand</strong>
-<p>A more stylish wood and metal headphone stand</p>
+<p>A more stylish wood and metal headphone stand.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4S9Q9hf" target="_blank">AliExpress</a> | <a href="https://amzn.to/3Rl26xR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4eh9lzY#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -277,7 +281,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 ---
 ## Desk clock
 
-<p>What time is it?</p>
+<p>Check the time with a quick glance.</p>
 
 <div class="hp-tiles hp-options hp-natural">
 <div class="hp-card hp-tile hp-preferred">
@@ -298,14 +302,14 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <div class="hp-card hp-tile">
 <img src="images/wood_clock_triangle.avif" alt="Wood clock with a triangle shape" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Wood clock with a triangle shape</strong>
-<p>Also a wooden clock, but with a triangle shape</p>
+<p>Also a wooden clock, but with a triangle shape.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3JDrUNr" target="_blank">AliExpress</a> | <a href="https://amzn.to/44lvrv9#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <img src="images/clock_wireless_charger.avif" alt="wooden clock with wireless charger" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Wooden clock with wireless charger</strong>
-<p>Also a wooden clock, but with a wireless phone charger</p>
+<p>Also a wooden clock, but with a wireless phone charger.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4MB2Tlj" target="_blank">AliExpress</a> | <a href="https://amzn.to/43JGezd#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -314,10 +318,10 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 ---
 ## Mug coaster
 
-<p>Mug and glas coaster, it protects your desk from spills and stains.</p>
+<p>Hot coffee and cold glasses leave rings and stains on wood. A coaster protects the desk so it keeps looking good for years.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
-<div class="hp-card hp-tile hp-preferred">
+<div class="hp-card hp-tile hp-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/coasters.jpg" alt="personalized mug coasters" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Mug coaster</span><strong>Personalized mug coasters</strong>
@@ -330,7 +334,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 ---
 ## Wireless phone charger stand
 
-Fewer wires make a desk look cleaner and more organized. If your phone supports wireless charging, place it on the charger and it starts charging, with no extra loos cable on your desk.<br>
+Fewer wires make a desk look cleaner and more organized. If your phone supports wireless charging, place it on the charger and it starts charging, with no extra loose cable on your desk.<br>
 It's also useful in other rooms, like the bedroom or kitchen.<br>
 If your phone doesn't support wireless charging, consider a [retractable USB charger](#retractable-usb-charger).
 
@@ -348,14 +352,15 @@ If your phone doesn't support wireless charging, consider a [retractable USB cha
 ---
 ## Walnut phone stand
 
-A basic phone stand in the same style as the desk and for easy view on it and easy to grab when needed.
+Your phone is easier to see and grab when it has its own place. 
+This walnut stand matches the desk, so it fits in without standing out.
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/walnut_phone_stand.jpg" alt="Walnut phone stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Walnut phone stand</span><strong>Walnut phone stand</strong>
-<p>A basic walnut-colored stand for my work phone, which is also walnut colored, so it fits perfectly with the rest of the accessories on my desk.</p>
+<p>A basic walnut-colored stand for my work phone, which is also walnut-colored, so it fits perfectly with the rest of the accessories on my desk.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4UBgQzZ" target="_blank">AliExpress</a> | <a href="https://amzn.to/4fYOLFO#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -364,14 +369,15 @@ A basic phone stand in the same style as the desk and for easy view on it and ea
 ---
 ## Cat tower
 
-When I am in the office, my cats like to stay nearby.
+Cats want to be close to you, so give them their own spot in the office. 
+A cat tower keeps them near you while you work.
 
 <a href="images/desk_collage_cats.png">
 <img src="images/desk_collage_cats.png" alt="cat tower" width="70%" />
 </a>
 
 <div class="hp-tiles hp-options hp-natural">
-<div class="hp-card hp-tile hp-preferred">
+<div class="hp-card hp-tile hp-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/cat_tower.jpg" alt="cat tower" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Cat tower</span><strong>Cat tower Diogenes L</strong>
@@ -379,10 +385,10 @@ When I am in the office, my cats like to stay nearby.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.bitiba.nl/shop/katten/krabpaal_krabmeubels/krabtonnen/554883?activeVariant=554883.1" target="_blank">Bitiba.nl</a></p>
 </div>
 </div>
-<div class="hp-card hp-tile hp-img-margin">
+<div class="hp-card hp-tile hp-stretch hp-img-margin">
 <img src="images/cat_condo_20_5_inch.jpg" alt="20.5-Inch Cat Condo" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>20.5-Inch Cat Condo</strong>
-<b>Alternative in the same style, available in US.</b>
+<b>Alternative in the same style, available in the US.</b>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4tV4zgc#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
@@ -391,14 +397,15 @@ When I am in the office, my cats like to stay nearby.
 ---
 ## Camera
 
-<p>Basic peripheral for video calls.</p>
+<p>Your camera is the first thing colleagues see on a video call. 
+A good webcam makes you look sharper and clearer, even with a basic setup.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Camera</span><strong>Logitech C920 HD Pro Webcam</strong>
-<p>I chose this basic camera years ago because of its HD USB camera with a lens cover, 30 fps, light correction, good sound and microphone quality (now I use a separate microphone), and a mount with contra weight to place on top of a monitor. Back in the day, it was a perfect match for me, and it still works fine. But it could be upgraded to a newer one with 4K resolution and an auto-follow feature.</p>
+<p>I chose this basic camera years ago because of its HD USB camera with a lens cover, 30 fps, light correction, good sound and microphone quality (now I use a separate microphone), and a mount with counterweight to place on top of a monitor. Back in the day, it was a perfect match for me, and it still works fine. But it could be upgraded to a newer one with 4K resolution and an auto-follow feature.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4hqFaIj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4kLNBO6#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>
@@ -410,7 +417,7 @@ When I am in the office, my cats like to stay nearby.
 ---
 ## Microphone
 
-<p>Basic peripheral for video calls.</p>
+<p>A good microphone makes your voice clear like you're in the same room speaking to each other.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
 <div class="hp-card hp-tile hp-preferred">
@@ -426,7 +433,7 @@ When I am in the office, my cats like to stay nearby.
 ---
 ## Smart notification light
 
-<p>A light indicator to alert you, in the style of the desk.</p>
+<p>Important moments are easy to miss when you are focused. A light on your desk can show a warning, a meeting or focus time without a sound or popup, and it blends in with the rest of your desk.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <a class="hp-card hp-tile hp-preferred" href="/projects/smart_notification_light">
@@ -441,7 +448,8 @@ When I am in the office, my cats like to stay nearby.
 ---
 ## Stretch display
 
-<p>A separated display with a Home Assistant display with home and room information.</p>
+<p>My most important home and office data stays in view, without opening an app. 
+A small screen next to my monitor shows CO2, temperature and alerts at a glance.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <a class="hp-card hp-tile hp-preferred" href="/projects/stretch_display">
@@ -462,17 +470,18 @@ Most of the time, you do not need that cable and want to keep it out of sight.
 But when you do need it, you do not want to dive under the desk or use loose hanging cables to connect one.
 
 A nice solution is a retractable USB charging cable.\
-You can pull it out when you need it, then it locks, pull again and it will automatically rolls back in when you are done.
-The length of the cable is mostly 1m, enough range to different devices.
+Pull it out when you need it; it locks. Pull again, and it rolls back in automatically when you are done.
+The cable is mostly 1 m long, which gives enough reach for different devices.
 
 <a href="images/retractable_usb_charger_in_use.jpg">
 <img src="images/retractable_usb_charger_in_use.jpg" alt="Retractable USB charger in use" width="250px" />
 </a>
-<em style="display:block; text-align:center">(Click to enlarge) Retractable USB charger, by default invisible and hidden behind my clock, but still reachable to pull the USB cable when needed to charge my keyboard or headphone.</em>
+<em style="display:block; text-align:center">(Click to enlarge) Retractable USB charger, by default invisible and hidden behind my clock, but still reachable so you can pull the USB cable out when needed to charge my keyboard or headphones.</em>
 
 
 <div class="hp-tiles hp-options hp-natural">
-<div class="hp-card hp-tile hp-preferred">
+
+<div class="hp-card hp-tile hp-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/retractable_usb_charger.avif" alt="Retractable USB charger" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Retractable USB charger</span><strong>Retractable USB-C power cable</strong>
@@ -480,27 +489,31 @@ The length of the cable is mostly 1m, enough range to different devices.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4092nFx" target="_blank">AliExpress</a></p>
 </div>
 </div>
+
 <div class="hp-card hp-tile">
+<img src="images/retractable_usb_cable_hub.png" alt="Black dual USB-C power hub" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Black dual USB-C power hub</strong>
+<p>Powerful charger.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oe4KB1" target="_blank">AliExpress</a> | <a href="https://amzn.to/3SSHu0u#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4enp1Sm#ad" target="_blank">Amazon NL</a></p>
+</div>
+</div>
+
+<div class="hp-card hp-tile hp-stretch">
 <img src="images/retractable_usb_charger.png" alt="Advanced and powerful retractable power supply hub" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Advanced and powerful retractable power supply hub</strong>
 <p>Powerful charger.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4jifDC2#ad" target="_blank">Amazon US</a></p>
 </div>
 </div>
-<div class="hp-card hp-tile">
-<img src="images/retractable_usb_cable_hub.png" alt="Black dual USB-C power hub" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Black dual USB-C power hub</strong>
-<p>An other powerful charger.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oe4KB1" target="_blank">AliExpress</a> | <a href="https://amzn.to/3SSHu0u#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4enp1Sm#ad" target="_blank">Amazon NL</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile">
+
+<div class="hp-card hp-tile hp-stretch">
 <img src="images/retractable_usb_charger_walnut_bottom.png" alt="Walnut cable organizer" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Walnut cable organizer</strong>
-<p>Nice design charger but with high shipping costs.</p>
+<p>Nice design, but high shipping costs.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2ud4CQX" target="_blank">AliExpress</a></p>
 </div>
 </div>
+
 </div>
 
 ---
@@ -541,7 +554,7 @@ The length of the cable is mostly 1m, enough range to different devices.
 <p>To keep my feet warm during winter, I placed a heated floor mat under my desk where I stand. This way, I do not need to heat the whole room, and I avoid cold feet from the floor while standing at my desk.</p>
 
 <div class="hp-tiles hp-options hp-natural">
-<div class="hp-card hp-tile hp-preferred">
+<div class="hp-card hp-tile hp-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/floor_mat.jpg" alt="heated floor mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Floor heated mat</span><strong>VH Etna 40x60 cm</strong>
@@ -549,7 +562,7 @@ The length of the cable is mostly 1m, enough range to different devices.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.bol.com/nl/nl/p/vh-regelbare-warme-voeten-mat-etna-40-x-60-cm-lcd-controller-met-4-standen-timerfunctie-plug-heat-zuinig-in-gebruik/9300000017178095/" target="_blank">Bol.com</a></p>
 </div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <img src="images/floor_mat.jpg" alt="floor mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Björn & Schiller, similar size</strong>
 <p>Less power and a shorter power cable.</p>
@@ -577,7 +590,8 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 ---
 ## Shortcut keyboard
 
-<p>A desk keypad to direct trigger all kinds of actions.</p>
+<p>One key press instead of a dozen clicks. 
+A macro keypad starts a meeting, toggle microphone on/off, switches apps or runs a script.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
 <div class="hp-card hp-tile hp-preferred">
@@ -603,7 +617,7 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 <p>With a portable vacuum cleaner for your desk (and keyboard), you can quickly remove small debris without scratching anything.</p>
 
 <div class="hp-tiles hp-options hp-full hp-img-narrow">
-<div class="hp-card hp-tile hp-preferred">
+<div class="hp-card hp-tile hp-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/desk_mini_vacuum_cleaner.avif" alt="mini desk vacuum cleaner" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Vacuum cleaner</span><strong>Mini desk vacuum cleaner</strong>
@@ -626,7 +640,7 @@ Later, my local garden center also started selling moss terrariums, so it is wor
 
 <br>
 
-That it, thanks for your interrest. Have a nice day!
+That's it, thanks for your interest. Have a nice day!
 
 ---
 
