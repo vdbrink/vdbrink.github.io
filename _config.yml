@@ -3,13 +3,27 @@ lang: "en"
 title: vd Brink Home Automations
 description: "Home automations with Home Assistant, ESPHome, Node-RED and more tech"
 url: "https://vdbrink.github.io"
+logo: /images/avatar_square.jpg
+author:
+  name: Ronald vd Brink
+facebook:
+  publisher: https://www.facebook.com/brinkhomeautomations
+social:
+  type: Person
+  name: Ronald vd Brink
+  links:
+    - https://github.com/vdbrink
+    - https://www.facebook.com/brinkhomeautomations
 
 defaults:
   - scope:
       path: "" # Alle bestanden in de root en submappen
     values:
       layout: "default"
-
+  - scope:
+      path: "" # default social/search image for pages without their own image:
+    values:
+      image: /images/avatar.jpg
 
 # Layout settings (geen extra spaties vooraan!)
 layouts_dir: _layouts
