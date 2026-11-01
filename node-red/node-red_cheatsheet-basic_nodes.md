@@ -1,5 +1,6 @@
 ---
 title: "Node-RED Cheat Sheet - Basic Nodes"
+description: "Node-RED cheat sheet with examples of basic nodes to convert, round and move data."
 category: Node-RED
 tags:  [Node-RED, basic, nodes, trigger, delay]
 ---
@@ -8,7 +9,7 @@ tags:  [Node-RED, basic, nodes, trigger, delay]
 
 Node-RED examples of basic actions to convert data from one to another format can be found here.
 
-More advanced examples with the function node can be found [here](node-red_cheatsheet-function_node)
+More advanced examples with the function node can be found in the [Node-RED function node cheat sheet](node-red_cheatsheet-function_node)
 
 ---
 
@@ -32,7 +33,7 @@ Pass a single entity value, in this case the temperature, from a JSON message.
 
 |                                                                              |                                                                   |        |
 |:-----------------------------------------------------------------------------|-------------------------------------------------------------------|-------:|
-| {<br>"battery" : 100, <br>"temperature" : 24.53,<br>"linkquality" : 60<br>}  | <img src="images/nodes/node_change.png" height="{{imgHeight}}px"> |  24.53 |
+| {<br>"battery" : 100, <br>"temperature" : 24.53,<br>"linkquality" : 60<br>}  | <img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeight}}px"> |  24.53 |
 
 </div>
 
@@ -48,8 +49,8 @@ Round a comma value, like temperature, to a rounded integer value.
 
 |      |                                                                   |     |
 |:-----|-------------------------------------------------------------------|----:|
-| 25,3 | <img src="images/nodes/node_change.png" height="{{imgHeight}}px"> |  25 |
-| 25,6 | <img src="images/nodes/node_change.png" height="{{imgHeight}}px"> |  26 |
+| 25,3 | <img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeight}}px"> |  25 |
+| 25,6 | <img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeight}}px"> |  26 |
 
 </div>
 
@@ -64,7 +65,7 @@ Convert a string value to an integer.
 
 |         |                                                                   |       |
 |:--------|-------------------------------------------------------------------|------:|
-| "24.01" | <img src="images/nodes/node_change.png" height="{{imgHeight}}px"> | 24.01 |
+| "24.01" | <img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeight}}px"> | 24.01 |
 </div>
 
 ```
@@ -78,7 +79,7 @@ Get only the last part after the '/' from a topic.
 
 |                        |                                                                   |            |
 |:-----------------------|-------------------------------------------------------------------|-----------:|
-| "zigbee2mqtt/contact1" | <img src="images/nodes/node_change.png" height="{{imgHeight}}px"> | "contact1" |
+| "zigbee2mqtt/contact1" | <img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeight}}px"> | "contact1" |
 </div>
 
 ```
@@ -92,7 +93,7 @@ Set [msg.]measurement
 With the delay node, you can limit the number of messages which will be sent per time unit (seconds/minutes/hours/days). \
 Intermediate message will be dropped.
 
-<img src="images/nodes/node_delay.png" height="{{imgHeight}}px">
+<img alt="Node-RED delay node" src="images/nodes/node_delay.png" height="{{imgHeight}}px">
 
 ```
 Action   Rate Limit 
@@ -109,11 +110,11 @@ You can also combine two delay node, one with 1 messages per 5 minutes and an ex
 The hysteresis node is a node that forwards its incoming message only if the numeric value of the message payload rises above one specified threshold, or falls below another.
 This node is a combination of the [rising edge node](#trigger-only-on-passing-a-value-on-rise) and [falling edge node](#trigger-only-on-passing-a-value-on-fall)
 
-<img src="images/nodes/node_hysteresis.png" height="{{imgHeight}}px">
+<img alt="Node-RED hysteresis node" src="images/nodes/node_hysteresis.png" height="{{imgHeight}}px">
 
 This can be used, for example, to monitor a dryer if the energy consumption is like this.
 
-<img src="images/grafana_dryer.png" height="250px">
+<img alt="Grafana graph of the dryer" src="images/grafana_dryer.png" height="250px">
 
 When the node is defined like this:
 ```
@@ -129,7 +130,7 @@ When the dryer is finished, the value drops below 6 to 0 again the next trigger 
 
 The rising edge node only passes a value through when an input payload value increases, and passes a defined threshold value.
 
-<img src="images/nodes/node_rising_edge.png" height="{{imgHeight}}px">
+<img alt="Node-RED rising edge node" src="images/nodes/node_rising_edge.png" height="{{imgHeight}}px">
 
 When the node is defined like this:
 ```
@@ -142,7 +143,7 @@ A trigger is only sent when the input value changes from a value below 5 to a ne
 
 The falling edge node only passes a value through when an input payload value decreases, and passes a defined threshold value.
 
-<img src="images/nodes/node_falling_edge.png" height="{{imgHeight}}px">
+<img alt="Node-RED falling edge node" src="images/nodes/node_falling_edge.png" height="{{imgHeight}}px">
 
 When the node is defined like this:
 ```

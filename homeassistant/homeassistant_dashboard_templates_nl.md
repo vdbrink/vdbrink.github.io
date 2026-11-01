@@ -1,7 +1,10 @@
 ---
 title: "Home Assistant dashboard: Voorbeeld templates NL"
+description: "Nederlandse Home Assistant template voorbeelden voor je dashboard: begroeting, weer, kledingadvies en datum en tijd."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, templates, nl, weer]
+lang: nl
+locale: nl_NL
 ---
 
 # Home Assistant dashboard: Voorbeeld templates NL

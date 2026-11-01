@@ -1,5 +1,6 @@
 ---
 title: Jura coffee machine Products
+description: "Products for your Jura coffee machine: beans, milk containers, coolers and cup warmers."
 category: Jura
 tags: [Jura, Z10, cleaning, tabs, filter]
 image: /jura/images/jura_logo.png
@@ -68,7 +69,7 @@ With these products, you keep it as new and with the best taste and avoid molt.
 30 Cleanings, 90 gram
 
 <a href="images_products/jura_milk_system_cleaning_tabs.jpg">
-<img src="images_products/jura_milk_system_cleaning_tabs.jpg" height="150px" alt=""/>
+<img src="images_products/jura_milk_system_cleaning_tabs.jpg" height="150px" alt="Jura milk system cleaning tabs"/>
 </a>
 
 [Amazon NL](),
@@ -80,11 +81,6 @@ With these products, you keep it as new and with the best taste and avoid molt.
 #### Tabs
 
 *Original*
-
-<img src="" height="150px" alt=""/>
-
-[Amazon NL](),
-[Amazon](),
 
 *Alternative*
 -->
@@ -198,7 +194,7 @@ It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø
 
 ## Other Jura products
 
-See [here](https://amzn.to/48bcKfs#ad) the full list of Jura products at Amazon.nl
+See the [full list of Jura products at Amazon.nl](https://amzn.to/48bcKfs#ad)
 
 ---
 

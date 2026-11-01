@@ -157,7 +157,7 @@ Are you also excited about this sensor? Here you can buy it yourself.
 
 <br>
 
-See [here](/buy/smart_home_best_buy_tips#outdoor-sensors) for more outdoor Zigbee devices!
+See the [outdoor sensors Best Buy Tips](/buy/smart_home_best_buy_tips#outdoor-sensors) for more outdoor Zigbee devices!
 
 ---
 

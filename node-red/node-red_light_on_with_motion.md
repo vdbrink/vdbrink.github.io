@@ -19,7 +19,7 @@ Keep the lights on while there is motion detected.
 
 ![Node-RED flow](images/flows/light_on_based_on_motion.png)
 
-You can download this flow [here](flows/light_on_based_on_motion.json).
+You can [download this flow](flows/light_on_based_on_motion.json).
 
 **Scenario:**
 

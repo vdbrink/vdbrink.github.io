@@ -1,5 +1,6 @@
 ---
 title: DIY Zigbee chair occupancy sensor
+description: "Build a DIY Zigbee chair occupancy sensor with a car seat pressure sensor to detect when you sit at your desk."
 category: Zigbee
 tags: [Zigbee, occupancy, diy, WiFi, contact, sensor, Aqara, chair, office, cat, bed, mat, pressure, car]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
@@ -74,7 +75,7 @@ Other purposes for this sensor are:
 
 ## Automations
 
-<img src="images_chair/chair_occupancy.png" alt="" width="400px">
+<img src="images_chair/chair_occupancy.png" alt="Chair occupancy sensor" width="400px">
 
 With this new sensor, your home automation knows exactly when you sit on your chair and when you stand up again.
 Unlike a motion sensor, it keeps reporting "occupied" while you sit still, and it ignores pets and moving air.
@@ -244,7 +245,7 @@ In this chapter I turn it into a usable chair sensor: first fix the inverted sta
 By default, the contact status is the opposite of what I need.
 With this addition in the `configuration.yaml` file, it creates a new sensor that shows the correct status on the dashboard.
 
-<img src="images_chair/chair_occupancy.png" alt="" width="400px">
+<img src="images_chair/chair_occupancy.png" alt="Chair occupancy sensor" width="400px">
 
 ```yaml
 {% raw %}
@@ -353,7 +354,7 @@ hours_to_show: 24
 
 Indicate if someone is sitting on the chair.
 
-<img src="images_chair/chair_occupancy.png" alt="" width="400px">
+<img src="images_chair/chair_occupancy.png" alt="Chair occupancy sensor" width="400px">
 
 ```yaml
 {% raw %}

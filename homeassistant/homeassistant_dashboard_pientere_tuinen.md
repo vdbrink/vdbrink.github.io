@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Pientere tuinen"
+description: "Home Assistant dashboard elements for the Dutch citizen science project Pientere Tuinen, which monitors garden biodiversity."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, Pientere tuinen]
 image: /homeassistant/images_pientere_tuinen/pt-logo.webp
@@ -94,7 +95,7 @@ These are the three basic Home Assistant elements I used.
 
 ### Project logo with the soil temperature
 
-<img src="images_pientere_tuinen/logo_with_temp.png" alt="" width="400px">
+<img src="images_pientere_tuinen/logo_with_temp.png" alt="Pientere Tuinen logo with the temperature" width="400px">
 
 A Picture Entity Card with the actual soil temperature.
 
@@ -114,7 +115,7 @@ entity: sensor.mijn_pientere_tuin_temperatuur
 ---
 ### Gauge with the humidity
 
-<img src="images_pientere_tuinen/gauge_humidity.png" alt="" width="400px">
+<img src="images_pientere_tuinen/gauge_humidity.png" alt="Humidity gauge" width="400px">
 
 A Gauge to show if the soil humidity is in a correct range.\
 The values depends on your type of soil.
@@ -139,7 +140,7 @@ unit: '%'
 
 ### Soil temperature in a graph
 
-<img src="images_pientere_tuinen/graph_temp.png" alt="" width="400px">
+<img src="images_pientere_tuinen/graph_temp.png" alt="Temperature graph" width="400px">
 
 Show the soil temperature in a graph. 
 
@@ -158,7 +159,7 @@ entities:
 
 ### Soil humidity in a graph
 
-<img src="images_pientere_tuinen/graph_humidity.png" alt="" width="400px">
+<img src="images_pientere_tuinen/graph_humidity.png" alt="Humidity graph" width="400px">
 
 Show the humidity in a graph. Also with static edge values.
 
@@ -210,7 +211,7 @@ template:
 
 In this graph, you can see that each type of soil has its own levels when it's good for plants to live on.
 
-<img src="images_pientere_tuinen/range-of-optimum-soil-moisture.jpg" alt="" width="400px">
+<img src="images_pientere_tuinen/range-of-optimum-soil-moisture.jpg" alt="Range of optimum soil moisture" width="400px">
 
 ---
 

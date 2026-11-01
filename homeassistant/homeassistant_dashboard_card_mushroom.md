@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard card: Mushroom"
+description: "Home Assistant dashboard examples with Mushroom cards, with copy-paste YAML code for your own dashboard."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, card, mushroom, minimalistic, icons]
 image: /homeassistant/images_mushroom/mushroom_examples.png
@@ -13,7 +14,7 @@ Here you find Home Assistant (lovelace) dashboard examples related to the **mush
 
 Since Home Assistant version 2024.8 it has similar functionality built in natively, it's called [Badges](https://www.home-assistant.io/dashboards/badges/).
 
-Mushroom <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add a small widget on your dashboard.
+Mushroom <img alt="Mushroom" src="https://github.githubassets.com/images/icons/emoji/unicode/1f344.png" height="15px" /> is a card which can let you add a small widget on your dashboard.
 
 <img src="images_mushroom/mushroom_examples.png" width="350px" alt="mushroom examples" />
 

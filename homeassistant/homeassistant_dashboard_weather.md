@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Weather"
+description: "Weather forecast cards for your Home Assistant dashboard, with copy-paste YAML for chart, animated and hourly cards."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, weather, thunder, lightning]
 image: /homeassistant/images_hacs/hacs_weather-chart-card.png
@@ -199,7 +200,7 @@ name: " "
 
 Pollen integration with intensity for weeds, grasses and trees for today.
 
-<img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
+<img src="images_kleenex/kleenex_colored_presentation.png" alt="Kleenex pollen radar in colors" width="400px">
 
 Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration for more cards with multi-day forecast.
 And graphs with details on different types of pollen per type of tree.

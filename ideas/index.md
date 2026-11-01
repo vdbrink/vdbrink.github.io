@@ -1,5 +1,6 @@
 ---
-title: "Home Automation Ideas"
+title: "Home Automation Ideas and Videos"
+description: "Home automation ideas in and around your house, plus videos of other people's smart homes."
 category: Ideas
 tags: [idea, smart, home, automations, video]
 image: /ideas/images/idea.png

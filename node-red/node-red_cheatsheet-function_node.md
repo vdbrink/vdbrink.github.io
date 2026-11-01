@@ -1,15 +1,15 @@
 ---
 title: "Node-RED Cheat Sheet - Function Node"
+description: "Node-RED cheat sheet with JavaScript examples for the function node: context, flow variables and status icons."
 category: Node-RED
 tags:  [Node-RED, node, basic, function]
 ---
 {% capture imgHeight %}50{% endcapture %}
 # Node-RED Cheat Sheet - Function Node
 
-
 Examples of javascript code which you can use in Node-RED function nodes.
 
-![](images/nodes/node_function.png)
+![Node-RED function node](images/nodes/node_function.png)
 
 ## Table of Contents
 <!-- TOC -->
@@ -57,7 +57,7 @@ It's possible add a status icon under the function node and show a internal valu
 
 In this case it shows a green round with value `0`.
 
-<img src="images/node_function_status.png" height="{{imgHeight}}px">
+<img alt="Function node with a status icon" src="images/node_function_status.png" height="{{imgHeight}}px">
 
 ```
 var diff = 0;
@@ -106,7 +106,7 @@ This can be used to control a smartplug based on a contact sensor.
 
 |                            |                                                                          |       |
 |:---------------------------|--------------------------------------------------------------------------|------:|
-| {<br>"contact" : true<br>} | <img src="images/nodes/node_function.png" height="{{imgHeight}}px"> <br> | "OFF" |
+| {<br>"contact" : true<br>} | <img alt="Node-RED function node" src="images/nodes/node_function.png" height="{{imgHeight}}px"> <br> | "OFF" |
 
 </div>
 
@@ -134,7 +134,7 @@ The first temperature is stored in the flow variable `flow.temp`, the next tempe
 
 |      |                                                                          |              |
 |:-----|--------------------------------------------------------------------------|-------------:|
-| 24.1 | <img src="images/nodes/node_function.png" height="{{imgHeight}}px"> <br> | 24.1<br>null |
+| 24.1 | <img alt="Node-RED function node" src="images/nodes/node_function.png" height="{{imgHeight}}px"> <br> | 24.1<br>null |
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Layout"
+description: "Home Assistant dashboard layout tips to group many entities in a compact, readable way."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, layout]
 image: /homeassistant/images_layout/ha_layout_banner.png

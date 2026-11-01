@@ -6,7 +6,7 @@ tags: [Zigbee, WiFi, infrared, transmitter, receiver, remote, learn, send, air c
 image: /zigbee/images_infrared/ir_buttons_ha.png
 ---
 
-{% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
 # Automate infrared devices
@@ -369,7 +369,7 @@ Also, some Christmas decorations have an infrared remote, see my [dedicated page
 
 **Online models**
 
-[Here](/buy/zigbee_infrared_remote) you find a list of different infrared remote control devices.
+See my list of different [infrared remote control devices](/buy/zigbee_infrared_remote).
 
 ---
 

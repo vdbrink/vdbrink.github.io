@@ -11,7 +11,7 @@ tags: [Best, Buy, tips, ESPHome, sensors, soldering]
 
 ## Introduction
 
-<img src="../esphome/images_co2/case_fit_co2_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
+<img alt="ESPHome CO2 sensor fitted in its case" src="../esphome/images_co2/case_fit_co2_sensor.jpg" height="180px" style="margin-left:15px;float:right"/>
 If you want to create your own sensors with ESPHome you need an ESP development board where you can load the software to read the sensors and send this data over the network to your home server.
 
 If you're afraid to solder some pins or connect the ESP to the sensor, look for some tutorials and give it a try.

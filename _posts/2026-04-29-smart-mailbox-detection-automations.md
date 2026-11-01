@@ -18,7 +18,7 @@ I've made multiple traditional mailboxes smart by adding contact sensors to them
 
 I get notifications when mail is delivered.
 
-<img src="/projects/images_mailbox/youve_got_mail_notification.jpg" width="350px" />
+<img alt="Phone notification: you've got mail" src="/projects/images_mailbox/youve_got_mail_notification.jpg" width="350px" />
 
 I have on my Home Assistant dashboard the current status of whether mail is in my package box.
 

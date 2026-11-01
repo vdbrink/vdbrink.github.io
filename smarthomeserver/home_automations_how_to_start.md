@@ -1,5 +1,6 @@
 ---
 title: "Home automations: How to start?"
+description: "How to start with home automation and Home Assistant: my personal journey and tips for your first smart home setup."
 category: Smart Home Server
 tags: [smart home, start, how, begin, newbie]
 ---

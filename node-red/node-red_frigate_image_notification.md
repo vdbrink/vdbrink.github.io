@@ -1,5 +1,6 @@
 ---
 title: "Node-RED Frigate image notification"
+description: "Send a Frigate camera snapshot as a notification to Telegram or the Home Assistant app with Node-RED."
 category: Node-RED
 tags: [Node-RED, frigate, notification, Home Assistant, image]
 ---
@@ -17,7 +18,7 @@ Here you find how you can send a notification with a captured image from Frigate
 
 ## Send Telegram photo from Frigate
 
-<img src="image_frigate/flow_frigate.png" width="100%" />
+<img alt="Node-RED flow for Frigate image notification" src="image_frigate/flow_frigate.png" width="100%" />
 
 * MQTT output node 
   * With the topic `frigate/camera_1/person/snapshot` where `camera_1` the defined name in Frigate is.

@@ -130,7 +130,7 @@ Without having to worry about latency or any other performance issues for the be
 
 > Target group: More advanced and demanding users
 
-{% capture a_icon %}<img src="/images/amazon_icon.png" width="20px">{% endcapture %}
+{% capture a_icon %}<img alt="Amazon" src="/images/amazon_icon.png" width="20px">{% endcapture %}
 
 {% capture n95_global %}[AliExpress](https://s.click.aliexpress.com/e/_c38kv8Ib)*{% endcapture %}
 {% capture n97_global %}-{% endcapture %}

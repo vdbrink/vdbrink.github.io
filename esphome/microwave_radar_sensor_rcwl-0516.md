@@ -13,7 +13,7 @@ image: /esphome/images_rcwl-0516/rcwl_0516_wired.jpg
 
 ## Introduction
 
-<img src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="150px" style="margin-left:15px;float:right"/>
+<img alt="RCWL-0516 microwave radar sensor" src="images_rcwl-0516/rcwl_0516_microwave_radar_sensor.jpg" height="150px" style="margin-left:15px;float:right"/>
 
 The RCWL-0516 microwave sensor is a cheap motion and presence detection sensor based on radar technology.\
 The advantage above a traditional PIR motion sensor is that you can hide it out of sight by placing it, for example, inside a closet.\
@@ -177,7 +177,7 @@ Also, the one we used here, a binary sensor:
 #### Flash the script
 
 There are a lot of ways to flash the config file with ESPHome to the board.\
-Read [here](esphome_flashing) how to upload it.
+Read [how to flash ESPHome](esphome_flashing) to upload it.
 
 Connect the ESP via USB to the computer.
 

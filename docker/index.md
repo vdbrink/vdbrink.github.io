@@ -1,5 +1,6 @@
 ---
 title: Docker compose examples
+description: "Docker and Docker Compose examples to run home automation applications with a few lines, including updates, rollbacks and backups."
 category: Docker
 tags: [docker, applications, portainer, node-red, influxdb, grafana, mosquitto, zigbee2mqtt, zigbee2mqtt assistant, rhasspy, pihole, dsmr reader, home assistant, room assistant]
 ---

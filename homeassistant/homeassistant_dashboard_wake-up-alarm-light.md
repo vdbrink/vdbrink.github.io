@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Wake-up alarm light"
+description: "Home Assistant dashboard with an adjustable alarm timer to switch a wake-up light or any automation at your own time."
 date: 2026-03-17
 category: Home Assistant
 tags: [Home Assistant, dashboard, clock, time, alarm, LED strip, lamp, automation]
@@ -108,14 +109,14 @@ This button directly opens the **Helpers** page in your Home Assistant:
 Select the bottom-right button `+ Create Helper`, and select **Date and/or time**.
 <img src="images/create_helper.png" alt="Create helper button" width="200px">
 
-<img src="images_wake-up/ha-create-helper.png" alt="" width="400px">
+<img src="images_wake-up/ha-create-helper.png" alt="Create a helper in Home Assistant" width="400px">
 <br>
 
 Give it a name (this will also automatically be used for the entity name).\
 Optionally select an icon, like `mdi:clock`.\
 Select the input type **Time**.
 
-<img src="images_wake-up/ha-create-helper-on-time.png" alt="" width="400px">
+<img src="images_wake-up/ha-create-helper-on-time.png" alt="Create a helper for the ON time" width="400px">
 <br>
 <br>
 
@@ -163,7 +164,7 @@ This is the config of the HA time node which triggers an event when the defined 
 
 This is the config of the HA current state node which checks if the timer should be active:
 
-<img src="images_wake-up/node-red_is-active-node.png" alt="" width="400px">
+<img src="images_wake-up/node-red_is-active-node.png" alt="Node-RED is-active node" width="400px">
 
 The corresponding Node-RED JSON code:
 ```yaml

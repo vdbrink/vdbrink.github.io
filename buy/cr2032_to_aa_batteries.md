@@ -90,7 +90,7 @@ and the sensor can do its job again for years!
 </a>
 Did you know there are also rechargeable CR2032? They are called LIR2032.
 
-You can find more information about them [here](/buy/batteries).
+You can find more information about them [Batteries - Best Buy Tips](/buy/batteries).
 
 <br>
 

@@ -157,7 +157,7 @@ For this project, you only need the software to flash the ESP chip with the conf
 The only software you need is ESPHome.
 
 There are a lot of ways to flash the config file with ESPHome to the board.\
-Read [here](esphome_flashing) how to upload it.
+Read [how to flash ESPHome](esphome_flashing) to upload it.
 
 ---
 

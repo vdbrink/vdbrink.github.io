@@ -1,5 +1,6 @@
 ---
 title: "Node-RED + Home Assistant: Full moon"
+description: "Trigger a Node-RED flow when Home Assistant reports a full moon, using event state nodes."
 category: Node-RED
 tags: [Node-RED, Home Assistant, integration, moon]
 ---

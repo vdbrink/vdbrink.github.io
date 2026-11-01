@@ -10,7 +10,7 @@ Building a smart home starts with picking the right hardware.
 These are the devices I actually use, tested in my own home.
 
 <a href="/buy/smart_home_best_buy_tips">
-<img src="images_zigbee/zigbee_banner.png" width="500px">
+<img alt="Zigbee devices banner" src="images_zigbee/zigbee_banner.png" width="500px">
 </a>
 
 * [Zigbee Smart home - Best Buy Tips](smart_home_best_buy_tips) for creating a smart home.

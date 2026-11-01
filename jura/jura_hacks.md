@@ -1,5 +1,6 @@
 ---
 title: Jura coffee machine Hacks
+description: "Handy hacks for Jura coffee machines: milk bottle container, automatic water tank refill and a magnetic milk pipe holder."
 category: Jura
 tags: [Jura, Z10, hacks]
 image: /jura/images/jura_logo.png

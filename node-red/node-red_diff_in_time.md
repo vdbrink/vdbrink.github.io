@@ -30,7 +30,7 @@ Purposes where this flow can be used:
 With this flow, you can compare the change of a value in time.
 
 ![Node-RED flow](images_diff/calculate_diff_in_time.png)
-You can download this flow [here](flows/diff_in_time.json).
+You can [download this flow](flows/diff_in_time.json).
 
 I used for this flow an additional Node which you need to have installed first in your Node-RED setup: [node-red-contrib-zigbee2mqtt](https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt)
 

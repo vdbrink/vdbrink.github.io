@@ -241,7 +241,7 @@ The relevant pages for this project are:
 ### Flash the script
 
 There are many ways to flash the configuration file with ESPHome to the board.\
-Read [here](esphome_flashing) how to upload it.
+Read [how to flash ESPHome](esphome_flashing) to upload it.
 
 Connect the ESP via USB to the computer.
 

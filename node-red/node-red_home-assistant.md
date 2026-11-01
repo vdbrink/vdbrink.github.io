@@ -1,5 +1,6 @@
 ---
 title: "Node-RED + Home Assistant: team work"
+description: "Combine Node-RED and Home Assistant: required nodes and examples to let both work together."
 category: Node-RED
 tags: [Node-RED, Home Assistant]
 ---

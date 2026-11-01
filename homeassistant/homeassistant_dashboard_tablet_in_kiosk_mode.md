@@ -23,7 +23,7 @@ Here you can read how to configure it.
 </a>
 <em>Example of a Home Assistant dashboard presented on a tablet.</em>
 
-[Here](#create-a-tablet-dashboard) you can go directly to the Home Assistant dashboard section on this page.
+Go directly to the [Home Assistant dashboard section](#create-a-tablet-dashboard) on this page.
 
 ---
 ## Table of Contents
@@ -257,7 +257,7 @@ Before you start with your dashboard ask yourself the following questions:
   * Calendar: Trash, birthdays, appointments
   * Latest news
 <br>
-Check [here](/homeassistant/homeassistant_dashboard_examples_overview) or [here](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements)
+Check the [dashboard examples overview](/homeassistant/homeassistant_dashboard_examples_overview) or the [stretch layout dashboard elements](/homeassistant/homeassistant_dashboard_stretch_layout#dashboard-elements)
 for copy-paste examples in these categories.
 <br>
 Or continue reading to see more examples.

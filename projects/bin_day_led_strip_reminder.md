@@ -119,7 +119,7 @@ In addition, I added an inject-node where you can click on to test if the lights
 
 **Send notification**
 
-Another addition is the node to send the text also to your phone. Check [here](../node-red/node-red_home-assistant_notifications) how to send this message to you Home Assistant companion app.
+Another addition is the node to send the text also to your phone. See [Node-RED + Home Assistant notifications](../node-red/node-red_home-assistant_notifications) for how to send this message to you Home Assistant companion app.
 
 **Turn LED strip off**
 

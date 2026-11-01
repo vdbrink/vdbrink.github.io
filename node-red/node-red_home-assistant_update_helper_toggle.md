@@ -1,5 +1,6 @@
 ---
 title: "Node-RED + Home Assistant: Update helper toggle"
+description: "Set a Home Assistant helper toggle (input_boolean) from Node-RED with the Home Assistant API node."
 category: Node-RED
 tags: [Node-RED, Home Assistant]
 ---

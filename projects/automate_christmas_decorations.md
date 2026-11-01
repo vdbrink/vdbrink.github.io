@@ -7,7 +7,7 @@ image: /projects/images_christmas_decorations/banner_christmas.png
 ---
 # Automate Christmas decorations
 
-{% capture imgBasket %}<img src="/buy/images/basket.png" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
+{% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Christmas banner" width="450px" />
@@ -22,7 +22,7 @@ During the Christmas season, I have a lot of extra lights and other powered deco
 
 It's a lot of work to control them manually every day.\
 It's also a waste of energy when no one sees it or it's a clear day.\
-I've made my life easier by automating them all!
+I've made my life easier by automating them all based on time of the day, presence, status of other devices.
 
 Now I can also control all my Christmas decorations from my phone in a Home Assistant dashboard.
 
@@ -35,22 +35,22 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
 
 
 <div class="hp-tiles hp-options hp-quad">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#battery-powered-decorations"><img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="Battery to USB" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Convert battery powered devices to main power</strong>
 <p>Battery powered decorations on a USB adapter or socket.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#infrared-lights"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Automate infrared LEDs, candles and tea lights</strong>
 <p>Control infrared decorations with a programmable remote.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#christmas-tree-lights"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas light string plug" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Automate Christmas tree lights</strong>
 <p>No activate button anymore.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#decorations-powered-with-a-power-plug"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart socket" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Automate decorations powered with a power plug</strong>
 <p>Switch mains powered decorations with a smart socket.</p></div>
@@ -170,27 +170,27 @@ As mentioned, I have multiple types of Christmas decorations.\
 Which results at the end in five different types of power types to automate:
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#battery-powered-decorations"><img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="Battery powered decorations" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Battery powered decorations</strong>
 <p>15+ pieces, now controlled with dummy batteries which are now connected to the main power.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#infrared-lights"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared controlled tea lights" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Infrared controlled LEDs / candles / tea lights</strong>
 <p>Now automatically controlled by a programmable infrared remote.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#christmas-tree-lights"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas tree light plug" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Christmas tree lights</strong>
 <p>Now with a replaced adapter, without a switch button which requires a manual action to activate it first.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#decorations-powered-with-a-power-plug"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart socket" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Decoration/lights powered with a power plug</strong>
 <p>10+ pieces, now controlled with a smart socket in between.</p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-stretch">
 <a href="#outdoor-lights"><img src="/projects/images_christmas_decorations/outside_tree_light.jpg" alt="Outdoor tree lights" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Outdoor lights</strong>
 <p>Now controlled with outdoor smart sockets.</p></div>

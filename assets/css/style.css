@@ -487,7 +487,7 @@ header {
     border-bottom: solid 1px #275da1
 }
 
-header h1 {
+header .site-title {
     width: 940px;
     margin-top: 0;
     margin-bottom: 0.2em;
@@ -498,7 +498,7 @@ header h1 {
     letter-spacing: -1px
 }
 
-header h2 {
+header .site-tagline {
     width: 940px;
     margin-top: 0;
     margin-bottom: 0;
@@ -811,15 +811,15 @@ footer a:hover {
         width: 740px
     }
 
-    header h1, header h2 {
+    header .site-title, header .site-tagline {
         width: 340px
     }
 
-    header h1 {
+    header .site-title {
         font-size: 60px
     }
 
-    header h2 {
+    header .site-tagline {
         font-size: 30px
     }
 
@@ -847,15 +847,15 @@ footer a:hover {
         position: relative
     }
 
-    header h1, header h2 {
+    header .site-title, header .site-tagline {
         width: 100%
     }
 
-    header h1 {
+    header .site-title {
         font-size: 48px
     }
 
-    header h2 {
+    header .site-tagline {
         font-size: 24px
     }
 

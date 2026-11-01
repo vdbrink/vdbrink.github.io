@@ -1,6 +1,6 @@
 --- 
-title: "Frigate"
-description: "Frigate"
+title: "Frigate NVR tips: Proxmox, Docker and hardware acceleration"
+description: "Frigate NVR setup tips: Proxmox LXC settings, Docker and Intel hardware acceleration."
 category: Frigate
 tags: [frigate]
 ---

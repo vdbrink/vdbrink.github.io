@@ -1,5 +1,6 @@
 ---
 title: How to choose your smart home system?
+description: "How to choose a smart home system without getting lost in terms like NUC, N100, Proxmox and HAOS."
 category: Smart Home system
 tags: [Zigbee, WiFi, Home Assistant, system, proxmox, NUC, hardware, mini pc, home lab]
 ---

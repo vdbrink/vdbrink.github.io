@@ -1,5 +1,6 @@
 ---
-title: Zigbee
+title: "Zigbee smart home: devices, DIY projects and buy tips"
+description: "Zigbee smart home guide: device highlights, DIY projects, why I chose Zigbee and buy tips."
 category: Zigbee
 tags: [Zigbee, best buy, stick, adapter, smart, home, network]
 image: /zigbee/images/zigbee.jpg
@@ -113,7 +114,7 @@ After buying and using them, on a daily basis, by myself.
 I have more than 140 Zigbee devices and some running already for more than four years, non-stop.
 
 <a href="../buy/smart_home_best_buy_tips">
-<img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>
+<img alt="Zigbee devices banner" src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>
 </a>
 
 ---

@@ -76,7 +76,7 @@ When you automate your mailbox, there are different automations possible:
 
 * Notification on your phone when mail is delivered.
   * Detection: if the contact changes from true to false.
-    <img src="images_mailbox/youve_got_mail_notification.jpg" width="350px" />
+    <img alt="Phone notification: you've got mail" src="images_mailbox/youve_got_mail_notification.jpg" width="350px" />
 * Notification on your smart speaker when mail is delivered.
 * Notification if mail is sticking out of the mailbox. 
   * Detection: the flap is opened but still not closed after a few seconds.
@@ -156,7 +156,7 @@ I have a [separate page](/zigbee/zigbee_water_leak_sensor) on how I did this for
 ### Package box
 
 For bigger packages, I also have a package box next to my front door.
-You can read a large blog post how I installed it [here](/projects/packages-mailbox-allux-600).
+You can read a large blog post how I installed it in [Packages mailbox - Allux 600](/projects/packages-mailbox-allux-600).
 
 By default, it wasn't smart at all, but by adding two contact sensors it's now much smarter.
 It knows when a package is delivered, and it knows when the door is opened to remove the packages out of it.
@@ -234,7 +234,7 @@ On a Home Assistant dashboard you can show different mail delivered statuses.
 
 Show as secondary information when the last time was that the status of the mailbox contact was changed and show the current status.
 
-<img src="images_mailbox/home_assistant_time_secondary.png" width="400px" />
+<img alt="Home Assistant time as secondary information" src="images_mailbox/home_assistant_time_secondary.png" width="400px" />
 
 ```yaml
 {% raw %}

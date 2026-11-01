@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Date & Time"
+description: "Home Assistant dashboard examples for date and time: countdowns, durations, last-changed indications and Dutch formats."
 date: 2022-06-29
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, date, time]

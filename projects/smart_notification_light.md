@@ -1,5 +1,6 @@
 ---
 title: "Smart and stylish notification light"
+description: "A stylish walnut notification light for your desk, controlled by Home Assistant, to warn about high CO2 levels."
 category: Home Assistant
 tags: [automations, Zigbee, office, CO2, waste collect]
 image: /projects/images_noti_light/banner_noti_light.png
@@ -178,7 +179,7 @@ If the CO2 value drops below 950 again, and the light is still on, the color wil
 This flow looks like this in Node-RED.
 
 <a href="images_noti_light/smart_noti_nodered.png" target="_blank">
-<img src="images_noti_light/smart_noti_nodered.png" alt="" width="100%"/>
+<img src="images_noti_light/smart_noti_nodered.png" alt="Node-RED flow for the notification light" width="100%"/>
 </a>
 
 You can download this [flow](images_noti_light/co2_noti_light.json).

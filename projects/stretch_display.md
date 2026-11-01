@@ -110,11 +110,11 @@ The big round heavy feet make it stand stable.
 </a>
 
 <a href="images_stretch_display/holder_side.jpg">
-<img src="images_stretch_display/holder_side.jpg" alt="" height="250px" style="float:left;margin-right:15px">
+<img src="images_stretch_display/holder_side.jpg" alt="Display holder, side view" height="250px" style="float:left;margin-right:15px">
 </a>
 
 <a href="images_stretch_display/holder_cables.jpg">
-<img src="images_stretch_display/holder_cables.jpg" alt="" height="250px">
+<img src="images_stretch_display/holder_cables.jpg" alt="Display holder with cables" height="250px">
 </a>
 
 ### Device with a web browser
@@ -212,11 +212,11 @@ I created an auto-boot script to load the Home Assistant dashboard in kiosk mode
 ## Display PC configuration
 
 <a href="images_stretch_display/setup_wip2.jpg">
-<img src="images_stretch_display/setup_wip2.jpg" alt="" height="250px">
+<img src="images_stretch_display/setup_wip2.jpg" alt="Stretch display setup, work in progress" height="250px">
 </a>
 
 <a href="images_stretch_display/setup_wip1.jpg">
-<img src="images_stretch_display/setup_wip1.jpg" alt="" height="250px">
+<img src="images_stretch_display/setup_wip1.jpg" alt="Stretch display setup, work in progress" height="250px">
 </a>
 
 ### Install Raspberry OS Desktop

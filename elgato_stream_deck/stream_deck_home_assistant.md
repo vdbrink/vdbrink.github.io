@@ -34,7 +34,7 @@ What you can control and show on the Stream Deck:
 Toggle a Home Assistant `light` entity with a single key press.
 The key icon follows the live state of the lamp: a bright, colored bulb when the lamp is on and a pale bulb when it's
 off.
-The bulb color also reflects the current light color, like my AI user input required lamp which lights ups on my desk to trigger me, check [here](/ai/ai-user-input-needed-notification-light) for all details about this project.
+The bulb color also reflects the current light color, like my AI user input required lamp which lights ups on my desk to trigger me, check [AI user input notification light](/ai/ai-user-input-needed-notification-light) for all details about this project.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
@@ -110,7 +110,7 @@ This is a diagram of how it technically works:
 With a single button click you can open your Home Assistant dashboard where your camera stream are visible.
 
 Create a view on your Home Assistant dasboard and use a button that opens a browser page of that url.
-Download [here](/elgato_stream_deck/stream_deck_button_actions#home-assistant-builtin) this example button.
+Download [this example button](/elgato_stream_deck/stream_deck_button_actions#home-assistant-builtin).
 
 ---
 

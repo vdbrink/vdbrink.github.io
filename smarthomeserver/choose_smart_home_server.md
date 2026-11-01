@@ -1,5 +1,6 @@
 ---
 title: How to choose your smart home server?
+description: "Compare smart home server options, like a Raspberry Pi, NUC or Proxmox server, and choose what fits your needs."
 category: Smart Home Server
 tags: [Zigbee, wifi, Home Assistant, server, Node-RED, hardware, mini pc, home lab]
 ---

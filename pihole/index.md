@@ -1,6 +1,6 @@
 ---
-title: "Pi-hole"
-description: "Pi-hole"
+title: "Pi-hole: advertisement and tracking blocker"
+description: "Block advertisements and tracking on your whole network with Pi-hole, a DNS based blocker."
 category: Pi-hole
 tags: [Pi-hole, block, advertisement, tracking]
 image: /pihole/images/pi-hole_logo.svg

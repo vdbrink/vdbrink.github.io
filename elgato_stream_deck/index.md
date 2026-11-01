@@ -194,7 +194,7 @@ but the [32-button version](#stream-deck-comparison) gave me more direct control
 </div>
 </div>
 
-Look [here](#stream-deck-comparison) for all available models.
+See the [Stream Deck comparison](#stream-deck-comparison) for all available models.
 
 <p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>
 
@@ -321,4 +321,4 @@ modifications:
 
 I hope you got inspired, and maybe you now also see this as a product you didn't know you needed.
 Or do you already have all the actions and information directly available with your normal keyboard and on your screen?\
-See [here](stream_deck_button_actions) which button actions I use on my Stream Deck like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc.
+See my [Stream Deck button actions](stream_deck_button_actions) for the ones I use on my Stream Deck like Claude, Spotify, Gitlab, Google Meet, Home Assistant, etc.

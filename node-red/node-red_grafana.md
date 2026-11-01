@@ -1,5 +1,6 @@
 ---
 title: "Node-RED Cheat Sheet - Grafana"
+description: "Push every sensor message into InfluxDB with Node-RED and visualize the data in Grafana."
 category: Node-RED
 tags:  [Node-RED, grafana]
 ---
@@ -7,7 +8,7 @@ tags:  [Node-RED, grafana]
 # Node-RED Cheat Sheet - Grafana
 
 
-<img src="../esphome/orcon_images/grafana_shower_humidity.jpg" height="200px">
+<img alt="Grafana graph of shower humidity" src="../esphome/orcon_images/grafana_shower_humidity.jpg" height="200px">
 
 ## Save device data to Grafana
 If the InfluxDB is up and running, you can use Node-RED to push every message, which comes from a sensor, directly into the database.
@@ -20,9 +21,9 @@ When the node gets this `msg.measurement=contact1` as input it will store the se
 ![Save device data to InfluxDB](images/save_to_grafana.png)
 Used nodes:
 
-<img src="images/nodes/node_mqtt_in.png" height="{{imgHeightSmall}}px">
-<img src="images/nodes/node_change.png" height="{{imgHeightSmall}}px">
-<img src="images/nodes/node_influxdb_in.png" height="{{imgHeightSmall}}px">
+<img alt="Node-RED MQTT in node" src="images/nodes/node_mqtt_in.png" height="{{imgHeightSmall}}px">
+<img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeightSmall}}px">
+<img alt="Node-RED InfluxDB in node" src="images/nodes/node_influxdb_in.png" height="{{imgHeightSmall}}px">
 
 The content of **change node**:
 
@@ -30,7 +31,7 @@ The content of **change node**:
 
 |                      |                                                                    |          |
 |:---------------------|:-------------------------------------------------------------------|:---------|
-| zigbee2mqtt/contact1 | <img src="images/nodes/node_change.png" height="{{imgHeight}}px">  | contact1 |
+| zigbee2mqtt/contact1 | <img alt="Node-RED change node" src="images/nodes/node_change.png" height="{{imgHeight}}px">  | contact1 |
 
 </div>
 

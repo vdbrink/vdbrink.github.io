@@ -1,5 +1,6 @@
 ---
 title: Control an Orcon mechanic ventilation system from Home Assistant
+description: "Control an Orcon mechanical ventilation unit from Home Assistant with ESPHome, step by step."
 date: 2022-06-24
 category: ESPHome
 tags: [Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome]
@@ -405,7 +406,7 @@ Explanation of each node:
 * **[HA API node]** Reset mode 3
 * **[HA API node]** Set current mode
 
-You can download this flow [here](orcon_files/node-red_flow.json).
+You can [download this Node-RED flow](orcon_files/node-red_flow.json).
 
 #### Home Assistant
 

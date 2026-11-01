@@ -1,5 +1,6 @@
 ---
 title: "Node-RED + Home Assistant: Rain expected"
+description: "Handle Home Assistant rain forecast data (Neerslag App) in a Node-RED flow."
 category: Node-RED
 tags: [Node-RED, Home Assistant, rain, buienalarm, regen, buienradar]
 ---

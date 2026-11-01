@@ -12,7 +12,7 @@ tags: [Node-RED, temperature, flows]
 With this flow, you can compare the current state of two temperature sensors.
 
 ![Node-RED flow](images/flows/compare_two_temperatures.png)
-You can download this flow [here](flows/compare_two_temperatures.json).
+You can [download this flow](flows/compare_two_temperatures.json).
 
 **Scenario:**
 

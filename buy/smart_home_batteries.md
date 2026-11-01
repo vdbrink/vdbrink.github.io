@@ -1,5 +1,5 @@
 ---
-title: "Batteries - Best Buy Tips"
+title: "Smart home batteries - Best Buy Tips"
 description: "Common battery types and battery eliminators."
 category: Buy tips
 tags: [Best, Buy, tips, smart, home automation, Zigbee, Batteries]

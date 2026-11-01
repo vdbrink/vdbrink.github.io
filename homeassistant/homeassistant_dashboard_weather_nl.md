@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Weather in The Netherlands"
+description: "Dutch weather on your Home Assistant dashboard: rain radar, Buienradar, Weeronline, expected rain and weather alarms."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, weather, the Netherlands, nederland, nl, Dutch, buienalarm, buienradar, knmi, weeralarm]
 image: /homeassistant/images/rain_radar_animated.png
@@ -504,7 +505,7 @@ elements:
 
 ### Kleenex pollen radar Integration
 
-<img src="images_kleenex/kleenex_colored_presentation.png" alt="" width="400px">
+<img src="images_kleenex/kleenex_colored_presentation.png" alt="Kleenex pollen radar in colors" width="400px">
 
 Check out my [dedicated page](homeassistant_hacs_kleenex) about this integration.
 

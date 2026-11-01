@@ -28,7 +28,7 @@ In this example, I show you how to send a notification to the Home Assistant Com
 
 ## Flow description
 
-<img src="images_notify/ha_notify_nr_flow.png" width="400px" alt="" />
+<img src="images_notify/ha_notify_nr_flow.png" width="400px" alt="Node-RED flow for a Home Assistant notification" />
 
 This flow contains three nodes:
 * A trigger node which contains a test message to test if the notification works.
@@ -39,7 +39,7 @@ This flow contains three nodes:
 
 These are the settings for the "call service" node.
 
-<img src="images_notify/call_service_node_settings.png" width="400px" alt="" />
+<img src="images_notify/call_service_node_settings.png" width="400px" alt="Call service node settings" />
 
 | Property  | Values                                                                               | Description                                                    |
 |:----------|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------|
@@ -54,7 +54,7 @@ These are the settings for the "call service" node.
 
 The corresponding code for this flow.
 
-<img src="images_notify/ha_notify_nr_flow.png" width="400px" alt="" />
+<img src="images_notify/ha_notify_nr_flow.png" width="400px" alt="Node-RED flow for a Home Assistant notification" />
 
 ```yaml
 {% raw %}

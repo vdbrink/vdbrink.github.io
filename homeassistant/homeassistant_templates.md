@@ -587,7 +587,7 @@ template:
 {% endraw %}
 ```
 
-See [here](#trash-bin-day-countdown) for how to create the `*_waste_pickup_countdown` sensors.
+See [trash bin day countdown](#trash-bin-day-countdown) for how to create the `*_waste_pickup_countdown` sensors.
 
 ---
 

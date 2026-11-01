@@ -1,5 +1,6 @@
 ---
 title: "Home Assistant dashboard: Floor plan"
+description: "Create an interactive floor plan dashboard in Home Assistant with icons and sensor values on top of your own floor plan image."
 category: Home Assistant
 tags: [Home Assistant, dashboard, lovelace, floor plan]
 image: /homeassistant/images_floorplan/banner2.png
@@ -188,7 +189,7 @@ By default, when you click on it, it toggles or shows the details.
 
 Entity labels (`state-label`) show the text value of an entity.
 
-To format a temperature, see [here](homeassistant_dashboard_formatting#rounded-temperature-sensors).
+To format a temperature, see [rounded temperature sensors](homeassistant_dashboard_formatting#rounded-temperature-sensors).
 
 <img src="images_floorplan/entity_labels.png" alt="Entity labels" height="100px">
 

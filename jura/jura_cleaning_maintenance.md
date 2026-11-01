@@ -1,5 +1,6 @@
 ---
 title: Jura Z10 coffee machine cleaning and maintenance
+description: "How I clean and maintain my Jura coffee machine to keep it in good condition for years."
 category: Jura
 tags: [Jura, Z10, tips, tricks, coffee, cleaning, maintenance, tabs, tablets, filter]
 image: /jura/images/jura_logo.png

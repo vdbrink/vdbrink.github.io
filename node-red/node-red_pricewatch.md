@@ -1,6 +1,6 @@
 ---
-title: "Node-RED Pricewatch"
-description: "Node-RED Pricewatch"
+title: "Node-RED Pricewatch: get notified when a price drops"
+description: "Let Node-RED check product prices on websites daily and notify you when one meets your desired price."
 category: Node-RED
 tags: [Node-RED, price, watch, monitor, sales]
 ---
@@ -207,7 +207,7 @@ Price formatter: $number(payload[0])
 [Download a Kruidvat example flow](flows/node-red_flow_vdbrink_pricewatch_kruidvat-nl.json)
 
 
-> **_NOTE:_** If they change their site structure, this will break. Let me know [here](#remarks-or-suggestions) if one is broken, then I can fix it.
+> **_NOTE:_** If they change their site structure, this will break. Let me know in the [remarks or suggestions](#remarks-or-suggestions) section if one is broken, then I can fix it.
 
 ---
 

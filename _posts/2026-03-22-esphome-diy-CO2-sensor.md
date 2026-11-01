@@ -27,4 +27,4 @@ You don't need to solder.
 
 The only steps to take are: connect the sensor to an ESP board and with the ESPHome software flash the code on it.
 
-Read [here](/esphome/co2_scd40) all the details about this project.
+Read all the details about this project on the [ESPHome SCD40 CO2 sensor page](/esphome/co2_scd40).
