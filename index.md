@@ -13,7 +13,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <a class="hp-btn ghost" href="#latest">Latest posts</a>
 <a class="hp-btn ghost" href="#popular">Popular pages</a>
 <a class="hp-btn ghost" href="#topics">All topics</a>
-<a class="hp-btn ghost" href="/buy/smart_home_best_buy_tips">Best buy tips</a>
+<a class="hp-btn ghost" href="/buy/smart_home_best_buy_tips">Best Buy Tips</a>
 <a class="hp-btn ghost" href="#merchandise">Merchandise</a>
 </div>
 </div>
@@ -207,7 +207,7 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <div class="hp-section">
 <div class="hp-section-head">
 <div>
-<h2>Best buy tips</h2>
+<h2>Best Buy Tips</h2>
 <p class="hp-lead"><img src="/buy/images/basket.png" alt="" style="height:1.1em; width:auto; vertical-align:middle; margin-right:5px;">Devices I have myself and use on a daily base and devices I advice to use are listed here.</p>
 </div>
 </div>

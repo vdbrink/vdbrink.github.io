@@ -7,7 +7,7 @@ tags: [Best, Buy, tips]
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
-# Household - Best buy tips
+# Household - Best Buy Tips
 
 ## Introduction
 
@@ -57,4 +57,4 @@ tags: [Best, Buy, tips]
 
 ---
 
-[Index Best buy tips](index)
+[Index Best Buy Tips](index)

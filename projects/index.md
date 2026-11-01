@@ -43,8 +43,8 @@ Here you find bigger projects I've done, like this smart mailbox.
 </a>
 
 <a class="project-card" href="/buy/smart_home_best_buy_tips">
-<img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart home best buy tips">
-<span>Smart home best buy tips</span>
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart home Best Buy Tips">
+<span>Smart Home Best Buy Tips</span>
 </a>
 
 <a class="project-card" href="/zigbee/zigbee_outlet_sensor">
