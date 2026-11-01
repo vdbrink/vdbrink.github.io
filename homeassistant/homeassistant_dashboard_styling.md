@@ -7,7 +7,7 @@ tags: [Home Assistant, dashboard, lovelace, styling]
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float:right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (lovelace) dashboard styling examples which you can easily add to your own dashboards.
+Here you can find Home Assistant (lovelace) dashboard styling examples which you can easily add to your own dashboards.
 <br/><br/><br/>
 
 ---
@@ -65,11 +65,12 @@ entities:
 
 You can change the color of the sensor status based on its value.
 
-**Option 1**: Use the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod) Install this integration, via this button, into your own Home Assistant instance.\
+**Option 1**: Use the extra HACS module [lovelace-card-mod](https://github.com/thomasloven/lovelace-card-mod). 
+Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-card-mod&category=integration)
 
 
-![Changing text color](images_styling/colored_status.png)
+![Changing status text color](images_styling/colored_status.png)
 ```yaml
 {% raw %}
 # Sourcecode by vdbrink.github.io
@@ -93,7 +94,7 @@ entities:
             {% elif is_state('sensor.knmi_weercode', 'Code oranje') %}
              #ffa500;
             {% else %}
-             #44739e
+             #44739e;
             {% endif %}
         }
   {% endraw %}

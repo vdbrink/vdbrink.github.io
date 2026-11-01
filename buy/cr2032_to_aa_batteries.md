@@ -19,7 +19,7 @@ image: /buy/images_batteries/cr2032_to_aa_banner.jpg
 Due to the small size of the CR2032, they don't contain as much power as AA batteries.\
 There is a way to replace a small CR2032 battery with two high capacity AA batteries for a much longer (18.5x) life span for your sensors.
 
-> **_NOTE:_** Now, it's also available as product.\
+> **_NOTE:_** Now, it's also available as a product.\
 <a href="/buy/images_batteries/aa_to_cr2032.avif">
 <img src="/buy/images_batteries/aa_to_cr2032.avif" alt="CR2032" width="150px" />
 </a>\
@@ -30,21 +30,21 @@ There is a way to replace a small CR2032 battery with two high capacity AA batte
 
 A single CR2032 is 3V, two AA batteries in series are comparable, 2.4 - 3V (depending on the battery model).
 * Place two (rechargeable) AA batteries in a case with a female USB port.
-* Connect the male USB cable from CR2032-to-USB adapter (aka battery eliminator).
+* Connect the male USB cable from the CR2032-to-USB adapter (aka battery eliminator).
 * Place the other end, with the fake CR2032 battery, in the sensor. 
-  Probably you can't close the cover of the sensor anymore without making a hole in it to guide the wire outside.
+  You probably can't close the cover of the sensor anymore without making a hole in it to guide the wire outside.
 
-The downside is that the cover of the sensor doesn't close correct anymore, 
+The downside is that the cover of the sensor doesn't close correctly anymore, 
 because of the two wires to the USB connector.
-You have now a huge battery block attached to this sensor.
-That's why it isn't a solution for each CR2032 powered device.
+You now have a huge battery block attached to this sensor.
+That's why it isn't a solution for every CR2032-powered device.
 I use this solution myself for [temperature sensors](/buy/zigbee_temperature_sensor) 
 which lay on top of some bedroom closets where you don't see them and not easy to reach. 
-For these cases, the longer battery (and use of regular AA batteries) life is more important than the small and compact look.
+For these cases, the longer battery life (and use of regular AA batteries) is more important than the small and compact look.
 
 <br>
 
-**The amount of ampere is now increased to 4200mAh compared to 225mAh. 
+**The capacity is now increased to 4200 mAh compared to 225 mAh. 
 That's 18.5x more than the single coin cell was!**\
 Yes, you have a big box attached to your sensor now, 
 but when you use it for already hidden (temperature/contact/..) [sensors](/buy/smart_home_best_buy_tips), this is not a problem, right?
@@ -56,21 +56,21 @@ but when you use it for already hidden (temperature/contact/..) [sensors](/buy/s
 ### To create this
 
 You need these **three items**, plug them together, and you're done:
-* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(AmazonUS)](https://amzn.to/4hDezp1#ad)
+* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(Amazon US)](https://amzn.to/4hDezp1#ad)
 
   <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
   <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" />
   </a>
 * [A USB battery case for **TWO** AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_c4Evv559) 
 [(AliExpress)](https://s.click.aliexpress.com/e/_oCLThYk) or 
-[(AmazonUS)](https://amzn.to/4gMd1re#ad)
+[(Amazon US)](https://amzn.to/4gMd1re#ad)
 
   <a href="https://s.click.aliexpress.com/e/_c4Evv559" target="_blank">
   <img src="/buy/images_batteries/aa_case.avif" alt="2x AA battery case" height="150px" />
   </a>
 * [(At least) two (Eneloop) AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_ooEc2QU) 
 [(AliExpress)](https://s.click.aliexpress.com/e/_op4UGsC) or 
-[(AmazonUS)](https://amzn.to/42ZC6fb#ad)
+[(Amazon US)](https://amzn.to/42ZC6fb#ad)
 
   <a href="https://s.click.aliexpress.com/e/_ooEc2QU" target="_blank">
   <img src="/buy/images_batteries/eneloop2.avif" alt="Eneloop AA batteries" height="150px" />
@@ -80,7 +80,7 @@ You need these **three items**, plug them together, and you're done:
 
 Still portable, but now with much longer battery life!\
 And you don't need to buy new CR2032 batteries, just recharge the AA batteries, 
-and the sensor can do their job again for years!
+and the sensor can do its job again for years!
 
 ---
 ### Rechargeable CR2032

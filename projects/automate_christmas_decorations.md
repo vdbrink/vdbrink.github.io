@@ -24,7 +24,7 @@ It's a lot of work to control them manually every day.\
 It's also a waste of energy when no one sees it or it's a clear day.\
 I've made my life easier by automating them all!
 
-Now I also can control all my Christmas decorations from my phone in a Home Assistant dashboard.
+Now I can also control all my Christmas decorations from my phone in a Home Assistant dashboard.
 
 <i>Click to see a video of this dashboard in action.</i>\
 <a href="https://www.facebook.com/reel/841128491664565">
@@ -103,13 +103,13 @@ It's more than you can think of, like:
     * _A smile on their face_     
 * No lights on when there is nobody around for a while; [Node-RED automation](#disable-a-socket-after-a-period-of-inactivity)
     * _No useless power usage, which saves money_
-* No power cables to paper Christmas stars;
+* No power cables to the paper Christmas stars;
   * _Freedom to place paper Christmas stars everywhere_
 * Spend more time in bed and sleep like a baby; <a href="images_christmas_decorations/outside_tree_light.jpg"><img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
     * _More rest, more energy, less coffee_
 * Fellow house members have no one to blame when the cozy lights are off because you were in a hurry to go to work;
-    * _More harmonie, for a better Christmas spirit_
-* Less energy consumption, no batteries that need to be replaced which saves money. You still need to buy once the hardware to automate it, but in the end it earns itself back very fast;
+    * _More harmony, for a better Christmas spirit_
+* Less energy consumption, no batteries that need to be replaced which saves money. You still need to buy once the hardware to automate it, but in the end it pays for itself very fast;
     * _Save money to spend on Christmas presents or extra [home automation hardware](/buy/smart_home_best_buy_tips)_
 <br>
   
@@ -139,7 +139,7 @@ Each time you press the button, it switches from mode.
 And the normal required non-disco mode is the last mode! So I had to press every day that button seven times. 
 And that for two strings of light. For only one tree.
 Those sockets are also out of sight under the tree, so you need to dive under the tree to reach them.
-And when you press one time too much, you can start all over again! Aargh!
+And when you press one time too many, you can start all over again! Aargh!
 
 <a href="images_christmas_decorations/dummy_battery_example.jpg">
 <img src="images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas light on battery" width="100px" style="margin-left:15px;float:right" />
@@ -149,17 +149,17 @@ We also have a lot of **battery powered** decorations.
 I could use rechargeable batteries, but then I still have to turn all the decorations on and off manually every day to enjoy it.
 As a result, during the season they are only a few times on. And if you forgot one, it ends up with empty batteries after Santa was singing and dancing all night long.
 
-Some of mine **Christmas paper stars** have a normal bulb and powered via the main power. 
-This limits the places where to place them, they need to be closed to a wall socket and preferably hide the cable behind some curtains or closet to make it look nice. 
+Some of mine **Christmas paper stars** have a normal bulb and are powered via the main power. 
+This limits the places where to place them, they need to be close to a wall socket and preferably hide the cable behind some curtains or a closet to make it look nice. 
 Other stars are battery powered but the button to turn them on is inside the star itself. Not easy to reach when it hangs on the ceiling!
 
 The **plug powered lights** are easy to automate. 
-Plug them into a good old-fashioned timers, everybody had already automated it in the previous century like in Home Alone! Every day on exact the same time.
+Plug them into good old-fashioned timers, everybody had already automated this in the previous century like in Home Alone! Every day at exactly the same time.
 
 <img src="images_christmas_decorations/home_alone_automatic_timers.gif" alt="Home Alone automatic timers" width="450px" />
 
 Two decades later, we can use "smarter" solutions. 
-Like control them more dynamically based on the daylight level or motion and occupancy detection.
+For example, control them more dynamically based on the daylight level or motion and occupancy detection.
 </details>
 
 ---
@@ -173,22 +173,22 @@ Which results at the end in five different types of power types to automate:
 <div class="hp-card hp-tile">
 <a href="#battery-powered-decorations"><img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="Battery powered decorations" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Battery powered decorations</strong>
-<p>15+ pieces, now controlled with dummy batteries which are connected now to the main power.</p></div>
+<p>15+ pieces, now controlled with dummy batteries which are now connected to the main power.</p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="#infrared-lights"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared controlled tea lights" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Infrared controlled LEDs / candles / tea lights</strong>
-<p>Now automatic controlled by a programmable infrared remote.</p></div>
+<p>Now automatically controlled by a programmable infrared remote.</p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="#christmas-tree-lights"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas tree light plug" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Christmas tree lights</strong>
-<p>Now with a replaced adapter, without a switch button which requires a manual to activate it first.</p></div>
+<p>Now with a replaced adapter, without a switch button which requires a manual action to activate it first.</p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="#decorations-powered-with-a-power-plug"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart socket" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Decoration/lights powered with a power plug</strong>
-<p>10+ pieces, now controlled with a smart socket between it.</p></div>
+<p>10+ pieces, now controlled with a smart socket in between.</p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="#outdoor-lights"><img src="/projects/images_christmas_decorations/outside_tree_light.jpg" alt="Outdoor tree lights" loading="lazy"></a>
@@ -208,83 +208,53 @@ There are multiple smart hardware device combinations possible to change battery
 
 Here are some examples of how to accomplish this:
 
-#### Example 1: battery-to-USB + smart USB adapter/switch + 5V-adapter
-
-An example of a battery powered light is a garland with lights above the door.\
-I Automated it with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter/switch and a 5V-adapter.
-This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each port can be activated individually.
-
-<a href="../buy/batteries#battery-eliminators" target="_blank">
-<img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb" height="150px"/>
-</a>
- &nbsp;
-<a href="../buy/zigbee_usb_adapter_switch" target="_blank">
-<img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" height="150px" />
-</a>
-&nbsp;
-<a href="../buy/smart_home_power" target="_blank">
-<img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" height="150px"/>
-</a>
-
-<a href="images_christmas_decorations/usb_smart_adapter_connect.jpg">
-<img src="images_christmas_decorations/usb_smart_adapter_connect.jpg" alt="battery powered decoration" height="150px"/>
-</a>
-
-This original battery-powered garland is now powered via the main power and controlled automatically.
-<br>
-<a href="images_christmas_decorations/door_deco_lights.jpg">
-<img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string" height="300px" />
-</a>
-
-These battery-powered light string is now powered via the main power and controlled automatically. 
-<br>
-<a href="images_christmas_decorations/christmas_lights.jpg">
-<img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="300px" />
-</a>
-
-#### Example 2: battery-to-plug + smart socket
-
-Another example is a battery powered light in a bottle. 
-
-I use for this a battery-to-plug set and a smart socket.
-Place the dummy batteries in the original battery case and connect the power adapter to the smart socket to control is via an automation.
-
-<a href="../buy/batteries#battery-eliminators" target="_blank">
-<img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug" height="150px"/>
-</a>
-&nbsp;
-<a href="../buy/zigbee_smart_socket" target="_blank">
-<img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" />
-</a>
-<br>
-<a href="images_christmas_decorations/lights_in_a_bottle.jpg">
-<img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights" height="300px" />
-</a>
-<a href="images_christmas_decorations/battery_powered_deco.jpg">
-<img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration" height="300px"/>
-</a>
-
-#### Example 3: battery-to-USB + USB hub + smart socket
-
-If you have multiple battery power devices close to each other, and you want to automate them the same way, you can also use an active powered USB-hub.\
-This hub can be powered with a smart socket to control all the connected devices at once.
-
-<a href="../buy/esphome_diy#usb-hub" target="_blank">
-<img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub" height="300px" class="buy-link" />
-</a>
-&nbsp;
-<a href="../buy/zigbee_smart_socket" target="_blank">
-<img src="images_christmas_decorations//blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket" height="150px" class="buy-link" />
-</a>
-
-<a href="images_christmas_decorations/battery_powered_decorations.jpg">
-<img src="images_christmas_decorations/battery_powered_decorations.jpg" alt="battery powered deco with USB hub" height="300px"/>
-</a>
+<div class="hp-tiles hp-wire">
+<div class="hp-card hp-tile" id="example-1">
+<div class="hp-tile-body"><span class="hp-chip">Example 1</span><strong>battery-to-USB + smart USB adapter/switch + 5V-adapter</strong>
+<p>An example of a battery powered light is a garland with lights above the door.<br>
+I automated it with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter/switch and a 5V-adapter.
+This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each port can be activated individually.</p>
+<div class="hp-wire-images">
+<a href="../buy/batteries#battery-eliminators" target="_blank"><img src="images_christmas_decorations/battery_to_usb.jpg" alt="battery to usb"></a>
+<a href="../buy/zigbee_usb_adapter_switch" target="_blank"><img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch"></a>
+<a href="../buy/smart_home_power" target="_blank"><img src="../esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter"></a>
+</div>
+<a href="images_christmas_decorations/usb_smart_adapter_connect.jpg"><img src="images_christmas_decorations/usb_smart_adapter_connect.jpg" alt="battery powered decoration"></a>
+<p>This original battery-powered garland is now powered via the main power and controlled automatically.</p>
+<a href="images_christmas_decorations/door_deco_lights.jpg"><img src="images_christmas_decorations/door_deco_lights.jpg" alt="door deco light string"></a>
+<p>This battery-powered light string is now powered via the main power and controlled automatically.</p>
+<a href="images_christmas_decorations/christmas_lights.jpg"><img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string"></a></div>
+</div>
+<div class="hp-card hp-tile" id="example-2">
+<div class="hp-tile-body"><span class="hp-chip">Example 2</span><strong>battery-to-plug + smart socket</strong>
+<p>Another example is a battery powered light in a bottle.</p>
+<p>I use for this a battery-to-plug set and a smart socket.
+Place the dummy batteries in the original battery case and connect the power adapter to the smart socket to control it via an automation.</p>
+<div class="hp-wire-images">
+<a href="../buy/batteries#battery-eliminators" target="_blank"><img src="images_christmas_decorations/battery_replacement_to_socket.jpg" alt="battery to plug"></a>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket"></a>
+</div>
+<div class="hp-wire-images">
+<a href="images_christmas_decorations/lights_in_a_bottle.jpg"><img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights"></a>
+<a href="images_christmas_decorations/battery_powered_deco.jpg"><img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration"></a>
+</div></div>
+</div>
+<div class="hp-card hp-tile" id="example-3">
+<div class="hp-tile-body"><span class="hp-chip">Example 3</span><strong>battery-to-USB + USB hub + smart socket</strong>
+<p>If you have multiple battery powered devices close to each other, and you want to automate them the same way, you can also use an actively powered USB hub.<br>
+This hub can be powered with a smart socket to control all the connected devices at once.</p>
+<div class="hp-wire-images">
+<a href="../buy/esphome_diy#usb-hub" target="_blank"><img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub"></a>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket"></a>
+</div>
+<a href="images_christmas_decorations/battery_powered_decorations.jpg"><img src="images_christmas_decorations/battery_powered_decorations.jpg" alt="battery powered deco with USB hub"></a></div>
+</div>
+</div>
 
 #### Hardware suggestions
 
 As you could read, there are multiple combinations possible to control battery powered devices.\
-It really depends on how many devices you want to control at once and how close they are to each other, which is the best combination in your case.
+It really depends on how many devices you want to control at once and how close they are to each other, to find the best combination for your case.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
@@ -314,7 +284,7 @@ It really depends on how many devices you want to control at once and how close 
 <div class="hp-card hp-tile">
 <a href="../buy/zigbee_usb_adapter_switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter</strong>
-<p>To control and power maximal 3 USB devices individually. You can choose for an adapter with 1, 2 or 3 ports.</p>
+<p>To control and power a maximum of 3 USB devices individually. You can choose an adapter with 1, 2 or 3 ports.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_usb_adapter_switch" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
@@ -326,7 +296,7 @@ It really depends on how many devices you want to control at once and how close 
 <img style="float:right;height:100px; margin-left:15px;" src="images_christmas_decorations/infrared_remote.jpg" alt="infrared remote" />
 There are these different kinds of infrared controlled devices available like LEDs, fake candles or fake tea lights.
 
-I had before Christmas paper stars that contain a regular light bulb.
+Before, I had Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
 they must be in reach of a power socket and somewhere where I could keep the power cable out of sight, guide them behind a curtain or so.
 
@@ -334,7 +304,7 @@ they must be in reach of a power socket and somewhere where I could keep the pow
 
 I solved this by using battery powered LED lights, which are controllable via an infrared remote. 
 I used a Zigbee programmable infrared receiver and transmitter which can learn from the original remote.\
-This transmitter is a WiFi or Zigbee, battery powered, device that can be placed in the sight of multiple infrared devices. \
+This transmitter is a WiFi or Zigbee battery powered device that can be placed in the sight of multiple infrared devices.\
 I have it at a distance of five meters, and still it works great as long as the star is made of thin carton/paper otherwise the signal can't get through the paper to reach the LED.
 
 #### Video
@@ -349,12 +319,12 @@ I can control the lights via the original remote and also from my Home Assistant
 
 #### The programmable infrared remote
 
-I used myself the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}}, (there are also [WiFi models](../buy/zigbee_infrared_remote)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
+I used the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}} (there are also [WiFi models](../buy/zigbee_infrared_remote)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
 Also, the original remote can be used to control them!
 
 Check my dedicated page about this [Zigbee infrared transmitter / receiver](../zigbee/smart_infrared_transmitter_receiver) for more information on how to program and use this device to replace and automate the original remote.
-Also, how to send infrared event signals from the Home Assistant dashboard.
+It also explains how to send infrared event signals from the Home Assistant dashboard.
 
 Now you can automate these devices also!
 
@@ -379,7 +349,7 @@ With this project, all these lights can now be automated as well!
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Tea lights</span><strong>Tea lights with infrared remote</strong>
-<p>I created a <a href="/zigbee/smart_infrared_transmitter_receiver">dedicated page</a> how I automate my tea lights from Home Assistant.</p>
+<p>I created a <a href="/zigbee/smart_infrared_transmitter_receiver">dedicated page</a> about how I automate my tea lights from Home Assistant.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon NL</a></p></div>
 </div>
 <div class="hp-card hp-tile">
@@ -432,7 +402,7 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 If you also have a plug with a button, you can always try to find a similar plug without a button.\
 Please, let me know if you use another one which fits for your light string.
 
-Or if you're familiar with soldering and electronics, you can modify the current button and make it always on, but only advised for professionals!!
+Or if you're familiar with soldering and electronics, you can modify the current button and make it always on, but only advised for professionals!
 
 ---
 
@@ -463,7 +433,7 @@ In the front yard I put the light string wire through the mailbox to plug it ins
 </a>
 
 <br>
-The number of these socket models are limited. 
+The number of these socket models is limited. 
 If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 <div class="hp-tiles hp-options">
@@ -488,7 +458,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 Because all lights are now connected via a Zigbee smart socket or Zigbee smart USB adapter, 
 I can control everything also from Home Assistant.
 
-This is how my dashboard looks like.
+This is what my dashboard looks like.
 Normally everything works by automations, but it can also be controlled from my Home Assistant dashboard. 
 
 <i>Click to see a video of this dashboard in action.</i>\
