@@ -101,12 +101,12 @@ Rechargeable AA batteries, like the Eneloop, can be reused hundreds of times, wh
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c4oUTqhJ" target="_blank"><img src="/buy/images_batteries/eneloop.avif" alt="Rechargeable AA batteries - Eneloop Panasonic" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Rechargeable</span><strong>Rechargeable AA batteries - Eneloop Panasonic</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oUTqhJ" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hGVMsM#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/493a0ke#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oUTqhJ" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hGVMsM#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/493a0ke#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://amzn.to/4ePpz0k#ad" target="_blank"><img src="/buy/images_batteries/battery_aa_aaa.jpg" alt="4x Rechargeable AA batteries - Duracell" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Rechargeable</span><strong>4x Rechargeable AA batteries - Duracell</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4ePpz0k#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ePpz0k#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4ePpz0k#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ePpz0k#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 
@@ -154,7 +154,7 @@ The downside is that these make the sensor also quite big.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank"><img src="/buy/images_batteries/eneloop.avif" alt="Rechargeable AAA batteries - Eneloop Panasonic" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Rechargeable</span><strong>Rechargeable AAA batteries - Eneloop Panasonic</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hY0BO6#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/493a0ke#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_opyWgIM" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hY0BO6#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/493a0ke#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://amzn.to/3X3I0Z2#ad" target="_blank"><img src="/buy/images_batteries/battery_aa_aaa.jpg" alt="4x Rechargeable AAA batteries - Duracell" loading="lazy"></a>
@@ -188,12 +188,12 @@ This CR2032 is the most commonly used battery. It's small, but still has enough 
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c4bqjaLF" target="_blank"><img src="/buy/images_batteries/cr2032.webp" alt="CR2032 - Panasonic" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Disposable</span><strong>CR2032 - Panasonic</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4bqjaLF" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hRObaI#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V4sHye#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4bqjaLF" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hRObaI#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V4sHye#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3wjgKV3" target="_blank"><img src="/buy/images_batteries/cr2032.webp" alt="CR2032" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Disposable</span><strong>CR2032</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3wjgKV3" target="_blank">AliExpress</a> | <a href="https://amzn.to/4i2rCAE#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3wjgKV3" target="_blank">AliExpress</a> | <a href="https://amzn.to/4i2rCAE#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 
@@ -281,7 +281,7 @@ The disposable CR1632 coin cell.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3CYb57R" target="_blank"><img src="/buy/images_batteries/cr1632.webp" alt="CR1632 - Panasonic" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Disposable</span><strong>CR1632 - Panasonic</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3CYb57R" target="_blank">AliExpress</a> | <a href="https://amzn.to/3ECCUg3#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/490qqKe#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3CYb57R" target="_blank">AliExpress</a> | <a href="https://amzn.to/3ECCUg3#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/490qqKe#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 
@@ -375,12 +375,12 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AA battery replacement with USB" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">AA</span><strong>AA battery replacement with USB</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AliExpress</a> | <a href="https://amzn.to/44KY45l#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AliExpress</a> | <a href="https://amzn.to/44KY45l#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement with USB" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">AAA</span><strong>AAA battery replacement with USB</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4vJZ4BP#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4vJZ4BP#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement with power socket EU" loading="lazy"></a>

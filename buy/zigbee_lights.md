@@ -26,9 +26,10 @@ With the full color version you can also use the lamp as a notifier, see my [Sma
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank"><img src="/buy/images_zigbee/gu10_fullcolor.jpg" alt="Zigbee GU10 full color light with RGB, 5W, and an E14 fitting." loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee GU10 full color light with RGB, 5W, and an E14 fitting.</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">AliExpress</a> | <a href="https://amzn.to/3PLzxcm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4nyvcWC#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">AliExpress</a> | <a href="https://amzn.to/3PLzxcm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4nyvcWC#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/CK-BL702-AL-01.html" target="_blank">CK-BL702-AL-01</a></p>
 </div>
 </div>
@@ -75,7 +76,7 @@ This LED strip is available in different versions:
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank"><img src="/buy/images_zigbee/z2m/TS0503B.jpg" alt="Zigbee RGB 5m LED strip" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee RGB 5m LED strip</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">AliExpress</a> | <a href="https://amzn.to/48Cpaht#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3H5c0yN#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ookcWte" target="_blank">AliExpress</a> | <a href="https://amzn.to/48Cpaht#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3H5c0yN#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS0503B.html" target="_blank">TS0503B</a></p>
 </div>
 </div>

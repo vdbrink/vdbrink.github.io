@@ -39,13 +39,13 @@ The advantage of a USB connector is that you can plug several into a powered USB
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AA battery replacement with USB" loading="lazy"></a>
 <div class="hp-tile-body"><strong>AA battery replacement with USB</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lv9H7M#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44KY45l#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lv9H7M#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44KY45l#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement with USB" loading="lazy"></a>
 <div class="hp-tile-body"><strong>AAA battery replacement with USB</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cqCQwo#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4jnFDZB#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cqCQwo#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4jnFDZB#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">

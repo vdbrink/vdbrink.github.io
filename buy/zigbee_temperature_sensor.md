@@ -19,16 +19,17 @@ or in summer when it becomes cooler outside than inside.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank"><img src="images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Zigbee temperature and humidity sensor - Aqara" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Best option</span><strong>Zigbee temperature and humidity sensor - Aqara</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ekFk2A#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V2h0YX#ad" target="_blank">Amazon NL</a> | <a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">BangGood</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3qxoNPD" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ekFk2A#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V2h0YX#ad" target="_blank">Amazon</a> | <a href="https://www.banggood.com/Aqara-Temperature-Sensor-Smart-Zigbe-Air-Pressure-Humidity-Environment-Sensor-Remote-Control-for-XiaoMi-Home-Homekit-p-2004763.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3958785" target="_blank">BangGood</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/WSDCGQ11LM.html" target="_blank">WSDCGQ11LM</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3i0b829" target="_blank"><img src="/buy/images_zigbee/z2m/RSH-HS06.jpg" alt="Zigbee temperature and humidity sensor - Tuya / Thirdreality" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Cheaper option</span><strong>Zigbee temperature and humidity sensor - Tuya / Thirdreality</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3i0b829" target="_blank">AliExpress</a> | <a href="https://amzn.to/427r9Xp#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cuvcBp#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3i0b829" target="_blank">AliExpress</a> | <a href="https://amzn.to/427r9Xp#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cuvcBp#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/RSH-HS06.html" target="_blank">RSH-HS06</a></p>
 </div>
 </div>
@@ -36,7 +37,7 @@ or in summer when it becomes cooler outside than inside.
 <a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank"><img src="/buy/images_zigbee/z2m/WSD500A.jpg" alt="Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">2xAAA battery option</span><strong>Zigbee / WiFi temperature and humidity sensor 2xAAA powered - Tuya</strong>
 <p>Battery powered, bigger, cheaper. This sensor can be converted into an <a href="/zigbee/zigbee_outlet_sensor">outlet sensor</a>.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank">AliExpress</a> | <a href="https://amzn.to/4t87Isj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4lfjVI5#ad" target="_blank">Amazon NL</a> | <a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank">AliExpress</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank">AliExpress</a> | <a href="https://amzn.to/4t87Isj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4lfjVI5#ad" target="_blank">Amazon</a> | <a href="https://s.click.aliexpress.com/e/_c3ocEEeT" target="_blank">AliExpress</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/WSD500A.html" target="_blank">WSD500A</a></p>
 </div>
 </div>
@@ -61,10 +62,11 @@ or in summer when it becomes cooler outside than inside.
 ## Water-resistant option
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank"><img src="/buy/images_zigbee/zigbee_water_temp.webp" alt="Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display." loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display.</strong>
 <p>Battery: CR2477.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank">AliExpress</a> | <a href="https://amzn.to/4utmSd1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44Unhd2#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank">AliExpress</a> | <a href="https://amzn.to/4utmSd1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44Unhd2#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank">SNZB-02LD</a></p>
 </div>
 </div>

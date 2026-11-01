@@ -18,16 +18,19 @@ The first port can also be used to switch USB data access on and off, while the 
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c38UUilJ" target="_blank"><img src="../zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee / WiFi USB adapter switch - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee / WiFi USB adapter switch - Tuya</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c38UUilJ" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lL8Ijp#ad" target="_blank">Amazon NL</a></p>
-<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS0003.html" target="_blank">TS0003</a></p>
+<p>Available in 1-3 ports.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c38UUilJ" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lL8Ijp#ad" target="_blank">Amazon</a></p>
+<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TZ3000_mw1pqqqt.html" target="_blank">TZ3000</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://amzn.to/4n7AxnA#ad" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_adapter_front_back_a.avif" alt="Zigbee / WiFi USB adapter switch - Sonoff" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee / WiFi USB adapter switch - Sonoff</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4n7AxnA#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fcxpmu#ad" target="_blank">Amazon NL</a></p>
+<p>Toggle power for USB devices by Sonoff.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4n7AxnA#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fcxpmu#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -41,11 +44,11 @@ The first port can also be used to switch USB data access on and off, while the 
 </a>
 <a class="hp-card hp-tile" href="/zigbee/usb_adapter_switch">
 <img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter switch" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter switch</strong><p>A Zigbee USB adapter switch to have control of USB devices</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter switch</strong><p>A Zigbee USB adapter switch to have power control of USB devices.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/ideas/home_automation_ideas">
 <img src="/ideas/images/idea.png" alt="Home Automation Ideas" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Ideas</strong><p>Home automation ideas to make your home smart</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Ideas</strong><p>Home automation ideas to make your home smart.</p></div>
 </a>
 </div>
 

@@ -20,7 +20,7 @@ The device can detect smoke and has an 85 dB alarm.
 <a href="https://s.click.aliexpress.com/e/_c3ko1ro9" target="_blank"><img src="images_zigbee/smoke_detector.avif" alt="Zigbee smoke detector - Heiman" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee smoke detector - Heiman</strong>
 <p>Battery: CR123A</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3ko1ro9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4n6jJNv#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3ko1ro9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4n6jJNv#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/HS1SA.html" target="_blank">HS1SA</a></p>
 </div>
 </div>

@@ -17,9 +17,10 @@ This sensor can measure vibrations and rotations in the X, Y, and Z directions.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3JdAlpD" target="_blank"><img src="images_zigbee/zigbee_vibration_sensor.webp" alt="Zigbee vibration sensor - Aqara" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee vibration sensor - Aqara</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3JdAlpD" target="_blank">AliExpress</a> | <a href="https://amzn.to/45nmTEz#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OiAAvY#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3JdAlpD" target="_blank">AliExpress</a> | <a href="https://amzn.to/45nmTEz#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OiAAvY#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/DJT11LM.html" target="_blank">DJT11LM</a></p>
 </div>
 </div>

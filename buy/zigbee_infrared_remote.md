@@ -21,22 +21,23 @@ Controlled by Home Assistant.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank"><img src="/buy/images_zigbee/z2m/UFO-R11.jpg" alt="Zigbee IR remote control - Moes" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee IR remote control - Moes</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c4qifs41" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4wzymgc#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/495yrxA#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c4qifs41" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4wzymgc#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/495yrxA#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank">UFO-R11</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank"><img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="WiFi IR remote control RM4 Mini - Broadlink" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">WiFi option</span><strong>WiFi IR remote control RM4 Mini - Broadlink</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tvsH8Z#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4lbgPoa#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tvsH8Z#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4lbgPoa#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3xtCnnz" target="_blank"><img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="WiFi IR remote control - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Cheaper WiFi option</span><strong>WiFi IR remote control - Tuya</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3xtCnnz" target="_blank">AliExpress</a> | <a href="https://amzn.to/4h1HsLO#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4eJPxlw#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3xtCnnz" target="_blank">AliExpress</a> | <a href="https://amzn.to/4h1HsLO#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4eJPxlw#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -52,7 +53,7 @@ This way you can create automations for air conditioners, fans, lights, etc.
 <a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank"><img src="/buy/images_bbt/wifi_ir_rf_433.avif" alt="WiFi IR + RF + 433 + 315 remote control - Moes" loading="lazy"></a>
 <div class="hp-tile-body"><strong>WiFi IR + RF + 433 + 315 remote control - Moes</strong>
 <p>Model: RF-R1 / UFO-R2-RF</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lttIud#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/46GqsrC#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DnbfWjP" target="_blank">AliExpress</a> | <a href="https://amzn.to/4lttIud#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/46GqsrC#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -62,11 +63,15 @@ This way you can create automations for air conditioners, fans, lights, etc.
 <div class="hp-tiles hp-options">
 <a class="hp-card hp-tile" href="/zigbee/smart_infrared_transmitter_receiver">
 <img src="/zigbee/images_infrared/ir_buttons_ha.png" alt="Automate infrared devices in Home Assistant" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Automate infrared devices in Home Assistant</strong><p>Automate infrared devices in Home Assistant with a smart home infrared transmitter/receiver box</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Automate infrared devices in Home Assistant</strong><p>Automate infrared devices in Home Assistant with a smart home infrared transmitter/receiver box.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>How I automated all my Christmas lights and other powered decorations.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/elgato_stream_deck/stream_deck_home_assistant#ac-control-via-ir">
+<img src="/elgato_stream_deck/home_assistant/actions/ha_ac_ir.png" alt="Stream Deck Control via Infrared" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>AC infrared control via Stream Deck</strong><p>Control your air conditioner with a hardware button keypad (Stream Deck) via an infrared transmitter.</p></div>
 </a>
 </div>
 

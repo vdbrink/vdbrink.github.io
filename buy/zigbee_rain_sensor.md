@@ -21,7 +21,7 @@ It's already triggered with a single drop.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3gPaSSF" target="_blank"><img src="images_outdoor/rain_sensor.avif" alt="Zigbee raindrop sensor" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee raindrop sensor</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3gPaSSF" target="_blank">AliExpress</a> | <a href="https://banggood.onelink.me/zMT7/8iw565j9#ad" target="_blank">BangGood</a> | <a href="https://amzn.to/3JuOP1K#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3gPaSSF" target="_blank">AliExpress</a> | <a href="https://banggood.onelink.me/zMT7/8iw565j9#ad" target="_blank">BangGood</a> | <a href="https://amzn.to/3JuOP1K#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SNZB-05.html" target="_blank">SNZB-05 (works fine, but model looks different)</a></p>
 </div>
 </div>

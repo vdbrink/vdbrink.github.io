@@ -110,7 +110,7 @@ A reason why not to choose for Zigbee? I don't know :)
 
 I create my [Zigbee Smart home - Best Buy Tips](../buy/smart_home_best_buy_tips) with all kinds or Zigbee hardware that I like and advice to buy for others.
 After buying and using them, on a daily basis, by myself.
-I have more than 120 Zigbee devices and some running already for more than four years, non-stop.
+I have more than 140 Zigbee devices and some running already for more than four years, non-stop.
 
 <a href="../buy/smart_home_best_buy_tips">
 <img src="../buy/images_zigbee/zigbee_banner.png" width="500px"/>

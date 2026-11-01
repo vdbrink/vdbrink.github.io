@@ -16,8 +16,6 @@ image: /buy/images_zigbee/TS0601_soil_3.png
 Do your plants have enough water?
 You place this sensor in the soil near the plant, and it detects whether the soil is too dry or the temperature is too high.
 
-Powered by two AAA batteries.
-
 Make sure you select the Zigbee version:
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">

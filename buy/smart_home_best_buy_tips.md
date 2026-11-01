@@ -18,8 +18,9 @@ image: /buy/images_zigbee/zigbee_banner.png
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\
 With the sensor data, you can make conditions, act on it and control other devices.
 
-On this page you'll find the sensors, actuators, and other (Zigbee) home automation hardware you need to setup a smart home network.
-I link to products I use in my own home (and other interresting hardware) that has worked very reliably for me.
+On this page you'll find the [sensors](#3-sensors-and-actuators), [actuators](#3-sensors-and-actuators) and other (Zigbee) home automation hardware you need to setup a smart home network.
+I link mainly to products I use in my own home that has worked very reliably for me. I run my Zigbee network already since 2019 for 24/7 and most all sensors I bought over the years still running.
+I don't have to worry about companies who stop their service and support for the devices because it all runs locally and it's totally indepent of any online service.
 
 If you need some home automation inspiration, you can check my [home automation ideas](../ideas/home_automation_ideas) section!
 
@@ -34,7 +35,7 @@ I've been ordering most of my smart home products from [AliExpress](https://www.
 good prices, reliable products that last for years, fast shipping (sometimes under a week), and a huge selection.
 When a product is also available on Amazon, I also added a link to it.\
 All the Amazon products are also bundled on these
-[Amazon](https://amzn.to/4d6vXkN#ad) and [Amazon NL](https://amzn.to/4cO48ip#ad) pages.
+[Amazon](https://amzn.to/4d6vXkN#ad) and [Amazon](https://amzn.to/4cO48ip#ad) pages.
 
 ---
 
@@ -89,14 +90,14 @@ In my setup, a Zigbee2MQTT instance on my home server talks via this stick to al
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this stick myself." data-tip="I use this stick myself.">&#10003;</span>
 <a href="https://slae.sh/projects/cc2652/" target="_blank"><img src="/buy/images_zigbee/slaesh_zigbee_stick_CC2652RB.jpg" alt="Slaesh's CC2652RB stick" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">My used dongle</span><strong>Slaesh's CC2652RB stick</strong>
-<p>Runs my Zigbee network non-stop since 2020 without any issue. My network has grown to 140+ devices, and it still runs fast.</p>
+<p>I my Zigbee network 24/7 since 2020 with the same Slaesh stick. My network has grown to 140+ devices, and it still runs fast and reliable.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://slae.sh/projects/cc2652/" target="_blank">Slae website</a> | <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank">Zigbee2MQTT</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank"><img src="/buy/images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Plus" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Popular</span><strong>Sonoff ZBDongle-E Plus</strong>
 <p>A coordinator that many people are very happy with.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">AliExpress</a> | <a href="https://amzn.to/3RhO53N#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OkLelX#ad" target="_blank">Amazon NL</a> | <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank">Zigbee2MQTT</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omBbJGj" target="_blank">AliExpress</a> | <a href="https://amzn.to/3RhO53N#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OkLelX#ad" target="_blank">Amazon</a> | <a href="https://www.zigbee2mqtt.io/guide/adapters/zstack.html" target="_blank">Zigbee2MQTT</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://www.home-assistant.io/connect/zbt-2/" target="_blank"><img src="/buy/images_zigbee/ha_connect_zbt2.jpg" alt="Home Assistant Connect ZBT-2" loading="lazy"></a>
@@ -109,7 +110,7 @@ In my setup, a Zigbee2MQTT instance on my home server talks via this stick to al
 <img src="/buy/images_zigbee/usb_a_extension_cable.webp" alt="USB-A extension cable" loading="lazy">
 <div class="hp-tile-body" style="flex:1;min-width:0"><span class="hp-chip" style="font-size:0.72em">Improve range</span><strong>USB-A extension cable</strong>
 <p>To avoid interference with Bluetooth or WiFi, move the stick away from the server. This is recommended for every stick.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="" style="width:16px;height:auto"><a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cOv6q9#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="" style="width:16px;height:auto"><a href="https://s.click.aliexpress.com/e/_oFCMjGU" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cOv6q9#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3V2q9Rk#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 
@@ -143,9 +144,9 @@ This is the hardware I advise, mostly based on my personal experience with it. G
 <img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Temperature sensor" loading="lazy">
 <div class="hp-tile-body"><strong>Temperature sensor</strong><p>Temperature and humidity for every room.</p></div>
 </a>
-<a class="hp-card hp-tile" href="zigbee_air_quality_sensor">
-<img src="/buy/images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" loading="lazy">
-<div class="hp-tile-body"><strong>Air quality sensor</strong><p>Measure CO2, VOC and other air quality values.</p></div>
+<a class="hp-card hp-tile" href="zigbee_usb_adapter_switch">
+<img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="USB adapter switch" loading="lazy">
+<div class="hp-tile-body"><strong>USB adapter switch</strong><p>Switch USB powered devices on and off.</p></div>
 </a>
 <a class="hp-card hp-tile" href="zigbee_light_sensor">
 <img src="/ideas/images/lux_sensor.jpg" alt="Light intensity sensor" loading="lazy">
@@ -163,10 +164,6 @@ This is the hardware I advise, mostly based on my personal experience with it. G
 <img src="/buy/images_zigbee/zigbee_vibration_sensor.webp" alt="Vibration sensor" loading="lazy">
 <div class="hp-tile-body"><strong>Vibration sensor</strong><p>Detect vibrations, shocks and knocks.</p></div>
 </a>
-<a class="hp-card hp-tile" href="zigbee_plant_soil_sensor">
-<img src="/buy/images_zigbee/TS0601_soil_3.png" alt="Plant soil sensor" loading="lazy">
-<div class="hp-tile-body"><strong>Plant soil sensor</strong><p>Know when your plants need water.</p></div>
-</a>
 <a class="hp-card hp-tile" href="zigbee_lights">
 <img src="/buy/images_zigbee/gu10_fullcolor.jpg" alt="Lights" loading="lazy">
 <div class="hp-tile-body"><strong>Lights</strong><p>Bulbs, GU10 spots and LED strips.</p></div>
@@ -183,10 +180,6 @@ This is the hardware I advise, mostly based on my personal experience with it. G
 <img src="/buy/images_zigbee/powerstrip.avif" alt="Power strip" loading="lazy">
 <div class="hp-tile-body"><strong>Power strip</strong><p>Several smart sockets in one strip.</p></div>
 </a>
-<a class="hp-card hp-tile" href="zigbee_usb_adapter_switch">
-<img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="USB adapter switch" loading="lazy">
-<div class="hp-tile-body"><strong>USB adapter switch</strong><p>Switch USB powered devices on and off.</p></div>
-</a>
 <a class="hp-card hp-tile" href="zigbee_infrared_remote">
 <img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Infrared remote control" loading="lazy">
 <div class="hp-tile-body"><strong>Infrared remote control</strong><p>Control infrared devices, like an AC or TV, from automations.</p></div>
@@ -198,6 +191,14 @@ This is the hardware I advise, mostly based on my personal experience with it. G
 <a class="hp-card hp-tile" href="/projects/slide_smart_curtains">
 <img src="/projects/images_slide_curtain/slide_module.webp" alt="Smart curtains" loading="lazy">
 <div class="hp-tile-body"><strong>Smart curtains</strong><p>Open and close your curtains automatically.</p></div>
+</a>
+<a class="hp-card hp-tile" href="zigbee_air_quality_sensor">
+<img src="/buy/images_zigbee/zigbee_air_quality_sensor.webp" alt="Air quality sensor" loading="lazy">
+<div class="hp-tile-body"><strong>Air quality sensor</strong><p>Measure CO2, VOC and other air quality values.</p></div>
+</a>
+<a class="hp-card hp-tile" href="zigbee_plant_soil_sensor">
+<img src="/buy/images_zigbee/TS0601_soil_3.png" alt="Plant soil sensor" loading="lazy">
+<div class="hp-tile-body"><strong>Plant soil sensor</strong><p>Know when your plants need water.</p></div>
 </a>
 </div>
 
@@ -215,21 +216,19 @@ There are also outdoor sensors and actuators available, like water-resistant soc
 <img src="/buy/images_outdoor/zigbee_temperature_humidity_sensor_waterproof.png" alt="Waterproof temperature sensor" loading="lazy">
 <div class="hp-tile-body"><strong>Waterproof temperature sensor</strong><p>Measure the outdoor temperature and humidity.</p></div>
 </a>
-<a class="hp-card hp-tile" href="zigbee_outdoor_soil_sensor">
-<img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="Soil sensor" loading="lazy">
-<div class="hp-tile-body"><strong>Soil sensor</strong><p>Know if your garden plants have enough water.</p></div>
-</a>
 <a class="hp-card hp-tile" href="zigbee_weather_station">
 <img src="/buy/images_weather/ecowitt.jpg" alt="Weather stations" loading="lazy">
 <div class="hp-tile-body"><strong>Weather stations</strong><p>Full-blown weather stations with Home Assistant integration.</p></div>
 </a>
+
 <a class="hp-card hp-tile" href="zigbee_outdoor_lights">
 <img src="/buy/images_outdoor/zigbee_spotlight.avif" alt="Outdoor lights" loading="lazy">
 <div class="hp-tile-body"><strong>Outdoor lights</strong><p>Spotlights, floodlights and LED strips for your garden.</p></div>
 </a>
-<a class="hp-card hp-tile" href="zigbee_outdoor_socket">
-<img src="/buy/images_zigbee/ledvance_outdoor_plug.jpg" alt="Outdoor socket" loading="lazy">
-<div class="hp-tile-body"><strong>Outdoor socket</strong><p>Water-resistant smart sockets with power measurement.</p></div>
+
+<a class="hp-card hp-tile" href="zigbee_outdoor_soil_sensor">
+<img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="Soil sensor" loading="lazy">
+<div class="hp-tile-body"><strong>Soil sensor</strong><p>Know if your garden plants have enough water.</p></div>
 </a>
 </div>
 

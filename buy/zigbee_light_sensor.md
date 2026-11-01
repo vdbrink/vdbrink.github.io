@@ -18,6 +18,7 @@ Useful to enable the lights when it becomes dark outside.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3oHoBsX" target="_blank"><img src="../ideas/images/lux_sensor.jpg" alt="Zigbee lux sensor - Aqara T1" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Best option</span><strong>Zigbee lux sensor - Aqara T1</strong>
 <p>Very reliable, very long battery life, quick response on small light changes, more expensive.</p>
@@ -64,10 +65,6 @@ Xiaomi has almost the same device, with the same looks and works the same as the
 <a class="hp-card hp-tile" href="/ideas/home_automation_ideas">
 <img src="/ideas/images/idea.png" alt="Home Automation Ideas" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Ideas</span><strong>Home Automation Ideas</strong><p>Home automation ideas to make your home smart</p></div>
-</a>
-<a class="hp-card hp-tile" href="/zigbee/zigbee_soil_sensor">
-<img src="/zigbee/images_soil_sensor/NAS-STH02B2.png" alt="Zigbee soil sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee soil sensor</strong><p>A Zigbee soil sensor which measure humidity and temperature</p></div>
 </a>
 <a class="hp-card hp-tile" href="/projects/slide_smart_curtains">
 <img src="/projects/images_slide_curtain/slide_module.webp" alt="Slide - Smart Curtains" loading="lazy">

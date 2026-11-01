@@ -20,14 +20,14 @@ You can also schedule a full week of target temperatures.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3jO77RD" target="_blank"><img src="/buy/images_zigbee/thermostat.avif" alt="Zigbee smart radiator thermostat - Moes / Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee smart radiator thermostat - Moes / Tuya</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3jO77RD" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hX8D9A#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3jO77RD" target="_blank">AliExpress</a> | <a href="https://amzn.to/4hX8D9A#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TV02-Zigbee.html" target="_blank">TV02</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://amzn.to/4epec2w#ad" target="_blank"><img src="/buy/images_zigbee/z2m/WT-A03E.png" alt="Zigbee smart radiator thermostat W600 - Aqara" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee smart radiator thermostat W600 - Aqara</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4epec2w#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4epec2w#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/WT-A03E.html" target="_blank">Aqara WT-A03E</a></p>
 </div>
 </div>

@@ -21,23 +21,17 @@ You can also place a smart socket in a strategic spot with poor coverage to impr
 A smart plug with power consumption metrics can be useful to detect a machine's state from its power draw.
 This can be used for washing machines, dryers, dishwashers, ovens, etc.
 
-I use the European Zigbee BlitzWolf EU SHP-13 and SHP-15, which also measure power consumption.
+I use the European Zigbee BlitzWolf EU SHP-15, which also measure power consumption.
 It has a physical button to switch the state, and can handle 3680 W and 16 A, which is enough for washing machines and dryers.
 It took me a while to find the right smart socket for this purpose, but the ones I use have run for years without any issues.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15</strong>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">BangGood</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank">TS011F_plug_3</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile">
-<a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank"><img src="/buy/images_zigbee/z2m/TS0121_plug.jpg" alt="Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13" loading="lazy"></a>
-<div class="hp-tile-body"><strong>Zigbee smart power socket with power measurement - BlitzWolf EU SHP-13</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.banggood.com/BlitzWolf-BW-SHP13-ZigBee3_0-Smart-Socket-16A-EU-Plug-Electricity-Metering-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Home-p-2000907.html?warehouse=CN&ID=0&p=IF081412102025201707&custlinkid=3954741" target="_blank">Amazon</a></p>
-<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS0121_plug.html" target="_blank">TS0121</a></p>
 </div>
 </div>
 </div>

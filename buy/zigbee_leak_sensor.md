@@ -28,18 +28,20 @@ like the [chair occupancy sensor](/zigbee/zigbee_chair_occupancy_sensor).
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank"><img src="images_zigbee/aqara_leak_sensor.webp" alt="Leak sensor - Aqara" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Best option</span><strong>Leak sensor - Aqara</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eZBV9z#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3ZneX2Z#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3QCb0sj" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eZBV9z#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3ZneX2Z#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SJCGQ11LM.html" target="_blank">SJCGQ11LM</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank"><img src="/buy/images_zigbee/z2m/TS0207_water_leak_detector_1.jpg" alt="Zigbee leak sensor" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Cheaper option</span><strong>Zigbee leak sensor</strong>
 <p>Another leak sensor is the one with a wire, this sensor itself isn't water-resistant, only the other end of the cable may become wet. This one runs on two common AAA batteries, which make the sensor fairly big but cheaper to buy.</p>
 <p>(Not available on Amazon)</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">AliExpress</a> | <a href="https://amzn.to/4whRnDQ#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3Su3S8r" target="_blank">AliExpress</a> | <a href="https://amzn.to/4whRnDQ#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_1.html" target="_blank">TS0207</a></p>
 </div>
 </div>

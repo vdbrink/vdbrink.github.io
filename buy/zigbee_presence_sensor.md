@@ -24,14 +24,16 @@ Ideal for the living room, bedrooms and home office.
 <a href="https://amzn.to/48qWsyY#ad" target="_blank"><img src="images_zigbee/aqara_fp300.avif" alt="Zigbee or Thread (Matter) - Aqara FP300" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Best option</span><strong>Zigbee or Thread (Matter) - Aqara FP300</strong>
 <p>The Aqara FP300 is a new battery-powered sensor with PIR and mmWave radar. It can detect people up to 6 meters away and also measures light, temperature, and humidity. It can be configured with multiple zones where you can detect people.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/48qWsyY#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/48qWsyY#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/PS-S04D.html" target="_blank">FP300</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank"><img src="images_zigbee/mmwave_motion_sensor.jpg" alt="Zigbee / WiFi human Presence detection sensor" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Cheaper option</span><strong>Zigbee / WiFi human Presence detection sensor</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">AliExpress</a> | <a href="https://amzn.to/4dlxvIY#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Zi5pay#ad" target="_blank">Amazon NL</a></p>
+<p>USB power presence sensor to detect also still sitting persons up to 7m.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oEbnm2m" target="_blank">AliExpress</a> | <a href="https://amzn.to/4dlxvIY#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Zi5pay#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/ZY-M100-24G.html" target="_blank">ZY-M100-24G</a></p>
 </div>
 </div>

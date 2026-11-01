@@ -424,7 +424,7 @@ A good webcam makes you look sharper and clearer, even with a basic setup.</p>
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Microphone</span><strong>Razer Seiren Mini black</strong>
-<p>For an affordable basic microphone, I've chosen the Razer Seiren Mini black, a USB condenser microphone.</p>
+<p>For an affordable microphone, I've chosen the Razer Seiren Mini black, a USB condenser microphone.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4nLZVQ8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cwPg84#ad" target="_blank">Amazon NL</a></p>
 </div>
 </div>

@@ -30,9 +30,10 @@ It can also detect people who are sitting still or lying in bed.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3fNxtbf" target="_blank"><img src="images_zigbee/human_presence_sensor.avif" alt="Zigbee Human motion + presence + lux sensor - Hoazee" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee Human motion + presence + lux sensor - Hoazee</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3fNxtbf" target="_blank">AliExpress</a> | <a href="https://amzn.to/42aE8HW#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/46H1JBL#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3fNxtbf" target="_blank">AliExpress</a> | <a href="https://amzn.to/42aE8HW#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/46H1JBL#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/ZG-204ZM.html" target="_blank">ZG-204ZM</a></p>
 </div>
 </div>
@@ -47,16 +48,17 @@ With the stand you can point it in a specific direction, so it doesn't 'see' the
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3tkjvQ5" target="_blank"><img src="../ideas/images/motion_sensor.png" alt="Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Best option</span><strong>Zigbee motion sensor beam, WITH LIGHT SENSOR - Aqara</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3tkjvQ5" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tcin5k#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4mK01ph#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3tkjvQ5" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tcin5k#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4mK01ph#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/RTCGQ11LM.html" target="_blank">RTCGQ11LM / P1</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c4CYStNH" target="_blank"><img src="/buy/images_zigbee/z2m/RTCGQ01LM.jpg" alt="Zigbee motion sensor beam - Xiaomi" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Alternative option</span><strong>Zigbee motion sensor beam - Xiaomi</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4CYStNH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4kUzGUw#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4CYStNH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4kUzGUw#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/RTCGQ01LM.html" target="_blank">RTCGQ01LM</a></p>
 </div>
 </div>
@@ -68,6 +70,7 @@ If I want to cover a whole room, I use a different type of PIR sensor which you 
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c2R8wwNb" target="_blank"><img src="images_zigbee/zigbee_motion_all_directions.webp" alt="Zigbee motion sensor all directions - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">All direction option</span><strong>Zigbee motion sensor all directions - Tuya</strong>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2R8wwNb" target="_blank">AliExpress</a></p>

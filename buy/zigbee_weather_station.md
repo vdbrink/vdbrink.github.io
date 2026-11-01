@@ -26,7 +26,10 @@ It isn't a Zigbee device (these devices don't exist with Zigbee) but a WiFi weat
 <a href="https://s.click.aliexpress.com/e/_c4osbuDp" target="_blank"><img src="images_weather/ecowitt.jpg" alt="Ecowitt GW2001 Wittboy Weather Station" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Ecowitt GW2001 Wittboy Weather Station</strong>
 <p>Includes a GW2000 IoT Wi-Fi Gateway and the WS90 7-in-1 Outdoor Solar Powered Weather Sensor.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4osbuDp" target="_blank">AliExpress</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">
+<a href="https://s.click.aliexpress.com/e/_c4osbuDp" target="_blank">AliExpress</a> |
+<a href="https://link.amazon/B05zFMwmo" target="_blank">Amazon</a>
+</p>
 </div>
 </div>
 <div class="hp-card hp-tile">
@@ -37,6 +40,8 @@ It isn't a Zigbee device (these devices don't exist with Zigbee) but a WiFi weat
 </div>
 </div>
 </div>
+
+<br>
 
 Video with the Ecowitt Wittboy functionalities:
 

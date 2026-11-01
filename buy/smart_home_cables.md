@@ -24,7 +24,7 @@ USB-A to micro USB cable to power the ESP.
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="../esphome/images/micro_usb_cable.jpg" alt="Micro USB cable" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Micro USB cable</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a> | <a href="https://amzn.to/42C3sHw#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3CAUNdU#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a> | <a href="https://amzn.to/42C3sHw#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3CAUNdU#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>

@@ -21,7 +21,7 @@ These sockets are water-resistant (IP44), so they can handle the weather.
 <a href="https://amzn.to/4gBFjop#ad" target="_blank"><img src="/buy/images_zigbee/ledvance_outdoor_plug.jpg" alt="Zigbee outdoor power socket - LEDVANCE" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee outdoor power socket - LEDVANCE</strong>
 <p>Can handle 3680 W, has an IP44 rating and power measurement.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4gBFjop#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4gBFjop#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/4099854293276.html" target="_blank">4099854293276</a></p>
 </div>
 </div>
@@ -29,7 +29,7 @@ These sockets are water-resistant (IP44), so they can handle the weather.
 <a href="https://amzn.to/40SVJoc#ad" target="_blank"><img src="/buy/images_zigbee/z2m/A4Z.jpg" alt="Zigbee dual port power socket with power measurement - Nous" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee dual port power socket with power measurement - Nous</strong>
 <p>A dual socket outdoor device, where each socket can be controlled individually, with power consumption measurements.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/A4Z.html" target="_blank">A4Z</a></p>
 </div>
 </div>
@@ -42,7 +42,7 @@ These sockets are water-resistant (IP44), so they can handle the weather.
 This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (without power measurement).
 
 {{imgBasket}}Zigbee outdoor power socket - Innr (Dual Pack) 
-<a href="https://amzn.to/3Vt83Ip#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/3Vt83Ip#ad" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/OLS_210.html" target="_blank" title="OLS_210">{{imgZ2M}}OLS_210</a>
 -->
 
@@ -53,7 +53,7 @@ This outdoor Innr Zigbee power socket can handle 2300 W and has an IP44 rating (
 
 This outdoor Silvercrest/Lidl Zigbee power socket can handle 3680 W and has an IP44 rating (without power measurement).
 
-{{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon NL)</a>
+{{imgBasket}}<a href="" target="_blank">Zigbee outdoor power socket - Silvercreset (Amazon)</a>
 
 <a href="https://www.zigbee2mqtt.io/devices/HG06619.html" target="_blank" title="HG06619">{{imgZ2M}}HG06619</a>
 -->

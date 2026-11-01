@@ -21,10 +21,11 @@ With this behavior, you can also create a [seat occupancy sensor](/zigbee/zigbee
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank"><img src="images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Zigbee Contact sensor - Aqara" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Best option</span><strong>Zigbee Contact sensor - Aqara</strong>
 <p>aka T1. They are small and have a long battery life.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">AliExpress</a> | <a href="https://amzn.to/3R03iGC#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Dnl1kK#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3udT3zH" target="_blank">AliExpress</a> | <a href="https://amzn.to/3R03iGC#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Dnl1kK#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/MCCGQ11LM.html" target="_blank">MCCGQ11LM</a></p>
 </div>
 </div>
@@ -32,7 +33,7 @@ With this behavior, you can also create a [seat occupancy sensor](/zigbee/zigbee
 <a href="https://s.click.aliexpress.com/e/_c4ara5aH" target="_blank"><img src="images_zigbee/zigbee_contact_sensor.webp" alt="Zigbee Contact sensor - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Cheaper option</span><strong>Zigbee Contact sensor - Tuya</strong>
 <p>Small and cheaper.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4ara5aH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eokjEj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4swcmAw#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4ara5aH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eokjEj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4swcmAw#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/ZD08.html" target="_blank">ZD08</a></p>
 </div>
 </div>
@@ -40,7 +41,7 @@ With this behavior, you can also create a [seat occupancy sensor](/zigbee/zigbee
 <a href="https://s.click.aliexpress.com/e/_c3PaIIKN" target="_blank"><img src="/buy/images_zigbee/z2m/ZD06.png" alt="Zigbee Contact sensor 2xAAA powered - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">2xAAA battery option</span><strong>Zigbee Contact sensor 2xAAA powered - Tuya</strong>
 <p>Battery powered, bigger, cheaper.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3PaIIKN" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tT6bHW#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3GJdFKq#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3PaIIKN" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tT6bHW#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3GJdFKq#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/ZD06.html" target="_blank">ZD06</a></p>
 </div>
 </div>

@@ -68,6 +68,10 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <img src="/esphome/images_scd40/hardware.jpg" alt="SCD40 CO2 sensor" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>DIY cheap CO2 sensor</strong><p>Build your own ESPHome CO2 sensor for Home Assistant.</p></div>
 </a>
+<a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
+<img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your Christmas lights and other powered decorations automatically.</p></div>
+</a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_weather_nl">
 <img src="/homeassistant/images_weather/rain_radar_animated.png" alt="Weather in The Netherlands" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Weather in The Netherlands</strong><p>HA Rain radar, forecasts and warnings on your dashboard based on NL data.</p></div>
@@ -103,11 +107,6 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Dashboard on a tablet in kiosk mode</strong><p>How to create a wall tablet.</p></div>
 </a>
 
-
-<a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
-<img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your Christmas lights and other powered decorations automatically.</p></div>
-</a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_floorplan">
 <img src="/homeassistant/images_floorplan/entity_icons.png" alt="Floor plan" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Interactive floor plan</strong><p>See and control all sensor states at your whole home at a glance.</p></div>
