@@ -1,0 +1,31 @@
+---
+layout: none
+permalink: /llms-full.txt
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }}. Full plain-text content of all pages and posts. Index: {{ '/llms.txt' | absolute_url }}
+{% assign all_pages = site.html_pages | sort: "url" %}
+{%- for p in all_pages -%}
+{%- if p.sitemap == false or p.dir contains "/tag/" or p.dir contains "/assets/" or p.url contains "sitemap.html" or p.url contains "/feed" or p.url contains "404" or p.url == "/" or p.name contains "stream_deck_icon_gallery" -%}{%- continue -%}{%- endif %}
+
+---
+
+## {{ p.title | default: p.name | strip_html | strip }}
+
+URL: {{ p.url | absolute_url }}
+{% if p.description %}Description: {{ p.description | strip_html | strip }}
+{% endif %}
+{% include plain_text.html text=p.content %}
+{% endfor -%}
+{%- for p in site.posts %}
+
+---
+
+## {{ p.title | strip_html | strip }}
+
+URL: {{ p.url | absolute_url }}
+Date: {{ p.date | date_to_xmlschema }}
+{% include plain_text.html text=p.content %}
+{% endfor %}

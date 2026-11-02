@@ -1,0 +1,33 @@
+---
+layout: none
+permalink: /llms.txt
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }}. Personal blog by {{ site.author.name }} with practical, tested guides and projects about home automation: Home Assistant, ESPHome, Node-RED, Zigbee, Frigate, Docker, Stream Deck and home-office setup. Content is in English.
+
+Full plain-text content of every page: {{ '/llms-full.txt' | absolute_url }}
+Machine-readable page index (JSON): {{ '/pages.json' | absolute_url }}
+RSS feed: {{ '/feed.xml' | absolute_url }}
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
+
+## Latest posts
+{% for post in site.posts limit: 15 %}
+- [{{ post.title | strip_html | strip }}]({{ post.url | absolute_url }}){% if post.description %}: {{ post.description | strip_html | strip | replace: "
+", " " }}{% endif %}
+{%- endfor %}
+{%- assign all_pages = site.html_pages | sort: "dir" -%}
+{%- assign groups = all_pages | group_by: "dir" %}
+{% for group in groups -%}
+{%- if group.name contains "/tag/" or group.name contains "_drafts" or group.name contains "/assets/" -%}{%- continue -%}{%- endif -%}
+{%- assign index_page = group.items | where: "name", "index.md" | first -%}
+{%- if group.name == "/" -%}{%- assign gt = "General" -%}{%- elsif index_page and index_page.title -%}{%- assign gt = index_page.title -%}{%- else -%}{%- assign gt = group.name | remove_first: "/" | split: "/" | first | replace: "_", " " | replace: "-", " " | capitalize -%}{%- endif %}
+## {{ gt | strip_html | strip }}
+{% assign sub_pages = group.items | sort: "title" -%}
+{%- for p in sub_pages -%}
+{%- if p.sitemap == false or p.url contains "sitemap.html" or p.url contains "/feed" or p.url contains "404" -%}{%- continue -%}{%- endif %}
+- [{{ p.title | default: p.name | strip_html | strip }}]({{ p.url | absolute_url }}){% if p.description %}: {{ p.description | strip_html | strip | replace: "
+", " " }}{% endif %}
+{% endfor -%}
+{%- endfor %}

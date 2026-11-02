@@ -1,0 +1,40 @@
+{%- comment -%}Extra JSON-LD: BreadcrumbList for all pages, TechArticle for non-post content pages. jekyll-seo-tag already emits WebSite/BlogPosting.{%- endcomment -%}
+{%- if page.url != "/" and page.url != "/404.html" -%}
+{%- assign segs = page.url | split: "/" -%}
+{%- assign last_idx = segs.size | minus: 1 -%}
+{%- assign path = "" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": {{ '/' | absolute_url | jsonify }}}
+    {%- assign pos = 1 -%}
+    {%- for seg in segs -%}
+    {%- if seg == "" -%}{%- continue -%}{%- endif -%}
+    {%- assign path = path | append: "/" | append: seg -%}
+    {%- assign pos = pos | plus: 1 -%}
+    {%- assign seg_name = seg | remove: ".html" | replace: "_", " " | replace: "-", " " | capitalize -%}
+    {%- if forloop.index0 == last_idx -%}{%- assign seg_name = page.title | default: seg_name | strip_html | strip -%}{%- endif -%}
+    ,
+    {"@type": "ListItem", "position": {{ pos }}, "name": {{ seg_name | jsonify }}, "item": {{ path | absolute_url | jsonify }}}
+    {%- endfor %}
+  ]
+}
+</script>
+{%- if page.collection != "posts" and page.title and page.layout != "none" and page.url != "/sitemap.html" and page.url != "/feed.html" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": {{ page.title | strip_html | strip | jsonify }},
+  "description": {{ page.description | default: site.description | strip_html | strip | jsonify }},
+  "image": {{ page.image | default: site.image | absolute_url | jsonify }},
+  "inLanguage": "{{ site.lang }}",
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+  "author": {"@type": "Person", "name": {{ site.author.name | jsonify }}, "url": "https://github.com/vdbrink"},
+  "publisher": {"@type": "Person", "name": {{ site.author.name | jsonify }}}
+}
+</script>
+{%- endif -%}
+{%- endif -%}

@@ -1,0 +1,14 @@
+---
+layout: none
+permalink: /pages.json
+sitemap: false
+---
+{%- assign all = site.html_pages | concat: site.posts -%}
+[
+{%- assign first = true -%}
+{%- for p in all -%}
+{%- if p.sitemap == false or p.dir contains "/tag/" or p.dir contains "/assets/" or p.url contains "404" -%}{%- continue -%}{%- endif -%}
+{%- unless first %},{% endunless -%}{%- assign first = false %}
+  {"title": {{ p.title | default: p.name | strip_html | jsonify }}, "url": {{ p.url | absolute_url | jsonify }}, "description": {{ p.description | default: "" | strip_html | jsonify }}, "category": {{ p.category | default: "" | jsonify }}, "tags": {{ p.tags | default: empty | jsonify }}, "date": {{ p.date | date_to_xmlschema | jsonify }}}
+{%- endfor %}
+]

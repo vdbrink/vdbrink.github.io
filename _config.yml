@@ -42,7 +42,6 @@ plugins:
   - jekyll-feed
   - jekyll/tagging
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-seo-tag
   - webrick
   - jekyll-github-metadata

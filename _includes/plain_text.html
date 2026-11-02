@@ -1,0 +1,16 @@
+{%- comment -%}Strip Liquid tags/variables and HTML from include.text, output plain markdown text.{%- endcomment -%}
+{%- capture tag_open -%}{% raw %}{%{% endraw %}{%- endcapture -%}
+{%- capture tag_close -%}{% raw %}%}{% endraw %}{%- endcapture -%}
+{%- capture var_open -%}{% raw %}{{{% endraw %}{%- endcapture -%}
+{%- capture var_close -%}{% raw %}}}{% endraw %}{%- endcapture -%}
+{%- assign pt_a = include.text | split: tag_open -%}
+{%- capture pt_b -%}
+{{- pt_a[0] -}}
+{%- for c in pt_a offset: 1 -%}{%- assign r = c | split: tag_close -%}{%- for x in r offset: 1 -%}{{ x }}{%- endfor -%}{%- endfor -%}
+{%- endcapture -%}
+{%- assign pt_c = pt_b | split: var_open -%}
+{%- capture pt_d -%}
+{{- pt_c[0] -}}
+{%- for c in pt_c offset: 1 -%}{%- assign r = c | split: var_close -%}{%- for x in r offset: 1 -%}{{ x }}{%- endfor -%}{%- endfor -%}
+{%- endcapture -%}
+{{- pt_d | strip_html | strip -}}
