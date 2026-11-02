@@ -31,8 +31,14 @@
   "description": {{ page.description | default: site.description | strip_html | strip | jsonify }},
   "image": {{ page.image | default: site.image | absolute_url | jsonify }},
   "inLanguage": "{{ site.lang }}",
+  {%- if page.date %}
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  {%- endif %}
+  {%- if page.last_modified_at %}
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+  {%- endif %}
   "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
-  "author": {"@type": "Person", "name": {{ site.author.name | jsonify }}, "url": "https://github.com/vdbrink"},
+  "author": {"@type": "Person", "name": {{ site.author.name | jsonify }}, "url": "https://vdbrink.github.io/"},
   "publisher": {"@type": "Person", "name": {{ site.author.name | jsonify }}}
 }
 </script>

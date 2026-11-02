@@ -43,6 +43,7 @@ plugins:
   - jekyll/tagging
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-last-modified-at
   - webrick
   - jekyll-github-metadata
 

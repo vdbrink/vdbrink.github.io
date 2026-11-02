@@ -1,0 +1,14 @@
+{%- comment -%}Adds rel="sponsored noopener" to affiliate links (amzn., amazon., aliexpress.) in include.html. Links that already have a rel attribute are left alone.{%- endcomment -%}
+{%- assign ar_parts = include.html | split: '<a ' -%}
+{%- capture ar_out -%}
+{{- ar_parts[0] -}}
+{%- for part in ar_parts offset: 1 -%}
+{%- assign ar_tag = part | split: '>' | first -%}
+{%- assign ar_href = ar_tag | split: 'href="' -%}
+{%- assign ar_url = ar_href[1] | split: '"' | first -%}
+{%- if ar_url contains "amzn." or ar_url contains "amazon." or ar_url contains "aliexpress." -%}
+{%- unless ar_tag contains ' rel=' -%}<a rel="sponsored noopener" {{ part }}{%- else -%}<a {{ part }}{%- endunless -%}
+{%- else -%}<a {{ part }}{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{{- ar_out -}}
