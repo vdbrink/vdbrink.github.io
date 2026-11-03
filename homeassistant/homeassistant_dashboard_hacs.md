@@ -9,37 +9,27 @@ image: /homeassistant/images/home_assistant_logo.png
 
 <a href="index"><img src="images/home_assistant_logo.png" style="float: right;" alt="Home Assistant logo" height="100px"></a>
 
-Here you find Home Assistant (Lovelace) dashboard custom elements that are not available by default, but that you can add to your dashboard.
+Here you find Home Assistant (Lovelace) dashboard custom elements that are not available by default, 
+but that you can add nice extra features to your dashboard.
 <br><br>
 
 ---
 
 ## Table of Contents
 <!-- TOC -->
-  * [Swipe Navigation](#swipe-navigation)
   * [auto-entities](#auto-entities)
   * [Mushroom](#mushroom)
   * [card-mod 3 (lovelace-card-mod)](#card-mod-3-lovelace-card-mod)
   * [slider-entity-row](#slider-entity-row)
   * [multiple-entity-row](#multiple-entity-row)
   * [template-entity-row](#template-entity-row)
+  * [Swipe Navigation](#swipe-navigation)
   * [Atomic Calendar Revive](#atomic-calendar-revive)
   * [Birthday Reminder Card](#birthday-reminder-card)
   * [Clock Weather Card](#clock-weather-card)
   * [Lovelace animated weather card](#lovelace-animated-weather-card)
   * [Neerslag App](#neerslag-app)
 <!-- TOC -->
-
----
-
-## Swipe Navigation
-
-Swipe left or right to switch to the side Lovelace dashboard on your mobile device.
-
-Repo: [https://github.com/zanna-37/hass-swipe-navigation](https://github.com/zanna-37/hass-swipe-navigation)
-
-Install this integration, via this button, into your own Home Assistant instance.\
-[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
 
@@ -59,11 +49,26 @@ Repo: [https://github.com/thomasloven/lovelace-auto-entities](https://github.com
 Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 
-I have a [dedicated page](homeassistant_dashboard_card_auto-entities) with examples and a dashboard with [chores](homeassistant_dashboard_chores) based on this custom element.
+I have a [dedicated auto-entities examples page](homeassistant_dashboard_card_auto-entities) with these examples:
+* [Temperatures (rounded, sorted and colored)](homeassistant_dashboard_card_auto-entities#temperatures-rounded-sorted-and-colored)
+* [Humidity (rounded, sorted and colored)](homeassistant_dashboard_card_auto-entities#humidity-rounded-sorted-and-colored)
+* [Show lights ordered by state](homeassistant_dashboard_card_auto-entities#show-lights-ordered-by-state)
+* [Show only the lights which are 'on'](homeassistant_dashboard_card_auto-entities#show-only-the-lights-which-are-on)
+* [Latest activities (motions and doors)](homeassistant_dashboard_card_auto-entities#latest-activities-motions-and-doors)
+* [Open windows](homeassistant_dashboard_card_auto-entities#open-windows)
+* [Missing devices](homeassistant_dashboard_card_auto-entities#missing-devices)
+* [Full moon (single condition)](homeassistant_dashboard_card_auto-entities#full-moon-single-condition)
+* [Only X days left (multiple conditions with AND)](homeassistant_dashboard_card_auto-entities#only-x-days-left-multiple-conditions-with-and)
+* [Upcoming week and sort by days](homeassistant_dashboard_card_auto-entities#upcoming-week-and-sort-by-days)
+* [With attribute data](homeassistant_dashboard_card_auto-entities#with-attribute-data)
+* [Conditional mushroom cards](homeassistant_dashboard_card_auto-entities#conditional-mushroom-cards)
+
+I also have a dashboard with [chores](homeassistant_dashboard_chores) based on this custom element.
 
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# All temperature sensors, sorted from high to low and rounded to whole degrees.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -162,6 +167,7 @@ The entity used here is based on the [KNMI weather alarm scraper](/homeassistant
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# KNMI weather alarm sensor, colored by alarm level.
 # Dashboard card code
 type: entities
 entities:
@@ -207,6 +213,7 @@ Install this integration, via this button, into your own Home Assistant instance
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Light entity row with a toggle switch, using the slider-entity-row custom element.
 # Dashboard card code
 type: custom:slider-entity-row
 entity: light.group_light1
@@ -248,6 +255,7 @@ Install this integration, via this button, into your own Home Assistant instance
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Shows the rounded temperature with an icon color.
 # Dashboard card code
 type: entities
 entities:
@@ -277,6 +285,17 @@ entities:
        }
 {% endraw %}
 ```
+
+---
+
+## Swipe Navigation
+
+Swipe left or right to switch to the side Lovelace dashboard on your mobile device.
+
+Repo: [https://github.com/zanna-37/hass-swipe-navigation](https://github.com/zanna-37/hass-swipe-navigation)
+
+Install this integration, via this button, into your own Home Assistant instance.\
+[![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
 
 ---
 
@@ -316,6 +335,7 @@ You can find it in the `www` folder of your Home Assistant installation.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Shows the birthdays of the next 30 days.
 # Dashboard card code
 type: custom:birthday-card
 title: "Birthdays"
@@ -348,6 +368,7 @@ You can also minimize the card so it only shows the weather forecast.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Clock Weather Card as weather forecast only for the next 5 days.
 # Dashboard card code
 type: custom:clock-weather-card
 entity: weather.forecast_home
@@ -385,6 +406,7 @@ Install this integration, via this button, into your own Home Assistant instance
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Weather Card with current weather and a 5-forecast overview for your weather entity.
 # Dashboard card code
 type: custom:weather-card
 entity: weather.yourweatherentity
@@ -415,6 +437,7 @@ Install this integration, via this button, into your own Home Assistant instance
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Rain forecast card with the Buienalarm and Buienradar precipitation sensors.
 # Dashboard card code
 type: custom:neerslag-card
 title: Neerslag

@@ -24,11 +24,23 @@ function addCopyButtons(clipboard) {
         });
 
         var pre = codeBlock.parentNode;
-        if (pre.parentNode.classList.contains('highlight')) {
-            var highlight = pre.parentNode;
-            highlight.parentNode.insertBefore(button, highlight);
+        var anchor = pre.parentNode.classList.contains('highlight') ? pre.parentNode : pre;
+
+        // Header bar with the code description (2nd line of "# Source code by ..." + "# <description>")
+        var lines = codeBlock.innerText.split('\n').filter(function (l) { return l.trim() !== ''; }).slice(0, 2);
+        var isSourceLine = /^#\s*Source code by/i.test(lines[0] || '');
+        var description = isSourceLine && /^#\s*\S/.test(lines[1] || '') ? lines[1].replace(/^#\s*/, '').trim() : '';
+        if (description) {
+            var header = document.createElement('div');
+            header.className = 'code-header';
+            var title = document.createElement('span');
+            title.className = 'code-header-title';
+            title.textContent = description;
+            header.appendChild(title);
+            header.appendChild(button);
+            anchor.parentNode.insertBefore(header, anchor);
         } else {
-            pre.parentNode.insertBefore(button, pre);
+            anchor.parentNode.insertBefore(button, anchor);
         }
     });
 }

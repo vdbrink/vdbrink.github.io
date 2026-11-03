@@ -47,7 +47,8 @@ Show all temperature sensors in order of their temperature from high to low. And
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card with all temperature sensors sorted from high to low.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -92,7 +93,8 @@ higher than 60% orange, higher than 55% white.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card with all humidity sensors, rounded, sorted by humidity level.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -138,7 +140,8 @@ Hide also the unavailable ones.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# All lights, sorted by state.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -165,7 +168,8 @@ Show only the lights which are 'on'.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Shows the lights that are on.
 # Dashboard card code
 type: custom:auto-entities
 show_empty: false
@@ -190,7 +194,8 @@ Show the latest 10 active motion- and contact door sensors that changed in the l
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# The latest 10 motion and door sensors which changed in the last 30 minutes.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -227,7 +232,8 @@ Show which windows are open.
 Example 1: based on `device_class` = `window`.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# All window contact sensors which are open.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -252,7 +258,8 @@ show_empty: true
 Example 2: based on entity name (`raam*`).
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# All binary sensors whose name contains raam (window) and which are open.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -286,7 +293,8 @@ You can fine-tune this by including or excluding specific devices.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Lists temperature sensors that have not been updated for more than 24 hours, to find missing devices.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -323,7 +331,8 @@ Show this only when the entity `sensor.moon` has the status `full_moon`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Shows when the sensor.moon state is full_moon.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -349,7 +358,8 @@ Show only for the upcoming days (when the number of days is less than 4 AND more
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Shows the paper waste pickup countdown when it is between 0 and 3 days.
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -371,7 +381,8 @@ For my waste bin pickups, I show how many days are left until they are picked up
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Waste pickup countdown sensors, showing the days left until pickup, sorted by days.
 # Dashboard card code
 type: custom:auto-entities
 card:

@@ -42,7 +42,8 @@ Or add it manually via the `configuration.yaml`.\
 Here you can override the scan interval time.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Scrape sensor which reads the latest nu.nl headline.
 # configuration.yaml
 - platform: scrape
   resource: https://www.nu.nl
@@ -57,7 +58,8 @@ Here you can override the scan interval time.
 Use a Markdown card to present the news on the dashboard.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Markdown card which shows the scraped news headline.
 # Dashboard card code
  - type: markdown
         content: |
