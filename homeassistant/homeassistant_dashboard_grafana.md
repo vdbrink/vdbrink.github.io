@@ -56,6 +56,7 @@ First, you need to add an extra environment variable or setting in grafana.ini t
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Allows Grafana to be embedded in an iframe
 # Add-on configuration
 env_vars:
   - name: GF_SECURITY_ALLOW_EMBEDDING
@@ -134,6 +135,7 @@ Add a `Webpage Card` (a.k.a. `iframe`) to your dashboard with the next settings:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Iframe card settings show a Grafana panel in kiosk mode
 # dashboard element code
 type: iframe
 aspect_ratio: 100%

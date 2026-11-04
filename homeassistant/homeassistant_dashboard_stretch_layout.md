@@ -99,7 +99,8 @@ Defining only `hide_header` is enough.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard raw configuration which hides the top header (kiosk mode)
 # Raw configuration editor
 kiosk_mode:
   hide_header: true
@@ -182,7 +183,9 @@ With some extra CSS, the size is bigger now.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom title card with the current time in a large font
+# Dashboard Mushroom title card code for the time
 - type: custom:mushroom-title-card
   title: '{{now().strftime(''%H:%M'')}}'
   alignment: center
@@ -199,7 +202,9 @@ With some extra CSS, the size is bigger now.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom title card with the formatted date sensor
+# Dashboard Mushroom title card code for the date
 - type: custom:mushroom-title-card
   title: {{states('sensor.date_only_formatted')}}
   alignment: center
@@ -229,7 +234,9 @@ Install this integration via this button\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mini-graph card with the room temperature
+# Dashboard mini-graph card code with a colored line
 type: custom:mini-graph-card
 entities:
   - sensor.espscd40_co2_temperature
@@ -261,7 +268,9 @@ One line for a fixed 23 value, one for the room temperature on one side and one 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# History graph card with three lines
+# Dashboard history graph card code with multiple lines
 type: history-graph
 entities:
   - entity: sensor.espscd40_co2_temperature
@@ -285,7 +294,9 @@ For the current CO2 value in the room, I used my own [DIY ESPHome CO2, temperatu
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mini-graph card with the room CO2 value
+# Dashboard mini-graph card code with a colored line
 type: custom:mini-graph-card
 entities:
   - sensor.scd40_co2
@@ -315,7 +326,9 @@ color_thresholds:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# History graph card with the CO2 value
+# Dashboard history graph card code with multiple lines
 type: history-graph
 entities:
 - entity: sensor.scd40_co2
@@ -340,7 +353,9 @@ For the current room humidity, I used my own [DIY ESPHome CO2, temperature, humi
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# History graph card with the room humidity
+# Dashboard history graph card code for the humidity
 type: history-graph
 entities:
     - entity: sensor.espscd40_co2_humidity
@@ -360,7 +375,8 @@ I used the [web scraper](homeassistant_web_scraper) to create a sensor based on 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard markdown card code for the news headline
 type: markdown
 content: |
   {{ states('sensor.web_scrape') }}
@@ -383,7 +399,8 @@ card_mod:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard Mushroom chips card code with conditions
 - type: custom:mushroom-chips-card
     chips:
         - type: conditional
@@ -519,7 +536,7 @@ The entity used here is based on the [KNMI weather alarm scraper](/homeassistant
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 
 {% endraw %}
 ```
@@ -532,7 +549,8 @@ The entity used here is based on the [KNMI weather alarm scraper](/homeassistant
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard conditional card code for the camera stream
 type: conditional
 conditions:
   - condition: state
@@ -558,7 +576,8 @@ When you place them in a horizontal stack, they are shown smaller.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard gauge card code
 type: vertical-stack
 cards:
   - type: horizontal-stack

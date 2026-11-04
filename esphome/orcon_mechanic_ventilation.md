@@ -196,7 +196,8 @@ For more information about installing and flashing your ESP with ESPHome see the
   <summary><b>> Click here to see the ESPHome configuration file >></b></summary>
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# ESPHome configuration for the Orcon ventilation controller
 esphome:
   name: orcon_mcu
   platform: ESP8266
@@ -458,7 +459,8 @@ Only SPEED 3 uses more power.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the current ventilation mode based on power usage
 {% set p = states('sensor.xxxx_power) | float(0) %}
 {% if 0 <= p <= 45 %}
 OFF
@@ -481,7 +483,8 @@ I read this topic in Node-RED to give direct feedback to Home Assistant. Otherwi
   <summary><b>> Click here to see the corresponding scripts.yaml code >></b></summary>
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Script to switch the ventilation mode via MQTT
 switch_orcon_mode_1:
   alias: switch_orcon_mode_1
   sequence:
@@ -569,7 +572,8 @@ This design uses the six created helper toggles which operate as buttons, and th
   <summary><b>> Click here to see the service scripts YAML >></b></summary>
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Vertical and horizontal stacks with buttons to control the Orcon ventilation modes
 # Dashboard card code
 type: vertical-stack
 cards:
@@ -650,7 +654,8 @@ This black panel design is created with a `picture-element` with a black backgro
 You have to place the [background image](../homeassistant/images/black.png) in the Home Assistant `www` directory.
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Service buttons to control the Orcon ventilation system
 # Dashboard card code
 type: picture-elements
 image: /local/black.png
@@ -758,7 +763,8 @@ The black square is a placeholder to define an area to click.
   <summary><b>> Click here to see the corresponding dashboard YAML >></b></summary>
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Orcon remote control photo and clickable areas
 # Dashboard card code
 type: picture-elements
 image: /local/orcon_15rf_remote.jpg
@@ -879,7 +885,8 @@ elements:
   <summary><b>> Click here to see the corresponding dashboard gauge YAML >></b></summary>
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Gauge cards with the room temperatures
 # Dashboard card code
 type: vertical-stack
 cards:
@@ -946,7 +953,8 @@ I integrated the exported Grafana dashboard in a vertical stack to stick them to
 
 This is the corresponding YAML.
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Iframe cards with Grafana panels with the ventilation and temperature history
 # Dashboard card code
 type: vertical-stack
 cards:

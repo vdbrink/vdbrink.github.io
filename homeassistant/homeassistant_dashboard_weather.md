@@ -43,7 +43,8 @@ With no extra parameters defined you get a full card with available data.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Weather forecast card with default settings
 # Dashboard card code
 type: custom:weather-chart-card
 entity: weather.home
@@ -63,7 +64,8 @@ Install this HACS [**Weather Chart Card**](https://github.com/mlamberts78/weathe
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Weather Chart Card with only the forecast in style 2
 # Dashboard card code
 type: custom:weather-chart-card
 entity: weather.forecast_home
@@ -89,7 +91,8 @@ Install the HACS [**Animated Weather Card**](https://github.com/bramkragten/weat
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Weather Card with current weather and a 5-forecast overview
 # Dashboard card code
 type: custom:weather-card
 entity: weather.yourweatherentity
@@ -113,7 +116,8 @@ Install the HACS [**Clock Weather Card**](https://github.com/pkissling/clock-wea
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Clock Weather Card with a 3-day forecast in Dutch
 # Dashboard card code
 type: custom:clock-weather-card
 entity: weather.home
@@ -137,7 +141,8 @@ This is the corresponding code:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Clock Weather Card as 5-day forecast only
 # Dashboard card code
 type: custom:clock-weather-card
 entity: weather.forecast_home
@@ -164,7 +169,8 @@ Clouds/sun, position of the sun, temperature, rain, wind force, wind gust, wind 
 Replace in this YAML code the longitude and latitude values (2x) for the weather at your location.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Iframe card with the Windy weather map for your location
 # Dashboard card code
 type: iframe
 url: https://embed.windy.com/embed2.html?lat=52.000&lon=4.000&detailLat=52.000&detailLon=4.000&width=650&height=180&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=bft&metricTemp=%C2%B0C&radarRange=-1
@@ -184,7 +190,8 @@ Install the HACS [**Hourly Weather Card**](https://github.com/pkissling/clock-we
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Hourly Weather Card with the forecast per hour, including the precipitation probability and amounts
 # Dashboard card code
 type: custom:hourly-weather
 entity: weather.forecast_home
@@ -214,10 +221,11 @@ Show an iframe with the real-time lightning and thunderstorm activities from bli
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Iframe card with the real-time lightning and thunderstorm
 # Dashboard card code
 type: iframe
-url: https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=1&ScaleControl=1&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=0&MapStyleRangeValue=0&Advertisment=#10/52.100676/5.168668
+url: https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=1&ScaleControl=1&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=0&MapStyleRangeValue=0&Advertisment=#10/52.00000/4.00000
 aspect_ratio: '1:0.6'
 {% endraw %}
 ```
@@ -229,7 +237,8 @@ A template that indicates good or bad based on a threshold value.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor which says good or bad based on the outside pressure
 # Dashboard card code
 template:
   - sensor:

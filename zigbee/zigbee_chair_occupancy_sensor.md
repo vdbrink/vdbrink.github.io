@@ -250,6 +250,7 @@ With this addition in the `configuration.yaml` file, it creates a new sensor tha
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor for the chair occupancy
 # configuration.yaml
 template:
   - binary_sensor:
@@ -277,6 +278,7 @@ This will generate a new sensor called `sensor.chair_occupancy`.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# History stats sensor with the total time the chair was occupied
 # configuration.yaml
 - platform: history_stats
   name: chair occupancy
@@ -302,6 +304,8 @@ Show the amount of time on the chair as an entity.\
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Entities card with the chair occupancy sensor, showing the total occupied time
+# Dashboard entities card code with the total time as text
 type: entities
 entities:
   - entity: sensor.chair_occupancy
@@ -320,6 +324,8 @@ A history graph card is used for this.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# History graph card with the chair occupancy
+# Dashboard history graph card code with the occupied time as graph
 type: history-graph
 entities:
   - entity: sensor.chair_occupancy
@@ -341,6 +347,7 @@ As you can see, the chair sensor is much more reliable if you sit still!
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Dashboard history graph card code with the total time in a bar
 type: history-graph
 entities:
   - entity: binary_sensor.chair_occupancy
@@ -359,6 +366,7 @@ Indicate if someone is sitting on the chair.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Dashboard entities card code with the occupied state
 type: entities
 entities:
   - entity: binary_sensor.chair_occupancy

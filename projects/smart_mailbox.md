@@ -238,7 +238,8 @@ Show as secondary information when the last time was that the status of the mail
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the mailbox contact, showing the time it last changed
 # Dashboard entities card
 type: entities
 entities:
@@ -259,7 +260,8 @@ With this code it will create a new sensor called `sensor.mailbox_timer`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the time passed since the mailbox flap was opened
 # configuration.yaml
 template:
   - sensor:
@@ -275,7 +277,8 @@ This timer can now be used on the dashboard.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the mailbox timer sensor, showing the time since mail was last delivered
 # Dashboard entities card
 type: entities
 entities:
@@ -292,7 +295,8 @@ you can create a new sensor which is `true` for (in my case) two minutes which c
 The custom sensor template:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor which is on for two minutes after the mailbox contact changed
 # configuration.yaml
 template:
   - binary_sensor:
@@ -333,7 +337,8 @@ If the `binary_sensor.packagebox` has the state `on` THEN show the orange packag
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Conditional Mushroom chip hich only shows when the package box sensor is on
 # Dashboard conditional Mushroom card
 type: conditional
 conditions:

@@ -57,7 +57,8 @@ Install this integration via this button in your own Home Assistant instance.\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Rain forecast card with the Buienalarm and Buienradar
 # Dashboard card code
 type: custom:neerslag-card
 title: Neerslag
@@ -84,7 +85,8 @@ Based on the Buienalarm data: a number showing how much rain is expected.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the total amount of rain expected
 # Dashboard card code
 template:
   - sensor:
@@ -142,7 +144,8 @@ You can also use any other images you like better.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture elements card with the live Buienradar image
 # Dashboard card code
 type: picture-elements
 camera_image: camera.buienradar
@@ -181,7 +184,8 @@ Rename the sensor to `camera.marker_home`
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture elements card with the live Buienradar image
 # Dashboard card code
 type: picture-elements
 camera_image: camera.buienradar
@@ -207,7 +211,8 @@ And use this script:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture elements card with the live Buienradar image
 # Dashboard card code
 type: picture-elements
 camera_image: camera.buienradar
@@ -239,7 +244,8 @@ Three-day weather predictions.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Iframe card with a three-day weather prediction widget
 # Dashboard card code
 type: iframe
 url: https://www.weeronline.nl/widget/weather?id=4058458
@@ -255,7 +261,8 @@ An animated image of a 2-hour rain prediction in steps of 5 minutes.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Iframe card with the animated rain radar from Weeronline
 # Dashboard card code
 type: iframe
 url: https://www.weeronline.nl/widget/radar?id=135
@@ -275,7 +282,8 @@ Alarm code colors per province.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture elements card with the KNMI weather alarm map
 # Dashboard card code
 type: picture-elements
 image: https://cdn.knmi.nl/knmi/map/current/weather/warning/waarschuwing_land_0_new.gif
@@ -306,7 +314,8 @@ Install this integration via this button in your own Home Assistant instance.\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Scrape sensors which read the KNMI weather alarm code
 # configuration.yaml
 - platform: scrape
   resource: https://www.knmi.nl/nederland-nu/weer/waarschuwingen/overijssel
@@ -335,7 +344,8 @@ Install this integration via this button in your own Home Assistant instance.\
 Corresponding YAML code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the KNMI weather alarm sensors
 # Dashboard card code
 type: entities
 title: Weer alarm
@@ -377,7 +387,8 @@ The text is also clickable to open the corresponding site with more details.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Conditional entities card when there is a weather alarm
 # Dashboard card code
 - type: entities
   entities:
@@ -467,7 +478,8 @@ Show the current pollen intensity image.
 This is the basic variant that shows only the image.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture card with the pollen map of the Netherlands from Pollennieuws
 # Dashboard card code
 type: picture-elements
 image: https://pollennieuws.nl/weerkaart/KaartNL_280-website.png
@@ -480,7 +492,8 @@ You have to place the [overlay image black.png](images/black.png) in the Home As
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture elements card with the pollen map
 # Dashboard card code
 type: picture-elements
 image: https://pollennieuws.nl/weerkaart/KaartNL_280-website.png
@@ -521,7 +534,8 @@ Image with the precipitation surplus (neerslagoverschot) for (the last) 3 months
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture elements card with the KNMI map of the precipitation surplus
 # Dashboard card code
 type: picture-elements
 image: >-
@@ -546,7 +560,8 @@ Find more widgets at [https://www.weerplaza.nl/weerwidgets/](https://www.weerpla
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Iframe card with a cycling weather widget from Weerplaza
 # Dashboard card code
 type: iframe
 url: https://www.weerplaza.nl/weerwidgets/activiteit/?YT1maWV0cyZnaWQ9NTU3NQ==
@@ -566,7 +581,8 @@ Install the HACS [**clock-weather-card**](https://github.com/pkissling/clock-wea
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Clock Weather Card with a 3-day forecast in Dutch
 # Dashboard card code
 type: custom:clock-weather-card
 entity: weather.home
@@ -588,7 +604,8 @@ This is the corresponding code:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Clock Weather Card as 5-day forecast only
 # Dashboard card code
 type: custom:clock-weather-card
 entity: weather.forecast_home
@@ -620,7 +637,8 @@ With current weather conditions.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Weather Chart Card with the current weather conditions
 # Dashboard card code
 type: custom:weather-chart-card
 entity: weather.home
@@ -635,7 +653,8 @@ Only with forecast data and alternative style 2.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Weather Chart Card with only the forecast in style 2
 # Dashboard card code
 type: custom:weather-chart-card
 entity: weather.forecast_home

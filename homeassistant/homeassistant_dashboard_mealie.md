@@ -111,7 +111,8 @@ The website and API (available under /docs) will be available on the server via 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Docker compose service for Mealie recipes
 # docker-compose.yaml
 services:
 
@@ -186,7 +187,8 @@ Another option is to add a link to Mealie in the sidebar.
 You only need to add this code to your `configuration.yaml` file.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Panel iframe entry which adds Mealie to the Home Assistant sidebar
 # configuration.yaml
 panel_iframe:
   mealie:
@@ -233,7 +235,8 @@ If you don't want to use the `secrets.yaml` method, you can also place the token
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# REST sensor which reads today's meal
 # configuration.yaml
 rest:
  - scan_interval: 3600
@@ -287,7 +290,8 @@ Add a Picture element to the dashboard with this code:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture card which shows today's Mealie meal image
 # Dashboard card code
 - type: vertical-stack
   cards:
@@ -332,7 +336,8 @@ The update interval is set here to one hour, if you reorder the meals in Mealie 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# REST sensor which reads the Mealie meal plan
 # configuration.yaml
 rest:
  - scan_interval: 3600
@@ -400,7 +405,8 @@ The date will be formatted to the short notation for the day of the week.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Markdown card with a week menu table from the Mealie sensors
 # Dashboard card code
 type: markdown
 title: week menu
@@ -443,7 +449,8 @@ Install this integration, via this button, into your own Home Assistant instance
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Markdown card with a week menu table based on the Mealie sensors
 # Dashboard card code
 type: markdown
 title: week menu
@@ -568,7 +575,8 @@ With the OpenAI/Ollama integration, you can activate the feature to upload a rec
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mealie environment settings to enable the OpenAI/Ollama integration
 # docker-compose.yaml
   ....
   # Ollama
@@ -597,7 +605,7 @@ A: Go to your local Mealie website URL `/user/profile/api-tokens`\
 Create a new token and
 save this private value in the [secrets.yaml](https://www.home-assistant.io/docs/configuration/secrets/) file.
 ````yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
 # secrets.yaml
 mealie_bearer: "Bearer ey....."
 ````

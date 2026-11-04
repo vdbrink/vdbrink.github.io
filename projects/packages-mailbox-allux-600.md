@@ -565,7 +565,8 @@ It becomes a binary sensor in Home Assistant.
 When on the topic `homeassistant/packagebox` a payload `true` is received the Home Assistant sensor sets the status to `ON` and with topic value `false` the state will be `OFF`.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# MQTT binary sensor which turns on when the topic homeassistant/packagebox receives true
 # configuration.yaml
 binary_sensor:
   - unique_id: packagebox
@@ -587,7 +588,8 @@ This is the corresponding dashboard code for this icon:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip which only shows an orange package icon when the package box sensor is on
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -616,7 +618,8 @@ To show the package box entity like this:
 I used a Vertical Stack card in my dashboard with this code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Vertical stack with an entities card showing a conditional row when the package box is filled
 # Dashboard card code
 type: vertical-stack
 cards:
@@ -642,7 +645,8 @@ This is the time when the lid was (opened and) closed for the last time.
 Use this entities card yaml:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the package box lid contact sensor and the time
 # Dashboard card code
 type: entities
 entities:

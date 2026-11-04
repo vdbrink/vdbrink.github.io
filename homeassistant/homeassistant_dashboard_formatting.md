@@ -32,7 +32,8 @@ The value of 24.3 will round to 24 and 24.6 will round to 25.
 ![Rounded temperature value](images/rounded_value.png)
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor which rounds the temperature to a whole number
 # configuration.yaml
 template:
   - sensor:

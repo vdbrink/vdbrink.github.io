@@ -49,7 +49,9 @@ Here you see two gauges next to each other instead of the usual double-sized car
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Two gauge cards next to each other
+# Dashboard horizontal stack card code
 type: horizontal-stack
 cards:
   - type: gauge
@@ -88,7 +90,9 @@ Each row has a horizontal stack. That keeps all buttons the same size and positi
 In this YAML, the button content is removed so it only shows the idea and structure of the code.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Containing buttons, showing the structure of the layout only
+# Dashboard vertical stack card code
 type: vertical-stack
 cards:
   - type: horizontal-stack
@@ -140,7 +144,9 @@ Install this integration in your own Home Assistant instance via this button.\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# One row shows multiple values in a row
+# Dashboard entities card code with data in a row
 - type: entities
   entities:
     - entity: sensor.temperature_feels_like_rounded
@@ -195,7 +201,9 @@ Present [rounded temperatures](homeassistant_dashboard_formatting#rounded-temper
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Glance card which shows the rounded temperatures in a 4 x 3 grid
+# Dashboard glance card code in a grid
   - type: glance
     entities:
       - entity: sensor.temp1_temperature_rounded
@@ -225,7 +233,8 @@ The color indicates the state, so no text label is needed.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard glance card code with six in a row
   - type: glance
     show_name: true
     show_icon: true
@@ -256,7 +265,9 @@ Install this integration in your own Home Assistant instance via this button.\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Slider entity row and a light card to control a dimmer
+# Dashboard card code with a slider
 type: vertical-stack
 cards:
   - type: custom:slider-entity-row
@@ -278,7 +289,8 @@ There is also a link for more information.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard markdown card code which shows only the sensor state
 - type: markdown
   content: |
   {{ states('sensor.web_scrape') }} [>>](https://nu.nl)
@@ -299,7 +311,8 @@ This approach makes your dashboard more dynamic and compact, and it keeps the fo
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard entities card code with conditional visibility
 - type: entities
   entities:
 
@@ -356,7 +369,8 @@ Install this integration via this button in your own Home Assistant instance.\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard auto-entities card code sorted by state
 - type: custom:auto-entities
   card:
     type: entities
@@ -391,7 +405,8 @@ This is the corresponding YAML for the screenshot.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard room card code, one card per room
 entity: sensor.living_tv_room_presence
 type: custom:room-card
 title: woonkamer

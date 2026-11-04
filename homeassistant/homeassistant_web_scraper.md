@@ -179,7 +179,8 @@ for example, if you scrape a news site headline.
 This is the corresponding YAML code: 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Markdown card which shows the scraped nu.nl headline
 # Dashboard card code
 type: markdown
 content: |

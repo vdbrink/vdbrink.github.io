@@ -65,7 +65,8 @@ In my case I have a [Node-RED](/node-red/node-red_home-assistant) automation whi
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Automation which opens a fullscreen popup with the live camera stream
 # Automation
 alias: Frontdoor Popup on Detection
 triggers:
@@ -94,7 +95,8 @@ In my case I have an automation (in [Node-RED](/node-red/node-red_home-assistant
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Automation to close the fullscreen camera popup when front door detection mode is off
 # Automation
 alias: Close Frontdoor Popup
 triggers:

@@ -91,7 +91,8 @@ You can change it the way you like or extend it by adding rain expectations.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom title card with a clothing advice
 # Dashboard card code
 type: custom:mushroom-title-card
 title: >2
@@ -111,7 +112,8 @@ Then show also the minimal and maximum temperature for today and a textual descr
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom title card with a greeting and weather forecast
 # Dashboard card code
 type: custom:mushroom-title-card
 title: >2
@@ -132,7 +134,8 @@ Larger font size to show the time and the full date.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom title cards with a large time and date
 # configuration.yaml
 type: vertical-stack
 cards:
@@ -185,7 +188,8 @@ Chips cards are a small icon that indicates a status.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with a CO2 value
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -220,7 +224,8 @@ You can decide what happens when you click on it, in this example you redirect t
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with the KNMI weather alarm code
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -257,7 +262,8 @@ Install `card_mod` via this button\
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with a trash can icon
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -300,7 +306,8 @@ chips:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip when the binary sensor nice_outside is on
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -324,7 +331,8 @@ chips:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with the outside temperature
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -346,7 +354,8 @@ You can Install this integration, via this button, into your own Home Assistant 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with the feels-like temperature
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -398,7 +407,8 @@ chips:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip which only shows when the person is at home
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -425,7 +435,8 @@ Show the number of persons who are currently in the zone `home`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with the number of persons currently in the zone home
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -441,7 +452,8 @@ chips:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip with a custom door icon, only shown when the front door contact is open
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:

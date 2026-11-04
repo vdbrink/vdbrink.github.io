@@ -81,7 +81,8 @@ For versions before 6.0.0, after the installation you need to add and configure 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Afvalbeheer settings
 # configuration.yaml
 afvalbeheer:
     wastecollector: XXX  # Check https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/?tab=readme-ov-file#wastecollector
@@ -129,7 +130,8 @@ In my case my `wastecollector` is `cyclus`, which is why I have that name in my 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the waste sensors (PMD, restafval, papier and GFT)
 # Dashboard Entities card code
 type: entities
 entities:
@@ -160,7 +162,8 @@ In this example `dateonly: 0` which also adds the day. But when set to `dateonly
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities glance card with all Cyclus waste sensors
 # Entities Card Configuration
 type: custom:auto-entities
 card:
@@ -186,7 +189,8 @@ Show the default entities as a list, without a header, ordered by date.
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities entities card with all Cyclus waste sensors
 # Entities Card Configuration
 type: custom:auto-entities
 card:
@@ -213,7 +217,8 @@ I created new helper [countdown](#custom-helper-entities-days-countdown) entitie
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card with all Cyclus waste sensors
 # Entities Card Configuration
 type: custom:auto-entities
 card:
@@ -242,7 +247,8 @@ Show the default entities in a 2x2 raster, ordered by date.
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities glance card with all Cyclus waste sensors
 # Entities Card Configuration
 type: custom:auto-entities
 card:
@@ -274,7 +280,8 @@ Add this to `configuration.yaml` (or add it to `template.yaml` without the first
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the days until the next paper waste pickup
 # configuration.yaml
 template:
   - sensor:
@@ -324,8 +331,8 @@ Show the new countdown entities, with the countdown days, all with the same icon
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
-# Entities Card Configuration
+# Source code by vdbrink.github.io
+# Auto-entities glance card with the waste pickup countdown sensors
 type: custom:auto-entities
 card:
   type: glance
@@ -348,7 +355,8 @@ The countdown entities sorted by days in a list.
 The corresponding code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card with the waste pickup countdown sensors
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -376,7 +384,8 @@ In this case there is only one pickup in the next 5 days, otherwise more entitie
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card which only shows the waste pickups within the next 5 days
 # Dashboard card code
 type: custom:auto-entities
 card:
@@ -397,7 +406,8 @@ This sensor will be `sensor.waste_tomorrow`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor which is true when any waste type has pickup tomorrow
 # configuration.yaml
 template:
   - sensor:
@@ -427,7 +437,8 @@ The condition is: If tomorrow some waste must be placed outside, it shows the co
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chip which only shows when waste has to be placed outside
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:

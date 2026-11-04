@@ -98,6 +98,7 @@ That file can look like this:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor the office chair is occupied
 # template.yaml
 template:
   - binary_sensor:
@@ -118,6 +119,7 @@ Use the following definition in `configuration.yaml` to accomplish this:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Configuration to include all template files from the templates/ directory
 # configuration.yaml
 ...
 template: !include_dir_merge_list templates/
@@ -194,6 +196,7 @@ You can optionally refine the entities even more by providing a template for the
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensors if it is a specific month or day of the week
 # configuration.yaml
 template:
   - binary_sensor:
@@ -238,6 +241,7 @@ The icon changes dynamically based on the state of the sensor itself and referen
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which counts the lights that are on
 # configuration.yaml
 template:
   - sensor:
@@ -259,6 +263,7 @@ Similar to the previous example, count the number of open windows.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which counts the open windows
 # configuration.yaml
 template:
   - sensor:
@@ -284,6 +289,7 @@ If not, the template sensor will show as unavailable.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the temperature difference between the office and outside
 # configuration.yaml
 template:
   - sensor:
@@ -311,6 +317,7 @@ The icon changes dynamically and will also show the number of devices, using `9+
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which counts the unavailable devices
 # configuration.yaml
 template:
   - sensor:
@@ -355,6 +362,7 @@ Just like in the previous example, the names are listed in an attribute, because
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which counts low battery devices
 # configuration.yaml
 template:
   - sensor:
@@ -388,6 +396,7 @@ One minute after the last trigger, the state goes back to `off`.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor for activity downstairs
 # configuration.yaml
 template:
   - binary_sensor:
@@ -415,6 +424,7 @@ With this template, it translates the day to a non-English language, in this cas
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the day of the week translated to Dutch
 # configuration.yaml
 template:
   - sensor:
@@ -461,6 +471,7 @@ The `State template` must be:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the days until the community day
 {% set com_date = strptime(states('input_datetime.community_day'), '%Y-%m-%d') %}
 {{ (com_date.date() - now().date()).days }}
 {% endraw %}
@@ -488,6 +499,7 @@ The corresponding code:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Dashboard picture-entity card code for the community day countdown
 type: picture-entity
 entity: sensor.community_day_countdown
 show_state: true
@@ -515,6 +527,7 @@ You can install this integration via this button in your own Home Assistant inst
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Dashboard picture-entity card code for the community day countdown
 type: picture-entity
 entity: sensor.community_day_countdown
 show_state: true
@@ -544,6 +557,7 @@ Count the days until the paper bin is picked up.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which counts the days until the paper bin is picked up
 # configuration.yaml
 template:
   - sensor:
@@ -572,6 +586,7 @@ This sensor will be named `sensor.waste_tomorrow`.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which is true when any waste type has pickup tomorrow
 # configuration.yaml
 template:
   - sensor:
@@ -600,6 +615,7 @@ Minutes since the snail mail was delivered.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the minutes since the snail mail was delivered
 # configuration.yaml
 template:
   - sensor:
@@ -624,6 +640,7 @@ Used in my [snail mail detection](/projects/smart_mailbox).
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor which is on when the mailbox contact changed recently
 # configuration.yaml
 template:
   - binary_sensor:
@@ -646,6 +663,7 @@ Based on the outside temperature, determine what to wear when you go outside.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which determines what to wear outside
 # configuration.yaml
 template:
   - sensor:
@@ -671,6 +689,7 @@ This is the code for the Mushroom card shown in the image, based on this templat
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Mushroom chips card with an entity chip showing the what-to-wear-outside sensor with a T-shirt icon
 # dashboard card code
 type: custom:mushroom-chips-card
 chips:
@@ -689,6 +708,7 @@ This can be used to control the lights, the window blinds, or a floor map overla
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the daylight brightness in percent
 # configuration.yaml
 template:
   - sensor:
@@ -722,6 +742,7 @@ Daylight brightness, from the previous template, converted to opacity for CSS to
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which converts the daylight brightness percentage to an opacity for a floor map overlay
 # configuration.yaml
 template:
   - sensor:
@@ -743,6 +764,7 @@ It is `on` before 12:00.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor: is it morning
 template:
   - binary_sensor:
       - name: "Is it morning"
@@ -760,6 +782,7 @@ It is `on` after 12:00 and before 18:00.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor: is it afternoon
 template:
   - binary_sensor:
       - name: "Is it afternoon"
@@ -778,6 +801,7 @@ Will be `on` when it's night, otherwise it will be `off`.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor which is on when it is night
 # configuration.yaml
 template:
   - binary_sensor:
@@ -926,6 +950,7 @@ This can be used as a conditional helper sensor.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor which is on when rain is expected (Buienalarm data)
 # configuration.yaml
 template:
   - binary_sensor:
@@ -945,6 +970,7 @@ Expected rain amount for the coming hours based on the Dutch Buienalarm data.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the expected amount of rain in mm for the coming hours
 # configuration.yaml
 template:
   - sensor:
@@ -968,6 +994,7 @@ Rain intensity for the coming hours based on the Dutch Buienalarm data.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with the expected rain intensity (light, medium or heavy)
 # configuration.yaml
 template:
   - sensor:
@@ -1015,6 +1042,7 @@ After that, the name will indicate the threshold.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Static template sensors for the CO2 thresholds (800, 1200 and 1500 ppm)
 # configuration.yaml
 template:
   - sensor:
@@ -1048,6 +1076,7 @@ When you have a floor plan and want to show a dark overlay when the lux is low, 
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template binary sensor which is on when the illuminance is below 5 lux, for a dark overlay
 # configuration.yaml
 template:
   - binary_sensor:
@@ -1096,6 +1125,7 @@ This attribute is then used to create a boolean value.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which turns the water contact attribute of the leak sensor into a boolean for the sink
 # configuration.yaml
 template:
   - sensor:
@@ -1121,6 +1151,7 @@ That is what happens here.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor which inverts the status
 # configuration.yaml
 template:
   - binary_sensor:

@@ -253,6 +253,7 @@ One easy way is to run it from the command line:
 The `co2_scd40.yaml` YAML script:
 ```yaml
 # Source code by vdbrink.github.io
+# ESPHome configuration for the SCD40 CO2 sensor
 esphome:
   name: espscd40
   comment: Room CO2 sensor
@@ -341,6 +342,7 @@ I used different colors to show how serious the condition is, based on the value
 
 ```yaml
 # Source code by vdbrink.github.io
+# Gauge card with the room CO2 value
 # Dashboard card code
 type: gauge
 severity:
@@ -361,6 +363,7 @@ It's a default presentation available in Home Assistant.
 
 ```yaml
 # Source code by vdbrink.github.io
+# Default history graph card with the CO2 value
 # Dashboard card code
 type: sensor
 graph: line
@@ -384,6 +387,7 @@ Install this integration via this button\
 
 ```yaml
 # Source code by vdbrink.github.io
+# Mini-graph card with CO2 value
 # Dashboard card code
 type: custom:mini-graph-card
 entities:
@@ -419,6 +423,7 @@ To show the history of the last 6 hours, you can use the history graph card, or 
 The corresponding dashboard YAML code:
 ```yaml
 # Source code by vdbrink.github.io
+# History graph card with the CO2 value of the last 6 hours
 # Dashboard card code
 type: history-graph
 entities:
@@ -435,6 +440,7 @@ This makes it easy to see at a glance whether the current value is still in rang
 
 ```yaml
 # Source code by vdbrink.github.io
+# History graph card with the CO2 valueand threshold lines
 # Dashboard card code
 type: history-graph
 entities:
@@ -451,6 +457,7 @@ Add this section to your `configuration.yaml` to create the three static helper 
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Three static template sensors (800, 1200 and 1500 ppm)
 # configuration.yaml
 template:
   - sensor:
@@ -478,6 +485,7 @@ This creates a new sensor that shows a text representation of the current condit
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor with a text for the current CO2 condition
 # configuration.yaml
 template:
   - sensor:
@@ -502,6 +510,7 @@ There is also a message when the CO2 value is not good. You can build this secti
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Conditional row, only visible when the CO2 condition is not good
 # Dashboard card code
 type: entities
 entities:
@@ -523,6 +532,7 @@ entities:
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Mushroom chips card with a CO2 icon
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:

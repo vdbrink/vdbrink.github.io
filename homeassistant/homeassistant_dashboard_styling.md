@@ -34,7 +34,8 @@ The used entity here is based on the [KNMI weather alarm scraper](/homeassistant
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the KNMI weather alarm sensor
 # Dashboard card code
 type: entities
 entities:
@@ -74,7 +75,8 @@ Install this integration, via this button, into your own Home Assistant instance
 ![Changing status text color](images_styling/colored_status.png)
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the KNMI weather alarm sensor
 # Dashboard card code
 type: entities
 entities:
@@ -112,7 +114,8 @@ Install this integration, via this button, into your own Home Assistant instance
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with a template-entity-row
 # Dashboard card code
 type: entities
 entities:
@@ -157,7 +160,8 @@ Install this integration, via this button, into your own Home Assistant instance
 ![Changing text color](images_styling/colored_background.png)
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card with the KNMI weather alarm sensor
 # Dashboard card code
 type: entities
 entities:

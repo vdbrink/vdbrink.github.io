@@ -227,6 +227,7 @@ The graphical interface does not allow the `state` template and `assumed_state` 
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# MQTT switch which sends infrared codes via zigbee2mqtt control the air conditioner
 # configuration.yaml
 template:
   - switch:
@@ -266,6 +267,7 @@ From Home Assistant, you can create buttons on your dashboard and send a MQTT ev
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Button card which sends a copied infrared signal to the infrared device via MQTT
 # Dashboard button card code
 show_name: true
 show_icon: true

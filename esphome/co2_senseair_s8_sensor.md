@@ -213,7 +213,8 @@ For more information about installing and flashing your ESP with ESPHome see the
 
 The script:
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# ESPHome configuration for the SenseAir S8 CO2 sensor
 esphome:
   name: esp_co2
   comment: Room CO2 sensor
@@ -259,7 +260,8 @@ I used different colors to indicate how bad the condition is. I used the values 
 <img src="images_co2/home_assistant_co2_gauge.jpg" alt="Home Assistant Gauge" width="500px">
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Gauge card with the room CO2 value
 # Dashboard card code
 type: gauge
 severity:
@@ -280,7 +282,8 @@ It's a default presentation available in Home Assistant.
 <img src="images_co2/home_assistant_co2_graph.jpg" alt="Home Assistant Graph" width="500px" />
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Default history graph card with the CO2 value.
 # Dashboard card code
 type: sensor
 graph: line
@@ -302,7 +305,8 @@ install this integration via this button\
 <img src="images_co2/home_assistant_co2_dashboard_mini-graph-card.png" alt="Home Assistant mini-graph-card CO2" width="500px" />
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mini-graph card with the CO2 value
 # Dashboard card code
 type: custom:mini-graph-card
 entities:
@@ -338,7 +342,8 @@ Another graph entity is the `history-graph`.
 You can also show baseline values by creating a custom sensor with a fixed value.
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# History graph card with the CO2 value
 # Dashboard card code
 type: history-graph
 entities:
@@ -353,7 +358,8 @@ This is how you create three custom lines in the graph to see the threshold valu
 <a name="threshold"></a>
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Three static template sensors (800, 1200 and 1500 ppm)
 # configuration.yaml
 template:
   - sensor:
@@ -380,7 +386,8 @@ This creates a new sensor that shows a text representation of the current condit
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with a text for the current CO2 condition
 # configuration.yaml
 template:
   - sensor:
@@ -402,7 +409,8 @@ There is also a message when the CO2 value is not good. This section can be achi
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Conditional row when the CO2 condition is not good
 # Dashboard card code
 type: entities
 entities:
@@ -423,7 +431,8 @@ entities:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chips card with a CO2 icon
 # Dashboard card code
 type: custom:mushroom-chips-card
 chips:

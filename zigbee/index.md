@@ -39,19 +39,19 @@ I created some detailed pages about specific Zigbee devices:
 
 <div class="project-links">
 
-<a class="project-card" href="usb_adapter_switch">
-<img src="images_usb_switch/zigbee_usb_switch_three_ports.png" alt="USB adapter switch">
-<span>USB adapter switch<br><br><em>to control USB devices</em></span>
-</a>
-
-<a class="project-card" href="zigbee_soil_sensor">
-<img src="images_soil_sensor/NAS-STH02B2.png" alt="soil sensor">
-<span>Soil sensor<br><br><em>to detect the soil humidity and temperature</em></span>
-</a>
-
 <a class="project-card" href="smart_infrared_transmitter_receiver">
 <img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Infrared control via Zigbee and Home Assistant">
 <span>Automate infrared devices in Home Assistant</span>
+</a>
+
+<a class="project-card" href="/buy/zigbee_outdoor_contact_sensor">
+<img src="/buy/images_outdoor/zigbee_contact_sensor_waterproof.png" alt="Waterproof Zigbee contact sensor">
+<span>Waterproof contact sensor<br><br><em>to detect a gate, shed door or mailbox, also in the rain</em></span>
+</a>
+
+<a class="project-card" href="usb_adapter_switch">
+<img src="images_usb_switch/zigbee_usb_switch_three_ports.png" alt="USB adapter switch">
+<span>USB adapter switch<br><br><em>to control USB devices</em></span>
 </a>
 
 </div>

@@ -72,10 +72,11 @@ categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your Christmas lights and other powered decorations automatically.</p></div>
 </a>
-<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_weather_nl">
-<img src="/homeassistant/images_weather/rain_radar_animated.png" alt="Weather in The Netherlands" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Weather in The Netherlands</strong><p>HA Rain radar, forecasts and warnings on your dashboard based on NL data.</p></div>
+<a class="hp-card hp-tile" href="/garden-gate-waterproof-contact-sensor">
+<img src="/zigbee/images_waterproof_contact/contact_sensor_closeup.jpg" alt="Waterproof contact sensor on the garden gate" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Garden gate with waterproof contact sensor</strong><p>Know when the garden gate is open, with an waterproof outdoor Zigbee contact sensor.</p></div>
 </a>
+
 <a class="hp-card hp-tile" href="/esphome/orcon_mechanic_ventilation">
 <img src="/esphome/orcon_images/wires_connected.jpg" alt="Orcon ventilation" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>Control an Orcon ventilation system</strong><p>Make an Orcon mechanical ventilation smart with an ESP board.</p></div>

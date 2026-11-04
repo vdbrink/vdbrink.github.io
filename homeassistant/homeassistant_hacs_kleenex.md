@@ -170,7 +170,8 @@ This is a default presentation with the entities card.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Default entities card with the Kleenex pollen radar sensors
 # Entities Card Configuration
     type: entities
     entities:
@@ -200,7 +201,9 @@ Install the integration via this button:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom template card with the pollen level of weeds
+# Dashboard Mushroom template card code
 type: grid
 cards:
   - type: custom:mushroom-template-card
@@ -320,7 +323,8 @@ Install this integration, via this button, into your own Home Assistant instance
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Horizontal stack with tile cards for the pollen sensors
 # Horizontal Stack Card Configuration
 type: horizontal-stack
 cards:
@@ -402,7 +406,8 @@ Show a clickable link to the Kleenex website, the entities with matching colors 
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard section with a pollen radar sensors
 # Entities Card Configuration
 type: vertical-stack
 cards:
@@ -553,7 +558,8 @@ I filtered from the tree attributes the values from the `Hazelaar` (Hazel) and `
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard cards with tile cards for the tree pollen sensors
 # Entities Card Configuration
 type: horizontal-stack
 cards:
@@ -658,7 +664,8 @@ Click this button to install the ApexCharts Card:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Apexcharts card with the pollen forecast graph for the coming days
 # Entities Card Configuration
 type: custom:apexcharts-card
 now:
@@ -767,7 +774,8 @@ Click this button to install the ApexCharts Card:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Apexcharts card with the pollen forecast of the birch
 # Card Configuration
 type: custom:apexcharts-card
 header:
@@ -832,7 +840,8 @@ I created a table, based on a Markdown Card, with all tree data for today.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Markdown card with a table of the tree pollen with their value and level
 # Markdown Card Configuration
 type: markdown
 content: >-

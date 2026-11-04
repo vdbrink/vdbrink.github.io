@@ -189,7 +189,8 @@ One possible way is to run python in command line:
 
 The "microwave sensor RCWL-0516.yaml" YAML file
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# ESPHome configuration ESP and radar occupancy sensor
 esphome:
   name: esp_microwave_1
   comment: Occupancy sensor

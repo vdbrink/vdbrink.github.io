@@ -56,7 +56,8 @@ When you joined the project you can read [more details](https://help.wecity.nl/d
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# REST sensor which reads soil temperature and humidity from the Pientere Tuinen API
 # configuration.yaml
 rest:
   - scan_interval: 3600
@@ -101,7 +102,8 @@ A Picture Entity Card with the actual soil temperature.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture entity card which shows the actual soil temperature of the garden
 # Picture Entity Card Configuration
 show_state: true
 show_name: true
@@ -122,7 +124,8 @@ The values depends on your type of soil.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Gauge card with the soil humidity
 # Gauge Card Configuration
 type: gauge
 entity: sensor.mijn_pientere_tuin_vochtigheid
@@ -146,7 +149,8 @@ Show the soil temperature in a graph.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# History graph card with the soil temperature
 # History Graph Card Configuration
 type: history-graph
 entities:
@@ -165,7 +169,8 @@ Show the humidity in a graph. Also with static edge values.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# History graph card with the soil humidity
 # History Graph Card Configuration
 type: history-graph
 entities:
@@ -185,7 +190,8 @@ See this [private project link](https://help.wecity.nl/bodemvocht-en-grondsoort)
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Three static template sensors with the minimum, base and maximum soil humidity
 # configuration.yaml or the file pientere_tuinen.yaml in the sensor directory
 template:
   - sensor:

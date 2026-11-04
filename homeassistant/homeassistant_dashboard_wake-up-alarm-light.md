@@ -64,7 +64,8 @@ You can easily add more times if you prefer.
 This is the corresponding YAML code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card to control the wake-up LED strip
 # Dashboard Entities card configuration YAML
 type: entities
 entities:

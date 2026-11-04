@@ -89,7 +89,9 @@ T-shirt aan als je naar buiten gaat.
 De template:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dutch template with a clothing advice based on outside temperature
+# Template with the current temperature and clothing advice
   Het weer buiten is 
   {% if states('sensor.tempest_temperature_feels_like_rounded')|int <= 5 %} erg koud met slechts 
   {% elif states('sensor.tempest_temperature_feels_like_rounded')|int <= 10 %} fris met slechts  
@@ -134,7 +136,9 @@ De wasmachine is 42 minuten bezig.
 De template:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dutch template which shows how long the washing machine has been running
+# Template with the duration the washing machine is on
   {{ 'De wasmachine is ' }}
   {%- set entity_id = 'binary_sensor.wasmachine' -%}
   {%- if is_state(entity_id, 'on') -%}

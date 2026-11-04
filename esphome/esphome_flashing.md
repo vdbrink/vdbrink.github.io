@@ -25,7 +25,8 @@ The sensor also automatically registers itself to Home Assistant (or sends its d
   <summary><b>> Click here to see an example how an ESPHome config file looks like: >></b></summary>
 
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# ESPHome example configuration ESP SDC40 CO2 sensor
 esphome:
   name: espscd40
   comment: Room CO2 sensor
@@ -81,7 +82,9 @@ With this docker-compose file you can run Esphome.
 
 The file docker-compose.yml:
 ```yaml
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Docker compose config for ESPHome
+# docker-compose.yaml to run ESPHome
 version: '2'
 services:
 

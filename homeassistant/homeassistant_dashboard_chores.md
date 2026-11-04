@@ -142,7 +142,8 @@ It contains the layout and the four cards.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Complete chores dashboard
 # Dashboard card code
 type: horizontal-stack
 cards:
@@ -242,8 +243,8 @@ To reset them, I first created an [old style group](https://www.home-assistant.i
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
-# groups.yaml
+# Source code by vdbrink.github.io
+# Old style group with all the weekly chore input_booleans
 chores:
   name: chores
   entities:
@@ -261,7 +262,8 @@ Then I created an automation (in automations.yaml or in Home Assistant itself) w
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Automation which runs every Tuesday at 00:00 and turns off all chores
 # automations.yaml
 - id: '123'
   alias: reset_chores
@@ -304,7 +306,8 @@ Create a new view and add an Entity card on it.\
 Place the following code in it.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card with all chores in one list
 # Dashboard card code
 type: custom:auto-entities
 card:

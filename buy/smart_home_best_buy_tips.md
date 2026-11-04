@@ -287,4 +287,8 @@ Most Zigbee devices run on batteries for years, but sometimes you need other way
 <img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Projects" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Projects</span><strong>All my projects</strong><p>Bigger home automation projects I've built, with the hardware I used in each.</p></div>
 </a>
+<a class="hp-card hp-tile" href="/garden-gate-waterproof-contact-sensor">
+<img src="/zigbee/images_waterproof_contact/contact_sensor_closeup.jpg" alt="Waterproof contact sensor on the garden gate" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Garden gate with waterproof contact sensor</strong><p>Know when the garden gate is open, with an outdoor Zigbee contact sensor.</p></div>
+</a>
 </div>

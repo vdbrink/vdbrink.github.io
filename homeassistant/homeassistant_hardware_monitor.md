@@ -47,7 +47,8 @@ I use these values in the `settings.yaml` file.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Settings of the hardware monitor script
 # settings.yaml
 mqtt:
   hostname: 127.0.0.1
@@ -95,7 +96,8 @@ This is an example of the payload:
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# MQTT payload with the hardware monitor values
 {
   "temperature" : "50.6",
   "clock_speed" : "1500",
@@ -131,7 +133,8 @@ It's using the HACS cards:
 This is the corresponding Home Assistant YAML code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# System monitor dashboard with mini-graph cards for the CPU, memory, disk, temperature and load values
 # Dashboard card code
 type: custom:vertical-stack-in-card
 title: System Monitor

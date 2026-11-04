@@ -33,6 +33,7 @@ Here you can read how to configure it.
       * [Swipe to other dashboard view](#swipe-to-other-dashboard-view)
   * [Tablet hardware](#tablet-hardware)
     * [Tablet as wall panel](#tablet-as-wall-panel)
+    * [Stand](#stand)
     * [Only charge tablet battery when needed](#only-charge-tablet-battery-when-needed)
   * [Set a tablet in Kiosk mode](#set-a-tablet-in-kiosk-mode)
     * [Fullscreen browser](#fullscreen-browser)
@@ -135,7 +136,7 @@ The tablet is the hardware that shows your dashboard all day, so the choice of d
 
 ### Tablet as wall panel
 
-I myself use a Samsung 10" tablet as a display for Home Assistant.\
+I myself use a Samsung 10" Android tablet as a display for Home Assistant.\
 If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets with a higher resolution:
 
 * {{imgBasket}}**Lenovo Tab M11** - 11" with a resolution of 1920x1200 
@@ -144,6 +145,21 @@ If I had to buy a new display today for my Home Assistant screen, it would be on
 * {{imgBasket}}**Samsung Galaxy Tab A9+** - 11" with a resolution of 1920x1200 
 [(Amazon US)](https://amzn.to/4g7b101#ad) 
 [(Amazon)](https://amzn.to/4xgkqsp#ad)
+
+### Stand
+
+A stand keeps the tablet at a good viewing position on your desk or shelf, without mounting it to the wall.
+I use an adjustable display holder which can stretch to hold devices from 4.7" up to 17.3", so it also fits a tablet.
+The stand itself can adjust in height and angle.
+
+<div class="hp-tiles hp-options hp-full">
+<div class="hp-card hp-tile">
+<a href="https://s.click.aliexpress.com/e/_Dek5V2b" target="_blank"><img src="/projects/images_stretch_display/holder.webp" alt="Display holder" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Holder</span><strong>Display holder</strong>
+<p>The mount can stretch to hold devices in a range of 4.7" - 17.3".</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_Dek5V2b" target="_blank">AliExpress</a></p></div>
+</div>
+</div>
 
 ### Only charge tablet battery when needed
 
@@ -154,6 +170,17 @@ That way, it always has enough charge without charging all day.
 
 The app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can push tablet and other kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`.
 One of those properties is `batteryLevel`; based on this value, I trigger an automation to control the smart socket to charge the tablet.
+
+<div class="hp-tiles hp-options hp-full">
+<div class="hp-card hp-tile">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank"><img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">BangGood</a></p>
+<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank">TS011F_plug_3</a></p>
+</div>
+</div>
+</div>
 
 ---
 ## Set a tablet in Kiosk mode

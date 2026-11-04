@@ -34,6 +34,13 @@ It took me a while to find the right smart socket for this purpose, but the ones
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank">TS011F_plug_3</a></p>
 </div>
 </div>
+<div class="hp-card hp-tile">
+<a href="https://link.amazon/B0fOXrBaq" target="_blank"><img src="/buy/images_zigbee/aqara_smart_plug_sp-euc01.webp" alt="Zigbee smart power socket with power measurement - Aqara SP-EUC01" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Zigbee smart power socket with power measurement - Aqara SP-EUC01</strong>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://link.amazon/B0fOXrBaq" target="_blank">Amazon</a></p>
+<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SP-EUC01.html" target="_blank">SP-EUC01</a></p>
+</div>
+</div>
 </div>
 
 ## Related articles

@@ -154,6 +154,7 @@ Use the picture card element and upload the image to the `www` directory, also k
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Picture elements card with a floor plan image
 # Dashboard card code
 type: picture-elements
 image: /local/base.png
@@ -376,6 +377,7 @@ Sometimes you need to create a binary helper sensor to indicate when the layer s
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Template sensor used as helper for a floor plan overlay
 # configuration.yaml
 template:
   - binary_sensor:
@@ -391,6 +393,7 @@ Overlay based on the binary helper sensor.
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
+# Picture elements overlay, based on the helper binary sensor
 # Dashboard card code
 - type: image
   entity: binary_sensor.overlay_x

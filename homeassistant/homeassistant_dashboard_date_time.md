@@ -43,7 +43,8 @@ For the date a template is used, [sensor.date_only_formatted](#date-in-dutch-for
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom title cards with a large time and date
 # configuration.yaml
 type: vertical-stack
 cards:
@@ -75,7 +76,9 @@ The current time and full date in Dutch notation.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the current time and full date in Dutch
+# For example "zo 4 januari 2026"
 # configuration.yaml
 template:
   - sensor:
@@ -92,10 +95,12 @@ template:
 {% endraw %}
 ```
 <br>
+
 Now on the dashboard, this sensor can be used with this code:
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entity card which shows the time and date sensor without a name
 # Dashboard card code
 - type: entity
   entity: sensor.time_date_formatted
@@ -112,7 +117,9 @@ The date formatted like this: `zo 4 januari 2026`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the date in Dutch format
+# For example "zo 4 januari 2026"
 # configuration.yaml
 template:
   - sensor:
@@ -138,7 +145,8 @@ Current day of the week in Dutch.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the current day of the week in Dutch
 # configuration.yaml
 template:
   - sensor:
@@ -166,7 +174,8 @@ With this template it gives the number of days from now.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the number of days until the next paper waste pickup
 # configuration.yaml
 template:
   - sensor:
@@ -190,7 +199,8 @@ With this template it gives the number of days from now.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the days until the next paper waste pickup
 # configuration.yaml
 template:
   - sensor:
@@ -211,7 +221,8 @@ Install this integration, via this button, into your own Home Assistant instance
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=thomasloven&repository=lovelace-auto-entities&category=integration)
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Auto-entities card which only shows the paper waste pickup countdown
 # Dashboard card code
 - type: custom:auto-entities
   card:
@@ -240,7 +251,8 @@ Install this integration, via this button, into your own Home Assistant instance
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card title which shows how long the washing machine has been running
 # Dashboard card code
 - type: custom:mushroom-title-card
   title: |-
@@ -299,7 +311,8 @@ The value 11.3 will round to 11 and also 11.6 will round to 11 hours.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the number of hours ago the drawer was opened
 # configuration.yaml
 template:
   - sensor:
@@ -322,7 +335,8 @@ Show the time when a sensor was triggered the last time and, the value on the ri
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Entities card which shows a contact sensor with the time since it last changed (secondary info)
 # Dashboard card code
 - type: entities
   entities:
@@ -339,7 +353,8 @@ Also useful to show on a floor map.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template sensor with the relative time since the mailbox contact last changed
 # Dashboard card code
 template:
   - sensor:
@@ -358,7 +373,8 @@ Test if the robot vacuum has already run today.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Template binary sensor which is on when the robot vacuum has already cleaned today
 # configuration.yaml
 template:
   - binary_sensor:

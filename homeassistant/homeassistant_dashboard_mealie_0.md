@@ -44,7 +44,8 @@ You can run Mealie as Docker container.
 The website and API will be available on the server on < ip-adress >:9925
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Docker compose service for the (old) Mealie v0.5.6 recipe manager
 # docker-compose.yaml
 version: '2'
 services:
@@ -130,7 +131,8 @@ To call the API you need a secret Bearer token. Check the [FAQ](#faq) how to cre
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# REST sensor which reads today's meal name
 # configuration.yaml
 sensor:
     - platform: rest
@@ -154,7 +156,8 @@ You can set the `tap_action`, when you click on the card you navigate to the Mea
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture entity card with today's meal and its image from Mealie
 # Dashboard card code
 type: picture-entity
 entity: sensor.maaltijd_voor_vandaag
@@ -184,7 +187,8 @@ Because the square image takes a lot of space, it's also possible to use only th
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Picture entity card with today's meal
 # Dashboard card code
 type: picture-entity
 entity: sensor.maaltijd_voor_vandaag
@@ -216,7 +220,8 @@ It's also possible to show the complete meal planning for the whole week as list
 First create a scraper sensor in configuration.yaml.
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# REST sensor which reads the meal plan of this week from the Mealie API
 # configuration.yaml
 sensor:
     - platform: rest
@@ -235,7 +240,8 @@ In your dashboard add a Markdown card with this code.
 The day of the week will be set automatically and correctly in the list. (Translate it if you're not Dutch)
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Markdown card which lists the meals of this week
 # Dashboard card code
 - type: markdown
   title: week menu
