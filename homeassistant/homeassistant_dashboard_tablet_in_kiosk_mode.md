@@ -23,8 +23,6 @@ Here you can read how to configure it.
 </a>
 <em>Example of a Home Assistant dashboard presented on a tablet.</em>
 
-Go directly to the [Home Assistant dashboard section](#create-a-tablet-dashboard) on this page.
-
 ---
 ## Table of Contents
 <!-- TOC -->
@@ -33,21 +31,24 @@ Go directly to the [Home Assistant dashboard section](#create-a-tablet-dashboard
     * [Hide side toolbar](#hide-side-toolbar)
     * [Hide top toolbar](#hide-top-toolbar)
       * [Swipe to other dashboard view](#swipe-to-other-dashboard-view)
+  * [Tablet hardware](#tablet-hardware)
+    * [Tablet as wall panel](#tablet-as-wall-panel)
+    * [Only charge tablet battery when needed](#only-charge-tablet-battery-when-needed)
   * [Set a tablet in Kiosk mode](#set-a-tablet-in-kiosk-mode)
     * [Fullscreen browser](#fullscreen-browser)
-    * [Android tablet](#android-tablet)
-    * [iOS iPad tablet](#ios-ipad-tablet)
-  * [Configure Fully Kiosk Browser](#configure-fully-kiosk-browser)
+    * [Android kiosk app](#android-kiosk-app)
+    * [iOS iPad kiosk app](#ios-ipad-kiosk-app)
+  * [Configure Android Fully Kiosk Browser](#configure-android-fully-kiosk-browser)
     * [Enable remote admin](#enable-remote-admin)
     * [Auto screen on](#auto-screen-on)
     * [Auto screen off](#auto-screen-off)
-    * [Only charge tablet battery when needed](#only-charge-tablet-battery-when-needed)
   * [Create a tablet dashboard](#create-a-tablet-dashboard)
     * [What's on my dashboard](#whats-on-my-dashboard)
       * [Basic elements](#basic-elements)
       * [Optional elements](#optional-elements)
         * [YAML how to make elements conditional](#yaml-how-to-make-elements-conditional)
       * [Fullscreen camera stream](#fullscreen-camera-stream)
+  * [Related articles](#related-articles)
 <!-- TOC -->
 
 ---
@@ -102,7 +103,8 @@ To hide the top bar, it is enough to define `hide_header: true`.
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Dashboard raw configuration which hides the top header (kiosk mode) with hide_header.
 # Raw configuration editor
 kiosk_mode:
   hide_header: true
@@ -125,6 +127,33 @@ Repo: [https://github.com/zanna-37/hass-swipe-navigation](https://github.com/zan
 
 Install this integration, via this button, into your own Home Assistant instance.\
 [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zanna-37&repository=hass-swipe-navigation&category=integration)
+
+---
+## Tablet hardware
+
+The tablet is the hardware that shows your dashboard all day, so the choice of device and how you power it matters.
+
+### Tablet as wall panel
+
+I myself use a Samsung 10" tablet as a display for Home Assistant.\
+If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets with a higher resolution:
+
+* {{imgBasket}}**Lenovo Tab M11** - 11" with a resolution of 1920x1200 
+[(Amazon US)](https://amzn.to/4fqXqAy#ad) 
+[(Amazon)](https://amzn.to/43kPQ3g#ad)
+* {{imgBasket}}**Samsung Galaxy Tab A9+** - 11" with a resolution of 1920x1200 
+[(Amazon US)](https://amzn.to/4g7b101#ad) 
+[(Amazon)](https://amzn.to/4xgkqsp#ad)
+
+### Only charge tablet battery when needed
+
+I have a smart plug connected to my tablet.
+To avoid damaging the battery, I only charge it when needed.
+If the battery level drops below 15%, I charge it until it reaches at least 80%, and then turn the power off again.
+That way, it always has enough charge without charging all day.
+
+The app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can push tablet and other kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`.
+One of those properties is `batteryLevel`; based on this value, I trigger an automation to control the smart socket to charge the tablet.
 
 ---
 ## Set a tablet in Kiosk mode
@@ -158,7 +187,7 @@ Even this can be removed by choosing the `Full screen` option.
 
 This app can also be cast to a TV!
 
-### Android tablet
+### Android kiosk app
 
 If you want to show a page in fullscreen on an Android tablet,
 the app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can do this and much more.
@@ -183,19 +212,7 @@ It has many features; I use these:
 It has many more features!
 [See here the full list of features.](https://www.fully-kiosk.com/en/#configuration)
 
-#### Tablet as wall panel
-
-I myself use a Samsung 10" tablet as a display for Home Assistant.\
-If I had to buy a new display today for my Home Assistant screen, it would be one of these Android tablets with a higher resolution:
-
-* {{imgBasket}}**Lenovo Tab M11** - 11" with a resolution of 1920x1200 
-[(Amazon US)](https://amzn.to/4fqXqAy#ad) 
-[(Amazon NL)](https://amzn.to/43kPQ3g#ad)
-* {{imgBasket}}**Samsung Galaxy Tab A9+** - 11" with a resolution of 1920x1200 
-[(Amazon US)](https://amzn.to/4g7b101#ad) 
-[(Amazon NL)](https://amzn.to/4xgkqsp#ad)
-
-### iOS iPad tablet
+### iOS iPad kiosk app
 
 For the iPad, the app [Kiosker: Fullscreen Web Kiosk](https://apps.apple.com/nl/app/kiosker-fullscreen-web-kiosk/id1481691530)
 can be used to define a page that runs in kiosk mode.
@@ -203,7 +220,7 @@ can be used to define a page that runs in kiosk mode.
 Do you know better options for iOS? Please let me know!
 
 ---
-## Configure Fully Kiosk Browser
+## Configure Android Fully Kiosk Browser
 
 The Android app [Fully Kiosk Browser](https://www.fully-kiosk.com/en/#main) can be used to control the tablet remotely.
 
@@ -229,16 +246,6 @@ you can turn the screen on.
 
 Using the API GET call `http://192.168.1.x:2323/?cmd=screenOff&password=<password>`
 you can turn the screen off.
-
-### Only charge tablet battery when needed
-
-I have a smart plug connected to my tablet.
-To avoid damaging the battery, I only charge it when needed.
-If the battery level drops below 15%, I charge it until it reaches at least 80%, and then turn the power off again.
-That way, it always has enough charge without charging all day.
-
-Fully Kiosk can push tablet and other kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`.
-One of those properties is `batteryLevel`; based on this value, I trigger an automation to control the smart socket to charge the tablet.
 
 ---
 ## Create a tablet dashboard
@@ -452,7 +459,8 @@ You need to have the boolean sensor [waste_tomorrow](/homeassistant/homeassistan
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Mushroom chips card with a chip which only shows when tomorrow is a waste bin day.
 # Dashboard card code
 - type: custom:mushroom-chips-card
   chips:
@@ -476,7 +484,8 @@ You need the boolean helper sensor [frontdoor_detection_mode](/homeassistant/hom
 
 ```yaml
 {% raw %}
-# Sourcecode by vdbrink.github.io
+# Source code by vdbrink.github.io
+# Conditional card which shows the WebRTC camera stream when the front door detection mode is on.
 # Dashboard card code
 - type: conditional
   conditions:
@@ -496,7 +505,50 @@ If you want to show a fullscreen overlay popup when a person is detected by a ca
 
 ---
 
-See also my [other examples of dashboard elements](/homeassistant/homeassistant_dashboard_examples_overview).
+## Related articles
+
+<div class="hp-tiles hp-options">
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_examples_overview">
+<img src="/homeassistant/images_layout/ha_layout_banner.png" alt="Home Assistant dashboard: Examples overview" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Examples overview</strong><p>Visual overview of dashboard examples, from weather and pollen to date and time.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_stretch_layout">
+<img src="/projects/images_stretch_display/office_display_closeup.jpg" alt="Home Assistant dashboard: Stretch Display Layout" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Stretch Display Layout</strong><p>A Home Assistant dashboard for a stretched display, with the dashboard elements I use.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_hacs">
+<img src="/homeassistant/images/home_assistant_logo.png" alt="Home Assistant dashboard: Useful HACS custom elements" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Custom elements</span><strong>Useful HACS custom elements</strong><p>Useful HACS custom elements for your dashboard, such as the birthday card.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_card_mushroom">
+<img src="/homeassistant/images_mushroom/mushroom_examples.png" alt="Home Assistant dashboard card: Mushroom" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard card</span><strong>Mushroom</strong><p>Add small elements on top of your dashboard.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_latest_news">
+<img src="/homeassistant/images/news_headline.png" alt="Home Assistant dashboard: Latest news" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Latest news</strong><p>Scrape the latest news headline and show it on your dashboard.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_weather_nl">
+<img src="/homeassistant/images_weather/rain_radar_animated.png" alt="Home Assistant dashboard: Weather in The Netherlands" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Weather in The Netherlands</strong><p>Rain radar, Buienradar, Weeronline, expected rain and weather alarms.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_templates">
+<img src="/homeassistant/images_templates/ha_templates_banner.png" alt="Home Assistant: Templates" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Templates</span><strong>Templates</strong><p>Home Assistant template examples and how to create them.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_fullscreen_camera_stream">
+<img src="/homeassistant/images_camera_stream/ha_camera_popup.gif" alt="Home Assistant dashboard: Fullscreen camera stream" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Fullscreen camera stream</strong><p>Show your camera stream as fullscreen popup when a person is detected.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_mealie">
+<img src="/homeassistant/images_mealie/mealie1_ha_integration.png" alt="Home Assistant dashboard: Mealie Recipe Manager" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Mealie Recipe Manager</strong><p>Install and integrate the recipe and meal planner Mealie into Home Assistant.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_hacs_afvalbeheer">
+<img src="/homeassistant/images_afvalbeheer/pres_list_icon_date.png" alt="Home Assistant - HACS Afvalbeheer" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Integration</span><strong>HACS Afvalbeheer</strong><p>Set up the Afvalbeheer integration and show the waste pickup days.</p></div>
+</a>
+</div>
 
 ---
 
