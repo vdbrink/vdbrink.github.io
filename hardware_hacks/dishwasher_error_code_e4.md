@@ -2,7 +2,7 @@
 title: Dishwasher with error code E4
 description: "How I fixed my dishwasher with error code E4"
 category: Hardware hacks
-tags: [hardware, hacks, dishwasher, error code, fix, E4, DIY]
+tags: [hardware hacks]
 ---
 
 # Dishwasher with error code E4

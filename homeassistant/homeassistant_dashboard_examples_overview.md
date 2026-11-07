@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Examples overview"
 description: "Visual overview of Home Assistant dashboard examples, from weather and pollen to date and time."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, layout, tablet, panel, example, overview]
+tags: [Home Assistant, weather, dashboard, air quality, Dutch, bin day, security]
 image: /homeassistant/images_layout/ha_layout_banner.png
 ---
 # Home Assistant dashboard: Examples overview

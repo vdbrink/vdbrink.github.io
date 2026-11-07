@@ -2,7 +2,7 @@
 title: "Node-RED - Lights on by motion"
 description: "Node-RED - Turn the lights on by motion and keep it on as long as motion is detected"
 category: Node-RED
-tags: [Node-RED, light, flow, motion, trigger, node]
+tags: [Node-RED, lamps, motion sensor]
 ---
 
 # Node-RED - Lights on by motion

@@ -2,7 +2,7 @@
 title: "Contact sensor - Best Buy Tips"
 description: "Detect open and closed doors, windows and drawers."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Contact sensor]
+tags: [best buy tips, sensor, contact sensor, Aqara, Zigbee]
 image: /buy/images_zigbee/zigbee_contact_sensor_aqara.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

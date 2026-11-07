@@ -2,7 +2,6 @@
 title: "Home Assistant dashboard examples"
 description: "Home Assistant dashboard examples with copy-paste code: templates, HACS cards, floor plan, weather and more."
 category: Home Assistant
-tags: [Home Assistant, lovelace, dashboard, weather, dutch, examples]
 image: /homeassistant/images/ha_banner.png
 ---
 # Home Assistant dashboards

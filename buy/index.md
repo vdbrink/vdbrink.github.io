@@ -2,7 +2,6 @@
 title: Best Buy Tips
 description: "Useful link to buy hardware for your smart home"
 category: Best Buy Tips
-tags: [best, buy, tips, home automation]
 ---
 # Best Buy Tips
 

@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Frigate"
 description: "Show Frigate captures on your Home Assistant dashboard"
 categories: [Home Assistant, Frigate]
-tags: [Home Assistant, dashboard, lovelace, Frigate, clip, video]
+tags: [HACS, Home Assistant, Frigate, dashboard, camera, MQTT, HA Marketplace]
 ---
 
 # Home Assistant dashboard: Frigate

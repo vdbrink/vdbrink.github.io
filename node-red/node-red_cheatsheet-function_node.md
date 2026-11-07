@@ -2,7 +2,7 @@
 title: "Node-RED Cheat Sheet - Function Node"
 description: "Node-RED cheat sheet with JavaScript examples for the function node: context, flow variables and status icons."
 category: Node-RED
-tags:  [Node-RED, node, basic, function]
+tags: [Node-RED]
 ---
 {% capture imgHeight %}50{% endcapture %}
 # Node-RED Cheat Sheet - Function Node

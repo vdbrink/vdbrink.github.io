@@ -1,0 +1,9 @@
+{%- comment -%}Clickable subject tags shown at the top of a page. Each chip links to the tag overview (/tags/#slug).{%- endcomment -%}
+{%- if page.tags and page.tags.size > 0 -%}
+<nav class="tag-chips" aria-label="Subjects on this page">
+{%- assign pt_sorted = page.tags | sort_natural -%}
+{%- for tag in pt_sorted -%}
+<a class="tag-chip" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+{%- endfor -%}
+</nav>
+{%- endif -%}

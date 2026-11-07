@@ -2,7 +2,7 @@
 title: "Stretch display"
 description: "A stretched display to show Home Assistant dashboard on"
 category: Projects
-tags: [display, stretch, long, weather, station, Home Assistant, raspberry, rpi, kiosk]
+tags: [hardware, Home Assistant, dashboard, Aqara, Raspberry Pi]
 image: /projects/images_stretch_display/office_display_next2monitor.jpg
 ---
 

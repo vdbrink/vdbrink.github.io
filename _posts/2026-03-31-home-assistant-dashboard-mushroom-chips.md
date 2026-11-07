@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Home Assistant - Mushroom Chip card"
 date: 2026-03-31
-tags: [Home Assistant, dashboard, Mushroom, HACS]
+tags: [Home Assistant, dashboard, Mushroom, HACS, HA Marketplace]
 permalink: /home-assistant-dashboard-mushroom-chips
 image: /homeassistant/images/home_assistant_logo.png
 ---

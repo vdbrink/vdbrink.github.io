@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Control and show your Home Assistant entities on an Elgato Stream Deck"
 description: "Use the Stream Deck Home Assistant plugin to toggle lights and sockets, show live sensor values and trigger enities like lamp, charger or an IR air conditioner with a single key press."
 date: 2026-10-25
-tags: [Home Assistant, Stream Deck, Elgato, hardware]
+tags: [Home Assistant, Stream Deck, lamps, sensor, smart socket, CO2]
 permalink: /home-assistant-elgato-stream-deck-integration
 image: /elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.gif
 ---

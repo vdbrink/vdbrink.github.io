@@ -2,7 +2,7 @@
 title: "Zigbee smart home: devices, DIY projects and buy tips"
 description: "Zigbee smart home guide: device highlights, DIY projects, why I chose Zigbee and buy tips."
 category: Zigbee
-tags: [Zigbee, best buy, stick, adapter, smart, home, network]
+tags: [Zigbee, DIY, best buy tips]
 image: /zigbee/images/zigbee.jpg
 ---
 

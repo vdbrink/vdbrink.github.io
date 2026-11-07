@@ -1,3 +1,6 @@
+---
+title: "Shop"
+---
 <div id="myShop">
     <a href="https://quote-shirt-shop.myspreadshop.nl">quote-shirt-shop</a>
 </div>

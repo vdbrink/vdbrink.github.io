@@ -2,7 +2,7 @@
 title: Jura coffee machine Products
 description: "Products for your Jura coffee machine: beans, milk containers, coolers and cup warmers."
 category: Jura
-tags: [Jura, Z10, cleaning, tabs, filter]
+tags: [Jura, hardware]
 image: /jura/images/jura_logo.png
 ---
 

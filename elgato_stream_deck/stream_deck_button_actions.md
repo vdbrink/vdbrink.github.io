@@ -2,7 +2,7 @@
 title: "Elgato Stream Deck - button action examples"
 description: "Elgato Stream Deck button action examples"
 category: Projects
-tags: [Elgato, Stream Deck, software, developer, Home Assistant]
+tags: [Stream Deck, buttons, hardware, Claude, Mac, Home Assistant, home office]
 ---
 
 # Elgato Stream Deck - button action examples

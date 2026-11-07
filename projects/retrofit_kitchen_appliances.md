@@ -2,7 +2,7 @@
 title: "Retrofit kitchen appliances to make them smarter"
 description: "Retrofit kitchen appliances to make them smarter by adding out-of-the-box sensors to it."
 category: Projects
-tags: [dumb, smart, kitchen, appliances, stove, dishwasher, oven, refrigerator]
+tags: [kitchen, automation, hardware hacks, notifications, DIY, smart socket]
 image: /projects/images_kitchen_appliances/kitchen_banner.png
 ---
 

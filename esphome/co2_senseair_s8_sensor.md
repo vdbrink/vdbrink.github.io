@@ -3,7 +3,7 @@ title: ESPHome SenseAir S8 CO2 sensor
 description: "Create your own ESPHome CO2 sensor based on the SenseAir S8 sensor for Home Assistant"
 date: 2024-06-24
 category: ESPHome
-tags: [CO2 , ESP8266, ESPHome, Home Assistant, air quality, senseAir,health]
+tags: [ESP, ESPHome, HACS, hardware, DIY, sensor, air quality, CO2, HA Marketplace]
 image: /esphome/images_co2/case_fit_co2_sensor.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

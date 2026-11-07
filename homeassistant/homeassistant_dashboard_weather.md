@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Weather"
 description: "Weather forecast cards for your Home Assistant dashboard, with copy-paste YAML for chart, animated and hourly cards."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, weather, thunder, lightning]
+tags: [HACS, Home Assistant, weather, dashboard, HA Marketplace]
 image: /homeassistant/images_hacs/hacs_weather-chart-card.png
 ---
 

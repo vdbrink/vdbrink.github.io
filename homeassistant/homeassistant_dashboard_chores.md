@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Chores"
 description: "Build a Home Assistant dashboard to manage weekend chores where every family member can mark a task as done."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, chores, tasks, todo, checklist, helpers]
+tags: [HACS, Home Assistant, dashboard, auto-entities, HA Marketplace]
 image: /homeassistant/images_chores/chores_banner.png
 ---
 

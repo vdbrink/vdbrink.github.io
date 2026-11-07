@@ -2,7 +2,7 @@
 title: "Home Assistant Aurora Borealis integration"
 description: "Get an alert in Home Assistant when the chance of seeing the Aurora Borealis (northern lights) is high."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, aurora]
+tags: [Home Assistant, weather]
 image: /homeassistant/images_aurora/northernlight.jpg
 ---
 

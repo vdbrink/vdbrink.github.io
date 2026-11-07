@@ -2,7 +2,6 @@
 title: "Smart home projects and DIY builds"
 description: "Bigger smart home projects: smart mailbox, notification light, chair occupancy sensor, Christmas automation and more."
 category: Projects
-tags: [projects, home automation]
 ---
 # Projects
 

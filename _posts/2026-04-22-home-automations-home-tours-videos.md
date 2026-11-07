@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Home Tour Videos"
 date: 2026-04-22
-tags: [Home Assistant, video, inspiration]
+tags: [Home Assistant, ideas, videos, smart home]
 image: /ideas/images/video.png
 permalink: /home-tour-videos
 ---

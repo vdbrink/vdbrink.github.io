@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Formatting"
 description: "Home Assistant dashboard formatting tips, like rounding temperatures."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, formatting]
+tags: [Home Assistant, dashboard, temperature]
 ---
 
 # Home Assistant dashboard: Formatting

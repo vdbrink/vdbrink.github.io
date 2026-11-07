@@ -2,7 +2,7 @@
 title: "Smart socket - Best Buy Tips"
 description: "Switch any plugged-in device and measure its power."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Smart socket]
+tags: [best buy tips, smart socket, Aqara, Zigbee, Christmas]
 image: /esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

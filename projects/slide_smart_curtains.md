@@ -2,7 +2,7 @@
 title: "Slide smart curtains with a local WiFi API"
 description: "Make your curtains smart with Slide, which works completely locally via a WiFi API and Home Assistant."
 category: "Projects"
-tags: [WiFi, Home Assistant, curtain, electric, smart]
+tags: [curtains, Home Assistant, automation, API]
 image: /projects/images_slide_curtain/slide_module.webp
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Logitech MX Keypad for developers, or a Elgato Stream Deck?"
 description: "Logitech now sells the MX Keypad, aimed at developers. How it compares to similar devices like the Elgato Stream Deck."
 date: 2026-09-08
-tags: [Elgato, Stream Deck, Logitech, MX Keypad, keypad, developer, actions, productivity, AI agent]
+tags: [Stream Deck, productivity, AI]
 permalink: /logitech-mx-keypad-or-elgato-stream-deck-for-developers
 image: /elgato_stream_deck/images/products/logi_mx_keypad.webp
 ---

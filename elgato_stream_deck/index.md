@@ -2,7 +2,7 @@
 title: "Elgato Stream Deck for a software developer"
 description: "How to use an Elgato Stream Deck as a software developer"
 category: Projects
-tags: [Elgato, Stream Deck, software, developer, actions, scripts, keypad]
+tags: [Stream Deck, hardware, buttons, productivity, AI]
 image: /elgato_stream_deck/images/actions_sd_app.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

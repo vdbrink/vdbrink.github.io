@@ -2,7 +2,7 @@
 title: DIY Zigbee leak detector
 description: "Build a DIY Zigbee leak detector with a contact sensor and a cheap water sensor to catch leaks early."
 category: Zigbee
-tags: [Zigbee, diy, "Home Assistant", contact, sensor, detector, Aqara, leak]
+tags: [Zigbee, leak sensor, sensor, DIY]
 image: /zigbee/images_leak/leak_sensor_in_action.jpg
 ---
 

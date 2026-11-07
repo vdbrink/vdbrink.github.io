@@ -2,7 +2,7 @@
 title: Jura coffee machine FAQ
 description: "Frequently asked questions about Jura coffee machines, with answers from daily use."
 category: Jura
-tags: [Jura, Z10, faq, questions, answers, coffee, beans]
+tags: [Jura]
 image: /jura/images/jura_logo.png
 ---
 

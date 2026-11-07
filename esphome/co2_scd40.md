@@ -3,7 +3,7 @@ title: ESPHome SCD40 CO2 sensor
 description: "Create your own ESPHome CO2 sensor based on the SCD40 sensor for Home Assistant"
 date: 2022-06-24
 category: ESPHome
-tags: [CO2, ESP8266, ESP, ESPHome, Home Assistant, SCD40, SCD41, SCD4x, health, no soldering, temperature, humidity]
+tags: [ESP, ESPHome, HACS, hardware, DIY, sensor, CO2, SCD40, HA Marketplace]
 image: /esphome/images_scd40/hardware.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

@@ -2,11 +2,10 @@
 title: "Home office: Virtual design with AI"
 description: "How I designed my new home office desk setup with the help of AI"
 category: Office
-tags: [Home office, decoration, AI, mood board, virtual design]
+tags: [home office, AI, Claude]
 ---
 
 # Home office: Virtual room design with AI
-
 
 <br>
 

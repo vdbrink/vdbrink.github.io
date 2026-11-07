@@ -2,7 +2,7 @@
 title: DIY Zigbee outlet sensor
 description: "Create a non-battery Zigbee sensor"
 category: Zigbee
-tags: [Zigbee, diy, temperature, sensor, wall, outlet, socket, battery, eliminator]
+tags: [Zigbee, hardware, sensor, smart socket, DIY, motion sensor, CR2032, Aqara, Christmas]
 ---
 
 # DIY Zigbee outlet sensor

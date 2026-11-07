@@ -2,7 +2,7 @@
 title: "Buttons - Best Buy Tips"
 description: "Wall switches, dimmers and portable buttons."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Buttons]
+tags: [best buy tips, buttons, Aqara, Zigbee]
 image: /buy/images_zigbee/zigbee_moes_wall_switch.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

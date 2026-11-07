@@ -2,7 +2,7 @@
 title: "Batteries - Best Buy Tips"
 description: "Batteries - Best Buy Tips"
 category: Buy tips
-tags: [Disposable, Best, Buy, tips, home automation, batteries, CR2032, AA, AAA, CR1632, CR2450, sensors]
+tags: [best buy tips, battery, Christmas, DIY]
 image: /buy/images_batteries/battery_banner2.jpg
 ---
 

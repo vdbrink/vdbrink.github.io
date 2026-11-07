@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Home Assistant - Many dashboard examples"
 date: 2026-03-22
-tags: [Home Assistant, YAML, dashboard, HACS, templates]
+tags: [Home Assistant, dashboard]
 permalink: /home-assistant-many-dashboard-examples
 image: /homeassistant/images/home_assistant_logo.png
 ---

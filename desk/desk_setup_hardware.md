@@ -2,7 +2,7 @@
 title: "Home office: Desk setup hardware"
 description: "Home office desk setup hardware"
 category: Office
-tags: [Home office, desk, setup, hardware]
+tags: [hardware, home office, standing desk, accessories]
 image: /desk/images/youp02_desk.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

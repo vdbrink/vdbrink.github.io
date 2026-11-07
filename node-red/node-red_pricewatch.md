@@ -2,7 +2,7 @@
 title: "Node-RED Pricewatch: get notified when a price drops"
 description: "Let Node-RED check product prices on websites daily and notify you when one meets your desired price."
 category: Node-RED
-tags: [Node-RED, price, watch, monitor, sales]
+tags: [Node-RED]
 ---
 
 # Node-RED Pricewatch

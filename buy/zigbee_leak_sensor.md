@@ -2,7 +2,7 @@
 title: "Leak sensor - Best Buy Tips"
 description: "Get warned about water leaks early."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Leak sensor]
+tags: [best buy tips, leak sensor, Aqara, Zigbee]
 image: /buy/images_zigbee/aqara_leak_sensor.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

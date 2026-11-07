@@ -2,7 +2,7 @@
 title: "Automate Christmas decorations"
 description: "How I automated all my Christmas lights and other powered decorations."
 category: Projects
-tags: [battery, Christmas, smart home, socket, lights, usb hub, decorations, Halloween]
+tags: [hardware, lamps, Christmas, automation, Home Assistant, Zigbee, smart socket, battery]
 image: /projects/images_christmas_decorations/banner_christmas.png
 ---
 # Automate Christmas decorations

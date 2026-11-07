@@ -2,7 +2,7 @@
 title: "Smart traditional mailbox"
 description: "Make your traditional mailbox smart"
 category: Projects
-tags: [dumb, smart, mail, box, package, letter, traditional, snail]
+tags: [mailbox, sensor, contact sensor, Home Assistant, automation, Zigbee, DIY]
 image: /projects/images_mailbox/sensor_in_mailbox.jpg
 ---
 

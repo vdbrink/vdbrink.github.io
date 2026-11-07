@@ -2,7 +2,7 @@
 title: "Temperature sensor - Best Buy Tips"
 description: "Temperature and humidity for every room."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Temperature sensor]
+tags: [best buy tips, temperature, sensor, humidity, Aqara, Zigbee]
 image: /buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

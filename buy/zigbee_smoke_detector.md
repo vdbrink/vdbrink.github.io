@@ -2,7 +2,7 @@
 title: "Smoke detector - Best Buy Tips"
 description: "Get alerted at the first sign of smoke."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Smoke detector]
+tags: [best buy tips, security, Zigbee]
 image: /buy/images_zigbee/smoke_detector.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

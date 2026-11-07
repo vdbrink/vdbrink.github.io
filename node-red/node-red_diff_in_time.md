@@ -2,7 +2,7 @@
 title: "Node-RED calculate diff in time"
 description: "Node-RED calculate diff in time"
 category: Node-RED
-tags: [Node-RED, humidity, shower, diff, temperature]
+tags: [Node-RED]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

@@ -2,7 +2,7 @@
 title: "Home office: Room decoration"
 description: "Home office room decoration"
 category: Office
-tags: [Home office, decoration]
+tags: [home office]
 ---
 
 # Home office: Room decoration

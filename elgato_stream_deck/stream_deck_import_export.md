@@ -2,7 +2,7 @@
 title: "Elgato Stream Deck - Import and Export data"
 description: "Elgato Stream Deck Import and Export data"
 category: Projects
-tags: [ Elgato, Stream Deck, software, developer, actions]
+tags: [Stream Deck]
 ---
 
 # Elgato Stream Deck - Import and Export data

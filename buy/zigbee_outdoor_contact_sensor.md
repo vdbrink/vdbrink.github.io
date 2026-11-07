@@ -2,7 +2,7 @@
 title: "Waterproof contact sensor - Best Buy Tips"
 description: "Detect a gate, shed door or mailbox, also in the rain."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, outdoor, garden, Zigbee, Waterproof contact sensor]
+tags: [best buy tips, sensor, contact sensor, Zigbee, outdoor, waterproof]
 image: /buy/images_outdoor/zigbee_contact_sensor_waterproof.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

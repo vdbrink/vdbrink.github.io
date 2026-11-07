@@ -2,7 +2,7 @@
 title: ESPHome custom sensors and actuators
 description: "ESPHome let you create your own custom home automation sensors and actuators."
 category: ESPHome
-tags: [ESP, ESP8266, ESP32, nodeMCU, ESPHome, sensors, actuators]
+tags: [ESP, ESPHome, sensor, DIY]
 image: /esphome/images/esphome.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

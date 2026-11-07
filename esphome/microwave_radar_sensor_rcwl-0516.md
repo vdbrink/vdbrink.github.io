@@ -2,7 +2,7 @@
 title: ESPHome Presence detection with a microwave radar sensor
 description: "Create your own ESPHome motion and presence sensor based on the RCWL-0516 sensor for Home Assistant"
 category: ESPHome
-tags: [ESP8266, "Home Assistant", ESPHome, D1 mini, RCWL-0516, microwave, presence, occupancy]
+tags: [ESP, ESPHome, hardware, DIY, sensor, Home Assistant, motion sensor, presence detection]
 image: /esphome/images_rcwl-0516/rcwl_0516_wired.jpg
 ---
 {% capture imgBasket %}<img src="../buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

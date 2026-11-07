@@ -2,7 +2,7 @@
 title: "Home Assistant - HACS Afvalbeheer"
 description: "Setup Home Assistant Afvalbeheer integration"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, card, Afvalbeheer, HACS, trash, bin, waste collector]
+tags: [HACS, Home Assistant, bin day, auto-entities, Mushroom, Dutch, HA Marketplace]
 image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 ---
 

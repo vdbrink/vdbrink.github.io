@@ -2,7 +2,7 @@
 title: "Radiator thermostat - Best Buy Tips"
 description: "Heat only the rooms and moments that need it."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Radiator thermostat]
+tags: [best buy tips, thermostat, temperature, Aqara, Zigbee]
 image: /buy/images_zigbee/thermostat.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

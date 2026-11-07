@@ -1,0 +1,30 @@
+{%- comment -%}Overview of all subject tags used on pages and posts: a chip cloud with counts, then one list per tag.{%- endcomment -%}
+{%- assign ti_docs = site.html_pages | concat: site.posts -%}
+{%- assign ti_all = "" | split: "" -%}
+{%- for d in ti_docs -%}
+{%- if d.tags and d.sitemap != false and d.dir != "/tags/" -%}
+{%- assign ti_all = ti_all | concat: d.tags -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign ti_tags = ti_all | uniq | sort_natural -%}
+
+<nav class="tag-chips tag-cloud" aria-label="All subjects">
+{%- for tag in ti_tags -%}
+{%- assign ti_n = ti_all | where_exp: "t", "t == tag" | size -%}
+<a class="tag-chip" href="#{{ tag | slugify }}">{{ tag }} <span class="tag-count">{{ ti_n }}</span></a>
+{%- endfor -%}
+</nav>
+
+{%- for tag in ti_tags %}
+<div class="tag-group">
+<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+<ul class="sitemap-list">
+{%- for d in ti_docs -%}
+{%- if d.tags contains tag and d.sitemap != false -%}
+{%- assign ti_title = d.title | default: d.name | remove_first: "Feed: " | strip_html | escape -%}
+<li><a href="{{ d.url | relative_url }}">{{ ti_title }}</a>{% if d.date %} <span class="hp-date">{{ d.date | date: "%b %d, %Y" }}</span>{% endif %}</li>
+{%- endif -%}
+{%- endfor -%}
+</ul>
+</div>
+{%- endfor -%}

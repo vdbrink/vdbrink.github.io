@@ -2,7 +2,7 @@
 title: "Soil sensor - Best Buy Tips"
 description: "Know if your garden plants have enough water."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, outdoor, garden, Zigbee, Soil sensor]
+tags: [best buy tips, sensor, soil sensor, Zigbee, outdoor]
 image: /zigbee/images_soil_sensor/NAS-STH02B2.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

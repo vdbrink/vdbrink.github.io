@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard card: Mushroom"
 description: "Home Assistant dashboard examples with Mushroom cards, with copy-paste YAML code for your own dashboard."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, card, mushroom, minimalistic, icons]
+tags: [HACS, Home Assistant, Mushroom, dashboard, HA Marketplace]
 image: /homeassistant/images_mushroom/mushroom_examples.png
 ---
 

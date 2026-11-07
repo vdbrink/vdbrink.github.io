@@ -2,7 +2,7 @@
 title: "Node-RED Server migration"
 description: "Migrate Node-RED to a new version or server while keeping your flows and credentials."
 category: Node-RED
-tags: [Node-RED Migration]
+tags: [Node-RED]
 ---
 
 # Node-RED Server migration

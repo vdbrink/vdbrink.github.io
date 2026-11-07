@@ -2,7 +2,7 @@
 title: "Home Automation Ideas"
 description: "Home automation ideas to make your home smart"
 category: Ideas
-tags: [ideas, smart, home, automations]
+tags: [automation, contact sensor, smart home, ideas]
 image: /ideas/images/idea.png
 ---
 

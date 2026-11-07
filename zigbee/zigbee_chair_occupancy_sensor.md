@@ -2,7 +2,7 @@
 title: DIY Zigbee chair occupancy sensor
 description: "Build a DIY Zigbee chair occupancy sensor with a car seat pressure sensor to detect when you sit at your desk."
 category: Zigbee
-tags: [Zigbee, occupancy, diy, WiFi, contact, sensor, Aqara, chair, office, cat, bed, mat, pressure, car]
+tags: [Zigbee, hardware, sensor, DIY, presence detection, soldering, contact sensor]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

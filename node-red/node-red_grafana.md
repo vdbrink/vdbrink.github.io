@@ -2,7 +2,7 @@
 title: "Node-RED Cheat Sheet - Grafana"
 description: "Push every sensor message into InfluxDB with Node-RED and visualize the data in Grafana."
 category: Node-RED
-tags:  [Node-RED, grafana]
+tags: [Node-RED, Grafana]
 ---
 {% capture imgHeightSmall %}35{% endcapture %}
 # Node-RED Cheat Sheet - Grafana

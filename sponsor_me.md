@@ -1,6 +1,7 @@
 ---
 title: "Sponsor me"
 description: "Support this home automation blog with a donation via PayPal, Buy Me A Coffee or GitHub Sponsors."
+
 ---
 # Sponsor me
 

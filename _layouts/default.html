@@ -33,6 +33,7 @@
 <div id="content-wrapper">
     <div class="inner clearfix">
         <section id="main-content">
+            {% include page_tags.html %}
             {%- comment -%}Lazy-load all content images except the first one (likely above the fold / LCP).{%- endcomment -%}
             {%- assign lazy_content = content | replace: ' loading="lazy"', '' | replace: ' decoding="async"', '' | replace: "<img ", '<img loading="lazy" decoding="async" ' | replace_first: '<img loading="lazy" decoding="async" ', "<img " -%}
             {%- capture rel_content -%}{% include affiliate_rel.html html=lazy_content %}{%- endcapture -%}

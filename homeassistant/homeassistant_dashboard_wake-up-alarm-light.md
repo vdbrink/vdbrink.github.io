@@ -3,7 +3,7 @@ title: "Home Assistant dashboard: Wake-up alarm light"
 description: "Home Assistant dashboard with an adjustable alarm timer to switch a wake-up light or any automation at your own time."
 date: 2026-03-17
 category: Home Assistant
-tags: [Home Assistant, dashboard, clock, time, alarm, LED strip, lamp, automation]
+tags: [Home Assistant, dashboard, lamps, automation]
 image: /homeassistant/images_wake-up/ledstrip_bedroom.png
 ---
 

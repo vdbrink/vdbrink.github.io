@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Home Assistant dashboard - KNMI Weeralarm NL"
 date: 2026-05-01
 locale: nl
-tags: [weeralarm, dashboard, Home Assistant, Dutch, Netherlands]
+tags: [Home Assistant, weather, dashboard, Dutch, alarm, weer]
 image: /homeassistant/images_weather/weather_alarm_banner.png
 permalink: /home-assistant-dashboard-knmi-weeralarm-nl
 ---

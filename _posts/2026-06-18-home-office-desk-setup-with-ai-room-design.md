@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Home office desk setup with AI room design"
 description: "How I designed my home office, from a mood board and AI mockup to the finished room, including the desk hardware, accessories, and decorations."
 date: 2026-06-18
-tags: [home office, desk setup, AI, standing desk, WFH, setup, minimalistic, walnut, accessories]
+tags: [home office, WFH, AI, standing desk, accessories]
 permalink: /home-office-desk-setup-with-ai-room-design
 image: /desk/images/home_office_desk_result3.jpg
 ---

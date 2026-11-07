@@ -2,7 +2,7 @@
 title: "Node-RED send notifications to the Home Assistant app"
 description: "Send notifications to the Home Assistant companion app with Node-RED"
 category: Node-RED
-tags: [Node-RED, notifications, Home Assistant, companion app]
+tags: [Node-RED, notifications, Home Assistant]
 ---
 
 # Node-RED send notifications to the Home Assistant app

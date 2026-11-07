@@ -2,7 +2,7 @@
 title: "Motion sensor - Best Buy Tips"
 description: "Trigger lights and alerts when someone moves."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Motion sensor]
+tags: [best buy tips, motion sensor, sensor, Aqara, Zigbee]
 image: /ideas/images/motion_sensor.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

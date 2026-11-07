@@ -2,7 +2,7 @@
 title: "Air quality sensor - Best Buy Tips"
 description: "Measure CO2, VOC and other air quality values."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Air quality sensor]
+tags: [best buy tips, air quality, sensor, Zigbee, CO2]
 image: /buy/images_zigbee/zigbee_air_quality_sensor.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

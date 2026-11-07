@@ -2,7 +2,7 @@
 title: "Node-RED Flows examples"
 description: "Node-RED flow examples for home automation that you can import and reuse."
 category: Node-RED
-tags: [Node-RED, examples, flows]
+tags: [Node-RED]
 ---
 
 # Node-RED Flow Examples

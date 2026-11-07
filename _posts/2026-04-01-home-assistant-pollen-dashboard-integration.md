@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Home Assistant - HACS Kleenex Pollen Radar"
 date: 2026-04-01
-tags: [Home Assistant, YAML, dashboard, pollen, HACS]
+tags: [Home Assistant, pollen, air quality, dashboard, HACS, HA Marketplace]
 permalink: /home-assistant-hacs-kleenex-pollen-radar
 image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png
 ---

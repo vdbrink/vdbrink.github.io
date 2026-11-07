@@ -2,7 +2,7 @@
 title: "Light intensity sensor - Best Buy Tips"
 description: "Measure daylight to switch lights at the right moment."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Light intensity sensor]
+tags: [best buy tips, sensor, Aqara, Zigbee]
 image: /ideas/images/lux_sensor.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

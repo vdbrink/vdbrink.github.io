@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Latest news"
 description: "Scrape the latest news headline and show it on your Home Assistant dashboard."
 category: Home Assistant
-tags: [Home Assistant, dashboard, news, scrape]
+tags: [Home Assistant, dashboard]
 ---
 
 # Home Assistant dashboard: Latest news

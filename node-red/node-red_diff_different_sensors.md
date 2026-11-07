@@ -2,7 +2,7 @@
 title: "Node-RED Compare two temperatures"
 description: "Node-RED Compare two temperatures"
 category: Node-RED
-tags: [Node-RED, temperature, flows]
+tags: [Node-RED, temperature]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

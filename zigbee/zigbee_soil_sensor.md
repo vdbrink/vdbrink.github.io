@@ -2,7 +2,7 @@
 title: Zigbee soil sensor
 description: A Zigbee soil sensor which measure humidity and temperature
 category: Zigbee
-tags: [Zigbee, soil, sensor, humidity, temperature]
+tags: [Zigbee, hardware, sensor, soil sensor, temperature, humidity, Home Assistant, plants]
 image: /zigbee/images_soil_sensor/NAS-STH02B2.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

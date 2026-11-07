@@ -2,7 +2,6 @@
 title: "Xiaomi Mi smart clock with Home Assistant dashboard"
 description: "How to run a Xiaomi Mi smart clock with a Home Assistant dashboard."
 category: Projects
-tags: [Home Assistant, clock, mi, Xiaomi, lovelace, dashboard, global version]
 image: /projects/images_mi_smart_clock/mi_smart_clock.png
 ---
 

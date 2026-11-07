@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Mossarium, a small living ecosystem on my desk"
 description: "A mossarium is a moss terrarium that needs hardly any water. How it works, where to buy one, how to make your own and how to take care of it."
 date: 2026-10-05
-tags: [mossarium, moss, terrarium, mini rainforest, micro landscape, desk, plants, DIY, home office]
+tags: [mossarium, plants, terrarium, DIY, home office, accessories]
 permalink: /mossarium-small-living-ecosystem-on-my-desk
 image: /projects/images_mossarium/post_banner.jpg
 ---

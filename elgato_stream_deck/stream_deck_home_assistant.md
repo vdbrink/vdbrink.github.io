@@ -2,7 +2,7 @@
 title: "Elgato Stream Deck - Home Assistant integration"
 description: "Elgato Stream Deck integration with Home Assistant"
 category: Projects
-tags: [ Elgato, Stream Deck, Home Assistant, sensors ]
+tags: [Stream Deck, Home Assistant, lamps, CO2, smart socket]
 image: /elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.png
 ---
 

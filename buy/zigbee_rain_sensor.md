@@ -2,7 +2,7 @@
 title: "Rain sensor - Best Buy Tips"
 description: "Detect raindrops, already triggered by a single drop."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, outdoor, garden, Zigbee, Rain sensor]
+tags: [best buy tips, rain, rain sensor, sensor, Zigbee]
 image: /buy/images_outdoor/rain_sensor.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

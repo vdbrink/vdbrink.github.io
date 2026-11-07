@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard custom element: Auto-entities"
 description: "Home Assistant dashboard custom element: Auto-entities"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, card, auto-entities, HACS]
+tags: [HACS, Home Assistant, auto-entities, dashboard, HA Marketplace]
 image: /homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png
 ---
 

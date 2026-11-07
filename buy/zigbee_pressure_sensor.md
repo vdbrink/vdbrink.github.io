@@ -2,7 +2,7 @@
 title: "Pressure sensor - Best Buy Tips"
 description: "Detect weight on a chair, bed or mat."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Pressure sensor]
+tags: [best buy tips, sensor, Zigbee, pressure sensor]
 image: /buy/images_zigbee/pressure_sensor.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -10,8 +10,6 @@ image: /buy/images_zigbee/pressure_sensor.avif
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
 
 # Pressure sensor
-
-[<< Best Buy Tips overview](smart_home_best_buy_tips#3-sensors-and-actuators)
 
 A strip with pressure sensors in it.
 

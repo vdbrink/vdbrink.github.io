@@ -2,7 +2,7 @@
 title: "Smart home batteries - Best Buy Tips"
 description: "Common battery types and battery eliminators."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Batteries]
+tags: [best buy tips, battery, Christmas]
 image: /buy/images_diy/battery_eliminator.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

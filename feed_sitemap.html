@@ -2,32 +2,10 @@
 title: "Posts ordered by tag"
 ---
 
-<h1>Posts ordered by tag</h1>
+<h1>Posts and pages ordered by subject</h1>
 
 <p>
-All the posts with project updates, ordered by tag.
-</p>
-<p>
-See <a href="/feed.html">here</a> all posts ordered by date.
+All pages and posts, ordered by subject. See <a href="/feed.html">here</a> all posts ordered by date.
 </p>
 
-<div id="tags-list">
-    {% for tag in site.tags %}
-    {% assign tag_name = tag | first %}
-    {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
-    <div class="tag-list">
-        <div id="#{{ tag_name | slugize }}"></div>
-        <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
-        <a id="{{ tag_name | slugize }}"></a>
-        <div class="project-links full-width">
-            {% for post in site.tags[tag_name] %}
-            <a class="project-card" href="{{ post.url | relative_url }}">
-                <img src="{{ post.image | default: '/images/logo.png' | relative_url }}" alt="{{ post.title | remove_first: 'Feed: ' | escape }}">
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <span>{{ post.title | remove_first: "Feed: " | escape }}<br><em>{{ post.date | date: date_format }}</em></span>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% endfor %}
-</div>
+{% include tag_index.html %}

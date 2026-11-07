@@ -2,7 +2,6 @@
 title: vd Brink Home Automations
 description: "Home automation projects and guides: Home Assistant, ESPHome, Zigbee, Node-RED, home office and more."
 image: /images/banner.jpg
-categories: [Home Assistant, ESPHome, Node-RED, idea, Zigbee, desk]
 ---
 
 <p class="hp-lead" style="margin:24px 0 44px;">Welcome to my blog about smart home automations and other tech projects like Home Assistant, ESPHome, Zigbee and my home office.</p>

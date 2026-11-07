@@ -2,7 +2,7 @@
 title: "CR2032 coin cell to two AA batteries adapter"
 description: "Replace a CR2032 coin cell with two AA batteries for a much longer life span"
 category: Buy
-tags: [batteries, CR2032, long life, AA, battery eliminator, Eneloop, rechargeable]
+tags: [best buy tips, CR2032, battery]
 image: /buy/images_batteries/cr2032_to_aa_banner.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

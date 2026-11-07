@@ -2,7 +2,7 @@
 title: "Power strip - Best Buy Tips"
 description: "Several smart sockets in one strip."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Power strip]
+tags: [best buy tips, smart socket, Zigbee]
 image: /buy/images_zigbee/powerstrip.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

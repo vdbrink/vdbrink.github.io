@@ -3,7 +3,6 @@ title: "Household - Best Buy Tips"
 description: "Useful link to buy household items"
 date: 2024-05-01
 category: Buy tips
-tags: [Best, Buy, tips]
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

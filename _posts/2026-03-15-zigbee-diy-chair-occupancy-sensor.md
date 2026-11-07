@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Zigbee DIY chair occupancy sensor"
 date: 2026-03-15
-tags: [Zigbee, diy, soldering, occupancy, office, automation, sensor, idea]
+tags: [Zigbee, sensor, presence detection, DIY, soldering, home office]
 permalink: /zigbee-diy-chair-occupancy-sensor
 image: /zigbee/images_chair/pillow_with_sensor.jpg
 ---

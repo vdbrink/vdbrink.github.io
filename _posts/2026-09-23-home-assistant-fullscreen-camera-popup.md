@@ -3,7 +3,7 @@ layout: default
 title: "Feed: Home Assistant fullscreen camera popup when someone is at the door"
 description: "Home Assistant tablet dashboard shows a fullscreen live camera stream of the front door as soon as a person is detected."
 date: 2026-09-23
-tags: [Home Assistant, dashboard, tablet, fullscreen, camera, Frigate, browser_mod, WebRTC]
+tags: [Home Assistant, dashboard, camera, Frigate, tablet, kiosk]
 permalink: /home-assistant-fullscreen-camera-popup
 image: /homeassistant/images_camera_stream/ha_camera_popup.gif
 ---

@@ -2,7 +2,7 @@
 title: "Why I chose Zigbee - Best Buy Tips"
 description: "Why Zigbee is my protocol of choice."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Why I chose Zigbee]
+tags: [best buy tips, Zigbee]
 image: /buy/images_zigbee/zigbee.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

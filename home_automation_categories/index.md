@@ -2,7 +2,7 @@
 title: "Home Automation categories"
 description: "Explore what you can automate at home: comfort, energy savings, safety and more, grouped by category."
 category: Home-Automation
-tags: [smart home, categories, comfort, resources, time, security, health, accessibility, fun]
+tags: [automation, smart home]
 #image: 
 ---
 

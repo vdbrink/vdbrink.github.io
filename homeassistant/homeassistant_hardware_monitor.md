@@ -2,7 +2,7 @@
 title: "Home Assistant: Hardware monitor"
 description: "Monitor server temperature, CPU, disk and memory in Home Assistant by pushing system sensors to MQTT."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, cpu, disk, boot, memory, stats, mqtt, load, temp, raspberry]
+tags: [HACS, Home Assistant, dashboard, sensor, temperature, hardware, HA Marketplace]
 image: /homeassistant/images/system_monitor.png
 ---
 

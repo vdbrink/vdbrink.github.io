@@ -2,7 +2,7 @@
 title: "Home office: Accessories"
 description: "Home office desk accessories"
 category: Office
-tags: [Home office, desk, setup, hardware, accessories]
+tags: [hardware, home office, lamps, accessories]
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

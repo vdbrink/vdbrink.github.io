@@ -2,7 +2,7 @@
 title: "Presence detection sensor - Best Buy Tips"
 description: "Detect people, even when they sit still."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Presence detection sensor]
+tags: [best buy tips, sensor, presence detection, Aqara, Zigbee]
 image: /buy/images_zigbee/aqara_fp300.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

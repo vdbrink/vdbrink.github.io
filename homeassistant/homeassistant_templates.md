@@ -2,7 +2,7 @@
 title: "Home Assistant: Templates"
 description: "Home Assistant Templates examples and how to create them"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, templates, sensors, helpers, boolean, conditions]
+tags: [Home Assistant, templates]
 image: /homeassistant/images_templates/ha_templates_banner.png
 ---
 

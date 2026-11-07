@@ -2,7 +2,7 @@
 title: "Battery powered with PIR - Best Buy Tips"
 description: "Not connected, but still smart with a built-in PIR sensor."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Battery powered with PIR]
+tags: [best buy tips, motion sensor, battery]
 image: /buy/images_diy/battery_powered_pir_lights.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

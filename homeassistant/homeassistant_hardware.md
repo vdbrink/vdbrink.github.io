@@ -2,7 +2,7 @@
 title: Which hardware to run Home Assistant on?
 description: "Which hardware to run Home Assistant on?"
 category: Home Assistant
-tags: [system, NUC, rpi, raspberry, pi, beelink, hardware, mini pc, home lab, refurbished, N100, N150]
+tags: [Home Assistant, hardware, server, Beelink, Raspberry Pi]
 image: /homeassistant/images_hardware/ha_hardware_banner.png
 ---
 

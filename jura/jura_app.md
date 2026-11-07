@@ -2,7 +2,7 @@
 title: Jura coffee machine app
 description: "How to use the Jura J.O.E. app to control your coffee machine, create custom products and monitor maintenance."
 category: Jura
-tags: [Jura, joe, coffee, machine, app, wifi, bluetooth, module, tips, tricks, Home Assistant, HA, integration]
+tags: [Jura]
 image: /jura/images/jura_logo.png
 ---
 

@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Grafana integration"
 description: "Integrate Grafana dashboard into Home Assistant"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, Grafana, graphs, influxdb]
+tags: [Home Assistant, Grafana, dashboard]
 image: /homeassistant/images_grafana/grafana_integration_dashboard.png
 ---
 

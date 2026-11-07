@@ -3,7 +3,7 @@ title: Control an Orcon mechanic ventilation system from Home Assistant
 description: "Control an Orcon mechanical ventilation unit from Home Assistant with ESPHome, step by step."
 date: 2022-06-24
 category: ESPHome
-tags: [Orcon, "Home Assistant", Node-RED, ESP8266, ESPHome]
+tags: [ESP, ESPHome, hardware, DIY, ventilation, Home Assistant, sensor, CO2]
 image: /esphome/orcon_images/wires_connected.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

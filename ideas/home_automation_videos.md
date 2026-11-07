@@ -2,7 +2,7 @@
 title: "Home Automation Videos"
 description: "Home automation videos for inspiration"
 category: Ideas
-tags: [ideas, smart, home, automations, videos, inspiration]
+tags: [automation, smart home, videos]
 image: /ideas/images/video.png
 ---
 

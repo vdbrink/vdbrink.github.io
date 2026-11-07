@@ -2,7 +2,7 @@
 title: "ESPHome: Flash the config to the ESP"
 description: "How to flash the config to the ESP board"
 category: ESPHome
-tags: [ESP, ESP8266, ESP32, nodeMCU, sensors, install, flash]
+tags: [ESP, ESPHome, DIY]
 image: esphome/images/esphome.png
 ---
 

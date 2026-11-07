@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Pientere tuinen"
 description: "Home Assistant dashboard elements for the Dutch citizen science project Pientere Tuinen, which monitors garden biodiversity."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, Pientere tuinen]
+tags: [Home Assistant, dashboard, Dutch, garden]
 image: /homeassistant/images_pientere_tuinen/pt-logo.webp
 ---
 

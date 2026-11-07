@@ -2,7 +2,7 @@
 title: "Infrared remote control - Best Buy Tips"
 description: "Control infrared devices, like an AC or TV, from automations."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Infrared remote control]
+tags: [best buy tips, infrared, automation, Zigbee, Christmas]
 image: /buy/images_zigbee/zigbee_ir_remote.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

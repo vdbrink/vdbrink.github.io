@@ -2,7 +2,7 @@
 title: Jura coffee machine Tips & Tricks
 description: "Tips and tricks for the Jura Z10 coffee machine: cleaning, maintenance, app, accessories and hacks."
 category: Jura
-tags: [Jura, Z10, tips, tricks, coffee]
+tags: [Jura]
 image: /jura/images/jura_logo.png
 ---
 

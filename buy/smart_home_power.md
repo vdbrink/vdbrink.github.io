@@ -2,7 +2,7 @@
 title: "Power adapters - Best Buy Tips"
 description: "5V USB power adapters for your devices."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Power adapters]
+tags: [best buy tips, Christmas]
 image: /esphome/images/5v_power_adapter.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

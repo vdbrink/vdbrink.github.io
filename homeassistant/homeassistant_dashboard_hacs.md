@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Useful HACS custom elements"
 description: "Useful HACS custom elements for your Home Assistant dashboard."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, hacs]
+tags: [HACS, Home Assistant, dashboard, Mushroom, auto-entities, HA Marketplace]
 image: /homeassistant/images/home_assistant_logo.png
 ---
 # Home Assistant dashboard: Useful HACS custom elements

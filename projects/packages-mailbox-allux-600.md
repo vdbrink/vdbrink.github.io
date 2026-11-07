@@ -2,7 +2,7 @@
 title: "Packages mailbox - Allux 600"
 description: "Automate an Allux 600 package mailbox to make it smart with own sensors sent a notification when a package is delivered."
 category: Projects
-tags: [Mailbox, package box, mail, node-red, home assistant]
+tags: [mailbox, Home Assistant, Node-RED, DIY, automation, Zigbee]
 image: /projects/images_allux-600/allux_result.jpg
 ---
 

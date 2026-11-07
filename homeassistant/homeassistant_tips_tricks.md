@@ -2,7 +2,7 @@
 title: "Home Assistant - Tips & Tricks"
 description: "Home Assistant - Tips & Tricks"
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, tips, tricks, dialog]
+tags: [Home Assistant, dashboard, tips]
 image: /homeassistant/images_tips/dialog_enlarge.png
 ---
 

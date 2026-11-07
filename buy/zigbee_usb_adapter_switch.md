@@ -2,7 +2,7 @@
 title: "USB adapter switch - Best Buy Tips"
 description: "Switch USB powered devices on and off."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, USB adapter switch]
+tags: [best buy tips, smart socket, USB, Zigbee, Christmas]
 image: /zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

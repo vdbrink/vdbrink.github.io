@@ -2,7 +2,7 @@
 title: "Home Assistant dashboard: Weather in The Netherlands"
 description: "Dutch weather on your Home Assistant dashboard: rain radar, Buienradar, Weeronline, expected rain and weather alarms."
 category: Home Assistant
-tags: [Home Assistant, dashboard, lovelace, weather, the Netherlands, nederland, nl, Dutch, buienalarm, buienradar, knmi, weeralarm]
+tags: [HACS, Home Assistant, weather, dashboard, Dutch, rain, HA Marketplace]
 image: /homeassistant/images/rain_radar_animated.png
 ---
 # Home Assistant dashboard: Weather in The Netherlands

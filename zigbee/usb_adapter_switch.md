@@ -2,7 +2,7 @@
 title: Zigbee USB adapter switch
 description: A Zigbee USB adapter switch to have control of USB devices
 category: Zigbee
-tags: [Zigbee, USB, adapter, Zigbee2MQTT, switch, plug]
+tags: [Zigbee, hardware, smart socket, USB, Christmas]
 image: /zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

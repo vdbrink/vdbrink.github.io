@@ -2,7 +2,7 @@
 title: "Lights - Best Buy Tips"
 description: "Bulbs, GU10 spots and LED strips."
 category: Buy tips
-tags: [Best, Buy, tips, smart, home automation, Zigbee, Lights]
+tags: [best buy tips, lamps, Zigbee]
 image: /buy/images_zigbee/gu10_fullcolor.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
