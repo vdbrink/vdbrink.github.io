@@ -2,7 +2,7 @@
 title: "Outdoor socket - Best Buy Tips"
 description: "Water-resistant smart sockets with power measurement."
 category: Buy tips
-tags: [best buy tips, smart socket, Zigbee, outdoor]
+tags: [best buy tips, smart socket, Zigbee, outdoor, garden, Christmas]
 image: /buy/images_zigbee/ledvance_outdoor_plug.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

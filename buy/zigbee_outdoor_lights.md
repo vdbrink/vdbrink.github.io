@@ -2,7 +2,7 @@
 title: "Outdoor lights - Best Buy Tips"
 description: "Spotlights, floodlights and LED strips for your garden."
 category: Buy tips
-tags: [best buy tips, lamps, Zigbee, outdoor]
+tags: [best buy tips, lamps, Zigbee, outdoor, garden]
 image: /buy/images_outdoor/zigbee_spotlight.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

@@ -2,7 +2,7 @@
 title: "Mossarium: a small living ecosystem on my desk"
 description: "How a moss terrarium works, where to buy one, how to make your own and how to take care of it."
 category: Projects
-tags: [hardware, mossarium, plants, terrarium, DIY]
+tags: [mossarium, plants, terrarium, DIY, WFH, standing desk]
 image: /projects/images_mossarium/mossarium.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

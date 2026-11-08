@@ -22,7 +22,7 @@
 {%- for d in ti_docs -%}
 {%- if d.tags contains tag and d.sitemap != false -%}
 {%- assign ti_title = d.title | default: d.name | remove_first: "Feed: " | strip_html | escape -%}
-<li><a href="{{ d.url | relative_url }}">{{ ti_title }}</a>{% if d.date %} <span class="hp-date">{{ d.date | date: "%b %d, %Y" }}</span>{% endif %}</li>
+<li><a href="{{ d.url | relative_url }}">{{ ti_title }}</a></li>
 {%- endif -%}
 {%- endfor -%}
 </ul>

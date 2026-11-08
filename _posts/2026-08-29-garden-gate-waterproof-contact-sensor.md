@@ -2,7 +2,7 @@
 layout: default
 title: "Feed: Garden gate with waterproof contact sensor"
 date: 2026-08-29
-tags: [Zigbee, contact sensor, outdoor, waterproof, DIY, sensor]
+tags: [Zigbee, contact sensor, outdoor, waterproof, DIY, sensor, garden]
 permalink: /garden-gate-waterproof-contact-sensor
 image: /zigbee/images_waterproof_contact/contact_sensor_closeup.jpg
 ---

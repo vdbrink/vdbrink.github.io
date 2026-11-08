@@ -2,7 +2,7 @@
 title: "Weather stations - Best Buy Tips"
 description: "Full-blown weather stations with Home Assistant integration."
 category: Buy tips
-tags: [best buy tips, weather, Home Assistant, Zigbee, outdoor]
+tags: [best buy tips, weather, Home Assistant, Zigbee, outdoor, garden, waterproof]
 image: /buy/images_weather/ecowitt.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
