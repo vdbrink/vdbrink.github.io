@@ -34,7 +34,7 @@ description: "Overview of all pages on this site, grouped per topic."
 {%- if p.sitemap == false -%}{%- continue -%}{%- endif -%}
 {%- if p.name == "index.md" and group.name != "/" -%}{%- continue -%}{%- endif -%}
 {%- assign fallback_title = p.name | split: "." | first | replace: "_", " " | replace: "-", " " | capitalize -%}
-<li><a href="{{ p.url | relative_url }}">{{ p.title | default: fallback_title | escape }}</a>{% assign pt_sorted = p.tags | sort_natural %}{% for tag in pt_sorted %}<a class="tag-chip tag-chip-sm" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>{% endfor %}</li>
+<li><a href="{{ p.url | relative_url }}">{{ p.title | default: fallback_title | escape }}</a></li>
 {%- endfor -%}
 </ul>
 </div>
@@ -45,7 +45,7 @@ description: "Overview of all pages on this site, grouped per topic."
 <ul class="sitemap-list">
 {%- assign sorted_posts = site.posts | sort: "date" | reverse -%}
 {%- for post in sorted_posts -%}
-<li><a href="{{ post.url | relative_url }}">{{ post.title | remove_first: "Feed: " | escape }}</a> <span class="hp-date">{{ post.date | date: "%b %d, %Y" }}</span>{% assign pt_sorted = post.tags | sort_natural %}{% for tag in pt_sorted %}<a class="tag-chip tag-chip-sm" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>{% endfor %}</li>
+<li><a href="{{ post.url | relative_url }}">{{ post.title | remove_first: "Feed: " | escape }}</a> <span class="hp-date">{{ post.date | date: "%b %d, %Y" }}</span></li>
 {%- endfor -%}
 </ul>
 </div>
