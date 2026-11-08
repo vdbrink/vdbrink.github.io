@@ -14,7 +14,7 @@ image: /images/banner.jpg
 <a class="hp-btn ghost" href="#topics">All topics</a>
 <a class="hp-btn ghost" href="/buy/smart_home_best_buy_tips">Best Buy Tips</a>
 <a class="hp-btn ghost" href="#merchandise">Merchandise</a>
-<a class="hp-btn ghost" href="/tags">All subjects</a>
+<a class="hp-btn ghost" href="/tags">All labels</a>
 </div>
 </div>
 </div>
