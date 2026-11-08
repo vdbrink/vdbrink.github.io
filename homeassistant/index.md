@@ -4,7 +4,7 @@ description: "Home Assistant dashboard examples with copy-paste code: templates,
 category: Home Assistant
 image: /homeassistant/images/ha_banner.png
 ---
-# Home Assistant dashboards
+# Home Assistant
 
 ![Banner](images/ha_banner.png)
 
@@ -43,7 +43,7 @@ I created dashboards with all kinds of elements on them:
 
 <a class="project-card" href="homeassistant_dashboard_mealie">
 <img src="images_mealie/mealie1_ha_integration.png" alt="Recipe manager Mealie">
-<span>Recipe manager Mealie<br><br><em>With meal weekplanner</em></span>
+<span>Recipe manager Mealie<br><br><em>With weekly meal planner</em></span>
 </a>
 
 <a class="project-card" href="homeassistant_dashboard_chores">
@@ -64,12 +64,12 @@ I created dashboards with all kinds of elements on them:
 
 <a class="project-card" href="homeassistant_dashboard_tablet_in_kiosk_mode">
 <img src="images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Dashboard on a tablet in kiosk mode">
-<span>Dashboard on a tablet in kiosk mode<br><br><em>Use a tablet to show the dashboard on</em></span>
+<span>Dashboard on a tablet in kiosk mode<br><br><em>Show your dashboard on a tablet</em></span>
 </a>
 
 <a class="project-card" href="homeassistant_dashboard_examples_overview">
-<img src="images_layout/ha_layout_banner.png" alt="Elements examples overview">
-<span>Elements examples overview<br><br><em>Visual element examples overview page</em></span>
+<img src="images_layout/ha_layout_banner.png" alt="Element examples overview">
+<span>Element examples overview<br><br><em>Visual element examples overview page</em></span>
 </a>
 
 <a class="project-card" href="homeassistant_dashboard_wake-up-alarm-light">
@@ -154,7 +154,7 @@ I created dashboards with all kinds of elements on them:
 
 <a class="project-card" href="homeassistant_dashboard_latest_news">
 <img src="images/home_assistant_logo.png" alt="Show the latest news">
-<span>Show the latest news<br><br><em>example nu.nl</em></span>
+<span>Show the latest news<br><br><em>Example: nu.nl</em></span>
 </a>
 
 <a class="project-card" href="homeassistant_aurora">
@@ -224,7 +224,7 @@ In those days, I used an app ([MQTT Dashboard](https://play.google.com/store/app
 For my smart flows, I used Node-RED.
 After I got more and more sensors, I couldn't get a clear overview of the status of all my sensors anymore.
 Then I found a solution where people created floor plans of their house and added their sensor statuses and controls as layers on top of it.
-This was possible with the application Home Assistant (not-so-famous yet in 2020) and so I began with it.
+This was possible with the application Home Assistant (not so famous yet in 2020) and so I began with it.
 I created the [floor plans](homeassistant_dashboard_floorplan) I wanted, and I also really liked the dashboards with their endless possibilities.
 
 I use Home Assistant purely as a presentation layer. That's why you don't find Home Assistant flows here, but only Node-RED flows.
