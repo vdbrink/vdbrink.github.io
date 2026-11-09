@@ -1,8 +1,8 @@
 ---
 title: "Stretch display"
-description: "A stretched display to show Home Assistant dashboard on"
+description: "A widescreen stretched monitor showing Home Assistant weather, CO2 and temperature data on my desk."
 category: Projects
-tags: [hardware, Home Assistant, dashboard, tablet, Raspberry Pi]
+tags: [hardware, Home Assistant, dashboard, tablet, temperature, air quality, CO2, Raspberry Pi]
 image: /projects/images_stretch_display/office_display_next2monitor.jpg
 ---
 
@@ -15,7 +15,7 @@ image: /projects/images_stretch_display/office_display_next2monitor.jpg
 <a href="index"><img src="images_stretch_display/basic_weather_station.jpg" style="float: right;margin-left:15px" alt="Old weather station" height="150px"></a>
 For years I had a basic weather station with a radio receiver to see the indoor and outdoor weather data (temperature, humidity and pressure). Now with Home Assistant and my local weather station, I have so much more weather data available that I want to replace my old weather station display with something new, based on the data in Home Assistant.
 
-I was also looking for a small display to show the current CO2 and temperature data in my home office.
+I was also looking for a small monitor to show the current CO2 and temperature data in my home office.
 I found that when the CO2 is too high and/or the temperature is above 23 degrees, my concentration drops.
 
 > This page is still under construction. I fill in all chapters one by one, describing how I set it up, so you can create exactly the same or use it as a reference for your own display project.

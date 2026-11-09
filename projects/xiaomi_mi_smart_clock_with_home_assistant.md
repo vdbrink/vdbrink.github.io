@@ -1,6 +1,7 @@
 ---
 title: "Xiaomi Mi smart clock with Home Assistant dashboard"
-description: "How to run a Xiaomi Mi smart clock with a Home Assistant dashboard."
+description: "Run a Home Assistant dashboard on a Xiaomi Mi smart clock: replace the original Google display interface with a cheap, stylish wall or desk panel."
+tags: [Home Assistant, dashboard, tablet]
 category: Projects
 image: /projects/images_mi_smart_clock/mi_smart_clock.png
 ---

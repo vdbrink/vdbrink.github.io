@@ -1,8 +1,8 @@
 ---
 title: "Motion sensor - Best Buy Tips"
-description: "Trigger lights and alerts when someone moves."
+description: "Zigbee motion sensors, from PIR to mmWave radar with a brightness sensor, to trigger lights and alerts in Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, motion sensor, sensor, Aqara, Zigbee]
+tags: [best buy tips, motion sensor, sensor, presence detection, Zigbee, Aqara]
 image: /ideas/images/motion_sensor.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

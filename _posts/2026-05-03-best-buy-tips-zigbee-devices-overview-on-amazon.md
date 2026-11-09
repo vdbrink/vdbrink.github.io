@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Best Buy Tips Zigbee devices overview on Amazon"
+description: "My all-time favorite Zigbee sensors, lights and sockets after years of testing by using them."
 date: 2026-05-03
 tags: [Zigbee, best buy tips, sensor, lamps, smart socket]
 image: /images/amazon.png

@@ -1,8 +1,8 @@
 ---
 title: "Node-RED Compare two temperatures"
-description: "Node-RED Compare two temperatures"
+description: "Node-RED flow to compare two temperature sensors and act on the difference, using the zigbee2mqtt nodes. Import the flow and adjust it."
 category: Node-RED
-tags: [Node-RED, temperature]
+tags: [Node-RED, temperature, sensor, Zigbee, MQTT]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

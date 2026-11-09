@@ -1,6 +1,6 @@
 ---
 title: "Home Assistant - HACS Kleenex Pollen Radar"
-description: "Setup Home Assistant Kleenex Pollen Radar integration"
+description: "Set up the HACS Kleenex Pollen Radar integration in Home Assistant and build dashboard cards showing the pollen levels for grass, trees and weeds."
 category: Home Assistant
 tags: [HACS, Home Assistant, air quality, dashboard, Mushroom, pollen, allergies, HA Marketplace]
 image: /homeassistant/images_kleenex/kleenex_advanced_presentation.png

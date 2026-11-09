@@ -1,8 +1,8 @@
 ---
 title: "Home Assistant dashboard: Grafana integration"
-description: "Integrate Grafana dashboard into Home Assistant"
+description: "Embed Grafana graphs in your Home Assistant dashboard with InfluxDB to keep sensor history for years instead of days. Step-by-step setup and examples."
 category: Home Assistant
-tags: [Home Assistant, Grafana, dashboard]
+tags: [Home Assistant, Grafana, dashboard, sensor]
 image: /homeassistant/images_grafana/grafana_integration_dashboard.png
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Vibration sensor - Best Buy Tips"
-description: "Detect vibrations, shocks and knocks."
+description: "Zigbee vibration sensors that detect shocks, knocks and movement in the X, Y and Z direction for Home Assistant automations. Best buy tips."
 category: Buy tips
-tags: [best buy tips, sensor, Aqara, Zigbee, vibration sensor]
+tags: [best buy tips, sensor, Zigbee, Aqara, vibration sensor]
 image: /buy/images_zigbee/zigbee_vibration_sensor.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

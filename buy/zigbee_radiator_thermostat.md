@@ -1,8 +1,8 @@
 ---
 title: "Radiator thermostat - Best Buy Tips"
-description: "Heat only the rooms and moments that need it."
+description: "Zigbee radiator thermostat valves that heat only the rooms and moments that need it, with weekly schedules in Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, thermostat, temperature, Aqara, Zigbee]
+tags: [best buy tips, thermostat, temperature, Zigbee, Aqara]
 image: /buy/images_zigbee/thermostat.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

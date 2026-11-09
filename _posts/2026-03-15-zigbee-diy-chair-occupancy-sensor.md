@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Zigbee DIY chair occupancy sensor"
+description: "Build a cheap DIY chair occupancy sensor from a car seat pressure sensor and a Zigbee contact sensor to detect when you are sitting on a chair."
 date: 2026-03-15
 tags: [Zigbee, sensor, presence detection, DIY, soldering, home office]
 permalink: /zigbee-diy-chair-occupancy-sensor

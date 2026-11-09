@@ -1,8 +1,8 @@
 --- 
 title: "Smart traditional mailbox"
-description: "Make your traditional mailbox smart"
+description: "Make your traditional mailbox smart with Zigbee contact sensors and get a Home Assistant notification when mail or a package is delivered at your door."
 category: Projects
-tags: [mailbox, sensor, contact sensor, Home Assistant, automation, Zigbee, DIY]
+tags: [mailbox, sensor, contact sensor, Mushroom, Home Assistant, Zigbee, automation, DIY]
 image: /projects/images_mailbox/sensor_in_mailbox.jpg
 ---
 

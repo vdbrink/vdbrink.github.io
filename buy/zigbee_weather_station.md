@@ -1,8 +1,8 @@
 ---
 title: "Weather stations - Best Buy Tips"
-description: "Full-blown weather stations with Home Assistant integration."
+description: "Full-blown weather stations with Home Assistant integration that measure temperature, humidity, rain and wind. Best buy tips, including the Ecowitt Wittboy."
 category: Buy tips
-tags: [best buy tips, weather, Home Assistant, Zigbee, outdoor, garden, waterproof]
+tags: [best buy tips, weather, temperature, Home Assistant, humidity, Zigbee, garden, waterproof]
 image: /buy/images_weather/ecowitt.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

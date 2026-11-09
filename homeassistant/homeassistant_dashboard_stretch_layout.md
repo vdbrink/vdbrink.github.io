@@ -1,6 +1,6 @@
 ---
 title: "Home Assistant dashboard: Stretch Display Layout"
-description: "A Home Assistant dashboard for a stretched display"
+description: "Home Assistant dashboard layout for a long, portable stretched widescreen display: big readable text for room and house status that you can see from a distance."
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, temperature, CO2, tablet, theme, stretch display, HA Marketplace]
 #image: /homeassistant/images_layout_stretch/ha_layout_stretch_banner.png

@@ -1,6 +1,6 @@
 ---
 title: "Batteries - Best Buy Tips"
-description: "Batteries - Best Buy Tips"
+description: "Batteries and battery eliminators for smart home sensors, from CR2032 coin cells to AA and AAA, plus rechargeable options. Best buy tips."
 category: Buy tips
 tags: [best buy tips, battery, Christmas, DIY]
 image: /buy/images_batteries/battery_banner2.jpg

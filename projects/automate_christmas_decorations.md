@@ -1,5 +1,5 @@
 ---
-title: "Automate Christmas decorations"
+title: "Automate Christmas decorations with Zigbee sockets and Home Assistant"
 description: "How I automated all my Christmas lights and other powered decorations."
 category: Projects
 tags: [hardware, lamps, Christmas, automation, Home Assistant, Zigbee, smart socket, battery, garden, outdoor]

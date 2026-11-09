@@ -1,6 +1,6 @@
 ---
 title: Zigbee USB adapter switch
-description: A Zigbee USB adapter switch to have control of USB devices
+description: "Control the power of USB devices with a Zigbee USB adapter switch: switch each port on and off from Home Assistant, ideal for lights and chargers."
 category: Zigbee
 tags: [Zigbee, hardware, smart socket, USB, Christmas]
 image: /zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png

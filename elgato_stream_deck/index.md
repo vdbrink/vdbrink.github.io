@@ -1,8 +1,8 @@
 ---
 title: "Elgato Stream Deck for a software developer"
-description: "How to use an Elgato Stream Deck as a software developer"
+description: "How I use an Elgato Stream Deck as a software developer: programmable shortcut buttons, live info on the keys, AI agent controls and Home Assistant."
 category: Projects
-tags: [Stream Deck, hardware, buttons, productivity, AI]
+tags: [Stream Deck, hardware, buttons, Home Assistant, productivity, AI]
 image: /elgato_stream_deck/images/actions_sd_app.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

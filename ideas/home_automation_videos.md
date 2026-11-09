@@ -1,8 +1,8 @@
 ---
 title: "Home Automation Videos"
-description: "Home automation videos for inspiration"
+description: "English and Dutch home automation videos that inspired me, from smart home tours to Home Assistant tips, to get ideas for your own setup."
 category: Ideas
-tags: [automation, smart home, videos]
+tags: [automation, smart home, Home Assistant, videos]
 image: /ideas/images/video.png
 ---
 

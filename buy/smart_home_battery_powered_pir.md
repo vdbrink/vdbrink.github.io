@@ -1,8 +1,8 @@
 ---
 title: "Battery powered with PIR - Best Buy Tips"
-description: "Not connected, but still smart with a built-in PIR sensor."
+description: "Battery powered devices with a built-in PIR sensor that are still smart without wifi, perfect for closets and stairs without power. Best buy tips."
 category: Buy tips
-tags: [best buy tips, motion sensor, battery]
+tags: [best buy tips, battery, motion sensor]
 image: /buy/images_diy/battery_powered_pir_lights.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

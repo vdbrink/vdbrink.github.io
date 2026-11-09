@@ -1,8 +1,8 @@
 ---
-title: "Home Automation Ideas"
-description: "Home automation ideas to make your home smart"
+title: "Home automation ideas for devices and rooms around your house"
+description: "A long list of home automation ideas for devices and locations in and around your house, collected from forums and videos for Home Assistant users."
 category: Ideas
-tags: [automation, contact sensor, smart home, ideas]
+tags: [automation, contact sensor, humidity, ideas]
 image: /ideas/images/idea.png
 ---
 

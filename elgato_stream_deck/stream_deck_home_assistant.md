@@ -1,8 +1,8 @@
 ---
 title: "Elgato Stream Deck - Home Assistant integration"
-description: "Elgato Stream Deck integration with Home Assistant"
+description: "Control and monitor Home Assistant from an Elgato Stream Deck: toggle lights and sockets, show live sensor values and trigger scripts with one key press."
 category: Projects
-tags: [Stream Deck, Home Assistant, lamps, CO2, smart socket]
+tags: [Stream Deck, Home Assistant, lamps, sensor, CO2]
 image: /elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.png
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "RSS feed"
+description: "The RSS feed of this blog is available: follow new Home Assistant, ESPHome and Zigbee posts in your feed reader, or browse everything by subject."
 date: 2026-02-03
 permalink: /rss-feed-available
 ---

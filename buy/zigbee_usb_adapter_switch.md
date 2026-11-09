@@ -1,8 +1,8 @@
 ---
 title: "USB adapter switch - Best Buy Tips"
-description: "Switch USB powered devices on and off."
+description: "Zigbee USB adapter switch that toggles the power of each USB port from Home Assistant. Compare the best models and where to buy them."
 category: Buy tips
-tags: [best buy tips, smart socket, USB, Zigbee, Christmas]
+tags: [best buy tips, Zigbee, smart socket, USB, Christmas]
 image: /zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

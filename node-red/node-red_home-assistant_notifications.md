@@ -1,6 +1,6 @@
 ---
 title: "Node-RED send notifications to the Home Assistant app"
-description: "Send notifications to the Home Assistant companion app with Node-RED"
+description: "Send notifications from Node-RED to the Home Assistant companion app on your phone, with actions and images. Flow example you can import."
 category: Node-RED
 tags: [Node-RED, notifications, Home Assistant]
 ---

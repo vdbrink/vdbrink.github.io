@@ -1,8 +1,8 @@
 ---
 title: "Power adapters - Best Buy Tips"
-description: "5V USB power adapters for your devices."
+description: "5V USB power adapters for ESP boards, USB battery eliminators and smart USB adapters in your smart home. Best buy tips with links."
 category: Buy tips
-tags: [best buy tips, Christmas]
+tags: [best buy tips, battery, ESP, DIY, Christmas]
 image: /esphome/images/5v_power_adapter.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

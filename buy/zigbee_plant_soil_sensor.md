@@ -1,8 +1,8 @@
 ---
 title: "Plant soil sensor - Best Buy Tips"
-description: "Know when your plants need water."
+description: "Zigbee plant soil sensors that detect if the soil is too dry or too warm, so you know when your plants need water. Best buy tips and links."
 category: Buy tips
-tags: [best buy tips, sensor, soil sensor, Zigbee]
+tags: [best buy tips, soil sensor, sensor, Zigbee]
 image: /buy/images_zigbee/TS0601_soil_3.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

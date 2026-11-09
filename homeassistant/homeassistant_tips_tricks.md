@@ -1,8 +1,8 @@
 ---
 title: "Home Assistant - Tips & Tricks"
-description: "Home Assistant - Tips & Tricks"
+description: "Useful and hidden Home Assistant tips and tricks, like enlarging the dashboard edit dialog, that make working with your smart home faster and easier."
 category: Home Assistant
-tags: [Home Assistant, dashboard, tips]
+tags: [Home Assistant, dashboard]
 image: /homeassistant/images_tips/dialog_enlarge.png
 ---
 

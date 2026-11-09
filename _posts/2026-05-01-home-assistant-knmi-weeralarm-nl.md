@@ -1,9 +1,10 @@
 ---
 layout: default
 title: "Feed: Home Assistant dashboard - KNMI Weeralarm NL"
+description: "Toon de KNMI weeralarm waarschuwingen direct op je Home Assistant dashboard, met een kleurcode per provincie en een voorbeeld in YAML."
 date: 2026-05-01
 locale: nl
-tags: [Home Assistant, weather, dashboard, Dutch, alarm, weer]
+tags: [Home Assistant, weather, dashboard, Dutch, alarm]
 image: /homeassistant/images_weather/weather_alarm_banner.png
 permalink: /home-assistant-dashboard-knmi-weeralarm-nl
 ---

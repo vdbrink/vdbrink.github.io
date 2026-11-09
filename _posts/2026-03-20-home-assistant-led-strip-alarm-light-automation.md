@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Assistant - LED strip alarm light automation"
+description: "Build a wake-up alarm light with an LED strip in Home Assistant: set the alarm time on your dashboard."
 date: 2026-03-20
 tags: [Home Assistant, lamps, alarm, automation, Node-RED]
 permalink: /home-assistant-led-strip-alarm-light-automation

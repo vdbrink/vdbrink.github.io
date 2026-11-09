@@ -1,6 +1,6 @@
 ---
 title: DIY Zigbee outlet sensor
-description: "Create a non-battery Zigbee sensor"
+description: "Create a DIY Zigbee sensor without batteries by powering a contact sensor from the mains, for devices that always need power like Christmas lights."
 category: Zigbee
 tags: [Zigbee, hardware, sensor, smart socket, DIY, motion sensor, CR2032, Aqara, Christmas]
 ---

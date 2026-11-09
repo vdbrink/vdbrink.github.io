@@ -1,8 +1,8 @@
 ---
 title: "Rain sensor - Best Buy Tips"
-description: "Detect raindrops, already triggered by a single drop."
+description: "Zigbee rain sensor that detects raindrops, already triggered by a single drop, to close windows or awnings in Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, rain, rain sensor, sensor, Zigbee]
+tags: [best buy tips, rain sensor, sensor, Zigbee, Home Assistant]
 image: /buy/images_outdoor/rain_sensor.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

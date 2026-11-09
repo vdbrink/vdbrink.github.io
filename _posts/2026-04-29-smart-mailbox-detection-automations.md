@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Smart traditional mail- and package box"
+description: "Make a traditional mailbox or package box smart with Zigbee contact sensors and get a Home Assistant notification when mail or a package is delivered."
 date: 2026-04-29
 tags: [mailbox, Zigbee, contact sensor, Home Assistant, DIY]
 image: /projects/images_mailbox/mailbox_contact_sensor.jpg

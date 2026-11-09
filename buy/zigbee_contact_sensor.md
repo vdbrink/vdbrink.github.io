@@ -1,8 +1,8 @@
 ---
 title: "Contact sensor - Best Buy Tips"
-description: "Detect open and closed doors, windows and drawers."
+description: "Zigbee contact sensors that detect open and closed doors, windows and drawers with a reed switch for Home Assistant automations. Best buy tips."
 category: Buy tips
-tags: [best buy tips, sensor, contact sensor, Aqara, Zigbee]
+tags: [best buy tips, contact sensor, sensor, Zigbee, Aqara]
 image: /buy/images_zigbee/zigbee_contact_sensor_aqara.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

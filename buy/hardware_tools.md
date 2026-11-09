@@ -1,6 +1,6 @@
 ---
 title: "Hardware tools - Best Buy Tips"
-description: "Useful link to buy hardware tools"
+description: "Useful hardware tools for DIY work, with AliExpress links. Best buy tips for your smart home projects."
 category: Buy tips
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

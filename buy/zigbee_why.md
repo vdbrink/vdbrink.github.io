@@ -1,6 +1,6 @@
 ---
 title: "Why I chose Zigbee - Best Buy Tips"
-description: "Why Zigbee is my protocol of choice."
+description: "Why I chose Zigbee for my smart home instead of WiFi, Bluetooth, Z-Wave, Thread or Matter: reliability, range, price and battery life."
 category: Buy tips
 tags: [best buy tips, Zigbee]
 image: /buy/images_zigbee/zigbee.jpg

@@ -2,7 +2,7 @@
 title: "Home Assistant: Web Scraper"
 description: "Scrape text from a web page or API into a Home Assistant sensor and use it on your dashboard or in automations."
 category: Home Assistant
-tags: [Home Assistant, dashboard]
+tags: [Home Assistant, sensor, DIY, dashboard]
 image: /homeassistant/images_web_scraper/ha_webscraper.png
 ---
 

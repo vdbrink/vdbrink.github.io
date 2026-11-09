@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Feed: Garden gate with waterproof contact sensor"
+description: "Track your garden gate with an IP65 waterproof Zigbee contact sensor: install tips and automation ideas for gates, sheds and mailboxes in Home Assistant."
 date: 2026-08-29
-tags: [Zigbee, contact sensor, outdoor, waterproof, DIY, sensor, garden]
+tags: [Zigbee, contact sensor, outdoor, waterproof, DIY, sensor]
 permalink: /garden-gate-waterproof-contact-sensor
 image: /zigbee/images_waterproof_contact/contact_sensor_closeup.jpg
 ---

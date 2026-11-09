@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Assistant floor plan"
+description: "Create an interactive Home Assistant floor plan dashboard that shows all sensors and lights in your house as overlay on floor map images."
 date: 2026-02-19
 tags: [Home Assistant, floor plan, dashboard]
 permalink: /home-assistant-floor-plan

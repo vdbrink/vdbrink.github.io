@@ -1,6 +1,6 @@
 ---
 title: Plastic milk bottle as compatible Jura container Hack
-description: How to use a plastic milk bottle as a compatible Jura container.
+description: "Use a plastic milk bottle as a cheap compatible milk container for your Jura coffee machine, with a simple hack that fits the milk tube perfectly."
 category: Jura
 tags: [Jura, hack, DIY]
 image: /jura/images_bottle_hack/new_diy_bottle_top.jpg

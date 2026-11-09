@@ -1,6 +1,6 @@
 ---
 title: "Lights - Best Buy Tips"
-description: "Bulbs, GU10 spots and LED strips."
+description: "Zigbee smart lights, like bulbs, GU10 spots and LED strips, that you can dim, color and automate in Home Assistant. Best buy tips and links."
 category: Buy tips
 tags: [best buy tips, lamps, Zigbee, outdoor, garden]
 image: /buy/images_zigbee/gu10_fullcolor.jpg

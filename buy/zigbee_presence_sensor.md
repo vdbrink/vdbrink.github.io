@@ -1,8 +1,8 @@
 ---
 title: "Presence detection sensor - Best Buy Tips"
-description: "Detect people, even when they sit still."
+description: "Zigbee mmWave presence sensors that detect people, even when they sit still, to switch lights on and off in Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, sensor, presence detection, Aqara, Zigbee]
+tags: [best buy tips, presence detection, sensor, Zigbee, Aqara, lamps]
 image: /buy/images_zigbee/aqara_fp300.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

@@ -1,6 +1,6 @@
 ---
 title: "Stream Deck icon gallery"
-description: "Download all my Stream Deck action icons in one place"
+description: "Gallery with all unique Elgato Stream Deck action icons from my setup in one overview. Click an icon to open and download the original image."
 category: Projects
 tags: [Stream Deck]
 #image:

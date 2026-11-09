@@ -1,6 +1,6 @@
 ---
 title: "Smoke detector - Best Buy Tips"
-description: "Get alerted at the first sign of smoke."
+description: "Zigbee smoke detector with an 85 dB alarm that alerts you in Home Assistant at the first sign of smoke. Best buy tips and links."
 category: Buy tips
 tags: [best buy tips, security, Zigbee]
 image: /buy/images_zigbee/smoke_detector.avif

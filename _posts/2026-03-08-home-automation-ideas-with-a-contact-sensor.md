@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home automation ideas with a contact sensor"
+description: "Home automation ideas with a contact sensor: automations for doors, windows, drawers, dishwasher, mailboxes and more, using Home Assistant."
 date: 2026-03-08
 tags: [contact sensor, ideas, Zigbee, Home Assistant, automation]
 permalink: /home-automation-ideas-with-a-contact-sensor

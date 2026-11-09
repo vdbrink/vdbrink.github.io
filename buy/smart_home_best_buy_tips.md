@@ -12,7 +12,7 @@ image: /buy/images_zigbee/zigbee_banner.png
 # Zigbee Smart home - Best Buy Tips
 
 <a href="/buy">
-<img src="images_zigbee/zigbee_banner.png" alt="Banner"/>
+<img src="images_zigbee/zigbee_banner.png" alt="Zigbee best buy tips banner"/>
 </a>
 
 What is a smart home without digital ears and eyes? Sensors are the digital version of those.\

@@ -3,7 +3,7 @@ layout: default
 title: "Feed: AA battery holder to CR2032 adapter"
 description: "Replace a CR2032 coin cell with two AA batteries for a much longer life span."
 date: 2026-06-18
-tags: [battery, CR2032, DIY, sensor, smart home]
+tags: [battery, CR2032, DIY, sensor]
 permalink: /aa-battery-holder-to-cr2032-adapter
 image: /buy/images_batteries/cr2032_to_aa_banner.jpg
 ---

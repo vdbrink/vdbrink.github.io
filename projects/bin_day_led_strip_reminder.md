@@ -1,6 +1,6 @@
 ---
 title: "Bin day - LED strip reminder"
-description: "How to create a LED strip bin day reminder"
+description: "Create a bin day reminder with an LED strip that turns on when a bin needs to go out, using the waste collection schedule and a Node-RED flow."
 category: Projects
 tags: [lamps, bin day, Node-RED, Home Assistant]
 image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png

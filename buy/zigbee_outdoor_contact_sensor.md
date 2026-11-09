@@ -1,6 +1,6 @@
 ---
 title: "Waterproof contact sensor - Best Buy Tips"
-description: "Detect a gate, shed door or mailbox, also in the rain."
+description: "IP65 waterproof Zigbee contact sensor for a gate, shed door or mailbox that keeps working in the rain. Best buy tips for Home Assistant."
 category: Buy tips
 tags: [best buy tips, sensor, contact sensor, Zigbee, outdoor, waterproof]
 image: /buy/images_outdoor/zigbee_contact_sensor_waterproof.png

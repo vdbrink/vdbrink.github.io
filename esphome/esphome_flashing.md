@@ -1,6 +1,6 @@
 ---
 title: "ESPHome: Flash the config to the ESP"
-description: "How to flash the config to the ESP board"
+description: "How to flash an ESPHome config to an ESP board for the first time and with over-the-air updates, via the dashboard, a browser or the command line."
 category: ESPHome
 tags: [ESP, ESPHome, DIY]
 image: esphome/images/esphome.png

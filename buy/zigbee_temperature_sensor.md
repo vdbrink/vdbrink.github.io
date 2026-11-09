@@ -1,6 +1,6 @@
 ---
 title: "Temperature sensor - Best Buy Tips"
-description: "Temperature and humidity for every room."
+description: "Zigbee temperature and humidity sensors for every room, for automations like a shower fan or heating control in Home Assistant. Best buy tips."
 category: Buy tips
 tags: [best buy tips, temperature, sensor, humidity, Aqara, Zigbee, garden, outdoor]
 image: /buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp

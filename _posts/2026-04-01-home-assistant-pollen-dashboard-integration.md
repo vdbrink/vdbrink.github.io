@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Assistant - HACS Kleenex Pollen Radar"
+description: "Show pollen levels for trees, grass and weeds on your Home Assistant dashboard with the HACS Kleenex Pollen Radar integration. Setup and YAML dashboard examples."
 date: 2026-04-01
 tags: [Home Assistant, pollen, air quality, dashboard, HACS, HA Marketplace]
 permalink: /home-assistant-hacs-kleenex-pollen-radar

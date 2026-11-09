@@ -1,8 +1,8 @@
 ---
 title: "Soil sensor - Best Buy Tips"
-description: "Know if your garden plants have enough water."
+description: "Zigbee soil moisture sensors for the garden that tell you when plants need water, or start the irrigation automatically. Best buy tips."
 category: Buy tips
-tags: [best buy tips, sensor, soil sensor, Zigbee, outdoor]
+tags: [best buy tips, soil sensor, sensor, Zigbee, outdoor]
 image: /zigbee/images_soil_sensor/NAS-STH02B2.png
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

@@ -1,8 +1,8 @@
 ---
 title: "Home Assistant: Templates"
-description: "Home Assistant Templates examples and how to create them"
+description: "Home Assistant template examples and a guide to create your own helper templates, custom sensors and conditions for dashboards and automations."
 category: Home Assistant
-tags: [Home Assistant, templates]
+tags: [HACS, Home Assistant, templates, sensor, lamps, HA Marketplace]
 image: /homeassistant/images_templates/ha_templates_banner.png
 ---
 

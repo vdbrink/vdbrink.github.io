@@ -1,8 +1,8 @@
 ---
 title: "Outdoor socket - Best Buy Tips"
-description: "Water-resistant smart sockets with power measurement."
+description: "Water-resistant Zigbee outdoor sockets with power measurement for garden lights, Christmas decorations or a pump. Best buy tips for Home Assistant."
 category: Buy tips
-tags: [best buy tips, smart socket, Zigbee, outdoor, garden, Christmas]
+tags: [best buy tips, Zigbee, lamps, Home Assistant, outdoor]
 image: /buy/images_zigbee/ledvance_outdoor_plug.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

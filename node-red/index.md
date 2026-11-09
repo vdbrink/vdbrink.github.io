@@ -1,6 +1,7 @@
 ---
 title: "Node-RED: flows, cheat sheets and Home Assistant examples"
 description: Node-RED is a graphical programming tool based on blocks (nodes) which can be linked to each other to create automations.
+tags: [Node-RED, Home Assistant, automation]
 category: Node-RED
 image: /node-red/images/banner.png
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Home office: Mood board"
-description: "Home office desk setup mood board"
+description: "Start your home office design with a Pinterest mood board: how I collected colors, materials and desk setup photos to find a clear style for my room."
 category: Office
 tags: [home office, mossarium, Pinterest]
 image: /desk/images/home_office_desk_result3.jpg

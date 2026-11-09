@@ -1,6 +1,6 @@
 ---
 title: "Home office: Desk setup hardware"
-description: "Home office desk setup hardware"
+description: "The hardware of my home office desk setup: desk, monitor and arm, laptop, keyboard, chair, mouse and accessories, with an Amazon shop list."
 category: Office
 tags: [hardware, home office, standing desk, accessories]
 image: /desk/images/youp02_desk.jpg

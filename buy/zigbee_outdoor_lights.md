@@ -1,8 +1,8 @@
 ---
 title: "Outdoor lights - Best Buy Tips"
-description: "Spotlights, floodlights and LED strips for your garden."
+description: "Zigbee outdoor lights like spotlights, floodlights and LED strips for your garden that you can automate in Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, lamps, Zigbee, outdoor, garden]
+tags: [best buy tips, lamps, Zigbee, Home Assistant, outdoor]
 image: /buy/images_outdoor/zigbee_spotlight.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

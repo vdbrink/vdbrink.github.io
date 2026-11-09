@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Assistant - Mushroom Chip card"
+description: "Use Mushroom chip cards on your Home Assistant dashboard: small icons with custom colors and text."
 date: 2026-03-31
 tags: [Home Assistant, dashboard, Mushroom, HACS, HA Marketplace]
 permalink: /home-assistant-dashboard-mushroom-chips

@@ -1,8 +1,8 @@
 ---
 title: "Home Assistant - HACS Afvalbeheer"
-description: "Setup Home Assistant Afvalbeheer integration"
+description: "Show your waste collection calendar in Home Assistant with the HACS Afvalbeheer integration: dashboard card examples for the Dutch and Belgian bin days."
 category: Home Assistant
-tags: [HACS, Home Assistant, bin day, auto-entities, Mushroom, Dutch, HA Marketplace]
+tags: [HACS, Home Assistant, bin day, auto-entities, Mushroom, dashboard, Dutch, HA Marketplace]
 image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
 ---
 

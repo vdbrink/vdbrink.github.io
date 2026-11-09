@@ -1,7 +1,8 @@
 ---
 title: "Household - Best Buy Tips"
-description: "Useful link to buy household items"
+description: "Handy household items I use and recommend. Best buy tips."
 date: 2024-05-01
+tags: [best buy tips]
 category: Buy tips
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

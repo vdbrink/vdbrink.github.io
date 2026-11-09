@@ -1,8 +1,8 @@
 ---
 title: "Leak sensor - Best Buy Tips"
-description: "Get warned about water leaks early."
+description: "Zigbee water leak sensors that warn you early about leaks under the sink, washing machine or boiler. Best buy tips and links for Home Assistant."
 category: Buy tips
-tags: [best buy tips, leak sensor, Aqara, Zigbee]
+tags: [best buy tips, leak sensor, Zigbee, Aqara]
 image: /buy/images_zigbee/aqara_leak_sensor.webp
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

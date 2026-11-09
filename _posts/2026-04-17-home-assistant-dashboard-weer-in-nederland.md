@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Assistant dashboard - Weer in Nederland"
+description: "Home Assistant dashboard voor het weer in Nederland: Buienradar, KNMI weeralarm, pollen en voorspellingen, met kant-en-klare YAML voorbeelden."
 date: 2026-04-17
 locale: nl
 tags: [Home Assistant, weather, dashboard, Dutch, HACS, HA Marketplace]

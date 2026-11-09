@@ -1,6 +1,6 @@
 ---
 title: "Home office: Accessories"
-description: "Home office desk accessories"
+description: "Home office accessories I use: cable management, monitor light, desk mat, headset, laptop stand, desk clock and phone chargers, with buy links."
 category: Office
 tags: [hardware, home office, lamps, accessories]
 ---

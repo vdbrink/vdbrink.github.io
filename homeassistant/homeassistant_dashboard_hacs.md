@@ -1,8 +1,8 @@
 ---
 title: "Home Assistant dashboard: Useful HACS custom elements"
-description: "Useful HACS custom elements for your Home Assistant dashboard."
+description: "Useful HACS custom cards for your Home Assistant dashboard, with install buttons and YAML examples for extra features that are not available by default."
 category: Home Assistant
-tags: [HACS, Home Assistant, dashboard, Mushroom, auto-entities, HA Marketplace]
+tags: [HACS, Home Assistant, dashboard, Mushroom, auto-entities, templates, HA Marketplace]
 image: /homeassistant/images/home_assistant_logo.png
 ---
 # Home Assistant dashboard: Useful HACS custom elements

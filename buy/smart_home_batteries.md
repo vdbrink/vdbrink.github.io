@@ -1,6 +1,6 @@
 ---
 title: "Smart home batteries - Best Buy Tips"
-description: "Common battery types and battery eliminators."
+description: "Common battery types for smart home sensors and battery eliminators to power battery devices from the mains. Best buy tips and links."
 category: Buy tips
 tags: [best buy tips, battery, Christmas, garden, outdoor]
 image: /buy/images_diy/battery_eliminator.png

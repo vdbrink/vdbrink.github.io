@@ -1,8 +1,8 @@
 ---
 title: "Pressure sensor - Best Buy Tips"
-description: "Detect weight on a chair, bed or mat."
+description: "Zigbee pressure sensors and mats that detect weight on a chair, bed, sofa or carpet for presence automations in Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, sensor, Zigbee, pressure sensor]
+tags: [best buy tips, sensor, Zigbee, presence detection, pressure sensor]
 image: /buy/images_zigbee/pressure_sensor.avif
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

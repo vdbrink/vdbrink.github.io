@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Tour Videos"
+description: "A collection of smart home tour videos from other home automation fans, to get inspiration for your own Home Assistant automations and setup."
 date: 2026-04-22
 tags: [Home Assistant, ideas, videos, smart home]
 image: /ideas/images/video.png

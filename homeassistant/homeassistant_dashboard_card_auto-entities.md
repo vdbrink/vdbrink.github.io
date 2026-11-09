@@ -1,6 +1,6 @@
 ---
 title: "Home Assistant dashboard custom element: Auto-entities"
-description: "Home Assistant dashboard custom element: Auto-entities"
+description: "Use the HACS custom auto-entities card in Home Assistant to build dynamic lists that filter and sort entities, with copy-paste YAML dashboard examples."
 category: Home Assistant
 tags: [HACS, Home Assistant, auto-entities, dashboard, HA Marketplace]
 image: /homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png

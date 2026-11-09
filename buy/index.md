@@ -1,6 +1,7 @@
 ---
 title: Best Buy Tips
-description: "Useful link to buy hardware for your smart home"
+description: "Best buy tips for your smart home: the Zigbee sensors, lights, sockets and ESP parts I actually use and tested at home, with links to buy them."
+tags: [best buy tips, sensor, Zigbee, DIY]
 category: Best Buy Tips
 ---
 # Best Buy Tips

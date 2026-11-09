@@ -1,8 +1,8 @@
 ---
 title: "Node-RED calculate diff in time"
-description: "Node-RED calculate diff in time"
+description: "Node-RED flow to calculate how much a temperature or humidity changed within a time window and trigger an action. Flow example to import."
 category: Node-RED
-tags: [Node-RED]
+tags: [Node-RED, temperature, humidity]
 ---
 
 {% capture imgHeight %}50{% endcapture %}

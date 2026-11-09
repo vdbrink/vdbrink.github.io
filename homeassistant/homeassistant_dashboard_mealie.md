@@ -278,7 +278,7 @@ http://< ip-address >:9925/api/media/recipes/{{states('sensor.mealie_todays_meal
 
 When you click on `submit`, you have a new sensor called `image.mealie_today_meal`.
 
-<img src="images_mealie/day_meal_image.png" alt="picture" width="400px">
+<img src="images_mealie/day_meal_image.png" alt="Mealie meal of the day image on the dashboard" width="400px">
 
 #### Card element
 

@@ -1,6 +1,7 @@
 ---
 title: "Home Assistant dashboard examples"
 description: "Home Assistant dashboard examples with copy-paste code: templates, HACS cards, floor plan, weather and more."
+tags: [Home Assistant, dashboard, HACS, templates, HA Marketplace]
 category: Home Assistant
 image: /homeassistant/images/ha_banner.png
 ---

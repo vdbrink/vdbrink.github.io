@@ -1,8 +1,8 @@
 ---
 title: "Smart socket - Best Buy Tips"
-description: "Switch any plugged-in device and measure its power."
+description: "Zigbee smart sockets that switch any plugged-in device and measure its power use, also extending your Zigbee network. Best buy tips for Home Assistant."
 category: Buy tips
-tags: [best buy tips, smart socket, Aqara, Zigbee, Christmas]
+tags: [best buy tips, smart socket, Zigbee, Aqara, Christmas]
 image: /esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

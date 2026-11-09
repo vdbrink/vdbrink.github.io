@@ -1,6 +1,6 @@
 ---
 title: "Waterproof temperature sensor - Best Buy Tips"
-description: "Measure the outdoor temperature and humidity."
+description: "Waterproof Zigbee temperature and humidity sensors for outside, to track the weather or protect your plants against frost. Best buy tips."
 category: Buy tips
 tags: [best buy tips, temperature, sensor, humidity, Zigbee, outdoor, waterproof, garden]
 image: /buy/images_outdoor/zigbee_temperature_humidity_sensor_waterproof.png

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: Home Assistant - Hidden features"
+description: "Hidden Home Assistant features, like enlarging the edit dialog."
 date: 2026-03-09
 tags: [Home Assistant, dashboard, tips]
 permalink: /home-assistant-hidden-features

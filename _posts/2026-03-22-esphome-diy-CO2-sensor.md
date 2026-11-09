@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Feed: ESPHome - DIY CO2 sensor"
+description: "Build your own ESPHome SCD CO2 sensor for Home Assistant, to get notified when the air quality becomes bad."
 date: 2026-03-22
 tags: [ESPHome, ESP, CO2, air quality, sensor, DIY, soldering, home office]
 permalink: /esphome-DIY-CO2-sensor

@@ -1,11 +1,12 @@
 ---
 title: "Sponsor me"
 description: "Support this home automation blog with a donation via PayPal, Buy Me A Coffee or GitHub Sponsors."
+sitemap: false
 
 ---
 # Sponsor me
 
-<img style="float: right;margin-left:20px" src="images/avatar.jpg" alt="me" width="100px">
+<img style="float: right;margin-left:20px" src="images/avatar.jpg" alt="The author of this blog" width="100px">
 
 Do you like what you read here? Consider supporting me, so I can write more articles like the ones you find here.
 

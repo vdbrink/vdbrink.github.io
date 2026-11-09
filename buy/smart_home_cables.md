@@ -1,6 +1,6 @@
 ---
 title: "Cables - Best Buy Tips"
-description: "USB cables and extension cables for your ESP and Zigbee stick."
+description: "USB cables and extension cables to power an ESP board and to place a Zigbee USB stick away from interference. Best buy tips for your smart home."
 category: Buy tips
 tags: [best buy tips, DIY]
 image: /esphome/images/micro_usb_cable.jpg

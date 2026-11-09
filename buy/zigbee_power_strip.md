@@ -1,6 +1,6 @@
 ---
 title: "Power strip - Best Buy Tips"
-description: "Several smart sockets in one strip."
+description: "Zigbee power strip with several independently controlled outlets and USB ports, cheaper than single smart sockets. Best buy tips for Home Assistant."
 category: Buy tips
 tags: [best buy tips, smart socket, Zigbee]
 image: /buy/images_zigbee/powerstrip.avif
