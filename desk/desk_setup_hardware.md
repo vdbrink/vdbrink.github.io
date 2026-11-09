@@ -308,7 +308,7 @@ Think Apple Magic Keyboard, but with a numpad plus media and brightness function
 The [Logitech MX Keys S (QWERTY)](https://www.logitech.com/en-eu/shop/p/mx-keys-s.920-011587) was the obvious choice.
 It exceeds my wish list, switches between three devices, lights up when your hands approach, and charges via USB-C.
 
-[![MX Keys S](http://img.youtube.com/vi/JAaat5n8WOA/0.jpg)](https://www.youtube.com/watch?v=JAaat5n8WOA "MX Keys S Combo Master Your Flow")
+[![MX Keys S](https://img.youtube.com/vi/JAaat5n8WOA/0.jpg)](https://www.youtube.com/watch?v=JAaat5n8WOA "MX Keys S Combo Master Your Flow")
 <br>
 <em style="display:block; text-align:center">YouTube product video about the Logitech MX Keys</em>
 

@@ -18,7 +18,7 @@ Here you find some English and Dutch spoken videos that inspired me how other pe
 I hope they inspire you too!
 
 But first, a funny video why you should not rely on a single way to control your home.\
-[![Funny voice controlled home](http://img.youtube.com/vi/nwPtcqcqz00/0.jpg)](http://www.youtube.com/watch?v=nwPtcqcqz00 "Funny voice controlled home")
+[![Funny voice controlled home](https://img.youtube.com/vi/nwPtcqcqz00/0.jpg)](https://www.youtube.com/watch?v=nwPtcqcqz00 "Funny voice controlled home")
 
 ---
 
@@ -39,7 +39,7 @@ English spoken home automation videos for inspiration:
 [The whole playlist of Smart Home Tours by Smart Home Solver](https://www.youtube.com/playlist?list=PLERasyubmasVHFLS0ZR4vdg3PVC09hE99)
 <br>
 
-[Home Alone movie with a smart home](http://www.youtube.com/watch?v=-lfHXKbsMLE)
+[Home Alone movie with a smart home](https://www.youtube.com/watch?v=-lfHXKbsMLE)
 
 ---
 

@@ -156,7 +156,7 @@ Technically a Stream Deck is one big LCD screen split into regions, so each butt
 Each button is transparent so you can see what's displayed behind it.
 Here is a YouTube video of a tear down of a Stream Deck.
 
-[![Tear down of a Stream Deck](http://img.youtube.com/vi/rOQu9_t2zOY/0.jpg)](http://www.youtube.com/watch?v=rOQu9_t2zOY "Tear down of a Stream Deck")
+[![Tear down of a Stream Deck](https://img.youtube.com/vi/rOQu9_t2zOY/0.jpg)](https://www.youtube.com/watch?v=rOQu9_t2zOY "Tear down of a Stream Deck")
 <em style="display:block;">Tear down of a Stream Deck</em>
 
 <p class="sd-back-to-top"><a href="#table-of-contents"><svg aria-label="up arrow" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg> table of contents</a></p>

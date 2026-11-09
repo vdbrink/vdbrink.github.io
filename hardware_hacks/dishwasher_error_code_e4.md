@@ -21,7 +21,7 @@ When I googled the E4 error code, I found that most dishwasher manufacturers use
 
 This is a video showing the error I encountered:
 
-[![Dishwasher in E4 error mode](http://img.youtube.com/vi/mP1gErJZj4Q/0.jpg)](https://www.youtube.com/shorts/mP1gErJZj4Q "Dishwasher in E4 error mode")
+[![Dishwasher in E4 error mode](https://img.youtube.com/vi/mP1gErJZj4Q/0.jpg)](https://www.youtube.com/shorts/mP1gErJZj4Q "Dishwasher in E4 error mode")
 
 I managed to fix it myself! Read on to find out how...
 
@@ -48,7 +48,7 @@ If the error isn't fixed, try these alternative solutions:
 * Check if there's a kink in the inlet hose that might be preventing water from entering the machine;
     * Also check the drain hose for any kinks that might be blocking waste water from exiting;
 * Check if there's any debris in the drain filter that could be blocking the water from draining properly.
-  [![Dishwasher check for debris in the drain filter](http://img.youtube.com/vi/I7jVMQhj4jc/0.jpg)](https://www.youtube.com/shorts/I7jVMQhj4jc?mute=1;autoplay=1 "Dishwasher check for debris in the drain filter")
+  [![Dishwasher check for debris in the drain filter](https://img.youtube.com/vi/I7jVMQhj4jc/0.jpg)](https://www.youtube.com/shorts/I7jVMQhj4jc?mute=1;autoplay=1 "Dishwasher check for debris in the drain filter")
 * Unplug the dishwasher for a few minutes and plug it back in to see if that resets the error state.
 
 If none of these attempts help, then it's time to call a professional.

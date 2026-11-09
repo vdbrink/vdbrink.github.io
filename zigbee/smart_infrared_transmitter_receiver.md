@@ -140,7 +140,7 @@ This device is also [compatible with ZHA](https://zigbee.blakadder.com/Moes_UFO-
 
 This YouTube video explains how to integrate the UFO-R11 with ZHA.
 
-[![IR blaster (UFO-R11) integration to Home Assistant with ZHA](http://img.youtube.com/vi/d1kkJpolE1w/0.jpg)](https://www.youtube.com/watch?v=d1kkJpolE1w "IR blaster (UFO-R11) integration to Home Assistant with ZHA")
+[![IR blaster (UFO-R11) integration to Home Assistant with ZHA](https://img.youtube.com/vi/d1kkJpolE1w/0.jpg)](https://www.youtube.com/watch?v=d1kkJpolE1w "IR blaster (UFO-R11) integration to Home Assistant with ZHA")
 
 ### Option 2: via Zigbee2MQTT
 

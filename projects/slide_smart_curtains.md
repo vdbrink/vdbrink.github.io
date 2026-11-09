@@ -75,7 +75,7 @@ You only need some space on each end of the U-rail to attach the end-holders.
 This video shows the basic installation steps to take. 
 When installing it yourself, the app contains a lot of steps to help you through the process and gives you the opportunity to install it also for left/right/middle opening curtains.
 
-[![Slide Hardware installation](http://img.youtube.com/vi/V1wGxKrV05Q/0.jpg)](http://www.youtube.com/watch?v=V1wGxKrV05Q "Slide Hardware installation")
+[![Slide Hardware installation](https://img.youtube.com/vi/V1wGxKrV05Q/0.jpg)](https://www.youtube.com/watch?v=V1wGxKrV05Q "Slide Hardware installation")
 
 ---
 

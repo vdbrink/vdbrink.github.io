@@ -109,7 +109,7 @@ This is how the system works to prevent taking a previously delivered package ou
 
 An instruction video about how the Allux 600 works:
 
-[![Allux 600 usage](http://img.youtube.com/vi/9A3NI7MjIkA/0.jpg)](http://www.youtube.com/watch?v=9A3NI7MjIkA "Allux 600 usage")
+[![Allux 600 usage](https://img.youtube.com/vi/9A3NI7MjIkA/0.jpg)](https://www.youtube.com/watch?v=9A3NI7MjIkA "Allux 600 usage")
 
 Click on the above image to see the video.
 
@@ -681,7 +681,7 @@ Here are some links where you can find actual prices for the Allux 600.
 
 You can also buy a small additional metal plate to block the lid from opening, to prevent fireworks being thrown into the box at the end of the year.
 
-[![Firework protection metal](images_allux-600/fireworks_protection.jpg)](http://www.youtube.com/watch?v=gc52z0xg0Og "Firework protection metal")
+[![Firework protection metal](images_allux-600/fireworks_protection.jpg)](https://www.youtube.com/watch?v=gc52z0xg0Og "Firework protection metal")
 
 Did you create one yourself? Let me know!
 

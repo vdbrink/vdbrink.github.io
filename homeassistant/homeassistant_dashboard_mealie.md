@@ -142,7 +142,7 @@ Check this page for the installation details [https://github.com/alexbelgium/has
 
 Smart Home Junkie created a step-by-step video about the installation in HA.
 
-[![Mealie HA installation](http://img.youtube.com/vi/dd5t3vBOZUM/0.jpg)](http://www.youtube.com/watch?v=dd5t3vBOZUM "Mealie HA installation")
+[![Mealie HA installation](https://img.youtube.com/vi/dd5t3vBOZUM/0.jpg)](https://www.youtube.com/watch?v=dd5t3vBOZUM "Mealie HA installation")
 
 ---
 ## Add recipes

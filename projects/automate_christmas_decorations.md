@@ -117,7 +117,7 @@ These advantages must be enough excuses to automate these decorations. I even co
 
 Home Alone with a smart home is like:
 
-[![Home Alone with a smart home](http://img.youtube.com/vi/-lfHXKbsMLE/0.jpg)](http://www.youtube.com/watch?v=-lfHXKbsMLE "Home Alone with a smart home")
+[![Home Alone with a smart home](https://img.youtube.com/vi/-lfHXKbsMLE/0.jpg)](https://www.youtube.com/watch?v=-lfHXKbsMLE "Home Alone with a smart home")
 
 ---
 ## My old situation

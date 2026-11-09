@@ -57,6 +57,38 @@ sass:
   quiet_deps: true
   style: compressed
 
+# Readable names for URL folders, used by the BreadcrumbList JSON-LD (_includes/jsonld.html)
+breadcrumb_names:
+  homeassistant: Home Assistant
+  esphome: ESPHome
+  zigbee: Zigbee
+  node-red: Node-RED
+  desk: Home office
+  buy: Best buy tips
+  projects: Projects
+  frigate: Frigate
+  proxmox: Proxmox
+  docker: Docker
+  elgato_stream_deck: Stream Deck
+  ideas: Ideas
+  jura: Jura
+  matter: Matter
+  mealie: Mealie
+  magicmirror: MagicMirror
+  pihole: Pi-hole
+  rhasspy: Rhasspy
+  ollama: Ollama
+  ai: AI
+  android: Android
+  mac: Mac
+  windows: Windows
+  tasker: Tasker
+  hardware_hacks: Hardware hacks
+  smarthomeserver: Smart home server
+  github_pages: GitHub Pages
+  home_automation_categories: Home automation categories
+  shop: Shop
+
 last-modified-at:
   date-format: 'last modified: %d/%b/%y'
 

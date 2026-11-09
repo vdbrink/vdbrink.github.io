@@ -72,7 +72,7 @@ With this 3D printed holder, you can hold the pipe via a magnet straight up.
 ---
 ## Block the water filter signal
 
-[![No water filter check](http://img.youtube.com/vi/hD7-6RrvibI/0.jpg)](https://youtu.be/hD7-6RrvibI?si=HINRtCCPj2ROOyY- "No water filter check")
+[![No water filter check](https://img.youtube.com/vi/hD7-6RrvibI/0.jpg)](https://youtu.be/hD7-6RrvibI?si=HINRtCCPj2ROOyY- "No water filter check")
 
 ---
 

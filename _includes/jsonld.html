@@ -15,6 +15,8 @@
     {%- assign path = path | append: "/" | append: seg -%}
     {%- assign pos = pos | plus: 1 -%}
     {%- assign seg_name = seg | remove: ".html" | replace: "_", " " | replace: "-", " " | capitalize -%}
+    {%- assign seg_key = seg | remove: ".html" -%}
+    {%- if site.breadcrumb_names[seg_key] -%}{%- assign seg_name = site.breadcrumb_names[seg_key] -%}{%- endif -%}
     {%- if forloop.index0 == last_idx -%}{%- assign seg_name = page.title | default: seg_name | strip_html | strip -%}{%- endif -%}
     ,
     {"@type": "ListItem", "position": {{ pos }}, "name": {{ seg_name | jsonify }}, "item": {{ path | absolute_url | jsonify }}}

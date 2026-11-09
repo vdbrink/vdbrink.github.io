@@ -45,11 +45,11 @@ It isn't a Zigbee device (these devices don't exist with Zigbee) but a WiFi weat
 
 Video with the Ecowitt Wittboy functionalities:
 
-[![Ecowitt Weather Station](http://img.youtube.com/vi/1zMqGfrySnc/0.jpg)](https://www.youtube.com/watch?v=1zMqGfrySnc "Ecowitt Weather Station")
+[![Ecowitt Weather Station](https://img.youtube.com/vi/1zMqGfrySnc/0.jpg)](https://www.youtube.com/watch?v=1zMqGfrySnc "Ecowitt Weather Station")
 
 Video with the Ecowitt Wittboy review:
 
-[![Ecowitt Weather Station](http://img.youtube.com/vi/lz2TipTphbc/0.jpg)](https://www.youtube.com/watch?v=lz2TipTphbc&t=201s "Ecowitt Weather Station")
+[![Ecowitt Weather Station](https://img.youtube.com/vi/lz2TipTphbc/0.jpg)](https://www.youtube.com/watch?v=lz2TipTphbc&t=201s "Ecowitt Weather Station")
 
 ## Related articles
 

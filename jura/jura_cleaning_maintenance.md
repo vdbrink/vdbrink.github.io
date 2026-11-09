@@ -51,7 +51,7 @@ Most parts can be cleaned in the dishwasher, or even better, by hand with warm w
 
 Check out this video how you can optimally clean the machine.
 
-[![Otimal use](http://img.youtube.com/vi/MLyKZzSN-xc/0.jpg)](https://youtu.be/LIH6FDcM5mo?si=Yreors0xuKQ7hsLl "Optimal use")
+[![Otimal use](https://img.youtube.com/vi/MLyKZzSN-xc/0.jpg)](https://youtu.be/LIH6FDcM5mo?si=Yreors0xuKQ7hsLl "Optimal use")
 
 ---
 ## Milk system
@@ -72,7 +72,7 @@ The Jura Z10 has a milk system cleaning program that you can choose manually to 
 
 Check out this video how to clean the milk system.
 
-[![Cleaning the milk system](http://img.youtube.com/vi/BPajXOZCEPo/0.jpg)](https://www.youtube.com/watch?v=BPajXOZCEPo "Cleaning the milk system")
+[![Cleaning the milk system](https://img.youtube.com/vi/BPajXOZCEPo/0.jpg)](https://www.youtube.com/watch?v=BPajXOZCEPo "Cleaning the milk system")
 
 ---
 ## Internal brewing unit
@@ -85,7 +85,7 @@ You can also trigger the cleaning program manually by <TODO>
 
 Check out this video how to run the brewing unit cleaning program with cleaning tablets.
 
-[![Cleaning the brewing unit](http://img.youtube.com/vi/MLyKZzSN-xc/0.jpg)](https://www.youtube.com/watch?v=MLyKZzSN-xc "Cleaning the brewing unit")
+[![Cleaning the brewing unit](https://img.youtube.com/vi/MLyKZzSN-xc/0.jpg)](https://www.youtube.com/watch?v=MLyKZzSN-xc "Cleaning the brewing unit")
 
 There are different cleaning tablets brands available for Jura machines:
 * {{imgBasket}}Urnex Cafiza 100 cleaning tablets, [Urnex Cafiza instructions](https://urnex.com/blog/brew-group-cleaning-guide)
@@ -114,7 +114,7 @@ You can use tabs, powder or liquid descaling agents to descale the machine.
 
 Check out this video how to run the descaling cleaning program.
 
-[![Descaling program](http://img.youtube.com/vi/cf8u-9VGFxE/0.jpg)](https://www.youtube.com/watch?v=cf8u-9VGFxE "Descaling program")
+[![Descaling program](https://img.youtube.com/vi/cf8u-9VGFxE/0.jpg)](https://www.youtube.com/watch?v=cf8u-9VGFxE "Descaling program")
 
 There are all kinds of descaling products available which can be used for kettles, but those can also be used for your coffee machine.
 

@@ -147,7 +147,7 @@ Install this integration, via this button, into your own Home Assistant instance
 
 In this video you can see how to implement the fullscreen popup with the Bubble Card.
 
-[![Home Assistant Reolink Video Doorbell Pop Up - With Pop Up Time Fix](http://img.youtube.com/vi/T2rtGrxSgcI/0.jpg)](https://www.youtube.com/watch?v=T2rtGrxSgcI "Home Assistant Reolink Video Doorbell Pop Up - With Pop Up Time Fix")
+[![Home Assistant Reolink Video Doorbell Pop Up - With Pop Up Time Fix](https://img.youtube.com/vi/T2rtGrxSgcI/0.jpg)](https://www.youtube.com/watch?v=T2rtGrxSgcI "Home Assistant Reolink Video Doorbell Pop Up - With Pop Up Time Fix")
 
 <em>Click to start the YouTube video</em>
 
