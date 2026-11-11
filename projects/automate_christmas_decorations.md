@@ -257,17 +257,17 @@ As you could read, there are multiple combinations possible to control battery p
 It really depends on how many devices you want to control at once and how close they are to each other, to find the best combination for your case.
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/batteries#battery-eliminators" target="_blank"><img src="/projects/images_christmas_decorations/battery_eliminator.webp" alt="Battery to USB (battery eliminator)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Battery</span><strong>Battery to USB (battery eliminator)</strong>
 <p>Available for AA and AAA batteries and with multiple "dummy" batteries. Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use an electronic wire to connect the ends.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V EU USB power adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V EU USB power adapter</strong>
-<p>To power the USB battery eliminators.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
+<p>To power the USB battery eliminators or the USB adapter.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
@@ -275,17 +275,17 @@ It really depends on how many devices you want to control at once and how close 
 <p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/esphome_diy#usb-hub" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">USB</span><strong>Active USB hub</strong>
 <p>To power multiple USB battery eliminators at once. In combination with the socket, you can automate them.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/esphome_diy#usb-hub" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/esphome_diy#usb-hub" target="_blank">Buy tips</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_usb_adapter_switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter</strong>
 <p>To control and power a maximum of 3 USB devices individually. You can choose an adapter with 1, 2 or 3 ports.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_usb_adapter_switch" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_usb_adapter_switch" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -334,17 +334,17 @@ There are all kinds of battery-powered lights available which can be controlled 
 With this project, all these lights can now be automated as well!
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="/buy/zigbee_infrared_remote" target="_blank"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="Programmable infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Transmitter</span><strong>Programmable infrared remote</strong>
 <p>It can learn signals from the original remote, and via WiFi or Zigbee you can resend the copied signal to simulate the press on the button via an automation.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/zigbee_infrared_remote" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="/buy/zigbee_infrared_remote" target="_blank">Buy tips</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank"><img src="/buy/images_diy/led_lamp_with_remote.avif" alt="Colored LED lights (1 - 6)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">LED lights</span><strong>Colored LED lights (1 - 6)</strong>
 <p>Wireless, battery-powered LED lights with different colors and brightness, controlled by a remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c3RXIAPn" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
@@ -389,11 +389,11 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 </a>
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas light string plug 31V/3.6W" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Tree lights</span><strong>Christmas light string plug 31V/3.6W</strong>
 <p>The same plug as my original one, but without a power button and without disco modes, just always on.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">AliExpress</a></p></div>
 </div>
 </div>
 
@@ -409,11 +409,11 @@ Or if you're familiar with soldering and electronics, you can modify the current
 ### Decorations powered with a power plug
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or look for a smart socket that fits your country.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -437,17 +437,17 @@ The number of these socket models is limited.
 If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://amzn.to/40SVJoc#ad" target="_blank"><img src="/buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous Zigbee dual port outdoor socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Outdoor socket</span><strong>Nous Zigbee dual port outdoor socket</strong>
 <p>An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon NL</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://amzn.to/3Vt83Ip#ad" target="_blank"><img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr Zigbee outdoor socket (dual pack)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Outdoor socket</span><strong>Innr Zigbee outdoor socket (dual pack)</strong>
 <p>Can handle 2300 W and has an IP44 rating, without power measurement.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/3Vt83Ip#ad" target="_blank">Amazon US</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/3Vt83Ip#ad" target="_blank">Amazon US</a></p></div>
 </div>
 </div>
 

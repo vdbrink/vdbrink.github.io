@@ -74,11 +74,11 @@ A schematic presentation of how my solution works and which protocols are used.
 These are the hardware components I use for this project:
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <img src="/esphome/orcon_images/orcon_15rf_remote.jpg" alt="Original Orcon 15RF remote control" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Remote</span><strong>Original Orcon 15RF remote control</strong>
 <p>The original RF remote that is connected to the ESP.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/" target="_blank">Ventilatieshop</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://www.ventilatieshop.com/orcon-afstandbediening-rf-voor-mvs-woonhuisventilatoren/" target="_blank">Ventilatieshop</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <img src="/esphome/images/esp8266_nodemcu.jpg" alt="ESP8266 NodeMCU v3" loading="lazy">
@@ -104,23 +104,23 @@ These are the hardware components I use for this project:
 <p>Also 1 mm pitch (NOT the 0.5 mm). The length and if the connectors are on the same side is up to you.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEsQVNl" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c30XX6Kb" target="_blank">AliExpress 2</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <img src="/esphome/images/micro_usb_cable.jpg" alt="Micro USB cable" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>Micro USB cable</strong>
 <p>To power the ESP.</p>
-<p class="hp-store-links"><a href="../buy/esphome_diy#micro-usb-power-cable" target="_blank">Buy link</a></p></div>
+<p class="hp-store-links"><a class="hp-stretch-link" href="../buy/esphome_diy#micro-usb-power-cable" target="_blank">Buy link</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB EU power adapter</strong>
 <p>To power the ESP.</p>
-<p class="hp-store-links"><a href="../buy/esphome_diy#v-usb-adapter" target="_blank">Buy link</a></p></div>
+<p class="hp-store-links"><a class="hp-stretch-link" href="../buy/esphome_diy#v-usb-adapter" target="_blank">Buy link</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket with power measurement" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Optional</span><strong>Smart power socket with power measurement</strong>
 <p>I use the Zigbee EU BlitzWolf SHP.</p>
-<p class="hp-store-links"><a href="../buy/zigbee_smart_socket" target="_blank">Buy link</a></p></div>
+<p class="hp-store-links"><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy link</a></p></div>
 </div>
 </div>
 

@@ -86,11 +86,11 @@ which is cheaper per piece if you plan to create multiple sensors to use around 
 <p>Buy a single piece, or in bulk if you plan to create multiple sensors.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_Dc8YZ39" target="_blank">Single piece</a> | <a href="https://s.click.aliexpress.com/e/_Dee7OwP" target="_blank">Per 10 pieces</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank"><img src="/esphome/images/esp_d1_mini.jpg" alt="ESP8266 D1 mini" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">ESP board</span><strong>ESP8266 D1 mini</strong>
 <p>You can use any ESP board, but on this page I use the tiny ESP8266 D1 mini. The pins are not soldered on the board yet (with some practice even you can do it for sure!). Choose the "D1 mini".</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank"><img src="/esphome/images/dupont_cable_mix.webp" alt="Dupont cables" loading="lazy"></a>
@@ -98,29 +98,29 @@ which is cheaper per piece if you plan to create multiple sensors to use around 
 <p>To connect the ESP pins with the sensor pins. I used female-to-female because I soldered the pin heads on the ESP and sensor. Better order all three types at once, also for any further projects.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_EIjrYwZ" target="_blank">AliExpress 2</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank"><img src="/esphome/images/diy_cases.png" alt="Plastic DIY case" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Case</span><strong>Plastic DIY case</strong>
 <p>Any case with a minimum length of 7 cm, width of 3 cm and height of 3 cm can be used. A plastic box from a local shop or a small decorative statuette works too.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="/esphome/images/micro_usb_cable.jpg" alt="Micro USB to USB-A cable" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>Micro USB to USB-A cable</strong>
 <p>A cable to power the ESP.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB EU power adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB EU power adapter</strong>
 <p>A power adapter to power the ESP and sensor.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="/buy/esphome_diy#tools" target="_blank"><img src="/buy/images_diy/soldering_kit_clean.webp" alt="Soldering tools" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Soldering</span><strong>Soldering tools</strong>
 <p>This project requires some soldering. If you don't have a soldering iron and tin wire yet, check the buy tips.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/buy/esphome_diy#tools" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="/buy/esphome_diy#tools" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
