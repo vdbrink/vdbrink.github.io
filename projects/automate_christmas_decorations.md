@@ -244,7 +244,7 @@ Place the dummy batteries in the original battery case and connect the power ada
 <p>If you have multiple battery powered devices close to each other, and you want to automate them the same way, you can also use an actively powered USB hub.<br>
 This hub can be powered with a smart socket to control all the connected devices at once.</p>
 <div class="hp-wire-images">
-<a href="../buy/esphome_diy#usb-hub" target="_blank"><img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub"></a>
+<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank"><img src="images_christmas_decorations/usb_hub.jpg" alt="USB hub"></a>
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU socket"></a>
 </div>
 <a href="images_christmas_decorations/battery_powered_decorations.jpg"><img src="images_christmas_decorations/battery_powered_decorations.jpg" alt="battery powered deco with USB hub"></a></div>
@@ -276,10 +276,10 @@ It really depends on how many devices you want to control at once and how close 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/esphome_diy#usb-hub" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">USB</span><strong>Active USB hub</strong>
 <p>To power multiple USB battery eliminators at once. In combination with the socket, you can automate them.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/esphome_diy#usb-hub" target="_blank">Buy tips</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_usb_adapter_switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
