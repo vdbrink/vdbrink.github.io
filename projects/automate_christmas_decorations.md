@@ -350,25 +350,25 @@ With this project, all these lights can now be automated as well!
 <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Tea lights</span><strong>Tea lights with infrared remote</strong>
 <p>I created a <a href="/zigbee/smart_infrared_transmitter_receiver">dedicated page</a> about how I automate my tea lights from Home Assistant.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank"><img src="/projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="Candle lights with infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Candle lights</span><strong>Candle lights with infrared remote</strong>
 <p>Candle lights controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank"><img src="/projects/images_christmas_decorations/candles_with_ir_remote.avif" alt="Other candle lights with infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Candle lights</span><strong>Other candle lights with infrared remote</strong>
 <p>Other candle lights controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c35i1agR" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank"><img src="/projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="Long candle lights with infrared remote" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Candle lights</span><strong>Long candle lights with infrared remote</strong>
 <p>Long candle lights controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">AliExpress</a> | <a href="https://amzn.to/41M9fJR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44mdDk4#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">AliExpress</a> | <a href="https://amzn.to/41M9fJR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44mdDk4#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DdrBmRR" target="_blank"><img src="/projects/images_christmas_decorations/christmas_paper_star.avif" alt="Christmas paper star" loading="lazy"></a>
@@ -441,7 +441,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 <a href="https://amzn.to/40SVJoc#ad" target="_blank"><img src="/buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous Zigbee dual port outdoor socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Outdoor socket</span><strong>Nous Zigbee dual port outdoor socket</strong>
 <p>An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://amzn.to/3Vt83Ip#ad" target="_blank"><img src="/buy/images_zigbee/innr_outdoor_socket.jpg" alt="Innr Zigbee outdoor socket (dual pack)" loading="lazy"></a>
