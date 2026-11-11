@@ -78,7 +78,7 @@ For my project, I use option 1, but there are a lot of displays available on the
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c430nNIt" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_okiVQVv" target="_blank"><img src="/projects/images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch Display 2 (touch variant)" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_c3mVfj9l" target="_blank"><img src="/projects/images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch Display 2 (touch variant)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Option 2 · ~ &euro; 90</span><strong>Stretch Display 2 (touch variant)</strong>
 <p>Same size and resolution but a better version: WITH IPS touchscreen, brighter colors and a Raspberry mount on the back. Select the touch variant.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3eC255r" target="_blank">AliExpress</a></p></div>

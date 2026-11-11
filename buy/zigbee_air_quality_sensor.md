@@ -30,9 +30,9 @@ For the other parameters, it is a good overall air quality sensor to show whethe
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_c38xKwLf" target="_blank"><img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Zigbee / WiFi Air quality sensor - Tuya" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_c3Glo8V1" target="_blank"><img src="images_zigbee/zigbee_air_quality_sensor.webp" alt="Zigbee / WiFi Air quality sensor - Tuya" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee / WiFi Air quality sensor - Tuya</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c38xKwLf" target="_blank">AliExpress</a> | <a href="https://amzn.to/40Y4IEB#ad" target="_blank">Amazon</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3Glo8V1" target="_blank">AliExpress</a> | <a href="https://amzn.to/40Y4IEB#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS0601_air_quality_sensor.html" target="_blank">TS0601</a></p>
 </div>
 </div>
