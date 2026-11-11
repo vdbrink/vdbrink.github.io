@@ -18,7 +18,7 @@ image: /projects/images_christmas_decorations/banner_christmas.png
 <img src="images_christmas_decorations/christmas_tree.jpg" alt="Christmas tree" width="90px" style="margin-left:15px;float:right" /></a>
 
 During the Christmas season, I have a lot of extra lights and other powered decorations in and around our house. 
-**Christmas trees**, **battery powered decorations** and **outside lights** to cheer up the dark days.
+**Christmas trees**, **battery powered decorations**, **infrared controlled lights** and **outside lights** to cheer up the dark days.
 
 It's a lot of work to control them manually every day.\
 It's also a waste of energy when no one sees it or it's a clear day.\

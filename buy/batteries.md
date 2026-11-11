@@ -373,17 +373,17 @@ The advantage of a USB connector is that you can plug multiple to an active powe
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AA battery replacement with USB" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_c3TYc1KB" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AA battery replacement with USB" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">AA</span><strong>AA battery replacement with USB</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_onadIXG" target="_blank">AliExpress</a> | <a href="https://amzn.to/44KY45l#ad" target="_blank">Amazon</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3TYc1KB" target="_blank">AliExpress</a> | <a href="https://amzn.to/44KY45l#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement with USB" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_c4dxAuXd" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement with USB" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">AAA</span><strong>AAA battery replacement with USB</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_omwDXZ7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4vJZ4BP#ad" target="_blank">Amazon</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4dxAuXd" target="_blank">AliExpress</a> | <a href="https://amzn.to/4vJZ4BP#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank"><img src="/buy/images_diy/battery_eliminator.png" alt="AAA battery replacement with power socket EU" loading="lazy"></a>
+<a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank"><img src="/projects/images_christmas_decorations/battery_replacement_to_socket.jpg" alt="AAA battery replacement with power socket EU" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">AAA</span><strong>AAA battery replacement with power socket EU</strong>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_opan0OF" target="_blank">AliExpress</a></p></div>
 </div>
