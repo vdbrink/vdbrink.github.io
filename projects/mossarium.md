@@ -74,7 +74,7 @@ These are the products I used for my desk mossarium:
 <a href="https://s.click.aliexpress.com/e/_c4OC8zP7" target="_blank"><img src="/projects/images_mossarium/terrarium_glass.jpg" alt="Moss terrarium glass" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Moss terrarium glass</strong>
 <p>The glass container I used for my mossarium.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4OC8zP7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4w7dfCj#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4OC8zP7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4w7dfCj#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-stretch">
 <a href="https://woonhero.nl/collections/terrarium-start-en-navulpakketten" target="_blank"><img src="/projects/images_mossarium/diy_kit.jpg" alt="DIY moss and plants kit" loading="lazy"></a>

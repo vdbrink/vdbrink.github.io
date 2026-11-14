@@ -53,7 +53,7 @@ One of my favorite tastes is this medium strength [Lavazza, Rossa Beans](https:/
 <img src="images_products/lavazza_rossa_beans.jpg" height="150px" alt="Lavazza coffee beans"/>
 </a>
 
-[Amazon NL](https://amzn.to/46nuIMk#ad)
+[Amazon](https://amzn.to/46nuIMk#ad)
 
 <!--
 ---
@@ -72,7 +72,7 @@ With these products, you keep it as new and with the best taste and avoid molt.
 <img src="images_products/jura_milk_system_cleaning_tabs.jpg" height="150px" alt="Jura milk system cleaning tabs"/>
 </a>
 
-[Amazon NL](),
+[Amazon](),
 [Amazon](https://amzn.to/4lbqr34#ad)
 
 *Alternative*
@@ -99,7 +99,7 @@ There are different multipacks with 3, 4, 6 pieces.
 <img src="images_products/jura_water_filter_3pack.jpg" height="150px" alt="Jura water filter pack"/>
 </a>
 
-[4x Amazon NL](https://amzn.to/4oOa9iH#ad),
+[4x Amazon](https://amzn.to/4oOa9iH#ad),
 [3x Amazon](https://amzn.to/47W25pV#ad),
 [6x Amazon](https://amzn.to/4p2qEb0#ad),
 
@@ -124,7 +124,7 @@ It's dishwasher proof.
 <img src="/jura/images_products/jura_milk_container.jpg" height="150px" alt="Jura glass milk container" />
 </a>
 
-[Amazon NL](https://amzn.to/3K6s1pA#ad),
+[Amazon](https://amzn.to/3K6s1pA#ad),
 [Amazon](https://amzn.to/4plL1PT#ad)
 
 #### Carafe
@@ -139,7 +139,7 @@ AND this one has a removable adapter to make your own [plastic milk bottle conta
 </a>
 
 They don't sell it everywhere yet.\
-<a href="https://amzn.to/4lHspJ1#ad" target="_blank">Amazon NL</a>,
+<a href="https://amzn.to/4lHspJ1#ad" target="_blank">Amazon</a>,
 <a href="https://www.bol.com/nl/nl/p/jura-melkkaraf-melkbeker-glas-500ml-24313/9300000226693397/" target="_blank">Bol NL</a>,
 <a href="https://amzn.to/46WKoX3#ad" target="_blank">Amazon</a>,
 <a href="https://www.google.com/search?q=jura.com+carafe" target="_blank">Google search</a>
@@ -155,7 +155,7 @@ This version can contain 1 liter (34 oz) milk.
 <img src="/jura/images_products/jura_milk_cooler.jpg" height="150px" alt="Jura Active cooler 1L" />
 </a>
 
-[Amazon NL](https://amzn.to/44coyN1#ad),
+[Amazon](https://amzn.to/44coyN1#ad),
 [Amazon](https://amzn.to/4ilB8je#ad)
 
 #### Active cooler 2.5L
@@ -166,7 +166,7 @@ This is a bigger version which can contain up to 2.5 liters (85 oz).
 <img src="/jura/images_products/jura_milk_container_cooled.jpg" height="150px" alt=" Active cooler 2.5L" />
 </a>
 
-[Amazon NL](https://amzn.to/3XnyNut#ad),
+[Amazon](https://amzn.to/3XnyNut#ad),
 [Amazon](https://amzn.to/4oaUjNS#ad)
 
 ---
@@ -187,7 +187,7 @@ It can contain up to: 6 cappuccino cups (Ø 90 mm), 6 standard espresso cups (Ø
 <img src="/jura/images_products/jura_cup_warmer.webp" height="150px" alt="Cup warmer" />
 </a>
 
-[Amazon NL](https://amzn.to/4r83UHT#ad),
+[Amazon](https://amzn.to/4r83UHT#ad),
 [Amazon](https://amzn.to/4ofkBON#ad)
 
 ---

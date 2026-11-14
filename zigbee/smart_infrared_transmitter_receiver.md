@@ -98,7 +98,7 @@ Now I can control the tea lights via the original remote and also from my Home A
 <a href="/buy/images_zigbee/zigbee_ir_remote.webp"><img src="/buy/images_zigbee/zigbee_ir_remote.webp" alt="infrared remote control" width="200px" style="margin-left:15px;float:right" /></a>
 For this project I used the <a href="https://s.click.aliexpress.com/e/_DEUWZ73" target="_blank">Zigbee IR remote control - Moes (AliExpress)</a>
 <a href="https://amzn.to/4rm0u4v#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/495yrxA#ad" target="_blank">(Amazon)</a>
 <a href="https://www.zigbee2mqtt.io/devices/UFO-R11.html" target="_blank" title="TS0003">{{imgZ2M}}UFO-R11</a>
 With this small black box, battery powered, you can control any infrared device.
 
@@ -108,12 +108,12 @@ If you have more devices to control, you may need multiple smart devices to cont
 There are also similar
 [WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz)
 [(Amazon US)](https://amzn.to/3UzxCGU#ad)
-[(Amazon NL)](https://amzn.to/41b3nJU#ad)  available for this device.
+[(Amazon)](https://amzn.to/41b3nJU#ad)  available for this device.
 
 Another popular WiFi IR remote control is the **Broadlink - RM4 Mini**
 <a href="https://s.click.aliexpress.com/e/_c3K9kvNX" target="_blank">(AliExpress)</a>
 <a href="https://amzn.to/4p2FC0q#ad" target="_blank">(Amazon US)</a>
-<a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon NL)</a>
+<a href="https://amzn.to/4lbgPoa#ad" target="_blank">(Amazon)</a>
 
 <a href="images_infrared/purposes_ir.png" target="_blank">
 <img src="images_infrared/purposes_ir.png" alt="examples of infrared controlled devices" height="250px" />
@@ -326,13 +326,13 @@ Here are some links to products that all work via infrared, and that can be cont
 <a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank"><img src="/zigbee/images_infrared/light_string.avif" alt="Light curtains" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Light curtains</span><strong>Light curtains</strong>
 <p>Light curtains controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JkKUVi#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ptf1JO#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oF8f3Kd" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JkKUVi#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ptf1JO#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Tea lights</span><strong>Tea lights</strong>
 <p>Tea lights controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3XADbJt" target="_blank">AliExpress</a> | <a href="https://amzn.to/3JfJxY1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4rlFN8z#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_EwbMZuk" target="_blank"><img src="/projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="Candle lights" loading="lazy"></a>
@@ -344,13 +344,13 @@ Here are some links to products that all work via infrared, and that can be cont
 <a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank"><img src="/projects/images_christmas_decorations/candles2_with_ir_remote.avif" alt="Other candle lights" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Candles</span><strong>Other candle lights</strong>
 <p>Candle lights controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4Bjicxn" target="_blank">AliExpress</a> | <a href="https://amzn.to/3V76EX7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4p5iu1u#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank"><img src="/projects/images_christmas_decorations/long_candles_with_ir_remote.avif" alt="Long candle lights" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Candles</span><strong>Long candle lights</strong>
 <p>Long candle lights controlled by an infrared remote.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">AliExpress</a> | <a href="https://amzn.to/41M9fJR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44mdDk4#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oDcngfL" target="_blank">AliExpress</a> | <a href="https://amzn.to/41M9fJR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44mdDk4#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 <br>

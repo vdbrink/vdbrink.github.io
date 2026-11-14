@@ -46,7 +46,7 @@ Everything fits inside a small case: the SenseAir S8 sensor, an ESP mini.
 > **_NOTE:_** If you prefer a ready-to-go CO2 sensor, you can also choose the Netatmo Healthy Home Coach.
 > It is an all-in-one solution with CO2, decibel, temperature, and humidity sensors.
 > You can find it here:
-[Amazon NL](https://amzn.to/44wKKCE#ad),
+[Amazon](https://amzn.to/44wKKCE#ad),
 
 ---
 
@@ -82,7 +82,7 @@ Also affiliate links are used here. Same price, but you also sponsor this blog.
 
 All the required products are also bundled on these
 [Amazon](https://amzn.to/4ndsHIZ#ad) and
-[Amazon NL](https://amzn.to/4u15WKY#ad) pages.
+[Amazon](https://amzn.to/4u15WKY#ad) pages.
 
 These are the hardware components I used for this project:
 
@@ -91,51 +91,51 @@ These are the hardware components I used for this project:
 <a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank"><img src="/esphome/images_co2/senseair_s8.jpg" alt="SenseAir S8 CO2 sensor" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Sensor</span><strong>SenseAir S8 CO2 sensor</strong>
 <p>See the <a href="https://senseair.com/product/s8/">manufacturer product page</a>.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_oFib9fC" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4utKoa1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4neifkk#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3585CLl" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_oFib9fC" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4utKoa1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4neifkk#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank"><img src="/esphome/images/esp_d1_mini.jpg" alt="ESP 12S Wemos D1 mini" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">ESP board</span><strong>ESP 12S Wemos D1 mini</strong>
 <p>No pro or V3. You can use any ESP chip, but I like this one because of its small size.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">AliExpress</a> | <a href="https://amzn.to/4v8N8cV#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/48QLNPl#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_ooKDQkk" target="_blank">AliExpress</a> | <a href="https://amzn.to/4v8N8cV#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/48QLNPl#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank"><img src="/esphome/images/dupont_cable_mix.webp" alt="Dupont male-to-male wires" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Wires</span><strong>Dupont male-to-male wires</strong>
 <p>If you order these, it's better to order all three types at once, also for any future projects.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">AliExpress</a> | <a href="https://amzn.to/4wfc4Re#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dgoMqj#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEy2mvt" target="_blank">AliExpress</a> | <a href="https://amzn.to/4wfc4Re#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dgoMqj#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank"><img src="/esphome/images/diy_cases.png" alt="Plastic DIY case" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Case</span><strong>Plastic DIY case</strong>
 <p>I used a box with dimensions 70 x 45 x 30 mm.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Black: <a href="https://s.click.aliexpress.com/e/_c3mTQROf" target="_blank">AliExpress</a></p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">White: <a href="https://s.click.aliexpress.com/e/_c4t3bBiR" target="_blank">AliExpress</a></p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">More sizes: <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ts9gxB#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ncjPU9#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Black: <a href="https://s.click.aliexpress.com/e/_c3mTQROf" target="_blank">AliExpress</a>, <a href="https://s.click.aliexpress.com/e/_c3802eSB" target="_blank">AliExpress</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">White: <a href="https://s.click.aliexpress.com/e/_c4t3bBiR" target="_blank">AliExpress</a>, <a href="https://s.click.aliexpress.com/e/_c4tfVUMF" target="_blank">AliExpress</a> </p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">More sizes: <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ts9gxB#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ncjPU9#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="/esphome/images/micro_usb_cable.jpg" alt="Micro USB cable" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>Micro USB cable</strong>
 <p>To power the ESP board.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eITR8B#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cV7cZZ#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eITR8B#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cV7cZZ#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB wall power adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB wall power adapter</strong>
 <p>To power the ESP.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a> | <a href="https://amzn.to/4j2wDcC#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ndTMvH#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3r0c6Ot" target="_blank">AliExpress</a> | <a href="https://amzn.to/4j2wDcC#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4ndTMvH#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank"><img src="/esphome/images/soldering_iron.webp" alt="Soldering iron" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Soldering</span><strong>Soldering iron</strong>
 <p>I suggest this based on the reviews. I already had one. Please let me know whether you recommend this one.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">AliExpress</a> | <a href="https://amzn.to/42lWIgd#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uvdwNA#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">AliExpress</a> | <a href="https://amzn.to/42lWIgd#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uvdwNA#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank"><img src="/esphome/images/soldering_tin_wire.png" alt="Soldering tin wire" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Soldering</span><strong>Soldering tin wire</strong>
 <p>To solder the pins.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cWTy8U#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4nfzylk#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_DEDR08n" target="_blank">AliExpress</a> | <a href="https://amzn.to/4cWTy8U#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4nfzylk#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 

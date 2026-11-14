@@ -158,13 +158,13 @@ Without having to worry about latency or any other performance issues for the be
 {% capture h185_us %}[Amazon](https://amzn.to/4rTAUUJ#ad){% endcapture %}
 {% capture hx370_us %}[Amazon](https://amzn.to/44p9Qm6#ad){% endcapture %}
 
-{% capture n95_nl %}[Amazon NL](https://amzn.to/45BtFHY#ad){% endcapture %}
-{% capture n97_nl %}[Amazon NL](https://amzn.to/3EFaBOk#ad){% endcapture %}
-{% capture n100_nl %}[Amazon NL](https://amzn.to/4f157x6#ad){% endcapture %}
-{% capture n150_nl %}[Amazon NL](https://amzn.to/4p3vIes#ad){% endcapture %}
-{% capture h12650_nl %}[Amazon NL](https://amzn.to/41pTFnv#ad){% endcapture %}
-{% capture h185_nl %}[Amazon NL](https://amzn.to/4kcvyAc#ad){% endcapture %}
-{% capture hx370_nl %}[Amazon NL](https://amzn.to/3QwKfjQ#ad){% endcapture %}
+{% capture n95_nl %}[Amazon](https://amzn.to/45BtFHY#ad){% endcapture %}
+{% capture n97_nl %}[Amazon](https://amzn.to/3EFaBOk#ad){% endcapture %}
+{% capture n100_nl %}[Amazon](https://amzn.to/4f157x6#ad){% endcapture %}
+{% capture n150_nl %}[Amazon](https://amzn.to/4p3vIes#ad){% endcapture %}
+{% capture h12650_nl %}[Amazon](https://amzn.to/41pTFnv#ad){% endcapture %}
+{% capture h185_nl %}[Amazon](https://amzn.to/4kcvyAc#ad){% endcapture %}
+{% capture hx370_nl %}[Amazon](https://amzn.to/3QwKfjQ#ad){% endcapture %}
 
 {% capture n95_performance %}[5.358](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N95&id=5206){% endcapture %}
 {% capture n97_performance %}[5.643](https://www.cpubenchmark.net/cpu.php?cpu=Intel+N97&id=5337){% endcapture %}
@@ -199,7 +199,7 @@ Prices for these models can fluctuate based on supply and demand, so I’ve incl
 | **Price indication** | &euro; 170 - 500                   | &euro; 300 - 450               | &euro; 500                    | &euro; 200                    |
 | **AliExpress**       | {{n150_global}} / {{n150_global2}} | {{n100_global}}                | {{n97_global}}                | N/A                           |
 | **Amazon**        | {{n150_us}}                        | {{n100_us}}                    | {{n97_us}}                    | {{n95_us}}                    |
-| **Amazon NL**        | {{n150_nl}}                        | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |
+| **Amazon**        | {{n150_nl}}                        | {{n100_nl}}                    | {{n97_nl}}                    | {{n95_nl}}                    |
 | **Beelink**          | {{n150_beelink}}                   | {{n100_beelink}}               | {{n97_beelink}}               | {{n95_beelink}}               |
 
 <br>
@@ -233,7 +233,7 @@ model with more memory, a faster CPU, GPU and more cores.
 | **Price indication** | &euro; 1200 - 2700       | &euro; 900 - 2000           | &euro; 500 - 800       |
 | **AliExpress**       | {{hx370_global}}         | N/A                         | N/A                    |
 | **Amazon**        | {{hx370_us}}             | {{h185_us}}                 | {{h12650_us}}          |
-| **Amazon NL**        | {{hx370_nl}}             | {{h185_nl}}                 | {{h12650_nl}}          |
+| **Amazon**        | {{hx370_nl}}             | {{h185_nl}}                 | {{h12650_nl}}          |
 | **Beelink**          | {{hx370_beelink}}        | {{h185_beelink}}            | {{h12650_beelink}}     |
 
 <!--
@@ -304,9 +304,9 @@ Click on the image to go to the original post:
 {% capture rpi4_us %}[Amazon](https://amzn.to/41vT9Ez#ad){% endcapture %}
 {% capture rpi5_us %}[Amazon](https://amzn.to/4hg55Pz#ad){% endcapture %}
 
-{% capture rpi3_nl %}[Amazon NL](https://amzn.to/3EU3Mbq#ad){% endcapture %}
-{% capture rpi4_nl %}[Amazon NL](https://amzn.to/3DaETHT#ad){% endcapture %}
-{% capture rpi5_nl %}[Amazon NL](https://amzn.to/4kcHm5j#ad){% endcapture %}
+{% capture rpi3_nl %}[Amazon](https://amzn.to/3EU3Mbq#ad){% endcapture %}
+{% capture rpi4_nl %}[Amazon](https://amzn.to/3DaETHT#ad){% endcapture %}
+{% capture rpi5_nl %}[Amazon](https://amzn.to/4kcHm5j#ad){% endcapture %}
 
 {% capture rpi3_performance %}[739](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A53+8+Core+1512+MHz&id=4150){% endcapture %}
 {% capture rpi4_performance %}[1.071](https://www.cpubenchmark.net/cpu.php?cpu=ARM+Cortex-A72+6+Core+1416+MHz&id=4487){% endcapture %}
@@ -337,7 +337,7 @@ Be aware that the price here is without a hard disk, power supply and a case!
 | **Price range**                   | &euro; 60 - 110                         | &euro; 90                           | &euro; 45                     |
 | **AliExpress**                    | {{rpi5_global}}                         | {{rpi4_global}}                     | {{rpi3_global}}               |
 | **Amazon**                     | {{rpi5_us}}                             | {{rpi4_us}}                         | {{rpi3_us}}                   |
-| **Amazon NL**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
+| **Amazon**                     | {{rpi5_nl}}                             | {{rpi4_nl}}                         | {{rpi3_nl}}                   |
 
 ---
 

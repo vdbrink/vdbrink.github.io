@@ -49,7 +49,7 @@ These are the items that genuinely make my work life easier and more enjoyable.
 ## Amazon shop list
 
 Products from this page that are available on Amazon are listed on
-[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon NL](https://amzn.to/3OYGFBK#ad).
+[(Amazon US)](https://amzn.to/4ukI1pQ#ad) and [Amazon](https://amzn.to/3OYGFBK#ad).
 Not everything on this page is available through Amazon.
 Some items, like the desk, monitor, and chair, are excluded because they have been replaced by newer models or were purchased somewhere else.
 Where a newer version exists, I link to that instead.
@@ -147,7 +147,7 @@ The cables run through the cable tray (came with the desk) under the desktop, an
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/cable_wire_management1.jpg" alt="multiple cable guide" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Cable management</span><strong>Multiple cable guide</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mdNNA9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4enAaCv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vvsWmg#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mdNNA9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4enAaCv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vvsWmg#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile hp-preferred">
@@ -190,7 +190,7 @@ Same monitor but newer models:
 <div class="hp-card hp-tile hp-tile-stretch">
 <img src="images/philips_49inch_screen.webp" alt="Philips 49 curved monitor - 49B2U5900C" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Newer model</span><strong>Philips 49" curved monitor - 49B2U5900C</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4afMEdn#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4afMEdn#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
@@ -213,7 +213,7 @@ To drive the full 5120×1440 resolution at 165 Hz, I use a DisplayPort cable for
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/monitor_cable.jpg" alt="Thunderbolt 3 to DisplayPort cable" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Monitor cable</span><strong>USB-C/Thunderbolt 3 to DisplayPort 1.4 Cable 8K</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4dUhV7i#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3MSMgsm#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4dUhV7i#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3MSMgsm#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
@@ -244,12 +244,12 @@ It is built from solid metal, holds up to 20 kg, meets all my requirements, and 
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/act_ac8340.avif" alt="ACT AC8340" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Monitor arm</span><strong>Monitor arm - ACT AC8340</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4qFwvD8#ad" target="_blank">Amazon NL</a> | <a href="https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html" target="_blank">Tweakers (Dutch price compare)</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4qFwvD8#ad" target="_blank">Amazon</a> | <a href="https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html" target="_blank">Tweakers (Dutch price compare)</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Monitor arm - VIVO Heavy Duty for max 49" monitors</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4eqbiKm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uNRFBI#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4eqbiKm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uNRFBI#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -266,7 +266,7 @@ MacBooks consistently outperform Windows laptops on both performance and battery
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/macbook.jpg" alt="Apple MacBook M4 Pro" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop</span><strong>Apple MacBook Pro M4 16"</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4dE3rHv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4w3F12q#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4dE3rHv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4w3F12q#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -317,7 +317,7 @@ It exceeds my wish list, switches between three devices, lights up when your han
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/mx-keys-s-top-view-graphite-us-intl.webp" alt="Logitech MX Keys S" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Keyboard</span><strong>Logitech MX Keys</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4nFt3IK#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dBkb2a#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4nFt3IK#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dBkb2a#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -420,7 +420,7 @@ Alternative:
 <a class="hp-card hp-tile" href="https://amzn.to/3O178xU#ad" target="_blank">
 <img src="images/wall_clock_acoustic_amazon.jpg" alt="Wall clock with acoustic panel look" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Wall clock with acoustic panel look</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Amazon NL</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Amazon</p>
 </div>
 </a>
 </div>
@@ -448,7 +448,7 @@ The Ugreen Maxidok has less ports but enough for me, it has also Thunderbolt 5 a
 <a href="https://amzn.to/4un6YRH#ad" target="_blank"><img src="images/caldigit_ts5_docking_station.jpg" alt="CalDigit TS5 docking station" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Docking station</span><strong>CalDigit TS5 docking station</strong>
 <p>The ideal option, but the price is steep.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4un6YRH#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3PGaJCH#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4un6YRH#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3PGaJCH#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 
@@ -456,7 +456,7 @@ The Ugreen Maxidok has less ports but enough for me, it has also Thunderbolt 5 a
 <a href="https://amzn.to/4yW5Vuo#ad" target="_blank"><img src="images/ugreen_maxidok.webp" alt="Ugreen Maxidok 10-in-1 Thunderbolt 5 docking station" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Ugreen Maxidok 10-in-1 Thunderbolt 5 docking station</strong>
 <p>Less ports but much cheaper.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4yW5Vuo#ad" target="_blank">Amazon US</a> | <a href="https://link.amazon/B01Fz9YWD#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/4yW5Vuo#ad" target="_blank">Amazon US</a> | <a href="https://link.amazon/B01Fz9YWD#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 
@@ -501,14 +501,14 @@ When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the 
 <a href="https://amzn.to/44L0iSl#ad" target="_blank"><img src="images/logitech_mx_master_3s.jpg" alt="Logitech MX Master 3S mouse" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 3S</strong>
 <p>Grip, buttons and scroll features.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/44L0iSl#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4oe81RM#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/44L0iSl#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4oe81RM#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://amzn.to/4fIo4U8#ad" target="_blank"><img src="images/logitech_mx_master.jpg" alt="Logitech MX Master 4 mouse" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 4</strong>
 <p>Better than the 3S: a third thumb button, an Actions Ring for shortcuts and haptic feedback.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4fIo4U8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fwGmJo#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4fIo4U8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fwGmJo#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>

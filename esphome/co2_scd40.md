@@ -122,7 +122,7 @@ These are the hardware components I used for this project.
 
 The required products, including the soldering version, are also bundled on these
 [Amazon](https://amzn.to/4eQqLEn#ad) and
-[Amazon NL](https://amzn.to/48GaTQU#ad) pages.
+[Amazon](https://amzn.to/48GaTQU#ad) pages.
 
 ### SCD40 CO2 sensor
 
@@ -144,7 +144,7 @@ CO2 sensors with or without soldering:
 <a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank"><img src="/esphome/images_scd40/csd40_with_pins.jpg" alt="SCD40 CO2 sensor with pins" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">SCD40 · Soldering required</span><strong>SCD40 CO2 sensor with pins</strong>
 <p>The cheaper version where you need to solder the pins.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ss4zEb#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dJXI30#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_okQAZSO" target="_blank">AliExpress</a> | <a href="https://amzn.to/4ss4zEb#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dJXI30#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 
@@ -154,14 +154,14 @@ CO2 sensors with or without soldering:
 <a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank"><img src="/esphome/images/esp8266_nodemcu.jpg" alt="ESP8266 NodeMCU v3 (CH340)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">ESP board</span><strong>ESP8266 NodeMCU v3 (CH340)</strong>
 <p>With pre-soldered pins. You can use any ESP board, like an <a href="../buy/esphome_diy#esp32">ESP32</a> or <a href="../buy/esphome_diy#esp-d1-mini">ESP D1 mini</a>, but on this page I use an ESP8266.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4sTpEao#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4qirq3i#ad" target="_blank">Amazon NL</a> | <a href="https://amzn.to/44uRwXM#ad" target="_blank">Amazon US (alt.)</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3clEj8T" target="_blank">AliExpress 1</a> | <a href="https://s.click.aliexpress.com/e/_c3YHyskJ" target="_blank">AliExpress 2</a> | <a href="https://amzn.to/4sTpEao#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4qirq3i#ad" target="_blank">Amazon</a> | <a href="https://amzn.to/44uRwXM#ad" target="_blank">Amazon US (alt.)</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank"><img src="/esphome/images/diy_cases.png" alt="Plastic DIY case" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Case</span><strong>Plastic DIY case</strong>
 <p>A case with holes is the finishing touch: it looks better than the bare hardware. Almost any object with holes works, minimum 7 cm long, 3 cm wide and 3 cm high, as long as enough air can reach the sensor. A plastic box with drilled holes or a porous decorative statuette works too.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Black: <a href="https://s.click.aliexpress.com/e/_c3mTQROf" target="_blank">AliExpress</a></p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">White: <a href="https://s.click.aliexpress.com/e/_c4t3bBiR" target="_blank">AliExpress</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">Black: <a href="https://s.click.aliexpress.com/e/_c3mTQROf" target="_blank">AliExpress</a>, <a href="https://s.click.aliexpress.com/e/_c3802eSB" target="_blank">AliExpress</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt="">White: <a href="https://s.click.aliexpress.com/e/_c4t3bBiR" target="_blank">AliExpress</a>, <a href="https://s.click.aliexpress.com/e/_c4tfVUMF" target="_blank">AliExpress</a> </p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt="">More sizes: <a href="https://s.click.aliexpress.com/e/_DDALbXD" target="_blank">AliExpress</a> | <a href="https://amzn.to/3G3EhVB#ad" target="_blank">Amazon US</a></p></div>
 </div>
 <div class="hp-card hp-tile">

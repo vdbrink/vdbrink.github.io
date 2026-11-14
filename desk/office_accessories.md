@@ -84,7 +84,7 @@ I use these types of guides to accomplish this. For USB charge cable management 
 <img src="images/cable_wire_management1.jpg" alt="multiple cable guide" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Cable management</span><strong>Multiple cable guide</strong>
 <p>Guide multiple cables to avoid falling behind the desk when not connected.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mdNNA9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4enAaCv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vvsWmg#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mdNNA9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4enAaCv#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vvsWmg#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile hp-preferred">
@@ -108,7 +108,7 @@ I use these types of guides to accomplish this. For USB charge cable management 
 <img src="images/monitor_light.avif" alt="monitor light" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Monitor light</span><strong>Xiaomi Mijia monitor light desk bar</strong>
 <p>This bright light has a remote knob to dim the light, and it attaches easily to the monitor with counterweights.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c39rwqId" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy6P9O#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBYwjl#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4cmdp8F" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy6P9O#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBYwjl#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile hp-stretch">
@@ -171,7 +171,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <div class="hp-tile-body"><span class="hp-chip">Headset</span><strong>ANC over-ear headset QCY H3S</strong>
 <p>Dual device connection (laptop and phone at the same time), a soft top with no hard plastic pressure on your head, and the QCY app to set custom sound settings and the level of noise cancellation. Bluetooth 6 for a long battery life, physical buttons to control ANC/sound/calls, and 5 adaptive ANC modes (Adaptive/Crowded/Commute/Indoor/Anti-Wind). Foldable with a hard case for traveling.</p>
 <p>Just read the reviews! Available in black/white/gray.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4rmILlH" target="_blank">AliExpress</a> | <a href="https://amzn.to/3QdUDR9#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3R7soEb#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4rmILlH" target="_blank">AliExpress</a> | <a href="https://amzn.to/3QdUDR9#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3R7soEb#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -180,7 +180,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/sony_wh1000xm6.jpg" alt="Sony WH-1000XM6 over-ear headset" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Sony WH-1000XM6</strong>
 <p>I'm also a fan of the Sony WH range, but the price is 10x the price of the QCY, and it isn't 10x better. For now, I stick to the QCY.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4vvtad6#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3QxCUDG#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4vvtad6#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3QxCUDG#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -196,7 +196,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/120w_laptop_charger.avif" alt="Xiaomi 120W USB-C charger" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop charger</span><strong>Xiaomi 120W USB-C</strong>
 <p>A powerful USB-C charger with enough power to fast charge any new laptop.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c34kENKH" target="_blank">AliExpress</a> | <a href="https://amzn.to/44r6Hla#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4tInyuZ#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c34kENKH" target="_blank">AliExpress</a> | <a href="https://amzn.to/44r6Hla#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4tInyuZ#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -212,7 +212,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/vertical_laptop_stand.avif" alt="Vertical laptop stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop stand</span><strong>Vertical laptop stand</strong>
 <p>Single vertical laptop holder, the width can be adjusted.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3YOP0VH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eVsZSd#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OEi9pF#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3YOP0VH" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eVsZSd#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3OEi9pF#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 
@@ -220,7 +220,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/vertical_laptop_stand_two.avif" alt="Vertical laptop stand for two laptops" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop stand</span><strong>Vertical laptop stand for two laptops</strong>
 <p>Dual vertical laptop holder, the width can be adjusted.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4SxczDR" target="_blank">AliExpress</a> | <a href="https://amzn.to/4uZOXJ7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vjM7iv#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4SxczDR" target="_blank">AliExpress</a> | <a href="https://amzn.to/4uZOXJ7#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4vjM7iv#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 
@@ -228,7 +228,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/laptop_side_desk_mount.avif" alt="Laptop side desk mount" loading="lazy" style="display:block; margin:0 auto; width:auto; max-width:100%; max-height:200px; height:auto; aspect-ratio:auto; padding:0">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Laptop side desk mount</strong>
 <p>Hide your laptop on the side of your desk.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4EqTSqf" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tNoFca#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Sh8k2d#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4EqTSqf" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tNoFca#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Sh8k2d#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 
@@ -236,7 +236,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/laptop_mount_under_desk_top.webp" alt="Laptop mount for under the desk" loading="lazy" style="display:block; margin:0 auto; width:auto; max-width:100%; max-height:200px; height:auto; aspect-ratio:auto; padding:0">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Laptop mount for under the desk</strong>
 <p>Hide your laptop under your desk.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4q2MMM9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tPqkOn#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBiFWT#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4q2MMM9" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tPqkOn#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBiFWT#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -250,7 +250,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/macbook_case.jpg" alt="MacBook 16-inch case" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Laptop case</span><strong>Black MacBook cover</strong>
 <p>I found this black case for around my laptop. I chose walnut or black for all items below my monitor and on my desk to make it look calm.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4syE4fB" target="_blank">AliExpress</a> | <a href="https://amzn.to/42K2pos#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xyesn3#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4syE4fB" target="_blank">AliExpress</a> | <a href="https://amzn.to/42K2pos#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xyesn3#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -266,14 +266,14 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/headset_stand.avif" alt="headphone stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Headphone stand</span><strong>Headphone stand</strong>
 <p>A basic plastic headphone stand. It just does its job: holding the headphones!</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2JOMKeL" target="_blank">AliExpress</a> | <a href="https://amzn.to/44L9m9N#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4d2Gfm7#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2JOMKeL" target="_blank">AliExpress</a> | <a href="https://amzn.to/44L9m9N#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4d2Gfm7#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
 <img src="images/walnut_headphone_stand.png" alt="Walnut headphone stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Walnut headphone stand</strong>
 <p>A more stylish wood and metal headphone stand.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4S9Q9hf" target="_blank">AliExpress</a> | <a href="https://amzn.to/3Rl26xR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4eh9lzY#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4S9Q9hf" target="_blank">AliExpress</a> | <a href="https://amzn.to/3Rl26xR#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4eh9lzY#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -289,7 +289,7 @@ In the past, I already had a good experience with QCY in-ear earbuds for on-the-
 <img src="images/clock_no_logo.webp" alt="wooden clock" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Desk clock</span><strong>Wooden clock</strong>
 <p>A basic wooden digital clock that doesn't attract more attention than needed.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3Uoskcv" target="_blank">AliExpress</a> | <a href="https://amzn.to/4oO0Yj2#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Qq2eMw#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3Uoskcv" target="_blank">AliExpress</a> | <a href="https://amzn.to/4oO0Yj2#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/3Qq2eMw#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">
@@ -344,7 +344,7 @@ If your phone doesn't support wireless charging, consider a [retractable USB cha
 <img src="images/phone_stand_charger.jpg" alt="wireless phone charger stand" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Wireless phone charger stand</span><strong>Wireless phone charger</strong>
 <p>Wireless phone charger, for a clean desk.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3qTRe0B" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy78Bu#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/42HesCL#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3qTRe0B" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy78Bu#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/42HesCL#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -406,7 +406,7 @@ A good webcam makes you look sharper and clearer, even with a basic setup.</p>
 <img src="images/logitech_c920_webcam.jpg" alt="Logitech C920 HD Pro Webcam" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Camera</span><strong>Logitech C920 HD Pro Webcam</strong>
 <p>I chose this basic camera years ago because of its HD USB camera with a lens cover, 30 fps, light correction, good sound and microphone quality (now I use a separate microphone), and a mount with counterweight to place on top of a monitor. Back in the day, it was a perfect match for me, and it still works fine. But it could be upgraded to a newer one with 4K resolution and an auto-follow feature.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4hqFaIj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4kLNBO6#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4hqFaIj#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4kLNBO6#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -425,7 +425,7 @@ A good webcam makes you look sharper and clearer, even with a basic setup.</p>
 <img src="images/razer_seiren.jpg" alt="Razer Seiren Mini black" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Microphone</span><strong>Razer Seiren Mini black</strong>
 <p>For an affordable microphone, I've chosen the Razer Seiren Mini black, a USB condenser microphone.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4nLZVQ8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cwPg84#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4nLZVQ8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4cwPg84#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -494,7 +494,7 @@ The cable is mostly 1 m long, which gives enough reach for different devices.
 <img src="images/retractable_usb_cable_hub.png" alt="Black dual USB-C power hub" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Black dual USB-C power hub</strong>
 <p>Powerful charger.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oe4KB1" target="_blank">AliExpress</a> | <a href="https://amzn.to/3SSHu0u#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4enp1Sm#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4oe4KB1" target="_blank">AliExpress</a> | <a href="https://amzn.to/3SSHu0u#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4enp1Sm#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 
@@ -527,7 +527,7 @@ The cable is mostly 1 m long, which gives enough reach for different devices.
 <img src="images/footrest.jpg" alt="Footrest" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Footrest</span><strong>Footrest</strong>
 <p>Foot support.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2QayhIv" target="_blank">AliExpress</a> | <a href="https://amzn.to/4w1Zm7p#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4aeh67k#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c2QayhIv" target="_blank">AliExpress</a> | <a href="https://amzn.to/4w1Zm7p#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4aeh67k#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -543,7 +543,7 @@ The cable is mostly 1 m long, which gives enough reach for different devices.
 <img src="images/floor-protection-mat.webp" alt="floor protection mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Floor protection mat</span><strong>Floor protection mat</strong>
 <p>A rubber or carpet version works perfectly against scratches and noises.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4odC4sM#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dUne72#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4odC4sM#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4dUne72#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -566,7 +566,7 @@ The cable is mostly 1 m long, which gives enough reach for different devices.
 <img src="images/floor_mat.jpg" alt="floor mat" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Björn & Schiller, similar size</strong>
 <p>Less power and a shorter power cable.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4vW4R7D#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4vW4R7D#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
@@ -599,7 +599,7 @@ A macro keypad starts a meeting, toggle microphone on/off, switches apps or runs
 <img src="images/elgato_stream_deck_xl.jpg" alt="Elgato Stream Deck XL" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Shortcut keyboard</span><strong>Elgato Stream Deck XL</strong>
 <p>A macro keypad with 32 buttons to trigger all kinds of commands, scripts, apps, automations and other actions with a single click. You can search for custom icons from a library or upload your own, and a button can also be used as a small display for status updates, like current temperature or open issues.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4ycYcIe#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4bqBe6F#ad" target="_blank">Amazon NL</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4ycYcIe#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4bqBe6F#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>

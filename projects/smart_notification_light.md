@@ -87,38 +87,38 @@ For this project, I used these products:
 > **_NOTE:_** Links on this page can be affiliate links.
 
 <p></p>
-All these products are also available on Amazon and bundled on these [Amazon](https://amzn.to/4drcBqy#ad) and [Amazon NL](https://amzn.to/4uWTsUR#ad) pages.
+All these products are also available on Amazon and bundled on these [Amazon](https://amzn.to/4drcBqy#ad) and [Amazon](https://amzn.to/4uWTsUR#ad) pages.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank"><img src="/buy/images_zigbee/gu10_fullcolor.jpg" alt="GU10 Zigbee full-color smart light" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Light</span><strong>GU10 Zigbee full-color smart light</strong>
 <p>Zigbee GU10 light with RGB. I already have a Zigbee network, so I chose Zigbee, but this can also be replaced with a similar WiFi GU10 light.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">AliExpress</a> | <a href="https://amzn.to/3PLzxcm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4nyvcWC#ad" target="_blank">Amazon NL</a> | <a href="https://www.gamma.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">Karwei NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3T9TMn5" target="_blank">AliExpress</a> | <a href="https://amzn.to/3PLzxcm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4nyvcWC#ad" target="_blank">Amazon</a> | <a href="https://www.gamma.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/philips-hue-essential-gu10-2-stuks-5w/p/B319557" target="_blank">Karwei NL</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3IcnoiL" target="_blank"><img src="/projects/images_noti_light/gu10_fitting.avif" alt="GU10 fitting (ceramic)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Fitting</span><strong>GU10 fitting (ceramic)</strong>
 <p>Only a holder for the light, connected to the power. No voltage adapter or screw system needed, which makes it possible to hide this lamp in something small.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3IcnoiL" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eQsae0#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uiccy6#ad" target="_blank">Amazon NL</a> | <a href="https://www.gamma.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">Karwei NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3IcnoiL" target="_blank">AliExpress</a> | <a href="https://amzn.to/4eQsae0#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uiccy6#ad" target="_blank">Amazon</a> | <a href="https://www.gamma.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/handson-lampfitting-gu10/p/B122788" target="_blank">Karwei NL</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3bMDrSL" target="_blank"><img src="/projects/images_noti_light/power_cable.avif" alt="EU 230V power cable" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>EU 230V power cable</strong>
 <p>A GU10 light uses the EU 230V from the wall outlet, so there is no need for an adapter. If you have a spare 230V cable, you can use that as well.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3bMDrSL" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tyCTgJ#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4wEZjQn#ad" target="_blank">Amazon NL</a> | <a href="https://www.gamma.nl/assortiment/handson-aansluitsnoer-zwart-2-5-meter/p/B186276" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/handson-aansluitsnoer-met-eurostekker-zwart-1-8-m/p/B122782" target="_blank">Karwei NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3bMDrSL" target="_blank">AliExpress</a> | <a href="https://amzn.to/4tyCTgJ#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4wEZjQn#ad" target="_blank">Amazon</a> | <a href="https://www.gamma.nl/assortiment/handson-aansluitsnoer-zwart-2-5-meter/p/B186276" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/handson-aansluitsnoer-met-eurostekker-zwart-1-8-m/p/B122782" target="_blank">Karwei NL</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank"><img src="/buy/images_diy/cable_connectors1.avif" alt="Cable connector" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Optional</span><strong>Cable connector</strong>
 <p>If you don't want to solder the power cable directly to the GU10 fitting, use a cable connector.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">AliExpress</a> | <a href="https://amzn.to/49RB6w8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4g0MCJ4#ad" target="_blank">Amazon NL</a> | <a href="https://www.gamma.nl/assortiment/handson-kroonstrip-2-5-mm2-6d-4-stuks/p/B213691" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/handson-kroonstrip-6-mm2-12d-5-stuks/p/B122981" target="_blank">Karwei NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3PR90Mh" target="_blank">AliExpress</a> | <a href="https://amzn.to/49RB6w8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4g0MCJ4#ad" target="_blank">Amazon</a> | <a href="https://www.gamma.nl/assortiment/handson-kroonstrip-2-5-mm2-6d-4-stuks/p/B213691" target="_blank">Gamma NL</a> | <a href="https://www.karwei.nl/assortiment/handson-kroonstrip-6-mm2-12d-5-stuks/p/B122981" target="_blank">Karwei NL</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3X7srbV" target="_blank"><img src="/projects/images_noti_light/walnut_pencil_holder.avif" alt="Walnut pencil holder" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Stylish element</span><strong>Walnut pencil holder</strong>
 <p>The holder can be anything with a minimum opening of 5 x 6 cm to fit the GU10 light. My desk is made of walnut wood and decorated only with black items, so this holder blends in perfectly.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3X7srbV" target="_blank">AliExpress</a> | <a href="https://amzn.to/43hjVAp#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4wxXbJW#ad" target="_blank">Amazon NL</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3X7srbV" target="_blank">AliExpress</a> | <a href="https://amzn.to/43hjVAp#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4wxXbJW#ad" target="_blank">Amazon</a></p></div>
 </div>
 </div>
 
