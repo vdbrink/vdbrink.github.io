@@ -544,8 +544,8 @@ If you want to show a fullscreen overlay popup when a person is detected by a ca
 <div class="hp-tile-body"><span class="hp-chip">Dashboard</span><strong>Stretch Display Layout</strong><p>A Home Assistant dashboard for a stretched display, with the dashboard elements I use.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_hacs">
-<img src="/homeassistant/images/home_assistant_logo.png" alt="Home Assistant dashboard: Useful HACS custom elements" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Custom elements</span><strong>Useful HACS custom elements</strong><p>Useful HACS custom elements for your dashboard, such as the birthday card.</p></div>
+<img src="/homeassistant/images/home_assistant_logo.png" alt="Home Assistant dashboard: Awesome HA Marketplace custom elements" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Custom elements</span><strong>Awesome HA Marketplace custom elements</strong><p>Awesome HA Marketplace custom elements for your dashboard, such as the birthday card.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_card_mushroom">
 <img src="/homeassistant/images_mushroom/mushroom_examples.png" alt="Home Assistant dashboard card: Mushroom" loading="lazy">

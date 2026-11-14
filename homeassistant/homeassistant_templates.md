@@ -1183,7 +1183,7 @@ Let me know which cool templates you use!
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Dashboard: Layout examples</strong><p>Examples of how I laid out my Home Assistant dashboards.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/buy/smart_home_best_buy_tips">
-<img src="/buy/images_zigbee/zigbee_banner.png" alt="Zigbee Smart home - Best Buy Tips" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Buy tips</span><strong>Zigbee Smart home - Best Buy Tips</strong><p>Useful links to buy Zigbee sensors and other devices for your smart home automation with Home Assistant.</p></div>
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart home - Best Buy Tips" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Buy tips</span><strong>Smart home - Best Buy Tips</strong><p>Useful links to buy sensors and other devices for your smart home automation with Home Assistant.</p></div>
 </a>
 </div>

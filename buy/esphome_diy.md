@@ -372,7 +372,7 @@ Links to other sections of this blog:
 <div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>ESPHome custom sensors and actuators</strong><p>How to create your own sensors with ESPHome.</p></div>
 </a>
 <a class="hp-card hp-tile" href="smart_home_best_buy_tips">
-<img src="/buy/images_zigbee/zigbee_banner.png" alt="Zigbee Smart home - Best Buy Tips" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>Zigbee Smart home - Best Buy Tips</strong><p>All kinds of Zigbee hardware buy tips.</p></div>
+<img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart home - Best Buy Tips" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best Buy Tips</span><strong>Smart home - Best Buy Tips</strong><p>All kinds of Zigbee hardware buy tips.</p></div>
 </a>
 </div>

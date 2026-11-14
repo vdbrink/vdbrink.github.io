@@ -101,8 +101,8 @@ image: /images/banner.jpg
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant templates</strong><p>Template sensor examples and how to create, debug and use them.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_hacs">
-<img src="/homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png" alt="Useful HACS custom elements" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Useful HACS custom elements</strong><p>Auto-entities, Mushroom, card-mod and more add-ons for your dashboard.</p></div>
+<img src="/homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png" alt="Awesome HA Marketplace custom elements" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Awesome HA Marketplace custom elements</strong><p>Auto-entities, Mushroom, card-mod and more add-ons for your dashboard.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode">
 <img src="/homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Tablet in kiosk mode" loading="lazy">
@@ -138,7 +138,7 @@ image: /images/banner.jpg
 <li><a href="/homeassistant/homeassistant_hardware">Which hardware?</a></li>
 <li><a href="/homeassistant/homeassistant_templates">Templates</a></li>
 <li><a href="/homeassistant/homeassistant_dashboard_floorplan">Floor plan</a></li>
-<li><a href="/homeassistant/homeassistant_dashboard_hacs">Useful HACS elements</a></li>
+<li><a href="/homeassistant/homeassistant_dashboard_hacs">Awesome HA Marketplace elements</a></li>
 </ul>
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'esphome/'" | size -%}

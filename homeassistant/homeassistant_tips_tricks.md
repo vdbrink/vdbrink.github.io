@@ -33,11 +33,20 @@ Click on the `done` button to confirm.
 
 > Do you know more cool features, like these which everybody should know, let me know!
 
-<br>
-<br>
-<br>
-<hr>
+---
+## Related articles
 
-<a href="/buy/smart_home_best_buy_tips"><img src="/buy/images_zigbee/zigbee_banner.png" alt="Smart Home Best Buy Tips" height="100%"></a>
-
-[See also my other Home Assistant pages >>](/homeassistant)
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_tips_tricks">
+<img src="/homeassistant/images_tips/dialog_enlarge.png" alt="Home Assistant - Tips &amp; Tricks" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant - Tips &amp; Tricks</strong><p>Useful and hidden tips in Home Assistant.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_hacs">
+<img src="/homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png" alt="Awesome Marketplace custom elements" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Awesome HA Marketplace custom elements</strong><p>Many custom integration cards for your dashboard, with install buttons and YAML examples.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/">
+<img src="/homeassistant/images/ha_banner.png" alt="Home Assistant dashboard examples" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant - Many dashboard examples</strong><p>All Home Assistant pages with copy-paste code.</p></div>
+</a>
+</div>
