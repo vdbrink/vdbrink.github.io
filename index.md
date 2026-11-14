@@ -67,11 +67,11 @@ image: /images/banner.jpg
 <div class="hp-tiles">
 <a class="hp-card hp-tile" href="/esphome/co2_scd40">
 <img src="/esphome/images_scd40/hardware.jpg" alt="SCD40 CO2 sensor" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>DIY cheap CO2 sensor</strong><p>Build your own ESPHome CO2 sensor for Home Assistant.</p></div>
+<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>DIY cheap CO2 sensor</strong><p>Build your own ESPHome CO2 (SCD40) sensor for Home Assistant.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/projects/automate_christmas_decorations">
 <img src="/projects/images_christmas_decorations/banner_christmas.png" alt="Automate Christmas decorations" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your Christmas lights and other powered decorations automatically.</p></div>
+<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Automate Christmas decorations</strong><p>Control all your in- and outdoor Christmas lights and powered decorations automatically via your home automation.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/garden-gate-waterproof-contact-sensor">
 <img src="/zigbee/images_waterproof_contact/contact_sensor_closeup.jpg" alt="Waterproof contact sensor on the garden gate" loading="lazy">

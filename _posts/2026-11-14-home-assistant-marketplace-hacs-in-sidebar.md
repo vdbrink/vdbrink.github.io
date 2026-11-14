@@ -13,11 +13,11 @@ image: /homeassistant/images_hacs/ha_marketplace_in_sidebar.png
 <img src="/homeassistant/images_hacs/ha_marketplace_in_sidebar.png" alt="Home Assistant Marketplace in sidebar" width="100%" />
 <em style="display:block; text-align:center">The Home Assistant Marketplace link back again in the side menu</em>
 
-With the Home Assistant Marketplace, the replacement of HACS, the link is now moved away from the sidebar to the `Setting` menu. 
+With the Home Assistant Marketplace, the replacement of HACS, the link is now moved away from the sidebar to the `Settings` menu. 
 
 Maybe you still look in your sidebar to go to the HACS repositories?
 
-To add it back in your sidebar add this script in the root of the `configuration.yaml` file.
+To add it back in your sidebar add this to the root of the `configuration.yaml` file.
 
 ```yaml
 {% raw %}
@@ -38,7 +38,7 @@ panel_custom:
 ## The result
 
 <img src="/homeassistant/images_hacs/hacs_marketplace_links_settings.png" alt="Home Assistant Marketplace in sidebar and via settings" width="100%" />
-<em style="display:block; text-align:center">Now the links to the Marketplace are available via the setting AND via de sidebar!</em>
+<em style="display:block; text-align:center">Now the links to the Marketplace are available via the Settings AND via the sidebar!</em>
 
 ## Marketplace links to your HA
 
@@ -53,12 +53,12 @@ With these links you can direct to different sections of the Marketplace in your
 
 ## Remove HACS
 
-Now you have the Marketplace, the old HACS can savely be removed.
+Now you have the Marketplace, the old HACS can safely be removed.
 
 ---
 ## Related articles
 
-Other related article with even more interesting content.
+Other related articles with even more interesting content.
 
 <div class="hp-tiles hp-options hp-full">
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_tips_tricks">
@@ -66,7 +66,7 @@ Other related article with even more interesting content.
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant - Tips &amp; Tricks</strong><p>Useful and hidden tips in Home Assistant.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_hacs">
-<img src="/homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png" alt="Awesome Marketplace custom elements" loading="lazy">
+<img src="/homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png" alt="Awesome HA Marketplace custom elements" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Awesome HA Marketplace custom elements</strong><p>Many custom integration cards for your dashboard, with install buttons and YAML examples.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/homeassistant/">
