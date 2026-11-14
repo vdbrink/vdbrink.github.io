@@ -593,10 +593,6 @@ If you have any questions or comments, please post them below my social media po
 <img src="/esphome/images/esphome.png" alt="ESPHome" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>ESPHome custom sensors and actuators</strong><p>Create your own custom home automation sensors and actuators.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
-<a class="hp-card hp-tile" href="/node-red/index">
-<img src="/node-red/images/node-red_logo.png" alt="Node-RED" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Node-RED</span><strong>Node-RED: flows and examples</strong><p>Graphical automations with Node-RED and Home Assistant.</p><span class="hp-more">Read the article &rarr;</span></div>
-</a>
 <a class="hp-card hp-tile" href="/">
 <img src="/images/banner.jpg" alt="vd Brink Home Automations" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home</span><strong>Main page</strong><p>All my smart home automation guides and projects.</p><span class="hp-more">Go to the main page &rarr;</span></div>

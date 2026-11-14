@@ -464,4 +464,8 @@ entities:
 <img src="/homeassistant/images_mushroom/mushroom_examples.png" alt="Home Assistant dashboard card: Mushroom" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Dashboard card</span><strong>Mushroom</strong><p>Add small elements on top of your dashboard.</p></div>
 </a>
+<a class="hp-card hp-tile" href="homeassistant_templates">
+<img src="/homeassistant/images_templates/ha_templates_banner.png" alt="Home Assistant: Templates" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Templates</strong><p>Template examples and how to create, debug and use your own helper templates and sensors.</p></div>
+</a>
 </div>
