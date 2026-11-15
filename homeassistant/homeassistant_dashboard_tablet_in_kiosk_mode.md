@@ -2,7 +2,7 @@
 title: "Home Assistant Kiosk mode on a tablet with Fully Kiosk Browser"
 description: "Show your Home Assistant dashboard on a wall tablet in kiosk mode with Fully Kiosk Browser: setup, settings and tips."
 category: Home Assistant
-tags: [HACS, Home Assistant, hardware, dashboard, Android, weather, tablet, kiosk, HA Marketplace]
+tags: [HACS, Home Assistant, hardware, dashboard, Android, weather, tablet, kiosk, HA Marketplace, smart socket]
 image: /homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png
 ---
 
@@ -163,7 +163,7 @@ The stand itself can adjust in height and angle.
 
 ### Only charge tablet battery when needed
 
-I have a smart plug connected to my tablet.
+I have a [Zigbee smart socket](/buy/zigbee_smart_socket) connected to my tablet.
 To avoid damaging the battery, I only charge it when needed.
 If the battery level drops below 15%, I charge it until it reaches at least 80%, and then turn the power off again.
 This way, it always is enough charged without charging it all day.
@@ -173,14 +173,12 @@ One of those properties is `batteryLevel`; based on this value, I trigger an aut
 
 With [Fully Kiosk Browser](#android-kiosk-app---fully-kiosk-browser) it's also possible to turn the screen off when there is no one nearby or when it's too dark in the room.
 
-<div class="hp-tiles hp-options hp-full">
-<div class="hp-card hp-tile">
-<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
-<a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank"><img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15" loading="lazy"></a>
-<div class="hp-tile-body"><strong>Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">BangGood</a></p>
-<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank">TS011F_plug_3</a></p>
-</div>
+<div class="hp-tiles hp-options">
+<div class="hp-card hp-tile hp-tile-stretch">
+<img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket with power measurement" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Smart socket</span><strong>Smart power socket with power measurement</strong>
+<p>I use the Zigbee EU BlitzWolf SHP.</p>
+<p class="hp-store-links"><a class="hp-stretch-link" href="/buy/zigbee_smart_socket">Buy tips</a></p></div>
 </div>
 </div>
 
