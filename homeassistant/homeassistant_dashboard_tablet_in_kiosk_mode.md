@@ -37,8 +37,8 @@ Here you can read how to configure it.
     * [Only charge tablet battery when needed](#only-charge-tablet-battery-when-needed)
   * [Set a tablet in Kiosk mode](#set-a-tablet-in-kiosk-mode)
     * [Fullscreen browser](#fullscreen-browser)
-    * [Android kiosk app](#android-kiosk-app)
-    * [iOS iPad kiosk app](#ios-ipad-kiosk-app)
+    * [Android kiosk app - Fully Kiosk Browser](#android-kiosk-app---fully-kiosk-browser)
+    * [iOS iPad kiosk app - Kiosker](#ios-ipad-kiosk-app---kiosker)
   * [Configure Android Fully Kiosk Browser](#configure-android-fully-kiosk-browser)
     * [Enable remote admin](#enable-remote-admin)
     * [Auto screen on](#auto-screen-on)
@@ -166,10 +166,12 @@ The stand itself can adjust in height and angle.
 I have a smart plug connected to my tablet.
 To avoid damaging the battery, I only charge it when needed.
 If the battery level drops below 15%, I charge it until it reaches at least 80%, and then turn the power off again.
-That way, it always has enough charge without charging all day.
+This way, it always is enough charged without charging it all day.
 
-The app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can push tablet and other kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`.
+The app [Fully Kiosk Browser](#configure-android-fully-kiosk-browser) can push tablet and other kiosk state data to the MQTT topic `fully/deviceInfo/<hash>`.
 One of those properties is `batteryLevel`; based on this value, I trigger an automation to control the smart socket to charge the tablet.
+
+With [Fully Kiosk Browser](#android-kiosk-app---fully-kiosk-browser) it's also possible to turn the screen off when there is no one nearby or when it's too dark in the room.
 
 <div class="hp-tiles hp-options hp-full">
 <div class="hp-card hp-tile">
@@ -214,13 +216,13 @@ Even this can be removed by choosing the `Full screen` option.
 
 This app can also be cast to a TV!
 
-### Android kiosk app
+### Android kiosk app - Fully Kiosk Browser
 
 If you want to show a page in fullscreen on an Android tablet,
-the app [Fully Kiosk Browser](#configure-fully-kiosk-browser) can do this and much more.
+the app [Fully Kiosk Browser](#configure-android-fully-kiosk-browser) can do this and much more.
 
 There is a free version with a watermark and limited functionality.
-For [&euro; 7,90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single PC license.
+For [&euro; 7.90 + VAT](https://www.fully-kiosk.com/en/#license) you can buy an unlimited lifetime single PC license.
 
 It has many features; I use these:
 * Define a URL to load on startup:
@@ -239,7 +241,7 @@ It has many features; I use these:
 It has many more features!
 [See here the full list of features.](https://www.fully-kiosk.com/en/#configuration)
 
-### iOS iPad kiosk app
+### iOS iPad kiosk app - Kiosker
 
 For the iPad, the app [Kiosker: Fullscreen Web Kiosk](https://apps.apple.com/nl/app/kiosker-fullscreen-web-kiosk/id1481691530)
 can be used to define a page that runs in kiosk mode.
@@ -395,7 +397,7 @@ My optional elements are:
     * [Amount of open windows](/homeassistant/homeassistant_templates#count-the-number-of-open-windows)
     * [Package delivered](/projects/packages-mailbox-allux-600) in my package box
     * [Mail delivered](/projects/smart_mailbox), in the [last 30 minutes](/homeassistant/homeassistant_templates#mail-delivered-in-the-last-30-minutes)
-    * [water/leak detected!](/homeassistant/homeassistant_templates#diy-sink-leak-status)
+    * [Water/leak detected!](/homeassistant/homeassistant_templates#diy-sink-leak-status)
     * Rain amount, if any rain has fallen today
     * Is it nice to sit outside? Based on many [outdoor weather station sensor values](/buy/zigbee_weather_station) (temperature, humidity, wind, UV index)
     * Text if there must be meat or fish out of the freezer for the dish of tomorrow, based on the [meal planner](/homeassistant/homeassistant_dashboard_mealie#out-of-the-freezer-the-evening-before), only show after 21:00
