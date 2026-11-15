@@ -178,8 +178,6 @@ This is how it looks, integrated in Home Assistant.
 
 ### As sidebar link
 
-[update] This can be removed in newer HA versions.
-
 Another option is to add a link to Mealie in the sidebar.
 
 <img src="images_mealie/mealie_link_sidemenu.png" alt="Result" width="600px">

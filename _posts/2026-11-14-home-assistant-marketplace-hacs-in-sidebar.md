@@ -55,6 +55,28 @@ With these links you can direct to different sections of the Marketplace in your
 
 Now you have the Marketplace, the old HACS can safely be removed.
 
+## Include iframe into sidemenu
+
+It's possible to add links to the sidemenu to other applications as well.
+So have I add a link to the my mealplanner [Mealie](/homeassistant/homeassistant_dashboard_mealie) in the sidebar.
+And also to my router login page.
+
+<img src="/homeassistant/images_mealie/mealie_link_sidemenu.png" alt="Mealie link in the sidebar of Home Assistant" width="450px">
+
+You only need to add this code to your `configuration.yaml` file.
+```yaml
+{% raw %}
+# Source code by vdbrink.github.io
+# Panel iframe entry which adds Mealie to the Home Assistant sidebar
+# configuration.yaml
+panel_iframe:
+  mealie:
+    title: Mealie
+    url: "http://<ip-address>:9925"
+    icon: mdi:silverware-fork-knife
+{% endraw %}
+```
+
 ---
 ## Related articles
 
