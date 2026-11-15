@@ -1,6 +1,6 @@
 ---
-title: "Home Assistant dashboard: on a tablet in Kiosk mode"
-description: "Guide on how to show your Home Assistant dashboard on a tablet in kiosk mode with Fully Kiosk Browser"
+title: "Home Assistant Kiosk mode on a tablet with Fully Kiosk Browser"
+description: "Show your Home Assistant dashboard on a wall tablet in kiosk mode with Fully Kiosk Browser: setup, settings and tips."
 category: Home Assistant
 tags: [HACS, Home Assistant, hardware, dashboard, Android, weather, tablet, kiosk, HA Marketplace]
 image: /homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png
@@ -574,6 +574,10 @@ If you want to show a fullscreen overlay popup when a person is detected by a ca
 <a class="hp-card hp-tile" href="/homeassistant/homeassistant_hacs_afvalbeheer">
 <img src="/homeassistant/images_afvalbeheer/pres_list_icon_date.png" alt="Home Assistant - HACS Afvalbeheer" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Integration</span><strong>HACS Afvalbeheer</strong><p>Set up the Afvalbeheer integration and show the waste pickup days.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/elgato_stream_deck/stream_deck_home_assistant">
+<img src="/elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.png" alt="Elgato Stream Deck - Home Assistant integration" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Stream Deck</span><strong>Elgato Stream Deck - Home Assistant integration</strong><p>Want physical buttons next to your dashboard? Control Home Assistant with a Stream Deck.</p></div>
 </a>
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant: Templates"
+title: "Home Assistant templates: examples for sensors and helpers"
 description: "Home Assistant template examples and a guide to create your own helper templates, custom sensors and conditions for dashboards and automations."
 category: Home Assistant
 tags: [HACS, Home Assistant, templates, sensor, lamps, HA Marketplace]

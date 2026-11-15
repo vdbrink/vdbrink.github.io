@@ -1,6 +1,6 @@
 ---
 title: "Zigbee Smart home - Best Buy Tips"
-description: "Useful link to buy Zigbee sensors other devices for your smart home automation with Home Assistant"
+description: "Useful links to buy Zigbee sensors and other devices for your smart home automation with Home Assistant."
 category: Buy tips
 tags: [best buy tips, Zigbee, DIY, Christmas, hardware,sensor, outdoor, smart home, garden]
 image: /buy/images_zigbee/zigbee_banner.png

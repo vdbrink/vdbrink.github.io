@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant dashboard card: Mushroom"
+title: "Mushroom cards for Home Assistant: dashboard examples with YAML"
 description: "Home Assistant dashboard examples with Mushroom cards, with copy-paste YAML code for your own dashboard."
 category: Home Assistant
 tags: [HACS, Home Assistant, Mushroom, dashboard, HA Marketplace]

@@ -1,5 +1,5 @@
 ---
-title: "Elgato Stream Deck for a software developer"
+title: "Elgato Stream Deck for developers: shortcuts, macros and Home Assistant"
 description: "How I use an Elgato Stream Deck as a software developer: programmable shortcut buttons, live info on the keys, AI agent controls and Home Assistant."
 category: Projects
 tags: [Stream Deck, hardware, buttons, Home Assistant, productivity, AI]

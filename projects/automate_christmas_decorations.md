@@ -1,11 +1,13 @@
 ---
-title: "Automate Christmas decorations with Zigbee sockets and Home Assistant"
-description: "How I automated all my Christmas lights and other powered decorations."
+title: "Automate Christmas lights and decorations with Home Assistant, Node-RED and Zigbee"
+description: "Automate your Christmas lights and decorations with Home Assistant and Zigbee smart sockets: tree lights, battery-powered, infrared and outdoor lights."
 category: Projects
 tags: [hardware, lamps, Christmas, automation, Home Assistant, Zigbee, smart socket, battery, garden, outdoor]
 image: /projects/images_christmas_decorations/banner_christmas.png
 ---
-# Automate Christmas decorations
+# Automate Christmas lights and decorations
+
+*Updated November 2026*
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 {% capture imgZ2M %} | <img src="/zigbee/images/zigbee2mqtt.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;height:15px"/>{% endcapture %}
@@ -24,7 +26,12 @@ It's a lot of work to control them manually every day.\
 It's also a waste of energy when no one sees it or it's a clear day.\
 I've made my life easier by automating them all based on time of the day, presence, status of other devices.
 
-Now I can also control all my Christmas decorations from my phone in a Home Assistant dashboard.
+I control them now all with a few simple building blocks:
+* a **Zigbee smart socket** to switch mains powered lights, like the Christmas tree lights;
+* **dummy batteries** (battery eliminators) on a power adapter, to replace the batteries of battery powered decorations;
+* a **programmable infrared remote** for infrared controlled candles and tea lights;
+* **Node-RED** to automate them all based on time, daylight and presence.
+* **Home Assistant** to control them manually via my phone or dashboard.
 
 <i>Click to see a video of this dashboard in action.</i>\
 <a href="https://www.facebook.com/reel/841128491664565">
@@ -72,16 +79,17 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
   * [Advantages](#advantages)
   * [My old situation](#my-old-situation)
   * [My smart hardware solutions](#my-smart-hardware-solutions)
-    * [Battery powered decorations](#battery-powered-decorations)
+    * [Battery powered decorations: dummy batteries (AA, AAA)](#battery-powered-decorations)
         * [Example 1: battery-to-USB + smart USB adapter/switch + 5V-adapter](#example-1)
         * [Example 2: battery-to-plug + smart socket](#example-2)
         * [Example 3: battery-to-USB + USB hub + smart socket](#example-3)
     * [Infrared lights](#infrared-lights)
-    * [Christmas tree lights](#christmas-tree-lights)
+    * [Automate Christmas tree lights](#christmas-tree-lights)
     * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
   * [Home Assistant](#home-assistant)
   * [Automations](#automations)
+  * [FAQ](#faq)
   * [Do you have other solutions?](#do-you-have-other-solutions)
   * [Related articles](#related-articles)
 <!-- TOC -->
@@ -206,9 +214,11 @@ In the next chapters I'll describe how I automated each type.
 
 ---
 
-### Battery powered decorations
+### Battery powered decorations: dummy batteries (AA, AAA) {#battery-powered-decorations}
 
 There are multiple smart hardware device combinations possible to change battery powered decorations, so you don't need any battery at all anymore!
+
+For decorations that run on a CR2032 coin cell, see the [CR2032 USB battery replacements](/buy/batteries#cr2032-usb-battery-replacements).
 
 Here are some examples of how to accomplish this:
 
@@ -429,7 +439,7 @@ With this project, all these lights can now be automated as well!
 
 ---
 
-### Christmas tree lights
+### Automate Christmas tree lights with a smart socket {#christmas-tree-lights}
 
 My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W. But when I was looking at AliExpress, I found this exact same plug but without a power button and without switching the disco modes, just always on.
 
@@ -565,6 +575,28 @@ If you have such automations in Home Assistant, I can add those here also if you
 {% endraw %}
 ```
 ---
+
+## FAQ
+
+### How do I automate Christmas lights with Home Assistant?
+
+Plug the lights into a Zigbee smart socket and add the socket to Home Assistant. Then switch it on a time, when someone enters the house, on motion detection or based on the outside light level. See [Automations](#automations).
+
+### Can I automate battery powered Christmas decorations?
+
+Yes. Replace the batteries with dummy batteries (a battery eliminator) connected to a power adapter, and put that adapter on a smart socket or smart USB adapter. See [Battery powered decorations](#battery-powered-decorations).
+
+### How do I control infrared candles and tea lights from Home Assistant?
+
+Use a programmable Zigbee infrared remote that can send the commands of the original remote. See [Infrared lights](#infrared-lights).
+
+### Can I use this for outdoor lights?
+
+Yes, with outdoor smart sockets. See [Outdoor lights](#outdoor-lights).
+
+### Does this work for other decorations, like Halloween?
+
+Yes. The same battery, plug and outdoor solutions work for any powered decoration project.
 
 ## Do you have other solutions?
 

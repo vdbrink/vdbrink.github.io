@@ -192,6 +192,11 @@ like a NUC mini PC, N100, Raspberry Pi or a refurbished thin client, desktop or 
 <span>Automate infrared devices in Home Assistant</span>
 </a>
 
+<a class="project-card" href="/elgato_stream_deck/stream_deck_home_assistant">
+<img src="/elgato_stream_deck/home_assistant/images/home-assistant_stream_deck_integration.png" alt="Control Home Assistant from an Elgato Stream Deck">
+<span>Control Home Assistant from an Elgato Stream Deck hardware keypad</span>
+</a>
+
 <a class="project-card" href="/pihole">
 <img src="/pihole/images/pi-hole_logo.svg" alt="Pi-hole Ad blocker application">
 <span>Pi-hole Ad blocker application</span>
