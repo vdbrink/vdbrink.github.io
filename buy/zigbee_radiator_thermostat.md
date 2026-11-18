@@ -4,6 +4,7 @@ description: "Zigbee radiator thermostat valves that heat only the rooms and mom
 category: Buy tips
 tags: [best buy tips, thermostat, temperature, Zigbee, Aqara]
 image: /buy/images_zigbee/thermostat.avif
+permalink: /buy/zigbee_radiator_thermostat
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

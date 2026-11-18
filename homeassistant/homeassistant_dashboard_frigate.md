@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Frigate"
 description: "Show Frigate camera snapshots and video clips of detected people and objects on your Home Assistant dashboard, with card examples and YAML code."
 categories: [Home Assistant, Frigate]
 tags: [HACS, Home Assistant, Frigate, camera, dashboard, MQTT, HA Marketplace]
+permalink: /homeassistant/homeassistant_dashboard_frigate
 ---
 
 # Home Assistant dashboard: Frigate

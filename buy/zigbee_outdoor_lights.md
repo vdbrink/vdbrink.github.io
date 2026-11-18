@@ -4,6 +4,7 @@ description: "Zigbee outdoor lights like spotlights, floodlights and LED strips 
 category: Buy tips
 tags: [best buy tips, lamps, Zigbee, Home Assistant, outdoor]
 image: /buy/images_outdoor/zigbee_spotlight.avif
+permalink: /buy/zigbee_outdoor_lights
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

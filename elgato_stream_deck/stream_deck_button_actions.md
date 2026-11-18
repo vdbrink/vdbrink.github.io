@@ -3,6 +3,7 @@ title: "Elgato Stream Deck - button action examples"
 description: "The Elgato Stream Deck button actions I use as a developer, from hotkeys to multi actions, with downloads you can import into your own Stream Deck."
 category: Projects
 tags: [Stream Deck, buttons, hardware, Claude, Mac, Home Assistant, desk, home office]
+permalink: /elgato_stream_deck/stream_deck_button_actions
 ---
 
 # Elgato Stream Deck - button action examples

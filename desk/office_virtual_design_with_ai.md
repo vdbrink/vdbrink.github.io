@@ -3,6 +3,7 @@ title: "Home office: Virtual design with AI"
 description: "How I used AI to create a virtual mockup of my new home office desk setup from a Pinterest mood board, before buying any furniture or accessories."
 category: Office
 tags: [home office, AI]
+permalink: /desk/office_virtual_design_with_ai
 ---
 
 # Home office: Virtual room design with AI

@@ -4,6 +4,7 @@ description: "Build a DIY Zigbee chair occupancy sensor with a car seat pressure
 category: Zigbee
 tags: [Zigbee, hardware, sensor, DIY, presence detection, soldering, contact sensor]
 image: /zigbee/images_chair/pillow_with_sensor.jpg
+permalink: /zigbee/zigbee_chair_occupancy_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

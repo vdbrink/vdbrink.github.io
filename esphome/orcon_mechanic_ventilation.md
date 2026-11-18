@@ -5,6 +5,7 @@ date: 2022-06-24
 category: ESPHome
 tags: [ESP, ESPHome, hardware, DIY, ventilation, Home Assistant, sensor, CO2]
 image: /esphome/orcon_images/wires_connected.jpg
+permalink: /esphome/orcon_mechanic_ventilation
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

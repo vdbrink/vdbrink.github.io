@@ -1,5 +1,6 @@
 ---
 title: "Zigbee Outdoor - Best Buy Tips"
+permalink: /buy/zigbee_outdoor
 ---
 <meta http-equiv="refresh" content="0; url=/buy/smart_home_best_buy_tips#outdoor-sensors">
 

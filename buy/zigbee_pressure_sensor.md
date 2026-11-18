@@ -4,6 +4,7 @@ description: "Zigbee pressure sensors and mats that detect weight on a chair, be
 category: Buy tips
 tags: [best buy tips, sensor, Zigbee, presence detection, pressure sensor]
 image: /buy/images_zigbee/pressure_sensor.avif
+permalink: /buy/zigbee_pressure_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

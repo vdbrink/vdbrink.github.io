@@ -3,6 +3,7 @@ title: "Node-RED calculate diff in time"
 description: "Node-RED flow to calculate how much a temperature or humidity changed within a time window and trigger an action. Flow example to import."
 category: Node-RED
 tags: [Node-RED, temperature, humidity]
+permalink: /node-red/node-red_diff_in_time
 ---
 
 {% capture imgHeight %}50{% endcapture %}

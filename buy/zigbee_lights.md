@@ -4,6 +4,7 @@ description: "Zigbee smart lights, like bulbs, GU10 spots and LED strips, that y
 category: Buy tips
 tags: [best buy tips, lamps, Zigbee, outdoor, garden]
 image: /buy/images_zigbee/gu10_fullcolor.jpg
+permalink: /buy/zigbee_lights
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

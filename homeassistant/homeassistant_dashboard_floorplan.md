@@ -4,6 +4,7 @@ description: "Create an interactive floor plan dashboard in Home Assistant with 
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, floor plan, HA Marketplace]
 image: /homeassistant/images_floorplan/banner2.png
+permalink: /homeassistant/homeassistant_dashboard_floorplan
 ---
 
 # Home Assistant dashboard: Floor plan

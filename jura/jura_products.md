@@ -4,6 +4,7 @@ description: "Products for your Jura coffee machine: beans, milk containers, coo
 category: Jura
 tags: [Jura]
 image: /jura/images/jura_logo.png
+permalink: /jura/jura_products
 ---
 
 # Jura Products

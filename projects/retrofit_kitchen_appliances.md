@@ -4,6 +4,7 @@ description: "Retrofit kitchen appliances to make them smarter by adding out-of-
 category: Projects
 tags: [kitchen, automation, hardware hacks, notifications, DIY, smart socket]
 image: /projects/images_kitchen_appliances/kitchen_banner.png
+permalink: /projects/retrofit_kitchen_appliances
 ---
 
 {% capture margin %}style="margin-left:15px;float:right"{% endcapture %}

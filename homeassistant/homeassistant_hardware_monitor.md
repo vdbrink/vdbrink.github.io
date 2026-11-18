@@ -4,6 +4,7 @@ description: "Monitor server temperature, CPU, disk and memory in Home Assistant
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, sensor, temperature, hardware, HA Marketplace]
 image: /homeassistant/images/system_monitor.png
+permalink: /homeassistant/homeassistant_hardware_monitor
 ---
 
 # Home Assistant: Hardware monitor

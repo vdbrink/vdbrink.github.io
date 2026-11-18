@@ -4,6 +4,7 @@ description: "Useful links to buy Zigbee sensors and other devices for your smar
 category: Buy tips
 tags: [best buy tips, Zigbee, DIY, Christmas, hardware,sensor, outdoor, smart home, garden]
 image: /buy/images_zigbee/zigbee_banner.png
+permalink: /buy/smart_home_best_buy_tips
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

@@ -4,6 +4,7 @@ description: "Useful and hidden Home Assistant tips and tricks, like enlarging t
 category: Home Assistant
 tags: [Home Assistant, dashboard]
 image: /homeassistant/images_tips/dialog_enlarge.png
+permalink: /homeassistant/homeassistant_tips_tricks
 ---
 
 # Home Assistant - Tips & Tricks

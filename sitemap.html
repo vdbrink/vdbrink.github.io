@@ -1,11 +1,12 @@
 ---
 title: "Sitemap"
 description: "Overview of all pages on this site, grouped per topic."
+permalink: /sitemap
 ---
 
 <h1>Sitemap</h1>
 
-<p class="hp-lead">All pages on this site, grouped per topic. For the posts, see the <a href="/feed.html">posts overview</a>.</p>
+<p class="hp-lead">All pages on this site, grouped per topic. For the posts, see the <a href="/feed">posts overview</a>.</p>
 
 {%- assign all_pages = site.html_pages | sort: "dir" -%}
 {%- assign groups = all_pages | group_by: "dir" -%}
@@ -41,7 +42,7 @@ description: "Overview of all pages on this site, grouped per topic."
 {%- endfor -%}
 
 <div class="sitemap-group">
-<h2 id="posts"><a href="/feed.html">Posts</a></h2>
+<h2 id="posts"><a href="/feed">Posts</a></h2>
 <ul class="sitemap-list">
 {%- assign sorted_posts = site.posts | sort: "date" | reverse -%}
 {%- for post in sorted_posts -%}

@@ -5,6 +5,7 @@ date: 2022-06-29
 category: Home Assistant
 tags: [HACS, Home Assistant, Dutch, dashboard, HA Marketplace]
 image: /homeassistant/images/home_assistant_logo.png
+permalink: /homeassistant/homeassistant_dashboard_date_time
 ---
 
 # Home Assistant dashboard: Date & Time

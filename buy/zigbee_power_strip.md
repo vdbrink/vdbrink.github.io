@@ -4,6 +4,7 @@ description: "Zigbee power strip with several independently controlled outlets a
 category: Buy tips
 tags: [best buy tips, smart socket, Zigbee]
 image: /buy/images_zigbee/powerstrip.avif
+permalink: /buy/zigbee_power_strip
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

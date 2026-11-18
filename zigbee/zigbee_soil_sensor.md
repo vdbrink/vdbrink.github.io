@@ -4,6 +4,7 @@ description: "Measure the soil humidity and temperature in your garden with a so
 category: Zigbee
 tags: [Zigbee, hardware, sensor, soil sensor, temperature, humidity, Home Assistant, plants]
 image: /zigbee/images_soil_sensor/NAS-STH02B2.png
+permalink: /zigbee/zigbee_soil_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

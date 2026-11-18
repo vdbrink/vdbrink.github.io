@@ -3,6 +3,7 @@ title: "Node-RED Temperature flows"
 description: "Node-RED temperature flows: compare indoor and outdoor temperature and detect temperature changes over time."
 category: Node-RED
 tags: [Node-RED, temperature]
+permalink: /node-red/node-red_temperature_flows
 ---
 
 # Node-RED Temperature flows

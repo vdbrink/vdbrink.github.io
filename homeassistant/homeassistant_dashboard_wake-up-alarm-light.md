@@ -5,6 +5,7 @@ date: 2026-03-17
 category: Home Assistant
 tags: [Home Assistant, dashboard, lamps, automation]
 image: /homeassistant/images_wake-up/ledstrip_bedroom.png
+permalink: /homeassistant/homeassistant_dashboard_wake-up-alarm-light
 ---
 
 # Home Assistant dashboard:<br>Wake-up alarm light

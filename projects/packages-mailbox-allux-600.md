@@ -4,6 +4,7 @@ description: "Automate an Allux 600 package mailbox to make it smart with own se
 category: Projects
 tags: [mailbox, Home Assistant, Node-RED, DIY, automation, Zigbee, outdoor]
 image: /projects/images_allux-600/allux_result.jpg
+permalink: /projects/packages-mailbox-allux-600
 ---
 
 # Packages mailbox - Allux 600

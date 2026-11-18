@@ -4,6 +4,7 @@ description: "Zigbee smart sockets that switch any plugged-in device and measure
 category: Buy tips
 tags: [best buy tips, smart socket, Zigbee, Aqara, Christmas]
 image: /esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg
+permalink: /buy/zigbee_smart_socket
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

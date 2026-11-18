@@ -4,6 +4,7 @@ description: "The hardware of my home office desk setup: desk, monitor and arm, 
 category: Office
 tags: [hardware, home office, standing desk, accessories]
 image: /desk/images/youp02_desk.jpg
+permalink: /desk/desk_setup_hardware
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

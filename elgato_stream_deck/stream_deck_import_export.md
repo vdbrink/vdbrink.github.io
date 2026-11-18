@@ -3,6 +3,7 @@ title: "Elgato Stream Deck - Import and Export data"
 description: "Import and export Elgato Stream Deck actions, profiles and icons, and download my ready-made button actions to load directly into your own Stream Deck."
 category: Projects
 tags: [Stream Deck, buttons]
+permalink: /elgato_stream_deck/stream_deck_import_export
 ---
 
 # Elgato Stream Deck - Import and Export data

@@ -4,6 +4,7 @@ description: "Build a Home Assistant dashboard to manage weekend chores where ev
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, auto-entities, HA Marketplace]
 image: /homeassistant/images_chores/chores_banner.png
+permalink: /homeassistant/homeassistant_dashboard_chores
 ---
 
 # Home Assistant dashboard: Chores

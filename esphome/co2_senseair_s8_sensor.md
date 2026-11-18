@@ -5,6 +5,7 @@ date: 2024-06-24
 category: ESPHome
 tags: [ESP, ESPHome, HACS, hardware, DIY, sensor, air quality, CO2, HA Marketplace]
 image: /esphome/images_co2/case_fit_co2_sensor.jpg
+permalink: /esphome/co2_senseair_s8_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

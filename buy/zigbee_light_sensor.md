@@ -4,6 +4,7 @@ description: "Zigbee light intensity (lux) sensors that measure daylight so you 
 category: Buy tips
 tags: [best buy tips, sensor, Zigbee, Aqara]
 image: /ideas/images/lux_sensor.jpg
+permalink: /buy/zigbee_light_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

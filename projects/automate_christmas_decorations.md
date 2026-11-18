@@ -4,6 +4,7 @@ description: "Automate your Christmas lights and decorations with Home Assistant
 category: Projects
 tags: [hardware, lamps, Christmas, automation, Home Assistant, Zigbee, smart socket, battery, garden, outdoor]
 image: /projects/images_christmas_decorations/banner_christmas.png
+permalink: /projects/automate_christmas_decorations
 ---
 # Automate Christmas lights and decorations
 

@@ -5,6 +5,7 @@ date: 2022-06-24
 category: ESPHome
 tags: [ESP, ESPHome, HACS, hardware, DIY, sensor, CO2, SCD40, HA Marketplace]
 image: /esphome/images_scd40/hardware.jpg
+permalink: /esphome/co2_scd40
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

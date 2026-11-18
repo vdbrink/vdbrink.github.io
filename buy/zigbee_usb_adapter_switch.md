@@ -4,6 +4,7 @@ description: "Zigbee USB adapter switch that toggles the power of each USB port 
 category: Buy tips
 tags: [best buy tips, Zigbee, smart socket, USB, Christmas]
 image: /zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png
+permalink: /buy/zigbee_usb_adapter_switch
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

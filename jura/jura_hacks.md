@@ -4,6 +4,7 @@ description: "Handy hacks for Jura coffee machines: milk bottle container, autom
 category: Jura
 tags: [Jura, hardware hacks]
 image: /jura/images/jura_logo.png
+permalink: /jura/jura_hacks
 ---
 
 # Jura Hacks

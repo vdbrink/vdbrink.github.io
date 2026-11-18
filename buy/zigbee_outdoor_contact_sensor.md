@@ -4,6 +4,7 @@ description: "IP65 waterproof Zigbee contact sensor for a gate, shed door or mai
 category: Buy tips
 tags: [best buy tips, sensor, contact sensor, Zigbee, outdoor, waterproof]
 image: /buy/images_outdoor/zigbee_contact_sensor_waterproof.png
+permalink: /buy/zigbee_outdoor_contact_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

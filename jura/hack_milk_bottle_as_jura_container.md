@@ -4,6 +4,7 @@ description: "Use a plastic milk bottle as a cheap compatible milk container for
 category: Jura
 tags: [Jura, hack, DIY]
 image: /jura/images_bottle_hack/new_diy_bottle_top.jpg
+permalink: /jura/hack_milk_bottle_as_jura_container
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

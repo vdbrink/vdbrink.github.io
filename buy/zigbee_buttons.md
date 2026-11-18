@@ -4,6 +4,7 @@ description: "Zigbee wall switches, dimmer buttons and portable buttons to contr
 category: Buy tips
 tags: [best buy tips, buttons, Zigbee, lamps, Aqara]
 image: /buy/images_zigbee/zigbee_moes_wall_switch.webp
+permalink: /buy/zigbee_buttons
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

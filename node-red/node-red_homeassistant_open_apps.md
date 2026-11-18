@@ -3,6 +3,7 @@ title: "Node-RED + Home Assistant: Open apps on Android"
 description: "Open any app on your Android phone from Node-RED via the Home Assistant companion app."
 category: Node-RED
 tags: [Node-RED, Android, Home Assistant]
+permalink: /node-red/node-red_homeassistant_open_apps
 ---
 
 {% capture imgHeight %}50{% endcapture %}

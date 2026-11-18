@@ -4,6 +4,7 @@ description: "Full-blown weather stations with Home Assistant integration that m
 category: Buy tips
 tags: [best buy tips, weather, temperature, Home Assistant, humidity, Zigbee, garden, waterproof]
 image: /buy/images_weather/ecowitt.jpg
+permalink: /buy/zigbee_weather_station
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

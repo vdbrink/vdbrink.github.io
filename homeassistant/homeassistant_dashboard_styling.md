@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Styling"
 description: "Home Assistant dashboard styling examples: change icon, status and background colors based on a sensor value."
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, HA Marketplace]
+permalink: /homeassistant/homeassistant_dashboard_styling
 ---
 # Home Assistant dashboard: Styling
 

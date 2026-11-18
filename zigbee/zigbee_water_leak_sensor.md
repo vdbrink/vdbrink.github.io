@@ -4,6 +4,7 @@ description: "Build a DIY Zigbee leak detector with a contact sensor and a cheap
 category: Zigbee
 tags: [Zigbee, leak sensor, sensor, DIY]
 image: /zigbee/images_leak/leak_sensor_in_action.jpg
+permalink: /zigbee/zigbee_water_leak_sensor
 ---
 
 # DIY Zigbee leak sensor

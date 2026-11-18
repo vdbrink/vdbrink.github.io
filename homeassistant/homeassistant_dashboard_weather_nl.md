@@ -4,6 +4,7 @@ description: "Dutch weather on your Home Assistant dashboard: rain radar, Buienr
 category: Home Assistant
 tags: [HACS, Home Assistant, weather, dashboard, Dutch, rain, HA Marketplace]
 image: /homeassistant/images/rain_radar_animated.png
+permalink: /homeassistant/homeassistant_dashboard_weather_nl
 ---
 # Home Assistant dashboard: Weather in The Netherlands
 

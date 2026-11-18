@@ -4,6 +4,7 @@ description: "Make your curtains smart with Slide, which works completely locall
 category: "Projects"
 tags: [curtains, Home Assistant, automation, API]
 image: /projects/images_slide_curtain/slide_module.webp
+permalink: /projects/slide_smart_curtains
 ---
 
 # Slide - Smart Curtains

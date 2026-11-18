@@ -4,6 +4,7 @@ description: "Zigbee smoke detector with an 85 dB alarm that alerts you in Home 
 category: Buy tips
 tags: [best buy tips, security, Zigbee]
 image: /buy/images_zigbee/smoke_detector.avif
+permalink: /buy/zigbee_smoke_detector
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

@@ -4,6 +4,7 @@ description: "Embed Grafana graphs in your Home Assistant dashboard with InfluxD
 category: Home Assistant
 tags: [Home Assistant, Grafana, dashboard, sensor]
 image: /homeassistant/images_grafana/grafana_integration_dashboard.png
+permalink: /homeassistant/homeassistant_dashboard_grafana
 ---
 
 # Home Assistant dashboard: Grafana integration

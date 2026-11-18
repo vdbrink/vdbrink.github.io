@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Fullscreen camera stream"
 description: "Guide how to show your camera stream, when a person is detected, as fullscreen popup on your Home Assistant dashboard."
 category: Home Assistant
 tags: [HACS, Home Assistant, camera, dashboard, automation, tablet, HA Marketplace]
+permalink: /homeassistant/homeassistant_dashboard_fullscreen_camera_stream
 ---
 
 # Home Assistant dashboard:<br>Fullscreen camera stream

@@ -4,6 +4,7 @@ description: "Home Assistant dashboard layout tips to group many entities in a c
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, HA Marketplace]
 image: /homeassistant/images_layout/ha_layout_banner.png
+permalink: /homeassistant/homeassistant_dashboard_layout
 ---
 # Home Assistant dashboard: Layout
 

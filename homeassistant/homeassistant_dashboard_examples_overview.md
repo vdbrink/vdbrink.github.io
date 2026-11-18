@@ -4,6 +4,7 @@ description: "Visual overview of Home Assistant dashboard examples, from weather
 category: Home Assistant
 tags: [Home Assistant, weather, dashboard, air quality, Dutch, bin day, security]
 image: /homeassistant/images_layout/ha_layout_banner.png
+permalink: /homeassistant/homeassistant_dashboard_examples_overview
 ---
 # Home Assistant dashboard: Examples overview
 

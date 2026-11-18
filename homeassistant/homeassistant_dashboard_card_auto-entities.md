@@ -4,6 +4,7 @@ description: "Use the HACS auto-entities card (auto entities) in Home Assistant 
 category: Home Assistant
 tags: [HACS, Home Assistant, auto-entities, dashboard, HA Marketplace]
 image: /homeassistant/images_autoentities/temp_round_sorted_color-autoentities.png
+permalink: /homeassistant/homeassistant_dashboard_card_auto-entities
 ---
 
 # Home Assistant dashboard custom element: Auto-entities

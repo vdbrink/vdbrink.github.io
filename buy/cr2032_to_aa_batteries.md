@@ -4,6 +4,7 @@ description: "Replace a CR2032 coin cell with two AA batteries for a much longer
 category: Buy
 tags: [best buy tips, CR2032, battery]
 image: /buy/images_batteries/cr2032_to_aa_banner.jpg
+permalink: /buy/cr2032_to_aa_batteries
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

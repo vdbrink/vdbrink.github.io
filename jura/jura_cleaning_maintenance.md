@@ -4,6 +4,7 @@ description: "How I clean and maintain my Jura coffee machine to keep it in good
 category: Jura
 tags: [Jura]
 image: /jura/images/jura_logo.png
+permalink: /jura/jura_cleaning_maintenance
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

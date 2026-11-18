@@ -4,6 +4,7 @@ description: "Get a smart light on your desk to alert you when Claude Code or Co
 category: AI
 tags: [AI, lamps, notifications, Node-RED, Home Assistant, home office, Claude]
 image: /projects/images_noti_light/banner_noti_light.png
+permalink: /ai/ai-user-input-needed-notification-light
 ---
 
 # AI user input notification light

@@ -4,6 +4,7 @@ description: "Waterproof Zigbee temperature and humidity sensors for outside, to
 category: Buy tips
 tags: [best buy tips, temperature, sensor, humidity, Zigbee, outdoor, waterproof, garden]
 image: /buy/images_outdoor/zigbee_temperature_humidity_sensor_waterproof.png
+permalink: /buy/zigbee_outdoor_temperature_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

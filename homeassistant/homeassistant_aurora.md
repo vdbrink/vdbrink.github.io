@@ -4,6 +4,7 @@ description: "Get an alert in Home Assistant when the chance of seeing the Auror
 category: Home Assistant
 tags: [Home Assistant, weather, sensor]
 image: /homeassistant/images_aurora/northernlight.jpg
+permalink: /homeassistant/homeassistant_aurora
 ---
 
 # Home Assistant: Aurora Borealis integration

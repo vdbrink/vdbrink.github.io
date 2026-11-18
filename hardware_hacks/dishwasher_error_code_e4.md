@@ -3,6 +3,7 @@ title: Dishwasher with error code E4
 description: "How I fixed my dishwasher that beeped and showed error code E4 myself, without calling a service company. Steps, cause and the part that fixed it."
 category: Hardware hacks
 tags: [hardware hacks]
+permalink: /hardware_hacks/dishwasher_error_code_e4
 ---
 
 # Dishwasher with error code E4

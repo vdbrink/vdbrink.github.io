@@ -4,6 +4,7 @@ description: "Show your waste collection calendar in Home Assistant with the HAC
 category: Home Assistant
 tags: [HACS, Home Assistant, bin day, auto-entities, Mushroom, dashboard, Dutch, HA Marketplace]
 image: /homeassistant/images_afvalbeheer/pres_list_icon_date.png
+permalink: /homeassistant/homeassistant_hacs_afvalbeheer
 ---
 
 # Home Assistant - HACS Afvalbeheer

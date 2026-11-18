@@ -4,6 +4,7 @@ description: "Zigbee rain sensor that detects raindrops, already triggered by a 
 category: Buy tips
 tags: [best buy tips, rain sensor, sensor, Zigbee, Home Assistant]
 image: /buy/images_outdoor/rain_sensor.avif
+permalink: /buy/zigbee_rain_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

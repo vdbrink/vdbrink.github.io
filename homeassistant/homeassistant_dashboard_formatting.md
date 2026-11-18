@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Formatting"
 description: "Home Assistant dashboard formatting tips: round temperatures and other sensor values to fewer decimals with simple template and card settings."
 category: Home Assistant
 tags: [Home Assistant, dashboard, temperature]
+permalink: /homeassistant/homeassistant_dashboard_formatting
 ---
 
 # Home Assistant dashboard: Formatting

@@ -4,6 +4,7 @@ description: "Home Assistant dashboard layout for a long, portable stretched wid
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, temperature, CO2, tablet, theme, stretch display, HA Marketplace]
 #image: /homeassistant/images_layout_stretch/ha_layout_stretch_banner.png
+permalink: /homeassistant/homeassistant_dashboard_stretch_layout
 ---
 
 # Home Assistant dashboard:<br>Stretch Display Layout

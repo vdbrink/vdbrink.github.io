@@ -4,6 +4,7 @@ description: "How to flash an ESPHome config to an ESP board for the first time 
 category: ESPHome
 tags: [ESP, ESPHome, DIY]
 image: esphome/images/esphome.png
+permalink: /esphome/esphome_flashing
 ---
 
 # ESPHome: Flash the config to the ESP

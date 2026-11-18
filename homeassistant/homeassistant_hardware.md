@@ -4,6 +4,7 @@ description: "Which hardware to run Home Assistant on? Compare a NUC mini PC, N1
 category: Home Assistant
 tags: [Home Assistant, hardware, server, Beelink, Raspberry Pi]
 image: /homeassistant/images_hardware/ha_hardware_banner.png
+permalink: /homeassistant/homeassistant_hardware
 ---
 
 {% capture style_img_right %}style="float:right;margin-left:15px"{% endcapture %}

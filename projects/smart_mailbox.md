@@ -4,6 +4,7 @@ description: "Make your traditional mailbox smart with Zigbee contact sensors an
 category: Projects
 tags: [mailbox, sensor, contact sensor, Mushroom, Home Assistant, Zigbee, automation, DIY]
 image: /projects/images_mailbox/sensor_in_mailbox.jpg
+permalink: /projects/smart_mailbox
 ---
 
 # Smart traditional mailbox

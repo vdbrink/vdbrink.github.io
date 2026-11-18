@@ -4,6 +4,7 @@ description: "Water-resistant Zigbee outdoor sockets with power measurement for 
 category: Buy tips
 tags: [best buy tips, Zigbee, lamps, Home Assistant, outdoor]
 image: /buy/images_zigbee/ledvance_outdoor_plug.jpg
+permalink: /buy/zigbee_outdoor_socket
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

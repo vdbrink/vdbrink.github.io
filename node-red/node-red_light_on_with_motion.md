@@ -3,6 +3,7 @@ title: "Node-RED - Lights on by motion"
 description: "Node-RED - Turn the lights on by motion and keep it on as long as motion is detected"
 category: Node-RED
 tags: [Node-RED, lamps, motion sensor]
+permalink: /node-red/node-red_light_on_with_motion
 ---
 
 # Node-RED - Lights on by motion

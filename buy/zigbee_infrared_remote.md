@@ -4,6 +4,7 @@ description: "Zigbee and WiFi infrared remote controls that learn signals so you
 category: Buy tips
 tags: [best buy tips, infrared, Zigbee, Christmas]
 image: /buy/images_zigbee/zigbee_ir_remote.webp
+permalink: /buy/zigbee_infrared_remote
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

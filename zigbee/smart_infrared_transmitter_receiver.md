@@ -4,6 +4,7 @@ description: "Automate infrared devices in Home Assistant with a smart home infr
 category: Zigbee
 tags: [Zigbee, hardware, infrared, Home Assistant, Stream Deck, Christmas]
 image: /zigbee/images_infrared/ir_buttons_ha.png
+permalink: /zigbee/smart_infrared_transmitter_receiver
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

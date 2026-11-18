@@ -4,6 +4,7 @@ description: "Awesome Marketplace (HACS) custom cards for your Home Assistant da
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, Mushroom, auto-entities, templates, HA Marketplace]
 image: /homeassistant/images/home_assistant_logo.png
+permalink: /homeassistant/homeassistant_dashboard_hacs
 ---
 # Home Assistant dashboard: Awesome Marketplace custom elements
 

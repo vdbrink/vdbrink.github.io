@@ -3,6 +3,7 @@ title: "Node-RED Cheat Sheet - Basic Nodes"
 description: "Node-RED cheat sheet with examples of basic nodes to convert, round and move data."
 category: Node-RED
 tags: [Node-RED]
+permalink: /node-red/node-red_cheatsheet-basic_nodes
 ---
 {% capture imgHeight %}50{% endcapture %}
 # Node-RED Cheat Sheet - Basic Nodes

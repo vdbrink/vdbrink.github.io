@@ -4,6 +4,7 @@ description: "Gallery with all unique Elgato Stream Deck action icons from my se
 category: Projects
 tags: [Stream Deck]
 #image:
+permalink: /elgato_stream_deck/stream_deck_icon_gallery
 ---
 
 # Stream Deck icon gallery

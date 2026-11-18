@@ -5,6 +5,7 @@ category: Home Assistant
 date: 28-09-2025
 tags: [HACS, Home Assistant, Mealie, kitchen, dashboard, Docker, Node-RED, HA Marketplace]
 image: /homeassistant/images_mealie/mealie1_ha_integration.png
+permalink: /homeassistant/homeassistant_dashboard_mealie
 ---
 # Home Assistant dashboard: Mealie Recipe Manager
 

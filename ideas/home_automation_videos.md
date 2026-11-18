@@ -4,6 +4,7 @@ description: "English and Dutch home automation videos that inspired me, from sm
 category: Ideas
 tags: [automation, smart home, Home Assistant, videos]
 image: /ideas/images/video.png
+permalink: /ideas/home_automation_videos
 ---
 
 # Home Automation Videos

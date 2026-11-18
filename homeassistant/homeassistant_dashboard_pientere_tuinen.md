@@ -4,6 +4,7 @@ description: "Home Assistant dashboard elements for the Dutch citizen science pr
 category: Home Assistant
 tags: [Home Assistant, dashboard, temperature, humidity, Dutch, garden]
 image: /homeassistant/images_pientere_tuinen/pt-logo.webp
+permalink: /homeassistant/homeassistant_dashboard_pientere_tuinen
 ---
 
 # Home Assistant dashboard: Pientere tuinen

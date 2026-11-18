@@ -4,6 +4,7 @@ description: "5V USB power adapters for ESP boards, USB battery eliminators and 
 category: Buy tips
 tags: [best buy tips, battery, ESP, DIY, Christmas]
 image: /esphome/images/5v_power_adapter.jpg
+permalink: /buy/smart_home_power
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

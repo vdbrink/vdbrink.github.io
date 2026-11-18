@@ -4,6 +4,7 @@ description: "A long list of home automation ideas for devices and locations in 
 category: Ideas
 tags: [automation, contact sensor, humidity, ideas]
 image: /ideas/images/idea.png
+permalink: /ideas/home_automation_ideas
 ---
 
 # Home Automation Ideas

@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Mealie Recipe manager 0.x"
 description: "Manage recipes and a meal week planner with Mealie, and show the data on a Home Assistant dashboard."
 category: Home Assistant
 tags: [Home Assistant, dashboard, kitchen, Mealie, Docker]
+permalink: /homeassistant/homeassistant_dashboard_mealie_0
 ---
 # Home Assistant dashboard: Mealie Recipe manager 0.x
 

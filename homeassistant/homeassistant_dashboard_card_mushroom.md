@@ -4,6 +4,7 @@ description: "Home Assistant dashboard examples with Mushroom cards, with copy-p
 category: Home Assistant
 tags: [HACS, Home Assistant, Mushroom, dashboard, HA Marketplace]
 image: /homeassistant/images_mushroom/mushroom_examples.png
+permalink: /homeassistant/homeassistant_dashboard_card_mushroom
 ---
 
 # Home Assistant dashboard card: Mushroom

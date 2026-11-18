@@ -4,6 +4,7 @@ description: "Weather forecast cards for your Home Assistant dashboard, with cop
 category: Home Assistant
 tags: [HACS, Home Assistant, weather, dashboard, HA Marketplace]
 image: /homeassistant/images_hacs/hacs_weather-chart-card.png
+permalink: /homeassistant/homeassistant_dashboard_weather
 ---
 
 # Home Assistant dashboard: Weather

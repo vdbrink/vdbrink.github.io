@@ -4,6 +4,7 @@ description: "Useful link to buy sensors and tools to create your own sensors wi
 date: 2024-05-07
 category: Buy tips
 tags: [DIY, sensor, ESP, ESPHome, soldering, air quality, Home Assistant, best buy tips, Christmas]
+permalink: /buy/esphome_diy
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

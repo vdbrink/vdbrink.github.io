@@ -3,6 +3,7 @@ title: "Node-RED Frigate image notification"
 description: "Send a Frigate camera snapshot as a notification to Telegram or the Home Assistant app with Node-RED."
 category: Node-RED
 tags: [Node-RED, Frigate, notifications, camera]
+permalink: /node-red/node-red_frigate_image_notification
 ---
 
 # Node-RED Frigate image notification

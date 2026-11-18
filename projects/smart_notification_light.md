@@ -4,6 +4,7 @@ description: "A stylish walnut notification light for your desk, controlled by H
 category: Home Assistant
 tags: [hardware, lamps, notifications, CO2, automation, AI, bin day, mailbox, Claude, Node-RED, DIY, ESPHome]
 image: /projects/images_noti_light/banner_noti_light.png
+permalink: /projects/smart_notification_light
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

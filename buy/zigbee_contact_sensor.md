@@ -4,6 +4,7 @@ description: "Zigbee contact sensors that detect open and closed doors, windows 
 category: Buy tips
 tags: [best buy tips, contact sensor, sensor, Zigbee, Aqara]
 image: /buy/images_zigbee/zigbee_contact_sensor_aqara.webp
+permalink: /buy/zigbee_contact_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

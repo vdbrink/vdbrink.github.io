@@ -4,6 +4,7 @@ description: "Common battery types for smart home sensors and battery eliminator
 category: Buy tips
 tags: [best buy tips, battery, Christmas, garden, outdoor]
 image: /buy/images_diy/battery_eliminator.png
+permalink: /buy/smart_home_batteries
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

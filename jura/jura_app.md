@@ -4,6 +4,7 @@ description: "How to use the Jura J.O.E. app to control your coffee machine, cre
 category: Jura
 tags: [Jura]
 image: /jura/images/jura_logo.png
+permalink: /jura/jura_app
 ---
 
 # Jura App

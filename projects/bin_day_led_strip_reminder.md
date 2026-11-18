@@ -4,6 +4,7 @@ description: "Create a bin day reminder with an LED strip that turns on when a b
 category: Projects
 tags: [lamps, bin day, Node-RED, Home Assistant]
 image: /projects/images_bin_day/bin_day_ledstrip_reminder_banner.png
+permalink: /projects/bin_day_led_strip_reminder
 ---
 
 # Bin day - LED strip reminder

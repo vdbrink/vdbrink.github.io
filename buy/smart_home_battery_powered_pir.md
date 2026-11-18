@@ -4,6 +4,7 @@ description: "Battery powered devices with a built-in PIR sensor that are still 
 category: Buy tips
 tags: [best buy tips, battery, motion sensor]
 image: /buy/images_diy/battery_powered_pir_lights.avif
+permalink: /buy/smart_home_battery_powered_pir
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

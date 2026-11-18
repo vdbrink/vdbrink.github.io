@@ -5,6 +5,7 @@ category: Home Assistant
 tags: [Home Assistant, templates, weather, dashboard, Dutch, weer]
 lang: nl
 locale: nl_NL
+permalink: /homeassistant/homeassistant_dashboard_templates_nl
 ---
 
 # Home Assistant dashboard: Voorbeeld templates NL

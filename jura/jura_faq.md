@@ -4,6 +4,7 @@ description: "Frequently asked questions about Jura coffee machines, with answer
 category: Jura
 tags: [Jura]
 image: /jura/images/jura_logo.png
+permalink: /jura/jura_faq
 ---
 
 # Jura FAQ

@@ -4,6 +4,7 @@ description: "Zigbee motion sensors, from PIR to mmWave radar with a brightness 
 category: Buy tips
 tags: [best buy tips, motion sensor, sensor, presence detection, Zigbee, Aqara]
 image: /ideas/images/motion_sensor.png
+permalink: /buy/zigbee_motion_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

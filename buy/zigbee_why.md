@@ -4,6 +4,7 @@ description: "Why I chose Zigbee for my smart home instead of WiFi, Bluetooth, Z
 category: Buy tips
 tags: [best buy tips, Zigbee]
 image: /buy/images_zigbee/zigbee.jpg
+permalink: /buy/zigbee_why
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

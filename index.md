@@ -26,7 +26,7 @@ image: /images/banner.jpg
 <h2>Latest posts</h2>
 <p class="hp-lead">My latest 4 posts about my latest projects I worked on.</p>
 </div>
-<a href="/feed.html">All posts &rarr;</a>
+<a href="/feed">All posts &rarr;</a>
 </div>
 
 {%- assign sorted_posts = site.posts | sort: "date" | reverse -%}
@@ -62,7 +62,7 @@ image: /images/banner.jpg
 <h2>Popular pages</h2>
 <p class="hp-lead">The most visited pages by other home automation enthusiasts.</p>
 </div>
-<a href="/sitemap.html">All pages &rarr;</a>
+<a href="/sitemap">All pages &rarr;</a>
 </div>
 <div class="hp-tiles">
 <a class="hp-card hp-tile" href="/esphome/co2_scd40">
@@ -128,7 +128,7 @@ image: /images/banner.jpg
 <h2>All topics</h2>
 <p class="hp-lead">Browse the site by subject. Click a topic to see all its articles, or jump straight to one of the highlighted pages listed below it.</p>
 </div>
-<a href="/sitemap.html">All pages &rarr;</a>
+<a href="/sitemap">All pages &rarr;</a>
 </div>
 <div class="hp-topic-grid">
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'homeassistant/'" | size -%}

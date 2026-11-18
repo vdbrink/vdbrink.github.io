@@ -4,6 +4,7 @@ description: "Home Assistant template examples and a guide to create your own he
 category: Home Assistant
 tags: [HACS, Home Assistant, templates, sensor, lamps, HA Marketplace]
 image: /homeassistant/images_templates/ha_templates_banner.png
+permalink: /homeassistant/homeassistant_templates
 ---
 
 # Home Assistant: Templates

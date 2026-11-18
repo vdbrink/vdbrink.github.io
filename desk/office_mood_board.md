@@ -4,6 +4,7 @@ description: "Start your home office design with a Pinterest mood board: how I c
 category: Office
 tags: [home office, mossarium, Pinterest]
 image: /desk/images/home_office_desk_result3.jpg
+permalink: /desk/office_mood_board
 ---
 
 # Home office: Mood board

@@ -4,6 +4,7 @@ description: "Zigbee vibration sensors that detect shocks, knocks and movement i
 category: Buy tips
 tags: [best buy tips, sensor, Zigbee, Aqara, vibration sensor]
 image: /buy/images_zigbee/zigbee_vibration_sensor.webp
+permalink: /buy/zigbee_vibration_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

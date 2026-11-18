@@ -4,6 +4,7 @@ description: "Zigbee mmWave presence sensors that detect people, even when they 
 category: Buy tips
 tags: [best buy tips, presence detection, sensor, Zigbee, Aqara, lamps]
 image: /buy/images_zigbee/aqara_fp300.avif
+permalink: /buy/zigbee_presence_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

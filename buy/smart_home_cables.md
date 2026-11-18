@@ -4,6 +4,7 @@ description: "USB cables and extension cables to power an ESP board and to place
 category: Buy tips
 tags: [best buy tips, DIY]
 image: /esphome/images/micro_usb_cable.jpg
+permalink: /buy/smart_home_cables
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

@@ -4,6 +4,7 @@ description: "Control the power of USB devices with a Zigbee USB adapter switch:
 category: Zigbee
 tags: [Zigbee, hardware, smart socket, USB, Christmas]
 image: /zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png
+permalink: /zigbee/usb_adapter_switch
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 

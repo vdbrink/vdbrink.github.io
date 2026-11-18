@@ -4,6 +4,7 @@ description: "Batteries and battery eliminators for smart home sensors, from CR2
 category: Buy tips
 tags: [best buy tips, battery, Christmas, DIY]
 image: /buy/images_batteries/battery_banner2.jpg
+permalink: /buy/batteries
 ---
 
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

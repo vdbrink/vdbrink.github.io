@@ -3,6 +3,7 @@ title: "Home Assistant dashboard: Latest news"
 description: "Scrape the latest news headline and show it on your Home Assistant dashboard."
 category: Home Assistant
 tags: [Home Assistant, dashboard]
+permalink: /homeassistant/homeassistant_dashboard_latest_news
 ---
 
 # Home Assistant dashboard: Latest news

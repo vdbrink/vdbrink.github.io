@@ -4,6 +4,7 @@ description: "Zigbee soil moisture sensors for the garden that tell you when pla
 category: Buy tips
 tags: [best buy tips, soil sensor, sensor, Zigbee, outdoor]
 image: /zigbee/images_soil_sensor/NAS-STH02B2.png
+permalink: /buy/zigbee_outdoor_soil_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
 
