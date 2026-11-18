@@ -71,7 +71,8 @@ These hardware components (or alternatives) are required:
 For my project, I use option 1, but there are a lot of displays available on the market!
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c430nNIt" target="_blank"><img src="/projects/images_stretch_display/stretch_display.webp" alt="Stretch Display 1" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Option 1 · ~ &euro; 50</span><strong>Stretch Display 1</strong>
 <p>8.8 inch, resolution 1920 * 480, NO touchscreen. Comes with power and HDMI cable. This is the one I use.</p>
@@ -101,7 +102,8 @@ For my project, I use option 1, but there are a lot of displays available on the
 A stretched display has no stand of its own, so you need a holder to place it upright on your desk. I use this adjustable one.
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_Dek5V2b" target="_blank"><img src="/projects/images_stretch_display/holder.webp" alt="Display holder" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Holder</span><strong>Display holder</strong>
 <p>The mount can stretch to hold devices in a range of 4.7" - 17.3".</p>
@@ -132,7 +134,8 @@ The big, round, heavy feet keep it stable.
 A small device with an OS which can run a web browser on it.
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_oDWgdri" target="_blank"><img src="/projects/images_stretch_display/raspberry_3b.webp" alt="Raspberry Pi 3B" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Device</span><strong>Raspberry Pi 3B</strong>
 <p>I had one lying around which I could use.</p>
@@ -144,7 +147,8 @@ A small device with an OS which can run a web browser on it.
 <p>A cheaper alternative (Zero W) or a faster one (Zero 2 W).</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_Dd3Z9UJ" target="_blank">Zero W</a> | <a href="https://s.click.aliexpress.com/e/_c3XxyiuD" target="_blank">Zero 2 W</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3XdiZGV" target="_blank"><img src="/projects/images_stretch_display/raspberry_case.jpg" alt="Raspberry Pi 3B case" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Case</span><strong>Raspberry Pi 3B case</strong>
 <p>I bought a black case for my Raspberry.</p>
@@ -156,13 +160,15 @@ A small device with an OS which can run a web browser on it.
 <p>Or use an old mobile phone. For a mobile phone, I recommend removing the battery and hacking a USB power plug into it.</p>
 </div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank"><img src="/projects/images_stretch_display/sdcard.webp" alt="Micro SD card" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Storage</span><strong>Micro SD card</strong>
 <p>To install the OS on, such as Raspberry Pi OS desktop. A minimum of 8 GB is already enough. Speed is not an issue; it only boots and then doesn't need to read and write.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_oFKX7oZ" target="_blank">AliExpress</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c32Nxdc7" target="_blank"><img src="/buy/images_diy/micro_usb_cable.avif" alt="USB A to micro USB cable" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>USB A to micro USB cable</strong>
 <p>The Raspberry Pi 3B requires at least 5V with 3A, otherwise you get the message "Low voltage warning" in Raspberry OS.</p>
@@ -175,7 +181,8 @@ A small device with an OS which can run a web browser on it.
 These extra items are not strictly required, but they make the setup easier to configure, smarter and more useful.
 
 <div class="hp-tiles hp-options">
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU plug" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Zigbee smart EU plug</strong>
 <p>Use it to run the PC and display only when someone is nearby. Otherwise, they can be turned off automatically to save energy.</p>
@@ -289,7 +296,7 @@ From top to bottom it shows:
 * a graph of the CO2 level, with the medium, bad and good thresholds ([CO2](/homeassistant/homeassistant_dashboard_stretch_layout#co2))
 * a graph of the office humidity ([humidity](/homeassistant/homeassistant_dashboard_stretch_layout#humidity))
 * a graph of the office chair occupancy ([DIY chair occupancy status](/homeassistant/homeassistant_templates#diy-chair-occupancy-status), [room occupancy sensors](/projects/sensors_room_occupancy))
-* a timeline of the office chair and the motion sensor ([chair occupancy time line](zigbee/zigbee_chair_occupancy_sensor#occupied-in-time-as-graph)
+* a timeline of the office chair and the motion sensor ([chair occupancy time line](/zigbee/zigbee_chair_occupancy_sensor#occupied-in-time-as-graph))
 
 <br>
 <a href="/homeassistant/homeassistant_dashboard_stretch_layout">
