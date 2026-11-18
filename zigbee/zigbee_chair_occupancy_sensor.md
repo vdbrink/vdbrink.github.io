@@ -30,18 +30,33 @@ Of course, with a regular button you can also activate these devices, but now my
 Also, when I walk away from my desk, it's automatically detected and my heater goes off,
 and if I haven't returned after X minutes, everything shuts down automatically.
 
-> UPDATE 2025-07: Now there are off-the-shelf Zigbee pressure mat sensors available, but they are really expensive compared to this DIY version!
-> ([AliExpress](https://s.click.aliexpress.com/e/_c4bqlnbj))\
-> I haven't tested it myself yet; I'd like to hear your experience with it.
+<hr class="hp-divider">
 
-<a href="images_chair/cat_occupancy_detection.jpg">
-<img src="images_chair/cat_occupancy_detection.jpg" alt="Zigbee cat basket occupancy sensor" height="250px" />
-</a>
-<em style="display:block;">Place this car seat sensor under the cat basket to detect how long the cat is lying here. It's now on top to indicate how it works.</em>
+## Table of Contents
+<!-- TOC -->
+  * [The solution](#the-solution)
+  * [What you can automate](#what-you-can-automate)
+  * [Other places to use it](#other-places-to-use-it)
+  * [Choose your option](#choose-your-option)
+  * [Required hardware](#required-hardware)
+    * [1. Boolean sensor](#1-boolean-sensor)
+    * [2. Pressure sensor](#2-pressure-sensor)
+    * [3. Connect the sensors](#3-connect-the-sensors)
+  * [Wire them together](#wire-them-together)
+  * [Home Assistant](#home-assistant)
+    * [Create a new custom chair sensor](#create-a-new-custom-chair-sensor)
+    * [Occupancy time sensor](#occupancy-time-sensor)
+    * [Graphs](#graphs)
+  * [Related articles](#related-articles)
+<!-- TOC -->
 
 <hr class="hp-divider">
 
-## My solution
+## The solution
+
+So I found the solution with this "hack".
+It uses a contact (or leak) sensor connected to a car seat pressure sensor to detect if a chair is occupied,
+exactly what I needed!
 
 <div style="float:right; width:170px; margin-left:15px;">
 <a href="images_chair/car_seat.png">
@@ -50,33 +65,16 @@ and if I haven't returned after X minutes, everything shuts down automatically.
 <em style="display:block; text-align:center">a car seat pressure sensor sits inside the seat cushion</em>
 </div>
 
-So I found the solution with this "hack".
-It uses a contact (or leak) sensor connected to a car seat pressure sensor to detect if a chair is occupied,
-exactly what I needed!
+<a href="images_chair/cat_occupancy_detection.jpg">
+<img src="images_chair/cat_occupancy_detection.jpg" alt="Zigbee cat basket occupancy sensor" height="250px" />
+</a>
+<em style="display:block;">Place this car seat sensor under the cat basket to detect how long the cat is lying here. It's now on top to indicate how it works.</em>
 
-Other purposes for this sensor are:
+> UPDATE 2025-07: Now there are off-the-shelf Zigbee pressure mat sensors available, but they are really expensive compared to this DIY version!
+> ([AliExpress](https://s.click.aliexpress.com/e/_c4bqlnbj))\
+> I haven't tested it myself yet; I'd like to hear your experience with it.
 
-* In the cat/dog basket
-* In the couch/sofa/relax chair
-* Under your mattress to detect bed occupancy (only works if there is enough pressure through the mattress)
-* Under a mat on the floor (to detect if someone enters a space or to detect when the laundry basket is too heavy)
-
-<hr class="hp-divider">
-
-## Table of Contents
-<!-- TOC -->
-  * [My solution](#my-solution)
-  * [Automations](#automations)
-  * [Required hardware](#required-hardware)
-  * [Wire them together](#wire-them-together)
-  * [Home Assistant](#home-assistant)
-<!-- TOC -->
-
-<hr class="hp-divider">
-
-## Automations
-
-<img src="images_chair/chair_occupancy.png" alt="Chair occupancy sensor" width="400px">
+## What you can automate
 
 With this new sensor, your home automation knows exactly when you sit on your chair and when you stand up again.
 Unlike a motion sensor, it keeps reporting "occupied" while you sit still, and it ignores pets and moving air.
@@ -90,15 +88,37 @@ That makes it a reliable trigger, and you can combine it with other sensors, a t
 * Control the room temperature when it's occupied.
 * Send notifications with current office health values only when you're there ([CO2](/esphome/co2_scd40), [temperature](/buy/zigbee_temperature_sensor), [humidity](/buy/zigbee_temperature_sensor), [PM2.5](/buy/zigbee_air_quality_sensor), [VOC](/buy/zigbee_air_quality_sensor), or [Formaldehyde](/buy/zigbee_air_quality_sensor)).
 
+## Other places to use it
+
+Other purposes for this sensor are:
+
+* In the cat/dog basket
+* In the couch/sofa/relax chair
+* Under your mattress to detect bed occupancy (only works if there is enough pressure through the mattress)
+* Under a mat on the floor (to detect if someone enters a space or to detect when the laundry basket is too heavy)
+
+<hr class="hp-divider">
+
+## Choose your option
+
+This project only requires two devices: A boolean sensor to detect true or false and a pressure sensor.
+
+> I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also do the trick.
+
+The pressure sensor is always the same. The choice is the sensor that reports the state, and whether you want to solder:
+
+* **No soldering:** the Aqara water leak sensor (my preferred, the easiest option) or the alternative leak sensor with cable clips.
+* **Soldering required:** the contact sensor, mostly cheaper than the water leak sensor.
+
+Any protocol will do; the pressure sensor only closes a circuit.
+
 <hr class="hp-divider">
 
 ## Required hardware
 
-This project only requires these two devices: A boolean sensor to detect true or false and a pressure sensor.
+### 1. Boolean sensor
 
-> I have a Zigbee network, so I use a Zigbee contact sensor, but any other protocol sensor can also do the trick.
-
-1. The first device needs to detect whether something is there or not.
+The first device needs to detect whether something is there or not.
 This can be achieved with two different types of sensors.
 A water leak sensor or a contact sensor.
 Both work with a boolean (true or false) state.
@@ -128,9 +148,9 @@ Both work with a boolean (true or false) state.
 </div>
 </div>
 
-<hr class="hp-divider">
+### 2. Pressure sensor
 
-2\. A [car seat pressure sensor](../buy/esphome_diy#pressure-sensor): smaller or bigger versions are available.
+A [car seat pressure sensor](../buy/esphome_diy#pressure-sensor): smaller or bigger versions are available.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile hp-preferred">
@@ -155,9 +175,9 @@ Both work with a boolean (true or false) state.
 </div>
 </div>
 
-<hr class="hp-divider">
+### 3. Connect the sensors
 
-3\. Connect the leak or contact sensor to the pressure sensor:
+Connect the leak or contact sensor to the pressure sensor:
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
@@ -195,13 +215,14 @@ Both work with a boolean (true or false) state.
 Now connect the two wires of the pressure sensor to the boolean sensor, so the sensor reports a change when someone sits down.
 How you do that depends on the sensor you chose: the leak sensors need no soldering, the contact sensor does.
 Pick the description that matches your sensor.
+Leak sensor users can skip the contact sensor description.
 
 <div class="hp-tiles hp-wire">
 <div class="hp-card hp-tile" id="wire-aqara-leak">
 <div class="hp-tile-body"><div class="hp-wire-head"><div class="hp-wire-title"><span class="hp-chip">No soldering</span><strong>With an Aqara water leak sensor</strong></div><a href="#hw-aqara-leak"><img class="hp-wire-sensor" src="/buy/images_zigbee/aqara_leak_sensor.webp" alt="Aqara water leak sensor"></a></div>
 <p>With the Aqara Zigbee water leak sensor, you only need to loosen the screws and wrap the bare wires from the pressure sensor around them. Screw them tight again, and done!</p>
 <a href="images_chair/aqara_leak_sensor_screws.jpg"><img src="images_chair/aqara_leak_sensor_screws.jpg" alt="Aqara water leak back with screws" width="200px"></a>
-<p>You can skip the contact sensor description and continue with the <a href="#home-assistant">Home Assistant</a> section if you use this leak sensor.</p></div>
+</div>
 </div>
 <div class="hp-card hp-tile" id="wire-leak-clips">
 <div class="hp-tile-body"><div class="hp-wire-head"><div class="hp-wire-title"><span class="hp-chip">No soldering</span><strong>With the alternative leak sensor and clips</strong></div><a href="#hw-leak"><img class="hp-wire-sensor" src="/buy/images_zigbee/leak_sensor.webp" alt="Alternative leak sensor"></a></div>
@@ -209,8 +230,7 @@ Pick the description that matches your sensor.
 <a href="/buy/images_diy/cable_connectors1.avif"><img src="/buy/images_diy/cable_connectors1.avif" alt="Connect two wires without soldering" width="200px"></a>
 <p>Clip one wire of the pressure sensor to each contact point of the leak sensor. It doesn't matter which wire goes where.</p>
 <a href="/buy/images_diy/cable_connectors2.avif"><img src="/buy/images_diy/cable_connectors2.avif" alt="Connect two wires without soldering with another clip" width="200px"></a>
-<p>When you now sit on the pressure sensor, the state of the leak sensor will change. Now you can create automations based on it!</p>
-<p>You can skip the contact sensor description and continue with the <a href="#home-assistant">Home Assistant</a> section.</p></div>
+</div>
 </div>
 <div class="hp-card hp-tile" id="wire-contact">
 <div class="hp-tile-body"><div class="hp-wire-head"><div class="hp-wire-title"><span class="hp-chip">Soldering required</span><strong>With a contact sensor</strong></div><a href="#hw-contact"><img class="hp-wire-sensor" src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Contact sensor"></a></div>
@@ -228,9 +248,12 @@ Pick the description that matches your sensor.
 <a href="images_chair/double_pressure_sensor.jpg"><img src="images_chair/double_pressure_sensor.jpg" alt="Double pressure sensor" width="200px"></a>
 <p>Now you can place the sensor inside a pillow on the chair or inside the chair itself if you can zip the seat open.</p>
 <a href="images_chair/pillow_with_sensor_top.jpg"><img src="images_chair/pillow_with_sensor_top.jpg" alt="Pillow with sensor" width="200px"></a>
-<p>When you now sit on it, the state of the contact sensor will change. Now you can create automations based on it!</p></div>
 </div>
 </div>
+</div>
+
+When you now sit on the pressure sensor, the state of the sensor will change. Now you can create automations based on it!
+Continue with the [Home Assistant](#home-assistant) section.
 
 <hr class="hp-divider">
 
@@ -361,8 +384,6 @@ hours_to_show: 24
 #### Is occupied
 
 Indicate if someone is sitting on the chair.
-
-<img src="images_chair/chair_occupancy.png" alt="Chair occupancy sensor" width="400px">
 
 ```yaml
 {% raw %}
