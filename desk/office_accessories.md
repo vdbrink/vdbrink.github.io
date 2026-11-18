@@ -2,7 +2,7 @@
 title: "Home office: Accessories"
 description: "Home office accessories I use: cable management, monitor light, desk mat, headset, laptop stand, desk clock and phone chargers, with buy links."
 category: Office
-tags: [hardware, home office, lamps, accessories]
+tags: [hardware, home office, lamps, accessories, desk]
 permalink: /desk/office_accessories
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}

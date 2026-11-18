@@ -2,7 +2,7 @@
 title: "Claude Code and Codex user input notification light"
 description: "Get a smart light on your desk to alert you when Claude Code or Codex needs your input, using Home Assistant."
 category: AI
-tags: [AI, lamps, notifications, Node-RED, Home Assistant, home office, Claude]
+tags: [AI, lamps, notifications, Node-RED, Home Assistant, home office, Claude, desk]
 image: /projects/images_noti_light/banner_noti_light.png
 permalink: /ai/ai-user-input-needed-notification-light
 ---

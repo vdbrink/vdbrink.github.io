@@ -2,7 +2,7 @@
 title: "Home office: Room decoration"
 description: "Redecorating my home office with a green wall, acoustic sound panels, new floor, ceiling lights, curtains and a wall shelf. Tips and photos."
 category: Office
-tags: [home office, lamps]
+tags: [home office, lamps, desk]
 permalink: /desk/office_room_decoration
 ---
 

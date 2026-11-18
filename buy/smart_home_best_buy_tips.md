@@ -45,10 +45,10 @@ All the Amazon products are also bundled on these
 A smart home is built in layers. Each layer needs its own hardware, and each one builds on the layer above it:
 
 <div class="hp-flow-steps">
-<a class="hp-card" href="#1-server"><strong>Server</strong><span>Where your automations run</span><img src="/homeassistant/images_hardware/beelink_front_back.jpg" alt="" loading="lazy" style="margin-top:auto"></a>
-<a class="hp-card" href="#2-protocol-and-dongle"><strong>Protocol + dongle</strong><span>How devices talk to the server</span><img src="/buy/images_zigbee/sonoff_zbdongle-e.webp" alt="" loading="lazy" style="margin-top:auto"></a>
-<a class="hp-card" href="#3-sensors-and-actuators"><strong>Sensors and actuators</strong><span>The eyes, ears and hands</span><img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="" loading="lazy" style="margin-top:auto"></a>
-<a class="hp-card" href="#4-power-and-accessories"><strong>Power and accessories</strong><span>Batteries, cables and adapters</span><img src="/buy/images_diy/usb_power_charger.png" alt="" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#1-server"><strong>Server</strong><span>Where your automations run</span><img src="/homeassistant/images_hardware/beelink_front_back.jpg" alt="Beelink mini PC, front and back" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#2-protocol-and-dongle"><strong>Protocol + dongle</strong><span>How devices talk to the server</span><img src="/buy/images_zigbee/sonoff_zbdongle-e.webp" alt="Sonoff ZBDongle-E Zigbee USB dongle" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#3-sensors-and-actuators"><strong>Sensors and actuators</strong><span>The eyes, ears and hands</span><img src="/buy/images_zigbee/zigbee_contact_sensor_aqara.webp" alt="Aqara Zigbee contact sensor" loading="lazy" style="margin-top:auto"></a>
+<a class="hp-card" href="#4-power-and-accessories"><strong>Power and accessories</strong><span>Batteries, cables and adapters</span><img src="/buy/images_diy/usb_power_charger.png" alt="USB power charger" loading="lazy" style="margin-top:auto"></a>
 </div>
 
 ---

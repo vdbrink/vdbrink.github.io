@@ -245,7 +245,7 @@ It is built from solid metal, holds up to 20 kg, meets all my requirements, and 
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/act_ac8340.avif" alt="ACT AC8340" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Monitor arm</span><strong>Monitor arm - ACT AC8340</strong>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4qFwvD8#ad" target="_blank">Amazon</a> | <a href="https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html" target="_blank">Tweakers (Dutch price compare)</a></p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://tweakers.net/pricewatch/2160666/act-ac8340-monitorarm-office-premium-gasveer-1-monitor.html" target="_blank">Tweakers (Dutch price compare)</a></p>
 </div>
 </div>
 <div class="hp-card hp-tile">

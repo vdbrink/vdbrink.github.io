@@ -2,7 +2,7 @@
 title: "Home Assistant Kiosk mode on a tablet with Fully Kiosk Browser"
 description: "Show your Home Assistant dashboard on a wall tablet in kiosk mode with Fully Kiosk Browser: setup, settings and tips."
 category: Home Assistant
-tags: [HACS, Home Assistant, hardware, dashboard, Android, weather, tablet, kiosk, HA Marketplace, smart socket]
+tags: [HACS, Home Assistant, hardware, dashboard, Android, weather, tablet, kiosk, HA Marketplace, smart socket, desk]
 image: /homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png
 permalink: /homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode
 ---

@@ -2,7 +2,7 @@
 title: "Stretch display"
 description: "A widescreen stretched monitor showing Home Assistant weather, CO2 and temperature data on my desk."
 category: Projects
-tags: [hardware, Home Assistant, dashboard, tablet, temperature, air quality, CO2, Raspberry Pi]
+tags: [hardware, Home Assistant, dashboard, tablet, temperature, air quality, CO2, Raspberry Pi, desk]
 image: /projects/images_stretch_display/office_display_next2monitor.jpg
 permalink: /projects/stretch_display
 ---

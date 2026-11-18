@@ -2,7 +2,7 @@
 title: "Home office desk setup: standing desk, monitor and accessories"
 description: "Design your home office with AI: from a Pinterest mood board to a virtual mockup and the real room, with a walnut standing desk and large monitor."
 category: Office
-tags: [home office, AI]
+tags: [home office, AI, desk]
 image: /desk/images/home_office_desk_result3.jpg
 ---
 

@@ -133,7 +133,7 @@ image: /images/banner.jpg
 <div class="hp-topic-grid">
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'homeassistant/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/homeassistant/index"><img src="/homeassistant/images/home_assistant_logo.png" alt=""><strong>Home Assistant</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/homeassistant/index"><img src="/homeassistant/images/home_assistant_logo.png" alt="Home Assistant logo"><strong>Home Assistant</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/homeassistant/homeassistant_hardware">Which hardware?</a></li>
 <li><a href="/homeassistant/homeassistant_templates">Templates</a></li>
@@ -143,7 +143,7 @@ image: /images/banner.jpg
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'esphome/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/esphome/index"><img src="/esphome/images/esphome.png" alt=""><strong>ESPHome</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/esphome/index"><img src="/esphome/images/esphome.png" alt="ESPHome logo"><strong>ESPHome</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/esphome/co2_scd40">CO2 sensor (SCD40)</a></li>
 <li><a href="/esphome/co2_senseair_s8_sensor">CO2 sensor (SenseAir S8)</a></li>
@@ -152,7 +152,7 @@ image: /images/banner.jpg
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'zigbee/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/zigbee/index"><img src="/zigbee/images/zigbee.jpg" alt=""><strong>Zigbee</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/zigbee/index"><img src="/zigbee/images/zigbee.jpg" alt="Zigbee logo"><strong>Zigbee</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/zigbee/index#why-i-chose-zigbee">Why Zigbee?</a></li>
 <li><a href="/zigbee/zigbee_chair_occupancy_sensor">Chair occupancy sensor</a></li>
@@ -161,7 +161,7 @@ image: /images/banner.jpg
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'node-red/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/node-red/index"><img src="/node-red/images/node-red_logo.png" alt=""><strong>Node-RED</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/node-red/index"><img src="/node-red/images/node-red_logo.png" alt="Node-RED logo"><strong>Node-RED</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/node-red/index">Graphical automations</a></li>
 <li><a href="/node-red/node-red_home-assistant">Node-RED with Home Assistant</a></li>
@@ -169,7 +169,7 @@ image: /images/banner.jpg
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'projects/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/projects/index"><img src="/projects/images_allux-600/sticker_package_box.jpg" alt=""><strong>Projects</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/projects/index"><img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Allux 600 sticker package box"><strong>Projects</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/projects/smart_mailbox">Smart mailbox</a></li>
 <li><a href="/projects/automate_christmas_decorations">Automate Christmas decorations</a></li>
@@ -178,7 +178,7 @@ image: /images/banner.jpg
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'desk/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/desk"><img src="/desk/images/desk_collage1.png" alt=""><strong>Home office</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/desk"><img src="/desk/images/desk_collage1.png" alt="Home office desk collage"><strong>Home office</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/desk">Room design with AI</a></li>
 <li><a href="/desk/desk_setup_hardware">Desk setup hardware</a></li>
@@ -187,7 +187,7 @@ image: /images/banner.jpg
 </div>
 {%- assign n = site.pages | where_exp: "p", "p.path contains 'elgato_stream_deck/'" | size -%}
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/elgato_stream_deck/"><img src="/elgato_stream_deck/images/products/stream_deck_xl.jpg" alt=""><strong>Stream Deck</strong><span>{{ n }} articles</span></a>
+<a class="hp-topic-head" href="/elgato_stream_deck/"><img src="/elgato_stream_deck/images/products/stream_deck_xl.jpg" alt="Elgato Stream Deck XL"><strong>Stream Deck</strong><span>{{ n }} articles</span></a>
 <ul class="hp-topic-links">
 <li><a href="/elgato_stream_deck/">Stream Deck for developers</a></li>
 <li><a href="/elgato_stream_deck/stream_deck_button_actions">Button actions to download</a></li>
@@ -195,7 +195,7 @@ image: /images/banner.jpg
 </ul>
 </div>
 <div class="hp-card hp-topic">
-<a class="hp-topic-head" href="/ideas/home_automation_ideas"><img src="/ideas/images/idea.png" alt=""><strong>Ideas</strong><span>Get inspired</span></a>
+<a class="hp-topic-head" href="/ideas/home_automation_ideas"><img src="/ideas/images/idea.png" alt="Light bulb idea icon"><strong>Ideas</strong><span>Get inspired</span></a>
 <ul class="hp-topic-links">
 <li><a href="/ideas/home_automation_ideas">Home automation ideas</a></li>
 <li><a href="/ideas/home_automation_videos">Home automation videos</a></li>
@@ -217,7 +217,7 @@ image: /images/banner.jpg
 <a class="hp-card" href="/buy/smart_home_best_buy_tips"><span>🏠</span>Smart Home hardware</a>
 <a class="hp-card" href="/buy/smart_home_best_buy_tips#outdoor-sensors"><span>🌳</span>Zigbee Outdoor</a>
 <a class="hp-card" href="/homeassistant/homeassistant_hardware"><span>🖥️</span>Home server machines</a>
-<a class="hp-card" href="/buy/esphome_diy"><span><img src="/esphome/images/esp32.webp" alt="" style="height:1.1em; width:auto; vertical-align:middle;"></span>ESP DIY sensors</a>
+<a class="hp-card" href="/buy/esphome_diy"><span><img src="/esphome/images/esp32.webp" alt="ESP32 board" style="height:1.1em; width:auto; vertical-align:middle;"></span>ESP DIY sensors</a>
 <a class="hp-card" href="/buy/batteries"><span>🔋</span>Batteries</a>
 </div>
 </div>
