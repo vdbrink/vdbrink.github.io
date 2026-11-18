@@ -172,8 +172,3 @@ I hope you like this project and get inspiration for your own home automation pr
 
 Related link: [Home Assistant - HACS Afvalbeheer](../homeassistant/homeassistant_hacs_afvalbeheer)
 
----
-
-Links to other sections of this blog site.
-
-[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node RED](../node-red/index)

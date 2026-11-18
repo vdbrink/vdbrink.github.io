@@ -702,8 +702,4 @@ I found some alternative package boxes:
 Do you have another interesting package box? [Share it with me](#remarks-or-suggestions)
 or share it public on the Dutch Tweakers forum in this thread [https://gathering.tweakers.net/forum/list_messages/1663741](https://gathering.tweakers.net/forum/list_messages/1663741)
 
----
 
-Links to other sections of this blog site.
-
-[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node RED](../node-red/index)

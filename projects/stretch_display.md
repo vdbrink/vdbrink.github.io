@@ -8,7 +8,7 @@ permalink: /projects/stretch_display
 ---
 
 # Stretch display
-*With a Home Assistant dashboard*
+*A small widescreen display with data from Home Assistant*
 
 ---
 ## Introduction
@@ -19,12 +19,10 @@ For years I had a basic weather station with a radio receiver to see the indoor 
 I was also looking for a small monitor to show the current CO2 and temperature data in my home office.
 I found that when the CO2 is too high and/or the temperature is above 23 degrees, my concentration drops.
 
-> This page is still under construction. I fill in all chapters one by one, describing how I set it up, so you can create exactly the same or use it as a reference for your own display project.
-
 ---
 ## My solutions
 
-A small stretched display, next to my monitor, where I can see my office climate data in a Home Assistant dashboard, controlled by a Raspberry Pi.
+I use a small stretched display next to my monitor, where I can see my office climate data in a Home Assistant dashboard. The display is controlled by a Raspberry Pi, which runs a web browser in kiosk mode.
 
 <a href="images_stretch_display/office_display_next2monitor.jpg">
 <img src="images_stretch_display/office_display_next2monitor.jpg" alt="stretch display in action" height="400px" style="float:left;margin-right:15px">
@@ -56,6 +54,7 @@ I created two Home Assistant dashboards: one for my office climate and the other
   * [Home Assistant dashboard](#home-assistant-dashboard)
     * [Weather station stretch display](#weather-station-stretch-display)
     * [Office stretch display](#office-stretch-display)
+  * [Related articles](#related-articles)
 <!-- TOC -->
 
 ---
@@ -63,7 +62,7 @@ I created two Home Assistant dashboards: one for my office climate and the other
 ## Required hardware
 
 It's always good to use parts which you still have lying around, but otherwise you can buy these products as well to create this project yourself.\
-Affiliate links are also used here.
+Affiliate links are used here as well.
 
 These hardware components (or alternatives) are required:
 
@@ -81,17 +80,25 @@ For my project, I use option 1, but there are a lot of displays available on the
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3mVfj9l" target="_blank"><img src="/projects/images_stretch_display/stretch_display_touchscreen.webp" alt="Stretch Display 2 (touch variant)" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Option 2 · ~ &euro; 90</span><strong>Stretch Display 2 (touch variant)</strong>
-<p>Same size and resolution but a better version: WITH IPS touchscreen, brighter colors and a Raspberry mount on the back. Select the touch variant.</p>
+<p>8.8 inch, resolution 1920 * 480. Better version: WITH IPS touchscreen, brighter colors and a Raspberry Pi mount on the back.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3eC255r" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
-<div class="hp-tile-body"><span class="hp-chip">Option 3</span><strong>Other sizes</strong>
+<a href="https://link.amazon/B0fMLBTba" target="_blank"><img src="/projects/images_stretch_display/corsair_xeneon_edge.jpg" alt="Corsair Xeneon Edge 14.5 inch touchscreen" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Option 3 · ~ &euro; 250</span><strong>Corsair Xeneon Edge 14.5" touchscreen</strong>
+<p>14.5 inch, resolution 2560 * 720, with touchscreen. A much bigger and sharper stretched display.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://link.amazon/B0fMLBTba" target="_blank">Amazon</a></p></div>
+</div>
+<div class="hp-card hp-tile">
+<div class="hp-tile-body"><span class="hp-chip">Option 4</span><strong>Other sizes</strong>
 <p>Stretch displays are also available in all different sizes, like an 11.3". Of course, any other display can also be used!</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://nl.aliexpress.com/w/wholesale-stretch-monitor.html?g=y&SearchText=stretch+monitor&sortType=price_asc" target="_blank">All stretch displays</a> | <a href="https://s.click.aliexpress.com/e/_olMnE0P" target="_blank">11.3"</a></p></div>
 </div>
 </div>
 
 ### Display holder
+
+A stretched display has no stand of its own, so you need a holder to place it upright on your desk. I use this adjustable one.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
@@ -102,9 +109,11 @@ For my project, I use option 1, but there are a lot of displays available on the
 </div>
 </div>
 
-The stand itself can also adjust in height and angle to position the display in the right position. 
-It fits perfectly between the claws, and the cables also fit perfectly through the bottom and directly connect to the ports, which gives it a smooth design.
-The big round heavy feet make it stand stable.
+<br>
+
+The stand can be adjusted in height and angle to place the display in the right position.
+The display fits perfectly between the claws, and the cables go through the bottom and connect directly to the ports, which gives it a clean look.
+The big, round, heavy feet keep it stable.
 
 <a href="images_stretch_display/holder.webp">
 <img src="images_stretch_display/holder.webp" alt="Display holder" height="250px" style="float:left;margin-right:15px"/>
@@ -163,23 +172,25 @@ A small device with an OS which can run a web browser on it.
 
 ### Extras
 
+These extra items are not strictly required, but they make the setup easier to configure, smarter and more useful.
+
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart EU plug" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Zigbee smart EU plug</strong>
-<p>To only run the PC and display when someone is nearby, otherwise it can automatically be turned off to save energy.</p>
+<p>Use it to run the PC and display only when someone is nearby. Otherwise, they can be turned off automatically to save energy.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="https://s.click.aliexpress.com/e/_c3TpPCQV" target="_blank"><img src="/projects/images_stretch_display/usb_keyboard.webp" alt="USB keyboard" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Optional</span><strong>USB keyboard</strong>
-<p>To set up the Raspberry Pi. They have different versions with different layouts. Once installed, it can be controlled via SSH.</p>
+<p>Needed to set up the Raspberry Pi. Keyboards are available with different layouts. Once installed, it can be controlled via SSH.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3TpPCQV" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile">
 <a href="/esphome/co2_scd40" target="_blank"><img src="/esphome/images_scd40/hardware.jpg" alt="CO2 sensor" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Sensor</span><strong>CO2 sensor</strong>
-<p>I have a project page how to create a cheap CO2 sensor yourself.</p>
+<p>I have a project page that explains how to build a cheap CO2 sensor yourself.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="/esphome/co2_scd40" target="_blank">Project page</a></p></div>
 </div>
 <div class="hp-card hp-tile">
@@ -192,17 +203,15 @@ A small device with an OS which can run a web browser on it.
 
 <br>
 
-Found a dead link? [Please inform me](https://github.com/vdbrink/vdbrink.github.io/issues)
-
-<a href="/buy/esphome_diy" target="_blank">Alternative links</a> for above-mentioned products.
+Found a dead link? [Please let me know](https://github.com/vdbrink/vdbrink.github.io/issues)
 
 ---
 
 ## Required software
 
-I installed [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) with desktop, on which a browser runs.
+I installed [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) with desktop, on which a web browser runs.
 
-I created an auto-boot script to load the Home Assistant dashboard in kiosk mode on boot.
+I created an auto-boot script that loads the Home Assistant dashboard in kiosk mode on boot.
 
 (Later I'll describe and add the example code here)
 
@@ -244,6 +253,22 @@ I created a new theme and increased font sizes to make it easily readable from a
 
 This is what my weather overview looks like:
 
+From top to bottom it shows:
+
+* big clock and date ([time and date](/homeassistant/homeassistant_dashboard_stretch_layout#time-and-date))
+* a row of small status chips: rain, clothing advice, feels-like temperature, air quality, bin day ([Mushroom chips](/homeassistant/homeassistant_dashboard_stretch_layout#mushrooms))
+* a news headline ([news headline](/homeassistant/homeassistant_dashboard_stretch_layout#news-headline), [latest news](/homeassistant/homeassistant_dashboard_latest_news))
+* two gauges with the outside and inside temperature and humidity, and air pressure outside ([flexible horseshoe card](/homeassistant/homeassistant_dashboard_stretch_layout#flexible-horseshoe-card))
+* the CO2 level in the living room in ppm ([CO2](/homeassistant/homeassistant_dashboard_stretch_layout#co2))
+* a text forecast for today with a clothing and air quality tip ([welcome text and weather forecast for today](/homeassistant/homeassistant_dashboard_card_mushroom#welcome-text-and-weather-forecast-for-today-dutch))
+* the current, air, wind, gust and cloud values (local weather station)
+* the moon phase ([moon image based on state](/homeassistant/homeassistant_templates#moon-image-based-on-state))
+* the next bin collections ([HACS Afvalbeheer](/homeassistant/homeassistant_hacs_afvalbeheer), [bin day countdown](/homeassistant/homeassistant_templates#trash-bin-day-countdown))
+* a 5 day forecast with the minimum and maximum temperature per day ([Clock Weather Card](/homeassistant/homeassistant_dashboard_weather#clock-weather-card))
+* the rain radar and the pollen map of the Netherlands ([rain radar](/homeassistant/homeassistant_dashboard_weather_nl#rain-radar-animated), [pollen](/homeassistant/homeassistant_dashboard_weather_nl#pollen))
+* the next birthday at the bottom ([Birthday Reminder Card](/homeassistant/homeassistant_dashboard_hacs#birthday-reminder-card))
+
+<br>
 <a href="/homeassistant/homeassistant_dashboard_stretch_layout">
 <img src="/homeassistant/images_layout_stretch/weather_display1.png" alt="HA weather display" width="150px">
 </a>
@@ -254,6 +279,19 @@ This is what my weather overview looks like:
 
 This is what my office overview looks like:
 
+From top to bottom it shows:
+
+* big clock and date ([time and date](/homeassistant/homeassistant_dashboard_stretch_layout#time-and-date))
+* a small row of status chips ([Mushroom chips](/homeassistant/homeassistant_dashboard_stretch_layout#mushrooms))
+* a news headline ([news headline](/homeassistant/homeassistant_dashboard_stretch_layout#news-headline))
+* three gauges: office temperature, outside temperature and office CO2 ([gauge](/homeassistant/homeassistant_dashboard_stretch_layout#gauge))
+* a graph of the office temperature, compared with the attic ([room temperature](/homeassistant/homeassistant_dashboard_stretch_layout#room-temperature))
+* a graph of the CO2 level, with the medium, bad and good thresholds ([CO2](/homeassistant/homeassistant_dashboard_stretch_layout#co2))
+* a graph of the office humidity ([humidity](/homeassistant/homeassistant_dashboard_stretch_layout#humidity))
+* a graph of the office chair occupancy ([DIY chair occupancy status](/homeassistant/homeassistant_templates#diy-chair-occupancy-status), [room occupancy sensors](/projects/sensors_room_occupancy))
+* a timeline of the office chair and the motion sensor ([chair occupancy time line](zigbee/zigbee_chair_occupancy_sensor#occupied-in-time-as-graph)
+
+<br>
 <a href="/homeassistant/homeassistant_dashboard_stretch_layout">
 <img src="/homeassistant/images_layout_stretch/office_display1.png" alt="HA office display" width="150px">
 </a>
@@ -332,10 +370,26 @@ This is what my office overview looks like:
 
 [//]: # ()
 
-[Stretch display layout explanation >>](/homeassistant/homeassistant_dashboard_stretch_layout)
-
 ---
 
-Links to other sections of this blog site:
+## Related articles
 
-[Main page](../index) | [Other projects](index) | [Home Assistant](../homeassistant/index) | [ESPHome](../esphome/index) | [Node-RED](../node-red/index)
+<div class="hp-tiles hp-options hp-full">
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_stretch_layout">
+<img src="/homeassistant/images_layout_stretch/office_display_charamel.jpg" alt="Stretch display layout on a Home Assistant dashboard" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant dashboard: Stretch Display Layout</strong><p>Explanation of the dashboard layout for a long, stretched widescreen display.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/homeassistant/homeassistant_dashboard_tablet_in_kiosk_mode">
+<img src="/homeassistant/images_tablet_in_kiosk_mode/ha_on_tablet_in_kiosk_mode1.png" alt="Home Assistant dashboard in kiosk mode on a tablet" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant Kiosk mode on a tablet with Fully Kiosk Browser</strong><p>Show your Home Assistant dashboard on a wall tablet in kiosk mode with Fully Kiosk Browser: setup, settings and tips.</p></div>
+</a>
+<a class="hp-card hp-tile" href="/esphome/co2_scd40">
+<img src="/esphome/images_scd40/hardware.jpg" alt="ESPHome SCD40 CO2 sensor hardware" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>ESPHome SCD40 CO2 sensor</strong><p>Create your own ESPHome CO2 sensor based on the SCD40 sensor for Home Assistant</p></div>
+</a>
+<a class="hp-card hp-tile" href="/buy/zigbee_temperature_sensor">
+<img src="/buy/images_zigbee/zigbee_temperature_humidity_sensor_aqara.webp" alt="Aqara Zigbee temperature and humidity sensor" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Best buy tips</span><strong>Temperature sensor - Best Buy Tips</strong><p>Zigbee temperature and humidity sensors for every room, for automations like a shower fan or heating control in Home Assistant.</p></div>
+</a>
+</div>
+
