@@ -3,7 +3,7 @@ lang: "en"
 title: vd Brink Home Automations
 description: "Home automations with Home Assistant, ESPHome, Node-RED and more tech"
 url: "https://vdbrink.github.io"
-logo: /images/avatar_square.jpg
+author_image: /images/avatar_square.jpg
 author:
   name: Ronald vd Brink
 facebook:

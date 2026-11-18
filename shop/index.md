@@ -1,6 +1,6 @@
 ---
 title: "Shop"
-description: "Quote shirts and other quote merchandise store with the best geek T-shirt, mug, sticker etc.
+description: "Quote shirts and other quote merchandise store with the best geek T-shirt, mug, sticker etc."
 tags: [Dutch]
 ---
 <div id="myShop">

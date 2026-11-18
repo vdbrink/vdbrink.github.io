@@ -1,4 +1,60 @@
-{%- comment -%}Extra JSON-LD: BreadcrumbList for all pages, TechArticle for non-post content pages. jekyll-seo-tag already emits WebSite/BlogPosting.{%- endcomment -%}
+{%- comment -%}Extra JSON-LD: Person + WebSite + Blog (home), BreadcrumbList (all pages), TechArticle (non-post pages). jekyll-seo-tag emits BlogPosting for posts (author, headline, image, datePublished, dateModified).{%- endcomment -%}
+{%- if page.url == "/" -%}
+{%- assign site_id = "/#website" | absolute_url -%}
+{%- assign person_id = "/#person" | absolute_url -%}
+{%- assign blog_id = "/#blog" | absolute_url -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "image": {{ site.author_image | absolute_url | jsonify }},
+      "jobTitle": "Home automation blogger",
+      "knowsAbout": ["Home Assistant", "ESPHome", "Node-RED", "Zigbee", "Home automation", "Home office"],
+      "sameAs": {{ site.social.links | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ site_id | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": {{ site.lang | jsonify }},
+      "publisher": {"@id": {{ person_id | jsonify }}},
+      "author": {"@id": {{ person_id | jsonify }}}
+    },
+    {
+      "@type": "Blog",
+      "@id": {{ blog_id | jsonify }},
+      "url": {{ '/feed' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": {{ site.lang | jsonify }},
+      "isPartOf": {"@id": {{ site_id | jsonify }}},
+      "author": {"@id": {{ person_id | jsonify }}},
+      "publisher": {"@id": {{ person_id | jsonify }}},
+      "blogPost": [
+        {%- for p in site.posts limit: 10 %}
+        {
+          "@type": "BlogPosting",
+          "headline": {{ p.title | strip_html | strip | jsonify }},
+          "url": {{ p.url | absolute_url | jsonify }},
+          "image": {{ p.image | default: site.image | absolute_url | jsonify }},
+          "datePublished": {{ p.date | date_to_xmlschema | jsonify }},
+          "dateModified": {{ p.last_modified_at | default: p.date | date_to_xmlschema | jsonify }},
+          "author": {"@id": {{ person_id | jsonify }}}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{%- endif -%}
 {%- if page.url != "/" and page.url != "/404.html" -%}
 {%- assign segs = page.url | split: "/" -%}
 {%- assign last_idx = segs.size | minus: 1 -%}
@@ -36,12 +92,14 @@
   {%- if page.date %}
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   {%- endif %}
-  {%- if page.last_modified_at %}
-  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+  {%- assign modified = page.last_modified_at | default: page.date %}
+  {%- if modified %}
+  "dateModified": {{ modified | date_to_xmlschema | jsonify }},
   {%- endif %}
-  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
-  "author": {"@type": "Person", "name": {{ site.author.name | jsonify }}, "url": "https://vdbrink.github.io/"},
-  "publisher": {"@type": "Person", "name": {{ site.author.name | jsonify }}}
+  "mainEntityOfPage": {"@type": "WebPage", "@id": {{ page.url | absolute_url | jsonify }}},
+  "isPartOf": {"@id": {{ '/#website' | absolute_url | jsonify }}},
+  "author": {"@type": "Person", "@id": {{ '/#person' | absolute_url | jsonify }}, "name": {{ site.author.name | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}},
+  "publisher": {"@id": {{ '/#person' | absolute_url | jsonify }}}
 }
 </script>
 {%- endif -%}

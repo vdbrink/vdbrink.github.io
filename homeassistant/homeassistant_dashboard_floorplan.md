@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant floor plan (floorplan) dashboard"
+title: "Home Assistant interactive floor plan dashboard"
 description: "Create an interactive floor plan dashboard in Home Assistant with icons and sensor values on top of your own floor plan image."
 category: Home Assistant
 tags: [HACS, Home Assistant, dashboard, floor plan, HA Marketplace]

@@ -1,6 +1,6 @@
 ---
-title: "Node-RED Flows examples"
-description: "Node-RED flow examples for home automation that you can import and reuse."
+title: "Node-RED automation examples"
+description: "Node-RED automation examples you can import and reuse: motion lights, temperature triggers, notifications, Frigate and more."
 category: Node-RED
 tags: [Node-RED]
 permalink: /node-red/node-red_flow_examples
@@ -25,24 +25,26 @@ I have a list of examples here that I will work on over time.
 
 ## Basics
 * Lights on at 30 minutes before sunset
-* Light on when enter a room
+* [Light on when enter a room](node-red_light_on_with_motion)
 * Off after 10 minutes of no activity, extend delay on new triggers
 * Send a notification when there is ... (snail mail)
 
 ## Temperature and Humidity
-* Trigger to open a window when it's outside colder than inside
-* Calculate difference between two values
-* Trigger when there is a large increase in a short time (shower is on)
+* [Trigger to open a window when it's outside colder than inside](node-red_temperature_flows)
+* [Calculate difference between two values](node-red_diff_different_sensors)
+* [Trigger when there is a large increase in a short time (shower is on)](node-red_diff_in_time)
 
 ## Home Assistant integration
-* Node-RED + Home Assistant: team work
-* Trigger on HA entity state: example on full moon
-* Update HA helper toggle
-* HA Companion app notifications
-* Trigger to open apps on Android
-* Trigger when rain is expected
+* [Node-RED + Home Assistant: team work](node-red_home-assistant)
+* [Trigger on HA entity state: example on full moon](node-red_home-assistant_full_moon)
+* [Update HA helper toggle](node-red_home-assistant_update_helper_toggle)
+* [HA Companion app notifications](node-red_home-assistant_notifications)
+* [Trigger to open apps on Android](node-red_homeassistant_open_apps)
+* [Trigger when rain is expected](node-red_home-assistant_buienalarm_rain_expected)
 
 ## Others
-* Grafana
-* Pricewatch
-* Server migration
+* [Frigate image notification](node-red_frigate_image_notification)
+* [Object detection](node-red_object_detection)
+* [Grafana](node-red_grafana)
+* [Pricewatch](node-red_pricewatch)
+* [Server migration](node-red_server_migration)

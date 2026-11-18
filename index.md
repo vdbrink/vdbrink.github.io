@@ -1,6 +1,6 @@
 ---
-title: vd Brink Home Automations
-description: "Home automation projects and guides: Home Assistant, ESPHome, Zigbee, Node-RED, home office and more."
+title: Home Assistant, ESPHome & Zigbee Projects and Tutorials
+description: "Home Assistant tutorials, ESPHome DIY sensors, Zigbee projects and Node-RED automations. Smart home examples, YAML configurations and hardware."
 tags: [Home Assistant, ESPHome, Zigbee, Node-RED, home office, DIY]
 image: /images/banner.jpg
 ---
