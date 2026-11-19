@@ -97,6 +97,12 @@ Other purposes for this sensor are:
 * Under your mattress to detect bed occupancy (only works if there is enough pressure through the mattress)
 * Under a mat on the floor (to detect if someone enters a space or to detect when the laundry basket is too heavy)
 
+<br>
+<a href="images_chair/cat_tower_occupancy.jpg">
+<img src="images_chair/cat_tower_occupancy.jpg" alt="Pressure sensor in the cat tower to detect cat occupancy" width="250px" />
+</a>
+<em style="display:block; text-align:left">A pressure sensor in the cat tower detects when the cat is lying on it. Usefull? Because it can!</em>
+
 <hr class="hp-divider">
 
 ## Choose your option
