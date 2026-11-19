@@ -24,39 +24,27 @@ This makes it easy to capture, store and resend the signal.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div>
-<a href="images_infrared/airco_remote.webp">
 <img src="images_infrared/airco_remote.webp" alt="air conditioner with remote" height="100px" />
-</a>
 <em style="display:block; text-align:center">air conditioner</em>
 </div>
 <div>
-<a href="images_infrared/ceiling_fan_remote.webp">
 <img src="images_infrared/ceiling_fan_remote.webp" alt="ceiling fan with remote" height="100px" />
-</a>
 <em style="display:block; text-align:center">ceiling fan</em>
 </div>
 <div>
-<a href="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif">
 <img src="../projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="tea lights with remote" height="100px" />
-</a>
 <em style="display:block; text-align:center">tea lights</em>
 </div>
 <div>
-<a href="images_infrared/fireplace_with_remote.jpg">
 <img src="images_infrared/fireplace_with_remote.jpg" alt="fireplace with remote" height="100px" />
-</a>
 <em style="display:block; text-align:center">fireplace</em>
 </div>
 <div>
-<a href="../projects/images_christmas_decorations/candles3_with_ir_remote.avif">
 <img src="../projects/images_christmas_decorations/candles3_with_ir_remote.avif" alt="candles with remote" height="100px" />
-</a>
 <em style="display:block; text-align:center">candles</em>
 </div>
 <div>
-<a href="images_infrared/light_string.avif">
 <img src="images_infrared/light_string.avif" alt="light curtains" height="100px" />
-</a>
 <em style="display:block; text-align:center">light curtains</em>
 </div>
 </div>
@@ -107,7 +95,7 @@ An infrared sender needs to be in a direct line with the receiver.
 If you have more devices to control, you may need multiple smart devices to control them all.
 
 There are also similar
-[WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3xtCnnz)
+[WiFi versions (AliExpress)](https://s.click.aliexpress.com/e/_c3XeEb4V)
 [(Amazon US)](https://amzn.to/3UzxCGU#ad)
 [(Amazon)](https://amzn.to/41b3nJU#ad)  available for this device.
 
