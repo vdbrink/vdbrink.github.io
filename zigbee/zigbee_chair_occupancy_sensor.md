@@ -3,7 +3,7 @@ title: DIY Zigbee chair occupancy sensor
 description: "Build a DIY Zigbee chair occupancy sensor with a car seat pressure sensor to detect when you sit at your desk."
 category: Zigbee
 tags: [Zigbee, hardware, sensor, DIY, presence detection, soldering, contact sensor, desk]
-image: /zigbee/images_chair/pillow_with_sensor.jpg
+image: /zigbee/images_chair/pillow_with_sensor_og.jpg
 permalink: /zigbee/zigbee_chair_occupancy_sensor
 ---
 {% capture imgBasket %}<img src="/buy/images/basket.png" alt="" style="margin-right:5px;margin-top:4px;padding-right:2px;float:left"/>{% endcapture %}
@@ -16,7 +16,7 @@ permalink: /zigbee/zigbee_chair_occupancy_sensor
 <a href="images_chair/pillow_with_sensor.jpg">
 <img src="images_chair/pillow_with_sensor.jpg" alt="Zigbee chair occupancy sensor" height="150px" style="margin-left:15px;float:right"/>
 </a>
-<p class="hp-lead">For my home office I want a way to detect if I'm there behind my desk.
+<p class="hp-lead">For my <a href="/desk/">home office</a> I want a way to detect if I'm there behind my desk.
 So I can automate my desk peripherals, such as the heater, monitor power, desk light and phone charger.</p>
 
 To detect that, it's possible to use a motion sensor,
