@@ -15,7 +15,7 @@ permalink: /zigbee/smart_infrared_transmitter_receiver
 
 ## Introduction
 
-With an infrared transmitter and receiver device, you can automate all your infrared infrared-controlled devices!
+With an infrared transmitter and receiver device, you can automate all your infrared-controlled devices!
 
 There are a lot of devices that have a remote that works via infrared.
 Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights and electric candles.
@@ -64,7 +64,7 @@ This makes it easy to capture, store and resend the signal.
 
 Read further to learn how to create a switch helper or buttons on your **Home Assistant dashboard**, to control your infrared devices!
 
-Now I can also control my dumb infrared-controlled air conditioner via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) with the Home Assistant integration as well!
+Now I can also control my dumb infrared-controlled air conditioner via my [Stream Deck](/elgato_stream_deck/stream_deck_home_assistant) with the Home Assistant integration!
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
 <div style="text-align:center">
@@ -228,7 +228,7 @@ The graphical interface does not allow the `state` template and `assumed_state` 
 ```yaml
 {% raw %}
 # Source code by vdbrink.github.io
-# MQTT switch which sends infrared codes via zigbee2mqtt control the air conditioner
+# MQTT switch which sends infrared codes via zigbee2mqtt to control the air conditioner
 # configuration.yaml
 template:
   - switch:
@@ -257,7 +257,7 @@ template:
 </div>
 <em style="display:block; text-align:center">helper switch frontend configuration in HA</em>
 
-#### Via Button Card
+### Via a button card
 From Home Assistant, you can create buttons on your dashboard and send a MQTT events with a specific copied infrared signal to the infrared device topic.
 
 <a href="images_infrared/ha_mqtt_button.png">
