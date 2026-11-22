@@ -65,8 +65,9 @@ or in summer when it becomes cooler outside than inside.
 <div class="hp-card hp-tile">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank"><img src="/buy/images_zigbee/zigbee_water_temp.webp" alt="Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display." loading="lazy"></a>
-<div class="hp-tile-body"><strong>Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display.</strong>
-<p>Battery: CR2477.</p>
+<div class="hp-tile-body"><strong>Zigbee water-resistant (IP65) aquarium/pool/bath water temperature sensor with a probe and display. - Sonoff</strong>
+<p>I use it for my Aquarium.<br>
+Battery: CR2477.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c3mRgyKj" target="_blank">AliExpress</a> | <a href="https://amzn.to/4utmSd1#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/44Unhd2#ad" target="_blank">Amazon</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SNZB-02LD.html" target="_blank">SNZB-02LD</a></p>
 </div>
