@@ -1,8 +1,8 @@
 ---
-title: "Automate infrared devices in Home Assistant"
+title: "Automate infrared (IR) devices in Home Assistant"
 description: "Automate infrared devices in Home Assistant with a smart home infrared transmitter/receiver box"
 category: Zigbee
-tags: [Zigbee, hardware, infrared, Home Assistant, Stream Deck, Christmas]
+tags: [Zigbee, hardware, infrared, Home Assistant, Stream Deck, Christmas, AC]
 image: /zigbee/images_infrared/ir_buttons_ha.png
 permalink: /zigbee/smart_infrared_transmitter_receiver
 ---
@@ -15,10 +15,10 @@ permalink: /zigbee/smart_infrared_transmitter_receiver
 
 ## Introduction
 
-With an infrared transmitter and receiver device, you can automate all your infrared-controlled devices!
+With an infrared (IR) transmitter and receiver device, you can automate all your infrared-controlled devices and control it from Home Assistant!
 
 There are a lot of devices that have a remote that works via infrared.
-Like a TV, air conditioner, (ceiling) fans, fireplace, screens, lights and electric candles.
+Like a TV, air conditioner (AC), (ceiling) fans, fireplace, screens, lights and electric candles.
 The signal of an infrared remote has no encryption and is always the same.
 This makes it easy to capture, store and resend the signal.
 
@@ -66,7 +66,7 @@ Now I can also control my dumb infrared-controlled air conditioner via my [Strea
 <br>
 <br>
 
-> **_NOTE:_** If you want to know more about the Home Assistant Infrared integration (since 2026.4) check out the [Home Assistant's own blog site](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
+> **_NOTE:_** If you want to know more about the HA IR integration (since 2026.4) check out the [Home Assistant's own blog site](https://www.home-assistant.io/blog/2026/04/01/release-20264/#infrared-becoming-a-first-class-citizen-of-home-assistant).
 
 > **_NOTE:_** Affiliate links are used on this page. You sponsor my work and still pay the original price.
 

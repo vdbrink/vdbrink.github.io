@@ -2,7 +2,7 @@
 title: "Infrared remote control - Best Buy Tips"
 description: "Zigbee and WiFi infrared remote controls that learn signals so you can automate an air conditioner, fan or TV from Home Assistant. Best buy tips."
 category: Buy tips
-tags: [best buy tips, infrared, Zigbee, Christmas]
+tags: [best buy tips, infrared, Zigbee, Christmas, AC]
 image: /buy/images_zigbee/zigbee_ir_remote.webp
 permalink: /buy/zigbee_infrared_remote
 ---

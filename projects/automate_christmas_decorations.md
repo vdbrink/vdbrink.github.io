@@ -30,7 +30,7 @@ I've made my life easier by automating them all based on time of the day, presen
 I control them now all with a few simple building blocks:
 * a **Zigbee smart socket** to switch mains powered lights, like the Christmas tree lights;
 * **dummy batteries** (battery eliminators) on a power adapter, to replace the batteries of battery powered decorations;
-* a **programmable infrared remote** for infrared controlled candles and tea lights;
+* a **programmable infrared remote** for IR controlled candles and tea lights;
 * **Node-RED** to automate them all based on time, daylight and presence.
 * **Home Assistant** to control them manually via my phone or dashboard.
 
@@ -276,11 +276,11 @@ Place the dummy batteries in the original battery case and connect the power ada
 <p>Dummy batteries with a power adapter, to replace the batteries in the original battery case.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -299,11 +299,11 @@ This hub can be powered with a smart socket to control all the connected devices
 <p>To power multiple USB battery eliminators at once. In combination with the socket, you can automate them.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">AliExpress</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
@@ -329,11 +329,11 @@ It really depends on how many devices you want to control at once and how close 
 <p>To power the USB battery eliminators or the USB adapter.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
 </div>
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
@@ -456,11 +456,11 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c41B4sVP" target="_blank">AliExpress</a></p></div>
 </div>
 
-<div class="hp-card hp-tile">
+<div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
 <p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a> | <a href="https://s.click.aliexpress.com/e/_c3zNtQs5" target="_blank">AliExpress</a></p></div>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 
 </div>
