@@ -112,7 +112,7 @@ I use these types of guides to accomplish this. For USB charge cable management 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://s.click.aliexpress.com/e/_c4cmdp8F" target="_blank">AliExpress</a> | <a href="https://amzn.to/4gy6P9O#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4xBYwjl#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
-<div class="hp-card hp-tile hp-stretch">
+<div class="hp-card hp-tile hp-stretch hp-img-margin">
 <img src="images/benq_screenbar_max.jpg" alt="BenQ ScreenBar Max monitor light" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>BenQ ScreenBar Max</strong>
 <p>It is on my wishlist. It is much more expensive, but it is also a very large, wide (85 cm / 33.5") and advanced monitor light that lights up your desk and the area behind your monitor. It has all kinds of smart features, like customizable brightness, color and auto-detection modes.</p>
@@ -125,7 +125,7 @@ I use these types of guides to accomplish this. For USB charge cable management 
 ## Desk mat
 
 <p>A large mat makes it possible to move the mouse smoothly and precisely. You don't have to keep lifting and repositioning it, and it also protects the desk surface underneath.</p>
-<div class="hp-tiles hp-options hp-full hp-img-narrow">
+<div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
 <div class="hp-card hp-tile hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/deskmat.avif" alt="Desk mat" loading="lazy">
@@ -617,7 +617,7 @@ A macro keypad starts a meeting, toggle microphone on/off, switches apps or runs
 
 <p>With a portable vacuum cleaner for your desk (and keyboard), you can quickly remove small debris without scratching anything.</p>
 
-<div class="hp-tiles hp-options hp-full hp-img-narrow">
+<div class="hp-tiles hp-options hp-full hp-img-narrow hp-img-margin">
 <div class="hp-card hp-tile hp-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/desk_mini_vacuum_cleaner.avif" alt="mini desk vacuum cleaner" loading="lazy">

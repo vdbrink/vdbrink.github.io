@@ -31,6 +31,7 @@ It took me a while to find the right smart socket for this purpose, but the ones
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank"><img src="../esphome/orcon_images/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15" loading="lazy"></a>
 <div class="hp-tile-body"><strong>Zigbee smart power socket with power measurement - BlitzWolf EU SHP-15</strong>
+<p>I use this wide for monitoring all kinds of devices and/or toggle devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://www.banggood.com/custlink/33vjDy5OWw" target="_blank">BangGood</a></p>
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/TS011F_plug_3.html" target="_blank">TS011F_plug_3</a></p>
 </div>
@@ -42,6 +43,16 @@ It took me a while to find the right smart socket for this purpose, but the ones
 <p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/SP-EUC01.html" target="_blank">SP-EUC01</a></p>
 </div>
 </div>
+
+<div class="hp-card hp-tile">
+<a href="https://link.amazon/B0dm3ZlGe" target="_blank"><img src="/buy/images_zigbee/thirdreality_zigbee_smart_plug.jpg" alt="Zigbee smart plug with energy monitoring - ThirdReality 15A US outlet" loading="lazy"></a>
+<div class="hp-tile-body"><strong>Zigbee smart plug with real-time energy monitoring, 15A outlet - Third Reality</strong>
+<p>Popular in the US (US plug, 15 A).</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://link.amazon/B0dm3ZlGe" target="_blank">Amazon US</a></p>
+<p class="hp-store-links"><img src="/zigbee/images/zigbee2mqtt.png" alt="Zigbee2MQTT"><a href="https://www.zigbee2mqtt.io/devices/3RSP02028BZ.html" target="_blank">3RSP02028BZ</a></p>
+</div>
+</div>
+
 </div>
 
 ## Related articles
@@ -59,9 +70,9 @@ It took me a while to find the right smart socket for this purpose, but the ones
 <img src="/projects/images_kitchen_appliances/kitchen_banner.png" alt="Retrofit kitchen appliances to make them smarter" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Retrofit kitchen appliances to make them smarter</strong><p>Retrofit kitchen appliances to make them smarter by adding out-of-the-box sensors to it.</p></div>
 </a>
-<a class="hp-card hp-tile" href="/esphome/orcon_mechanic_ventilation">
-<img src="/esphome/orcon_images/wires_connected.jpg" alt="Control an Orcon mechanic ventilation system from Home Assistant" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>Control an Orcon mechanic ventilation system from Home Assistant</strong><p>Control an Orcon mechanic ventilation system from Home Assistant</p></div>
+<a class="hp-card hp-tile" href="/projects/aquarium">
+<img src="/ideas/images/aquarium.jpg" alt="Smart aquarium" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Project</span><strong>Smart Aquarium</strong><p>Make your aquarium smart with Zigbee and Home Assistant: show the water temperature on a graph, get an alarm on a threshold, and switch the lights with a smart socket.</p></div>
 </a>
 <a class="hp-card hp-tile" href="/projects/stretch_display">
 <img src="/projects/images_stretch_display/office_display_next2monitor.jpg" alt="Stretch display" loading="lazy">

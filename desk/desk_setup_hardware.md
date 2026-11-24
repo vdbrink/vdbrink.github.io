@@ -249,6 +249,7 @@ It is built from solid metal, holds up to 20 kg, meets all my requirements, and 
 </div>
 </div>
 <div class="hp-card hp-tile">
+<img class="hp-img-margin" src="images/vivo_monitor_arm.jpg" alt="VIVO Heavy Duty monitor arm" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Alternative</span><strong>Monitor arm - VIVO Heavy Duty for max 49" monitors</strong>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4eqbiKm#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4uNRFBI#ad" target="_blank">Amazon</a></p>
 </div>
@@ -352,10 +353,20 @@ My mouse is a basic wireless model with silent clicks and a scroll wheel.
 It is simple, but it has worked well for years.
 
 <div class="hp-tiles hp-options hp-natural">
+<div class="hp-card hp-tile hp-preferred">
+<span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
+<a href="https://amzn.to/4fIo4U8#ad" target="_blank"><img class="hp-img-margin" src="images/logitech_mx_master.jpg" alt="Logitech MX Master 4 mouse" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 4</strong>
+<p>A third thumb button, an Actions Ring for shortcuts and haptic feedback.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4fIo4U8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fwGmJo#ad" target="_blank">Amazon</a></p>
+</div>
+</div>
+
 <div class="hp-card hp-tile hp-tile-stretch hp-preferred">
 <span class="hp-pick" tabindex="0" role="img" aria-label="I use this myself." data-tip="I use this myself.">&#10003;</span>
 <img src="images/mouse.avif" alt="Basic soft-click mouse" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Silent wireless mouse</strong>
+<p>My old daily driver for years.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_c4SRZDZB" target="_blank">AliExpress</a></p>
 </div>
 </div>
@@ -493,26 +504,24 @@ There are many good chair brands, which makes choosing difficult. These two are 
 </div>
 
 ---
-### Mouse
+### Apple keyboard
 
-When I replace my mouse, it will be a Logitech MX Master 3S or 4 because of the grip, buttons, and scroll features.
+I'm looking at the Apple Magic Keyboard with Touch ID.\
+For it's Touch ID and similar keyboard like the MacBook keyboard.\
+I wish a full black one exists, but I probably will pimp this white one with stickers to convert it to a black or walnut look.
+Do you have experience with pimp you Apple Magic keyboard, let me know.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile">
-<a href="https://amzn.to/44L0iSl#ad" target="_blank"><img src="images/logitech_mx_master_3s.jpg" alt="Logitech MX Master 3S mouse" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 3S</strong>
-<p>Grip, buttons and scroll features.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/44L0iSl#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4oe81RM#ad" target="_blank">Amazon</a></p>
-</div>
-</div>
-<div class="hp-card hp-tile">
-<a href="https://amzn.to/4fIo4U8#ad" target="_blank"><img src="images/logitech_mx_master.jpg" alt="Logitech MX Master 4 mouse" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Mouse</span><strong>Logitech MX Master 4</strong>
-<p>Better than the 3S: a third thumb button, an Actions Ring for shortcuts and haptic feedback.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://amzn.to/4fIo4U8#ad" target="_blank">Amazon US</a> | <a href="https://amzn.to/4fwGmJo#ad" target="_blank">Amazon</a></p>
+<a href="https://link.amazon/B01lTM3Qi#ad" target="_blank"><img src="images/apple_keyboard.jpg" alt="Apple Magic Keyboard with Touch ID" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Keyboard</span><strong>Apple Magic Keyboard with Touch ID</strong>
+<p>Touch ID unlock and payments, compact layout.</p>
+<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a href="https://link.amazon/B01lTM3Qi#ad" target="_blank">Amazon</a></p>
 </div>
 </div>
 </div>
+
+
 
 ---
 ### E-ink frame
