@@ -380,11 +380,6 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 ## Home Assistant
 
-<i>Click to see a video of this dashboard in action.</i>\
-<a href="https://www.facebook.com/reel/841128491664565">
-<img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
-</a>
-
 Because all lights are now connected via a Zigbee smart socket or Zigbee smart USB adapter, 
 I can control everything also from Home Assistant.
 
@@ -428,7 +423,6 @@ It's more than you can think of, like:
 * Fun, activate a dancing Santa when somewhen enters your door;
 
 <br>
-<br>
   
 These advantages must be enough excuses to automate these decorations. I even convinced myself again!
 
@@ -446,9 +440,6 @@ Before I automated it, there were a lot of manual actions I had to deal with.
 
 I, as a home automation geek, was (the previous year) looking for solutions and found them for all my decorations and lights!
 Read along how I did that.
-
-<details markdown="1">
-  <summary><b>> Click here to read the situation before I automated it >></b></summary>
 
 For example, my biggest **Christmas tree** lights have two light strings, and each has a power socket with a button which controls seven different flash modes. 
 Each time you press the button, it switches from mode. 
@@ -476,7 +467,6 @@ Plug them into good old-fashioned timers, everybody had already automated this i
 
 Two decades later, we can use "smarter" solutions. 
 For example, control them more dynamically based on the daylight level or motion and occupancy detection.
-</details>
 
 ---
 
