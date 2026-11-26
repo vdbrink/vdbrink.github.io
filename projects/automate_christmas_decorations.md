@@ -36,39 +36,6 @@ I control them now all with a few simple building blocks:
 
 <br>
 
-<i>Click to see a video of this dashboard in action.</i>\
-<a href="https://www.facebook.com/reel/841128491664565">
-<img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
-</a>
-
-On this page, you can read how I did this to enjoy the Christmas season even more in a more relaxed way!
-
-
-<div class="hp-tiles hp-options hp-quad">
-<div class="hp-card hp-tile hp-stretch">
-<a href="#battery-powered-decorations"><img src="/projects/images_christmas_decorations/battery_to_usb.jpg" alt="Battery to USB" loading="lazy"></a>
-<div class="hp-tile-body"><strong>Convert battery powered devices to main power</strong>
-<p>Battery powered decorations on a USB adapter or socket.</p></div>
-</div>
-<div class="hp-card hp-tile hp-stretch">
-<a href="#infrared-lights"><img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="Tea lights with infrared remote" loading="lazy"></a>
-<div class="hp-tile-body"><strong>Automate infrared LEDs, candles and tea lights</strong>
-<p>Control infrared decorations with a programmable remote.</p></div>
-</div>
-<div class="hp-card hp-tile hp-stretch">
-<a href="#christmas-tree-lights"><img src="/projects/images_christmas_decorations/tree_light_plug_no_button.avif" alt="Christmas light string plug" loading="lazy"></a>
-<div class="hp-tile-body"><strong>Automate Christmas tree lights</strong>
-<p>No activate button anymore.</p></div>
-</div>
-<div class="hp-card hp-tile hp-stretch">
-<a href="#decorations-powered-with-a-power-plug"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Zigbee smart socket" loading="lazy"></a>
-<div class="hp-tile-body"><strong>Automate decorations powered with a power plug</strong>
-<p>Switch mains powered decorations with a smart socket.</p></div>
-</div>
-</div>
-
-<br>
-
 > **_TIP:_** I used here Christmas as my example project, but these tips can be used for any kind of (battery/plug/outside) powered projects like Halloween automations.
 
 > **_NOTE:_** Also affiliate links are used on this page.
@@ -79,112 +46,25 @@ On this page, you can read how I did this to enjoy the Christmas season even mor
 <img src="images_christmas_decorations/door_deco_lights2.jpg" alt="Christmas door light" height="180px" style="margin-left:15px;float:right" /></a>
 
 <!-- TOC -->
-  * [Advantages](#advantages)
-  * [My old situation](#my-old-situation)
-  * [My smart hardware solutions](#my-smart-hardware-solutions)
-    * [Battery powered decorations: dummy batteries (AA, AAA)](#battery-powered-decorations)
-        * [Example 1: battery-to-USB + smart USB adapter/switch + 5V-adapter](#example-1)
-        * [Example 2: battery-to-plug + smart socket](#example-2)
-        * [Example 3: battery-to-USB + USB hub + smart socket](#example-3)
-    * [Infrared lights](#infrared-lights)
-    * [Automate Christmas tree lights](#christmas-tree-lights)
-    * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
-    * [Outdoor lights](#outdoor-lights)
-  * [Home Assistant](#home-assistant)
-  * [Automations](#automations)
-  * [FAQ](#faq)
-  * [Do you have other solutions?](#do-you-have-other-solutions)
-  * [Related articles](#related-articles)
+    * [My smart hardware solutions](#my-smart-hardware-solutions)
+        * [Battery powered decorations: dummy batteries (AA, AAA) {#battery-powered-decorations}](#battery-powered-decorations-dummy-batteries-aa-aaa-battery-powered-decorations)
+        * [Infrared lights](#infrared-lights)
+        * [Automate Christmas tree lights with a smart socket {#christmas-tree-lights}](#automate-christmas-tree-lights-with-a-smart-socket-christmas-tree-lights)
+        * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
+        * [Outdoor lights](#outdoor-lights)
+    * [Home Assistant](#home-assistant)
+    * [Advantages](#advantages)
+    * [My old situation](#my-old-situation)
+    * [Automations](#automations)
+    * [FAQ](#faq)
 <!-- TOC -->
-
----
-## Advantages
-
-<a href="images_christmas_decorations/ani_snow_globe.gif">
-<img src="images_christmas_decorations/ani_snow_globe.gif" alt="snow globe" width="100px" style="margin-left:15px;float:right" />
-</a>
-
-There are a lot of advantages to automate all the lights and electric decorations. 
-It's not only about turning them on and off.
-It's more than you can think of, like:
-* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again; [Node-RED automation](#activate-a-light-on-motion-detection)
-    * _No use of batteries, no useless power usage, more time for other things, more comfort_
-    * _Only downside: No morning gymnastics to switch all the buttons in each corner_
-* Come downstairs, and all the cozy lights are (just) on; [Node-RED automation](#activate-a-light-on-motion-detection) [Home Assistant controls](#home-assistant)
-    * _More joy, quicker to the coffee!_
-* Outside lights only on when it becomes dark; [Node-RED automation](#activate-a-socket-based-on-outside-lux)
-    * _On a sunny day it doesn't make sense to put all outside lights on_
-* Activate something (like playing Christmas music, or a dancing Santa) when someone shows up at your doorstep; [Node-RED automation](#activate-a-socket-based-on-someone-entering-the-house)
-    * _A smile on their face_     
-* No lights on when there is nobody around for a while; [Node-RED automation](#disable-a-socket-after-a-period-of-inactivity)
-    * _No useless power usage, which saves money_
-* No power cables to the paper Christmas stars;
-  * _Freedom to place paper Christmas stars everywhere_
-* Spend more time in bed and sleep like a baby; <a href="images_christmas_decorations/outside_tree_light.jpg"><img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
-    * _More rest, more energy, less coffee_
-* Fellow house members have no one to blame when the cozy lights are off because you were in a hurry to go to work;
-    * _More harmony, for a better Christmas spirit_
-* Less energy consumption, no batteries that need to be replaced which saves money. You still need to buy once the hardware to automate it, but in the end it pays for itself very fast;
-    * _Save money to spend on Christmas presents or extra [home automation hardware](/buy/smart_home_best_buy_tips)_
-* Fun, activate a dancing Santa when somewhen enters your door;
-
-<br>
-<br>
-  
-These advantages must be enough excuses to automate these decorations. I even convinced myself again!
-
-Home Alone with a smart home is like (click to play):\
-[![Home Alone with a smart home](https://img.youtube.com/vi/-lfHXKbsMLE/0.jpg)](https://www.youtube.com/watch?v=-lfHXKbsMLE "Home Alone with a smart home")
-
----
-## My old situation
-
-<a href="images_christmas_decorations/tree_light_plug_button.jpg">
-<img src="images_christmas_decorations/tree_light_plug_button.jpg" alt="Christmas light plug" width="100px" style="margin-left:15px;float:right" />
-</a>
-
-Before I automated it, there were a lot of manual actions I had to deal with.
-
-I, as a home automation geek, was (the previous year) looking for solutions and found them for all my decorations and lights!
-Read along how I did that.
-
-<details markdown="1">
-  <summary><b>> Click here to read the situation before I automated it >></b></summary>
-
-For example, my biggest **Christmas tree** lights have two light strings, and each has a power socket with a button which controls seven different flash modes. 
-Each time you press the button, it switches from mode. 
-And the normal required non-disco mode is the last mode! So I had to press every day that button seven times. 
-And that for two strings of light. For only one tree.
-Those sockets are also out of sight under the tree, so you need to dive under the tree to reach them.
-And when you press one time too many, you can start all over again! Aargh!
-
-<a href="images_christmas_decorations/dummy_battery_example.jpg">
-<img src="images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas light on battery" width="100px" style="margin-left:15px;float:right" />
-</a>
-
-We also have a lot of **battery powered** decorations.
-I could use rechargeable batteries, but then I still have to turn all the decorations on and off manually every day to enjoy it.
-As a result, during the season they are only a few times on. And if you forgot one, it ends up with empty batteries after Santa was singing and dancing all night long.
-
-Some of mine **Christmas paper stars** have a normal bulb and are powered via the main power. 
-This limits the places where to place them, they need to be close to a wall socket and preferably hide the cable behind some curtains or a closet to make it look nice. 
-Other stars are battery powered but the button to turn them on is inside the star itself. Not easy to reach when it hangs on the ceiling!
-
-The **plug powered lights** are easy to automate. 
-Plug them into good old-fashioned timers, everybody had already automated this in the previous century like in Home Alone! Every day at exactly the same time.
-
-<img src="images_christmas_decorations/home_alone_automatic_timers.gif" alt="Home Alone automatic timers" width="450px" />
-
-Two decades later, we can use "smarter" solutions. 
-For example, control them more dynamically based on the daylight level or motion and occupancy detection.
-</details>
 
 ---
 
 ## My smart hardware solutions
 
 As mentioned, I have multiple types of Christmas decorations.\
-Which results at the end in five different types of power types to automate:
+Which results at the end in these five different types of power types to automate:
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile hp-stretch">
@@ -500,6 +380,11 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 
 ## Home Assistant
 
+<i>Click to see a video of this dashboard in action.</i>\
+<a href="https://www.facebook.com/reel/841128491664565">
+<img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
+</a>
+
 Because all lights are now connected via a Zigbee smart socket or Zigbee smart USB adapter, 
 I can control everything also from Home Assistant.
 
@@ -510,6 +395,88 @@ Normally everything works by automations, but it can also be controlled from my 
 <a href="https://www.facebook.com/reel/841128491664565">
 <img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
 </a>
+
+---
+## Advantages
+
+<a href="images_christmas_decorations/ani_snow_globe.gif">
+<img src="images_christmas_decorations/ani_snow_globe.gif" alt="snow globe" width="100px" style="margin-left:15px;float:right" />
+</a>
+
+There are a lot of advantages to automate all the lights and electric decorations. 
+It's not only about turning them on and off.
+It's more than you can think of, like:
+* Don't start every day turning on all the (battery powered) decorations one-by-one manually and at the end of the day turning them off again; [Node-RED automation](#activate-a-light-on-motion-detection)
+    * _No use of batteries, no useless power usage, more time for other things, more comfort_
+    * _Only downside: No morning gymnastics to switch all the buttons in each corner_
+* Come downstairs, and all the cozy lights are (just) on; [Node-RED automation](#activate-a-light-on-motion-detection) [Home Assistant controls](#home-assistant)
+    * _More joy, quicker to the coffee!_
+* Outside lights only on when it becomes dark; [Node-RED automation](#activate-a-socket-based-on-outside-lux)
+    * _On a sunny day it doesn't make sense to put all outside lights on_
+* Activate something (like playing Christmas music, or a dancing Santa) when someone shows up at your doorstep; [Node-RED automation](#activate-a-socket-based-on-someone-entering-the-house)
+    * _A smile on their face_     
+* No lights on when there is nobody around for a while; [Node-RED automation](#disable-a-socket-after-a-period-of-inactivity)
+    * _No useless power usage, which saves money_
+* No power cables to the paper Christmas stars;
+  * _Freedom to place paper Christmas stars everywhere_
+* Spend more time in bed and sleep like a baby; <a href="images_christmas_decorations/outside_tree_light.jpg"><img src="images_christmas_decorations/outside_tree_light.jpg" alt="outside tree lights" width="100px" style="margin-left:15px;float:right" /></a>
+    * _More rest, more energy, less coffee_
+* Fellow house members have no one to blame when the cozy lights are off because you were in a hurry to go to work;
+    * _More harmony, for a better Christmas spirit_
+* Less energy consumption, no batteries that need to be replaced which saves money. You still need to buy once the hardware to automate it, but in the end it pays for itself very fast;
+    * _Save money to spend on Christmas presents or extra [home automation hardware](/buy/smart_home_best_buy_tips)_
+* Fun, activate a dancing Santa when somewhen enters your door;
+
+<br>
+<br>
+  
+These advantages must be enough excuses to automate these decorations. I even convinced myself again!
+
+Home Alone with a smart home is like (click to play):\
+[![Home Alone with a smart home](https://img.youtube.com/vi/-lfHXKbsMLE/0.jpg)](https://www.youtube.com/watch?v=-lfHXKbsMLE "Home Alone with a smart home")
+
+---
+## My old situation
+
+<a href="images_christmas_decorations/tree_light_plug_button.jpg">
+<img src="images_christmas_decorations/tree_light_plug_button.jpg" alt="Christmas light plug" width="100px" style="margin-left:15px;float:right" />
+</a>
+
+Before I automated it, there were a lot of manual actions I had to deal with.
+
+I, as a home automation geek, was (the previous year) looking for solutions and found them for all my decorations and lights!
+Read along how I did that.
+
+<details markdown="1">
+  <summary><b>> Click here to read the situation before I automated it >></b></summary>
+
+For example, my biggest **Christmas tree** lights have two light strings, and each has a power socket with a button which controls seven different flash modes. 
+Each time you press the button, it switches from mode. 
+And the normal required non-disco mode is the last mode! So I had to press every day that button seven times. 
+And that for two strings of light. For only one tree.
+Those sockets are also out of sight under the tree, so you need to dive under the tree to reach them.
+And when you press one time too many, you can start all over again! Aargh!
+
+<a href="images_christmas_decorations/dummy_battery_example.jpg">
+<img src="images_christmas_decorations/dummy_battery_example.jpg" alt="Christmas light on battery" width="100px" style="margin-left:15px;float:right" />
+</a>
+
+We also have a lot of **battery powered** decorations.
+I could use rechargeable batteries, but then I still have to turn all the decorations on and off manually every day to enjoy it.
+As a result, during the season they are only a few times on. And if you forgot one, it ends up with empty batteries after Santa was singing and dancing all night long.
+
+Some of mine **Christmas paper stars** have a normal bulb and are powered via the main power. 
+This limits the places where to place them, they need to be close to a wall socket and preferably hide the cable behind some curtains or a closet to make it look nice. 
+Other stars are battery powered but the button to turn them on is inside the star itself. Not easy to reach when it hangs on the ceiling!
+
+The **plug powered lights** are easy to automate. 
+Plug them into good old-fashioned timers, everybody had already automated this in the previous century like in Home Alone! Every day at exactly the same time.
+
+<img src="images_christmas_decorations/home_alone_automatic_timers.gif" alt="Home Alone automatic timers" width="450px" />
+
+Two decades later, we can use "smarter" solutions. 
+For example, control them more dynamically based on the daylight level or motion and occupancy detection.
+</details>
 
 ---
 
