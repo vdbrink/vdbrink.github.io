@@ -45,9 +45,9 @@ I control them now all with a few simple building blocks:
 
 <!-- TOC -->
 * [My smart hardware solutions](#my-smart-hardware-solutions)
-    * [Battery powered: dummy batteries (AA, AAA)](#battery-powered-decorations-dummy-batteries-aa-aaa-battery-powered-decorations)
+    * [Battery powered: dummy batteries (AA, AAA)](#battery-powered-decorations)
     * [Infrared (IR) lights](#infrared-lights)
-    * [Christmas tree lights with a smart socket](#automate-christmas-tree-lights-with-a-smart-socket-christmas-tree-lights)
+    * [Christmas tree lights with a smart socket](#automate-christmas-tree-lights)
     * [Powered with a power plug](#decorations-powered-with-a-power-plug)
     * [Outdoor lights](#outdoor-lights)
 * [Home Assistant](#home-assistant)
