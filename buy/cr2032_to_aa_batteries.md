@@ -57,7 +57,7 @@ but when you use it for already hidden (temperature/contact/..) [sensors](/buy/s
 ### To create this
 
 You need these **three items**, plug them together, and you're done:
-* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(Amazon US)](https://amzn.to/4hDezp1#ad)
+* [A dummy CR2032 to USB adapter (AliExpress)](https://s.click.aliexpress.com/e/_DDUCKpH) [(AliExpress)](https://s.click.aliexpress.com/e/_on2WVlO) or [(Amazon US)](https://link.amazon/B0hp2vAWQ#ad)
 
   <a href="https://s.click.aliexpress.com/e/_DDUCKpH" target="_blank">
   <img src="/buy/images_batteries/cr2032_to_usb.webp" alt="CR2032 to USB" height="150px" />
@@ -69,11 +69,11 @@ You need these **three items**, plug them together, and you're done:
   <a href="https://s.click.aliexpress.com/e/_c4Evv559" target="_blank">
   <img src="/buy/images_batteries/aa_case.avif" alt="2x AA battery case" height="150px" />
   </a>
-* [(At least) two (Eneloop) AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_ooEc2QU) 
+* [(At least) two (Eneloop) AA batteries (AliExpress)](https://s.click.aliexpress.com/e/_c4tAd21T) 
 [(AliExpress)](https://s.click.aliexpress.com/e/_op4UGsC) or 
 [(Amazon US)](https://amzn.to/42ZC6fb#ad)
 
-  <a href="https://s.click.aliexpress.com/e/_ooEc2QU" target="_blank">
+  <a href="https://s.click.aliexpress.com/e/_c4tAd21T" target="_blank">
   <img src="/buy/images_batteries/eneloop2.avif" alt="Eneloop AA batteries" height="150px" />
   </a>
 

@@ -543,20 +543,25 @@ If you have any questions or comments, please post them below my social media po
 ## Related articles
 
 <div class="hp-tiles hp-options hp-full">
+
+<a class="hp-card hp-tile" href="/buy/cr2032_to_aa_batteries">
+<img src="/buy/images_batteries/cr2032_to_aa_banner.jpg" alt="CR2032 to AA batteries adapter" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">CR2032 to USB</span><strong>CR2032 coin cell to two AA batteries adapter</strong><p>Replace a CR2032 coin cell with two AA batteries for a much longer life span.</p><span class="hp-more">Read the article &rarr;</span></div>
+</a>
+
+<a class="hp-card hp-tile" href="/zigbee/smart_infrared_transmitter_receiver">
+<img src="/zigbee/images_infrared/hema_ir_tealights.webp" alt="HEMA infrared remote controlled tea lights" loading="lazy">
+<div class="hp-tile-body"><span class="hp-chip">Infrared controlled devices</span><strong>Automate infrared (IR) devices in Home Assistant</strong><p>Control IR tea lights and other devices with a Zigbee infrared transmitter.</p><span class="hp-more">Read the article &rarr;</span></div>
+</a>
+
 <a class="hp-card hp-tile" href="/projects/index">
 <img src="/projects/images_allux-600/sticker_package_box.jpg" alt="Smart home projects" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Projects</span><strong>Smart home projects and DIY builds</strong><p>More bigger projects I have done, like the smart mailbox.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
+
 <a class="hp-card hp-tile" href="/homeassistant/index">
 <img src="/homeassistant/images/ha_banner.png" alt="Home Assistant dashboard examples" loading="lazy">
 <div class="hp-tile-body"><span class="hp-chip">Home Assistant</span><strong>Home Assistant dashboard examples</strong><p>Dashboard examples with copy-paste code.</p><span class="hp-more">Read the article &rarr;</span></div>
 </a>
-<a class="hp-card hp-tile" href="/esphome/index">
-<img src="/esphome/images/esphome.png" alt="ESPHome" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">ESPHome</span><strong>ESPHome custom sensors and actuators</strong><p>Create your own custom home automation sensors and actuators.</p><span class="hp-more">Read the article &rarr;</span></div>
-</a>
-<a class="hp-card hp-tile" href="/">
-<img src="/images/banner.jpg" alt="vd Brink Home Automations" loading="lazy">
-<div class="hp-tile-body"><span class="hp-chip">Home</span><strong>Main page</strong><p>All my smart home automation guides and projects.</p><span class="hp-more">Go to the main page &rarr;</span></div>
-</a>
+
 </div>
