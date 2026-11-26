@@ -243,8 +243,8 @@ This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_usb_adapter_switch" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V EU USB power adapter" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V EU USB power adapter</strong>
+<a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB power adapter</strong>
 <p>To power the USB battery eliminators or the USB adapter.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
 </div>
@@ -260,7 +260,8 @@ This original battery-powered garland is now powered via the main power and cont
 
 This battery-powered light string is now powered via the main power and controlled automatically.
 
-<a href="images_christmas_decorations/christmas_lights.jpg"><img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string"></a>
+<a href="images_christmas_decorations/christmas_lights.jpg">
+<img src="images_christmas_decorations/christmas_lights.jpg" alt="Christmas light balls string" height="450px"></a>
 
 <p id="example-2"><span class="hp-chip">Example 2</span> <strong>battery-to-plug + smart socket</strong></p>
 
@@ -277,15 +278,20 @@ Place the dummy batteries in the original battery case and connect the power ada
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
-<p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
+<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
 
-<a href="images_christmas_decorations/lights_in_a_bottle.jpg"><img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights"></a>
-<a href="images_christmas_decorations/battery_powered_deco.jpg"><img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration"></a>
+<br>
+
+<a href="images_christmas_decorations/lights_in_a_bottle.jpg">
+<img src="images_christmas_decorations/lights_in_a_bottle.jpg" alt="bottle with lights" height="450px"></a>
+
+<a href="images_christmas_decorations/battery_powered_deco.jpg">
+<img src="images_christmas_decorations/battery_powered_deco.jpg" alt="battery powered decoration"></a>
 
 <p id="example-3"><span class="hp-chip">Example 3</span> <strong>battery-to-USB + USB hub + smart socket</strong></p>
 
@@ -300,9 +306,9 @@ This hub can be powered with a smart socket to control all the connected devices
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">AliExpress</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
-<p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
+<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
@@ -324,15 +330,15 @@ It really depends on how many devices you want to control at once and how close 
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V EU USB power adapter" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V EU USB power adapter</strong>
+<a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB power adapter</strong>
 <p>To power the USB battery eliminators or the USB adapter.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
-<p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
+<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
@@ -360,7 +366,9 @@ Before, I had Christmas paper stars that contain a regular light bulb.
 This reduces the positions where I could place them, 
 they must be in reach of a power socket and somewhere where I could keep the power cable out of sight, guide them behind a curtain or so.
 
-  <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px"/>
+  <img src="images_christmas_decorations/paper_star.webp" alt="paper stars" width="300px" style="float:left"/>
+&nbsp;
+  <img src="/projects/images_christmas_decorations/tea_lights_with_ir_remote.avif" alt="IR tea light" width="300px"/>
 
 I solved this by using battery powered LED lights, which are controllable via an infrared remote. 
 I used a Zigbee programmable infrared receiver and transmitter which can learn from the original remote.\
@@ -379,7 +387,7 @@ I can control the lights via the original remote and also from my Home Assistant
 
 #### The programmable infrared remote
 
-I used the Zigbee [Moes UFO-R11](https://www.zigbee2mqtt.io/devices/UFO-R11.html){{imgZ2M}} (there are also [WiFi models](../buy/zigbee_infrared_remote)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
+I used the [Zigbee Moes UFO-R11](/buy/zigbee_infrared_remote) (there are also [WiFi models](../buy/zigbee_infrared_remote)) a battery powered (wireless) programmable infrared receiver and transmitter to replace the original LED light remote. 
 This device can store multiple different signals.
 Also, the original remote can be used to control them!
 
@@ -457,9 +465,9 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 </div>
 
 <div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="EU smart power socket" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>EU smart power socket</strong>
-<p>I use the Zigbee BlitzWolf EU SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
+<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
+<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 
@@ -483,7 +491,7 @@ Plug them into a smart socket and control the socket with an automation, a sched
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
-<p>I use the Zigbee BlitzWolf EU SHP-15, or look for a smart socket that fits your country.</p>
+<p>I use the Zigbee BlitzWolf SHP-15, or look for a smart socket that fits your country.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
@@ -511,7 +519,7 @@ If you have a suggestion for a Zigbee outdoor socket, please let me know!
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="https://amzn.to/40SVJoc#ad" target="_blank"><img src="/buy/images_zigbee/outdoor_socket_A4Z.jpg" alt="Nous Zigbee dual port outdoor socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Outdoor socket</span><strong>Nous Zigbee dual port outdoor socket</strong>
-<p>An outdoor Zigbee EU power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.</p>
+<p>An outdoor Zigbee power socket with two ports, where each socket can be controlled individually, and it has power consumption measurements.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://amzn.to/40SVJoc#ad" target="_blank">Amazon</a></p></div>
 </div>
 <div class="hp-card hp-tile hp-tile-stretch">
