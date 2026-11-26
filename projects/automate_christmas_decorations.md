@@ -42,8 +42,6 @@ I control them now all with a few simple building blocks:
 
 ---
 ## Table of Contents
-<a href="images_christmas_decorations/door_deco_lights2.jpg">
-<img src="images_christmas_decorations/door_deco_lights2.jpg" alt="Christmas door light" height="180px" style="margin-left:15px;float:right" /></a>
 
 <!-- TOC -->
 * [My smart hardware solutions](#my-smart-hardware-solutions)
@@ -103,20 +101,20 @@ In the next chapters I'll describe how I automated each type.
 
 There are multiple smart hardware device combinations possible to change battery powered decorations, so you don't need any battery at all anymore!
 
-For decorations that run on a CR2032 coin cell, see the [CR2032 USB battery replacements](/buy/batteries#cr2032-usb-battery-replacements).
+For decorations that run on a CR2032 coin cell, see the [CR2032 USB battery replacements](/buy/batteries#cr2032-usb-battery-replacements) to convert these battery-powered devices to a wall powered device.
 
-Here are some examples of how to accomplish this:
+Here are some other examples of how to accomplish this:
 
-<p id="example-1"><span class="hp-chip">Example 1</span> <strong>battery-to-USB + smart USB adapter/switch + 5V-adapter</strong></p>
+<p id="example-1"><span class="hp-chip">Example 1</span> <strong>AA or AAA battery-to-USB + smart USB adapter/switch + 5V-adapter</strong></p>
 
 An example of a battery powered light is a garland with lights above the door.\
-I automated it with a battery-to-usb set (a.k.a. battery eliminator/replacement), a smart usb adapter/switch and a 5V-adapter.
-This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each port can be activated individually.
+I automated it with a battery-to-usb set (a.k.a. battery eliminator), a smart usb adapter/switch and a 5V-adapter.
+This smart USB-adapter can be remote controlled and each port can be activated individually.
 
 <div class="hp-tiles hp-options">
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/batteries#battery-eliminators" target="_blank"><img src="/projects/images_christmas_decorations/battery_eliminator.webp" alt="Battery to USB (battery eliminator)" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Battery</span><strong>Battery to USB (battery eliminator)</strong>
+<div class="hp-tile-body"><span class="hp-chip">Battery to USB</span><strong>Battery eliminator</strong>
 <p>Available for AA and AAA batteries and with multiple "dummy" batteries. Those extra dummy batteries are only needed to make contact between the ends of the battery holder.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
 </div>
@@ -129,7 +127,7 @@ This smart (Zigbee or WiFi) USB-adapter/switch can be remote controlled and each
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB power adapter</strong>
-<p>To power the USB battery eliminators or the USB adapter.</p>
+<p>To power the USB adapter.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
@@ -164,7 +162,7 @@ Place the dummy batteries in the original battery case and connect the power ada
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
-<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<p>Use a smart socket to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
@@ -192,7 +190,7 @@ This hub can be powered with a smart socket to control all the connected devices
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
-<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<p>Use a smart socket to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 </div>
@@ -313,7 +311,7 @@ My Christmas tree has a specific EU outlet plug with the output of 31V and 3.6W.
 <div class="hp-card hp-tile hp-tile-stretch">
 <a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
 <div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
-<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
+<p>Use a smart socket to automate the devices.</p>
 <p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
 </div>
 
