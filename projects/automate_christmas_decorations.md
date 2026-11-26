@@ -34,6 +34,8 @@ I control them now all with a few simple building blocks:
 * **Node-RED** to automate them all based on time, daylight and presence.
 * **Home Assistant** to control them manually via my phone or dashboard.
 
+<br>
+
 <i>Click to see a video of this dashboard in action.</i>\
 <a href="https://www.facebook.com/reel/841128491664565">
 <img src="images_christmas_decorations/screenshot_ha_control_christmas.jpg" alt="control deco via Home Assistant dashboard" width="200px" />
@@ -124,12 +126,14 @@ It's more than you can think of, like:
     * _More harmony, for a better Christmas spirit_
 * Less energy consumption, no batteries that need to be replaced which saves money. You still need to buy once the hardware to automate it, but in the end it pays for itself very fast;
     * _Save money to spend on Christmas presents or extra [home automation hardware](/buy/smart_home_best_buy_tips)_
+* Fun, activate a dancing Santa when somewhen enters your door;
+
+<br>
 <br>
   
 These advantages must be enough excuses to automate these decorations. I even convinced myself again!
 
-Home Alone with a smart home is like:
-
+Home Alone with a smart home is like (click to play):\
 [![Home Alone with a smart home](https://img.youtube.com/vi/-lfHXKbsMLE/0.jpg)](https://www.youtube.com/watch?v=-lfHXKbsMLE "Home Alone with a smart home")
 
 ---
@@ -316,44 +320,6 @@ This hub can be powered with a smart socket to control all the connected devices
 <br>
 
 <a href="images_christmas_decorations/battery_powered_decorations.jpg"><img src="images_christmas_decorations/battery_powered_decorations.jpg" alt="battery powered deco with USB hub"></a>
-
-#### Hardware suggestions
-
-As you could read, there are multiple combinations possible to control battery powered devices.\
-It really depends on how many devices you want to control at once and how close they are to each other, to find the best combination for your case.
-
-<div class="hp-tiles hp-options">
-<div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/batteries#battery-eliminators" target="_blank"><img src="/projects/images_christmas_decorations/battery_eliminator.webp" alt="Battery to USB (battery eliminator)" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Battery</span><strong>Battery to USB (battery eliminator)</strong>
-<p>Available for AA and AAA batteries and with multiple "dummy" batteries. Those extra dummy batteries are only needed to make contact between the ends of the battery holder. You can also use an electronic wire to connect the ends.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/batteries#battery-eliminators" target="_blank">Buy tips</a></p></div>
-</div>
-<div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/smart_home_power" target="_blank"><img src="/esphome/images/5v_power_adapter.jpg" alt="5V USB power adapter" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Power</span><strong>5V USB power adapter</strong>
-<p>To power the USB battery eliminators or the USB adapter.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/smart_home_power" target="_blank">Buy tips</a></p></div>
-</div>
-<div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/zigbee_smart_socket" target="_blank"><img src="/projects/images_christmas_decorations/blitzwolf_shp-15_zigbee_socket.jpg" alt="Smart power socket" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Socket</span><strong>Smart power socket</strong>
-<p>I use the Zigbee BlitzWolf SHP-15, or any other WiFi / Zigbee socket for your country, to automate the devices.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_smart_socket" target="_blank">Buy tips</a></p></div>
-</div>
-<div class="hp-card hp-tile hp-tile-stretch">
-<a href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank"><img src="/buy/images_diy/usbhub.webp" alt="Active USB hub" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">USB</span><strong>Active USB hub</strong>
-<p>To power multiple USB battery eliminators at once. In combination with the socket, you can automate them.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="https://s.click.aliexpress.com/e/_DlR7tt5" target="_blank">AliExpress</a></p></div>
-</div>
-<div class="hp-card hp-tile hp-tile-stretch">
-<a href="../buy/zigbee_usb_adapter_switch" target="_blank"><img src="/zigbee/images_usb_switch/zigbee_usb_switch_three_ports.png" alt="Zigbee USB adapter" loading="lazy"></a>
-<div class="hp-tile-body"><span class="hp-chip">Zigbee</span><strong>Zigbee USB adapter</strong>
-<p>To control and power a maximum of 3 USB devices individually. You can choose an adapter with 1, 2 or 3 ports.</p>
-<p class="hp-store-links"><img src="/buy/images/basket.png" alt=""><a class="hp-stretch-link" href="../buy/zigbee_usb_adapter_switch" target="_blank">Buy tips</a></p></div>
-</div>
-</div>
 
 ---
 
