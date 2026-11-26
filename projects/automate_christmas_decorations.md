@@ -46,17 +46,17 @@ I control them now all with a few simple building blocks:
 <img src="images_christmas_decorations/door_deco_lights2.jpg" alt="Christmas door light" height="180px" style="margin-left:15px;float:right" /></a>
 
 <!-- TOC -->
-    * [My smart hardware solutions](#my-smart-hardware-solutions)
-        * [Battery powered decorations: dummy batteries (AA, AAA) {#battery-powered-decorations}](#battery-powered-decorations-dummy-batteries-aa-aaa-battery-powered-decorations)
-        * [Infrared lights](#infrared-lights)
-        * [Automate Christmas tree lights with a smart socket {#christmas-tree-lights}](#automate-christmas-tree-lights-with-a-smart-socket-christmas-tree-lights)
-        * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
-        * [Outdoor lights](#outdoor-lights)
-    * [Home Assistant](#home-assistant)
-    * [Advantages](#advantages)
-    * [My old situation](#my-old-situation)
-    * [Automations](#automations)
-    * [FAQ](#faq)
+* [My smart hardware solutions](#my-smart-hardware-solutions)
+    * [Battery powered decorations: dummy batteries (AA, AAA) {#battery-powered-decorations}](#battery-powered-decorations-dummy-batteries-aa-aaa-battery-powered-decorations)
+    * [Infrared lights](#infrared-lights)
+    * [Automate Christmas tree lights with a smart socket {#christmas-tree-lights}](#automate-christmas-tree-lights-with-a-smart-socket-christmas-tree-lights)
+    * [Decorations powered with a power plug](#decorations-powered-with-a-power-plug)
+    * [Outdoor lights](#outdoor-lights)
+* [Home Assistant](#home-assistant)
+* [Advantages](#advantages)
+* [My old situation](#my-old-situation)
+* [Automations](#automations)
+* [FAQ](#faq)
 <!-- TOC -->
 
 ---
